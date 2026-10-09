@@ -1,0 +1,81 @@
+{
+  "status": "BOUNDED_THEOREM_AND_PREDECESSOR_REVIEW_NO_MEASUREMENT",
+  "date_utc": "2026-10-06",
+  "task_started_utc": "2026-10-06T08:53:47Z",
+  "ownership": "Root-proposed family, independently checked by the bounded producer. Root separately suggested removing literal/reference disjointness from the necessary bound; that refinement is accepted below. No new writer, native reading, count, source encoding or candidate capacity is selected.",
+  "contract": {
+    "units": "One complete source token produces exactly one complete output group. C is a positive finite cache capacity. No hidden subgroups or two-source-word packing are covered.",
+    "literal": "L is one global injective literal map: equal literal output strings imply the same complete source token independently of cache state. All absent source tokens use this literal branch and are immediately stored.",
+    "reference": "Every present source token must be written using the address of one occupied slot containing it. All reference strings belong to one globally fixed set A of size at most C. A slot has one address spelling; no page-specific address alphabets or optional aliases are assumed.",
+    "retention": "The token inserted after a literal miss remains cached until the lookup for the immediately following source token. Replacement of an older entry at that miss is allowed. A reset, expiry or immediate self-eviction between the two lookups is not covered.",
+    "sampling_scope": "Only pairs of consecutive complete output groups within one uninterrupted cache epoch. There is no intervening source token, hidden reset or unprinted command.",
+    "full_reader_not_claimed": "The theorem does not construct the literal alphabet, address code or a mode parser. Those costs and a unique readable mode rule remain necessary for a complete human writer."
+  },
+  "proof": [
+    "Let adjacent output groups both be g. Suppose both occurrences were literal outputs L(u) and L(v).",
+    "Global literal injectivity gives u=v. The first literal miss stores u and the retention premise keeps it present at the next lookup.",
+    "The mandatory-hit rule therefore forbids a second literal output for v=u. This contradicts the supposed literal/literal pair.",
+    "At least one of the two occurrences must consequently be a reference. Its string g belongs to the global address set A.",
+    "Let D be the set of distinct complete strings observed in such immediate doublets. Then D is a subset of A, so |D| <= |A| <= C.",
+    "If literal and address alphabets are disjoint, both occurrences are references. Disjointness is unnecessary for the weaker set-membership/type bound: literal/reference or reference/literal collisions still put g in A."
+  ],
+  "update_and_reset_checks": [
+    "Ordinary FIFO or LRU eviction on a miss does not break the proof if the newly inserted word survives to the next lookup. Hits may reorder, refresh or otherwise change entries; the proof excludes literal/literal before any second hit update occurs.",
+    "A finite cache can evict a word after intervening tokens, so a literal recurrence with a gap is not prohibited. The theorem concerns immediate adjacent groups only.",
+    "Clearing the cache at every token, expiry before the next lookup, deliberately evicting the newly inserted word, or selectively refusing insertion permits repeated literal groups. These violate explicit retention or universal-insertion premises rather than refuting the theorem.",
+    "Public paragraph resets can allow identical literal groups on opposite sides of a reset. Such pairs must be excluded from D. Unknown message boundaries cannot be silently inserted after a countercase.",
+    "A context-dependent literal map can give the same group to different absent words in different states. Per-state injectivity alone is insufficient; global literal injectivity is essential.",
+    "Changing the address spelling with a counter, slot contents, position or paragraph permits more than C reference strings. That is a different address contract.",
+    "If a printed group combines multiple token operations, the one-token proof does not bound its possible composite address strings by C. Similarly, added flags can create multiple strings per slot."
+  ],
+  "meaning_limit": {
+    "claim": "An equal written address string need not retrieve the same source word on both uses when slot contents or ranks move.",
+    "invented_example": "With a move-to-front cache [A,B], writing rank2 retrieves B and changes the cache to [B,A]. Writing rank2 again retrieves A. Two equal address groups can therefore stand for two different successive source words.",
+    "consequence": "No native doubled group is assigned a repetition meaning, a particular word, or a cache slot. The theorem is about possible output strings only."
+  },
+  "conditional_form_consequences": [
+    "Under a subsequently frozen complete address code, every doubled form must have a legal address length and pattern. A global bijective glyph renaming preserves lengths and internal equality patterns; one common renaming must serve every form.",
+    "A bound on C is required before treating a type census as a falsifier. If C is free, the observation yields only a lower bound C >= |D|, not a rejection of all finite caches. No slot-count enlargement is proposed here.",
+    "Passing the necessary bound proves neither a consistent slot history nor readable literal/reference framing, sensible source content, human practicality or other statistical fit. Storing C words can require an unbounded number of source characters unless word length is separately limited."
+  ],
+  "closest_existing_proof": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECENCY_SKETCHES_BOUND_FAILURE_20261005.json",
+    "field": "design.later_one_slot_variant.deductive_falsifier",
+    "retained_fact": "The existing one-slot letter writer already proves that any immediately doubled atomic sign must be its sole REP sign, because a second identical literal is noncanonical. Its three-slot sketch also states compulsory references while a literal letter remains stored.",
+    "difference": "This is the C=1 predecessor on letter atoms within words, with word resets and a conditional G0 binding. The current note generalizes the same reasoning to complete output groups and a C-element global reference set. It is not a new cache mechanism or a rescue of that sketch."
+  },
+  "other_primaries_and_retained_decisions": [
+    {
+      "paths": [
+        "experiments/yolo/gdt1179_complete_natural_source_writers/PREREGISTRATION.md",
+        "experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md"
+      ],
+      "relation": "1179C already supplies obligatory nearest-prior-token references at distances1..503 plus literal misses. It keeps a token history rather than distinct-word slots and pairs some two source words in one printed group. Therefore a whole-group <=503 bound is not the same unchanged contract. Its complete source screen failed; no rerun, smaller window or grouping repair is proposed."
+    },
+    {
+      "paths": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_EIGHT_FRAGMENT_CACHE_RAW_20261005.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA940_RESULT_20261005.json"
+      ],
+      "relation": "940 already has mandatory hits, literal introduction, eight move-to-front fragment slots and eviction. Its exact_unequal_consequence says an immediately repeated source fragment must use slot0 after the first. It is one fragment per output group with a separate END/CONTINUE flag, so it has two reference spellings per slot. The later two-terminal contradiction independently closes that fixed carrier; this note does not reopen it."
+    },
+    {
+      "paths": ["experiments/yolo/gdt1209_column_table_cell_balance/REPORT.md"],
+      "relation": "941 writes vertical character columns from scratch rows. Its later cell-conservation exclusion is a different mechanism and theorem, not a previous test of a word-cache reference alphabet. Its original failure remains."
+    },
+    {
+      "paths": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_SEMANTIC_LITERAL_NAME_REGISTER_RAW_20261005.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA946_B6_8_COST_REPORT_20261005.md"
+      ],
+      "relation": "946 already has four fixed cyclic name slots, compulsory calls and paid introductions. It is an embedded name module, not one source token per entire output group. Its fixed b6.8 use had no exact name reuse and was not selected as a cost remedy. This is not a general cache exclusion or the current whole-group capacity test."
+    },
+    {
+      "paths": ["research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_ONE_GROUP_ABSOLUTE_DELTA_CONTRACT_20261006.json"],
+      "relation": "The canonical absolute-SET writer already uses immediate whole-group repetition as a source-free falsifier: only its one REPEAT string may double because a repeated nonempty SET is noncanonical. Its idempotence proof is a close methodological predecessor, but it has no literal word cache and does not establish the present general C-bound. Its later specific exclusion remains."
+    }
+  ],
+  "retrieval": "Live route, composition topic, bounded search/duplicates/route-check,1179 and1209 lookup followups and the named actual primaries. The exact atom-level C=1 proof was found and retained. No assertion that every historical cache proposal or followup was exhausted.",
+  "remaining_decision_changing_question": "Only after fixing complete-group ownership, admissible visible resets and a genuinely motivated maximum address repertoire: do existing eligible whole-group doublet forms fit that finite global repertoire? An answer outside its capacity would avoid constructing a literal encoder; an answer inside would establish only necessary capacity. This producer neither selects that test nor counts or enlarges the repertoire.",
+  "disposition": "Save the generalized proof and its exact predecessor, without a new raw writer card or experiment. This is a possible bounded falsifier, not a new cache invention, native meaning, statistical result or automatic successor to any closed model."
+}

@@ -1,0 +1,9 @@
+# GDT1194 — simple final table impossible; larger table unresolved by bounded solver
+
+The length/q-count prefilter retains902(mask,q-position) choices. The four-context final-y assignment is UNSAT across all four sources under the fixed2922–3364 count interval. The13-context assignment returned UNKNOWN (`sat.canceled`) after its registered10-second optimization limit. **No glyph-map search, parity test, complete recipe encoding or selected writer was reached.** These outcomes are distinct: the second arm is not refuted.
+
+The runner's terminal label `PAIRED_NOTATION_BOUNDED_SEARCH_FAILS` means no completed writer was obtained; it must not be interpreted as an executed6,000-step search or a proof against the13-context family. The canonical scientific decision is DEPTH1_FINAL_Y_INFEASIBLE__DEPTH2_SOLVER_UNKNOWN. Original1193 basic-screen success and q/y/entropy counterexamples remain unchanged.
+
+2,548 finite pair-code roundtrip fixtures pass and the complete necessary filter reproduces. This validates those parts only, not the unexecuted full writer. The first invocation's cache-type error stopped before results and is explicitly corrected with original source/lock retained in CORRECTION.md. No criterion changed.
+
+The13-context solver was asked to optimize a deterministic tie cost even though only one feasible assignment was required. A directly verified satisfying assignment, rather than another unknown result or an existing file alone, would provide the genuinely missing capacity input for a separately declared continuation. Preserve this original stopped attempt. No native values, raw target or reserve access; all data remain exposed design inputs. Local checkpoint. Preparation, implementation and closure occupied approximately08:25–08:39UTC within the08:55outer budget; do not reset that total-work budget for a solver continuation.

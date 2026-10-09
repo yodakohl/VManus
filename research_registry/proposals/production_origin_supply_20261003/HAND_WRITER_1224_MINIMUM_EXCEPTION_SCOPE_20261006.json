@@ -1,0 +1,125 @@
+{
+  "status": "POST_RESULT_RELAXED_FINAL_ONLY_EXCEPTION_LOWER_BOUND",
+  "created_utc": "2026-10-06T05:00:01.716143+00:00",
+  "source_path": "experiments/yolo/gdt1224_short_word_final_capacity/artifacts/RESULT.json",
+  "source_sha256": "7e05647c89e3ea1bb5d6cdf71cc10b471c3c7316298b4c33ead135d18d4f8cf8",
+  "scope": "Post-result arithmetic on the frozen1224aggregate counts, no new native query or prospective hypothesis test. Separate alternative readings, no pooled estimate.",
+  "formula": "minimum over allowed sets S of cardinality6 of sum(count[g] for g not in S), equal to total minus the six largest class counts",
+  "readings": {
+    "IT2a": {
+      "sample_groups": 8000,
+      "eligible_internal_two_sign_groups": 450,
+      "final_counts": {
+        "a": 6,
+        "d": 7,
+        "e": 4,
+        "k": 2,
+        "l": 154,
+        "m": 5,
+        "n": 1,
+        "o": 28,
+        "r": 114,
+        "s": 8,
+        "t": 3,
+        "y": 118
+      },
+      "allowed_category_capacity": 6,
+      "optimistic_minimum_exception_groups": 21,
+      "fraction_of_eligible": 0.04666666666666667,
+      "fraction_of_full_saved_sample": 0.002625,
+      "optimal_allowed_finals": [
+        [
+          "d",
+          "l",
+          "o",
+          "r",
+          "s",
+          "y"
+        ]
+      ],
+      "relaxed_final_only_covered_groups": 429,
+      "exhaustive_subset_count": 924,
+      "independent_arithmetic_check": "descending-top-six and exhaustive924sets agree"
+    },
+    "RF1b": {
+      "sample_groups": 8000,
+      "eligible_internal_two_sign_groups": 468,
+      "final_counts": {
+        "a": 4,
+        "d": 4,
+        "e": 5,
+        "k": 2,
+        "l": 145,
+        "m": 6,
+        "n": 1,
+        "o": 39,
+        "r": 140,
+        "s": 11,
+        "t": 3,
+        "y": 108
+      },
+      "allowed_category_capacity": 6,
+      "optimistic_minimum_exception_groups": 19,
+      "fraction_of_eligible": 0.0405982905982906,
+      "fraction_of_full_saved_sample": 0.002375,
+      "optimal_allowed_finals": [
+        [
+          "l",
+          "m",
+          "o",
+          "r",
+          "s",
+          "y"
+        ]
+      ],
+      "relaxed_final_only_covered_groups": 449,
+      "exhaustive_subset_count": 924,
+      "independent_arithmetic_check": "descending-top-six and exhaustive924sets agree"
+    },
+    "ZL3b": {
+      "sample_groups": 8000,
+      "eligible_internal_two_sign_groups": 393,
+      "final_counts": {
+        "a": 4,
+        "d": 5,
+        "e": 4,
+        "k": 2,
+        "l": 116,
+        "m": 2,
+        "n": 1,
+        "o": 35,
+        "r": 113,
+        "s": 5,
+        "t": 3,
+        "y": 103
+      },
+      "allowed_category_capacity": 6,
+      "optimistic_minimum_exception_groups": 16,
+      "fraction_of_eligible": 0.04071246819338423,
+      "fraction_of_full_saved_sample": 0.002,
+      "optimal_allowed_finals": [
+        [
+          "d",
+          "l",
+          "o",
+          "r",
+          "s",
+          "y"
+        ]
+      ],
+      "relaxed_final_only_covered_groups": 377,
+      "exhaustive_subset_count": 924,
+      "independent_arithmetic_check": "descending-top-six and exhaustive924sets agree"
+    }
+  },
+  "interpretation": "Any exact six-final explanation under the fixed working units/whole-group eligibility leaves at least this many of the original selected short groups outside the six chosen classes. It is an optimistic necessary exception lower bound, not a sufficient repaired writer.",
+  "limitations": [
+    "This does not show that any observed group is wrong. The fractions are not estimated scribal/transcription error rates.",
+    "The6allowed finals are optimized separately for each alternate reading. No common fitted key, output word inventory, source preservation, glyph grammar or actual decoding is thereby constructed.",
+    "The relaxation ignores all other architectural constraints, so a real writer may require more exceptions.",
+    "A global glyph merger, split, changed grouping or different sample is a different contract; no such changes were made.",
+    "The8000denominator is the already saved full sample, not all native manuscript words. The short-group denominator shows the concentrated cost.",
+    "The old exact contradiction and original1195statistical failure remain; no error budget, exceptions, optimization or reopening is selected."
+  ],
+  "decision": "Use the exact six-category contradiction only with its exact-reading assumptions. The12-versus6result alone does not exclude a broader writer with a small paid exception channel; such a channel has not been proposed or validated here."
+}

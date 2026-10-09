@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN_MODERN_TEACHING_RULES_NOT_A_NATIVE_KEY",
+  "purpose": "An ordinary alphabet with a small obligatory shared-stroke ligature. When the right-hand part of one eligible letter is exactly the left-hand part of the next, draw it once. The writer saves one working glyph without a dictionary, arithmetic or remembered earlier words.",
+  "source_domain": {
+    "input": "One or more nonempty sentences. Each sentence is a nonempty sequence of words over exactly lowercase a–z. Every sentence ends with a full stop. Canonical source presentation puts one ASCII space between words, full stop then one space between sentences, and a final full stop.",
+    "scope": "This is ordinary source spelling, not a newly invented semantic language. It preserves every letter, source-word boundary, sentence boundary and their order in this declared domain. A reader must know the source language to understand the recovered words; there is no codeword-to-meaning table.",
+    "names_and_unknown_words": "Every previously unknown name or word over a–z is spelled in full. No learned whole-word list or identification of its referent is required. Case is not silently folded: uppercase input is outside the domain, as are digits, accents, commas, parentheses and every punctuation mark other than the declared full stops. They must be rejected, not omitted. A historical source containing them would require a separately specified different contract before a full-source test.",
+    "meaning_ceiling": "Only the source wording and sentence boundaries are recovered. Pronouns, named-person identity, pragmatic emphasis and unstated arguments are not resolved by the script."
+  },
+  "physical_inventory": {
+    "all22_in_fixed_order": ["a","o","e","i","n","d","s","l","m","k","t","p","f","ch","sh","ckh","cth","cph","cfh","q","r","y"],
+    "unit_convention": "Every listed item is one distinct drawn working glyph, including ch/sh/ckh/cth/cph/cfh. Latin labels are transcription names for the teaching drawings, not source letters or proposed native values. No new drawn symbol is used.",
+    "simple_S": ["a","o","e","i","n","d","s","l","m","k","t","p","f","ch"],
+    "heads_H": ["sh","ckh"],
+    "middles_M": ["cth","cph"],
+    "tails_T": ["cfh","q","r","y"],
+    "assignment_policy": "Use the existing listed working-inventory order: first14 are S, next2 H, next2 M, last4 T. Source a–n use S in order; o–r use H-major then M-minor order; s–z use M-major then T-minor order. No native form, q/o frequency, final-y frequency or source counts chose a permutation. The sizes and singleton availability were considered with known generic shape obligations already exposed; this is not a blind design.",
+    "fixed_teaching_key_not_native": "Under this literal table q belongs to T and cannot begin an ordinary group. Known qokedy therefore already contradicts direct native use of this table. No silent key change follows; a hypothetical different global role assignment is a separate untested question."
+  },
+  "complete_source_letter_table": {
+    "a": ["a"], "b": ["o"], "c": ["e"], "d": ["i"], "e": ["n"], "f": ["d"], "g": ["s"], "h": ["l"], "i": ["m"], "j": ["k"], "k": ["t"], "l": ["p"], "m": ["f"], "n": ["ch"],
+    "o": ["sh","cth"], "p": ["sh","cph"], "q": ["ckh","cth"], "r": ["ckh","cph"],
+    "s": ["cth","cfh"], "t": ["cth","q"], "u": ["cth","r"], "v": ["cth","y"], "w": ["cph","cfh"], "x": ["cph","q"], "y": ["cph","r"], "z": ["cph","y"]
+  },
+  "writer": [
+    "Take one complete source word at a time. Look up its letters in the table; a–n are simple S letters, o–r are H-M letters, s–z are M-T letters.",
+    "Scan from left to right. If the next two source letters have codes H_i M_j and M_j T_k with the SAME M_j, write the three-glyph block H_i M_j T_k and consume both source letters. The shared M is drawn only once. This contraction is obligatory.",
+    "Otherwise write the next source letter's one- or two-glyph code unchanged and consume one letter. Do not share across source-word spaces, sentence boundaries or arbitrary similarities. No source letter has an empty spelling.",
+    "A contracted pair cannot overlap a second contracted pair: its second source letter is M-T, which is never H-M. Therefore the scan needs only one-letter lookahead, with no longest-match hierarchy or earlier-word state.",
+    "The resulting blocks are S, H-M, M-T or H-M-T. They carry one, one, one or two source letters respectively. Remove any metanotation separating blocks; write each source word as one contiguous group unless the explicit overwide-word rule below applies.",
+    "Separate complete source words by one blank body cell. Write sentences as separate paragraphs with one entirely blank physical row between them. The end of a paragraph is exactly one source full stop; the final paragraph also terminates with a blank row or explicit physical end of message. No other sentence boundary is inferred from grammar."
+  ],
+  "reader": [
+    "First recover complete written source-word groups from body spaces and the explicit continuation gutter. A paragraph boundary supplies a source full stop. An ordinary nonblank line break without a continuation marker supplies a word boundary, not a full stop.",
+    "At an S glyph, use the one-glyph inverse and advance one glyph.",
+    "At an H glyph, require the next glyph to be M. If the immediately following third glyph is T, decode the H-M letter and the M-T letter sharing that M, then advance three glyphs. If it is not T or the group ends after M, decode only H-M and advance two glyphs.",
+    "At an M glyph, require one following T, decode that M-T letter and advance two glyphs. A T at the current reading position is illegal. Incomplete H or M at a complete group boundary is illegal.",
+    "The four role classes are disjoint. T cannot begin an independent block, so an H-M-T triple cannot be H-M followed by an independent T letter. H-M followed by M-T is distinguishable as H-M-M-T unless their middle matches, in which case the writer must have contracted it. The reader can recover the same plaintext from that redundant uncontracted form, but canonical checking rejects it.",
+    "After recovering a word, reapply only the local mandatory sharing rule mentally to check canonical spelling. Do not invoke a language dictionary to repair a role violation. Every new name is read by the same letter table.",
+    "Repeated complete source words receive exactly the same whole spelling. There is no alternative-pool cycle, whole-word repeat control, omitted repeated argument or hidden reset."
+  ],
+  "line_and_message_framing": {
+    "page_board": "The teaching page has12 body cells per physical row, one blank separating cell, then a distinct right gutter at column14. Each drawn working glyph occupies one body cell; one word gap also occupies one body cell. This fixed ruled layout is an additional paid spatial convention, not established native layout.",
+    "normal_words": "If a word's full written form has at most12 glyphs, keep it whole: write it after the previous word plus one gap if it fits, otherwise move it intact to a new row. Do not add a carry mark for a whole word moved this way.",
+    "overwide_words": "If a word has more than12 glyphs, start it on a fresh row. Write the longest prefix of COMPLETE encoder blocks that fits12 cells. Draw the existing glyph a in the right gutter to say this word continues. Continue the remaining blocks at the beginning of the next row. Repeat until the word is finished. Blocks are never split. The last fragment has an empty gutter and may be followed by another complete source word if it fits with a gap.",
+    "inverse_of_wrap": "A gutter a joins only the final body group of its row to the first body group of the next nonblank row, with no inserted source space. Every other body gap or unmarked row break is a source-word boundary. A marked row cannot precede a blank row or message end. The gutter glyph is outside the body and is never read as a source letter. Its position and added ink are paid, not an invisible bit.",
+    "budget": "One drawn a per continued physical row, plus the ruled/gutter layout and blank sentence row. No extra alphabet sign, private sentence metadata or unmarked paragraph reset is available.",
+    "challenge_representation": "In a JSON teaching packet each nonnull row has body and gutter fields: body transcribes only the visible12-cell body, using ordinary ASCII spaces for the one-cell word gaps; gutter is a or empty. A null row means one fully blank physical row. These fields describe the visible ruled page, not hidden source annotations."
+  },
+  "public_worked_example": {
+    "source": "post the note.",
+    "post_blocks": [["sh","cph"],["sh","cth","cfh"],["cth","q"]],
+    "post_explanation": "The middle three-glyph block is o+s; they share cth. p and t remain complete two-glyph letters.",
+    "the_blocks": [["cth","q"],["l"],["n"]],
+    "note_blocks": [["ch"],["sh","cth","q"],["n"]],
+    "rows": [{"body":"shcphshcthcfhcthq cthqln","gutter":""},{"body":"chshcthqn","gutter":""},null],
+    "readback": "post the note.",
+    "cost": "16 body glyphs plus one between-word gap in the first row, a normal line break and a blank sentence row. The same26-letter table with no sharing would use18 body glyphs for this example; this is a manual teaching comparison, not a corpus statistic."
+  },
+  "learning_and_limit": {
+    "learn": "26 literal-letter entries, four disjoint visible role classes, one shared-middle rule, ordinary source literacy, and the paragraph/gutter convention. No word meanings are assigned by the table. No numeric address list, source-trained defaults, frequency-selected shortcuts or historical-source fit.",
+    "mechanical_memory": "One next source letter while writing; at most three visible working glyphs while reading; no state across words. The ruler supplies the12-cell physical budget.",
+    "not_claimed": "Medieval attestation, actual penstroke identity, a native alphabet or reading direction, native word meanings, q/o or final-y explanation, full historical-text coverage, good average cost, source-statistical fit or independent confirmation.",
+    "fixed_source_invariant": "Before physical wrapping, deterministic injective word-internal spelling preserves the entire source-word equality and frequency partition. Previous failures for their fixed sources remain. Edge continuation changes physical group counts explicitly; it is not a license to compare them as if they were untouched whole source words. Pooled manuscript thresholds are not thereby universal single-text laws."
+  }
+}

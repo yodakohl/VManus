@@ -1,0 +1,77 @@
+{
+  "record_id": "HIST:2a6e75e41e854a83",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root and bounded source-free proof review",
+  "assessment_basis": "integer_certificate_corollary_and_explicit_abstract_countermodel",
+  "reason": "1286rules out reversible two-state and finite p-group generated common-endpoint actions under its scope. Exact abstract S3countermodel demonstrates that index1 alone does not exclude all reversible3state actions. No native3state fitting occurred.",
+  "blockers": [
+    {
+      "code": "conditional_state_scope_only",
+      "detail": "Fixed22units, inherited complete paragraph flags, fixed reversible actions/commonstart/end; p-group refers to generated group order, not number of states or individual generator orders.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md",
+        "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_STATE_SCOPE_RESULT_20261009.json",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md"
+      ]
+    },
+    {
+      "code": "abstract_countermodel_not_native_fit",
+      "detail": "AA/B/BB/ABABA are artificial strings; none is a native word assignment or decoding construction.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md",
+        "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_STATE_SCOPE_RESULT_20261009.json",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independently_bound_different_mechanism",
+        "change": "new_binding",
+        "detail": "A separately justified mechanism and discriminating prediction; no automatic state-count or decoder escalation.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md",
+          "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_STATE_SCOPE_RESULT_20261009.json",
+          "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Conflating state equality with permutation equality",
+      "Calling any3state group a p-group",
+      "Treating toy compatibility as Voynich fit"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1286",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md",
+        "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_STATE_SCOPE_RESULT_20261009.json",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT885",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md",
+        "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_STATE_SCOPE_RESULT_20261009.json",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT903",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md",
+        "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_STATE_SCOPE_RESULT_20261009.json",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md"
+      ]
+    }
+  ]
+}

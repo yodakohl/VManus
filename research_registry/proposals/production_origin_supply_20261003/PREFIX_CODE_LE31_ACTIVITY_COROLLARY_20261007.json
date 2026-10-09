@@ -1,0 +1,58 @@
+{
+  "status": "POST_RESULT_FORMAL_ACTIVITY_BOUND_FROM_EXISTING_PRIMARIES",
+  "ownership": "Root proposed the quantified consequence of1234 and1248. bounded_idea_supply checked the arbitrary-code argument, the first-head issue and the old active_groups implementation. No native payload, recount, new solver or GDT was used.",
+  "contract": "A fixed prefix-free set C of distinct nonempty strings over the unchanged22 working units covers every unchanged1233 complete whole group in one reader. The total table has at most31 entries; arbitrary finite code lengths are allowed. The statement concerns segmentation into code entries, not assigned source letters or meanings. Original whole-group boundaries and exact working-unit parsing are retained.",
+  "inherited_obligations": {
+    "source": "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md",
+    "forced_singletons": ["a", "ch", "ckh", "cth", "d", "e", "f", "i", "k", "l", "m", "n", "o", "p", "r", "s", "sh", "t", "y"],
+    "all_heads": "All22 working signs begin some complete remainder in the valid left-quotient closure R. Each therefore requires at least one code entry with that first sign.",
+    "possible_non_singleton_heads": ["cfh", "cph", "q"],
+    "second_sign_branch_counts": "cfh and cph each have six distinct second signs in complete remainders. A non-singleton code with either head therefore needs at least six distinct entries with that head. q needs at least11 such entries in IT/ZL and12 in RF.",
+    "scope": "These are retained exact full-panel conclusions, including their rare-reading premises, not new empirical measurements or unconditional facts about a native alphabet."
+  },
+  "proof_head_restriction": [
+    "If a singleton sign g belongs to a prefix-free C, no longer code may start with g. The19forced singleton signs therefore cannot head any longer code, at any table size.",
+    "For a non-singleton q head, at least21 other head entries plus11 IT/ZL or12 RF q entries are necessary: total at least32 or33. Thus a table of at most31 entries must contain singleton q.",
+    "If both cfh and cph are non-singleton heads, their entries are disjoint by first sign. At least20 entries for the other heads plus6 cfh entries plus6 cph entries are required:32. This is excluded at the proposed cap31.",
+    "Consequently a complete table of at most31 entries is either the22-singleton identity table, or has exactly one non-singleton head h in {cfh,cph}. Every other one of the21 working units is a singleton code.",
+    "In the nontrivial case every longer code starts with the selected h. The h-codes may have arbitrary finite lengths and may themselves contain further h units. The proof does not assume the two-unit construction of1248, exactly27 entries, or a bound on codeword length."
+  ],
+  "proof_group_activity": [
+    "Call a whole group active when its unique complete C-parse uses at least one code longer than one working unit.",
+    "If a group contains no selected h, it cannot use a longer code, because every longer code starts with h. Every unit of that group is parsed as a singleton.",
+    "If a group contains h, consider its FIRST occurrence. All preceding units are different from h and have singleton codes; no longer code can start among them. Hence decoding reaches this first h at a code boundary. Since h is not itself a singleton, a longer h-headed code must begin there.",
+    "A later h may be swallowed inside that longer code, and several h occurrences may be covered together. This does not defeat activity: the group already contains at least one longer code. Thus for every complete table in the nontrivial case, active(group) is EXACTLY the predicate 'group contains h'.",
+    "The quantifier is over every complete prefix-free table of at most31 entries, not merely1248's two pair tables. A table cannot combine the two rare-head activity sets at that size."
+  ],
+  "transfer_of_old_counts": {
+    "primary_report": "experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md",
+    "primary_method": "experiments/yolo/gdt1248_prefix_bound_attainment/METHOD.md",
+    "implementation_checked": "experiments/yolo/gdt1248_prefix_bound_attainment/src/run.py:10-16 and45-57",
+    "implementation_meaning": "The old parser takes each non-h sign alone and h with the next unit. It scans the entire group. active_groups increments by any(len(code)>1 for code in pieces), once per accepted occurrence. It is not an initial-position count or a number of distinct word types. Every reported cfh/cph case has zero failures.",
+    "why_no_new_census_is_needed_for_this_transfer": "For that fully covering pair parser, the same first-h argument proves active_groups equals the number of original group occurrences containing h anywhere. Therefore those already reported counts are the exact group-activity counts for every new complete table with that selected h, even if its h entries are longer than two units. Multiple h occurrences or h inside a long code do not change this equality.",
+    "reported_counts": [
+      {"reader": "IT2a", "groups": 22528, "cfh_active": 39, "cph_active": 133, "uniform_le31_upper_bound": 133, "maximum_share_as_previously_reported": "0.5904%"},
+      {"reader": "RF1b", "groups": 19321, "cfh_active": 37, "cph_active": 128, "uniform_le31_upper_bound": 128, "maximum_share_as_previously_reported": "0.6625%"},
+      {"reader": "ZL3b", "groups": 19332, "cfh_active": 36, "cph_active": 125, "uniform_le31_upper_bound": 125, "maximum_share_as_previously_reported": "0.6466%"}
+    ],
+    "identity_case": "If C is the singleton identity table, its active count is zero. The displayed uniform bounds include this case.",
+    "provenance": "Numbers and shares are copied from the old published1248report and interpreted through its read-only source code. This review did not open GROUPS, count occurrences or independently rerun the old numerical validation."
+  },
+  "rare_form_dependency": {
+    "primary": "experiments/yolo/gdt1236_prefix_proof_support/REPORT.md",
+    "retained": "The full19-singleton/27-entry result depends on rare complete forms. On the predeclared recurrent-type subset, the same method forced15singletons in IT/RF and14 in ZL, with necessary bound23. In the full quotient proof system, ckh,cth,f,i require a one-token source type in every reader, with ch additionally so in ZL.",
+    "consequence": "The present universal<=31 activity restriction inherits the full-panel proof. It is not an error-tolerant or recurrent-only theorem. Removing exceptional forms or changing the working alphabet would change the premise; no such removal or repair is adopted.",
+    "not_claimed": "The review does not claim those rare forms are errors, that these are the only possible forcing arguments, or that an error budget would yield a successful different table."
+  },
+  "limits": [
+    "Group activity is not the fraction of glyphs changed or the number of long-code occurrences. One rare-head group could contain a long code covering many other signs. No glyph-activity or length-reduction bound is inferred here.",
+    "No H2/entropy decrease is quantified. A small active-group fraction alone supplies no numerical conditional-entropy effect, and no source alphabet or fixed source text is decoded by this result.",
+    "Singleton segmentation does not mean native language content is known or uninteresting; its source-letter labels, vocabulary and meanings remain unassigned.",
+    "The population is the old strict-interior literal P-group panel, not every native group, label, margin or complete message. Alternate readers remain separate readings of the same manuscript.",
+    "The theorem requires free prefix parsing of each complete group. General non-prefix UD, grammar-conditioned codes, contextual spellings, changed units or cross-space codes are different contracts and retain their separate outcomes.",
+    "The cap31 is the threshold of this formal corollary, not an independently established historical alphabet size. The conclusion does not authorize an automatic32-entry decoder or new head/table optimization.",
+    "The old27-entry attainability PASS remains true. This result clarifies that its tiny affected-group share extends to every complete table through31 entries under the same exact assumptions; it neither invalidates that formal construction nor promotes it as a practical reading."
+  ],
+  "followup_review": "Read1234METHOD/REPORT,1236REPORT,1248METHOD/REPORT and the activity code; inspected the bounded1234/1248lookup followup entries. Later1240/1241/1253/1256questions concern source expansions, suffix codes or a different grammar restriction and do not negate the fixed prefix obligations. No exhaustive absence-of-history claim.",
+  "decision": "Retain as a post-result mathematical interpretation of1234+1248 with old counts, not a new experiment, native count, RAW writer, language exclusion or meaning discovery. Root owns the ledger/interpretation update."
+}

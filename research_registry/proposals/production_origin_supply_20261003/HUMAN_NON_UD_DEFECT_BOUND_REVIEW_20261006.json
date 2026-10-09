@@ -1,0 +1,60 @@
+{
+  "status": "CONCEPTUAL_PROOF_VALID_UNDER_EXPLICIT_FIXED_TABLE_PREMISES_NO_DATA_OR_TEST",
+  "origin": "Proposed by root during the bounded minim-writer review; independently checked here as a word-combinatorics argument. No manuscript result is independently rechecked by this note.",
+  "theorem": "For any finite non-UD set C of distinct nonempty finite words, there exists a UD set D with fewer members than C such that every member of C is a concatenation of members of D. Consequently C* is contained in D*.",
+  "premises": [
+    "C is a set of distinct nonempty strings over a fixed alphabet; source-letter labels or duplicate table rows are not additional distinct codewords.",
+    "UD means free unique decipherability of every finite codeword sequence, with no external grammar or context restriction in that definition.",
+    "The writing operation considered in the application is ordinary concatenation of the fixed codewords. No overlapping/erasing strokes, omitted source letters, context-dependent code changes or unrepresented internal boundaries are included."
+  ],
+  "proof": [
+    {
+      "step": "Find a proper prefix pair",
+      "argument": "A non-UD finite set cannot be prefix-free. Choose different u,v in C with v=u r and nonempty r. The proper-prefix property ensures |r|<|v|."
+    },
+    {
+      "step": "Shorten the generating set",
+      "argument": "Put C'=(C minus {v}) union {r}. The word u remains in C', so v=u r belongs to C'*. Every other old code remains, hence C* is contained in C'*. The total length of the distinct entries decreases strictly. If r already belonged to C minus {v}, the cardinality decreases by one; otherwise it is unchanged."
+    },
+    {
+      "step": "No same-cardinality transition from non-UD to UD",
+      "argument": "Assume r is new and C' is UD. Regard the distinct entries of C' as abstract atoms. Every old entry except v is one singleton atom other than R (the atom for r); v is represented by the two-atom word U R. Thus the old code is represented by B={all C'-atoms except R} union {U R}. Here U differs from R because r was new while u was retained. B is suffix-free: its only two-atom entry ends in R, and R has no singleton entry. B is therefore UD. Composing this UD atom code with the UD expansion by C' proves C UD, contradicting the premise. Hence if the cardinality is unchanged, C' remains non-UD."
+    },
+    {
+      "step": "Termination and strict cardinality defect",
+      "argument": "Apply the shortening step only while the current set is non-UD. The positive integer sum of entry lengths strictly decreases at each step, so this process cannot continue forever. It must reach a UD set D. At least one cardinality decrease must have occurred, because a same-cardinality step cannot change non-UD to UD. All containments compose, giving C contained in D* and |D|<|C|. No finite maximum codeword length needs to be preselected."
+    }
+  ],
+  "small_hand_check": {
+    "start": ["ab", "aba", "ba"],
+    "ambiguity": "ab|aba = aba|ba = ababa",
+    "steps": [
+      "Replace aba=ab+a by a: {ab,a,ba}.",
+      "Replace ab=a+b by b: {a,b,ba}.",
+      "Replace ba=b+a by the already present a: {a,b}."
+    ],
+    "finish": "The final two-entry set is prefix-free/UD and generates all three original entries.",
+    "important_nonexample": "{a,ab} is already UD and is not a starting case of the defect theorem. Merely being non-prefix-free is insufficient to infer a strict cardinality loss."
+  },
+  "conditional_application_to_roots_supplied_UD22_result": {
+    "not_a_recheck": "The following takes the previously established UD22 exclusion and its exact word/unit panel as supplied premises. No panel,1235/1237 result artifact, native profile or count is opened here.",
+    "required_premises": [
+      "All22 working units actually occur in the same whole-group word set W.",
+      "W is contained in C* for one fixed table C with at most22 distinct nonempty entries, with complete printed groups respected.",
+      "The existing proof excludes any UD D of size at most22 that covers W and uses a multiple-working-unit code on W; identity remains allowed."
+    ],
+    "non_UD_case": "If C is non-UD, the theorem supplies UD D with at most21 entries and W contained in D*. A representation of all22 observed units using at most21 entries cannot use only singleton entries: the latter would offer at most21 distinct observed units. At least one used D-entry is therefore longer than one working unit, contradicting the supplied UD exclusion. Unused D entries can be discarded without changing this argument.",
+    "UD_case": "If C itself is UD and a longer entry is used, the supplied UD exclusion applies directly. If only singleton entries are used, covering all22 units requires all22 singleton entries and exhausts the cap.",
+    "conclusion": "Under exactly these panel and code-table premises, the only covering fixed table of at most22 entries is the22-singleton identity table. Allowing ambiguous segmentation or supplying a grammar cannot create a covering table in this capped family, because the cover C* would still have to exist before grammatical filtering.",
+    "alphabet_caution": "If an original table contains unused entries with unobserved symbols, first discard entries unused in the chosen representations of W. Every remaining entry uses only observed units. Discarding entries cannot increase the cardinality, and the relevant UD/non-UD cases can then be considered on this active set."
+  },
+  "scope_limits": [
+    "The cap is on distinct fixed codewords, not on the number of visible working glyphs. A22-glyph notation may have more than22 letter/ligature/escape entries and is outside this cap.",
+    "The auxiliary D is a mathematical generating code, not a recovered historical alphabet or a humanly taught table. No source-letter value, native segmentation or lexical meaning follows.",
+    "A singleton output can still be assigned several source-letter values in a homographic mapping. The shape-cover result permits the identity set; it does not alone prove that such source values are one-to-one.",
+    "Context-restricted reading by itself does not evade this bound if the same fixed at-most22-entry concatenation cover is retained. Context-dependent glyph production, longer escape tables, word-level fallback and changed unit/group framing are different contracts and need their own paid descriptions.",
+    "Empty expansions, overlapping strokes, nonconcatenative ligatures, source-word merging/splitting and hidden controls are not proved impossible by this argument.",
+    "No letter alphabet size26/28 extension, new solver, parameter repair or native experiment is selected."
+  ],
+  "correction_to_my_earlier_minim_message": "The earlier statement that free-UD proofs do not directly test lexical disambiguation is true as a distinction of decoder premises, but insufficient as a class-scope conclusion. Once this defect lemma and the supplied rank-capacity result are included, lexical disambiguation cannot rescue the unchanged fixed at-most22-entry concatenation cover. A marked literal fallback may leave that class, but its additional codewords/control rules must be counted explicitly."
+}

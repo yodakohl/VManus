@@ -1,0 +1,44 @@
+{
+  "status": "SOURCE_FREE_FACTORIZATION_AND_UNIFORM_SAMPLING_PROOF_VALID",
+  "ownership": "Root proposed1261's component-wise exact-count sampler. bounded_idea_supply checked the logic without native data, component sizes, counts, scores or sample generation. The empirical selection remains root-owned.",
+  "prior_proof": "research_registry/proposals/production_origin_supply_20261003/RL_DOUBLE_MARGIN_CYCLE_CAPACITY_PROOF_REVIEW_20261007.json",
+  "same_fixed_fiber": "Let Omega be all binary r/l assignments to the same distinct eligible token edges, preserving each physical line's r count and each original915stratum's r count. No further restrictions, learned scores or favored endings enter Omega. All original token memberships and positions remain fixed.",
+  "scc_factorization": [
+    "Orient the observed assignment as before: r goes line->stratum and l stratum->line. The prior cycle theorem proves that every edge crossing distinct original SCCs is fixed in EVERY assignment of Omega, not merely immobile under one chosen cycle move.",
+    "Fix all such nonmobile token labels. At each vertex subtract the number of incident FIXED r tokens from its original required r degree. The residual is the required r count on its mobile incident edges.",
+    "Every mobile edge lies wholly inside one original SCC, and every vertex belongs to one SCC. Therefore all remaining variables and their vertex constraints are confined to that component. No remaining constraint couples two components.",
+    "Every global valid assignment restricts to a valid assignment in each component. Conversely, any choice of valid assignments in all components, combined with the fixed edges, satisfies every original margin. Thus Omega is exactly the Cartesian product of the component assignment sets; components with no variables contribute one empty assignment.",
+    "The decomposition uses the ORIGINAL SCCs. A later resampled orientation need not be recomputed to justify the factorization. Original cross-component edges cannot change in any solution of this same fiber."
+  ],
+  "component_counting_dp": {
+    "variables": "Keep a fixed complete list of individual token edges e_0,...,e_(m-1). Parallel edges remain separate variables. State is (next-edge index i, full residual r-degree vector d) for the component's typed line and stratum vertices.",
+    "recurrence": "For current undirected token endpoints u,v, branch b=0 means l and leaves d unchanged; branch b=1 means r and changes d to d-e_u-e_v. Let their exact continuation counts be Z0 and Z1. Then Z(i,d)=Z0+Z1.",
+    "bounds_and_terminal": "A state with a negative residual or a residual exceeding remaining incident edge capacity has count0. At i=m return1 exactly when every residual is0, otherwise0. The DP counts r incidences at BOTH endpoints; original directed orientation is used only for SCC discovery, not as a sign in this recurrence.",
+    "distinct_assignments": "Each complete token bit-vector follows exactly one branch path. Memoization can merge equal suffix states without identifying distinct earlier paths. Consequently the recurrence counts all individual token assignments, including the different choices among parallel occurrences.",
+    "arithmetic": "Counts require arbitrary-precision nonnegative integers. Do not saturate counts, round branch probabilities, use floating point or silently overflow fixed-width integer types."
+  },
+  "uniform_sampling_proof": [
+    "At a state with total Z=Z0+Z1>0, draw an exact uniform integer U in {0,...,Z-1}; choose branch0 when U<Z0, otherwise branch1. A zero-count branch is never chosen.",
+    "For any particular valid complete assignment, the product of conditional branch probabilities telescopes: (Z_child/Z_parent) at each step yields terminal1/rootZ. Thus every component assignment has exactly probability1/Z_component.",
+    "Draw the components independently. Any valid global assignment then has probability product(1/Z_component)=1/product(Z_component), and the Cartesian-product proof gives |Omega|=product(Z_component). Therefore the complete draw is uniform over Omega.",
+    "The observed assignment itself remains a legal member and may be sampled. Removing it, forcing at least one change, or rejecting a draw with an uninteresting score would change this distribution. Independent repeated complete draws may repeat earlier outcomes."
+  ],
+  "parallel_edge_check": "For three parallel token edges joining one line to one stratum, with required r degree2, there are exactly three valid assignments according to which individual token is l. A two-state label-per-cell abstraction would be wrong. The token DP returns the binomial multiplicity. Two opposite parallel edges give the two legal swaps from the prior proof.",
+  "implementation_and_limit_pitfalls": [
+    "Line and stratum vertex IDs must use disjoint namespaces. Subtract fixed r contributions at each endpoint before forming the component targets.",
+    "Use the full eligible token universe of the declared reference, not just nominated endpoints. Omitting other mutable tokens imposes an additional conditioning restriction.",
+    "The original observed component assignment witnesses feasibility. A computed root count0 indicates an implementation/input problem, not empirical impossibility of the observed margins.",
+    "Use an unbiased arbitrary-integer randbelow/randrange implementation. Reinitializing the same seed for each component can correlate their choices; use one appropriate random stream with successive draws or independently specified streams. Reinitializing each world identically would merely repeat one draw.",
+    "A memo/state limit is an engineering stop, never a count of0. If any component exceeds the predeclared100000states or the total exceeds1000000, do not replace it by its observed assignment, approximate it, skip it or switch to MCMC. The proposed complete uniform reference has then not been constructed.",
+    "Finish exact counting successfully for ALL required components before reporting any complete-reference score comparison. Partial-component samples do not sample the stated Omega.",
+    "Check every sampled assignment against all original line and stratum margins and fixed-edge labels. A correct SCC theorem does not itself validate an implementation.",
+    "Additional constraints spanning components would invalidate the simple product proof. The present proof assumes exactly the two stated margin systems and fixed token support."
+  ],
+  "scientific_ceiling": [
+    "Exact uniform generation establishes the sampler's conditional distribution, not that a medieval writer randomly selected among these assignments or that grammatical exchangeability is historically true.",
+    "A finite Monte Carlo tail estimate is not exact enumeration of the score distribution, even when each draw is exactly uniform under the model.",
+    "Fixed old22family nomination, a new double-margin reference and ZL primary do not recreate915's discovery-recomputed comparison. No old p-value is overwritten or relabeled; no project-wide significance, r/l meaning or general agreement result follows.",
+    "Token mobility, score-changing witness existence, uniform conditional sampling and an observed score comparison are four distinct claims. This note proves only the factorization and sampling claims under the declared fiber."
+  ],
+  "decision": "Mathematical precheck passes. No raw proposal, native query, score, random draw, decoder, metadata refresh or prior-file mutation was performed by this producer. Root decides and executes any separately frozen1261protocol."
+}

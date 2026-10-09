@@ -1,0 +1,164 @@
+{
+  "title": "RAW INCOMPLETE: an open learned predicate family distinguishes state, becoming and caused change",
+  "summary": "RAW UNREVIEWED. A source-side teaching language forms state, inchoative and causative words from an open learned stock of unary property roots. The changed argument count is written in the derived predicate, and both property negation and whole-clause negation have separate paid scopes. Ordinary names remain fully written. A complete small message can be read by hand, but no22-working-sign carrier or full historical-text coverage is supplied. This does not assign any Voynich form or repair an older writer.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_PHYSICAL_WRITER",
+  "created_utc": "2026-10-06",
+  "selected": false,
+  "tested": false,
+  "design": {
+    "purpose": "Let a writer reuse a learned property word while clearly distinguishing a condition, the onset of that condition, and a named participant causing that onset. This avoids learning three unrelated lexical entries for every property, while retaining the extra participant of the causal statement.",
+    "narrow_novelty": "Not a discovery of causatives or BECOME. The retained candidate is the explicit open-lexicon source-side family and its argument/negation contract below. Old772 mentions a causative interpretation without binding its participants;414 has surface components but lacks semantic reduction; B6 has BECOME and material-APPLY, with different fixed roots and physical grammar. None of those is silently reopened here.",
+    "input_domain": "Finite sequences of affirmative or negative state, state-change and caused-state-change assertions about explicitly written referential terms, in present or past time. Writer and reader know the meanings and admissible entity domains of the ordinary property roots and ordinary terms. This is an open lexical stock, not29 or64 universal concepts. It is not a universal recipe translator: commands, conditionals, durations, quantifier scope, passive voice, counterfactuals, and unresolved multiclause syntax are outside this frozen module unless separately written in an already learned language. Such fallback is not claimed to have a paid22-sign representation here.",
+    "lexical_learning": {
+      "property_entry": "One ordinary written root Q, its unary state meaning Q(x), and the kinds of entity for which it is meaningful. A newly learned property costs a genuine lexical entry or an explicit definition; its literal spelling alone does not teach its meaning.",
+      "term_entry": "An ordinary referential word or a completely written quoted name. Repeated names retain the same declared reference within a message; a different bearer with the same personal name must be explicitly qualified. Ordinary common-noun ambiguity is not secretly resolved into unique physical batches.",
+      "no_extra_cipher_dictionary": "The lesson uses ordinary readable words directly. It does not give each concept a new arbitrary whole-word cipher. A future working-sign spelling convention remains unpaid."
+    },
+    "visible_teaching_syntax": {
+      "sentence": "One or two written terms, then one derived predicate word, then a visible full stop. The predicate supplies its arity; the reader checks the number of terms within that written sentence. Multiple-word literal names use visible quotation marks and retain their spaces.",
+      "predicate": "[past~] ROOT [~anti, only when followed by ~be OR ~ca] [~be OR ~ca] [~not]",
+      "canonical_order": "Past, root, property complement, change/causation, whole assertion negation. Each optional operation can occur once; ~be and ~ca are mutually exclusive. Bare negative states use ~not only: ROOT~anti without a following change/causation operation is illegal. No freely selected alias is licensed for that same negative state.",
+      "escapes": "Backslash quotes a literal backslash, tilde or quotation mark inside a root/name. A quoted term may contain spaces or a full stop; that full stop is not a sentence boundary. Root words themselves contain no unescaped spaces. The displayed controls are teaching notation and must not be counted as free extra working glyphs.",
+      "line_wrap": "Wrap only at an existing external word space. Line ends reset no state and supply no sentence boundary. The reader follows visible quotes and the final full stop. Overwide single words/names have no solved22-sign continuation in this module.",
+      "ordinary_word_boundaries": "Terms remain separate lexical words or explicitly delimited name spans. A derived predicate is one word. No entire sentence is packed into one word and no invisible source boundary is needed."
+    },
+    "meaning_rules": [
+      {
+        "form": "Q",
+        "arity": 1,
+        "interpretation": "Assert Q(x) at the declared present reference time. The absence of past is a fixed present-tense default, not an optional cost-free alias."
+      },
+      {
+        "form": "Q~anti, inside a following ~be or ~ca only",
+        "arity": "unary property intermediate, not a complete predicate word",
+        "interpretation": "Use the complementary state NOT(Q(x)) as the input of the following change/causation operation. This is logical property negation, not an invented lexical antonym such as equating not-tired with rested. A plain negative-state sentence instead uses Q~not."
+      },
+      {
+        "form": "Q[~anti]~be",
+        "arity": 1,
+        "interpretation": "Assert an actual transition of the written participant x from not-P to P, where P is Q or its explicitly marked complement. No cause or agent is supplied."
+      },
+      {
+        "form": "Q[~anti]~ca",
+        "arity": 2,
+        "argument_order": ["written causer a", "written affected participant x"],
+        "interpretation": "Assert that a causes an actual transition of x from not-P to P. This is successful causation, not an attempt, permission or command. The causer and affected participant may be identical when the declared property/domain permits it."
+      },
+      {
+        "form": "past~PREDICATE",
+        "interpretation": "The state or transition is placed in past time. The exact event date is not invented; a source requiring one lies outside this minimal tense contract until an explicit time phrase is added under a new grammar."
+      },
+      {
+        "form": "PREDICATE~not",
+        "interpretation": "Negate the complete positive state/transition/causation assertion with the written participants and tense. NOT(CAUSE(a,BECOME(Q(x)))) does not assert NOT(Q(x)) or name another cause."
+      }
+    ],
+    "writing_by_hand": [
+      "Choose the ordinary property actually stated, and keep its learned root unchanged.",
+      "Write the one participant for a state/change, or the causer followed by the affected participant for causation. Spell every unfamiliar name in full; do not choose a hidden referent from the preceding message.",
+      "Add past only for a past assertion; add anti only when the property inside a following change/causation is complemented; add be for an actual onset or ca for actual caused onset; add not only when the complete assertion is denied.",
+      "Write the visible sentence-ending full stop. The same process handles an unseen combination of a known root, known grammar and a new written name without adding a new derived-word entry."
+    ],
+    "reading_by_hand": [
+      "Locate the sentence boundary outside quotes. Parse the final predicate's escaped root and ordered operations.",
+      "Retrieve that root's one learned property and apply anti if written. Read be as one-participant transition or ca as two-participant causal transition; otherwise read one-participant state.",
+      "Bind the written terms in the fixed order. Apply the written tense and outer not. Do not infer a source actor, completed state or implicit noun beyond those operations."
+    ],
+    "complete_invented_message": {
+      "message": "Ada past~müde~be. Bero Ada past~müde~ca~not. Bero \"Ilara-Ven\" past~müde~anti~ca.",
+      "readback": [
+        "Ada became tired.",
+        "Bero did not cause Ada to become tired. This does not undo the first sentence or assert that Ada was not tired.",
+        "Bero caused Ilara-Ven to pass from tired to not tired. No synonym such as healthy, awake or rested is inserted. The unfamiliar personal name is retained literally."
+      ],
+      "scope": "Three separate assertions with their written past tense, participants and negation scope. No causal link between the first two is silently added and no narrative event order beyond written assertion order is asserted.",
+      "synthetic_only": "The German root and person names are teaching values for this invented language, never values assigned to native manuscript words."
+    },
+    "manual_contrasts": [
+      {
+        "pair": ["Ada müde.", "Ada müde~be."],
+        "difference": "A present state does not by itself assert a transition from not tired."
+      },
+      {
+        "pair": ["Ada past~müde~be.", "Bero Ada past~müde~ca."],
+        "difference": "The second asserts a written causer; the first leaves causation unasserted."
+      },
+      {
+        "pair": ["Bero Ada past~müde~ca~not.", "Bero Ada past~müde~anti~ca."],
+        "difference": "Failure to cause tiredness and successful causation of the complementary state differ. The two forms must never be merged merely to shorten words."
+      },
+      {
+        "pair": ["Ada Ada past~müde~ca.", "Bero Bero past~müde~ca."],
+        "difference": "Whole adjacent repeated participant words are legal for different names. They are not repeated grammatical operators, and no compulsory common repeat header is used. Their physical spellings are not fixed here."
+      }
+    ],
+    "costs": {
+      "learned_vocabulary": "Every independent property root and ordinary referential term remains learned vocabulary. Open vocabulary does not mean zero lexical cost. New names cost their full literal spelling; new concepts need a shared definition.",
+      "grammar": "Six written roles: past, anti, be, ca, not, and sentence closure; a fixed order and two arities. Tilde separation, quotation and backslash escaping are also written infrastructure, not free punctuation.",
+      "memory": "No counter, previous-letter state, frequency rank, root cache or hidden paragraph reset. The reader retains the current one/two participant terms until the final predicate and ordinary quotation state.",
+      "physical_unpaid": "The complete22-sign mapping, root/affix boundary encoding, punctuation, quoted names and overwide-word continuation have not been designed. This is not a selected physical writer, and the Latin teaching strings are not a substitute for those costs."
+    },
+    "known_countercases_and_obligations": [
+      "BECOME is already present in B6; no novelty or semantic confirmation follows from writing it again. The difference here is an open learned property family and explicit causal argument promotion with two paid negation scopes.",
+      "IDEA772's old causative suggestion cannot donate a native q/d function, a base meaning, an agent or a result. None is used here.",
+      "IDEA414's exact surface concatenations were insufficient without shared semantic functions and binding. The source lesson above supplies explicit functions, but supplies no native binding or completion of that old Balneis account.",
+      "A claim such as make-red is not interchangeable with intend-to-make-red, allow-red or keep-red. Those inputs are outside the frozen derivation and cannot be forced into it.",
+      "Property complement need not be a known lexical opposite: not warm is not automatically cold. The literal anti rule must survive that counterexample.",
+      "The two-argument cause form cannot be used as a universal predicate suffix when no written causer exists. A passive/unknown-agent convention would need a new explicitly paid rule.",
+      "GDT1046 warns against hidden type recycling: this grammar does not apply be/ca a second time to its event output. A lexical word repetition in separate argument positions is a different operation.",
+      "The new1224 six-final-category stop and1193 three-medial-category stop are conditional physical architecture limits. This module imposes neither universal cap but does not yet provide a22-sign realization that satisfies the known native forms.",
+      "No whole historical source is covered here and no favorable type, length, q/o, final-y or neighbor-repetition statistics are claimed."
+    ],
+    "smallest_falsifier": "Before any corpus work, a proposed physical realization must let a table-only human reader distinguish the four source-side state/change/caused-change/negated-cause messages above, bind every written participant, and preserve the anti-versus-not contrast for at least two independently learned roots and an unseen fully written name. This would be a readability/design gate only, not evidence of Voynich meaning or statistical compatibility.",
+    "decision_boundary": "The current module can be retained RAW as a concrete alternative to a fixed tiny universal root inventory. It cannot yet select a source-writing statistics run. A failure to pay the physical carrier or broader historical content must remain an incomplete design, not be repaired with extra native values.",
+    "pre_registration_self_check": "Before ideas add and without any data/counts, a wording defect was removed: standalone Q~anti would duplicate Q~not while the draft denied free aliases. In the frozen grammar anti is only an intermediate property operator before be/ca. This is a source-side grammar correction, not a native countercase repair or evidence of a successful writer."
+  },
+  "other_existing_mechanisms_reviewed_not_new_cards": [
+    {
+      "id": "IDEA000913",
+      "mechanism": "Material root to material-using action.",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/abbreviated_action_material_derivation.json",
+      "closest_executed_constructor": "research_registry/proposals/production_origin_supply_20261003/B6_7_PRODUCTIVE_STEMS.md, APPLY rule",
+      "hand_message": "Ada APPLY[salt] broth. Bero TAKE salt.",
+      "readback": "Ada applies salt to broth. Bero takes salt. The first occurrence is a material-derived activity; the second is the material argument of a separately learned verb.",
+      "cost": "Learn salt/broth/take and the APPLY construction, retain both written participants and sentence scope; the teaching brackets and full spelling must be paid by any actual script.",
+      "strongest_limit": "This semantic operation is already implemented in B6, while913 specifically waits for a separately fixed abbreviation channel.1175's literal cost and1214's fixed parser failure remain. Therefore no new card or unchanged next test is nominated."
+    },
+    {
+      "id": "IDEA000876",
+      "mechanism": "Recursive material-plus-operation product names.",
+      "primary": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_RAW_MATERIAL_PROCESS_PRODUCT_GENEALOGY_20261002.json",
+      "later_primaries": [
+        "experiments/yolo/gdt1137_material_process_type_return/REPORT.md",
+        "experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md",
+        "experiments/yolo/gdt1147_complete_return_context_capacity/REPORT.md"
+      ],
+      "hand_message": "STORE PRODUCT(HEAT,water). DO_NOT_STORE PRODUCT(HEAT,oil).",
+      "readback": "Store a product of heating water. Do not store a product of heating oil. These are two distinct type descriptions, not assertions that a particular heating event occurred or that a prior physical batch is being resumed.",
+      "cost": "Learn ordinary materials and process words, a product nominalization rule, argument order and its written boundaries, plus ordinary imperative/negation grammar. An exact batch reference must be separately named or bound; type identity is not batch identity.",
+      "strongest_limit": "Already exercised as a native conditional construction.1137's local positive survives,1146's immediate-right transfer fails and1147 does not supply the required earlier producer chain. The historical source does not prove transparent morphology of its actual product names. No unchanged876 test is proposed."
+    }
+  ],
+  "primary_review": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "context topic Wortzusammensetzung",
+    "research_registry/proposals/production_origin_supply_20261003/B6_7_PRODUCTIVE_STEMS.md",
+    "research_registry/proposals/production_origin_supply_20261003/B6_7_PRODUCTIVE_STEMS.py, ROWS/BUILD declarations only",
+    "experiments/yolo/gdt1175_fixed_writer_b6_8_transfer/REPORT.md",
+    "research_registry/work_batches/ten_hours_20260915/BALNEIS_414_F83R2530_COMPOSITION_AUDIT_20260920.md",
+    "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/CLOCK_DOM_EXTENSION.md",
+    "experiments/yolo/gdt1046_f85_faculty_nominalizer_consequences/REPORT.md",
+    "experiments/yolo/gdt1147_complete_return_context_capacity/REPORT.md"
+  ],
+  "navigation_and_limits": {
+    "bounded_searches": ["productive derivation nominalization causative compound open vocabulary", "causative valency", "nominalization", "incorporation", "inchoative", "causative", "state change predicate"],
+    "duplicate_query": "unary property inchoative causative valency lexical derivation",
+    "route_query": "productive derivation nominalization causative open vocabulary",
+    "lookups_with_followups": ["GDT1046", "GDT1137", "GDT1146"],
+    "read_idea_cards": ["IDEA000564", "IDEA000876", "IDEA000913", "IDEA000772", "IDEA000414"],
+    "empty_search_limit": "The empty inchoative search was followed by causative and state-change primaries. It is not evidence that the subject was absent from previous work.",
+    "not_a_full_review": "No full register scan and no assertion of universal novelty. Existing raw and rejected contracts retain their statuses."
+  },
+  "access": "Own RAW document and optional ideas add only; no source/native counting, image, decoder, encoder execution, new corpus, web, other agent, root artifact, route, state, ledger, metadata refresh, commit or publication."
+}

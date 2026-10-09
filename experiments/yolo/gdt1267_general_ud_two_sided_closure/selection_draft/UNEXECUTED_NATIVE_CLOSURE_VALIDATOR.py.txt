@@ -1,0 +1,94 @@
+import gzip,json,re,sys,itertools
+from pathlib import Path
+from collections import defaultdict
+P=Path(__file__).resolve().parents[1];ROOT=P.parents[2]
+ALPHA=set('a o e i n d q y s r l m k t p f ch sh ckh cth cph cfh'.split())
+def check_certificate(payload,word_events):
+    nodes={tuple(n['units']):n for n in payload['nodes']};assert len(nodes)==len(payload['nodes'])
+    initial={w for w,n in nodes.items() if n['round']==0};assert initial==set(word_events)|{()}
+    supports={}
+    for w,n in sorted(nodes.items(),key=lambda kv:(kv[1]['round'],kv[0])):
+        if n['round']==0:
+            assert n['parents'] is None
+            assert n['source_occurrences']==word_events.get(w,[])
+            supports[w]={w} if w else set()
+        else:
+            a,b,c,d=[tuple(v) for v in n['parents']]
+            assert w and a+w==b and w+d==c
+            assert all(v in nodes and nodes[v]['round']<n['round'] for v in (a,b,c,d))
+            supports[w]=set().union(*(supports[v] for v in (a,b,c,d)))
+    # Independently certify fixed-point completeness: collect missing suffixes
+    # at known prefix cuts, then reject any whose opposite cut is also supported.
+    missing=set()
+    for w in nodes:
+        for j in range(len(w)):
+            if w[:j] in nodes and w[j:] not in nodes:missing.add(w[j:])
+    for w in nodes:
+        for j in range(1,len(w)+1):
+            assert not(w[:j] in missing and w[j:] in nodes)
+    return nodes,supports
+
+def controls():
+    # Independent finite proof of the lemma on explicit unique parse lists.
+    # This is not used to classify any native target.
+    tables=[['a','ab'],['a','ab','bba'],['ab','ba'],['a','bb'],['aa','ab','b']]
+    tested=0
+    for raw in tables:
+        C=[tuple(s) for s in raw]; parses={():()}
+        for n in range(1,5):
+            for seq in itertools.product(range(len(C)),repeat=n):
+                w=sum((C[i] for i in seq),())
+                if w in parses:assert parses[w]==seq
+                parses[w]=seq
+        for xy,seq in parses.items():
+            for i in range(len(xy)):
+                x,y=xy[:i],xy[i:]
+                if x not in parses:continue
+                for yz in parses:
+                    if yz[:len(y)]!=y:continue
+                    z=yz[len(y):]
+                    if z not in parses:continue
+                    first=parses[x]+parses[yz];second=seq+parses[z]
+                    # These particular concatenations must have identical lists.
+                    assert first==second
+                    assert first[len(parses[x]):len(seq)]
+                    assert sum((C[k] for k in first[len(parses[x]):len(seq)]),())==y
+                    tested+=1
+    return dict(explicit_tables=len(tables),four_premise_instances=tested)
+
+def main():
+    groups=json.loads(gzip.decompress((ROOT/'experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz').read_bytes()))
+    result=json.loads((P/'artifacts/RESULT.json').read_text());summaries={(r['reader'],r['panel']):r for r in result['panels']};assert len(summaries)==6
+    total=0;proofs=0
+    for reader,gs in groups.items():
+        all_events=defaultdict(list)
+        for g in gs:
+            assert not g['page'].startswith('f84')
+            all_events[tuple(g['units'])].append(dict(id=g['id'],page=g['page'],leaf=int(re.search(r'\d+',g['page'])[0])))
+        for panel in ['FULL','TWO_LEAF']:
+            events={w:ev for w,ev in all_events.items() if panel=='FULL' or len({e['leaf'] for e in ev})>=2}
+            packet=json.loads(gzip.decompress((P/f'artifacts/CERTIFICATE_{reader}_{panel}.json.gz').read_bytes()));assert packet['reader']==reader and packet['panel']==panel
+            nodes,supports=check_certificate(packet,events);total+=len(nodes);proofs+=len(nodes)-len(events)-1
+            r=summaries[(reader,panel)]
+            forced=sorted(u for u in ALPHA if (u,) in nodes)
+            assert r['forced']==forced and r['not_forced']==sorted(ALPHA-set(forced))
+            assert not(set(forced)&{'cfh','cph','q'}),'Contradicts known1248completeUDcountermodels'
+            assert r['kes_forced']==set('kes').issubset(forced)
+            assert r['closure_nodes']==len(nodes) and r['source_types']==len(events) and r['source_groups']==sum(map(len,events.values()))
+            assert r['rounds']==max(n['round'] for n in nodes.values())
+            for u in forced:
+                expected=[dict(units=list(w),count=len(events[w]),physical_leaves=sorted({e['leaf'] for e in events[w]})) for w in sorted(supports[(u,)])]
+                assert r['proof_support'][u]==expected
+                if panel=='TWO_LEAF':assert all(len(x['physical_leaves'])>=2 for x in expected)
+            if panel=='FULL':assert tuple('keeees') in events
+    old=json.loads((ROOT/'experiments/yolo/gdt1240_prefix_expansion_fourth_power/artifacts/RESULT.json').read_text())
+    assert len(old['sources'])==5 and all(x['supporting_tokens']==0 for x in old['sources'].values())
+    extends=all(r['kes_forced'] for (reader,panel),r in summaries.items() if panel=='FULL')
+    assert result['source_exclusion_extended']==extends
+    assert result['status']==('GENERAL_UD_FIXED_SOURCE_EXCLUSION_EXTENDED' if extends else 'PARTIAL_UD_OBLIGATIONS_ONLY')
+    out=dict(status='PASS',panels=6,certificate_nodes=total,four_parent_derivations=proofs,source_census='inherited1240hash-bound result, not rerun',algorithm='check source leaves, sound four-parent derivations and complete fixed point; no primary imports')
+    (P/'artifacts/VALIDATION.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out))
+if __name__=='__main__':
+    if '--controls' in sys.argv:
+        out=controls();(P/'artifacts/VALIDATOR_CONTROLS.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out))
+    else:main()

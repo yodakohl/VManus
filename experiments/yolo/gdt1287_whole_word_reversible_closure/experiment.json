@@ -1,0 +1,134 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact whole-word natural completion before reset, fixed bijective22unit actions and nontrivial reachable orbit only; not general encoding or language exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1287_whole_word_reversible_closure/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1287_whole_word_reversible_closure/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT903",
+    "GDT1200",
+    "GDT1233",
+    "GDT1234",
+    "GDT1241",
+    "GDT1286"
+  ],
+  "experiment_id": "GDT1287",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "unchanged whole-group source or old quotient certificate",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt1234_prefix_quotient_code_capacity/artifacts/CERTIFICATE_ZL3b.json.gz",
+      "role": "unchanged whole-group source or old quotient certificate",
+      "sha256": "8f68d6aa01e932d118bc628c90a3de6df9952ae7313d2e9c786ac0bb8173522b"
+    },
+    {
+      "path": "experiments/yolo/gdt1241_suffix_quotient_expansion/artifacts/CLOSURE_ZL3b.json.gz",
+      "role": "unchanged whole-group source or old quotient certificate",
+      "sha256": "c555c7e5ca2402687306817fde62e1552248760316788a4915bce6258e801ead"
+    },
+    {
+      "path": "experiments/yolo/gdt1234_prefix_quotient_code_capacity/artifacts/CERTIFICATE_IT2a.json.gz",
+      "role": "unchanged whole-group source or old quotient certificate",
+      "sha256": "e1e52f91f3ff5f776c59cd7d6d7a91780d9d0e0ae2ba9c2161734b0b287631f1"
+    },
+    {
+      "path": "experiments/yolo/gdt1241_suffix_quotient_expansion/artifacts/CLOSURE_IT2a.json.gz",
+      "role": "unchanged whole-group source or old quotient certificate",
+      "sha256": "78fcbb161c571df6b37c16c7b571ea707c1c4685f6b674f643ecd5eafb4b12b3"
+    },
+    {
+      "path": "experiments/yolo/gdt1234_prefix_quotient_code_capacity/artifacts/CERTIFICATE_RF1b.json.gz",
+      "role": "unchanged whole-group source or old quotient certificate",
+      "sha256": "ba1143e208fcc6f7c112fa1b79a99effadac626e9d2da795206481f05b06c7dd"
+    },
+    {
+      "path": "experiments/yolo/gdt1241_suffix_quotient_expansion/artifacts/CLOSURE_RF1b.json.gz",
+      "role": "unchanged whole-group source or old quotient certificate",
+      "sha256": "7d17d0bda967a293995fa7b285e2fd49ef3019986e0297e8c10db2b173194ca0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "9ecf0003fca87d8068c82209566adc7380975cf02aaff74e8ece090e71fbfd67"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "9ecf0003fca87d8068c82209566adc7380975cf02aaff74e8ece090e71fbfd67"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "19e822d19eb001c3566b74857a07338d2652dd9132fb62a19a00dfe05a1f502f"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/REPORT.md",
+      "role": "primary_report",
+      "sha256": "4a53bf38e43e925ffc858d14209417283580446a436f6b9b7a1c3f3921481c14"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/artifacts/FIXTURES.json",
+      "role": "reproducibility artifact",
+      "sha256": "2d6af1419f68ff56f64bfc35faa845a268016ebb99994e3ff3d6217e0eb68f53"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/artifacts/PROOFS.json",
+      "role": "reproducibility artifact",
+      "sha256": "05030c96654efa499f90d61c603bce319c6dfbcfa95b49fff6f5885afa62c8c0"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "e3d0d1a7b8909be9e9c5b3ef297a9aed790389c58cb8b9c1f69e7d2646011c62"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "b940f902182baff18c7d95bd6430f7ef34b9e626c8c9094165c0361d72e28e1e"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "4193d2062961bfb3a97edd0242319c10d7f017321e197a0a515a85c33658fd50"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "b0a63027ddf9fdba07adb95ab07729eae565d27644ed75b4958556f915f2113a"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "50896cdb0068fcc502f10373d5917463240a612bf6e43fd4bb2af7070840451a"
+    }
+  ],
+  "question": "Do the old whole-word square and left/right quotient certificates exclude every nontrivial fixed reversible common-start/common-natural-end word action?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "whole_word_reversible_closure",
+  "status": "ALL_READERS_REVERSIBLE_WORD_COMPLETION_EXCLUDED",
+  "title": "Old-word certificate bridge for reversible natural completion",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1287_whole_word_reversible_closure/artifacts/VALIDATION.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "SOURCE_FREE_CONSEQUENCE_VALID_WITH_GROUP_BINDING",
+  "ownership": "Root proposed the local control-window consequence. bounded_idea_supply checked it against the frozen976 continuation and field rules. No native payload, count, image or result was inspected.",
+  "contract": "research_registry/proposals/production_origin_supply_20261003/CANONICAL_VOICE_NOTE_RAW_20261007.json",
+  "fixed_control_set": [["q", "y"], ["q", "sh"], ["q", "k"], ["q", "i"], ["q", "t"]],
+  "logical_lemma": "Each logical clause is three nonempty payload groups followed by one of four END groups. Therefore every maximal run of logical groups containing no END has length at most three, including across clause boundaries.",
+  "continuation_lemma": [
+    "A normal physical wrap between complete logical groups changes no group in their linear order.",
+    "An overwide payload group with b>=1 breaks becomes F0,C,C,F1,...,C,C,Fb in the physical group stream, where the paired continuation markers C occur at the preceding line end and following line start. Each fragment is nonempty. A middle fragment line has C,Fj,C.",
+    "Before F0 there can be at most the other earlier payload groups of its logical three-payload clause block; after Fb at most the other later payload groups of that block. Replacing one payload by its first or last fragment therefore cannot enlarge an uninterrupted noncontrol run beyond three. Internal fragments are separated from other fragments by continuation controls.",
+    "END is two working units long and W>=7, so END is never split under the frozen overwide-group rule. There is no hidden or omitted clause end.",
+    "Hence, after every permitted physical wrapping, every maximal run without one of the five control forms still has length at most three. This concerns actual physical word groups, including fragments and both continuation markers."
+  ],
+  "local_consequence": "Every four consecutive physical groups contain at least one member of the fixed five-form control set. The same is true for every genuine contiguous four-group window wholly contained in one physical line. A cropped observation does not have to include the complete source message or paragraph, provided none of the four physical groups or intervening groups is omitted.",
+  "disjoint_window_certificate": [
+    "For a window W, let V(W) be the set of exact complete physical group forms appearing in its four positions. Repetition within a window merely makes this set smaller.",
+    "Suppose six windows W1,...,W6 have pairwise disjoint V(Wj). A set of at most five exact control forms cannot intersect all six sets: a single form can belong to at most one of the disjoint sets. At least six different control forms would be required.",
+    "A single global bijective renaming of working units preserves exact whole-form equalities, inequalities and the five-member size of the control set. Therefore the six-window certificate excludes every such renaming of976's fixed marker architecture.",
+    "The certificate is generous: it permits any five whole-form controls, ignoring that the actual five controls are two units long, share one first unit and have fixed roles. A negative certificate for this relaxation is sufficient for the fixed architecture."
+  ],
+  "limits": [
+    "Bind four actual consecutive physical groups with their boundaries. Selecting four surviving groups after dropping rare, uncertain, punctuation or non-P groups is not enough if an omitted control could lie between them.",
+    "Do not pool alternate transcriptions to obtain six mutually disjoint windows. Each claimed exclusion must have a coherent exact-form certificate within its own reading.",
+    "A finite crop inherits the local property; it does not justify the earlier aggregate complete-message Top5>=P/4 comparison on arbitrary cropped populations.",
+    "Failure to find six disjoint windows does not establish a five-form hitting set. Pairwise disjointness is a sufficient contradiction certificate, not a complete algorithm for all hitting-set obstructions.",
+    "Even a five-form hitting set would not prove the actual control spelling, the legal clause grammar, the source meaning, an alphabet, or a complete native writer.",
+    "Multiple independent marker keys, untranscribed or non-word controls, different group boundaries, optional END omission or unmarked splitting would change the frozen contract. None is introduced as a repair.",
+    "The RAW976 bytes remain unchanged. This note checks only a mathematical consequence; root owns predecessor selection, any prospective experiment and any native evidence."
+  ]
+}

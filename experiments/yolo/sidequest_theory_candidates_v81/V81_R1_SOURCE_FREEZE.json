@@ -1,0 +1,65 @@
+{
+  "schema": "V81_R1_PHASE1_SOURCE_FREEZE_V1",
+  "role": "R1",
+  "phase": 1,
+  "status": "FROZEN_BEFORE_V81_TARGET_MANIFEST",
+  "target_manifest_opened": false,
+  "frozen_at_utc": "2026-08-22T15:27:22Z",
+  "historical_key_identity": "ESTE_MODENA_MO1_1435-06-23_UGUTIONI_DE_ABBATIA",
+  "row_count": 6,
+  "row_ids": [
+    "R1-MO1-001",
+    "R1-MO1-002",
+    "R1-MO1-003",
+    "R1-MO1-004",
+    "R1-MO1-005",
+    "R1-MO1-006"
+  ],
+  "inventory": {
+    "path": "experiments/yolo/sidequest_theory_candidates_v81/V81_R1_SOURCE_INVENTORY.tsv",
+    "sha256": "9ef4d4e265aa2d39042773b2ffa91a82e01787dfcff93e1a5ab88fc189eeb549",
+    "data_rows": 6
+  },
+  "source_report": {
+    "path": "experiments/yolo/sidequest_theory_candidates_v81/V81_R1_SOURCE_REPORT.md",
+    "sha256": "0eed2a082f791ba78cc7b2f7d09239bae93b7009aafd568e707303bb9ed41ebe"
+  },
+  "source_objects": [
+    {
+      "kind": "complete_documentary_edition_scan",
+      "citation": "Aloys Meister, Die Anfänge der modernen diplomatischen Geheimschrift (Paderborn: Ferdinand Schöningh, 1902)",
+      "stable_record": "urn:nbn:de:hbz:6:1-143638",
+      "url": "https://sammlungen.ulb.uni-muenster.de/download/pdf/3075984.pdf",
+      "bytes": 17927155,
+      "sha256": "8cc91d4ed9ba4c7bf0ca6be46f2cc2d30e9a217366ff34d7d4ab02bfeb688cd6"
+    },
+    {
+      "kind": "exact_edition_page_image",
+      "printed_page": 35,
+      "stable_page_locator": "https://sammlungen.ulb.uni-muenster.de/hd/content/pageview/3076041",
+      "url": "https://sammlungen.ulb.uni-muenster.de/hd/download/webcache/2000/3076041",
+      "bytes": 590651,
+      "pixel_dimensions": "2000x2617",
+      "sha256": "fc91ed09a987b80d3ac9875c657f6fc62ab006288db476c25fe30d10ea5eec29"
+    }
+  ],
+  "archive_provenance_as_cited": {
+    "repository": "Modena, Staatsarchiv",
+    "collection": "Cancellaria Ducale, Archivio proprio",
+    "item": "Canc. duc. Arch. proprio Mappe II. Nr. 1",
+    "edition_pointer": "Meister 1902, p. 35, Modena example 1 and n. 3",
+    "date_iso": "1435-06-23",
+    "place": "Milano",
+    "recipient": "Ugutioni de Abbatia, segretario ill. dom. Marchionis Extensis"
+  },
+  "blinding": {
+    "v80_artifacts_opened": false,
+    "v81_target_or_card_manifest_opened": false,
+    "voynich_occurrence_tables_opened": false,
+    "sibling_outputs_opened": false,
+    "voynich_pages_images_or_transcriptions_opened": false,
+    "f84_opened": false,
+    "f84r_opened": false
+  },
+  "freeze_note": "Six exact source-language entry-to-code rows were fixed from the historical source before any V81 target reveal; ambiguous graphical rows were excluded rather than normalized or inferred."
+}

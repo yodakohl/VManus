@@ -1,0 +1,113 @@
+{
+  "artifact": "oy_reader_suitability",
+  "status": "CONDITIONAL_SOURCE_READY_NO_RUN",
+  "scope": "Read-only suitability audit for the registered GDT872 directional whole-pair profile; no manuscript payload was opened and no data run was performed.",
+  "target_contract": {
+    "pairs": "cheor/sheor and cheo/sheo anchors plus the nine other disjoint GDT762 pair strata; exact whole surfaces only.",
+    "observations": "within/across strict source paragraphs, directed lags 3–8 and near lags 1–2.",
+    "claim_ceiling": "descriptive raw-group/paragraph position profile; no lexeme, translation, semantic direction, or authorial meaning."
+  },
+  "findings": [
+    {
+      "issue": "GDT807 reader basis",
+      "finding": "load_corpus orders normalized ZL3b cleaned tokens by token_index, checks line/token/cross-reader parity, and exposes strict paragraph membership. Its indices are cleaned reader token ordinals; they are not raw authorial-group positions or raw whole boundaries."
+    },
+    {
+      "issue": "all-three presence",
+      "finding": "GDT807 cross-reader fields all_three_present/all_present_exact are line-level presence fields. They do not establish position parity, ordered raw groups, or exact whole identity."
+    },
+    {
+      "issue": "GDT868 reuse",
+      "finding": "GDT868 supplies the correct source-group contract and full-line parity gates: source_group_index/count, separators, fragments, legacy positions, and complete clean-line equality. Its published scope is only the fixed 1,777 CORE13 events/1,403 focal loci, so its result cannot be generalized to GDT872 pairs."
+    },
+    {
+      "issue": "GDT762 pair status",
+      "finding": "GDT762 explicitly calls DRY_SIDE/MOIST_SIDE analyst labels rather than decoded EVA meanings; the eleven pair strata are a bounded whole-form comparison universe, suitable as navigation and pair labels only."
+    }
+  ],
+  "smallest_reuse": {
+    "reuse": "Reuse GDT807 strict paragraph construction and fold/paragraph identifiers for paragraph scope; add a guarded selector-first source-group projection modeled on GDT868 for every GDT872 candidate locus.",
+    "required_fields": [
+      "page",
+      "locus",
+      "edition",
+      "source_group_id",
+      "source_group_index",
+      "source_group_count",
+      "left_separator",
+      "right_separator",
+      "ivtff_group_raw",
+      "clean_ascii_fragments",
+      "clean_ascii_fragment_count",
+      "legacy_surface_positions_1based",
+      "legacy_mapping_status"
+    ],
+    "preclassification_gate": "For each candidate line and all three readings, reconstruct the complete ordered raw-group row and require exact full-line fragment/clean-vector parity before assigning candidate position or lag. Exclude or separately flag NORMALIZED_WHOLE and CLEANER_FRAGMENT; never call cleaned token lag raw-manuscript lag.",
+    "position_definition": "Use source_group_index within a parity-passing line for raw-group order; use strict paragraph IDs from GDT807 for paragraph scope. Keep cross-reader all_present_exact as a separate availability flag."
+  },
+  "decision": "Do not run the scaffold as currently written. It becomes source-suitable after the guarded raw-group projection and GDT868-style full-line parity gate are added. No new image, transcription admission, or meaning evidence is needed for this source-contract repair.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/METHOD.md",
+      "line": 10,
+      "line_end": 12,
+      "quote": "The pair sides are working hypotheses, not decoded lexemes. In particular,\n`DRY_SIDE` and `MOIST_SIDE` are analyst labels inherited from earlier\nwhole-form experiments; they do not assign meanings to EVA characters.",
+      "sha256": "3627834739c448e79839bea14f7b84bd690e05acea8ebb4551c872ba0b842c4e"
+    },
+    {
+      "path": "experiments/yolo/gdt762_moist_medium_candidate_discrimination/METHOD.md",
+      "line": 25,
+      "line_end": 28,
+      "quote": "No new Voynich page, image, transcription, or OCR output is opened. The loader\nselects only the inherited allow-list before retaining row content and reports\n4,137 selected rows, 98 forbidden rows skipped, and 1,150 non-allowed rows\nskipped. `f84` and `f84r` remain forbidden.",
+      "sha256": "3627834739c448e79839bea14f7b84bd690e05acea8ebb4551c872ba0b842c4e"
+    },
+    {
+      "path": "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/src/run.py",
+      "line": 350,
+      "line_end": 365,
+      "quote": "    line_rows, line_stats = guarded_query(\n        LINES_RAW, pages,\n        (\"page\", \"locus\", \"line_number\", \"section\", \"language\", \"hand\",\n         \"paragraph_start\", \"paragraph_end\", \"token_count\", \"eva_clean\"),\n        \"ZL3B_LINES_179\",\n    )\n    token_rows, token_stats = guarded_query(\n        TOKENS_RAW, pages,\n        (\"page\", \"locus\", \"token_index\", \"eva\", \"section\", \"language\", \"hand\"),\n        \"ZL3B_TOKENS_179\",\n    )\n    cross_rows, cross_stats = guarded_query(\n        CROSS_RAW, pages,\n        (\"page\", \"locus\", \"all_three_present\", \"all_present_exact\",\n         \"zl3b_clean\", \"it2a_clean\", \"rf1b_clean\"),\n        \"CROSS_READER_LINES_179\",",
+      "sha256": "1f1b723b1bae896787211abfc5e1e1451ebd44858d77e0845d18b67feb1b533e"
+    },
+    {
+      "path": "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/src/run.py",
+      "line": 367,
+      "line_end": 400,
+      "quote": "    if (len(line_rows), len(token_rows), len(cross_rows)) != (\n        EXPECTED[\"source_lines\"], EXPECTED[\"source_tokens\"], EXPECTED[\"source_lines\"],\n    ):\n        raise RuntimeError(\"guarded source cardinality drift\")\n    line_by_key = {(row[\"page\"], row[\"locus\"]): row for row in line_rows}\n    cross_by_key = {(row[\"page\"], row[\"locus\"]): row for row in cross_rows}\n    if len(line_by_key) != len(line_rows) or len(cross_by_key) != len(cross_rows):\n        raise RuntimeError(\"line/cross key duplication\")\n    if set(line_by_key) != set(cross_by_key):\n        raise RuntimeError(\"line/cross key-set mismatch\")\n    token_by_line: defaultdict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)\n    token_keys: set[tuple[str, str, int]] = set()\n    for row in token_rows:\n        key = (row[\"page\"], row[\"locus\"], int(row[\"token_index\"]))\n        if key in token_keys:\n            raise RuntimeError(f\"duplicate token key: {key}\")\n        token_keys.add(key)\n        token_by_line[(row[\"page\"], row[\"locus\"])].append(row)\n    for rows in token_by_line.values():\n        rows.sort(key=lambda row: int(row[\"token_index\"]))\n        if [int(row[\"token_index\"]) for row in rows] != list(range(1, len(rows) + 1)):\n            raise RuntimeError(f\"noncontiguous token ordinals at {rows[0]['locus']}\")\n\n    lines: list[Line] = []\n    token_stability: dict[tuple[str, str, int], int] = {}\n    ordered_rows = sorted(\n        line_rows, key=lambda row: (selector_sort_key(row[\"page\"]), int(row[\"line_number\"])),\n    )\n    for row in ordered_rows:\n        key = (row[\"page\"], row[\"locus\"])\n        tokens = tuple(token[\"eva\"] for token in token_by_line.get(key, []))\n        cross = cross_by_key[key]\n        if \" \".join(tokens) != row[\"eva_clean\"] or row[\"eva_clean\"] != cross[\"zl3b_clean\"]:\n            raise RuntimeError(f\"line/token/cross parity mismatch at {row['locus']}\")",
+      "sha256": "1f1b723b1bae896787211abfc5e1e1451ebd44858d77e0845d18b67feb1b533e"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/METHOD.md",
+      "line": 3,
+      "line_end": 9,
+      "quote": "This is a retrospective deterministic audit of the unchanged1777GDT808 events\nused by GDT865, not a new significance test, learned decoder or model refit.\nGDT808's unique-forced LCS and rank stability operate on clean token vectors.\nThe atlas maps raw groups to an older interlinear vector, so its positions\ncannot be assumed identical to the current clean vectors without full-line\nparity. GDT819 performed that comparison for a different small local panel;\nno checked primary report has performed it for this entire fixed event set.",
+      "sha256": "ec484883cf1f5cfaa2cc0eebe12c0ce3c5e32f2ea1f8725f6bdc9b6d676a320a"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/METHOD.md",
+      "line": 21,
+      "line_end": 37,
+      "quote": "## Gates before classification\n\n1. Require exactly1777unique event IDs and unchanged carrier/axis/surface/page/\n   locus/token_index against865. Read the three position fields from808,\n   preserving the recorded IT/RF1-based unique-LCS ordinals.\n2. For every focal(page,locus) and all three readings, reconstruct the complete\n   ordered source-group row. Require indices1..n, consistent declared group\n   counts, fragment counts and ZERO/ONE/MULTI_ASCII_FRAGMENT statuses,\n   consecutive comma-separated legacy token positions, and adjacent separator\n   agreement. Do not confuse group indices with legacy token positions.\n3. Require the concatenated whitespace-split fragments to equal the full\n   corresponding current cross-reader clean vector, not just the target word.\n   Any mismatch stops the entire mapping audit; no manual offset repair,\n   salvage subset, alignment relaxation or replacement event.\n4. Only after all full lines pass, each stored event position must resolve\n   uniquely and its fragment must exactly equal the fixed event surface.\n   Missing, ambiguous or mismatching source contracts stop without classification.",
+      "sha256": "ec484883cf1f5cfaa2cc0eebe12c0ce3c5e32f2ea1f8725f6bdc9b6d676a320a"
+    },
+    {
+      "path": "experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md",
+      "line": 5,
+      "line_end": 21,
+      "quote": "Of the unchanged1,777CORE13events, **1,767 are exact literal whole raw groups\nin all three readings** (99.44%).1,776 are single source groups in allthree\nreadings, allowing normalization. Exactlyone event is a cleaner fragment in\none reading. This supports the source-group basis of the fixed formal targets;\nit does not validate model features, native wordhood or any meaning.\n\n| Reading | Exact literal raw whole | Normalized single group | Cleaner fragment |\n|---|---:|---:|---:|\n| ZL3b |1768|9|0|\n| IT2a |1776|1|0|\n| RF1b |1774|2|1|\n\nAll4,209full reader-lines (1,403focal loci×three alternate readings) pass\ncomplete atlas-fragment/current-clean sequence parity before target mapping.\nGroup indices, counts, legacy positions and adjacent separators also agree.\nAll5,331fixed target positions map uniquely to the expected clean surface.\nThese are three readings of one manuscript, not independent witnesses.",
+      "sha256": "5b693475afda2190653bb1aab506ffc4db68558d93aac26686cd8acb65c682ea"
+    }
+  ],
+  "source_hashes": {
+    "experiments/yolo/gdt872_whole_pair_directed_profile/METHOD.md": "c2ac720dbc6b1c75360cde678ed8f98489c2216c922f44929f78d0113dfdc458",
+    "experiments/yolo/gdt872_whole_pair_directed_profile/experiment.json": "44e7c9121a1b11c83310935e65767419eca4f0813944f0449e6d4b25c60b8d3a",
+    "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/src/run.py": "1f1b723b1bae896787211abfc5e1e1451ebd44858d77e0845d18b67feb1b533e",
+    "experiments/yolo/gdt868_core13_raw_group_fidelity/METHOD.md": "ec484883cf1f5cfaa2cc0eebe12c0ce3c5e32f2ea1f8725f6bdc9b6d676a320a",
+    "experiments/yolo/gdt868_core13_raw_group_fidelity/REPORT.md": "5b693475afda2190653bb1aab506ffc4db68558d93aac26686cd8acb65c682ea",
+    "experiments/yolo/gdt762_moist_medium_candidate_discrimination/METHOD.md": "3627834739c448e79839bea14f7b84bd690e05acea8ebb4551c872ba0b842c4e"
+  },
+  "limitations": [
+    "GDT868 exact counts concern its fixed CORE13 event set and cannot be used as GDT872 pair coverage.",
+    "A cleaned token sequence can support a descriptive normalized profile, but it cannot be relabeled as raw authorial group order without the added projection and parity gate.",
+    "The directional profile remains descriptive and does not establish that pair sides encode dry/moist meanings."
+  ]
+}

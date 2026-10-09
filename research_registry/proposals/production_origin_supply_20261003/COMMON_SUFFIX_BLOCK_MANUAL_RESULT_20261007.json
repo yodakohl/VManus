@@ -1,0 +1,109 @@
+{
+  "status": "ABSTRACT_INVERSE_AND_CANONICALITY_SUPPORTED_ONLY",
+  "raw_sha256": "ee09344d56bb446e44ae6d29c5959279ab62e1557e1550745ff61564d37f2326",
+  "cases": [
+    {
+      "source": "mahlen kochen sieben",
+      "written": "@{en} mahl koch sieb @}",
+      "readback": "mahlen kochen sieben",
+      "source_characters": 20,
+      "teaching_characters": 23,
+      "net_characters_saved": -3
+    },
+    {
+      "source": "kochen mischen sieben",
+      "written": "@{chen} ko mis @} sieben",
+      "readback": "kochen mischen sieben",
+      "source_characters": 21,
+      "teaching_characters": 24,
+      "net_characters_saved": -3
+    },
+    {
+      "source": "salz salz salz",
+      "written": "@{salz} @0 @0 @0 @}",
+      "readback": "salz salz salz",
+      "source_characters": 14,
+      "teaching_characters": 19,
+      "net_characters_saved": -5
+    },
+    {
+      "source": "holz salz salz salz",
+      "written": "@{lz} ho sa sa sa @}",
+      "readback": "holz salz salz salz",
+      "source_characters": 19,
+      "teaching_characters": 20,
+      "net_characters_saved": -1
+    },
+    {
+      "source": "Wir sehen roten alten Stoff.",
+      "written": "Wir @{en} seh rot alt @} Stoff.",
+      "readback": "Wir sehen roten alten Stoff.",
+      "source_characters": 28,
+      "teaching_characters": 31,
+      "net_characters_saved": -3
+    },
+    {
+      "source": "backpack pack",
+      "written": "@{pack} back @0 @}",
+      "readback": "backpack pack",
+      "source_characters": 13,
+      "teaching_characters": 18,
+      "net_characters_saved": -5
+    },
+    {
+      "source": "heating seating seating seating",
+      "written": "@{eating} h s s s @}",
+      "readback": "heating seating seating seating",
+      "source_characters": 31,
+      "teaching_characters": 20,
+      "net_characters_saved": 11
+    },
+    {
+      "source": "station nation",
+      "written": "@{ation} st n @}",
+      "readback": "station nation",
+      "source_characters": 14,
+      "teaching_characters": 16,
+      "net_characters_saved": -2
+    },
+    {
+      "source": "staring daring",
+      "written": "@{aring} st d @}",
+      "readback": "staring daring",
+      "source_characters": 14,
+      "teaching_characters": 16,
+      "net_characters_saved": -2
+    },
+    {
+      "source": "station",
+      "written": "station",
+      "readback": "station",
+      "source_characters": 7,
+      "teaching_characters": 7,
+      "net_characters_saved": 0
+    }
+  ],
+  "noncanonical": [
+    {
+      "written": "@{en} koch koch @}",
+      "readback": "kochen kochen",
+      "canonical": "@{kochen} @0 @0 @}"
+    },
+    {
+      "written": "@{en} mahl koch @} sieben",
+      "readback": "mahlen kochen sieben",
+      "canonical": "@{en} mahl koch sieb @}"
+    }
+  ],
+  "unclosed_rejected": true,
+  "proof": "Each member p expands to p+s; empty members expand to s. Controls unambiguously scope s in the teaching alphabet. Literal tokens and emitted word order are unchanged.",
+  "first_pair_obligation": "When BOTH of the first two member prefixes are nonempty, they have no nonempty common suffix; otherwise that suffix would belong to the first pair's longer common suffix. Do not skip empty members when identifying the first pair. In particular two identical nonempty first members are noncanonical. Later identical prefixes remain legal.",
+  "ascii_cost": "For n words, suffix length k and z empty prefixes: net characters saved = (n-1)*k - 7 - 2*z, including teaching controls and extra spaces; physical glyph cost is unknown.",
+  "limits": [
+    "Invented examples, exposed design, no historical attestation",
+    "Same-author replay, not independent source recovery",
+    "No 22-sign carrier or native meanings/statistics",
+    "Source paragraph input is normalized per RAW; no diplomatic whitespace recovery",
+    "Paragraph/overwide physical realization not validated by this small replay"
+  ]
+}

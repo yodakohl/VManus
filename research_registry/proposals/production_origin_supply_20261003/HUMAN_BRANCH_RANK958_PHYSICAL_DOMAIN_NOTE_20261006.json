@@ -1,0 +1,8 @@
+{
+  "status": "POST_FREEZE_DOMAIN_LIMIT_DISCLOSED_NO_RULE_OR_CHALLENGE_CHANGE",
+  "raw_sha256": "e12c59b09116b590a61ac482a60a55008f45f37312b9ff9b7721d2196e8dd64d",
+  "issue": "The integer code is algebraically defined for every finite source alphabet, but the fixed24-cell physical continuation rule cannot handle every arbitrarily large alphabet while forbidding cuts inside an integer unit.",
+  "safe_sufficient_scope": "For N<=440, every integer unit has at most22drawings. An initial literal header plus one unit therefore fits the23payload cells available before a continuation. The28-character teaching instance and a possible22-character Hebrew parameter are within this sufficient scope. No Hebrew source or wordbook is selected here.",
+  "explicit_counterexample": "For N=441, an unknown two-character token whose first character has index441 and second has index1 needs1literal-header drawing +23drawings for the first integer +1for the second =25. It is overwide. No first chunk can contain a source-character unit within23payload cells, because the header plus first unit costs24; a header-only continuation is explicitly forbidden. Thus the originally broad physical-completeness assertion fails for this input.",
+  "decision": "Preserve the frozen RAW bytes and report the domain limit. Do not silently split integer units, enlarge the row, change the code or claim completeness for all finite N. The already prepared lesson uses N=28 and its original rules unchanged. This correction concerns a mathematical physical-domain edge case, not a source-count result or native counterexample."
+}

@@ -1,0 +1,126 @@
+{
+  "status": "REJECTED_CONDITIONAL_DIRECT_WRITER_DRAFT; NO_NEW_IDEA_CARD_OR_EXPERIMENT",
+  "started_utc": "2026-10-06 05:48:14 UTC",
+  "finished_utc": "2026-10-06 06:06:06 UTC",
+  "budget_limit_utc": "2026-10-06 06:18:14 UTC",
+  "purpose": "Record a concrete new attempted human word-writing contract, then stop at an inherited local counterexample rather than add exceptions or a quota card. The finite vocabulary, grammatical boundaries, names and line costs below are a teaching construction, not native meanings.",
+  "design_history": {
+    "proposal": "Following952/953, develop local grammatical noun-class agreement rather than subject-number verb agreement or predicate-before-argument prefix grammar. Base lexical words remain unchanged; a property word receives the class of its explicitly parsed noun phrase. Full lexical knowledge, not a numerical address table, supplies word meanings and valency.",
+    "early_announcement": "Root was told before the later857 extraction that nouns/finite verbs were disjoint learned classes, properties used exactly two class prefixes, and q/qq would be whole-name control words rather than guards on every internal q. The class prefixes were a/o and optional negation e; these were not changed to fit a known native beginning.",
+    "exposure_and_correction": "Root reminded the producer of the previously known qokedy triple and chedy qokedy chedy. The literal q-starting triple already contradicted the current draft. The producer retained that contradiction. A targeted read of857's compact existing table then supplied the stronger three-distinct-initial certificate below. No alphabet adjustment, additional class, list rule or lexical exception followed.",
+    "not_preregistered": "This was a bounded conceptual construction, not a preregistered empirical test. The technical name/line interface was being completed during that block. The exact abstract grammar used by the counterproof was already stated; no source or target experiment was run."
+  },
+  "source_domain": {
+    "meaning": "Ordered sequences of present factual assertions over one or two singular entity arguments. Each argument is an indefinite learned kind, an exact named individual, or a named individual with a learned kind restriction. Each can have an ordered list of positive/negative individual properties. Predicate negation negates the entire existential assertion. No commands, time contrast, plural quantity, collective action, conditional, anonymous anaphora or hidden source punctuation is transmitted.",
+    "open_lexicon": "An arbitrary finite learned vocabulary can be enlarged through actual teaching, not by assigning words while decoding a message. Every noun pays an individual-kind definition and one conventional A/B grammatical class. Every property pays its unary meaning. Every finite verb pays its individual relation, arity1/2 and ordered roles. The class is conventional grammar, not biological sex, plurality or an independently inferred semantic category.",
+    "learning_limit": "Each newly invented lexical spelling remains a spelling-to-meaning pair to be learned. Calling it a word does not erase dictionary cost. Productive adjective agreement and negation reduce the need to learn each inflected form separately; they do not supply unknown root meanings. A previously unfamiliar predicate requires its meaning and valency to be taught before it is usable.",
+    "references": "Repeated literal names denote the same declared individual; unequal names are not automatically unequal entities. Bare indefinite noun occurrences have separate existential variables that may coincide unless the relation prevents this. There is no unstated prior-topic identity. A mass term cannot silently stand for a counted portion; an appropriate individual domain would have to be part of the learned entry and source meaning."
+  },
+  "physical_inventory": {
+    "working_signs_in_order": ["a", "o", "e", "i", "n", "d", "y", "s", "r", "l", "m", "k", "t", "p", "f", "q", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+    "unit_scope": "Each displayed label denotes one artificial working mark. ch/sh/ckh/etc are not sequences of Latin letters here. These are the existing22 working shapes as teaching marks, not identified native atoms or sounds.",
+    "lexical_stems": "A lexical stem is a nonempty sequence of these marks, with first mark outside a/o/e. Exact whole stems q and qq are reserved and forbidden as lexical entries; q otherwise remains legal at any internal or initial position. There is no three-symbol restriction on interiors and no restriction on a lexical stem's final mark.",
+    "lexical_classes": "N, J, V1 and V2 entries have separately learned meanings. N and V spellings must be disjoint, and a verb has exactly one arity. This draft uses disjoint spelling sets for all four lexical classes to keep the lesson simple. A new homograph cannot silently change class. A bare J is not a complete running word.",
+    "derived_words": "An adjective is a+J for classA or o+J for classB. In either adjective, an optional e immediately after a/o negates that unary property. A finite predicate is V or e+V, with e negating the whole clause. Because no lexical stem starts a/o/e, all these prefixes have a uniquely determined boundary. Their cost is one mark for class and optionally one mark for negation.",
+    "no_extra_symbols": "Teaching brackets, glosses, A/B and N/J/V labels below are metanotation only. Actual messages contain only the22 working marks, visible word spaces and physical row breaks under the rule below. No Roman punctuation, quote mark, case tag or sentence bit is free."
+  },
+  "whole_name_controls": {
+    "bare_name": "The complete one-mark word q opens a bare literal name; one nonempty payload word follows; the complete one-mark word q closes it. A bare named individual receives conventional classB, without inferring any real kind from its spelling.",
+    "named_noun": "Immediately after a noun head, the distinct complete two-mark word qq opens an identifying name for that head. One nonempty payload word follows and a complete q closes it. The NP retains the noun head's class. Without qq, a following bare q-name starts a new NP, so name attachment does not depend on the eventual verb or a guessed reading.",
+    "literal_inventory_in_order": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "ä", "ö", "ü", "ß", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ",", ";", ":", "!", "?", "(", ")", "-", "/", "'", "\"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Ä", "Ö", "Ü", "ẞ", " "],
+    "literal_encoding": "For literal index j in0..82, write working_signs[floor(j/22)] then working_signs[j mod22]. The first mark of a pair is therefore one of a/o/e/i. Concatenate all pairs into one payload word. The unused five index cells83..87 are illegal, not padding. Decode pairs by the inverse table. Unsupported characters and empty names are explicit input errors.",
+    "boundary_safety": "After q or qq opens a name, the next reassembled logical word is always the whole even-length payload, even if it happens to spell qq. Then require the separate closing word q. A payload cannot be the one-mark word q. This is a word-level typed control channel; it does not ban qok or any other substring inside a lexical body.",
+    "meaning_limit": "The name payload is an individual label, not a quoted whole statement or a concealed predicate definition. It preserves spelling, case and internal spaces but supplies no lexical meaning or valency."
+  },
+  "full_grammar": {
+    "NP": "One noun head with its optional immediately following qq-name, OR one bare q-name; then zero or more adjective words. Every adjective's a/o must match that head's learned/conventional class. Each adjective applies to this NP's individual, not to a nearby word with a convenient ending.",
+    "clause": "Exactly one NP for a V1 clause or two ordered NPs for a V2 clause, followed by exactly one finite V or eV word. A new noun head or bare q-name starts the next NP; an adjective continues the current one. More than two NPs are invalid. The finite verb closes the clause and checks its arity.",
+    "text": "A sequence of such clauses with ordinary spaces between logical words. There is no extra sentence punctuation: the disjoint learned finite-verb class closes each clause within this explicitly restricted grammar. The next clause must begin a nominal head. EOF is legal only after a complete finite verb. Physical rows and paragraphs create no new clause, topic or reset.",
+    "boundary_payment": "Sentence boundaries are encoded by the learned lexical class of the final verb, plus the prohibited N/V homography and fixed grammar. They are not read from source-side sentence metadata. This is a strong lexical/syntactic restriction and a learning cost, not a universal property of language.",
+    "semantics": "For each anonymous NP introduce one existential individual satisfying its N and all written adjective predicates. For a named NP use the named constant and retain its N/property restrictions. Conjoin these conditions with the ordered V relation. An initial e on V negates this entire formula, including its existential witnesses; e inside an adjective negates only that individual property. The two scopes are different.",
+    "repetition": "Repeated adjectives remain separately written occurrences with the same property meaning; no extra intensity is inferred. Equal nominal arguments may occur consecutively in a V2 clause. No automatic copy command, obligatory merger or universal repetition header is added. Repeated words can be meaningful/redundant without all repeats being allowed in all grammatical classes."
+  },
+  "physical_rows_and_overwide_words": {
+    "surface": "A teaching hand uses24 equal working-mark cells per physical row; one ordinary interword blank occupies one cell. This is an invented ruled lesson, not measured native writing width or evidence of ruling.",
+    "continuation": "The two separate words q followed by qq at the extreme right edge are a physical continuation trailer, charged three marks and two blanks: five cells. Before grammatical reading, delete this trailer and join the preceding fragment to the first word-fragment on the next row with no logical word space. Repeated trailers continue the same logical word. Ordinary row breaks retain an external word boundary.",
+    "ordinary_layout": "A logical ordinary word of at most24 marks is kept whole and moved to a fresh row when necessary. An overwide word starts on a fresh row: while more than24 marks remain, write the next19 marks and the five-cell trailer, then continue on a fresh row. Write the final6..24 marks without a trailer. Thus an ordinary continuation fragment is never the short word q or qq.",
+    "name_layout": "Treat a name opener, its payload and its closing q as one layout unit. If they fit on a row, keep the whole unit together, moving it to a fresh row if needed. Otherwise start a fresh row with the opener and one blank. While the remaining payload plus one blank plus closing q cannot fit, fill the available row with a positive payload prefix and the five-cell trailer. Continue the same payload on a fresh row. Keep its final payload fragment, one blank and closing q together. This makes every split name fragment at least four marks and never leaves a name opener or unclosed short payload at row end.",
+    "trailer_ambiguity_check": "A legal unsplit running stream cannot end a physical row in the two words q qq: qq is a name-attachment opener and must have its payload there, and a q-opener followed by payload qq must also retain the closing q. Overwide fragments cannot themselves be q or qq. Hence the exact row-final q qq pair can be recognized as continuation before the logical grammar is read. It is not a hidden row-state bit.",
+    "human_cost": "The writer counts at most24 cells, plans each name unit before starting it, and may split a two-mark literal character pair between rows. The reader first rejoins marked fragments, then reads complete literal pairs. This adds visible controls and work; it does not compress them for free. No practical handwriting trial was conducted."
+  },
+  "small_teaching_lexicon": [
+    {"root": ["k"], "class": "N", "noun_class": "B", "meaning": "one vessel"},
+    {"root": ["t", "e", "f"], "class": "N", "noun_class": "A", "meaning": "one person"},
+    {"root": ["p", "ch"], "class": "N", "noun_class": "B", "meaning": "one leaf"},
+    {"root": ["r", "i", "m"], "class": "J", "meaning": "cold, unary individual property"},
+    {"root": ["s"], "class": "J", "meaning": "dry, unary individual property"},
+    {"root": ["f", "e", "d"], "class": "V2", "meaning": "first individual touches second individual"},
+    {"root": ["ch", "m"], "class": "V1", "meaning": "individual floats"}
+  ],
+  "exposed_hand_examples_not_blind": [
+    {
+      "message": "Ada touches a cold vessel. A dry leaf floats.",
+      "logical_word_groups": [["q"], ["e", "r", "a", "i", "a", "a"], ["q"], ["k"], ["o", "r", "i", "m"], ["f", "e", "d"], ["p", "ch"], ["o", "s"], ["ch", "m"]],
+      "physical_rows_of_groups": [
+        [["q"], ["e", "r", "a", "i", "a", "a"], ["q"], ["k"], ["o", "r", "i", "m"], ["f", "e", "d"], ["p", "ch"]],
+        [["o", "s"], ["ch", "m"]]
+      ],
+      "trace": "q opens a name. e-r, a-i, a-a decode A,d,a; q closes it. k starts the second NP, classB, so o-r-i-m says cold of that vessel. f-e-d is V2 and closes the first clause. p-ch begins another classB NP before the physical row ends. o-s continues that same NP on the next row; ch-m is V1 and closes its clause. No paragraph or physical-row sentence bit is used.",
+      "meaning_scope": "The first statement existentially introduces a cold vessel touched by the individual named Ada; it does not identify a particular vessel not named in the message. The second introduces a dry leaf that floats. No names, properties or actual manuscript words are inferred from a picture."
+    },
+    {
+      "class_contrasts": [
+        {"groups": [["k"], ["o", "r", "i", "m"], ["ch", "m"]], "meaning": "A cold vessel floats."},
+        {"groups": [["p", "ch"], ["o", "r", "i", "m"], ["ch", "m"]], "meaning": "A cold leaf floats; different same-class noun leaves o unchanged."},
+        {"groups": [["t", "e", "f"], ["a", "r", "i", "m"], ["ch", "m"]], "meaning": "A cold person floats; a changes because the noun's taught grammatical class differs, not because cold changed meaning."}
+      ]
+    },
+    {
+      "negation_contrast": "Replace o-r-i-m by o-e-r-i-m to assert a not-cold vessel in the positive touching statement. Instead replace f-e-d by e-f-e-d to deny the existence of a cold vessel touched by Ada. That denial does not assert a warm vessel or any cold vessel's existence."
+    },
+    {
+      "long_name": "Ada Ada Ada Ada",
+      "source_message": "The individual with that exact long name touches a cold vessel.",
+      "physical_rows_of_groups": [
+        [["q"], ["e", "r", "a", "i", "a", "a", "i", "ch", "e", "r", "a", "i", "a", "a", "i", "ch", "e"], ["q"], ["q", "q"]],
+        [["r", "a", "i", "a", "a", "i", "ch", "e", "r", "a", "i", "a", "a"], ["q"], ["k"], ["o", "r", "i", "m"]],
+        [["f", "e", "d"]]
+      ],
+      "readback": "The first row's last q/qq is a continuation trailer. Its17 payload marks concatenate with the next row's13 before pairs are decoded. The first e of the third A's e-r pair is before the break and r is after it. Three i-ch pairs retain the three literal spaces. The separate q then closes the name. The verb on the third row ends the clause, not the physical second-row boundary. This is a manual construction, not an executed renderer or blinded outcome."
+    }
+  ],
+  "positive_capacities_and_real_costs": {
+    "shape": "The unrestricted interior of a learned root may use all22 marks; a two-mark base word may end in any of22 marks. The current seven-entry lesson does not demonstrate those distributions, and introducing further words costs further learned meanings. Identical noun pairs and arbitrarily long repeated adjective runs are constructively possible. There is no general prohibition on short words or a three-sign medial palette.",
+    "memory": "The full vocabulary and lexical classes; one A/B feature per noun; three productive prefix meanings; two whole-name opener conventions and closing q;83 literal-character pairs; the24-cell continuation convention. While reading, keep up to two current NPs and their written property lists until the learned finite verb closes the clause. Long lists may need rereading rather than being called constant memory.",
+    "control_load": "A bare n-character proper name costs2n payload marks plus two q controls and two gaps. A named common noun adds the noun, a two-mark qq opener, payload and q closer with their spaces. Each adjective costs its root plus one agreement mark and optional e; negative verbs cost one extra mark. Continuation costs three marks and two extra gaps per cut. No independent sentence control word is emitted because finite lexical class carries closure.",
+    "statistical_limit": "No frequency, length, q-o, final-y, whole-form residual or source-transfer screen was performed. In particular q inside ordinary words is unrestricted, so a frequent obligatory q-o pattern does not follow from this construction. All root form/meaning pairs are invented teaching entries, not manuscript assignments."
+  },
+  "decisive_inherited_counterexample": {
+    "primary": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md",
+    "exact_pointer": "Compact report table lines43-58 includes qokedy atf79v.19, okaiin atf40r.9 and chol atf47r.7; all three forms have genuine complete AAA windows separately in ZL3b, IT2a and RF1b. The report retains their coordinate differences and does not pool readings.",
+    "working_initials": ["q", "o", "ch"],
+    "proof": [
+      "Consider any legal window of three identical complete ordinary word groups W W W in this draft. A bare N cannot occur three times consecutively: there are at most two NPs before a finite verb, and the disjoint N/V inventory prevents a noun from closing an intervening clause.",
+      "A positive or negative finite V cannot occur three times consecutively either: each one closes its clause, and the next clause must start an NP. V0 and predicate-as-noun coercion are not allowed. Bare J is not a word.",
+      "Therefore W must be an adjective, which begins with exactly one of the two class-prefix marks a/o. Its optional e does not add an initial class.",
+      "The inherited qokedy, okaiin and chol are longer than either whole-name control. Name payloads cannot produce their unseparated AAA windows: every payload is surrounded by actual written controls, and a continued payload is interrupted by q/qq trailers. No unpriced line or recipe reset can remove those groups.",
+      "Under any one-to-one global renaming of the22 working marks, the three distinct observed first marks q/o/ch remain three distinct marks. They cannot all belong to the two adjective-prefix marks. This excludes the complete direct writer contract under whole-group and working-unit binding, even with an arbitrarily large learned lexicon."
+    ],
+    "literal_subcase": "Before reading the broader857 table, the specifically named qokedy triple already contradicted the literal a/o table. The table was not changed to q after that warning.",
+    "scope": "Conditional group/code-unit capacity argument using existing primary observations only. It does not prove native grammatical classes, word meanings, an alphabet or absence of natural agreement. A different statement/list grammar or larger class-prefix set would be a different contract; no such repair is appended.",
+    "not_an_experiment": "No new native census, score, parser run, all-key enumeration or data admission was performed. The parent's existing material supplied the countercase and the producer inspected only the compact prior report."
+  },
+  "other_prior_boundaries": [
+    {"path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_LEXICAL_CASE_NUMBER_AGREEMENT_RAW_20261006.json", "retained": "952 already teaches explicit agreement. This rejected draft changes to local noun-class adjective concordance, optional names and finite lexical clause closure; it is not presented as the discovery of agreement or as a fixed952carrier."},
+    {"path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_OPEN_LEXICON_SUPPLY_20261006_A.json", "retained": "953 state/change/causative distinctions and unpaid physical scope remain. None of its derived predicates was silently imported."},
+    {"path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SPOKEN_SYLLABARY_WRITER_RAW_20261006.json", "retained": "954's independently successful hand read and its fixed native control/typing failures remain. No selector or frozen file is changed. This draft changes whole-word control and predicate position, but the new triple obstruction stops it separately."},
+    {"path": "docs/NONLOCAL_AGREEMENT_REVIEW.md", "retained": "All-partner ending counts do not independently pick grammatical participants. Here partners are specified by the invented source grammar; no native matching-count claim follows."},
+    {"path": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/REPORT.md", "retained": "Known-phrase association does not establish new-pair concordance. No old r/l sequence is reopened by this source construction."},
+    {"path": "experiments/yolo/gdt949_phrase_readings_observable_consequences/REPORT.md", "retained": "The old universal adjacent attribution bridge failed on retained mixed forms. The present grammar cannot import a native NP boundary merely because its concordance works by definition."},
+    {"path": "experiments/yolo/gdt1163_correlative_relation_whole_account/REPORT.md", "retained": "The exact chedy qokedy chedy frame atf76v.41 refutes1163's fixed opposite-role assignment. This draft imposes no opposite semantic roles on equal lexical words; nevertheless it is already stopped by857, so this separate frame is not claimed as a new success."},
+    {"path": "experiments/yolo/gdt1216_iterated_head_nominal_argument/REPORT.md", "retained": "947's BB followed by B collision is specific to its iterated action-head grammar. That model remains closed; avoiding its precise ordering does not ensure that another typed grammar handles all repeats."},
+    {"path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md", "retained": "The fixed ordinary-source whole-word bound is not replaced by a favorable claim for this invented lexical language. No actual historical source has been compiled or shown statistically adequate here."}
+  ],
+  "decision": "Do not select a manual trial or native/source run for this direct writer. Preserve this rejected draft and its useful general lesson: when a typed grammar confines long identical-word runs to k marked classes, existing runs with more than k distinct initial units can refute that contract before implementation. Do not grow the class list or add a fresh list/ellipsis interpretation to evade this case.",
+  "mutations": "Only this own design note. No ideas add, root-route/ledger/state change, experiment, source/native query, image, web, additional agent, publication or decoder implementation."
+}

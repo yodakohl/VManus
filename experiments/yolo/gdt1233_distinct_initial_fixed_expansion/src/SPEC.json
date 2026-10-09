@@ -1,0 +1,69 @@
+{
+  "experiment": "GDT1233",
+  "selected_utc": "2026-10-06T11:47:12.750868+00:00",
+  "preparation_began_utc": "2026-10-06T11:39:00Z",
+  "inclusive_deadline_utc": "2026-10-06T12:24:00Z",
+  "inclusive_minutes": 45,
+  "question": "Must every used code be a single working sign if22source letters have22distinct initial signs and each letter adds an arbitrary fixed finite tail?",
+  "source": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+  "scope_spec": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "hypothesis": "There is one code C_g=g+s_g for each of22working signs g; s_g is any fixed finite possibly empty sequence over the same22signs. Each complete native whole group is a concatenation of these codes. Source-letter values are arbitrary global bijective labels of code heads. No erased characters, aliases, context, controls, changing spacing, line reset or copy errors. Distinct first signs make all22codes prefix-free. A nontrivial used code has length>1 and actually occurs in at least one complete parsed group.",
+  "eligibility": "All179old allowed selectors, edition separate, kind P, both raw boundaries exactly DEFINITE_SPACE, raw group exclusively lowercaseASCII and exactly one complete segmentation in the fixed22working inventory. No normalization, entity repair, line-edge/uncertain groups, labels, image, new selector or reserve. All eligible occurrences retained; duplicate forms may share an equation but preserve counts and witnesses.",
+  "search": "At each node parse each distinct eligible whole form from its beginning through currently assigned codes. A mismatch or code extending past group end is a contradiction. Stop each remaining form at its first unassigned head. For a chosen pending head g, the code must be one of ALL nonempty prefixes of the longest common prefix of every currently reached residual starting g. Choose smallest such domain then inventory order; try longest prefix first. Exhaust every child unless a verified nontrivial used witness is found or budget expires. When all groups parse, count actually used codes; identity-only leaf has no nontrivial witness, regardless of never-used unassigned codes. These can be completed arbitrarily without changing any observed word.",
+  "proof_scope": "This is an exhaustive finite search over restrictions of arbitrary finite codes actually used in the observed groups, not a guessed maximum tail length. Every used code is a prefix of a currently reached finite residual. Branches partition its possible values. Unused codes do not explain observed redundancy.",
+  "per_reader_seconds": 120,
+  "outputs": [
+    "All eligible records in a compact lossless gzip and guard receipt",
+    "Separate-reader full branch certificate or positive table/parse witness or explicit timeout",
+    "Entire source/eligibility counts and excluded categories",
+    "No pooled-reader result, sourceword values or fitted comparison"
+  ],
+  "fixtures": "Before native output compare exact search with exhaustive enumeration of every distinct-initial binary code of lengths1..3 on every nonempty set of at most3binary words of lengths1..3. Include a positive ab/abab/bb and a parity obstruction aa/aaa/b example.",
+  "validation": "A separate implementation imports neither search nor runner. Reconstruct source through the guarded query with a different regex-based unit parser, replay every saved branch/domain and contradiction or verify complete positive table and all parses. No certified negative on timeout or validator mismatch.",
+  "prior_decisions": [
+    "892andIP076use reserved prefixes with multiple possible selectors per head;892had insufficient eligible controls,895/905/906closed their fixed source/grammar cases. One complete code per distinct head is a narrower different contract; those experiments are not rerun or reopened.",
+    "965/966source-bound grapheme codes preserve their negative/unknown distinctions; this test has no selected source stream",
+    "984prefix projection was weak and stopped;1097/1098/1168remain parked, no decoder completion or source equality reused",
+    "1181learned fragment prefix trees and1194contextual paired tails are different complete fixed writers with retained outcomes",
+    "1227rare singleton readings remain conditional obligations; readers never pooled",
+    "1228directDeotbijection failed H2; only if this separate family collapses to used singletons could its exact source adaptation inherit that invariant failure, without universal language claim"
+  ],
+  "assumptions": [
+    "One selected definite whole group is a complete sourceword",
+    "22distinct working signs, not a proved native alphabet",
+    "Every sourceletter has a different first output sign",
+    "Fixed context-free tail and no separate control payload",
+    "Exact transcription and boundaries; historical errors not silently repaired"
+  ],
+  "decisions": {
+    "all_identity": "Stop fixed-tail lengthening as an explanation under this full explicit model on that reading; retain ordinary substitution as a different remaining channel. No automatic relaxation.",
+    "nontrivial": "Retain the explicit whole-panel spelling witness as capacity only; no source, word meaning, full physical writer or distribution fit. Do not automatically optimize tails.",
+    "unknown": "No exclusion; retain the partial certificate and computational limit without rerun."
+  },
+  "claim_ceiling": "Conditional formal code capacity only. No full-language or all-prefix-code rejection, historical use, native key, word meaning, significance or held confirmation.",
+  "access": "Selector-first query-tsv on old cached source; f84/f84rsealed,f116vexcluded; no images/reserves. Local4Octcheckpoint, no push."
+}

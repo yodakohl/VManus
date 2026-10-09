@@ -1,0 +1,59 @@
+{
+  "record_id": "GDT1272",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; separate inverse and metric validator",
+  "assessment_basis": "fixed_source_complete_writer_and_inherited_cached_invariant_screen",
+  "reason": "Complete6288-word roundtrip;2992short/3296literal,25695signs versus24668bare letters. All3072 comparisons fail SD,H1,H2; zero six-way matches. Fixed alphabet/modulus/escape/dictionary; no tuning. Fixture AA prefix replaces planned XX, same suffix collision, transparently documented.",
+  "blockers": [
+    {
+      "code": "fixed_checksum_source_screen_failure",
+      "detail": "This source/wordbook/word-local carrier only. No universal checksum, abbreviation or language exclusion. Native grouping and source projection assumptions persist.",
+      "evidence": [
+        "experiments/yolo/gdt1272_omitted_suffix_checksum/REPORT.md",
+        "experiments/yolo/gdt1272_omitted_suffix_checksum/artifacts/RESULT.json",
+        "experiments/yolo/gdt1272_omitted_suffix_checksum/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Relabel22signs",
+      "Tune modulus after result",
+      "Change escape or source wordbook after failure",
+      "Call roundtrip a native fit"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000978",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1272_omitted_suffix_checksum/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1229",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1272_omitted_suffix_checksum/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1202",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1272_omitted_suffix_checksum/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1226",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1272_omitted_suffix_checksum/REPORT.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "record_id": "GDT1284",
+  "scope": "structural",
+  "verdict": "inconclusive",
+  "reviewer": "root",
+  "assessment_basis": "preregistered_matched_census_independently_validated",
+  "reason": "Capacity adequate; all reader means positive, but primary9/18positive leaves fails frozen two-thirds consistency. No absence-of-association claim.",
+  "blockers": [
+    {
+      "code": "frozen_consistency_gate_failed",
+      "detail": "ZL9/18 IT10/22 RF8/16; no reader rescue or dropping zero leaves.",
+      "evidence": [
+        "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_bound_falsifier",
+        "change": "new_binding",
+        "detail": "Independent construction evidence or genuinely different predeclared falsifier; no weaker matching repair.",
+        "evidence": [
+          "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Positive pooled or mean effect alone",
+      "Post-result exclusion of zero leaves",
+      "Repeated unchanged census"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT318",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT845",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+      ]
+    }
+  ]
+}

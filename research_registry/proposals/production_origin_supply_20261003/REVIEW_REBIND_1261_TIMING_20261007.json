@@ -1,0 +1,60 @@
+{
+  "record_id": "GDT1261",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root; independent source-free uniformity proof; stop-account validator only",
+  "assessment_basis": "same_computational_stop_with_preparation_timing_qualification",
+  "reason": "Report now qualifies15:38asrecordeddecisionwindow,notcertifiedinclusiveprepstart;frozeninputs/code/resultunchanged. ExactDPstoppedat100000statesinonecomponentafter42completedcomponents,101842statesoverall. No conditionalreferenceworldorTcomparison exists. Data mobility1260and915/916decisionsremainunchanged.",
+  "blockers": [
+    {
+      "code": "computational_capacity",
+      "detail": "Frozenexactcounterexceedspercomponentstatecap;notmissingnativecontrast,andnotaphonetic/semanticfailure.",
+      "evidence": [
+        "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md",
+        "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_bounded_computational_design",
+        "change": "new_design",
+        "detail": "A separately justified finite exact representation with a reviewed resource bound and unchanged scientific contract; no automatic cap/ordering/MCMC repair.",
+        "evidence": [
+          "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Report partialcompletedcomponentsasreference",
+      "Freeze unfinishedcomponenttoobserved",
+      "Treat failedcomputation asstatisticalnegative",
+      "Rerun identical missing-outputaudit"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1260",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT915",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT916",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md"
+      ]
+    }
+  ]
+}

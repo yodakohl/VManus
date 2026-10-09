@@ -1,0 +1,53 @@
+{
+  "schema": "qa_candidate_supply_v1",
+  "status": "bounded_source_screen_no_additions",
+  "target_reads_performed": false,
+  "gdt874_target_read": false,
+  "ideas_added": [],
+  "route_and_duplicate_screen": {
+    "ideas_search": "unavailable: stale imported EXPERIMENT_INDEX.tsv; refresh prohibited",
+    "ideas_duplicates": "unavailable for same stale-source guard; no refresh performed",
+    "route_check": "GDT788 exact, GDT787/GDT789 near predecessor families"
+  },
+  "candidates": [
+    {
+      "candidate": "Reusable dal remainder in Xdal forms",
+      "source": "GDT788",
+      "disposition": "REJECT_AS_EXACT_PREDECESSOR",
+      "reason": "GDT788 already defines the exact complete paradigm, SHIFT/CORE falsifiers, and WHOLE_ONLY outcome; a new semantic proposal would repeat the closed route."
+    },
+    {
+      "candidate": "Reusable keedy remainder in Xkeedy forms",
+      "source": "GDT787",
+      "disposition": "REJECT_AS_NEAR_PREDECESSOR",
+      "reason": "Same remainder-transfer mechanism and whole-vs-component rival already tested; no new observation or falsifier identified."
+    },
+    {
+      "candidate": "Reusable ar remainder in Xar forms",
+      "source": "GDT789",
+      "disposition": "REJECT_AS_NEAR_PREDECESSOR",
+      "reason": "Same family-transfer mechanism already tested with orthogonal surface controls and WHOLE_ONLY outcome."
+    }
+  ],
+  "source_evidence": [
+    {
+      "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+      "line": 11,
+      "line_end": 15,
+      "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b",
+      "quote": "Er gilt für das vollständige Wort `dal`, nicht automatisch für jedes Wort, das\nauf denselben drei EVA-Zeichen endet. Das ist der entscheidende Unterschied\ndieser Runde. Die Formenfamilie ist real und groß: **107 rohe `*dal`-Formen mit\n415 Token**, davon **80 Formen und 304 Token reader-exakt**. Das nackte `dal`\nallein besitzt 147 exakte Vorkommen auf 58 physischen Folios."
+    },
+    {
+      "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+      "line": 22,
+      "line_end": 47,
+      "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b",
+      "quote": "Trotzdem trägt die konkrete Bedeutung nicht gleichmäßig. Der strengere\nFamilienvergleich sagt `Xdal` aus den drei Schwesterwörtern voraus:\n\n```text\nSHIFT = Xal + Xdar - Xar\n```\n\nEr schlägt `Xal` und ein unabhängig nach Form ausgewähltes Ganzwort zugleich\nnur bei **2/10** Reihen. Der günstigere direkte Versuch\n\n```text\nCORE = Xal + dal - al\n```\n\nschafft **4/10**. Das ist ein interessanter Teiltreffer, aber keine Regel, mit\nder wir die restlichen sechs Reihen sicher lesen könnten. Die Arbeitsentscheidung\nlautet daher:\n\n```text\nFORM:       starke al/dal/ar/dar-Oberflächenfamilie\ndal:        Material I, abgemessen             [eigenes Ganzwort]\nXdal:       konkrete formgebundene Ganzwortkarten\nTRANSFER:   WHOLE_ONLY\nd:          nicht automatisch „abmessen“\nal:         nicht automatisch „Material“\nEXPORT:     kein freier dal-Rest"
+    }
+  ],
+  "decision": "Zero additions. Queue surplus is already adequate; retaining a renamed remainder-transfer hypothesis would manufacture duplication.",
+  "limitations": [
+    "No claim that all 92 raw ideas were exhaustively screened.",
+    "No GDT874 results, candidates, bridges, raw TSV, images, new pages, ledger, build or registry refresh accessed."
+  ]
+}

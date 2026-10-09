@@ -1,0 +1,1 @@
+RESULT retains all reader outcomes; COOCCURRENCE the full pair graph with source witnesses; CANDIDATES every reduced A/Bmax case; BEST_SUPPORT exact old source IDs of the displayed maximizers. None supplies a phonetic value.

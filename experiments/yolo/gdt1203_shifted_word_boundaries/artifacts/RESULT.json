@@ -1,0 +1,163 @@
+{
+  "experiment": "GDT1203",
+  "status": "SHIFT_ONE_FREQUENCY_SCREEN_FAIL",
+  "books": {
+    "b4": {
+      "sample_groups": 8000,
+      "types": 2743,
+      "type_ratio": 0.342875,
+      "top10_count": 674,
+      "top10_share": 0.08425,
+      "source_baseline_types": 1131,
+      "source_baseline_top10_count": 2418,
+      "end_units_in_sample": 102,
+      "sample_max_abstract_group_length": 13,
+      "reader_conditions": {
+        "IT2a": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        },
+        "RF1b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        },
+        "ZL3b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "w1": {
+      "sample_groups": 8000,
+      "types": 2861,
+      "type_ratio": 0.357625,
+      "top10_count": 681,
+      "top10_share": 0.085125,
+      "source_baseline_types": 1275,
+      "source_baseline_top10_count": 2263,
+      "end_units_in_sample": 109,
+      "sample_max_abstract_group_length": 13,
+      "reader_conditions": {
+        "IT2a": {
+          "types_pass": false,
+          "top10_pass": true,
+          "pass": false
+        },
+        "RF1b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        },
+        "ZL3b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        }
+      },
+      "pass": false
+    },
+    "bs1": {
+      "sample_groups": 8000,
+      "types": 2806,
+      "type_ratio": 0.35075,
+      "top10_count": 737,
+      "top10_share": 0.092125,
+      "source_baseline_types": 1105,
+      "source_baseline_top10_count": 2364,
+      "end_units_in_sample": 106,
+      "sample_max_abstract_group_length": 14,
+      "reader_conditions": {
+        "IT2a": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        },
+        "RF1b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        },
+        "ZL3b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "gr1": {
+      "sample_groups": 8000,
+      "types": 2579,
+      "type_ratio": 0.322375,
+      "top10_count": 879,
+      "top10_share": 0.109875,
+      "source_baseline_types": 1199,
+      "source_baseline_top10_count": 2587,
+      "end_units_in_sample": 103,
+      "sample_max_abstract_group_length": 14,
+      "reader_conditions": {
+        "IT2a": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        },
+        "RF1b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        },
+        "ZL3b": {
+          "types_pass": true,
+          "top10_pass": true,
+          "pass": true
+        }
+      },
+      "pass": true
+    }
+  },
+  "native_limits": {
+    "IT2a": {
+      "types": [
+        2051,
+        2851
+      ],
+      "top10": [
+        665,
+        1465
+      ],
+      "native_types": 2451,
+      "native_top10_count": 1065
+    },
+    "RF1b": {
+      "types": [
+        2130,
+        2930
+      ],
+      "top10": [
+        608,
+        1408
+      ],
+      "native_types": 2530,
+      "native_top10_count": 1008
+    },
+    "ZL3b": {
+      "types": [
+        2100,
+        2900
+      ],
+      "top10": [
+        630,
+        1430
+      ],
+      "native_types": 2500,
+      "native_top10_count": 1030
+    }
+  },
+  "all_books_pass": false,
+  "complete_recipe_roundtrips": 1054,
+  "scope": "Fixed source regrouping and two necessary frequency metrics only; no rendered glyph writer, native meanings, independent holdout or historical attestation."
+}

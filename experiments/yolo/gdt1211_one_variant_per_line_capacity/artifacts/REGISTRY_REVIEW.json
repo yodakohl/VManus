@@ -1,0 +1,44 @@
+{
+  "record_id": "GDT1211",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; separate implementation validates source/selection/bounds",
+  "assessment_basis": "primary_reports",
+  "reason": "Fixed whole-source-token base spelling with at most one variant occurrence per touched target line fails the full four-source/three-reader screen:gr1 top10 fails IT andRF, while10other cases remain unexcluded by these necessary bounds.",
+  "blockers": [
+    {
+      "code": "one_variant_position_per_line_capacity",
+      "detail": "gr1 requires at least1122/1179changes for IT/RF, but their filtered samples touch1000/1171lines. No new meaning or general abbreviation exclusion;10unexcluded cases are not full writers.",
+      "evidence": [
+        "experiments/yolo/gdt1211_one_variant_per_line_capacity/REPORT.md",
+        "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/RESULT.json",
+        "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "A different glyph table under unchanged grouping and edit-position budget",
+      "Claiming the ten necessary nonexclusions are full successes",
+      "Silently increasing changes per line or changing the source after outcome"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1202",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1211_one_variant_per_line_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT801",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1211_one_variant_per_line_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

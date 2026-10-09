@@ -1,0 +1,20 @@
+{
+  "title": "RAW UNREVIEWED: fixed interline ink-collision avoidance selects one-e placement",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. A hand has a fixed preferred placement in each nominated single-e family. It switches only when a fixed alternate shape avoids pre-existing upper-line ink that the preferred shape would touch. No literal value or equivalence is established.",
+  "scope": "method",
+  "design": {
+    "mechanism": "For each nominated one-e pair, two fixed drawing templates of assumed equal advance width encode one hypothesized unnamed spelling cell. Use the hand preference unless preferred would collide with older upper-line ink and alternate would not; both free or both colliding use preference.",
+    "unit": "A physically located complete one-e whole with predeclared templates and anchor; zero/two-e forms remain distinct and unmodified.",
+    "contrast": "Same hand and family, both templates independently collision-free, versus a one-sided pre-existing-ink obstacle.",
+    "prediction": "All both-free cases use the hand preference. Opposite placements in both-free cases of the same family/hand contradict the strict rule.",
+    "scope": "Unassessed physical writing hypothesis, no actual geometry acquired, no historical attestation, meaning or global e normalization. Must independently specify templates, advance widths, placement anchors, already-written ink and boundary clearance before selection."
+  },
+  "limitations": [
+    "No claim that ASCII equality entails equal ink width.",
+    "Final whitespace is not independently available writing space.",
+    "Upper-line-first chronology is an assumption, not observed here.",
+    "GDT854 capacity stop stands and does not license a substitute classifier.",
+    "Root f77r pair supplied no positive geometry evidence.",
+    "Raw proposal retention is not novelty or scientific approval."
+  ]
+}

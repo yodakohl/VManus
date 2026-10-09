@@ -1,0 +1,96 @@
+{
+  "id": "HUMAN_BRANCH_RANK958_READER_RULES_20261006",
+  "status": "FROZEN_MANUAL_READING_RULES_NO_CHALLENGE_SOLUTION",
+  "parent_raw": "HUMAN_ALPHABETIC_BRANCH_RANK_RAW_20261006.json",
+  "raw_sha256": "e12c59b09116b590a61ac482a60a55008f45f37312b9ff9b7721d2196e8dd64d",
+  "scope": "Read one artificial source message. This is not a native reading, corpus experiment or independent statistical test. Each space in the challenge separates physical output groups; line ends follow the explicit continuation rule. Multiletter labels name single working drawings.",
+  "source_alphabet_in_order": "abcdefghijklmnopqrstuvwxyz.,",
+  "complete_public_lexicon": [
+    "add",
+    "and",
+    "drink",
+    "drinks",
+    "is",
+    "not",
+    "oil",
+    "salt",
+    "then",
+    "wait",
+    "warm",
+    "water",
+    ".",
+    ","
+  ],
+  "branch_points": [
+    "Root children in Sigma order: a,d,i,n,o,s,t,w,.,, with ranks1 through10.",
+    "After a: d,n. After wa: i,r,t. All other nonterminal branches along these listed words have one child, except that drink is itself terminal and also has the single continuation s.",
+    "Each dictionary word has a terminal flag, including drink; intermediate prefixes such as drin do not."
+  ],
+  "working_signs_in_fixed_order": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "positive_integer_carrier": {
+    "digits": "The first20 drawings, in their written order, represent terminal remainder values1..20.",
+    "extension": "cph is an extension mark. For positive integer r, divide r-1 by20: quotient k, remainder j in0..19. Write k copies of cph followed by working_signs_in_fixed_order[j]. Thus1=a,2=o,20=cth,21=cpha,22=cpho,40=cphcth,41=cphcpha. Spaces shown in explanations are not part of one encoded token.",
+    "inverse": "Count consecutive cph marks until one of the first20 drawings arrives. If its zero-based position is j, recover r=20*k+j+1. A dangling cph or cfh within an integer is invalid.",
+    "length": "An integer r costs1+floor((r-1)/20) drawings. No zero rank or empty code exists. The same integer carrier is used for local branch ranks and for literal source-character indices."
+  },
+  "known_word_writer": [
+    "If the complete token w is in L, start at the trie root, with empty prefix p.",
+    "For each next source character c of w, list only those next letters actually occurring after p in L, sorted in Sigma order. Find c's one-based rank r in this local list and write its integer carrier. Then append c to p.",
+    "Write a rank even when there is only one possible child. Unary branches are not omitted; no automatic shortest-prefix completion is used.",
+    "At the end of w, require the terminal flag at p and end this logical written group with the source token boundary. Do not emit an extra END glyph. The paid visible boundary, together with L's terminal membership, supplies stopping.",
+    "Reset to the root at the next logical source token. There is no previous-word state, frequency counter, positional font or paragraph-dependent alphabet."
+  ],
+  "unknown_word_writer": [
+    "If complete w is absent from L, begin its logical group with cfh.",
+    "Write every source character of w by the same positive-integer carrier, now using its one-based index in Sigma, not a trie branch rank. Then end at the visible source-token boundary.",
+    "Use literal mode for the whole unknown token, including unfamiliar inflections, names and attached punctuation. Never enter it halfway through a known prefix, silently add a word to L or choose it as an optional alias for a known word.",
+    "An unknown word containing a character outside Sigma is outside this declared edition and must be reported as unsupported. No guessed transliteration or deletion is allowed."
+  ],
+  "reader": [
+    "First reassemble any explicitly marked physical line continuations using the rule below. This restores complete logical groups and source spaces.",
+    "If a group starts with cfh, consume that one literal header, parse its remaining integer units and map each recovered index to Sigma. The body must be nonempty, every index in1..N and the resulting token absent from L. Reject a known token written through this noncanonical literal alias.",
+    "Otherwise start at the root. Parse one integer r, require that the current local child list has at least r members, choose its r-th character and descend. Repeat to the complete group boundary.",
+    "At the boundary the decoded prefix must have a terminal flag. It may still have children: a word that prefixes another word is legal because the written boundary distinguishes stopping from continuation.",
+    "Return the exact decoded tokens, spaces and paragraph breaks. There is no hidden source-language oracle; understanding the recovered words uses the reader's learned language. Error correction and choosing among ambiguous meanings are not supplied."
+  ],
+  "word_and_line_contract": {
+    "word_spaces": "One ordinary intergroup blank preserves one source-token space. A normal physical newline between complete groups is equivalent to that blank. A blank line preserves the explicit source paragraph boundary. Paragraph boundaries never change L or the alphabet.",
+    "fixed_teaching_width": "24 writing cells per physical row. Every working drawing and intergroup blank occupies one cell. This is a fixed demonstration width, not a measured manuscript line width.",
+    "ordinary_wrap": "Write complete groups greedily left to right with one blank between them. If a group of at most24 drawings does not fit in the remaining cells, start it on the next row. Do not split such a group merely to change frequencies or word shapes.",
+    "overwide_group": "A group longer than24 drawings begins on a fresh row. Write its longest nonempty prefix of complete carrier units fitting in23 cells, and append cfh directly to that chunk as the final drawing of the row. Continue the same word at the next row, with no repeated literal header and no semantic reset. Repeat if the remaining payload exceeds24 cells; otherwise write the remaining complete units normally. A literal header belongs to the first chunk and cannot be the entire content before a continuation marker.",
+    "continuation_inverse": "No complete canonical known or literal word ends in cfh: integer units end in one of the first20 drawings. Therefore cfh at the end of a physical row marks continuation unambiguously. Remove exactly that last cfh and join the first group on the next physical row without a source space. A blank paragraph break or missing continuation payload is invalid. A cfh at the beginning of the reassembled logical group remains the literal header.",
+    "cost": "Each source boundary consumes visible separation. Each overwide-word continuation costs one additional cfh drawing and a physical row transition; it is not an uncharged deletion of a word boundary. Printed fragments and reassembled logical words are different units."
+  },
+  "learning_costs": [
+    "The reader needs the entire exact L, not merely its size, a list of branch counts or access to a hidden plaintext corpus. A public alphabetically indexed wordbook can be consulted instead of memorized, but preparing, copying and searching it is real work.",
+    "Every prefix needs access to its ordered child list and terminal membership. These data are derivable from L, not independent fitted codes, but making a convenient physical trie still costs paper and indexing work. A large book may be impractical to consult once for each character.",
+    "The small procedural lesson contains22 working drawings, their order, division into20 terminal digits/one extension/one mode mark, the source alphabet order, two writing modes, canonical membership, and the visible boundary/continuation rules. Vocabulary knowledge in the source language remains additional.",
+    "A known token of n characters costs the sum of1+floor((r_i-1)/20). An unknown token costs1 plus the same sum over its source-character indices. Add one drawing per actual line continuation. Thus a known path with all local degrees<=20 costs exactly n drawings, not two per character. No shortening or favorable H2 is proved.",
+    "For an alphabet of22 source letters, ordinary ranks and literal indices21/22 cost two drawings; other values cost one. The existence or frequency of those choices is not measured here. Larger source alphabets can incur correspondingly longer unary extension runs.",
+    "No source-language word meaning is replaced by an arbitrary numerical address. Nevertheless this remains a spelling code requiring a full word list, not evidence of an invented spoken language or a historically used system."
+  ],
+  "readback_request": "Before opening any expected-source file, record the exact recovered token sequence and ordinary message, which words took literal mode, and where a physical newline does or does not introduce a token boundary. Preserve attached punctuation. State lookup friction and any unstated rule needed; do not silently fix malformed output."
+}

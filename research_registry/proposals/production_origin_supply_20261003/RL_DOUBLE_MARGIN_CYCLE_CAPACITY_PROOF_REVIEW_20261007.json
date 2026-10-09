@@ -1,0 +1,78 @@
+{
+  "status": "SOURCE_FREE_MOBILITY_THEOREM_VALID_WITH_DECLARED_MARGINS",
+  "ownership": "Root proposed preserving physical-line r/l totals in addition to915's original strata and selected any empirical capacity test separately. bounded_idea_supply checked the graph theorem, parallel-edge cases and relevant prior methods. No native payload or graph was opened, no simulation or count was run.",
+  "fixed_objects": [
+    "Each eligible915token is a distinct occurrence with one fixed physical line and one fixed old stratum (physical leaf, exact stem, FIRST/INTERNAL/LAST/SINGLE). Only its binary terminal r/l label may vary.",
+    "Preserve the number of r tokens in every old stratum and in every physical line. The corresponding l counts follow because all token memberships and total degrees are fixed.",
+    "The graph must use the complete token universe permitted to change under the declared new reference, including eligible tokens which do not belong to nominated pairs. Restricting to nominated endpoints alone can create false immobility relative to a larger allowed reference.",
+    "Treat line vertices and stratum vertices as disjoint typed namespaces. Keep token identities and multiplicities. Orient an r token from its line to its stratum and an l token from its stratum to its line. No self-loop exists in this bipartite graph."
+  ],
+  "theorem": "An individual token can change r/l in some assignment preserving both families of margins if and only if its current directed edge lies on a directed cycle. Equivalently its two endpoints belong to the same strongly connected component.",
+  "sufficiency": [
+    "A directed cycle alternates line and stratum vertices, and hence alternates r and l token edges.",
+    "Flip every distinct token edge in one directed simple cycle. At each involved line and stratum, exactly one r is replaced by l and one l by r. Both margins are preserved, and the selected edge changes.",
+    "If an edge u->v has endpoints in the same SCC, there is a directed return path from v to u. A shortest such path is simple and can be chosen without the selected edge; adjoining the selected edge forms the required token cycle."
+  ],
+  "necessity": [
+    "Compare the current assignment with any other assignment satisfying the same margins. Retain only token edges whose labels differ, but orient them as in the current assignment.",
+    "At each line, r-to-l losses equal l-to-r gains; this is equality of outgoing and incoming changed-edge degrees. The same equality holds at every stratum with the opposite orientation convention.",
+    "The finite changed-edge directed multigraph is therefore balanced at every vertex and decomposes into directed cycles. Every changed edge belongs to one of them and thus has endpoints in the same original SCC."
+  ],
+  "parallel_edges": [
+    "One r and one l token with the same line and stratum form a valid directed cycle of length2. Swapping their labels preserves both margins while changing the two actual positions. They must not be merged or cancelled as if no movement existed.",
+    "Parallel edges with the same direction remain distinct tokens. Each is individually movable when a return path exists, although a selected cycle flips only the chosen occurrence.",
+    "A directed adjacency graph may deduplicate equal-direction arcs solely for SCC reachability, provided both directions are retained when present and all token identities are restored for mobility counts and cycle witnesses. Netting opposite parallel counts into one direction is invalid.",
+    "Ordinary simple-graph cycle routines which forbid two-edge cycles need explicit handling of opposite parallel token edges."
+  ],
+  "mobilities_are_different": {
+    "token_mobility": "The theorem is exact for changing an individual token's label under the two margin constraints.",
+    "phrase_score_mobility": "It does not imply that the frozen same-minus-mixed phrase score changes. A cycle can flip both ends of every affected nominated pair, leaving its concordance unchanged, or change only tokens irrelevant to the score.",
+    "complete_synthetic_counterexample": "In one leaf take two lines with nominated ordered stem pair A,B: line1 is A_r B_l; line2 is A_l B_r. A has the same physical-position class in both lines, as does B. Both line r totals are1 and each stem-stratum r total is1. The four token edges form a directed4cycle, so all tokens are mobile. Its only alternative assignment swaps the two mixed patterns. Both A,B pairs remain mixed; the fixed nominated phrase contribution is unchanged. These are abstract teaching tokens, not native observations.",
+    "witness_policy_limit": "One deterministic shortest return path per nominated movable endpoint gives valid positive score-change witnesses. Their absence is not a proof of score invariance: another cycle or combination of cycles may change the score.",
+    "whole_leaf_recompute": "Score a cycle by changing each token once and recomputing ALL affected eligible pairs on the leaf, including overlapping pairs and any other nominated family touched by the cycle. The denominator and fixed pair eligibility are unchanged because stems, positions and seams do not change. Do not score only the edge which nominated the cycle.",
+    "scope": "SCCs imply no probability distribution, mixing time, uniform random sampler or p-value. A four-cycle-only switch routine would also be incomplete on a sparse graph where mobility requires a longer cycle."
+  },
+  "predecessor_review": [
+    {
+      "id": "GDT915",
+      "primaries": ["experiments/yolo/gdt915_terminal_lr_phrase_transfer/METHOD.md", "experiments/yolo/gdt915_terminal_lr_phrase_transfer/REPORT.md"],
+      "exact_prior": "915 shuffles labels inside leaf/exact-stem/physical-position strata and recomputes discovery nomination and evaluation in every reference world. It preserves those stratum margins, token identities and overlap consistency; it does not additionally fix each physical line's r total.",
+      "difference": "Adding line margins is a stricter conditioning question about a possible line-level spelling propensity. A capacity-only test with the already fixed22families is not a rerun of915's full-search p-value. Its positive phrase-family co-variation and all mixed cases remain unchanged."
+    },
+    {
+      "id": "GDT916",
+      "primary": "experiments/yolo/gdt916_unseen_lr_stem_pair_transfer/METHOD.md",
+      "exact_prior": "916 reuses915's same conditional worlds to ask about new stem-pair combinations. It does not add physical-line r/l totals. Its new-pair nonconfirmation is retained, not repaired."
+    },
+    {
+      "id": "GDT981",
+      "primary": "experiments/yolo/gdt981_lr_phrase_state_carry/METHOD.md",
+      "exact_prior": "981 permutes complete phrase-event types while retaining each event's two endings, to examine state succession inside paragraphs. Its one-mobile-leaf limitation concerns that different event-order observable, not token ending swaps with two simultaneous margin systems."
+    },
+    {
+      "id": "IP021",
+      "primary": "docs/NONLOCAL_AGREEMENT_REVIEW.md",
+      "exact_prior": "All-partner matches are determined by per-line family-by-ending inventories; far equals all minus near. The review already warns that moving endings across lines can reflect a shared line propensity. This motivates, but does not execute, the new conditional capacity check.",
+      "limit": "The proposed new line constraint fixes the aggregate r/l total, not every line-by-stem inventory. Thus it does not automatically freeze every order-sensitive adjacent-pair statistic or eliminate all stem-specific context dependencies."
+    },
+    {
+      "id": "GDT1078",
+      "primary": "experiments/yolo/gdt1078_terminal_rl_same_folio_control/METHOD.md",
+      "exact_prior": "1078 compares next-initial-class rates within exact rest and physical folio. It is not a simultaneous line/old915-stratum label-mobility calculation. Its original failed gate is unchanged."
+    },
+    {
+      "id": "GDT949",
+      "primary": "experiments/yolo/gdt949_phrase_readings_observable_consequences/METHOD.md",
+      "exact_prior": "Its assumed whole number/preparation readings and fixed adjacency bridge are a different semantic/valency question. No old hypothetical r/l meanings are used here."
+    }
+  ],
+  "bounded_novelty_verdict": "No identical simultaneous-margin capacity calculation appears in the inspected primary methods and bounded lookup chain. This is not an exhaustive-history absence claim. The exact graph statement supplies a genuinely different necessary capacity screen before any more constrained reference could be considered.",
+  "decision_limits": [
+    "Report readers separately; no cross-reader graph, pooled significance or independent-replication credit.",
+    "Old strata include physical leaf, so the graph components and cycle changes stay within that leaf when line IDs are correct. A global endpoint count does not substitute for the predeclared number of informative physical leaves.",
+    "If the required number of evaluated leaves with mobile nominated endpoints is not reached, stop the proposed comparison on capacity. This does not refute915 or infer a line-level writing cause.",
+    "A positive endpoint-capacity result is only necessary. Actual score-changing cycles are stronger explicit witnesses, but neither yields a null distribution or a selected grammatical explanation.",
+    "Retain exactly the old token/stratum/seam definitions. Do not widen stems, positions, suffixes, windows, source partitions or token coverage after observing immobility.",
+    "This note supplies no semantic role, native word meaning, new data count, null simulation, candidate-list change or repaired earlier result. Root owns1260and its scientific decision."
+  ]
+}

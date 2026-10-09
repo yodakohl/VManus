@@ -1,0 +1,55 @@
+# GDT1283: f77r line-packing measurement capacity only
+
+## Decision before this image view
+1149establishesbareminimline-entryavoidance;1150finds no fixed same-line right-two
+counterparts;the6Octoberinitial-dpriorreviewalreadyprevents anotherzero/counterpart
+rerun.882explicitlyincludesunchangedformswithbreakplacementasrival.200and1056
+warnthatgroupcountsarenotphysicalremainingwidth. No rerunofthosecensuses.
+A newGREE D Yblock-placementcontractcoulddistinguishunchangedH+Bpacking from
+ordinarywordpacking onlyifreal appendwidthsandavailableR areindependentlyfixed:
+F(H)<=R<F(HB...) permitsordinaryHbutforcesboundHBto thenextline.
+Thisis a strongernewlayoutcontract, notimpliedby882'smereentryrestriction.
+Unknownhere: does onealreadyadmitted original image offer an independentright
+writinglimit and localizablecandidatefor suchameasurement? Ifyes reportcapacity
+anddefernumericaltest;ifno stopgeometryrouteforthiscase. No grammarchoice.
+Smallestadequatetest: oneinformedmanualview, no segmentationpipeline orwidthfit.
+Inclusiveouterbudget16:34--17:14UTC8October2026 coversprecedingreview/candidate
+selection,registration,imagejudgment,validationandlocalclosure.
+
+## Fixed candidate, exposure and access
+f77r.31 precedingline;f77r.32 startsqor ain cheol inall3readers. H=qor,B=ain
+areformalwholegroups,nottranslations. Hnotoneof882'sD-minimforms.32is acontinuation
+line undercachedparagraphflags;laterannotationdifferencesarepreserved.
+Candidate was selected exploratorilyfromalreadyreadableodd-pagecachesamong
+existingpagecontexts(f75v/f81r/f77r);notarandomsampleornewholdout. Noabsenceclaim
+forotherpages:thelimitednavigationwasnot a179-pagecensus.
+Use ONLY existingGDT930fullf77rphoto, alreadyusedwithcompletef77rprose/labels:
+experiments/yolo/gdt930_label_text_joint_reading/artifacts/f77r.jpg
+SHA2566bcedcaccc8107da32d6d1ca950b96708b529538d7902a2108398a3c0b9327df.
+Existing admittedpage, notnewimagekey orquotaextension. No fetch,newsource,
+f84/f84r/f116v,reserveorunadmittedimage. Fixedanalysis is geometryaround31/32;
+wholepageviewserveslocalization. Root knows thetranscriptions andpriorhypotheses;
+oneawareobservation,notindependentpalaeography orblindconfirmation.
+
+## Observational fields fixed before view
+1.Candidate_localization: identifiablepair/paragraphregion fromfullrawlines and
+nearbylayout, orUNRESOLVED. Do notmanufacturepixelprecisewordIDs.
+2.Independent_right_limit: author-visible ruling,panelborder orphysicalobstacle
+thatconstrains therelevantprecedingwritingline, versusABSENT/UNRESOLVED.
+Theobservedendofwriting,adjacentlineends,assumedconstantmargin,orpageedgealone
+are NOT independently supplied intendedwritinglimits forthiscontract.
+3.Width_assumptions: is unchangedHform/scaleandappendgap fixed independently?
+No assumevirtualrelocationcostidenticalmerelyfrom the nextline'sinkbbox.
+4.Decision: MEASUREMENT_CAPACITY onlyifallthree prerequisites PRESENT;else
+NO_BOUND_GEOMETRY_FOR_GREEDY_TEST orLOCALIZATION_UNRESOLVED. No estimatedinequality
+orpackingchoice whena prerequisitefails. EvenPASSwouldnotidentifymeaning.
+Retainwhatwasvisible andwhatwasnot. No inferenceaboutsilentcorrection,allography,
+phonetics,syntaxorbare/Didentity. Do not inferthatnophysicalmarginexisted merely
+because noauthoriallimitcanberecoveredfromthisimage.
+
+## Verification and closure
+Bindprotocol/sourcebeforeview. Recordobservationsimmediately;source/schemaand
+fixeddecisionvalidationonly, notmachinevalidationofthevisualjudgment. Preserve
+imagebytes and oldreports. No automatedpixelthreshold,cropsearch,perspectivefit,
+postresultmarginornewcounterpartwindow. Numericgeometryrequiresanothercontract
+onlyifthiscapacityactuallypasses. No additionalreaderagentlookingatimage.

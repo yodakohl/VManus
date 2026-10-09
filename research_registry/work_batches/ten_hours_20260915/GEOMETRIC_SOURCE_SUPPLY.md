@@ -155,3 +155,46 @@ Root's later instruction favored source completeness over additional raw cards
 because the existing surplus is ample. No quota variant was added. A bounded
 antiphairesis/common-measure idea was considered but left unselected and
 unregistered while the requested astronomical source was completed.
+
+## Bounded 2026-09-20 candidate check: no new source/target proposal
+
+The live route requested a fresh check of IDEA000125 (complete
+straightedge-and-compass programs) and IDEA000111 (compositional drawing
+operations) against an already owned whole diagram. The relevant source
+candidate is already fully represented by the Digby 40 chapter-2 review above:
+its complete f2v/f3r/f3v construction fixes two shared pole points on the inner
+circle, derives transverse points with a ruler, and draws bounded arcs through
+the two poles. This supplies a finite geometric consequence beyond “circles
+exist”: every member of the selected arc family must share both poles, with one
+nonstraight member on each side of the diameter. The source review also keeps
+the compass-placement wording, central limiting member, degree-grid omission,
+and supporting-circle reconstruction unresolved.
+
+That source consequence already has its exact whole-diagram target audit in
+GDT968 (`experiments/yolo/gdt968_d40_shared_pole_diagram_consequence/REPORT.md`).
+It inspected all major circular units in the six fixed admitted astronomical
+renderings. Twelve complete units contradicted the two-pole/two-half predicate;
+one clipped neighbouring fragment remained unresolved. The report explicitly
+forbids selecting a convenient local lens or treating a partial icon as the
+whole diagram. Therefore the source has a real operation sequence, but no
+complete already-owned target unit binds it; creating another raw card would
+duplicate the stopped GDT968 framework rather than supply a changed input.
+
+The two predecessor limits are separate and retained. GDT879
+(`experiments/yolo/gdt879_plant_topology_endpoint_pilot/REPORT.md`) could not
+obtain a complete native terminal inventory or rooted topology on any of its
+three fixed plant pages, so it cannot provide the missing full target graph.
+GDT881 (`experiments/yolo/gdt881_f99v_text_graphic_stroke_interface/REPORT.md`)
+found zero clear writing/anatomy shared strokes at f99v and leaves inside-body
+placement uncertain; it does not provide IDEA111's required literal operation
+example. The existing Euclid I.1 source work likewise supplies a source proof
+and construction, but no target-owned circle/endpoint binding.
+
+Bounded result: no new RAW proposal is registered. The blocker is specific to
+this candidate family: GDT968 has already tested the source's necessary
+whole-diagram consequence and found no complete target match, while the one
+unresolved fragment lacks the complete carrier and opposite pole needed to
+write a defensible construction. This is not a universal rejection of
+diagram-linked content or of IDEA111; a future complete owned diagram with a
+different, independently visible construction relation would be a changed
+input.

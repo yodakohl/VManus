@@ -1,0 +1,72 @@
+# GDT1280: capacity for first-order-preserving within-word alternatives
+
+## Decision before calculation
+1279finds exactprevious-unitinformation onstrictinnertransitions; it does not
+identify larger indivisible chunks.605found recurrentBPEunits,608directedformal
+backoffpluswholeunitresiduals,1201multipleparsescanpreservesamecontent. Simply
+covering words with learnedpieces is not evidenceofuniqueprimitiveblocks.
+Unknownhere: howmany existingwholewords admit a DIFFERENT unitorder with the
+samefirstunit,lastunitanddirectedbigramMULTISET? Iffew, a perwordbigram-preserving
+shuffle cannot testchunkstructure onmostwords. Ifmany, it offers capacity for a
+separately specified first-order-controlled orderingquestion; not evidence of
+higherorderstructure itself. Also list actual distinct attested types sharing
+such constraints, without calling them synonyms or samecontent.
+Smallesttest: exactexistenceandonewitness perdistinctword, no samplednullworlds,
+newsegmenter,decoder,modelsornewcorpus. No statisticalhigher-orderclaim.
+883concernsoverlappinglatentcodewindows,925wordmultisetsinwholelines;neitheris
+rerun. EmptyEulersearch was followed bytargetedprimaryreport checks,notabsence
+claimedforallresearch. Exactposition1279is NOT preservedbythisreference.
+Inclusiveouterbudget14:50--15:30UTC8October2026 includesselection,proof,software,
+controls,validationandlocalclosure. No automaticcontrolordecoderchainafterresult.
+
+## Population and invariant
+Unchanged1233GROUPS,all3readersseparate,alloldadmittedgroups. InheritPprose,
+definiteouterspaces,rawpuregroupsandfixed22workingunits. No newselection,image,
+sealedf84/f84r,f116v,reserveorplaintext. Do nottrimwordends.
+For word w, signature=(first,last,sorted directededgecounts). Preserve multiplicity;
+parallelidenticaledges are NOT distinguishable. Lengthandsymbolbag followfrom
+signaturebutcheckboth explicitlyon everywitness. One-unitword hasnoedgesandisunique.
+Differentmeansdifferenttupleofworkingunits,notdifferent traversalofparallelcopies.
+
+## Complete existence algorithm
+At eachprefixoforiginalword, tryeachavailable successor differentfromthe observed
+nextunit, inlexicographicunit-stringorder. Afterremovingthatoneedge, testwhether
+remainingdirectedmultigraph hasanEulertrail fromthenewunit tooriginalend.
+Withnoedges, requirestart=end. Otherwise requireddegreeimbalanceis+1atstart,
+-1atend,0else(orall0ifstart=end). Underlyingundirectedgraph onpositiveedgevertices
+PLUScurrentstartandend mustbeconnected. Includingcurrentstart isessential:
+ABAC cannotchooseA→CearlyandleavetheABAcircuitbehind.
+If feasible, greedilychooselexicographicallyfirstnextunit preservingfeasibility
+untilallcountsconsumed. Returnthisdeterministicwitness. Otherwiseconsumeoriginal
+nextedgeandcontinue. Ifnoalternativefirstdivergenceexists, thewordisunique.
+This is an exact existence decision, not exactnumberofalternativesoruniformsampling.
+First-divergence searchplusEulercriterion provescompleteness. Loops countboth
+in/outdegree;isolatedcurrentstartwithremainingedgesfailsconnectivity.
+
+## Descriptive census and capacity decision
+Countdistincttypes AND occurrences; neverequatethem. Reportallcachedgroups,
+length>=4, andeven-leaflength>=4 ALL/UNSEEN_WHOLE cohorts. Novelwhole means absent
+fromownreaderoddwholeinventory;notunexposedornovelinterior. Retainallcases.
+Primarycapacity: ZLevenUNSEEN_WHOLE musthave>=100mobileoccurrenceson>=10physical
+leaves. IfyesORDER_CONTROL_CAPACITY,elseORDER_CONTROL_CAPACITY_STOP. Thischosen
+instrument floorisnot a manuscript hypothesis test. No postresultthresholdrepair.
+Also groupalloldtypes bysignature separatelyperreader,retainingeveryfibre with
+>=2differentattestedtypes;include sourceIDs/counts. Onlydescriptivecontrast,
+no semantic/equivalenceorhistoricaloperationclaim. No pvalues.
+Showqokeedy,daldy,daiin aspreviously discussedexamplesifpresent;first3mobileZL
+wordtypesinlexicographicunitorderasillustrationsregardlessofattestation/effect.
+Generatedwitnessstringsmustbelabeledgeneratedalternatives,notmanuscriptreadings.
+
+## Independent checks and limitations
+Exhaustallbinarystringslength1..8andternarystringslength1..6,groupbysignature,
+compareexistenceandwitnessagainstcompletefiniteclasses(1602wordcases).
+Separatevalidatorusesremaining-countrecursiveenumerationcappedattwoDISTINCT
+unitstrings, withmemoization;notEulerfeasibility. 50000memo statesperword and
+90secondsoverallnativevalidation; ifexceeded,stopvalidationwithoutclaimingPASS,
+notmainclassificationchanged. Preserveoriginalprogramsandboundifthatoccurs.
+Validateeverydistinctnativeclassification,witness,allreader/leafcohortsand
+actualattestedfibres. Software/sourceconsistencyisnotnewpalaeography.
+Equalbigrammultisetsgiveequallikelihoodonlyunderhomogeneousfirst-order models
+(withsameend/starthandling), notposition-conditioned1279,word-specificmodelsor
+anysourcewriter. UniquenessgivenobservedperwordcountsisNOTpredictionofunknown
+words or proofthatbigramrulesgeneratedthemanuscript. Fixedunitassumptionsremain.

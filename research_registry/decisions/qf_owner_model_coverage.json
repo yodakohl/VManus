@@ -1,0 +1,108 @@
+{
+  "schema": "qf_owner_model_coverage_v1",
+  "status": "read_only_coverage_pointers",
+  "target_reads_performed": false,
+  "gdt876_accessed": false,
+  "mutations_performed": false,
+  "exact_consolidated_model": {
+    "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_258_READING_UNITS.tsv",
+    "rows": [
+      189,
+      190,
+      191
+    ],
+    "mapping": {
+      "f67r2.72": "A1_LEFT_OUTER_RING_TEXT",
+      "f67r2.73": "A1_RIGHT_OUTER_RING_TEXT",
+      "f67r2.74": "A1_PAIRED_WHEEL_LEGEND_UNRESOLVED"
+    },
+    "interpretation_limit": "The same rows explicitly say local owner order only and no global wheel start/direction; they are a consolidated working model, not independent semantic confirmation."
+  },
+  "stored_model_cases": {
+    "ledger": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+    "cases": "Rows 537–548 store the .72 token cases; rows 549–568 store .73 cases; rows 569–572 store .74 cases. They preserve renderer/component labels and the unresolved legend rather than an English lexical claim."
+  },
+  "coverage_cards": [
+    {
+      "id": "HIST:ddc4b0d17e873c46",
+      "title": "SIDEQUEST_v75_complete_celestial_multi_instrument",
+      "role": "Imported history pointer; four local roles cover 395 Astro groups/142 loci, with f67 treated as two disconnected local wheels and no selected orientation."
+    },
+    {
+      "id": "HIST:c2af2220f9dce773",
+      "title": "SIDEQUEST_semantic_astro_address_handbook_sixty_eighth_edition",
+      "role": "Imported history pointer; three separate local lookup manuals, no common start/orientation, f68↔f69 key, or prose import."
+    },
+    {
+      "id": "HIST:dbb443ed466d0d09",
+      "title": "SIDEQUEST_semantic_astro_compiler_five_hundred_eighth",
+      "role": "Imported history pointer; LOCATE–READ–RECORD–RESET compiler with f67 two wheels plus legend and no orientation join/prose import."
+    },
+    {
+      "id": "HIST:4a2449f0df67a4b1",
+      "title": "SIDEQUEST_semantic_speakable_astro_thirty_sixth_edition",
+      "role": "Imported history pointer; all 142 addresses receive local spoken procedures without invented rotation or f68↔f69 key."
+    }
+  ],
+  "source_assertions": [
+    "V71 R3 explicitly labels itself a creative technical reconstruction, not decipherment/translation; owner bindings are record/rad-local and no semantic lift is allowed.",
+    "V75 R2 describes f67r2 as two paired-but-disconnected wheels, with separate namespaces and no shared start, rotation, direction, or cross-wheel key.",
+    "The exact .72/.73/.74 labels are therefore covered by the NINTH 258/776 consolidated working model, while the corresponding imported cards remain unreviewed history rather than assessed semantic cards."
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+      "line": 1,
+      "line_end": 5,
+      "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90",
+      "quote": "# V71 R3 — ausführbarer Bildbesitzer-Compiler\n\nStatus: kreative technische Rekonstruktion, keine Entzifferung oder Übersetzung.\nAlle Besitzer sind sichtbare Argumentträger; sie sind keine Wörter, Kartenwerte,\nStämme, Referenten oder Bedeutungen."
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+      "line": 22,
+      "line_end": 32,
+      "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90",
+      "quote": "## Ausführbare OWNER-Registerregeln\n\n1. `RESET_RECORD`: Am Beginn jedes H-/B-Records wird OWNER gelöscht; am Ende darf nichts in den nächsten Record gelangen.\n2. `ANCHOR_DIRECT`: Berührt/umschließt ein Bildobjekt den lokalen Schreibraum eindeutig, setze OWNER auf dieses kleinste Objekt.\n3. `ANCHOR_PAGE`: Gibt es nur eine dominante Seitenfigur, darf der erste Recordposten sie als `PAGE_OWNER_ONLY` setzen.\n4. `INHERIT_LOCAL`: Folgende Felder dürfen denselben OWNER nur im selben Record und ohne sichtbare Trennkante erben.\n5. `BREAK_AT_GAP`: Eine sichtbare Unterbrechung oder ein neues Gefäß löscht OWNER; bloße Nähe ist keine Verbindung.\n6. `ASTRO_NAMESPACE`: Jeder Kreis, jedes Paneel und jede Sternstation hat einen eigenen lokalen Namensraum.\n7. `NO_DIRECTION`: Bogen, Ring und Rad geben ohne Pfeil weder Fluss, Start noch Rotation vor.\n8. `UNRESOLVED`: Sind mehrere kleinste Besitzer möglich, wird nicht seitenweit vererbt; das Masterexemplar muss wählen.\n9. `NO_SEMANTIC_LIFT`: Ein sichtbarer Besitzer ergänzt nur 'dieses Bildobjekt'; er benennt kein Material, Heilmittel, Gestirn oder Verfahren."
+    },
+    {
+      "path": "experiments/yolo/sidequest_theory_candidates_v75/V75_R2_CELESTIAL_MULTI_INSTRUMENT_REPORT.md",
+      "line": 15,
+      "line_end": 25,
+      "sha256": "7618b0236d63bf73cbafd8c48e93cd72fab812b6a6b1f84ab649a37aa43a7d2d",
+      "quote": "Alle 395 Astro-Gruppen und 142 Loci besitzen nun ein lokales kopiertes Bedeutungs-/Etikettumfeld. Kein sichtbares Gruppenbild erhält eine portable Wortglosse: bei mehrgliedrigen Loci ist jede Gruppe nur `Kopiersegment i/n` derselben vollständigen lokalen Etikette.\n\nOwnerstatus der 142 Loci: DIRECT_VISIBLE=93, INHERITED_VISIBLE=39, PAGE_OWNER_ONLY=3, UNRESOLVED=7.\n\nDie f67-, f68- und f69-Seitenwerte leben in getrennten lokalen Namespaces. Es gibt keinen gemeinsamen Start, keine Rotation oder Richtung, keinen f68↔f69-Schlüssel, keinen Import aus dem Prosakartensatz und keine Zuordnung durch Oberflächenähnlichkeit.\n\n## Drei kontinuierliche Instrumentbeschreibungen\n\n### f67r2 — PAIRED_BUT_DISCONNECTED_CELESTIAL_REFERENCE_WHEELS\n\n**Arbeitslesung:** Zwei getrennte Himmelsräder: rechts ein zwölfteiliger Zeichen-/Kalenderrahmen mit eigenen Ring- und Bedingungsfeldern, links ein Stern-/Strahlenrad mit lokalen Innen- und Außenplätzen. Beide werden nebeneinander kopiert, aber nicht miteinander verrechnet."
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_258_READING_UNITS.tsv",
+      "line": 189,
+      "line_end": 191,
+      "sha256": "26bfb9f5cc23b903a08dfee0744911c3fff93b46d57930b1d12f22305451466a",
+      "quote": "188\tASTRO_OWNER_LOCUS\tASTRO\tf67r2\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\t12\tdar aldaiin ydaiin qkoy ydaiin qofair ypair ykoaiin ydoly ytalchos oly okey\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tlocal owner order only; no global wheel start/direction\n189\tASTRO_OWNER_LOCUS\tASTRO\tf67r2\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\t11\tsshey sy shees qeykeey ykchey ykchey qokeochy oaiin okol ar olar\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tlocal owner order only; no global wheel start/direction\n190\tASTRO_OWNER_LOCUS\tASTRO\tf67r2\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\t13\tyshey qokeeody cheos oeeos qockhy chos aiin okeeody qokoaiin odain ar air ay\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tlocal owner order only; no global wheel start/direction"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+      "line": 537,
+      "line_end": 540,
+      "sha256": "340e4d3e3ad37b1ef549da3cf46f43406166ea20d8358aaa25be7f8567dc236e",
+      "quote": "536\tASTRO\tf67r2\tA1:G155\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\tdar\tSF0112\tAR\tQuelle\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tASTRO_REGISTERED_RENDERER_ALLOGRAPH\n537\tASTRO\tf67r2\tA1:G156\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\taldaiin\tSF0008\tAL+AIIN\tZiel-Sollwert\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tASTRO_REGISTERED_RENDERER_ALLOGRAPH\n538\tASTRO\tf67r2\tA1:G157\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\tydaiin\tSF0439\tYD+AIIN\tSollwert der aktiven Zeile\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tASTRO_LOCAL_YD_ACTIVE_ROW\n539\tASTRO\tf67r2\tA1:G158\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\tqkoy\tSF0311\tNONE\tneue Grundklasse\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tLOCAL_ASTRO_WORD"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+      "line": 549,
+      "line_end": 553,
+      "sha256": "340e4d3e3ad37b1ef549da3cf46f43406166ea20d8358aaa25be7f8567dc236e",
+      "quote": "548\tASTRO\tf67r2\tA1:G167\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tsshey\tSF0417\tCHEEY\tAblesewert\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tCROSS_REGISTER_CHEEY_READOUT\n549\tASTRO\tf67r2\tA1:G168\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tsy\tSF0419\tNONE\tdieser lokale Diagrammposten\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tEXACT_SHARED_SURFACE_READING\n550\tASTRO\tf67r2\tA1:G169\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tshees\tSF0389\tNONE\tPosition oder Bedingung halten + lange oder volle Diagrammstufe\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tLOCAL_ASTRO_WORD\n551\tASTRO\tf67r2\tA1:G170\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tqeykeey\tSF0310\tNONE\tlange oder volle Diagrammstufe\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tLOCAL_ASTRO_WORD\n552\tASTRO\tf67r2\tA1:G171\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tykchey\tSF0454\tYK+KCH\tbezeichnete Klasse oder Haus + KCH\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tASTRO_LOCAL_TABLE_STEM"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+      "line": 569,
+      "line_end": 572,
+      "sha256": "340e4d3e3ad37b1ef549da3cf46f43406166ea20d8358aaa25be7f8567dc236e",
+      "quote": "568\tASTRO\tf67r2\tA1:G187\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\todain\tSF0186\tOD+AIN\tPortion markieren\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tASTRO_OD_MARKED_ENTRY_MODIFIER\n569\tASTRO\tf67r2\tA1:G188\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\tar\tSF0013\tAR\tAusgangssektor, Ursprung oder Bezugswert\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tLOCAL_ASTRO_WORD\n570\tASTRO\tf67r2\tA1:G189\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\tair\tSF0004\tAIR\tHimmels-, Ring- oder Zeigerlauf\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tLOCAL_ASTRO_WORD\n571\tASTRO\tf67r2\tA1:G190\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\tay\tSF0015\tNONE\taktueller Hauptwert\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tLOCAL_ASTRO_WORD"
+    }
+  ],
+  "limits": [
+    "No exact SEM semantic card ID was found for these owner labels in bounded idea search; returned coverage pointers were imported HIST records plus the consolidated NINTH working model.",
+    "This is coverage/navigation evidence, not validation of the owner assignments or a correction to any target.",
+    "No images, GDT876 target/native outputs, ledger, registry refresh, or experiment mutation accessed."
+  ]
+}

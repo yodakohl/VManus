@@ -1,0 +1,117 @@
+{
+  "title": "RAW UNREVIEWED: mandatory short subcodes and capacity of general uniquely decodable letter tables",
+  "summary": "A source-free necessary bound for arbitrary finite uniquely decodable letter codes with at most22 entries, without prefix- or suffix-freeness. Whole one-unit groups force singleton codes. For each exact candidate singleton set, whole two-unit groups force a finite subcode; a non-UD subcode excludes every extension, while actual word-start branches impose further code counts without double counting. Identity remains possible; the question concerns an actually used multi-unit code. No native application or full-code solver is supplied.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_PROOF_REVIEW_NOT_SELECTED_NOT_EXECUTED",
+  "origin": {
+    "proposer": "root",
+    "reviewer": "bounded_idea_supply",
+    "date_utc": "2026-10-06",
+    "deadline_utc": "2026-10-06T13:05:00Z",
+    "relationship": "Root supplied the mandatory-subcode proposal, additional head-count bound and graph-path conjecture. The producer checked proofs and constructed small mathematical counterexamples/positive examples. This is not an independent discovery or blinded outcome comparison.",
+    "access": "Live route, bounded duplicate navigation and GDT856 primary method/report plus already reviewed961/962 conceptual notes. No native/source data, images, profiles, encoding, code solver, count or root-result artifact was accessed. Earlier automatic route/search metadata exposure is acknowledged; no such numerical outcome is used in these proofs."
+  },
+  "contract": {
+    "A": "Fixed finite working-unit alphabet, contemplated size22. Every unit in A is assumed to occur somewhere in the bounded input W for the proper-S nontriviality shortcut. If this is not true, use the observed-unit set for that shortcut or state the missing premise explicitly.",
+    "W": "A finite set of original complete written word-group strings over A. Whole-group boundaries and working-unit atomicity are explicit conditional assumptions. Multi-character unit labels are not split into ASCII characters.",
+    "C": "An unknown fixed finite set of distinct nonempty strings over A, one injectively assigned code per source character, with |C|<=22. Every w in W must be in C*. Code lengths are arbitrary finite positive integers.",
+    "UD": "Free unique decodability: two finite sequences of codewords with the same concatenation must be the same codeword sequence. This applies to all code sequences, not merely attested words or grammar-approved source strings.",
+    "nontriviality": "At least one multi-unit code is actually used in the unique parse of some w in W. A merely unused longer entry is irrelevant.",
+    "not_assumed": "No prefix-free or suffix-free property, no maximum code length, no source dictionary, grammar, language, native word value, hidden code boundaries, state-dependent variants, deletions or padding."
+  },
+  "mandatory_subcode_theorem": {
+    "W1": "Units that occur as original complete one-unit groups.",
+    "W2": "The set of original complete two-unit strings ab. These are not arbitrary substrings and are not prefix/right quotients derived under an inapplicable stronger code premise.",
+    "S0": "W1, necessarily singleton codes because a nonempty one-unit string cannot be composed from longer nonempty codes.",
+    "S": "The exact singleton-code set of a proposed C, viewed as units in A; S0 subset S subset A.",
+    "B_S": "B(S) = {singleton a : a in S} union {two-unit string ab in W2 : a not in S or b not in S}.",
+    "proof": "A two-unit whole group has only two possible code-boundary patterns: one length2 code ab, or two singleton codes a and b. If either singleton is absent, ab itself is mandatory. If both singletons are present, adding ab as a code would violate UD immediately via [ab] versus [a,b]. Thus B(S) is a mandatory subset of every compatible C with exact singleton set S.",
+    "heredity": "If B(S) is non-UD, its two unequal code sequences remain a collision in every superset C, so that S is impossible. If B(S) is UD, extension/coverage is unresolved; UD is not preserved under arbitrary additions.",
+    "capacity": "Every compatible C has at least |B(S)| entries. B(S) is a set: repeated observed forms do not count as additional code entries."
+  },
+  "additional_original_word_head_bound": {
+    "d_h": "For each h not in S, the number of distinct second units among ORIGINAL complete words of length at least2 that start with h.",
+    "b_h": "The number of distinct codewords already in B(S) that start with h.",
+    "proof": "A word starting with h not in S cannot start with singleton h. Its first code therefore has length at least2 and must match the word's first two units. Different second units require different h-headed first codes, regardless of their ultimate lengths or any prefix comparability elsewhere. At least d_h such codes are necessary. Only max(0,d_h-b_h) must be counted beyond the mandatory subcode. Different h classes cannot share the same code.",
+    "L_S": "L(S)=|B(S)|+sum over h not in S of max(0,d_h-b_h).",
+    "singleton_head_caution": "For h in S, do NOT forbid longer codes beginning h and do NOT apply the same distinct-second branch requirement. For example C={a,ab} is UD even though a is singleton and ab has the same head. Such longer codes may already occur in B(S).",
+    "nontrivial_floor": "If every unit of A occurs somewhere in W and S is proper, a missing singleton unit must lie in some actually used longer code. Hence |C|>=|S|+1 as well; use max(L(S),|S|+1).",
+    "all_singletons_case": "If S=A, every longer string over A already decomposes into singleton codes, so adding it as a code violates UD. This case permits identity only and cannot witness the required nontrivial usage.",
+    "unobserved_unit_caution": "If A contains unused working units, proper S alone does not prove actual long-code usage: a missing singleton might be unused. The sufficient premise is that an actually occurring unit is outside S. Do not silently infer nontriviality from unused table entries.",
+    "head_tail_caution": "Only head deficits are added in this proposal. If a later independent tail bound is also considered, head and tail deficits cannot simply be added: one new code can satisfy both. No such extra bound is used here."
+  },
+  "finite_necessary_screen": {
+    "enumeration": "Enumerate every exact singleton set S containing S0. For the stated all-observed alphabet, retain proper S only. Test the finite mandatory B(S) for free UD and compute the displayed lower bound for every surviving S.",
+    "global_lower_bound": "The minimum of max(L(S),|S|+1) over surviving proper S is a necessary lower bound for any nontrivial compatible full code. An empty surviving set excludes nontriviality. A minimum greater than22 excludes the declared at-most22-entry class.",
+    "positive_ceiling": "A minimum at most22 means only NOT EXCLUDED. It gives neither a compatible extension C, coverage of longer words, exact minimal codebook size, a source alphabet assignment nor a human reader.",
+    "no_search_expansion": "This proposal does not select any26/28-entry solver, source-word search or adaptive codebook construction."
+  },
+  "optional_graph_path_lemma": {
+    "graph": "Use the directed edge a->b for each original whole two-unit word ab in W2. This orientation differs from the suffix-side reversal convention.",
+    "claim": "Every vertex on a directed path from a forced singleton in S0 to a forced singleton in S0 must itself be singleton in any compatible freely UD code.",
+    "proof": "Suppose some vertex on that path is outside the exact singleton set S. Choose a subpath v0,v1,...,vm between consecutive visits to S that contains this excursion. Its endpoints are singleton, all internal vertices are not, and m>=2. Every edge vi vi+1 is therefore a mandatory two-unit code. The full concatenation v0...vm has two distinct code parses by alternating adjacent pairs and using the singleton endpoint or endpoints as necessary. If m is even, one parse is [v0],[v1v2],...,[v(m-1)vm], and the other is [v0v1],[v2v3],...,[v(m-2)v(m-1)],[vm]. If m is odd, one parse is [v0v1],[v2v3],...,[v(m-1)vm], and the other is [v0],[v1v2],...,[v(m-2)v(m-1)],[vm]. Their first code lengths differ, so the code sequences are distinct even when some vertex labels repeat. This contradicts UD.",
+    "conservative_closure": "ForwardReach(S0) intersect BackwardReach(S0) in this fixed graph is therefore a forced-singleton set. Paths may use the same starting/ending singleton. A path with no internal non-singleton offers no collision and merely preserves already forced vertices.",
+    "scope": "The collision concatenation need not itself be an attested word. That is sufficient for FREE UD and insufficient for a claim against a grammar-restricted non-UD writer. This graph lemma can aid understanding, but enumerating all S and directly testing B(S) avoids relying on it as a computational shortcut."
+  },
+  "hand_examples": [
+    {
+      "purpose": "A legal singleton-headed long code",
+      "C": ["a", "ab"],
+      "reason": "The table is suffix-free and therefore UD. It contains singleton a and longer ab beginning a. Any rule banning all longer codes with singleton heads would be false."
+    },
+    {
+      "purpose": "UD strictly beyond both instantaneous directions",
+      "C": ["a", "ab", "bba"],
+      "reason": "Not prefix-free because a prefixes ab; not suffix-free because a suffixes bba. The only initial prefix-overlap residual is b; comparison against bba gives residual ba; ba is prefix-incomparable with every code, so the residual closure terminates without collision. This is a small hand UD check, not an executed solver."
+    },
+    {
+      "purpose": "Two-edge singleton excursion collision",
+      "known_singletons": ["a", "c"],
+      "W2": ["ab", "bc"],
+      "assume": "b is not singleton",
+      "forced_collision": "[ab,c] and [a,bc] both concatenate to abc. Therefore b must also be singleton in a freely UD completion."
+    },
+    {
+      "purpose": "No parity exception for a longer excursion",
+      "known_singletons": ["a", "d"],
+      "W2": ["ab", "bc", "cd"],
+      "assume": "b and c are not singleton",
+      "forced_collision": "[ab,cd] and [a,bc,d] both concatenate to abcd."
+    },
+    {
+      "purpose": "The necessary bound is not a sufficiency result",
+      "A": ["a"],
+      "W": ["aa", "aaa"],
+      "S": [],
+      "B": ["aa"],
+      "bound": "B is UD and the head bound including the nontrivial floor is1.",
+      "remaining_impossibility": "Any freely UD code over a unary alphabet has at most one codeword: two different lengths collide by repeating each to a common total length. A one-code table covering both lengths2and3 must have code length dividing both, hence length1. Thus no nontrivial UD completion exists here despite the permissive necessary bound."
+    }
+  ],
+  "human_and_meaning_scope": "This is a broad negative-test family, not a complete newly selected human writer. A general UD table may require whole-word lookahead/backtracking and need not have the simple end-first or start-first reading of962/961. Any positive construction still owes the actual source-character table, table-length/lookup costs, punctuation, names, physical continuation and ordinary source-language meaning. Fixed injective letter substitution preserving word boundaries also preserves source word identities/frequencies; old source-conditioned frequency failures remain where those assumptions apply. No source or native word meaning is assigned.",
+  "priors_and_duplicates": [
+    {
+      "id": "GDT856",
+      "primaries": [
+        "experiments/yolo/gdt856_codeword_unique_decodability/METHOD.md",
+        "experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md"
+      ],
+      "retained_result": "The exact old98-unit inventory is not freely UD; its canonical BPE procedure was not contradicted. That old fixed-table collision and the finite residual algorithm are known, not rediscovered here.",
+      "difference": "This proposal derives mandatory short subcodes for every possible singleton set of an unknown small table, instead of evaluating one already supplied98-unit codebook."
+    },
+    {
+      "id": "IDEA000961 / IDEA000962",
+      "primaries": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_PREFIX_QUOTIENT_CAPACITY_RAW_20261006.json",
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_SUFFIX_FREE_LETTER_CODE_RAW_20261006.json"
+      ],
+      "difference": "General UD includes codes in neither instantaneous class. Their left/right quotient closures are not valid premises here. Only original complete one/two-unit words and original whole-word heads are used."
+    },
+    {
+      "id": "GDT892 / GDT906 / GDT1233 / GDT1234",
+      "relation": "Earlier fixed-length CV/source-grammar and prefix-specific decisions retain their scopes. This note does not rerun those models, reuse their derived quotients for UD, infer their outcome in this class, or expand their solver sizes. Root owns any later primary outcome comparison and selection."
+    }
+  ],
+  "duplicate_review": "Bounded ideas duplicates identified856 and related memory/coding work, without an identical declared design. Parent had already raised the broader class. No exhaustive archival-absence or originality claim is made.",
+  "smallest_decision_changing_action": "Only if independently selected by root, freeze a complete-word input/unit contract, enumerate all singleton sets, certify every non-UD mandatory subcode or necessary count, and report the conservative minimum. A negative would close a larger fixed word-preserving code family; a positive would leave full human writing and content identification unresolved. No such action is performed by this producer."
+}

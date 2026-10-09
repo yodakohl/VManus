@@ -1,0 +1,127 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed conditional binary-order model misses registered joint gate; no glyphidentity/content prediction, allmodel exclusion, meaning or erasureof1264/65positives.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1278_binary_order_prediction/src/run.py all",
+    "validate": "python3 experiments/yolo/gdt1278_binary_order_prediction/src/validate.py"
+  },
+  "created": "2026-10-08",
+  "dependencies": [
+    "GDT1233",
+    "GDT1264",
+    "GDT1265",
+    "GDT1266"
+  ],
+  "experiment_id": "GDT1278",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "fixed cached source or oldfrozenlabels",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/artifacts/TRAIN.json",
+      "role": "fixed cached source or oldfrozenlabels",
+      "sha256": "e81f3b68d1a3d7b9ea7705f56cf722eee64934ea79509b71229e208fca3a96e8"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/artifacts/TRAIN_LOCK.json",
+      "role": "fixed cached source or oldfrozenlabels",
+      "sha256": "e91301f323a489aa66638b742f8ab9bdb28663b3260795382d9ca03132c808e3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "7b8f028ea9d5e1a01f1def8a1df6f57719dc7120bac658304b31dd7f9c56657f"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "7b8f028ea9d5e1a01f1def8a1df6f57719dc7120bac658304b31dd7f9c56657f"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "b2af066ce7e6aef0cb227fe0ce74239f673b1c5f2353b3bbd3642da40fd1e4a8"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/REPORT.md",
+      "role": "primary_report",
+      "sha256": "b07b48616794652d5da4c77b55f912f621fcf778a94f8054f8649a0df3e61ebd"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/EVENTS.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "ae4e2f4eeb8489870cc6fc22b5335e6556e558c148a773a0401ca702e5e23cd1"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/IDEA_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "c2a65c0b211410aa95e66164a038c7554f82a94dd4d7136efb367875a2fe17a7"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/MODEL.json",
+      "role": "reproducibility artifact",
+      "sha256": "a6c4d6d7155f893038584c3ccdf91191fefc29831735e37956a81a5af7bf3bd0"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/MODEL_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "008de129700de2933b5a4e38f5f21aaa63c93e0193f054496ff5b38a817e333a"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/PROOF_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "f7812e88ea601adf4230550211f134f7fd1472c7fb216eb81c15dfb5b6141c35"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "b3815ea0251c5a132e638a32e2461eeb76b7814681b197a95e2d82507c93063b"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "8cc624c2afc408f365e30372cf52877e5b88b6478f5c9f3afbe4c083423e5655"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "305a36a8df7d8b31b081899c51c76bcf0559960f89d473bdb06b0facd22ad67b"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "bd5cf7e6f47f73aa6f040e1cf2a343ac5bc100c52081823cd36f1461df69751f"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "2cd3adc02d774d1a8e4b6296de4f10d6c66a5e76cd66b344768e024239c4debd"
+    },
+    {
+      "path": "experiments/yolo/gdt1278_binary_order_prediction/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "31d6ee1b50f130680c3c1765456a87ee93cab23c0fdc71bb33418bbfcb45e6c3"
+    }
+  ],
+  "question": "Does one TRAIN-selected class-switch coefficient improve even-leaf conditional order prediction beyond a fixed five-bin position baseline, including unseen interiors?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "binary_order_prediction",
+  "status": "NO_JOINT_MATERIAL_PREDICTION",
+  "title": "Compact binary interior order prediction",
+  "updated": "2026-10-08",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1278_binary_order_prediction/artifacts/VALIDATION.json"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "status": "CONCEPTUAL_PROOF_AND_PREDECESSOR_REVIEW_NO_COUNTS_NO_SELECTION",
+  "created_utc": "2026-10-06T17:16:14.734697+00:00",
+  "origin": "Root proposed this necessary form consequence. The producer checked its mathematics and exact old-code scope, without native/source counting or table construction.",
+  "contract": {
+    "alphabets": "A fixed source-letter alphabet and a fixed working-glyph alphabet, with one input letter producing exactly one output glyph. Each table row is injective; equal22-element alphabets make it bijective.",
+    "state": "At every word start use one public reset row. At all subsequent positions select the row solely from the immediately previous WRITTEN output glyph. No hidden state, additional within-word reset, deletion, expansion, letter omission or source-dependent spelling alternative.",
+    "equation": "For source letters x_i and generated glyphs y_i, y_1=f_BOS(x_1) and y_i=f_{y_(i-1)}(x_i) for i>=2.",
+    "inverse": "x_1=f_BOS^{-1}(y_1); x_i=f_{y_(i-1)}^{-1}(y_i). The decoder uses the observed previous output glyph, not a guessed previous source letter.",
+    "not_full_writer": "This conditional capacity contract does not by itself supply a source projection, punctuation, names outside the declared alphabet, physical continuation or a useful vocabulary. No complete medieval writer or native alphabet is claimed."
+  },
+  "run_lemma": {
+    "statement": "A within-word output run y_a...y_(a+k-1)=g^k, k>=2, entails x_(a+1)=...=x_(a+k-1)=f_g^{-1}(g). Thus a contiguous source run of at least k-1 equal letters is necessary.",
+    "proof": "Every position after the first glyph of the output run has the same previous written glyph g and the same present output g. Injectivity of f_g supplies exactly one source letter at all those positions. The first position may use another previous-glyph row or BOS and is not included in the forced tail.",
+    "word_edge": "The proof holds when a=1, because only the first position uses the reset row. It cannot be applied across a word boundary. An additional reset inside a counted run would violate the stated contract.",
+    "weak_case": "A double gg requires only a one-letter source tail. It does not imply two equal source letters. A triple ggg is the first nonvacuous repeated-source-letter obligation.",
+    "no_type_injection": "The source letter f_g^{-1}(g) can be the same for several different output glyphs g. Row-wise bijectivity does not make g -> f_g^{-1}(g) globally injective. Distinct repeated output forms cannot simply be counted as distinct repeated source letters."
+  },
+  "manual_toy": {
+    "source_alphabet": [
+      "A",
+      "B"
+    ],
+    "output_alphabet": [
+      "g",
+      "h"
+    ],
+    "rows": {
+      "BOS": {
+        "A": "g",
+        "B": "h"
+      },
+      "g": {
+        "A": "h",
+        "B": "g"
+      },
+      "h": {
+        "A": "g",
+        "B": "h"
+      }
+    },
+    "hand_examples": [
+      "AB -> gg: an output double without an input double.",
+      "ABB -> ggg: the initial source A differs, while the required tail is BB.",
+      "ABBB -> gggg: a source run of3 supplies an output run of4.",
+      "BBB -> hhh: both output-run labels g and h can correspond to the same repeated input B."
+    ],
+    "execution": "These are direct hand substitutions in three stated two-entry rows. No program or data experiment was run."
+  },
+  "possible_cheap_bounds": [
+    "If a fixed complete source population has no run of k-1 equal letters, no row table can generate an output word containing a run of k equal glyphs. More generally maximum within-word output run length is at most maximum within-word input run length plus1.",
+    "For aligned complete source/output words and fixed k, each equal-glyph output window of length k at positions a...a+k-1 injects into the equal-letter source window a+1...a+k-1. Overlapping windows must be counted as windows on both sides.",
+    "For a source word of length L, the sharper source-window capacity sums constant windows of length k-1 whose starting position is i=2,...,L-k+2 in the chosen processing direction. The first source window cannot be charged to a nonexistent output position0. Counting all source windows instead is a safe but weaker relaxation.",
+    "An empirical comparison needs a declared common population and normalization. A total over one complete source cannot be compared as a deterministic count bound with an unrelated crop or a differently sized target sample. Root must choose the source and population before any such count."
+  ],
+  "orientation_and_units": [
+    "Reversing the source word before applying the rule preserves the existence and lengths of source constant runs; the exceptional unforced first position moves to the other end of the original word. The sharper window capacity omits the original final window instead of its first.",
+    "Reversing the displayed ciphertext is not automatically the same table family in the original left-to-right orientation. The state is previous in the actual processing direction. The existential run-length consequence survives either declared direction.",
+    "Any reversal must operate on declared working units, not the ASCII letters inside a multicharacter label such as ch. Word boundaries and the one-unit/one-letter assumption remain explicit."
+  ],
+  "word_building_and_invariants": [
+    "An exactly repeated output substring has the same decoded source suffix from its SECOND glyph onward. Its first decoded letter can differ when its preceding written glyph differs. It therefore does not by itself identify a whole morpheme or shared meaning.",
+    "At word reset, the complete mapping is deterministic and invertible. Exact source-word equality, whole-word frequency multiplicities, adjacent whole-word repetitions and word lengths are preserved. The channel can alter internal glyph-transition statistics, but does not solve a fixed source word-frequency failure.",
+    "No daldy-family part, q, y, run glyph or other native item receives a source letter or meaning in this note."
+  ],
+  "old_primary_scope": [
+    {
+      "path": "run_gdt001_previous_context.py:12-22",
+      "finding": "The encoded states are (BOS-or-previous observed glyph,current observed glyph). Line20 assigns prev directly from c in path.words before any learned plaintext mapping. The docstring source wording therefore does not mean previous decoded plaintext. There are26 contexts times25 observed glyphs,650 states, with a word reset."
+    },
+    {
+      "path": "run_gdt001_contextual_language.py:72-78",
+      "finding": "The reused search_encoded chooses650 free targets from27 values including a space; it does not enforce one bijective22-letter permutation per row. Its own main at85-94 runs BOUNDARY_FREE and POSITIONAL_3 rather than the previous-glyph state construction."
+    },
+    {
+      "path": "gdt001_previous_context_results.json",
+      "decision": "STOP_PREVIOUS_CONTEXT_UNSTABLE",
+      "best_bits_per_symbol": 5.548966608612187,
+      "gap_vs_null_bits": 484914.0935951369,
+      "limit": "This exact old inverse/source-scoring failure is retained. The state idea is not newly invented; a source-conditioned run-capacity theorem is a different proposed falsifier, not an optimizer repair or a reversal of that failure."
+    },
+    {
+      "path": "gdt001_contextual_language_results.json",
+      "decision": "STOP_CONTEXTUAL_LANGUAGE_LOSES_KEYS_UNSTABLE",
+      "limit": "The best positional arm remains391918.6455197857bits worse than its null. Its result is not silently substituted for the separate previous-context result."
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_CIRCULAR_LETTER_DIFFERENCE_RAW_20261005.json:78",
+      "finding": "The existing948 card already correctly records the old prior as preceding-OBSERVED-sign context. Its own forward ring uses previous decoded source units and remains a different failed contract."
+    },
+    {
+      "path": "experiments/yolo/gdt1230_previous_source_entropy_bound/REPORT.md",
+      "limit": "The live route and compact registered scope condition1230on the previous decoded source letter. That entropy exclusion cannot be transferred solely by naming both models contextual."
+    }
+  ],
+  "human_cost": "A fully general22-letter version has23 rows including BOS and22 entries per row:506 learned table entries, plus a one-glyph memory and one row lookup per letter. An additional compact algebraic table-generation law would be a separately declared restriction; it is not supplied or tuned here.",
+  "selection_limit": "The lemma is valid. A violation under a prospectively bound source/population could cheaply stop every table in this exact family before fitting. Satisfying the bound establishes only not-excluded capacity, not a realizable table, native source, plausible language or translated word. No new raw card is added solely to rename the old contextual family.",
+  "access": "Live route/composition topic, bounded ideas/duplicate and route queries, the two named frozen programs and selected old summary fields only. No native payload, source text, count extraction, fitting, table search, new corpus or parent artifact changes."
+}

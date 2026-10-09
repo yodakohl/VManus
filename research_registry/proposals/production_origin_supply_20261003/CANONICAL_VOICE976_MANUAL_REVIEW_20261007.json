@@ -1,0 +1,20 @@
+{
+  "status": "BOUNDED_CONTENT_NORMALIZATION_INVERSE_SUPPORTED",
+  "proposal_sha256": "290bfed2d929bbbd4887dc7f21af1ee03aa0be9315477db734bcef7c8da2d9d1",
+  "exact_payload_entries": 32,
+  "payload_prefix_free": true,
+  "control_forms": 5,
+  "complete_example_units": 32,
+  "complete_example_blanks": 7,
+  "both_source_roles_and_polarity_retained": true,
+  "same_spelling_AAA_valid": true,
+  "open_name_example_exact": true,
+  "manual_inverse": "Eight accepted source frames determine one ordered agent/verb/patient/tense/polarity tuple. Shared prefix-free payload code recovers all names/base words, fixed fields supply roles and unique END recovers flags. Induction over terminated records and marked continuation recovers the normalized sequence, not sourcevoice/focus.",
+  "costs": "Wholeword END/CONT count and maximum3payloadrun apply to976physicalstream. Native applicability is tested separately in1257; do not confuse source inverse with success there.",
+  "limits": [
+    "Modern restricted named-domain source, not full historical prose.",
+    "No arbitrary deletion of articles, quantifiers, absent agents or aspect.",
+    "All raw976bytes remain frozen; no marker or suffix repair.",
+    "No Voynich name, verb, tense or polarity assignment."
+  ]
+}

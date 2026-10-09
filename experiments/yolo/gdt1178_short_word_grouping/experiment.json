@@ -1,0 +1,111 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete ordered source-word tuples for all declared partitions are retained for exact whole-recipe reversal; PARTITIONS.json is5.23MB in1176, no raw manuscript data or images.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Source-control word-frequency conditions only; no full glyph writer, native word meanings or independent holdout.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1178_short_word_grouping/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1178_short_word_grouping/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT1174",
+    "GDT1176",
+    "GDT1177"
+  ],
+  "experiment_id": "GDT1178",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/EXCLUDED.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "4cf8aff0b33713550223ff50f4af9a2a781d8179b5c5369434098d8686c16740"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/METHOD.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ad63125d99788a13f442635a095190131e4cac12cbdbdf382037ce8ff3a4828a"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/PREREGISTRATION.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "9520380f653f639469b63562a5e088b9927a23d6584c40a438fee24de6cab34b"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "d177acf94007ed08adac81b46ee4715141b2a536b82e4317c68c1030a7455a16"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/REPORT.md",
+      "role": "Primary report",
+      "sha256": "e53a2f9a032419013d934f14838afbe87f7791860095825c2cd2a6a8d625fbdf"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/artifacts/PARTITIONS.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "0769555e3db6ad17d7b413618061b54ccf091762b76b2a5ca56d2678add7b72e"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/artifacts/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/artifacts/REGISTRATION_LOCK.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "99e2e2d195c5a137472b6b94a520a37558f66cdbea75457c3d1616f0eb27b5b9"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/artifacts/REGISTRY_REVIEW.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "87877f3d3e4201a17c0fe6fab1d6cccb7d04857851f0716e0e2a946f9afdeacb"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/artifacts/RESULT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "d1c95d2eac16de14d22e33fd6280860b798cd385ecdc05b834678fc90992ae5e"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/artifacts/VALIDATION.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "b43d7c9a87d75ad110dfb641bd7a5b57fb8f4bd485a9882987cf60609b060716"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/src/run.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "3fc1992b46ae8c9a3eb553ce6387d3ae89b2bfed0f6946fba5e6ccacb1611e87"
+    },
+    {
+      "path": "experiments/yolo/gdt1178_short_word_grouping/src/validate.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "1251328aaa7c740f303587d1151d423c38b6e61f2057539696eca217212405e6"
+    }
+  ],
+  "question": "Does the fixed reversible grouping meet both necessary inherited word-frequency conditions across every declared source collection?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "short_word_grouping",
+  "status": "SHORT_WORD_RULES_BOTH_FAIL",
+  "title": "short word grouping",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1178_short_word_grouping/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

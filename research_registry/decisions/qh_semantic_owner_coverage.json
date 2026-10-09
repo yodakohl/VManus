@@ -1,0 +1,105 @@
+{
+  "schema": "qh_semantic_owner_coverage_v1",
+  "status": "additive_read_only_sem_coverage_clarification",
+  "target_reads_performed": false,
+  "gdt876_accessed": false,
+  "qf_preserved": true,
+  "bounded_priority_queries": [
+    "outer ring",
+    "f67r2",
+    "paired wheel"
+  ],
+  "exact_sem_cards": [
+    {
+      "id": "SEM:7b9bb810444196a1b120",
+      "claim_type": "functional_hypothesis",
+      "status": "unconfirmed",
+      "claim": "Page-local keys are written beside diagram objects and reused in prose to connect the two channels.",
+      "case_id": "CLEAN_HYP:367aed24f56785be421c",
+      "coverage": "Closest direct reference-channel card. Its retained case explicitly says f67r2 has only short AIR/AY overlap and is too weak; it does not contain the .72/.73/.74 owner labels."
+    },
+    {
+      "id": "SEM:41899086eba86d4163d6",
+      "claim_type": "semantic_model",
+      "status": "unconfirmed",
+      "case_id": "CLEAN_HYP:856370bc4d65cd85e64a",
+      "coverage": "Historical complete-page reading card. It names f67r2 as a multilayer selector with twelve sectors, seven-member layer, central eight-layer and bottom rule block, but does not store the exact .72/.73/.74 owner assignments."
+    },
+    {
+      "id": "SEM:18257114823fbef923b5",
+      "claim_type": "semantic_model",
+      "status": "unconfirmed",
+      "case_id": "CLEAN_GAP_BK:strict_two_mode_ten_page_book",
+      "coverage": "Broader strict register-reader card: Astro is an addressed local lookup register rather than prose. It is a model counterpart, not an exact .72/.73/.74 case."
+    }
+  ],
+  "consolidated_owner_model": {
+    "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_258_READING_UNITS.tsv",
+    "rows": {
+      "189": "f67r2.72 A1_LEFT_OUTER_RING_TEXT",
+      "190": "f67r2.73 A1_RIGHT_OUTER_RING_TEXT",
+      "191": "f67r2.74 A1_PAIRED_WHEEL_LEGEND_UNRESOLVED"
+    },
+    "coverage_status": "Exact owner labels exist in the consolidated NINTH working model, but no corresponding SEM card with these exact locus labels was found through bounded priorities."
+  },
+  "stored_cases": {
+    "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+    "rows": "537–548 (.72), 549–568 (.73), 569–572 (.74)",
+    "status": "working renderer/component cases; not independent semantic assessments"
+  },
+  "historical_pointers": [
+    "HIST:ddc4b0d17e873c46",
+    "HIST:c2af2220f9dce773",
+    "HIST:dbb443ed466d0d09",
+    "HIST:4a2449f0df67a4b1"
+  ],
+  "method_provenance": {
+    "qf_tsv_quotes": "QF quotes were read directly from cached admitted output files, not through selector-first query-tsv in this audit. They are historical method/output pointers, not retroactively guarded source extraction.",
+    "current_task": "No mixed TSV was read and no source projection was run."
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+      "line": 4693,
+      "line_end": 4703,
+      "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+      "quote": "The strongest evidence that the prose and diagrams participate in one system\nis not a global label dictionary. It is a repeated **page-local key** pattern:\n\n| page | diagram/ring card | occurrence in longer text | reading status |\n|---|---|---|---|\n| f68r1 | `OTOR` star label | f68r1.1 | exact ZL/IT; RF splits the prose card |\n| f69v | `OKEOD`, `OKEEY`, `OKODY`, `SAR` radial cards | outer text loci 1/3 | several exact per reading; boundaries vary |\n| f81v | OTAIN-family tub label | f81v.5 and f82r.18 | exact within ZL; label varies in IT/RF |\n| f82r | `OKAL` lower-figure label | f82r.6 and f82r.12 | exact in all three readings at all three loci |\n\nf82r is the cleanest case. `OKAL` labels a position between a nymph and the"
+    },
+    {
+      "path": "experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_MICROTHEORY.md",
+      "line": 4714,
+      "line_end": 4724,
+      "sha256": "bceabb81a97be7dd6829e7884604cc8db14d7c48241027fcde5bdcd8fc1e1945",
+      "quote": "f83r is the counterexample: none of its four selected apparatus/structure\nlabels reappears exactly in its prose. f67r2 has only the very short `AIR` and\n`AY` overlap between ring labels and outer prose, too weak to interpret. The\nresult is therefore a sparse reference channel, not a mandatory page key.\nThis agrees with GDT258's corrected architecture: diagram legends and\nparagraph records are independent channels with only a minority of complete\ngroups shared between them.\n\nIn the invented workshop manual, `OKAL` is best treated as a **local registered\nreferent**. A loose f82 paraphrase can say “for the OKAL item/state, carry out\nthe following entries” without claiming that OKAL means WATER, WOMAN, BATH or"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_258_READING_UNITS.tsv",
+      "line": 189,
+      "line_end": 191,
+      "sha256": "26bfb9f5cc23b903a08dfee0744911c3fff93b46d57930b1d12f22305451466a",
+      "quote": "188\tASTRO_OWNER_LOCUS\tASTRO\tf67r2\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\t12\tdar aldaiin ydaiin qkoy ydaiin qofair ypair ykoaiin ydoly ytalchos oly okey\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tlocal owner order only; no global wheel start/direction\n189\tASTRO_OWNER_LOCUS\tASTRO\tf67r2\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\t11\tsshey sy shees qeykeey ykchey ykchey qokeochy oaiin okol ar olar\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tlocal owner order only; no global wheel start/direction\n190\tASTRO_OWNER_LOCUS\tASTRO\tf67r2\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\t13\tyshey qokeeody cheos oeeos qockhy chos aiin okeeody qokoaiin odain ar air ay\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tlocal owner order only; no global wheel start/direction"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+      "line": 537,
+      "line_end": 540,
+      "sha256": "340e4d3e3ad37b1ef549da3cf46f43406166ea20d8358aaa25be7f8567dc236e",
+      "quote": "536\tASTRO\tf67r2\tA1:G155\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\tdar\tSF0112\tAR\tQuelle\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tASTRO_REGISTERED_RENDERER_ALLOGRAPH\n537\tASTRO\tf67r2\tA1:G156\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\taldaiin\tSF0008\tAL+AIIN\tZiel-Sollwert\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tASTRO_REGISTERED_RENDERER_ALLOGRAPH\n538\tASTRO\tf67r2\tA1:G157\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\tydaiin\tSF0439\tYD+AIIN\tSollwert der aktiven Zeile\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tASTRO_LOCAL_YD_ACTIVE_ROW\n539\tASTRO\tf67r2\tA1:G158\tf67r2.72\tA1_LEFT_OUTER_RING_TEXT\tqkoy\tSF0311\tNONE\tneue Grundklasse\tleft outer ring text: Quelle; Ziel-Sollwert; Sollwert der aktiven Zeile; neue Grundklasse; Sollwert der aktiven Zeile; Himmels-, Ring- oder Zeigerlauf; Himmels-, Ring- oder Zeigerlauf; bezeichnete Klasse oder Haus + AIIN; aktive Zeile fortsetzen; bezeichneter Platz oder Phase + AL+HO; im selben Ring, Band oder Satz fortsetzen; in kurzer Stufe setzen\tLOCAL_ASTRO_WORD"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+      "line": 549,
+      "line_end": 553,
+      "sha256": "340e4d3e3ad37b1ef549da3cf46f43406166ea20d8358aaa25be7f8567dc236e",
+      "quote": "548\tASTRO\tf67r2\tA1:G167\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tsshey\tSF0417\tCHEEY\tAblesewert\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tCROSS_REGISTER_CHEEY_READOUT\n549\tASTRO\tf67r2\tA1:G168\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tsy\tSF0419\tNONE\tdieser lokale Diagrammposten\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tEXACT_SHARED_SURFACE_READING\n550\tASTRO\tf67r2\tA1:G169\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tshees\tSF0389\tNONE\tPosition oder Bedingung halten + lange oder volle Diagrammstufe\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tLOCAL_ASTRO_WORD\n551\tASTRO\tf67r2\tA1:G170\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tqeykeey\tSF0310\tNONE\tlange oder volle Diagrammstufe\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tLOCAL_ASTRO_WORD\n552\tASTRO\tf67r2\tA1:G171\tf67r2.73\tA1_RIGHT_OUTER_RING_TEXT\tykchey\tSF0454\tYK+KCH\tbezeichnete Klasse oder Haus + KCH\tright outer ring text: Ablesewert; dieser lokale Diagrammposten; Position oder Bedingung halten + lange oder volle Diagrammstufe; lange oder volle Diagrammstufe; bezeichnete Klasse oder Haus + KCH; bezeichnete Klasse oder Haus + KCH; Diagrammposten setzen oder aktivieren; Sollwert; Fortsetzung aktivieren; Ausgangssektor, Ursprung oder Bezugswert; VON DER QUELLE WEITER\tASTRO_LOCAL_TABLE_STEM"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_yd_active_row_ninth_edition/NINTH_776_SPEAKABLE_LEDGER.tsv",
+      "line": 569,
+      "line_end": 572,
+      "sha256": "340e4d3e3ad37b1ef549da3cf46f43406166ea20d8358aaa25be7f8567dc236e",
+      "quote": "568\tASTRO\tf67r2\tA1:G187\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\todain\tSF0186\tOD+AIN\tPortion markieren\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tASTRO_OD_MARKED_ENTRY_MODIFIER\n569\tASTRO\tf67r2\tA1:G188\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\tar\tSF0013\tAR\tAusgangssektor, Ursprung oder Bezugswert\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tLOCAL_ASTRO_WORD\n570\tASTRO\tf67r2\tA1:G189\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\tair\tSF0004\tAIR\tHimmels-, Ring- oder Zeigerlauf\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tLOCAL_ASTRO_WORD\n571\tASTRO\tf67r2\tA1:G190\tf67r2.74\tA1_PAIRED_WHEEL_LEGEND_UNRESOLVED\tay\tSF0015\tNONE\taktueller Hauptwert\tpaired wheel legend unresolved: aktueller Ablesewert; diesen Posten länger aktivieren und eintragen; Ausgabe/Auszug; langes oder zweites Feld; durch Sektor, Ring oder Pruefweg fuehren; Eingangsposten; Sollwert oder Grad des bezeichneten Himmelsplatzes; diesen Posten länger aktivieren und eintragen; Aktivieren + Sollwert/Maß; Portion markieren; Ausgangssektor, Ursprung oder Bezugswert; Himmels-, Ring- oder Zeigerlauf; aktueller Hauptwert\tLOCAL_ASTRO_WORD"
+    }
+  ],
+  "conclusion": "Coverage is partial and layered: exact .72/.73/.74 assignments are present in NINTH working outputs; SEM:7b9, SEM:418 and SEM:182 preserve nearby page-local/register hypotheses and cases, but no exact semantic card was found for those three owner labels. This is a bounded coverage gap, not a correction or meaning rejection."
+}

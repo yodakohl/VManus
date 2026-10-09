@@ -1,0 +1,155 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Full selected-form provenance remains below3MB; no original image or new corpus copied.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Literal exposed-text capacity and manual inverse ambiguity only; no native morpheme, meaning, repetition command or independent confirmation.",
+  "commands": {
+    "run": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1200_stable_part_repetition_capacity/src/run.py",
+    "validate": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1200_stable_part_repetition_capacity/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT608",
+    "GDT624",
+    "GDT788",
+    "GDT983",
+    "GDT1050",
+    "GDT1198",
+    "GDT1199"
+  ],
+  "experiment_id": "GDT1200",
+  "inputs": [
+    {
+      "path": "tools/word_profiles.py",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "1e9cb2017525e8ee3fd07b6a088e73b28b1e4fe4e7c9d17b83b892b94d0943c6"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1198_daldy_exact_contexts/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "b02cbfaf3fe9b346bc11ced9206c48203dbb357d8d5a6ba40391e7366b62abed"
+    },
+    {
+      "path": "experiments/yolo/gdt1198_daldy_exact_contexts/artifacts/BOUNDARY_REVIEW.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "33ac51b5e060e8b4ad4d03977f905113e99fb2ec5ade5dc91e2dca757da6a268"
+    },
+    {
+      "path": "experiments/yolo/gdt1199_daldy_label_seam_view/artifacts/OBSERVATION.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "766044ed44cb67a92b69e20846140d2c6889f359ad1498a956f62ef1f500ac24"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/HAND_RULE.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "799a6879efca12033252116ffd9ee46797062f2de17fdf792570a8de2d4e6ed7"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/METHOD.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "8f8379da52eda7d06457ea0c3bc228c27a4165e430e47b8d42f869740a5dbd2d"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/PREREGISTRATION.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "389c1f5cc38b31d4f641d8eb8aea4c4b0202d553ef5c10a22d4a5318a6712bc3"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "07b8e480ff09fb99ca313675c003ca4186c8f90dd11e559fbef92438bf0b86d5"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/REPORT.md",
+      "role": "Primary report",
+      "sha256": "6ad6743055d8d61daf9cb9767a75facd128e9b04298d2b9c8f84afc14e3d903b"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/FAMILIES.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "7dbb49d76377c0cdb3689752af53a8a656470de50bef99304aa00829b09280ab"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/FORM_PROFILES.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "6922df96418d8096646f077932294c4cf52bfb34b45e42ffb7feda5bd4ddd10a"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "24f43dd6452d2475c4b49decb7f1e25ad89382f92c876f3bd63293892467b6e2"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/REGISTRATION_LOCK.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "a0bd7428a41dd48f63d7fee8a15e8bc6e426ba8431b5b2161dc56b9a9c6c49a3"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/REGISTRY_REVIEW.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "1333da44a923a1e6d3c738c8a23df0012da5460c13544bcc683465a466d9b7cf"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/REPEAT_SOURCE_LINES.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "3c58d7323ad48f66fc037cbb2fe6863caf4b8560f2c019d5a3c2d17a57d357c4"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/RESULT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "9de03136c20bddef520b95d0d41df370245da5e747c2fa4785bec227d7cd7700"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/RUN_RECEIPT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "fa8af20b236116cf9c7e0a9a40348625595c9dd8ebbb16e221ed70717069ced6"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/SEPARATE_PAIRS.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "6876b9bb35063d39e2bd32f66ecf51ed62321fd6edefa62b5e868a061766bb6e"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/SOURCE_RECEIPT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "45bfed5e26df52794ba43b88818c6478b6bd217d6b9554fd2a5132fa27f7fef9"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/VALIDATION.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "c0615d08e9b9831b1291258ca62a62f17cde663781eb5ad03aa50dfe1d71af5e"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/src/run.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "2af0da1819af862cec0d4b1ec47d89fa09d8a675785c5978c8998a4050394e04"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/src/validate.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "606776a6758e39dc15b39280c71b1fd2ca5a4d90723c16a888e28fb6a5c44129"
+    }
+  ],
+  "question": "Does the fixed B/By/Bdy/BBdy family recur beyond dal, with separate exact two-word witnesses and Bor obligations retained?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "stable_part_repetition_capacity",
+  "status": "FORMAL_REPEATED_BASE_CANDIDATE",
+  "title": "stable part repetition capacity",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

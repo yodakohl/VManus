@@ -1,0 +1,79 @@
+{
+  "status": "CONDITIONAL_PROOF_CHECK_ONLY_NO_SOURCE_MEASUREMENT",
+  "date_utc": "2026-10-06",
+  "task_started_utc": "2026-10-06T08:35:38Z",
+  "ownership": "Independent bounded mathematical review of a root-proposed necessary bound. No source text, native text, new counts, encoder or result inspected or produced.",
+  "frozen_scope_under_review": {
+    "source": "The unchanged complete GDT1228 bare Hebrew projection, not the original edition's full information.",
+    "carrier": "Exactly one source letter becomes one working sign. For every previous decoded source letter p, f_p is one fixed permutation of the 22 output signs. A fixed public reset row f_SENTINEL is also a permutation. No extra state, source abbreviation, expansion, variable-length code or changed word boundaries.",
+    "four_cases": "Logical source words or each source word reversed, crossed with reset at each source paragraph/section or each word. Word order remains fixed. These are four separately defined source traversals, not reversal of an already generated ciphertext.",
+    "layout": "Physical line wrapping neither changes state nor splits a logical word into separate scored groups. No line-reset family is included.",
+    "sample": "Choose uniformly one of the within-word adjacent output-sign positions, including each word's first pair. No spaces, sentinel output signs or cross-word pairs enter the entropy sample. Each repeated occurrence contributes its actual number of positions."
+  },
+  "variables": {
+    "X": "Current source letter at the sampled position.",
+    "P": "Immediately preceding source letter in the same source word.",
+    "Q": "Source state used when P was written: the preceding decoded source letter, or SENTINEL if a declared reset immediately preceded P.",
+    "Y": "Current output sign f_P(X).",
+    "Z": "Preceding output sign f_Q(P)."
+  },
+  "proof": [
+    "Z is a deterministic function of (P,Q).",
+    "For fixed (P,Q), Y=f_P(X) is an injective relabeling of X, so H(Y|P,Q)=H(X|P,Q).",
+    "Conditioning cannot increase Shannon entropy: H(Y|Z) >= H(Y|Z,P,Q).",
+    "Since Z is already determined by (P,Q), H(Y|Z,P,Q)=H(Y|P,Q)=H(X|P,Q).",
+    "Equivalently, the nonnegative gap is I(Y;(P,Q)|Z). No independence, stationarity, infinite-source limit, or probability estimate beyond the same finite empirical position distribution is required."
+  ],
+  "necessary_implementation_checks": [
+    "At the first pair of a word, P is its first letter. Q is SENTINEL under word reset; under paragraph reset it is the previous word's last letter unless P begins the reset paragraph.",
+    "A one-letter source word supplies no within-word pair but still updates the carried state under paragraph reset. Skipping it in the source traversal changes the model.",
+    "Do not discard first word pairs when calculating the right-hand entropy; that would use a different empirical sample from GDT1228 H2.",
+    "Do not aggregate identical whole source words before retaining their entry state: paragraph-reset occurrences can have different Q at their first pair.",
+    "Compute the joint (P,Q,X) and marginal (P,Q) frequencies on precisely the same positions. All four cases have the same number of within-word pairs but need not have the same conditional distribution.",
+    "Use base-2 empirical entropy without smoothing or bias correction, matching GDT1228. The bound is on working-sign atoms, not the character lengths of ASCII labels such as ch.",
+    "The public sentinel is a state, not an extra written letter. Keep the source section reset convention explicit; it is not an inferred native paragraph equivalence."
+  ],
+  "limits_and_countercases_to_overstatement": [
+    "If a row also depends on an additional state R, only the correspondingly conditioned bound H(X|P,Q,R) follows in general. An unrecorded physical line reset, word position, counter or retained vowel state cannot be silently included in this family.",
+    "A homophonic, noninjective or many-to-one row does not preserve the conditional entropy of X. Variable-length or multiletter output also changes the sampled adjacency relation.",
+    "The inequality may be strict. A lower bound below a native comparison ceiling does not prove that any joint set of row permutations attains the ceiling, yields a usable hand writer or matches any other statistic.",
+    "The bound concerns this fixed exposed source projection. It does not exclude Hebrew, a different source distribution, meaningful paraphrase, historical abbreviation or all context-dependent writing. Existing native atom/group assumptions remain conditional.",
+    "The two source orientations must be evaluated as distinct declared traversals. Reversing an encoded stream is not in general the same operation as encoding reversed source words."
+  ],
+  "decision_boundary": "For one fixed traversal/reset case, a lower bound strictly above every eligible native H2 plus the prospective 0.30 allowance excludes every permitted permutation table for that case. To exclude the union of all four declared cases, this must hold for each case. If any case is not excluded, the only outcome is unresolved capacity; no font search, success claim or new writer follows automatically. Numerical tolerance must not turn equality into a strict exclusion.",
+  "primary_predecessors": [
+    {
+      "path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/METHOD.md",
+      "specific_difference": "The previous direct global bijection preserves H2 exactly. The proposed conditional bound instead permits a different permutation for each previous decoded source letter."
+    },
+    {
+      "path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/src/run.py",
+      "lines": "34-45",
+      "specific_fact": "measured() uses equally weighted within-word pairs and empirical conditional entropy; these are the sample and entropy conventions required by this proof. Source-reading functions were not executed."
+    },
+    {
+      "path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/src/validate.py",
+      "lines": "25-38",
+      "specific_fact": "The prior validator uses joint entropy minus the preceding-sign marginal on the same within-word positions. No validator or data was executed here."
+    },
+    {
+      "path": "experiments/yolo/gdt1217_circular_difference_source_screen/METHOD.md",
+      "specific_difference": "IDEA948 used fixed modulo-22 source-unit differences and a recipe reset, with one/three-unit character expansion. Its old length-dispersion failure remains. No rerun or changed ring is proposed; the new bound's unexpanded 22-letter family is a separately stated source contract."
+    },
+    {
+      "path": "experiments/yolo/gdt1180_contextual_source_alphabets/PREREGISTRATION.md",
+      "specific_difference": "The old six learned source alphabets used letter classes, multiletter shortcuts, positional rows and three-sign escapes. They are not all members of this one-letter/one-sign/no-extra-state family. Their fixed failures remain unchanged."
+    },
+    {
+      "path": "experiments/yolo/gdt1219_contextual_cv_body_screen/METHOD.md",
+      "specific_difference": "The later CV-body contract used learned continuation defaults and framing; it is not this characterwise row-permutation theorem. Its failure is retained, with no automatic repair."
+    },
+    {
+      "path": "run_gdt001_previous_context.py",
+      "lines": "12-29",
+      "specific_difference": "The old preceding-observed-sign inverse creates 650 previous/current labels with word resets and searches a paid language map. It does not calculate the present fixed-known-source entropy lower bound, nor supply a native decoded predecessor. Its stopped inference is not reopened."
+    }
+  ],
+  "duplicate_review": "Read the live route, controls topic, bounded idea search/duplicates/route-check and relevant lookup followups. Targeted formula/entropy-bound searches plus these actual primaries did not locate an identical bound execution. This bounded finding is not an exhaustive absence or novelty claim.",
+  "disposition": "The displayed mathematical inequality is valid under the four precise contracts above. No measured exclusion is claimed. Save as a proof/scope note only; no new raw writer card or experiment is registered by this producer."
+}

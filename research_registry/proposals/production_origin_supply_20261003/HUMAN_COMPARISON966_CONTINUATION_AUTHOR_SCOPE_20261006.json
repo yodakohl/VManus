@@ -1,0 +1,27 @@
+{
+  "status": "SEPARATE_AUTHOR_SCOPE_CORRECTION_BEFORE_ANY_NEW_HAND_TEST",
+  "record_id": "IDEA000966",
+  "raw_path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_COMPARISON_WORD_FAMILY_RAW_20261006.json",
+  "raw_sha256": "1b884ffb0f299b51b86a0d4b7b825c32b81216cd0c39bfd6e58f7b212c57ff9e",
+  "original_bytes": "Unchanged. The smaller width statement is preserved in the RAW as an incomplete general guarantee, not silently rewritten.",
+  "author_answer": "Root is correct. Space for one working drawing, one ordinary blank and one three-drawing continuation marker is sufficient for a first or last fragment line, but not a middle line of a word with at least two continued breaks. The original unconditional single-unit fallback statement omitted that second marker and blank.",
+  "unchanged_continuation_protocol": {
+    "marker": ["r","r","ch"],
+    "first_fragment_line": "nonempty fragment, ordinary blank, marker",
+    "middle_fragment_line": "marker, ordinary blank, nonempty fragment, ordinary blank, marker",
+    "last_fragment_line": "marker, ordinary blank, nonempty fragment",
+    "reading": "The already specified matched line-edge markers join fragments into the same logical word before grammatical parsing. No marker, blank, empty fragment, source character or grammatical control is omitted."
+  },
+  "fully_paid_width_condition": [
+    "Measure available line width in the chosen teaching hand, without assuming equal-width native glyphs or a manuscript cell raster. Let M be the actual horizontal width needed to write the complete rr-ch marker, B the width of an ordinary visible word blank, and G the largest horizontal width of any one of the22working drawings in this hand.",
+    "A uniform sufficient condition for the single-drawing fallback on every line used by an arbitrarily long word is usable width at least2*M+2*B+G. This pays both markers and blanks on an intermediate line. It also provides enough space for a first or last fragment line, whose requirement is only M+B+G.",
+    "For a particular middle fragment containing one drawing g, the exact stated layout needs2*M+2*B+width(g); using G is the worst-case guarantee for any next working drawing. Longer fragments require their actual width instead of width(g).",
+    "In an optional equal-cell teaching display with one cell per working drawing and one per ordinary blank, a middle line needs at least nine cells: seven drawn units and two blanks. First/last fragment lines need five. These are illustration counts, not an imposed native raster or equal-width manuscript assumption.",
+    "If the current line lacks room for a first fragment and its marker, begin the continued word on a new suitable line. If a subsequent line or page is too narrow for the required middle layout, this format cannot guarantee writing the word; choose an adequate writing surface or report the physical format unsupported. Do not erase a marker, hide a boundary or treat an unmarked break as continuation."
+  ],
+  "cost_and_scope": [
+    "Each continued break still costs exactly two three-drawing markers plus the two ordinary blanks already specified. A middle row belongs to two breaks and therefore carries both marker roles.",
+    "The grammar, scalar meanings, negation scope, literal-name table, root inventory, group boundaries and exposed teaching message are unchanged. This addendum completes only the stated sufficient physical-width guarantee.",
+    "No native geometry, data, statistic, hidden challenge or experiment was accessed or created. This is a disclosed author correction before selection, not a measured pass or a repair to a native result."
+  ]
+}

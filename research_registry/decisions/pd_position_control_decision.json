@@ -1,0 +1,35 @@
+{
+  "status": "PROCEED_ONE_SMALL_RETROSPECTIVE_DESCRIPTIVE_CONTROL_IF_FIXED_BEFORE_RERUN",
+  "source_evidence": {
+    "path": "experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md",
+    "line": 25,
+    "line_end": 33,
+    "quote": "The response-side composition is worth preserving separately: in distal within-\nparagraph ZL hits,41/51 forward responses are CH-side versus36/66 backward.\nForward CH-side responses occur after both CH anchors (25/31) and SH anchors\n(16/20). Thus pooled same-side concordance is misleading as a state-copying\ninterpretation. The strict diagnostic has7/9 CH-side forward and5/6 backward;\nit does not reproduce the primary directional composition contrast. Its small,\nselectively retained sample does not prove the primary contrast false either.\nAll nine response pairs contribute distal hits; the counts are retained rather\nthan selecting a winning pair after inspection.",
+    "sha256": "26bb7da2a8e48ea659819f3c40805a792f6f626ab9a55de8cb212e205ab7d04c"
+  },
+  "research_decision": "Sameparagraphpositions reproducing theanchorprofile would remove theobservedmotivationforanchor-specificdirectionresearch. A residualwithdistributedfoliosupport couldjustifya laterqualifiedcontrast. Neither result selectssemantics; noautomaticchainofcontrolimprovements.",
+  "predecessors": {
+    "GDT872": "Firstdirectedprofile; unadjustedresponsecomposition differsonlyinZL andnotstrictdiagnostic.",
+    "GDT751": "Matchednon-qpositions alreadydefeatedaq-specificpositioninterpretation forotherforms; precedentforcontrolneed, notmeasurementofthisfouranchorresponseprofile.",
+    "GDT807": "Differenttargetsandunorderedtarget-line-maskedparagraphclassifier; notthisendpoint.",
+    "bounded_route_search": "No exactsameanchor/samelag/sameparagraphcontrolfoundamongreturnedprimarypointers; notglobalnoveltyproof."
+  },
+  "critical_endpoint_difference": "D_i = mean(signedresponse atforwardeligibleoffsets) minusmean(signedresponse atbackwardeligibleoffsets), with0nonresponses, measures CH-minus-SH response density. Itdoesnot equal CHshare amonghits. ReportCH/opportunity andSH/opportunity separately, plusrawhitcounts. Callendpoint retrospective, not872primarytest.",
+  "minimal_fixed_spec": {
+    "population": "Samefouranchors and18responses, rawlags3–8 withinstrictparagraph only. No widenedforms/windows. UseGDT872eligibility/separator/paritycontract.",
+    "control": "Allnonanchorrawcentersinsamesourceparagraph satisfyingfixedlineposition andparagraphlinebins andbothdirectioneligibility. Nonresponsecentersincluded. Eachcenterweightedoncewithineachanchorcontrolmean; candidate reuseacrossanchorsallowedbutnotindependentreplication.",
+    "short_line_bins": "Freeze exclusivecategories beforeexecution: FIRST2_ONLY, LAST2_ONLY, BOTH_EDGE foroverlap, MIDDLE. Analogous FIRST_AND_LAST paragraphlinecategoryforsinglelineparagraph. Noarbitraryfirst/lastprecedence.",
+    "opportunity": "Either match forward/backwardeligibleoffsetbitmasks exactly orpresentfixedmask-stratifiedresults; matchingonlyhasbothdirections canleave1versus6offsetdensitycomposition confounding. Do noterasegroupsbetweencenterandresponse.",
+    "weighting": "ComputeD_i andmatchedcontrolmeanC_i; reportequal-anchor mean(D_i−C_i), supportandperfoliovalues. Also showD_i onEXACTmatchedsubsetversusalloriginaleligibleanchors todiscloseselection. Noallcontrolpool weightingthatletsdenseparagraphsdominate.",
+    "diagnostic": "Applysameall-traversed-linesexact3editionparity toanchors andcontrols; dosoportunisticallyswitchtoatokenpresenceview."
+  },
+  "stopping_rule": "Onecountpass. Ifpredeclaredcandidate/maskmatchinghasno usablecontrols oronlysinglefolioremainder, reportcapacity andstop. Reportcoveragewithoutclaimingpooroverlap representsallanchors. Rootmustfreeze adequacythresholdbeforecount; noafter-resultcoarseningbins,wideninglags,expandingresponseinventory orsecondclassifier.",
+  "cost": "Reuse872projection andpurecounting; noGPU,decoder,newcorpus,imageorsemanticannotation. Keepimplementation/publicationbudgetexplicit; do notrepeat24minuteacquisitionplanning.",
+  "rivals_and_limits": [
+    "A matchedresidualcouldstillreflectformulachoice,unmatchedwithin-lineposition,neighborgrammarmorreadingerrors. Coarsebinsareaconditionaldescriptionnotcompletepositionaladjustment.",
+    "Strictdiagnosticdidnotreproduce872composition; retainthislimit evenifprimarycontrolresidualpositive.",
+    "Responseandanchorinventoriesdisjoint, hence nopair-reversalidentity. Sameparagraphoverlappingwindowsaredependent, so nopseudoreplicatep-value."
+  ],
+  "no_new_data_access": true,
+  "operative_mutations": false
+}

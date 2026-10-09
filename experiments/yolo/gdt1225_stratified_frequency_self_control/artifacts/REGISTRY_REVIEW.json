@@ -1,0 +1,74 @@
+{
+  "record_id": "GDT1225",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_20261006_stratified_frequency_control",
+  "assessment_basis": "Prospective fixed all-single-field stratum selection, unchanged8000/128/400/122contract, exact old-ID/control reproduction and separately written regex/page-bucket validator.",
+  "reason": "The unchanged pooled two-frequency bands fail every128page-order sample for hand=2inIT/ZL;12other scoreable cells pass and25remainNO_CAPACITY. This demonstrates limited portability of the pooled filter, not a native meaning, cause, new source selection or rescued writer.",
+  "blockers": [
+    {
+      "code": "dependent_exposed_strata",
+      "detail": "Overlapping samples/categories and alternate readings of one already exposed manuscript; no independent error rate or causal separation of hand, content and orthography.",
+      "evidence": [
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md",
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/RESULT.json"
+      ]
+    },
+    {
+      "code": "capacity",
+      "detail": "25of39reader/category cells have fewer than8000eligible groups; RFhand2=7794andZLsectionH=7994remainunscored without resizing.",
+      "evidence": [
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "prospective_register_comparison",
+        "change": "new_design",
+        "detail": "A genuinely motivated future source/register comparison with observation unit specified before a new writer outcome. No unchanged missing-input audit or automatic wider calibration.",
+        "evidence": [
+          "experiments/yolo/gdt1225_stratified_frequency_self_control/PREREGISTRATION.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Rescoring an old failed writer against the most favorable hand",
+      "Widening bands after these results",
+      "Selecting one reading or seed post hoc",
+      "Treating128overlapping samples as independent replications"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1202",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1213",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1223",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md"
+      ]
+    }
+  ]
+}

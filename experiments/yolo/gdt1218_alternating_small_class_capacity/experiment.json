@@ -1,0 +1,132 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Necessary exact-form adjacency only; no meanings, general semantic grammar exclusion, independent replication or new relation score.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1218_alternating_small_class_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1218_alternating_small_class_capacity/src/validate.py"
+  },
+  "created": "2026-10-06",
+  "dependencies": [
+    "GDT1174",
+    "GDT1210",
+    "GDT1211",
+    "GDT1040"
+  ],
+  "experiment_id": "GDT1218",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "sha256": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be",
+      "role": "Existing exposed sample or reconstruction dependency"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db",
+      "role": "Existing exposed sample or reconstruction dependency"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/TARGET_SAMPLE_IDS.json",
+      "sha256": "c5b18b4903be1a45cd24e01bf399d7ced9e9634524e11ec1e191c58c84d78c99",
+      "role": "Existing exposed sample or reconstruction dependency"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a",
+      "role": "Existing exposed sample or reconstruction dependency"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42",
+      "role": "Existing exposed sample or reconstruction dependency"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/METHOD.md",
+      "sha256": "260c31685a1ebe99b44e3e29f8dba8e2a2f1b8c450e5398319977ee345332bb6",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/PREREGISTRATION.md",
+      "sha256": "260c31685a1ebe99b44e3e29f8dba8e2a2f1b8c450e5398319977ee345332bb6",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/README.md",
+      "sha256": "71ab5298de7c3cf2067bd791f0c1bd06a84d4de38190c11e33cbac116fb3f828",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md",
+      "sha256": "c1239ca14ec06159d07c68ab67cb4aeb84549099a4cfe35fcdaa3d2f3ee94ffb",
+      "role": "Primary report"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/CERTIFICATES.json",
+      "sha256": "a297fa5c41b9d94b7380ff8a8bc4bfc9372299f5f5a8d216d6e3c313bad3638a",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/CLOSURE.json",
+      "sha256": "41573cced227df52cdd87202f98e6fe54af88602d56068010dc5a1b402003b59",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/README.md",
+      "sha256": "f799f6572e9f379001f24981e16f16800e02279cc300992e378190514ed3d814",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/REGISTRATION_LOCK.json",
+      "sha256": "fbd38b6d782cd652c97685ba39e914363756f48ef4598759fa7f602aaf2e40c3",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/REGISTRY_REVIEW.json",
+      "sha256": "23d1e94b7275ea7715315f498037edf617a65950c5d2b4b98edb74fa24aa42f6",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/RESULT.json",
+      "sha256": "75176dbc67af843b87263f102d9bc187e3e8a7b95c92ac3a04a9d0358c534a1a",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/RUN_RECEIPT.json",
+      "sha256": "7b0d147bcc1cb76f7e968a4e8f9fc347b3e831fcf20ac7be2c75abc33b822516",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/VALIDATION.json",
+      "sha256": "598d80b4c6a7dfb685eff97d48d6548fbabf4cb4610ef1d121bcdf762f8a15dd",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/src/run.py",
+      "sha256": "1b000a0ab2b8b8d5b5e9b4ad37d54a45003e766b8dcedeb931fc052a1423b409",
+      "role": "Source test, fixed contract or compact closure artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1218_alternating_small_class_capacity/src/validate.py",
+      "sha256": "2353540c1a56aecabf9215c86bfa173939155a504042d9fb47d9ca7823e456a8",
+      "role": "Source test, fixed contract or compact closure artifact"
+    }
+  ],
+  "question": "Can strict alternating instructions have a globally fixed class of at most64 whole name forms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "alternating_small_class_capacity",
+  "status": "EXCLUDED_64_FORM_ALTERNATION",
+  "title": "Necessary adjacency capacity of a64-form alternating class",
+  "updated": "2026-10-06",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/VALIDATION.json"
+  }
+}

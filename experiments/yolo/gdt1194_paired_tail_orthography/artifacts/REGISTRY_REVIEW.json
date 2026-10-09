@@ -1,0 +1,58 @@
+{
+  "record_id": "GDT1194",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root_20261005_orthography_capacity",
+  "assessment_basis": "902 necessary length/q candidates; four-context UNSAT; thirteen-context UNKNOWN at10s; no full search or source-writer validation reached",
+  "reason": "First arm is capacity-refuted; second lacks a verified feasible final-y assignment and is unresolved. Do not treat the runner terminal label as a completed search.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "Four-context final-y assignment is infeasible across all four sources.",
+      "evidence": [
+        "experiments/yolo/gdt1194_paired_tail_orthography/REPORT.md"
+      ]
+    },
+    {
+      "code": "missing_capacity_witness",
+      "detail": "Thirteen-context optimization returned unknown; no verified feasible assignment was retained.",
+      "evidence": [
+        "experiments/yolo/gdt1194_paired_tail_orthography/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "verified_depth2_final_y_witness",
+        "change": "new_binding",
+        "detail": "An explicit fixed13-category assignment verified against all four integer count intervals; then a separately declared bounded full search, preserving1194 stop.",
+        "evidence": [
+          "experiments/yolo/gdt1194_paired_tail_orthography/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A solver UNKNOWN or software PASS",
+      "Repeating the unmodified timed optimization",
+      "Reopening the UNSAT four-context arm"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1193",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1194_paired_tail_orthography/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1183",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1194_paired_tail_orthography/REPORT.md"
+      ]
+    }
+  ]
+}

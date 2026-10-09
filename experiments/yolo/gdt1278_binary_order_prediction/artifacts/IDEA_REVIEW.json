@@ -1,0 +1,69 @@
+{
+  "record_id": "GDT1278",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "reviewer": "root; bounded source-free probability review; independent backward-recursion validator",
+  "assessment_basis": "fixed_conditional_binary_order_predictive_transfer",
+  "reason": "Trainbeta1;ZLALLgain.002625and25/46positivefailsbothgates;newinteriorsgain.012174but24/45failsdirection. Adequatecapacity;allthree readersnonconfirming. Original1264/65positivesretained.",
+  "blockers": [
+    {
+      "code": "fixed_model_joint_gate_failed",
+      "detail": "Do not tune beta/bins/classes onTESTorreplaceequal-leafmetricwithpooledgain.",
+      "evidence": [
+        "experiments/yolo/gdt1278_binary_order_prediction/REPORT.md",
+        "experiments/yolo/gdt1278_binary_order_prediction/artifacts/RESULT.json"
+      ]
+    },
+    {
+      "code": "conditional_input_and_baseline_scope",
+      "detail": "Knownlength/classinventory;fivebinmarginalbaseline;no symbolidentity,content,actualoperationoruntouchedholdout.",
+      "evidence": [
+        "experiments/yolo/gdt1278_binary_order_prediction/PREREGISTRATION.md",
+        "experiments/yolo/gdt1278_binary_order_prediction/artifacts/PROOF_REVIEW.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "independent_writer_operation",
+        "change": "new_design",
+        "detail": "A genuinely different motivated operation with explicit predictive consequence, not post-result parameterorbaseline repair.",
+        "evidence": [
+          "experiments/yolo/gdt1278_binary_order_prediction/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "RetunebetaonTEST",
+      "Selectpositiveleaves",
+      "Poolreaders",
+      "Claimalltwo-classmodelsfailed",
+      "Erase1264or1265positives"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1264",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1278_binary_order_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1265",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1278_binary_order_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1266",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1278_binary_order_prediction/REPORT.md"
+      ]
+    }
+  ]
+}

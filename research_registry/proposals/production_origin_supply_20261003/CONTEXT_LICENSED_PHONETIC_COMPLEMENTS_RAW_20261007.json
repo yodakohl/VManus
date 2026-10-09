@@ -1,0 +1,42 @@
+{
+  "title": "RAW INCOMPLETE: a writer adds literal phonetic complements only until a public context candidate set becomes unambiguous",
+  "summary": "RAW_UNREVIEWED, not selected. A fixed many-to-one letter projection preserves an entire word skeleton. The writer supplements ambiguous positions in a fixed left-to-right order only until the intended spelling is unique among the candidates licensed by an independently specified written context. This is a writer-side redundancy rule, not a new decoder architecture or a native sound assignment. The complete language, context licensing and physical carrier remain unbound.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+  "source_status": "MODERN_CONSTRUCTION_MODULE_NO_HISTORICAL_ATTESTATION_CLAIM",
+  "design": {
+    "purpose": "Permit quick ordinary writing where a shared language makes a spelling clear, while paying explicit extra letters where it does not. The writer must preserve the declared lexical spelling rather than ask a reader to guess an intended meaning.",
+    "public_inputs": [
+      "A fixed source alphabet and a fixed non-erasing many-to-one letter projection pi. Each input letter produces one skeleton unit; source order and word boundaries are retained.",
+      "A shared declared vocabulary and grammar which produce a finite candidate set D for this complete written skeleton and its context. D must be computable from already public written material independently of the supplements being tested; it is not a supplied hidden answer list or a set chosen to favor the observed marks.",
+      "An explicitly delimited supplement field and an unambiguous literal alphabet. These are required physical costs, not yet a chosen22-working-sign implementation."
+    ],
+    "writer_rule": [
+      "Write pi(w). Determine D from the public context contract. If w is not in D, use an explicitly marked full literal word, including unknown names; do not silently expand the vocabulary.",
+      "The skeleton identifies positions whose projection unit has more than one possible source letter. Visit precisely those positions from left to right.",
+      "If more than one candidate remains, append the actual source letter at the next visited position to the supplement field and discard candidates disagreeing there. Stop immediately at one candidate. No position numbers are hidden: the fixed visit order supplies them.",
+      "If D initially contains only w, the supplement field is empty. Identical skeletons can thus require different amounts of explicitly written redundancy in different independently licensed contexts. No free aliases or alternation counter is used."
+    ],
+    "reader_rule": "Construct the same D from the skeleton and public context, apply the literal supplements in the same position order, require that the final set is a singleton and that stopping was earliest. Recover that complete spelling. Unknown names use the full literal branch. Punctuation, sentence scope, word spaces and line continuation must remain explicit in a future complete carrier; no line reset is part of this module.",
+    "hand_example": "Illustration only: collapse the three vowels in cat/cot/cut to one abstract V. The skeleton cVt with D={cat,cot,cut} requires respectively the literal supplement a/o/u. With a separately licensed D={cat}, cat requires none. This is no claim that any actual historical context or native group supplies either D.",
+    "necessary_new_consequence": "For the same intended spelling w and fixed projection/visit order, if public context narrows D1 to D2 with w in D2 subset D1, the required supplement in D2 is a prefix of the supplement in D1 and cannot be longer. A counterexample with independently fixed nested candidate sets falsifies this compulsory minimal-supplement rule. Marks alone cannot establish the candidate sets, so this is not yet a native test.",
+    "human_and_learning_cost": "The entire vocabulary, source-letter values, grammar/context licensing, supplement delimiter, literal code and continuation convention are real learning costs. A small spelling operation does not make arbitrary candidate computation humanly easy. Practical use requires a small transparent local context rule; none is claimed supplied here.",
+    "limits": [
+      "This is an incomplete spelling module, not a complete translation, human-tested writer or selected next experiment.",
+      "Unique recovered spelling does not resolve homonymous meanings, participants, negation or proposition scope; those remain obligations of the declared language.",
+      "No22-sign assignment, native word meaning, new manuscript observation, source count or statistical fit is supplied.",
+      "Deterministic word-only coarsening remains subject to the old fixed-source frequency bounds. Context-dependent supplements change that premise only if an actual independently specified context mechanism exists; their number cannot be chosen for desired frequencies.",
+      "A nonminimal historical pointing practice would not falsify all ambiguous writing, only this compulsory minimal rule. No historical writer is claimed to have used it."
+    ]
+  },
+  "predecessors": [
+    {"id": "IDEA000934", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_MINIMAL_LEXICON_PREFIX_RAW_20261005.json", "difference": "934 sends a shortest unique prefix against one fixed whole lexicon. Here a complete lossy skeleton remains and only ambiguous-position complements depend on independently written context. Shared vocabulary costs and934's fixed-interface failures are not removed."},
+    {"id": "GDT194", "primary": "GDT194_CONSONANTAL_HOMOPHONY_METHOD.md", "difference": "194 assigns each PAGE_HOST sign one consonant, allowing several signs to share that consonant. This module merges source letters and makes a writer add paid disambiguation; it does not rerun194."},
+    {"id": "GDT1160", "primary": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md", "difference": "Supervised candidate-ranking positive remains. No native candidate set follows from it. The new conditional consequence concerns how a writer selects extra letters, not ranking an unchanged ambiguity lattice."},
+    {"id": "GDT1171", "primary": "experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md", "difference": "Known-sign open-output context control remains failed. This proposal neither changes that decoder nor claims syntax succeeds merely because the short-context instrument failed."},
+    {"id": "GDT1226", "primary": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/REPORT.md", "difference": "The old fixed-source word-form capacity obligation remains; no source swapping or frequency rescue is claimed."}
+  ],
+  "duplicate_review": "Bounded current-route read, ideas searches/duplicates, route-check and existing934/194/1160/1171 primaries. Related contraction and lexical-disambiguation proposals found; no exact writer-side nested-context supplement-prefix contract established in this bounded check. No exhaustive novelty claim.",
+  "ownership": "Independent bounded producer module. No root files, target payloads, source acquisition, test, fitted table or hidden expected-message packet. Retain RAW only; root owns selection.",
+  "post_registration_path_correction": "After IDEA000971 registration, only the GDT1226 primary locator was corrected to experiments/yolo/gdt1226_pooled_source_alias_lower_bound/REPORT.md. No mechanism, assumptions, prediction or status changed. The initial registry event remains preserved; this locator correction is disclosed to root for its eventual append-only review."
+}

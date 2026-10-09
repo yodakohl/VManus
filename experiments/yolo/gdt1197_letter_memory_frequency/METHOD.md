@@ -1,0 +1,9 @@
+# Fixed-carrier invariance
+
+Each source word is transformed to a finite sequence over a fixed unit alphabet. The memory changes which sequence is written, but the subsequent character carrier is one fixed uniquely decodable code for those units. Consequently two unit sequences have the same printed form if and only if they are identical. A prefix code is sufficient, though unique decodability is the actual assumption. Replacing unit labels by such a carrier preserves the entire word-frequency partition, top-ten share and exact adjacent equality. It does not preserve lengths, one-glyph edit distances, character entropy or q/y behavior.
+
+ALT's unit labels individually identify source letters even without ticks; ticks enforce the canonical aliases. Thus it can split source-word frequency cells but cannot merge distinct source words. MTF's rank labels have meanings only under the reader's current ordered alphabet and can merge different source words at different entry states. Neither property alone determines whether native summary tolerances are met.
+
+The independent MTF forward rule computes the current order by sorting letters by most recent occurrence time, breaking never-seen ties alphabetically. This is equivalent to move-to-front but uses a different representation. Independent inverse uses the same timestamp ordering, recovering its history entirely from the written ranks. ALT inverse checks occurrence-count parity. Source comparison occurs only after a complete recipe has been recovered.
+
+Previous native inverse MTF failure in GDT001 remains authoritative for its physical-line-reset, 25-rank, order-2 search contract. The present recipe-reset 26-rank source-control census does not rerun that search or infer a native key. Raw939 is therefore an existing mechanism with a different bounded forward question, not an unprecedented cipher. See the preregistration for preserved counterexamples and claim ceiling.

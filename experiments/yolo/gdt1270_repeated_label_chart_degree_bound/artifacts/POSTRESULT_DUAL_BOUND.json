@@ -1,0 +1,5572 @@
+{
+  "status": "POST_RESULT_BIDIRECTIONAL_NECESSARY_BOUND",
+  "created_utc": "2026-10-07T22:10:11.510051+00:00",
+  "original_registered_result_unchanged": true,
+  "original_result_sha256": "4cfedc8bbf95e0918644fb4702a58e028615fa6438db5c1e1db10fca2387766c",
+  "proof": "For any landing position labeledh, all nonself predecessor labels lie among the last5distinct non-h labels before it; otherwise the source-to-destination arc contains at least6non-h labels and h cannot be in the first6distinct list. Earlier h occurrences only restrict selection further. Take max of incoming/outgoing costs perlabel, not sum, then sum acrosslabels.",
+  "review": "bounded_idea_supply source-free messages after outgoing result; no result/data reading by reviewer",
+  "synthetic_incoming_position_checks": 1464,
+  "panels": [
+    {
+      "reader": "IT2a",
+      "panel": "FULL",
+      "original_outgoing_bound": 65,
+      "combined_necessary_bound": 69,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "cph",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "a",
+            "ckh",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "o",
+            "q",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "k",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "o",
+            "q",
+            "s",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "l",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o",
+            "r",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "cph",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "r",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "cth",
+            "d",
+            "e",
+            "i",
+            "k",
+            "o",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "cph",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "r",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 5,
+          "incoming_bound": 4,
+          "combined_bound": 5
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "q",
+            "r",
+            "s",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [
+            "l",
+            "o",
+            "r",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 1,
+          "combined_bound": 3
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "r",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "IT2a",
+      "panel": "TYPE_COUNT_GE2",
+      "original_outgoing_bound": 43,
+      "combined_necessary_bound": 49,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "k",
+            "l",
+            "o",
+            "q",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "k",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "k",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "i",
+            "k",
+            "o",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "i"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [],
+          "outgoing_nonself": [
+            "a",
+            "ckh",
+            "cth",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "f",
+            "k",
+            "l",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "IT2a",
+      "panel": "PHYSICAL_LEAVES_GE2",
+      "original_outgoing_bound": 43,
+      "combined_necessary_bound": 49,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "k",
+            "l",
+            "o",
+            "q",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "k",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "k",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "i",
+            "k",
+            "o",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "i"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [],
+          "outgoing_nonself": [
+            "a",
+            "ckh",
+            "cth",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "f",
+            "k",
+            "l",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "RF1b",
+      "panel": "FULL",
+      "original_outgoing_bound": 63,
+      "combined_necessary_bound": 67,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "d",
+            "e",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 5,
+          "combined_bound": 5
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "a",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "q",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "q",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "k",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "o",
+            "q",
+            "s",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "l",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o",
+            "r",
+            "s",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "cph",
+            "d",
+            "e",
+            "i",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "r",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "cth",
+            "d",
+            "e",
+            "i",
+            "k",
+            "o",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "k",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 5,
+          "incoming_bound": 4,
+          "combined_bound": 5
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "r",
+            "s",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [
+            "ch",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 1,
+          "combined_bound": 3
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "l",
+            "o",
+            "q",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "RF1b",
+      "panel": "TYPE_COUNT_GE2",
+      "original_outgoing_bound": 43,
+      "combined_necessary_bound": 49,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch"
+          ],
+          "outgoing_nonself": [
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cth",
+            "e",
+            "i",
+            "l",
+            "n",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "k",
+            "l",
+            "o",
+            "q",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "i",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "l",
+            "m",
+            "n",
+            "r",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "i",
+            "k",
+            "o",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "i"
+          ],
+          "outgoing_nonself": [
+            "d"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [],
+          "outgoing_nonself": [
+            "a",
+            "ckh",
+            "cth",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "f",
+            "k",
+            "l",
+            "p",
+            "r",
+            "s",
+            "t"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "RF1b",
+      "panel": "PHYSICAL_LEAVES_GE2",
+      "original_outgoing_bound": 43,
+      "combined_necessary_bound": 49,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch"
+          ],
+          "outgoing_nonself": [
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cth",
+            "e",
+            "i",
+            "l",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "k",
+            "l",
+            "o",
+            "q",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "i",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "l",
+            "m",
+            "n",
+            "r",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "i",
+            "k",
+            "o",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "i"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [],
+          "outgoing_nonself": [
+            "a",
+            "ckh",
+            "cth",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "i",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "f",
+            "k",
+            "l",
+            "p",
+            "r",
+            "s",
+            "t"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "ZL3b",
+      "panel": "FULL",
+      "original_outgoing_bound": 63,
+      "combined_necessary_bound": 66,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "a",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "q",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "q",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "k",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "o",
+            "q",
+            "s",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "k",
+            "l",
+            "m",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "k",
+            "o",
+            "r",
+            "s",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "e",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "cph",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "r",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "k",
+            "o",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "e",
+            "i",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 5,
+          "incoming_bound": 4,
+          "combined_bound": 5
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "r",
+            "s",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "f",
+            "k",
+            "o",
+            "s",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 1,
+          "combined_bound": 3
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "q",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 3,
+          "combined_bound": 4
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "ch",
+            "d",
+            "e",
+            "i",
+            "l",
+            "o",
+            "r",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "m",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "ZL3b",
+      "panel": "TYPE_COUNT_GE2",
+      "original_outgoing_bound": 41,
+      "combined_necessary_bound": 46,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "i",
+            "k",
+            "l",
+            "n",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "k",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "k",
+            "l",
+            "o",
+            "q",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "k",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "l",
+            "m",
+            "n",
+            "r",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "i",
+            "k",
+            "o",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "i"
+          ],
+          "outgoing_nonself": [
+            "d"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [],
+          "outgoing_nonself": [
+            "a",
+            "ckh",
+            "cth",
+            "e",
+            "o"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "i",
+            "l",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "f",
+            "k",
+            "p",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    },
+    {
+      "reader": "ZL3b",
+      "panel": "PHYSICAL_LEAVES_GE2",
+      "original_outgoing_bound": 41,
+      "combined_necessary_bound": 46,
+      "units": [
+        {
+          "unit": "a",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "r",
+            "s"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "cfh",
+          "incoming_nonself": [
+            "ch",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "ch",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "s",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "ckh",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cph",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "cth",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "o",
+            "q",
+            "sh"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "d",
+            "e",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "d",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "e",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "k",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "e",
+          "incoming_nonself": [
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "k",
+            "l",
+            "o",
+            "q",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "f",
+            "k",
+            "o",
+            "p",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 3,
+          "combined_bound": 3
+        },
+        {
+          "unit": "f",
+          "incoming_nonself": [
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "i",
+          "incoming_nonself": [
+            "a",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "d",
+            "l",
+            "m",
+            "n",
+            "r",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "k",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "s",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "l",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "d",
+            "i",
+            "k",
+            "o",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "f",
+            "k",
+            "o",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "m",
+          "incoming_nonself": [
+            "a",
+            "i",
+            "o"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "n",
+          "incoming_nonself": [
+            "a",
+            "i"
+          ],
+          "outgoing_nonself": [],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "o",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "k",
+            "l",
+            "p",
+            "q",
+            "r",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "m",
+            "p",
+            "r",
+            "s",
+            "sh",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 4,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        },
+        {
+          "unit": "p",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 1,
+          "combined_bound": 2
+        },
+        {
+          "unit": "q",
+          "incoming_nonself": [],
+          "outgoing_nonself": [
+            "a",
+            "ckh",
+            "cth",
+            "e",
+            "o"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "r",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "i",
+            "l",
+            "o"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 1,
+          "incoming_bound": 1,
+          "combined_bound": 1
+        },
+        {
+          "unit": "s",
+          "incoming_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "d",
+            "e",
+            "k",
+            "o"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "sh",
+          "incoming_nonself": [
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "t",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "ckh",
+            "cth",
+            "d",
+            "e",
+            "k",
+            "l",
+            "o",
+            "t",
+            "y"
+          ],
+          "outgoing_bound": 3,
+          "incoming_bound": 2,
+          "combined_bound": 3
+        },
+        {
+          "unit": "t",
+          "incoming_nonself": [
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_nonself": [
+            "a",
+            "ch",
+            "e",
+            "l",
+            "o",
+            "sh",
+            "y"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 2,
+          "combined_bound": 2
+        },
+        {
+          "unit": "y",
+          "incoming_nonself": [
+            "cfh",
+            "ch",
+            "ckh",
+            "cph",
+            "cth",
+            "d",
+            "e",
+            "f",
+            "i",
+            "k",
+            "l",
+            "o",
+            "p",
+            "r",
+            "sh",
+            "t"
+          ],
+          "outgoing_nonself": [
+            "ch",
+            "d",
+            "f",
+            "k",
+            "p",
+            "s",
+            "sh",
+            "t"
+          ],
+          "outgoing_bound": 2,
+          "incoming_bound": 4,
+          "combined_bound": 4
+        }
+      ]
+    }
+  ],
+  "scope": "Later theorem/cost consequence, not a new preregistered endpoint or actual circular chart. Exact destination occurrence must be the first encountered label occurrence; arbitrary jumps among copies are excluded."
+}

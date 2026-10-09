@@ -1,0 +1,136 @@
+{
+  "title": "Source-free review: cyclic-pool pair discrepancy and finite partner reduction",
+  "date": "2026-10-09",
+  "status": "PROOF_AND_FIXTURE_REVIEW_ONLY_NO_NATIVE_COUNTS_OR_RESULTS",
+  "author": "bounded_idea_supply",
+  "contract": {
+    "emission_unit": "One complete retained written group is one visible output form. The rule is not silently transferred to the individual working units inside a group.",
+    "pools": "Each output form belongs to exactly one globally fixed pool of distinct visible forms. Every cycle emits every member once in any order before that pool refills. Pool size is finite but not bounded by this proof.",
+    "faithfulness": "Every selected member is visibly emitted once unchanged. No hidden draws, duplicate visible surfaces among distinct members, copying errors, early refill, optional redraw or context-dependent pool reassignment.",
+    "runs": "Each analyzed run is an uninterrupted consecutive-source-index sequence within one locus, with the required definite boundaries. Missing/ineligible groups and uncertain boundaries split runs. Never bridge a line, missing index or uncertain seam.",
+    "phase": "A run may start and end inside a cycle, with unknown phase. Checking separate runs independently is a generous necessary relaxation; phase consistency between runs is not established or required by the screen. No early reset is permitted inside any retained run.",
+    "readings": "Analyze the alternate transcriptions separately; do not combine forms or witnesses across readers."
+  },
+  "pair_range_theorem": {
+    "definition": "For distinct candidate forms A and B, put D(0)=0 and D(j)=number of A minus number of B among the first j groups of one run. Other forms produce zero steps. Include the empty prefix and the prefix after every group.",
+    "necessary_condition": "If A and B belong to the same pool, max_j D(j)-min_j D(j)<=2 in every retained run.",
+    "proof": [
+      "Project the draws of their shared pool onto A and B. Each complete pool cycle becomes either AB or BA, regardless of the number or positions of the other pool members.",
+      "Starting at a true cycle boundary, the cumulative A-minus-B count returns to zero after every cycle and stays in {-1,0,1} during a cycle. Draws from other pools do not change it.",
+      "An arbitrary contiguous observed run restricts these cumulative values to an interval and subtracts the fixed value at its start. Translation changes neither maximum-minus-minimum nor the upper bound two. Unknown initial or final phase therefore does not invalidate the bound."
+    ],
+    "exclusion": "A range of at least three excludes only the proposition that this A and B share a pool under the contract.",
+    "not_equivalent_statistics": "Final count difference alone, and even max_j |D(j)|<=2, are insufficient substitutes for the full range. Runs must not be concatenated to create an artificial discrepancy."
+  },
+  "finite_partner_reduction": {
+    "eligibility": "Consider a form A having at least three occurrences in at least one retained run.",
+    "seed_span": "Within each such run consider triples of consecutive A occurrences in A-occurrence order. Choose one span from the first to the third occurrence by the prospectively fixed shortest-span metric and lexical-ID tie rule. Span length should be stated in complete source-group positions. All three A occurrences, including the endpoints, belong to the closed span.",
+    "candidate_set": "Let Seed(A) be the distinct forms other than A that occur strictly between the first and third A in the chosen span. The middle A is excluded from this candidate set.",
+    "proof": "The span contains exactly three A. If another pool member B were absent from its interior, it would also be absent from the A endpoints. The cumulative A-minus-B count would increase by three between the prefix immediately before this span and the prefix immediately after it. Those two prefix values already force a range of at least three. Hence every possible other member of A's pool must lie in Seed(A). This excludes all forms outside the finite seed, including wholly unobserved hypothetical members.",
+    "testing": "For each B in Seed(A), apply the pair range condition across every retained run for the same reader. An exclusion in any one run suffices. Retain the exact excluding run and prefix interval as a certificate.",
+    "singleton_conclusion": "If every seeded B is excluded, no other pool member is possible and A's pool must be singleton. An empty seed gives the conclusion immediately, as for an uninterrupted AAA.",
+    "limits": [
+      "The shortest-span choice and lexical tie are deterministic witness-selection rules, not assumptions needed by the theorem. Any valid span of three consecutive A occurrences supplies a sound finite seed.",
+      "If a seeded B survives, this gives pairwise necessary capacity only, not an actual pool or a complete writer.",
+      "If A has no triple of occurrences within one retained run, this finite-reduction procedure makes no singleton decision for A. Counts across separated runs cannot substitute for the missing seed.",
+      "A globally fixed pool is essential when evidence from several runs is combined. Allowing A to use a different pool in each run changes the contract.",
+      "Record prior GDT857 AAA-forced forms separately from forms newly forced by this screen. A new proof for an already forced exact form is not a new singleton discovery. The old GDT857 boundary population is not automatically identical to the present strict-group panel."
+    ]
+  },
+  "hand_checked_fixtures_not_executed": [
+    {
+      "name": "Unknown-cycle-boundary double allowed",
+      "runs": [["A", "A"]],
+      "pair": ["A", "B"],
+      "prefix_D": [0, 1, 2],
+      "range": 2,
+      "expected": "No pair exclusion. The observed AA may straddle BA|AB. No seed of three A exists."
+    },
+    {
+      "name": "Direct triple reproduces old lemma",
+      "runs": [["A", "A", "A"]],
+      "seed": [],
+      "expected": "A is singleton; every other B is absent from the span and yields range three."
+    },
+    {
+      "name": "Nonadjacent discrepancy beyond an AAA census",
+      "runs": [["A", "A", "B", "A", "A", "B"]],
+      "pair": ["A", "B"],
+      "prefix_D": [0, 1, 2, 1, 2, 3, 2],
+      "range": 3,
+      "expected": "Exclude A/B despite no consecutive identical triple. Seed from the first three A is {B}; therefore A is singleton in this toy panel."
+    },
+    {
+      "name": "Additional singleton without even an adjacent AA",
+      "runs": [["A", "X", "A", "X", "A"], ["A", "Y", "A", "Y", "A"]],
+      "assumption": "A, X and Y are distinct. The declared tie selects the first run's seed {X}.",
+      "expected": "A/X is compatible in the seed run but has range three in the second run. Every other prospective member, including Y, was excluded by the seed span. Thus A is singleton; neither run contains AA or AAA."
+    },
+    {
+      "name": "A valid nonsingleton survivor",
+      "runs": [["A", "B", "B", "A", "A", "B"]],
+      "pair": ["A", "B"],
+      "prefix_D": [0, 1, 0, -1, 0, 1, 0],
+      "range": 2,
+      "expected": "Seed {B} survives. The whole string is AB|BA|AB, a legal two-member pool realization."
+    },
+    {
+      "name": "Range is stronger than absolute-prefix threshold",
+      "runs": [["B", "B", "A", "A", "B", "A", "A"]],
+      "pair": ["A", "B"],
+      "prefix_D": [0, -1, -2, -1, 0, -1, 0, 1],
+      "range": 3,
+      "expected": "Exclude A/B even though every |D(j)| is at most two and the final difference is one."
+    },
+    {
+      "name": "Do not bridge separate runs",
+      "runs": [["A", "A"], ["A", "A"]],
+      "pair": ["A", "B"],
+      "expected": "Each run has range two and no seed. Concatenating into AAAA would give an invalid exclusion under the declared independently phased run relaxation."
+    },
+    {
+      "name": "Pair compatibility does not certify a common larger pool",
+      "runs": [["A", "A", "B", "B", "C", "C"]],
+      "expected": "Each of A/B, A/C and B/C has range two. Yet a common pool {A,B,C} has no admissible cycle phase: its first full three-draw block would be AAB, ABB or BBC, each repeating a member. Do not equate a compatible-pair graph with a complete pool construction."
+    },
+    {
+      "name": "Empty and one-group runs",
+      "runs": [[], ["A"]],
+      "expected": "Empty range zero; one-group range at most one. Neither yields a seed or an exclusion."
+    }
+  ],
+  "prior_scope": [
+    {
+      "id": "IP038",
+      "primary": "docs/IDEA_BACKLOG.md:1351-1437",
+      "retained": "The previous review already distinguishes legal AA across refill from forbidden AAA for nonsingleton pools. This proposal is a different necessary consequence of that same explicit mechanism, not a newly invented cipher family."
+    },
+    {
+      "id": "GDT857",
+      "primaries": [
+        "experiments/yolo/gdt857_cyclic_inventory_triple_bound/METHOD.md",
+        "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md"
+      ],
+      "difference": "857 searches immediate identical whole-group triples. Pair discrepancy can exclude partners and force singletons even without AA, as the two-run toy fixture demonstrates. Its old result and transcription-bound limitations remain unchanged."
+    },
+    {
+      "id": "GDT194",
+      "primary": "GDT194_CONSONANTAL_HOMOPHONY_REPORT.md",
+      "difference": "The PAGE_HOST consonantal language fit is not an exhaustive draw-without-replacement pool test. Its failed fixed fit remains failed."
+    }
+  ],
+  "interpretation_limits": [
+    "The conclusion is conditional on exact whole-group identity, faithful one-group emissions and no hidden or skipped output within a retained run. It is not a phonetic alphabet or word-meaning claim.",
+    "A forced singleton pool does not identify its source unit, require a literal spelling, or reject a system in which other pools are nonsingleton.",
+    "The screen does not solve a global pool partition, synchronize cycles across runs, infer a source language or estimate significance.",
+    "Singleton and non-singleton pools, with-replacement homophony, internal resets, overlapping pools, unequal quotas and finer code units are distinct contracts; none is introduced as an automatic repair."
+  ],
+  "review_actions": {
+    "native_payloads_or_counts": false,
+    "native_results": false,
+    "images": false,
+    "synthetic_execution": false,
+    "new_raw_card": false,
+    "root_file_changes": false
+  }
+}

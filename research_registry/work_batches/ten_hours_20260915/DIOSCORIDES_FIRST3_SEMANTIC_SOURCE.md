@@ -1,0 +1,116 @@
+# Dioscorides I.1–I.3: complete source-content trace
+
+**Status:** `SOURCE_ONLY_AUDITED` (2026-09-15). This is a Wellmann Greek-source trace only; no target data, Voynich gloss, or code fit was used.
+
+**Source:** Max Wellmann, Pedanii Dioscuridis Anazarbei de materia medica libri quinque, Berlin, Weidmann, 1907-1914; cache `dioscorides_cache/Wellmann_DMM.xml`; SHA-256 `e2a2175c5ca1c1a2313c5816bc79c7fa1c9103766fcad193356d0c13ce6746bc`.
+
+**Source URL:** <https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0656/tlg001/tlg0656.tlg001.1st1K-grc1.xml>
+
+The exact main-text Greek, with TEI apparatus notes removed but source order retained, is in `dioscorides_cache/first3_greek_excerpt.txt` (SHA-256 `07a10060ebe19e5bf6bcd09054e7afa4504f4d37b06bea7c908aece963e1cf3a`). The machine-readable trace is this dossier's JSON companion.
+
+## Reading policy
+
+- Every event below is an assertion or operation from the three main-text chapters, in source order. Greek source terms remain beside bounded English working glosses.
+- Preparation, route, body site, effect, condition, place, and quality stay separate. Ambiguous Greek scope is marked instead of repaired.
+- `κολλύριον` is retained as a preparation form in I.1.3; its route in the embryo clause is unresolved and is not assumed to be ocular.
+- The final I.3 adverse sentence records only `πλεῖον ἢ δεῖ πινόμενον` (drunk more than needed) → headache. It does not separately name a decoction in that clause.
+
+## Correction log
+
+- **I.1.1 ξιφίῳ comparison:** Initial “sword-like” wording was superseded: the comparator is now kept opaque as ξιφίῳ and linked only to the separately traced named ξιφίον in IV.20; no literal-sword or modern-taxon reading remains. Basis: `Wellmann I.1 and IV.20 main text; reciprocal comparison now documented in DIOSCORIDES_XIPHION_SOURCE.json.`
+- **I.1.1 initial root attributes omitted:** Added γονατώδεις, στερεαί, εὐώδεις as root attributes in the opening identification event. Basis: `Wellmann main text I.1.1: ῥίζαι ... γονατώδεις, στερεαί, εὐώδεις.`
+- **I.1.1 ageing scope over-narrowed:** Removed Libyan-only subject assignment; ageing remains a plural-root clause with unresolved antecedent scope. Basis: `Wellmann main text I.1.1: παλαιούμεναι δὲ τερηδονίζονται ...`
+- **I.1.2 dose/vehicle leakage:** Separated general Iris properties, the seven-drachm hydromel cleansing clause, and unqualified sleep/tear/colic effects. Basis: `Wellmann main text I.1.2 clause boundaries; dose retained only with πάχη/χολαί cleansing.`
+- **I.1.3 κολλύριον route overclaimed:** Removed “topical eye preparation”; retained collyrium form and application/insertion with route unresolved, and separated the later poultice clause. Basis: `Wellmann main text I.1.3: προστεθεῖσαι ... ὡς κολλύριον μετὰ μέλιτος ἔμβρυα κατασπῶσι.`
+- **I.3 στεγνά overtranslated:** Retained στεγνά with dry/obstructive/contracted possibilities; no modern disorder selected. Basis: `Wellmann main text I.3: τὰ στεγνὰ περὶ κύστιν καὶ νεφροὺς πάθη.`
+- **I.3 final adverse clause:** Retained excess drinking → headache only; no decoction, hidden dose, or vehicle added. Basis: `Wellmann main text I.3 final sentence.`
+- **I.1 ξιφίῳ comparator over-normalized:** Changed the comparator to opaque ξιφίῳ and linked it only to the separately traced named ξιφίον in IV.20, where the text explicitly compares ξιφίον with Iris as smaller and narrower. Basis: `Wellmann I.1 and IV.20; DIOSCORIDES_XIPHION_SOURCE.json.`
+
+## Clause coverage audit
+
+Exact Unicode anchor membership against `dioscorides_cache/first3_greek_excerpt.txt`: **29 selected anchors; all anchors present = `True`**. This checks selected source-text coverage, not exhaustive character coverage, complete actor/root binding, semantic atomization, or translation truth.
+
+| # | Locator | Exact Greek span | Atomic source values | Trace event(s) | noVoy | Status |
+|---:|---|---|---|---|---|---|
+| 1 | `I.1.1` opening identification | `ἶρις Ἰλλυρικὴ φύλλα φέρει` | ἶρις Ἰλλυρικὴ; φύλλα; ξιφίῳ; ἄνθη; καυλῶν; ποικίλα; λευκὰ; ὠχρὰ; μήλινα; πορφυρᾶ; κυανίζοντα; Ἴριδι | 1 | `True` | `COVERED` |
+| 2 | `I.1.1` initial roots | `ῥίζαι δὲ ὕπεισι γονατώδεις, στερεαί, εὐώδεις` | ῥίζαι; ὕπεισι; γονατώδεις; στερεαί; εὐώδεις | 1 | `True` | `COVERED` |
+| 3 | `I.1.1` harvest and storage | `ἃς δεῖ μετὰ τὴν τομὴν ξηράναντας` | τομὴν; ξηράναντας; σκιᾷ; διείραντας; λίνῳ; ἀποτίθεσθαι | 2 | `True` | `COVERED` |
+| 4 | `I.1.1` origin and quality | `ἔστι δὲ βελτίων ἡ Ἰλλυρικὴ καὶ Μακεδονική` | Ἰλλυρικὴ; Μακεδονική; πυκνόρριζος; ὑποκόλοβος; δύσθραυστος; ὑπόκιρρος; εὐώδης; πυρω δεστέρα; νοτίζουσα; πταρμούς | 3, 4 | `True` | `COVERED` |
+| 5 | `I.1.1` Libyan comparison | `ἡ δὲ Λιβυκὴ λευκή τέ ἐστι` | Λιβυκὴ; λευκή; πικρά; δευτερεύουσα; δυνάμει | 3 | `True` | `COVERED` |
+| 6 | `I.1.1` ageing | `παλαιούμεναι δὲ τερηδονίζονται` | παλαιούμεναι; τερηδονίζονται; εὐωδέστεραι | 5 | `True` | `COVERED` |
+| 7 | `I.1.2` general powers | `δύναμιν δὲ ἔχουσι πᾶσαι θερμαντικήν` | δύναμιν; θερμαντικήν; λεπτυντικήν; βῆχας; δυσανάγωγα ὑγρὰ; λεπτοποιοῦσαι | 6 | `True` | `COVERED` |
+| 8 | `I.1.2` hydromel cleansing | `καθαίρουσι δὲ πάχη καὶ χολὰς` | καθαίρουσι; πάχη; χολὰς; ποτιζόμεναι; ὑδρομέλιτος; δραχμῶν ἑπτά | 7 | `True` | `COVERED` |
+| 9 | `I.1.2` sleep tears colic | `εἰσὶ δὲ καὶ ὑπνοποιοὶ καὶ δακρυοποιοὶ καὶ στρόφους ἰῶνται` | ὑπνοποιοὶ; δακρυοποιοὶ; στρόφους ἰῶνται | 8 | `True` | `COVERED` |
+| 10 | `I.1.2` vinegar branch | `μετ᾿ ὄξους δὲ πινόμεναι` | ὄξους; πινόμεναι; θηριοδήκτοις; σπληνικοῖς; σπωμένοις; περιψυχομένοις; ῥιγοῦσι; γόνον προιεμένοις; ἀρήγουσι | 9 | `True` | `COVERED` |
+| 11 | `I.1.2` wine branch | `σὺν οἴνῳ δὲ ποθεῖσαι` | οἴνῳ; ποθεῖσαι; ἄγουσιν ἔμμηνα | 10 | `True` | `COVERED` |
+| 12 | `I.1.2` decoction external branch | `καὶ τὸ ἀπόζεμα δὲ αὐτῶν` | ἀπόζεμα; γυναικείας πυρίας; μαλάσσον; ἀναστομοῦν; ἰσχιάδος; ἔγκλυσμα; συρίγγων; κόλπων; σαρκωτικόν | 11 | `True` | `COVERED` |
+| 13 | `I.1.3` collyrium branch | `ὡς κολλύριον μετὰ μέλιτος` | προστεθεῖσαι; κολλύριον; μέλιτος; ἔμβρυα; κατασπῶσι | 12 | `True` | `COVERED` |
+| 14 | `I.1.3` boiled poultice branch | `μαλάσσουσι δὲ χοιράδας καὶ σκιρρώματα παλαιὰ` | μαλάσσουσι; χοιράδας; σκιρρώματα παλαιὰ; ἑφθαὶ; καταπλασθεῖσαι | 13 | `True` | `COVERED` |
+| 15 | `I.1.3` dry-root branch | `ξηραὶ δὲ πληροῦσιν ἕλκη` | ξηραὶ; πληροῦσιν ἕλκη; ἀνακαθαίρουσι; μέλιτος; ἐψιλωμένα τῶν ὀστέων; σαρκοῦσιν | 14 | `True` | `COVERED` |
+| 16 | `I.1.3` headache branch | `ὠφελοῦσι δὲ καὶ κεφαλαλγίας` | ὠφελοῦσι; κεφαλαλγίας; ὄξει; ῥοδίνῳ; καταπλασθεῖσαι | 15 | `True` | `COVERED` |
+| 17 | `I.1.3` freckles branch | `φακούς τε καὶ ἐφήλεις` | φακούς; ἐφήλεις; ἐλλεβόρῳ λευκῷ; διπλασίονι; μέλιτι; ἀποκαθαίρουσι | 16 | `True` | `COVERED` |
+| 18 | `I.1.3` compound summary | `μείγνυνται δὲ καὶ πεσσοῖς` | μείγνυνται; πεσσοῖς; μαλάγμασι; ἀκόποις; πολύχρηστοι | 17 | `True` | `COVERED` |
+| 19 | `I.2.1` ἄκορον identification | `ἄκορον τὰ μὲν φύλλα` | ἄκορον; φύλλα; ἴριδι; ῥίζας; διαπεπλεγμένας; γόνασι; ὑπολεύκους; δριμείας; πυκνὸν; λευκὸν; ἄβρωτόν; εὐωδίας; Κολχίδι; Γαλατίας; ἄσπληνον | 1 | `True` | `COVERED` |
+| 20 | `I.2.2` ἄκορον decoction | `δύναμιν δὲ ἔχει ἡ ῥίζα` | ῥίζα; θερμαντικήν; ἀπόζεμα; πινόμενον; οὖρα; πλευρᾶς; θώρακος; ἥπατος; στρόφους; ῥήγματα; σπάσματα; σπλῆνάς; τήκει; στραγγουριῶντας; θηριοδήκτους | 2 | `True` | `COVERED` |
+| 21 | `I.2.2` ἄκορον sitz branch | `καὶ εἰς ἐγκάθισμα ὡς ἶρις` | ἐγκάθισμα; ἶρις; γυναικεῖα | 3 | `True` | `COVERED` |
+| 22 | `I.2.2` ἄκορον juice | `ὁ δὲ χυλὸς τῆς ῥίζης` | χυλὸς; ῥίζης; ἀποκαθαίρει; ἐπισκοτοῦντα; κόραις | 4 | `True` | `COVERED` |
+| 23 | `I.2.2` ἄκορον compounds | `μείγνυται δὲ καὶ ταῖς ἀντιδότοις` | μείγνυται; ἀντιδότοις; χρησίμως | 5 | `True` | `COVERED` |
+| 24 | `I.3` μῆον identification | `μῆον τὸ καλούμενον Ἀθαμαντικὸν` | μῆον; Ἀθαμαντικὸν; γεννᾶται; Μακεδονίᾳ; Σπανίᾳ; καυλῷ; φύλλοις; ἀνήθῳ; δίπηχύ; ῥίζαις; λεπταῖς; πλαγίαις; εὐθείαις; μακραῖς; εὐώδεσι; θερμαινούσαις; γλῶτταν | 1 | `True` | `COVERED` |
+| 25 | `I.3` μῆον oral alternatives | `αἵτινες ἀποζεσθεῖσαι μεθ᾿ ὕδατος` | ἀποζεσθεῖσαι; ὕδατος; λεῖαι; δίχα ἑψήσεως; ποθεῖσαι; στεγνὰ; κύστιν; νεφροὺς; πάθη; παρηγοροῦσι; δυσουρίαις; ἐμπνευματώσεσι; στρόφοις; ὑστερικαῖς τε διαθέσεσι; ἄρθρων πόνοις | 2 | `True` | `COVERED` |
+| 26 | `I.3` μῆον honey chest | `θώρακί τε ῥευματιζομένῳ` | θώρακί; ῥευματιζομένῳ; μέλιτι; λεῖαι; ἐκλεικτοῦ; βοηθοῦσιν | 3 | `True` | `COVERED` |
+| 27 | `I.3` μῆον menstrual sitz | `αἷμά τε ἄγουσι δι᾿ ἐμμήνων` | αἷμά; ἄγουσι; ἐμμήνων; ἀποζεσθεῖσαι; ἐγκάθισμα | 4 | `True` | `COVERED` |
+| 28 | `I.3` παιδίων poultice | `παιδίων δὲ καταπλασθέντος` | παιδίων; καταπλασθέντος; ἐφηβαίου; οὖρα; ἄγουσιν | 5 | `True` | `COVERED` |
+| 29 | `I.3` excess drinking headache | `ἔστι δὲ καὶ κεφαλαλγὲς πλεῖον ἢ δεῖ πινόμενον` | κεφαλαλγὲς; πλεῖον; ἢ δεῖ; πινόμενον | 6 | `True` | `COVERED` |
+
+## Complete chapter traces
+
+### Book I, chapter 1 — ἶρις Ἰλλυρική (Iris Illyrian)
+
+| # | Source locator | Assertion / event | Subject | Explicit roles | Scope caveat |
+|---:|---|---|---|---|---|
+| 1 | `I.1.1` | `identification_description` | ἶρις Ἰλλυρική | **place:** ["Ἰλλυρία (Illyria)"]<br>**plant_parts:** ["φύλλα (leaves)", "ἄνθη (flowers)", "καυλοί (stalks)", "ῥίζαι (roots)"]<br>**appearance:** ["leaves compared with ξιφίῳ (source comparison to the named ξιφίον; no literal-sword or modern-taxon normalization)", "larger, broader, more fleshy leaves", "parallel, bent flowers on stalks", "flowers white, yellow, μήλινα (apple-like colour term; exact colour value uncertain), purple, or bluish"]<br>**root_attributes:** ["γονατώδεις (knobby/jointed; exact morphology uncertain)", "στερεαί (firm/solid)", "εὐώδεις (fragrant)"]<br>**name_relation:** "the variety of flower colours is given as the reason for comparison with Iris" | I.1 ξιφίῳ is kept opaque in this trace. The separate IV.20 ξιφίον passage provides the reciprocal source comparison to Iris as smaller and narrower; it does not authorize a literal sword reading or a modern Xiphium/Gladiolus identification. |
+| 2 | `I.1.1` | `harvest_storage` | ἶρις roots | **material:** "ῥίζαι (roots)"<br>**preparation:** ["after cutting", "dry in shade", "διείραντας λίνῳ"]<br>**storage:** "ἀποτίθεσθαι (put away/store)" | διείραντας λίνῳ is retained as Greek; the exact action involving flax/linen is not normalized |
+| 3 | `I.1.1` | `quality_comparison` | Iris varieties | **preferred_origins:** ["Ἰλλυρική (Illyrian)", "Μακεδονική (Macedonian)"]<br>**less_preferred_origin:** "Λιβυκή (Libyan)"<br>**quality:** "Illyrian and Macedonian are better; Libyan is secondary in δύναμις (potency)" |  |
+| 4 | `I.1.1` | `quality_condition_effect` | best Iris root | **material:** "πυκνόρριζος ῥίζα (thick-rooted root)"<br>**quality:** ["short/stubby", "hard to break", "ὑπόκιρρος (somewhat tawny/reddish; exact shade uncertain)", "very fragrant", "hotter/pungent taste", "not moist"]<br>**condition:** "while cutting"<br>**effect:** "πταρμοί (sneezing)" | ὑποκόλοβος and πυρωδεστέρα are rendered descriptively, without fixing a modern botanical or pharmacological term |
+| 5 | `I.1.1` | `quality_condition` | ἶρις roots (scope of the plural ageing clause uncertain; not assigned to Libyan only) | **condition:** "παλαιούμεναι (when they age)"<br>**effect:** "τερηδονίζονται (become worm-eaten/decayed) but εὐωδέστεραι γίνονται (become more fragrant)" | The preceding sentence discusses the Libyan variety, but the following plural παλαιούμεναι is not treated as proof that ageing applies to Libya alone; the antecedent and scope remain open |
+| 6 | `I.1.2` | `general_property_effect` | all Iris roots | **material:** "ῥίζαι (roots)"<br>**properties:** ["θερμαντική (warming)", "λεπτυντική (thinning)"]<br>**body_or_condition:** ["βῆχες (coughs)", "δυσανάγωγα ὑγρὰ (difficult-to-shift fluids)"]<br>**effects:** ["suit coughs", "thin difficult-to-shift fluids"] | The passage states these general properties before the separately qualified hydromel cleansing clause; no vehicle or dose is inherited here. |
+| 7 | `I.1.2` | `oral_preparation_effect` | Iris roots | **material:** "ῥίζαι (roots)"<br>**preparation:** "ποτιζόμεναι μεθ᾿ ὑδρομέλιτος δραχμῶν ἑπτά (drunk with hydromel; seven drachms stated, measure referent not normalized)"<br>**body_or_condition:** ["πάχη (thick materials/humours)", "χολαί (biles)"]<br>**effect:** "καθαίρουσι (cleanse/clear)" | The seven-drachm hydromel wording is attached to the cleansing of πάχη and χολαί in this clause only; it is not a dose for every Iris effect in I.1.2. |
+| 8 | `I.1.2` | `general_property_effect` | Iris roots | **properties:** ["ὑπνοποιοί (sleep-inducing)", "δακρυοποιοί (tear-inducing)"]<br>**body_or_condition:** ["στρόφοι (colic)"]<br>**effects:** ["induce sleep", "induce tears", "treat colic"] | These effects follow the hydromel clause without a repeated vehicle or dose; no hydromel/7-drachm condition is silently assigned to them. |
+| 9 | `I.1.2` | `oral_preparation_effect` | Iris roots | **preparation:** "πινόμεναι μετ᾿ ὄξους (drunk with vinegar)"<br>**conditions:** ["θηριοδήκτοι (animal bites)", "σπληνικοί (spleen conditions)", "σπωμένοι (uncertain cramp/convulsion condition)", "περιψυχόμενοι or ῥιγοῦντες (chilled or shivering)", "τοῖς γόνον προιεμένοις (a reproductive/foetal-loss condition; scope uncertain)"]<br>**effect:** "ἀρήγουσι (help)" | σπωμένοις and γόνον προιεμένοις are not forced into a modern diagnosis |
+| 10 | `I.1.2` | `oral_preparation_effect` | Iris roots | **preparation:** "ποθεῖσαι σὺν οἴνῳ (drunk with wine)"<br>**effect:** "ἄγουσιν ἔμμηνα (bring on menstruation)" |  |
+| 11 | `I.1.2` | `decoction_external_and_enema` | Iris decoction | **preparation:** "ἀπόζεμα (decoction)"<br>**administration:** ["female πυρίαι (fomentations/steams)", "ἔγκλυσμα (enema)"]<br>**body_or_condition:** ["female sites", "ἰσχιάς (sciatica/hip condition)", "σύριγγες (fistulas/tubes)", "κόλποι (cavities)"]<br>**effects:** ["soften sites", "open passages", "form flesh in fistulas and cavities"]<br>**branch_effects:** [{"preparation": "ἀπόζεμα πρὸς γυναικείας πυρίας", "effect": "εὔθετον; μαλάσσον τοὺς τόπους καὶ ἀναστομοῦν (suitable for female fomentation; softens and opens the sites)", "scope": "female sites"}, {"administration": "ἔγκλυσμα", "body_or_condition": "ἰσχιάς", "effect": "suitable/helpful for the hip/sciatic condition"}, {"body_or_condition": ["σύριγγες", "κόλποι"], "effect": "σαρκωτικόν (flesh-forming in fistulas/tubes and cavities)"}] | The Greek supplies several uses in sequence; branch-to-body-site relations are kept at the stated level and no modern procedure is imposed. |
+| 12 | `I.1.3` | `topical_preparation_effect` | Iris roots | **preparation:** "προστεθεῖσαι ὡς κολλύριον μετὰ μέλιτος (applied/inserted in collyrium form with honey)"<br>**administration:** "προστεθεῖσαι (application/insertion; route unresolved; not assumed to be ocular)"<br>**effect:** "ἔμβρυα κατασπῶσι (draw down embryos/fetuses)" | κολλύριον names a preparation form, but this sentence does not establish ocular administration for the embryo effect; προστεθεῖσαι may indicate addition/application/insertion. The exact route and relation to later πεσσοί remain unresolved. |
+| 13 | `I.1.3` | `topical_preparation_effect` | Iris roots | **preparation:** "ἑφθαὶ καταπλασθεῖσαι (boiled and applied as a poultice)"<br>**body_or_condition:** ["χοιράδες (scrofulous swellings)", "σκιρρώματα παλαιά (old indurations/tumours)"]<br>**effect:** "μαλάσσουσι (soften)" | The separate poultice clause is kept in source order; its exact relation to the preceding collyrium form is not normalized. |
+| 14 | `I.1.3` | `topical_preparation_effect` | dry Iris roots | **material_state:** "ξηραί (dry)"<br>**administration:** "ξηραί (dry roots); fill ulcers, and with honey clean/restore flesh over denuded bones"<br>**body_or_condition:** ["ἕλκη (ulcers)", "ἐψιλωμένα ὀστέα (denuded bones)"]<br>**effects:** ["fill ulcers", "clean ulcers", "flesh over exposed bones"]<br>**branch_effects:** ["πληροῦσιν ἕλκη (fill ulcers)", "ἀνακαθαίρουσι μετὰ μέλιτος (cleanse with honey)", "τὰ ἐψιλωμένα τῶν ὀστέων σαρκοῦσιν (flesh over denuded bones)"] |  |
+| 15 | `I.1.3` | `topical_preparation_effect` | Iris roots | **preparation:** "poultice with vinegar and ῥόδινον (rose preparation/oil)"<br>**body_part:** "κεφαλή (head)"<br>**effect:** "help headache" | ῥόδινον is retained as a rose-derived preparation, without fixing its exact vehicle |
+| 16 | `I.1.3` | `topical_preparation_effect` | Iris roots | **preparation:** "with white hellebore at double amount and honey, applied"<br>**body_or_condition:** ["φακοί (freckles/lentigines)", "ἐφήλεις (sun-spots/ephelides)"]<br>**effect:** "clean/remove" |  |
+| 17 | `I.1.3` | `compound_reuse_summary` | Iris | **compound_forms:** ["πεσσοί (pessaries)", "μαλάγματα (poultices/softening applications)", "ἀκόποι (historical compound term; exact scope uncertain)"]<br>**effect:** "πολύχρηστοι (very widely useful)" |  |
+
+### Book I, chapter 2 — ἄκορον (name retained; modern identification unresolved)
+
+| # | Source locator | Assertion / event | Subject | Explicit roles | Scope caveat |
+|---:|---|---|---|---|---|
+| 1 | `I.2.1` | `identification_description` | ἄκορον | **plant_parts:** ["φύλλα (leaves)", "ῥίζαι (roots)"]<br>**comparison:** "leaves like Iris but narrower; roots similar to Iris"<br>**root_appearance:** ["tangled", "not growing straight", "sideways and near the surface", "divided by joints", "whitish underneath", "sharp in taste", "not unpleasant in smell"]<br>**quality:** "dense and white, not worm-eaten, and full of fragrance is superior"<br>**place:** ["Κολχίς (Colchis)", "Γαλατία (Galatia)"]<br>**alternate_name:** "the Galatian form is called ἄσπληνον" | ἄβρωτον is rendered as not worm-eaten/undamaged in context; no modern species identification is asserted |
+| 2 | `I.2.2` | `oral_preparation_effect` | ἄκορον root | **property:** "θερμαντική (warming)"<br>**preparation:** "ἀπόζεμα (decoction)"<br>**administration:** "πινόμενον (drunk)"<br>**body_or_condition:** ["οὖρα (urine)", "πλευρᾶς πόνοι (side pains)", "θώραξ (chest)", "ἧπαρ (liver)", "στρόφοι (colic)", "ῥήγματα (ruptures/strains)", "σπάσματα (spasms)", "σπλήν (spleen)"]<br>**effects:** ["move urine", "suit side, chest, and liver pains", "treat colic, ruptures, and spasms", "reduce/dissolve spleen enlargement or material (scope historical)"]<br>**additional_conditions:** ["στραγγουρία (strangury)", "θηριοδήκτοι (animal bites)"]<br>**additional_effect:** "ὠφελεῖ (helps)" |  |
+| 3 | `I.2.2` | `external_preparation_effect` | ἄκορον root/decoction | **administration:** "εἰς ἐγκάθισμα (sitz bath)"<br>**comparison:** "as Iris, for female conditions"<br>**body_or_condition:** "τὰ γυναικεῖα (female conditions)"<br>**effect:** "suit/help" |  |
+| 4 | `I.2.2` | `topical_oral_preparation_effect` | ἄκορον root juice | **preparation:** "χυλός (expressed juice)"<br>**body_part:** "κόραι (pupils/eyes)"<br>**condition:** "ἐπισκοτοῦντα (things causing dimness/clouding)"<br>**effect:** "ἀποκαθαίρει (clears)" |  |
+| 5 | `I.2.2` | `compound_reuse` | ἄκορον root | **compound_context:** "ἀντίδοτα (antidotes/compound counteragents)"<br>**effect:** "root is mixed in usefully" |  |
+
+### Book I, chapter 3 — μῆον Ἀθαμαντικόν (name retained; modern identification unresolved)
+
+| # | Source locator | Assertion / event | Subject | Explicit roles | Scope caveat |
+|---:|---|---|---|---|---|
+| 1 | `I.3` | `identification_description` | μῆον τὸ καλούμενον Ἀθαμαντικόν | **place:** ["Μακεδονία (Macedonia)", "Σπανία (Spain)"]<br>**plant_parts:** ["καυλός (stalk)", "φύλλα (leaves)", "ῥίζαι (roots)"]<br>**comparison:** "stalk and leaves like dill, but thicker; about two cubits high"<br>**root_appearance:** ["thin", "sideways and straight", "long", "fragrant"]<br>**body_part:** "γλῶττα (tongue)"<br>**effect:** "roots warm the tongue"<br>**abundance:** "γεννᾶται πλεῖστον (grows most abundantly)" |  |
+| 2 | `I.3` | `alternative_oral_preparation_effect` | μῆον roots | **material:** "ῥίζαι"<br>**alternative_preparation_1:** "ἀποζεσθεῖσαι μεθ᾿ ὕδατος (boiled/decocted with water)"<br>**alternative_preparation_2:** "λεῖαι δίχα ἑψήσεως (made smooth/fine without boiling)"<br>**administration:** "ποθεῖσαι (drunk)"<br>**body_or_condition:** ["στεγνὰ περὶ κύστιν καὶ νεφρούς πάθη (στεγνά conditions around bladder/kidneys; exact sense unresolved: dry/obstructive/contracted)", "δυσουρίαι (difficult urination)", "στομάχου ἐμπνευματώσεις (stomach wind/distension)", "στρόφοι (colic)", "ὑστερικαὶ διαθέσεις (uterine/hysterical conditions)", "ἄρθρων πόνοι (joint pains)"]<br>**effect:** ["παρηγοροῦσι (relieve/soothe)", "ἁρμόζουσι (suit)"] | The Greek στεγνά is retained because “dry disorders” is not secure; dry, obstructive, or contracted conditions are possible historical senses. The two preparation alternatives and their shared drinking syntax are preserved, without choosing equivalence or a modern diagnosis. |
+| 3 | `I.3` | `honey_oral_preparation_effect` | μῆον roots | **preparation:** "λεῖαι σὺν μέλιτι ἀντὶ ἐκλεικτοῦ (made smooth/fine with honey as an electuary/syrup form)"<br>**body_part:** "θώραξ (chest)"<br>**condition:** "ῥευματιζόμενος (rheumatic/flux-affected)"<br>**effect:** "βοηθοῦσι (help)" | ἀντὶ ἐκλεικτοῦ is retained as an administration-form phrase; it is not treated as a new ingredient |
+| 4 | `I.3` | `external_preparation_effect` | μῆον roots | **preparation:** "ἀποζεσθεῖσαι (boiled/decocted)"<br>**administration:** "εἰς ἐγκάθισμα (sitz bath)"<br>**effect:** "ἄγουσιν αἷμα δι᾿ ἐμμήνων (bring menstrual blood)" | the passage supplies the boiled form and sitz-bath route here; it does not supply a numerical dose |
+| 5 | `I.3` | `topical_preparation_effect` | μῆον roots | **preparation:** "καταπλασθέντος (applied as a poultice)"<br>**body_part:** "ἐφηβαῖον παιδίων (pubic/lower-belly region of children)"<br>**effect:** "οὖρα ἄγουσιν (bring urine/induce urination)" | ἐφηβαῖον is retained as the more specific pubic/lower-belly term; no broader body region is inferred |
+| 6 | `I.3` | `adverse_condition_effect` | μῆον when drunk | **condition:** "πλεῖον ἢ δεῖ πινόμενον (drunk in an amount more than needed)"<br>**body_part:** "κεφαλή (head)"<br>**effect:** "κεφαλαλγές (headache)" | the final Greek sentence does not separately name a decoction in this adverse clause; no unspoken preparation state, dose threshold, or vehicle is added |
+
+## Shared concrete concepts
+
+The JSON records recurring roots/leaves, decoction/boiling, fine or smooth preparation, juice, honey/vinegar/wine/hydromel vehicles, drink, sitz bath, poultice, collyrium form with unresolved route, enema, and pessary forms; body sites include tongue, head, eyes/pupils, chest, liver, spleen, bladder, kidneys, womb, hips, joints, and the pubic/lower-belly region. Shared effects include warming, thinning/clearing, moving urine, menstruation, pain relief, softening, cleaning, flesh-forming, sleep/tear induction, and an explicitly adverse headache condition after excess drinking.
+
+## Ceiling
+
+This establishes a concrete historical medical content vocabulary and branch structure. It does not establish a target-language dictionary, a target entry boundary, or any translation. The source model is not medical advice; historical efficacy statements are reported as source assertions. Confirmed target words remain 0.

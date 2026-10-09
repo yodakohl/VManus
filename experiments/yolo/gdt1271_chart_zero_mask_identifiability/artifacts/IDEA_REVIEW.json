@@ -1,0 +1,53 @@
+{
+  "record_id": "GDT1271",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root; independent source-free proof review; separate nearest-occurrence verifier",
+  "assessment_basis": "zero_rank_invariant_and_explicit_different_key_counterexample",
+  "reason": "Rank0 iff repeated output gives1/3/5/15source-index classes. General prefix construction fits any compatible finite input/output with a growing chart. Two DIFFERENT53position toy charts give same18unitcipher butHEATOIL#/HEATGIN#. No native text or fixedkeycollision.",
+  "blockers": [
+    {
+      "code": "artificial_construction_not_native_identification",
+      "detail": "Cost may grow with message; zero-mask/source/key/phase/layout remain unbound to the manuscript. Counterexample is not a fixed-small-budget impossibility.",
+      "evidence": [
+        "experiments/yolo/gdt1271_chart_zero_mask_identifiability/REPORT.md",
+        "experiments/yolo/gdt1271_chart_zero_mask_identifiability/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_full_contract",
+        "change": "new_design",
+        "detail": "Fix source-symbol order, resets/layout, chart construction and budget with an independent discriminator before fitting native text.",
+        "evidence": [
+          "experiments/yolo/gdt1271_chart_zero_mask_identifiability/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Fit one arbitrarily large chart",
+      "Call two different charts a fixedkeycollision",
+      "Promote the toy English strings to Voynich meanings",
+      "Treat the zero mask as a full source message"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000977",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1271_chart_zero_mask_identifiability/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1270",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1271_chart_zero_mask_identifiability/REPORT.md"
+      ]
+    }
+  ]
+}

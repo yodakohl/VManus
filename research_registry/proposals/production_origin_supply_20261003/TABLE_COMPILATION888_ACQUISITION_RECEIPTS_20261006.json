@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-06T19:40:34.975599+00:00",
+  "attempts": [
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b108893246/manifest.json",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8452202k/manifest.json",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "decision": "INCOMPLETE_PRIMARY_ACCESS_NO_TABLE_PROSE_COMPARISON",
+  "secondary_locator_checks": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tacuinum_bnf_lat6977_f6r_table04_header.jpg",
+      "observation": "Metadata describes header and first four rows only,793x458. No image opened; not the complete table."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:IBN_BUTL%C3%82N_Tacuinum_sanitatis_.jpg",
+      "observation": "Despite category6977, file metadata identifies Latin9333f89sugar. Rejected as the target whole-table source; no image opened."
+    }
+  ],
+  "consequence": "No actual omission rule acquired. This is missing source access, not a refuted table-linearization mechanism. Known Li\u00e8ge explicit rubrics remain. No source-target mapping or compiler follows."
+}

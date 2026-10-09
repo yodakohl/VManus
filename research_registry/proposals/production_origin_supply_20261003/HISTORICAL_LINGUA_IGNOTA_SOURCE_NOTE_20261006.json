@@ -1,0 +1,68 @@
+{
+  "title": "Historical construction example: a glossed word family in Hildegard's Lingua ignota",
+  "status": "BOUNDED_SOURCE_OBSERVATION_NOT_A_NEW_WRITER_NOT_NATIVE_EVIDENCE",
+  "created_utc": "2026-10-06T02:00:00Z",
+  "task": "Inspect an actual medieval invented vocabulary or script for a concrete learnable convention and its costs. No Voynich theory, source identity, native word value, corpus acquisition or experiment is proposed.",
+  "primary_sources": [
+    {
+      "source": "Hochschul- und Landesbibliothek RheinMain, Hs.2, Riesencodex, catalogue folio461v",
+      "page_url": "https://hlbrm.digitale-sammlungen.hebis.de/handschriften-hlbrm/content/pageview/5570884",
+      "image_url": "https://hlbrm.digitale-sammlungen.hebis.de/handschriften-hlbrm/download/webcache/2000/5570884",
+      "image_sha256": "2201afa2c6ee3e67d221c1411bb7a60cc79a229b364505e095877abcd5641941",
+      "location": "Right column, below the red Lingua-ignota rubric; the adjacent kinship entries father/mother/stepfather/stepmother and son/stepson.",
+      "inspection": "The original photograph was viewed directly, including at original resolution. The invented words are written in ordinary manuscript letters, with smaller Latin glosses above them. This is a word list, not a visible instruction for compiling arbitrary sentences."
+    },
+    {
+      "source": "The same manuscript, catalogue folio464v",
+      "page_url": "https://hlbrm.digitale-sammlungen.hebis.de/handschriften-hlbrm/content/pageview/5570890",
+      "image_url": "https://hlbrm.digitale-sammlungen.hebis.de/handschriften-hlbrm/download/webcache/2000/5570890",
+      "image_sha256": "166ec4e98dcf403aa87b4f33adc3206b738f3b4ff52a938fd99c40c0640e2459",
+      "location": "Left column, beneath the last glossary entries and above the following letter's rubric.",
+      "inspection": "The original photograph shows a separate sign table with ordinary alphabetic labels above invented shapes; the final entries include multi-letter Latin labels. The glossary and the sign table are two visibly separate layers. No complete running passage in the invented signs was recovered here, and no equivalence with the22Voynich working signs is asserted."
+    },
+    {
+      "source": "Elias Steinmeyer, Die althochdeutschen Glossen, volume3,1895, printed page390, Glossae Hildegardis, entries21–26",
+      "url": "https://archive.org/details/diealthochdeutsc03steiuoft/page/390/mode/1up",
+      "accessible_text_url": "https://archive.org/stream/diealthochdeutsc03steiuoft/diealthochdeutsc03steiuoft_djvu.txt",
+      "inspection": "Only the named glossary location was consulted through text search. The edition's page-number metadata identifies printed390 as image leaf408. OCR was checked against the medieval photograph for the small family below; it is not treated as a newly collated complete transcription. The edition distinguishes two witnesses and supplies German glosses for the other witness; those German glosses are not silently attributed to the photographed Wiesbaden page."
+    }
+  ],
+  "institutional_metadata": {
+    "catalogue": "https://geschichtsquellen.de/werk/2812",
+    "manuscript_contents": "https://hlbrm.digitale-sammlungen.hebis.de/handschriften-hlbrm/content/structure/449618",
+    "dated_witness": "The institutional manuscript catalogue gives approximately1180–1190 with a question mark. This dates the witness, not a demonstrated invention procedure.",
+    "vocabulary_size": "Geschichtsquellen describes a glossary of1011invented words with Latin and/or German equivalents, arranged across religious, human and natural subject matter. This is the catalogue's count, not a count performed in this task and not proof that every user memorized1011independent roots.",
+    "access_correction": "The old publicly linked page IDs450555 and450562 returned404/timeout. The current institutional contents page links to new page IDs5570883ff. The seven-page Lingua excerpt remains reachable at https://hlbrm.digitale-sammlungen.hebis.de/download/pdf/450553.pdf . Only two historical page images were downloaded temporarily for direct inspection; no project corpus was acquired."
+  },
+  "bounded_word_family": [
+    {"entry": 21, "invented_word": "Peueriz", "latin_gloss": "pater", "ordinary_reading": "father"},
+    {"entry": 22, "invented_word": "Maiz", "latin_gloss": "mater", "ordinary_reading": "mother"},
+    {"entry": 23, "invented_word": "Nilzpeueriz", "latin_gloss": "uitricus", "ordinary_reading": "stepfather"},
+    {"entry": 24, "invented_word": "Nilzmaiz", "latin_gloss": "nouerca", "ordinary_reading": "stepmother"},
+    {"entry": 25, "invented_word": "Scirizin", "latin_gloss": "filius", "ordinary_reading": "son"},
+    {"entry": 26, "invented_word": "Nilzsciriz", "latin_gloss": "priuignus", "ordinary_reading": "stepson"}
+  ],
+  "concrete_construction_observation": {
+    "directly_attested": "The father and mother pairs have the same extra initial string nilz- before two unchanged different base words, and the Latin glosses supply the same corresponding step-kinship distinction. The entries are neighboring members of a semantically organized list. This is stronger source evidence for a reusable piece than an unglossed resemblance between invented strings.",
+    "bounded_human_rule_inference": "For these two attested pairs, a reader can learn the two bases and the shared addition rather than four unrelated whole forms: choose the father or mother base and prefix nilz-. That is a concise reconstruction of the observed pattern. The manuscript does not explicitly instruct the scribe to apply this rule to all kinship words, and this note does not claim that we have recovered Hildegard's actual word-invention algorithm.",
+    "retained_countercase": "The immediately following son/stepson pair is not exact prefixation of the complete listed son form: nilz- plus Scirizin would retain its final in, whereas the listed compound is Nilzsciriz. A stem alternation, lexicalized compound or other explanation would therefore have to be paid. It is not permissible to declare every long word simple prefix-plus-unchanged-base on the strength of the first two pairs.",
+    "what_differs_from_a_free_program_grammar": "The actual evidence is a taught/consultable lexicon with semantically adjacent word families and explicit glosses, plus some transparent reuse and retained whole-form differences. There is no observed per-character state counter, full-message ID or freely assigned output word in this observation. Vocabulary organization itself carries a real learning and lookup cost; a small affix does not eliminate the many remaining lexical entries.",
+    "what_it_does_not_supply": "No complete invented-language syntax, productive treatment of arbitrary new names, sentence-boundary convention, negation scope or open-text inverse is established by these two glossary pages. The separate invented alphabet does not supply those missing linguistic rules. A proposed full writer would have to state them independently and could not cite this glossary as evidence that they were historical."
+  },
+  "costs_and_research_consequence": {
+    "learning": "At least the two selected base meanings and the shared relationship need to be learned; the son pair already adds an irregular-form obligation if included. The broader vocabulary remains a substantial learned or written reference resource, not a small free primitive table. The alphabet table adds a different learning task if used.",
+    "manual_use": "A scribe can copy or consult neighboring kinship entries. Analogical prefixation works exactly for the two cited bases. Actual speed, teaching practice, memorization and use in ordinary prose are not measured or proved.",
+    "useful_design_constraint": "When inventing a source-side technical language, preserve a mixture of semantically organized lexical bases, constrained productive additions and explicitly learned exceptions. Do not assume that a historically plausible invented language must be generated from29universal roots, or that a thousand-entry glossary proves an arbitrary large cipher table costless.",
+    "not_a_test_selection": "This is a historical construction example only. No new full writer, native hypothesis, selected source, statistical prediction or experiment follows automatically. The old source-frequency failures remain unchanged."
+  },
+  "predecessor_review": {
+    "navigation": "Current route, context topic controls, bounded Lingua-ignota/Hildegard searches, bounded duplicates and route-check. The Lingua string searches returned no specific local card; that is not an exhaustive novelty proof. The existing Hildegard770 material concerns a different cosmological source and is not a predecessor for this glossary mechanism.",
+    "fontana_primary_card": "research_registry/proposals/production_origin_supply_20261003/fontana_scoped_symbol_representations.json",
+    "retained_fontana_limit": "The existing Fontana card concerns explicit virtue/science registers changing symbolic values and keeps the letter machine separate. It neither supplies this glossary family nor establishes a general native namespace.",
+    "gdt188_primary": "GDT188_BIJECTIVE_CIPHER_INVARIANCE_REPORT.md",
+    "gdt188_followup_primary": "GDT202_HYBRID_THEORY_RECONCILIATION_REPORT.md",
+    "retained_cipher_limit": "A new alphabet alone cannot alter invariants of a fixed source under simple bijection.188's fixed-source exclusion and202's withdrawal of local semantic values remain. The present observation concerns invented vocabulary and its visible glossary relations, not a native alphabet-key search.",
+    "recent_limits": "1175's costs,1202's source-conditioned whole-word bounds, and the exact1214–1216parser stops are unchanged. A glossary family supplies neither a statistical pass nor a workaround for a rejected serializer."
+  },
+  "ownership_and_scope": "One bounded producer. Historical original images only; no Voynich image, raw transcription, new target region, musical section, source statistics, source encoder, data intake, subagent, root-file change or registry refresh. No new idea card is registered because this is source evidence and a bounded construction lesson, not an independent complete candidate. Parent retains selection and publication ownership."
+}

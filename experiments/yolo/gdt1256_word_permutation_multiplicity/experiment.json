@@ -1,0 +1,107 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional exact fixed-source vocabulary and rare working-unit witness exclusion only; no language ban, corrected glyphs, source identity or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1256_word_permutation_multiplicity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1256_word_permutation_multiplicity/src/validate.py"
+  },
+  "created": "2026-10-07",
+  "dependencies": [
+    "GDT1228",
+    "GDT1240",
+    "GDT1242",
+    "GDT1255"
+  ],
+  "experiment_id": "GDT1256",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+      "sha256": "b7f83818c3a2447593c45aef6eaeba592b6dd63264e77235005c97e78824a31d",
+      "role": "unchanged complete projected source"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/IDEA974_KEEEES_PROFILE_20261007.json",
+      "sha256": "f227078f3e6465e69f2b40fc72c43276c8d731a91c6b4f7e8528fc82de7d0db9",
+      "role": "existing rare exact-word witness receipt"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/METHOD.md",
+      "sha256": "4522adb901605af1f080666282bdec10af748e64fb21404d48a43aac249b8158",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/PREREGISTRATION.md",
+      "sha256": "4522adb901605af1f080666282bdec10af748e64fb21404d48a43aac249b8158",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/README.md",
+      "sha256": "12ed5476946e0c3f2907dfd5a02305a4789ee06cb95488217c3566bc960a7aa6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/REPORT.md",
+      "sha256": "d99c479bd218fd3a986241b69d61e4bcd20b10d10fbf25cefd1d152799299136",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/artifacts/IDEA_REVIEW.json",
+      "sha256": "08d3ea871f11e131882a2ab874a49ee40a8f15481619f08127b8b3e3d477dbe0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/artifacts/README.md",
+      "sha256": "db88e49c81868d18389adea62a748a542712256b0ef32d9fcca11a31f9cd02b1",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/artifacts/RESULT.json",
+      "sha256": "cd8f6e3991968aba9550e342ca5a95e1597a13a7eb6efda40872e99035b8a5a3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/artifacts/VALIDATION.json",
+      "sha256": "8cd1cce156a895350c004230e18ae411c165f423c20fbdcd6fb7fa7cf75d4b87",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/src/REGISTRATION_LOCK.json",
+      "sha256": "b2e5bb5d9d4f115b6dc44a00865c1fa933dde248e4d6be740557a743046051a2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/src/SPEC.json",
+      "sha256": "f5e76436400414b1e320302c757c198916013cf5e78433a9ffbca1b9bfb38306",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/src/run.py",
+      "sha256": "654b874e070f4a03fed26efcecb9f235c716af2cdd3329fa8c7ffb1966f70712",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1256_word_permutation_multiplicity/src/validate.py",
+      "sha256": "b552d570b0e671dc94dd724e47c61df7f14e6be07b5ff3f23ad143fd0b7df057",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can any word in the unchanged Deot projection have the multiplicities required by keeees under arbitrary within-word permutation and injective letter rewriting?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "word_permutation_multiplicity",
+  "status": "FIXED_SOURCE_PERMUTATION_ENVELOPE_EXCLUDED",
+  "title": "Word-permutation multiplicity bound for fixed Deot source",
+  "updated": "2026-10-07",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1256_word_permutation_multiplicity/artifacts/VALIDATION.json"
+  }
+}

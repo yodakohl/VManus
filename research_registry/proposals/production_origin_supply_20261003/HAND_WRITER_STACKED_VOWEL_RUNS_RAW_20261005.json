@@ -1,0 +1,59 @@
+{
+  "title": "RAW UNREVIEWED: explicit vowel runs stacked over consonant bodies with one word-initial empty carrier",
+  "summary": "Invented complete two-dimensional hand writer, retained as raw and not as an attested medieval system. The five teaching vowels always have explicit marks; each whole following vowel run is stacked above its preceding consonant body. An initial vowel run uses one special empty carrier. Bare consonants, single letters, several different direct repetitions and whole-word repetitions have exact rules. The new observable restriction is fixed spatial ownership and a carrier that may occur only at the start of a word with a nonempty stack. No native sign or meaning is assigned and no target image/data is examined.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "Partition an A-Z input word into an optional initial vowel run and successive consonant-plus-following-vowel-run cells. Write each consonant as its fixed baseline body and all vowels of its run as explicit marks in a vertical stack above that same body, bottom to top in source order. The initial vowel run, if any, is stacked above one distinct empty carrier K.",
+    "unit": "A cell contains one baseline consonant or K and zero or more spatially anchored vowel marks. Only K requires a nonempty stack. Complete source-word boundaries remain written word spaces.",
+    "contrast": "Full letter preservation in a spatial carrier-and-mark notation versus a linear prefix-free CV code with an inherent vowel, vowel omission, two alphabet banks, optional ligatures or context-dependent entry connectors.",
+    "prediction": "Every vowel mark belongs to exactly one vertical stack above one baseline body. K occurs only as the first baseline body of a word, at most once, and always carries at least one vowel mark. An added trailing vowel extends the last stack without adding a baseline body. Prefixing a consonant to a vowel-initial word replaces K with that consonant body and preserves the entire initial stack rather than adding another body.",
+    "scope": "Source-free complete teaching procedure only. No historical attestation, manuscript alphabet, phonetic classification, native carrier/mark identity, target code fit, Voynich word meaning, new source or target access, experiment or root-target evaluation.",
+    "writing_kit": {
+      "source_alphabet": "A-Z. The fixed teaching vowel set is A E I O U; Y is in the other set for this example. This is an orthographic convention of the invented example, not a claim about Voynich phonology or a source language.",
+      "drawings": "Twenty-one fixed distinct consonant bodies, five fixed distinct vowel marks, and one further distinct empty-carrier body K. Names B_C and V_A etc. are metanotation for invented drawings, not manuscript signs. K emits no source letter; every other body or mark emits exactly its one table letter.",
+      "geometry": "Bodies are written at successive fixed-width baseline cell positions. Vowel marks form a vertical column on the centre of their owning body: first vowel immediately above the body, later vowels at successive higher positions. Marks in different columns never share an owner, bridge bodies or migrate into a neighbouring column. No connector stroke or changing entry/exit shape is part of the model.",
+      "human_cost": "A 27-drawing reference table and inspection of one consonant with its following vowel run at a time. A run with many vowels needs additional vertical writing space; the method does not claim compression or historical practicality beyond explicit hand executability."
+    },
+    "writer": [
+      "Read the complete next A-Z word and reserve sufficient line height for its tallest vowel stack. Do not omit or normalize an outside-alphabet input silently.",
+      "If the word begins with one or more teaching vowels, draw K at the first baseline cell and stack the entire initial vowel run above it in source order from bottom to top. If the word starts with a consonant, write no K.",
+      "For each following consonant, draw its fixed body in the next baseline cell. Stack every immediately following vowel above that body, in order. A consonant followed by another consonant or word end has an empty stack and retains the same body.",
+      "Use all letters exactly once. There is no inherent vowel, virama, doubled-letter shortcut, abbreviation, optional suppression or whole-word exception.",
+      "Leave a word space after the last cell. Keep the complete word on one physical line; move it intact if horizontal or vertical room is insufficient. Reserve extra line height when required by a long vowel run. Line and paragraph starts change no signs. An isolated inscription uses the identical word procedure."
+    ],
+    "reader": [
+      "Read baseline cells left to right. For a consonant body emit its table letter, then read its anchored upper stack from bottom to top and emit those vowel letters.",
+      "For K emit only the stack. Require K to be word-initial with a nonempty stack; do not interpret a later K as a new syllable or an implicit word boundary.",
+      "Respect the written word spaces. Under the fixed body/mark inventory and ownership geometry this inverse returns every input letter and is unique. Unresolved ownership is an unresolved observation, not permission to move a mark to make a reading."
+    ],
+    "metanotation": "C^[A,E] means consonant body C with vowel A in the lowest upper slot and E in the next slot. K^[...] denotes only the empty initial carrier; the source letter K instead uses its distinct ordinary body B_K, for example B_K^[] for the one-letter input K. C^[] denotes a bare consonant. The brackets are explanatory and are not additional written frames.",
+    "required_hand_cases": {
+      "single_characters": "B -> B^[]; A -> K^[A]. Thus a single ordinary baseline body is a legal complete group. A vowel-only input remains readable through the explicit carrier.",
+      "direct_repetitions": "BB -> B^[] B^[]; CC -> C^[] C^[]; AA -> K^[A,A]; BEE -> B^[E,E]. Different bodies and different marks may repeat; there is no universal single repeat sign.",
+      "whole_word_repetition": "BEE BEE -> [B^[E,E]] [B^[E,E]], unchanged after the word space or a physical line break.",
+      "new_words": "Any finite A-Z string is encoded by the same partition, including consonant-only and vowel-only strings. No lexical dictionary or prior-word memory is required.",
+      "separated_repetition": "BCB -> B^[] C^[] B^[]. A three-body S-O-S pattern is not generically forbidden; this does not bind actual S/O motifs to these bodies.",
+      "distinctive_edit": "ALMA -> K^[A] L^[] M^[A]; BALMA -> B^[A] L^[] M^[A]. Prefixing B replaces the initial carrier and leaves the initial vowel stack unchanged. ALMAA instead ends with M^[A,A] and adds no baseline body."
+    },
+    "minimal_falsifier": "After independently fixing a candidate native K, the body/mark inventories, cell ownership and word boundaries, one definite medial K, bare K, unowned mark or mark assigned across two body columns contradicts the exact writer. The initial-carrier replacement consequence supplies a separate comparison if an independently justified complete-word relation becomes available. No such native binding or relation is asserted here.",
+    "known_obligations": [
+      "Known short groups, distinct repeated e/i motifs and S-O-S do not alone refute this abstract writer if they are ordinary bodies or repeated upper marks. This is an invented capability check, not a native classification or demonstrated target coverage.",
+      "The five marks, their order and their ownership would have to be physically recognizable; counting all ascenders as upper marks or splitting a compound after a mismatch would be an unsupported repair. A normal upper stroke remains a rival until a specific decomposition is justified.",
+      "This scheme has a strong spatial signature. If the admitted material has no suitable separate mark stacks and initial carrier under a fixed decomposition, the proposal has no empirical support. Do not manufacture a linear equivalent or relocate marks after observing that failure.",
+      "The writer does not require a native baseline body to be one EVA character, one BPE unit or one G0 motif. Conversely, uncertainty about that identification is not evidence that the writer works. No G0/G1/G2 binding is proposed here.",
+      "GDT608's reusable directed parts and stronger exact-whole residuals remain unexplained by this teaching construction. It grants no letter values, source language or meaning."
+    ],
+    "predecessor_review": [
+      "GDT892 already specified a consonant/vowel carrier architecture. Its exact SPEC greedily consumes at most one vowel after a consonant, uses one selected inherent vowel, VIRAMA and prefix-free one/two-character linear codes. The original report is a source-capacity stop, not an empirical rejection of all such writing.",
+      "GDT895 excludes the fixed complete-Simon-entry copying law under that CV channel; GDT905/906 exhaust a restricted Latin dictionary/grammar key space. Their failures remain. This draft changes to an explicit non-omitting spatial vowel-run contract and proposes no decoder, corpus enlargement or repetition of those searches.",
+      "IDEA865 is the closest attached-mark source predecessor. SOURCE865_ALIGNMENT.md and SOURCE865_DOUBLE_MARK_REVIEW.json retain partial native Greek alignment and a local double-mu augmentation, not a complete writer. Those marks insert consonants before a carrier under a known edition; they do not attest this invented all-vowel, following-run convention. No Greek source rule is imported here.",
+      "IDEA926's Cappelli examples encode particular following words with attached letters, not this alphabetic vowel-run rule. Their limited source-positive status is unchanged.",
+      "IP082 proposes two interleaved whole-group streams, with no bound carrier. Here a single source word is fully encoded by local two-dimensional letter cells, not two independent whole-text streams.",
+      "GDT193 and GDT194 reject fixed PAGE_HOST consonant-only mappings under their registered language comparisons. This draft preserves every vowel explicitly and assigns nothing to PAGE_HOST; it does not rescue those static alphabet fits.",
+      "IDEA928 changes an entry connector based on the previous body's exit. This draft has invariant bodies and no joining or entry-height rule; its upper marks carry separate input characters in a fixed cell. IDEA929/930 and the recency-sketch failures are unchanged, not repaired."
+    ],
+    "review_basis": "Read current route and composition topic; bounded idea/duplicate searches and route-check; IDEA865 and IP082 cards; GDT892 method/spec/report and followup pointers, GDT895 primary, previously reviewed GDT905/906 primary scope, SOURCE865 alignment plus its local correction, and GDT193/194 primaries. No empty search was treated as novelty proof. No new manuscript or external source was opened.",
+    "next_decision": "Retain as one raw complete writer, with no priority from being untested. A later comparison first requires one fixed native spatial inventory and a decision-changing observation. This entry authorizes neither a glyph search nor a revived CV decoder."
+  }
+}

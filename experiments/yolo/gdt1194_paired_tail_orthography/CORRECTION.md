@@ -1,0 +1,3 @@
+# Pre-output engineering correction
+
+The first runner invocation stopped in the array-cache constructor before any candidate counts, solver result, metric or search outcome. It treated1191 `cache.pool` (a padded numeric matrix) as the codec's list of(rank,tail) tuples. The corrected extraction takes numerical interior positions up to the recorded length minus the final, subtracting22. Frozen source bytes, notation, criteria and search contract did not change. Original array source and lock are retained in artifacts/V1_*. The new lock records the implementation correction; this is not a scientific retry after a failed outcome.

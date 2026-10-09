@@ -1,0 +1,189 @@
+{
+  "title": "RAW UNREVIEWED:21-syllable learned language with paid relational word formation and literal names",
+  "summary": "An invented complete physical writing contract for a restricted open lexical assertion language. Twenty-one CV syllables use21 working signs; q begins fully written controls. Ordinary lexical words have unrestricted positive syllable length. IN/PART nominal constructions compute class restrictions from their written components; predicate valency binds explicit arguments. A public character chart preserves unfamiliar names. Sentence endings and overwide-word continuations are paid. Learned lexeme meanings remain arbitrary vocabulary costs; no historical or native identification and no statistical compatibility are claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "created_utc": "2026-10-06",
+  "design": {
+    "purpose": "A person who knows a shared spoken vocabulary can write ordinary predicates and nominal descriptions with a small syllabary. The productive descriptions water-IN-place and vessel-PART-assembly do not each need another whole-word meaning entry. A stranger's name is preserved literally rather than assigned a guessed native word or a short private ID.",
+    "domain": "Sequences of present or past existential relational assertions, optionally negated as whole assertions. Predicate words have one, two or three ordered arguments. Nominal expressions denote classes; literal proper names denote singleton classes. Two productive nominal restrictions are allowed below. Commands, universal quantification, conditional scope, arbitrary reported speech and a complete historical source language are not claimed to be covered. This is a whole-message writer for this declared fragment, not a universal semantic translator.",
+    "source": "Invented teaching language; no new source, corpus or claimed medieval attestation. Old learned-language observations motivate examining the cost of lexical learning but do not identify this language with Voynich.",
+    "phonology_and_glyphs": {
+      "consonants_in_order": ["b", "d", "g", "k", "m", "n", "t"],
+      "vowels_in_order": ["a", "i", "u"],
+      "syllable_rows": [
+        {"spoken": ["ba", "bi", "bu"], "written": ["a", "o", "e"]},
+        {"spoken": ["da", "di", "du"], "written": ["i", "n", "d"]},
+        {"spoken": ["ga", "gi", "gu"], "written": ["y", "s", "r"]},
+        {"spoken": ["ka", "ki", "ku"], "written": ["l", "m", "k"]},
+        {"spoken": ["ma", "mi", "mu"], "written": ["t", "p", "f"]},
+        {"spoken": ["na", "ni", "nu"], "written": ["ch", "sh", "ckh"]},
+        {"spoken": ["ta", "ti", "tu"], "written": ["cth", "cph", "cfh"]}
+      ],
+      "G_in_order": ["a", "o", "e", "i", "n", "d", "y", "s", "r", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+      "remaining_working_sign": "q",
+      "word_length": "A lexical spoken word has any positive number of CV syllables, not a forced one/two/three-sign length. No root lengths or frequencies are chosen from target data. The learner must know which complete syllable sequences are actually vocabulary entries; pronounceability does not give them meanings.",
+      "notation_limit": "EVA labels identify the22 artificial working drawings. A label such as ch is one working drawing here. This does not prove native atoms or assign phonetic values to the manuscript."
+    },
+    "control_table": {
+      "rule": "Every q is followed by o and one selector. All three signs are a single control atom; q is never an ordinary syllable or a literal-name data sign. This q/o choice is an explicit informed design assumption, with its full writing cost, not a recovered native rule.",
+      "entries": [
+        {"glyphs": ["q", "o", "a"], "function": "NAME_OPEN"},
+        {"glyphs": ["q", "o", "o"], "function": "NAME_CLOSE"},
+        {"glyphs": ["q", "o", "e"], "function": "PART restriction"},
+        {"glyphs": ["q", "o", "y"], "function": "IN restriction"},
+        {"glyphs": ["q", "o", "i"], "function": "CLAUSE_END, appended to the last argument group"},
+        {"glyphs": ["q", "o", "n"], "function": "NOT, prefix on predicate word"},
+        {"glyphs": ["q", "o", "d"], "function": "PAST, prefix on predicate word after NOT if both occur"},
+        {"glyphs": ["q", "o", "s"], "function": "CONTINUE_SAME_GROUP, only immediately before a physical line break"}
+      ],
+      "unused_selectors": "All other q-o-selector triples are illegal, not spare exceptions. A bare q or q not followed by o is malformed under this frozen writer."
+    },
+    "ordinary_lexicon_contract": {
+      "noun": "A spoken word plus its learned class meaning.",
+      "predicate": "A spoken word plus one learned relation meaning, arity1/2/3, ordered argument roles and any type restrictions. The same predicate spelling cannot secretly change arity or sense in another sentence.",
+      "collision_policy": "Different independent senses within a lexical category need distinct taught words or an explicitly taught productive expression. Noun/predicate use is structurally distinct, but no contextual homograph solver is supplied.",
+      "unknown_lexical_meanings": "A new concept or predicate must be learned with its definition and valency before semantic reading. Writing an unfamiliar name never supplies a property meaning, event or argument frame. The proper-name escape is nominal only.",
+      "cost_warning": "Every independently invented spoken word is still an arbitrary learned lexeme-to-meaning pair. Pronounceability does not erase this dictionary cost or prove an advantage over a codebook. The actual economy, if any, lies only in the declared shared spelling table and productive IN/PART meanings. No economic or statistical advantage is measured."
+    },
+    "complete_grammar": {
+      "clause": "[NOT][PAST]PREDICATE TERM1 ... TERMn CLAUSE_END. Prefix controls are inside the predicate's printed group; CLAUSE_END is appended inside the final argument's printed group. Exactly n terms are required by the public learned predicate entry. There is no unwritten sentence boundary.",
+      "term": "NOUN, or literal NAME, or NOUN REL TERM with REL exactly IN or PART. A complete term is one printed group, except explicit physical continuation. Inside that group the relation control delimits the ordinary noun head from its full recursive complement. A literal name can be a complement but is not given an unprinted noun head.",
+      "recursive_scope": "NOUN1 REL1 NOUN2 REL2 TERM3 parses as NOUN1 REL1 (NOUN2 REL2 TERM3), never by free reassociation. The final complement ends at the printed group boundary after continuation has been joined; a trailing CLAUSE_END lies outside the term. No optional compound split or hidden head is allowed.",
+      "noun_semantics": "A noun word N denotes its learned class N(x). A NAME denotes the entity bearing that exact declared name, represented as a singleton class. The actual real-world referent can remain unknown to a reader, but the written name is preserved; two same-spelled people need an explicit name qualification if the source intends to distinguish them.",
+      "composition": [
+        "N IN T denotes {x: N(x) AND EXISTS y in meaning(T), INSIDE(x,y)}.",
+        "N PART T denotes {x: N(x) AND EXISTS y in meaning(T), PART_OF(x,y)}. PART_OF is fixed as a proper-part relation, not an interchangeable owner/source/material relation.",
+        "Both operations retain the complete nested complement. Neither operator supplies a unique individual, a previous batch or a new physical event."
+      ],
+      "positive_assertion": "For predicate V with n arguments, assert EXISTS x1 in TERM1,...,xn in TERMn such that V(x1,...,xn), at present time or the explicitly written past time. A literal NAME fixes its singleton argument. Repeated ordinary class words need not introduce distinct entities; there is no hidden inequality.",
+      "negation": "NOT negates that complete existential assertion, with its written time and all arguments. It is not pushed into a noun restriction and it does not erase any participant. This version has no other negation scope.",
+      "time": "Unmarked assertions concern the present reference interval. PAST asserts existence of a past reference interval without inventing a date. That same interval governs the whole positive clause, including its nominal class predicates and IN/PART restrictions, not only its main verb. NOT outside PAST denies that entire past existential assertion; PAST-of-NOT is not licensed by the fixed prefix order. A source requiring exact time, duration or temporal order needs an explicit extension or is outside this frozen fragment.",
+      "messages_and_layout": "A message is a finite sequence of complete clauses. Explicit paragraph breaks are allowed only after CLAUSE_END and add no reset or referent identity. Ordinary physical line breaks do not delimit clauses. No atom or word is omitted because it is predictable."
+    },
+    "literal_names": {
+      "source_of_inventory": "The unchanged26 lowercase letters and56 rare characters from HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json, plus a literal name-internal space. This is a character inventory, not reuse of935's word shorthand or frequency contract.",
+      "procedure": "Write NAME_OPEN, then two ordinary G signs for each character, then NAME_CLOSE. Consult the four-row chart: write the row sign followed by the column sign from G_in_order. No arithmetic or whole-name lookup is needed. q cannot occur in a character pair, so NAME_CLOSE is recognizable. CONTINUE is allowed only between complete character pairs. All other controls inside name data are errors.",
+      "column_labels": ["a", "o", "e", "i", "n", "d", "y", "s", "r", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+      "rows": [
+        {"row_sign": "a", "characters": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u"]},
+        {"row_sign": "o", "characters": ["v", "w", "x", "y", "z", "ä", "ö", "ü", "ß", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ","]},
+        {"row_sign": "e", "characters": [";", ":", "!", "?", "(", ")", "-", "/", "'", "\"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]},
+        {"row_sign": "i", "characters": ["L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Ä", "Ö", "Ü", "ẞ", " ", null]}
+      ],
+      "cost": "83 character cells, all consulted or learned explicitly. A name of m characters costs2m+6 working signs before clause closure and line continuation. This can be expensive; there is no claim that names are naturally frequent or rare enough for the native distribution.",
+      "unsupported_character": "An unlisted character is a declared failure of this edition, never silently transliterated, lowercased, deleted or guessed. This finite alphabet does not claim universal Unicode or full historical source coverage.",
+      "examples": [
+        {"name": "Ada", "character_pairs": [["e", "m"], ["a", "i"], ["a", "a"]]},
+        {"name": "Tava", "character_pairs": [["i", "r"], ["a", "a"], ["o", "a"], ["a", "a"]]}
+      ]
+    },
+    "physical_line_contract": {
+      "sheet": "A teaching sheet has24 equal working-sign/blank cells per line. This is an artificial hand-layout convention, not inferred native ruling or character width. It was not selected from source or target counts.",
+      "ordinary_groups": "Place one blank cell between complete printed groups. If a complete group of at most24 signs will not fit after that blank, begin it at the next line. A line break without CONTINUE serves as the ordinary external word separation, never a sentence boundary.",
+      "overwide_group": "Start a group longer than24 signs on a fresh line. If its entire remaining suffix fits, write it. Otherwise take the longest prefix of complete atoms fitting21 cells, append the three-sign CONTINUE control, and resume the same group on the next line with no semantic space. Repeat until finished. Atoms are one syllable sign, one three-sign control, or one two-sign name character. Never cut an atom. This procedure needs only awareness of available ruled cells, not a hidden linguistic counter.",
+      "reader": "Join exactly the two physical pieces explicitly connected by CONTINUE and a following line break. Remove that control before lexical/grammatical reading. An unmarked line break separates groups. NAME_OPEN/NAME_CLOSE and the clause controls remain written, so the reader never receives a secret word length or sentence bit.",
+      "broken_packet": "CONTINUE without an immediate physical line break, missing continuation material or an unfinished name/control/term at message end is an error. It is not repaired by guessing."
+    },
+    "teaching_lexicon": [
+      {"spoken": "bami", "glyphs": ["a", "p"], "category": "noun", "learned_meaning": "water class"},
+      {"spoken": "daka", "glyphs": ["i", "l"], "category": "noun", "learned_meaning": "vessel class"},
+      {"spoken": "miba", "glyphs": ["p", "a"], "category": "noun", "learned_meaning": "person class"},
+      {"spoken": "nadu", "glyphs": ["ch", "d"], "category": "predicate", "arity": 3, "roles": ["mover", "moved participant", "destination"], "learned_meaning": "places the second participant inside the third; actual successful placement"},
+      {"spoken": "gutu", "glyphs": ["r", "cfh"], "category": "predicate", "arity": 2, "roles": ["touching participant", "touched participant"], "learned_meaning": "touches"},
+      {"spoken": "gaki", "glyphs": ["y", "m"], "category": "predicate", "arity": 1, "roles": ["bearer"], "learned_meaning": "is cold"},
+      {"spoken": "badu", "glyphs": ["a", "d"], "category": "predicate", "arity": 3, "roles": ["first entity", "second entity", "third entity"], "learned_meaning": "the three entities share a location"}
+    ],
+    "vocabulary_limit": "These seven invented entries allow the complete demonstration, not all practical knowledge. No one may silently add meanings because a printed word resembles a native form. A larger learned vocabulary would cost each additional pairing and valency; all corpus frequencies, root lengths and irregular learned wholes would then be additional declared inputs, not determined by this demonstration.",
+    "complete_hand_message": {
+      "ordinary_readback": [
+        "Ada placed herself inside Tava.",
+        "Some water inside Tava is cold.",
+        "Ada touches no water inside Tava."
+      ],
+      "reference_limit": "Ada and Tava are fully written names; their external referents are not discovered by the code. Tava's destination/container use is a role asserted by the predicates, not a guessed lexical definition. The water in sentence2 is not silently assigned the same individual identity as a hypothetical witness in sentence3.",
+      "spoken_grammar_gloss": [
+        "PAST-nadu NAME(Ada) NAME(Ada) NAME(Tava)-END",
+        "gaki bami-IN-NAME(Tava)-END",
+        "NOT-gutu NAME(Ada) bami-IN-NAME(Tava)-END"
+      ],
+      "printed_groups_as_working_sign_arrays": [
+        ["q", "o", "d", "ch", "d"],
+        ["q", "o", "a", "e", "m", "a", "i", "a", "a", "q", "o", "o"],
+        ["q", "o", "a", "e", "m", "a", "i", "a", "a", "q", "o", "o"],
+        ["q", "o", "a", "i", "r", "a", "a", "o", "a", "a", "a", "q", "o", "o", "q", "o", "i"],
+        ["y", "m"],
+        ["a", "p", "q", "o", "y", "q", "o", "a", "i", "r", "a", "a", "o", "a", "a", "a", "q", "o", "o", "q", "o", "i"],
+        ["q", "o", "n", "r", "cfh"],
+        ["q", "o", "a", "e", "m", "a", "i", "a", "a", "q", "o", "o"],
+        ["a", "p", "q", "o", "y", "q", "o", "a", "i", "r", "a", "a", "o", "a", "a", "a", "q", "o", "o", "q", "o", "i"]
+      ],
+      "manual_reading_trace": "qo-d prefixes past to na-du. The next two identical complete name packets both expand to Ada; the third expands to Tava and qo-i closes the three-argument clause. ga-ki then requires one term: ba-mi followed by IN and the full Tava packet. The next qo-i closes it. qo-n negates gu-tu; its two terms are Ada and the same class expression water-IN-Tava, followed by the written closure. No private sentence list is used in decoding.",
+      "not_native": "Every meaning here belongs only to this explicitly invented demonstration. The generated working-sign sequences are not readings of any manuscript word."
+    },
+    "overwide_name_hand_example": {
+      "name": "Ada-Ada-Ada",
+      "first_physical_line": ["q", "o", "a", "e", "m", "a", "i", "a", "a", "e", "y", "e", "m", "a", "i", "a", "a", "e", "y", "e", "m", "q", "o", "s"],
+      "second_physical_line": ["a", "i", "a", "a", "q", "o", "o"],
+      "readback": "The first line writes NAME_OPEN and the first nine characters Ada-Ada-A, then the paid continuation. The second writes d and a and NAME_CLOSE. Its line break is not a word/name space. If this term ends a clause, append qo-i on the second line as usual.",
+      "provenance": "Hand-worked construction example only; no encoder or source statistics were run."
+    },
+    "shape_capacity_and_risks": [
+      "Ordinary autonomous roots can end in any of21 syllable signs; the grammar imposes no universal six-ending cap on two-sign roots. This is the capacity of the open phonotactic inventory, not a claim that the seven taught words cover the native12ending witnesses.",
+      "Ordinary long roots may contain any of21 syllable signs internally. There is no three-sign medial alphabet, but actual learned root shapes and their frequencies remain an unpaid vocabulary input.",
+      "Identical nominal arguments can be written twice without a compulsory repeat header. The full message shows two identical Ada groups. A three-argument clause can also place two identical short ordinary noun roots next to each other; no physical-line reset is needed.",
+      "Every q is followed by o by explicit design, including controls inside words. This does NOT produce the observed proportion of qo-initial words or q positions: names, compound operators and appended clause endings introduce internal q. In particular every clause has a noninitial q in its attached closure. This is a serious untested structural/statistical obligation, not a claimed match.",
+      "Final y has only its declared syllable role unless present in a control selector. A high final-y frequency is not supplied by the lesson. No additional y ending may be added after measurement.",
+      "Literal names and controls are long. Their apparent rarity cannot be assumed to rescue overall lengths or concentration. The complete fixed grammar, lexical stock and meaningful input distribution would all need to be declared before any statistics.",
+      "The24-cell layout may create long-word continuations and different visible groups; its paid markers must be included in any eventual comparison. Its physical word/unit binding is a hypothesis, not an inference from the manuscript."
+    ],
+    "human_cost": "Learn21 syllable drawings, eight3-sign controls, the83-character name chart, noun/verb categories, each lexical meaning and each verb's ordered valency, two recursive nominal restrictions, clause existential scope, whole-clause negation, tense default and the visible continuation convention. There is no running counter, frequency-trained fragment tree, hidden paragraph memory, root-address arithmetic or large whole-word numerical table. The new word meanings themselves remain a real dictionary burden.",
+    "smallest_hand_falsifier": "A reader supplied only this public lexicon/grammar/chart must recover every participant, time and negation in the whole message and the full hyphenated overwide name. A failed scope or name inverse stops this contract before statistics. Success would be only construction readability. Before a native comparison, the exact q-position/final-y and short/long form obligations must be considered without changing controls or adding vocabulary to imitate target words."
+  },
+  "predecessors_and_limits": [
+    {
+      "id": "GDT1174",
+      "primary": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/METHOD.md",
+      "relation": "System1 translates finite field numbers to16-digit syllable strings with a fixed y terminator. This design instead spells learned variable-length lexical forms with21 syllables and computes explicit nominal class restrictions. It is not evidence that arbitrary lexical pairings are cheaper; those costs remain. The old finite-source results are unchanged."
+    },
+    {
+      "id": "GDT1181",
+      "primary": "experiments/yolo/gdt1181_productive_source_syllabary/METHOD.md",
+      "relation": "Learned source-character merges, radix Huffman codes and a four-state counter failed their full source screen. No source fragments, frequency-trained code tree or counter are inherited here. Later1182–1195 changes retain their own failures."
+    },
+    {
+      "ids": ["GDT1175", "GDT1214"],
+      "primary": "research_registry/proposals/production_origin_supply_20261003/B6_7_PRODUCTIVE_STEMS.md",
+      "relation": "B6 already has semantic ORIGIN and other productive constructors; composition itself is not new. Its29 learned two-sign roots, fixed inner parser and literal-cost failure are not repaired. This new lexical/physical contract has variable ordinary root forms and explicit relational term controls, and it does not claim to preserve the whole b6 source."
+    },
+    {
+      "id": "IDEA000918",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/OL_OR_RESUMPTION_DRAFT.md",
+      "relation": "The nominal-state/shared-reference reading remains nonconfirming and its strict order meets the known opposite-order countercase. No OL/OR value, resumption identity or native head grammar is borrowed. This proposal is an invented forward language only."
+    },
+    {
+      "ids": ["IDEA000935", "GDT1202", "GDT1222"],
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json",
+      "relation": "Only935's declared character inventory is reused for names. No one-source-word-to-one-group abbreviation or fixed lemma-feature projection is rerun. This does not overturn their source-dependent frequency failures; a genuine historical message projection remains absent here."
+    },
+    {
+      "ids": ["GDT1193", "GDT1224"],
+      "primary": "experiments/yolo/gdt1224_short_word_final_capacity/REPORT.md",
+      "relation": "The conditional three-interior and six-short-final architecture exclusions remain. Permitting a21-sign ordinary syllabary is not proof of native lexical coverage or a statistical pass. No target data were accessed to choose this table."
+    },
+    {
+      "id": "IDEA000953",
+      "relation": "The separately frozen state/become/cause source module is untouched. This proposal has different existential predicate/nominal-class composition and its own paid physical controls; it is not an unrecorded carrier replacement for953."
+    }
+  ],
+  "bounded_navigation": {
+    "route_first": true,
+    "topic": "Wortzusammensetzung",
+    "searches": ["open lexicon construct state writer head noun", "syllabary constructed language"],
+    "duplicates": "learned spoken lexicon CV syllabary relational noun compounds",
+    "route_check": "learned lexical syllabary semantic composition",
+    "targeted_primary_and_followup_reading": ["IDEA918 current review and complete draft", "GDT1174 METHOD", "935 full carrier inventory", "GDT1181 METHOD and lookup followups", "B6 productive grammar and1175/1214 primaries retained", "1224 primary retained"],
+    "limit": "Navigation is not an exhaustive novelty certificate. A pronounceable code or a correct hand example is not manuscript evidence."
+  },
+  "access": "Own RAW file and ideas add only. No native raw text, images, reserved material, source counts, decoder/encoder execution, fitting, new corpus, metadata refresh, root edits, other agent, commit or push."
+}

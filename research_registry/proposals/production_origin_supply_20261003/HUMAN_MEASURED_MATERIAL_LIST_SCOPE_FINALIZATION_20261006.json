@@ -1,0 +1,30 @@
+{
+  "status": "UNREVIEWED_SEMANTIC_COMPLETION_BEFORE_ANY_SELECTED_READING_TRIAL",
+  "idea": "IDEA000965",
+  "created_utc": "2026-10-06T16:37:00Z",
+  "origin": "Root requested a separate final scope convention after reviewing the frozen raw and the author's provenance-prefix proposal. This note does not replace either frozen file and does not select or conduct a test.",
+  "preserved_files": [
+    {"path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL_LIST_RAW_20261006.json", "sha256": "bcc0732cd7b9e6c8b97e417fe3d57a5cd92c593f6c80e6c0a8d487cbe36503e9"},
+    {"path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL_LIST_AUTHOR_SCOPE_20261006.json", "sha256": "4163675fecbdf510510cb23dae0bc409e97157eacc942fedb889009f22f454ca"}
+  ],
+  "ban_entry": "Each prohibition is a triple (explicit vessel identity, canonical base-stock identity, ordered preparation-history prefix). Vessel identity is the exact literal name under the shared labelled-vessel convention. Base identity and preparation histories are those explicitly taught in the author-scope companion. No chemical subtype, unrecorded synonym, or natural-language resemblance creates another match.",
+  "matching": "A prohibition (V,B,F) blocks an ADD occurrence (V2,B2,A) exactly when V=V2, B=B2, and F is a prefix of A. Empty F covers every declared preparation descendant of B. Equality is a prefix case. The order DRIED then GROUND is retained; this is a provenance convention, not a chemical classification.",
+  "scope_state": {
+    "outer": "At message entry the outer prohibition set G is empty. A top-level FORBID adds its entries to G after that complete instruction is read. They constrain subsequent ADD instructions until END-MESSAGE, including ADD instructions inside a true IF. G is not cleared by END-IF.",
+    "if_entry": "Nested IF is illegal. On reading IF EMPTY and its explicit vessel, evaluate that vessel's EMPTY condition once and remember the Boolean result. Begin a fresh empty local set L. Earlier outer prohibitions remain in G. An unknown guard remains an unevaluated conditional instruction; it must not be guessed true or false for execution.",
+    "true_if": "In a true IF, read and execute its complete instructions in order. FORBID adds entries to L, not to G. The active prohibition set is exactly G union L. No local instruction grants an exception to an outer ban. ADD or MIX does not re-evaluate the entry guard.",
+    "false_if": "In a false IF, read the entire syntax through its explicit END-IF, including name frames, material tails, instruction terminators and arity requirements. Malformed syntax remains malformed and a nested IF remains illegal. No ADD or MIX is executed and no local FORBID is activated. G remains unchanged. A written but unexecuted ADD does not itself violate an active ban; the reader can still explain what it would request under a true guard.",
+    "end_if": "END-IF deletes only L and the remembered guard state. Continue at top level with the same G that existed before entering the IF. No IF-local ban persists after END-IF, whether the block was true or false.",
+    "end_message": "END-MESSAGE closes the message and deletes G as well. No prohibition, guard or preparation-history default is carried silently to a later message. The physical row boundary never performs any of these semantic resets."
+  },
+  "conflicts": "For each executed ADD occurrence, check every active matching prohibition. Any match makes the instructions inconsistent for that execution: report the conflict; do not silently skip the addition, reinterpret the stock, remove material already present, or allow a narrower local rule to override a broader outer rule. FORBID is not a negative spoon count. Repeated identical prohibition entries have no additional effect.",
+  "small_scope_counterpairs": [
+    {"setup": "G already contains a ban on base B in vessel V; an IF for V is true and adds a local ban on base C.", "required_reading": "Both B and C are barred within the IF. After END-IF, B remains barred and C is no longer barred by that local entry."},
+    {"setup": "The same written IF is false.", "required_reading": "Its syntax is still read, no local C ban activates, and no listed addition or mixing occurs. The pre-existing outer B ban remains after END-IF."},
+    {"setup": "An initially empty V enters a true IF containing two ADD instructions.", "required_reading": "Both instructions remain within the true block even though the first addition makes V nonempty; an applicable ban can still make an addition inconsistent."},
+    {"setup": "Only a local prohibition on (B,DRIED) is active; proposed addition has (B,DRIED,GROUND).",
+     "required_reading": "Blocked by prefix matching within that IF. After its END-IF the local entry alone does not block the addition. An independent outer ban could still block it."}
+  ],
+  "cost_and_limits": "The reader retains the explicit outer list, at most one local list and one entry-guard value; the lists can be consulted in the written message rather than assumed memorized without cost. Scope is visibly paid by IF, END-IF and END-MESSAGE controls. This completion changes no glyph, name, spacing, continuation, root or preparation rule. It does not supply chemical knowledge, a general conditional language or a native meaning.",
+  "test_state": "No challenge or hidden expectation has been produced for this combined contract. Root must first accept the joint version and declare the reading-test scope. The original exposed example is not a blinded success; no native or source statistics were accessed for this note."
+}

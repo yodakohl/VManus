@@ -1,0 +1,47 @@
+{
+  "schema": "qt_interval_efficiency_review_v2",
+  "interval": "2026-09-08 07:12:17 UTC through 11:12:17 UTC; interval was still open at the latest review.",
+  "basis": [
+    "research_registry/decisions/semantic_4h_followon_session.md",
+    "GDT872-GDT877 compact REPORT.md files",
+    "git log converted from +02:00 to UTC",
+    "QM/QS conclusions"
+  ],
+  "scientific_outcome": "GDT872–874 structural censuses, GDT875–876 model-native audits, and GDT877 source-fidelity work produced no confirmed meaning. They improved source/record limits and preserved uncertainty; these are not decipherment gains.",
+  "elapsed_vs_active": {
+    "elapsed": "The four-hour mandate had 240 minutes from 07:12:17 to 11:12:17 UTC. Git milestones converted from local +02:00 are: GDT872 prereg 07:36, result 07:51; GDT873 prereg 08:00, result 08:14; 734 recovery 08:42 and publication 09:02; GDT874 prereg 09:05/result 09:16; GDT875 prereg 09:19/result 09:41; GDT876 prereg 09:50/correction 10:07; GDT877 prereg 10:45. None of these timestamps is beyond the mandated interval.",
+    "active_compute": "The records do not support additive CPU totals. GDT872 reports that source/agent integration dominated preparation; GDT873/GDT874 were bounded replay/census validations; GDT875/876 were two model observations of already admitted originals; GDT877 target plus independent validation completed by 10:46 UTC according to its report, with publication still inside the interval.",
+    "concurrency": "Independent tasks overlapped, so their budgets cannot be summed as elapsed or CPU time. Publication/staging milestones also include coordination time."
+  },
+  "avoidable_or_low_information_branches": [
+    {
+      "branch": "GDT873 matched-position follow-up",
+      "assessment": "Low information, but valid and predeclared. Its matched subset has D=0 while the all-eligible population has D=.016260; this does not make the original GDT872 composition observation vanish or falsify it. The branch correctly stopped at its declared coverage limit.",
+      "scoped_improvement": "For a future position-control branch, state the already-frozen matched-coverage requirement and its stop rule in the same decision note; do not forecast a new gate or widen the endpoint."
+    },
+    {
+      "branch": "GDT872 contract/integration corrections",
+      "assessment": "Source-key, diagnostic-view, physical-folio and output-contract mismatches were caught before target access. This protected the scientific gate but consumed preparation/integration time.",
+      "scoped_improvement": "Before the next similar run, bind the runner/validator output names and source joins to one synthetic fixture and receipt in the experiment decision note."
+    },
+    {
+      "branch": "734/QF–QI–QK semantic coverage chain",
+      "assessment": "The finite 734 recovery was useful, but successive reviews repeated nearby historical/card coverage checks. This was memory curation, not new manuscript evidence.",
+      "scoped_improvement": "For the next source-scope task, emit one bounded packet of SEM IDs, case IDs, source path/hash/lines and exact missing scope before subsequent peer reviews."
+    }
+  ],
+  "next_interval_changes": [
+    {
+      "change": "Use a source-task-scoped runner/validator contract note before preregistration when the same projection is consumed by multiple agents; include the synthetic check and output names, without new infrastructure."
+    },
+    {
+      "change": "Use one canonical semantic-card coverage packet for each source audit, keeping extraction, card coverage and scientific assessment separate."
+    }
+  ],
+  "not_recommended": [
+    "Do not sum concurrent agent budgets as CPU time.",
+    "Do not treat publication milestones, card counts, source corrections or validation counts as semantic progress.",
+    "Do not widen a stopped branch merely because its descriptive endpoint is low-information.",
+    "Native viewer outputs are model observations of one manuscript, not independent human witnesses."
+  ]
+}

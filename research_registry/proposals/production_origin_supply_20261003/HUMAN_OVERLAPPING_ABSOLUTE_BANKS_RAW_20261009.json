@@ -1,0 +1,255 @@
+{
+  "title": "RAW UNREVIEWED: overlapping alphabet banks with persistent absolute selection and a paid literal branch",
+  "summary": "A complete modern hand writer uses three fixed overlapping19-letter rows,19payload drawings and3absolute selectors. Retain the current row while it contains the next lowercase letter; otherwise visibly select that letter's fixed home row. The overlap permits three genuine complete-word spellings, while disjoint absolute-select banks permit at most two. Fixed rare characters, spaces, record resets, names and overwide continuation are explicitly paid. No native symbol values, source statistics or target fit.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_COMPLETE_TEACHING_CONSTRUCTION_NOT_NATIVE_SELECTED",
+  "origin": {
+    "date_utc": "2026-10-09",
+    "proposer": "root proposed overlapping absolute-selector banks; bounded_idea_supply developed the exact source-only rows, inverse and proofs",
+    "historical_status": "Invented modern reconstruction. A small chart and a movable row pointer are human-operable in principle; no historical use or measured convenience is claimed.",
+    "access": "Live route, topic, bounded registry/duplicate screen,931 and1180 primaries/code. An old931 result read also displayed its saved G1 examples; this is acknowledged prior exposure, not a new query or blind review. None informed the table. No native/source corpus was encoded or counted, and no new native payload or image was requested."
+  },
+  "design": {
+    "useful_action": "Use a small reusable column alphabet while avoiding a written bank change whenever the current row already contains the needed letter. Three overlapping rows reduce some compulsory changes of a disjoint partition. This is alphabetic spelling of ordinary supplied text, not a learned whole-word codebook or new meanings for native forms.",
+    "input": {
+      "ordinary_letters": "abcdefghijklmnopqrstuvwxyz",
+      "rare_characters_in_order": [
+        "ä",
+        "ö",
+        "ü",
+        "ß",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        ".",
+        ",",
+        ";",
+        ":",
+        "!",
+        "?",
+        "(",
+        ")",
+        "-",
+        "/",
+        "'",
+        "\"",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+        "Ä",
+        "Ö",
+        "Ü",
+        "ẞ"
+      ],
+      "rare_provenance": "Exact fixed rare_characters_in_order from research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json. The15multigraph shortcut units used with these characters in1180 are NOT imported: this writer scans individual source characters only.",
+      "finite_domain": "The26ordinary characters and56listed rare characters form the entire82-character within-word domain. Require at most361distinct rare characters for the fixed two-base19-digit carrier; the declared list satisfies this. Unsupported characters cause an explicit stop, never normalization or alphabet expansion.",
+      "message": "An ordered sequence of nonempty records, each an ordered sequence of nonempty source words over this alphabet. Source word spaces and record boundaries are part of the input. Multiple space counts and arbitrary original typesetting are outside this declared domain; no linguistic word segmentation is inferred.",
+      "meaning_and_names": "The complete ordinary source wording preserves negation, participants, tense, punctuation and names exactly at character/word level. Names use the same alphabet and rule; uppercase and quote characters take the literal branch. Multiword names retain their source spaces. No hidden referent or semantic name classifier changes spelling."
+    },
+    "fixed_table": {
+      "payload_drawings": "A B C D E F G H I J K L M N O P Q R S",
+      "payload_indices": "0 through18 in the displayed order.",
+      "bank_0": "abcdefghijklmnopqrs",
+      "bank_1": "jklmnopqrstuvwxyzab",
+      "bank_2": "stuvwxyzabcdefghijk",
+      "home_0": "abcdefghi",
+      "home_1": "jklmnopqr",
+      "home_2": "stuvwxyz",
+      "construction_reason": "Split the conventional26-letter alphabet into home blocks of9,9,8. From each home's first letter continue cyclically until the row has19entries. This is a fixed source-alphabet rule, not source-frequency or native-result optimization.",
+      "controls": {
+        "select_0": "T",
+        "select_1": "U",
+        "select_2": "V",
+        "literal_prefix": "TT",
+        "physical_continuation": "VV at the end of a nonfinal physical line"
+      },
+      "physical_count": "The actual teaching shapes are the22distinct uppercase Roman letters A throughV:19payload signs and3selectors. They are NOT assignments to any Voynich glyph or its EVA label. A later injective global redrawing would preserve this construction but is not selected.",
+      "no_table_search": "All rows, order, homes and control conventions are fixed here. No alternative cyclic start, payload order, fourth bank, extra selector or target-fitted exception is authorized."
+    },
+    "writer": [
+      "At each explicitly supplied record start set bank=0. Do not reset at source word spaces or ordinary physical line wraps.",
+      "For a lowercase source letter x: if x occurs in the current bank, write its one payload-column sign and retain that bank. A selector is forbidden in this case.",
+      "If x is absent from the current bank, write exactly its absolute home selector T/U/V, change to that home bank, and write x's payload-column sign there. Every letter is present in its home bank.",
+      "For a listed rare source character at zero-based index j, write T,T followed by the two payload digits at indices floor(j/19) and j mod19. This complete four-sign operation preserves the bank. Lowercase ordinary letters may not use this branch.",
+      "Write one visible word gap for each source word boundary. The bank persists. Write a visibly empty physical line for each record boundary; that boundary resets bank0. A standalone inscription is one record and follows the same initial rule.",
+      "Display line wraps between complete words represent a word gap and do not reset the bank. If a word must continue on another physical line, append VV to a nonempty fragment and continue the same word on the next nonblank line. VV contributes no source character and changes no bank. It is written once at each continued line end, with no leading counterpart.",
+      "No other empty tokens, selectors, closing operations or padding are emitted. The end of a bounded document closes its last complete word/record only after every letter/literal packet is complete."
+    ],
+    "reader": [
+      "Recover logical words and record boundaries first: one nonempty-line break without terminal VV acts as an ordinary word gap; a terminal VV removes exactly its final two signs and joins the next line with no word gap. An empty physical line is a record boundary and must not follow an unfinished continuation. Horizontal gaps separate words.",
+      "At record start bank=0. Read a payload A..S as the corresponding character of the current bank. This leaves the bank unchanged.",
+      "Within a logical word, TT is recognized before an ordinary T selector. It requires exactly two following payload signs, representing j=19*first+second. Require j within the fixed rare list, emit that character, retain the prior bank.",
+      "An ordinary T/U/V selector requires exactly one following payload. Decode that payload in the selected bank. Require the decoded character's home to be that bank and require it to have been absent from the previous bank. Otherwise reject the string as noncanonical.",
+      "Reject all other consecutive selectors, dangling selectors, incomplete literal packets and out-of-range literal indices. After physical continuation removal, VV is not an ordinary source operation.",
+      "Reencode the recovered character sequence from the same incoming bank to check canonicality. This is a real checking cost; it is not a free contextual oracle. The source record/word sequence and the bank at every operation are thereby unique."
+    ],
+    "layout_cost": {
+      "no_native_raster": "No fixed line width or native alignment geometry is asserted. The scribe chooses wraps to fit the actual teaching writing area. A continued fragment needs room for at least one retained sign plus two continuation signs.",
+      "arbitrary_split": "A long logical word may be split after any nonempty prefix of its written units, even inside a pending selector/literal packet. Continuation removal precedes parsing and therefore restores the exact operation stream.",
+      "terminal_V_case": "If the retained fragment itself ends in an ordinary selector V, the displayed line ends VVV: remove exactly the final two V continuation signs, leaving the first V to take its payload from the next fragment. Do not recursively strip pairs.",
+      "cost": "Each continuation adds exactly two physical signs and one additional word fragment. Blank record separation and word gaps are visible spatial costs. Physical fragment frequencies are not logical whole-word frequencies.",
+      "canonicality_limit": "The lexical encoding is deterministic for an incoming bank; discretionary physical wrapping is not claimed deterministic. All permitted layouts recover the same source. No physical width measurement or target layout fit has been performed."
+    },
+    "complete_example": {
+      "source": "do not stir.",
+      "initial_bank": 0,
+      "logical_written_groups": [
+        [
+          "D",
+          "O"
+        ],
+        [
+          "N",
+          "O",
+          "V",
+          "B"
+        ],
+        [
+          "A",
+          "B",
+          "Q",
+          "U",
+          "I",
+          "T",
+          "T",
+          "A",
+          "O"
+        ]
+      ],
+      "reading": "DO in bank0 gives do. N,O gives no; V selects home2 for absent t and B gives t. Bank2 A,B,Q gives sti; U selects home1 for absent r and I gives r. TT,A,O is rare index14, the period. Spaces preserve the three original words and NOT remains explicitly written in the source.",
+      "final_bank": 1,
+      "continuation_variant": [
+        [
+          [
+            "D",
+            "O"
+          ],
+          [
+            "N",
+            "O",
+            "V",
+            "B"
+          ],
+          [
+            "A",
+            "B",
+            "Q",
+            "U",
+            "V",
+            "V"
+          ]
+        ],
+        [
+          [
+            "I",
+            "T",
+            "T",
+            "A",
+            "O"
+          ]
+        ]
+      ],
+      "continuation_reading": "The first line's final VV joins the next fragment to ABQU. The ordinary U selector is pending across that break and takes I afterward. It is the same third word, not another source word or reset."
+    },
+    "source_only_three_spellings": {
+      "word": "as",
+      "from_bank_0": [
+        "A",
+        "S"
+      ],
+      "from_bank_1": [
+        "R",
+        "J"
+      ],
+      "from_bank_2": [
+        "I",
+        "A"
+      ],
+      "reachability": "All three incoming banks can actually occur from reset0: record as uses0; t as reaches2 before as; t l as reaches1 before as. The histories t and l are legal source words, not native values or required English meanings.",
+      "distinction": "These are three different whole spellings with no leading selector in as itself. The difference persists through its interior because the two source letters occur in all banks.",
+      "upper_bound": "Every source word has at most3logical spellings, one for each incoming bank. This is finite freedom, not unlimited orthographic aliases."
+    },
+    "disjoint_bank_theorem": {
+      "conditions": "Any number of disjoint source-character banks, one fixed local payload per character, an absolute selector that depends only on its target bank, mandatory selection precisely when the next character is unavailable, no other state or spelling choices.",
+      "proof": "Before the first banked character x, there are only two output possibilities: already in its unique bank, or write that bank's fixed selector. After x every incoming state is the same unique bank. Every later spelling operation is therefore identical. State-independent rare literal packets that preserve the bank do not change the proof: pass any initial literal prefix, then apply it at the first banked character; an all-literal word has one spelling.",
+      "result": "At most two logical whole-word spellings, independent of bank count; at most one if every word resets to a fixed bank.",
+      "prior_limit": "GDT1202's fixed-source at-most-two-form exclusion remains applicable under its own unchanged one-source-word/one-logical-group and source-population assumptions. This proof does not itself recount any source or target. Added physical continuation fragments must not be inserted into its denominator as ordinary whole words.",
+      "why_overlap_differs": "After a common letter, different incoming banks may remain different. They may encode subsequent common letters at different columns; as gives the explicit three-form counterexample."
+    },
+    "exact_observable": {
+      "selector_sequence": "Within a record, ignore payloads, TT literal operations and VV physical continuation. In the sequence of remaining actual absolute selector operations, equal bank selectors cannot be adjacent. A selector sets that bank and payload/literal/space/wrap operations retain it; selecting it again before another selector would be forbidden.",
+      "local_falsifier": "Under a separately fixed physical alphabet, control roles and record boundary contract, two occurrences of the same ordinary selector with only payload/literal/continuation/word-gap material between them contradict the canonical writer. No source-letter meaning is needed for that necessary implication.",
+      "next_only_difference": "A separately defined next-payload-only system returning to bank0 can repeatedly write V B for source tt. This persistent writer writes V B B from bank0. Thus the new canonical surface restriction differs from931's persistent-toggle/next-only equal-support example; no claim that every conceivable next-only grammar is separated.",
+      "limitations": "No native selector, payload alphabet, record boundary or target example is chosen. The local condition alone would not identify an overlapping bank system even if satisfied. Obligatory literal and continuation patterns must also be paid and cannot be ignored after a failure."
+    },
+    "proof_and_cost": {
+      "inverse": "At a known bank, ordinary payload decoding is one-to-one inside a row. A visible absolute selector identifies its new row; TT has a fixed two-digit length and cannot be a normal adjacent selector pair. Induction on parsed operations recovers every exact input character and preserves the agreed bank. Word gaps and record gaps recover the full declared message.",
+      "table_cost": "57letter-to-column entries,26fixed home assignments,56rare-character indices,3absolute selector meanings plus TT/VV framing conventions. Alphabetical/cyclic construction helps teach the table but does not erase these costs.",
+      "memory": "One of three active banks and a pending-operation flag during reading; two remembered digits during a rare packet. This is not a previous-source-letter state. A long sequence of letters shared by all banks can retain all three different histories.",
+      "sign_cost": "One payload for each ordinary lowercase character, one extra selector for each forced bank change, four signs per rare character, two signs per physical continued-word break. No shortening relative to ordinary alphabetic writing is promised.",
+      "false_generalizations": "No final-state equality is imposed at word boundaries. Absolute selectors are noninvertible maps on possible current banks. Therefore1287's fixed-bijective-unit common-END premise is absent, and1255's one-source-letter/one-output-unit premise is absent when selection/literal signs are emitted.",
+      "equality_scope": "Complete-message recovery does not imply a global context-free word bijection. Equal written groups can decode differently in different known banks; the whole message still has a unique reading. The three-form cap remains a real concentration/diversity obligation.",
+      "source_status": "No source book, corpus key, native q/o/y obligation, phonetic value, historical usage or statistical pass is supplied. Ordinary source-language comprehension carries meaning after exact character recovery."
+    },
+    "predecessors": [
+      {
+        "id": "IDEA000931",
+        "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_TWO_BANK_TOGGLE_RAW_20261005.json",
+        "review": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_TOGGLE_REVIEW_CONTRACT_20261005.json",
+        "retained": "Its disjoint13+13 rows, persistent toggle and per-word reset are unchanged and its14-output instance remains contradicted. This proposal changes source membership, mandatory absolute selection and cross-word retention, not merely table size.931's support-equivalence result is specific to its declared comparator."
+      },
+      {
+        "id": "GDT1180",
+        "primary": "experiments/yolo/gdt1180_contextual_source_alphabets/REPORT.md",
+        "code": "experiments/yolo/gdt1180_contextual_source_alphabets/src/codec.py",
+        "retained": "Six failed source-trained alphabets select rows by preceding-source vowel/liquid classes, optionally word position, with97source units. They do not implement a retained overlapping row with explicit canonical absolute selectors. No old table or failure is retuned."
+      },
+      {
+        "id": "IP077",
+        "primary": "docs/IDEA_BACKLOG.md",
+        "locator": "2049",
+        "retained": "Explicit escape syntax is an existing idea. The fixed-length rare packet is a paid engineering component, not the proposed scientific novelty."
+      },
+      {
+        "id": "IDEA000933",
+        "retained": "Overlapping shortcut strings mean competing segmentation of source substrings, not shared membership of a source letter in several retained alphabet rows."
+      },
+      {
+        "id": "GDT1202",
+        "primary": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+        "retained": "The disjoint-bank corollary falls inside the old two-spelling bound for its fixed sources. The explicit three-spelling possibility only removes that exact implication; it promises no full-source fit."
+      }
+    ],
+    "registration_limits": "Retain one unreviewed RAW, not a native-selected cipher. The producer reads no source corpus, runs no encoder/statistics, selects no source-to-native mapping and edits no root experiment or state. Root owns any later input freeze and smallest invariant screen."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exposed ZL3b exact-key logical compatibility and repeated-support counts only; no predictive effect, independent confirmation, physical identity or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/src/validate.py"
+  },
+  "created": "2026-10-07",
+  "dependencies": [
+    "GDT849",
+    "GDT854"
+  ],
+  "experiment_id": "GDT1254",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/artifacts/EVENTS.json",
+      "sha256": "2825aba825a66710bc8217259b3d61a051d40b2a52f3b0c9ebb4e9223a98fb81",
+      "role": "Already guarded179-selector ZL3b eligible events"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/METHOD.md",
+      "sha256": "67a749147ea08286d8056232d508dba2c6bde47c0d8b6dc02ad278051ae5f718",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/PREREGISTRATION.md",
+      "sha256": "67a749147ea08286d8056232d508dba2c6bde47c0d8b6dc02ad278051ae5f718",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/README.md",
+      "sha256": "0b8856cdf9f530ac88750a4f82dfa92f1cf6a59c9357bad25eddb7f9b06c14bd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md",
+      "sha256": "5c547cfb9558d96f871ef7c0fc395f32e47bb5ef74ffc2d6ab9add80aea4c338",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/artifacts/IDEA_REVIEW.json",
+      "sha256": "1e7f44822e2793e354fd9c5baef1169f6d286d28d1e31bb7ea2eb5dbacc3bc45",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/artifacts/README.md",
+      "sha256": "e53c2f5cb235840f5878d619468c3b4851a400ef2d3004a2a616de963b7e886c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/artifacts/RESULT.json",
+      "sha256": "811d8ed6d389bc1b5f60c65bb383305c0c730d2572cde2c6ed9f2af68e3cef99",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/artifacts/VALIDATION.json",
+      "sha256": "3189731f1989c865985899072c40efdac8dbe18742481349c34829e151f7d966",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/src/REGISTRATION_LOCK.json",
+      "sha256": "4387dadf10522cd9d7ce6ef4a19de95f430a8db510401d60beb46a184b3ec2fa",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/src/SPEC.json",
+      "sha256": "1957691058b93a3ce567982cae3d8c39061f7c4f3d07acd43d6206a0c1e9d976",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/src/run.py",
+      "sha256": "b8ce5a8ad5af34c195bca028e993d9fc3751734e966070bc50e6382ebcfc7351",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/src/validate.py",
+      "sha256": "bdbf67e7faebbe3f61227266fd428d4673df659f7675bb04f72b60df569dd5a4",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Do the fixed854events contradict deterministic right-only or both-neighbor e placement within unchanged source cells?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "e_placement_exact_neighbor_conflicts",
+  "status": "NO_CONFLICT_NEIGHBOR_LOOKUP_UNIDENTIFIED",
+  "title": "Exact neighbor determinism for e placement",
+  "updated": "2026-10-07",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/artifacts/VALIDATION.json"
+  }
+}

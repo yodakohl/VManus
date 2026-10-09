@@ -1,0 +1,115 @@
+{
+  "status": "VALID_CONDITIONAL_MODULE_NO_NATIVE_OBSERVABLE_SELECTED",
+  "reviewed_at": "2026-10-07T01:50:55.083773+00:00",
+  "proposal": "research_registry/proposals/production_origin_supply_20261003/CONTEXT_LICENSED_PHONETIC_COMPLEMENTS_RAW_20261007.json",
+  "proposal_sha256": "61f1ce2faf44891f9993b92917ba281f82b42a7dcfe553f5ffb1ba83bf028685",
+  "question": "What does the fixed stopping rule actually predict before any language, physical carrier or context learner is supplied?",
+  "premises": [
+    "A fixed non-erasing one-source-letter/one-skeleton-unit projection pi.",
+    "Fixed left-to-right order of ambiguous source positions.",
+    "An explicit independently licensed candidate set D, with intended spelling w in D for the ordinary branch.",
+    "Complete literal fallback if w is outside D; no physical rendering has been fixed."
+  ],
+  "deductions": [
+    {
+      "claim": "In the ordinary branch all supplement payloads for the same w are prefixes of one fixed source-letter sequence, even for non-nested candidate sets.",
+      "proof": "Let ambiguous positions be i1,...,im and S(w)=w[i1]...w[im]. Candidate sets change only the stopping index k. Every supplement is S(w)[:k], so any two payloads are prefix-comparable. No nesting assumption is needed for comparability."
+    },
+    {
+      "claim": "If w belongs to D2 subset D1, the stop index for D2 cannot exceed that for D1.",
+      "proof": "At each index k the surviving D2 set is a subset of surviving D1 and contains w. As soon as D1 becomes {w}, D2 must also be {w}. It may have become singleton earlier."
+    },
+    {
+      "claim": "The ordinary branch is not character deletion: its skeleton has length n and its raw letter-unit payload has length n+k.",
+      "proof": "Each of n source letters emits exactly one skeleton unit, then k literal supplement letters are added. This is an abstract unit count, not a bound on ink, physical glyphs or comparison with another encoding."
+    },
+    {
+      "claim": "At most m+1 ordinary supplement alternatives exist for one spelling, plus its literal fallback if that is available.",
+      "proof": "k is an integer from0 throughm. This is not the at-most-two-alias premise of1226 for general words."
+    }
+  ],
+  "hand_example": {
+    "alphabet": [
+      "a",
+      "b"
+    ],
+    "projection": {
+      "a": "X",
+      "b": "X"
+    },
+    "word": "aba",
+    "fixed_supplement_sequence": "aba",
+    "cases": [
+      {
+        "D": [
+          "aba",
+          "abb",
+          "baa"
+        ],
+        "survivors_after_each_letter": [
+          [
+            "aba",
+            "abb"
+          ],
+          [
+            "aba",
+            "abb"
+          ],
+          [
+            "aba"
+          ]
+        ],
+        "supplement": "aba"
+      },
+      {
+        "D": [
+          "aba",
+          "baa"
+        ],
+        "survivors_after_each_letter": [
+          [
+            "aba"
+          ]
+        ],
+        "supplement": "a"
+      },
+      {
+        "D": [
+          "aba",
+          "aaa"
+        ],
+        "survivors_after_each_letter": [
+          [
+            "aba",
+            "aaa"
+          ],
+          [
+            "aba"
+          ]
+        ],
+        "supplement": "ab"
+      }
+    ],
+    "purpose": "All ordinary supplements form one prefix chain, including first and third non-nested candidate sets. No real language or native value is assigned."
+  },
+  "scope_corrections": [
+    "The previous user-facing phrase shortened words was inaccurate for this non-erasing skeleton module.",
+    "Prefix-chain consequence applies to abstract supplement payloads in the ordinary branch. It does not unconditionally apply to complete physical surface strings: delimiters, unbound carrier and the full-literal fallback remain separate.",
+    "Different native forms cannot be declared variants of the same source spelling merely because they resemble one another. No such binding is made here.",
+    "The added-supplement count is not physical glyph length until a complete carrier is specified.",
+    "A publicly computable context rule can be jointly hypothesized and tested; independent confirmation of word meanings is not a prerequisite for all exploration. But no actual such rule is supplied by971."
+  ],
+  "predecessors_read": [
+    "IDEA000934 and HAND_WRITER_IDEA934_MODULE_RESULT_20261005.json",
+    "GDT1160 REPORT: supervised candidate gain retained",
+    "GDT1171 REPORT: fixed order5 context failure retained",
+    "GDT1166 REPORT: missing candidate coverage and pipeline failure retained",
+    "GDT1226 REPORT: two-alias fixed-profile concentration bound retained",
+    "HUMAN_WORD_CACHE_EXISTING_EVIDENCE_APPLICATION_20261006.json: no automatic recency-cache replacement"
+  ],
+  "decision": "Retain971 as an incomplete conditional writing module, not selected for implementation. Its context grammar, physical carrier and native same-spelling/branch binding remain unspecified. Do not substitute generic predictability-versus-length correlation or visually similar word families for those inputs. No historical use or manuscript fit is claimed.",
+  "meaning_assignments": 0,
+  "native_data_read": false,
+  "new_statistical_test": false,
+  "publication": "Local checkpoint; no staging, commit or push."
+}

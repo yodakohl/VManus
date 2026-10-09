@@ -1,0 +1,131 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete ordered source-word tuples for all declared partitions are retained for exact whole-recipe reversal; PARTITIONS.json is5.23MB in1176, no raw manuscript data or images.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Source-control word-frequency conditions only; no full glyph writer, native word meanings or independent holdout.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1176_natural_text_word_partition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1176_natural_text_word_partition/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT1174",
+    "GDT1175",
+    "GDT1159"
+  ],
+  "experiment_id": "GDT1176",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1159_corema_unknown_lexical_graph/src/SOURCE.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "1beae48d57dfc4fdfb3c28d0ee11150c28a790802a136ec03f6311ae1ccbe92b"
+    },
+    {
+      "path": ".gdt176/corema/b4.recipes.xml",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "59bf0cf97fc21623a7683cc8059a150644bff313488939222fd200969b7b0afd"
+    },
+    {
+      "path": ".gdt176/corema/w1.recipes.xml",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "a56639c7e8795a2afe76aa7cd950a8a68ade7231e1e68170034bc30002ab48e6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/METHOD.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "00d692b4ab62b355f37ff1b0759f46f9604fe29690ab770ad3594dc8a4e76687"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/PREREGISTRATION.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "b6ca1a5c1ef0815399c15d829c6e6078260037b1adcc0f3dffd024b0654a7ca4"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "6541a1eb01fa4aae1ea7a63411d638590a4abe3c7f939669108478c59491f5b4"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md",
+      "role": "Primary report",
+      "sha256": "79ad99b2ad395d5e8334f3dc359595b717c7059a0c93caac10b1512190fb60ec"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/EXCLUDED.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "fc682017910a18421c13698e5f3f6ce06a4e63f100d2db58cadf8dec97bb4e6e"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/PARTITIONS.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ec504e5f4cefa90aefafd49259dabc9ccf27ef0585acbea931f1ca426b560352"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/REGISTRATION_LOCK.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "c3b3b4c865fdcf21dc8c29079bc2d26c7bb2fbff2ef16efe381e26cdb0dc0d50"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/REGISTRY_REVIEW.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "d67e877b3a200f96cfbd37a87f186a8bec06b5bdd0dd58aa393f351cdadbf94d"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/RESULT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "aae7fb316bcda87fd8e6ca380ea0718f4518faadf419e20ba202043b93b09f92"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/SOURCE_TEXTS.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "1b2fcc7ca3b1fd57b20b2ba72f04cc8aed924c9f950e3a50f53d3b6e649fd199"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/VALIDATION.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "4b348b18fd15c30c2494153138e284583ef93c577e9799d6aa551cc3e95198d0"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/src/SPEC.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "88d70d3f99ff09c79cc5e0954596d204d328077b055df1ff323aa090b7bd4dd8"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/src/run.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "a32d96948f2bd7bf121505951d9c500ea7f20c4fa1a2f3b00b5ca8b4f410e74a"
+    },
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/src/validate.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "548680163937ddcfe29e5c061444654fdbbea58a0b1fdbc53de53fd2effa3dc3"
+    }
+  ],
+  "question": "Does the fixed reversible grouping meet both necessary inherited word-frequency conditions across every declared source collection?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "natural_text_word_partition",
+  "status": "NO_FIXED_PARTITION_PASSES_BOTH_COLLECTIONS",
+  "title": "natural text word partition",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1176_natural_text_word_partition/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

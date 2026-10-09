@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "fixtures": [
+    {
+      "source": "# sent_id = toy1\n# text = A del mar.\n1\tA\t_\tX\t_\t_\t0\troot\t_\t_\n2-3\tdel\t_\t_\t_\t_\t_\t_\t_\t_\n2\tde\t_\tX\t_\t_\t1\tdep\t_\t_\n3\tel\t_\tX\t_\t_\t1\tdep\t_\t_\n3.1\tghost\t_\tX\t_\t_\t_\t_\t1:dep\t_\n4\tmar\t_\tX\t_\t_\t1\tdep\t_\tSpaceAfter=No\n5\t.\t_\tPUNCT\t_\t_\t1\tpunct\t_\t_\n\n",
+      "expected": {
+        "sent_id": "toy1",
+        "source": "",
+        "text_comment_present": true,
+        "text_comment_matches_surface": true,
+        "primary": [
+          "A",
+          "del",
+          "mar."
+        ],
+        "secondary": [
+          {
+            "unit": "A",
+            "row_id": "1"
+          },
+          {
+            "unit": "de",
+            "row_id": "2"
+          },
+          {
+            "unit": "el",
+            "row_id": "3"
+          },
+          {
+            "unit": "mar",
+            "row_id": "4"
+          },
+          {
+            "unit": ".",
+            "row_id": "5"
+          }
+        ]
+      }
+    },
+    {
+      "source": "# sent_id = toy2\n1\tA\t_\tX\t_\t_\t0\troot\t_\t_\n2-3\tdel\t_\t_\t_\t_\t_\t_\t_\t_\n2\tde\t_\tX\t_\t_\t1\tdep\t_\t_\n3\tel\t_\tX\t_\t_\t1\tdep\t_\t_\n3.1\tghost\t_\tX\t_\t_\t_\t_\t1:dep\t_\n4\tmar\t_\tX\t_\t_\t1\tdep\t_\tSpaceAfter=No\n5\t.\t_\tPUNCT\t_\t_\t1\tpunct\t_\t_\n\n",
+      "expected": {
+        "sent_id": "toy2",
+        "source": "",
+        "text_comment_present": false,
+        "text_comment_matches_surface": true,
+        "primary": [
+          "A",
+          "del",
+          "mar."
+        ],
+        "secondary": [
+          {
+            "unit": "A",
+            "row_id": "1"
+          },
+          {
+            "unit": "de",
+            "row_id": "2"
+          },
+          {
+            "unit": "el",
+            "row_id": "3"
+          },
+          {
+            "unit": "mar",
+            "row_id": "4"
+          },
+          {
+            "unit": ".",
+            "row_id": "5"
+          }
+        ]
+      }
+    },
+    {
+      "source": "# sent_id = toy3\n# text = a  DEL mar !\n1\tA\t_\tX\t_\t_\t0\troot\t_\t_\n2-3\tdel\t_\t_\t_\t_\t_\t_\t_\t_\n2\tde\t_\tX\t_\t_\t1\tdep\t_\t_\n3\tel\t_\tX\t_\t_\t1\tdep\t_\t_\n3.1\tghost\t_\tX\t_\t_\t_\t_\t1:dep\t_\n4\tmar\t_\tX\t_\t_\t1\tdep\t_\tSpaceAfter=No\n5\t.\t_\tPUNCT\t_\t_\t1\tpunct\t_\t_\n\n",
+      "expected": {
+        "sent_id": "toy3",
+        "source": "",
+        "text_comment_present": true,
+        "text_comment_matches_surface": false,
+        "primary": [
+          "a",
+          "DEL",
+          "mar",
+          "!"
+        ],
+        "secondary": [
+          {
+            "unit": "A",
+            "row_id": "1"
+          },
+          {
+            "unit": "de",
+            "row_id": "2"
+          },
+          {
+            "unit": "el",
+            "row_id": "3"
+          },
+          {
+            "unit": "mar",
+            "row_id": "4"
+          },
+          {
+            "unit": ".",
+            "row_id": "5"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-06T12:23:25.086321+00:00",
+  "word_sets": 469,
+  "prefix_codebooks": 675,
+  "compatible_pairs": 13393,
+  "used_long_head_checks": 18574,
+  "named": [
+    {
+      "W": [
+        "a",
+        "ab",
+        "ac"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "nodes": [
+          {
+            "word": [
+              "a"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "a",
+              "b"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "a",
+              "c"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "b"
+            ],
+            "parents": [
+              0,
+              1
+            ]
+          },
+          {
+            "word": [
+              "c"
+            ],
+            "parents": [
+              0,
+              2
+            ]
+          }
+        ],
+        "rounds": 2,
+        "summary": {
+          "used_signs": [
+            "a",
+            "b",
+            "c"
+          ],
+          "H": [
+            "a",
+            "b",
+            "c"
+          ],
+          "F": [
+            "a",
+            "b",
+            "c"
+          ],
+          "T": [
+            [
+              "a",
+              "b"
+            ],
+            [
+              "a",
+              "c"
+            ]
+          ],
+          "second_signs": {
+            "c": [],
+            "b": [],
+            "a": [
+              "b",
+              "c"
+            ]
+          },
+          "heads": {
+            "a": {
+              "predecessors": [
+                "a"
+              ],
+              "forced_conflict": [
+                "a"
+              ],
+              "direct_bound": null,
+              "bound": null
+            },
+            "b": {
+              "predecessors": [
+                "a",
+                "b"
+              ],
+              "forced_conflict": [
+                "a",
+                "b"
+              ],
+              "direct_bound": null,
+              "bound": null
+            },
+            "c": {
+              "predecessors": [
+                "a",
+                "c"
+              ],
+              "forced_conflict": [
+                "a",
+                "c"
+              ],
+              "direct_bound": null,
+              "bound": null
+            }
+          },
+          "necessary_nontrivial_bound": null,
+          "prefix_basis": [
+            [
+              "a"
+            ],
+            [
+              "b"
+            ],
+            [
+              "c"
+            ]
+          ],
+          "prefix_basis_size": 3,
+          "status": "ALL_USED_CODES_SINGLETON",
+          "caps": {
+            "22": "EXCLUDED_NONTRIVIAL",
+            "26": "EXCLUDED_NONTRIVIAL",
+            "28": "EXCLUDED_NONTRIVIAL"
+          }
+        }
+      }
+    },
+    {
+      "W": [
+        "a",
+        "ba",
+        "bc"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "nodes": [
+          {
+            "word": [
+              "a"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "b",
+              "a"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "b",
+              "c"
+            ],
+            "parents": null
+          }
+        ],
+        "rounds": 1,
+        "summary": {
+          "used_signs": [
+            "a",
+            "b",
+            "c"
+          ],
+          "H": [
+            "a",
+            "b"
+          ],
+          "F": [
+            "a"
+          ],
+          "T": [
+            [
+              "b",
+              "a"
+            ],
+            [
+              "b",
+              "c"
+            ]
+          ],
+          "second_signs": {
+            "c": [],
+            "b": [
+              "a",
+              "c"
+            ],
+            "a": []
+          },
+          "heads": {
+            "a": {
+              "predecessors": [
+                "a",
+                "b"
+              ],
+              "forced_conflict": [
+                "a"
+              ],
+              "direct_bound": null,
+              "bound": null
+            },
+            "b": {
+              "predecessors": [
+                "b"
+              ],
+              "forced_conflict": [],
+              "direct_bound": 3,
+              "bound": 3
+            },
+            "c": {
+              "predecessors": [
+                "b",
+                "c"
+              ],
+              "forced_conflict": [],
+              "direct_bound": 3,
+              "bound": 4
+            }
+          },
+          "necessary_nontrivial_bound": 3,
+          "prefix_basis": [
+            [
+              "a"
+            ],
+            [
+              "b",
+              "a"
+            ],
+            [
+              "b",
+              "c"
+            ]
+          ],
+          "prefix_basis_size": 3,
+          "status": "NECESSARY_BOUND_ONLY",
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          }
+        }
+      }
+    },
+    {
+      "W": [
+        "aa",
+        "ab",
+        "ba",
+        "bb"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "nodes": [
+          {
+            "word": [
+              "a",
+              "a"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "a",
+              "b"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "b",
+              "a"
+            ],
+            "parents": null
+          },
+          {
+            "word": [
+              "b",
+              "b"
+            ],
+            "parents": null
+          }
+        ],
+        "rounds": 1,
+        "summary": {
+          "used_signs": [
+            "a",
+            "b"
+          ],
+          "H": [
+            "a",
+            "b"
+          ],
+          "F": [],
+          "T": [
+            [
+              "a",
+              "a"
+            ],
+            [
+              "a",
+              "b"
+            ],
+            [
+              "b",
+              "a"
+            ],
+            [
+              "b",
+              "b"
+            ]
+          ],
+          "second_signs": {
+            "b": [
+              "a",
+              "b"
+            ],
+            "a": [
+              "a",
+              "b"
+            ]
+          },
+          "heads": {
+            "a": {
+              "predecessors": [
+                "a",
+                "b"
+              ],
+              "forced_conflict": [],
+              "direct_bound": 3,
+              "bound": 4
+            },
+            "b": {
+              "predecessors": [
+                "a",
+                "b"
+              ],
+              "forced_conflict": [],
+              "direct_bound": 3,
+              "bound": 4
+            }
+          },
+          "necessary_nontrivial_bound": 4,
+          "prefix_basis": [
+            [
+              "a",
+              "a"
+            ],
+            [
+              "a",
+              "b"
+            ],
+            [
+              "b",
+              "a"
+            ],
+            [
+              "b",
+              "b"
+            ]
+          ],
+          "prefix_basis_size": 4,
+          "status": "NECESSARY_BOUND_ONLY",
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          }
+        }
+      }
+    },
+    {
+      "W": [
+        "aba"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "nodes": [
+          {
+            "word": [
+              "a",
+              "b",
+              "a"
+            ],
+            "parents": null
+          }
+        ],
+        "rounds": 1,
+        "summary": {
+          "used_signs": [
+            "a",
+            "b"
+          ],
+          "H": [
+            "a"
+          ],
+          "F": [],
+          "T": [],
+          "second_signs": {
+            "b": [],
+            "a": [
+              "b"
+            ]
+          },
+          "heads": {
+            "a": {
+              "predecessors": [
+                "a"
+              ],
+              "forced_conflict": [],
+              "direct_bound": 1,
+              "bound": 1
+            },
+            "b": {
+              "predecessors": [
+                "b"
+              ],
+              "forced_conflict": [],
+              "direct_bound": 2,
+              "bound": 2
+            }
+          },
+          "necessary_nontrivial_bound": 1,
+          "prefix_basis": [
+            [
+              "a",
+              "b",
+              "a"
+            ]
+          ],
+          "prefix_basis_size": 1,
+          "status": "NECESSARY_BOUND_ONLY",
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          }
+        }
+      }
+    }
+  ]
+}

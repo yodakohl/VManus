@@ -1,0 +1,102 @@
+{
+  "status": "FROZEN_SOURCE_EXPECTATION_BEFORE_CHALLENGE_PUBLICATION",
+  "created_utc": "2026-10-06T16:43:13.219572+00:00",
+  "contract": "IDEA000965 joint RAW + AUTHOR_SCOPE + SCOPE_FINALIZATION, unchanged",
+  "source_message": [
+    {
+      "op": "FORBID",
+      "vessel": "Bela",
+      "materials": [
+        {
+          "base": "oil stock",
+          "history": []
+        }
+      ],
+      "scope": "outer, through END-MESSAGE"
+    },
+    {
+      "op": "IF_EMPTY",
+      "vessel": "Bela",
+      "evaluate": "once on entry",
+      "body": [
+        {
+          "op": "FORBID",
+          "vessel": "Bela",
+          "materials": [
+            {
+              "base": "leaf stock",
+              "history": [
+                "DRIED"
+              ]
+            }
+          ],
+          "scope": "local, through this END-IF"
+        },
+        {
+          "op": "ADD",
+          "vessel": "Bela",
+          "portions": [
+            {
+              "base": "water stock",
+              "history": []
+            },
+            {
+              "base": "water stock",
+              "history": []
+            },
+            {
+              "base": "leaf stock",
+              "history": [
+                "GROUND"
+              ]
+            }
+          ]
+        },
+        {
+          "op": "ADD",
+          "vessel": "Ivo",
+          "portions": [
+            {
+              "base": "oil stock",
+              "history": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "op": "ADD",
+      "vessel": "Bela",
+      "portions": [
+        {
+          "base": "leaf stock",
+          "history": [
+            "DRIED",
+            "GROUND"
+          ]
+        }
+      ]
+    },
+    {
+      "op": "MIX",
+      "vessel": "Bela"
+    },
+    {
+      "op": "END_MESSAGE"
+    }
+  ],
+  "plain_readback": "Forbid adding oil stock to Bela for the remainder of the message. If Bela is empty when the IF is entered: locally forbid dried leaf stock and its further preparation descendants in Bela; add two successive level spoons of water and then one level spoon of ground leaf stock to Bela; add one level spoon of oil to Ivo. End the conditional scope. Then, regardless of that guard, add one level spoon of leaf stock that was dried and then ground to Bela, and mix Bela. End the message.",
+  "critical_distinctions": [
+    "Bela and Ivo are distinct explicitly named vessels. The Bela oil prohibition does not prohibit the oil addition to Ivo.",
+    "The two water words request exactly two shared level spoons, in order, not emphasis or one joint stock name.",
+    "GROUND alone is not a descendant of DRIED under the declared ordered-provenance prefix convention. The local ban therefore does not block that inside-IF addition.",
+    "DRIED then GROUND is a descendant of DRIED, but its addition occurs after END-IF; the local dried-leaf ban has expired. The outer Bela oil ban persists until END-MESSAGE.",
+    "The guard concerns Bela and is evaluated once. Adding water to Bela does not cancel the later oil addition to Ivo in the same true block.",
+    "If the guard is false, the body is still parsed but neither its local prohibition nor its two ADD instructions executes. The outside final ADD and MIX still apply.",
+    "No actual initial empty/nonempty state is supplied; the text is a conditional instruction, not an assertion that either execution happened.",
+    "The leaf words select already prepared stocks; the ADD instructions do not themselves perform grinding or drying.",
+    "The physical row break inside the first ADD instruction creates no END or scope change. No overwide-word continuation marker is used."
+  ],
+  "consistency": "No executed ADD conflicts with the active prohibitions under either possible entry-guard value. No new vocabulary or preparation operation is used.",
+  "exposure": "Author-created source and hand-written working-unit arrays only; no native material, source corpus, encoder or count. Root is to receive this path only after its own readback is stored."
+}

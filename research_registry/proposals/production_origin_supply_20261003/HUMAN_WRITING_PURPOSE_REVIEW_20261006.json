@@ -1,0 +1,73 @@
+{
+  "title": "Bounded source-side purpose review: error protection versus transmitted-key secrecy",
+  "status": "EXISTING_PROPOSALS_REVIEW_NO_NEW_CANDIDATE_OR_REGISTRY_CARD",
+  "scope": "An independent bounded producer review during the parent's linguistic-bundle work. No native/source counts, images, corpus acquisition, encoder, new test or root-file change. The hand example below is invented and has no Voynich values.",
+  "supply": "The compact registry lists51 imported-unreviewed method idea records plus other raw categories. These are not deduplicated hypothesis counts or proof of readiness. Bounded searches, rather than a full queue scan, found existing entries for the genuinely different purposes considered. No card is added merely to replenish a number.",
+  "error_protection_candidates": [
+    {
+      "id": "IP014",
+      "purpose": "Detect copying errors by making the final written symbol a deterministic check of the preceding written content.",
+      "primary": "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md",
+      "later_primary_review": "docs/IDEA_BACKLOG.md:386",
+      "retained_countercase": "The existing exact forms okalal and okalam have the same prefix okala but different terminal symbols. They cannot both obey one exact function terminal=F(prefix). Changing modular weights or checksum size does not remove this contradiction of determinism.",
+      "boundary": "This is an old conditional visible-unit result, not a new finding. It does not exclude every contextual check, multiple valid check forms, latent allography or error-detecting script. No such repair is proposed here."
+    },
+    {
+      "id": "IDEA000114",
+      "purpose": "Recover a whole message despite any single character insertion, deletion or substitution.",
+      "primary": "experiments/yolo/gdt889_whole_form_edit_capacity/REPORT.md",
+      "retained_countercase": "Two different valid forms whose one-edit error balls intersect cannot have different messages under guaranteed context-free recovery. The existing report's concrete cheol/chol example shares the possible received ceol. Its fixed whole-form set yields at most20 message classes, with730forms in one class.",
+      "boundary": "The injective version is excluded on that fixed scope; the original noninjective version is bounded, not generally disproved without a required message count. Contextual correction and restricted error models are outside that test. The later1186–1193 edit-neighbour construction work does not undo this coding-theoretic assumption. No corrective-code variant is generated in this review."
+    }
+  ],
+  "existing_human_mechanism": {
+    "id": "IDEA000130",
+    "primary_proposal": "research_registry/proposals/alberti_decoded_control_state_channel.json",
+    "exact_later_contract": "experiments/yolo/gdt896_alberti_complete_entry_rotor/METHOD.md",
+    "registered_result": "experiments/yolo/gdt896_alberti_complete_entry_rotor/REPORT.md",
+    "purpose": "Conceal ordinary letter content from a reader without the agreed alphabet/alignment key. A transmitted control changes the alphabet position; it is not a meaningless statistical filler, a semantic recipe field or a free hidden state transition.",
+    "historical_scope": "The existing proposal records an inspected Latin primary edition of Alberti's fixed-index method, Meister1906 pp136–139, especiallyp138. Its usual circa1466–1467 date is later than the common early-fifteenth-century Voynich-production hypothesis; no connection is established. This review reads the existing proposal/report only and acquires no new source or image.",
+    "paid_apparatus": "Two matching24-position disks, the fixed outer sequence of20letters and four digits, an agreed inner24-sign order, and one current alignment. A reader can use the actual disk positions rather than mental modular arithmetic. The first transmitted sign pays for initial alignment; each transmitted switch costs another sign. The optional sentence codebook and uppercase-null modes are not part of this contract.",
+    "outer_sequence": "abcdefgilmnopqrstuxz1234",
+    "writer": [
+      "Agree on the complete two-disk key and a fixed outer index, here outer b. At the start of a declared whole message, put the chosen inner sign under that index and transmit that sign as the initialization indicator; it carries no letter.",
+      "For an ordinary supported plaintext letter, find it on the outer ring and transmit the inner sign currently below it. Retain the alignment.",
+      "To change alignment, select one of the four outer numeral positions and transmit its currently aligned inner sign. Then rotate that transmitted inner sign under the fixed outer b. The time of the change is a sender choice, but the written signal makes the receiver's corresponding change determinate.",
+      "Do not silently discard unsupported letters, original word spaces, punctuation or message boundaries. The basic source channel is a20-letter stream; a complete open-text convention for those other distinctions is additional paid work, not supplied by this review."
+    ],
+    "reader": [
+      "Place the first received inner sign under outer b without producing plaintext.",
+      "For each subsequent inner sign, read the outer position at the current alignment. If it is a letter, output that letter and retain alignment.",
+      "If the decoded outer value is a digit, output no plaintext letter and rotate that very inner sign under outer b. Recognize the control under the old alignment, then update; do not classify the sign permanently as a digit.",
+      "Keep the alignment across all ordinary signs. No line or word reset is implied by the historical letter-stream procedure."
+    ],
+    "invented_hand_trace": {
+      "purpose": "A short arithmetic/table illustration of the already documented rule, not an encoder run, security demonstration or new historical example.",
+      "teaching_inner_labels": "Use abstract inner-sign labels A through X at positions0 through23. These uppercase labels are explanatory names, not Alberti's optional capital nulls, native drawings or a claimed historical ring inscription.",
+      "initialization": "Set inner B(position1) under outer b(position1), giving zero offset. Transmit B as the initial indicator.",
+      "desired_plaintext": "aqua",
+      "steps": [
+        {"transmitted": "B", "operation": "initialization only", "offset_after": 0, "payload": ""},
+        {"transmitted": "A", "inner_position": 0, "outer_value": "a", "offset_after": 0, "payload": "a"},
+        {"transmitted": "N", "inner_position": 13, "outer_value": "q", "offset_after": 0, "payload": "q"},
+        {"transmitted": "U", "inner_position": 20, "outer_value": "1", "operation": "control; put innerU under outerb", "offset_after": 5, "payload": ""},
+        {"transmitted": "M", "inner_position": 12, "outer_position": 17, "outer_value": "u", "offset_after": 5, "payload": "u"},
+        {"transmitted": "T", "inner_position": 19, "outer_position": 0, "outer_value": "a", "offset_after": 5, "payload": "a"}
+      ],
+      "written_sequence": "B A N U M T",
+      "reading": "The stream recovers the ordinary Latin spelling aqua under this artificial public teaching ring. That lexical example is not a Voynich word assignment. The spaces above separate teaching sign labels only; they are not source word boundaries carried by the cipher.",
+      "concrete_wrong_rule_countercase": "Immediately after the transmitted U control, another U would decode to outer b, because U has just been aligned under b. Treating U permanently as a silent switch would therefore lose a letter. Omitting that first U from B A N U M T instead leaves the old alignment and changes the final M T from u a to p z. The state and its written switch cannot be omitted as free machinery."
+    },
+    "open_costs_and_preconditions": [
+      "The complete historical ring has24 inner sign positions. The project currently offers22 working drawings, not24 proven native atoms. A22-sign escape, compound-sign convention or restricted alphabet would be an additional invented carrier, not the unchanged attested channel. None is designed here.",
+      "The ordinary20-letter stream does not by itself preserve the full source alphabet, punctuation or word boundaries. Unknown words wholly within that alphabet are spellable; an unsupported character is not. GDT896's j-to-i/v-to-u projection was explicit and source-specific, not a universal lossless spelling rule.",
+      "The sender's switch positions and initial alignment have to be fixed or supplied by a prospective forward-writing protocol. Choosing them after target statistics would be model fitting, not automatic historical evidence. Reading a fixed received stream is deterministic; the source does not mandate a unique ciphertext for every plaintext.",
+      "A wrong sign or missed switch may corrupt subsequent reading until an explicitly re-established alignment. The hand device is finite and teachable, but no speed, error tolerance or suitability for long work is proved here.",
+      "Under every admitted ring a valid sign stream has a deterministic reading. Mere syntactic decodability therefore does not identify the key or content. A new forward purpose illustration is not a new native inverse discriminator."
+    ],
+    "retained_decision": "GDT896 already exhausted and rejected the fixed complete Simon-entry/paragraph-message/ring conjunction across its four reading panels. The general historical channel was not rejected, but no independently motivated new complete plaintext/message/22-sign contract is supplied here. Do not repeat896, choose another inner order to repair its failure, or count this hand trace as a new usable Voynich writer.",
+    "later_followups": "Lookup896 points to912's incomplete marginal table,1217's failed fixed difference ring,1219's failed context-CV screen and1220's failed material/predicate source organization. Those are distinct registered contracts and remain unchanged. The present review does not promote their later diagnostic or construction positives."
+  },
+  "producer_conclusion": "No new card. Error protection gives real writing purposes but the inspected narrow models have existing countercases.130 supplies an actual simple hand device and an explicit paid state transition, yet it is neither a new proposal nor a complete22-sign open-text candidate in its retained form. The useful result is the exact distinction between a taught operational cipher and a native/source binding, with costs exposed rather than filled by another rotor variant. No new statistical or decoding experiment is nominated.",
+  "retrieval": "Route read first; compact ideas stats, bounded purpose/shorthand searches, IP014/114/130 cards,130 duplicates and route-check,800/889/896 followup navigation. Read the130 raw primary and896 METHOD/REPORT,889 REPORT, and the relevant800/checksum primary lines. Registry counts were not treated as independent or reviewed hypotheses."
+}

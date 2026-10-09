@@ -1,0 +1,53 @@
+{
+  "record_id": "GDT1269",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; independent source-free phase/intersection proof review; separate pending-state source validator",
+  "assessment_basis": "mandatory_pair_types_in_both_fragment_phases_for_all_fixed_singleton_markers",
+  "reason": "Even ignoring visible group/line boundaries and relaxing snippet edges, necessary pair-entry minima are70IT and72ZL, above32in all23configurations. Bounds not exact feasible dictionary minima.",
+  "blockers": [
+    {
+      "code": "fixed_pair_entry_capacity",
+      "detail": "Working22unit/continuoussnippet/globaltable contract only. Larger dictionaries/multiplecontrols/variablewidth/context not selected or universally refuted.",
+      "evidence": [
+        "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md",
+        "experiments/yolo/gdt1269_space_free_pair_table_capacity/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Move visible word boundaries",
+      "Rename glyph labels",
+      "Choose a different single control",
+      "Change snippet start phase",
+      "Treat alternative transcriptions as independent evidence",
+      "Raise32to70asautomaticrepair"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT001",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1235",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1259",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

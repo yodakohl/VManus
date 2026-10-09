@@ -1,0 +1,151 @@
+{
+  "title": "UNREVIEWED physical teaching realization of IDEA953: open property roots, paid derivation and literal names",
+  "status": "COMPLETE_FOR_DECLARED_NARROW_INPUT_DOMAIN_UNREVIEWED_NOT_SELECTED",
+  "created_utc": "2026-10-06",
+  "parent_idea": "IDEA000953",
+  "new_idea_card": false,
+  "reason_no_new_card": "This pays a previously missing physical realization of the existing state/change/causation module. It does not introduce a new semantic hypothesis. Keep the original953 bytes and review unchanged; the root may review this separate candidate contract.",
+  "exposure": "Informed construction after the known1214/1216,954,1224/1227 and shared-junction stops. Existing short forms and triples were explicit design obligations. There is no blinding claim, native measurement, parameter fit or independent comprehension result.",
+  "purpose": "Learn a property root once and compose its state, actual onset, successful caused onset and two different negation scopes. Ordinary lexical terms remain separate words. The writer records an intended assertion, not an encrypted pre-existing source sentence.",
+  "input_domain": {
+    "covered": "A finite nonempty sequence of assertions about explicitly written referential terms: unary states, unary actual changes and binary successful caused changes, present or past, with optional whole-assertion negation and optional property complement inside change/causation. The writer and reader share the learned meanings, valencies and entity domains of each ordinary lexical entry.",
+    "not_covered": "Commands, conditions, disjunction, general quantifiers, exact dates/durations/amounts, passive voice, unknown agents, counterfactuals, event iteration and unrestricted historical prose. These are not silently translated into the narrow domain. No complete historical source is claimed to be covered.",
+    "names": "Nonempty strings of the95 printable ASCII characters, exactly preserved, including capitalization, spaces and punctuation. A character outside this declared finite domain is rejected, not dropped or normalized. This is an explicit limitation of the teaching writer, not a claim that all historical names are ASCII.",
+    "reference": "An ordinary term denotes its shared learned referent. A new literal name introduces only the exact written name of an externally identified referent; its spelling does not supply a description or teach an unknown concept. Repeated identical names keep that declared reference within the message. Different bearers with the same name require explicit different qualified name strings. No unnamed batch or hidden participant is introduced."
+  },
+  "physical_alphabet": {
+    "units": ["a", "o", "e", "i", "n", "d", "s", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh", "q", "r", "y"],
+    "unit_convention": "Each listed item is one teaching working glyph and occupies one ruled body cell. Multiletter roman labels such as ch and cph name one cell, not several Latin letters. This is not a proof of the native alphabet. JSON arrays below expose the exact units; displayed compact strings concatenate their labels for convenience.",
+    "layout_cost": "A taught24-cell body row, an empty separating column25 and a right-margin control cell26 are part of the physical contract. Ordinary word gaps occupy one blank body cell; sentence gaps occupy three blank body cells. Thus layout contributes paid readable information beyond the22 glyph shapes. Neither this ruling nor the wide sentence gaps are claimed to exist in the manuscript.",
+    "margin_controls": {"a": "continue the same overwide group on the next row", "o": "end the sentence here; the next row starts a new sentence, or the message ends", "blank": "row ends at an ordinary external group boundary, with no sentence closure"}
+  },
+  "open_lexicon": {
+    "root_form": "Any nonempty finite working-glyph string that does not contain the consecutive two-unit sequence r,y. No primitive-root restriction, fixed length, bounded interior alphabet, mandatory first sign or mandatory final sign is imposed.",
+    "learning": "Each property entry costs its root spelling, unary meaning and admissible entity domain. Each ordinary term entry costs its spelling and referent. An independently invented root-to-meaning pairing remains a learned lexical fact; pronounceability is not claimed to remove this cost. A future larger vocabulary would need an actual shared lexicon or explicit definitions, not free per-form meanings inferred by a decoder.",
+    "homography": "Term and property entries may have the same root spelling, but then both entries must actually be learned. The explicitly delimited sentence identifies the final predicate and its preceding terms. No native form is supplied with either entry here. This is a declared lexical possibility, not a promise that all desired native triples can be assigned meanings consistently.",
+    "unknown_properties": "A new property must first receive a shared learned definition and legal root spelling. Merely quoting its name is not a way to infer its meaning or arity. Unlearned roots fail reading rather than acquiring a guessed translation.",
+    "teaching_entries_only": [
+      {"units": ["p", "f", "t"], "class": "term", "meaning": "the explicitly named person Ada"},
+      {"units": ["t", "f", "p"], "class": "term", "meaning": "the explicitly named person Bero"},
+      {"units": ["f", "k", "t"], "class": "property", "meaning": "tired", "domain": "the named people in the lesson"},
+      {"units": ["k", "p", "f"], "class": "property", "meaning": "warm", "domain": "entities for which the ordinary temperature property is meaningful"},
+      {"units": ["l", "f", "t"], "class": "property", "meaning": "empty", "domain": "vessels with a contextually declared capacity to contain something"}
+    ],
+    "meaning_warning": "These are fabricated lesson values only, never proposed meanings of manuscript strings or claims that their spellings were observed in it. No root frequency or image resemblance was used."
+  },
+  "word_grammar": {
+    "ordinary_term": "One learned root word without r,y. A literal-name span, defined below, also counts as exactly one term.",
+    "predicate": "Optional past prefix [r,y,p], then one property root, then at most one suffix beginning [r,y]. The suffix after this delimiter contains the ordered flags: optional a (property complement), optional e OR o (change OR cause), optional n (outer negation). It must contain at least one flag. Flag a is legal only when followed by e or o. Each flag occurs at most once; e and o are mutually exclusive.",
+    "complete_suffix_tails": [["e"], ["o"], ["n"], ["e", "n"], ["o", "n"], ["a", "e"], ["a", "o"], ["a", "e", "n"], ["a", "o", "n"]],
+    "parser": "After sentence and quote reconstruction, take the final syntactic word as predicate. If it begins r,y,p, remove exactly that prefix. Because a root contains no r,y, the next r,y, if any, uniquely starts the complete legal suffix tail. The remaining root must be nonempty and learned as a property. An unrecognized r,y control or tail is an error, not an ordinary root. There is no optional spelling or alternative marker order.",
+    "sentence": "One written term followed by the predicate, except cause flag o requires exactly two written terms in the order causer, affected participant, then predicate. Finish with a three-cell sentence gap or the sentence-end margin control. No other term count is legal.",
+    "scope": "All operations apply only to that final predicate and its explicitly written terms inside the visible sentence. Quotes and continuation are resolved before finding that predicate. No implicit sentence or paragraph boundary comes from source metadata or a physical line break.",
+    "meaning": {
+      "bare_root": "Present Q(x).",
+      "a_inside_e_or_o": "Use P(x)=NOT Q(x); this is property complement, not a lexical antonym. Without a, P=Q.",
+      "e": "Assert an actual transition of x from not-P to P; no agent or cause is asserted.",
+      "o": "Assert successful causation by the first written participant of an actual transition of the second from not-P to P. This is not intending, permitting, attempting, maintaining or ordering that state.",
+      "past_prefix": "Put the asserted state or transition in past time; no exact date is invented.",
+      "n": "Negate the entire positive assertion with its written participants and tense. Denied causation does not assert the complementary outcome or another cause."
+    },
+    "arity_and_identity": "The two cause participants may be identical if the property domain permits self-causation. Identical adjacent ordinary terms are written twice without a universal repeat header. No event output is fed recursively into the property-root slot."
+  },
+  "literal_name_channel": {
+    "span": "Write the complete group [r,y,r], exactly one nonempty literal payload group, then the complete group [r,y,l]. All three groups have ordinary one-cell gaps. Reader state consumes one payload regardless of whether its text happens to equal an opener or closer; only the following group is checked as closer. Nested quotations are not part of this domain.",
+    "digit_units_in_order": ["a", "o", "e", "i", "n", "d", "s", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh", "r", "y"],
+    "ordinary_source_letters_in_order": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u"],
+    "ordinary_mapping": "The21 ordinary lowercase letters a through u map in the listed order to the21 digit units. Each consumes one unit; no q appears as a single literal.",
+    "rare_source_characters_in_order": ["v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", " ", "!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"],
+    "rare_mapping": "For rare-character zero-based index j, write q followed by digit[floor(j/21)] and digit[j mod21]. The reader seeing q consumes exactly the following two digit units and recovers j=21*first_index+second_index. Reject j>=74 or truncated q. This can be taught as a fixed four-row lookup table; no running numerical or contextual state is required.",
+    "word_spaces": "A literal source space is rare entry41 and stays inside the payload. Visible body gaps therefore separate the three carrier groups, not the words inside a multiword name. All95 printable source characters have one fixed spelling here; no optional compression is allowed.",
+    "payload_example": {
+      "source_name": "Ilara-Ven-Adara",
+      "per_character_units": [
+        ["I", ["q", "a", "ch"]], ["l", ["p"]], ["a", ["a"]], ["r", ["cph"]], ["a", ["a"]],
+        ["-", ["q", "e", "f"]], ["V", ["q", "o", "d"]], ["e", ["n"]], ["n", ["ch"]],
+        ["-", ["q", "e", "f"]], ["A", ["q", "a", "d"]], ["d", ["i"]], ["a", ["a"]], ["r", ["cph"]], ["a", ["a"]]
+      ],
+      "units": ["q", "a", "ch", "p", "a", "cph", "a", "q", "e", "f", "q", "o", "d", "n", "ch", "q", "e", "f", "q", "a", "d", "i", "a", "cph", "a"],
+      "manual_count": "25 working units; the first24 fill one body row and the final a continues on the next. This is a hand-worked teaching count, not a source/native statistic."
+    }
+  },
+  "line_and_message_rules": {
+    "writing": [
+      "Prepare the semantic words and quote spans of the current sentence. A sentence must have its full final predicate and written terms before closure.",
+      "Starting at body cell1, place each complete group of at most24 units with one blank cell after the preceding group. If it will not fit, start it at cell1 of the next row; leave the previous margin blank because this is only an external group boundary.",
+      "Between sentences use exactly three blank body cells instead of one if the next complete group of at most24 units fits. Otherwise put o in the previous row's margin and start the next sentence at cell1 of the next row. Do not add both a wide gap and an o for the same boundary.",
+      "A group longer than24 units always starts at cell1 on a fresh row. Write successive24-unit chunks, placing margin a after every nonfinal chunk. The last chunk may be shorter; resume subsequent ordinary groups after the usual one-cell gap. A split may occur between any working units, even inside ry or a literal q escape, because the reader joins the chunks before parsing.",
+      "At message end put o in the current row's margin after the final complete predicate. Every message therefore has an explicit final sentence closure; no EOF or blank row silently completes an unfinished sentence. Blank rows may only follow an already marked sentence closure and carry no new meaning."
+    ],
+    "reading": [
+      "Read the taught row cells and margin separately. Join an a-marked row to the next with no word gap; an ordinary unmarked row end supplies an external one-cell group boundary; an o margin supplies sentence closure.",
+      "Within body rows distinguish a one-cell group gap from a three-cell sentence gap. Other internal blank-run lengths are invalid. Trailing unused body cells are padding outside the last written group, not a sentence signal.",
+      "Reassemble overwide groups before applying quote or affix rules. An ordinary group ending in the body sign a or o is not a margin control; the fixed gutter position pays that distinction.",
+      "Within each visible sentence recognize quote spans, count the resulting one/two terms, parse the final predicate, retrieve the learned entries and apply the exact953 meanings. Reject malformed controls, absent arguments, unknown ordinary roots and unclosed names/sentences."
+    ],
+    "long_form_limit": "There is no bound on logical root/name length, but every extra unit and continuation mark is written. A physical group at a row edge may be a fragment only when the margin explicitly marks continuation. Interior groups cannot be explained away as unmarked fragments.",
+    "memory": "Keep the current sentence's one or two referential terms, quote mode, and at most the unfinished word across a marked line. No alias counter, cache, previous-letter permutation, hidden paragraph reset or free sentence bit is used."
+  },
+  "whole_hand_message_with_answer_exposed": {
+    "not_a_blind_test": true,
+    "source_assertions": [
+      "Ada became tired in past time.",
+      "Bero did not cause Ada to become tired in past time. This does not deny the first assertion or assert that Ada was not tired.",
+      "Bero caused the exactly named Ilara-Ven-Adara to pass from tired to not tired in past time. No synonym such as rested or healthy is supplied."
+    ],
+    "logical_groups": [
+      {"sentence": 1, "groups": [["p", "f", "t"], ["r", "y", "p", "f", "k", "t", "r", "y", "e"]]},
+      {"sentence": 2, "groups": [["t", "f", "p"], ["p", "f", "t"], ["r", "y", "p", "f", "k", "t", "r", "y", "o", "n"]]},
+      {"sentence": 3, "groups": [["t", "f", "p"], ["r", "y", "r"], ["q", "a", "ch", "p", "a", "cph", "a", "q", "e", "f", "q", "o", "d", "n", "ch", "q", "e", "f", "q", "a", "d", "i", "a", "cph", "a"], ["r", "y", "l"], ["r", "y", "p", "f", "k", "t", "r", "y", "a", "o"]]}
+    ],
+    "physical_rows": [
+      {"row": 1, "body_compact": "pft rypfktrye   tfp pft", "occupied_cells_including_gaps": 23, "margin": "blank", "explanation": "Three-cell gap ends sentence1. Sentence2 begins on the same row and continues at an ordinary group boundary onto row2."},
+      {"row": 2, "body_compact": "rypfktryon   tfp ryr", "occupied_cells_including_gaps": 20, "margin": "blank", "explanation": "Three-cell gap ends sentence2. Sentence3 writes Bero and opens its literal name; the overwide payload starts a fresh row."},
+      {"row": 3, "body_compact": "qachpacphaqefqodnchqefqadiacph", "occupied_cells_including_gaps": 24, "margin": "a", "explanation": "First24 units of the name payload; a is in the separate gutter and joins the next row's first group without a gap."},
+      {"row": 4, "body_compact": "a ryl rypfktryao", "occupied_cells_including_gaps": 16, "margin": "o", "explanation": "The initial a completes the payload, ryl closes the quote, and the final predicate asserts past causation of not-tired. The margin o explicitly closes sentence3 and the message."}
+    ],
+    "manual_readback": "Join row3 to row4 only through its margin a; recover Ilara-Ven-Adara before decoding the sentence. Parse ryp+fkt+rye as past becoming tired, ryp+fkt+ryon as denied past causation of becoming tired, and ryp+fkt+ryao as past causation of becoming not tired. The written participants and two different scopes agree with the three exposed source assertions. This is the author's hand check, not another reader's trial."
+  },
+  "scope_contrasts": [
+    {"groups": "pft kpf", "closure_required": true, "meaning": "Ada is warm now; no onset is asserted."},
+    {"groups": "pft kpfrye", "closure_required": true, "meaning": "Ada actually becomes warm now; no causer is asserted."},
+    {"groups": "tfp pft kpfryo", "closure_required": true, "meaning": "Bero causes Ada actually to become warm now."},
+    {"groups": "tfp pft kpfryon", "closure_required": true, "meaning": "Deny the whole current caused-warming assertion; Ada's actual temperature is not thereby fixed."},
+    {"groups": "tfp pft kpfryao", "closure_required": true, "meaning": "Bero causes Ada actually to pass from warm to not warm; not warm is not automatically cold."},
+    {"groups": "tfp tfp fktaryo", "legal": false, "why": "The invented sequence a before ry is inside the root, not the anti flag, and fkta is not in the lesson lexicon. Source intentions cannot override the written parser."},
+    {"groups": "tfp tfp fktryo", "closure_required": true, "meaning": "Bero causes Bero to become tired, if this self-causation is meaningful in the declared domain. Direct identical neighboring term words are retained."}
+  ],
+  "costs_and_unpaid_claims": {
+    "lexicon": "Five entries in this demonstration, with a genuinely open but paid future lexicon. Derived meanings reuse the learned property rather than receiving a separate complete-word table. Two homographic lexical classes would cost both entries.",
+    "physical_grammar": "Learn22 working units, one excluded root bigram ry, the past prefix, nine legal suffix tails, two quote controls, one-cell versus three-cell gaps, a24-cell body and the two positional margin controls.",
+    "literal_table": "Learn21 ordinary lowercase letter spellings and74 fixed escaped character entries, or the equivalent small four-row lookup. An escaped character costs three glyphs; a name span adds six control glyphs plus external gaps. No claim that full unknown names are cheap is made.",
+    "long_name_example": "Ilara-Ven-Adara costs25 payload glyphs, six quote-control glyphs and one written continuation glyph, in addition to visible gaps and ruled layout. Its being a name does not make its reference or semantics free.",
+    "native_fit_unpaid": "There is no explained frequency of q, q-to-o adjacency, final-y, long/short words, native affix families or context-dependent forms. The ordinary-root alphabet permits q without o, while q is an escape only inside literal names. Neither fact establishes manuscript compatibility.",
+    "historical_status": "Modern teaching reconstruction. No medieval source is claimed to attest this exact grammar, ry delimiter, grid or literal table. The benefit is transparent reuse of property meanings, not a historical identification."
+  },
+  "manual_shape_obligations_before_any_test": [
+    "Every individual working sign is a legal root spelling. Thus the architecture has potential for22 distinct complete one-sign lexical groups and for all22 final signs in two-sign ordinary roots. The tiny demonstration lexicon does not instantiate all of them, and no native meaning is supplied.",
+    "Ordinary roots may contain more than three different interior working signs, and may be arbitrary powers such as abstract B and BB if both entries are learned. The grammar does not require a universal repetition header or a primitive-root spelling. This permits shapes, not productive native reduplication meanings.",
+    "Identical neighboring terms are legal in a cause sentence. However a bare identical triple B B B cannot fit entirely within one narrow-gap sentence: an unmarked final root is unary, while a binary cause predicate carries the ry suffix. A triple of unmarked ordinary words therefore needs an explicitly wide sentence gap somewhere, or an independently legal literal-name/control parse. It cannot be waved away as an invisible sentence boundary.",
+    "Existing native triples qokedy, sheol, okaiin and chol remain obligations, not values. The present note has not inspected their gap geometry. Known DEFINITE_SPACE annotations alone are not a proof of this candidate's one-cell versus three-cell distinction. A physically bound triple with both gaps ordinary would be a direct conditional contradiction.",
+    "A physical fragment is allowed only at a margin a continuation. Existing interior short words cannot be claimed to be fragments under this rule. Sentence-end margins and wide gaps must themselves be found before a native whole-message application; they cannot be inserted by a favorable parse.",
+    "The fixed literal mapping reserves every ry occurrence outside name payloads for the listed controls or predicate operations. A complete native group with a different required ry use could refute this literal carrier. No native query or relabeling was performed to avoid that consequence.",
+    "The old947 action-head/nominal-type collision is not reused:953 locates a sentence-final predicate with explicitly written argument order, and learned term/property homography is allowed but paid. This does not reopen the old947 contract or supply a native role assignment.",
+    "The fixed954 q-control selector failure remains. Here q is not a general control prefix of lexical words, and the only q escape occurs after an explicit name opener. This is a different fully stated grammar, not a new selector added to954.",
+    "Earlier fixed-source frequency failures remain. No source is encoded here and this authorial semantic language is not shown to reproduce any source's distribution. A meaningful new corpus comparison would need an independently fixed covered content domain and actual shared lexicon, not arbitrary per-form meanings or post-result vocabulary choices."
+  ],
+  "smallest_next_decision": "Root may first review this complete narrow contract for manual ambiguity and the paid layout obligations. An independently read small message would test readability only and must be separately selected with a new held expectation; the exposed demonstration above is not such a trial. A direct known-form/layout contradiction takes priority over further table building. No statistics or native translation is selected by this note.",
+  "primary_predecessors_and_navigation": {
+    "read_primary": [
+      "research_registry/proposals/production_origin_supply_20261003/HUMAN_OPEN_LEXICON_SUPPLY_20261006_A.json",
+      "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA953_MANUAL_REVIEW_20261006.json",
+      "research_registry/proposals/production_origin_supply_20261003/HUMAN_SYLLABARY954_ROOT_REVIEW.json",
+      "research_registry/proposals/production_origin_supply_20261003/HUMAN_AUTHOR_CONTENT_SEMANTIC_SCOPE_REVIEW_20261006.json"
+    ],
+    "retained_prior_stops": ["GDT1175", "GDT1214", "GDT1216", "GDT1224", "GDT1227", "GDT1193", "GDT1195", "IDEA000954", "the unchanged14-S shared-junction carrier"],
+    "bounded_duplicate_queries": ["open property words affix delimiter physical carrier", "property family reserved delimiter sentence gap literal names"],
+    "route_query": "property family physical affix grammar delimiter",
+    "navigation_limit": "The searches returned953 itself and related incomplete semantic designs. They do not prove historical novelty or absent followups. This document is explicitly a realization of953, not a new discovery of property morphology or an imported old lexical claim."
+  },
+  "work_limits": "Only this own construction note, exact-primary reading and JSON/hash validation. No encoder, generator, source/native count, native image, new corpus, decoder, root route/ledger/state edit, metadata refresh, extra agent, commit or publication."
+}

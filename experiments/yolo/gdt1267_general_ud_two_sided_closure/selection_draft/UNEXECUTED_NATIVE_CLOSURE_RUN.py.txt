@@ -1,0 +1,93 @@
+import gzip,json,re,hashlib,itertools,sys
+from functools import cache
+from pathlib import Path
+P=Path(__file__).resolve().parents[1]; ROOT=P.parents[2]
+CACHE=ROOT/'experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz'
+ALPHA=tuple('a o e i n d q y s r l m k t p f ch sh ckh cth cph cfh'.split())
+def close(words):
+    nodes={w:{'units':list(w),'round':0,'parents':None} for w in sorted(set(words)|{()})}
+    steps=0
+    while True:
+        S=set(nodes);R={};L={}
+        for w in sorted(S):
+            for j in range(len(w)+1):
+                x,y=w[:j],w[j:]
+                if x in S and y:R.setdefault(y,(x,w))
+                y,z=w[:j],w[j:]
+                if z in S and y:L.setdefault(y,(w,z))
+        add=sorted((R.keys()&L.keys())-S)
+        if not add:break
+        steps+=1
+        for y in add:nodes[y]={'units':list(y),'round':steps,'parents':[list(v) for v in (*R[y],*L[y])]}
+    return nodes,steps
+
+def ud(C):
+    # Exact residual closure for synthetic controls only.
+    todo={b[len(a):] for a in C for b in C if a!=b and b[:len(a)]==a};seen=set()
+    while todo:
+        r=todo.pop()
+        if not r:return False
+        if r in seen:continue
+        seen.add(r)
+        for c in C:
+            if r[:len(c)]==c:todo.add(r[len(c):])
+            if c[:len(r)]==r:todo.add(c[len(r):])
+    return True
+
+def parsable(w,C):
+    reach={0}
+    for i in range(len(w)+1):
+        if i in reach:
+            for c in C:
+                if w[i:i+len(c)]==c:reach.add(i+len(c))
+    return len(w) in reach
+
+def controls():
+    pool=[tuple(x) for n in [1,2] for x in itertools.product('ab',repeat=n)]
+    total=0;good=0;nodes=0
+    for mask in range(1,1<<len(pool)):
+        C=[w for i,w in enumerate(pool) if mask>>i&1];total+=1
+        if not ud(C):continue
+        good+=1;S=set(C)|{a+b for a in C for b in C};out,_=close(S)
+        assert all(parsable(w,C) for w in out);nodes+=len(out)
+    C=[tuple(x) for x in ['a','ab','bba']];assert ud(C)
+    out,_=close(set(C)|{a+b for a in C for b in C});assert all(parsable(w,C) for w in out)
+    out,_=close([tuple('a'),tuple('ab')]);assert tuple('b') not in out
+    C=[tuple(x) for x in ['a','ab','bc','c']];assert not ud(C)
+    out,_=close(C);assert tuple('b') in out and not parsable(tuple('b'),C)
+    return dict(binary_tables=total,freely_ud_tables=good,checked_nodes=nodes,named_cases=3)
+
+def source_support(g):
+    return {'id':g['id'],'page':g['page'],'leaf':int(re.match(r'f(\d+)',g['page'])[1])}
+
+def main():
+    lock=json.loads((P/'src/REGISTRATION_LOCK.json').read_text())
+    for name,h in lock['sha256'].items():assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==h,name
+    groups=json.loads(gzip.decompress(CACHE.read_bytes()));panels=[]
+    for reader,gs in sorted(groups.items()):
+        occurrences={}
+        for g in gs:occurrences.setdefault(tuple(g['units']),[]).append(source_support(g))
+        for panel in ['FULL','TWO_LEAF']:
+            words={w for w,occ in occurrences.items() if panel=='FULL' or len({g['leaf'] for g in occ})>=2}
+            nodes,steps=close(words)
+            for w,node in nodes.items():
+                if node['round']==0:node['source_occurrences']=occurrences[w] if w else []
+            @cache
+            def leaves(w):
+                n=nodes[w]
+                if not n['round']:return {w} if w else set()
+                return set().union(*(leaves(tuple(x)) for x in n['parents']))
+            forced=[u for u in sorted(ALPHA) if (u,) in nodes]
+            proof_support={u:[{'units':list(w),'count':len(occurrences[w]),'physical_leaves':sorted({g['leaf'] for g in occurrences[w]})} for w in sorted(leaves((u,)))] for u in forced}
+            row=dict(reader=reader,panel=panel,source_groups=sum(len(occurrences[w]) for w in words),source_types=len(words),closure_nodes=len(nodes),rounds=steps,forced=forced,not_forced=sorted(set(ALPHA)-set(forced)),kes_forced=set('kes')<=set(forced),proof_support=proof_support)
+            panels.append(row)
+            payload=dict(reader=reader,panel=panel,nodes=list(nodes.values()))
+            (P/f'artifacts/CERTIFICATE_{reader}_{panel}.json.gz').write_bytes(gzip.compress(json.dumps(payload,sort_keys=True).encode(),mtime=0))
+    extends=all(r['kes_forced'] for r in panels if r['panel']=='FULL')
+    result=dict(status='GENERAL_UD_FIXED_SOURCE_EXCLUSION_EXTENDED' if extends else 'PARTIAL_UD_OBLIGATIONS_ONLY',panels=panels,source_census_reused_not_rerun='GDT1240',source_exclusion_extended=extends)
+    (P/'artifacts/RESULT.json').write_text(json.dumps(result,indent=2)+'\n')
+    print(json.dumps({**result,'panels':[{k:v for k,v in r.items() if k!='proof_support'} for r in panels]},indent=2))
+if __name__=='__main__':
+    if '--controls' in sys.argv:
+        out=controls();(P/'artifacts/CONTROLS.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out))
+    else:main()

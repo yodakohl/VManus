@@ -1,0 +1,171 @@
+[
+  {
+    "name": "positive",
+    "constraints": [
+      {
+        "a": 1,
+        "b": 1
+      }
+    ],
+    "values": [
+      1,
+      2,
+      3
+    ],
+    "targets": [
+      1,
+      2,
+      3
+    ],
+    "status": "SAT",
+    "certificate": null,
+    "witness": {
+      "a": 1,
+      "b": 1
+    },
+    "nodes": 3,
+    "elapsed_seconds": 5.235103890299797e-05
+  },
+  {
+    "name": "empty_support",
+    "constraints": [
+      {
+        "a": 2
+      }
+    ],
+    "values": [
+      1,
+      3
+    ],
+    "targets": [
+      1,
+      3
+    ],
+    "status": "UNSAT",
+    "certificate": {
+      "reductions": [
+        {
+          "constraint": 0,
+          "variable": "a",
+          "keep": []
+        }
+      ],
+      "empty_variable": "a"
+    },
+    "witness": null,
+    "nodes": 1,
+    "elapsed_seconds": 5.939975380897522e-06
+  },
+  {
+    "name": "branch_triangle",
+    "constraints": [
+      {
+        "a": 1,
+        "b": 1
+      },
+      {
+        "b": 1,
+        "c": 1
+      },
+      {
+        "a": 1,
+        "c": 1
+      }
+    ],
+    "values": [
+      1,
+      2
+    ],
+    "targets": [
+      3
+    ],
+    "status": "UNSAT",
+    "certificate": {
+      "reductions": [],
+      "branch_variable": "a",
+      "children": [
+        {
+          "value": 1,
+          "node": {
+            "reductions": [
+              {
+                "constraint": 0,
+                "variable": "b",
+                "keep": [
+                  2
+                ]
+              },
+              {
+                "constraint": 1,
+                "variable": "c",
+                "keep": [
+                  1
+                ]
+              },
+              {
+                "constraint": 2,
+                "variable": "a",
+                "keep": []
+              }
+            ],
+            "empty_variable": "a"
+          }
+        },
+        {
+          "value": 2,
+          "node": {
+            "reductions": [
+              {
+                "constraint": 0,
+                "variable": "b",
+                "keep": [
+                  1
+                ]
+              },
+              {
+                "constraint": 1,
+                "variable": "c",
+                "keep": [
+                  2
+                ]
+              },
+              {
+                "constraint": 2,
+                "variable": "a",
+                "keep": []
+              }
+            ],
+            "empty_variable": "a"
+          }
+        }
+      ]
+    },
+    "witness": null,
+    "nodes": 3,
+    "elapsed_seconds": 4.683109000325203e-05
+  },
+  {
+    "name": "repeated_coefficient",
+    "constraints": [
+      {
+        "a": 2,
+        "b": 1
+      }
+    ],
+    "values": [
+      1,
+      2
+    ],
+    "targets": [
+      5
+    ],
+    "status": "SAT",
+    "certificate": null,
+    "witness": {
+      "a": 2,
+      "b": 1
+    },
+    "nodes": 1,
+    "elapsed_seconds": 1.5200115740299225e-05
+  }
+]

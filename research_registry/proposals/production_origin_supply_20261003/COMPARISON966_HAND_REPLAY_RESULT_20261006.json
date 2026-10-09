@@ -1,0 +1,77 @@
+{
+  "status": "PASS_NARROW_POST_MANUAL_COMPARISON_READBACK",
+  "completed_utc": "2026-10-06T18:16:05.240315+00:00",
+  "input_hashes": {
+    "HUMAN_COMPARISON_WORD_FAMILY_RAW_20261006.json": "1b884ffb0f299b51b86a0d4b7b825c32b81216cd0c39bfd6e58f7b212c57ff9e",
+    "HUMAN_COMPARISON966_CONTINUATION_AUTHOR_SCOPE_20261006.json": "c322263779006d77e60c027f3a6cf9c3e579dc7dba8bce220bc55d5b97c1848d",
+    "HUMAN_COMPARISON966_CHALLENGE_20261006.json": "86f4417c7730e9df3ab194693ce40842ebabeff0d4fcca44f3e3c9d1004807f7",
+    "HUMAN_COMPARISON966_HELD_EXPECTATION_20261006.json": "dfa1a36aca3f4ab2e1c8717d36891a93456193376c3f44edbf6ac73cee7313e2",
+    "HUMAN_COMPARISON966_ROOT_READBACK_20261006.json": "ce6e17a2d1d4e8081ccda9b77b5971e07bc04636798f2705cb47cde3a8c529f9"
+  },
+  "clauses": [
+    {
+      "scale": "mass",
+      "root": [
+        "ch",
+        "f",
+        "r"
+      ],
+      "comparator": "LESS",
+      "negate_whole_list": true,
+      "subjects": [
+        "Ada",
+        "Bela",
+        "Bela"
+      ],
+      "standard": "Orin, A.",
+      "end_message": false
+    },
+    {
+      "scale": "length",
+      "root": [
+        "f",
+        "p",
+        "ch"
+      ],
+      "comparator": "GREATER",
+      "negate_whole_list": false,
+      "subjects": [
+        "Ada"
+      ],
+      "standard": "Bela",
+      "end_message": true
+    }
+  ],
+  "counts": {
+    "logical_words": 8,
+    "logical_working_units": 67,
+    "continued_breaks": 2,
+    "continuation_words": 4,
+    "continuation_units": 12,
+    "physical_groups": 14,
+    "physical_working_units": 79,
+    "visible_same_line_blanks": 7,
+    "line_cell_widths": [
+      13,
+      7,
+      16,
+      16,
+      12,
+      10,
+      12
+    ],
+    "grammatical_suffix_units": 24,
+    "literal_name_units_including_frame": 22,
+    "ordinary_lexical_root_units": 21
+  },
+  "checks": [
+    "both full teaching messages and hidden-source agreement",
+    "95literalcharacters and malformed payload rejection",
+    "root-final r retained across controls",
+    "three-line continued word and malformed marker handling",
+    "list-wide negative truth contrast",
+    "written standard change and exact repeated references",
+    "all manually reported costs"
+  ],
+  "limits": "Same-root-author post-manual mechanical check. No independent manuscript evidence, native meaning, historical source coverage or native statistical fit."
+}

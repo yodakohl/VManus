@@ -1,0 +1,66 @@
+{
+  "record_id": "GDT1253",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root; constructive proof, bounded producer conceptual check, independent parse implementation",
+  "assessment_basis": "all_length_construction_and_finite_software_validation",
+  "reason": "n singleton codes plus one distinct-symbol pair and a fixed forbidden source adjacency give a bijection from declared source grammar onto every nonempty output string. This attains23entries conditional on the prior<=22nontrivial-cover exclusion. Universal coverage is not language or meaning identification.",
+  "blockers": [
+    {
+      "code": "source_grammar_and_values_unbound",
+      "detail": "The grammar is an imposed code convention, not recovered natural-language knowledge; no independent source or native value selected.",
+      "evidence": [
+        "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+      ]
+    },
+    {
+      "code": "coverage_is_nondiscriminating",
+      "detail": "Every output string is allowed, so success of shape coverage alone supplies no manuscript-specific support.",
+      "evidence": [
+        "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_source_consequence",
+        "change": "new_binding",
+        "detail": "An independently justified source grammar and fixed shared values with a discriminating consequence beyond universal cover; no raw alphabet-pair fitting.",
+        "evidence": [
+          "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another native coverage census",
+      "Choosing an xy pair because it is common",
+      "Calling510synthetic strings translated words",
+      "Silently selecting a natural-language subset after decoding"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1235",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT856",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1201",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+      ]
+    }
+  ]
+}

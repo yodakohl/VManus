@@ -1,0 +1,136 @@
+{
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": ""
+  },
+  "claim_ceiling": "Fixed working-unit and source paragraph representation only; no modular, syntax, language, historical or semantic claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1259_paragraph_integer_balance/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1259_paragraph_integer_balance/src/validate.py"
+  },
+  "created": "2026-10-07",
+  "dependencies": [
+    "GDT882",
+    "GDT1073",
+    "GDT1074"
+  ],
+  "experiment_id": "GDT1259",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+      "role": "fixed source scope or source-free proof provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db",
+      "role": "fixed source scope or source-free proof provenance"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_source_separator_transcription.py",
+      "sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51",
+      "role": "fixed source scope or source-free proof provenance"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_GLYPH_SUM_PRIOR_PROOF_REVIEW_20261007.json",
+      "sha256": "0764b73eeffd56cf954dbf5720129dff055b3714fd44ad8fb8d3ed1fdc794148",
+      "role": "fixed source scope or source-free proof provenance"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/METHOD.md",
+      "sha256": "399e943073ebb7c5354c340ba550de91f36387a9b4b7a13f90dd5770f276b5f4",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/PREREGISTRATION.md",
+      "sha256": "399e943073ebb7c5354c340ba550de91f36387a9b4b7a13f90dd5770f276b5f4",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/README.md",
+      "sha256": "f2faa94b14a2c3a5d445ca9cb382f4d41eaa71f5bcb91a9cf5a65dff8e30fb2b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/REPORT.md",
+      "sha256": "1c41d99652656c43e9b399596f23ff52ad74311b4daad1d838a57d9365ba7d29",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/CENSUS.json",
+      "sha256": "800261c27ced1d28e4bc7c047fc2393de561d4e3bb1d812766d565716c8698eb",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/CERTIFICATES.json",
+      "sha256": "e2be0d12afbeb3efbb40f3a9a9ccc6ede89da99b586148991d1f20f2b26d836b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/EXCLUSIONS.json",
+      "sha256": "2a3e58ccb9daab8fa8c54ccaa2ddc8d8e6dc1807f4b11d7f801dcf05f089bc95",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/GUARD_RECEIPT.json",
+      "sha256": "d9dbc4fd2218ff7d758bc0713d8909bfaf7b35dd5929fb80875f159ba5f881bb",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/IDEA_REVIEW.json",
+      "sha256": "9386cecf2aef0e21bf80bd3d883b7f9ee5cfba9457ef028806b4a10131407213",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/RESULT.json",
+      "sha256": "76f47904833c3c122e2a2751aa2e20b38f9a4bc421b2b8129d5490c797acab50",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/VALIDATION.json",
+      "sha256": "94ae83c2e46e97c78e96f2206882b65b12f1d8168ceec86d41ce9eb6fc251415",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/src/REGISTRATION_LOCK.json",
+      "sha256": "8734915fbe1e10951f8b3d3b7f548c7a670767b8964e0bf7493eb54cb8a4713e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/src/SPEC.json",
+      "sha256": "2d806468e19f1da3f6defe6ac908c1d6c83879841f207f2c99e8c4b19f85deb5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/src/run.py",
+      "sha256": "a69176757101152f5c5e4785dce70338933cde2888483dc660f19204b23c3bf1",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/src/validate.py",
+      "sha256": "9b6d8e4317e45b5ab7b863d7680865d6461f72555936d58183679de52f9908ec",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can a nontrivial fixed integer weight per22working units give one common total in all complete own-marked paragraphs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "paragraph_integer_balance",
+  "status": "BOTH_READERS_FIXED_INTEGER_PARAGRAPH_BALANCE_EXCLUDED",
+  "title": "Exact fixed integer common-paragraph balance",
+  "updated": "2026-10-07",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/VALIDATION.json"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "record_id": "GDT1190",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_finite_completion",
+  "assessment_basis": "All previously unmeasured even allocations tested; prior odd/full allocations retain original failed decisions",
+  "reason": "All42fixed rank encoders now fail necessary word invariants across four sources; no glyph permutation can repair these invariants.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "New18fail before capacity or optimization; previously measured24fail unchanged.",
+      "evidence": [
+        "experiments/yolo/gdt1190_complete_initial_allocation_family/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_literal_code_assignment",
+        "change": "new_design",
+        "detail": "A different predeclared source-fragment/codeword assignment with explicit purpose and full criteria; not another glyph permutation of these42.",
+        "evidence": [
+          "experiments/yolo/gdt1190_complete_initial_allocation_family/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another initial rank count inside1..7",
+      "Ignoring source/readers with failures"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1186",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1190_complete_initial_allocation_family/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1188",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1190_complete_initial_allocation_family/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1189",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1190_complete_initial_allocation_family/REPORT.md"
+      ]
+    }
+  ]
+}

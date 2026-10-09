@@ -1,0 +1,38 @@
+{
+  "status": "SOURCE_FREE_PROOF_REVIEW_VALID_WITH_DECLARED_SCOPE",
+  "ownership": "Root proposed the inequality; bounded_idea_supply checked the algebra and boundary conditions. No claim of blinded or independent empirical confirmation.",
+  "contract": [
+    "A fixed deterministic sequential writer has at most K states. S_t is the complete state immediately before source symbol X_t is written.",
+    "Y_t=f_{S_t}(X_t), with each fixed row injective on its possible source symbols, and S_{t+1}=g(S_t,X_t). One source symbol produces exactly one output symbol.",
+    "Source word boundaries are preserved. The random index t is uniform over exactly the included within-word adjacent-symbol positions. The same index distribution defines source and output conditional entropy, in bits.",
+    "Every included pair obeys the stated transition. Resets between words or paragraphs are allowed because those boundaries are not counted pairs. Any additional varying control which affects a row or transition must be included in the K-state description."
+  ],
+  "proof": [
+    "Write S=S_{t-1}, P=X_{t-1}, Z=Y_{t-1}, X=X_t, and Y=Y_t. Both Z=f_S(P) and S_t=g(S,P) are deterministic functions of (S,P).",
+    "Conditioning gives H(Y|Z) >= H(Y|Z,S,P). As Z is determined by (S,P), the latter equals H(Y|S,P).",
+    "For every fixed (S,P), the current row is fixed and injective, so H(Y|S,P)=H(X|S,P).",
+    "H(X|S,P)=H(X|P)-I(X;S|P) >= H(X|P)-H(S|P) >= H(X|P)-log2(K).",
+    "Thus H(Y_t|Y_{t-1}) >= max(0,H(X_t|X_{t-1})-log2(K))."
+  ],
+  "sharp_example": {
+    "source_words_in_order": ["AA", "AB"],
+    "alphabet": ["A", "B"],
+    "output_alphabet": ["0", "1"],
+    "rows": {"0": {"A": "0", "B": "1"}, "1": {"A": "1", "B": "0"}},
+    "state_rule": "Begin the first word in state 0. Keep the state fixed within each word; toggle it at each visible word boundary.",
+    "output_words_in_order": ["00", "10"],
+    "verification": "The two equally weighted source pairs AA and AB have the same previous source symbol A and equiprobable current symbols, hence source H2=1 bit. Output pairs 00 and 10 both have current symbol 0, hence output H2=0. The loss is exactly log2(2)=1 bit. The boundary toggle is excluded from the counted within-word pairs and uses no uncounted within-pair control."
+  },
+  "limits": [
+    "No stationarity, independence of source and state, or stochastic language model is needed. This is an inequality for the finite empirical pair distribution as well.",
+    "An unknown fixed key does not create extra varying state. A varying key, position flag, lookahead decision, external instruction, random transition or other control not determined by (S,P) is outside this contract unless its relevant information is included in the state.",
+    "An externally triggered reset inside a counted pair is not covered. A physical line reset can therefore require a separate assumption if a logical word spans the line boundary.",
+    "A source-dependent word-entry state does not invalidate the cardinality bound: the proof permits arbitrary state/source correlations. The transition within each counted pair must still obey the stated contract.",
+    "Deterministic update through the preceding written symbol is included when it can be composed with the fixed row into g(S,P).",
+    "Deleting or expanding symbols, variable-length letter codes, whole-word shortcuts, changed word boundaries and additional visible controls are not covered by the one-symbol-in/one-symbol-out premise.",
+    "Logical source order and reversing each source word are separate source sequences and require their respective source conditional entropies. Reversing source words is not automatically the same operation as reversing an already generated ciphertext.",
+    "The bound supports only a conditional comparison with a declared source projection, target population, metric and tolerance. It does not exclude a language or identify native glyphs, source letters, meanings, or a historically used mechanism."
+  ],
+  "review_activity": "Source-free mathematical reasoning and a hand-worked two-word example only. No source/native payload was read, no new frequencies were computed, and no root numeric result is independently verified here.",
+  "prior_scope": "GDT1230 treats previous decoded source letter as the state and conditions on source triples. The present bound instead limits an arbitrary complete K-state deterministic writer by log2(K). This distinction is conceptual, not a claim of global mathematical novelty."
+}

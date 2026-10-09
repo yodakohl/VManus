@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-07T20:48:27.150833+00:00",
+  "recorded_by": "root",
+  "reviewer": "bounded_idea_supply, source-free messages before target counting",
+  "proof": "For the actual global marker, one of the two parsings is the restriction of the actual code stream. Thus P0 intersect P1 is a subset of the actual pair dictionary for each contiguous snippet, and union of these intersections remains a subset. Minimum over marker choices is a valid necessary bound, not an exact optimum.",
+  "edge_cases": [
+    "Control h may occur second in a pair; offset1 remains allowed even if the first snippet unit is h.",
+    "Do not count an incoming partial pair or final incomplete non-h pair. At a code boundary a final h is a complete singleton.",
+    "Every snippet must retain every internal working unit in original order. No deletion of unknown symbols or concatenation of disjoint source spans.",
+    "Union of intersections is essential. NONE snippets aba,bab each have empty intersection; intersection of unions would wrongly force ab andba."
+  ],
+  "fixtures": [
+    "aaaa without marker forces aa",
+    "xbcx with marker x, including incoming partial ax, forces bc",
+    "abxc with marker x has P0={ab},P1={bx}"
+  ],
+  "limitations": "No native pair counts, source data, glyph values or image interpretation by reviewer. Numeric verification remains separate same-author code."
+}

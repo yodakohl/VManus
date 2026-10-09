@@ -1,0 +1,41 @@
+{
+  "record_id": "IDEA000924",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "reviewer": "root; separate gd_account_validator reconstruction",
+  "reason": "Executed GDT1170 on exposed admitted cache. No registered external-context statistic retained in both IT2a and ZL3b; uncertainty is not proof of context-neutral copying. Full negative result retained locally.",
+  "assessment_basis": "registered_executed_conditional_context_test",
+  "evidence": [
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/RESULT.json",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/VALIDATION.json"
+  ],
+  "blockers": [
+    {
+      "code": "no_retained_context_signal",
+      "detail": "Same-word physical-leaf position strata and fixed bigram kernel show no selected right reset or side association.",
+      "evidence": [
+        "experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "genuinely_new_consequence",
+        "change": "new_design",
+        "detail": "A genuinely different reading consequence justified before inspection, rather than alternate bins or another kernel selected after this failure.",
+        "evidence": [
+          "experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More permutations",
+      "Another kernel or position bin without a new reading consequence",
+      "Treating nonsignificance as proof of scribal error"
+    ]
+  },
+  "relations": []
+}

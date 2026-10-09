@@ -1,0 +1,41 @@
+{
+  "status": "ANALYTIC_NECESSARY_COST_ONLY_NO_NATIVE_STATISTICAL_TEST",
+  "idea": "IDEA000965",
+  "scope": "The unchanged joint measured-material contract, applied to complete messages with exactly represented words and paid continuation markers. No native word is bound to a control, vessel or material.",
+  "variables": {
+    "J": "Number of ordinary ADD, MIX and FORBID instructions, including those inside IF.",
+    "B": "Number of IF blocks.",
+    "E": "Number of complete messages.",
+    "M": "Number of logical material-word occurrences across ADD and FORBID. A literal material name also counts as one material occurrence. This is not the number of distinct stocks or only the executed spoon count.",
+    "V": "Number of logical vessel-name words.",
+    "C": "Number of logical instruction/block/message controls, excluding physical continuation.",
+    "b": "Number of paid split-word line boundaries, each producing one extra fragment and two rrch markers.",
+    "P": "Total physical separated groups, including fragments and all controls.",
+    "Cp": "Actual physical control tokens, including the two markers per split boundary.",
+    "S8": "Token total of the eight most frequent exact physical group types, or all types if fewer than eight exist. All eight distinct control forms must retain their fixed whole-group spelling."
+  },
+  "exact_account": [
+    "V=J+B: every ordinary instruction and IF entry names a vessel once.",
+    "C=2J+2B+E=2V+E: ordinary instructions have their mode and END; IF has IF and END-IF; each message has END-MESSAGE.",
+    "P=M+V+C+3b and Cp=C+2b: one split creates an extra fragment plus two marker words.",
+    "Substitution gives the exact identity P=M+(3/2)Cp−E/2. The split cost cancels algebraically; it is counted, not omitted."
+  ],
+  "necessary_bounds": [
+    "The actual control tokens use at most eight physical group types, hence Cp<=S8. Fragments that happen to spell another control can only increase those types' observed token total, not invalidate this upper bound.",
+    "Therefore M>=P−(3/2)S8+E/2. Also J<=Cp/2<=S8/2, so M/J>=2P/S8−3 whenever this lower bound is positive. The omitted positive message/block terms only weaken this bound.",
+    "For illustration only, if S8/P were0.10 in a complete exactly bound population, it would force more than85percent as many material occurrences as physical groups and at least17 material occurrences per ordinary instruction on average. This chosen decimal is hypothetical, not a measured manuscript statistic.",
+    "Many occurrences could be repeated spoons of one material or a long list of different materials. This count condition alone does not contradict the writer; an actual covered source or a separately fixed repetition/list constraint would be needed."
+  ],
+  "lesson_accounting": {
+    "exposed_message": {"J": 3, "B": 1, "E": 1, "b": 0, "M": 5, "V": 4, "C": 9, "P": 18, "working_units": 92, "control_and_vessel_groups": 13},
+    "source_held_message": {"J": 6, "B": 1, "E": 1, "b": 0, "M": 7, "V": 7, "C": 15, "P": 29, "working_units": 156, "control_and_vessel_groups": 22},
+    "replay": "MEASURED_MATERIAL965_HAND_REPLAY_20261006.py checks both exact count identities and the complete challenge instruction tree. Neither small lesson defines a realistic corpus frequency distribution."
+  },
+  "assumptions_and_stops": [
+    "Complete messages are essential. A cropped passage can contain the middle of one long ADD list without its controls. Do not apply the bound to a handpicked paragraph or the strict interior-only1233GROUPS cache as if it were a complete message population.",
+    "The eight controls must be physical whole-word types under the proposed binding. A new allograph scheme, implicit vessel, omitted END, positional mode or changed layout is a different writer, not a free repair of this count.",
+    "The three transcriptions remain alternate readings of one manuscript. No calculation here pools them.",
+    "A low control frequency imposes a content burden; a high frequency could still fail actual native control shape, lexicon, preparation-family, q/o, final-y or contextual constraints. No statistical pass follows from this necessary inequality."
+  ],
+  "decision": "The narrow source-held reading test succeeds, while the architecture has a substantial explicit overhead. Do not build a large generator or choose arbitrary quantities to fit a histogram. Any later native comparison needs a justified complete-message binding and covered content; this report supplies a cheap necessary account for that decision, not permission to skip those inputs."
+}

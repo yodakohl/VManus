@@ -1,0 +1,51 @@
+{
+  "record_id": "IP038",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root independent interval-imbalance validator; producer source-free proof review",
+  "assessment_basis": "broader_homophony_not_identified",
+  "reason": "Retain GDT857 failure of all-nonsingleton inventory cycles. GDT1297 adds conditional singleton constraints while allowing mixed pools. Broader homophony is neither identified nor generally excluded.",
+  "blockers": [
+    {
+      "code": "literal_source_and_pool_contract",
+      "detail": "Faithful distinct visible codewords, fixed membership, no within-run reset or skipped draws; image premises not independently checked here.",
+      "evidence": [
+        "experiments/yolo/gdt1297_cyclic_pool_pair_range/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "changed_source_or_mechanism",
+        "change": "new_binding",
+        "detail": "Independently bound changed source reading or genuinely different writer mechanism; retain original results.",
+        "evidence": [
+          "experiments/yolo/gdt1297_cyclic_pool_pair_range/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Declare same-pool words synonyms",
+      "Permit retrospective skipped draws",
+      "Treat pair compatibility as a jointly fitted pool"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT857",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1297_cyclic_pool_pair_range/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1297",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1297_cyclic_pool_pair_range/REPORT.md"
+      ]
+    }
+  ]
+}

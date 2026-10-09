@@ -1,0 +1,117 @@
+{
+  "status": "SOURCE_REPRESENTATION_REVIEW_NO_NEW_CHANNEL_SELECTED",
+  "started_utc": "2026-10-06T06:30:06Z",
+  "scope": "Cached B4/W1/Bs1/Gr1 TEI metadata and bounded literal XML examples only. No new frequencies, native material, OCR, projection execution, decoder or corpus acquisition.",
+  "answer": "The original TEI does preserve written abbreviation carriers/sign references AND explicit editorial expansion letters, but it does not provide a complete independently observed manuscript word-boundary census or an unambiguous written/expanded pair for every span. The *.recipes.xml files used by1176 are already derived, expanded/normalized recipe reading editions;1176 adds its own declared text projection. The richer original representation was already used by1166 and1171 and is not a previously unused source channel.",
+  "three_layers": [
+    {
+      "layer": "Original editor-encoded writing",
+      "path_pattern": "experiments/yolo/gdt1166_natural_shared_sign_candidate_control/sources/{b4,w1,bs1,gr1}.xml",
+      "information": "Ordinary carriers, g references to documented graphic classes, abbreviation am marks, ex restorations, w joins, lb/pb/cb layout and revisions/uncertainty. A hyperdiplomatic editorial transcription, not source pixels or a proved native alphabet.",
+      "qualification": "Mark-reference names can reveal expansions; bar_e/bar_m/bar_n share the same declared overline. A model must not treat answer-bearing IDs as three observed signs. The written view cannot simply be itertext: ex is supplied, g display text may be normalized, and deleted/added versions must not be concatenated."
+    },
+    {
+      "layer": "Derived recipe edition",
+      "path_pattern": ".gdt176/corema/{b4,w1,bs1,gr1}.recipes.xml",
+      "information": "Recipes contain readable editorial forms and semantic markup. Earlier source inventory established absence of abbr/expan markup in these derivatives; this review did not recount it. The original glyph and restoration layer cannot be reconstructed from these strings alone.",
+      "qualification": "Not modern-standard German and not necessarily maximally expanded orthography: W1's unmarked literal habn is present in the original and derivative. Reading-edition normalization must not be described as a universal modern spelling replacement. Titles/segment boundaries can also differ from original TEI records."
+    },
+    {
+      "layer": "GDT1176 algorithmic projection",
+      "primary": "experiments/yolo/gdt1176_natural_text_word_partition/PREREGISTRATION.md",
+      "lines": "8–22",
+      "code": "experiments/yolo/gdt1176_natural_text_word_partition/src/run.py",
+      "information": "Select type=recipe nodes; recursively retain text/tails except note subtrees; NFC, lower case and collapse whitespace. Empty lb/pb elements add no characters. Retain punctuation and non-ASCII characters. Exclude entire recipes with declared uncertainty markup/visible uncertainty. Whitespace then defines source tokens, expressly not manuscript facts.",
+      "claim": "Reconstruction preserves that declared projected edition input, not all manuscript signs, deleted states, original physical gaps or capitalization."
+    }
+  ],
+  "bounded_primary_examples": [
+    {
+      "collection": "b4",
+      "manuscript": "Berlin, Staatsbibliothek, Ms.germ.qu.1187; edition dates1437–1475",
+      "source_xml": "<abbr>gepratt<ex>e</ex><am><g ref=\"#bar_e\"/></am>n</abbr>",
+      "source_locator": "b4.xml:808; first direct body/ab/seg heading",
+      "word_join_example": "<w>we<g ref=\"#asup\">a</g>lh<g ref=\"#dbloblhyph\">=</g><lb n=\"N010\"/><g ref=\"#inodot\">i</g><g ref=\"#slong\">s</g>chen</w>",
+      "derivative_example": "b4.1 begins with des Ersten von hecht pratten; the general original heading Von manigerlay gepratten is not part of that first derivative recipe title. This alone prevents equating the two complete streams by mere mark removal."
+    },
+    {
+      "collection": "w1",
+      "manuscript": "Vienna, Austrian National Library, Cod.2897; recipe part described as mid15th century",
+      "source_xml": "<abbr>man<g ref=\"#inodot\">i</g>g<ex>er</ex><am><g ref=\"#combcomma_er\"/></am>lay</abbr>",
+      "source_locator": "first body abbreviation",
+      "word_join_example": "<w>gew<g ref=\"#dbloblhyph\">=</g><lb n=\"N022\"/>urcz</w>",
+      "literal_short_form": "w1.xml:816 contains ordinary unmarked habn; w1.1 derivative also has habn. This is not an unresolved ex node.",
+      "editorial_interpretation": "W1 encodingDesc explicitly says written w with sound value /fu/ is transcribed vv. Thus the original TEI itself contains a declared interpretive orthographic convention.",
+      "completeness_limit": "w1.xml:86 says the cookbook breaks off. A complete cached collection or complete edition record is not a claim that the entire historical work survives."
+    },
+    {
+      "collection": "bs1",
+      "manuscript": "Basel University Library, AN V12, Kochbuch des Meister Hans; dated1460",
+      "source_xml": "<abbr><ex>etc.</ex><am><g ref=\"#etcamp\"/></am></abbr>",
+      "source_locator": "bs1.xml:1001; first body abbreviation",
+      "word_join_example": "<w>ge<g ref=\"#dbloblhyph\">=</g><lb n=\"N013\"/><g ref=\"#slong\">s</g>otten</w>",
+      "editorial_interpretation": "bs1.xml:341 declares transcription of an sz-ligature as ß where the individual graphs cannot be recognized. The prior written-data contract also marks etcamp's inconsistent declared graphic fields UNKNOWN, rather than assuming its original visible shape."
+    },
+    {
+      "collection": "gr1",
+      "manuscript": "Graz University Library, Ms.1609, Mondseer Koch- und Haushaltsbuch; second half15th century",
+      "source_xml": "<abbr>mach<ex>e</ex><am><g ref=\"#bar_e\"/></am>n</abbr>",
+      "source_locator": "gr1.xml:2168; first recipe opening",
+      "word_join_example": "<w><abbr>ge<g ref=\"#dbloblhyph\">=</g></abbr><lb n=\"N010\"/><abbr>b<ex>e</ex><am><g ref=\"#bar_e\"/></am>n</abbr></w>",
+      "derivative_example": "gr1.1 prints Item wildw machen; the original opening marks the initial I as supplied and uses the marked shortened mach...n.",
+      "unresolved_example": "The first expan element is munda, not a paired original abbreviation. Existing COREMA_WRITTEN_DATA_CONTRACT already documents expanded-only spans and unresolved glyphs; silently treating their letters as observed writing is invalid."
+    }
+  ],
+  "original_boundary_contract": {
+    "present": "Physical line/page/column events and selective w elements explicitly joining editor-recognized words over breaks. Ordinary text-space characters also occur.",
+    "not_present_as_claim": "No independently measured gap width or automatic guarantee that each literal XML whitespace sequence corresponds to one authorial word boundary. XML indentation is not manuscript geometry; w joins are supplied editorial word decisions.",
+    "already_fixed_implementation": "GDT1166 PREPARATION.md tokenizes whitespace and breaks outside w, suppresses those separators inside w, retains written hyphen glyphs and separates records. It explicitly treats this as editorial boundary information. No new projection was run here.",
+    "incompleteness": "abbr without ex need not have a recoverable missing string, and wrapper presence can include a prefix or punctuation. expan-only, supplied, unclear, inconsistent references and revisions require unknown/layer policies. Do not claim universally paired lossless historical spelling."
+  },
+  "editorial_primary": {
+    "path": "experiments/yolo/gdt1166_natural_shared_sign_candidate_control/sources/editorialdec.xml",
+    "relevant_sections": "51–64 hyperdiplomatic/ASCII plus g aim;65–146 structure, abbreviation and editorial reconstruction;147–165 source-local palaeographic descriptions;330–365 normalized display",
+    "explicit_rules": "abbr/ex/am are the abbreviation model. Marginal text is inserted in semantic reading order. The synoptic display expands abbreviations and folds certain dot/long-s/w/z distinctions, suppresses terminators, and linearizes column order. Therefore display output, original XML and a specific derived recipe edition must remain distinct.",
+    "official_origin": "https://gams.uni-graz.at/o:corema.editorialdec/TEI_SOURCE",
+    "access": "Read existing pinned local bytes only; no fresh retrieval or facsimiles."
+  },
+  "predecessor_limits": [
+    {
+      "id": "GDT207",
+      "primary": "GDT207_DIPLOMATIC_ABBREVIATION_LANGUAGE_SCREEN_REPORT.md",
+      "code": "run_gdt207_diplomatic_abbreviation_language_screen.py:45",
+      "meaning": "Retains relative diplomatic gain and rejected direct decoder. It uses NUREMBERG lines from155, not these four original CoReMA streams; both arms undergo NFKD/folding/lowercase/a–z-space projection. Its result cannot be called a complete raw-graphic CoReMA comparison."
+    },
+    {
+      "id": "IDEA000864",
+      "primary": "research_registry/decisions/idea864_whole_lexical_design_20261002.md",
+      "meaning": "The same abbreviated source form can require einem/einen by context, and the omitted ending contradicts a universal ending-preservation premise. The card still lacks a concrete native lexical law/consumer; another corpus or contraction calibration does not supply one."
+    },
+    {
+      "id": "GDT1166",
+      "primaries": [
+        "experiments/yolo/gdt1166_natural_shared_sign_candidate_control/PREPARATION.md",
+        "experiments/yolo/gdt1166_natural_shared_sign_candidate_control/METHOD.md",
+        "experiments/yolo/gdt1166_natural_shared_sign_candidate_control/REPORT.md"
+      ],
+      "meaning": "Already implemented the conservative original-writing/reference projections. Fixed candidate pipeline failed, with a reference ceiling below its absolute gate; this does not reject abbreviation generally. Preserve failure and unknowns; no automatic repair."
+    },
+    {
+      "id": "GDT1171",
+      "primary": "experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md",
+      "meaning": "Already used all six original-book streams with supplied source values and editorial groups, including newly generated reference-OOV words. Its exact contextual gain test failed; no hidden-key or native success."
+    }
+  ],
+  "decision_boundary": "The1176-family equality results on projected recipe words do not automatically transfer to original written forms: expansion, graphic normalization and record/boundary treatment can change equality. Conversely, that distinction is already documented and materially used in1166/1171. No unused complete source channel has been found, and this note does not assert that every conceivable source-writing comparison has been executed. A different source-only decision would need its own fixed projection, unknown accounting and genuinely different falsifier; no new selection is made here.",
+  "byte_identity_checked_only": {
+    "b4_original": "ca890ca0820c1ec6b1cb713eeb75cda77a2c580d017c0fa8fcbb813da068938f",
+    "w1_original": "d1ae0998ee0ef34573d8db8ab3ebac2e895ad12a0eaf23059ddbcc7a968373e7",
+    "bs1_original": "28a46cdfef82975e4d834c081edc5465f887d9efa7b86b65f70ec12a7d0993a6",
+    "gr1_original": "39285d4e49394c267de3d1cefbb7892538e08202a94ec72957d88b75574ed0a4",
+    "b4_recipes": "59bf0cf97fc21623a7683cc8059a150644bff313488939222fd200969b7b0afd",
+    "w1_recipes": "a56639c7e8795a2afe76aa7cd950a8a68ade7231e1e68170034bc30002ab48e6",
+    "bs1_recipes": "d4fc0b986404cb423b99137678a879d3df94b15602740dbfb1fd56b25bc74eb6",
+    "gr1_recipes": "41c603f445a15bcb914eb0d090c80754ad1747821b7556dd77e31c1273a12ff5"
+  },
+  "output": "Own representation note only; no ideas add, root edits, registry refresh, ledger entry, experiment, statistical count or native admission."
+}

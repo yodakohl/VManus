@@ -1,0 +1,128 @@
+{
+  "title": "RAW UNREVIEWED: each written material occurrence is one measured portion in a bounded instruction list",
+  "summary": "A modern teaching notation writes a vessel, a bounded ADD list and one complete material word per level spoon. Repeating a material word three times unambiguously requests three spoonfuls within that same instruction. Learned material roots take ordered preparation suffixes; names, prohibitions, an empty-vessel condition, instruction ends and line continuation are paid using22 working signs. This is a new explicit narrow semantic writer, not a Voynich translation, a statistical pass or a repair of955.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_COMPLETE_NARROW_TEACHING_CONTRACT",
+  "selected": false,
+  "tested": false,
+  "design": {
+    "created_utc": "2026-10-06",
+    "origin": "Independent bounded producer construction after root requested a complete human writing action. The known triples motivated checking its formal capacity; no native word was assigned a meaning or used to select a spelling.",
+    "purpose": "For a short measured preparation, a reader can check off one written material word after each equal-volume addition. Familiar materials need no new whole-command code, and the same preparation suffix applies to different learned materials. Quantities are deliberately written by occurrence, not by an unexplained plural or a hidden number.",
+    "input_domain": "Finite instructions to an addressed human operator over explicitly named vessels and already identified material stocks. Supported acts are ADD positive integer numbers of one shared level-spoon unit, MIX a named vessel, and FORBID further addition of listed material kinds. An optional IF EMPTY block conditions a sequence on the named vessel's emptiness at entry. Learned dry/ground preparation kinds and unfamiliar literal stock names are supported. No other measurements, fractional spoon, exact time/temperature, alternative branch, passive agency or full medical text is silently encoded.",
+    "measure_assumption": "Writer and reader share one physically identified level spoon and its fill convention. Every ADD occurrence requests exactly one filled unit of that same volume; powders and liquids are counted by this volume, not assumed to have equal mass. A stock that cannot be measured by this convention is outside the domain. This shared physical standard is a real external convention and must accompany the lesson.",
+    "working_units": ["a", "o", "e", "i", "n", "d", "s", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh", "q", "r", "y"],
+    "unit_scope": "Each listed item is one working drawing, including multiletter labels such as ch. These labels are not identified native letters or assigned Voynich values. The grammar uses ordinary visible word gaps; no fixed24-cell grid or hidden sentence gap is required.",
+    "learned_material_words": {
+      "root": "Any nonempty working-unit string that contains no consecutive r,r. Every independent root costs its learned material-kind meaning, stock identification and permitted preparation operations. All22 single signs and arbitrary finite root lengths are permitted by this rule; the actual shared lexicon must still be supplied.",
+      "preparation": "Append zero or more ordered suffixes [r,r,o] for DRIED and [r,r,e] for GROUND. Read from left to right as successive preparation provenance: X-rro-rre means stock obtained by drying X and then grinding the dried result. It is not automatically equal to X-rre-rro. Each suffix is written; no operation or ingredient is inferred from resemblance.",
+      "suffix_boundary_parser": "For an ordinary material word, strip exact three-unit rro/rre suffixes from the RIGHT until neither fits, then require the remaining nonempty root to contain no rr. Reverse the stripped suffix list to recover its written order. This matters when a root itself ends in r: r+rre is rrre, and cutting at the first rr would be wrong. A root cannot itself end in an entire rro/rre because rr is forbidden inside roots, so the right-anchored tail is unique. For a literal material, first decode its rrd payload through qq and require the remainder to be a sequence of these exact suffix triples.",
+      "meaning_limit": "These words select already available prepared stock. An ADD instruction does not itself silently perform the drying/grinding. Writer and reader must share the relevant material practice and agree that the operation is meaningful for that stock. The suffix does not supply an unstated numerical drying endpoint or grind size.",
+      "teaching_lexicon": [
+        {"units": ["f", "p", "t"], "meaning": "water stock", "allowed_preparations": []},
+        {"units": ["t", "p", "f"], "meaning": "the explicitly identified leaf stock", "allowed_preparations": ["DRIED", "GROUND"]},
+        {"units": ["p", "t", "f"], "meaning": "the explicitly identified oil stock", "allowed_preparations": []}
+      ],
+      "no_free_native_lexicon": "The three spellings and meanings are invented teaching entries only. An open larger vocabulary is not free: every root needs a shared lexical meaning. No root is bound to qokedy, daiin, ol, dy or any other native expression."
+    },
+    "literal_names": {
+      "source_domain": "Nonempty exact strings of the95 printable ASCII characters. Other characters are rejected, never silently normalized. Names identify externally labelled vessels or stocks; their spelling does not teach an unknown material's properties.",
+      "one_word_frame": "A literal name is one written word: [r,r,d] + nonempty encoded payload + [q,q]. Ordinary roots never begin r,r. Because q is never a literal one-unit character and every payload q consumes two non-q selectors, q,q cannot occur inside a valid payload. The terminator is therefore read without guessing a length. A material name may then receive the ordinary preparation suffixes when that named stock's compatibility is shared; vessel names may not.",
+      "ordinary_letters": "abcdefghijklmnopqrstu",
+      "selectors_in_order": ["a", "o", "e", "i", "n", "d", "s", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh", "r", "y"],
+      "ordinary_rule": "The21 lowercase letters a through u map to these21 selectors in order, one drawing each.",
+      "rare_characters_in_order": ["v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", " ", "!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"],
+      "rare_rule": "For zero-based rare index j, write q, selector[floor(j/21)], selector[j mod21]. Reader consumes exactly two non-q selectors after each q and rejects j>=74. The fixed table can be printed in four rows for hand lookup. At q,q the name ends instead; no incomplete q escape is legal.",
+      "same_name": "An exact repeated name denotes the same externally identified vessel or stock within this message. Different bearers require different explicit qualified names. Vessel/stock role is fixed by the instruction slot, not guessed from the name.",
+      "canonical_choice": "Vessels are always named literally. A material uses its shared learned root if it has one; otherwise its full literal stock label is written. An unknown label supplies reference to that labelled stock, not a new chemical definition or a freely guessed root meaning.",
+      "example": {"name": "Mira", "payload_units": ["q", "a", "cph", "m", "cph", "a"], "complete_units": ["r", "r", "d", "q", "a", "cph", "m", "cph", "a", "q", "q"], "compact": "rrdqacphmcphaqq"},
+      "reuse_note": "The explicit95-character spelling table is reused unchanged from the separate953 physical teaching lesson. The instruction language, single-word name terminator and measured-list semantics are different and fully stated here; no953 source or native result is reopened."
+    },
+    "instruction_grammar": {
+      "controls": [
+        {"units": ["r", "r", "a"], "role": "ADD: next word is the literal vessel name; subsequent material words each request exactly one shared level spoon until END"},
+        {"units": ["r", "r", "i"], "role": "MIX: next word is the literal vessel name, then END; mix its contents by the shared ordinary practice, with no invented duration or endpoint"},
+        {"units": ["r", "r", "n"], "role": "FORBID: next word is the literal vessel name; subsequent material words name forbidden additions until END"},
+        {"units": ["r", "r", "y"], "role": "END of ADD/MIX/FORBID instruction"},
+        {"units": ["r", "r", "l"], "role": "IF EMPTY: next word is the literal vessel name; conditionally execute following complete instructions until END-IF"},
+        {"units": ["r", "r", "k"], "role": "END-IF"},
+        {"units": ["r", "r", "p"], "role": "END-MESSAGE, mandatory exactly once at the end"}
+      ],
+      "formal_sequence": "A message contains one or more complete instructions or IF blocks, then END-MESSAGE. An IF block contains one or more complete instructions and its explicit END-IF. Nested IF blocks are outside this narrow contract. ADD/FORBID need at least one material word; MIX takes none. A name or a material word never substitutes for a control.",
+      "add_semantics": "Consume the material words in written order. Each occurrence requests one spoon; three identical adjacent words request three successive equal-volume additions of that stock. There is no later choice among amount, copying error, emphasis or a single action. A repeated word with a preparation suffix repeats the entire prepared stock, not just the last suffix.",
+      "forbid_semantics": "From that FORBID instruction to the end of its enclosing block, do not ADD any listed material kind to that vessel. In an IF block the scope ends at END-IF; at top level it ends at END-MESSAGE. This is a negative constraint on later additions, not removal of material already present and not a zero-volume positive addition. Repeated names in a FORBID list add no new prohibition; canonical writing lists each once in the author's given order. A later conflicting ADD is reported as an inconsistent instruction, not silently repaired.",
+      "condition_semantics": "Evaluate EMPTY for the explicitly named vessel once at IF entry. If true execute that entire following block; if false execute none of its instructions. If its state is unknown, the note does not authorize guessing. A first ADD making it nonempty does not re-evaluate or cancel the remaining block.",
+      "message_semantics": "The human addressee is the instructed operator, an explicit input convention. Instructions are ordered. No narrative assertion that execution occurred is made, and no quantities beyond the written spoon occurrences are inferred.",
+      "reading": "After line reconstruction, recognize a control word, read its required literal vessel name, and parse each ordinary/literal material word and its ordered preparation tail until END. Retain an active IF-entry truth value and the written prohibitions for that block. END-IF closes that scope. END-MESSAGE closes the whole message and is never implicit at a physical row end."
+    },
+    "spacing_and_line_continuation": {
+      "ordinary": "Separate complete written words with an ordinary visible gap. Spaces have no graded-width semantic role. Place line breaks at existing word gaps whenever possible; these add no instruction end, reset or scope change. Page width is whatever usable writing area the human has, not a fixed24-cell native hypothesis.",
+      "continuation_word": ["r", "r", "ch"],
+      "overwide_rule": "If one word is too wide for an empty line, split it between complete working units. End the line with its fragment, a visible gap and the separate continuation word rrch; start the next line with rrch, a gap and the next fragment. Repeat if necessary. These paired markers explicitly join fragments without a lexical gap before any parsing or name decoding. Reserve enough space for the marker; move to a fresh line first if necessary.",
+      "collision_rule": "No complete legal content/control word equals rrch. Choose cuts so no fragment equals exactly rrch. If convenient local cuts cannot satisfy this, the complete finite fallback is one working unit per fragment; no such fragment can equal the three-unit marker. A usable line must be wide enough for an initial marker, gap, one fragment glyph, gap and final marker when continuation spans several rows. This is a minimal physical ability to write the controls, not a fixed ruled native line width. Cut choices change layout only, not the reconstructed words. Each line has at most one continued word crossing that edge.",
+      "reader": "A row ending in the separate rrch word must be followed by a row beginning rrch. Remove that marker pair and join the adjacent fragments. A missing mate is an error. Do not interpret partial rr or q escapes before reconstruction. Ordinary completed lines without this pair preserve a word gap only.",
+      "complete_example": {
+        "logical_word": "rrdqacphmcphaqq",
+        "line_1_units": [["r", "r", "d", "q", "a", "cph"], ["r", "r", "ch"]],
+        "line_2_units": [["r", "r", "ch"], ["m", "cph", "a", "q", "q"]],
+        "readback": "Remove the paired rrch control words and join the six-unit and five-unit fragments. The result is the full literal name Mira. This can fit a small teaching line; no particular cell width is imposed on the manuscript."
+      },
+      "cost": "Each overwide break adds six control glyphs and visible gaps. Long names or roots remain long; no physical information is hidden outside the paid note. Instruction controls and continuation controls remain distinct."
+    },
+    "complete_exposed_hand_message": {
+      "source_meaning": "If the vessel labelled Mira is empty when this block begins: do not add oil to it during the block; add three level spoonfuls of water, followed by one level spoonful of the leaf stock that was dried and then ground; mix Mira's contents. If Mira is not empty, do none of those acts. This is an invented teaching instruction, not medical advice or a historical recipe transcription.",
+      "written_words_by_instruction": [
+        ["rrl", "rrdqacphmcphaqq"],
+        ["rrn", "rrdqacphmcphaqq", "ptf", "rry"],
+        ["rra", "rrdqacphmcphaqq", "fpt", "fpt", "fpt", "tpfrrorre", "rry"],
+        ["rri", "rrdqacphmcphaqq", "rry"],
+        ["rrk", "rrp"]
+      ],
+      "hand_readback": [
+        "rrl and the fully decoded literal name establish the once-evaluated empty-Mira condition.",
+        "rrn Mira ptf rry prohibits subsequent oil additions within this block. It does not remove pre-existing oil or mean a quantity of zero oil.",
+        "rra Mira has three successive fpt occurrences, hence three level spoons of the same water stock. tpf+rr o+rr e selects one spoon of dried-then-ground leaf stock. rry closes this exact ADD list.",
+        "rri Mira rry requests mixing. rrk closes the guarded block and its local prohibition; rrp explicitly ends the message."
+      ],
+      "counterfactual_written_difference": "Deleting one fpt changes the ADD quantity from three spoons to two. Reordering rro/rre changes preparation provenance. Moving the oil word from FORBID to ADD reverses its instruction role. None can be recovered by free contextual paraphrase.",
+      "test_status": "Author-worked and answer exposed. No held-source challenge, independent readback, executable encoder, native fit or frequency computation."
+    },
+    "costs": {
+      "vocabulary": "One learned root per ordinary material plus its actual meaning and stock identification. No fixed29/64 universal ingredient table, no independent code for every derived full command. New unknown labels cost their complete literal spelling; unfamiliar concepts still require shared knowledge.",
+      "grammar": "Seven explicit control words, two preparation suffixes, one literal-name frame and one paired continuation marker. The names use the fully stated21+74 character table. Normal gaps and every instruction/message boundary are physically written.",
+      "quantity": "One whole material word per spoon. Large quantities are correspondingly expensive; the notation offers checking simplicity, not universal compression. No amount or optional repetition is chosen to improve a target histogram.",
+      "memory": "The current named vessel, current instruction mode, one non-nested guard truth value, and the explicitly written prohibition set of the active block. The reader may look back at those written clauses; no hidden source-text sidecar, word-history cache or alias counter is required."
+    },
+    "known_form_obligations": [
+      "Identical adjacent triples are directly legal inside a single ADD list with ordinary gaps, and have exactly the one-measure-per-occurrence meaning. They are not explained by an invisible sentence reset or an optional scribal error.",
+      "Complete ordinary roots may be one sign, two signs, long, or contain more than three interior sign types, and end in any working sign. This is potential architecture capacity, not a supplied vocabulary for native shapes.",
+      "Bare abstract B and BB can both be learned material roots if legal; BB inside one word is not automatically two spoons. The amount rule applies to separated complete material occurrences. No ol/olol or daldy-family value is supplied.",
+      "Every actual instruction needs its written control, target name and END. Every message needs END-MESSAGE. A native application must account for these necessary controls and its line continuations; their mere availability does not establish their occurrence.",
+      "The rr reservation and qq name ending impose concrete literal form restrictions. No native query was used to evade them, and no global remapping was searched. q-to-o concentration, final-y frequency, actual word families and the total control burden are unexplained.",
+      "The model's one-spoon list would be wrong for a source where a triple means one total dose, a threefold preparation procedure, accidental copying or three distinct people. Those are different inputs/contracts, not adjustable readings of this same output."
+    ],
+    "predecessor_review": [
+      {"id": "IDEA000426", "primary": "research_registry/proposals/raw_each_ana_list_distribution_writer_20260920.json", "difference": "426 expands EACH over k different list members into k explicit QUANTITY_EVENT(q,member) events; its source writes ana plus one shared amount and does not support arbitrary repeated quantity words. This new lesson instead repeats the whole measured material for each actual spoon in a deliberately declared input, with a complete carrier and instruction boundary. It does not claim that this is how historical ana was written."},
+      {"id": "IDEA000955", "difference": "955 copies a primitive nominal stem inside one word to designate n distinct countable members, with outer modifiers and collection/predicate obligations. Here separated complete material words denote repeated equal-volume portions of a stock. Three water portions need not be three distinct kinds or count-noun individuals.955 remains unchanged; this is not its repaired renderer."},
+      {"id": "IDEA000947; GDT1216", "difference": "The old doubled action head forced a following nominal argument and failed its retained BB B obligation. This writer repeats material operands under a separately written ADD scope, not a doubled predicate head. No old binding is reused."},
+      {"id": "GDT1000; GDT1005", "difference": "Their fixed source accounts, compact quantity event policy and record/group ownership failures remain. No Trotula or Cennini source is reserialized here and no prior failure is repaired."},
+      {"id": "GDT1202; GDT1226", "difference": "This writer generates measured occurrences from declared command content rather than mapping each original source word to one or two forms. Those fixed-source frequency results remain; this distinction is not a proof of passing any profile."},
+      {"id": "IDEA000953 physical lesson", "difference": "Only its explicitly paid finite literal-character table is reused. The new instruction/list semantics, name framing and ordinary-space control words are not a modification of953's state/change grammar or its frozen wide-gap contract."}
+    ],
+    "additional_primary_followups": [
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FU_IDEA_SUPPLY.md:69–104",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FV_FW_NEXT_IDEAS.md:62–76",
+      "experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md"
+    ],
+    "bounded_navigation": "Read live route and composition topic. Bounded searches included repeated ingredient tally list quantity; duplicates each repeated material word one measured spoon instruction row; route-check repeated ingredient word unit measure tally. Raw426 and later FU/FV-FW discussions were read. These searches are not an exhaustive novelty proof.",
+    "smallest_future_falsifier": "First have a reader recover the exact target vessel, once-only guard, prohibition scope, number and order of spoon additions and ordered preparation meaning from a separately chosen complete message. A lost or duplicated material token must change the requested amount by exactly one spoon. This is a narrow source-side readability test only; any native use also requires independently justified occurrence/control/framing bindings and an actual covered source, not invented target quantities.",
+    "selection_limit": "Retain RAW for root review, not selected for a hand trial, source-statistics run or native reading. No claim of historical attestation, useful compression, correct native meanings or all-source coverage.",
+    "access": "Own proposal and ideas add only. No native/source counts, raw transcription, image, new corpus, fit, decoder, other agent, root route/state/ledger edit, metadata refresh or publication."
+  },
+  "relations": [
+    {"type": "related_to", "target": "IDEA000426"},
+    {"type": "related_to", "target": "IDEA000955"},
+    {"type": "related_to", "target": "IDEA000953"},
+    {"type": "closed_predecessor", "target": "GDT1216"}
+  ]
+}

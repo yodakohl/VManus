@@ -1,0 +1,114 @@
+[
+  {
+    "case": "unit_lattice_requires_integer_combinations",
+    "status": "PASS",
+    "rank": 2,
+    "index": 1
+  },
+  {
+    "case": "torsion_two",
+    "status": "PASS",
+    "rank": 1,
+    "index": 2
+  },
+  {
+    "case": "free_dimension",
+    "status": "PASS",
+    "rank": 1,
+    "index": null
+  },
+  {
+    "case": "rational_full_rank_with_torsion_six",
+    "status": "PASS",
+    "rank": 2,
+    "index": 6
+  },
+  {
+    "matrix": [
+      [
+        2,
+        -1
+      ],
+      [
+        4,
+        -1
+      ]
+    ],
+    "expected_index": 2,
+    "lattice": {
+      "dimension": 2,
+      "rank": 2,
+      "index": 2,
+      "unit_lattice": false,
+      "basis": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "coefficients": [
+        {
+          "0": -1,
+          "1": 1
+        },
+        {
+          "0": -2,
+          "1": 1
+        }
+      ],
+      "used_indices": [
+        0,
+        1
+      ],
+      "rows_processed": 2
+    }
+  },
+  {
+    "matrix": [
+      [
+        2,
+        -1
+      ],
+      [
+        3,
+        -1
+      ]
+    ],
+    "expected_index": 1,
+    "lattice": {
+      "dimension": 2,
+      "rank": 2,
+      "index": 1,
+      "unit_lattice": true,
+      "basis": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "coefficients": [
+        {
+          "0": -1,
+          "1": 1
+        },
+        {
+          "0": -3,
+          "1": 2
+        }
+      ],
+      "used_indices": [
+        0,
+        1
+      ],
+      "rows_processed": 2
+    }
+  }
+]

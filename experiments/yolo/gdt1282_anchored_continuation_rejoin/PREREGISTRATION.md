@@ -1,0 +1,67 @@
+# GDT1282: fixed-anchor divergence followed by literal rejoining
+
+## Decision before native calculation
+IDEA196asks whether complete continuations after an identical wordcontext rejoin.
+926supplies13fixedZLcontexts, each withtwooccurrencesondifferentphysicalleaves
+anddifferentfirstfollowingwords.927alreadyauditedonechorbranch;1153's prior-word
+selector failed and isnotretested.928found no two disjoint MAXIMALmatches in
+completeparagraphpairs. That does not exhaust the present anchored question.
+Source-freeexample P=abcxdef,Q=abcyabcxdef (eachletterawholeword): initialabc,
+divergencex/y andlaterdefexist.928maximizeslatermatchbackwardtowholeP, makingit
+overlapinitialabc inP. This isnotanerrorin928's registeredmaximalmatchtest.
+The presentdifferentfalsifier fixes theinitialcontext andforbidsbackwardextension
+acrossit; anchorlengthremains3,notrelaxedafter928failure.
+Unknown: doanyofthose13fixedcandidatepairs haveanassessable latercommon3word
+sequence AFTER at leastone divergentgroup on BOTHsides, beforetheir own complete
+paragraphends? Ifyes retain source-boundcomparisoncases,notsemanticbranches;
+ifnone park thisexactrejoinroute. No causal/conditional-word interpretation.
+Smallesttest: old13seeds+old928completeparagraphs, boundedliteralcomparison.
+No newmining, parser, model,images,reserve,meaningorparameterfit. Inclusiveouter
+budget16:08--16:58UTC8October2026 covers earliercandidate-selectionreview,
+methoddifferenceproof, implementation, validation andlocalclosure.
+
+## Sources and eligibility
+Inputs unchanged926CANDIDATES_ZL3b,928PARAGRAPHSand theirvalidatedsourcecaches.
+Keepall13initialcontexts andtheiroriginaltwo(page,locus)sites; do notreplace
+failedalignmentsbyadditionaloccurrences. ZLprimary. ITsensitivityatsamesites;
+RFwithnocompleteparagraphflags remainsunscorable,noprojectingnewboundaries.
+For eachreader/site require anexistingcomplete928paragraph and anchor-eligible
+wholeline under928's literal/definiteseam policy. Locate the sameexactseedanchor
+uniquelyintheline;requireafollowinggroup. Alternatereadergroupindicesmaydiffer;
+retainactualwords/IDs,notZLindices. Actualtwofollowingwords mustdiffer. ZLmust
+matchold926occurrences exactly. No newwordnormalization or repaired uncertainty.
+
+## Rejoin rule, complete tails and no hidden deletion
+The firstdivergentgroup index is immediatelyafterinitialanchor. Searchonlylater
+startpositions STRICTLYafterthatgroup on BOTHsides, soeachbranchcontains>=1group.
+Rightanchor=threeconsecutiveexactwholewordswith>=2differentforms, entirelyinside
+ananchor-eligible928line. It mayequaltheinitialcontext (recordthisseparately).
+Do notextendleft. Forillustration extendrightasfarasidenticalwordscontinuewithin
+bothsamephysical lines; fixedqualificationremains the original3wordthreshold.
+RetainALLrightanchorpositionpairs;overlappingseedsinlongermatchesnotindependent.
+Representativeonly: minimize(sumofbranchlengths,maximumbranchlength,offsetA,
+offsetB,wordtuple). No scorechoosestherepresentative.
+Keepcomplete rawcontinuationsfromdivergence tooriginalparagraphends, allunknown
+groups andsourceIDs. Preserve excludedtail-lines and reasons. Missingliteral
+joinunderthispolicy doesNOTexcludeoneinuncertaintext,acrosslineboundaries,
+shorterthan3words,afternextparagraph,ornonliteralparaphrase. Branchescontaining
+excludedlines areflagged;anexactanchorisnotafullcontentreading.
+
+## Outcomes
+For each13context/reader pair:UNTESTABLE(reason),NO_WRITTEN_DIVERGENCE,
+LITERAL_REJOIN_FOUND,orNO_ELIGIBLE_LITERAL_REJOIN. Primaryaggregate
+BOUNDED_LITERAL_REJOIN_FOUND ifatleastoneZLpairhasajoin;else
+NO_LITERAL_REJOIN_IN_FIXED_13. Reporteligiblepairs separatelyfromunassessable.
+No minimumsemanticreplicationclaim,pvalue,heldconfirmation,wordmeaningorGDT388edge.
+Also describewhetherfirstdivergentgroupisimmediatelyparagraph-final,without
+promotingclosurewords. Original926branch-replicationcapacity failurestays.
+
+## Checks
+Source-freecontrols include the P/Qnon-subsumptionexample,properrejoin,nomatch,
+forbiddenzero-lengthbranch,cross-linecandidateexclusion,sameinitialrightanchor,
+andmaximalextensionoverlap. Verifyoriginal928censusactuallyrejectsits disjoint
+maximalcriteriononthecounterexample;do notmutateorpatcholdcode.
+Independentvalidatorimportsnonewprimarycode: directnestedrightpositioncomparison,
+rawsourceID/word/line-eligibility/paragraph-boundarychecks,allpairdecisionsandcounts.
+Protocolandbothprogramslockedbeforethe13candidatecalculation. Oldprojectexposure
+isexplicit;thisisnotnewunexposeddata. No relaxedcountermeasureafterresult.

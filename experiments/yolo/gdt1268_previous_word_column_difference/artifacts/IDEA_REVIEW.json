@@ -1,0 +1,59 @@
+{
+  "record_id": "GDT1268",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; source-free buffer inverse review; independent ring-walk/source/gate validator",
+  "assessment_basis": "one_fixed_word_coordinate_source_writer_with_reused_exact_sample_invariant_screen",
+  "reason": "The complete6288word source roundtrips but H2=4.360984909 exceeds every fixed allowance(max2.621689042).0jointmatches in each1024sample reader set. No parameter repair, native source selection or language ban.",
+  "blockers": [
+    {
+      "code": "fixed_source_output_entropy_mismatch",
+      "detail": "The writer increases local unpredictability; any global22sign bijection preserves this failure. Existing lengths pass many comparisons; no full native decoder or morphology inferred.",
+      "evidence": [
+        "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md",
+        "experiments/yolo/gdt1268_previous_word_column_difference/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Relabel output signs",
+      "Reverse alignment or tune ring order after seeing failure",
+      "Add hidden tail memory or padding",
+      "Change source or thresholds as automatic repair",
+      "Treat roundtrip as native-fit evidence"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1193",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1217",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1228",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1230",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md"
+      ]
+    }
+  ]
+}

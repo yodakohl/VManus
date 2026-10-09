@@ -1,0 +1,58 @@
+{
+  "status": "POST_RESULT_ALIAS_AND_NONE_REVERSAL_CONSEQUENCES",
+  "recorded_utc": "2026-10-07T21:03:47.201322+00:00",
+  "original_decision_retained": "ALL_SMALL_PAIR_TABLES_EXCLUDED",
+  "new_native_count": false,
+  "new_native_access": false,
+  "new_experiment_or_preregistration_claim": false,
+  "inherited_lower_bounds": {
+    "IT2a": 70,
+    "ZL3b": 72
+  },
+  "alias_consequence": {
+    "pair_coded_source_units_at_most": 32,
+    "fixed_pair_spellings_per_unit_at_most": 2,
+    "maximum_pair_dictionary": 64,
+    "excluded_each_reader": {
+      "IT2a": true,
+      "ZL3b": true
+    },
+    "proof": "The union of at most32sets of at most2pairs has size at most64. Shared spellings can only reduce the union. Any selection policy between these same pairs leaves this bound unchanged.",
+    "scope": "Any extra pair-coded letters, names, punctuation, controls or literal escapes count toward the same total inventory. Only the single optional h code remains separately allowed under1269. The choice may vary arbitrarily; the fixed union of spellings may not."
+  },
+  "none_reversal": {
+    "applies_only_to": "NO_SINGLETON all-two-unit code family; reversal of entire snippets/stream only, not separate words or physical lines",
+    "proof": "For a snippet of length n, reversing it and every pair sends phase p to p xor(n mod2). Therefore pair reversal maps P0 intersect P1 bijectively to the reversed snippet intersection; it commutes with union across snippets and preserves the bound.",
+    "synthetic_binary_strings_checked": 511,
+    "bounds_unchanged": {
+      "IT2a": 70,
+      "ZL3b": 72
+    },
+    "marker_counterexample": {
+      "marker": "h",
+      "forward": "abha",
+      "forward_required": [],
+      "reverse": "ahba",
+      "reverse_required": [
+        [
+          "b",
+          "a"
+        ]
+      ],
+      "scope": "No reversal conclusion for the singleton-control family. Reversal changes prefix-style no-pair-starts-h to a suffix-style condition."
+    }
+  },
+  "source_free_review": "bounded_idea_supply independently confirmed the union bound, phase-parity reversal and h-family limitation by messages before this arithmetic/synthetic check; no native counts by reviewer.",
+  "limits": [
+    "Original1269registered32-entry decision unchanged;64-entry exclusion is an explicit later algebraic consequence, not a rerun or a fitted capacity repair.",
+    "Does not exclude all homophony, changing contextual codebooks, more code entries, variable widths or different working units.",
+    "Does not identify32sounds,70/72native letters, a language or any word meaning.",
+    "1202concerned up to2WHOLE-WORD aliases on4fixedsources, not these pair-coded source units; its result is separate.",
+    "No proof that every viable cipher must have3spellings per letter; the conditional bound cannot choose a surviving architecture."
+  ],
+  "bindings": {
+    "experiments/yolo/gdt1269_space_free_pair_table_capacity/artifacts/RESULT.json": "97748ed335871498e635cc96329c1bc90339284b2d7c4e9e56bc89ff37d80f62",
+    "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md": "515caa144e960321a4fde542365c2fafc7ae4d96805ef9bb8cf3e7434c55d8aa",
+    "research_registry/proposals/production_origin_supply_20261003/PAIR_SCOPE_20261007.py": "4199ec37b027dd54b2098cb092c800520255b7475db010a2f78374b9c27ebe7c"
+  }
+}

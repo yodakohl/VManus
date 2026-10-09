@@ -1,0 +1,117 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed source/state/one-printed-group-per-source-token capacity only; no fullRAWphysical-continuation exclusion, glyph mapping, language or native word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT1174",
+    "GDT1177",
+    "GDT1180",
+    "GDT1202"
+  ],
+  "experiment_id": "GDT1288",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "unchanged exposed source projection or target aggregate",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "unchanged exposed source projection or target aggregate",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "9f7a114ba5387d69f3ef86dffd1406cd97b6f27e12c6e608a6c2faa79b14b73b"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "9f7a114ba5387d69f3ef86dffd1406cd97b6f27e12c6e608a6c2faa79b14b73b"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "0dd17403f25f7d2fb392849680e48d02231a36a179e74e7975a918f5839909f9"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md",
+      "role": "primary_report",
+      "sha256": "60a5f41d457072e641d69f9b7e45f76931b34c94a27bc80fe20e41066f269005"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/CELLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "037b119e2258316bac2ffa17da328198e6ca555617f2bf4bda23b682cce2a25b"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/FIXTURES.json",
+      "role": "reproducibility artifact",
+      "sha256": "41cfd9daf9563bf452918490272a33ed3a545b2c20d2187f5da3808b4bdaeb87"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "d197d6a181ec3fbd2ae43f41bd0eed497c5f9d029e8720a645cf3f52b9429be6"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/SOURCE_TRACES.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "5e0d58a5eb3d026f2eacded13ccab3ff2d24f90d332885f36a0b0c0d1e3c2adb"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/SPECIFICATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "48efd5fe41e05013b644ebbf52b6ff64515fc54a9894e9cd9f0d8ed82f529b4b"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "c6c212b4e7415dce5f88cb0c7997d016b4c596090e785b3a6447e716f92a9526"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "58b2d539ac170ce6ebf7328259c1717feacd43d8a3b824094123742170bdf4a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "e354e7e77206d1bade43a7bccf2419d4b6143619ff1d0061e884233d71299a1a"
+    },
+    {
+      "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "22bbd5ed7871f17291ac7bcf4ed00d86153d760205df72478f8709299ca9aea6"
+    }
+  ],
+  "question": "Can the actual persistent three-overlapping-bank word-entry cells meet the unchanged necessary frequency limits on four fixed sources?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "overlapping_bank_frequency_capacity",
+  "status": "FIXED_OVERLAPPING_BANK_CAPACITY_FAIL",
+  "title": "Fixed overlapping alphabet-bank frequency capacity",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/artifacts/VALIDATION.json"
+  }
+}

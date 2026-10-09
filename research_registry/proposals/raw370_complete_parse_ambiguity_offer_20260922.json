@@ -1,0 +1,167 @@
+{
+  "title": "RAW G-P82: whole powder content consequences across every derivation of one newly completed typed grammar",
+  "status": "RAW_UNREVIEWED_NEW_GRAMMAR_HYPOTHESIS_NOT_EXECUTED",
+  "created_utc": "2026-09-22T18:39:00Z",
+  "timestamp_scope": "Drafting-session label only; final file hash and delivery receipt fix this offer. No public-before-execution claim; no execution occurred.",
+  "human_contract": "research_registry/proposals/raw370_complete_parse_ambiguity_offer_20260922.md",
+  "parent_idea": "IDEA000516",
+  "question": "Do all complete trees admitted by this new fixed grammar preserve the material owners, quantity contradiction and ancestry consequences of the whole frozen powder reading, without using the handwritten clause partition?",
+  "old_grammar_status": "The18old production families are schematic and explicitly did not enumerate competing parses. ALL_OLD_DERIVATIONS is undefined until the missing categories/root/compound/reference interfaces are specified.",
+  "scope": {
+    "fixed_units": [
+      {"reader": "ZL3b", "page": "f21r", "loci": ["f21r.8", "f21r.9", "f21r.10", "f21r.11", "f21r.12"]},
+      {"reader": "ZL3b", "page": "f32v", "loci": ["f32v.7", "f32v.8", "f32v.9", "f32v.10", "f32v.11"]},
+      {"reader": "IT2a", "page": "f21r", "loci": ["f21r.8", "f21r.9", "f21r.10", "f21r.11", "f21r.12"]},
+      {"reader": "IT2a", "page": "f32v", "loci": ["f32v.7", "f32v.8", "f32v.9", "f32v.10", "f32v.11"]},
+      {"reader": "RF1b", "page": "f21r", "loci": ["f21r.8", "f21r.9", "f21r.10", "f21r.11", "f21r.12"]},
+      {"reader": "RF1b", "page": "f32v", "loci": ["f32v.7", "f32v.8", "f32v.9", "f32v.10", "f32v.11"]}
+    ],
+    "expected_primary_groups": 82,
+    "expected_groups_by_reader": {"ZL3b": 82, "IT2a": 78, "RF1b": 78},
+    "expected_all_raw_groups": 238,
+    "raw_source_field": "complete_positional_alignment, corroborated against source_packet",
+    "rf_boundary_status": "CORRESPONDING_PRESELECTED_LINE_SPAN_NO_RF_PARAGRAPH_BOUNDARIES",
+    "source_flags": "retain every flag and unresolved group; no new literal-only gate",
+    "exposure": "The entire source and intended reading were already exposed before this new grammar completion.",
+    "forbidden_oracles": ["primary_whole_readings.clauses as parse fences", "line/locus identities as productions or reference rules", "hand-ledger node letters as desired lookup IDs", "target-specific unknown terminal categories", "favorable semantic filtering before retaining all syntax trees"],
+    "new_target_census": false,
+    "new_image_source_reserve_contact": false
+  },
+  "lexical_contract": {
+    "base_entries": 65,
+    "alternate_entries": 15,
+    "new_values": 0,
+    "new_aliases": 0,
+    "new_general_packing_rule": false,
+    "policy": "Preserve every full base/alternate entry. Exact previously declared same-value aliases only. Unknown or changed value is INPUT_MISMATCH, never a fresh category.",
+    "terminal_classes": {
+      "Kind": ["ROOT_MATERIAL", "PLANT_MATERIAL", "PREPARED_BULK", "COARSE_GRIST", "COARSE_PART", "COARSE_FRACTION", "FINE_PART", "RESIDUE", "POWDER", "FIBRES", "GRANULES", "PASTE", "WATER", "OIL"],
+      "Property": ["FRESH", "DRY_STATE", "CLEAN", "FINE", "COARSE"],
+      "UnaryOperation": ["DRY", "CRUSH", "SPREAD", "GRIND", "MIX", "COVER", "SIEVE"],
+      "Manner": ["THINLY", "EVENLY", "COARSELY", "THOROUGHLY"],
+      "Location": ["IN_SUN", "IN_SHADE"],
+      "Duration": ["OVERNIGHT"],
+      "Tool": ["WITH_SIEVE", "WITH_CLOTH"],
+      "SupplyKind": ["WATER", "OIL"],
+      "CoarsePartKind": ["COARSE_PART", "COARSE_FRACTION", "RESIDUE"],
+      "FinePartKind": ["FINE_PART"],
+      "PartKind": ["COARSE_PART", "COARSE_FRACTION", "FINE_PART", "RESIDUE"],
+      "ProductKind": ["FIBRES", "GRANULES", "PASTE"],
+      "GradeSelector": ["FINE", "COARSE"]
+    },
+    "other_terminals": ["ACQUIRE", "RINSE", "THEN", "FOR_OUTPUT", "UNTIL", "SEPARATE_BY_GRADE", "FROM", "LIFT_OUT", "DEFINITE", "SORT", "KEEP", "STORE_SEPARATELY", "RETRIEVE", "KNEAD", "TO_RESULT", "ONE", "PORTION", "WITH_MEDIUM", "MASS_UNIT_Q"],
+    "inherited_compound_interfaces": [
+      {"word": "cthodaiin", "parts": ["ctho", "daiin"], "lock": "One MaterialNP owns both POWDER and MASS_UNIT_Q; no clause split."},
+      {"word": "fchokshy", "parts": ["fcho", "kshy"], "lock": "One I1 owns ACQUIRE and ROOT_MATERIAL."},
+      {"word": "shcthey", "parts": ["sh", "cthey"], "lock": "SPREAD is the operation inside this THEN's following clause."},
+      {"word": "chyky", "parts": ["chy", "ky"], "lock": "One A1; COARSELY modifies this GRIND."},
+      {"word": "otshchor", "parts": ["otshcho", "r"], "lock": "IN_SHADE is an adjunct of the preceding eligible operation; THEN introduces the next complete clause. Ordered seam authorized only here."},
+      {"word": "cphol", "parts": ["cpho", "l"], "lock": "One J1 owns KNEAD and TO_RESULT."}
+    ],
+    "coverage_rule": "Virtual compound terminals retain one raw-group owner ID; every raw group exactly once, every declared component used, no inferred general morpheme."
+  },
+  "grammar": {
+    "label": "G-P82_NEW_COMPLETION_V1",
+    "notation": "EBNF finite repetition; every item consumes at least one terminal; alternatives are exhaustive.",
+    "helpers": {
+      "Paragraph": "Initial Clause*",
+      "Clause": "OperationClause | G1 | G2 | T1",
+      "OperationClause": "A1 | A2 | P1 | P2 | R1 | P3 | K1 | K2 | R2 | J1 | M1",
+      "Adjunct": "Manner | Location | Duration | Tool",
+      "ToolAdjunct": "Tool",
+      "ExistingMaterialNP": "MaterialNP",
+      "ExternalSupplyNP": "SupplyKind",
+      "PartNP": "PartKind Property* | PartKind Property* UnitRun Property*",
+      "CoarsePartNP": "CoarsePartKind Property* | CoarsePartKind Property* UnitRun Property*",
+      "FinePartNP": "FinePartKind Property* | FinePartKind Property* UnitRun Property*",
+      "Condition": "Property | MaterialNP"
+    },
+    "eighteen_families": [
+      {"id": "N1", "lhs": "MaterialNP", "rhs": "Kind Property* | Kind Property* UnitRun Property*"},
+      {"id": "N2", "lhs": "UnitRun", "rhs": "MASS_UNIT_Q | MASS_UNIT_Q MASS_UNIT_Q"},
+      {"id": "N3", "lhs": "PortionNP", "rhs": "ProductKind ONE PORTION"},
+      {"id": "I1", "lhs": "Initial", "rhs": "Kind | ACQUIRE MaterialNP"},
+      {"id": "A1", "lhs": "A1", "rhs": "Adjunct* UnaryOperation Adjunct* | Adjunct* UnaryOperation Adjunct* ExistingMaterialNP Adjunct*"},
+      {"id": "A2", "lhs": "A2", "rhs": "RINSE ExternalSupplyNP"},
+      {"id": "T1", "lhs": "T1", "rhs": "THEN Clause"},
+      {"id": "G1", "lhs": "G1", "rhs": "FOR_OUTPUT MaterialNP"},
+      {"id": "G2", "lhs": "G2", "rhs": "OperationClause UNTIL Condition"},
+      {"id": "P1", "lhs": "P1", "rhs": "SEPARATE_BY_GRADE CoarsePartNP FROM FinePartNP ToolAdjunct"},
+      {"id": "P2", "lhs": "P2", "rhs": "MaterialNP MaterialNP SEPARATE_BY_GRADE"},
+      {"id": "R1", "lhs": "R1", "rhs": "LIFT_OUT DEFINITE PartNP"},
+      {"id": "P3", "lhs": "P3", "rhs": "SORT ToolAdjunct KEEP MaterialNP MaterialNP"},
+      {"id": "K1", "lhs": "K1", "rhs": "KEEP GradeSelector"},
+      {"id": "K2", "lhs": "K2", "rhs": "STORE_SEPARATELY ExistingMaterialNP"},
+      {"id": "R2", "lhs": "R2", "rhs": "RETRIEVE MaterialNP"},
+      {"id": "J1", "lhs": "J1", "rhs": "MaterialNP+ KNEAD TO_RESULT PortionNP"},
+      {"id": "M1", "lhs": "M1", "rhs": "WITH_MEDIUM SupplyKind UnaryOperation"}
+    ],
+    "cost_statement": "18 inherited schematic family names plus11 explicit auxiliary nonterminal definitions,13 closed lexical classes, six compound interfaces, root/coverage/canonicalization policies. Alternative expansions and EBNF helper productions remain additional executable rules; never report18 as the complete expanded production count.",
+    "canonicalization": "Preserve all different head/argument/adjunct/scope attachments. Remove only epsilon-list bookkeeping duplicates in absent-unit/absent-object alternatives. No greedy, nearest-head or longest-match preference.",
+    "adjunct_policy": "Every listed Adjunct is syntactically permitted at every A1 slot. No new operation-specific physical compatibility matrix; full modifier records preserved even when their mass projection is zero."
+  },
+  "mass_reference_audit": {
+    "semantics": "V1 rule meanings under the exact V2 replacement material effects. No new material rule; no event-world simulator.",
+    "retain_all_syntax_trees_before_semantic_filtering": true,
+    "graph_ids": "written operation occurrence plus produced component/output role, never manual A/B/C/P/U labels or folio positions as semantic selectors",
+    "constraints": ["Q>0", "written quantity runs under the chosen old rival", "explicit partition parent and disjoint exhaustive outputs", "V2 plant-solid conservation", "V2 form/access compatibility and preserved ancestry", "free versus contained/consumed distinction", "old source/input introduction exceptions only", "ONE PORTION counts a batch, never Q mass"],
+    "recency_and_frame_gap_policy": "Show every eligible reference and relevant chronological/partition state. If V2 does not select a unique reference without a new chronology/frame convention, mark UNRESOLVED_REFERENCE_RULE. No desired-ID lookup, missing-stock invention or new update convention is authorized.",
+    "until_gap_policy": "Attach to the grammar's wrapped OperationClause. If V2 supplies no unique designated output, MISSING_OUTPUT_BINDING; do not choose a matching future noun.",
+    "physical_limits": ["mass projection is not full material executability", "DRY_STATE truth maintenance after rewetting remains limited", "sorting discriminator/mesh feasibility remains unverified", "no actual grinding extent or initial mass is invented", "unresolved mass-relevant reference blocks a universal content verdict"],
+    "rivals": ["CARRY_ADD", "FRESH_INPUT_LISTS", "REITERATED_QUANTITY_ASSERTION", "TWO_EQUAL_PORTIONS"],
+    "claims": [
+      {"id": "F21_SELECTED_OUTPUT", "content": "UNTIL massQ concerns SIEVE output U, with original ancestry; a positive kept coarse branch entails initial M>Q. p=Q and zero unnamed remainder stay possible."},
+      {"id": "F32_CARRY_ANCESTRY", "content": "The initial prepared source3Q reaches F:Q,G:Q and T_plant:Q via the written coarse/powder branch roles; no duplicate stock accounting."},
+      {"id": "F32_REITERATED_LOCAL", "content": "The same coarse input cannot be Q and exhaustively supply disjoint F:Q,G:Q. Report whether every complete tree supplies these antecedents."},
+      {"id": "F32_FRESH_SOURCE", "content": "Under the frozen FRESH list rule the initial prepared source remains unused; newly listed bulk supplies F/G and newly listed powder supplies T, leaving the earlier P."},
+      {"id": "F32_TWO_PORTIONS", "content": "Aggregate2Q/3Q result remains ADD-equivalent, without assigning an individual original Q portion to a particular later output."}
+    ],
+    "result_states_per_claim": ["FORCED", "CONTRADICTED", "PERMITTED_NOT_FORCED", "UNRESOLVED"],
+    "no_vacuity": "No full syntax tree is NO_PARSE, not universal robustness; no semantically feasible tree is not hidden by dropping failed trees."
+  },
+  "predeclared_ambiguity_witness_not_executed": {
+    "sequence": ["DRY", "IN_SUN", "GRIND", "COARSELY"],
+    "alternative1": "A1(DRY,post=[IN_SUN]); A1(GRIND,post=[COARSELY])",
+    "alternative2": "A1(DRY); A1(GRIND,pre=[IN_SUN],post=[COARSELY])",
+    "limit": "A manual illustration of the new rule, not a whole-unit parse count. It changes a process modifier owner and may leave mass identical."
+  },
+  "selection_and_budget": {
+    "offer_deadline_utc": "2026-09-22T18:51:00Z",
+    "later_test_requires_explicit_root_selection": true,
+    "readiness_gate": "Independent full lexical/category/compound coverage and determination that mass/provenance projection needs no new unspecified reference rule. Otherwise retain this offer without implementation.",
+    "later_total_minutes_including_publication": 45,
+    "fixed_units": 6,
+    "max_canonical_trees_per_unit": 100000,
+    "max_distinct_argument_graphs_per_unit": 10000,
+    "max_execution_minutes_after_registration": 8,
+    "overrun": "UNKNOWN_CAP, no increased thresholds or replacement grammar/target",
+    "implemented": false,
+    "parser_or_solver_executed": false
+  },
+  "decision_changes": {
+    "no_primary_parse": "Close G-P82, not every powder interpretation; preserve handwritten original.",
+    "different_material_graph": "Qualify affected mass/provenance claim as parse-dependent and retain full adverse tree.",
+    "invariant_graph": "Remove manual-clause dependence only within this new grammar and fixed V2; no meaning or grammar confirmation.",
+    "adjunct_only_variation": "Keep process-description ambiguity while stating the limited invariant mass claim.",
+    "reader_difference": "Preserve literal whole-reader failure/difference without new aliases or reader deletion.",
+    "needed_unspecified_binding": "MISSING_BINDING; no automatic semantic formalization or simulator."
+  },
+  "bounded_primary_audit": {
+    "queries": ["context topic Wortzusammensetzung", "context topic recipes", "ideas search powder parse ambiguity", "ideas search all parse powder", "ideas duplicates all derivations fixed powder grammar", "route-check complete grammar parse ambiguity powder", "ideas show IDEA000516", "ideas show HIST:e8b254acf770d621"],
+    "limit": "Navigation returned related old renderer, header, spelling and fixed whole-reading routes, not an exact prior all-parse result for these fixed inputs. No claim of exhaustive project novelty.",
+    "unchanged_stops": ["P14 quantity interpretation", "W89", "GDT972", "GDT1037", "GDT1040", "powder f4r incomplete extension", "separate q-partition proposal"]
+  },
+  "source_bindings": [
+    {"path": "research_registry/proposals/raw370_two_paragraph_powder_partition_offer_20260922.json", "sha256": "4654afe0414d85f431371c799df6189b73b2cd4ace6adfc7eae833a51bf837da"},
+    {"path": "research_registry/proposals/raw370_powder_partition_v2_material_contract_20260922.json", "sha256": "7676250faf7adabc2fd240635a520852c65c2d7a2f8070fb82717351a8ab6d78"},
+    {"path": "research_registry/proposals/raw370_powder_partition_v2_material_contract_20260922.md", "sha256": "c90de002dde795dc35502e7d32692515459859e49e323fc51865b7fcf4110a61"},
+    {"path": "research_registry/proposals/raw370_whole_paragraph_source_packet_20260922.json", "sha256": "d35fb71297447b47c1111d6eeac85455d27fff8b8d24b228ee0058cdf4078b98"},
+    {"path": "research_registry/decisions/raw370_whole_powder_partition_primary_review_20260922.md", "sha256": "014e66069e636986109b77ef6e0d5c6e922ac011b748d327f6ef14f05fe057a3"},
+    {"path": "research_registry/proposals/raw370_two_content_entailments_20260922.md", "sha256": "0cbe1b4c58e1b415fc3654e248006393179f9c9fb81931ca234985d4394be2d2"},
+    {"path": "experiments/yolo/gdt581_grammar_content_boundary_audit/REPORT.md", "sha256": "2956f609b9a71cceb3411a011c9d4d09ef5467156c5e0ac4baf4dc11de4567c5"},
+    {"path": "experiments/yolo/gdt972_alloy_r0_whole_header_consequence/REPORT.md", "sha256": "4edb85387e7b0d8bab5b87c93fc1d26fd5d6339075f9be28ba07a008c1127cef"},
+    {"path": "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md", "sha256": "8749e50317ce5b1d8c41befb820dbd4b90659b5cf0530c3ba784f2a2c3b764b7"},
+    {"path": "research_registry/decisions/powder_f4r_whole_extension_closure_20260922.md", "sha256": "bd6068e7bc383176a6775bcd674f186bff4ed75a21d3ca51dcb9b64bac0ba4c9"}
+  ],
+  "scientific_ceiling": "Zero confirmed words. A robust mass consequence under G-P82 would be a conditional whole-written construction fact, not independent evidence for the guessed meanings or a recovered historical parser."
+}

@@ -1,0 +1,296 @@
+{
+  "experiment": "GDT1177",
+  "source_scope": {
+    "b4": {
+      "complete_recipes": 271,
+      "excluded_recipes": 0,
+      "source_words": 19315
+    },
+    "w1": {
+      "complete_recipes": 263,
+      "excluded_recipes": 0,
+      "source_words": 18141
+    },
+    "bs1": {
+      "complete_recipes": 268,
+      "excluded_recipes": 1,
+      "source_words": 21963
+    },
+    "gr1": {
+      "complete_recipes": 252,
+      "excluded_recipes": 2,
+      "source_words": 21512
+    }
+  },
+  "metrics": {
+    "b4": {
+      "P4": {
+        "status": "MEASURED",
+        "groups": 8000,
+        "types": 2562,
+        "type_ratio": 0.32025,
+        "top10_share": 0.169125
+      }
+    },
+    "w1": {
+      "P4": {
+        "status": "MEASURED",
+        "groups": 8000,
+        "types": 2628,
+        "type_ratio": 0.3285,
+        "top10_share": 0.143625
+      }
+    },
+    "bs1": {
+      "P4": {
+        "status": "MEASURED",
+        "groups": 8000,
+        "types": 2451,
+        "type_ratio": 0.306375,
+        "top10_share": 0.196625
+      }
+    },
+    "gr1": {
+      "P4": {
+        "status": "MEASURED",
+        "groups": 8000,
+        "types": 2520,
+        "type_ratio": 0.315,
+        "top10_share": 0.218875
+      }
+    }
+  },
+  "comparison": {
+    "P4": {
+      "all_necessary_gates": false,
+      "details": [
+        {
+          "collection": "b4",
+          "reader": "IT2a",
+          "metric": "type_ratio",
+          "source": 0.32025,
+          "target": 0.306375,
+          "difference": 0.01387499999999997,
+          "within": true
+        },
+        {
+          "collection": "b4",
+          "reader": "IT2a",
+          "metric": "top10_share",
+          "source": 0.169125,
+          "target": 0.133125,
+          "difference": 0.036000000000000004,
+          "within": true
+        },
+        {
+          "collection": "b4",
+          "reader": "RF1b",
+          "metric": "type_ratio",
+          "source": 0.32025,
+          "target": 0.31625,
+          "difference": 0.0040000000000000036,
+          "within": true
+        },
+        {
+          "collection": "b4",
+          "reader": "RF1b",
+          "metric": "top10_share",
+          "source": 0.169125,
+          "target": 0.126,
+          "difference": 0.043125,
+          "within": true
+        },
+        {
+          "collection": "b4",
+          "reader": "ZL3b",
+          "metric": "type_ratio",
+          "source": 0.32025,
+          "target": 0.3125,
+          "difference": 0.007749999999999979,
+          "within": true
+        },
+        {
+          "collection": "b4",
+          "reader": "ZL3b",
+          "metric": "top10_share",
+          "source": 0.169125,
+          "target": 0.12875,
+          "difference": 0.040374999999999994,
+          "within": true
+        },
+        {
+          "collection": "w1",
+          "reader": "IT2a",
+          "metric": "type_ratio",
+          "source": 0.3285,
+          "target": 0.306375,
+          "difference": 0.022125000000000006,
+          "within": true
+        },
+        {
+          "collection": "w1",
+          "reader": "IT2a",
+          "metric": "top10_share",
+          "source": 0.143625,
+          "target": 0.133125,
+          "difference": 0.01050000000000001,
+          "within": true
+        },
+        {
+          "collection": "w1",
+          "reader": "RF1b",
+          "metric": "type_ratio",
+          "source": 0.3285,
+          "target": 0.31625,
+          "difference": 0.012250000000000039,
+          "within": true
+        },
+        {
+          "collection": "w1",
+          "reader": "RF1b",
+          "metric": "top10_share",
+          "source": 0.143625,
+          "target": 0.126,
+          "difference": 0.017625000000000002,
+          "within": true
+        },
+        {
+          "collection": "w1",
+          "reader": "ZL3b",
+          "metric": "type_ratio",
+          "source": 0.3285,
+          "target": 0.3125,
+          "difference": 0.016000000000000014,
+          "within": true
+        },
+        {
+          "collection": "w1",
+          "reader": "ZL3b",
+          "metric": "top10_share",
+          "source": 0.143625,
+          "target": 0.12875,
+          "difference": 0.014875,
+          "within": true
+        },
+        {
+          "collection": "bs1",
+          "reader": "IT2a",
+          "metric": "type_ratio",
+          "source": 0.306375,
+          "target": 0.306375,
+          "difference": 0.0,
+          "within": true
+        },
+        {
+          "collection": "bs1",
+          "reader": "IT2a",
+          "metric": "top10_share",
+          "source": 0.196625,
+          "target": 0.133125,
+          "difference": 0.0635,
+          "within": false
+        },
+        {
+          "collection": "bs1",
+          "reader": "RF1b",
+          "metric": "type_ratio",
+          "source": 0.306375,
+          "target": 0.31625,
+          "difference": 0.009874999999999967,
+          "within": true
+        },
+        {
+          "collection": "bs1",
+          "reader": "RF1b",
+          "metric": "top10_share",
+          "source": 0.196625,
+          "target": 0.126,
+          "difference": 0.070625,
+          "within": false
+        },
+        {
+          "collection": "bs1",
+          "reader": "ZL3b",
+          "metric": "type_ratio",
+          "source": 0.306375,
+          "target": 0.3125,
+          "difference": 0.0061249999999999916,
+          "within": true
+        },
+        {
+          "collection": "bs1",
+          "reader": "ZL3b",
+          "metric": "top10_share",
+          "source": 0.196625,
+          "target": 0.12875,
+          "difference": 0.06787499999999999,
+          "within": false
+        },
+        {
+          "collection": "gr1",
+          "reader": "IT2a",
+          "metric": "type_ratio",
+          "source": 0.315,
+          "target": 0.306375,
+          "difference": 0.008624999999999994,
+          "within": true
+        },
+        {
+          "collection": "gr1",
+          "reader": "IT2a",
+          "metric": "top10_share",
+          "source": 0.218875,
+          "target": 0.133125,
+          "difference": 0.08574999999999999,
+          "within": false
+        },
+        {
+          "collection": "gr1",
+          "reader": "RF1b",
+          "metric": "type_ratio",
+          "source": 0.315,
+          "target": 0.31625,
+          "difference": 0.0012499999999999734,
+          "within": true
+        },
+        {
+          "collection": "gr1",
+          "reader": "RF1b",
+          "metric": "top10_share",
+          "source": 0.218875,
+          "target": 0.126,
+          "difference": 0.09287499999999999,
+          "within": false
+        },
+        {
+          "collection": "gr1",
+          "reader": "ZL3b",
+          "metric": "type_ratio",
+          "source": 0.315,
+          "target": 0.3125,
+          "difference": 0.0025000000000000022,
+          "within": true
+        },
+        {
+          "collection": "gr1",
+          "reader": "ZL3b",
+          "metric": "top10_share",
+          "source": 0.218875,
+          "target": 0.12875,
+          "difference": 0.09012499999999998,
+          "within": false
+        }
+      ]
+    }
+  },
+  "passing_partitions": [],
+  "claim_ceiling": "Two necessary word-frequency conditions only; no glyph writer or full Voynich fit.",
+  "design_collections": [
+    "b4",
+    "w1"
+  ],
+  "transfer_collections": [
+    "bs1",
+    "gr1"
+  ]
+}

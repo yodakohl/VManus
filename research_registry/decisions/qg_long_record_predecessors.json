@@ -1,0 +1,140 @@
+{
+  "artifact": "qg_long_record_predecessors.json",
+  "status": "BOUNDED_MARKDOWN_SOURCE_AUDIT",
+  "question": "Do older tracked Markdown primary reports explicitly place f67r2.72/.73/.74 as horizontal bottom lines, or is that a later cached/technical assignment?",
+  "scope": [
+    "tracked Markdown only",
+    "no images",
+    "no GDT876 target outputs",
+    "no TSV payloads",
+    "no rerun"
+  ],
+  "evidence": [
+    {
+      "id": "r3_exact_placements",
+      "kind": "current_V71_R3_table",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+          "line": 262,
+          "line_end": 262,
+          "quote": "| f67r2.72 | A1 | 12 | `A1_LEFT_WHEEL` | DIRECT_VISIBLE | `A1_LEFT_OUTER_RING_TEXT` | äußeres Textband des linken f67r2-Rades |",
+          "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+          "line": 263,
+          "line_end": 263,
+          "quote": "| f67r2.73 | A1 | 11 | `A1_RIGHT_WHEEL` | DIRECT_VISIBLE | `A1_RIGHT_OUTER_RING_TEXT` | äußeres Textband des rechten f67r2-Rades |",
+          "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+          "line": 264,
+          "line_end": 264,
+          "quote": "| f67r2.74 | A1 | 13 | `A1_PAGE` | UNRESOLVED | `A1_PAIRED_WHEEL_LEGEND_UNRESOLVED` | seitenlokale Legende; das Exemplar entscheidet linkes oder rechtes Rad |",
+          "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+        }
+      ],
+      "finding": "R3 assigns .72 to left outer-ring text, .73 to right outer-ring text, and .74 to an unresolved page-local paired-wheel legend. The rows do not say horizontal or bottom."
+    },
+    {
+      "id": "r2_predecessor_scope",
+      "kind": "older_V71_R2_owner_summary",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R2_HISTORICAL_OWNER_REPORT.md",
+          "line": 136,
+          "line_end": 136,
+          "quote": "- .52–.63 besitzen je einen äußeren Platz des rechten Rosettenrades; die alten",
+          "sha256": "99c38f42056c851874199967564195d93bd73e28b744f64cb27d6203f360adf8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R2_HISTORICAL_OWNER_REPORT.md",
+          "line": 137,
+          "line_end": 137,
+          "quote": "  Häusernamen fallen.",
+          "sha256": "99c38f42056c851874199967564195d93bd73e28b744f64cb27d6203f360adf8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R2_HISTORICAL_OWNER_REPORT.md",
+          "line": 138,
+          "line_end": 138,
+          "quote": "- .64–.71 erben nur das rote Außenband.",
+          "sha256": "99c38f42056c851874199967564195d93bd73e28b744f64cb27d6203f360adf8"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R2_HISTORICAL_OWNER_REPORT.md",
+          "line": 139,
+          "line_end": 139,
+          "quote": "- .72–.74 besitzen nur die beiden Räder als Seitenkontext.",
+          "sha256": "99c38f42056c851874199967564195d93bd73e28b744f64cb27d6203f360adf8"
+        }
+      ],
+      "finding": "R2 says .52-.63 occupy the right rosette outer place, .64-.71 inherit the red outer band, and .72-.74 have only the two wheels as page context. It gives no left/right ring assignment or bottom-line geometry."
+    },
+    {
+      "id": "r3_constraints",
+      "kind": "V71_R3_owner_rules",
+      "evidence": [
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+          "line": 29,
+          "line_end": 29,
+          "quote": "6. `ASTRO_NAMESPACE`: Jeder Kreis, jedes Paneel und jede Sternstation hat einen eigenen lokalen Namensraum.",
+          "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+          "line": 30,
+          "line_end": 30,
+          "quote": "7. `NO_DIRECTION`: Bogen, Ring und Rad geben ohne Pfeil weder Fluss, Start noch Rotation vor.",
+          "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+          "line": 31,
+          "line_end": 31,
+          "quote": "8. `UNRESOLVED`: Sind mehrere kleinste Besitzer möglich, wird nicht seitenweit vererbt; das Masterexemplar muss wählen.",
+          "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+        },
+        {
+          "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+          "line": 32,
+          "line_end": 32,
+          "quote": "9. `NO_SEMANTIC_LIFT`: Ein sichtbarer Besitzer ergänzt nur 'dieses Bildobjekt'; er benennt kein Material, Heilmittel, Gestirn oder Verfahren.",
+          "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+        }
+      ],
+      "finding": "The R3 rules keep local namespaces, reject direction/start/rotation from an unarrowed ring/wheel, and forbid semantic lift."
+    }
+  ],
+  "route_check": [
+    {
+      "id": "F67R2_TAIL_ECHO_GENERIC_TWO_LINE_TRANSFER",
+      "status": "POSTHOC_WORTH_STOP_NO_TRANSFER",
+      "report": "results/f67_tail_echo_f75v_transfer_worth_validation.json",
+      "use": "preserved closed tail-echo route; not placement evidence"
+    },
+    {
+      "id": "F67R2_COMPLETE_CORRECTED_RING_TRANSCRIPTION_CAPACITY",
+      "status": "STOP_INSUFFICIENT_COMPLETE_UNDERLAYER_RECOVERY_CAPACITY",
+      "report": "results/rbr002_complete_underlayer_capacity_validation_report.md",
+      "use": "preserved closed underlayer route; not placement evidence"
+    },
+    {
+      "id": "F67R2_OUTER_RING_RED_OVER_BROWN_RETRACING_STATE",
+      "status": "PASS_MULTIPLE_RECOVERABLE_RED_OVER_BROWN_SHAPE_STATES",
+      "report": "results/rbr001_f67r2_red_brown_validation_report.md",
+      "use": "preserved structural route; not placement evidence"
+    }
+  ],
+  "assessment": {
+    "known_source_fact": "The exact R3 table assignment above is a current technical-source fact.",
+    "predecessor_limit": "The older R2 source explicitly gives only paired-wheel page context for .72-.74; it does not support the later individual left/right ring assignment.",
+    "horizontal_bottom_claim": "No exact older primary Markdown pointer returned by this bounded route/source check explicitly calls .72/.73/.74 horizontal bottom lines. Do not promote that wording to a source fact.",
+    "interpretation": "R3 is a later placement refinement relative to R2, while the horizontal-bottom characterization remains unsubstantiated by the checked Markdown. This is not evidence against the closed tail-echo or underlayer routes.",
+    "narrow_reopen": "Only a source-owned, exact-locus geometry record for .72-.74 could decide horizontal-bottom versus outer-ring placement; no rerun is justified by these Markdown records."
+  },
+  "canonical_files_mutated": false
+}

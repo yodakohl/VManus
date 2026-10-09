@@ -1,0 +1,58 @@
+{
+  "status": "CONDITIONAL_CACHE_ADDRESS_LOWER_BOUND_FROM_EXISTING_COUNTS",
+  "reviewed_utc": "2026-10-06T09:02:32.104647+00:00",
+  "question": "Does the existing1170mixed-stratum word count already supply a necessary whole-group reference inventory, avoiding a new census or cache writer?",
+  "sources": {
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_WORD_CACHE_DOUBLET_BOUND_REVIEW_20261006.json": "5f582c9cf4a2b4789871c190e1ccc28317679bf65ba33e463756274ce2d491b4",
+    "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECENCY_SKETCHES_BOUND_FAILURE_20261005.json": "ae1354fd4ea7824b019c518c54cec922d3aabe2455ff4c1f146371d31f99b566",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md": "2c81bef089e2351b7cfc73644f600441d5447301c540a3a5f068f856d645daf7",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/METHOD.md": "bdbf3837eb012ec949edbcbba9707e264d0cc4aae49d7aadd08f0912de70e544",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/run.py": "154fd1b7db63aff493e1b6db25d0b2585a112a503082429862e6f9bc11fb4a6c",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/RESULT.json": "6d53db622264c17d2534b8a2b81ff6553bd631ec23dd9b1cb7850c1a59f36d33"
+  },
+  "contract": "One complete source token per output group; global injective literal map; every miss stored until next lookup; every hit necessarily a reference; all address strings globally fixed, at mostC; no reset/expiry/hidden token between a tested internal adjacent pair. Literal/address disjointness is unnecessary. See proof note for all scope exclusions.",
+  "existing_primary_connection": {
+    "runner_lines": "56–61",
+    "argument": "Every retained stratum is an exact(word,leaf,position_bin)class containing both lengths1and2. Therefore every word counted in the reported union of retained strata has at least one retained exact double. Those doublets are internal to one prose line with definite internal and external seams under the old1170contract. The reported word count is therefore a lower bound on D, even without re-counting all doublets.",
+    "not_a_new_count": true,
+    "reused_old_capacity": {
+      "IT2a": {
+        "strata": 141,
+        "matched_runs": 701,
+        "double_runs": 154,
+        "leaves": 53,
+        "words": 58
+      },
+      "ZL3b": {
+        "strata": 115,
+        "matched_runs": 523,
+        "double_runs": 124,
+        "leaves": 48,
+        "words": 50
+      },
+      "RF1b": {
+        "strata": 73,
+        "matched_runs": 263,
+        "double_runs": 77,
+        "leaves": 40,
+        "words": 36
+      }
+    }
+  },
+  "necessary_global_address_forms_by_reading": {
+    "IT2a": 58,
+    "ZL3b": 50,
+    "RF1b": 36
+  },
+  "deduction": "C>=58inIT,>=50inZL,>=36inRF under this contract. ConsequentlyC<=35is incompatible with each of the three alternative readings; they are not pooled. No fixedCwas chosen or fitted after this evidence.",
+  "decision": "Do not construct a uniformly mandatory fixed-address wordcache with fewer forms than the applicable known bound. No new native census or decoder is needed to learn this restriction. A larger or selective cache is not validated or selected; no capacity enlargement follows.",
+  "limits": [
+    "This is a new scoped deductive application of already published structural counts, not new manuscript observation, independent evidence, source test, decipherment progress or word meaning.",
+    "Whole-group/transcription distinctions remain assumptions; no22glyph parse or ink adjudication was performed for this deduction. The count does not identify true atoms.",
+    "Selective insertion, uncached short/function words, context-dependent literals, additional address spellings, hidden resets or multiple token operations in one group fall outside the family. None is introduced as a repair.",
+    "Equal reference strings can recover different source words when slots move; no semantic equality or repetition value follows.",
+    "The older1170context test remains NO_RETAINED_CONTEXT_SIGNAL. Its unrelated context-exchangeability failure neither supports nor refutes this deterministic inventory consequence.",
+    "1179group-pairing,940two-endflagfragmentcache,941columnwriter and946embeddednames are not silently recast as this one-unit/one-address family. Their earlier decisions remain."
+  ],
+  "timing": "Producer review began08:53:47UTC; exact application-save time is reviewed_utc. No source/native program run or new experiment number. Metadata closure is recorded separately in the existing dossier; local checkpoint, no push."
+}

@@ -1,0 +1,9 @@
+# Paired digit notation with explicit q guard and contextual finals
+
+See the preregistration for the finite family, new limits and exposure. `common.py` is the complete public forward/inverse wrapper around the frozen1193 source writer. Greedy contraction is checked by canonical re-emission. E/C and last source digit remain in an injective contextual final table. Context uses decoded interior digits, never the final digit, q guard, compressed sign count or hidden source information. Counter advances only by recovered source characters. Every q guard costs one printed working glyph; source recipe reset remains visible.
+
+`array_model.py` applies the same transformation to cached source-code arrays and retains physical line adjacency at48glyphs. A depth1 context has4cases; depth2 has13. All512pair masks and7ordinary q positions receive necessary mean/SD/TV and q-count screens. Deterministic Z3 binary choice optimization finds one directly checked feasible y-category assignment per arm, or records unsat/unknown separately. This solver only initializes finals; glyph-map search may subsequently change the active y category while preserving injectivity. Final full criteria determine acceptance.
+
+Fitting is openly joint on four exposed sources and three alternate-reader summaries. Extra q/y/entropy gates were chosen after observing1193's mismatch. A full pass is therefore engineered compatibility under a stronger finite screen, not an independent prediction or a native orthographic/semantic finding. No inherited successful score is carried through this changed rendering without full retesting.
+
+Dependencies are the repository's existing NumPy and Z3 installations; exact versions are recorded in RESULT.json. Six thousand proposals per reached arm, no second restart. All failed results and costs remain. At the total-work budget, stop expansion and record incomplete work rather than silently extending the design.

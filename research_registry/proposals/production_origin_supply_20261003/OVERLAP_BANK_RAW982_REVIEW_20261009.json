@@ -1,0 +1,67 @@
+{
+  "record_id": "IDEA000982",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root after fixed source capacity check",
+  "assessment_basis": "actual_word_enterbank_cell_upper_and_top10lower_bounds",
+  "reason": "Fixed overlap and home/recipe-reset history fails all4source type limits before glyph fitting; continuation-free one-group-per-source-token scope. FullRAW982physical VVcontinuations not scored.",
+  "blockers": [
+    {
+      "code": "fixed_wholeword_bank_capacity_failed",
+      "detail": "Tmax1689/1851/1684/1744 versus2051-2130lower bounds; glyph renaming or cell coalescence cannot repair these fixed logical-word counts.",
+      "evidence": [
+        "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md"
+      ]
+    },
+    {
+      "code": "physical_continuation_scope_not_tested",
+      "detail": "RAW982includes paid physical fragments. Those are different from whole logical words and cannot be silently pooled or declared excluded here.",
+      "evidence": [
+        "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md",
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_OVERLAPPING_ABSOLUTE_BANKS_RAW_20261009.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_bound_falsifier",
+        "change": "new_binding",
+        "detail": "Different predeclared consequence with original carrier assumptions retained; no additional banks/row retuning or source normalization as automatic repair.",
+        "evidence": [
+          "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Glyph-table optimization",
+      "A fourth bank",
+      "Ignore literal/continuation costs",
+      "Treat source benchmark failure as general language exclusion"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1180",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1202",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1288",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "CONCEPTUAL_CHECK_OF_ROOT_PROPOSED_CONDITIONAL_BOUND_NO_COUNTS",
+  "created_utc": "2026-10-06T16:49:50.586099+00:00",
+  "contract": "Unchanged IDEA965 joint RAW + AUTHOR_SCOPE + SCOPE_FINALIZATION",
+  "definitions": {
+    "J": "Number of written ordinary ADD/MIX/FORBID instructions, including those inside false IF blocks.",
+    "B": "Number of written IF blocks.",
+    "E": "Number of complete messages.",
+    "M": "Number of written material-word occurrences, including FORBID entries and occurrences in false IF blocks. This is not an executed spoon count.",
+    "b": "Number of paid continued-word breaks. One break replaces one physical word by two fragments and adds two separate rrch markers.",
+    "C": "Logical control tokens before word continuation.",
+    "V": "Written vessel-name occurrences before word continuation.",
+    "P": "All physical separated groups in the same complete messages.",
+    "Cp": "Physical control tokens when the ordinary controls remain whole.",
+    "S8": "Token total of the eight most frequent exact physical group forms in that same complete population, or all forms if fewer than eight occur."
+  },
+  "identities": [
+    "C=2J+2B+E and V=J+B=(C-E)/2.",
+    "P=M+V+C+3b and Cp=C+2b.",
+    "Substitution yields P=M+(3/2)Cp-(1/2)E exactly; continuation cancels from this identity."
+  ],
+  "necessary_bounds": [
+    "There are at most eight fixed whole control forms, including rrch, so S8>=Cp. Additional noncontrol fragments equal to these forms can only increase their observed frequencies.",
+    "M=P-(3/2)Cp+(1/2)E >= P-(3/2)S8+(1/2)E.",
+    "For J>0, J<=Cp/2. Since M>=0, M/J>=2M/Cp=(2P+E)/Cp-3 >= (2P+E)/S8-3.",
+    "Dropping the nonnegative E/S8 term gives the weaker bound M/J>=2P/S8-3. A negative lower bound supplies no useful positive minimum."
+  ],
+  "essential_scope": [
+    "The population must contain complete messages with all controls, names, materials and continuation groups included. A cropped paragraph, strict-interior packet or selected group subset need not satisfy the identities.",
+    "Whole fixed control forms are a substantive premise for Cp and the eight-type bound. If ordinary instruction controls were themselves split by a physical continuation, their logical occurrences would no longer all appear as whole physical control tokens; the stated counting argument would require a separately declared treatment. No such treatment or contract modification is introduced here.",
+    "The same fixed surface spellings, or one global bijective renaming preserving them, must be used. Free contextual aliases for controls are outside this bound.",
+    "Guards affect execution, not written costs. False IF instructions and bans remain in J,M,B and V. Repeated FORBID entries are noncanonical under the source contract; the bound nevertheless counts written material occurrences, not inferred chemical types or successful additions.",
+    "No source-message parse, native counter, observed Top8 value or empirical outcome was used in this proof review."
+  ],
+  "claim_ceiling": "The algebra is valid conditionally. It is not a manuscript exclusion, a frequency PASS, a native control assignment or an estimate of actual doses. Root owns any subsequent selection and population binding."
+}

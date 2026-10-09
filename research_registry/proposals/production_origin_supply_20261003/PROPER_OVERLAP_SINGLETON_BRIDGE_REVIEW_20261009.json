@@ -1,0 +1,78 @@
+{
+  "status": "SOURCE_FREE_CONDITIONAL_PROOF_REVIEW_NO_NATIVE_EXECUTION",
+  "date_utc": "2026-10-09",
+  "origin": "Root proposed a proper-overlap letter writer. Producer reviewed the algebra and prior reports/code without native payloads, source encoding, image access or a new count. Root owns any binding/replay of the old certificates.",
+  "contract": {
+    "codewords": "Every source letter has one fixed nonempty finite string over the22working units. The first codeword of a complete source word is written in full.",
+    "join": "For adjacent ORIGINAL codewords U,V choose a common suffix/prefix overlap of length k with 0<=k<min(|U|,|V|). Retain the current output unchanged and append V[k:]. No previous visible prefix is erased. Visible word boundaries are preserved.",
+    "scope_of_overlap": "The theorem works for any chosen legal proper overlap, not only the maximal one. The stated length bound is against both adjacent original codewords, not a retrospectively redefined whole accumulated output.",
+    "content": "The proposed writer must be injective on all nonempty source-word sequences. No semantic equivalences, excluded repeated inputs, hidden marks, deletions or context-dependent codewords are supplied.",
+    "two_distinct_entry_hypotheses": "Explicit distinct initial working units is one hypothesis. Merely at most22entries is weaker and implies it only if22distinct ORIGINAL whole-word initial units are separately witnessed."
+  },
+  "singleton_transfer": {
+    "first_code": "At a group beginning, the first full code remains a prefix of the final output because subsequent joins only append. With distinct code initials, its first working unit identifies which source code must begin.",
+    "inductive_hypothesis": "All codes already assigned by the old derivation are proved one-unit codes. Parse each observed group from its beginning through the longest prefix made only of those forced singleton units.",
+    "no_overlap_at_forced_boundary": "Any overlap touching one of those singleton codewords has k<1, hence k=0. Thus the consumed prefix consists of whole separate singleton codes, and the next unassigned code starts in full at the exact remaining position.",
+    "next_forcing": "Every reached remainder with first unit g must begin with the same complete C_g. If their common prefix has length1, or one is exactly g, then C_g=g. This is a necessary conclusion for every completion of the overlap table.",
+    "iteration": "Apply the same argument to every successive one-option singleton step. If all22heads are obtained, every used code is singleton and every proper overlap is zero. The writer reduces to ordinary one-sign substitution under its unknown letter naming.",
+    "old_certificate_requirement": "GDT1233 REPORT explicitly states that every visited native node had a one-option domain and no speculative longer-code branch was needed. Root must bind/replay precisely those chains: preceding assigned codes must all be singletons; each new domain must contain only its singleton; old source leaves, whole-group boundaries and unit tuples remain fixed.",
+    "not_a_blanket_solver_transfer": "A general1233branch contradiction involving previously assigned longer codes cannot automatically be reused. Ordinary concatenation and proper-overlap outputs then differ. The positive counterexample below proves that the old overall verdict alone would not suffice."
+  },
+  "counterexample_to_blanket_transfer": {
+    "output_alphabet": [
+      "a",
+      "b"
+    ],
+    "code_table": {
+      "X": "aa",
+      "Y": "bb"
+    },
+    "rule": "Take maximal proper overlap. Equal consecutive codewords share one sign; unequal codewords share zero.",
+    "all_source_word_inverse": "Each maximal source run X^r or Y^r becomes one output run of the corresponding sign of length r+1. Every output run has length>=2. Subtract1 from each run length to recover the source word uniquely. Thus this is injective for ALL finite nonempty source words.",
+    "finite_observations": [
+      "aa",
+      "aaa",
+      "bb",
+      "bbb"
+    ],
+    "overlap_cover": "X,XX,Y,YY respectively produce these four words.",
+    "concatenation_comparison": "A distinct-initial ordinary-concatenation table covering both aa and aaa must have a-headed code a: aa as a longer code cannot tile aaa, and b-headed codes would introduce b. Similarly the b-headed code must be b. The ordinary identity-only conclusion therefore does not itself exclude this proper-overlap table.",
+    "role": "Pure mathematical control, no native words, sounds or meanings. It is not selected as a new writer or offered as a repair."
+  },
+  "arbitrary_heads_and_reader_scope": {
+    "supplied_by_root_not_recounted": "Root reports from already computed1293initial_groups: RF has22original first-unit types; IT21with n absent; ZL20with n,m absent. RF n and m each have one initial-group witness.",
+    "RF_bridge": "Conditional on those bound RF witnesses, the first-code-whole rule requires at least one code entry beginning with every one of the22units. With at most22entries, there are exactly22entries and their initials are distinct. The singleton-transfer argument can then apply.",
+    "other_readers": "The at-most22capacity alone does not establish distinct initials in IT/ZL. Do not pool RF's initial witnesses with another reader's stronger chains. Under an EXPLICIT distinct-initial code contract, the old one-option chains can be applied separately to all three readings.",
+    "inactive_or_unused_codes": "Unused code entries or unobserved heads do not explain actual redundancy. Initial coverage and activity must be stated on the exact same frozen representation and population.",
+    "fragility": "Rare first-head and forcing witnesses are conditional transcription evidence, not independently proven glyphs. Their rarity is retained rather than corrected away."
+  },
+  "full_overlap_collision": {
+    "self": "If maximal full self-overlap is allowed, a code C_X overlaps all of itself. Source X and XX both write C_X, contradicting all-source-word injectivity.",
+    "either_side": "More generally, if a join of U=C_X and V=C_Y uses k=|U|, then U is a prefix of V and XY writes V, colliding with Y. If k=|V|, XY writes U, colliding with X. Thus any actually allowed full absorption of either adjacent code creates a two-letter-versus-one-letter collision under the unrestricted source domain.",
+    "limits": "A source grammar forbidding the colliding input, an added marker or an admitted ambiguity would change the contract. None is adopted here."
+  },
+  "primary_predecessors": [
+    {
+      "id": "GDT1233",
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/REPORT.md",
+      "section": "A proof that can be followed by hand; Data and exact verification",
+      "retained": "All used codes singleton under ordinary concatenation/distinct initials; every native visited domain one-option. Only that stronger certificate structure supports the present induction."
+    },
+    {
+      "id": "GDT1233 method",
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/METHOD.md",
+      "retained": "General backtracking allows longer assigned codes; those branches are not automatically valid overlap branches."
+    },
+    {
+      "id": "GDT883",
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/METHOD.md",
+      "report": "experiments/yolo/gdt883_overlapping_digram_constraints/REPORT.md",
+      "distinction": "Each WRITTEN symbol there denotes a fixed latent pair/block and adjacent written symbols overlap in latent coordinates, at fixed length/advance. The proposed channel maps SOURCE letters to variable written strings and coalesces their written suffix/prefix. Neither883's equality graph nor its homophony bound is imported as this result."
+    },
+    {
+      "id": "UD22 defect consequence",
+      "retained": "That predecessor concerns ordinary fixed concatenation. Proper-overlap spelling is not automatically C* and the old free-monoid code argument is not substituted for this induction."
+    }
+  ],
+  "disposition": "No new RAW or solver selected. Root can retain a narrowly qualified logical bridge by binding the already saved singleton-only chains and, for the merely<=22claim, RF's original initial-head coverage. No new native census, larger entry/state search, source language, word meaning or general ligature exclusion follows."
+}

@@ -1,0 +1,238 @@
+{
+  "status": "FIXED_THREE_MEDIAL_GLYPH_ARCHITECTURE_CONTRADICTED_CONDITIONALLY",
+  "completed_utc": "2026-10-06T03:34:13.043300+00:00",
+  "contract_sha256": "875383b2a176b31b67af12a681f6753ddaaafd4da0c23c004e82db9092d39536",
+  "program_sha256": "032f0d4e81e08158250f8d0830886cbc6743d6d077e99f278a7185141671be85",
+  "actual_active_banks": {
+    "initial": [
+      "i",
+      "q",
+      "d",
+      "n",
+      "y",
+      "r",
+      "k",
+      "ch",
+      "ckh",
+      "o",
+      "cfh",
+      "p",
+      "f",
+      "cph",
+      "t",
+      "s",
+      "a",
+      "cth",
+      "l",
+      "sh",
+      "m"
+    ],
+    "medial": [
+      "o",
+      "e",
+      "a"
+    ],
+    "final": [
+      "y",
+      "ch",
+      "l",
+      "t",
+      "s",
+      "i"
+    ]
+  },
+  "rows": [
+    {
+      "word": "daldy",
+      "glyphs": [
+        "d",
+        "a",
+        "l",
+        "d",
+        "y"
+      ],
+      "interior_types": [
+        "a",
+        "d",
+        "l"
+      ],
+      "interior_type_count": 3,
+      "literal_grammar_violations": [
+        "interior"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": false
+    },
+    {
+      "word": "daiin",
+      "glyphs": [
+        "d",
+        "a",
+        "i",
+        "i",
+        "n"
+      ],
+      "interior_types": [
+        "a",
+        "i"
+      ],
+      "interior_type_count": 2,
+      "literal_grammar_violations": [
+        "interior",
+        "final"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": false
+    },
+    {
+      "word": "chedy",
+      "glyphs": [
+        "ch",
+        "e",
+        "d",
+        "y"
+      ],
+      "interior_types": [
+        "d",
+        "e"
+      ],
+      "interior_type_count": 2,
+      "literal_grammar_violations": [
+        "interior"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": false
+    },
+    {
+      "word": "ol",
+      "glyphs": [
+        "o",
+        "l"
+      ],
+      "interior_types": [],
+      "interior_type_count": 0,
+      "literal_grammar_violations": [],
+      "necessary_literal_grammar_pass": true,
+      "all_global_bijections_excluded_by_interior_capacity": false
+    },
+    {
+      "word": "aiin",
+      "glyphs": [
+        "a",
+        "i",
+        "i",
+        "n"
+      ],
+      "interior_types": [
+        "i"
+      ],
+      "interior_type_count": 1,
+      "literal_grammar_violations": [
+        "interior",
+        "final"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": false
+    },
+    {
+      "word": "cheoltchedaiin",
+      "glyphs": [
+        "ch",
+        "e",
+        "o",
+        "l",
+        "t",
+        "ch",
+        "e",
+        "d",
+        "a",
+        "i",
+        "i",
+        "n"
+      ],
+      "interior_types": [
+        "a",
+        "ch",
+        "d",
+        "e",
+        "i",
+        "l",
+        "o",
+        "t"
+      ],
+      "interior_type_count": 8,
+      "literal_grammar_violations": [
+        "interior",
+        "final"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": true
+    },
+    {
+      "word": "cfham",
+      "glyphs": [
+        "cfh",
+        "a",
+        "m"
+      ],
+      "interior_types": [
+        "a"
+      ],
+      "interior_type_count": 1,
+      "literal_grammar_violations": [
+        "final"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": false
+    },
+    {
+      "word": "ckholsy",
+      "glyphs": [
+        "ckh",
+        "o",
+        "l",
+        "s",
+        "y"
+      ],
+      "interior_types": [
+        "l",
+        "o",
+        "s"
+      ],
+      "interior_type_count": 3,
+      "literal_grammar_violations": [
+        "interior"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": false
+    },
+    {
+      "word": "kydainy",
+      "glyphs": [
+        "k",
+        "y",
+        "d",
+        "a",
+        "i",
+        "n",
+        "y"
+      ],
+      "interior_types": [
+        "a",
+        "d",
+        "i",
+        "n",
+        "y"
+      ],
+      "interior_type_count": 5,
+      "literal_grammar_violations": [
+        "interior"
+      ],
+      "necessary_literal_grammar_pass": false,
+      "all_global_bijections_excluded_by_interior_capacity": true
+    }
+  ],
+  "proof": "A bijection preserves distinctness. The model offers three interior glyph types; one fixed observed whole needs eight and another needs five. Dictionary entries, initial-state counters, initial styles and length reassignment cannot change that bound.",
+  "validation": "All bound input hashes verified; regex working-unit parser agrees with nine manually written vectors; independent hand cardinalities 8 and5 and explicit literal-bank checks agree. Same-author inspection, not blinded native evidence.",
+  "scope": "Conditional on one observed whole per output group and the fixed22working units. No glyph meaning, general codebook rejection, new image, native corpus count, historical claim or statistical test.1193basicPASS and1195different-ruleFAIL remain unchanged."
+}

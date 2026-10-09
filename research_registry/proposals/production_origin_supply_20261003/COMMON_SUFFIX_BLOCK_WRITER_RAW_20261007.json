@@ -1,0 +1,132 @@
+{
+  "title": "RAW UNREVIEWED: one explicitly written common ending scopes a maximal run of open words",
+  "summary": "An invented hand abbreviation groups consecutive lowercase words by the longest suffix of their first two words, writes that suffix once in an explicit opener, then writes the remaining prefixes in order and a mandatory closer. Empty prefixes have a visible token. Reading restores every original word without guessing its meaning. This completes a token-level writing/reading rule; the physical 22-working-sign carrier remains unpaid and no native or statistical fit is claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_PHYSICAL_CARRIER_NOT_SELECTED",
+  "source_status": "INVENTED_HAND_RULE_NO_HISTORICAL_ATTESTATION",
+  "origin": "Bounded producer construction requested by root on 2026-10-07. Root accepted retention and required the first-two-word suffix, maximal run, visible scope, empty-prefix and case rules to be explicit before freezing. No source or native data informed a parameter fit.",
+  "design": {
+    "purpose": "Save repeated copying of a shared written ending in some consecutive word runs while retaining ordinary meaningful wording. This is an orthographic abbreviation, not a claim that every shared suffix is one morpheme or has one grammatical meaning. It may cost more than full spelling on short runs.",
+    "complete_at": "The declared finite source-character, token, paragraph and teaching-notation layers. NOT a completed realization using the 22 manuscript working-sign labels.",
+    "source_contract": {
+      "lowercase_letters": "abcdefghijklmnopqrstuvwxyz",
+      "additional_characters": ["ä", "ö", "ü", "ß", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ",", ";", ":", "!", "?", "(", ")", "-", "/", "'", "\"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Ä", "Ö", "Ü", "ẞ"],
+      "domain_provenance": "The same explicit 26+56 source-character domain retained in935/950; only the domain is reused, not their glyph table or shorthand rules. Unsupported characters cause an explicit input failure, never deletion or normalization.",
+      "tokens": "Nonempty strings over this domain, separated by exactly one ordinary source space. Supplied paragraph breaks are retained. Exact historical spacing and physical source lineation are outside this teaching input domain.",
+      "eligible_word": "Exactly a nonempty string matching [a-z]+. This is a visible character test only. Lowercase personal names and unfamiliar words are treated exactly like all other eligible strings. Uppercase, diacritics, digits and punctuation make the containing token ineligible, and it is fully copied. No semantic name detector or lexical oracle is used.",
+      "punctuation": "Attached punctuation remains attached. A separately supplied punctuation token remains separate. Every ineligible token interrupts a suffix block; the reader restores it literally. Sentence boundaries are carried by the retained punctuation, never inferred as a reset.",
+      "meaning": "Meaning comes from the preserved source-language words and their original order, punctuation and paragraph boundaries. Negation, alternatives, quantities and reference words are not interpreted or omitted by this transducer.",
+      "open_vocabulary": "Every nonempty word or name over the declared source domain is supported. No word dictionary or learned whole-word expansion is required."
+    },
+    "visible_teaching_syntax": {
+      "ordinary_full_word": "Outside a block, copy the complete source token literally as one visible group.",
+      "open": "@{s} is one visible group: literal @ then { then the nonempty lowercase suffix s then }. It opens a block and displays the complete ending to be appended. It emits no source word by itself.",
+      "member": "Inside a block, each nonempty lowercase group p emits the source word p+s. No implicit spaces exist inside p or s.",
+      "empty_member": "@0 is one visible group and emits exactly s. It is compulsory when the remaining prefix is empty; an empty space is not a member.",
+      "close": "@} is one mandatory visible group. It ends the block, emits no source word and clears the suffix. A new block can begin only afterward. Blocks cannot nest.",
+      "separation": "Exactly one ordinary visible space separates teaching groups. The reserved characters @, { and } are absent from the declared source domain; source digits0 and ordinary braces are not silently conflated with controls. Source braces are unsupported because they are outside the declared source domain.",
+      "paragraphs_and_local_labels": "The teaching format uses one completely blank physical line between complete source paragraphs. Single physical line breaks are wrapping only. Every paragraph must end outside a block, after a written @} if one was active. A detached label can be read without earlier prose only when supplied as its own visibly separated paragraph/field under this same rule. There is NO separate semantic label or prose mode. A single-token paragraph is necessarily fully spelled. A multiword caption follows the same suffix rule within its own paragraph.",
+      "line_handling": "Wrap only between teaching groups; a line break neither closes nor changes a block. The reader carries the explicitly written suffix over wrapped lines. An overwide group has no paid 22-sign continuation yet; it is a declared physical-carrier limitation, not permission to split it or invent a reset.",
+      "physical_limit": "These ASCII controls are a fully explicit explanatory notation, not three free additions to the existing22 working signs and not proposed Voynich shapes. A later physical carrier must distinguish control groups, payloads, empty members and literal characters, including escapes and overwide continuation. No q/y/dy value, shape assignment, global bijection or successful marker capacity is supplied here."
+    },
+    "writing_steps": [
+      "Start outside any block at the first token of a paragraph. Maintain the current source position i.",
+      "If the current token or the immediately following token is absent or ineligible, copy the current complete token literally and advance by one. Do not look across a paragraph boundary or skip an ineligible token.",
+      "Otherwise compare exactly these first TWO consecutive source words from their ends. Let s be their longest common suffix. If its length is less than2 source letters, copy only the current complete token literally, advance by one, and reconsider the next pair.",
+      "If |s|>=2, freeze this exact suffix. Emit @{s}. The suffix is not enlarged, shortened or recomputed using later words; no alternative suffix is chosen for savings, semantics or native appearance.",
+      "Take the maximal consecutive run beginning at i in which every token is eligible and ends in this frozen s. The first two tokens necessarily belong. Emit each remaining prefix as one group in the original source order; use @0 for an empty prefix.",
+      "At the first absent, ineligible or nonmatching token, emit @}. Leave that first excluded token unconsumed; restart the outside-block procedure on it. Close at paragraph end as well. A block cannot be ended early to alter spelling or reopened with another tail while it still applies."
+    ],
+    "reading_steps": [
+      "Begin a visible paragraph outside a block. Ordinary groups outside a block reproduce themselves as complete source tokens.",
+      "On @{s}, require s to consist only of lowercase a-z and have length at least2. Store s and begin a new block; do not emit the header as a source token.",
+      "Inside the block, an ordinary nonempty lowercase group p yields p+s, and @0 yields s. Restore one source space between consecutive emitted source tokens. Any other control or ineligible member is malformed except @}.",
+      "On @}, require at least two members, clear s and return outside the block. An opener inside an open block, a closer or @0 outside a block, malformed control, or a paragraph boundary before @} is invalid.",
+      "The inverse expansion is already unique at this point. To check whether a text was produced by the obligatory writer, rescan the recovered paragraph with the same first-two-word/maximal-run rule and require byte-for-byte equality at the teaching group level, ignoring physical wrapping. This checks omitted eligible blocks, the exact longest suffix, premature closure and nonmaximal runs; it is a paid second pass, not a language oracle."
+    ],
+    "lookahead_and_memory": "The writer compares two source words to choose an ending, then needs that one suffix and one next word to continue or close the run. No whole-paragraph optimization or historical word cache is used. The reader remembers one literal suffix and current block status. Suffix length is unbounded within the declared finite words, so the memory is not falsely advertised as one bit or a fixed eight-character window.",
+    "worked_examples": [
+      {
+        "source_paragraph": "Wir sehen roten alten Stoff.",
+        "teaching_output": "Wir @{en} seh rot alt @} Stoff.",
+        "readback": "Wir is copied literally. The first eligible pair sehen/roten has longest common suffix en; alten also ends in en. The three prefixes reconstruct sehen, roten, alten. The literal final Stoff. preserves capitalization and sentence punctuation.",
+        "limit": "The shared spelling en is not asserted to have the same grammatical function in the verb and adjectives. This whole invented sentence is a reading demonstration, not a historical quotation or a claim of net compression."
+      },
+      {
+        "source_paragraph": "backpack pack",
+        "teaching_output": "@{pack} back @0 @}",
+        "readback": "The frozen suffix is pack; back+pack and the empty prefix+pack restore both source words."
+      },
+      {
+        "source_paragraph": "heating seating seating seating",
+        "teaching_output": "@{eating} h s s s @}",
+        "readback": "The first pair fixes eating. Three identical nonempty members s are legal and each restores seating. Repetition is literal repetition of source words, not an inferred quantity or repeated action."
+      },
+      {
+        "source_paragraphs": ["station nation", "staring daring", "station"],
+        "teaching_outputs": ["@{ation} st n @}", "@{aring} st d @}", "station"],
+        "readback": "The same body st has different full expansions under two explicitly different suffix headers. The isolated station is fully spelled under the same algorithm, without a special name or label rule."
+      }
+    ],
+    "costs": {
+      "learning": "Learn the source language and spelling plus one comparison rule and three control constructions: opener with a literal suffix, empty member, closer. No root-to-meaning table is created. Ordinary literal character writing and the physical control carrier remain separately payable.",
+      "gross_saving": "For n source words sharing s, writing s once instead of n times removes (n-1)|s| source letters before all control, empty-prefix, literal-escape, spacing and line costs. This is not a net saving claim.",
+      "teaching_overhead": "In this particular ASCII demonstration the opener adds3 control characters, the closer2, each empty prefix2, and the extra opener/closer groups add2 spaces relative to n source words. Thus even a legal block can expand the text. No rule chooses blocks using an unmeasured glyph cost or changes the threshold after a result.",
+      "groups": "A block of n words becomes n member groups plus one opener group and one closer group. Source word order and identity are retained after expansion, but printed group frequencies are not merely the frequencies of complete source words.",
+      "error_scope": "A wrong suffix corrupts every following member of that visible block. The explicit closer bounds propagation; ordinary physical line ends do not. Local caption readability requires its own visible paragraph/field boundary, not merely an analyst calling a span a label."
+    },
+    "distinct_consequences": [
+      "Two identical body groups under the same written suffix have the same expanded source word; under different suffix headers they need not. Same printed form is therefore not automatically one global source-word alias.",
+      "A repeated body such as s s s is possible after an initial unequal pair fixed the ending; there is no universal repeated-word header or two-final-sign framing law. The example proves only abstract capacity, not native compatibility.",
+      "Every abbreviated run has an overt complete suffix before all its members and a mandatory closing control afterward. One cannot infer an unwritten suffix from a picture, subject matter, a later word, or a reader's preferred translation.",
+      "The recovered first two words uniquely determine the exact header. The block includes every following eligible matching word until the first barrier. A frozen physical realization could be contradicted by a premature close, a mismatching member, or an abbreviated isolated word without its header.",
+      "The known ol/olol and daldy-family observations receive no values or code segmentation. They neither establish this mechanism nor supply a countercase before header/member/literal binding. In particular no existing word is called OPEN, CLOSE, suffix or stem."
+    ],
+    "strongest_objections": [
+      "This is not yet a22-working-sign writer. Mandatory controls may violate known native short-form, repeated-form or total control-frequency obligations once a carrier is fixed; no test has established otherwise.",
+      "The rule can increase writing effort substantially on short runs. Its stated copying purpose needs actual, separately selected source usefulness, not a manufactured frequent-ending corpus.",
+      "Matching written endings can be accidental and need not track semantic or grammatical families. The scheme explains only a possible mechanism for reusable strings and scope-dependent full readings, not the manuscript's morphology.",
+      "A naked member taken out of its block is not independently readable. Short independent inscriptions must be whole visibly bounded records and are often fully spelled; this cannot be assumed for native layouts without evidence.",
+      "The source-case rule is deliberately literal. It may be poorly suited to a source with inconsistent capitalization; no normalization, proper-name classifier or exception is silently allowed."
+    ],
+    "next_permitted_decision": "A manual source-only expansion/canonicality review of these frozen rules can assess whether the message and scope are unambiguous. Before any full writer or native test, explicitly pay a fixed physical carrier and framing, retain known counterexamples, and preregister what each outcome changes. No automatic source scan, fitting, decoder, marker search, alphabet enlargement or control corpus is selected."
+  },
+  "predecessors": [
+    {
+      "id": "IDEA000926",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_CAPPELLI926_OPEN_RULE_REVIEW_20261006.json",
+      "retained_limit": "Four licensed head-plus-attached-letter phrase abbreviations do not support an arbitrary following-word expansion; hoc nomen / hoc volumen expose the generalized final-letter collision.",
+      "difference": "This construction writes the whole missing ending explicitly once and scopes it over consecutive prefixes. It never infers an entire following word from its last letter. It is a new invented response to the general constructive problem, not a reconstruction of Cappelli's attested rule."
+    },
+    {
+      "id": "IDEA000864 / GDT157 / GDT207",
+      "primaries": ["research_registry/decisions/idea864_whole_lexical_design_20261002.md", "GDT157_LEARNED_ABBREVIATION_CAUSAL_REPORT.md"],
+      "retained_limit": "Real context-dependent expansions and partial historical abbreviation effects already exist; no new historical discovery or general historical sufficiency is claimed. The864primary reviews207's direct-decoder stop.",
+      "difference": "A literal suffix is transmitted by a new overt block, rather than recovered by lexical or grammatical guessing from a contracted word."
+    },
+    {
+      "id": "IDEA000927",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_PREFIX_C4_RAW_20261004.json",
+      "retained_limit": "The fixed preceding-word prefix cap and mandatory repeat-header countercase remain closed.",
+      "difference": "The suffix is written separately once, frozen from the initial pair and retained over a maximal block. Members do not each carry a numerical prefix-count header and do not refer to the immediately preceding full word. This is not a changed cap, renamed header or changed reset for927."
+    },
+    {
+      "id": "GDT1179",
+      "primary": "experiments/yolo/gdt1179_complete_natural_source_writers/METHOD.md",
+      "retained_limit": "All executed fixed literal/dictionary/history writers keep their original failures. The503-word lookup/history burden is not hidden here.",
+      "difference": "One explicit literal ending supplies the scope; no numbered whole-word address, whole-word dictionary or backward search is required."
+    },
+    {
+      "id": "IDEA000950 / GDT1202 / GDT1226",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_INTRAWORD_TANDEM_COPY_RAW_20261006.json",
+      "retained_limit": "The intraword-only module preserves whole-source-word equality and cannot rescue its old source-frequency conjunction. The old whole-word alias bounds remain.",
+      "difference": "This design changes printed group ownership by adding explicit suffix scopes and context-dependent prefixes. Thus it does not meet the unchanged global one-source-word/one-injective-group premise. That scope difference supplies no statistical pass or source selection."
+    }
+  ],
+  "novelty_and_access": {
+    "screen": "Live route, bounded common-suffix/shared-ending/block/abbreviation/register searches, ideas duplicates and route-check, plus the claim-bearing926/864/157/927/1179/950primaries. No identical frozen maximal-first-pair-suffix block was recovered in the bounded screen; this is not an exhaustive claim of historical or registry novelty.",
+    "known_counterexamples": "Existing whole-group repetitions, varied short endings, long internal diversity and literal q/o limitations remain obligations for a later carrier. None is assigned to a control to force this raw model to pass.",
+    "exposure": "Parent supplied design clarifications and invented test words before freeze. No native packet, image, corpus profile, target result, experiment or source frequency was opened or computed for this proposal.",
+    "ownership": "One bounded producer; only this own new proposal and ideas-add record. No route, ledger, shared state, old RAW bytes, experiment or metadata refresh altered. No new agent or publication."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "POST_RESULT_CONDITIONAL_HAND_PROOF_VALID_NO_DATA_REVIEW",
+  "date_utc": "2026-10-06",
+  "owner": "bounded_idea_supply",
+  "origin": "Root proposed this deduction after the registered GDT1235 result and requested an independent conceptual check. It is not preregistered, blinded or a new data result.",
+  "access": "The producer read the live route and the parent's supplied case statement only. No GDT1235 result artifact, native query, word profile, image, solver or source count was opened or run. Only this review note is written; no new idea card or root artifact is changed.",
+  "assumptions_received_not_independently_recounted": {
+    "alphabet": "A has22 fixed working units; whole written groups must be concatenations of fixed nonempty codewords.",
+    "capacity": "|C|<=22 and S is the EXACT set of singleton codewords, not merely a known subset.",
+    "root_reported_survivors": {
+      "RF": ["S=A minus {i}"],
+      "ZL": ["S=A minus {i}", "S=A minus {n}", "S=A minus {i,n}"],
+      "IT": []
+    },
+    "mandatory_code": "When n is missing, an is already a mandatory two-unit code; it contains no i.",
+    "whole_forms": "ain and aiin are complete strings under the same unit/group contract in every residual reader case to which their joint argument is applied. This is a supplied premise for root to bind to its existing evidence, not an independently checked occurrence claim.",
+    "registered_result": "The reported original necessary bounds23/22/22 remain the registered result. The deduction below is a separate post-result closure of the supplied cap22 residual cases."
+  },
+  "i_missing_proof": {
+    "cases": ["S=A minus {i}", "S=A minus {i,n}"],
+    "slots": "The first case already has21 singleton entries. The second has20 singletons plus mandatory an. In either case at most one additional codeword L can exist under cap22. Every fixed entry already named contains no i.",
+    "existence": "Since the complete word ain contains i, some additional i-containing code is necessary. Thus L exists and is the only possible i-containing code.",
+    "ain_obligation": "Let k be the number of i units in L. Any parse of ain uses L a positive integer t times, and t*k=1. Hence t=1 and k=1. Because concatenation has no cancellation or deletion, L contains no unit outside {a,i,n}.",
+    "aiin_obligation": "The complete word aiin has two i units. All other available codes contain none, and L contains one, so any parse must use L exactly twice. But aiin has only one a and one n. If L contained either a or n, two copies would already contribute at least two such units. Therefore L contains neither.",
+    "contradiction": "L contains exactly one i and no other unit, so L is the singleton i. This contradicts the exact S assumption in both cases.",
+    "scope": "This is a nonnegative symbol-count argument for fixed nonempty concatenative codes. It does not depend on the location of L, decoding direction, or extra prefix/suffix-freeness. The mandatory an in the two-missing case adds no i and cannot cancel excess a or n."
+  },
+  "n_only_proof": {
+    "case": "S=A minus {n}",
+    "slots": "The21 singleton entries and mandatory an already occupy all22 available code slots. Hence C=S union {an} exactly.",
+    "obligation": "The only code containing n is an. Any output group containing n must therefore contain a contiguous an block wherever that code is used.",
+    "contradiction": "The complete string aiin contains n but no contiguous an block. Therefore aiin is not in C*. This case is excluded without any additional code search."
+  },
+  "conclusion": "The parent's logical combination is valid. Conditional on the reported residual singleton sets being exhaustive and on the complete-word premises, all supplied nontrivial cap22 residual cases are excluded. This does not replace the original registered numerical bound or constitute a new manuscript discovery.",
+  "limits": [
+    "Keep readers separate; the argument must have its required complete forms in the same reader/input contract, not pooled across readings.",
+    "Exact singleton sets and the22-entry cap are essential. An additional i-containing code, a larger codebook, state dependence, deletion, code crossings over word boundaries or a different unit binding would be different contracts and are not selected as repairs.",
+    "The local contradiction needs only the stated fixed code sets/count capacity. Its application to the general UD family still depends on the registered UD-based enumeration that supplied these exhaustive cases.",
+    "Identity remains possible and is not a decipherment. No source-character values, word meanings, source language or general prohibition of context-readable non-UD writing follows.",
+    "IDEA962 suffix-only application remains unexecuted; this note does not report a separate suffix test."
+  ],
+  "stop": "Bounded conceptual review complete; no automatic further work."
+}

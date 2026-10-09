@@ -1,0 +1,71 @@
+{
+  "status": "LOGICAL_SCOPE_QUALIFICATION_NOT_NATIVE_SYNTAX_SELECTION",
+  "question": "Do the three retained patterns exclude ordinary left attachment, or only extra exhaustive one-to-one pairing?",
+  "result": "They do not exclude ordinary left attachment. A left-extensible expression plus unmodified heads supplies token-conserving counterparses.",
+  "formal_rules": [
+    "For this counterexample only, H labels chol tokens and M labels daiin tokens; these are NOT established manuscript lexical categories.",
+    "E -> H | E M; a sequence may contain more than one E.",
+    "H may occur without M; M may extend an already modified expression. Both freedoms are declared, not facts inferred about native words."
+  ],
+  "examples": [
+    {
+      "surface": [
+        "chol",
+        "daiin",
+        "chol"
+      ],
+      "tree": [
+        [
+          "chol",
+          "daiin"
+        ],
+        "chol"
+      ],
+      "display": "[chol daiin] chol"
+    },
+    {
+      "surface": [
+        "chol",
+        "daiin",
+        "daiin"
+      ],
+      "tree": [
+        [
+          "chol",
+          "daiin"
+        ],
+        "daiin"
+      ],
+      "display": "[[chol daiin] daiin]"
+    },
+    {
+      "surface": [
+        "chol",
+        "chol",
+        "daiin"
+      ],
+      "tree": [
+        "chol",
+        [
+          "chol",
+          "daiin"
+        ]
+      ],
+      "display": "chol [chol daiin]"
+    }
+  ],
+  "stronger_model_that_fails": "Every token in each independently closed three-token window must belong to exactly one disjoint immediate H-M pair. This is stronger than either a direction or a modifier hypothesis. The window is not independently a native closed unit.",
+  "right_attachment_limit": "H M H can be H [M H]. H M M and H H M need an explicitly available later head if every M is a right modifier. Absence of that head within a selected window alone does not exclude right attachment globally, and an unseen head must not be invented as observed.",
+  "global_countercases": "1047 remains binding: exact daiin left-host requirement within recorded paragraphs has0ZL but2ITcontradictions driven by paragraph flags; right-host requirement25/26. RF lacks paragraph flags. Local countergrammar is not a rescue of the failed universal contracts.",
+  "difference_from1201": "1201 proves that some multiple parses preserve one stipulated message. Here only existence of local bracketings is shown; no message or semantic equality is defined.",
+  "decision": "Do not infer mandatory complex state, several hidden referents, corruption or a universal two-word unit from these three patterns. No recursive-native-syntax or modifier meaning selected. New work requires an independently supported binding domain or role consequence, after prior review; no new count/simulator.",
+  "independent_review": "Authorized bounded producer separately supplied the same left counterparses and right-domain caveat; no new data opened.",
+  "native_meanings_assigned": 0,
+  "input_hashes": {
+    "experiments/yolo/gdt949_phrase_readings_observable_consequences/REPORT.md": "9ba8d5c559e750a358c35574dede2b1582a488dfa8e590a93419014678209360",
+    "experiments/yolo/gdt810_quality_arity_value_run/REPORT.md": "ae75a1818c9481c10bf7e03a78af9e77d65580be457d614536a9b3f32bd99309",
+    "experiments/yolo/gdt1047_bare_value_left_host/REPORT.md": "42901a717a45d19b1d101c2a2368d085b498b011ccdd8b7add395e770785067d",
+    "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md": "cf2bdf3720c7ca95f7bee3517edc70ad8d4cb46eea17b0c2d7205c8f6dfd2e42",
+    "research_registry/proposals/production_origin_supply_20261003/CHOL_DAIIN_CONCORDANCE_RESULT_20261008.json": "82120b9c5c249e998e254884302e3df53d7f568ce4947f3b3bc619f3edf7c7a4"
+  }
+}

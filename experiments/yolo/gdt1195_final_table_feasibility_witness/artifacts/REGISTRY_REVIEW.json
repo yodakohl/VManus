@@ -1,0 +1,52 @@
+{
+  "record_id": "GDT1195",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_final_table_witness",
+  "assessment_basis": "Verified13-context witness,16pre-fit parity checks, one6000proposal search,4frozen full-book metrics and1054recipe roundtrips",
+  "reason": "Capacity is feasible, but the selected best search output fails full H2/y/glyph-entropy/tight-edit criteria. No full passer or manual-read demonstration for this failed candidate.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "bs1H2;b4y;w1glyph entropy;w1/bs1/gr1tightedit all retain violations.",
+      "evidence": [
+        "experiments/yolo/gdt1195_final_table_feasibility_witness/REPORT.md",
+        "experiments/yolo/gdt1195_final_table_feasibility_witness/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_complete_rule_mechanism",
+        "change": "new_design",
+        "detail": "A genuinely different declared source-writing rule with human cost and native word-form constraints accounted for; no extra restart or relaxed criteria.",
+        "evidence": [
+          "experiments/yolo/gdt1195_final_table_feasibility_witness/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More unchanged optimization",
+      "Successful inverse or feasibility witness alone",
+      "A partial score or a broader tolerance"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1194",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1195_final_table_feasibility_witness/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1193",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1195_final_table_feasibility_witness/REPORT.md"
+      ]
+    }
+  ]
+}

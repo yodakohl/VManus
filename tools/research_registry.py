@@ -481,7 +481,27 @@ def show(root, identifier, event_limit=3):
     _limit(event_limit,10)
     with _connect(root) as connection:
         record = _get(connection,identifier)
+        incoming_count = connection.execute(
+            'SELECT count(*) FROM relations WHERE target=? AND source<>?',
+            (record['id'], record['id'])).fetchone()[0]
+        incoming = connection.execute(
+            'SELECT links.kind,links.payload AS relation,records.payload AS record '
+            'FROM relations links JOIN records ON records.id=links.source '
+            'WHERE links.target=? AND links.source<>? '
+            'ORDER BY links.source,links.kind LIMIT 4',
+            (record['id'], record['id'])).fetchall()
     result = _card(record)
+    result.update({
+        'incoming_relation_count': incoming_count,
+        'incoming_relation_cards': [dict(
+            _card(json.loads(row['record'])), relation_type=row['kind'],
+            relation_evidence=json.loads(row['relation']).get('evidence', [])[:2])
+            for row in incoming],
+    })
+    if incoming_count:
+        result['relation_navigation'] = (
+            'References are review leads, not supersession or reopening. '
+            f"Page all directions with: ideas relations {record['id']} --limit 8 --offset 0")
     result.update({'source_status': _clip(record.get('source_status',''),450),
                    'aliases': record.get('aliases',[])[:8],
                    'blockers': record.get('blockers',[])[:8],

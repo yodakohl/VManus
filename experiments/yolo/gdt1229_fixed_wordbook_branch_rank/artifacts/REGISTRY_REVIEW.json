@@ -1,0 +1,75 @@
+{
+  "record_id": "GDT1229",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261006_fixed_complete_wordbook",
+  "assessment_basis": "Pre-output source/rule/threshold lock, full71section encoded inverse, independently rebuilt source ranks and3072native samples, all declared outcomes retained.",
+  "reason": "The exact full Deot wordbook branch-rank notation fails bothH1andH2in every scoreable sample of each reading despite all length-gate passes. Every global drawing renaming preserves this mismatch.",
+  "blockers": [
+    {
+      "code": "fixed_wordbook_both_entropy_mismatch",
+      "detail": "H1=3.4999too low andH2=2.84288too high for all declared native intervals; six-gate joint0.",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md",
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/artifacts/RESULT.json",
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "genuinely_changed_source_or_mechanism",
+        "change": "new_design",
+        "detail": "A separately motivated source or materially different full writing mechanism with an explicit new decision-changing falsifier. No automatic rank/rotor/dictionary tuning from these outputs.",
+        "evidence": [
+          "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Global sign permutation",
+      "A different selected sample under the same declared cells",
+      "The preserved finite teaching roundtrip",
+      "A lowerH2than1228without all current gates passing"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000958",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1228",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1223",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1225",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1202",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md"
+      ]
+    }
+  ]
+}

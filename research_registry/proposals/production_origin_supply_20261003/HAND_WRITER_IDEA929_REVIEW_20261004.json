@@ -1,0 +1,46 @@
+{
+  "record_id": "IDEA000929",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root",
+  "assessment_basis": "conditional_constructor_proof_with_explicit_fixed_motif_binding",
+  "reason": "The fixed G0 motif binding of the complete IT/RF f25v.1 sos group requires the same S motif in both disjoint coordinate classes and has odd length. Reject this precisely bound IDEA929 realization. The original proposal has no independently fixed native atomization, so no claim of rejecting every possible native two-pass coordinate code. ZL uncertain boundary excluded; alternate readers are one locus, not replications.",
+  "blockers": [
+    {
+      "code": "model_counterexample",
+      "detail": "Fixed S-O-S complete group cannot be R^n C^n for disjoint classes; all4 motif/class assignments fail. This is the tested conditional failure, not a missing-data verdict.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDENTIFIABILITY_RESULT_20261004.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDENTIFIABILITY_INPUTS_20261004.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_NATIVE_ACCOUNT_20261004.json"
+      ]
+    },
+    {
+      "code": "unbound_other_native_realizations",
+      "detail": "No independent atomic native inventory was supplied for the unconstrained raw mechanism. Such other realizations were not tested and are not inferred false from the fixed-motif failure.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_FOLDED_COORDINATES_RAW_20261004.json"
+      ]
+    }
+  ],
+  "relations": [],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_bound_native_inventory",
+        "change": "new_binding",
+        "detail": "Supply an independently motivated native atomic binding with complete group boundaries and retain the sos countercase; no context-dependent repartition of equal motifs merely to fit R/C. This would be a changed realization, not rescue of the tested binding.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDENTIFIABILITY_RESULT_20261004.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Changing table letter values",
+      "Adding optional fusion or allography after failure",
+      "Silently joining the uncertain ZL boundary",
+      "Counting IT and RF as independent evidence"
+    ]
+  }
+}

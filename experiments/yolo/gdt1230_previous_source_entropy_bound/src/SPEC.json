@@ -1,0 +1,57 @@
+{
+  "experiment": "GDT1230",
+  "selected_utc": "2026-10-06T08:41:41.533599+00:00",
+  "preparation_began_utc": "2026-10-06T08:32:00Z",
+  "whole_work_deadline_utc": "2026-10-06T09:17:00Z",
+  "total_budget_minutes": 45,
+  "question": "Can the empirical second-source-context entropy bound exclude every one-letter-in/one-sign-out alphabet whose only state is the previous decoded source letter, for the complete fixed bare Deot projection?",
+  "source_projection": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+  "source_spec": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/src/SPEC.json",
+  "native_result": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/RESULT.json",
+  "native_validation": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/VALIDATION.json",
+  "source_alphabet": "אבגדהוזחטיכלמנסעפצקרשת",
+  "writer_family": "For every source previous-letter state p, a fixed bijection f_p maps all22source letters to22output signs. The output of source x is f_p(x), then p=x. No additional state, counter, position/word identity, homophony, shortening, expansion, source deletion, regrouping or output-word reversal. A fixed public reset state has its own fixed bijection. Word spaces and all71source sections remain. Global sign relabeling and arbitrary row tables are included; no key or table is constructed.",
+  "cases": [
+    {
+      "orientation": "logical",
+      "reset": "paragraph"
+    },
+    {
+      "orientation": "logical",
+      "reset": "word"
+    },
+    {
+      "orientation": "reverse_each_source_word",
+      "reset": "paragraph"
+    },
+    {
+      "orientation": "reverse_each_source_word",
+      "reset": "word"
+    }
+  ],
+  "case_limit": "Reverse each source word BEFORE encoding is a separate source stream; it is not equated to reversing a previously encoded word. Physical rows may wrap only between complete groups, never reset state, and preserve source groups. Every source word must be at most24letters for this fixed full-source scope; otherwise stop rather than invent a split rule.",
+  "empirical_positions": "Exactly all within-word adjacent OUTPUT sign positions, equivalently source-character positions j>=1 within every complete source word. Each actual occurrence counts once. At one such current character X, P is the preceding source letter. Q is the preceding letter beforeP in the declared reset stream, or a distinct RESET sentinel ifPwas the first character after reset. Under paragraph reset, one-letter source words update the stream even though they contribute no within-word pair. Do not pool identical words before assigning their entranceQ.",
+  "bound": "Let Y=f_P(X), Z=f_Q(P). Q=RESET uses the public reset mapping. Z is determined by(P,Q). Therefore H(Y|Z)>=H(Y|Z,P,Q)=H(Y|P,Q)=H(X|P,Q), because for fixedP the transformation is bijective. This is an identity/inequality on the finite empirical pair-position distribution, with no stationarity or independent-letter assumption.",
+  "native_comparison": "Reuse every unchanged1228scoreable native sample, separately by reader/cell/order: same6288groups and within-word working-sign H2. No new native query or reserve. A case is excluded for a reader only if its bound exceeds EVERYnativeH2+0.30 by more than1e-8. Otherwise report BOUND_INCONCLUSIVE, never a writer success. Keep18no-capacity cells untested. All four cases and all three readers are reported; no cherry-pick or posterior bound change.",
+  "numeric_policy": "Runner direct conditional-count expression; separate validator uses joint-minus-context entropy plus Decimal50-digit logarithms. Strict exclusion margin1e-8 avoids numerical boundary decisions. This guard is not a new scientific tolerance.",
+  "fixtures": "Before historical-source output, enumerate all binary context-row permutations on a uniform full eight-triple table and a deterministic-X=P xorQ table. Check empirical bound for every fixed mapping, including strict slack; a noninjective constant-output counterexample on the uniform table must violate it to demonstrate the essential bijectivity assumption.",
+  "validation": "Rebuild source from7rawchapter JSONs, every event and reset/one-letter boundary contribution independently; compare full context-count tables and count totals; rebuild all native ceiling summaries from frozen1228sample metrics and verify matchingN. Confirm proof assumptions, binary exhaustive fixtures, numerical bounds, per-reader decisions and all excluded/inconclusive scopes.",
+  "positive_knowledge": "1228direct alphabetH2failure;1229full-wordbook can changeH2but fails both glyph entropies;1217simple previous-source ring is reversible and its old expanded-source length failure remains. Composition is real but does not choose this source or cipher.",
+  "strongest_predecessors": "1180six learned context tables failed on old expanded97unit sources;1217fixed22ring/61escapes failed old length dispersion, noH2test. This does not rerun either. New fixed22base-letter source was acquired before this family question, and a new analytical lower bound can cover arbitrary previous-letter permutations without implementing them.1223/1225operational-sample cautions retained; no old writer rescored.",
+  "decision_changes": {
+    "excluded": "Do not run or optimize fixed rings, source-alphabet orders or arbitrary previous-source-letter tables on this projection under the excluded orientation/reset scope.",
+    "inconclusive": "The bound does not settle the candidate family; retain that exact unresolved scope without a pass or automatic key/source/state search. A specific full writer still needs its own independently justified selection.",
+    "invalid": "Stop on violated counting/unit/reset or proof assumptions; no empirical source or native conclusion."
+  },
+  "smallest_test": "Four finite source-event count tables and analytical bounds; use existing fully validated native H2cache. No encoder, decoder, parameter grid, corpus acquisition or new native access.",
+  "assumptions": [
+    "Same full lossy digital Deot projection, not collated medieval spelling.",
+    "One source base letter and one22working output unit with source word boundaries preserved.",
+    "Only previous decoded source letter affects the current fixed bijection; no hidden mode or physical-line state.",
+    "Declared reset sentinel belongs to the same empirical position bookkeeping.",
+    "Heuristic native tolerance and exposed overlapping comparisons, not a calibrated error probability."
+  ],
+  "budget": "45minutes08:32–09:17UTC including proof/prior review, implementation, validation and local closure. Stop expansion; no automatic decoder followup.",
+  "access": "No new native data; reuse1228guarded summaries only. f84/f84r sealed;f116v/reserves/images excluded. Local4October checkpoint, no push.",
+  "claim_ceiling": "Conditional empirical source/model-family exclusion or insufficient-bound result only; no general language exclusion, source identification, native meaning, full writer fit, historical use, minimum universal memory or independent confirmation."
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1171**
-- Experiment-associated tracked files: **23,601** (2.2 GiB)
-- Structured GDT337+ experiments: **820**
+- Experiments indexed: **1297**
+- Experiment-associated tracked files: **25,688** (2.3 GiB)
+- Structured GDT337+ experiments: **962**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,11 +20,184 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1298 | GDT1298_f103r_repeat_source_review | `UNRESOLVED` | [report](../experiments/yolo/gdt1298_f103r_repeat_source_review/REPORT.md) | 12 | 31.4 KiB | 3 | STRUCTURED_YOLO |
+| GDT1297 | GDT1297_cyclic_pool_pair_range | `ADDITIONAL_SINGLETON_CONSEQUENCES` | [report](../experiments/yolo/gdt1297_cyclic_pool_pair_range/REPORT.md) | 15 | 897.5 KiB | 2 | STRUCTURED_YOLO |
+| GDT1296 | GDT1296_categorical_harmony_capacity | `COMMON_CATEGORICAL_HARMONY_EXCLUDED` | [report](../experiments/yolo/gdt1296_categorical_harmony_capacity/REPORT.md) | 16 | 449.8 KiB | 5 | STRUCTURED_YOLO |
+| GDT1295 | GDT1295_local_allograph_letter_bound | `ALL_READERS_SMALL_LOCAL_ALLOGRAPH_ALPHABET_EXCLUDED` | [report](../experiments/yolo/gdt1295_local_allograph_letter_bound/REPORT.md) | 14 | 707.3 KiB | 4 | STRUCTURED_YOLO |
+| GDT1294 | GDT1294_f82v_qoky_seam_comparison | `LOCAL_INTERNAL_LIKE_SUPPORT` | [report](../experiments/yolo/gdt1294_f82v_qoky_seam_comparison/REPORT.md) | 11 | 15.4 KiB | 3 | STRUCTURED_YOLO |
+| GDT1293 | GDT1293_prefix_only_marker_capacity | `ALL_DEDICATED_PREFIX_UNITS_EXCLUDED` | [report](../experiments/yolo/gdt1293_prefix_only_marker_capacity/REPORT.md) | 13 | 1.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT1292 | GDT1292_f99v_hole_edge_chronology | `AVOIDANCE_COMPATIBLE` | [report](../experiments/yolo/gdt1292_f99v_hole_edge_chronology/REPORT.md) | 11 | 13.7 KiB | 3 | STRUCTURED_YOLO |
+| GDT1291 | GDT1291_f8r4_gap_review | `UNRESOLVED` | [report](../experiments/yolo/gdt1291_f8r4_gap_review/REPORT.md) | 11 | 13.4 KiB | 4 | STRUCTURED_YOLO |
+| GDT1290 | GDT1290_historical_source_frequency_baseline | `NO_PRIMARY_REFERENCE_COMPATIBILITY` | [report](../experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md) | 24 | 8.5 MiB | 7 | STRUCTURED_YOLO |
+| GDT1289 | GDT1289_overlapping_bank_native_syntax | `ALL_READERS_EXACT_OVERLAP_CARRIER_SYNTAX_EXCLUDED` | [report](../experiments/yolo/gdt1289_overlapping_bank_native_syntax/REPORT.md) | 14 | 182.3 KiB | 5 | STRUCTURED_YOLO |
+| GDT1288 | GDT1288_overlapping_bank_frequency_capacity | `FIXED_OVERLAPPING_BANK_CAPACITY_FAIL` | [report](../experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md) | 15 | 1.0 MiB | 4 | STRUCTURED_YOLO |
+| GDT1287 | GDT1287_whole_word_reversible_closure | `ALL_READERS_REVERSIBLE_WORD_COMPLETION_EXCLUDED` | [report](../experiments/yolo/gdt1287_whole_word_reversible_closure/REPORT.md) | 13 | 334.2 KiB | 6 | STRUCTURED_YOLO |
+| GDT1286 | GDT1286_paragraph_additive_lattice | `BOTH_READERS_ALL_ABELIAN_PARAGRAPH_INVARIANTS_EXCLUDED` | [report](../experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md) | 14 | 596.8 KiB | 2 | STRUCTURED_YOLO |
+| GDT1285 | GDT1285_inner_two_unit_memory | `NO_JOINT_TWO_UNIT_INCREMENT` | [report](../experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md) | 14 | 1.4 MiB | 5 | STRUCTURED_YOLO |
+| GDT1284 | GDT1284_sender_d_next_q | `NOT_CONFIRMED` | [report](../experiments/yolo/gdt1284_sender_d_next_q/REPORT.md) | 13 | 952.9 KiB | 7 | STRUCTURED_YOLO |
+| GDT1283 | GDT1283_f77r_line_packing_geometry | `NO_BOUND_GEOMETRY_FOR_GREEDY_TEST` | [report](../experiments/yolo/gdt1283_f77r_line_packing_geometry/REPORT.md) | 15 | 40.7 KiB | 5 | STRUCTURED_YOLO |
+| GDT1282 | GDT1282_anchored_continuation_rejoin | `NO_LITERAL_REJOIN_IN_FIXED_13` | [report](../experiments/yolo/gdt1282_anchored_continuation_rejoin/REPORT.md) | 16 | 512.7 KiB | 5 | STRUCTURED_YOLO |
+| GDT1281 | GDT1281_paid_allocation_carrier | `SOURCE_KNOWN_MODULE_ROUNDTRIP_PASS_NO_NATIVE_BINDING` | [report](../experiments/yolo/gdt1281_paid_allocation_carrier/REPORT.md) | 19 | 54.4 KiB | 2 | STRUCTURED_YOLO |
+| GDT1280 | GDT1280_word_bigram_order_capacity | `ORDER_CONTROL_CAPACITY_STOP` | [report](../experiments/yolo/gdt1280_word_bigram_order_capacity/REPORT.md) | 20 | 1.0 MiB | 7 | STRUCTURED_YOLO |
+| GDT1279 | GDT1279_strict_inner_symbol_prediction | `INNER_EXACT_TRANSFER_AND_IDENTITY_INCREMENT` | [report](../experiments/yolo/gdt1279_strict_inner_symbol_prediction/REPORT.md) | 16 | 2.7 MiB | 6 | STRUCTURED_YOLO |
+| GDT1278 | GDT1278_binary_order_prediction | `NO_JOINT_MATERIAL_PREDICTION` | [report](../experiments/yolo/gdt1278_binary_order_prediction/REPORT.md) | 16 | 196.4 KiB | 4 | STRUCTURED_YOLO |
+| GDT1277 | GDT1277_oka_aiin_context_transfer | `KNOWN_COUNTERCASE_STOP_BEFORE_BROAD_TRANSFER` | [report](../experiments/yolo/gdt1277_oka_aiin_context_transfer/REPORT.md) | 12 | 36.3 KiB | 7 | STRUCTURED_YOLO |
+| GDT1276 | GDT1276_fixed_pair_binary_state_bound | `FIXED_INPUT_BINARY_STATE_EXCLUDED` | [report](../experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md) | 14 | 193.2 KiB | 6 | STRUCTURED_YOLO |
+| GDT1275 | GDT1275_lr_disjoint_cycle_reference | `ROBUST_POSITIVE_RESIDUAL_DESCRIPTIVE_ONLY` | [report](../experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md) | 16 | 165.9 KiB | 4 | STRUCTURED_YOLO |
+| GDT1274 | GDT1274_shorter_reference_doublet_bound | `REFERENCE_WIDTH_AT_LEAST_SEVEN_UNDER_STRICT_SAVING_POLICY` | [report](../experiments/yolo/gdt1274_shorter_reference_doublet_bound/REPORT.md) | 15 | 43.0 KiB | 3 | STRUCTURED_YOLO |
+| GDT1273 | GDT1273_f100r_upper_link_scope | `NO_COMPLETE_INTERVENING_GROUP_LOCAL` | [report](../experiments/yolo/gdt1273_f100r_upper_link_scope/REPORT.md) | 15 | 27.3 KiB | 4 | STRUCTURED_YOLO |
+| GDT1272 | GDT1272_fixed_omitted_suffix_checksum | `FIXED_CHECKSUM_SCREEN_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1272_omitted_suffix_checksum/REPORT.md) | 17 | 1.9 MiB | 5 | STRUCTURED_YOLO |
+| GDT1271 | GDT1271_chart_zero_mask_and_key_ambiguity | `ZERO_MASK_INVARIANT_AND_DIFFERENT_CHART_AMBIGUITY` | [report](../experiments/yolo/gdt1271_chart_zero_mask_identifiability/REPORT.md) | 15 | 45.5 KiB | 2 | STRUCTURED_YOLO |
+| GDT1270 | GDT1270_chart_successor_cost | `NECESSARY_POSITION_BOUNDS_ONLY` | [report](../experiments/yolo/gdt1270_repeated_label_chart_degree_bound/REPORT.md) | 19 | 881.9 KiB | 2 | STRUCTURED_YOLO |
+| GDT1269 | GDT1269_space_free_pair_table_capacity | `ALL_SMALL_PAIR_TABLES_EXCLUDED` | [report](../experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md) | 17 | 944.3 KiB | 5 | STRUCTURED_YOLO |
+| GDT1268 | GDT1268_previous_word_column_difference | `FIXED_WORD_COLUMN_SCREEN_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md) | 16 | 1.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT1267 | GDT1267_existing_general_UD_bridge | `GENERAL_UD_FIXED_SOURCE_EXCLUSION_EXTENDED` | [report](../experiments/yolo/gdt1267_general_ud_two_sided_closure/REPORT.md) | 19 | 109.9 KiB | 6 | STRUCTURED_YOLO |
+| GDT1266 | GDT1266_training_neighbor_strata | `CAPACITY_STOP` | [report](../experiments/yolo/gdt1266_interior_training_neighbor_strata/REPORT.md) | 15 | 156.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT1265 | GDT1265_joint_paired_interior_control | `PAIRED_POSITION_BAG_LEAD_RETAINED` | [report](../experiments/yolo/gdt1265_paired_interior_position_control/REPORT.md) | 18 | 1.2 MiB | 2 | STRUCTURED_YOLO |
+| GDT1264 | GDT1264_scientific_status_restatement | `BINARY_INTERIOR_ORDER_LEAD` | [report](../experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md) | 19 | 530.3 KiB | 2 | STRUCTURED_YOLO |
+| GDT1263 | GDT1263_ordered_symbol_classes | `FULL_FIXED_SORT_EXCLUDED_RECURRENT_OUTER_CAPACITY` | [report](../experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md) | 14 | 1.2 MiB | 3 | STRUCTURED_YOLO |
+| GDT1262 | GDT1262_prefix26_exception_radius | `EXACT_NONTRIVIAL_MINIMUM_ONE_GROUP` | [report](../experiments/yolo/gdt1262_prefix26_exception_radius/REPORT.md) | 14 | 61.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT1261 | GDT1261_scientific_status_restatement | `COMPUTATIONAL_CAPACITY_STOP` | [report](../experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md) | 13 | 36.2 KiB | 3 | STRUCTURED_YOLO |
+| GDT1260 | GDT1260_lr_line_margin_capacity | `WITNESSED_SCORE_CAPACITY` | [report](../experiments/yolo/gdt1260_lr_line_margin_capacity/REPORT.md) | 16 | 4.4 MiB | 3 | STRUCTURED_YOLO |
+| GDT1259 | GDT1259_fixed_integer_paragraph_balance | `BOTH_READERS_FIXED_INTEGER_PARAGRAPH_BALANCE_EXCLUDED` | [report](../experiments/yolo/gdt1259_paragraph_integer_balance/REPORT.md) | 17 | 1.0 MiB | 3 | STRUCTURED_YOLO |
+| GDT1258 | GDT1258_additive_value_one_capacity | `ALL_READERS_VALUE_ONE_CAPACITY_EXCLUDED` | [report](../experiments/yolo/gdt1258_additive_value_one_capacity/REPORT.md) | 15 | 355.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1257 | GDT1257_mandatory_control_window | `ALL_READERS_FIVE_CONTROL_FORMS_INSUFFICIENT` | [report](../experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md) | 14 | 644.3 KiB | 1 | STRUCTURED_YOLO |
+| GDT1256 | GDT1256_word_permutation_multiplicity | `FIXED_SOURCE_PERMUTATION_ENVELOPE_EXCLUDED` | [report](../experiments/yolo/gdt1256_word_permutation_multiplicity/REPORT.md) | 13 | 26.1 KiB | 4 | STRUCTURED_YOLO |
+| GDT1255 | GDT1255_finite_state_entropy_budget | `ALL_AT_MOST_TWO_STATE_FIXED_SOURCE_WRITERS_EXCLUDED` | [report](../experiments/yolo/gdt1255_finite_state_entropy_budget/REPORT.md) | 14 | 574.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1254 | GDT1254_exact_neighbor_placement | `NO_CONFLICT_NEIGHBOR_LOOKUP_UNIDENTIFIED` | [report](../experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md) | 13 | 18.5 KiB | 2 | STRUCTURED_YOLO |
+| GDT1253 | GDT1253 | `UNIVERSAL_GRAMMAR_RESTRICTED_COVER_CONSTRUCTED` | [report](../experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md) | 16 | 86.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1252 | GDT1252 | `LOCAL_INTERNAL_LIKE_SUPPORT` | [report](../experiments/yolo/gdt1252_f76v_corrected_seam_localization/REPORT.md) | 17 | 19.4 KiB | 3 | STRUCTURED_YOLO |
+| GDT1251 | GDT1251 | `UNRESOLVED_REGION_MISLOCALIZED` | [report](../experiments/yolo/gdt1251_f76v_cheol_seam_view/REPORT.md) | 20 | 30.9 KiB | 3 | STRUCTURED_YOLO |
+| GDT1250 | GDT1250 | `DISJOINT_RESET_CACHE_CONTRADICTED` | [report](../experiments/yolo/gdt1250_cache_reset_doublet_conflict/REPORT.md) | 18 | 2.6 MiB | 4 | STRUCTURED_YOLO |
+| GDT1249 | GDT1249_disclosed_post_result_survivors | `POST_RESULT_ALL_CARRIER_RENAMINGS_EXCLUDED` | [report](../experiments/yolo/gdt1249_suffix_carrier_initial_capacity/REPORT.md) | 18 | 320.9 KiB | 4 | STRUCTURED_YOLO |
+| GDT1248 | GDT1248_prefix_bound_attainment | `EXACT_MINIMUM_27_ALL_READINGS` | [report](../experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md) | 13 | 63.4 KiB | 6 | STRUCTURED_YOLO |
+| GDT1247 | GDT1247_simultaneous_prefix_representatives | `ALL_FOUR_OPEN_CASES_PASS_WEAK_PROJECTION` | [report](../experiments/yolo/gdt1247_prefix_representative_capacity/REPORT.md) | 14 | 238.7 KiB | 6 | STRUCTURED_YOLO |
+| GDT1246 | GDT1246_repeated_half_conditional_pairing | `NO_ROBUST_PRIMARY_DIAGONAL_EXCESS` | [report](../experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md) | 17 | 3.6 MiB | 6 | STRUCTURED_YOLO |
+| GDT1245 | GDT1245_claim_priority_correction | `INCONCLUSIVE_RETAINED_CHAT_OVERCLAIM_CORRECTED` | [report](../experiments/yolo/gdt1245_internal_start_cue_capacity/artifacts/GDT1245_CLAIM_PRIORITY_CORRECTION_20261006.json) | 19 | 449.2 KiB | 3 | STRUCTURED_YOLO |
+| GDT1244 | GDT1244_f21v_arch_body_gaps | `UNRESOLVED` | [report](../experiments/yolo/gdt1244_f21v_arch_body_gaps/REPORT.md) | 18 | 27.0 KiB | 2 | STRUCTURED_YOLO |
+| GDT1243 | GDT1243_f45r_mandatory_grapheme_gaps | `LOCAL_NECESSARY_GAPS_NOT_CONTRADICTED` | [report](../experiments/yolo/gdt1243_f45r_mandatory_grapheme_gaps/REPORT.md) | 18 | 29.1 KiB | 3 | STRUCTURED_YOLO |
+| GDT1242 | GDT1242_f21v_four_body_source | `SOURCE_AWARE_FOUR_BODY_COMPATIBILITY` | [report](../experiments/yolo/gdt1242_f21v_four_body_source/REPORT.md) | 22 | 41.5 KiB | 5 | STRUCTURED_YOLO |
+| GDT1241 | GDT1241_suffix_quotient_expansion | `PARTIAL_SINGLETONS_FIVE_SOURCE_EXCLUSIONS` | [report](../experiments/yolo/gdt1241_suffix_quotient_expansion/REPORT.md) | 20 | 259.9 KiB | 5 | STRUCTURED_YOLO |
+| GDT1240 | GDT1240_prefix_expansion_fourth_power | `ALL_FIVE_SOURCE_EXPANSION_ENVELOPES_EXCLUDED` | [report](../experiments/yolo/gdt1240_prefix_expansion_fourth_power/REPORT.md) | 18 | 68.6 KiB | 8 | STRUCTURED_YOLO |
+| GDT1239 | GDT1239_written_feedback_position_envelope | `ALL_READINGS_BOTH_ORIENTATIONS_EXCLUDED` | [report](../experiments/yolo/gdt1239_written_feedback_position_envelope/REPORT.md) | 18 | 175.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT1238 | GDT1238_written_feedback_run_bound | `RUN_BOUND_INCONCLUSIVE_ALL_READINGS` | [report](../experiments/yolo/gdt1238_written_feedback_run_bound/REPORT.md) | 18 | 260.8 KiB | 4 | STRUCTURED_YOLO |
+| GDT1237 | GDT1237_one_compound_letter_exceptions | `ONE_COMPOUND_MINIMUM60IT48RF43ZL_AT_ONE_TO_TEN_PERCENT_ACTIVITY` | [report](../experiments/yolo/gdt1237_one_compound_letter_exceptions/REPORT.md) | 23 | 1.1 MiB | 3 | STRUCTURED_YOLO |
+| GDT1236 | GDT1236_prefix_proof_support | `FULL27_BOUND_DEPENDS_ON_HAPAX_TYPES_RECURRENT_BOUND23` | [report](../experiments/yolo/gdt1236_prefix_proof_support/REPORT.md) | 24 | 1.8 MiB | 3 | STRUCTURED_YOLO |
+| GDT1235 | GDT1235_ud_short_word_capacity | `GENERAL_UD_NECESSARY_BOUNDS_23IT_22RF_22ZL` | [report](../experiments/yolo/gdt1235_ud_short_word_capacity/REPORT.md) | 20 | 126.7 KiB | 5 | STRUCTURED_YOLO |
+| GDT1234 | GDT1234_prefix_quotient_code_capacity | `NONTRIVIAL_PREFIX_CODE_REQUIRES_AT_LEAST27_ALL_READINGS` | [report](../experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md) | 22 | 460.2 KiB | 5 | STRUCTURED_YOLO |
+| GDT1233 | GDT1233_distinct_initial_fixed_expansion | `ALL_USED_CODES_SINGLETON_ALL_READINGS` | [report](../experiments/yolo/gdt1233_distinct_initial_fixed_expansion/REPORT.md) | 24 | 977.9 KiB | 9 | STRUCTURED_YOLO |
+| GDT1232 | GDT1232_injective_abjad_packet_bound | `INJECTIVE_ADDITIVE_PACKETS_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1232_injective_abjad_packet_bound/REPORT.md) | 23 | 3.0 MiB | 3 | STRUCTURED_YOLO |
+| GDT1231 | GDT1231_additive_abjad_packet_bound | `ADDITIVE_PACKET_RELAXATION_FEASIBLE_ALL_READINGS` | [report](../experiments/yolo/gdt1231_additive_abjad_packet_bound/REPORT.md) | 19 | 189.1 KiB | 3 | STRUCTURED_YOLO |
+| GDT1230 | GDT1230_previous_source_entropy_bound | `ALL_FOUR_SOURCE_CASES_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1230_previous_source_entropy_bound/REPORT.md) | 16 | 1.0 MiB | 6 | STRUCTURED_YOLO |
+| GDT1229 | GDT1229_fixed_wordbook_branch_rank | `FIXED_WORDBOOK_SCREEN_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md) | 17 | 2.9 MiB | 11 | STRUCTURED_YOLO |
+| GDT1228 | GDT1228_bare_hebrew_bijection_screen | `DIRECT_BIJECTION_SCREEN_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1228_bare_hebrew_bijection_screen/REPORT.md) | 16 | 2.7 MiB | 9 | STRUCTURED_YOLO |
+| GDT1227 | GDT1227_relation_path_one_sign_capacity | `GLOBAL_RELABELING_EXCLUDED_SOME_READINGS` | [report](../experiments/yolo/gdt1227_relation_path_one_sign_capacity/REPORT.md) | 15 | 53.8 KiB | 3 | STRUCTURED_YOLO |
+| GDT1226 | GDT1226_pooled_source_alias_lower_bound | `EVERY_MIXTURE_TWO_ALIAS_CONCENTRATION_EXCLUDED` | [report](../experiments/yolo/gdt1226_pooled_source_alias_lower_bound/REPORT.md) | 14 | 31.8 KiB | 8 | STRUCTURED_YOLO |
+| GDT1225 | GDT1225_stratified_frequency_self_control | `POOLED_FREQUENCY_BANDS_NOT_PORTABLE_TO_ALL_LARGE_STRATA` | [report](../experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md) | 15 | 672.1 KiB | 5 | STRUCTURED_YOLO |
+| GDT1224 | GDT1224_short_word_final_capacity | `SIX_FINAL_SHORT_GROUP_ARCHITECTURE_EXCLUDED` | [report](../experiments/yolo/gdt1224_short_word_final_capacity/REPORT.md) | 18 | 58.3 KiB | 6 | STRUCTURED_YOLO |
+| GDT1223 | GDT1223_strengthened_screen_self_control | `STRENGTHENED_SCREEN_OPERATIONALLY_UNSTABLE` | [report](../experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md) | 16 | 3.3 MiB | 6 | STRUCTURED_YOLO |
+| GDT1222 | GDT1222_lemma_inflection_source_screen | `LEMMA_INFLECTION_FREQUENCY_FAIL` | [report](../experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md) | 14 | 38.7 KiB | 9 | STRUCTURED_YOLO |
+| GDT1221 | GDT1221_grammatical_source_groups | `GRAMMATICAL_GROUP_FREQUENCY_FAIL` | [report](../experiments/yolo/gdt1221_grammatical_source_groups/REPORT.md) | 14 | 31.9 KiB | 6 | STRUCTURED_YOLO |
+| GDT1220 | GDT1220_material_predicate_pair_writer | `MATERIAL_PREDICATE_FREQUENCY_FAIL` | [report](../experiments/yolo/gdt1220_material_predicate_pair_writer/REPORT.md) | 16 | 147.0 KiB | 5 | STRUCTURED_YOLO |
+| GDT1219 | GDT1219_contextual_cv_body_screen | `CONTEXT_CV_NECESSARY_SCREEN_FAIL` | [report](../experiments/yolo/gdt1219_contextual_cv_body_screen/REPORT.md) | 17 | 285.3 KiB | 9 | STRUCTURED_YOLO |
+| GDT1218 | GDT1218_alternating_small_class_capacity | `EXCLUDED_64_FORM_ALTERNATION` | [report](../experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md) | 15 | 67.9 KiB | 5 | STRUCTURED_YOLO |
+| GDT1217 | GDT1217_circular_difference_source_screen | `FIXED_RING_NECESSARY_SCREEN_FAIL` | [report](../experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md) | 17 | 265.6 KiB | 6 | STRUCTURED_YOLO |
+| GDT1216 | GDT1216_iterated_head_nominal_argument | `ITERATED_HEAD_NOMINAL_ARGUMENT_CONTRADICTED` | [report](../experiments/yolo/gdt1216_iterated_head_nominal_argument/REPORT.md) | 15 | 34.2 KiB | 4 | STRUCTURED_YOLO |
+| GDT1215 | GDT1215_paragraph_local_iteration_arity | `NO_ELIGIBLE_PARAGRAPH_END_CONTRADICTION` | [report](../experiments/yolo/gdt1215_paragraph_local_iteration_arity/REPORT.md) | 16 | 1.1 MiB | 6 | STRUCTURED_YOLO |
+| GDT1214 | GDT1214_short_square_fixed_grammar | `NO_SHORT_SQUARE_GRAMMAR_RENAMING` | [report](../experiments/yolo/gdt1214_short_square_fixed_grammar/REPORT.md) | 14 | 90.4 KiB | 3 | STRUCTURED_YOLO |
+| GDT1213 | GDT1213_frequency_sample_order_sensitivity | `FREQUENCY_SELECTION_OPERATIONALLY_STABLE` | [report](../experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md) | 13 | 167.3 KiB | 4 | STRUCTURED_YOLO |
+| GDT1212 | GDT1212_bidirectional_function_binding | `BIDIRECTIONAL_GROUPING_FREQUENCY_FAIL` | [report](../experiments/yolo/gdt1212_bidirectional_function_binding/REPORT.md) | 15 | 196.2 KiB | 6 | STRUCTURED_YOLO |
+| GDT1211 | GDT1211_one_variant_per_line_capacity | `ONE_VARIANT_PER_LINE_CAPACITY_EXCLUDED` | [report](../experiments/yolo/gdt1211_one_variant_per_line_capacity/REPORT.md) | 14 | 980.0 KiB | 6 | STRUCTURED_YOLO |
+| GDT1210 | GDT1210_two_group_content_frequency | `TWO_GROUP_CONTENT_FREQUENCY_FAIL` | [report](../experiments/yolo/gdt1210_two_group_content_frequency/REPORT.md) | 16 | 272.1 KiB | 4 | STRUCTURED_YOLO |
+| GDT1209 | GDT1209_column_table_cell_balance | `NO_RENAMED_COLUMN_BALANCE` | [report](../experiments/yolo/gdt1209_column_table_cell_balance/REPORT.md) | 19 | 2.1 MiB | 3 | STRUCTURED_YOLO |
+| GDT1208 | GDT1208_f45r_repeated_dal_body | `SOURCE_AWARE_LOCAL_SHAPE_SUPPORT` | [report](../experiments/yolo/gdt1208_f45r_repeated_dal_body/REPORT.md) | 21 | 50.8 KiB | 6 | STRUCTURED_YOLO |
+| GDT1207 | GDT1207_letter_alias_parity_frequency | `ALT_FREQUENCY_SCREEN_FAIL` | [report](../experiments/yolo/gdt1207_letter_alias_parity_frequency/REPORT.md) | 23 | 1.6 MiB | 12 | STRUCTURED_YOLO |
+| GDT1206 | GDT1206_mtf_source_frequency | `MTF_FREQUENCY_SCREEN_FAIL` | [report](../experiments/yolo/gdt1206_mtf_source_frequency/REPORT.md) | 23 | 1.8 MiB | 12 | STRUCTURED_YOLO |
+| GDT1205 | GDT1205_f108v_y_dy_native_pair | `SOURCE_AWARE_VISUAL_SUPPORT` | [report](../experiments/yolo/gdt1205_f108v_y_dy_native_pair/REPORT.md) | 19 | 45.4 KiB | 3 | STRUCTURED_YOLO |
+| GDT1204 | GDT1204_yd_context_rule_countercases | `FULL_NEIGHBOUR_RULE_CONTRADICTED` | [report](../experiments/yolo/gdt1204_yd_context_rule_countercases/REPORT.md) | 18 | 9.9 MiB | 8 | STRUCTURED_YOLO |
+| GDT1203 | GDT1203_shifted_word_boundaries | `SHIFT_ONE_FREQUENCY_SCREEN_FAIL` | [report](../experiments/yolo/gdt1203_shifted_word_boundaries/REPORT.md) | 16 | 6.7 MiB | 9 | STRUCTURED_YOLO |
+| GDT1202 | GDT1202_whole_word_two_alias_capacity | `WHOLE_WORD_TWO_ALIAS_CAPACITY_EXCLUDED` | [report](../experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md) | 15 | 642.7 KiB | 7 | STRUCTURED_YOLO |
+| GDT1201 | GDT1201_transparent_chunk_confluence | `CONSTRUCTIVE_MESSAGE_UNIQUENESS_WITH_MULTIPLE_PARSES` | [report](../experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md) | 17 | 52.6 KiB | 6 | STRUCTURED_YOLO |
+| GDT1200 | GDT1200_stable_part_repetition_capacity | `FORMAL_REPEATED_BASE_CANDIDATE` | [report](../experiments/yolo/gdt1200_stable_part_repetition_capacity/REPORT.md) | 19 | 2.7 MiB | 7 | STRUCTURED_YOLO |
+| GDT1199 | GDT1199_daldy_label_seam_view | `SOURCE_AWARE_QUALITATIVE_LOCAL_CONTRAST` | [report](../experiments/yolo/gdt1199_daldy_label_seam_view/REPORT.md) | 14 | 24.3 KiB | 4 | STRUCTURED_YOLO |
+| GDT1198 | GDT1198_daldy_exact_contexts | `DESCRIPTIVE_CONTEXTS_NO_SEMANTIC_SELECTION` | [report](../experiments/yolo/gdt1198_daldy_exact_contexts/REPORT.md) | 14 | 4.2 MiB | 6 | STRUCTURED_YOLO |
+| GDT1197 | GDT1197_letter_memory_frequency | `DEFERRED_UNEXECUTED_AFTER_STRUCTURAL_REVIEW` | [report](../experiments/yolo/gdt1197_letter_memory_frequency/REPORT.md) | 10 | 216.4 KiB | 9 | STRUCTURED_YOLO |
+| GDT1196 | GDT1196_vowel_boundary_capacity | `ALL_SIX_CHEAP_GROUPING_RULES_EXCLUDED` | [report](../experiments/yolo/gdt1196_vowel_boundary_capacity/REPORT.md) | 15 | 242.0 KiB | 5 | STRUCTURED_YOLO |
+| GDT1195 | GDT1195_final_table_feasibility_witness | `FIXED_DEPTH2_SEARCH_FAILS` | [report](../experiments/yolo/gdt1195_final_table_feasibility_witness/REPORT.md) | 20 | 710.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1194 | GDT1194_paired_tail_orthography | `DEPTH1_FINAL_Y_INFEASIBLE__DEPTH2_SOLVER_UNKNOWN` | [report](../experiments/yolo/gdt1194_paired_tail_orthography/REPORT.md) | 18 | 94.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT1193 | GDT1193_three_source_code_cycle | `FULL_BASIC_AND_TIGHT_EDIT_SCREEN_PASS` | [report](../experiments/yolo/gdt1193_three_source_code_cycle/REPORT.md) | 34 | 1.1 MiB | 5 | STRUCTURED_YOLO |
+| GDT1192 | GDT1192_one_source_code_exchange | `ONE_EXCHANGE_COMPLETE_FILTER_FAILS` | [report](../experiments/yolo/gdt1192_one_source_code_exchange/REPORT.md) | 20 | 44.0 KiB | 3 | STRUCTURED_YOLO |
+| GDT1191 | GDT1191_source_codebook_assignment | `SOURCE_CODE_ASSIGNMENT_SEARCH_FAILS` | [report](../experiments/yolo/gdt1191_source_codebook_assignment/REPORT.md) | 26 | 2.0 MiB | 6 | STRUCTURED_YOLO |
+| GDT1190 | GDT1190_complete_initial_allocation_family | `STOP_INVARIANTS_OR_EXACT_CAPACITY` | [report](../experiments/yolo/gdt1190_complete_initial_allocation_family/REPORT.md) | 85 | 10.1 MiB | 6 | STRUCTURED_YOLO |
+| GDT1189 | GDT1189_sparse_initial_code_allocation | `STOP_ALL_FOUR_SOURCE_INVARIANTS` | [report](../experiments/yolo/gdt1189_sparse_initial_code_allocation/REPORT.md) | 85 | 10.6 MiB | 5 | STRUCTURED_YOLO |
+| GDT1188 | GDT1188_greedy_fragment_dictionary | `STOP_ALL_FOUR_SOURCE_INVARIANTS` | [report](../experiments/yolo/gdt1188_greedy_fragment_dictionary/REPORT.md) | 49 | 5.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT1187 | GDT1187_initial_only_counter_writer | `STOP_ALL_FOUR_SOURCE_INVARIANTS` | [report](../experiments/yolo/gdt1187_initial_only_counter_writer/REPORT.md) | 29 | 2.5 MiB | 5 | STRUCTURED_YOLO |
+| GDT1186 | GDT1186_exact_edit_one_capacity | `EDIT_ONE_CAPACITY_EXISTS` | [report](../experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md) | 14 | 128.0 KiB | 5 | STRUCTURED_YOLO |
+| GDT1185 | GDT1185_stored_alphabet_full_filter | `STORED_ALTERNATIVES_FAIL_FULL_DESIGN` | [report](../experiments/yolo/gdt1185_stored_alphabet_full_filter/REPORT.md) | 26 | 1.7 MiB | 4 | STRUCTURED_YOLO |
+| GDT1184 | GDT1184_contextual_initial_styles | `STOP_NO_DESIGN_STYLE_WRITER` | [report](../experiments/yolo/gdt1184_contextual_initial_styles/REPORT.md) | 25 | 2.1 MiB | 7 | STRUCTURED_YOLO |
+| GDT1183 | GDT1183_initial_prefix_contraction | `STOP_NO_DESIGN_WRITER` | [report](../experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md) | 54 | 5.5 MiB | 4 | STRUCTURED_YOLO |
+| GDT1182 | GDT1182_explicit_fragment_continuation | `ALL_EXPLICIT_CONTINUATION_MODELS_FAIL_FULL_SCREEN` | [report](../experiments/yolo/gdt1182_explicit_fragment_continuation/REPORT.md) | 39 | 5.4 MiB | 8 | STRUCTURED_YOLO |
+| GDT1181 | GDT1181_productive_source_syllabary | `ALL_PRODUCTIVE_FRAGMENT_CODES_FAIL_FULL_SCREEN` | [report](../experiments/yolo/gdt1181_productive_source_syllabary/REPORT.md) | 39 | 3.8 MiB | 8 | STRUCTURED_YOLO |
+| GDT1180 | GDT1180_contextual_source_alphabets | `ALL_CONTEXT_ALPHABETS_FAIL_FULL_SCREEN` | [report](../experiments/yolo/gdt1180_contextual_source_alphabets/REPORT.md) | 39 | 3.0 MiB | 6 | STRUCTURED_YOLO |
+| GDT1179 | GDT1179_complete_natural_source_writers | `ALL_COMPLETE_WRITERS_FAIL_FULL_SCREEN` | [report](../experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md) | 27 | 1.8 MiB | 5 | STRUCTURED_YOLO |
+| GDT1178 | GDT1178_short_word_grouping | `SHORT_WORD_RULES_BOTH_FAIL` | [report](../experiments/yolo/gdt1178_short_word_grouping/REPORT.md) | 13 | 5.0 MiB | 3 | STRUCTURED_YOLO |
+| GDT1177 | GDT1177_preposition_binding_transfer | `NARROW_BINDING_FAILS_TRANSFER` | [report](../experiments/yolo/gdt1177_preposition_binding_transfer/REPORT.md) | 16 | 4.2 MiB | 4 | STRUCTURED_YOLO |
+| GDT1176 | GDT1176_natural_text_word_partition | `NO_FIXED_PARTITION_PASSES_BOTH_COLLECTIONS` | [report](../experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md) | 16 | 5.8 MiB | 3 | STRUCTURED_YOLO |
+| GDT1175 | GDT1175_fixed_writer_b6_8_transfer | `STOP_FIXED_WRITER_LARGE_RUN` | [report](../experiments/yolo/gdt1175_fixed_writer_b6_8_transfer/REPORT.md) | 18 | 54.2 KiB | 1 | STRUCTURED_YOLO |
+| GDT1174 | GDT1174_ten_scribes_forward_comparison | `TEN_REVERSIBLE_PROTOTYPES_ALL_FAIL_FIXED_STATISTICAL_SCREEN` | [report](../experiments/yolo/gdt1174_ten_scribes_forward_comparison/REPORT.md) | 27 | 2.3 MiB | 6 | STRUCTURED_YOLO |
 | GDT1173 | GDT1173_source_provenance_correction | `SOURCE_NOVELTY_WITHDRAWN_ARITHMETIC_UNCHANGED` | [report](../experiments/yolo/gdt1173_edge_identity_statistic_scope/REPORT.md) | 19 | 39.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1172 | GDT1172_literal_rota_source_word_contract | `COMPLETE_LITERAL_INSTRUCTION_COUNT_CONTRADICTED` | [report](../experiments/yolo/gdt1172_literal_rota_source_word_contract/REPORT.md) | 14 | 991.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT1171 | GDT1171_open_vocabulary_context_recovery | `NO_USEFUL_OPEN_CONTEXT_RECOVERY` | [report](../experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md) | 38 | 6.8 MiB | 6 | STRUCTURED_YOLO |
+| GDT1170 | GDT1170_repetition_context_neutral_copy | `NO_RETAINED_CONTEXT_SIGNAL` | [report](../experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md) | 20 | 8.5 MiB | 5 | STRUCTURED_YOLO |
+| GDT1169 | GDT1169_f57_annular_continuation_layout | `NO_EXPLICIT_PATH_FOUR_TANGENTIAL_CASES_UNBOUND` | [report](../experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md) | 13 | 33.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT1168 | GDT1168_interval_unknown_completion_preparation | `NOT_SELECTED_NOT_EXECUTED` | [report](../experiments/yolo/gdt1168_interval_unknown_completion/REPORT.md) | 9 | 14.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT1167 | gdt1167_target_bin_label_clarification | `ORIGINAL_NUMERAL_PRIOR_WEAKENED` | [report](../experiments/yolo/gdt1167_historical_grade_prior/REPORT.md) | 17 | 468.5 KiB | 5 | STRUCTURED_YOLO |
+| GDT1166 | gdt1166_natural_shared_sign_candidate_control | `FAIL_SOURCE_CANDIDATE_CONTROL` | [report](../experiments/yolo/gdt1166_natural_shared_sign_candidate_control/REPORT.md) | 47 | 21.5 MiB | 5 | STRUCTURED_YOLO |
+| GDT1165 | GDT1165_q_visual_combination_transfer | `NUMERICAL_FIT_FAIL` | [report](../experiments/yolo/gdt1165_q_visual_combination_transfer/REPORT.md) | 31 | 824.9 KiB | 8 | STRUCTURED_YOLO |
+| GDT1164 | GDT1164_unpaired_context_word_ranking | `NO_SUPPORTED_SOURCE_CONTEXT_RANKING` | [report](../experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md) | 115 | 63.3 MiB | 8 | STRUCTURED_YOLO |
+| GDT1163 | GDT1163_correlative_relation_whole_account | `PARTIAL_NO_COMPLETE_READING` | [report](../experiments/yolo/gdt1163_correlative_relation_whole_account/REPORT.md) | 26 | 1.1 MiB | 7 | STRUCTURED_YOLO |
+| GDT1162 | GDT1162_nominal_source_domain_prior | `NO_ROBUST_SOURCE_PRIORITY` | [report](../experiments/yolo/gdt1162_nominal_source_domain_prior/REPORT.md) | 28 | 1.1 MiB | 4 | STRUCTURED_YOLO |
+| GDT1161 | GDT1161_f85r2_textile_instrument_contrast_result | `NO_DISTINCTIVE_TEXTILE_SUPPORT_OR_CAPACITY` | [report](../experiments/yolo/gdt1161_f85r2_textile_instrument_contrast/REPORT.md) | 17 | 63.6 KiB | 4 | STRUCTURED_YOLO |
+| GDT1160 | GDT1160_contextual_abbreviation_inverse_result | `CONTEXT_AND_NEURAL_INCREMENT` | [report](../experiments/yolo/gdt1160_contextual_abbreviation_inverse/REPORT.md) | 30 | 9.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT1159 | GDT1159_corema_unknown_lexical_graph | `NO_SUPPORTED_GRAPH_LEXICAL_INCREMENT` | [report](../experiments/yolo/gdt1159_corema_unknown_lexical_graph/REPORT.md) | 27 | 2.1 MiB | 3 | STRUCTURED_YOLO |
+| GDT1158 | GDT1158 | `NO_MULTI_ENTRY_SIGNATURE_CAPACITY` | [report](../experiments/yolo/gdt1158_source_drawing_transmission/REPORT.md) | 19 | 123.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT1157 | GDT1157 | `NO_SUPPORTED_VISUAL_WORD_LEAD` | [report](../experiments/yolo/gdt1157_cross_situational_visual_words/REPORT.md) | 22 | 1.8 MiB | 3 | STRUCTURED_YOLO |
+| GDT1156 | GDT1156 | `NO_CAPACITY` | [report](../experiments/yolo/gdt1156_sheet_face_ending_residual/REPORT.md) | 22 | 3.5 MiB | 3 | STRUCTURED_YOLO |
+| GDT1155 | GDT1155 | `NO_SUPPORTED_TRANSFER` | [report](../experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md) | 20 | 14.1 MiB | 2 | STRUCTURED_YOLO |
+| GDT1154 | GDT1154 | `NO_ORDER_LEAD` | [report](../experiments/yolo/gdt1154_paragraph_order_correspondence/REPORT.md) | 19 | 1.2 MiB | 1 | STRUCTURED_YOLO |
+| GDT1153 | GDT1153 | `STRICT_PRIOR_CONTINUATION_CHOICE_REFUTED` | [report](../experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md) | 17 | 879.7 KiB | 3 | STRUCTURED_YOLO |
+| GDT1152 | GDT1152 | `LOCAL_JOIN_SUPPORTED` | [report](../experiments/yolo/gdt1152_f81r_minim_seam_native/REPORT.md) | 21 | 3.6 MiB | 4 | STRUCTURED_YOLO |
+| GDT1151 | GDT1151 | `REFUTED_FIXED_PAIRED_FIELD_SCOPE` | [report](../experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md) | 16 | 783.0 KiB | 3 | STRUCTURED_YOLO |
+| GDT1150 | GDT1150 | `NO_LOCAL_COUNTERPARTS` | [report](../experiments/yolo/gdt1150_minim_entry_counterparts/REPORT.md) | 14 | 506.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT1149 | GDT1149 | `MINIM_SPECIFIC_CONTINUATION_AVOIDANCE` | [report](../experiments/yolo/gdt1149_minim_line_entry_control/REPORT.md) | 16 | 608.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1148 | GDT1148 | `NO_JOINT_TRANSFER` | [report](../experiments/yolo/gdt1148_aiin_crossed_context_prediction/REPORT.md) | 19 | 3.4 MiB | 5 | STRUCTURED_YOLO |
+| GDT1147 | GDT1147 | `FIXED_CONSTRUCTION_CONTEXT_INCOMPLETE` | [report](../experiments/yolo/gdt1147_complete_return_context_capacity/REPORT.md) | 17 | 714.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT1146 | GDT1146 | `CONTRADICTED_TRANSFER_ASSUMPTION` | [report](../experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md) | 22 | 579.4 KiB | 2 | STRUCTURED_YOLO |
+| GDT1145 | GDT1145 | `PARTIAL_ACCOUNT_NO_EXECUTED_WRITTEN_MEMBERSHIP_CHAIN` | [report](../experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md) | 26 | 170.6 KiB | 3 | STRUCTURED_YOLO |
+| GDT1144 | GDT1144 | `NO_OWNED_CONSTRUCTION_CAPACITY_IN_FIXED_CANVAS` | [report](../experiments/yolo/gdt1144_shadow_axis_native_capacity/REPORT.md) | 18 | 53.5 KiB | 1 | STRUCTURED_YOLO |
+| GDT1143 | GDT1143 | `PARTIAL_LEXICAL_ACCOUNT_NO_COMPLETE_READING` | [report](../experiments/yolo/gdt1143_mixed_herbal_entry_whole_reading/REPORT.md) | 24 | 165.3 KiB | 2 | STRUCTURED_YOLO |
+| GDT1142 | GDT1142 | `NATIVE_OBSERVATIONS_RETAINED_ROLE_UNSELECTED` | [report](../experiments/yolo/gdt1142_f25v_native_contact_followup/REPORT.md) | 26 | 4.6 MiB | 3 | STRUCTURED_YOLO |
+| GDT1141 | GDT1141 | `MISSING_CORE_DESIGN` | [report](../experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md) | 28 | 1.1 MiB | 5 | STRUCTURED_YOLO |
+| GDT1140 | GDT1140 | `PARTIAL_SCOPED_C0` | [report](../experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md) | 27 | 1.6 MiB | 6 | STRUCTURED_YOLO |
+| GDT1139 | GDT1139 | `RETAIN_WITH_UNRESOLVED_SOURCE_PREMISES` | [report](../experiments/yolo/gdt1139_native_p4_core_reading/REPORT.md) | 29 | 2.0 MiB | 4 | STRUCTURED_YOLO |
+| GDT1138 | GDT1138 | `PARTIAL_NO_CAPACITY` | [report](../experiments/yolo/gdt1138_strict_an_galen_transfer/REPORT.md) | 26 | 336.9 KiB | 4 | STRUCTURED_YOLO |
+| GDT1137 | GDT1137 | `RETAIN_SCOPED_C0_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1137_material_process_type_return/REPORT.md) | 26 | 966.1 KiB | 8 | STRUCTURED_YOLO |
+| GDT1136 | GDT1136 | `FULL_ASSIGNMENT_PARTIAL_ACCOUNT_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1136_apparatus_state_whole_account/REPORT.md) | 29 | 5.8 MiB | 4 | STRUCTURED_YOLO |
+| GDT1135 | GDT1135 | `REPLICATION_WITH_EXPLICIT_CONTACT_UNCERTAINTY_NO_NEW_BINDING` | [report](../experiments/yolo/gdt1135_f81v_native_contour_topology/REPORT.md) | 23 | 86.1 KiB | 3 | STRUCTURED_YOLO |
+| GDT1134 | GDT1134 | `LIVE_COUNTERACCOUNT_MARK_READS_UNLICENSED_DEPENDENCY_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md) | 34 | 614.7 KiB | 5 | STRUCTURED_YOLO |
+| GDT1133 | GDT1133 | `PARTIAL_COMPONENT_REUSE_FOUR_DEAD_REFERENCES_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1133_caption_product_shared_components/REPORT.md) | 35 | 3.4 MiB | 6 | STRUCTURED_YOLO |
+| GDT1132 | GDT1132 | `LIVE_PERSON_CONSUMERS_ROOT_PAYLOAD_BYPASS_NO_POLICY_SELECTION` | [report](../experiments/yolo/gdt1132_seed_material_agent_derivation/REPORT.md) | 28 | 4.0 MiB | 5 | STRUCTURED_YOLO |
+| GDT1131 | GDT1131 | `COMPLETE_IT_C0_DUAL_MECHANISM_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1131_opposed_wind_survivor_succession/REPORT.md) | 56 | 5.7 MiB | 10 | STRUCTURED_YOLO |
+| GDT1130 | GDT1130 | `PARTIAL_WORLD_PREDICATION_FRAGMENT_EXACT_STATIC_CONTINUATION_CONTRADICTED_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1130_shared_profile_current_trend_reading/REPORT.md) | 34 | 4.7 MiB | 9 | STRUCTURED_YOLO |
+| GDT1129 | GDT1129 | `COMPLETE_SYMBOLIC_ACCOUNT_NO_MEANING_SELECTION_EVENT_RETENTION_PARTIAL` | [report](../experiments/yolo/gdt1129_whole_reciprocal_relation_description/REPORT.md) | 33 | 2.1 MiB | 6 | STRUCTURED_YOLO |
+| GDT1128 | GDT1128 | `CONDITIONAL_NATIVE_COMPATIBILITY_NO_EXACT_RECOVERY_NO_PROSE_BRIDGE` | [report](../experiments/yolo/gdt1128_native_owned_label_reading_binding/REPORT.md) | 33 | 204.3 KiB | 5 | STRUCTURED_YOLO |
+| GDT1127 | GDT1127 | `ONE_CONDITIONAL_RELATION_OWNER_AMBIGUITY_CAPACITY_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt1127_native_pair_correct_canvas_followup/REPORT.md) | 24 | 91.4 KiB | 1 | STRUCTURED_YOLO |
+| GDT1126 | GDT1126 | `PARTIAL_SOURCE_INVALID_CAPACITY_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt1126_native_plant_part_relations/REPORT.md) | 38 | 219.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT1125 | GDT1125 | `ORIGINAL_SOURCE_GATE_FAIL_DIAGNOSTIC_NO_COMPLETE_TRANSFER` | [report](../experiments/yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md) | 37 | 5.5 MiB | 6 | STRUCTURED_YOLO |
+| GDT1124 | GDT1124 | `NO_ENTRY_DISCRIMINATOR__POSTHOC_STRICT_PAINT_INPUT_GAP` | [report](../experiments/yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md) | 15 | 116.7 KiB | 1 | STRUCTURED_YOLO |
+| GDT1123 | GDT1123 | `CONDITIONAL_CONTINUATION__TWO_POLICY_CLASSES__WHOLE_PARTIAL` | [report](../experiments/yolo/gdt1123_fixed_nominal_portion_continuation/REPORT.md) | 15 | 151.3 KiB | 1 | STRUCTURED_YOLO |
+| GDT1122 | GDT1122 | `PARTIAL_SHARED_ENTRY__SCOPE_UNSELECTED__LATE_TRACE_DEBT` | [report](../experiments/yolo/gdt1122_joint_written_participant_entry/REPORT.md) | 14 | 60.3 KiB | 2 | STRUCTURED_YOLO |
+| GDT1121 | GDT1121 | `NEW_SIGNATURE_CONFLICT_AND_NO_STATE_TEST_CAPACITY` | [report](../experiments/yolo/gdt1121_aperture_state_later_traversal/REPORT.md) | 15 | 31.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1120 | GDT1120 | `ET_EXACT_LK_EXTENSION_C0_UNSELECTED` | [report](../research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/ET_REPORT.md) | 18 | 13.1 MiB | 13 | STRUCTURED_YOLO |
 | GDT1119 | GDT1119 | `DOC_POINTER_AND_REVIEW_FRESHNESS_CORRECTION` | [report](../experiments/yolo/gdt1119_preparation_residue_predicate/REPORT.md) | 18 | 11.5 MiB | 7 | STRUCTURED_YOLO |
 | GDT1118 | GDT1118_liquid_preparation_joint_reading | `NEW_JOINT_PREPARATION_C0_UNSELECTED` | [report](../experiments/yolo/gdt1118_liquid_preparation_joint_reading/REPORT.md) | 18 | 763.0 KiB | 13 | STRUCTURED_YOLO |
@@ -52,7 +225,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1096 | GDT1096 | `38_FINITE_CONTRADICTIONS_COMPLETE_READING_UNRESOLVED` | [report](../experiments/yolo/gdt1096_dioscorides_finite_recurrent_domains/REPORT.md) | 19 | 1.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT1095 | GDT1095_F25V_HIGHRES_CONTACT_INPUT | `MISSING_REGISTERED_HIGHRES_INPUT` | [report](../experiments/yolo/gdt1095_f25v_native_contact_geometry/REPORT.md) | 13 | 15.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1094 | GDT1094_F25V_SOURCE_PACKAGE_WHOLE_READING | `FULL_PASSAGE_ACCOUNTED_NO_COMPLETE_SEMANTIC_READING` | [report](../experiments/yolo/gdt1094_f25v_source_package_whole_reading/REPORT.md) | 19 | 424.6 KiB | 5 | STRUCTURED_YOLO |
-| GDT1093 | GDT1093_PLANTAGO_NATIVE_SHORTLIST_CORRECTION | `POST_PUBLICATION_NEAR_MISS_NO_STRICT_OWNER` | [report](../experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/CORRECTION_20260929.md) | 340 | 21.1 MiB | 2 | STRUCTURED_YOLO |
+| GDT1093 | GDT1093_PLANTAGO_NATIVE_SHORTLIST_CORRECTION | `POST_PUBLICATION_NEAR_MISS_NO_STRICT_OWNER` | [report](../experiments/yolo/gdt1093_f25v_egerton_full_deck_source_owner/CORRECTION_20260929.md) | 14 | 126.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT1092 | GDT1092_F25V_SLOANE_DRAGON_COMPOSITE | `NO_RARE_COPY_ANOMALY_MATCH` | [report](../experiments/yolo/gdt1092_dragon_snakeroot_copy_anomaly/REPORT.md) | 12 | 13.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT1091 | GDT1091_OFCHY_CUP_SPIKE_BLIND | `PARTIAL_ONE_TARGET` | [report](../experiments/yolo/gdt1091_ofchy_cup_spike_blind/REPORT.md) | 16 | 27.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT1090 | GDT1090_POST_RESULT_FEATURE_FAMILY | `SELECTED_UNION_NOT_SEARCH_WIDE_RARE` | [report](../experiments/yolo/gdt1090_schor_visual_search_control/REPORT.md) | 19 | 77.5 KiB | 4 | STRUCTURED_YOLO |
@@ -64,7 +237,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1084 | GDT1084_PREDECESSOR_CORRECTION | `REDUNDANT_WITH_SNPL002_NO_NEW_DECISION` | [report](../experiments/yolo/gdt1084_source_native_four_plant_bridge/REPORT.md) | 9 | 41.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT1083 | GDT1083 | `NO_NATIVE_SINGULAR_OWNER` | [report](../experiments/yolo/gdt1083_f75v_f99v_eight_label_native_owner/REPORT.md) | 11 | 18.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT1082 | GDT1082 | `NO_NEW_STRICT_SAME_PAGE_CANDIDATE` | [report](../experiments/yolo/gdt1082_new_image_strict_label_prose_capacity/REPORT.md) | 13 | 41.9 KiB | 2 | STRUCTURED_YOLO |
-| GDT1081 | GDT1081 | `NO_LEXICAL_REOPENING` | [report](../experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md) | 15 | 3.2 MiB | 2 | STRUCTURED_YOLO |
+| GDT1081 | GDT1081 | `NO_LEXICAL_REOPENING` | [report](../experiments/yolo/gdt1081_f69r_native_wind_owner_orientation/REPORT.md) | 12 | 19.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT1080 | GDT1080 | `COMPLETE_NO_DIRECTIONAL_BINDING` | [report](../experiments/yolo/gdt1080_chor_shor_visual_direction/REPORT.md) | 10 | 28.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT1079 | GDT1079 | `NO_RARE_SUN_ONLY_EXACT_BRIDGE` | [report](../experiments/yolo/gdt1079_f85_f68_luminary_ring_exact_overlap/REPORT.md) | 9 | 51.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT1078 | GDT1078 | `SAME_FOLIO_R_CONTEXT_GATE_FAIL` | [report](../experiments/yolo/gdt1078_terminal_rl_same_folio_control/REPORT.md) | 12 | 1016.4 KiB | 3 | STRUCTURED_YOLO |
@@ -73,7 +246,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1075 | GDT1075 | `WITHIN_REGISTER_FORMAL_DIRECTION__NO_MEANING` | [report](../experiments/yolo/gdt1075_py_section_hand_confound/REPORT.md) | 12 | 31.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT1074 | GDT1074 | `ROBUST_FORMAL_DIRECTION_FIVE_BASES__NO_MEANING` | [report](../experiments/yolo/gdt1074_physical_paragraph_pair_robustness/REPORT.md) | 12 | 75.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT1073 | GDT1073 | `INVALID_RF_PARAGRAPH_METADATA__ZL_IT_DIRECTIONAL_DIAGNOSTIC` | [report](../experiments/yolo/gdt1073_py_initial_pair_paragraph_scope/REPORT.md) | 11 | 27.0 KiB | 4 | STRUCTURED_YOLO |
-| GDT1072 | GDT1072 | `CROSS_REGISTER_OCCURRENCES__STAR_EXCLUSIVE_DEFAULT_DISFAVORED__MEANING_OPEN` | [report](../experiments/yolo/gdt1072_otor_full_admitted_context/REPORT.md) | 11 | 25.5 KiB | 3 | STRUCTURED_YOLO |
+| GDT1072 | GDT1072_RF_cached_boundary_explanation | `MARKED_GROUP_NOT_DEMONSTRATED_SPLIT` | [report](../research_registry/proposals/production_origin_supply_20261003/OTOR_ROOT_SOURCE_CHECK.json) | 11 | 25.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT1071 | GDT1071 | `ONE_LOCAL_STAR_LABEL_PROSE_CANDIDATE__MEANING_OPEN` | [report](../experiments/yolo/gdt1071_thirty_page_strict_label_prose_bridge/REPORT.md) | 13 | 92.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1070 | GDT1070 | `DESCRIPTIVE_80_OF89_SINGLETON_FOCHOR_UNIQUENESS_NONDISCRIMINATING` | [report](../experiments/yolo/gdt1070_first_head_collision_capacity/REPORT.md) | 11 | 16.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT1069 | GDT1069 | `DESCRIPTIVE_16_OF23_ALL_READER_EXACT_DEFINITE_NO_MEANING` | [report](../experiments/yolo/gdt1069_first_herbal_head_boundary/REPORT.md) | 11 | 26.2 KiB | 3 | STRUCTURED_YOLO |
@@ -150,7 +323,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT998 | GDT998_compositional_paradigm_features | `CONTRADICTED_COMPLETE_FEATURE_TABLES` | [report](../experiments/yolo/gdt998_compositional_paradigm_features/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT997 | GDT997_transport_finite_completion_capacity | `RETAIN_COMPLETE_EXPOSED_EXTENSION` | [report](../experiments/yolo/gdt997_transport_finite_completion_capacity/REPORT.md) | 25 | 4.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT996 | GDT996 | `RETAIN_WITH_UNRESOLVED_SOURCE_PREMISE` | [report](../experiments/yolo/gdt996_f83r_candidate_seam_consequences/REPORT.md) | 23 | 4.7 MiB | 4 | STRUCTURED_YOLO |
-| GDT995 | GDT995_conditional_inverse_closure | `RETROSPECTIVE_CONDITIONAL_RECOVERY_45_OF_48` | [report](../experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md) | 28 | 6.5 MiB | 5 | STRUCTURED_YOLO |
+| GDT995 | GDT995_conditional_inverse_closure | `RETROSPECTIVE_CONDITIONAL_RECOVERY_45_OF_48` | [report](../experiments/yolo/gdt995_conditional_suffix_inverse/REPORT.md) | 22 | 4.0 MiB | 5 | STRUCTURED_YOLO |
 | GDT994 | GDT994_frozen_whole_transfer_closure | `PARK_UNCHANGED_WHOLE_TRANSFER` | [report](../experiments/yolo/gdt994_frozen_transport_whole_transfer/REPORT.md) | 16 | 3.9 MiB | 2 | STRUCTURED_YOLO |
 | GDT993 | GDT993_complete_transport_closure | `CONDITIONAL_READING_RETAINED_NONUNIQUE` | [report](../experiments/yolo/gdt993_complete_transport_consequence_audit/REPORT.md) | 24 | 465.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT992 | GDT992_complete_sunzi_closure | `NO_LITERAL_COMPLETE_READING` | [report](../experiments/yolo/gdt992_sunzi_complete_contextual_count/REPORT.md) | 28 | 1.5 MiB | 5 | STRUCTURED_YOLO |
@@ -221,10 +394,10 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT927 | GDT927 | `COMPLETE_FIXED_CONTINUATION_AUDIT` | [report](../experiments/yolo/gdt927_chor_continuation_full_context_audit/REPORT.md) | 20 | 658.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT926 | GDT926 | `COMPLETE_EXPOSED_CONTEXT_INVENTORY` | [report](../experiments/yolo/gdt926_repeated_context_continuation_atlas/REPORT.md) | 20 | 2.3 MiB | 1 | STRUCTURED_YOLO |
 | GDT925 | GDT925_whole_line_word_multiset_discovery | `COMPLETE_EXPLORATORY_CENSUS` | [report](../experiments/yolo/gdt925_whole_line_word_multiset_discovery/REPORT.md) | 14 | 110.1 KiB | 1 | STRUCTURED_YOLO |
-| GDT924 | GDT924_f106v_fixed_candidate_native_audit_final | `NATIVE_INPUT_UNRESOLVED` | [report](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md) | 24 | 6.1 MiB | 1 | STRUCTURED_YOLO |
+| GDT924 | GDT924_f106v_fixed_candidate_native_audit_final | `NATIVE_INPUT_UNRESOLVED` | [report](../experiments/yolo/gdt924_f106v_fixed_candidate_native_audit/REPORT.md) | 22 | 3.1 MiB | 1 | STRUCTURED_YOLO |
 | GDT923 | GDT923_fixed_word_key_even_paragraph_compatibility_final | `NO_INFORMATIVE_COMPATIBILITY` | [report](../experiments/yolo/gdt923_fixed_word_key_even_paragraph_compatibility/REPORT.md) | 27 | 12.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT922 | GDT922_identical_remainder_chsh_order_final | `ORDER_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt922_identical_remainder_chsh_order/REPORT.md) | 17 | 4.5 MiB | 1 | STRUCTURED_YOLO |
-| GDT921 | GDT921_royal_seasons_topology_final | `PARTIAL_SOURCE_TOPOLOGY_NO_OWNED_VALUES` | [report](../experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md) | 20 | 2.6 MiB | 0 | STRUCTURED_YOLO |
+| GDT921 | GDT921_royal_seasons_topology_final | `PARTIAL_SOURCE_TOPOLOGY_NO_OWNED_VALUES` | [report](../experiments/yolo/gdt921_royal_seasons_two_register_topology/REPORT.md) | 17 | 36.2 KiB | 0 | STRUCTURED_YOLO |
 | GDT920 | GDT920_paragraph_gallows_wholeform_bridge_final | `BRIDGE_NOT_ESTABLISHED` | [report](../experiments/yolo/gdt920_paragraph_gallows_wholeform_bridge/REPORT.md) | 18 | 11.0 MiB | 1 | STRUCTURED_YOLO |
 | GDT919 | GDT919_complete_sator_word_equations | `NO_COMPLETE_SATOR_EQUATION_FIT` | [report](../experiments/yolo/gdt919_complete_sator_word_equations/REPORT.md) | 15 | 28.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT918 | GDT918_reciprocal_center_serial_transfer | `NOMINATION_CAPACITY_STOP_NO_EVALUATION` | [report](../experiments/yolo/gdt918_reciprocal_center_serial_transfer/REPORT.md) | 17 | 35.8 KiB | 1 | STRUCTURED_YOLO |
@@ -1144,51 +1317,3 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT003 | GDT003 | `UNREGISTERED` | [report](../GDT003_NESTED_HELDOUT_REPORT.md) | 43 | 19.4 MiB | 2 | LEGACY_ROOT |
 | GDT002 | GDT002_existing_annotation_route_synthesis | `CURRENT_EXISTING_ANNOTATION_GROUNDING_CAPACITY_EXHAUSTED` | [report](../experiments/yolo/GDT002_EXISTING_ANNOTATION_ROUTE_STATUS.md) | 98 | 11.8 MiB | 1 | LEGACY_ROOT |
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |
-
-- GDT1124: necessary QOKEEY entry screen; no initial target, separate conditional posthoc Paint-input case. [Report](yolo/gdt1124_qokeey_paragraph_entry_layer/REPORT.md).
-
-- GDT1125: original source-summary gate FAIL retained; separate diagnostic on all12 candidate-reader cases gives0complete transfers. [Decision](yolo/gdt1125_choice_method_written_dependency_transfer/REPORT.md).
-
-- GDT1126 — Native anatomy/owner capacity, seven fixed development relations; registered before images. [Preregistration](yolo/gdt1126_native_plant_part_relations/PREREGISTRATION.md).
-
-- GDT1127 — Separate two-case native followup, exact corrected source canvases pinned before images. [Preregistration](yolo/gdt1127_native_pair_correct_canvas_followup/PREREGISTRATION.md).
-
-- GDT1128 — Exact three-owned-label native/cache binding. [Preregistration](yolo/gdt1128_native_owned_label_reading_binding/PREREGISTRATION.md).
-
-- GDT1129: complete symbolic IT account; event account retains strict gaps; hybrid survives. [Decision](yolo/gdt1129_whole_reciprocal_relation_description/REPORT.md), [six candidate/reader cases](yolo/gdt1129_whole_reciprocal_relation_description/artifacts/CANDIDATE_TABLE.tsv). No meaning selected.
-
-- GDT1130: partial owner-directed current/trend fragment; exact static IT continuation contradicted. [Decision](yolo/gdt1130_shared_profile_current_trend_reading/REPORT.md), [six cases](yolo/gdt1130_shared_profile_current_trend_reading/artifacts/CANDIDATE_TABLE.tsv). No meaning selected.
-
-- GDT1131: C complete conditional IT N19/E27 wind description; A frozen interface/E dead reference, B three dead references; all alternate readers partial. [Decision](yolo/gdt1131_opposed_wind_survivor_succession/REPORT.md). No meaning selected.
-
-- GDT1132: live Person consumers, strict aN payload bypass retained; three policies equivalent. [Decision](yolo/gdt1132_seed_material_agent_derivation/REPORT.md). No meaning selected.
-
-- GDT1133: actual IT OR/ODY consumers, four dead references, alternate barriers; no complete reading. [Decision](yolo/gdt1133_caption_product_shared_components/REPORT.md).
-
-- GDT1134: actual separate counteraccount mark reads; unpriced dependency and failed precise forecast; no meaning selection. [Decision](yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md).
-
-- GDT1135: native f81v replication; external contacts unresolved, no new meaning binding. [Report](yolo/gdt1135_f81v_native_contour_topology/REPORT.md).
-
-| GDT1136 | GDT1136 | `FULL_ASSIGNMENT_PARTIAL_ACCOUNT_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1136_apparatus_state_whole_account/REPORT.md) | 29 | 5.8 MiB | 4 | STRUCTURED_YOLO |
-| GDT1137 | GDT1137 | `RETAIN_SCOPED_C0_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1137_material_process_type_return/REPORT.md) | 26 | 966.1 KiB | 8 | STRUCTURED_YOLO |
-| GDT1138 | GDT1138 | `PARTIAL_NO_CAPACITY` | [report](../experiments/yolo/gdt1138_strict_an_galen_transfer/REPORT.md) | 26 | 336.9 KiB | 4 | STRUCTURED_YOLO |
-| GDT1139 | GDT1139 | `RETAIN_WITH_UNRESOLVED_SOURCE_PREMISES` | [report](../experiments/yolo/gdt1139_native_p4_core_reading/REPORT.md) | 29 | 2.0 MiB | 4 | STRUCTURED_YOLO |
-| GDT1142 | GDT1142 | `NATIVE_OBSERVATIONS_RETAINED_ROLE_UNSELECTED` | [report](../experiments/yolo/gdt1142_f25v_native_contact_followup/REPORT.md) | 26 | 4.6 MiB | 3 | STRUCTURED_YOLO |
-| GDT1141 | GDT1141 | `MISSING_CORE_DESIGN` | [report](../experiments/yolo/gdt1141_light_observation_whole_reading/REPORT.md) | 28 | 1.1 MiB | 5 | STRUCTURED_YOLO |
-| GDT1140 | GDT1140 | `PARTIAL_SCOPED_C0` | [report](../experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md) | 27 | 1.6 MiB | 6 | STRUCTURED_YOLO |
-| GDT1143 | GDT1143 | `PARTIAL_LEXICAL_ACCOUNT_NO_COMPLETE_READING` | [report](../experiments/yolo/gdt1143_mixed_herbal_entry_whole_reading/REPORT.md) | 24 | 165.3 KiB | 2 | STRUCTURED_YOLO |
-| GDT1144 | GDT1144 | `NO_OWNED_CONSTRUCTION_CAPACITY_IN_FIXED_CANVAS` | [report](../experiments/yolo/gdt1144_shadow_axis_native_capacity/REPORT.md) | 18 | 53.5 KiB | 1 | STRUCTURED_YOLO |
-| GDT1145 | GDT1145 | `PARTIAL_ACCOUNT_NO_EXECUTED_WRITTEN_MEMBERSHIP_CHAIN` | [report](../experiments/yolo/gdt1145_ordered_membership_whole_reading/REPORT.md) | 26 | 170.6 KiB | 3 | STRUCTURED_YOLO |
-| GDT1146 | GDT1146 | `CONTRADICTED_TRANSFER_ASSUMPTION` | [report](../experiments/yolo/gdt1146_frozen_qokedy_argument_transfer/REPORT.md) | 22 | 579.4 KiB | 2 | STRUCTURED_YOLO |
-| GDT1147 | GDT1147 | `FIXED_CONSTRUCTION_CONTEXT_INCOMPLETE` | [report](../experiments/yolo/gdt1147_complete_return_context_capacity/REPORT.md) | 17 | 714.3 KiB | 3 | STRUCTURED_YOLO |
-| GDT1148 | GDT1148 | `NO_JOINT_TRANSFER` | [report](../experiments/yolo/gdt1148_aiin_crossed_context_prediction/REPORT.md) | 19 | 3.4 MiB | 5 | STRUCTURED_YOLO |
-| GDT1149 | GDT1149 | `MINIM_SPECIFIC_CONTINUATION_AVOIDANCE` | [report](../experiments/yolo/gdt1149_minim_line_entry_control/REPORT.md) | 16 | 608.6 KiB | 3 | STRUCTURED_YOLO |
-| GDT1150 | GDT1150 | `NO_LOCAL_COUNTERPARTS` | [report](../experiments/yolo/gdt1150_minim_entry_counterparts/REPORT.md) | 14 | 506.5 KiB | 3 | STRUCTURED_YOLO |
-| GDT1151 | GDT1151 | `REFUTED_FIXED_PAIRED_FIELD_SCOPE` | [report](../experiments/yolo/gdt1151_ol_paired_field_scope/REPORT.md) | 16 | 783.0 KiB | 3 | STRUCTURED_YOLO |
-| GDT1152 | GDT1152 | `LOCAL_JOIN_SUPPORTED` | [report](../experiments/yolo/gdt1152_f81r_minim_seam_native/REPORT.md) | 21 | 3.6 MiB | 4 | STRUCTURED_YOLO |
-| GDT1153 | GDT1153 | `STRICT_PRIOR_CONTINUATION_CHOICE_REFUTED` | [report](../experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md) | 17 | 879.7 KiB | 3 | STRUCTURED_YOLO |
-| GDT1154 | GDT1154 | `NO_ORDER_LEAD` | [report](../experiments/yolo/gdt1154_paragraph_order_correspondence/REPORT.md) | 19 | 1.2 MiB | 1 | STRUCTURED_YOLO |
-| GDT1155 | GDT1155 | `NO_SUPPORTED_TRANSFER` | [report](../experiments/yolo/gdt1155_terminal_drawing_edge_transport/REPORT.md) | 20 | 14.1 MiB | 2 | STRUCTURED_YOLO |
-| GDT1156 | GDT1156 | `NO_CAPACITY` | [report](../experiments/yolo/gdt1156_sheet_face_ending_residual/REPORT.md) | 22 | 3.5 MiB | 3 | STRUCTURED_YOLO |
-| GDT1157 | GDT1157 | `NO_SUPPORTED_VISUAL_WORD_LEAD` | [report](../experiments/yolo/gdt1157_cross_situational_visual_words/REPORT.md) | 22 | 1.8 MiB | 3 | STRUCTURED_YOLO |
-| GDT1158 | GDT1158 | `NO_MULTI_ENTRY_SIGNATURE_CAPACITY` | [report](../experiments/yolo/gdt1158_source_drawing_transmission/REPORT.md) | 19 | 123.3 KiB | 3 | STRUCTURED_YOLO |

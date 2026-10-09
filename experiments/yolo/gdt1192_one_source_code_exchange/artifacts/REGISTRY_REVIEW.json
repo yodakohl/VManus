@@ -1,0 +1,50 @@
+{
+  "record_id": "GDT1192",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_one_exchange",
+  "assessment_basis": "Complete pair enumeration with independent whole-histogram replay; explicit target-tail implementation correction retained",
+  "reason": "No single global codeword exchange satisfies all length conditions; zero full metric candidates.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "All2267385pairs excluded by invariant length budgets, including643909equal-length cases.",
+      "evidence": [
+        "experiments/yolo/gdt1192_one_source_code_exchange/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_multi_entry_assignment",
+        "change": "new_design",
+        "detail": "A different finite simultaneous assignment; single exchanges are closed. Full original criteria still required.",
+        "evidence": [
+          "experiments/yolo/gdt1192_one_source_code_exchange/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another random single swap",
+      "Ignoring target tail bins or alternate readers"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1186",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1192_one_source_code_exchange/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1191",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1192_one_source_code_exchange/REPORT.md"
+      ]
+    }
+  ]
+}

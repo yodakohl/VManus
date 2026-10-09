@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-06T05:59:47.889387+00:00",
+  "finished_utc": "2026-10-06T06:00:02.388652+00:00",
+  "scientific_status": "POOLED_FREQUENCY_BANDS_NOT_PORTABLE_TO_ALL_LARGE_STRATA",
+  "all_cells": 39,
+  "scoreable_cells": 14,
+  "failed_cells": 2,
+  "no_capacity_cells": 25,
+  "joined_prose_groups": 94855,
+  "pooled128and_anchor_reproduced": true,
+  "independent_regex_page_bucket_counts_every_id_hash_and_decision": true,
+  "scope": "Same-author independent implementation, not independent native or semantic confirmation.",
+  "projections": [
+    {
+      "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "columns": "page,edition,source_group_index,locus,section,hand,currier",
+      "receipt": "GUARD_STATS {\"selected\": 96184, \"skipped_forbidden\": 2122, \"skipped_not_allowed\": 17164}",
+      "output_sha256": "c1b875ac6bbc578d74f4fefd0326417fff6bcdbf9db2990af5746a1cbd46fdd1"
+    },
+    {
+      "source": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "columns": "page,edition,locus,source_group_index,kind,left_separator,right_separator,ivtff_group_raw",
+      "receipt": "GUARD_STATS {\"selected\": 96184, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 0}",
+      "output_sha256": "e4eca002eb55b7111cba67d80a3f1c7dec35b5bf9c7da9730d23464f8fa747c1"
+    }
+  ]
+}

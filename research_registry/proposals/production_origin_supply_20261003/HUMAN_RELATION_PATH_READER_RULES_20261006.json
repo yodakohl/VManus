@@ -1,0 +1,89 @@
+{
+  "id": "HUMAN_RELATION_PATH_READER_RULES_20261006",
+  "status": "FROZEN_RAW_TEACHING_CONTRACT_NOT_NATIVE_EVIDENCE",
+  "instruction": "This file contains the complete lesson and a public demonstration, but not the expected answers to the separate challenge. Read the challenge by hand. All working-sign values here are invented teaching conventions; no Voynich word receives a proposed meaning.",
+  "domain": {
+    "purpose": "Write short factual notes about things, their properties and their relations: follow one object to another and write a branch when a second fact concerns the same object. The reader follows the written path with a finger and returns to the marked branch point. Open learned vocabulary is allowed.",
+    "input": "Finite asserted or denied existential relation descriptions. Every ordinary lexical entry denotes a learned binary relation. A property or kind is represented by an explicitly learned identity-filter relation P(x) AND y=x. Names denote named constants. Positive and negative branches are explicit. This is a complete restricted assertive language, not a universal compiler of historical prose.",
+    "not_covered_for_free": "No imperative, tense, modality, comparison degree, count, unit, universal statement, definite anonymous referent, or event participant is supplied by omission. An event account requires separately learned event/role relations and actually written paths; those are not part of this lesson's seven-entry lexicon. Unsupported content stops rather than being packed into an opaque whole-message word.",
+    "semantic_inverse": "Recover the ordered relation description and its exact name strings, root-copy counts, branch bindings and negation scopes. Original English wording is not recovered. Logical equivalents can have different written descriptions. Newly quantified variables do not mean distinct entities. No claim that an assertion is true follows from being readable."
+  },
+  "working_signs": {
+    "in_order": ["a", "o", "e", "i", "n", "d", "y", "s", "r", "l", "m", "k", "t", "p", "f", "q", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+    "interpretation": "These are22 distinct handwritten teaching marks represented by familiar ASCII aliases. ch/sh/ckh/cth/cph/cfh each denote ONE mark. There is no separate c or h mark. Concatenation in a printed group does not add spaces. The inventory is a stipulated carrier, not an identified native alphabet.",
+    "scope": "Every mark may occur in ordinary lexical roots, including q at any position. q has no privileged control-prefix function. There are no positional alphabets, counter rotations, silent markers or extra punctuation signs."
+  },
+  "whole_word_controls": {
+    "aa": "BEGIN_POSITIVE: begin a new positive clause with an explicitly existential starting entity.",
+    "rr": "BEGIN_NEGATIVE: begin a new clause that denies the whole existential description enclosed before its matching oo.",
+    "oo": "END_CLAUSE: close the current clause; legal only with no unfinished branch or name.",
+    "ee": "BRANCH: save the current entity and open a positive subordinate path from that same entity.",
+    "nn": "NOT_BRANCH: save the current entity and open a negated subordinate path from that same entity.",
+    "ii": "RETURN: close the most recent ee/nn branch and restore its saved starting entity.",
+    "dd": "NAME_OPEN: the next complete group is a literal name payload. It constrains the current entity to that named constant and does not move the cursor.",
+    "yy": "NAME_CLOSE: follows that one reassembled name-payload group.",
+    "ss": "CONTINUE: physical line trailer only. Rejoin the interrupted group across the following line break before reading grammar. It is not an ordinary semantic group."
+  },
+  "lexical_words": {
+    "root": "A lexical root is a nonempty primitive sequence of working marks: it is not an exact power of a shorter sequence. A root is learned with its entire binary relation meaning. Roots whose primitive spelling is the single mark a,o,e,i,n,d,y,s or r are excluded, because their doubles are reserved controls. The other13 one-mark roots are possible but are not automatically assigned meanings. Any primitive root of length at least2 is permitted. No unrelated whole-word value may be assigned to a nonprimitive power in this channel.",
+    "word": "An ordinary word is B repeated exactly n times, n>=1, for one taught primitive root B. The reader finds its shortest complete repeated block, checks that it is a taught root and reads n successive applications of that same binary relation. A one-copy root is already a complete path step. The relation's meaning, not its first sign, determines whether it moves to another entity or is an identity filter.",
+    "semantic_power": "B^n means n successive relation links, with the intermediate entities explicitly existential. It does NOT mean n distinct objects, n repetitions of an action, intensity or shortest graph distance. Equal denotations are possible unless the learned relation forbids them. Repeating an identity filter adds a repeated stated condition and can be logically redundant. No silent deletion is performed.",
+    "external_spaces": "B B and BB record two separate versus one doubled path group, but their expanded two-step relation descriptions are the same. A writer MAY join any adjacent copies of the SAME primitive relation root; joining is never compulsory. Thus B B B, BB B, B BB and BBB are all legal writings of the same three-link path. Every choice is visible in the written spaces, adds no semantic bit, and uses the same inverse. This is a fully stated optional compounding convention, not a deterministic frequency-generating model. If the intended input distinguishes separate statements, write actual clause controls instead. Never remove spaces between unlike roots; their concatenation is a different learned primitive lexeme if taught at all.",
+    "grouping_limit": "There is no context-selected new meaning for a grouping choice. A future statistical production model would have to declare the writer's choice among these finitely many partitions for each finite run; it may not optimize those spaces after seeing desired frequencies. The present hand lesson tests content recovery only. It does not supply or claim a fitted occurrence distribution.",
+    "unknowns": "A new ordinary root must be taught with a real binary relation definition and spelling; naming its letters does not reveal its meaning. It cannot secretly abbreviate an arbitrary full sentence. A foreign proper name instead uses the literal channel. All independent root-to-meaning pairings cost learning; calling them a language rather than a codebook does not remove that cost."
+  },
+  "complete_grammar": {
+    "message": "One or more complete clauses, in written order. Outside names, exactly one ordinary space separates groups; physical line rules below may replace or interrupt that separation.",
+    "clause": "aa PATH oo, or rr PATH oo. There is no hidden paragraph or recipe reset. Physical lines never close a clause.",
+    "PATH": "One or more ITEMs. ITEM is one ordinary lexical word, or dd NAME_PAYLOAD yy, or ee PATH ii, or nn PATH ii. Empty paths and empty names are invalid. A branch may contain nested branches and names.",
+    "positive_path": "Begin at the supplied current entity. Each relation step R introduces a fresh existential variable y, adds R(current,y), and makes y current. Fresh variable names do not impose inequality. An identity-filter entry adds P(current) and equates y with current. A name item adds current=the literal named constant and leaves the current entity unchanged.",
+    "positive_branch": "At ee save current x. Interpret its PATH starting at that same x, existentially quantify only the branch's newly introduced variables, and conjoin the resulting condition to the enclosing description. At ii restore x. An unnamed branch endpoint is not available later; it is never silently substituted for x.",
+    "negative_branch": "At nn save current x. Interpret its PATH as a complete existential subordinate description starting at x, then negate that whole branch formula. At ii restore x. This says no matching subordinate path exists; it does not assert a particular opposite-property object or prohibit an action.",
+    "clause_scope": "For aa, existentially quantify the starting entity and all positive-path variables and assert the constructed formula. For rr, negate that entire existential formula. Existentials inside a negative branch stay inside that negation. A written name in a negative clause is still an exact constant, not an anonymous newly invented object.",
+    "references": "The current entity and each saved branch point are supplied by the written grammar. Repeating the exact same literal name supplies the same constant across clauses. Different names need not denote distinct entities. Anonymous starting entities in different clauses are independently quantified, and there is no unwritten cross-clause coreference.",
+    "errors": "Unmatched controls, ss outside the physical continuation position, a name without exactly one payload and yy, a primitive body absent from the learned lexicon, or an unfinished clause at message end are errors. The reader must not guess missing words or controls."
+  },
+  "literal_names": {
+    "inventory": "The inherited83-character finite literal domain: a-z, A-Z, äöüßÄÖÜẞ, digits0-9, period, comma, semicolon, colon, exclamation, question mark, parentheses, hyphen, slash, apostrophe, double quote, and space. All characters are literal, including capitalization and internal spaces. An unsupported character is an input stop, not a silent normalization.",
+    "write": "Between the separate whole controls dd and yy write ONE name-payload group: for each character write the row mark followed by its column mark from the fixed chart. The chart is the prior83-character teaching table, reused as a paid character carrier only. No q-selector grammar or word meaning from the old writer is reused.",
+    "columns": ["a", "o", "e", "i", "n", "d", "y", "s", "r", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+    "rows": [
+      {"mark": "a", "characters": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u"]},
+      {"mark": "o", "characters": ["v", "w", "x", "y", "z", "ä", "ö", "ü", "ß", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ","]},
+      {"mark": "e", "characters": [";", ":", "!", "?", "(", ")", "-", "/", "'", "\"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]},
+      {"mark": "i", "characters": ["L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Ä", "Ö", "Ü", "ẞ", " ", null]}
+    ],
+    "read": "After dd, take the next reassembled group as data, even if its whole spelling resembles a control. Its mark count must be positive and even. Read pairs, reject an invalid row/column or the null cell, and then require yy. The exact resulting string supplies a constant, not a noun category or predicate meaning. This positional enclosure pays all escaping: no payload character is itself a grammar control.",
+    "cost": "83 explicit character cells, four row marks and21 column positions. A name of m characters costs2m marks plus4 marks for dd/yy, spaces, and any physical continuation. This table is a finite spelling cost, not a dictionary of whole names or hidden messages."
+  },
+  "physical_lines": {
+    "sheet": "A teaching sheet has24 equal mark-or-blank cells per line. This is a stipulated artificial layout, not claimed native ruling or measured native widths. Each working mark occupies one cell; an external space occupies one blank cell.",
+    "ordinary_wrap": "Place each complete group at the next available position, with one blank after an earlier group on the same line. If a group of at most24 marks does not fit, put it at the beginning of the next line. An unmarked line break is an ordinary group boundary. No semantic reset occurs.",
+    "overwide_group": "Start a group longer than24 marks on a fresh line. If the entire remaining suffix fits24 cells, finish it there. Otherwise write the longest prefix of complete data units fitting21 cells, then one blank and the whole trailer ss, and continue the SAME group at the next line start. For a lexical group each unit is one working mark; for a name each unit is one complete two-mark character. Repeat until finished. A name continuation therefore carries20 data marks plus blank+ss, leaving one unused cell. Controls are two marks and are never split.",
+    "read_first": "Before grammar, whenever a physical line ends in the separate trailer ss, remove that trailer and the immediately preceding blank and join the preceding physical fragment directly to the first fragment of the next line. There is no semantic word boundary there. All other line breaks separate groups. A following line cannot be missing or empty. ss is reserved and cannot be an ordinary root/power or semantic control, so this framing is unambiguous.",
+    "memory_cost": "One current entity plus a stack of written branch points, lexical recall, and the literal table when needed. Deep branching can be read by retracing the written ee/nn/ii marks or with a separate scratch tally; it is not claimed constant-memory or effortless. No numerical dictionary address, changing alphabet, prior-text lookup or secret sentence boundary is used."
+  },
+  "teaching_lexicon": {
+    "pf": {"relation": "LEAF_FILTER", "definition": "R(x,y) iff x is a leaf and y=x. No species or number is implied."},
+    "fk": {"relation": "COLD_FILTER", "definition": "R(x,y) iff x is cold and y=x. No warm/opposite state or temporal change is implied."},
+    "tf": {"relation": "VESSEL_FILTER", "definition": "R(x,y) iff x is a vessel and y=x. No size, contents or material is implied."},
+    "kp": {"relation": "INSIDE", "definition": "R(x,y) iff x is inside y. The direction is from contained entity to container. It is not stipulatively transitive in the lesson; each written link is retained."},
+    "pk": {"relation": "CONTAINS", "definition": "R(x,y) iff y is inside x. This is the explicitly learned inverse direction of kp, not a silent reversal chosen from context."},
+    "fm": {"relation": "WATER_FILTER", "definition": "R(x,y) iff x is water and y=x. No countable drop/cup or discrete unit is supplied."},
+    "pt": {"relation": "BESIDE", "definition": "R(x,y) iff x is beside y. This is a learned relation, not a compulsory direction-change control."}
+  },
+  "public_hand_example": {
+    "written_groups": "aa pf ee pt tf ii kp tf oo",
+    "physical_lines": ["aa pf ee pt tf ii kp tf", "oo"],
+    "readback": "There is a leaf that is beside a vessel and is inside a vessel. The two vessel witnesses may or may not be the same; the grammar asserts neither equality nor inequality between them.",
+    "hand_trace": "aa introduces x; pf keeps the leaf x current; ee saves x; pt moves to a vessel witness u and tf describes u; ii returns to x; kp moves from x to a vessel witness v and tf describes v; oo closes the complete assertion. Reading kp from u instead of x would be a genuine branch error.",
+    "production": "The source supplies that branching description. It does not require an independently known hidden clause segmentation. All controls and external spaces are physically written."
+  },
+  "limits": [
+    "All seven root meanings and nine controls are synthetic. The open lexicon pays every additional independent spelling-to-relation pairing; seven entries do not suffice for a historical medical work.",
+    "The current/root variable and negative scopes are fully specified, but this restricted language does not preserve distinctions outside its input domain. A source interpretation must be independently declared before any future use.",
+    "q-o prevalence, final-y frequency, word frequency and length distributions, common controls and historical plausibility are wholly untested. A readable lesson is not a statistical or native success.",
+    "A copied property can be semantically redundant; productive powers do not assign a universal numerical meaning to native repetitions. Native word meanings remain unassigned.",
+    "The longest-primitive-root check is a real cognitive/lexical cost for very long unfamiliar forms. No independent meaning may be learned for a prohibited power. This limits the lexicon and must not be quietly waived."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "RAW UNREVIEWED: two alphabet rows with a persistent visible toggle and a fixed word reset",
+  "summary": "A fully specified invented hand writer develops the existing mode-switch concept, not a new historical claim. Thirteen payload drawings plus one distinct toggle encode two fixed rows of thirteen letters. A toggle changes the active row for every following payload until the next toggle; each word begins in row zero. Single-input letters, new words, several different doubled payloads, S-O-S patterns and complete word repetition are all handled explicitly. The toggle itself cannot double, stand alone or end a word. No native toggle is identified and no target words/images or root's new results were examined.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "Two fixed disjoint source-letter banks share thirteen output payload signs. The writer inserts one visible toggle T exactly when the next source letter belongs to the other bank, then writes that letter's payload. Active bank persists until another T; every complete word starts in bank zero.",
+    "unit": "One payload sign encodes one source letter in the current bank. The distinct toggle has no source-letter output. Complete source word boundaries are preserved as visible spaces.",
+    "contrast": "A visible persistent bank change versus IP076's one-character prefix code, IP077's next-character escape, IP050's unspecified preceding-whole spelling mode, optional ligatures or recent-letter copying.",
+    "prediction": "T is never a complete group, a group-final sign, or immediately followed by T. Every T must be followed by at least one payload before a further T or word end. Inserting/removing one T in a legal internal position switches the decoded bank of every later payload until word end, unless another edit restores the phase. Ordinary payloads may occur alone, repeat immediately in arbitrarily long runs and recur in S-O-S patterns.",
+    "scope": "Source-free raw complete hand procedure. No historical attribution, native alphabet, target binding, recovered key, concrete Voynich letter or word value, target query, G2 orientation score, experiment or new source search.",
+    "teaching_kit": {
+      "bank_zero": "A B C D E F G H I J K L M",
+      "bank_one": "N O P Q R S T U V W X Y Z",
+      "output_signs": "Thirteen distinct drawings g1 through g13, one per table column, and one further drawing TOGGLE distinct from every gi. T in the following formulae denotes TOGGLE, not the source letter T. All labels are invented metanotation, not Voynich transcription.",
+      "cost": "One small two-row table and a finger or pebble indicating its active row. Every letter needs one payload sign, plus a toggle on a bank change. No compression or historical use is claimed."
+    },
+    "writer": [
+      "At the start of every source word set the active bank to zero. Use the agreed A-Z teaching alphabet; outside-alphabet inputs are outside this contract rather than silently normalized.",
+      "Find the next source letter's row and column in the fixed table. If its row differs from the active bank, write exactly one TOGGLE and change banks. Then write the column's payload sign.",
+      "Continue from the same active bank for every following letter. A bank change is mandatory when needed and otherwise forbidden; there are no redundant toggles or letter-specific exceptions.",
+      "At word end write a visible space and reset the active bank to zero. Do not write a closing toggle. Keep the whole word on one physical line; if needed, move it intact to the next line without changing its spelling.",
+      "Paragraph starts and isolated inscriptions use exactly the same word rule. Punctuation is a separately declared channel outside words, not a covert toggle or hidden reset."
+    ],
+    "reader": [
+      "Start every word in bank zero. On TOGGLE, switch to the other bank and require a payload next. On gi, emit the table letter in column i of the current bank.",
+      "Require a nonempty word containing at least one payload. Reject a final TOGGLE or adjacent TOGGLE signs; do not repair them with empty letters, doubled-escape conventions or null signs.",
+      "At the visible word space reset the bank. Since both table rows are complete and disjoint, every legal sign sequence gives one exact source word under the known teaching key. Reencoding returns the same sequence."
+    ],
+    "required_hand_cases": {
+      "single_input_letters": "A -> g1; N -> T g1. Both are complete readable one-letter inputs. An output group consisting of one ordinary gi is legal; an output group consisting of T alone is not.",
+      "direct_repetition": "AA -> g1 g1; BB -> g2 g2; NN -> T g1 g1; NNN -> T g1 g1 g1. The model does not force all doubled output types to be one sign.",
+      "whole_word_repetition": "NN NN -> [T g1 g1] [T g1 g1], with the same written group both times because each word resets to bank zero.",
+      "new_words": "Every new A-Z string uses the same table without a word dictionary, prefix memory or learned exception.",
+      "separated_repetition": "ABA -> g1 g2 g1. A fixed S-O-S pattern is therefore not a general contradiction when S and O are distinct ordinary payload signs; this is a toy capability, not a native assignment.",
+      "persistent_scope_example": "ABC -> g1 g2 g3, but NOP -> T g1 g2 g3. The initial T changes the interpretation of all three payloads, unlike a next-character escape. ANOC -> g1 T g1 g2 T g3."
+    },
+    "minimal_falsifier": "With a separately fixed native atomic inventory, visible word boundaries and one motivated candidate for T, a single definite TT, standalone T or word-final T contradicts the writer. The test does not need plaintext letter values. No candidate T is nominated or checked here. A native inventory with more than thirteen genuinely distinct payload atoms would also contradict this exact teaching-size instance, rather than license extra table columns afterward.",
+    "what_compatibility_cannot_show": "Passing the local toggle syntax would not distinguish the two-bank writer from a one-character prefix convention in every case and would not identify any table value. A payload sequence without an observed bound T is merely ordinary substitution under bank zero and supplies no positive evidence for switching. Supporting the persistent scope would require an independently constrained complete reading whose second and later payloads differ from the next-character-escape prediction; none is claimed here.",
+    "known_countercase_obligations": [
+      "The already communicated G0 short groups, distinct e/i repetitions and S-O-S pattern do not by themselves contradict the general teaching rules when those motifs are ordinary payloads. That conditional statement does not classify them as native letters, prove that a suitable separate toggle exists, or establish coverage of any complete target passage.",
+      "Once any motif is proposed as T, all its known standalone, terminal and doubled occurrences must be retained. No morphology, optional ligature, context-specific alias or escape doubling may hide a failed occurrence. The present producer has not inspected root's new target contexts.",
+      "The conditional failures of IDEA929, IDEA930 and the later recency sketches remain. This design has no equal coordinate halves, three-cell packing or literal-repeat prohibition; it is not a parameter repair of those writers.",
+      "GDT608's directed component roles and stronger exact-whole prediction remain explanatory obligations. The ability to define a reversible state machine is not evidence that it explains those observed relations.",
+      "GDT912's f1r table remains incomplete and its body test was not run. The invented table here supplies no missing historical entries or connection to the manuscript."
+    ],
+    "predecessor_review": [
+      "IP050, docs/IDEA_BACKLOG.md:1530, already proposes a spelling mode that persists until a visible switch. This is a concrete alphabetic, within-word instantiation with a mandatory reset and complete table, not a claim to invent persistent switching. IP050 lacks a bound switch, and this proposal does not cure that evidential gap by construction.",
+      "GDT854's primary stops at cross-kernel capacity; its same-source-cell variants establish neither physical e identity nor a mode key. GDT914's later primary finds no recurrent all-reader local edit pattern. Neither failure is reopened or converted to mode evidence.",
+      "IP076 and IP077, docs/IDEA_BACKLOG.md:2048-2049, concern direct/prefix codes and a one-following-character escape. Here the bank remains changed for an arbitrary nonempty payload run. The common syntax limitations are predecessors, not evidence of novelty by themselves.",
+      "IDEA130 and GDT896 already treat state-changing cipher controls. GDT896 excludes the fixed complete-Simon-entry/shared-ring conjunction; GDT912 retains an incomplete source-table stop. This two-row toy is not Alberti's specified rotating channel, carries no source claim and does not rescue those tests. Statefulness itself is not new.",
+      "GDT905/906 exhausted a different fixed greedy-CV prefix-code and Latin-grammar conjunction. GDT906's primary confirms no remaining search cases. This proposal asks for no larger lexicon, grammar repair or renewed decoder.",
+      "IDEA927/928 are being reviewed independently by root. This draft uses neither prior-word content nor high/low joins and provides no judgement on their fresh results."
+    ],
+    "review_basis": "Read live route and composition topic; bounded idea and duplicate searches; route checks; IP050/IP077/IDEA130 cards; GDT854 with its GDT914 followup primary, GDT896 with GDT912 followup primary, and GDT906 primary. No absence of search hits or followup metadata was treated as proof of untouched research.",
+    "next_decision": "Retain raw only. A later selection would first need a concrete native toggle binding and a smallest decision-changing comparison; this proposal's complete hand procedure and lack of a test do not give it priority. No additional model variants or decoder work are authorized by this record."
+  }
+}

@@ -1,0 +1,3750 @@
+{
+  "experiment": "GDT1185",
+  "status": "STORED_ALTERNATIVES_FAIL_FULL_DESIGN",
+  "design": {
+    "M1024-S6-K7-R1": {
+      "model": "M1024-S6-K7",
+      "restart": 1,
+      "alphabets": {
+        "initial": [
+          "a",
+          "ch",
+          "d",
+          "sh",
+          "r",
+          "k",
+          "l",
+          "m",
+          "p",
+          "f",
+          "cfh",
+          "cth",
+          "o",
+          "t",
+          "cph",
+          "q",
+          "i",
+          "e",
+          "ckh",
+          "n",
+          "s",
+          "y"
+        ],
+        "medial": [
+          "i",
+          "o",
+          "e",
+          "a",
+          "cfh",
+          "cth",
+          "sh",
+          "q",
+          "f",
+          "r",
+          "ckh",
+          "k",
+          "m",
+          "cph",
+          "ch",
+          "l",
+          "p",
+          "y",
+          "t",
+          "s",
+          "n",
+          "d"
+        ],
+        "final": [
+          "l",
+          "a",
+          "y",
+          "i",
+          "q",
+          "o",
+          "k",
+          "n",
+          "d",
+          "s",
+          "sh",
+          "cth",
+          "r",
+          "m",
+          "t",
+          "ch",
+          "cph",
+          "e",
+          "p",
+          "f",
+          "cfh",
+          "ckh"
+        ]
+      },
+      "original_objective": 0.006986038579052941,
+      "table_entries": 1106,
+      "metrics": {
+        "b4": {
+          "tokens": 8000,
+          "types": 2375,
+          "type_ratio": 0.296875,
+          "mean_length": 4.452,
+          "sd_length": 1.509038104224012,
+          "top10_share": 0.124,
+          "word_entropy": 9.925471458786983,
+          "glyph_entropy": 3.178580885964661,
+          "conditional_entropy": 2.3927672134571263,
+          "first_last_js": 0.6157706591200954,
+          "adjacent_pairs": 7026,
+          "exact_repeat": 0.0002846569883290635,
+          "edit1_repeat": 0.009962994591517222,
+          "glyph_counts": {
+            "cth": 30,
+            "i": 7024,
+            "o": 6804,
+            "y": 2333,
+            "r": 1154,
+            "e": 6519,
+            "a": 3359,
+            "l": 3290,
+            "sh": 1111,
+            "d": 1140,
+            "ch": 1132,
+            "k": 1197,
+            "q": 411,
+            "p": 30,
+            "t": 9,
+            "n": 24,
+            "f": 9,
+            "cph": 14,
+            "m": 7,
+            "ckh": 10,
+            "s": 9
+          },
+          "length_counts": {
+            "2": 914,
+            "3": 1566,
+            "4": 1492,
+            "5": 1852,
+            "6": 1392,
+            "7": 762,
+            "8": 22
+          },
+          "q_followed_o": 0.25,
+          "q_count": 411,
+          "y_final": 0.291625
+        },
+        "w1": {
+          "tokens": 8000,
+          "types": 2318,
+          "type_ratio": 0.28975,
+          "mean_length": 4.518625,
+          "sd_length": 1.4900178218313362,
+          "top10_share": 0.1185,
+          "word_entropy": 9.967530271308936,
+          "glyph_entropy": 3.156948039836665,
+          "conditional_entropy": 2.382949821217635,
+          "first_last_js": 0.6301298759245658,
+          "adjacent_pairs": 7012,
+          "exact_repeat": 0.0001426126640045636,
+          "edit1_repeat": 0.00912721049629207,
+          "glyph_counts": {
+            "m": 4,
+            "i": 6891,
+            "e": 6746,
+            "l": 3327,
+            "d": 1179,
+            "o": 7277,
+            "a": 3213,
+            "y": 2335,
+            "ch": 1048,
+            "r": 1204,
+            "sh": 1166,
+            "k": 1237,
+            "q": 441,
+            "t": 50,
+            "cth": 15,
+            "f": 10,
+            "p": 6
+          },
+          "length_counts": {
+            "2": 916,
+            "3": 1230,
+            "4": 1676,
+            "5": 1979,
+            "6": 1402,
+            "7": 760,
+            "8": 37
+          },
+          "q_followed_o": null,
+          "q_count": 441,
+          "y_final": 0.291875
+        }
+      },
+      "comparison": {
+        "b4": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.596125,
+                "difference": 0.14412499999999984,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.5856418209592607,
+                "difference": 0.07660371673524868,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.133125,
+                "difference": 0.009124999999999994,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.306375,
+                "difference": 0.009500000000000008,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.3927672134571263,
+                "target": 2.13057915127304,
+                "difference": 0.2621880621840864,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.008792497069167644,
+                "difference": 0.00850784008083858,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009962994591517222,
+                "target": 0.04015240328253224,
+                "difference": 0.030189408691015017,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6157706591200954,
+                "target": 0.6508756143222797,
+                "difference": 0.03510495520218426,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09000000000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.10137691112199718,
+                "limit": 0.1,
+                "within": false
+              }
+            },
+            "passed": 8,
+            "total": 10,
+            "joint_screen": false
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.588,
+                "difference": 0.13600000000000012,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.6321782990837734,
+                "difference": 0.12314019485976146,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.126,
+                "difference": 0.0020000000000000018,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.31625,
+                "difference": 0.019374999999999976,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.3927672134571263,
+                "target": 2.1622969093003963,
+                "difference": 0.23047030415672998,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.007398688414326551,
+                "difference": 0.007114031425997487,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009962994591517222,
+                "target": 0.03985202623171347,
+                "difference": 0.029889031640196247,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.6157706591200954,
+                "target": 0.6503911967163167,
+                "difference": 0.0346205375962213,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09450000000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.0985542803567451,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.72875,
+                "difference": 0.27674999999999983,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.5858510136516608,
+                "difference": 0.07681290942764885,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.12875,
+                "difference": 0.004750000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.3125,
+                "difference": 0.015625,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.3927672134571263,
+                "target": 2.1215709425529727,
+                "difference": 0.27119627090415355,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.009531374106433678,
+                "difference": 0.009246717118104614,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009962994591517222,
+                "target": 0.04162033359809372,
+                "difference": 0.0316573390065765,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6157706591200954,
+                "target": 0.6713403224110539,
+                "difference": 0.05556966329095847,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09487500000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.10164639609508837,
+                "limit": 0.1,
+                "within": false
+              }
+            },
+            "passed": 8,
+            "total": 10,
+            "joint_screen": false
+          }
+        },
+        "w1": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.596125,
+                "difference": 0.07749999999999968,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.5856418209592607,
+                "difference": 0.09562399912792441,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.133125,
+                "difference": 0.014624999999999999,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.306375,
+                "difference": 0.016625,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.382949821217635,
+                "target": 2.13057915127304,
+                "difference": 0.25237066994459534,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.008792497069167644,
+                "difference": 0.00864988440516308,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.00912721049629207,
+                "target": 0.04015240328253224,
+                "difference": 0.031025192786240167,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6301298759245658,
+                "target": 0.6508756143222797,
+                "difference": 0.020745738397713875,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.07600000000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.10482993446882469,
+                "limit": 0.1,
+                "within": false
+              }
+            },
+            "passed": 8,
+            "total": 10,
+            "joint_screen": false
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.588,
+                "difference": 0.06937499999999996,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.6321782990837734,
+                "difference": 0.1421604772524372,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.126,
+                "difference": 0.007500000000000007,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.31625,
+                "difference": 0.026499999999999968,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.382949821217635,
+                "target": 2.1622969093003963,
+                "difference": 0.2206529119172389,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.007398688414326551,
+                "difference": 0.0072560757503219876,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.00912721049629207,
+                "target": 0.03985202623171347,
+                "difference": 0.030724815735421396,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6301298759245658,
+                "target": 0.6503911967163167,
+                "difference": 0.020261320791750914,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.08012500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.10230380838773795,
+                "limit": 0.1,
+                "within": false
+              }
+            },
+            "passed": 8,
+            "total": 10,
+            "joint_screen": false
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.72875,
+                "difference": 0.21012499999999967,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.5858510136516608,
+                "difference": 0.09583319182032457,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.12875,
+                "difference": 0.010250000000000009,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.3125,
+                "difference": 0.022749999999999992,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.382949821217635,
+                "target": 2.1215709425529727,
+                "difference": 0.2613788786646625,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.009531374106433678,
+                "difference": 0.009388761442429115,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.00912721049629207,
+                "target": 0.04162033359809372,
+                "difference": 0.03249312310180165,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6301298759245658,
+                "target": 0.6713403224110539,
+                "difference": 0.041210446486488084,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.06162500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.10505945107197547,
+                "limit": 0.1,
+                "within": false
+              }
+            },
+            "passed": 8,
+            "total": 10,
+            "joint_screen": false
+          }
+        }
+      },
+      "full_design_pass": false
+    },
+    "M1024-S6-K7-R2": {
+      "model": "M1024-S6-K7",
+      "restart": 2,
+      "alphabets": {
+        "initial": [
+          "ch",
+          "l",
+          "d",
+          "q",
+          "y",
+          "a",
+          "r",
+          "o",
+          "cth",
+          "n",
+          "e",
+          "f",
+          "p",
+          "t",
+          "cph",
+          "sh",
+          "k",
+          "cfh",
+          "ckh",
+          "m",
+          "s",
+          "i"
+        ],
+        "medial": [
+          "e",
+          "i",
+          "o",
+          "ckh",
+          "t",
+          "a",
+          "ch",
+          "m",
+          "q",
+          "f",
+          "sh",
+          "l",
+          "s",
+          "p",
+          "y",
+          "cfh",
+          "d",
+          "r",
+          "cth",
+          "k",
+          "cph",
+          "n"
+        ],
+        "final": [
+          "o",
+          "y",
+          "k",
+          "n",
+          "sh",
+          "d",
+          "q",
+          "t",
+          "i",
+          "p",
+          "ch",
+          "cph",
+          "r",
+          "m",
+          "ckh",
+          "l",
+          "cfh",
+          "e",
+          "a",
+          "cth",
+          "s",
+          "f"
+        ]
+      },
+      "original_objective": 0.0008344895397117316,
+      "table_entries": 1106,
+      "metrics": {
+        "b4": {
+          "tokens": 8000,
+          "types": 2375,
+          "type_ratio": 0.296875,
+          "mean_length": 4.452,
+          "sd_length": 1.509038104224012,
+          "top10_share": 0.124,
+          "word_entropy": 9.925471458786983,
+          "glyph_entropy": 3.134067748302114,
+          "conditional_entropy": 2.2898485345988333,
+          "first_last_js": 0.7090796239349691,
+          "adjacent_pairs": 7026,
+          "exact_repeat": 0.0002846569883290635,
+          "edit1_repeat": 0.010247651579846286,
+          "glyph_counts": {
+            "f": 30,
+            "e": 6651,
+            "i": 6461,
+            "k": 2343,
+            "y": 3432,
+            "o": 8804,
+            "n": 372,
+            "ch": 1081,
+            "q": 1111,
+            "r": 997,
+            "d": 1482,
+            "l": 1132,
+            "a": 1197,
+            "sh": 411,
+            "cth": 30,
+            "t": 9,
+            "m": 24,
+            "cph": 14,
+            "p": 1,
+            "ckh": 10,
+            "s": 9,
+            "cfh": 15
+          },
+          "length_counts": {
+            "2": 914,
+            "3": 1566,
+            "4": 1492,
+            "5": 1852,
+            "6": 1392,
+            "7": 762,
+            "8": 22
+          },
+          "q_followed_o": 0.3483348334833483,
+          "q_count": 1111,
+          "y_final": 0.28475
+        },
+        "w1": {
+          "tokens": 8000,
+          "types": 2318,
+          "type_ratio": 0.28975,
+          "mean_length": 4.518625,
+          "sd_length": 1.4900178218313362,
+          "top10_share": 0.1185,
+          "word_entropy": 9.967530271308936,
+          "glyph_entropy": 3.107834195159692,
+          "conditional_entropy": 2.283957228252895,
+          "first_last_js": 0.7166421985330944,
+          "adjacent_pairs": 7012,
+          "exact_repeat": 0.0001426126640045636,
+          "edit1_repeat": 0.009697661152310326,
+          "glyph_counts": {
+            "o": 9074,
+            "e": 6521,
+            "d": 1571,
+            "i": 6882,
+            "ch": 1075,
+            "k": 2335,
+            "l": 1048,
+            "y": 3342,
+            "q": 1166,
+            "a": 1237,
+            "r": 1003,
+            "sh": 441,
+            "n": 380,
+            "t": 50,
+            "f": 15,
+            "cth": 6,
+            "p": 3
+          },
+          "length_counts": {
+            "2": 916,
+            "3": 1230,
+            "4": 1676,
+            "5": 1979,
+            "6": 1402,
+            "7": 760,
+            "8": 37
+          },
+          "q_followed_o": 0.38250428816466553,
+          "q_count": 1166,
+          "y_final": 0.26725
+        }
+      },
+      "comparison": {
+        "b4": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.596125,
+                "difference": 0.14412499999999984,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.5856418209592607,
+                "difference": 0.07660371673524868,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.133125,
+                "difference": 0.009124999999999994,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.306375,
+                "difference": 0.009500000000000008,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.2898485345988333,
+                "target": 2.13057915127304,
+                "difference": 0.15926938332579343,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.008792497069167644,
+                "difference": 0.00850784008083858,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010247651579846286,
+                "target": 0.04015240328253224,
+                "difference": 0.02990475170268595,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.7090796239349691,
+                "target": 0.6508756143222797,
+                "difference": 0.058204009612689456,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09000000000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09329820990435247,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.588,
+                "difference": 0.13600000000000012,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.6321782990837734,
+                "difference": 0.12314019485976146,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.126,
+                "difference": 0.0020000000000000018,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.31625,
+                "difference": 0.019374999999999976,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.2898485345988333,
+                "target": 2.1622969093003963,
+                "difference": 0.127551625298437,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.007398688414326551,
+                "difference": 0.007114031425997487,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010247651579846286,
+                "target": 0.03985202623171347,
+                "difference": 0.02960437465186718,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.7090796239349691,
+                "target": 0.6503911967163167,
+                "difference": 0.05868842721865242,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09450000000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09542764843457768,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.72875,
+                "difference": 0.27674999999999983,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.5858510136516608,
+                "difference": 0.07681290942764885,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.12875,
+                "difference": 0.004750000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.3125,
+                "difference": 0.015625,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.2898485345988333,
+                "target": 2.1215709425529727,
+                "difference": 0.16827759204586057,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.009531374106433678,
+                "difference": 0.009246717118104614,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010247651579846286,
+                "target": 0.04162033359809372,
+                "difference": 0.03137268201824744,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.7090796239349691,
+                "target": 0.6713403224110539,
+                "difference": 0.03773930152391525,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09487500000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09311912455097868,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        },
+        "w1": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.596125,
+                "difference": 0.07749999999999968,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.5856418209592607,
+                "difference": 0.09562399912792441,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.133125,
+                "difference": 0.014624999999999999,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.306375,
+                "difference": 0.016625,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.283957228252895,
+                "target": 2.13057915127304,
+                "difference": 0.15337807697985495,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.008792497069167644,
+                "difference": 0.00864988440516308,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009697661152310326,
+                "target": 0.04015240328253224,
+                "difference": 0.03045474213022191,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.7166421985330944,
+                "target": 0.6508756143222797,
+                "difference": 0.06576658421081472,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.07600000000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09737865814478361,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.588,
+                "difference": 0.06937499999999996,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.6321782990837734,
+                "difference": 0.1421604772524372,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.126,
+                "difference": 0.007500000000000007,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.31625,
+                "difference": 0.026499999999999968,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.283957228252895,
+                "target": 2.1622969093003963,
+                "difference": 0.12166031895249851,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.007398688414326551,
+                "difference": 0.0072560757503219876,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009697661152310326,
+                "target": 0.03985202623171347,
+                "difference": 0.03015436507940314,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.7166421985330944,
+                "target": 0.6503911967163167,
+                "difference": 0.06625100181677768,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.08012500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.0994496908167716,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.72875,
+                "difference": 0.21012499999999967,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.5858510136516608,
+                "difference": 0.09583319182032457,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.12875,
+                "difference": 0.010250000000000009,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.3125,
+                "difference": 0.022749999999999992,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.283957228252895,
+                "target": 2.1215709425529727,
+                "difference": 0.16238628569992208,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.009531374106433678,
+                "difference": 0.009388761442429115,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009697661152310326,
+                "target": 0.04162033359809372,
+                "difference": 0.031922672445783395,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.7166421985330944,
+                "target": 0.6713403224110539,
+                "difference": 0.04530187612204051,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.06162500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09706981670598422,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        }
+      },
+      "full_design_pass": false
+    },
+    "M1024-S6-K7-R3": {
+      "model": "M1024-S6-K7",
+      "restart": 3,
+      "alphabets": {
+        "initial": [
+          "l",
+          "k",
+          "r",
+          "ch",
+          "d",
+          "y",
+          "q",
+          "ckh",
+          "a",
+          "o",
+          "i",
+          "n",
+          "cfh",
+          "cth",
+          "p",
+          "s",
+          "sh",
+          "m",
+          "f",
+          "cph",
+          "t",
+          "e"
+        ],
+        "medial": [
+          "i",
+          "e",
+          "o",
+          "n",
+          "ckh",
+          "k",
+          "t",
+          "cfh",
+          "y",
+          "q",
+          "l",
+          "f",
+          "cph",
+          "m",
+          "sh",
+          "p",
+          "d",
+          "ch",
+          "r",
+          "s",
+          "cth",
+          "a"
+        ],
+        "final": [
+          "a",
+          "n",
+          "y",
+          "o",
+          "q",
+          "i",
+          "ckh",
+          "p",
+          "r",
+          "f",
+          "d",
+          "k",
+          "s",
+          "m",
+          "sh",
+          "ch",
+          "cth",
+          "l",
+          "e",
+          "cfh",
+          "t",
+          "cph"
+        ]
+      },
+      "original_objective": 0.0010073499268665894,
+      "table_entries": 1106,
+      "metrics": {
+        "b4": {
+          "tokens": 8000,
+          "types": 2375,
+          "type_ratio": 0.296875,
+          "mean_length": 4.452,
+          "sd_length": 1.509038104224012,
+          "top10_share": 0.124,
+          "word_entropy": 9.925471458786983,
+          "glyph_entropy": 3.2159671589355323,
+          "conditional_entropy": 2.392542710880661,
+          "first_last_js": 0.6890333951623355,
+          "adjacent_pairs": 7026,
+          "exact_repeat": 0.0002846569883290635,
+          "edit1_repeat": 0.00982066609735269,
+          "glyph_counts": {
+            "n": 2308,
+            "i": 6993,
+            "e": 6461,
+            "y": 3530,
+            "d": 1154,
+            "o": 6876,
+            "l": 1081,
+            "a": 2323,
+            "ch": 1111,
+            "q": 1388,
+            "r": 1140,
+            "k": 1132,
+            "cth": 9,
+            "cph": 24,
+            "p": 14,
+            "ckh": 7,
+            "sh": 10,
+            "cfh": 1,
+            "f": 10,
+            "s": 20,
+            "t": 9,
+            "m": 15
+          },
+          "length_counts": {
+            "2": 914,
+            "3": 1566,
+            "4": 1492,
+            "5": 1852,
+            "6": 1392,
+            "7": 762,
+            "8": 22
+          },
+          "q_followed_o": 0.2978936810431294,
+          "q_count": 1388,
+          "y_final": 0.291625
+        },
+        "w1": {
+          "tokens": 8000,
+          "types": 2318,
+          "type_ratio": 0.28975,
+          "mean_length": 4.518625,
+          "sd_length": 1.4900178218313362,
+          "top10_share": 0.1185,
+          "word_entropy": 9.967530271308936,
+          "glyph_entropy": 3.185649730825479,
+          "conditional_entropy": 2.38385923577197,
+          "first_last_js": 0.6960917457439798,
+          "adjacent_pairs": 7012,
+          "exact_repeat": 0.0001426126640045636,
+          "edit1_repeat": 0.009269823160296634,
+          "glyph_counts": {
+            "ckh": 4,
+            "i": 6913,
+            "o": 7126,
+            "a": 2330,
+            "r": 1179,
+            "e": 6882,
+            "l": 1075,
+            "y": 3572,
+            "k": 1048,
+            "d": 1204,
+            "n": 2153,
+            "ch": 1166,
+            "q": 1444,
+            "cth": 50,
+            "cfh": 3
+          },
+          "length_counts": {
+            "2": 916,
+            "3": 1230,
+            "4": 1676,
+            "5": 1979,
+            "6": 1402,
+            "7": 760,
+            "8": 37
+          },
+          "q_followed_o": 0.292123629112662,
+          "q_count": 1444,
+          "y_final": 0.291875
+        }
+      },
+      "comparison": {
+        "b4": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.596125,
+                "difference": 0.14412499999999984,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.5856418209592607,
+                "difference": 0.07660371673524868,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.133125,
+                "difference": 0.009124999999999994,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.306375,
+                "difference": 0.009500000000000008,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.392542710880661,
+                "target": 2.13057915127304,
+                "difference": 0.2619635596076213,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.008792497069167644,
+                "difference": 0.00850784008083858,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.00982066609735269,
+                "target": 0.04015240328253224,
+                "difference": 0.030331737185179546,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6890333951623355,
+                "target": 0.6508756143222797,
+                "difference": 0.03815778084005583,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09000000000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09186858682185287,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.588,
+                "difference": 0.13600000000000012,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.6321782990837734,
+                "difference": 0.12314019485976146,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.126,
+                "difference": 0.0020000000000000018,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.31625,
+                "difference": 0.019374999999999976,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.392542710880661,
+                "target": 2.1622969093003963,
+                "difference": 0.23024580158026486,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.007398688414326551,
+                "difference": 0.007114031425997487,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.00982066609735269,
+                "target": 0.03985202623171347,
+                "difference": 0.030031360134360776,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6890333951623355,
+                "target": 0.6503911967163167,
+                "difference": 0.038642198446018794,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09450000000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09061276956205169,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.452,
+                "target": 4.72875,
+                "difference": 0.27674999999999983,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.509038104224012,
+                "target": 1.5858510136516608,
+                "difference": 0.07681290942764885,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.124,
+                "target": 0.12875,
+                "difference": 0.004750000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.296875,
+                "target": 0.3125,
+                "difference": 0.015625,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.392542710880661,
+                "target": 2.1215709425529727,
+                "difference": 0.27097176832768843,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0002846569883290635,
+                "target": 0.009531374106433678,
+                "difference": 0.009246717118104614,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.00982066609735269,
+                "target": 0.04162033359809372,
+                "difference": 0.031799667500741036,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6890333951623355,
+                "target": 0.6713403224110539,
+                "difference": 0.017693072751281624,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.09487500000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09196076903923867,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        },
+        "w1": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.596125,
+                "difference": 0.07749999999999968,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.5856418209592607,
+                "difference": 0.09562399912792441,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.133125,
+                "difference": 0.014624999999999999,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.306375,
+                "difference": 0.016625,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.38385923577197,
+                "target": 2.13057915127304,
+                "difference": 0.25328008449893025,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.008792497069167644,
+                "difference": 0.00864988440516308,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009269823160296634,
+                "target": 0.04015240328253224,
+                "difference": 0.030882580122235603,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6960917457439798,
+                "target": 0.6508756143222797,
+                "difference": 0.04521613142170011,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.07600000000000001,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09714248274070372,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.588,
+                "difference": 0.06937499999999996,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.6321782990837734,
+                "difference": 0.1421604772524372,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.126,
+                "difference": 0.007500000000000007,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.31625,
+                "difference": 0.026499999999999968,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.38385923577197,
+                "target": 2.1622969093003963,
+                "difference": 0.2215623264715738,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.007398688414326551,
+                "difference": 0.0072560757503219876,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009269823160296634,
+                "target": 0.03985202623171347,
+                "difference": 0.030582203071416833,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6960917457439798,
+                "target": 0.6503911967163167,
+                "difference": 0.04570054902766307,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.08012500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09631557028490295,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.518625,
+                "target": 4.72875,
+                "difference": 0.21012499999999967,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.4900178218313362,
+                "target": 1.5858510136516608,
+                "difference": 0.09583319182032457,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.1185,
+                "target": 0.12875,
+                "difference": 0.010250000000000009,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.28975,
+                "target": 0.3125,
+                "difference": 0.022749999999999992,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.38385923577197,
+                "target": 2.1215709425529727,
+                "difference": 0.2622882932189974,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.0001426126640045636,
+                "target": 0.009531374106433678,
+                "difference": 0.009388761442429115,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.009269823160296634,
+                "target": 0.04162033359809372,
+                "difference": 0.03235051043779709,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6960917457439798,
+                "target": 0.6713403224110539,
+                "difference": 0.024751423332925904,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.06162500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09722818253513105,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        }
+      },
+      "full_design_pass": false
+    },
+    "M2048-S6-K7-R1": {
+      "model": "M2048-S6-K7",
+      "restart": 1,
+      "alphabets": {
+        "initial": [
+          "d",
+          "n",
+          "r",
+          "k",
+          "y",
+          "ch",
+          "sh",
+          "m",
+          "cph",
+          "s",
+          "p",
+          "l",
+          "q",
+          "a",
+          "f",
+          "cth",
+          "cfh",
+          "i",
+          "e",
+          "t",
+          "ckh",
+          "o"
+        ],
+        "medial": [
+          "e",
+          "i",
+          "o",
+          "cth",
+          "s",
+          "d",
+          "p",
+          "ckh",
+          "ch",
+          "y",
+          "cfh",
+          "f",
+          "k",
+          "q",
+          "n",
+          "a",
+          "m",
+          "sh",
+          "r",
+          "cph",
+          "t",
+          "l"
+        ],
+        "final": [
+          "y",
+          "a",
+          "l",
+          "sh",
+          "k",
+          "e",
+          "d",
+          "f",
+          "q",
+          "ch",
+          "cth",
+          "o",
+          "s",
+          "cph",
+          "m",
+          "n",
+          "p",
+          "r",
+          "t",
+          "i",
+          "cfh",
+          "ckh"
+        ]
+      },
+      "original_objective": 0.001013800993695798,
+      "table_entries": 2130,
+      "metrics": {
+        "b4": {
+          "tokens": 8000,
+          "types": 2425,
+          "type_ratio": 0.303125,
+          "mean_length": 4.5515,
+          "sd_length": 1.7014252114036632,
+          "top10_share": 0.137875,
+          "word_entropy": 9.788210447112673,
+          "glyph_entropy": 3.217026946389412,
+          "conditional_entropy": 2.4042748965553637,
+          "first_last_js": 0.6821770144205035,
+          "adjacent_pairs": 7007,
+          "exact_repeat": 0.00014271442842871414,
+          "edit1_repeat": 0.010418153275296133,
+          "glyph_counts": {
+            "l": 2358,
+            "e": 6993,
+            "o": 6839,
+            "y": 4031,
+            "d": 1113,
+            "i": 6789,
+            "sh": 1132,
+            "a": 2317,
+            "r": 1080,
+            "n": 1119,
+            "k": 1283,
+            "ch": 1192,
+            "cph": 38,
+            "q": 11,
+            "p": 34,
+            "ckh": 8,
+            "t": 27,
+            "m": 4,
+            "cth": 18,
+            "cfh": 12,
+            "f": 13,
+            "s": 1
+          },
+          "length_counts": {
+            "2": 969,
+            "3": 1689,
+            "4": 1384,
+            "5": 1487,
+            "6": 1164,
+            "7": 1004,
+            "8": 303
+          },
+          "q_followed_o": 0.0,
+          "q_count": 11,
+          "y_final": 0.35375
+        },
+        "w1": {
+          "tokens": 8000,
+          "types": 2487,
+          "type_ratio": 0.310875,
+          "mean_length": 4.652875,
+          "sd_length": 1.69746258703248,
+          "top10_share": 0.126625,
+          "word_entropy": 9.893172196372593,
+          "glyph_entropy": 3.1833090577935326,
+          "conditional_entropy": 2.4019349741990474,
+          "first_last_js": 0.673788998728074,
+          "adjacent_pairs": 6984,
+          "exact_repeat": 0.000143184421534937,
+          "edit1_repeat": 0.0104524627720504,
+          "glyph_counts": {
+            "m": 2,
+            "e": 7279,
+            "o": 7079,
+            "l": 2434,
+            "n": 1120,
+            "y": 4053,
+            "d": 1016,
+            "i": 7084,
+            "a": 2118,
+            "k": 1368,
+            "r": 1165,
+            "ch": 1230,
+            "sh": 1189,
+            "q": 51,
+            "p": 20,
+            "cph": 14,
+            "s": 1
+          },
+          "length_counts": {
+            "2": 971,
+            "3": 1321,
+            "4": 1514,
+            "5": 1662,
+            "6": 1105,
+            "7": 1094,
+            "8": 333
+          },
+          "q_followed_o": 0.0,
+          "q_count": 51,
+          "y_final": 0.355875
+        }
+      },
+      "comparison": {
+        "b4": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.596125,
+                "difference": 0.044624999999999915,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.5856418209592607,
+                "difference": 0.11578339044440256,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.133125,
+                "difference": 0.004750000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.306375,
+                "difference": 0.0032500000000000306,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4042748965553637,
+                "target": 2.13057915127304,
+                "difference": 0.2736957452823239,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.008792497069167644,
+                "difference": 0.008649782640738929,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010418153275296133,
+                "target": 0.04015240328253224,
+                "difference": 0.029734250007236104,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.6821770144205035,
+                "target": 0.6508756143222797,
+                "difference": 0.0313014000982238,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.14912500000000004,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.0902626655520808,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.588,
+                "difference": 0.0365000000000002,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.6321782990837734,
+                "difference": 0.06924691231988978,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.126,
+                "difference": 0.011874999999999997,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.31625,
+                "difference": 0.013124999999999998,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4042748965553637,
+                "target": 2.1622969093003963,
+                "difference": 0.24197798725496744,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.007398688414326551,
+                "difference": 0.007255973985897837,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010418153275296133,
+                "target": 0.03985202623171347,
+                "difference": 0.029433872956417334,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.6821770144205035,
+                "target": 0.6503911967163167,
+                "difference": 0.03178581770418676,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.148875,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.08926142791772886,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.72875,
+                "difference": 0.1772499999999999,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.5858510136516608,
+                "difference": 0.1155741977520024,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.12875,
+                "difference": 0.009124999999999994,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.3125,
+                "difference": 0.009375000000000022,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4042748965553637,
+                "target": 2.1215709425529727,
+                "difference": 0.282703954002391,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.009531374106433678,
+                "difference": 0.009388659678004964,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010418153275296133,
+                "target": 0.04162033359809372,
+                "difference": 0.03120218032279759,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6821770144205035,
+                "target": 0.6713403224110539,
+                "difference": 0.010836692009449589,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.16062500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09028508332079048,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        },
+        "w1": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.596125,
+                "difference": 0.05675000000000008,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.5856418209592607,
+                "difference": 0.11182076607321934,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.133125,
+                "difference": 0.006500000000000006,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.306375,
+                "difference": 0.004500000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4019349741990474,
+                "target": 2.13057915127304,
+                "difference": 0.2713558229260076,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.008792497069167644,
+                "difference": 0.008649312647632707,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.04015240328253224,
+                "difference": 0.02969994051048184,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.673788998728074,
+                "target": 0.6508756143222797,
+                "difference": 0.022913384405794268,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.11837500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09676430002709645,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.588,
+                "difference": 0.0648749999999998,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.6321782990837734,
+                "difference": 0.06528428794870655,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.126,
+                "difference": 0.0006249999999999867,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.31625,
+                "difference": 0.005374999999999963,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4019349741990474,
+                "target": 2.1622969093003963,
+                "difference": 0.23963806489865114,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.007398688414326551,
+                "difference": 0.007255503992791614,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.03985202623171347,
+                "difference": 0.029399563459663068,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.673788998728074,
+                "target": 0.6503911967163167,
+                "difference": 0.02339780201175723,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.118125,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09570512984396923,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.72875,
+                "difference": 0.07587499999999991,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.5858510136516608,
+                "difference": 0.11161157338081917,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.12875,
+                "difference": 0.0021250000000000158,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.3125,
+                "difference": 0.0016249999999999876,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4019349741990474,
+                "target": 2.1215709425529727,
+                "difference": 0.2803640316460747,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.009531374106433678,
+                "difference": 0.009388189684898742,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.04162033359809372,
+                "difference": 0.031167870826043324,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.673788998728074,
+                "target": 0.6713403224110539,
+                "difference": 0.00244867631702006,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.12987500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09681441605425539,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        }
+      },
+      "full_design_pass": false
+    },
+    "M2048-S6-K7-R2": {
+      "model": "M2048-S6-K7",
+      "restart": 2,
+      "alphabets": {
+        "initial": [
+          "q",
+          "d",
+          "r",
+          "l",
+          "a",
+          "y",
+          "n",
+          "i",
+          "t",
+          "m",
+          "cph",
+          "sh",
+          "o",
+          "cth",
+          "s",
+          "e",
+          "f",
+          "ckh",
+          "k",
+          "cfh",
+          "p",
+          "ch"
+        ],
+        "medial": [
+          "o",
+          "i",
+          "e",
+          "sh",
+          "y",
+          "cph",
+          "r",
+          "cth",
+          "m",
+          "f",
+          "d",
+          "p",
+          "t",
+          "n",
+          "q",
+          "ckh",
+          "l",
+          "a",
+          "k",
+          "s",
+          "cfh",
+          "ch"
+        ],
+        "final": [
+          "a",
+          "ch",
+          "k",
+          "o",
+          "l",
+          "d",
+          "cth",
+          "cfh",
+          "n",
+          "y",
+          "q",
+          "sh",
+          "p",
+          "i",
+          "r",
+          "ckh",
+          "s",
+          "f",
+          "cph",
+          "e",
+          "m",
+          "t"
+        ]
+      },
+      "original_objective": 0.0010321895282583444,
+      "table_entries": 2130,
+      "metrics": {
+        "b4": {
+          "tokens": 8000,
+          "types": 2425,
+          "type_ratio": 0.303125,
+          "mean_length": 4.5515,
+          "sd_length": 1.7014252114036632,
+          "top10_share": 0.137875,
+          "word_entropy": 9.788210447112673,
+          "glyph_entropy": 3.2154009150504352,
+          "conditional_entropy": 2.406410432377618,
+          "first_last_js": 0.6763364382970224,
+          "adjacent_pairs": 7007,
+          "exact_repeat": 0.00014271442842871414,
+          "edit1_repeat": 0.01098901098901099,
+          "glyph_counts": {
+            "sh": 4,
+            "o": 6982,
+            "e": 6857,
+            "a": 4031,
+            "q": 1113,
+            "i": 6772,
+            "k": 2370,
+            "n": 966,
+            "ch": 2314,
+            "r": 1080,
+            "d": 1291,
+            "l": 1283,
+            "y": 1192,
+            "t": 38,
+            "cph": 34,
+            "p": 8,
+            "cfh": 27,
+            "f": 12,
+            "cth": 3,
+            "ckh": 21,
+            "s": 13,
+            "m": 1
+          },
+          "length_counts": {
+            "2": 969,
+            "3": 1689,
+            "4": 1384,
+            "5": 1487,
+            "6": 1164,
+            "7": 1004,
+            "8": 303
+          },
+          "q_followed_o": 0.31805929919137466,
+          "q_count": 1113,
+          "y_final": 0.0
+        },
+        "w1": {
+          "tokens": 8000,
+          "types": 2487,
+          "type_ratio": 0.310875,
+          "mean_length": 4.652875,
+          "sd_length": 1.69746258703248,
+          "top10_share": 0.126625,
+          "word_entropy": 9.893172196372593,
+          "glyph_entropy": 3.174457687988894,
+          "conditional_entropy": 2.4124827120241212,
+          "first_last_js": 0.6607834743936623,
+          "adjacent_pairs": 6984,
+          "exact_repeat": 0.000143184421534937,
+          "edit1_repeat": 0.0104524627720504,
+          "glyph_counts": {
+            "i": 7086,
+            "o": 7298,
+            "e": 7079,
+            "k": 2429,
+            "d": 1339,
+            "a": 4053,
+            "q": 1016,
+            "ch": 2115,
+            "l": 1368,
+            "r": 1165,
+            "y": 1230,
+            "n": 1002,
+            "cph": 20,
+            "t": 14,
+            "cth": 3,
+            "sh": 5,
+            "m": 1
+          },
+          "length_counts": {
+            "2": 971,
+            "3": 1321,
+            "4": 1514,
+            "5": 1662,
+            "6": 1105,
+            "7": 1094,
+            "8": 333
+          },
+          "q_followed_o": 0.34448818897637795,
+          "q_count": 1016,
+          "y_final": 0.0
+        }
+      },
+      "comparison": {
+        "b4": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.596125,
+                "difference": 0.044624999999999915,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.5856418209592607,
+                "difference": 0.11578339044440256,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.133125,
+                "difference": 0.004750000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.306375,
+                "difference": 0.0032500000000000306,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.406410432377618,
+                "target": 2.13057915127304,
+                "difference": 0.275831281104578,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.008792497069167644,
+                "difference": 0.008649782640738929,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.01098901098901099,
+                "target": 0.04015240328253224,
+                "difference": 0.029163392293521245,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.6763364382970224,
+                "target": 0.6508756143222797,
+                "difference": 0.025460823974742697,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.14912500000000004,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09142792908999144,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.588,
+                "difference": 0.0365000000000002,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.6321782990837734,
+                "difference": 0.06924691231988978,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.126,
+                "difference": 0.011874999999999997,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.31625,
+                "difference": 0.013124999999999998,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.406410432377618,
+                "target": 2.1622969093003963,
+                "difference": 0.24411352307722156,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.007398688414326551,
+                "difference": 0.007255973985897837,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.01098901098901099,
+                "target": 0.03985202623171347,
+                "difference": 0.028863015242702475,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.6763364382970224,
+                "target": 0.6503911967163167,
+                "difference": 0.025945241580705658,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.148875,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.0885028344424254,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.72875,
+                "difference": 0.1772499999999999,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.5858510136516608,
+                "difference": 0.1155741977520024,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.12875,
+                "difference": 0.009124999999999994,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.3125,
+                "difference": 0.009375000000000022,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.406410432377618,
+                "target": 2.1215709425529727,
+                "difference": 0.28483948982464513,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.009531374106433678,
+                "difference": 0.009388659678004964,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.01098901098901099,
+                "target": 0.04162033359809372,
+                "difference": 0.03063132260908273,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6763364382970224,
+                "target": 0.6713403224110539,
+                "difference": 0.0049961158859684884,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.16062500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09161797304910065,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        },
+        "w1": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.596125,
+                "difference": 0.05675000000000008,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.5856418209592607,
+                "difference": 0.11182076607321934,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.133125,
+                "difference": 0.006500000000000006,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.306375,
+                "difference": 0.004500000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4124827120241212,
+                "target": 2.13057915127304,
+                "difference": 0.28190356075108136,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.008792497069167644,
+                "difference": 0.008649312647632707,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.04015240328253224,
+                "difference": 0.02969994051048184,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.6607834743936623,
+                "target": 0.6508756143222797,
+                "difference": 0.009907860071382557,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.11837500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09775731393873918,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.588,
+                "difference": 0.0648749999999998,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.6321782990837734,
+                "difference": 0.06528428794870655,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.126,
+                "difference": 0.0006249999999999867,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.31625,
+                "difference": 0.005374999999999963,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4124827120241212,
+                "target": 2.1622969093003963,
+                "difference": 0.2501858027237249,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.007398688414326551,
+                "difference": 0.007255503992791614,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.03985202623171347,
+                "difference": 0.029399563459663068,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.6607834743936623,
+                "target": 0.6503911967163167,
+                "difference": 0.010392277677345518,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.118125,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09495013439612432,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.72875,
+                "difference": 0.07587499999999991,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.5858510136516608,
+                "difference": 0.11161157338081917,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.12875,
+                "difference": 0.0021250000000000158,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.3125,
+                "difference": 0.0016249999999999876,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4124827120241212,
+                "target": 2.1215709425529727,
+                "difference": 0.2909117694711485,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.009531374106433678,
+                "difference": 0.009388189684898742,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.04162033359809372,
+                "difference": 0.031167870826043324,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.6607834743936623,
+                "target": 0.6713403224110539,
+                "difference": 0.010556848017391651,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.12987500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.09812203797631537,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        }
+      },
+      "full_design_pass": false
+    },
+    "M2048-S6-K7-R3": {
+      "model": "M2048-S6-K7",
+      "restart": 3,
+      "alphabets": {
+        "initial": [
+          "n",
+          "d",
+          "t",
+          "r",
+          "l",
+          "y",
+          "k",
+          "sh",
+          "p",
+          "e",
+          "ckh",
+          "m",
+          "i",
+          "cph",
+          "f",
+          "ch",
+          "cfh",
+          "cth",
+          "s",
+          "o",
+          "a",
+          "q"
+        ],
+        "medial": [
+          "e",
+          "i",
+          "o",
+          "ckh",
+          "cfh",
+          "p",
+          "t",
+          "q",
+          "s",
+          "a",
+          "sh",
+          "f",
+          "y",
+          "r",
+          "cth",
+          "l",
+          "n",
+          "ch",
+          "m",
+          "k",
+          "cph",
+          "d"
+        ],
+        "final": [
+          "y",
+          "ch",
+          "a",
+          "o",
+          "k",
+          "q",
+          "cph",
+          "d",
+          "p",
+          "s",
+          "n",
+          "l",
+          "cth",
+          "t",
+          "f",
+          "e",
+          "ckh",
+          "cfh",
+          "r",
+          "i",
+          "m",
+          "sh"
+        ]
+      },
+      "original_objective": 0.001068876275386902,
+      "table_entries": 2130,
+      "metrics": {
+        "b4": {
+          "tokens": 8000,
+          "types": 2425,
+          "type_ratio": 0.303125,
+          "mean_length": 4.5515,
+          "sd_length": 1.7014252114036632,
+          "top10_share": 0.137875,
+          "word_entropy": 9.788210447112673,
+          "glyph_entropy": 3.2331581952027397,
+          "conditional_entropy": 2.4060762096904353,
+          "first_last_js": 0.716013667645493,
+          "adjacent_pairs": 7007,
+          "exact_repeat": 0.00014271442842871414,
+          "edit1_repeat": 0.010418153275296133,
+          "glyph_counts": {
+            "m": 4,
+            "e": 6806,
+            "o": 7032,
+            "y": 4022,
+            "n": 1113,
+            "i": 6779,
+            "a": 2362,
+            "k": 1130,
+            "ch": 2332,
+            "t": 1080,
+            "d": 1119,
+            "l": 1201,
+            "r": 1119,
+            "q": 172,
+            "p": 38,
+            "ckh": 34,
+            "s": 16,
+            "sh": 4,
+            "cfh": 12,
+            "cph": 3,
+            "cth": 21,
+            "f": 13
+          },
+          "length_counts": {
+            "2": 969,
+            "3": 1689,
+            "4": 1384,
+            "5": 1487,
+            "6": 1164,
+            "7": 1004,
+            "8": 303
+          },
+          "q_followed_o": null,
+          "q_count": 172,
+          "y_final": 0.35375
+        },
+        "w1": {
+          "tokens": 8000,
+          "types": 2487,
+          "type_ratio": 0.310875,
+          "mean_length": 4.652875,
+          "sd_length": 1.69746258703248,
+          "top10_share": 0.126625,
+          "word_entropy": 9.893172196372593,
+          "glyph_entropy": 3.197898734894319,
+          "conditional_entropy": 2.412508159306295,
+          "first_last_js": 0.7256434299647476,
+          "adjacent_pairs": 6984,
+          "exact_repeat": 0.000143184421534937,
+          "edit1_repeat": 0.0104524627720504,
+          "glyph_counts": {
+            "sh": 2,
+            "e": 7061,
+            "o": 7266,
+            "a": 2429,
+            "d": 1120,
+            "y": 4077,
+            "n": 1016,
+            "i": 7135,
+            "ch": 2115,
+            "l": 1206,
+            "r": 1165,
+            "t": 1165,
+            "k": 1205,
+            "q": 219,
+            "ckh": 20,
+            "p": 14,
+            "cph": 3,
+            "m": 5
+          },
+          "length_counts": {
+            "2": 971,
+            "3": 1321,
+            "4": 1514,
+            "5": 1662,
+            "6": 1105,
+            "7": 1094,
+            "8": 333
+          },
+          "q_followed_o": null,
+          "q_count": 219,
+          "y_final": 0.355875
+        }
+      },
+      "comparison": {
+        "b4": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.596125,
+                "difference": 0.044624999999999915,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.5856418209592607,
+                "difference": 0.11578339044440256,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.133125,
+                "difference": 0.004750000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.306375,
+                "difference": 0.0032500000000000306,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4060762096904353,
+                "target": 2.13057915127304,
+                "difference": 0.27549705841739547,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.008792497069167644,
+                "difference": 0.008649782640738929,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010418153275296133,
+                "target": 0.04015240328253224,
+                "difference": 0.029734250007236104,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.716013667645493,
+                "target": 0.6508756143222797,
+                "difference": 0.06513805332321332,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.14912500000000004,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.0799978699081096,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.588,
+                "difference": 0.0365000000000002,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.6321782990837734,
+                "difference": 0.06924691231988978,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.126,
+                "difference": 0.011874999999999997,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.31625,
+                "difference": 0.013124999999999998,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4060762096904353,
+                "target": 2.1622969093003963,
+                "difference": 0.24377930039003903,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.007398688414326551,
+                "difference": 0.007255973985897837,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010418153275296133,
+                "target": 0.03985202623171347,
+                "difference": 0.029433872956417334,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.716013667645493,
+                "target": 0.6503911967163167,
+                "difference": 0.06562247092917628,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.148875,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.0780039652489269,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.5515,
+                "target": 4.72875,
+                "difference": 0.1772499999999999,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.7014252114036632,
+                "target": 1.5858510136516608,
+                "difference": 0.1155741977520024,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.137875,
+                "target": 0.12875,
+                "difference": 0.009124999999999994,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.303125,
+                "target": 0.3125,
+                "difference": 0.009375000000000022,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.4060762096904353,
+                "target": 2.1215709425529727,
+                "difference": 0.2845052671374626,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.00014271442842871414,
+                "target": 0.009531374106433678,
+                "difference": 0.009388659678004964,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.010418153275296133,
+                "target": 0.04162033359809372,
+                "difference": 0.03120218032279759,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.716013667645493,
+                "target": 0.6713403224110539,
+                "difference": 0.04467334523443911,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.16062500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.07918349396852034,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        },
+        "w1": {
+          "IT2a": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.596125,
+                "difference": 0.05675000000000008,
+                "limit": 0.919225,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.5856418209592607,
+                "difference": 0.11182076607321934,
+                "limit": 0.39641045523981516,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.133125,
+                "difference": 0.006500000000000006,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.306375,
+                "difference": 0.004500000000000004,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.412508159306295,
+                "target": 2.13057915127304,
+                "difference": 0.28192900803325527,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.008792497069167644,
+                "difference": 0.008649312647632707,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.04015240328253224,
+                "difference": 0.02969994051048184,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.7256434299647476,
+                "target": 0.6508756143222797,
+                "difference": 0.07476781564246793,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.11837500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.08604357898078142,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "RF1b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.588,
+                "difference": 0.0648749999999998,
+                "limit": 0.9176000000000001,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.6321782990837734,
+                "difference": 0.06528428794870655,
+                "limit": 0.40804457477094336,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.126,
+                "difference": 0.0006249999999999867,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.31625,
+                "difference": 0.005374999999999963,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.412508159306295,
+                "target": 2.1622969093003963,
+                "difference": 0.25021125000589883,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.007398688414326551,
+                "difference": 0.007255503992791614,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.03985202623171347,
+                "difference": 0.029399563459663068,
+                "limit": 0.03,
+                "within": true
+              },
+              "first_last_js": {
+                "model": 0.7256434299647476,
+                "target": 0.6503911967163167,
+                "difference": 0.07525223324843089,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.118125,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.08405345241054679,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 10,
+            "total": 10,
+            "joint_screen": true
+          },
+          "ZL3b": {
+            "diagnostics": {
+              "mean_length": {
+                "model": 4.652875,
+                "target": 4.72875,
+                "difference": 0.07587499999999991,
+                "limit": 0.94575,
+                "within": true
+              },
+              "sd_length": {
+                "model": 1.69746258703248,
+                "target": 1.5858510136516608,
+                "difference": 0.11161157338081917,
+                "limit": 0.3964627534129152,
+                "within": true
+              },
+              "top10_share": {
+                "model": 0.126625,
+                "target": 0.12875,
+                "difference": 0.0021250000000000158,
+                "limit": 0.05,
+                "within": true
+              },
+              "type_ratio": {
+                "model": 0.310875,
+                "target": 0.3125,
+                "difference": 0.0016249999999999876,
+                "limit": 0.05,
+                "within": true
+              },
+              "conditional_entropy": {
+                "model": 2.412508159306295,
+                "target": 2.1215709425529727,
+                "difference": 0.2909372167533224,
+                "limit": 0.3,
+                "within": true
+              },
+              "exact_repeat": {
+                "model": 0.000143184421534937,
+                "target": 0.009531374106433678,
+                "difference": 0.009388189684898742,
+                "limit": 0.01,
+                "within": true
+              },
+              "edit1_repeat": {
+                "model": 0.0104524627720504,
+                "target": 0.04162033359809372,
+                "difference": 0.031167870826043324,
+                "limit": 0.03,
+                "within": false
+              },
+              "first_last_js": {
+                "model": 0.7256434299647476,
+                "target": 0.6713403224110539,
+                "difference": 0.05430310755369372,
+                "limit": 0.12,
+                "within": true
+              },
+              "length_tv": {
+                "difference": 0.12987500000000002,
+                "limit": 0.2,
+                "within": true
+              },
+              "glyph_js": {
+                "difference": 0.08518667595168859,
+                "limit": 0.1,
+                "within": true
+              }
+            },
+            "passed": 9,
+            "total": 10,
+            "joint_screen": false
+          }
+        }
+      },
+      "full_design_pass": false
+    }
+  },
+  "selected": null,
+  "transfer_scored": false
+}

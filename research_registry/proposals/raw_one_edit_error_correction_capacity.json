@@ -1,0 +1,15 @@
+{
+  "title": "Single-edit correction forces whole-form message equivalence classes",
+  "summary": "RAW_UNSCREENED: a context-free whole-group code recovers its message after any one literal-character insertion, deletion or substitution. Intersecting edit balls force equal messages and bound the number of distinguishable messages without a glossary.",
+  "scope": "method",
+  "design": {
+    "mechanism": "A decoder must assign the same original message to every string within ordinary unit-cost Levenshtein distance one of each valid observed whole form. Distinct valid forms may encode the same message.",
+    "unit": "Complete definite admitted raw whole forms; fixed literal alphabet; word boundaries supplied externally and not edited; transpositions are NOT unit edits.",
+    "contrast": "Context-free one-edit-correcting code versus ordinary distinct lexical forms with no guaranteed correction.",
+    "prediction": "Any two valid forms at Levenshtein distance at most two must have the same message. All vertices in each connected component of that graph must therefore share one message.",
+    "falsifier": "A proposed injective code fails on one distance-at-most-two pair. For the broader homophonic mechanism, the component count is an exact upper bound on distinct messages among admitted forms; it is not alone a falsification unless a separately declared message-capacity requirement exceeds it.",
+    "source_examples": "GDT633 REPORT explicitly publishes chcthy, checthy and cheecthy; this mechanism forces all three into one message class, without claiming their actual meanings equal.",
+    "scope_note": "RAW_UNSCREENED, unreviewed. Observed forms are assumed valid codewords, not existing scribal errors. Does not reject contextual or restricted-error correction. No target computation authorized by intake.",
+    "nearest_predecessors": "GDT160 operation-pairing graph and GDT746 edit-based semantic analogies do not in inspected reports apply intersecting error-ball constraints."
+  }
+}

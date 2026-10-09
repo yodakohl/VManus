@@ -1,0 +1,53 @@
+{
+  "record_id": "GDT1264",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root; source-free expectation/cut proof; independent exhaustive optimizer and cohort validator",
+  "assessment_basis": "frozen_binary_feature_held_leaf_exact_bag_excess",
+  "reason": "Train-onlyZLpartition meets fixedALLandUNSEEN_WHOLEgates on46evenleaves:37/46and43/46positive,meanexcess.069499/.083914. Other readerssame direction,notindependentreps.",
+  "blockers": [
+    {
+      "code": "position_and_representation_confound_open",
+      "detail": "Exact-bag comparator does not preserve detailed positional probabilities; no beyond-position increment, phonetics, language or meaning is established.629of1358unseenZLwholeevents have familiar interiors.",
+      "evidence": [
+        "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "new_independent_discriminator",
+        "change": "new_design",
+        "detail": "Separately specify a position-controlled or meaningful writing consequence, preserving unclassified and negative cases, before further fitting.",
+        "evidence": [
+          "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Call the two classes vowels and consonants",
+      "Describe43/46asunseen-interior-only",
+      "Claim an H2explainedpercentage",
+      "Add a third class or tune on held outcomes",
+      "Treat alternate readers asreplications"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1263",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1233",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md"
+      ]
+    }
+  ]
+}

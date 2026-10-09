@@ -1,0 +1,69 @@
+{
+  "schema": "ou_candidate_supply_v1",
+  "status": "bounded source screen; no additions",
+  "screened_designs": [
+    {
+      "id": "IDEA000061",
+      "title": "A serial relation chain transfers the written intermediate product",
+      "primary": "GDT701",
+      "observation": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 23,
+        "line_end": 27,
+        "quote": "The atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult.",
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+      },
+      "rivals": {
+        "state_transfer": "the second action consumes the written intermediate product",
+        "independent_actions": "the chain is only adjacent actions with no transfer entailment"
+      },
+      "stop": "Exact source observation and mechanism family already represented by this raw proposal; no new proposal."
+    },
+    {
+      "id": "IDEA000062",
+      "title": "Hull-only positions mark structural boundaries rather than relation participants",
+      "primary": "GDT701",
+      "observation": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 31,
+        "line_end": 40,
+        "quote": "The graph has 23 unique edge nodes and 25 edge incidences.  Only\n`f80v.35#3` and `f86v6.25#4` are genuine shared nodes.  Two visually intervening\npositions are not nodes:\n\n- `f86v5.24#2 aiin` is an unbound quantity register inside the C010 hull;\n- `f26r.2#5 chedy` is an exact state checkpoint inside the C011 hull.\n\nThe free `dy` at `f26r.2#7` is retained only to close the rendered clause; it\nlies outside C011's #4--#6 hull.  These distinctions prevent readable prose\nfrom silently becoming extra relation evidence.",
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+      },
+      "rivals": {
+        "boundary": "the two positions delimit scope and are not participants",
+        "participant": "each visually intervening position is a relation node"
+      },
+      "stop": "Exact hull-only observation already represented; no new proposal."
+    },
+    {
+      "id": "IDEA000063",
+      "title": "Relation-component topology predicts microrecord unit boundaries",
+      "primary": "GDT701",
+      "observation": {
+        "path": "experiments/yolo/gdt701_v74_cumulative_relation_components/REPORT.md",
+        "line": 9,
+        "line_end": 27,
+        "quote": "exactly nine local components:\n\n| component | locus | edges | practical reading |\n|---|---|---|---|\n| M001 | `f104v.2` | C009 | Kalter Ansatz, Grad III: davon drei Maße. Eines der drei Maße nehmen und erhitzen. |\n| M002 | `f105v.1` | C001 | Das trocken gebundene Holzpulver, Form II, auf Stufe III erhitzen. |\n| M003 | `f113v.17` | C002 | Von den drei Portionen Krautdroge eine Portion bis zur letzten Stufe abkühlen. |\n| M004 | `f75r.3` | C003 | Die vorstehende, bis zur Mittelstufe getrocknete Drogenportion anschließend nehmen. |\n| M005 | `f77r.38` | C005 | Das bis zur Mittelstufe getrocknete und abgeschlossene Arzneikompositum zugeben. |\n| M006 | `f80v.35` | C004+C008 | Dem Anteil I des heißen Holzansatzes Drogenstoff zugeben. Dem Anteil I des heißen Holzansatzes nochmals Drogenstoff zugeben. |\n| M007 | `f86v6.25` | C007→C006 | Aus dem Anteil I des heißen Holzansatzes einen heißen Drogenanteil I abmessen. Den so abgemessenen Drogenanteil I auf Stufe III erhitzen. |\n| M008 | `f86v5.24` | C010 | Anteil I des Ansatzes. [Ungebundene Mengenangabe #2: „Menge III“.] Den Ansatzanteil auf Stufe II erhitzen. |\n| M009 | `f26r.2` | C011 | Hiervon Krautdroge bis zur Mittelstufe erhitzen und abschließen [Quelle von „hiervon“ offen]. [Zustandsvermerk ohne eigenen Materialträger: Mittlere Trockenstufe erreicht.] Die erhitzte Krautdroge bis zur Mittelstufe abkühlen und abschließen [C011-Arbeitshypothese]. |\n\nThe atlas now gives one exact home to every current edge.  Seven components\ncontain one edge, M006 is a two-action fan-out to one written destination, and\nM007 is the sole serial chain with a written intermediate product.  The last\naction in every component still lacks an admitted, separately named final\nresult.",
+        "sha256": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+      },
+      "rivals": {
+        "component_units": "connected components define minimal process records",
+        "line_proximity": "line proximity, not topology, defines units"
+      },
+      "stop": "Exact nine-component/serial-chain observation already represented; no new proposal."
+    }
+  ],
+  "source_check": {
+    "lookup": "GDT701",
+    "route_check_queries": [
+      "serial relation chain written intermediate product",
+      "hull-only positions edge nodes",
+      "relation topology microrecord boundaries"
+    ],
+    "source_hash": "68b95cd1ca5da5651ebfc4ebd7667760a0bb4e9dae6507fbaf60da9db890e7a0"
+  },
+  "added_ids": [],
+  "unresolved": "GDT701 is structural evidence only; it does not independently bind any English meaning or establish that either rival is true.",
+  "no_mutation": true
+}

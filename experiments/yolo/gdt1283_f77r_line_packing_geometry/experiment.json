@@ -1,0 +1,127 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One informed visual measurement-capacity assessment; no numeric packing result, spelling/meaning rule or independent palaeographic validation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1283_f77r_line_packing_geometry/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1283_f77r_line_packing_geometry/src/validate.py"
+  },
+  "created": "2026-10-08",
+  "dependencies": [
+    "GDT930",
+    "GDT1149",
+    "GDT1150",
+    "GDT1056"
+  ],
+  "experiment_id": "GDT1283",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt930_label_text_joint_reading/artifacts/f77r.jpg",
+      "role": "existing admitted image or raw localization text",
+      "sha256": "6bcedcaccc8107da32d6d1ca950b96708b529538d7902a2108398a3c0b9327df"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "existing admitted image or raw localization text",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "existing admitted image or raw localization text",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "existing admitted image or raw localization text",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "c2b1f7be9c50c560d2db61a8d405ce75f90552980cb0c389a2e4fd169b898568"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "c2b1f7be9c50c560d2db61a8d405ce75f90552980cb0c389a2e4fd169b898568"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "85becfe2fc2354abc4abe350ead894fbdd49eff6dd373cbe04f36d55afa0720a"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/REPORT.md",
+      "role": "primary_report",
+      "sha256": "2b628188a7e9d42d6f14f2292724cfad2a80661aec1620d6bf1307a6dc41242a"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/DESIGN_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "7cb137e31f0689b7ec8f96d346650ad8944725053ad28d15296aaa59c1424370"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/FIXED_RAW_LINES.json",
+      "role": "reproducibility artifact",
+      "sha256": "92ac87b014994c1d3712eddf5f512a5c7fe6419a937d5910ca0a9b4b9608f82c"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/IDEA_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "cb634b4e212b26867ee05fac8bb2710a7e1449120a102f6e8870c898721106bb"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/OBSERVATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "2180e8abdf19c311d621c467d4db21727bf1e1fbc3a44d11a3a9f2418d3410d2"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "1240637475681a34b513a0fe9fe772170cf1e7ef50f0bd83bef11e07d3a8c0a9"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "7b01772733570d094834982cf2d1d2dc6c8e4809a19d6e71d199fca5124642a9"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "d4b2aebb6af5bc30abc7dea698405d609ec5363b68c1f60057f84d85e3458799"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/src/PREREG_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "f87d0a9ddd4067969cbe482d275256bdd552af4a552b32303d2b0d1f90c723b6"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "10dcb781f6a8dd14dcc72dca501dbc0ef7dc8fd4b2f29224bfd24811745e8a7f"
+    },
+    {
+      "path": "experiments/yolo/gdt1283_f77r_line_packing_geometry/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "6702c0e09dd09e46cec07f97a16884ec98f9df9e6542e690a3af4e842cb2f10b"
+    }
+  ],
+  "question": "Does the already admitted f77r31/32 image region independently bind the right writing limit and append widths required for a strict greedy packing contrast?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f77r_line_packing_geometry",
+  "status": "NO_BOUND_GEOMETRY_FOR_GREEDY_TEST",
+  "title": "f77r line-packing geometry capacity",
+  "updated": "2026-10-08",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1283_f77r_line_packing_geometry/artifacts/VALIDATION.json"
+  }
+}

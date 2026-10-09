@@ -1,0 +1,45 @@
+{
+  "record_id": "GDT1266",
+  "scope": "structural",
+  "verdict": "inconclusive",
+  "reviewer": "root; independent direct-alignment validator",
+  "assessment_basis": "fixed_pair_training_proximity_capacity",
+  "reason": "Primary BOTH_FAR has7pairs4informative leaves below declared10; no distant-form extension established. All891pairs and1514reader-interiors independently verified. GDT1265positive unchanged.",
+  "blockers": [
+    {
+      "code": "insufficient_distant_pair_capacity",
+      "detail": "No rematching, threshold relaxation or alternate-reader pooling. Proximity is not semantic family identity.",
+      "evidence": [
+        "experiments/yolo/gdt1266_interior_training_neighbor_strata/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "new_independent_writer_consequence",
+        "change": "new_design",
+        "detail": "A genuinely different prespecified writing consequence; not rematching this same sparse panel.",
+        "evidence": [
+          "experiments/yolo/gdt1266_interior_training_neighbor_strata/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Relax10leafgate",
+      "Promote4/4to confirmation",
+      "Poolreaders",
+      "CallFARunrelatedwords"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1265",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1266_interior_training_neighbor_strata/REPORT.md"
+      ]
+    }
+  ]
+}

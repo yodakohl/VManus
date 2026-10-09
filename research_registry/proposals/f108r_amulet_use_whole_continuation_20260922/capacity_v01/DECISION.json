@@ -1,0 +1,51 @@
+{
+  "status": "IDEA525_SOURCE_AND_CAPACITY_FREEZE",
+  "created_utc": "2026-09-22T18:28:55Z",
+  "ordering": {
+    "body_read_before_freeze": false,
+    "note": "Nomination identity hashed only; target body not inspected before this freeze."
+  },
+  "target": {
+    "unit": "f108r.48-f108r.50",
+    "readers": [
+      "ZL3b",
+      "IT2a"
+    ],
+    "groups": {
+      "ZL3b": 32,
+      "IT2a": 31
+    },
+    "inherited_projected_positions": 117,
+    "whole_old_values": 88,
+    "old_constructions": 13
+  },
+  "source": {
+    "path": "research_registry/proposals/raw_f108r_amulet_use_state_whole_continuation_20260922.json",
+    "sha256": "eb7a96e062fb2fa0a9b5c7fe1376825202fb7e7b3be4bae4860134d004a629b7",
+    "selection": "GDT928 exact unit/reader only"
+  },
+  "caps": {
+    "new_atomic_whole_values_max": 14,
+    "new_reusable_ordered_productions_max": 2,
+    "new_bindings_max": 4,
+    "aliases": 0,
+    "packing": 0
+  },
+  "fixed_policy": {
+    "old_88_values_unchanged": true,
+    "old_binary_alternatives_only_over_old88": true,
+    "binary_covered_forms_not_new": true,
+    "all_alternatives_retained": true
+  },
+  "gate": "Exact required two anchor sets must be present; if absent, stop without replacement or cap increase.",
+  "exclusions": [
+    "f84",
+    "f84r",
+    "f116v",
+    "new_images",
+    "new_source",
+    "semantic_execution",
+    "PE/Wing_mixing",
+    "automatic_remove_rewear_forecast"
+  ]
+}

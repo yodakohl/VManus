@@ -1,0 +1,84 @@
+{
+  "schema": "ow_corrected_candidate_supply_v1",
+  "status": "bounded semantic-scope correction; no additions",
+  "effective_status_correction": [
+    {
+      "id": "IDEA000061",
+      "effective_scope": "method",
+      "verdict": "not_tested",
+      "reviewed": true,
+      "blocker": "missing_design: inherited intermediate gloss makes state transfer automatic; no independent state endpoint",
+      "source_observation": "GDT701 serial chain",
+      "pending_claim_corrected": false
+    },
+    {
+      "id": "IDEA000062",
+      "effective_scope": "method",
+      "verdict": "not_tested",
+      "reviewed": true,
+      "blocker": "missing_design: hull nonincidence is definitional and does not independently establish boundary role",
+      "source_observation": "GDT701 two hull-only positions",
+      "pending_claim_corrected": false
+    },
+    {
+      "id": "IDEA000063",
+      "effective_scope": "method",
+      "verdict": "not_tested",
+      "reviewed": true,
+      "blocker": "missing_design: connectedness does not independently establish semantic microrecord continuity",
+      "source_observation": "GDT701 nine components",
+      "pending_claim_corrected": false
+    }
+  ],
+  "semantic_scope_screen": [
+    {
+      "id": "IDEA000056",
+      "title": "Diagram cardinality supplies an argument value to an adjacent whole",
+      "source": "GDT355",
+      "evidence": {
+        "path": "experiments/yolo/gdt355_ljs443_diagram_series_census/REPORT.md",
+        "line": 7,
+        "line_end": 22,
+        "quote": "The complete official 38-surface diagram run sharpens GDT354 in both\ndirections.\n\n- The exact narrow spiral-band rendering is a real local subseries: three\n  adjacent pages, all with eight curved text-bearing compartments.\n- The broader eight-curved-compartment family contains five pages after adding\n  two decorated petal-like predecessors.\n- Curved compartments are not an eight-value key. A nearby page has twelve\n  curved, text-bearing lobes around a central circle.\n- Four other surfaces have a clear eightfold primary division rendered as\n  straight sectors or interlaced circles.\n\nThus the f68v3 resemblance is not an isolated doodle, but neither is it a\nspecific semantic match. LJS 443 demonstrates a local design vocabulary in\nwhich eightfold systems and curved radial compartments recur, while the same\ngeneral lobe idiom also carries a different cardinality.",
+        "sha256": "2696059129ca991c22ab008e653933ea3d11dc49b97c1b4fbf9968e9c45ef699"
+      },
+      "rivals": {
+        "cardinality_argument": "an independently counted diagram cardinality supplies a value to a nearby whole",
+        "reusable_geometry": "the same lobe geometry recurs with different cardinalities and supplies no argument value"
+      },
+      "status": "existing raw proposal; source-supported motivation, no addition"
+    },
+    {
+      "id": "IDEA000057",
+      "title": "Caption and prose channels select different argument arity on one diagram page",
+      "source": "GDT213",
+      "evidence": {
+        "path": "GDT213_READABLE_MEDICAL_DIAGRAM_COMPARATOR_REPORT.md",
+        "line": 7,
+        "line_end": 28,
+        "quote": "Ashmole 399 supplies the strongest readable precedent so far for q13's mixed\npage architecture, but not for its content or exact topology.  A medieval\nmedical page can combine an abstract connected system, short inscriptions\nowned by individual components, one embedded humanlike figure, and dense\nlonger practical text.  Another abstract-system page in the same manuscript\nuses predominantly continuous prose instead, showing that caption and prose\nlayouts can vary within one technical codex.\n\n## What matches\n\n| Axis | Readable Ashmole evidence | q13 f80r/f82r | Verdict |\n|---|---|---|---|\n| Abstract connected system | bilateral channels and component network | tubes, pools, enclosures, figures | architecture match |\n| Local captions plus prose | component labels coexist with longer remedies | graphical labels coexist with paragraph prose | architecture match |\n| Figure within system | one small figure in an upper oval | multiple figures in/beside connected structures | partial match |\n| Conceptual rather than naturalistic rendering | source-supported for f13v/f22v | plausible for q13 hydraulic diagrams | broad format lead |\n\nThis makes a **hybrid medical-diagram plus practical-record format** more\nhistorically concrete.  It also explains why attempting to force every q13\nstring into one homogeneous lexical class may be wrong: a readable analogue\ncan place short component captions and longer practical discourse on the same\ndiagram page.",
+        "sha256": "f4852a333ea2a11f3567809df86bd972dd7d049888902492289ea013236a6a84"
+      },
+      "rivals": {
+        "channel_arity": "caption units and prose units use different argument arity",
+        "homogeneous_channel": "both are instances of one homogeneous lexical/argument system"
+      },
+      "status": "existing raw proposal; source-supported motivation, no addition"
+    }
+  ],
+  "additional_screen": {
+    "ids": [
+      "IDEA000080",
+      "IDEA000081",
+      "IDEA000082",
+      "IDEA000083"
+    ],
+    "result": "source-free summaries only; no concrete admitted primary observation was available in this bounded screen, so none was added"
+  },
+  "route_checks": [
+    "diagram cardinality adjacent whole supplies argument value",
+    "caption prose channels argument arity"
+  ],
+  "no_additions": true,
+  "no_registry_review_or_build": true
+}

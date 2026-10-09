@@ -1,0 +1,151 @@
+{
+  "status": "NO_NEW_MANUSCRIPT_TEST_NOMINATED_FROM_BOUNDED_THREE",
+  "screened_pending_ids": [
+    "IDEA000015",
+    "IDEA000020",
+    "IDEA000034",
+    "IDEA000035",
+    "IDEA000042",
+    "IDEA000043",
+    "IDEA000044",
+    "IDEA000045",
+    "IDEA000047",
+    "IDEA000048",
+    "IDEA000049",
+    "IDEA000051",
+    "IDEA000052",
+    "IDEA000054",
+    "IDEA000056",
+    "IDEA000057",
+    "IDEA000059",
+    "IDEA000065",
+    "IDEA000067",
+    "IDEA000068",
+    "IDEA000069",
+    "IDEA000070",
+    "IDEA000071",
+    "IDEA000073",
+    "IDEA000074",
+    "IDEA000075",
+    "IDEA000078",
+    "IDEA000080",
+    "IDEA000081",
+    "IDEA000082",
+    "IDEA000083"
+  ],
+  "screen_depth": "All31 titles/unit/predecessor fields inspected;54/56/59 full effective designs and route-returned primary reports examined. Other28 not method-adjudicated.",
+  "candidates": [
+    {
+      "id": "IDEA000054",
+      "effective_design_sha256": "e41733e48d0056642c5681d591bbcd2185a8923429c4111aacd21471ae5879a3",
+      "design_fingerprint": "8827adf5d226beea81623e606e566d465ea59e96f8d46603b5215e687c3bb889",
+      "design": {
+        "contrast": "label-to-prose reference versus prose-to-label repeated caption/name",
+        "countermodel": "Editorial ordering or paragraph layout can place labels before or after prose without changing their semantic role; a repeated caption can occur in either direction.",
+        "falsifier": "When independent textual-role coding shows no stable relation between document direction and reference/name behavior across held bridges, the direction-based construction fails.",
+        "mechanism": "A complete form's document-order relation between label and prose occurrence distinguishes a textual reference/caption from a learned name reused as a label.",
+        "prediction": "Across held cross-panel bridges, label-first forms should behave as explicit prose references, while prose-first forms should recur as names or captions that can be introduced before their label; the direction should remain after matching panel and record role.",
+        "principal_risk": "Document direction may be an artifact of layout or editorial ordering, and the current panel/paragraph labels are not independent semantic gold.",
+        "related": "Near GDT790/GDT792 label-prose coverage and GDT798 text-host comparisons, but targets document-direction asymmetry rather than closed panel-owner, slot, or immediate-proximity routes.",
+        "scope_note": "This does not infer a physical owner, object name, or free component meaning from proximity. It is a source-starting document-order hypothesis with semantic endpoint availability unknown.",
+        "source_evidence": {
+          "line": 56,
+          "line_end": 75,
+          "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+          "quote": "## The exact bridges that matter\n\nFour multi-character label forms recur exactly in prose, producing nine usable\noccurrence edges:\n\n| Label form | Picture owner | Prose bridge | Current use |\n|---|---|---|---|\n| `otedy` | f77r upper arch, inner port 2 | f77r P2 opener plus four f82r/f83r occurrences | same-page back-reference candidate; cross-page name/formula |\n| `okal` | f82r lower pool, upper station 2 | f82r P1 and P2 | forward/shared-station reference candidate |\n| `otchdy` | f77r middle west figure-zone | f83r Q1 opener | recurring name/formula at an embedded record head |\n| `olaiin` | f82r lower pool, figure 6 | f77r P3 | recurring label/name form |\n\nThe remaining edge is the one-character token `o` from f77r.50; it is retained\nfor completeness and excluded as an anchor.\n\nThe useful asymmetry is new. `otedy` is first a visible upper-arch label and\nthen exactly the first token of f77r P2. `okal` runs in the opposite document\ndirection: it occurs in two earlier prose records before appearing as a lower\npool label. Labels can therefore behave as references or learned names, not\nonly as captions sitting next to their paragraph.",
+          "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+        },
+        "unit": "exact multi-character label/prose bridges with independently recorded panel, paragraph record, and document order"
+      }
+    },
+    {
+      "id": "IDEA000056",
+      "effective_design_sha256": "2714533a27303e10bd346a1dbb461e2e53b9c6a85e09e75728f79d8afef07349",
+      "design_fingerprint": "8f46b9a1079828cf0cbcc7c704b280e698c400d2ba51e6bbccf4893b5db9203b",
+      "design": {
+        "contrast": "count is an input argument to the adjacent whole versus count is descriptive layout with no semantic input",
+        "countermodel": "The count may encode page organization or visual design only, and the adjacent whole may be a stable label unrelated to cardinality.",
+        "endpoint_status": "availability_unknown",
+        "falsifier": "Held units with independently observed counts show no count-conditioned slot change, or the same count feeds incompatible slots after controlling enclosure and panel role.",
+        "mechanism": "cardinality-conditioned argument selection",
+        "prediction": "Among repeated diagram units, changing the independently counted cardinality should change a predeclared argument/value slot while preserving the enclosure family; a fixed whole meaning predicts no count-conditioned slot change.",
+        "principal_risk": "No current Voynich count-to-whole binding is independent; this is an exploratory functional hypothesis.",
+        "related": "Near GDT354/GDT355 and JV cardinality draft, but tests cardinality as an argument input rather than fixed shape identity or phase roster.",
+        "source_evidence": {
+          "line": 10,
+          "line_end": 22,
+          "path": "experiments/yolo/gdt355_ljs443_diagram_series_census/REPORT.md",
+          "quote": "- The exact narrow spiral-band rendering is a real local subseries: three\n  adjacent pages, all with eight curved text-bearing compartments.\n- The broader eight-curved-compartment family contains five pages after adding\n  two decorated petal-like predecessors.\n- Curved compartments are not an eight-value key. A nearby page has twelve\n  curved, text-bearing lobes around a central circle.\n- Four other surfaces have a clear eightfold primary division rendered as\n  straight sectors or interlaced circles.\n\nThus the f68v3 resemblance is not an isolated doodle, but neither is it a\nspecific semantic match. LJS 443 demonstrates a local design vocabulary in\nwhich eightfold systems and curved radial compartments recur, while the same\ngeneral lobe idiom also carries a different cardinality.",
+          "sha256": "2696059129ca991c22ab008e653933ea3d11dc49b97c1b4fbf9968e9c45ef699"
+        },
+        "unit": "complete diagram unit with independently counted compartments and adjacent complete whole"
+      }
+    },
+    {
+      "id": "IDEA000059",
+      "effective_design_sha256": "778b5e6abd20822cb3ae014081357b07ed3ed034ee730c7475a7f1c7677c427c",
+      "design_fingerprint": "79d3710cf02b42850e60f00aed2eb3bcf449d0bd515a464b7d71416396193804",
+      "design": {
+        "contrast": "dry/moist forms alter a shared amount-frame state versus each whole names an unrelated material noun",
+        "countermodel": "The apparent shared frame may be a template that accepts unrelated nouns, and the dry/moist contrast may be an analyst gloss rather than an observed operator.",
+        "endpoint_status": "availability_unknown",
+        "falsifier": "Held cheor/sheor occurrences fail to preserve the amount frame under a predeclared state substitution, or independent noun-role coding explains them equally without a state slot.",
+        "mechanism": "state operator over shared amount frame",
+        "prediction": "Across held amount frames, replacing cheor with sheor should preserve amount-head/value syntax while changing only the state slot; unrelated-noun analysis predicts independent attachment or slot behavior.",
+        "principal_risk": "GDT760 calls these working candidates and explicitly says water and wine remain rivals; no lexical identity is established.",
+        "related": "Near GDT760/GDT762/GDT761, but asks a substitutional operator question over exact amount frames rather than selecting a medium, side attachment, or global state gloss.",
+        "source_evidence": {
+          "line": 44,
+          "line_end": 62,
+          "path": "experiments/yolo/gdt760_quantity_bilateral_content_attachment/REPORT.md",
+          "quote": "## Der stärkste neue Bedeutungshebel\n\ncheor und sheor sind nun das beste kleine Inhaltsparadigma:\n\n| Ganzwort | Mengenanschlüsse | globale exakte Vorkommen | Arbeitswert |\n|---|---:|---:|---|\n| cheor | 3 auf 3 Seiten | 56 | trockener Drogenteil |\n| sheor | 3 auf 3 Seiten | 31 | feuchter Drogenteil |\n\nBeide stehen in exakten Mengenplätzen, gemeinsam unter s, or und ar sowie bei\nWert II und III. Damit wird der Trocken/Feucht-Gegensatz praktisch nützlich:\nDie Formen sind nicht nur abstrakte Zustandsfelder, sondern Kandidaten für\nzähl- oder wägbare Drogenteile. Trotzdem wird aus ch gegen sh kein freier\nZeichenwert abgeleitet; die beiden vollständigen Wörter tragen den Vergleich.\n\nDas kleinere Parallelpaar cheo/sheo besetzt drei Mengenplätze und führt zu\ntrocken angesetzter Zubereitung gegen Feuchtzubereitung. Wasser- und Weinansatz\nbleiben hier gleich gute Untermodelle. Genau diese beiden Formen können in der\nnächsten Runde nach ihrem Lösungsmittel getrennt werden.",
+          "sha256": "a58f98014700da93e4d8e3db2a8e7a16d94b110313649f0a7f2a7952a8d6cfdd"
+        },
+        "unit": "complete cheor/sheor whole in an exact amount expression with independently coded amount head and value"
+      }
+    }
+  ],
+  "primary_evidence": [
+    {
+      "path": "experiments/yolo/gdt761_state_pair_outer_carrier_bridge/REPORT.md",
+      "line": 39,
+      "line_end": 56,
+      "quote": "\n`shor sheor` wiederholt sich auf f37r.8 und f106r.6. Das ist formal auffällig\nund über zwei unterschiedliche Register verteilt. Weil `sheor` zugleich als\nSH+E+OR-Familienform modelliert werden kann, könnte das Bigramm aber\nBasisform-plus-Erweiterungsform oder Zustandsredundanz sein. Deshalb erscheint\n„feuchte Blüte/Fruchtstand“ nur als C0-Rivale; diese beiden Stellen erhalten\nkeine konkrete Übersetzungslizenz.\n\n## Was die beiden Zielpaare gemeinsam halten\n\n`cheor/sheor` teilen acht gleichseitige direkte Rahmentypen: links `chor`,\n`okain`, `oraiin`; rechts `aiin`, `chey`, `ol`, `sheedy`, `sheey`.\n`cheo/sheo` teilen zwei: links `daiin`, rechts `al`. Dabei ist `daiin` ein\nWert-/Mengenrahmen, `al` dagegen der bestehende Material-I-Kandidat und keine\nMengenform.\n\nDas ist deskriptive Kompatibilität mit den geerbten Paarrollen, kein neuer\nBeweis für „trocken/feucht“ oder „Drogenteil/Zubereitung“. Dafür fehlen noch",
+      "sha256": "cf87bd5408428a4f55c897082bddd1dfbc822ec82eb443f3e64a685560e2812e"
+    },
+    {
+      "path": "experiments/yolo/gdt792_target_masked_image_form_host_transfer/REPORT.md",
+      "line": 71,
+      "line_end": 84,
+      "quote": "- an address or reference site;\n- a label or class identifier;\n- the member addressed by a label;\n- a name, grade or number;\n- an opaque member of the productive `okal*` form family.\n\nThe two new f72 label-to-prose pairs and two retained f82 pairs are exact\ncomplete-whole reuse observations. They form only two page clusters: two f72\nlabels converge on one prose occurrence, while one f82 label is reused twice\nin prose. The GDT388 intake returns\n`VALID_ACQUISITION_NOT_SCORE_READY`, with zero eligible edges. Transcription\norder is not reference direction, and every edge retains zero semantic credit.\n\nSelecting `Ziel-/Bezugsstelle` from those shared observations would merely",
+      "sha256": "4ca6636bceaf98a0a172a00b3b67004f4f658d06d2b9eb20328480c7f14a9003"
+    },
+    {
+      "path": "experiments/yolo/gdt355_ljs443_diagram_series_census/REPORT.md",
+      "line": 10,
+      "line_end": 22,
+      "quote": "- The exact narrow spiral-band rendering is a real local subseries: three\n  adjacent pages, all with eight curved text-bearing compartments.\n- The broader eight-curved-compartment family contains five pages after adding\n  two decorated petal-like predecessors.\n- Curved compartments are not an eight-value key. A nearby page has twelve\n  curved, text-bearing lobes around a central circle.\n- Four other surfaces have a clear eightfold primary division rendered as\n  straight sectors or interlaced circles.\n\nThus the f68v3 resemblance is not an isolated doodle, but neither is it a\nspecific semantic match. LJS 443 demonstrates a local design vocabulary in\nwhich eightfold systems and curved radial compartments recur, while the same\ngeneral lobe idiom also carries a different cardinality.",
+      "sha256": "2696059129ca991c22ab008e653933ea3d11dc49b97c1b4fbf9968e9c45ef699"
+    }
+  ],
+  "source_specific_selection": {
+    "IDEA000054": {
+      "available": "790otedylabel→prose andokalprose→label;792fourokalreusepairs in2pageclusters, including2f72labels convergingon1proseoccurrence.",
+      "decision": "Direction-as-reference shortcut already specifically constrained by792: transcription order is notreference direction. A descriptive direction recount would reproduce knownreuse, nottest semanticreference. No new directedreferencedevice in these returnedprimaries.",
+      "incompatible_predictions": "None supplied for currently observed endpoint. A name may precede orfollow itslabel; forward/backwardreferences also possible. Imposing labelsfirst/reference andprosefirst/name adds unsupportedrule."
+    },
+    "IDEA000056": {
+      "available": "355eightcompartment andtwelve-lobe contrast belongs to external LJS443, notVoynich.",
+      "decision": "Do not transfer the comparator countcontrast into a newVoynich observation. Currentdesign nominates no correspondingVoynichcount/wholepair. Closedinline/PHF/starcapacityroutes mustnot be reset bycallingallcountdesignsequivalent.",
+      "incompatible_predictions": "Onlya separatelydeclared count-sensitive slot versus count-insensitive slot coulddiffer. Existingfixed-wholemodel couldstilltakeavariablecountargument; fixedwholemeaningdoesnot entail count-invariantneighbors."
+    },
+    "IDEA000059": {
+      "available": "761alreadyreports8same-sidedsharedcontextsforcheor/sheor and2forcheo/sheo; includeschor cheor f102v1.14 versuschor sheor f49r.5.",
+      "decision": "Sharedframepreservation is alreadyobserved, and unrelatednouns mayoccupysameframe. A newrawsubstitutioncensuswouldnotchoose operatorversusnoun. Do not require dry/moisttranslations tostudystructure, but donotpresent knowncompatibilityasnewdiscriminator.",
+      "incompatible_predictions": "A strict constructionlimitedtoleftchor versusoneallowingbothorders differs oncheor chor f28v.4 alreadyprintedby761; thattoyrestrictionisalreadyfalsified andisnotentailedbyeitheractualsemanticrival. No defensible newpair ofincompatiblepredictions nominated."
+    }
+  },
+  "smallest_adequate_work": "No experiment implementation selected. The auditedprimaries alreadyresolve thecheaporder/frameobservations. Need a genuinely newnominatedcontrast, notanother genericmissing-goldreview. Preserve these proposals unreviewed pending rootselection; thisartifact doesnot appendassessment orcloseallstructuralresearch.",
+  "independence": "No currentproducer output read; no rawmanuscriptTSV,image,newadmissionoroperativewrite.",
+  "limits": "No claim all31lackpossiblefuturetests; only3receivedprimaryselectionaudit. ExactevidencespansgeneratedfromphysicalMarkdownlines; storedrawdesignquoteescaping ispreserved ratherthan silentlyrepaired."
+}

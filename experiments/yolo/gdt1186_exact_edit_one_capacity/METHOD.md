@@ -1,0 +1,5 @@
+# Proof and implementation
+
+Like-position domain injection makes all equal-length substitutions invariant. For length difference1, only deletion of the first or last glyph can compare two different role domains. If both outer deletions can work, their overlapping medial-ID equations force a constant medial run and an already valid internal deletion. Hence nonfixed pairs contribute to exactly one possible I–M or F–M equality. Injectivity turns these contributions into two independent small matchings; full22-sign capacity is realizable using an unmatched final slot for the omitted initial sign.
+
+The runner keeps every attainable gain pair, including dominated values, so the two-sided interval question is exact. Maxima below the necessary lower bound refute all legal sign assignments for this fixed source encoder. A positive witness is only an adjacency-capacity result. GDT889 tested a different context-free error-correction hypothesis; GDT914 tested native parallel edits. Their original results remain unchanged and no bound or meaning is imported from them.

@@ -1,0 +1,55 @@
+{
+  "title": "RAW UNREVIEWED: a hand writer encodes plaintext spaces and inserts a visible gap after every three letter cells",
+  "summary": "Invented hand-usable construction with a different spacing rule. A small table encodes A-Z and the input word space; each cell has one of six distinct heads followed by zero to four tally strokes. The writer inserts an output gap after exactly three input symbols, irrespective of source words. Only the final group of a physical paragraph may contain one or two cells. A reader recovers the complete input including its word spaces. The distinguishing consequence is three heads in every nonfinal output group, not a lexical gloss or a fitted G2 orientation. RAW UNREVIEWED: no target inspection or experiment.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "Encode a continuous paragraph including its input word spaces through a fixed six-by-five table. Each input symbol becomes one head plus column-minus-one tally strokes. Insert a visible writing gap after every third encoded input symbol. Do not reset the count at an input word space or at an ordinary physical line break.",
+    "unit": "The input unit is one letter or one source-space character. The output group contains three such cells, except for a possibly shorter final group of the paragraph. Output groups are not stipulated to be source words.",
+    "contrast": "Fixed-count writing groups with an explicitly encoded source word boundary versus complete-word-preserving writers, overlapping windows or optional graphical ligatures.",
+    "prediction": "With a fixed native inventory of the six head types and the tally stroke, every nonfinal group of a paragraph contains exactly three heads. Each head owns zero to four following tally strokes before the next head or output gap. A final paragraph group contains one to three heads. No output gap cuts a cell. Inserting one source letter changes all subsequent group boundaries until paragraph end, while every unchanged letter cell remains graphically identical.",
+    "scope": "Source-free constructive proposal only. No Voynich glyph or word value, historical attestation, native cell inventory, G2 parse or orientation, corpus score, decoder, image query or transcription query is supplied.",
+    "fixed_teaching_table": ["A B C D E", "F G H I J", "K L M N O", "P Q R S T", "U V W X Y", "Z SPACE - - -"],
+    "notation": "H1 through H6 stand for six distinct atomic head drawings; t is a seventh distinct atomic tally stroke. A cell in row r and column c is Hr followed by exactly c-1 copies of t. These labels are metanotation, not target characters. Parentheses and vertical bars in the examples are explanatory cell/group boundaries and are not extra written marks.",
+    "writer": [
+      "Take a complete input paragraph over A-Z and SPACE. Preserve repeated, leading or trailing input spaces if present; do not silently normalize them. An alphabet outside this teaching contract requires a separately declared replacement contract, not occurrence-wise guesses.",
+      "Start a counter at zero. For each next input character, including SPACE, draw its fixed table head and tally strokes, then increment the counter.",
+      "When the counter reaches three, leave one visible output gap and reset the counter. An input SPACE has no exceptional effect on this counter: it is written as H6t.",
+      "At paragraph end, finish the current one- or two-cell group if needed. Add no padding or null signs. Make the paragraph boundary explicit by a blank line; an empty input paragraph has no encoded group.",
+      "Keep each output group intact on one physical line. Move a whole three-cell group to the next line when necessary. Ordinary line wrapping creates no new short group and does not change any cell. An isolated inscription is its own complete paragraph and follows the same rule."
+    ],
+    "reader": [
+      "Within each written group, read a head and count its following tally strokes up to the next head or gap. The distinct head/tally inventories make this division deterministic even though cell strings are not prefix-free.",
+      "Lookup each row/column cell. The three empty cells in row six are invalid; they are not abbreviations or hidden padding. H6t returns an input SPACE.",
+      "Require exactly three heads in every group except the last of an explicitly delimited paragraph, where one to three are allowed. Ignore output writing gaps and ordinary line breaks when reconstructing the input characters. Preserve the explicit paragraph boundaries."
+    ],
+    "human_cost": "A small 27-entry table, seven drawn components and a counter from one to three suffice. The writer may read or compose the source sequentially and need not remember the previous word or perform arithmetic. Average written length increases; no compression or historical efficiency is claimed.",
+    "new_words_and_repetition": "Every new A-Z spelling is handled character by character. Repeated source words retain their letter-cell sequences but need not align with the same output gaps because an intervening source SPACE counts as a cell. Repeated complete output groups remain possible. No prefix copying, ditto sign or homophone selection is introduced.",
+    "invented_examples": {
+      "source": "ALMA ALME",
+      "input_groups_of_three": "ALM | A SPACE A | LME",
+      "written": "(H1)(H3t)(H3tt) | (H1)(H6t)(H1) | (H3t)(H3tt)(H1tttt)",
+      "insert_B_after_first_A": "The changed source ABLMA ALME groups as ABL | MA SPACE | ALM | E",
+      "consequence": "The unchanged later letter cells keep their drawings, but their output grouping shifts by one cell; the last paragraph group becomes the single E cell. This is a deductive teaching example, not a source or target test."
+    },
+    "minimal_falsifier": "After fixing the native head and tally inventory and physical paragraph boundaries independently, one clear nonfinal group with other than three heads rejects this exact mechanism. A cell with more than four tallies, a tally before any head, or an ordinary line-final two-head group followed by the same paragraph also rejects it. Do not save a failure by selecting a new group size, merging spaces, inventing paragraph breaks, declaring silent heads or introducing optional ligatures.",
+    "smallest_decision_change": "A clear count contradiction eliminates this concrete spacing account before letter-value fitting. Compatibility retains only a mechanical alternative for the spacing rule; it does not license treating a cell as a vowel, function word, source-space value or translated word. Testing is a later root decision, not performed here.",
+    "known_obligations": [
+      "The live structural baseline says that spaces carry hierarchy, internal transitions generalize and exact whole forms retain information. This writer must eventually explain those facts through its actual three-cell stream; calling spaces arbitrary would not explain or erase them.",
+      "GDT607 distinguishes several output-bearing formal roles and rejects a single interchangeable whole-word/boundary bucket. This draft does not identify its SPACE cell with o, y, ol, C, d or any other existing form. A model-defined source-space character is not an inferred Voynich value.",
+      "GDT607 reports that several qok-family BPE units form complete one-unit chunks in most occurrences. One BPE unit is not one native head. These short complete groups are an obligation for a future fixed decomposition, not permission to silently expand them into three carriers or omit them.",
+      "GDT608 retains stronger exact-whole prediction on every held folio and pair-specific ol/or and ok/ot roles. The teaching encoder does not yet explain those residuals. No role is relabelled as a table coordinate.",
+      "GDT856 gives CE=[C,E]=[CE] for the freely parsed 98-unit inventory. This writer does not reuse that inventory. Its disjoint head/tally parser is explicitly specified; no claim follows that native signs admit the same unique division.",
+      "Current G2 uses optional combinations and has an unknown key. This separate strict writer permits no such combinations. I did not inspect G2 target words, images, proposed orientations or fresh results, and this idea supplies no vote between them."
+    ],
+    "predecessor_distinctions": [
+      "IDEA927 preserves each source word and carries a bounded preceding prefix; IDEA928 changes entry connectors locally; IDEA929 folds two coordinate streams inside each source word. This draft instead encodes source spaces and deliberately cuts its output groups every three input symbols.",
+      "IP078 proposes overlapping windows with an exact shared part between adjacent groups. Its missing independent window motivation remains a caution. Here groups do not overlap, nothing is repeated between them, and the newly specified three-cell rule is a raw design choice rather than an observed native window length.",
+      "IP037 concerns resynchronization after an error; GDT856 did not test it. No synchronization experiment or correction-pair claim is proposed here. The head/tally channel is only a concrete teaching implementation of the new grouping rule.",
+      "Root's earlier small coordinate table is a construction predecessor, not historical evidence. The new claim is not invention of a table alphabet; it is the distinct fixed-count spacing rule and its explicit recovery of encoded input spaces.",
+      "The route-check CIPHER_OR_CODEBOOK parked family is retained. The user's current request authorizes constructive manual systems, not a claim that this raw alternative already beats the baseline or that a decoder should be run."
+    ],
+    "review_basis": "Read the current route and composition topic; bounded searches, IP037/IP078 cards, duplicate navigation, GDT607 and GDT856 primaries/followups, the existing GDT608 primary and docs/STRUCTURAL_KNOWLEDGE.md. No empty search or absent dependency was treated as proof of novelty.",
+    "scientific_limit": "Three is a predeclared invented hand-count, not an empirically motivated Voynich constant. The seven-component table is an explicit teaching implementation, not a native decomposition. The proposal is retained for diversity as RAW UNREVIEWED, with no execution priority and no claim to have explained the manuscript. A matching surface group count would still leave the letter table and plaintext unidentified."
+  }
+}

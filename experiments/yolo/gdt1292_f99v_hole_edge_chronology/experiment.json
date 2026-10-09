@@ -1,0 +1,96 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One informed physical observation; no proven hole chronology, exogeneity, semantic reset or word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1292_f99v_hole_edge_chronology/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1292_f99v_hole_edge_chronology/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT881",
+    "GDT1083",
+    "GDT1155"
+  ],
+  "experiment_id": "GDT1292",
+  "inputs": [
+    {
+      "path": "docs/99v.md",
+      "role": "prospective image scope",
+      "sha256": "010b78763d4a7de38b4632f85bd48b2d95fdb0468ff6448fbd74c675663b7943"
+    },
+    {
+      "path": "research_registry/proposals/qc2_exogenous_hole_record_continuity.json",
+      "role": "old unassessed source nomination",
+      "sha256": "942fec3cc08a0de44e6442239ac8ae5f7b7f1bbf626a8a1a933a23cca90e4ac9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "1c2a25822e8ad33cd7757f5d00f70173da33e2cba15fe864fea8d48343de7065"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "1c2a25822e8ad33cd7757f5d00f70173da33e2cba15fe864fea8d48343de7065"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "8d7e5d84d5842ea2a8fc7d44fb4044b27a14647c5ff0b411eeedd821d299ab5e"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/REPORT.md",
+      "role": "primary_report",
+      "sha256": "55e6a9bf8db1a30be59f51d32149bde5ecb4409096a4bf40d66b00120d90c9a9"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/artifacts/OBSERVATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "8b3e5d0813e595f6cd93468c38d94b2f56b94fc1e797bbe02d6408ad168efc9f"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "731705943f3d88c9193899b1242e291ce4a66ecd287484d0b992f0939409ea1e"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/artifacts/SOURCE.json",
+      "role": "reproducibility artifact",
+      "sha256": "6b56bc6622b3bc250e6c5ae74723a95e68160c76ea8e7a54e9e501bffc5bf70e"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "976dbe435731fbb57d9312a0f1fbb15c50881302c78568ada3b7e5eef2fcaeb0"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "f6d75675683362af9306f69ffdc9517733ca521ecfb8cafc6365d9d6757a3cd5"
+    },
+    {
+      "path": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "572655da4c258574a03ef5281f158e12a75ae8eb4fc0a7d688d88d3efd657d50"
+    }
+  ],
+  "question": "Does the current upper f99v hole edge truncate writing, or remain compatible with writing around an obstacle?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f99v_hole_edge_chronology",
+  "status": "AVOIDANCE_COMPATIBLE",
+  "title": "f99v hole edge chronology",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1292_f99v_hole_edge_chronology/artifacts/VALIDATION.json"
+  }
+}

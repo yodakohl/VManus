@@ -1,0 +1,74 @@
+{
+  "record_id": "GDT1290",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root after independent source projection and count reconstruction",
+  "assessment_basis": "fixed_three_source_two_projection_pooled_reference_comparison",
+  "reason": "None of3primarysources passesboth pooledbands;Latin typecount2357alreadyfits,Italian3210/Greek3072exceedtypebands. Exactnative-spike profile not matched; no universal extra-spelling requirement or language verdict.",
+  "blockers": [
+    {
+      "code": "no_joint_pooled_profile_match",
+      "detail": "Allindividual metrics andprojection/source-span differences retained;secondaryprojectiondoesnotrescueprimary.",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ]
+    },
+    {
+      "code": "pooled_bands_not_universal",
+      "detail": "1225alreadyrejectsa realnativehandcategory;these source/genre/editorialprofilescannotbeusedasa universal hardwriterfilter.",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md",
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_comparison_or_source_binding",
+        "change": "new_binding",
+        "detail": "A separately justified comparison unit or independently motivated source, not source hunting, casefolding or retokenization to obtain a pass.",
+        "evidence": [
+          "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Adda fourthcorpusafteroutcome",
+      "Broadenbands",
+      "SelectFORMsensitivityasprimary",
+      "InferItalian/Greek/Latinfromtwocounts"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT003",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1202",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1223",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1225",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ]
+    }
+  ]
+}

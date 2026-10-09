@@ -1,0 +1,143 @@
+{
+  "status": "ROOT_MANUAL_READBACK_BEFORE_EXPECTED_SOURCE_ACCESS",
+  "created_utc": "2026-10-06T05:10:16.903557+00:00",
+  "read_files_and_hashes": {
+    "HUMAN_SYLLABARY954_READER_RULES.json": "958c2896f53d5616638ac5c6814a1eddbfc2ea3d5fe62906f85b1eaac0154942",
+    "HUMAN_SYLLABARY954_MANUAL_CHALLENGE.txt": "dc1935c4ae6f136b1fdf39248fb0009af499842b4bcf62245e1416618b111682"
+  },
+  "unopened_expected_filename": "HUMAN_SYLLABARY954_MANUAL_EXPECTED.json",
+  "author_announced_expected_sha256": "b94b1bc3084ecddc286f19040d408b702ff3cead0eb817bd8a7109eaa9a86700",
+  "method": "Root read the supplied working-sign labels and looked up the teaching tables manually. No program decoded the message; no RAW solved demonstration or expected source was opened.",
+  "clauses": [
+    {
+      "ordinal": 1,
+      "written_predicate": [
+        "q",
+        "o",
+        "d",
+        "a",
+        "d"
+      ],
+      "prefix": "PAST",
+      "lexeme": "badu",
+      "meaning": "three entities share a location",
+      "arity": 3,
+      "arguments": [
+        {
+          "class": "person"
+        },
+        {
+          "class": "person"
+        },
+        {
+          "class": "vessel",
+          "restriction": "IN",
+          "complement_exact_name": "Tava Ada"
+        }
+      ],
+      "quantifier_scope": "There is a past reference interval and there are three argument assignments, each satisfying its written class/restriction at that interval, such that the three assigned entities share a location. The two person arguments need not be different. The vessel is inside the entity named Tava Ada at that same interval.",
+      "german": "Zu einer Zeit in der Vergangenheit befanden sich eine Person, eine nicht notwendig andere Person und ein Gefäß am selben Ort. Dieses Gefäß befand sich dabei in der mit Tava Ada bezeichneten Entität. Kein genaues Datum und keine bis heute fortbestehende Eigenschaft werden behauptet."
+    },
+    {
+      "ordinal": 2,
+      "written_predicate": [
+        "q",
+        "o",
+        "n",
+        "y",
+        "m"
+      ],
+      "prefix": "NOT, no PAST",
+      "lexeme": "gaki",
+      "meaning": "is cold",
+      "arity": 1,
+      "arguments": [
+        {
+          "class": "vessel",
+          "restriction": "PART",
+          "complement_exact_name": "Tava"
+        }
+      ],
+      "quantifier_scope": "It is not the case, at the present reference interval, that there exists a vessel which is a proper part of the entity named Tava and is cold. No vessel or such part is asserted to exist.",
+      "german": "Im gegenwärtigen Bezugszeitraum gibt es kein kaltes Gefäß, das ein echter Teil der mit Tava bezeichneten Entität ist."
+    }
+  ],
+  "literal_name_trace": {
+    "Tava Ada": [
+      [
+        "i r",
+        "T"
+      ],
+      [
+        "a a",
+        "a"
+      ],
+      [
+        "o a",
+        "v"
+      ],
+      [
+        "a a",
+        "a"
+      ],
+      [
+        "i cph",
+        " "
+      ],
+      [
+        "e m",
+        "A"
+      ],
+      [
+        "a i",
+        "d"
+      ],
+      [
+        "a a",
+        "a"
+      ]
+    ],
+    "Tava": [
+      [
+        "i r",
+        "T"
+      ],
+      [
+        "a a",
+        "a"
+      ],
+      [
+        "o a",
+        "v"
+      ],
+      [
+        "a a",
+        "a"
+      ]
+    ]
+  },
+  "continuation": "The line2terminal q o s continues the same nominal group and the same literal name. Before it the name reads Tava A; line3starts the remaining da, then NAME_CLOSE and CLAUSE_END. The unmarked line1andline3breaks separate groups while preserving the ongoing clause.",
+  "distinctions_retained": [
+    "Present NOT differs from past assertion; there is no PAST-of-NOT.",
+    "IN in clause1 is not PART in clause2.",
+    "The two repeated person words fill two argument slots; no hidden inequality or coreference is inserted.",
+    "The two written names differ. No identity or nonidentity between their bearers is inferred.",
+    "First predicate is SHARE_LOCATION, not PLACE_INSIDE; the IN relation is inside its third nominal argument.",
+    "No instruction, water, direction, actor, successful placement or causal sequence is inferred."
+  ],
+  "unresolved": [],
+  "physical_hand_count": {
+    "logical_printed_groups": 6,
+    "clause_count": 2,
+    "logical_signs_excluding_continuation": 66,
+    "continuation_signs": 3,
+    "physical_signs": 69,
+    "physical_lines_used_cells_including_visible_blanks": [
+      11,
+      23,
+      16,
+      22
+    ]
+  },
+  "scope_limit": "Source-held teaching readability only, no native values, statistical match, full historical text coverage or independent manuscript evidence."
+}

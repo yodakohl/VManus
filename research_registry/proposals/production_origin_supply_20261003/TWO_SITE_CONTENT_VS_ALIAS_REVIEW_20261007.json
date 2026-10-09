@@ -1,0 +1,80 @@
+{
+  "status": "FRAMING_CORRECTION_AND_LOCAL_COUNTERMODEL_NOT_NATIVE_SELECTION",
+  "question": "Does the observed single-e relocation require a writer to choose aliases of the same message from neighboring words?",
+  "answer": "No. Equality of message/source word was never established.1254tests two narrow deterministic placement functions only; its lack of support neither prefers nor rejects content-bearing differences.",
+  "local_teaching_countermodel": {
+    "domain": "Two ordered abstract symbols A_r and B_s, with r,s in{0,1}; no natural-language or native semantic assignment.",
+    "writer": "Write ch followed by r copies of e; write ckh followed by s copies of e; append y.",
+    "reader": "For this explicitly delimited finite teaching family only, read the count between ch and ckh as r and between ckh and y as s.",
+    "examples": [
+      {
+        "abstract_source": [
+          0,
+          0
+        ],
+        "written": "chckhy"
+      },
+      {
+        "abstract_source": [
+          1,
+          0
+        ],
+        "written": "checkhy"
+      },
+      {
+        "abstract_source": [
+          0,
+          1
+        ],
+        "written": "chckhey"
+      },
+      {
+        "abstract_source": [
+          1,
+          1
+        ],
+        "written": "checkhey"
+      }
+    ],
+    "point": "Different source pairs write the two single-e forms without any relocation or context choice. This is an existence illustration, not evidence that the manuscript uses these source symbols, boundaries or values.",
+    "attachment_ambiguity": "Exactly the same strings may be parsed as (ch e^r)(ckh e^s)y, ch(e^r ckh)(e^s y), or as atomic wholes. The four-cell table alone does not select attachment.",
+    "coverage_limit": "The binary illustration is not a complete writer even for the old849family: existing chckheey, cheecthy, sheeckhy and sheecthey require e-run2. It must not be promoted as a complete two-bit alphabet. No post-result extension selected.",
+    "frequency_limit": "No distribution of abstract inputs specified; hence no predicted relative frequencies, statistical fit or novel prediction."
+  },
+  "retained_evidence": [
+    "849: all four0/1 corners in each fixedprefix/kernelstratum; two distinguishable written sites, not identified phonemes/morphemes.",
+    "849: five length2occurrences at f52v.4,f29r.1,f83v.20,f111r.23,f82v.36;20of36occupiedcells, readers not independent.",
+    "854: cross-kernel capacity failure; no predictor run.",
+    "1254: no repeated same-cell BOTH key among146records; not context independence.",
+    "608: directed compositional backoff and residual whole identity; not a proof that current fourforms share meanings.",
+    "338/398: their specific predictive equivalence tests do not authorize surface merging; neither was a direct test of current e pair."
+  ],
+  "decision": "Retain each exact form, its position and multiplicity. Do not assume aliases or erase/move e. Candidate construction may encode different source content internally; any preference still needs justified source constraints and a distinguishing consequence. No new clustering, neighbor model, decoder, native query or meaning.",
+  "novelty": "Correction to recent research framing, not a new manuscript observation. Local product template already implicit in849; no new idea card or claimed new construction family.",
+  "sources": [
+    {
+      "path": "experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md",
+      "sha256": "11995afcb69cbe901fa1f779e9ec162e6baed47f22ea90978759705c7abfffca"
+    },
+    {
+      "path": "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md",
+      "sha256": "da4b12a7fa4d3f59c56e79a329ff5e26763a3ac03b593b577f2f6a65904e4ba5"
+    },
+    {
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md",
+      "sha256": "5c547cfb9558d96f871ef7c0fc395f32e47bb5ef74ffc2d6ab9add80aea4c338"
+    },
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+      "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md",
+      "sha256": "5af9e7ccf052724bdc5913a4b36a4e9aeb5c07a84f37e9eb3b92f6f8d1422cdd"
+    },
+    {
+      "path": "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/REPORT.md",
+      "sha256": "099fc98b8b115bf4fb9d748726b435999b0daa820a9768dd81f53148a83f5143"
+    }
+  ]
+}

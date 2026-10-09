@@ -1,0 +1,163 @@
+{
+  "experiment": "GDT1226",
+  "status": "EVERY_MIXTURE_TWO_ALIAS_CONCENTRATION_EXCLUDED",
+  "sample_mass": 8000,
+  "books": [
+    "b4",
+    "w1",
+    "bs1",
+    "gr1"
+  ],
+  "source_union_types": 3199,
+  "lower_bound": "670049/452",
+  "upper_bound": "670049/452",
+  "exact_gap": "0",
+  "lower_count_decimal": 1482.4092920353983,
+  "upper_count_decimal": 1482.4092920353983,
+  "lower_share": 0.18530116150442477,
+  "upper_share": 0.18530116150442477,
+  "primal_weights": {
+    "b4": "0",
+    "w1": "239/452",
+    "bs1": "213/452",
+    "gr1": "0"
+  },
+  "primal_top5": [
+    {
+      "word": "vnd",
+      "mass": "314037/452"
+    },
+    {
+      "word": "in",
+      "mass": "25529/113"
+    },
+    {
+      "word": "das",
+      "mass": "22157/113"
+    },
+    {
+      "word": "die",
+      "mass": "86981/452"
+    },
+    {
+      "word": "ain",
+      "mass": "78287/452"
+    }
+  ],
+  "dual_book_bounds": {
+    "b4": "355845/226",
+    "w1": "670049/452",
+    "bs1": "670049/452",
+    "gr1": "335601/226"
+  },
+  "dual_cuts": [
+    {
+      "words": [
+        "das",
+        "die",
+        "ein",
+        "in",
+        "vnd"
+      ],
+      "weight": "177/452",
+      "book_counts": {
+        "b4": 1695,
+        "w1": 1612,
+        "bs1": 1337,
+        "gr1": 1676
+      }
+    },
+    {
+      "words": [
+        ".",
+        "ain",
+        "das",
+        "die",
+        "vnd"
+      ],
+      "weight": "0",
+      "book_counts": {
+        "b4": 1369,
+        "w1": 1158,
+        "bs1": 1625,
+        "gr1": 1131
+      }
+    },
+    {
+      "words": [
+        "dar",
+        "ein",
+        "es",
+        "in",
+        "vnd"
+      ],
+      "weight": "0",
+      "book_counts": {
+        "b4": 1438,
+        "w1": 1401,
+        "bs1": 1142,
+        "gr1": 1867
+      }
+    },
+    {
+      "words": [
+        "ain",
+        "das",
+        "die",
+        "in",
+        "vnd"
+      ],
+      "weight": "275/452",
+      "book_counts": {
+        "b4": 1497,
+        "w1": 1399,
+        "bs1": 1576,
+        "gr1": 1362
+      }
+    }
+  ],
+  "reader_conditions": {
+    "IT2a": {
+      "ceiling": 1465,
+      "decision": "EXCLUDED"
+    },
+    "RF1b": {
+      "ceiling": 1408,
+      "decision": "EXCLUDED"
+    },
+    "ZL3b": {
+      "ceiling": 1430,
+      "decision": "EXCLUDED"
+    }
+  },
+  "termination": "NUMERIC_CUTS_CLOSED",
+  "trace": [
+    {
+      "iteration": 0,
+      "cuts": 3,
+      "lp_objective": 1443.7385444743954,
+      "actual_top5": 1507.2991913746628,
+      "worst_words": [
+        "ain",
+        "das",
+        "die",
+        "in",
+        "vnd"
+      ]
+    },
+    {
+      "iteration": 1,
+      "cuts": 4,
+      "lp_objective": 1482.409292035398,
+      "actual_top5": 1482.4092920353983,
+      "worst_words": [
+        "ain",
+        "das",
+        "die",
+        "in",
+        "vnd"
+      ]
+    }
+  ],
+  "scope": "Continuous mixtures of four fixed source profiles; globally at most two forms per exact word. No integer text, type test, physical writer, native meaning or general language claim."
+}

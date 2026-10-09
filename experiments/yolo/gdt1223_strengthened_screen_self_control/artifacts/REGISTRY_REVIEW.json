@@ -1,0 +1,75 @@
+{
+  "record_id": "GDT1223",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_20261006_strengthened_self_control",
+  "assessment_basis": "Frozen128seeds, all16gates, all3x3reader pairs; independent sample/metric/decision reconstruction; own-reference diagnostic predeclared",
+  "reason": "All-reference strengthened-screen conjunction accepts only29/128native selection runs; matched-reader diagnostic accepts126/128. Main instability is final-y cross-reading comparison. This invalidates sole-hard-filter use for new constructions under this procedure, not old registered decisions or meaningful writing.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "29/128cross-reference full passes below122; samples overlap, alternate readers and eligibility differ. No independent error-rate estimate or selected replacement comparison.",
+      "evidence": [
+        "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md",
+        "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "prospective_observation_contract",
+        "change": "new_design",
+        "detail": "A scientifically motivated observation/sampling comparison fixed before new writer outcomes, retaining native whole-word and source meaning obligations.",
+        "evidence": [
+          "experiments/yolo/gdt1223_strengthened_screen_self_control/PREREGISTRATION.md",
+          "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Choosing a favorable reader or seed after a writer result",
+      "Widening bands to rescue1195 or any old failure",
+      "Treating126matched passes as the primary success",
+      "More automatic sample/stratum panels"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1193",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1194",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1195",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1213",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md"
+      ]
+    }
+  ]
+}

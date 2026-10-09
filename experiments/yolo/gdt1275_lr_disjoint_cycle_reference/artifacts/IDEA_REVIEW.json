@@ -1,0 +1,75 @@
+{
+  "record_id": "GDT1275",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root; bounded source-free cycle proof review; independent reverse-distance/covariance validator",
+  "assessment_basis": "fixed_restricted_orbit_exact_moments",
+  "reason": "Residualpositive onall3readings,10/10/12score-variableleaves,andpositiveafteranyoneleafdeletion. Primaryresidualonly1.44referenceSD;descriptivecriterion,nosignificanceorline-modelrejection. Full1261fibreunanswered;915/916unchanged.",
+  "blockers": [
+    {
+      "code": "restricted_orbit_not_full_fibre",
+      "detail": "Selecteddisjointcyclesconditiononadditionalstructure;cannotattributeallreferencemeanchange to line margins.",
+      "evidence": [
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md",
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "code": "modest_postselected_family_evidence",
+      "detail": "Old22nominees,exposedevenleaves,alternatereadersnotreplications,mixedpairsremain;no semanticbinding.",
+      "evidence": [
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md",
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/artifacts/RESULT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_writer_prediction",
+        "change": "new_design",
+        "detail": "A genuinely different predeclared human-writing consequence accounting for same/mixed coexistence and915/916; review its predecessors before selection.",
+        "evidence": [
+          "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Favorablecyclepacking",
+      "Raise1261statecap",
+      "Treatpositive-meandifferenceassignificance",
+      "Assignr/lgrammaticalmeanings"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT915",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT916",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1260",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1261",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "record_id": "IDEA000908",
+  "scope": "method",
+  "verdict": "not_tested",
+  "reviewer": "root_user_requested_critical_review_20261004",
+  "assessment_basis": "existing_primary_dependency_decision_reconciled_without_new_experiment",
+  "reason": "GDT1164 explicitly parks this occurrence-level bridge because its prerequisite unknown-candidate recovery failed. The occurrence-level proposal itself was not executed or refuted. Its raw registry status must not conceal the documented dependency stop. GDT1160's supplied-candidate supervised positive remains valid within its own scope.",
+  "blockers": [{
+    "code": "candidate_inventory_prerequisite_failed",
+    "detail": "No supported recovered candidate inventory from GDT1164 is available to freeze for this proposed occurrence selector.",
+    "evidence": ["experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"]
+  }],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [{
+      "id": "supported_separately_frozen_inventory",
+      "change": "new_design",
+      "detail": "Provide an actually supported, separately frozen inventory through a genuinely distinct justified design and prospective falsifier. Preserve GDT1164's failure; adding a filename or retuning its ranker does not meet this requirement.",
+      "evidence": ["experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"]
+    }],
+    "not_sufficient": ["Raw/unreviewed registry wording", "GDT1160's supervised accuracy with supplied candidates", "Automatic promotion of GDT1164's better-looking baseline"]
+  },
+  "relations": [{
+    "target": "GDT1164",
+    "type": "related_to",
+    "evidence": ["experiments/yolo/gdt1164_unpaired_context_word_ranking/REPORT.md"]
+  }]
+}

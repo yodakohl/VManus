@@ -1,0 +1,136 @@
+{
+  "artifact": "pb_profile_claim_ceiling",
+  "status": "read_only_interpretation_audit",
+  "scope": "GDT872 descriptive raw-group directed profile only; no rerun or mutation.",
+  "artifact_hashes": {
+    "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/RESULT.json": "3e1857ace365b0ce60be5c9f2363c9e72c9d7403e0f828110fc80f0b461d6582",
+    "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/DIRECTION_SUMMARY.json": "bf71f3d6ace953b3124fc94b0ac96b1a73aec67e423126a96bad27181eacb8be",
+    "experiments/yolo/gdt872_whole_pair_directed_profile/artifacts/VALIDATION.json": "ca9e0fb7be54c12941609ec76725f7f685d39576879491c3079560912c835b3f",
+    "experiments/yolo/gdt872_whole_pair_directed_profile/PREREGISTRATION.md": "7cfc7db26527232a25adea0eabadc07149cf786f987a2dd998ba86e91ce12bc6"
+  },
+  "selected_ratios": [
+    {
+      "view": "PRIMARY",
+      "band": "DISTAL",
+      "boundary": "within_para",
+      "direction": "forward",
+      "opportunities": 529,
+      "hits": 51,
+      "same_side": 29,
+      "opposite_side": 22,
+      "hit_folios": 28,
+      "rate": 0.09640831758
+    },
+    {
+      "view": "PRIMARY",
+      "band": "DISTAL",
+      "boundary": "within_para",
+      "direction": "backward",
+      "opportunities": 646,
+      "hits": 66,
+      "same_side": 29,
+      "opposite_side": 37,
+      "hit_folios": 35,
+      "rate": 0.102167182663
+    },
+    {
+      "view": "DIAGNOSTIC",
+      "band": "DISTAL",
+      "boundary": "within_para",
+      "direction": "forward",
+      "opportunities": 91,
+      "hits": 9,
+      "same_side": 3,
+      "opposite_side": 6,
+      "hit_folios": 7,
+      "rate": 0.098901098901
+    },
+    {
+      "view": "DIAGNOSTIC",
+      "band": "DISTAL",
+      "boundary": "within_para",
+      "direction": "backward",
+      "opportunities": 40,
+      "hits": 6,
+      "same_side": 1,
+      "opposite_side": 5,
+      "hit_folios": 5,
+      "rate": 0.15
+    },
+    {
+      "view": "PRIMARY",
+      "band": "NEAR",
+      "boundary": "within_para",
+      "direction": "forward",
+      "opportunities": 291,
+      "hits": 36,
+      "same_side": 20,
+      "opposite_side": 16,
+      "hit_folios": 23,
+      "rate": 0.123711340206
+    },
+    {
+      "view": "PRIMARY",
+      "band": "NEAR",
+      "boundary": "within_para",
+      "direction": "backward",
+      "opportunities": 336,
+      "hits": 16,
+      "same_side": 9,
+      "opposite_side": 7,
+      "hit_folios": 15,
+      "rate": 0.047619047619
+    }
+  ],
+  "band_direction_totals": {
+    "PRIMARY:NEAR:forward": {
+      "hits": 36,
+      "opportunities": 295,
+      "rate": 0.122033898305
+    },
+    "PRIMARY:NEAR:backward": {
+      "hits": 17,
+      "opportunities": 347,
+      "rate": 0.048991354467
+    },
+    "PRIMARY:DISTAL:forward": {
+      "hits": 53,
+      "opportunities": 583,
+      "rate": 0.090909090909
+    },
+    "PRIMARY:DISTAL:backward": {
+      "hits": 72,
+      "opportunities": 705,
+      "rate": 0.102127659574
+    },
+    "DIAGNOSTIC:NEAR:forward": {
+      "hits": 10,
+      "opportunities": 68,
+      "rate": 0.147058823529
+    },
+    "DIAGNOSTIC:NEAR:backward": {
+      "hits": 3,
+      "opportunities": 61,
+      "rate": 0.049180327869
+    },
+    "DIAGNOSTIC:DISTAL:forward": {
+      "hits": 9,
+      "opportunities": 97,
+      "rate": 0.092783505155
+    },
+    "DIAGNOSTIC:DISTAL:backward": {
+      "hits": 9,
+      "opportunities": 48,
+      "rate": 0.1875
+    }
+  },
+  "assessment": [
+    "The primary distal within-paragraph rates are 51/529 = 0.096408 and 66/646 = 0.102167; the diagnostic rates are 9/91 = 0.098901 and 6/40 = 0.150000. Including cross-paragraph strata, primary distal is 53/583 = 0.090909 forward versus 72/705 = 0.102128 backward; diagnostic is 9/97 = 0.092784 versus 9/48 = 0.187500. Thus the data do not show a distal overall forward excess.",
+    "Near within-paragraph counts are 36/291 = 0.123711 forward versus 16/336 = 0.047619 backward. This is a descriptive near-band asymmetry, not an unobserved replication of the distal profile.",
+    "The profile does not demonstrate a persistent state or a reset mechanism: it measures directed whole-form adjacency opportunities, without an independently coded state, owner, item, or semantic endpoint. Local clustering, formula composition, anchor exposure, and unequal denominators remain compatible explanations.",
+    "Cross-paragraph strata are sparse: primary distal has 2/54 forward and 6/59 backward hits; diagnostic has 0/6 and 3/8. Calling these too sparse for a stable cross-boundary conclusion is justified, while zero or low cells do not refute a general boundary mechanism.",
+    "Same-side and opposite-side margins are not interchangeable with conditional concordance. For primary distal within-paragraph, same-side is 29/51 forward and 29/66 backward; diagnostic is 3/9 and 1/6. These margins share the opportunity denominator but do not control anchor or response exposure."
+  ],
+  "claim_ceiling": "Descriptive raw-group profile; no semantic direction, persistent state, reset, translation, significance, or binary falsification.",
+  "implementation_note": "The initial draft validator/producer defects were corrected before the PASS receipt; they are not scientific observations from this profile."
+}

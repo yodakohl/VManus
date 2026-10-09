@@ -1,0 +1,75 @@
+{
+  "status": "NO_LITERAL_REJOIN_IN_FIXED_13",
+  "readers": {
+    "ZL3b": {
+      "pairs": 13,
+      "statuses": {
+        "NO_ELIGIBLE_LITERAL_REJOIN": 13
+      },
+      "ready_sites": 26,
+      "ready_sites_with_excluded_tail_lines": 18,
+      "immediately_terminal_divergence_sites": 1,
+      "join_position_pairs": 0
+    },
+    "IT2a": {
+      "pairs": 13,
+      "statuses": {
+        "NO_ELIGIBLE_LITERAL_REJOIN": 13
+      },
+      "ready_sites": 26,
+      "ready_sites_with_excluded_tail_lines": 0,
+      "immediately_terminal_divergence_sites": 1,
+      "join_position_pairs": 0
+    },
+    "RF1b": {
+      "pairs": 13,
+      "statuses": {
+        "UNTESTABLE": 13
+      },
+      "ready_sites": 0,
+      "ready_sites_with_excluded_tail_lines": 0,
+      "immediately_terminal_divergence_sites": 0,
+      "join_position_pairs": 0
+    }
+  },
+  "controls": {
+    "cases": 6,
+    "old928_counterexample_qualifies": false,
+    "new_counterexample_joins": [
+      {
+        "a_offset": 4,
+        "b_offset": 8,
+        "a_locus": "P.1",
+        "b_locus": "Q.1",
+        "a_start": 4,
+        "b_start": 8,
+        "three_words": [
+          "d",
+          "e",
+          "f"
+        ],
+        "right_extended_words": [
+          "d",
+          "e",
+          "f"
+        ],
+        "a_source_ids": [
+          "P|4",
+          "P|5",
+          "P|6"
+        ],
+        "b_source_ids": [
+          "Q|8",
+          "Q|9",
+          "Q|10"
+        ],
+        "a_branch_groups": 1,
+        "b_branch_groups": 5,
+        "same_as_initial": false,
+        "a_branch_excluded_lines": [],
+        "b_branch_excluded_lines": []
+      }
+    ]
+  },
+  "claim_ceiling": "Fixed13anchoredliteralcontinuationcensus;unassessabletextretained,no semanticbranch,wordmeaning,pvalueor928revision."
+}

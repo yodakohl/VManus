@@ -1,0 +1,44 @@
+{
+  "record_id": "HIST:24bb8dd15c2872a0",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root",
+  "assessment_basis": "Read-only primary report, stored-result and recombination_direction/pieces_seen code review; no corpus rerun or original-normalizer reproduction.",
+  "reason": "Retain formal component-inventory coverage, orthographic hierarchy and separate controlled transition evidence. The roughly91percent statistic is normalized token coverage, not a whole-form prediction or checked exact inverse. Independent prior attachment is not a prerequisite for a jointly constrained hypothesis.",
+  "blockers": [
+    {
+      "code": "no_full_writer_or_meaning_identification",
+      "detail": "Coverage checks supplied target decompositions against separate component inventories; it does not select a complete writing rule, syntax or lexeme.",
+      "evidence": [
+        "archive_pre_reset_2026-08-06/semantic_assumptions/run_typology_neutral_structure.py",
+        "research_registry/proposals/differential_reading_20260914/STRUCTURAL_BASELINE.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_complete_writer",
+        "change": "new_design",
+        "detail": "A complete shared writing/reading contract with a discriminating consequence, preserving existing failures and exact-form evidence requirements. No rerun authorized by this clarification.",
+        "evidence": [
+          "research_registry/proposals/differential_reading_20260914/STRUCTURAL_BASELINE.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Calling component coverage prediction accuracy",
+      "Using old normalized roots as established morphemes",
+      "Demanding prior confirmed attachments before any joint hypothesis"
+    ]
+  },
+  "relations": [],
+  "source_hashes": {
+    "archive_pre_reset_2026-08-06/semantic_assumptions/run_typology_neutral_structure.py": "6477324ec7365f24417dd42c0ed5336e0b3ba8d7a1314f0cc12bfab34328fcb7",
+    "archive_pre_reset_2026-08-06/semantic_assumptions/results/typology_neutral_structure_report.md": "f999037391017708045840544e9095a60cb685a711b4753e1282b72832177790",
+    "archive_pre_reset_2026-08-06/semantic_assumptions/results/typology_neutral_structure_results.json": "0503628c2e2951f409be98f085e414211b86703e324f0a2c5f32b53052710990",
+    "experiments/semantic_assumptions/results/source_native_within_group_exact_position_markov_target_report.md": "1afa9190203b41634346aa9e9a020b7875e7aacacf2268d621f90a624767c313",
+    "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One informed gap inspection, unresolved; no confirmed native word boundary or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1291_f8r4_gap_review/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1291_f8r4_gap_review/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT1087",
+    "GDT1169",
+    "GDT1287",
+    "GDT1289"
+  ],
+  "experiment_id": "GDT1291",
+  "inputs": [
+    {
+      "path": "docs/f8r4_scope.md",
+      "role": "prospective image admission",
+      "sha256": "8bb6ddbc8173746c12b1dc92eea87bf97833101f17769d55bf47cf1d11bb488a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "9bb750e926367fc5347eaf33dc3a2839817376d682295313a4d0dbb11d5e9533"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "9bb750e926367fc5347eaf33dc3a2839817376d682295313a4d0dbb11d5e9533"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "31d124213d7ab0974061839fbbe552c1e978f474725c3d019cc7c4634261d375"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/REPORT.md",
+      "role": "primary_report",
+      "sha256": "a7a94c306d236211ef9339515c035da4e69519232edc526c05d4a6678d2aaa86"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/artifacts/OBSERVATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "3ed3a925c516141f876ad0e1bccbd01c65997972a8511af95489ed959914704f"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "45f1099c0b305266d360abae515d1b70ec0e9f1283a1dace341478764d9eae81"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/artifacts/SOURCE.json",
+      "role": "reproducibility artifact",
+      "sha256": "71691c8af5d8b6c76fdad93b48c07e9acd65ba7abcb725598d8086ec20bfc7bc"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "f7ea408abe498c1831e317b65e49be6ab9c9012dbb63c1df276fc69868db07d6"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "c568e4921e65fda4e6c8cc538a09ac22acf3c74a5c722564e84916d892c1b01e"
+    },
+    {
+      "path": "experiments/yolo/gdt1291_f8r4_gap_review/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "410a484554de3354048beaf68c4fa9d669476747926e8ee49d5f452861aa49dc"
+    }
+  ],
+  "question": "Does original f8r.4 resolve chof | chy versus chofchy?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f8r4_gap_review",
+  "status": "UNRESOLVED",
+  "title": "f8r4 gap review",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1291_f8r4_gap_review/artifacts/VALIDATION.json"
+  }
+}

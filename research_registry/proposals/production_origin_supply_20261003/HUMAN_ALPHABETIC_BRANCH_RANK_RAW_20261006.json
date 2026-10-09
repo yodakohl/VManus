@@ -1,0 +1,124 @@
+{
+  "title": "RAW UNREVIEWED: spell a word by its alphabetical branch ranks in one frozen public wordbook",
+  "summary": "A complete invented hand procedure writes every source letter as its rank among the actually available next letters after the decoded prefix in a fixed spelling trie. Ordinary ranks1..20 cost one working sign. Source word spaces and dictionary terminal flags pay for stopping; an explicit literal mode preserves every unknown word. This is a source-spelling notation, not a new language, native value assignment or a claimed statistical success.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "source_status": "INVENTED_GENERAL_HAND_CONTRACT_WITH_A_SMALL_PUBLIC_TEACHING_INSTANCE",
+  "ownership": {
+    "origin": "Root proposed the alphabetically ranked branching-wordbook direction; the bounded producer specified this complete contract after primary review. This is not represented as an independent discovery by the producer.",
+    "started_utc": "2026-10-06T07:55:29Z",
+    "inclusive_deadline_utc": "2026-10-06T08:30:29Z",
+    "root_result_exposure": "Root's1228 summary was supplied before construction: direct22-sign bijection has an H2 mismatch on the projected Deot edition. No1228 output, source counts or new native data were opened. No parameters were fitted to those results.",
+    "clarification": "Root clarified that route shorthand1224min16-21 denotes exception-token counts under a six-final restriction, not21 distinct final types. The actual short-word certificate has12 final types per reading. No carrier was changed in response to that clarification."
+  },
+  "design": {
+    "purpose": "Use one alphabetically organized spelling book to replace letter identities by relative choices, without learning an unrelated output word for every meaning. A reader already knows the source language; the notation returns its actual written tokens, preserving whatever ambiguity those tokens originally have. No spelling-book procedure supplies medical, grammatical or lexical interpretation by itself.",
+    "fixed_inputs": [
+      "A finite, explicitly ordered source-character alphabet Sigma of size N>=1. Every character is distinct. The order is written in the lesson and never inferred from output frequency.",
+      "A finite public set L of nonempty complete source tokens over Sigma. A token includes its attached punctuation exactly when the source contract attaches it. L and its edition are fixed before a message, with no changes inside the message or after seeing output difficulties.",
+      "The source message consists of nonempty tokens separated by single spaces, plus explicit paragraph breaks. This is the declared input, not a license to erase case, punctuation, diacritics or repeated whitespace from another source. Unsupported characters cause an explicit domain failure.",
+      "A spelling trie for L, or the equivalent alphabetically sorted complete word list. Every prefix has its actually present next-character list in Sigma order and a terminal flag iff that prefix is itself a member of L. The root is not terminal. No meanings are stored in this trie."
+    ],
+    "alphabet_separation": "The source alphabet is an input parameter, separate from the22 output drawings. The teaching instance below has28 source characters. A prospective unpointed Hebrew source could use its separately frozen ordered22 basis letters, but this card neither acquires its words nor fixes a real Hebrew L. Final-shape folding, punctuation removal or vowel-point removal must already belong to an explicit source projection; this writer never silently performs them.",
+    "working_signs_in_fixed_order": ["a", "o", "e", "i", "n", "d", "q", "y", "s", "r", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+    "drawing_scope": "These are labels for22 distinct artificial working drawings. A multiletter label such as cph names one drawing. Neither native atomhood nor a sound or meaning for any Voynich occurrence is asserted. The fixed order is inherited as a teaching order, not optimized.",
+    "positive_integer_carrier": {
+      "digits": "The first20 drawings, in their written order, represent terminal remainder values1..20.",
+      "extension": "cph is an extension mark. For positive integer r, divide r-1 by20: quotient k, remainder j in0..19. Write k copies of cph followed by working_signs_in_fixed_order[j]. Thus1=a,2=o,20=cth,21=cpha,22=cpho,40=cphcth,41=cphcpha. Spaces shown in explanations are not part of one encoded token.",
+      "inverse": "Count consecutive cph marks until one of the first20 drawings arrives. If its zero-based position is j, recover r=20*k+j+1. A dangling cph or cfh within an integer is invalid.",
+      "length": "An integer r costs1+floor((r-1)/20) drawings. No zero rank or empty code exists. The same integer carrier is used for local branch ranks and for literal source-character indices."
+    },
+    "known_word_writer": [
+      "If the complete token w is in L, start at the trie root, with empty prefix p.",
+      "For each next source character c of w, list only those next letters actually occurring after p in L, sorted in Sigma order. Find c's one-based rank r in this local list and write its integer carrier. Then append c to p.",
+      "Write a rank even when there is only one possible child. Unary branches are not omitted; no automatic shortest-prefix completion is used.",
+      "At the end of w, require the terminal flag at p and end this logical written group with the source token boundary. Do not emit an extra END glyph. The paid visible boundary, together with L's terminal membership, supplies stopping.",
+      "Reset to the root at the next logical source token. There is no previous-word state, frequency counter, positional font or paragraph-dependent alphabet."
+    ],
+    "unknown_word_writer": [
+      "If complete w is absent from L, begin its logical group with cfh.",
+      "Write every source character of w by the same positive-integer carrier, now using its one-based index in Sigma, not a trie branch rank. Then end at the visible source-token boundary.",
+      "Use literal mode for the whole unknown token, including unfamiliar inflections, names and attached punctuation. Never enter it halfway through a known prefix, silently add a word to L or choose it as an optional alias for a known word.",
+      "An unknown word containing a character outside Sigma is outside this declared edition and must be reported as unsupported. No guessed transliteration or deletion is allowed."
+    ],
+    "reader": [
+      "First reassemble any explicitly marked physical line continuations using the rule below. This restores complete logical groups and source spaces.",
+      "If a group starts with cfh, consume that one literal header, parse its remaining integer units and map each recovered index to Sigma. The body must be nonempty, every index in1..N and the resulting token absent from L. Reject a known token written through this noncanonical literal alias.",
+      "Otherwise start at the root. Parse one integer r, require that the current local child list has at least r members, choose its r-th character and descend. Repeat to the complete group boundary.",
+      "At the boundary the decoded prefix must have a terminal flag. It may still have children: a word that prefixes another word is legal because the written boundary distinguishes stopping from continuation.",
+      "Return the exact decoded tokens, spaces and paragraph breaks. There is no hidden source-language oracle; understanding the recovered words uses the reader's learned language. Error correction and choosing among ambiguous meanings are not supplied."
+    ],
+    "word_and_line_contract": {
+      "word_spaces": "One ordinary intergroup blank preserves one source-token space. A normal physical newline between complete groups is equivalent to that blank. A blank line preserves the explicit source paragraph boundary. Paragraph boundaries never change L or the alphabet.",
+      "fixed_teaching_width": "24 writing cells per physical row. Every working drawing and intergroup blank occupies one cell. This is a fixed demonstration width, not a measured manuscript line width.",
+      "ordinary_wrap": "Write complete groups greedily left to right with one blank between them. If a group of at most24 drawings does not fit in the remaining cells, start it on the next row. Do not split such a group merely to change frequencies or word shapes.",
+      "overwide_group": "A group longer than24 drawings begins on a fresh row. Write its longest nonempty prefix of complete carrier units fitting in23 cells, and append cfh directly to that chunk as the final drawing of the row. Continue the same word at the next row, with no repeated literal header and no semantic reset. Repeat if the remaining payload exceeds24 cells; otherwise write the remaining complete units normally. A literal header belongs to the first chunk and cannot be the entire content before a continuation marker.",
+      "continuation_inverse": "No complete canonical known or literal word ends in cfh: integer units end in one of the first20 drawings. Therefore cfh at the end of a physical row marks continuation unambiguously. Remove exactly that last cfh and join the first group on the next physical row without a source space. A blank paragraph break or missing continuation payload is invalid. A cfh at the beginning of the reassembled logical group remains the literal header.",
+      "cost": "Each source boundary consumes visible separation. Each overwide-word continuation costs one additional cfh drawing and a physical row transition; it is not an uncharged deletion of a word boundary. Printed fragments and reassembled logical words are different units."
+    },
+    "information_and_learning_costs": [
+      "The reader needs the entire exact L, not merely its size, a list of branch counts or access to a hidden plaintext corpus. A public alphabetically indexed wordbook can be consulted instead of memorized, but preparing, copying and searching it is real work.",
+      "Every prefix needs access to its ordered child list and terminal membership. These data are derivable from L, not independent fitted codes, but making a convenient physical trie still costs paper and indexing work. A large book may be impractical to consult once for each character.",
+      "The small procedural lesson contains22 working drawings, their order, division into20 terminal digits/one extension/one mode mark, the source alphabet order, two writing modes, canonical membership, and the visible boundary/continuation rules. Vocabulary knowledge in the source language remains additional.",
+      "A known token of n characters costs the sum of1+floor((r_i-1)/20). An unknown token costs1 plus the same sum over its source-character indices. Add one drawing per actual line continuation. Thus a known path with all local degrees<=20 costs exactly n drawings, not two per character. No shortening or favorable H2 is proved.",
+      "For an alphabet of22 source letters, ordinary ranks and literal indices21/22 cost two drawings; other values cost one. The existence or frequency of those choices is not measured here. Larger source alphabets can incur correspondingly longer unary extension runs.",
+      "No source-language word meaning is replaced by an arbitrary numerical address. Nevertheless this remains a spelling code requiring a full word list, not evidence of an invented spoken language or a historically used system."
+    ],
+    "necessary_consequences": [
+      "At every one-child trie node, the next emitted integer is1 and hence the next drawing is a. A run of forced spelling continuations writes a repeated run of that same mark. This is a fixed, local, potentially damaging consequence, not an optional compression heuristic.",
+      "Two known words with a common source prefix have exactly the same emitted prefix up to that point. Their branch-rank paths differ at their first differing source letter. Unlike a global substitution, the same source letter can receive different output ranks at different prefixes.",
+      "With fixed Sigma/L, complete logical source tokens and complete logical output groups are in bijection. Token frequencies, type counts, equality patterns and exact adjacent word repeats are invariant at that level. The transformations can change letter transitions and H2. Paid physical continuation can split a logical group; no raw printed-group frequency invariance is claimed after such splits.",
+      "Complete logical groups end only in the first20 drawings. Interior integer units can also contain cph; cfh occurs only as the initial literal header or removable physical continuation. This is a real architectural restriction. It does not imply the old three-interior or six-short-final restriction, and20 capacity alone is not a match to any manuscript.",
+      "Repeated whole source words, including triples, produce repeated whole logical codes with arbitrary legal beginnings. There is no universal repeat header or disjoint noun/verb grammar. Native triple values remain unassigned.",
+      "B and BB are not universally prohibited as complete codes: for example a trie containing the one- and two-letter words a and aa writes them as a and aa. The ordinary word boundary makes both legal; there is no globally prefix-free complete-word requirement. This example only establishes construction capacity, not a value for native ol/olol."
+    ]
+  },
+  "complete_small_hand_lesson": {
+    "source_alphabet_in_order": "abcdefghijklmnopqrstuvwxyz.,",
+    "lexicon_in_full": ["add", "and", "drink", "drinks", "is", "not", "oil", "salt", "then", "wait", "warm", "water", ".", ","],
+    "lexicon_note": "This small public list is a teaching instance, not a fitted native lexicon or a complete Hebrew source contract. Source lowercase is an explicit property of the example; an actual uppercase input is unsupported in this particular Sigma rather than silently lowered.",
+    "branch_points": [
+      "Root children in Sigma order: a,d,i,n,o,s,t,w,.,, with ranks1 through10.",
+      "After a: d,n. After wa: i,r,t. All other nonterminal branches along these listed words have one child, except that drink is itself terminal and also has the single continuation s.",
+      "Each dictionary word has a terminal flag, including drink; intermediate prefixes such as drin do not."
+    ],
+    "whole_message_source": "oil is not warm . ada , wait . drink water .",
+    "meaning_limit": "An ordinary fictitious note: the oil is not warm; address ada and tell them to wait; then the written note says drink water. The punctuation and source wording are recovered literally. The code does not infer a hidden quantity, recipient identity, waiting duration or stronger temporal/medical meaning.",
+    "hand_trace": [
+      {"source":"oil", "mode":"known", "ranks":[5,1,1], "working_drawings":["n","a","a"]},
+      {"source":"is", "mode":"known", "ranks":[3,1], "working_drawings":["e","a"]},
+      {"source":"not", "mode":"known", "ranks":[4,1,1], "working_drawings":["i","a","a"]},
+      {"source":"warm", "mode":"known", "ranks":[8,1,2,1], "working_drawings":["y","a","o","a"]},
+      {"source":".", "mode":"known", "ranks":[9], "working_drawings":["s"]},
+      {"source":"ada", "mode":"literal", "source_character_indices":[1,4,1], "working_drawings":["cfh","a","i","a"]},
+      {"source":",", "mode":"known", "ranks":[10], "working_drawings":["r"]},
+      {"source":"wait", "mode":"known", "ranks":[8,1,1,1], "working_drawings":["y","a","a","a"]},
+      {"source":".", "mode":"known", "ranks":[9], "working_drawings":["s"]},
+      {"source":"drink", "mode":"known", "ranks":[2,1,1,1,1], "working_drawings":["o","a","a","a","a"]},
+      {"source":"water", "mode":"known", "ranks":[8,1,3,1,1], "working_drawings":["y","a","e","a","a"]},
+      {"source":".", "mode":"known", "ranks":[9], "working_drawings":["s"]}
+    ],
+    "written_rows_label_notation": ["naa ea iaa yaoa s cfhaia r", "yaaa s oaaaa yaeaa s"],
+    "manual_inverse_example": "yaoa -> ranks8,1,2,1 -> root's w, then a, then second child r after wa, then m -> warm. cfhaia -> literal header, source indices1,4,1 -> ada, absent from L. The first-row ending r is the complete comma token; the physical newline does not introduce a source sentence or reset.",
+    "end_boundary_example": "oaaaa is drink; oaaaaa is drinks. oaaa decodes drin and is rejected because the boundary does not land on a terminal word. Stopping at drink is legal even though the trie has a following s.",
+    "high_rank_and_literal_example": "Source character u has index21 in the lesson alphabet and writes cpha in literal mode. The unknown one-character token u therefore writes cfhcpha as drawings [cfh,cph,a], with no internal source space. A known letter at local rank21 uses cpha without the literal header.",
+    "test_status": "All traces are hand constructions. No encoder, decoder, source frequency script, native query or statistical test was executed. The source message is public in this RAW; it is not a blinded reading test."
+  },
+  "strong_counterexamples_and_smallest_decision": {
+    "dictionary_edition_counterexample": "With Sigma in normal letter order and L={cat,cut}, cut has local ranks1,2,1. If cot is silently added, the same ranks decode cot; cut now needs1,3,1. This is a concrete complete wrong-word recovery, not merely a lookup inconvenience. L must remain byte-fixed and shared, with the cost of changing editions charged.",
+    "forced_suffix_counterexample_obligation": "Once a known prefix has a single continuation at each remaining position, all those remaining letters must write rank1. A required different rank before the next branch falsifies this exact source/L/code contract. Omitting those forced ranks or supplying a position-dependent alphabet would be a different rule, not a repair allowed here.",
+    "smallest_useful_next_decision": "Before a large source screen, freeze a real source alphabet and a publicly owned wordbook independently of output preferences, then inspect a few complete words with internal branching, a word that prefixes another, and a genuine OOV name. The decision is whether the paid wordbook procedure is unambiguous and usable enough to consider, and whether its forced-rank spellings already conflict with the chosen full-source contract. Mere proof that relative indexing is invertible would not be scientific progress; the tiny lesson here already demonstrates that arithmetic.",
+    "native_binding_limit": "A native test would separately require an actual complete source/wordbook, output drawing binding and the whole-group/continuation assumption. No arbitrary target-word dictionary may be chosen to make branch paths fit. Existing structural observations alone identify none of these.",
+    "statistical_limit": "The H2 failure of a pure global substitution does not logically decide this prefix-conditioned transformation. That fact is not positive evidence that its H2, q-o behavior, y endings, length distribution, near-repeats or overall word formation will fit. Its alphabetically forced rank1 tails can be grossly unlike a real text. No alphabet permutation, lexicon sweep or exception was selected."
+  },
+  "predecessors_and_retained_stops": [
+    {"id":"IDEA934", "primary":"research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_MINIMAL_LEXICON_PREFIX_RAW_20261005.json", "later":"research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA934_MODULE_RESULT_20261005.json", "difference":"934 writes actual source letters only to the shortest distinguishing prefix and requires a delimited stem interface. This writes every actual letter's local child rank and applies to complete source tokens. No shortest completion or B6 stem substitution is used. The934 collision/no-shortening result for its fixed old interface remains unchanged."},
+    {"id":"IDEA935", "primary":"research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json", "difference":"935 uses a fixed16-substring longest-match shorthand. No shortcut list appears here. Both retain exact logical token frequency under deterministic injective wordwise coding, so neither can repair an incompatible source word distribution by changing letters alone."},
+    {"id":"GDT1179", "primary":"experiments/yolo/gdt1179_complete_natural_source_writers/METHOD.md", "later":"experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md", "difference":"The503-entry whole-word abbreviation table and503-position backward-reference writer pay different public inverse information. This trie does not assign one free address per word or search previous text; its rank sequence is derived from the fixed spelling list. The entire spelling list remains a substantial shared dictionary cost, and1179's failures remain."},
+    {"id":"GDT1188 and GDT1193", "primary":"experiments/yolo/gdt1188_greedy_fragment_dictionary/METHOD.md", "later":"experiments/yolo/gdt1193_three_source_code_cycle/artifacts/MANUAL_RULES.md", "difference":"The previous writer has2130 source-fragment addresses, longest-match segmentation, a counter and E/C final flags. Its ternary code-tree paths are code addresses, not alphabetical next-letter ranks after decoded prefixes. Its basic-screen/manual positives and later native three-interior-class failure remain. No counter, fragment table or E/C palette is inherited."},
+    {"id":"GDT1194/1195 and GDT1224", "primary":"experiments/yolo/gdt1194_paired_tail_orthography/METHOD.md", "later":"experiments/yolo/gdt1195_final_table_feasibility_witness/REPORT.md", "structural_followup":"experiments/yolo/gdt1224_short_word_final_capacity/REPORT.md", "difference":"Pair contraction and contextual finals remain their failed frozen notation. This rule has no numeric trit body, contracted-pair palette or six-category final map. Its separate20-terminal restriction is disclosed; it is not inferred to pass because12<=20."},
+    {"id":"GDT466 then GDT469", "primary":"experiments/yolo/gdt466_future_address_mixed_dictionary_intake/REPORT.md", "later":"experiments/yolo/gdt469_provenance_aware_address_reader/REPORT.md", "difference":"These earlier mixed-address readers operate on supplied labels, function shells and owner-family fallback values. Their executable consistency and provenance were not unknown spelling recovery or confirmed meanings. No such historical guessed values enter this public source-word indexing rule."},
+    {"id":"GDT1202 and GDT1228", "primary_scope":"Existing whole-source word-frequency gates and root's disclosed1228 global-bijection H2 failure are retained, not reclassified.", "difference":"A fixed trie can change within-word letter transitions while preserving logical whole-word identity. This is a different limited claim, not a new language, a rescue of the old four source word profiles or a statistical result on Deot."}
+  ],
+  "review_and_ownership": "RAW unreviewed. Live route/composition topic, bounded trie/prefix/address searches, duplicate screen, route-check and listed original/later primary reports were inspected. Bounded retrieval found related934 and codebook families, not a demonstrated prior execution of this full alphabetical child-rank rule; this is not an exhaustive novelty claim. No native/profile/image/source-count access, corpus acquisition, encoder/decoder, extra agent, root-owned file change, metadata refresh or publication. Only this new RAW and its ideas-add record are authorized writes. No test priority follows from raw status."
+}

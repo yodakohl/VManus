@@ -1,0 +1,137 @@
+{
+  "status": "PASS_NARROW_POST_MANUAL_SOURCE_HELD_LESSON_REPLAY",
+  "input_hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL_LIST_RAW_20261006.json": "bcc0732cd7b9e6c8b97e417fe3d57a5cd92c593f6c80e6c0a8d487cbe36503e9",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL965_CHALLENGE_20261006.json": "4ab342f91719b38ebd1281a90ee15fa21537172023852651b24f376a7c8fa052",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL965_HELD_EXPECTATION_20261006.json": "b5a097f7c96893b1a0cea517afd16bf1438630a047124544e7b04bfd199f266f",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL965_ROOT_READBACK_20261006.json": "d4e04abe64f24c59c96df790d7c67123a55b95a7acc489ecdc30f68462be35e4",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL_LIST_AUTHOR_SCOPE_20261006.json": "4163675fecbdf510510cb23dae0bc409e97157eacc942fedb889009f22f454ca",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL_LIST_SCOPE_FINALIZATION_20261006.json": "c4db4e6d13d6d7ae80909ed2e1885d5bb5ad54193e9eb6af28a1cc5de5304b26"
+  },
+  "checks": [
+    "All95 literal characters have unique table readback",
+    "Challenge contract/source/readback hashes match",
+    "Physical rows preserve the one cross-row ADD",
+    "Full parsed instruction tree matches the previously held source",
+    "Exact quantities and ordered preparation tails match",
+    "Control/name/material count identity holds for both complete lessons"
+  ],
+  "manual_scope_checks": "Root separately compared every prohibition/guard distinction with the held source. This small replay checks the tree, not a general execution engine.",
+  "decoded_instruction_tree": [
+    {
+      "op": "FORBID",
+      "vessel": "Bela",
+      "materials": [
+        {
+          "base": "oil stock",
+          "history": []
+        }
+      ]
+    },
+    {
+      "op": "IF_EMPTY",
+      "vessel": "Bela",
+      "body": [
+        {
+          "op": "FORBID",
+          "vessel": "Bela",
+          "materials": [
+            {
+              "base": "leaf stock",
+              "history": [
+                "DRIED"
+              ]
+            }
+          ]
+        },
+        {
+          "op": "ADD",
+          "vessel": "Bela",
+          "portions": [
+            {
+              "base": "water stock",
+              "history": []
+            },
+            {
+              "base": "water stock",
+              "history": []
+            },
+            {
+              "base": "leaf stock",
+              "history": [
+                "GROUND"
+              ]
+            }
+          ]
+        },
+        {
+          "op": "ADD",
+          "vessel": "Ivo",
+          "portions": [
+            {
+              "base": "oil stock",
+              "history": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "op": "ADD",
+      "vessel": "Bela",
+      "portions": [
+        {
+          "base": "leaf stock",
+          "history": [
+            "DRIED",
+            "GROUND"
+          ]
+        }
+      ]
+    },
+    {
+      "op": "MIX",
+      "vessel": "Bela"
+    },
+    {
+      "op": "END_MESSAGE"
+    }
+  ],
+  "exposed_lesson_counts": {
+    "physical_groups": 18,
+    "working_units": 92,
+    "roles": {
+      "controls": {
+        "groups": 9,
+        "units": 27
+      },
+      "vessel_names": {
+        "groups": 4,
+        "units": 44
+      },
+      "materials": {
+        "groups": 5,
+        "units": 21
+      }
+    }
+  },
+  "source_held_challenge_counts": {
+    "physical_groups": 29,
+    "working_units": 156,
+    "roles": {
+      "controls": {
+        "groups": 15,
+        "units": 45
+      },
+      "vessel_names": {
+        "groups": 7,
+        "units": 78
+      },
+      "materials": {
+        "groups": 7,
+        "units": 33
+      }
+    }
+  },
+  "limitations": "Only invented lessons. No manuscript data, native meaning, source corpus, gap measurement, global statistical fit or general encoder. Root had already frozen the manual readback before this replay was written."
+}

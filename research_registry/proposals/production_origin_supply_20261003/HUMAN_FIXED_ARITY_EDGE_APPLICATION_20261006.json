@@ -1,0 +1,56 @@
+{
+  "status": "FIXED_SINGLE_TREE_PARAGRAPH_BOTH_TRAVERSALS_CONTRADICTED_IT2A_ONLY",
+  "reviewed_utc": "2026-10-06T10:23:34.827954+00:00",
+  "work_window": "Bounded predecessor/proof review from2026-10-06T10:11:53Z; no parser implementation or new corpus census.",
+  "candidate": "One source-marked paragraph is exactly one rooted ordered tree; one whole written group is one node; each exact form has one fixed nonnegative integer arity globally; one common prefix OR postfix order. No omitted nodes/arguments, invisible roots, grouping changes or forests.",
+  "assumption_not_finding": "Paragraph annotations are assumed complete expression boundaries for this candidate; no actual syntactic boundary or word meaning is identified.",
+  "evidence_pins": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_FIXED_ARITY_EXPRESSION_PRIOR_REVIEW_20261006.json",
+      "sha256": "854dc60925f326b4fe73fecc23c75aff97e92bba86c56525ad660e4f8f40ef4d"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_DAIIN_EDGE_PROFILE_20261006.txt",
+      "sha256": "c5d83f48666be74cd2e8f975963cb6ae23d2f79ec769e124f726a1ec9044b173"
+    },
+    {
+      "path": "experiments/yolo/gdt1047_bare_value_left_host/REPORT.md",
+      "sha256": "42901a717a45d19b1d101c2a2368d085b498b011ccdd8b7add395e770785067d"
+    },
+    {
+      "path": "experiments/yolo/gdt1047_bare_value_left_host/src/run.py",
+      "sha256": "9ac03ecad49f20dcd2ee9aac0945b087540bab79cc1853656174f8e7764d89da"
+    }
+  ],
+  "proof": {
+    "prefix": "The first node of a multi-node preorder tree is its positive-arity root; the last node is a zero-arity leaf. IT2a complete daiin chkaiin atf28v.6 requires arity(daiin)>0, while the old26explicit right-edge exact-DAIIN runs require arity(daiin)=0. No arity assignment can satisfy both.",
+    "postfix": "The first node of a postorder tree is a zero-arity leaf, so f28v.6 requires arity(daiin)=0. Every right-edge daiin belongs to a physical line with at least two whole groups because the existing profile has zero single-group-line daiin.1047asserts line-constant paragraph flags and includes complete lines in each block. Such an ending paragraph therefore contains at least two nodes; its last postorder node is a positive-arity root. This requires arity(daiin)>0.",
+    "unbounded_left_edge": "An unknown left edge at a right witness does not remove either implication. Prefix termination still ends on a leaf; a retained two-group ending line already supplies at least two nodes of the postulated complete postfix expression.",
+    "not_used": "A local AAA was not treated as a complete expression. Repeated unary nodes are possible inside a larger tree, and total slot balance alone is not a full parse."
+  },
+  "existing_evidence": {
+    "IT2a": {
+      "left_contradictions_in1047": 2,
+      "right_contradictions_in1047": 26,
+      "named_complete_two_group_witness": "f28v.6: daiin chkaiin",
+      "profile_exact_all_kind_count": 740,
+      "1047_P_count": 737,
+      "profile_physical_single_group_occurrences": 0
+    },
+    "ZL3b": "1047DAIIN has0LEFT and25RIGHT contradictions; this deduction does not exclude ZL.",
+    "RF1b": "No source-marked paragraph boundaries in1047; unscorable for this argument.",
+    "profile_command": "./vmanus-work words profile daiin",
+    "profile_status": "Re-retrieval of the existing admitted exact-form profile, not a new measurement definition, count or image judgment. Full saved output includes unreviewed navigation which is not adopted as lexical evidence."
+  },
+  "prior_decisions": "IP080already proposes fixed arities/pending slots but has unspecified independently motivated operators and expression scope.1174System9is an actual fixed postfix lesson;1040onlyrefutes its six-production loan grammar;903concerns reversible literal-character actions. None is silently superseded.",
+  "decision": "Do not build an arity solver for this single-tree paragraph contract. Keep the broaderIP080idea unselected and all prior failures/positives unchanged. No automatic forest, null-root or polysemy repair.",
+  "limits": [
+    "ConditionalIT2aannotation-dependent deduction only",
+    "No ZL/RF contradiction established",
+    "No English gloss or native operator assigned",
+    "No general grammar, tree notation, human-language or manuscript-meaning exclusion",
+    "No independent manuscript sample, significance or ink confirmation"
+  ],
+  "reopening": "A separately motivated complete-expression scope or genuinely different writing contract can be reviewed through the existing process; merely adjusting boundaries or arities to these exposed outcomes is not evidence.",
+  "publication": "Local checkpoint, no push."
+}

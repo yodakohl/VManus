@@ -1,0 +1,42 @@
+{
+  "reviewer": "bounded_idea_supply",
+  "source_free": true,
+  "native_data_examined": false,
+  "finding": "928maximizesbothdirectionsbeforetestingdisjointness;fixedopening-divergence-rejoinisnotfullysubsumed.",
+  "example": {
+    "P": [
+      "a",
+      "b",
+      "c",
+      "x",
+      "d",
+      "e",
+      "f"
+    ],
+    "Q": [
+      "a",
+      "b",
+      "c",
+      "y",
+      "a",
+      "b",
+      "c",
+      "x",
+      "d",
+      "e",
+      "f"
+    ],
+    "opening": [
+      "a",
+      "b",
+      "c"
+    ],
+    "later": [
+      "d",
+      "e",
+      "f"
+    ],
+    "why928fails": "Latermatchleft-extendsacrossopeninginthefirstparagraph;maximalmatchesoverlap."
+  },
+  "scope": "Thisjustifiesdistinctpredicate,notchanging928decisionorcallingcodebug. No nativepredictionresult fromreviewer."
+}

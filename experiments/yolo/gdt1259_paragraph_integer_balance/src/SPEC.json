@@ -1,0 +1,72 @@
+{
+  "readers": [
+    "ZL3b",
+    "IT2a"
+  ],
+  "working_signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "native_source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+  "scope_spec": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+  "columns": [
+    "edition",
+    "page",
+    "locus",
+    "kind",
+    "source_row_index",
+    "source_group_index",
+    "source_group_count",
+    "paragraph_start",
+    "paragraph_end",
+    "left_separator",
+    "right_separator",
+    "ivtff_group_raw"
+  ],
+  "permitted_separators": [
+    "LINE_START",
+    "LINE_END",
+    "DEFINITE_SPACE",
+    "UNCERTAIN_SMALL_SPACE"
+  ],
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_source_separator_transcription.py",
+      "sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_GLYPH_SUM_PRIOR_PROOF_REVIEW_20261007.json",
+      "sha256": "0764b73eeffd56cf954dbf5720129dff055b3714fd44ad8fb8d3ed1fdc794148"
+    }
+  ],
+  "budget_start_utc": "2026-10-07T14:32:32Z",
+  "budget_end_utc": "2026-10-07T15:17:32Z"
+}

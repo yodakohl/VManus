@@ -1,0 +1,139 @@
+{
+  "title": "RAW UNREVIEWED: a minim writer returns all licensed message readings and quotes names exactly",
+  "summary": "Complete bounded modern teaching writer and set-valued reader. Four source letters use one, two or three identical strokes, so different spellings really collide. A fixed sixteen-word lexicon and two explicit clause constructions filter readings without choosing a preferred answer. Names use a paid exact mode. One whole-message noun ambiguity remains, while the polarity of a relation between exact named referents remains distinguishable. No native values, historical attestation, statistics or complete historical-language coverage are claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_COMPLETE_BOUNDED_AMBIGUITY_DEMONSTRATION_NOT_SELECTED_NATIVE_WRITER",
+  "source_status": "MODERN_CONSTRUCTION_NOT_HISTORICAL_ATTESTATION",
+  "ownership": "Root requested a complete positive ambiguity-aware construction. bounded_idea_supply supplied this finite teaching language, carrier, exact-name mode, reader and examples. This is not a blind test or an independent manuscript finding.",
+  "design": {
+    "purpose": "Write familiar inspection statements with a small set of repeated stroke shapes, accepting a declared lexical ambiguity instead of pretending every stroke run has a unique letter segmentation. An unfamiliar exact name is fully spelled in a visibly different mode. The reader reports unresolved alternatives rather than selecting one by plausibility.",
+    "source_domain": {
+      "ordinary_words": "Only the sixteen lower-case words in the fixed lexicon below. This is deliberately a bounded teaching message language, not every English sentence and not a projection of a historical source book.",
+      "name_payloads": "Any nonempty finite string over lower-case a-z plus space, hyphen, apostrophe, double quote, period and comma, containing at least one letter. Case outside this domain is not normalized or silently lost. NAME is a typed source constructor whose payload is exact; source quotation notation is explanatory and not an additional output channel.",
+      "messages": "A nonempty ordered sequence of clauses, each terminated by the written PERIOD group. Order and repeated clauses are retained. No claim that statements describe distinct events or objects follows merely from repetition.",
+      "grammar": [
+        "NP ::= a N | NAME(payload)",
+        "Clause ::= NP is P | NP is not P | NP does touch NP | NP does not touch NP",
+        "N ::= rim | run | pot | pan | oil | milk | minimum",
+        "P ::= warm | cold | wet | dry"
+      ],
+      "lexicon_cost": "Sixteen complete source words, their spellings, grammatical categories and learned meanings: seven nouns, four properties and a/is/does/not/touch. The two colliding words rim and run are both learned, not selected from the output. Open names add identifiers but not new lexical meanings or verb valencies.",
+      "learned_meanings": {
+        "rim": "An edge surrounding an opening of a vessel.",
+        "run": "A channel or course carrying flowing liquid, used here only as a noun.",
+        "pot": "A pot-shaped vessel.",
+        "pan": "A shallow pan-shaped vessel.",
+        "oil": "Oil material.",
+        "milk": "Milk material.",
+        "minimum": "A minimum reading in a contextually supplied measurement scale. The scale is not inferred from spelling.",
+        "warm": "The learned qualitative property warm.",
+        "cold": "The learned qualitative property cold.",
+        "wet": "The learned qualitative property wet.",
+        "dry": "The learned qualitative property dry.",
+        "a": "Introduces an existentially quantified referent of the following noun category within this clause.",
+        "is": "Applies the following property to the preceding NP.",
+        "does": "Fixed grammatical support for the following relation construction, with no extra event meaning.",
+        "not": "Negates the immediately following property or touch predicate, not an earlier clause or the whole message.",
+        "touch": "The ordered binary relation TOUCH(first NP, second NP)."
+      },
+      "semantic_scope": "For a noun NP, introduce a fresh bound variable for its occurrence and assert the noun predicate; existential quantifiers take scope over that clause. Different variables need not denote different objects. A negative property clause is exists x [N(x) and not P(x)], not not-exists x [N(x) and P(x)]. The same exact name string denotes the same reference term across the message; different name strings do not themselves assert inequality. For two named NPs, positive and negative TOUCH clauses are direct predicate negations with the same two ordered terms. Interpretation is an ordered list of these formulas. No material world, object identity or measurement scale is inferred from native forms."
+    },
+    "working_inventory": ["a", "o", "y", "ch", "sh", "k", "t", "p", "f", "ckh", "cth", "cph", "cfh", "l", "r", "s", "d", "n", "m", "e", "q", "i"],
+    "drawing_scope": "Each list item denotes ONE teaching drawing, including multi-letter labels such as ch and ckh. Arrays below, not an unseparated ASCII string, specify output units. These are invented uses of the existing twenty-two working drawings, not proposed Voynich letter values or a claim that this is the native alphabet.",
+    "ordinary_source_letter_table": {
+      "a": ["a"], "b": ["o"], "c": ["y"], "d": ["ch"], "e": ["sh"], "f": ["k"], "g": ["t"], "h": ["p"],
+      "i": ["i"], "j": ["f"], "k": ["ckh"], "l": ["cth"], "m": ["i", "i", "i"], "n": ["i", "i"],
+      "o": ["cph"], "p": ["cfh"], "q": ["l"], "r": ["r"], "s": ["s"], "t": ["d"], "u": ["i", "i"],
+      "v": ["n"], "w": ["m"], "x": ["e"], "y": ["q", "a"], "z": ["q", "o"]
+    },
+    "paid_q_codes": {
+      "ordinary_or_name_y": ["q", "a"],
+      "ordinary_or_name_z": ["q", "o"],
+      "PERIOD_whole_group": ["q", "y"],
+      "NAME_OPEN": ["q", "sh"],
+      "NAME_CLOSE": ["q", "k"],
+      "CONTINUATION_whole_group_at_line_edge": ["q", "t"],
+      "name_exact_i": ["q", "p"],
+      "name_exact_n": ["q", "f"],
+      "name_exact_u": ["q", "ckh"],
+      "name_exact_m": ["q", "cth"],
+      "name_space": ["q", "cph"],
+      "name_hyphen": ["q", "cfh"],
+      "name_apostrophe": ["q", "l"],
+      "name_double_quote": ["q", "r"],
+      "name_period": ["q", "s"],
+      "name_comma": ["q", "d"]
+    },
+    "writer": [
+      "Check that the source message belongs to the declared grammar and lexicon. Reject an ordinary out-of-lexicon word; do not guess its meaning. A new reference name is allowed only through NAME.",
+      "For every ordinary source word, concatenate its fixed letter-table entries, with NO boundaries inside a run of i strokes. In particular n and u have the same two-stroke output; m has three, i has one. Never cap, shorten, selectively quote or reset a long run.",
+      "For a name, write NAME_OPEN, then its entire exact payload, then NAME_CLOSE, all in one logical group. Use the ordinary table for letters except i/n/u/m, which obligatorily use their separate exact-name q codes. Encode each allowed punctuation character through its declared name code. The quote character inside a name is payload q-r, never the name delimiter.",
+      "Separate consecutive logical groups with one ordinary visible space. Write a separate PERIOD group after every clause. A period character inside a name uses q-s and remains inside that name group.",
+      "Apply only the line continuation rule below. Physical line breaks do not introduce clauses, words, lexical choices or state resets."
+    ],
+    "reader": [
+      "Reassemble the explicitly marked continued group first. Reject an unmatched or misplaced continuation marker; do not infer a lost marker.",
+      "Read a complete name group by its visible open/close codes. Decode the payload exactly using the name table. Reject bare i in name mode, nested name controls, unsupported q selectors, missing close, empty or invalid payloads. NAME is a source reference term, not a lexical translation of its string.",
+      "Identify PERIOD groups exactly. For each other complete ordinary group c, return D(c)={w in the fixed sixteen-word lexicon: the ordinary writer of w is exactly c}. No longest-match, frequency ranking, external language model or default reading is used. An empty candidate set is an invalid message.",
+      "For each period-delimited clause, keep ALL candidate word sequences matching one of the four grammar productions, together with every resulting semantic formula. Names are already exact terms. Reject a clause with no parse.",
+      "Return the finite set of all ordered full-message formula lists, with the corresponding source-word readings. Identical formulas may be deduplicated for display, but the source-word alternatives must remain available. If more than one content remains, report that ambiguity explicitly and stop; do not choose a meaning by context not contained in this contract."
+    ],
+    "completeness_and_loss": [
+      "For every admissible source message, its ordinary words occur in their own candidate sets, its names decode exactly and its source grammar parse survives. Thus the reader's set always contains the intended message. This is set containment, NOT exact recovery of the author's choice.",
+      "The fixed noun spellings rim and run both write [r,i,i,i,i]: im and un contribute four strokes. In a noun position the grammar does not resolve them. This is a real lost distinction, not a hidden exception or an output alias of one meaning.",
+      "No other pair in the specified sixteen-word dictionary has the same written group, as can be checked from the displayed table. No empirical ambiguity rate or unseen-language recovery is claimed.",
+      "minimum writes fifteen consecutive i strokes: 3+1+2+1+3+2+3. The fixed writer pays all fifteen. Their existence in this teaching source is not a native prediction already observed, and the long-run obligation must not be repaired after a comparison.",
+      "The source alphabet has twenty-six letter entries and twenty-five distinct ordinary code strings, since n and u coincide. The complete physical repertoire also pays the additional name and framing codes. This is not a fixed at-most-twenty-two-entry table; adding grammar alone would not rescue such an old table under the retained defect theorem."
+    ],
+    "complete_open_example": {
+      "source": "a rim is warm. NAME(minu \"m\") does not touch NAME(vat).",
+      "first_clause_groups": [["a"], ["r", "i", "i", "i", "i"], ["i", "s"], ["m", "a", "r", "i", "i", "i"], ["q", "y"]],
+      "second_clause_groups": [["q", "sh", "q", "cth", "q", "p", "q", "f", "q", "ckh", "q", "cph", "q", "r", "q", "cth", "q", "r", "q", "k"], ["ch", "cph", "sh", "s"], ["i", "i", "cph", "d"], ["d", "cph", "i", "i", "y", "p"], ["q", "sh", "n", "a", "d", "q", "k"], ["q", "y"]],
+      "full_reader_set": [
+        "exists x [RIM(x) and WARM(x)]; not TOUCH(NAME('minu \"m\"'),NAME('vat'))",
+        "exists x [RUN(x) and WARM(x)]; not TOUCH(NAME('minu \"m\"'),NAME('vat'))"
+      ],
+      "retained_whole_message_contrast": "Omitting the source word not, and only its written [i,i,cph,d] group, gives exactly the corresponding two positive TOUCH readings. Neither output's ambiguity set contains a reading with the other's second-clause polarity. Exact names and argument order are retained, while rim/run remains unresolved in both.",
+      "hand_example_status": "Author-exposed construction, not a blinded reading, implementation result or native observation."
+    },
+    "layout_and_memory": {
+      "ordinary_spacing": "One visible blank between logical groups. No extra gap class or hidden indentation has meaning. The PERIOD code is an actual two-unit word.",
+      "finite_width": "Choose a visible line capacity W of at least seven working-unit cells before copying the example. This is a teaching layout cost, not a proposed native grid. Spaces consume one cell and every working drawing one cell.",
+      "continuation": "Wrap only between groups when a whole group fits on a fresh line. For a group longer than W, start it on a fresh line. First fragment uses at most W-3 units, followed by one blank and the two-unit CONTINUATION marker at line end. Every following continuation line begins with that marker and one blank. If the rest fits within W-3, finish it there. Otherwise use a nonempty fragment of W-6 units, one blank and the second marker at line end, then continue. Thus a middle fragment line pays two markers, two blanks and at least one payload unit. Split by working units only; reassemble before parsing any q pair or stroke run.",
+      "marker_collision": "The q-t pair occurs nowhere in a valid logical ordinary word, exact name or PERIOD group. Hence a fragment cannot itself equal the continuation marker. Markers are recognized only at the declared physical line edges; there is no unmarked word split.",
+      "learning": "Twenty-six source-letter entries, including four minim weights, plus the complete displayed sixteen-selector q table. The y/z entries are shared with that table and not an extra hidden alphabet. Sixteen learned words with their grammatical/semantic roles, four clause productions, explicit quantifier/negation rules, name reference convention and line continuation rule. This is not a cost-free use of ordinary English.",
+      "reader_memory": "Recognize each of sixteen possible ordinary words or compare its full spelling. Retain alternative noun readings; never replace the alternatives with an imagined shared concept. Long stroke runs are difficult to count. Names require exact mode until the paid closing pair. No corpus-sized search, secret previous text, frequency-selected alias or adaptive table is part of the rule.",
+      "length_cost": "An ordinary word expands by 2 per m, 1 per n/u and 1 per y/z; i and the other twenty letters cost one unit each. Name mode adds four frame units and uses two units for each i/n/u/m, y/z or allowed punctuation character; the other twenty letters cost one each. Each clause adds its two-unit PERIOD group. Every broken word boundary adds two two-unit marker groups and visible separator blanks. No net abbreviation or favorable statistics are claimed."
+    },
+    "native_relevant_obligations_not_success_claims": [
+      "The writer is deterministic and wordwise in its ordinary channel. Source-word collisions can only merge frequency classes, not generate new spelling diversity. Old1202/1226 fixed-source concentration exclusions remain and are not a license to select a new source book.",
+      "This exact sixteen-word teaching grammar is not a proposed whole-manuscript language. If three known consecutive whole groups are asserted to be three complete logical words of this grammar, an identical AAA is impossible: none of its category patterns or fixed function words permits it. Existing857 triples therefore block that direct application; no list exception has been added. Paid continuation fragments must satisfy their actual markers and line positions, not be invoked freely to evade this obligation.",
+      "The literal q-selector language, ordinary/quoted modes and clause markers are testable physical commitments if ever bound. They have not been fitted to q/o, terminal y, singleton inventories or native word families; these are known outstanding form/frequency obligations.",
+      "The mechanism predicts genuinely equal written shapes for equal total minim counts in otherwise equal letter surroundings, not necessarily equal source letters or meanings. For a fixed independently supplied lexicon and grammar, the resulting message ambiguity sets are exactly checkable. Free expansion of the dictionary after viewing a message is outside the fixed experiment.",
+      "No claim is made that a native arch is this teaching i-stroke, that any manuscript word has one of these English meanings, that a native run contains the same segmentation, or that this modern construction is historically attested."
+    ]
+  },
+  "predecessor_review": [
+    {
+      "ids": ["IDEA000967", "GDT1243", "GDT1244"],
+      "difference": "967 assigns a whole connected arch run to a vowel quality/length with paid small gaps and fixed boundary obligations. This proposal instead allows different sequences of four letter shapes to have exactly the same stroke total and returns multiple lexical contents. It does not repair967's gaps, phoneme values or vowel-free countercases.",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/IDEA967_COMMON_WORD_OBLIGATIONS_20261006.json"
+    },
+    {
+      "ids": ["GDT1253"],
+      "difference": "1253's restricted grammar selects one source spelling and can cover every surface word. Here two source words of different content deliberately survive the same complete message context. No unique decode or universal surface coverage is promised.",
+      "primary": "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+    },
+    {
+      "ids": ["IDEA000974", "IDEA000971", "GDT1201"],
+      "difference": "974 has a unique whole-group/unary inverse;971 adds complements until uniqueness but has no fixed public language;1201's multiple parses preserve identical expanded content. Here the complete bounded language and set-valued reader deliberately preserve an explicitly enumerated ambiguity between DIFFERENT contents, while paying exact name spelling and retaining polarity.",
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/WHOLE_GROUP_ABBREVIATION_UNARY_QUOTE_RAW_20261007.json", "research_registry/proposals/production_origin_supply_20261003/CONTEXT_COMPLEMENT_MODULE_REVIEW_20261007.json", "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"]
+    },
+    {
+      "ids": ["Fedeli source review", "GDT1160", "GDT1171", "nonUD22 defect consequence"],
+      "difference": "The Fedeli source note is historical editorial evidence with an incomplete normalized parallel/ambiguity contract, not this invented alphabet.1160's limited context-positive and1171's fixed failed pipeline are not rerun or claimed rescued. The retained defect result excludes the old <=22 fixed-entry cover even with grammatical ambiguity; this larger paid table is outside that precise cap, not evidence against the theorem.",
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/FEDELI_AMBIGUOUS_SCRIPT_SOURCE_20261007.json", "research_registry/proposals/production_origin_supply_20261003/NON_UD22_DEFECT_CONSEQUENCE_20261006.json"]
+    }
+  ],
+  "retention_decision": "Retain as a complete bounded positive construction of a set-valued human reader with real residual ambiguity and a preserved whole-message contrast. Not selected for native application, a corpus screen, decoder, historical attribution or another teaching-test chain. No source or native payload was acquired, no encoding program or statistical test was run, and no old failure is changed."
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Fixed-arity whole-word expression notation: exact prior and a boundary obstruction",
+  "status": "BOUNDED_PRIOR_AND_THEOREM_REVIEW_NO_NEW_IDEA_NO_DATA_RUN",
+  "date_utc": "2026-10-06",
+  "started_utc": "2026-10-06T10:11:53Z",
+  "ownership": "Root proposed revisiting fixed-arity expression trees. The producer located IP080 and distinguished later source-specific implementations. Root and producer separately articulated the same elementary boundary obstruction before applying old evidence; this is shared reasoning, not an independent blinded result.",
+  "exact_existing_idea": {
+    "id": "IP080",
+    "primary": "docs/IDEA_BACKLOG.md:2052",
+    "already_proposed": "A complete prefix expression starts with one pending expression slot; an arity-k operator consumes one and opens k. Pending slots must stay positive until the last word and then reach zero. Competing serial expressions and natural language were already identified as alternatives.",
+    "explicit_limit": "The original card says operator arities and complete-expression boundaries must not both be learned from the same successful cases. Inherited parser roles are not semantic gold.",
+    "registry_status": "Curated untested, proposal_only, with not_reviewed and unmotivated_model blockers. This metadata does not prove an unexecuted generic experiment, novelty, or readiness.",
+    "review_primaries": [
+      "research_registry/decisions/clean_ip_review.json:2538",
+      "research_registry/decisions/idea_queue_triage.json:1759"
+    ],
+    "review_meaning": "Excluded from a semantic-only list because it is a structural proposal, not experimentally refuted. The translation-program predecessor screen lists it as a lexical navigation candidate for several programs, not as an identical executed design."
+  },
+  "narrow_contract_under_discussion": {
+    "units": "Every complete visible output word is one node in an ordered rooted expression tree. Its exact whole form has one fixed nonnegative integer arity globally within a reader's account. No sign, word meaning or particular arity is assigned here.",
+    "scope": "Each independently fixed source-marked paragraph is exactly one complete tree, in one globally fixed prefix or postfix traversal. No ignored words, silent roots, omitted arguments, extra sentence expressions, context-dependent arities, visible-word splitting or paragraph-dependent mode changes are allowed.",
+    "scope_status": "This is an explicit candidate assumption, not a recovered native sentence boundary. Source paragraph flags are annotation and may disagree between readers.",
+    "quantifier_difference": "IP080 proposed testing motivated, specified operators. A universal necessary feasibility question can instead quantify over every global whole-form arity assignment while fixing the scope beforehand. Failure would then reject all assignments under that scope, without identifying any operator; success would remain weak structural compatibility. It is not a new complete writing system."
+  },
+  "mathematical_conditions": {
+    "total": "For n words w1..wn with arities a(wi), sum_i(1-a(wi))=1. A tree has n-1 edges, counted once among all child slots.",
+    "prefix": "H0=1; Hk=H(k-1)-1+a(wk). Require Hk>0 for every proper prefix k<n and Hn=0. For known arities these conditions reconstruct one ordered tree, but not its semantics or type correctness.",
+    "postfix": "S0=0; before each word require S(k-1)>=a(wk); then Sk=S(k-1)-a(wk)+1. Require Sn=1. Equivalently, every nonempty prefix has Sk>=1 and the final value is1. The popped argument order is a paid convention.",
+    "forest_limit": "If a paragraph is allowed to contain m separate complete expressions, the total becomes m, not1. Choosing m after a failed one-tree check changes the contract. Unrestricted forests permit the trivial all-arity0 reading of any sequence and cannot by themselves identify a useful grammar.",
+    "counterexample_to_total_alone": "With a(A)=0 and a(F)=1, the sequence A F satisfies the total equation but is not one prefix tree: A closes the tree before F. It is a legal postfix tree. Direction and prefix/stack inequalities matter.",
+    "repetition_limit": "AAA inside a larger tree is not generally forbidden. For example a(F)=1,a(A)=0 gives legal prefix F F F A and legal postfix A F F F. Known whole-word triples alone cannot refute this unrestricted arity class. A complete expression consisting solely of AAA would be impossible because3*(1-a(A)) cannot equal1; treating a local triple as such an entire expression would need independent scope evidence."
+  },
+  "boundary_obstruction": {
+    "lemma": "In a complete prefix tree with at least two nodes, the first node has positive arity and the last node has arity0. In a complete postfix tree the first node has arity0 and the last node has positive arity.",
+    "proof": "A multi-node tree's root has a child and therefore positive arity. The final preorder node and initial postorder node have no children because any child would respectively occur afterward or beforehand. Those nodes are leaves.",
+    "consequence": "The same exact whole form occurring as the first word of one complete multiword paragraph and the last word of another complete multiword paragraph cannot have a globally fixed arity under either traversal. No arity ceiling, lexicon, glyph mapping, operator meaning, optimization or parser implementation is needed.",
+    "asymmetric_minimum": "For prefix, a multiword first-position witness plus any complete last-position witness suffices, even if that second paragraph has one word. For postfix, any complete first-position witness plus a multiword last-position witness suffices. This matters when only aggregate boundary evidence is available."
+  },
+  "old1047_evidence_only": {
+    "report": "experiments/yolo/gdt1047_bare_value_left_host/REPORT.md",
+    "method": "experiments/yolo/gdt1047_bare_value_left_host/METHOD.md",
+    "definition": "REPORT lines12-17 and METHOD lines8-14: a maximal exact-inventory run at an explicitly marked edge is a contradiction to the corresponding overt-host rule; an unmarked edge is UNKNOWN. For the singleton inventory DAIIN, a RIGHT contradiction therefore witnesses a final whole daiin, not merely a word embedded inside a longer form.",
+    "first_witness": "REPORT line45 explicitly calls IT2a f28v.6 'daiin chkaiin' a complete two-group marked paragraph. It supplies the required multiword first-position daiin witness without new data access.",
+    "end_existence": "REPORT line27 retains26 IT2a DAIIN RIGHT contradictions. The report does not print their individual complete paragraphs; it points to the stored BLOCKS/RUNS artifacts. Those artifacts were not opened by this producer.",
+    "producer_conclusion": "The primary report facts suffice for the conditional prefix contradiction if explicitly marked right ends are adopted as expression ends. Root then rechecked the existing daiin profile: zero single-physical-group occurrences in each reader, with IT740all versus1047's737P occurrences. This profile result was supplied by root, not independently queried here. The producer inspected only1047 src/run.py lines79-112: paragraph flags are constant across every complete source row, all its groups are retained, and blocks append whole rows. Consequently every marked right-ending IT daiin occurrence lies in a row with at least two groups, all included in that ending block. The postfix multiword premise therefore follows under the same source representation without opening RUNS/BLOCKS or finding a new example. Even an unknown left edge does not defeat the leaf/root implication: the retained ending row already witnesses at least two nodes of the claimed complete expression.",
+    "root_supplied_profile_scope": "The conclusion uses root's stated existing profile and the complete-row identity relation to1047; it is not a fresh producer measurement or an independent reader confirmation. No exact lexical meaning is inferred from either profile.",
+    "reader_boundary": "ZL3b has0DAIIN LEFT contradictions and25RIGHT contradictions; the IT first-word spellings agree but paragraph flags differ. RF1b has no explicit paragraph starts or ends in this input. No all-reader conclusion, fresh native image judgment, word meaning or new manuscript observation follows.",
+    "followup_scope": "1047's later fixed semantic applications do not change its stated source-marked edge facts. Its annotation-sensitive original interpretation and other failures remain."
+  },
+  "implemented_predecessors": [
+    {
+      "id": "GDT1174 System9",
+      "primary": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/METHOD.md:166",
+      "scope": "A complete finite postfix writer already has value words, two learned fixed-arity operators and a pending-value list. Its original finite-role source and screen failures are retained. Ordinary postfix composition is not a new proposal.",
+      "earlier_review": "research_registry/proposals/production_origin_supply_20261003/HUMAN_TWO_CONSTRUCTIONS_BOUNDARY_REVIEW_20261006.json"
+    },
+    {
+      "id": "IDEA000442",
+      "primary": "research_registry/proposals/raw_cennini_typed_partial_application_writer_20260920.json",
+      "scope": "Existing typed subword application with carried MODEL/STATUS/FORM1, specified omitted arguments and residual closures. It is not one whole word per context-free fixed-arity node; its raw status is not proof of no subsequent semantic work."
+    },
+    {
+      "id": "GDT986 followed by GDT987",
+      "primaries": ["experiments/yolo/gdt986_anastasia_complete_condition_trees/METHOD.md", "experiments/yolo/gdt987_anastasia_finite_word_proof/REPORT.md"],
+      "scope": "Nine complete specified assertion trees with fixed atoms, prefix/postfix order and a globally prefix-free component code. Multiple atoms can fuse into one written word.987 settles the unchanged literal equations as contradicted; it does not exclude every fixed-arity whole-word grammar."
+    },
+    {
+      "id": "GDT1001",
+      "primaries": ["experiments/yolo/gdt1001_cato_typed_complete_branch_code/METHOD.md", "experiments/yolo/gdt1001_cato_typed_complete_branch_code/REPORT.md"],
+      "scope": "Complete specified Cato tree, binary SEQ, CONS/NIL and typed codes; again multiple atoms may occupy a word. Both exact serializers failed. The prefix convention's nine initial SEQ copies already supplied a short source-specific obstruction. No source/tree-order repair is selected."
+    },
+    {
+      "id": "IDEA000528 / GDT1040",
+      "primary": "experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md",
+      "scope": "Seven pinned category guesses plus six prefix productions and remaining global N/U/B categories fail. Its chey/daiin/chey/fixed-noun/fixed-noun obstruction depends on those noun restrictions and shallow argument grammar. It does not contradict all freely chosen recursive arities or grant new meanings."
+    },
+    {
+      "id": "GDT882 / GDT903",
+      "primaries": ["experiments/yolo/gdt882_additive_line_lattice/REPORT.md", "experiments/yolo/gdt903_universal_reversible_line_action/METHOD.md", "experiments/yolo/gdt903_universal_reversible_line_action/REPORT.md"],
+      "scope": "882 excludes nonzero additive literal-character invariants on whole physical lines;903 leaves arbitrary reversible character actions to a common endpoint compatible. They erase spaces and use20literal characters, not global whole-word arities and complete paragraphs. Neither result transfers automatically to this question."
+    }
+  ],
+  "human_construction_limit": "A learned prefix/postfix vocabulary can carry meaningful open statements, but readers must learn each lexeme's meaning, arity, argument order and types. Names require a paid literal node/quoting convention; punctuation, sentence combinations, source-word boundaries and overwide output groups require a physical carrier. An arity assignment or balanced tree alone pays none of those costs. No new22-sign construction is supplied or needed for the boundary lemma.",
+  "retrieval": "Read live route and composition topic; bounded ideas searches/show/duplicates and route-check; targeted primary reads and lookup followups for903,986,1001,1040,1047. IP080 located in its exact source row and reviewed decisions. No native/profile/image query, source count, compiler, experiment or root-file mutation. Empty or lexical retrieval is not asserted as exhaustive absence.",
+  "disposition": "No new raw card and no general solver. Retain IP080 as the existing broader unselected architecture. On the supplied old IT2a edge evidence and root's existing profile check, both globally fixed traversal directions are conditionally contradicted for this explicitly declared one-paragraph-one-tree, one-whole-form-one-arity contract. No invisible null nodes, implicit arguments or multiple roots were allowed. Root owns recording that narrow closure. It is not a rejection of expression notation, learned open language, natural grammar, all readers or any proposed word meaning."
+}

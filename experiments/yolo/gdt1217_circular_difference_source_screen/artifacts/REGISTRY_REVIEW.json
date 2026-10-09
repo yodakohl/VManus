@@ -1,0 +1,58 @@
+{
+  "record_id": "GDT1217",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; separate full-source reconstruction, same author",
+  "assessment_basis": "primary_reports",
+  "reason": "Fixed948 source/ring/reset screen fails11of12SD conditions despite all12type/top10/mean and loose repeat-tolerance passes;1054recipes/80931words recover exactly. No native values or other ring/source exclusion.",
+  "blockers": [
+    {
+      "code": "fixed_source_word_length_dispersion",
+      "detail": "The unchanged one/three-unit literal expansion produces SD2.001\u20132.200; target1.586\u20131.632 with fixed25percent allowance. Global output renaming cannot change lengths.",
+      "evidence": [
+        "experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md",
+        "experiments/yolo/gdt1217_circular_difference_source_screen/artifacts/RESULT.json",
+        "experiments/yolo/gdt1217_circular_difference_source_screen/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Global output glyph renaming",
+      "More key optimization with the same source expansion",
+      "Calling near-zero repeats a native repetition match"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000948",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1180",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1206",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1207",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md"
+      ]
+    }
+  ]
+}

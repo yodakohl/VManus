@@ -1,0 +1,1 @@
+RUNS preserves every strict source group and every index-gap boundary. PROOFS preserves each seed and all seed-partner checks, including survivors. RESULT separates old/directAAA from genuinely additional nonlocal consequences.

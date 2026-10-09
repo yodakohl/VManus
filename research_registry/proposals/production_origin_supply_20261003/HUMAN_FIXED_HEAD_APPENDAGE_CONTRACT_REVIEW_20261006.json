@@ -1,0 +1,149 @@
+{
+  "schema": "bounded_conceptual_review",
+  "created_utc": "2026-10-06T11:48:00Z",
+  "status": "MATHEMATICAL_CONTRACT_REVIEW_ONLY_NO_NATIVE_TEST_NO_RAW_ADDITION",
+  "ownership": "Independent bounded producer review of a mechanism proposed by root; root owns selection, preregistration, implementation and any native test.",
+  "activity_limits": [
+    "Read live route, composition topic, bounded duplicates and route-check, and targeted existing primaries/followups.",
+    "No source encoding, native data/profile/image query, solver, corpus count, registry mutation or root artifact change."
+  ],
+  "prior_selection_note": "research_registry/proposals/production_origin_supply_20261003/HUMAN_THREE_MECHANISM_SELECTION_REVIEW_20261006_B.json",
+  "contract": {
+    "alphabet": "Exactly 22 fixed working units, distinct from a proven native alphabet.",
+    "source_binding": "Exactly one source letter for each distinct code initial g. The source-letter names/values can be freely permuted and are not inferred.",
+    "codes": "For each working unit g, exactly one fixed code C_g = g s_g. The initial proposal restricted |s_g| to 0 or 1; the reviewed generalization permits any fixed finite suffix.",
+    "stream": "A complete written group is exactly a concatenation of complete letter codes. Source word boundaries are preserved.",
+    "exclusions": [
+      "No state, optional per-occurrence allography, null output, cross-group letter code, hidden reset, or extra control mode.",
+      "No assertion that a line cut is a true word end.",
+      "No source language, lexical dictionary, sound or native meaning is selected."
+    ]
+  },
+  "mathematical_findings": [
+    {
+      "claim": "Prefix-freeness is automatic.",
+      "proof": "Two different codes have different first working units. Neither can be a prefix of the other. Therefore every concatenation has a unique code-unit parse once the fixed codebook is given. A free-UD solver is unnecessary."
+    },
+    {
+      "claim": "Branching after a proved code boundary can force a singleton.",
+      "proof": "If two reached remainders begin g h and g k with h != k, C_g cannot have any nonempty fixed suffix. If a reached complete remainder is just g, the same singleton conclusion holds. This is valid for arbitrary finite suffixes, not only length 0/1."
+    },
+    {
+      "claim": "Forced singleton elimination is safe only at established boundaries.",
+      "proof": "After a forced singleton is removed, its successor is again a code boundary. A g occurring inside an otherwise unresolved string may instead be part of the previous letter's fixed suffix. Such an arbitrary occurrence supplies no independent constraint on C_g."
+    },
+    {
+      "claim": "A common following symbol is not evidence of a nonempty suffix.",
+      "proof": "If all currently reached g-remainders begin g h, both C_g=g and possibly C_g=g h remain candidates. Merely sharing h cannot choose the expansion."
+    },
+    {
+      "claim": "The identity codebook always survives.",
+      "proof": "Setting every C_g=g parses every finite working-unit string. Thus the family as a whole cannot be rejected by parsing. The nontrivial question is whether a compatible code of length greater than one is actually used in at least one parsed group."
+    },
+    {
+      "claim": "Unused heads cannot be forced globally.",
+      "proof": "When every group has been consumed, a head never reached as a source-code initial has no observed use. Its code may be extended arbitrarily without altering any observed group. Such a vacuous extension is not an observed redundancy witness."
+    },
+    {
+      "claim": "Repeated whole output words are allowed.",
+      "proof": "This is a stateless injective homomorphism. The same source word can be written twice or three times in succession with exactly the same output. The retained whole-word doublets and triples are not general counterexamples."
+    },
+    {
+      "claim": "Output word equality and word-frequency partitions remain unchanged.",
+      "proof": "The fixed code is uniquely decodable and non-erasing, so two source words have the same encoded group if and only if they are identical. Old source-specific word-frequency exclusions remain applicable to the same source-word contract; the new code can change internal transitions and lengths."
+    }
+  ],
+  "root_supplied_examples": {
+    "exposure": "These examples were supplied or already discussed by root; this review did not retrieve their native rows or claim fresh witnesses.",
+    "ol_and_ok_initial": "If whole ol and a group beginning ok are within the bound material and units o/l/k are distinct, C_o=o follows; then the complete remainder l forces C_l=l.",
+    "qo_and_qe_initial": "If qokedy and qetchar have genuine group starts in the chosen population, differing q successors force C_q=q.",
+    "eligibility_caution": "The already supplied qetchar at f114r.39 G009 has right LINE_END, so it is not automatically eligible in root's newly proposed both-DEFINITE_SPACE population. It must not silently be added to that population. Its initial branch logic and its eligibility are different questions.",
+    "ol_olol_caution": "Whole ol and olol alone do not force both o and l to be singleton codes: C_o=ol can encode one vs two source letters. The separate ok-initial branch supplies the extra force."
+  },
+  "proposed_backtracker_review": {
+    "verdict": "COMPLETE_FOR_OBSERVED_USED_CODES_IF_ALL_BRANCHES_ARE_COVERED",
+    "invariant": "A node consists of a partial fixed assignment g -> C_g. Rescan each complete group from its true beginning. Assigned codes are consumed exactly; the first unassigned head stops that group's scan.",
+    "contradiction": "If an assigned code does not match the next full prefix, including running beyond the group's end, that entire partial-assignment branch is impossible.",
+    "next_head": "Select any one head g encountered at such stopped scans.",
+    "candidates": "Let L be the longest common prefix of all currently reached remainders beginning with that head. Enumerate every nonempty prefix of L as C_g, including the singleton. Longest-first affects order only.",
+    "completeness_proof": "Any full solution extending the current partial assignment must follow the same unique already-assigned parse before each stopped position. Therefore its C_g must be a prefix of every corresponding remainder and hence one of the enumerated prefixes of L. Conversely, assignments surviving this necessary condition still require the complete rescan; no local prefix match alone is called a solution. Induction over assignments proves coverage of all full solutions that use observed heads. Each branch fixes one previously unassigned head, giving depth at most 22. Candidate lengths are bounded by finite reached remainders, so observed-code search is finite even when suffix lengths were not bounded in advance.",
+    "success": "All groups must be read completely. A nontrivial positive witness additionally needs an assigned code of length greater than one that was actually consumed at least once.",
+    "singleton_leaf": "A fully read leaf whose actually consumed codes are all singleton is the identity outcome for that branch, not a failure of the full family. Other branches must still be covered before claiming no used expansion exists.",
+    "unknown": "An interrupted or otherwise uncovered branch remains UNKNOWN; it cannot be replaced by the identity leaf or a negative global conclusion.",
+    "certificate_obligations": [
+      "Bind the exact eligible complete group strings and working-unit segmentation before search.",
+      "For every branching node retain or independently recompute the partial assignment, selected head, reached rests, longest common prefix and all allowed prefix lengths.",
+      "For every contradiction retain the exact group and offset, assigned code and failing prefix/end condition.",
+      "For every successful leaf independently replay all complete parses and mark which assigned codes are actually used.",
+      "Any memoized or pruned subtree must have an independently justified equivalence/dominance rule; otherwise enumerate it.",
+      "A proof of no used nontrivial code needs coverage of all candidate children; absence of a saved positive witness is insufficient."
+    ],
+    "conclusion_ceiling": "Even complete exclusion would concern this fixed 22-unit, one-code-per-initial, complete-group homomorphism. It would not identify source letters, prove singleton physical atoms, translate any word, or exclude context-conditioned/multi-code/space-changing writers."
+  },
+  "primary_predecessors": [
+    {
+      "id": "IP076",
+      "path": "docs/IDEA_BACKLOG.md",
+      "location": "line 2048",
+      "status": "Raw reserved-prefix/direct-code architecture; no complete fixed table in the cited primary.",
+      "difference": "A reserved prefix may have multiple second-sign selectors. The present contract has exactly one complete code per distinct initial. The broad idea of prefix parsing is already present; only the narrower fixed-head consequence is at issue."
+    },
+    {
+      "id": "GDT892",
+      "paths": [
+        "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/METHOD.md",
+        "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md"
+      ],
+      "status": "INSUFFICIENT_ELIGIBLE_SENTENCES; the registered control was not executed.",
+      "primary_fact": "For length-1/2 prefix-free codes, a global set S of standalone initials determines 1-versus-2 segmentation, with explicit full-codebook cardinality constraints.",
+      "difference": "That 27-component CV channel over 20 raw characters permits several two-character codes sharing an initial and binds source forms and grammar. The current source-free fixed-head code family is a different, narrower code contract.",
+      "followups_read": [
+        {
+          "id": "GDT895",
+          "path": "experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md",
+          "decision": "ALL_FOUR_PANELS_UNSAT for its fixed complete Simon-entry source and CV channel, not all prefix codes."
+        },
+        {
+          "id": "GDT906",
+          "path": "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md",
+          "decision": "COMPLETE_NO_GRAMMAR_KEY for all fixed GDT905 cases; no open runtime remainder in that unchanged grammar/source search."
+        }
+      ]
+    },
+    {
+      "id": "GDT856",
+      "path": "experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md",
+      "location": "lines 3-28",
+      "status": "Published 98-unit BPE inventory is not freely uniquely decodable; CE=[C,E]=[CE].",
+      "difference": "Its codes can prefix one another; the current distinct-initial family cannot. It does not require another free-UD inventory test."
+    },
+    {
+      "id": "GDT192",
+      "path": "GDT192_COMPILER_STRIPPED_EXPANSION_REPORT.md",
+      "status": "COMPILER_STRIPPED_EXPANSION_FALSIFIED within its old fitted language-pack comparison.",
+      "difference": "It expands each observed PAGE_HOST sign into one or two named source letters, paying boundaries and reverse ambiguity. This is the opposite mapping direction and a compiler-stripped/fitted source channel, not whole raw-group segmentation into distinct-initial codes.",
+      "followup_read": "GDT202_HYBRID_THEORY_RECONCILIATION_REPORT.md",
+      "followup_scope": "The old local semantic decoder was withdrawn. Its historical leading-theory prose is not adopted as today's live route or a general prohibition on other writing systems."
+    },
+    {
+      "id": "GDT984 / GDT1168",
+      "paths": [
+        "experiments/yolo/gdt984_name_code_remainder_prefix_capacity/METHOD.md",
+        "experiments/yolo/gdt1168_interval_unknown_completion/REPORT.md"
+      ],
+      "status": "984 is a necessary prefix-compatibility projection in a fixed Dioscorides content code; 1168 was NOT_SELECTED_NOT_EXECUTED.",
+      "difference": "No old source-name assignment or unresolved GDT1097 case is reused here. Merely extending old solver runtime remains disallowed; a complete source-free fixed-head consequence must stand on its own."
+    },
+    {
+      "id": "GDT601 / GDT604",
+      "paths": [
+        "experiments/yolo/gdt601_naibbe_literal_key_attack/METHOD.md",
+        "experiments/yolo/gdt604_naibbe_frozen_target_attack/REPORT.md"
+      ],
+      "status": "Literal historical key gave language-model-driven pseudo-text and no reading.",
+      "difference": "Its fixed large mixed code table and plaintext word spaces differ from 22 one-per-head letter codes that preserve source word boundaries. No key attack or language choice is reopened."
+    }
+  ],
+  "novelty_limit": "Bounded searches and the cited primaries did not establish an already executed identical fixed-head appendage elimination. This is not a claim of global archival absence. Prefix-code methods and source-bound expansion tests are substantial predecessors, not new discoveries.",
+  "suggested_decision": "Root may choose the smallest complete observed-use existence check if its separate decision note justifies it. A positive yields only an explicit formal alternative; a negative excludes only used fixed appendages under the selected unit/group contract. Neither result is a word translation."
+}

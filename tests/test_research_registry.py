@@ -52,6 +52,49 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual({x['id'] for x in registry.search(self.root, 'shared')['results']},
                          {'IP001', 'IP002'})
 
+    def test_show_exposes_incoming_history_without_changing_parent_decision(self):
+        self.snapshot([
+            record('IP001', aliases=['PARENT_ALIAS'], verdict='untested',
+                   relations=[dict(type='related_to', target='IP002')]),
+            record('IP002'),
+            record('HIST:example', kind='history', verdict='refuted_specific_model',
+                   relations=[dict(type='related_to', target='IP001',
+                                   evidence=['docs/old_result.md'])]),
+        ])
+        canonical = self.root / registry.DIRECTORY / 'imported.jsonl'
+        before = canonical.read_bytes()
+        result = registry.show(self.root, 'PARENT_ALIAS')
+        self.assertEqual(result['verdict'], 'untested')
+        self.assertEqual(result['incoming_relation_count'], 1)
+        card = result['incoming_relation_cards'][0]
+        self.assertEqual(card['id'], 'HIST:example')
+        self.assertEqual(card['verdict'], 'refuted_specific_model')
+        self.assertEqual(card['relation_evidence'], ['docs/old_result.md'])
+        self.assertEqual(result['relations'][0]['target'], 'IP002')
+        self.assertIn('not supersession', result['relation_navigation'])
+        self.assertEqual(canonical.read_bytes(), before)
+
+    def test_show_bounds_incoming_cards_and_keeps_existing_relation_paging(self):
+        self.snapshot([record('IP001')] + [
+            record(f'CHILD{i:02}', relations=[dict(type='related_to', target='IP001')])
+            for i in range(12)])
+        result = registry.show(self.root, 'IP001')
+        self.assertEqual(result['incoming_relation_count'], 12)
+        self.assertEqual([c['id'] for c in result['incoming_relation_cards']],
+                         ['CHILD00', 'CHILD01', 'CHILD02', 'CHILD03'])
+        page = registry.page_field(self.root, 'IP001', 'relations', limit=8, offset=8)
+        self.assertEqual(page['total'], 12)
+        self.assertEqual(len(page['items']), 4)
+        self.assertTrue(all(c['direction'] == 'incoming' for c in page['items']))
+        self.assertIsNone(page['next_offset'])
+
+    def test_show_no_incoming_links_does_not_invent_followup_evidence(self):
+        self.snapshot([record('IP001')])
+        result = registry.show(self.root, 'IP001')
+        self.assertEqual(result['incoming_relation_count'], 0)
+        self.assertEqual(result['incoming_relation_cards'], [])
+        self.assertNotIn('relation_navigation', result)
+
     def test_canonical_jsonl_change_cannot_leave_search_index_silently_stale(self):
         self.snapshot([record('IP001', title='Oldfixturetoken')])
         registry.write_snapshot(self.root, [record('IP001', title='Newfixturetoken')])

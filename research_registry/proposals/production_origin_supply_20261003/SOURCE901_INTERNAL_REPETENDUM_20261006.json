@@ -1,0 +1,160 @@
+{
+  "title": "SOURCE901: four complete Cantus source-spelling fields and their terminal-to-internal cue matches",
+  "status": "SOURCE_ONLY_RECHECK_OF_EXISTING_IDEA901; NO_NATIVE_TEST",
+  "created_utc": "2026-10-06T22:14:15.160461+00:00",
+  "proposal": "research_registry/proposals/production_origin_supply_20261003/internal_repetendum_cues.json",
+  "source_scope": {
+    "institutional_edition": "Cantus Database",
+    "witness_as_catalogued": "Paris, Bibliotheque nationale de France, Latin 1085",
+    "provenance_as_catalogued": "St. Martial de Limoges",
+    "date_as_catalogued": "10th century (975-1000); displayed secondary range text 0960+ also retained in saved HTML",
+    "inventory_credit": "Lila Collamore, Catholic University of America; source pages credit an NEH Summer Stipend",
+    "source_type": "Modern institutional transcription/index of a historical witness, not fresh manuscript collation",
+    "limit": "Only these four named records were fetched; linked source facsimiles were not opened."
+  },
+  "records": [
+    {
+      "record_id": "444239",
+      "url": "https://cantusdatabase.org/chant/444239/",
+      "fields": {
+        "Source": "Paris, Bibliothèque nationale de France, Latin 1085",
+        "Folio": "003v",
+        "Sequence": "8",
+        "Feast": "Dom. 1 Adventus",
+        "Service": "M",
+        "Genre": "R",
+        "Position": "1.1",
+        "Cantus ID": "006129.1",
+        "Full text as in Source (standardized spelling)": "Aspiciens a longe ecce video dei potentiam venientem et gloriam ejus totam terram tegentem ite obviam ei et dicite ostende nobis faciem tuam qui regnas in aeternum in populo Israel",
+        "Full text as in Source (source spelling)": "ASPiciens a lonGE ECCE VIDEO DEI POTENTIAM venientem et gloriam eius totam terram tegentem Ite obviam ei et dicite Ostende nobis faciem tuam qui regnas in Aeternum in populo israhel",
+        "Image link": "http://gallica.bnf.fr/ark:/12148/btv1b8432277r/f12.image"
+      }
+    },
+    {
+      "record_id": "444240",
+      "url": "https://cantusdatabase.org/chant/444240/",
+      "fields": {
+        "Source": "Paris, Bibliothèque nationale de France, Latin 1085",
+        "Folio": "004r",
+        "Sequence": "1",
+        "Feast": "Dom. 1 Adventus",
+        "Service": "M",
+        "Genre": "V",
+        "Position": "01",
+        "Cantus ID": "006129a",
+        "Full text as in Source (standardized spelling)": "Quique terrigenae et filii hominum simul in unum dives et pauper",
+        "Full text as in Source (source spelling)": "Quique terrigene et filii hominum simul in unum dives et pauper | Ite obviam",
+        "Image link": "http://gallica.bnf.fr/ark:/12148/btv1b8432277r/f13.image"
+      }
+    },
+    {
+      "record_id": "444241",
+      "url": "https://cantusdatabase.org/chant/444241/",
+      "fields": {
+        "Source": "Paris, Bibliothèque nationale de France, Latin 1085",
+        "Folio": "004r",
+        "Sequence": "2",
+        "Feast": "Dom. 1 Adventus",
+        "Service": "M",
+        "Genre": "V",
+        "Position": "02",
+        "Cantus ID": "006129b",
+        "Full text as in Source (standardized spelling)": "Qui regis Israel intende qui deducis velut ovem Joseph qui sedes super cherubim",
+        "Full text as in Source (source spelling)": "Qui regis israel intende qui deducis velut ovem ioseph qui sedes super cherubim | Ostende",
+        "Image link": "http://gallica.bnf.fr/ark:/12148/btv1b8432277r/f13.image"
+      }
+    },
+    {
+      "record_id": "444242",
+      "url": "https://cantusdatabase.org/chant/444242/",
+      "fields": {
+        "Source": "Paris, Bibliothèque nationale de France, Latin 1085",
+        "Folio": "004r",
+        "Sequence": "3",
+        "Feast": "Dom. 1 Adventus",
+        "Service": "M",
+        "Genre": "V",
+        "Position": "03",
+        "Cantus ID": "006129d",
+        "Full text as in Source (standardized spelling)": "Excita domine potentiam tuam et veni ut salvos facias nos",
+        "Full text as in Source (source spelling)": "Excita domine potentiam tuam et veni ut salvos facias nos | Qui regnas",
+        "Image link": "http://gallica.bnf.fr/ark:/12148/btv1b8432277r/f13.image"
+      }
+    }
+  ],
+  "identity_rule": {
+    "tokens": "Split displayed source-spelling field on whitespace. Preserve all spellings and case in saved text. The one displayed vertical bar in each verse is recorded separately as database notation.",
+    "case_sensitive": "No character normalization beyond HTML entity decoding and display-whitespace collapse.",
+    "casefold": "Only casefold per word; no spelling normalization, stemming, edit distance, omitted word or reordered word.",
+    "base_word_count": 30,
+    "comparison_population": "The single complete source-spelling base field 444239 only."
+  },
+  "cue_checks": [
+    {
+      "verse_record_id": "444240",
+      "complete_verse_before_database_separator": "Quique terrigene et filii hominum simul in unum dives et pauper",
+      "terminal_cue_exact": "Ite obviam",
+      "cue_word_count": 2,
+      "base_case_sensitive_start_positions_1_based": [
+        15
+      ],
+      "base_casefold_start_positions_1_based": [
+        15
+      ],
+      "base_matched_text_exact": [
+        "Ite obviam"
+      ],
+      "unique_casefold_in_base": true,
+      "strictly_internal_in_base": true,
+      "continuation_end": null
+    },
+    {
+      "verse_record_id": "444241",
+      "complete_verse_before_database_separator": "Qui regis israel intende qui deducis velut ovem ioseph qui sedes super cherubim",
+      "terminal_cue_exact": "Ostende",
+      "cue_word_count": 1,
+      "base_case_sensitive_start_positions_1_based": [
+        20
+      ],
+      "base_casefold_start_positions_1_based": [
+        20
+      ],
+      "base_matched_text_exact": [
+        "Ostende"
+      ],
+      "unique_casefold_in_base": true,
+      "strictly_internal_in_base": true,
+      "continuation_end": null
+    },
+    {
+      "verse_record_id": "444242",
+      "complete_verse_before_database_separator": "Excita domine potentiam tuam et veni ut salvos facias nos",
+      "terminal_cue_exact": "Qui regnas",
+      "cue_word_count": 2,
+      "base_case_sensitive_start_positions_1_based": [],
+      "base_casefold_start_positions_1_based": [
+        24
+      ],
+      "base_matched_text_exact": [
+        "qui regnas"
+      ],
+      "unique_casefold_in_base": true,
+      "strictly_internal_in_base": true,
+      "continuation_end": null
+    }
+  ],
+  "bounded_observations": [
+    "All three different complete terminal cues occur uniquely and strictly internally in the complete base under the declared casefold rule; their starts are in ascending order.",
+    "Ite obviam and Ostende match the base case-sensitively; Qui regnas does not because the base has qui regnas. Thus a claim of three byte-exact identities would be false.",
+    "Each standardized-spelling verse field omits its terminal cue. Standardized fields cannot replace the source-spelling fields for this observation.",
+    "The four entries are consecutive in the displayed institutional source navigation: 003v sequence8 then004r sequences1,2,3. This is record adjacency, not an observed four-paragraph layout."
+  ],
+  "interpretation_and_open_limits": [
+    "Different terminal cues selecting three different internal starts is supported as a text-retrieval interpretation by the indexed responsory/verse sequence; the literal identity observation itself does not prove every performance instruction.",
+    "No continuation endpoint, doxology, stopping at the next cue, or automatic continuation to the end is inferred from these four records.",
+    "The vertical bar is attested only in the database source-spelling field. No physical manuscript bar, paragraph mark, blank size or word-space geometry was inspected.",
+    "Historical witness and transcription do not identify Voynich contents, language, word meanings, word/group alignment, paragraph ownership, music or a native retrieval operation.",
+    "This verifies the existing raw901 historical example; it does not claim a new writing mechanism or select a native experiment."
+  ],
+  "rights": "Historical Latin content is public domain; institutional database page states CC BY-NC-SA4.0; credit and links retained."
+}

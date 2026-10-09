@@ -1,0 +1,66 @@
+{
+  "status": "BOUNDED_CONCEPTUAL_PROOF_ADDENDUM_NO_NATIVE_APPLICATION",
+  "proposal": "IDEA000961",
+  "frozen_raw": "research_registry/proposals/production_origin_supply_20261003/HUMAN_PREFIX_QUOTIENT_CAPACITY_RAW_20261006.json",
+  "purpose": "State the direct-head and predecessor-closure cardinality bounds separately and prove their edge cases. Record root's correct redundancy observation without changing the registered RAW.",
+  "assumptions": [
+    "W is a finite set of nonempty complete group strings over one fixed working-unit alphabet A.",
+    "C is a fixed finite prefix-free set of nonempty strings. W is a subset of C*. Several entries may share their first unit; no length bound is imposed.",
+    "Nontrivial means a code of length>1 is actually consumed in some W parse; unused long entries are irrelevant.",
+    "R is the full nonempty closure of W under u,v=u r -> r. H is its first-unit set; F is its one-unit set; T contains a->b for every exact two-unit remainder ab.",
+    "d_h counts distinct second units of h-initial R strings. Define d_h=0 if no such second unit exists.",
+    "All assertions are conditional on true complete-group boundaries and the fixed working units, not native atomicity or meanings."
+  ],
+  "preserved_identity": "C=A always covers W using at most22 entries. No bound>22 is claimed for the family allowing only used singleton codes.",
+  "first_bound": {
+    "statement": "Every compatible C has at least |H| codewords.",
+    "proof": "For each h in H, the first codeword in any legal parse of an h-initial remainder begins with h. Distinct heads require distinct codewords."
+  },
+  "direct_nontrivial_head_bound": {
+    "let": "g is the first unit of one actually used multi-unit code.",
+    "forced_absence": "Prefix-freeness implies g is not a singleton code. Consequently g cannot belong to F.",
+    "bound": "|C| >= |H union {g}| + max(1,d_g) - 1.",
+    "case_in_H": "When g is in H, every g-initial remainder has length>=2 and its first code has length>=2. Distinct second units therefore require distinct g-initial codes. Other required heads each cost at least one. This is |H|-1+d_g.",
+    "case_outside_H": "When g is outside H, d_g=0. Every H head still costs at least one, and the assumed actually used g-headed code is one additional entry. Thus the bound is |H|+1. The fact that g is not a remainder's first unit does not rule out its use inside an original group.",
+    "caveat": "An outside-H candidate may be impossible for additional reasons, such as occurring only at positions too near an end. This optimistic bound does not assume such reasons away as a constructed witness."
+  },
+  "predecessor_bound": {
+    "local_implication": "For a complete two-unit remainder ab, singleton a implies singleton b: first consume a, leaving the complete one-unit remainder b. Contrapositively, non-singleton b requires non-singleton a.",
+    "N_g": "The set containing g and every vertex with a directed T-path to g.",
+    "forbidden_case": "If N_g meets F, this g is impossible.",
+    "K_g": "H union {g}.",
+    "containment": "N_g is a subset of K_g. Every proper predecessor along T starts an existing two-unit remainder and hence lies in H; g was explicitly included.",
+    "required_per_head": "For h in N_g, all h-headed codes have length>=2. At least max(1,d_h) such entries are required. For each remaining head in K_g there is at least one required entry.",
+    "bound": "|C| >= |K_g| + sum_{h in N_g}(max(1,d_h)-1).",
+    "proof": "Partition code entries by their first working unit. Those classes are disjoint. Sum the above minimum counts over the required heads. The max handles g outside H; every other N_g member already begins an R remainder. This does not assume the codes are exactly two units long.",
+    "dominance": "Because g lies in N_g and every added term is nonnegative, the predecessor bound is at least the direct-head bound.",
+    "interpretation": "For a global necessary lower bound on nontrivial codebooks, minimize over all possible actually used heads g, including g outside H. A bound exceeding22 excludes the declared small family. A bound at most22 means only not excluded; it is not exact codebook minimality, a parse witness or a reading."
+  },
+  "roots_redundancy_observation": {
+    "statement": "For fully quotient-closed R, F is forward-closed under T.",
+    "proof": "If a is in F and ab is in R, the quotient of ab by a is b, which must be in R and hence in F. Repeat along a T-path.",
+    "consequence": "If g is not in F, N_g cannot meet F. Thus after full closure the forbidden-intersection check is redundant with g not in F. It remains useful as an independent consistency check or while working with an unfinished subset of the closure.",
+    "not_a_new_condition": "This does not change either count bound, introduce a new parameter or claim any native result."
+  },
+  "sharp_toy": {
+    "W": [
+      "aa",
+      "ab",
+      "ba",
+      "bb"
+    ],
+    "identity": "The two singletons a,b cover W.",
+    "nontrivial": "If a is singleton, ab forces b singleton. If b is singleton, ba forces a singleton. A nontrivial code therefore contains neither singleton; each two-unit whole word must be its own code.",
+    "attained_minimum": "Exactly four codes aa,ab,ba,bb form a prefix-free table and are all used. Thus the nontrivial minimum is4 here, while the unrestricted minimum is2.",
+    "lesson": "The elementary necessary bound can be sharp on a finite teaching example; this does not make it the exact minimum for an arbitrary larger panel."
+  },
+  "certificate_limits": [
+    "A derived remainder needs an explicit u,v=u r chain from the fixed complete-group inputs.",
+    "Full R closure and the deduced H/F/T/d sets must be independently checkable before they are described as exact.",
+    "A partial but valid derivation set can yield a weaker valid necessary bound; it cannot silently be called the full closure.",
+    "No guessed source words, per-form arities, source-language lexicon or native values enter the proof.",
+    "No source-word-frequency claim follows from the cardinality bound.",
+    "No26/28-letter expansion or complete table search is implied by either outcome."
+  ],
+  "execution": "No native strings were queried, no R/H/F/T/d/N values were computed, no decoder or solver was executed, and no1233 artifact was opened. Only own JSON-file syntax/hash validation is performed."
+}

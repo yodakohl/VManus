@@ -1,0 +1,200 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete source-indexed alias books and first8000-group frequency partitions preserve every recipe, source word and equality count for independent reconstruction. Each artifact is below300kB; no new native text or images.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed-source canonical ALT frequency failure and conditional UD repeated-block parity obligation only; no native letter/unit/meaning, grammar, historical claim or general rejection of spelling variation.",
+  "commands": {
+    "run": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1207_letter_alias_parity_frequency/src/run.py",
+    "validate": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1207_letter_alias_parity_frequency/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT1174",
+    "GDT1176",
+    "GDT1177",
+    "GDT1180",
+    "GDT1196",
+    "GDT1197",
+    "GDT1200",
+    "GDT1201",
+    "GDT1202",
+    "GDT1204",
+    "GDT1205",
+    "GDT1206"
+  ],
+  "experiment_id": "GDT1207",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_PER_LETTER_ALTERNATORS_RAW_20261005.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "be65a10d0cda4845548c2e8980c2687b7d6a62e5615eac83efd55ee7272e7f64"
+    },
+    {
+      "path": "experiments/yolo/gdt1197_letter_memory_frequency/PREREGISTRATION.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "dc6809ba33f0c8b79e4fdae3ff91bb9a74c760831ce77b35e2df77c5858498eb"
+    },
+    {
+      "path": "experiments/yolo/gdt1197_letter_memory_frequency/METHOD.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "9c9133b584c8e9f4f36c4d26406bda3ec09a610c62fd984101ae0492b607a07b"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/REPORT.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "6ad6743055d8d61daf9cb9767a75facd128e9b04298d2b9c8f84afc14e3d903b"
+    },
+    {
+      "path": "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "cf2bdf3720c7ca95f7bee3517edc70ad8d4cb46eea17b0c2d7205c8f6dfd2e42"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/REPORT.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "703aab4fe347d2715dc5e761d107bf0c05cd492faf35e6ced97e7a0c29859204"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/METHOD.md",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "bf5a8095e068110c610a3dd700f8fb2f10c7f9feae0adc079f5f5786358c5d45"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/PREREGISTRATION.md",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "3adc891fdfabf388c9fe2bbdd90c0b193e93e222fdfef31ae03bf1b142ae445e"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/README.md",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "48f0446eb5ab5611e6686976f6d7e8e30cdcda5fd30663b41ae84d0136117904"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/REPORT.md",
+      "role": "Primary report",
+      "sha256": "9cd9f4115f55d53b4373e4b9afad83ab67ee93adb083e4d29fd038a3a516f3a8"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/ENCODED_b4.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "26e7c5ec37549dd2d4a76adb21e65fd4a1a508db2ab1d3cbb09ef4948d9e5f50"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/ENCODED_bs1.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "ff1b18404f8b8218edd82f95c888bc13cb28ec4910776a90a8bf20039b010c11"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/ENCODED_gr1.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "198c79b834fcbad6f81dc5587ce1711d2c0ae7972d9b7e521ced2b90bcdb23b0"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/ENCODED_w1.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "13319276e5b4b74af7afee8e0445056d40ef3f7a657b5a7ce20ea3be5ec5b458"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/FREQUENCIES_b4.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "965606d3e10398bda5425909b033e1779d0658e5bedcdfa0f211ce60c69e5eb6"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/FREQUENCIES_bs1.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "0bb1070805e23fd50284e9d94e3dc58c6b1114af6637bc49f5a9c6073c19f633"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/FREQUENCIES_gr1.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "4a12a8b3a746a80473c1e120d009798ef9e67e16d1d5edf06839973a47213ce7"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/FREQUENCIES_w1.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "7a704e5dd7071f24cc208435e4c179b820d976e8b3a49f6c0ac8a1119430145c"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/IDEA938_REVIEW.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "7ccd1f8ebeb6b1de18b971642f0008233164524c4207252ed0b39db095b5e5db"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/README.md",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "cae195e873b052da5a821ae7572276e16d6c7c1afccc4f625571a7f343e88cd2"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/REGISTRATION_LOCK.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "53c941111317a6c836709f471bb534b88888bfe02da1b52fa58b631073d575e3"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/REGISTRY_REVIEW.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "9e29932d1c36b80d1ff8744c3f1f43fd22bee29f51e55b96bef9255657e48b70"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/RESULT.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "aee6feec20e4c760a754ed57ff66e02d0b93fa163115217da942fc615e70348c"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/RUN_RECEIPT.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "6bc8b43cfee3a9ca77000ca8b722a20354f330f658c056190fc92efd075147d1"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/VALIDATION.json",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "df190a9e19632e0ebee130c74072d2b14be0dbaea90b65cf89ab4c55c0c0065c"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/src/run.py",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "88bf344e2a7e67902a35d94cd3f431b3f9345b3075d01758b7b1de428860e142"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/src/validate.py",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "a2daca822b3f46209f7ecdcb912c8392d915f7a8146a27da1a5272ac9f05084d"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/src/writer.py",
+      "role": "Complete alias-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "d4e374d09672f5589696afd641b8c46b3c88a2017a9d04df6c42a7f55a53fd7c"
+    }
+  ],
+  "question": "Do independent per-letter two-alias ticks retain the required repeated-block constraints and meet the three unchanged necessary word-frequency conditions on four exposed sources?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "letter_alias_parity_frequency",
+  "status": "ALT_FREQUENCY_SCREEN_FAIL",
+  "title": "Fixed letter aliases: parity and frequency",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1207_letter_alias_parity_frequency/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

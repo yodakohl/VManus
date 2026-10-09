@@ -1,0 +1,444 @@
+{
+  "source_id": "b6.8",
+  "source_file": ".gdt176/corema/b6.recipes.xml",
+  "source_text": "Willthu machenn ein guetts gebackenes vonn luengenn So hack die luengen cklein vnd ein wintzigs gesettes specks darvnter vnd zwenn eir toterr vnd gutte wirtz vnd hack es gar klein vnd mach clein kugl dar vuß vnd mach ein guettenn starckenn teygk vnd zeyg die kugell durch vnd back es Inne Smaltz vnd versalcz nicht",
+  "source_selection": "First inspected after b6.7; no omissions visible or tagged; selected before coding/counts.",
+  "normalization": "Whitespace only in aligned source; capitalization/inflection not claimed reversible as meaning. Unknown labels retain exact lower-case ASCII source words; known semantic equivalents listed per clause.",
+  "coverage_ceiling": "Complete stipulated semantic/opaque-word account, not independent understanding of unfamiliar words. Nominal fragments stay fragments.",
+  "source_attribution": "CoReMA, Zentrum für Informationsmodellierung, Universität Graz; cached B6 recipe edition; CC BY 4.0. Existing cache, no new acquisition.",
+  "clauses": [
+    {
+      "id": "C01",
+      "source": "Willthu machenn ein guetts gebackenes vonn luengenn",
+      "reading": "Wenn du ein gutes [gebackenes] aus Lungen machen willst; gebackenes bleibt ausgeschriebener Quellname.",
+      "tree": [
+        "IF_WANT",
+        [
+          [
+            "MAKE",
+            [
+              [
+                "INDEF",
+                [
+                  [
+                    "GOOD",
+                    [
+                      [
+                        "LIT:gebackenes",
+                        []
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "FROM",
+                [
+                  [
+                    "PLURAL",
+                    [
+                      [
+                        "LIT:luengenn",
+                        []
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "IF_WANT applies to the whole recipe paragraph as before. No narrowing to dumplings from the editorial English title."
+      ]
+    },
+    {
+      "id": "C02",
+      "source": "So hack die luengen cklein",
+      "reading": "So hacke die Lungen klein.",
+      "tree": [
+        "SO",
+        [
+          [
+            "DO",
+            [
+              [
+                "SMALL",
+                [
+                  [
+                    "CHOP",
+                    [
+                      [
+                        "DEF",
+                        [
+                          [
+                            "PLURAL",
+                            [
+                              [
+                                "LIT:luengen",
+                                []
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "The two source spellings luengenn/luengen remain different literal names; no new lemma rule."
+      ]
+    },
+    {
+      "id": "C03",
+      "source": "vnd ein wintzigs gesettes specks darvnter",
+      "reading": "Und eine [wintzigs]-Menge von [gesettes] Speck darunter: nominaler Zusatz ohne ergänztes Tätigkeitswort.",
+      "tree": [
+        "AND",
+        [
+          [
+            "QUOTE1:darvnter",
+            [
+              [
+                "INDEF",
+                [
+                  [
+                    "QUOTE1:wintzigs",
+                    [
+                      [
+                        "QUOTE1:gesettes",
+                        [
+                          [
+                            "LIT:specks",
+                            []
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "darvnter is retained as a spelled one-argument source fragment, not silently converted to TAKE/PUT or resolved ingredients. The ordinary DARUNTER reference alone cannot attach this fragment.",
+        "wintzigs retains the quantity expression, not physical smallness of a bacon piece. gesettes remains uninterpreted; no gesotten/gesalzen correction.",
+        "Quote attachments are stipulated source syntax, not meanings learned from the writer. No new short grammar entry is installed."
+      ]
+    },
+    {
+      "id": "C04",
+      "source": "vnd zwenn eir toterr",
+      "reading": "Und zwei Eigelb; die Zahl bezieht sich auf [toterr] von Eiern, nicht auf zwei ganze Eier.",
+      "tree": [
+        "AND",
+        [
+          [
+            "QUOTE1:zwenn",
+            [
+              [
+                "QUOTE1:toterr",
+                [
+                  [
+                    "PLURAL",
+                    [
+                      [
+                        "EGG",
+                        []
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "The written zwenn scopes over the yolk expression. QUOTE1:toterr retains the single source word as head applied to eggs; it is not replaced by an ORIGIN claim or whole eggs.",
+        "PLURAL(EGG) renders the written eir component; it does not impose one yolk per egg, at least two individual eggs, or a count beyond the two yolks. This source-compound reading is stipulated; a stricter physical-individual interpretation would overstate the source."
+      ]
+    },
+    {
+      "id": "C05",
+      "source": "vnd gutte wirtz",
+      "reading": "Und gute Würze/Gewürze.",
+      "tree": [
+        "AND",
+        [
+          [
+            "GOOD",
+            [
+              [
+                "SPICE",
+                []
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "Use inherited SPICE material reading, not an added count of spices."
+      ]
+    },
+    {
+      "id": "C06",
+      "source": "vnd hack es gar klein",
+      "reading": "Und hacke es [gar] klein.",
+      "tree": [
+        "AND",
+        [
+          [
+            "DO",
+            [
+              [
+                "QUOTE1:gar",
+                [
+                  [
+                    "SMALL",
+                    [
+                      [
+                        "CHOP",
+                        [
+                          [
+                            "ES",
+                            []
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "gar retains its degree-strengthening source word and scope; not reduced to WELL. ES antecedent stays unresolved."
+      ]
+    },
+    {
+      "id": "C07",
+      "source": "vnd mach clein kugl dar vuß",
+      "reading": "Und mache kleine Kugeln daraus.",
+      "tree": [
+        "AND",
+        [
+          [
+            "DO",
+            [
+              [
+                "MAKE",
+                [
+                  [
+                    "SMALL",
+                    [
+                      [
+                        "PLURAL",
+                        [
+                          [
+                            "BALL",
+                            []
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "DARAUS",
+                    []
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "The phrase dar vuß is read as inherited DARAUS, not resolved to a mixture. BALL is the inherited Ball/Ballen concept for kugl/kugell. Plural is inferred from this syntax; no exact number is added."
+      ]
+    },
+    {
+      "id": "C08",
+      "source": "vnd mach ein guettenn starckenn teygk",
+      "reading": "Und mache einen guten [starckenn] Teig; Herkunft/Zusatz bleibt unausgesprochen.",
+      "tree": [
+        "AND",
+        [
+          [
+            "DO",
+            [
+              [
+                "MAKE",
+                [
+                  [
+                    "INDEF",
+                    [
+                      [
+                        "GOOD",
+                        [
+                          [
+                            "QUOTE1:starckenn",
+                            [
+                              [
+                                "LIT:teygk",
+                                []
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "UNSAID",
+                    []
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "UNSAID pays for the existing obligatory second MAKE slot; no new unary MAKE rule. Strong is retained, not equated to HARD or an inferred viscosity."
+      ]
+    },
+    {
+      "id": "C09",
+      "source": "vnd zeyg die kugell durch",
+      "reading": "Und [zeyg] die Kugeln [durch]; das Durchgangsmedium bleibt ungeschrieben.",
+      "tree": [
+        "AND",
+        [
+          [
+            "DO",
+            [
+              [
+                "QUOTE1:durch",
+                [
+                  [
+                    "QUOTE1:zeyg",
+                    [
+                      [
+                        "DEF",
+                        [
+                          [
+                            "PLURAL",
+                            [
+                              [
+                                "BALL",
+                                []
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "Spelled durch takes the zeyg action, retaining the direction particle without inventing a target reference. No insertion of batter as object. zeyg remains the literal source predicate."
+      ]
+    },
+    {
+      "id": "C10",
+      "source": "vnd back es Inne Smaltz",
+      "reading": "Und [back] es in Schmalz.",
+      "tree": [
+        "AND",
+        [
+          [
+            "DO",
+            [
+              [
+                "REL",
+                [
+                  [
+                    "QUOTE1:back",
+                    [
+                      [
+                        "ES",
+                        []
+                      ]
+                    ]
+                  ],
+                  [
+                    "IN",
+                    [
+                      [
+                        "LIT:smaltz",
+                        []
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "Existing REL attaches the explicit location. Baking/frying distinction remains in back; no substitution by BOIL or inferred oven. ES stays unresolved. Capitalization omitted as in original account."
+      ]
+    },
+    {
+      "id": "C11",
+      "source": "vnd versalcz nicht",
+      "reading": "Und salze nicht übermäßig; das Objekt bleibt ungesagt.",
+      "tree": [
+        "AND",
+        [
+          [
+            "DO",
+            [
+              [
+                "NOT",
+                [
+                  [
+                    "EXCESS",
+                    [
+                      [
+                        "APPLY",
+                        [
+                          [
+                            "SALT_MATERIAL",
+                            []
+                          ],
+                          [
+                            "UNSAID",
+                            []
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      "assumptions": [
+        "Inherited NOT(EXCESS(APPLY(SALT,...))) and salt-degree reading unchanged; not a ban on all salt."
+      ]
+    }
+  ],
+  "rule_changes": [],
+  "unrepresented_content": [],
+  "second_reader": "Independent source-only review by bounded_idea_supply, blind to new account/output/costs, received before account completion; SOURCE_REVIEW.md retains findings. Reviewer checked content obligations, not correctness of the eventual encoded trees. Second review of the completed trees before encoding found C03/C08/C09 legal quoted-word/fixed-slot uses; C04 eir compound is explicitly not an independent count of egg individuals."
+}

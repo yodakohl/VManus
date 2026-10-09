@@ -1,0 +1,57 @@
+[
+  {
+    "name": "missing_header",
+    "encoded": "lmmkmmtp",
+    "rejected": true
+  },
+  {
+    "name": "truncated_header",
+    "encoded": "y",
+    "rejected": true
+  },
+  {
+    "name": "unknown_sign",
+    "encoded": "yaaaiaasaoanonaasaoanaaoqensaoanaaoqsnerlmmkmmtp!",
+    "rejected": true
+  },
+  {
+    "name": "odd_literal",
+    "encoded": "yasaoanonaasaoanaaoqensaoanaaoqsnerlmmkmmtp",
+    "rejected": true
+  },
+  {
+    "name": "unused_literal_pair",
+    "encoded": "yqqaaaiaasaoanonaasaoanaaoqensaoanaaoqsnerlmmkmmtp",
+    "rejected": true
+  },
+  {
+    "name": "leading_zero_total",
+    "encoded": "yaaaiaasaoanonaasaoanaaoqensaoanaaoqsidnerlmmkmmtp",
+    "rejected": true
+  },
+  {
+    "name": "equal_recipients",
+    "encoded": "yaaaiaasaaaiaasaoanaaoqensaoanaaoqsnerlmmkmmtp",
+    "rejected": true
+  },
+  {
+    "name": "empty_block",
+    "encoded": "yaaaiaasaoanonaasaoanaaoqensaoanaaoqsnerp",
+    "rejected": true
+  },
+  {
+    "name": "missing_END",
+    "encoded": "yaaaiaasaoanonaasaoanaaoqensaoanaaoqsnerlmmkmmt",
+    "rejected": true
+  },
+  {
+    "name": "wrong_sum",
+    "encoded": "yaaaiaasaoanonaasaoanaaoqensaoanaaoqsnerlmmkmmmtp",
+    "rejected": true
+  },
+  {
+    "name": "stray_row_after_END",
+    "encoded": "yaaaiaasaoanonaasaoanaaoqensaoanaaoqsnerlmmkmmtplmmkmmt",
+    "rejected": true
+  }
+]

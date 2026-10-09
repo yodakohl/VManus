@@ -70,3 +70,30 @@ Signifikanz, globale Sprachentscheidung oder Bedeutungsbestätigung.
 f84/f84r und alle übrigen Reserven bleiben geschlossen. Alte Versuche und
 vorherige IDEA237-Fassungen bleiben unverändert; diese Auswahlkorrektur ist
 gesondert dokumentiert.
+
+## Präzisierung vom 7. Oktober: Inventarabdeckung und Vorhersage
+
+Die obige Formulierung „rekonstruierbar“ bezeichnet beim alten 91%-Wert nur
+Inventarabdeckung unter dessen Normalisierung und Parser. Die Funktion
+`recombination_direction`, insbesondere `pieces_seen`, im
+[unveränderten Programm](../../../archive_pre_reset_2026-08-06/semantic_assumptions/run_typology_neutral_structure.py)
+prüft für jede bereits vorliegende Testgruppe, ob jeder normalisierte Kern und
+jedes Formtupel jeweils im Training vorkamen. Sie wählt keine neue Gesamtform
+aus konkurrierenden Möglichkeiten und prüft keine Rückkonstruktion der
+ursprünglichen Zeichenfolge. `normalized_root` fasst zudem ch-/sh-Anfänge
+zusammen; die vollständige vorgelagerte Normalisierung wurde hier nicht erneut
+ausgeführt. Die Prozentwerte sind Vorkommens-, nicht Typenquoten, im Bericht
+über die beiden Teilungsrichtungen gemittelt.
+
+Die gespeicherten ZL-Quoten sind 92,2865% für ungerade→gerade und 91,1631%
+für gerade→ungerade, im Mittel 91,7248%. IT ergibt im Mittel90,9240%,
+RF91,6905%. Diese unverändert gespeicherten Zahlen wurden gelesen, nicht neu
+am Manuskript berechnet. Die alten Berichts- und Programmbytes bleiben erhalten.
+
+Das ist weder eine Rücknahme formaler Wiederverwendung noch eine allgemeine
+Widerlegung kompositioneller Modelle. Der separate Übergangstest auf718
+ungesehenen Gruppen und GDT608s Vorhersage äußerer Profile bleiben positive
+Befunde in ihren jeweiligen Umfängen. Die91%-Abdeckung allein bestimmt aber
+keinen Parser, keine Bedeutung und keine vollständige generative Schreibregel.
+Ein Kandidat muss die Beobachtungen erklären; er muss nicht ungeprüft dieselbe
+alte Kern-/Formzerlegung als historische Morphologie übernehmen.

@@ -1,0 +1,3 @@
+# Artifacts
+
+TYPES: everyunitsequenceandonegeneratedalternativeorunique. EVENTS: complete61181sourceoccurrenceindex. RESULT: fulltype/token/leafcohorts andcapacitydecision. ATTESTED_FIBRES: everyactualdistinctwordtypeclasswithsameinvariant. EXAMPLES: fixedillustrations,generatedalternativesexplicit. VALIDATION: independentcapped-twoenumeration. PROOF_REVIEW: source-freeEulerargument/limits. POSTRESULT_RAW_EXAMPLES anditsLOCK: separatelyselectedsame-pageillustrationwithrawsource. IDEA_REVIEW: scopeddecision.

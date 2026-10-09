@@ -1,0 +1,147 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete ordered source-word tuples for all declared partitions are retained for exact whole-recipe reversal; PARTITIONS.json is5.23MB in1176, no raw manuscript data or images.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Source-control word-frequency conditions only; no full glyph writer, native word meanings or independent holdout.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1177_preposition_binding_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1177_preposition_binding_transfer/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT1174",
+    "GDT1175",
+    "GDT1159",
+    "GDT1176"
+  ],
+  "experiment_id": "GDT1177",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1176_natural_text_word_partition/src/run.py",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "a32d96948f2bd7bf121505951d9c500ea7f20c4fa1a2f3b00b5ca8b4f410e74a"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1159_corema_unknown_lexical_graph/src/SOURCE.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "1beae48d57dfc4fdfb3c28d0ee11150c28a790802a136ec03f6311ae1ccbe92b"
+    },
+    {
+      "path": ".gdt176/corema/b4.recipes.xml",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "59bf0cf97fc21623a7683cc8059a150644bff313488939222fd200969b7b0afd"
+    },
+    {
+      "path": ".gdt176/corema/w1.recipes.xml",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "a56639c7e8795a2afe76aa7cd950a8a68ade7231e1e68170034bc30002ab48e6"
+    },
+    {
+      "path": ".gdt176/corema/bs1.recipes.xml",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "d4fc0b986404cb423b99137678a879d3df94b15602740dbfb1fd56b25bc74eb6"
+    },
+    {
+      "path": ".gdt176/corema/gr1.recipes.xml",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "41c603f445a15bcb914eb0d090c80754ad1747821b7556dd77e31c1273a12ff5"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/METHOD.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "901d97eb08150fed1c8eca56d84746efbacf21bd904f01fe739ce2f805c5b0be"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/PREREGISTRATION.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "a5e147d483cfba53521381001edc739281ebc0b139746b8e651a33bcb967a473"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "c419a3d9df576b95204a4f995307612f38c403a354c19a70a08cee103611a191"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/REPORT.md",
+      "role": "Primary report",
+      "sha256": "ebf3a7438690fea750f05240a6db1d58139c6b94174c04370c62f4cc33a437d3"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/EXCLUDED.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "4cf8aff0b33713550223ff50f4af9a2a781d8179b5c5369434098d8686c16740"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/PARTITIONS.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "85af74dcb9e4677514b9dbcd48a9914813bd967ffd8b8ee385420fc136c07049"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/REGISTRATION_LOCK.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "093a35f1524e270b31290e12ae1f76f23011874dfc6370dd8314e0eafdf3bbe6"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/REGISTRY_REVIEW.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "3a2013f00ee08854d0e5a23c7d811ee05d640f7cacbaaefe223435a1146ca464"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/RESULT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "035c7f7b4ab74f4c34a1c849af88be4e4ad04f1d05e305403cd804aa59849aa1"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/VALIDATION.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "d3c7ca267b5b62d07d652db0f8b01c7e46e6a6a8fc64e161da619f16c174daa8"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/src/SPEC.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "4765a28e9c8e99ffba366671670f1c9e36f3187dee5ee4d28b5ec0eb5f23e2c6"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/src/run.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "593db3ac4256a8680c5dd221b0eb0ce35c86eca9fa7d11737f59e6cd2cfa5395"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/src/validate.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "3c0b4aac1d7048099f84b4a69ea32744d1de0c734d22fb0b23abed934b5bc834"
+    }
+  ],
+  "question": "Does the fixed reversible grouping meet both necessary inherited word-frequency conditions across every declared source collection?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "preposition_binding_transfer",
+  "status": "NARROW_BINDING_FAILS_TRANSFER",
+  "title": "preposition binding transfer",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

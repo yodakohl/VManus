@@ -1,3 +1,1933 @@
+# 2026-10-09 05:37 UTC: fourth interval checkpoint
+
+Actual cumulative work 5h05m56s; ten-hour request unfulfilled, at least 4h54m04s outstanding. GDT1297 conditional pool constraints retained; GDT1298 supports six major repeat patterns but leaves a required .46 gap unresolved. No ready new writer selected from bounded predecessor review. No worker running between turns; local only. Current route is the resume point.
+
+# 2026-10-09: GDT1298 image premise remains partial
+
+Six f103r qokeey major shapes and .53 seed visually compatible in one informed review; .46 chorol/shedy gap unresolved. Keep raw reader differences and GDT1297 conditional proof separate. No new meaning, transcription correction or independent confirmation. See experiments/yolo/gdt1298_f103r_repeat_source_review/REPORT.md. Local only; ten-hour work request still incomplete.
+
+# 2026-10-09: GDT1297 additional cyclic-pool constraints
+
+ThreeAseedpluspairdifferencewidth<=2forcesnewwhole-codeword singletonpools:3ZL/10IT/5RFbeyondold857/currentAAA; qokeeycommonall3. Fixedfaithfuldisjointwithoutreplacementcyclesonly, arbitraryphaseandnoresetinsideeachsource-indexrun. Notgeneralhomophonyorwordmeaning;survivingpairsnotpoolpartition.61181groups66proofs120checksindependentPASS. See1297REPORT.1262one-tokenfragilitynowexplicitinroute.10hourworkongoing/localonly.
+
+# 2026-10-09 04:51UTC: third interval checkpoint
+
+Cumulativeactualwork4h22m;10hourrequestunfulfilled,>=5h38mremaining.1296fixedcommoncategoricalA/Bharmonyfails5%coverage, butcompatibleminorityclasses3.35–3.67%remain;no phonology/meaning. Source/outputsandindependentreplaybound;sourcefreeproofreviewserializedafterresultdisclosed. No workercontinuesaftercheckpoint. Alllocal;currentrouteisthe resumepoint.
+
+# 2026-10-09: GDT1296 common categorical harmony misses5%
+
+GlobaldisjointA/B>=2units each,othersneutral,nomixedwrittenwholegroup: exactmaximumminoritycoverage3.6727%ZL/3.3469%IT/3.5195%RF. Compatiblepartitionsremain,butboth5%requirementfails. No phoneticclass/meaning;single-domainzero-errorworking-unitassumptions explicit. Independent61181rawparses/all30reducedcandidatesPASS. No automaticthreshold/domainrepair;broaderIP040open. User10hourrequeststillinprogress,localonly.
+
+# 2026-10-09 04:20UTC: second interval checkpoint
+
+Cumulativeactivework3h51m54s;10hourrequestunfulfilled,>=6h08m06sremaining. Currentintervalcorrectedmissingoverlap/aritypredecessorlinksandaddedincomingrelationscardstoexistingideas show;48targetedtestsPASS. No newnativeexperimentortranslation.1295conditional15/13boundunchanged. Global20oldFAILs/0new;8registryfreshnessflagsnotblindlyrebound. Goaltoolstillblocked,noautomaticworkerrunning. Resumecontext/primariesviacurrentroute;detailswriterdossier.
+
+# 2026-10-09 03:52UTC: incomplete ten-hour runtime checkpoint
+
+Manualinterval00:26:04–03:52:18=3h26m14s;NOT10hours, atleast6h33m46sfurtheractiveworkneeded. Goaltoolstillreportsblockedandcannotbereactivatedbymodeltools;user/goalresumerequested. No backgroundworkerrunning, no falsecompletion. Latest1295source-letterlowerbounds15/13remainconditional;0meanings. Allresults/localchecksandexactresumeguidanceinwriterdossier. Do notcountfutureidlewalltimeoroldgoaltoolusageasactivework.
+
+# 2026-10-09: GDT1295 localallograph alphabet lowerbound
+
+UnderfixedglobalonevaluedψanddeterministicF(page,n,i,left/current/rightsourceletters), all3readergraphsrequire>=15sourceletters;predeclared2physicalleafedgegraphs>=13. Thisexcludes<=11onlyunderthatcontract, notallallography/truealphabet/meaning.61181rawgroups/6graphsindependentlyreplayed. No automatic largerK,contextfieldsorencoder. See1295REPORT. Ten-hourtasknotyetelapsed;goaltoolblockedpendinguser/goalresume,manualworkactive/local.
+
+# 2026-10-09: GDT1294 supports one internal-q written join
+
+Originalf82v.12gapbeforeembeddedqokyisinternal-likeinonesource-informedview;bothlong-groupoutergapslarger. Earlierol|qokystaysnarrow/unresolved. qoteytywhole0allreaderspreventsassumingconfirmedcompound. No meaningorboundaryrewrite;1293exactrolefailureunchanged. See1294REPORT. Ten-hourinterval00:26:04–10:26:04UTCstillactive;alllocal.
+
+# 2026-10-09: proper-overlap singleton-chain consequence
+
+Old1233pure-singletonchains transfer to sharingproperwhole-unitcodeoverlaps underEXPLICITdistinctinitials:66steps/81sourcewitnessesreplayed. Atmost22arbitraryentriesimpliesdistinctheadsonlyRF, n/moneinitialeach; ZL20/IT21originalheads. Binaryaa/bbinjectivecountermodeldemonstrateswhyordinary1233verdictalonecannottransfer. Identityretained, no generalphysical-ligature/larger-table banorwordmeanings. Detailedproof/bindingsinwriterdossier. Tenhourintervalactiveuntilatleast10:26:04UTC; localonly.
+
+# 2026-10-09: GDT1293 exclusive-prefix role fails
+
+All22workingunitsoccurinternallyinoldstrict1233wholegroups. No globalrenamingprovidesasingleprefix-onlynonpayloadmarker. qstrongbeginningpreferencepreserved:ZL17/3843,IT19/4098,RF19/3576violatinggroups, across15–16physicalleaves.61181rawparses/66rolerowsindependentlychecked. Broaderdynamicshortest-prefixalgorithmnotrefuted;itsfullrawnotfrozenbeforethisgenericrolecheck. Noerrorallowance/codecimplementationor meaning. See1293REPORT; tenhourintervalcontinues untilatleast10:26:04UTC.
+
+# 2026-10-09: bounded physical checks; writer selection resumes
+
+GDT1291f8r.4 chof|chy/chofchy remains unresolved in original image; no confirmed standalonechof. Oldstrictcheefatf78v.15 supplies alternative terminal-f witness for1289 inallreaders, onephysicalsite; no newimageconfirmationor1287replacementcertificate. GDT1292f99vthreebaselinesclearcurrentupperhole, compatiblewithavoidancebutnotchronology/exogeneity/semanticresetproof. IDEA112semanticexperimentunexecuted. Primaries1291/1292; detaileddependencyartifactinwriterdossier. No meanings. Localonly;user10hourinterval00:26:04–10:26:04UTCcontinues.
+
+# 2026-10-09: GDT1290reference profiles; long block active
+
+Threefixedhistoricalsources do not jointly match oldpooledtype/top10bands. Latin typecount2357fitsall, concentration1750doesnot. Italian/Greektypecounts are higher. This is source/control evidence, no language or writer selected;1225stratum limitation retained. See experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md. Ten-hour interval stillactive until at least10:26:04UTC.
+
+# 2026-10-09: GDT1289native carrier exclusion; ten-hour block active
+
+FullRAW982carrier is incompatible with old19interior endings plusqoqo anddoublets under22unitbijection. TTquote/VVcontinuation included;rare readings retained. No language or general alphabet-bank ban.1288source screen remains separate. See experiments/yolo/gdt1289_overlapping_bank_native_syntax/REPORT.md. User interval00:26:04–10:26:04UTCcontinues; no translated words.
+
+# 2026-10-09: GDT1288source failure; native carrier check selected
+
+Fixed cyclic-overlap3bank state history fails necessary type capacity on all four old sources. Only logical wholeword groups tested; RAW982VVphysical continuation remains outside1288. A separately registered native syntax bridge1289retains that layout and tests forced selector roles using old endpoints/qoqo/doublets. No new meaning or source. Ten-hour user interval remains active until at least10:26:04UTC.
+
+# 2026-10-09: GDT1287; ten-hour work remains active
+
+Old whole ol/olol plus1234/1241quotients force a trivial start orbit for fixed reversible22unit actions with common natural word END before reset. Independent110node/2118ID bridgePASS; rare premises retained. No general encoder/language exclusion. See experiments/yolo/gdt1287_whole_word_reversible_closure/REPORT.md. User ten-hour interval00:26:04–10:26:04UTC remains active.
+
+# 2026-10-09: state-scope corollary, not native machine fit
+
+1286excludes reversible two-state common-endpoint action and, more generally, finite p-group generated actions under the unchanged paragraph contract. Group order is not state count. An explicit artificial3-state S3example has index1count lattice yet common endpoint; no native3state fit or general automaton exclusion. Proof and scope in production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md; no state sweep, meanings or running work.
+
+# 2026-10-09 checkpoint: GDT1286
+
+Exact unchanged1259paragraph count lattices have index1 in both readers. All nonzero fixed22working-unit additive common paragraph totals, including every cyclic modulus, excluded under inherited flags. Independent integer certificates PASS; RF unscorable. No general checksum/state/meaning claim. See experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md. Local only; no running work.
+
+# 2026-10-09 checkpoint: GDT1285
+
+Fixed two-unit inner predictor loses to one-unit on all46ZL leaves; NO_JOINT_TWO_UNIT_INCREMENT. This is estimator nonconfirmation, not first-order sufficiency or human-memory discovery. Sparse contexts retained; no automatic repair.1279positive and1280/IL026stops unchanged. See experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md. Local only; no running work.
+
+# 2026-10-09 checkpoint: GDT1284
+
+Sender-controlled48-grid d/next-q test NOT_CONFIRMED: positive ZL mean+0.096836, only9/18positive leaves; adequate capacity. Old q-context findings remain. No component meaning or causal rule. See experiments/yolo/gdt1284_sender_d_next_q/REPORT.md. Local only; no running work.
+
+## 2026-10-08 — known48-cell surface grammar retained
+
+845/847literalcheckkeepsall48cellsineachreader:816/836/655events.
+48common-locuscells,minsum605;old829ZLwascleaned,notraw. No new
+censusormeaning. Additional e2formsremain;48isnotexhaustivegrammar.
+WE022/forms-topicnowretainthispositiveconstraintanditslimits.
+Primary: research_registry/proposals/production_origin_supply_20261003/SURFACE48_KNOWN_GRAMMAR_REVIEW_20261008.json.
+
+## 2026-10-08 — GDT1283 line-packing geometry remains unbound
+
+One informed view of admitted f77r31/32: no independently fixed right
+writing limit or counterfactual append widths. No numeric packing test.
+1149positive and1150capacity stop retained; neither d-entry spelling
+nor nonbreaking rival selected. Validation is source/accounting only.
+Primary: experiments/yolo/gdt1283_f77r_line_packing_geometry/REPORT.md.
+
+## 2026-10-08 — GDT1282 fixed continuation rejoin census
+
+13old926contexts:0latereligible3wordjoinsinZL/ITcompleteparagraphs.
+ZL18tailswithexcludedlines;ITall26tailseligible;RFno paragraphflags.
+Newpredicategenuinelydiffersfrom928maximalmatches;original928unchanged.
+No paraphrase/grammarnegative;independent39casevalidationPASS.
+Next: distinctoperation/data,notshorteranchorsafterzero.
+Primary: experiments/yolo/gdt1282_anchored_continuation_rejoin/REPORT.md.
+
+## 2026-10-08 — construction-direction inference not selected
+
+287factorizationwinnerdoesnotidentifycausalplanningorder;608formal
+orientationand318/321contextgainsremain. No newforward/reversererun.
+933boundprioritycontrastalreadyknown;unboundcoveragecannotselectit.
+Nextrequiresconcreteoperationwithdistinguishableconsequence/binding.
+Primary: research_registry/proposals/production_origin_supply_20261003/CONSTRUCTION_DIRECTION_SCOPE_REVIEW_20261008.json.
+
+## 2026-10-08 — joint whole-group allocation binding fails
+
+Fixed1281rowstartcannotbebothchandsh. Thusallfourmotivatingwholewords
+cannotjointlybecompleterowsunderonebijectiveteachingcarrier. Added
+bindingonly:1281ignoresgapsanditscodecPASSremains;no generalallocation
+refutationorwordmeaning. No markerrepair/newheaderhunt selected.
+Primary: research_registry/proposals/production_origin_supply_20261003/ALLOCATION_WHOLE_GROUP_BINDING_REVIEW_20261008.json.
+
+## 2026-10-08 — GDT1281 paid allocation module, source-known only
+
+15-signteachingcarrierfullypreservesdeclaredtwo-shareblocks,headers,zeros,
+repeatsandEND;independentreaderPASS. Kheaderreferenceisnew980realization.
+No nativeglyphkey/statistics/meanings/proseorhistoricalclaim. Totalchecks
+sumbutdoesnotchoosesame-totalallocation. No nativeapplicationselected.
+Primary: experiments/yolo/gdt1281_paid_allocation_carrier/REPORT.md.
+
+## 2026-10-08 — four-form e/k context review; raw allocation idea
+
+Exactprofilesandall45readerlinesretained:40hits,15loci,11allreader
+targetagreements;4variantlocationsnotnormalized. No repeatedfullflank
+frame;commoncholalone doesnotselecteplacement. No meaning/contextrule.
+IDEA980addedRAWUNREVIEWED:abstracttwo-recipienttalliesplusseparate
+total;22-signcarrierandnativebindingsmissing. Notselectedorfitted.
+Primary: research_registry/proposals/production_origin_supply_20261003/EE_K_PLACEMENT_CONTEXT_REVIEW_20261008.json.
+
+## 2026-10-08 — GDT1280 order-control capacity stop
+
+Perwordfirstlast+directedbigramcounts:ZL183/19332mobile;primarynewword93
+vs100floor,on29leaves. No higherorderscore or1279null. Independentlyverified.
+Actualcheekey/chekeeyandsheekey/shekeeypairsretained;firstpairallreaders
+onf102v2.31/.39. Noequivalentmeaningoractualchunkidentity.
+Next: content-bearingconstructionwithfullunitorder,noautomaticnullrepair.
+Primary: experiments/yolo/gdt1280_word_bigram_order_capacity/REPORT.md.
+
+## 2026-10-08 — GDT1279 strict-inner prediction positive
+
+Onmatchednextunitpositions,EXACTpreviousidentitybeatsPOSandfixedBITclass.
+ZLINNERALL46/46;newinteriorsEXACT-POS38/45,EXACT-BIT35/45;fixedgatesPASS.
+99873heldedgevalidatorPASS;unknownprevmexcludedfromallmodels.
+No actualwriter/meanings/causalboundaryindependence;1278failure retained.
+Next: content-bearingoperationaccountingforspecificinnerconnections.
+Primary: experiments/yolo/gdt1279_strict_inner_symbol_prediction/REPORT.md.
+
+## 2026-10-08 — GDT1278 compact order predictor misses gate
+
+Frozen1264classes;oddZLselectsbeta1. HeldALL25/46positivegain.002625;
+newinteriors24/45gain.012174. Adequatecapacity,jointgatesfail;independent
+16044eventvalidationPASS. No heldtuning;1264/65positivesretained.
+Conditionalclassordergiveninventoryonly,nocontentwriter/meanings.
+Next: independentlymotivatedwritingoperation,nocompactmodelrepair.
+Primary: experiments/yolo/gdt1278_binary_order_prediction/REPORT.md.
+
+## 2026-10-08 — GDT1277 context-rule preflight fails
+
+Exactpreviousaiin/kaiin=>okal,elseokarfits25selectedoldreader-events,
+butf58v.26qokeosokalcontradictsZL/RF;ITokalarineligible. No broad
+transfercensus,onewayrescueormeaning. Source/predictionvalidatorPASS.
+Parksmalloka/otacontextfits;requireindependentlymotivatedconstruction.
+Primary: experiments/yolo/gdt1277_oka_aiin_context_transfer/REPORT.md.
+
+## 2026-10-08 — old four-cell oka/ota paradigm, raw context
+
+All25old915/949readereventsrecovered. Foursharedloci giveRR/RL/LR/LL,
+allINTERNALwithdefiniteinnerseams;ZL112rightouterseamuncertainretained.
+Qoka/oreaderdifferencesqualified. No actualcommonconstruction/meaningor
+newmixeddiscovery. Coarselineedgecannotaloneaugment1276binarycontract;
+no extra input selected, no automaticcontextfit.
+Primary: research_registry/proposals/production_origin_supply_20261003/OKA_OTA_PARADIGM_CONTEXT_REVIEW_20261008.json.
+
+## 2026-10-08 — GDT1276 fixed-pair binary-input bound
+
+Atmost2deterministic pairtraces fromonebinaryinput;oldqoka/o has3cellsperreader.
+All22families:4/6/6contradictfixedinputcontract. Fixedupdates/classinversion
+do notrescueit. Additionalcontext/constructions outside;noactualgrammaror
+statecountinferred. Exposedproof/sourcevalidationPASS;noautolargerwriter.
+Next: require explicit additionalinput beforeanotherwriter;reviewpredecessors.
+Primary: experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md.
+
+## 2026-10-08 — GDT1275 restricted r/l reference
+
+Positive descriptive residual with line+oldstem margins in a fixed restricted
+orbit;10/10/12score-variableleaves;primaryonly1.44referenceSD. No significance,
+generalagreementrule,meaningor1261full-fibreanswer. Mixedpairsretained.
+Independent packing/margin/covariance validation PASS. Next: distinct writer
+consequence addressing same/mixed coexistence and915/916, after prior review.
+Primary: experiments/yolo/gdt1275_lr_disjoint_cycle_reference/REPORT.md.
+
+## 2026-10-08 — s-aiin/saiin raw boundary review
+
+Allfour old759bridges retain complete rawwordsequence equality after the
+specified comparisonmerge. ZLall4splits are uncertain;ITalljoined;RF3definite
+splits1joined. Originalgroups unchanged. No deliberateauthorvariation,
+sharedcomponentmeaning, numeral orunit confirmed;760limits retained.
+No repeatfusiontest selected. Next: distinct native construction evidence.
+Primary: research_registry/proposals/production_origin_supply_20261003/SAIIN_BOUNDARY_REVIEW_20261008.json.
+
+## 2026-10-08 — one-unit groups as a construction constraint
+
+1227strictinterior counts retained:ZL252/10types,IT300/12,RF422/14.
+Firstoldl/o/r/s/y witnesses read acrossallreaders; stricts/r/yexamples coexist
+witho-l/ol ando-kal/okal boundaryalternatives. Width1mustbeaccountedfor if
+rawgroups equalmodeloutputs;no word/punctuation/error orgraphemeclassification.
+Next: examine existing s-aiin/saiin boundary account before any shortformrole.
+Primary: research_registry/proposals/production_origin_supply_20261003/ONE_UNIT_SCOPE_REVIEW_20261008.json.
+
+## 2026-10-08 — GDT1274 strict-saving reference width
+
+Oldqokeedy doublet(7workingunits) forces maximumreferencewidth>=7under
+fixedinjectiveliterals,oneword/group,immediatelegalreferenceavailability
+andmandatorystrictsavings. No disjointmodes orparagraphreset required.
+Optional fullspellingdespitesavings liesoutside;no viablelargercacheinferred.
+Separateoldwitness/seam/indexcheckPASS;no newdataorwordmeanings.
+Next:1193actual construction/limits beforeanotherwriter, no automaticrepair.
+Primary: experiments/yolo/gdt1274_shorter_reference_doublet_bound/REPORT.md.
+
+## 2026-10-08 — p/y position scope clarified
+
+1074denominator is already line-initial forms;1075positive withinregister
+contrasts retained. Strictpstart/yotherwise contradicted by existingcounts,
+not allstylisticvariation.1099onephead/yrepriseonly;1076capacitystop unchanged.
+Code projects priorZL/ITflags, doesnot deriveflagsfromp/y;no newvisualvalidation.
+WE021added to existing wordevidence. Next read1184/1250before a stylewriter.
+Primary: research_registry/proposals/production_origin_supply_20261003/PY_POSITION_RULE_REVIEW_20261008.json.
+
+## 2026-10-08 —883 spelling transport preflight
+
+Common latent/rank bijections guarantee path agreement even with wrongpairs.
+Exact independent Cform prediction remains required, as RAWalready states.
+Informationloss/homography can defeat wordlocaltransport without rejecting
+sharedlanguage. No A/B/Ccorrespondence set selected;829/1154stopsretained.
+Next:1074/1075/1099pX/yXcontext variant, not assumed semantic equality.
+Primary: research_registry/proposals/production_origin_supply_20261003/CROSS_HAND883_IDENTIFIABILITY_REVIEW_20261008.json.
+
+## 2026-10-08 — native positive endpoints separated
+
+608predicts context/edgeprofiles, not unknown wholeword identity; ATOMICwin
+is model-relative, not proof of indivisible meanings.1265newinterior positive
+retained;1266FARcapacitystop unchanged.611label-symmetry applies to itsmetrics.
+98BPEand22working-unit systems not merged. No new predictor selected.
+Next: RAW883three-hand spelling transport, especially correspondence binding.
+Primary: research_registry/proposals/production_origin_supply_20261003/POSITIVE_PREDICTION_SCOPE_REVIEW_20261008.json.
+
+## 2026-10-08 —853/921 source selection concluded
+
+853has no located written subject/comparator relation;1089/1090do not supply
+one.921source normalization was already reviewed7October and does not encode
+past possession. Native tests remain unexecuted; no new truth-table/decoder.
+Both retained, no meaning or global topic exclusion. Reviews now distinguish
+source-logical work from unexecuted native testing.
+Primary: research_registry/proposals/production_origin_supply_20261003/CONTENT853_921_SELECTION_REVIEW_20261008.json.
+
+## 2026-10-08 — GDT1273 f100r upper-link scope
+
+One preregistered aware original view of861T100found no complete separately
+bounded middle group.613localadjacencycompatible;no globalmechanism ormeaning.
+866testedf95v2,notthissite;initialduplicate dismissal corrected. Validator
+source/seal/reductionPASS,notvisualtruth. No newimageadmission orsourcequery.
+Priorityview stalequote buildstopped; useworking ideas/primaries.
+Next: inspect RAW853/921sources beforeselection;noautomaticimageextension.
+Primary: experiments/yolo/gdt1273_f100r_upper_link_scope/REPORT.md.
+
+## 2026-10-08 — spacing does not select chol/daiin scope
+
+852same-line spacing positive retained;1056repair/endpressure limits,1199and
+1252local observations retained. Existing1056crop redisplayed only, no new
+image/measurement/independence. Spatial groups do not identify grammatical
+attachment. Stop automatic gapmeasurement continuation; no new meaning.
+Next: bounded existingnative priority queue and primary review before selection.
+Primary: research_registry/proposals/production_origin_supply_20261003/SPACING_SCOPE_BRIDGE_REVIEW_20261008.json.
+
+## 2026-10-08 — scope logic qualification
+
+The threechol/daiin patterns allow simple local left-recursive bracketings
+without deleted words or invented heads. They exclude neither left attachment
+nor simple grammar by themselves; exhaustive disjoint pairing is stronger.
+1047paragraph-host countercases remain; no native modifier meaning selected.
+Next: existing852spacing evidence/followups before any independent binding cue.
+Primary: research_registry/proposals/production_origin_supply_20261003/CHOL_DAIIN_SCOPE_LOGIC_20261008.json.
+
+## 2026-10-08 — complete chol/daiin pair contexts
+
+Raw same-line forward29/31/25, reverse6/7/5ZL/IT/RF; definite forward24/31/25.
+103events independently SQL-replayed. Observed order only, no adjusted effect.
+chol daiin chol / chol daiin daiin / chol chol daiin require explicit scope.
+No repeated complete outer frame under stated filter; no grammar exclusion.
+Next: GDT949scope/attachment rivals and later decisions before a new model.
+Primary: research_registry/proposals/production_origin_supply_20261003/CHOL_DAIIN_CONCORDANCE_REVIEW_20261008.json.
+
+## 2026-10-08 — full chor chol daiin contexts
+
+Both completef21r/f32vspans read; triple exact, surrounding repeatedchor and
+daiin retained. IDEA370remains unselected. ZL uncertain cpho~l versus IT/RF
+cphol requires an explicit group account; old14wholeword keys do not cover
+cphol orykeea. No meaning, degree, owner or event-time selected.
+Next: prior whole chol-daiin context comparisons; no isolated triple story.
+Primary: research_registry/proposals/production_origin_supply_20261003/CHOR_CHOL_DAIIN_CONTEXT_RESULT_20261008.json.
+
+## 2026-10-08 — daiin old boundary bridges retained
+
+907already linked dal/daiin line seam with daldaiin;877same-line dal daiin;
+629two same-span choldaiin/chol daiin reader splits. Five old loci rechecked,
+no new discovery or meaning. Choldaiin is not chodaiin. Live word evidence
+WE019/020now retrieves these bounds.1047host limits and oldgloss freezes remain.
+Next: complete contexts of chor chol daiin, no automatic fusion/count test.
+Primary: research_registry/proposals/production_origin_supply_20261003/DAIIN_FAMILY_REVIEW_20261008.json.
+
+## 2026-10-08 — daldaiin proximity remains a local clue only
+
+Selected-page background: prior5containsdal at10/84f45r and40/121f89r1ZL
+positions; other readers separate. Dal is the only shared prior-window type,
+but f45r target is page-final and f89r1has laterdal inZL/IT(RFentityretained).
+No directional-copy or reference evidence selected. No pvalue or meaning.
+Next native focus: daldaiin chodaiin shared-right-part priors and profiles.
+Primary: research_registry/proposals/production_origin_supply_20261003/DALDAIIN_LOCAL_BACKGROUND_RESULT_20261008.json.
+
+## 2026-10-08 — user-directed return to native text
+
+Automatic RAW979/foreign-source writer continuation stopped. Manual16-form
+al/dal/ch/ol review retains family/context effects and1246null-capacity caveat.
+Wholef45r text and second daldaiin locusf89r1.7 read: both exact daldaiin
+occurrences have prior standalone dal(4/2intervening groups). Post-observation
+lead only; no root, compound, copy rule, meaning or statistical confirmation.
+Next: inspect prior local-reuse/compound tests before a native discriminator.
+Primary: research_registry/proposals/production_origin_supply_20261003/NATIVE_FAMILY_MANUAL_REVIEW_20261008.json.
+
+## 2026-10-08 — GDT1272 fixed checksum writer fails
+
+978 instantiated on unchanged6288-word bare Deot source: full inversePASS,
+2992short/3296literal occurrences,25695signs(+4.1633% vs bare source).
+SD0.837848,H1=4.137637,H2=3.865271 fail all3072cached comparisons;no joint
+pass. Dictionary2411types/11126letters paid. Stop fixed source/carrier, no
+parameter repair. General978 not universally refuted;no native meanings.
+RAW979 ratio path retained incomplete/unreviewed; inspect predecessors first.
+Primary: experiments/yolo/gdt1272_omitted_suffix_checksum/REPORT.md.
+
+## 2026-10-08 — 977 internal zero obligation
+
+Post-result1271 corollary: old keeees/deeeese/qoeeeety require a complete
+source index0 before later encoded output in both continuous pair phases.
+Zero cannot be unused or terminal-only in unchanged977; no source identity
+or glyph meaning follows. Six manual cases verified; no new native census.
+977 remains incomplete; no chart fitting selected. Next: inspect978 predecessors.
+Primary: research_registry/proposals/production_origin_supply_20261003/CHART977_REPEAT_SOURCE_CONSTRAINT_20261008.json.
+
+## 2026-10-07 UTC GDT1271 chart zero mask
+
+977rank0iffoutputrepeat is chart-independent. Conditional source-index classes
+1/3/5/15; compatible input/output always has some growing message-dependent
+chart. Two DIFFERENT53position toy charts give same18unit inventedcipher and
+HEAT OIL#/HEAT GIN#; separateverificationPASS. No native data or meaning.
+No claim of fixedkeyambiguity or fit below1270nativebounds. Fullchart/source/
+layout/budget unbound; source-zero-mask consequence is a future necessary gate.
+Primary: experiments/yolo/gdt1271_chart_zero_mask_identifiability/REPORT.md.
+
+## 2026-10-07 UTC post-result chart bound strengthening
+
+Same1270core also has atmost5nonself predecessorlabels perlanding position.
+Perlabel max(incoming,outgoing) costs imply FULL>=69IT/67RF/66ZL; recurrent
+diagnostics49/49/46. Registeredoutgoing65/63/63unchanged. Separatepost-result
+reduction andvalidatorPASS; no actualchart, newdata ormeaning. See1270REPORT.
+
+## 2026-10-07 UTC GDT1270 necessary chart cost
+
+RAW977unchanged6/4localchoice core needs>=65IT/63RF/63ZLpositions onFULLgraphs;
+recurrentdiagnostics>=41–43. No actualcircle, achievableminimum or sourcewriter.
+Separate9graph/198unit-bound verificationPASS; no newnativequery/meaning.
+Internal unprintedresets/differentphaseorders are outside the proof, not free
+repairs. OriginalRAW retained; append-only scopedreview. RAW978stillunreviewed.
+Primary: experiments/yolo/gdt1270_repeated_label_chart_degree_bound/REPORT.md.
+
+## 2026-10-07 raw writer supply, no new scientific result
+
+IDEA000977(repeated-label source-character chart) andIDEA000978(omitted-source
+checksum withpaidfallback) retained RAW_UNREVIEWED_INCOMPLETE. Neither is a
+complete writer, native model, statistical pass or word meaning. Existing960/934/
+IP014reopening requirements not met. Next: review977successor-cost consequence
+before chart selection; no immediate corpus search. Existingdossier has details.
+
+## 2026-10-07 later pair-code alias/orientation consequence
+
+Old1269bounds also exclude <=32pair-coded sourceunits with<=2fixed spellings
+each (<=64pairs). No new native count orcap64test. Original32entrydecision unchanged.
+NONEbound is reversal-invariant; optionalcontrol reversal is not established.
+Not70/72nativeletters or a universal homophony ban. Note: research_registry/proposals/production_origin_supply_20261003/PAIR_SCOPE_20261007.json.
+
+## 2026-10-07 GDT1269 small pair tables with arbitrary display spacing
+
+The old23paragraph witnesspacket perreader forces>=70IT/>=72ZLdistinctpair
+entries even allowingunknowninitialphase/partialedges andoptionalone singleton
+control. All46configurations exceed the fixed32pairentrycap. Necessarybounds,
+not exactminimum dictionaries or wordboundary/meaning confirmation. Independent
+source/state-parser certificatePASS. No newrawdata/image;largercodesnotselected.
+Primary: experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md.
+
+## 2026-10-07 GDT1268 word-column difference source control
+
+The fixed22ring/previouswholeword writer is reversible but fails the unchanged
+1228three-invariant screen: H2=4.360984909 versus maximumallowed2.621689042;
+0jointmatches eachreader. Independent6288word/71section/gate replayPASS.
+No native finding, sourceidentity, meaning or general differential-cipher ban.
+No automatic alignment/ring/source repair. Primary: experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md.
+
+## 2026-10-07 manual family construction check
+
+The five-column787family must not be read as a mandatory-e-before-d grammar:
+exactqokdy/okdy occur in allreadings at shared loci. Keepzero-e+d branch.
+No new writer selected;1200repetition and1201confluence already executed.
+Evidence: research_registry/proposals/production_origin_supply_20261003/KDY_MANUAL_COUNTERCASE_20261007.json.
+
+## 2026-10-07 GDT1267 generalUD logical bridge
+
+Existing1240/1241whole-word witnesses force k/e/s withoutprefix/suffix or cap.
+Fixed nonempty literal expansions of oldkeeees still need XU^4Y; the samefive
+1240source projections remain excluded under this broader parsing contract.
+Rareear/RFe/k/keeees and exactunit/wholeword premises remain. No newclosure or
+sourcecensus;887oldIDchecksPASS; no languageban or word meanings.1248/1253survive.
+Primary: experiments/yolo/gdt1267_general_ud_two_sided_closure/REPORT.md.
+
+## 2026-10-07 GDT1266 distant-interior capacity stop
+
+Fixed1265pairs: ZLBOTH_FAR7pairs/4informativeleaves, required10. No distant-form
+extension established; original1265positive remains. All891pairs independently
+validated. Formal one-operation proximity is not a linguistic family binding.
+No rematching/threshold repair; next work needs a concrete writing consequence.
+Primary: experiments/yolo/gdt1266_interior_training_neighbor_strata/REPORT.md.
+
+## 2026-10-07 GDT1265 joint paired control
+
+The frozen1264binaryfeature retains the fixed pairedjointbag/positionlead.
+ZLnewinteriors:729scorablegroups,100informativepairs,18/23positiveinformative
+leaves,+.022854mean;all45scorableleafmean+.011681. Bothprimarygatespass.
+Independentpolynomial/sourcevalidatorPASSall10507pairs. Restrictedpairedspace,
+no globalnull,pvalue,phoneticvalues ormeaning. Original1264scope retained.
+Primary: experiments/yolo/gdt1265_paired_interior_position_control/REPORT.md.
+No newclasses, matchingpolicy or sourcewriter selected.
+
+## 2026-10-07 GDT1264 binary interior shape lead
+
+One fixedZLtrained binarypartition has heldexact-bag alternationexcess on37/46
+ALLand43/46unseen-whole leaves,means.069499/.083914. Bothfixedgatespass;
+independentfullcut/cohortvalidatorPASS. mhadnotrainingclass;oneZL/ITgroupunscored.
+629/1358novelZLwholeeventsretainknowninteriors;no new-interior-onlyscore.
+Positiontemplatescanexplainthis;no beyond-positionincrement orphoneticroles.
+Primary: experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md.
+Next discriminator requires fixed position control, not vowel names or3classes.
+
+## 2026-10-07 GDT1263 fixed rank classes
+
+All fullpanels force22workingunitsoneclass; recurrenttwo-leafpanels retain
+19unitcoreandq/n/mwithq->core->n/m. This is a coarseoutershape possibility,
+not fourmandatoryslots orinside-core sorting/phonetics. All9panels retained;
+independentgraph/witnessvalidatorPASS. Primary: experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md.
+No multiple-run/units/exception repair selected.
+
+## 2026-10-07 GDT1262: one-token radius of prefix26 exclusion
+
+Minimumunparsedtokencount among nontrivialprefixcodes<=26isexactly1 ineach
+reader. Two old27table reductions leavecfhsf87v13 orycphkof52r1 unresolved;
+allothergroupsparseunchanged. No wordisdiagnosedaserrororremovedfromdata.
+1234full-inputfailure retained; do notpromoteittoanerror-tolerant26alphabetban.
+Exampleactivityremainslow; full-panel<=31activityboundnotautomaticallyvalid
+forerror-permittingtables. Primary: experiments/yolo/gdt1262_prefix26_exception_radius/REPORT.md.
+Noq/source/decoderrepair selected.
+
+## 2026-10-07 GDT1261 computational stop, not a negative phrase result
+
+Exactreferencehit100000statesinonecomponentafter42others;zero worlds.
+1260capacity15leaves remains, stricterlineconditionedeffect uncomputed.
+915positive/916nonconfirmation unchanged. Primary: experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md.
+No automaticcap/order/MCMCrepair; five-hour block continues to16:11UTC.
+
+## 2026-10-07 GDT1260 joint-margin capacity
+
+Keeping line and oldstem/leaf/position r/lcounts leaves exact score-change
+witnesses on15physical leaves in each reading. Capacity only; no newreference
+or meaning.915/916unchanged. Primary: experiments/yolo/gdt1260_lr_line_margin_capacity/REPORT.md.
+A bounded exact conditional comparison is the next selection; noMCMCrepair.
+
+## 2026-10-07 Prefix-table positive narrowed in interpretation
+
+The exact27entry construction remains.1234head costs and first-head proof now
+show every complete prefix-free table<=31is singleton-only on>99.3375percent
+of the old strict group panel. Rare1236premises retained; no H2/language claim.
+Primary proof: research_registry/proposals/production_origin_supply_20261003/PREFIX_CODE_LE31_ACTIVITY_COROLLARY_20261007.json.
+No automatic32entry optimization. Work continues to16:11UTC.
+
+## 2026-10-07 GDT1259 fixed paragraph sum closes
+
+180ZL/379IT complete own-marked paragraphs over22active working units have
+exact augmented rank23. Independent census/Bareiss certificate PASS; no fixed
+nonzero integer weights give a common attained total. Arbitrary reset, modular
+rules and general grammar are outside. Primary: experiments/yolo/gdt1259_paragraph_integer_balance/REPORT.md.
+No automatic boundary/alphabet/prefix-parser repair. Five-hour work continues.
+
+## 2026-10-07 GDT1258 instantiates964 with complete-source capacity
+
+FulloldDeot has24668letters,1955alefs(value1in declaredcomparisonalphabet).
+Positive one-letter/one-packet sums require1955single-signpackets. Entire old
+1228eligiblepools contain437IT/525RF/321ZLsingletons, includinglineedges;
+any selectionofNdistinctgroupsisinsufficient. Denominators29821/25622/25564
+reproduce. DPsourcevalidatorPASS. Primary:
+experiments/yolo/gdt1258_additive_value_one_capacity/REPORT.md.
+FullrepresentationINSIDEthefixedeligiblepoolisapremise; outside-pooltext,
+otherlanguages,values,unitsorpacketcontractsnotexcluded. Modernpaidgap/indent
+framingnotnativeorhistoricalobservation; no packetprobabilitylawselected.
+1257report appendedtimingqualification only; scienceinputs/resultsunchanged.
+Fivehourworkcontinues until16:11UTC; no automaticnull/source/weightrepair.
+
+## 2026-10-07 GDT1257 blocks976fixed control architecture
+
+976's normalized-content inverse works and permits AAA by shared positional
+roles. Its physical output still requires one of5fixed whole controls in every
+4groupwindow. Existing23linepacket yields6pairwiseform-disjoint windows per
+reader, on6folios, so every globalrenaming fails. Rawboundaries andsingle
+manuscript/alternate-reader limits retained. No native meaning ornewimage.
+Primary: experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md.
+Keep976constructive content result separately; no extra markers/affix/arity
+repair. Source-freeproof and index/DPsourcevalidatorPASS. Fivehourwork remains
+active until16:11UTC; next selection not a larger version of this marker rule.
+
+## 2026-10-07 IDEA975 genuine ambiguity retained in bounded writer
+
+The complete invented22drawingchannel returns two rim/run readings while
+preserving exact names and negative TOUCH. Rootrecomputed16wordcodes,32name
+payloadcodes, saved examples and192clausepatterns. Supported_limited as a
+set-valued reader, not unique message recovery or a nativewriter. Fixedgrammar
+forbidsAAA;minimum requires15strokes. No added word meaning orcorpusfit.
+Primary: research_registry/proposals/production_origin_supply_20261003/AMBIGUITY_SET_MINIM_MANUAL_REVIEW_20261007.json.
+Ordinarylogicalword merging is distinct from the physical control/fragment
+stream; old1202bounds retain their precise one-word/group assumptions.
+Five-hourworkcontinues through16:11UTC; next conceptual work canonical notes.
+
+## 2026-10-07 GDT1256 fixed-source permutation envelope fails
+
+All6288oldDeotwords include509sixlettertokens/368types, none with letter
+multiplicities4,1,1. Thus any within-word permutation plus injective fixed
+lettermap cannot produce the old keeees witness from this source vocabulary.
+Rareone-locusworkingunits/group boundary remain premises; no nativevalue,
+languageban ornewimage. PlannedHamiltonianentropy calculation notrun.
+Primary: experiments/yolo/gdt1256_word_permutation_multiplicity/REPORT.md.
+Separateequality-class validatorPASS. Five-hourwork continues until16:11UTC;
+no automatic replacement source, alphabet or extra-state repair.
+
+## 2026-10-07 GDT1255 finite-state entropy budget
+
+For fixed injective one-letter/one-sign rows and a complete deterministic
+K-state writer, empirical within-word outputH2>=sourceH2-log2K. Applied to
+old1228fullDeotbothorientations, everyK<=2fails every oldreader ceiling;
+smallestmargin0.061596137bits. Separate proofreview and arithmeticfixturesPASS.
+This is conditional source/model exclusion, not native memory orlanguage,
+new manuscript statistics or meaning. No automatic3state/key/source repair.
+Primary: experiments/yolo/gdt1255_finite_state_entropy_budget/REPORT.md.
+Userfivehourwork continues through16:11UTC; next selection is separately
+motivated word-internal transposition, subject to predecessor review.
+
+## 2026-10-07 e-placement framing: no assumed same-message identity
+
+checkhy/chckhey may encode different source content; their equality was not
+established.1254tests only its two deterministic neighbor rules and stays
+unidentifying. Local ch e^r ckh e^s y illustration requires no movement of e,
+but assigns no native source values or units;849eeanchorsalreadyprevent a
+complete binaryfamilywriter. Keep exact forms and both positions. No new
+query, decoder or meaning; no broader neighbor fit. Primary:
+research_registry/proposals/production_origin_supply_20261003/TWO_SITE_CONTENT_VS_ALIAS_REVIEW_20261007.json.
+This corrects selection framing, not manuscript statistics or old decisions.
+
+## 2026-10-07 GDT1254 exact-neighbor lookup is unidentifying
+
+The unchanged146eligible854ZLrecords have146distinct same-cell BOTH-neighbor
+keys; RIGHT has145keys and only one repeated key. Neither has a conflict,
+but BOTH fits by memorization and RIGHT has almost no repeated support.
+No rule selected, classifier, semantic assignment or post-result coarsening.
+854cross-kernel capacity stop and older left-only counterexample retained.
+Primary: experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md.
+Independent pairwise validatorPASS is arithmetic only. Local checkpoint;
+no automatic broader neighbor fit. Producerfinished; no runningwork.
+
+## 2026-10-07 IDEA974 retains inverse but fails five fixed source envelopes
+
+keeees is multisign/nonunary, so974must decode it through its letterwise
+bijection asABBBBC; its whole-unary quote cannot shorten an internal run.
+Old1240zeroXU4Ysupport across87219fixed source tokens therefore excludes
+these source/model conjunctions without a new count or any key search.
+Primary: research_registry/proposals/production_origin_supply_20261003/IDEA974_FOUR_BODY_OBLIGATION_20261007.json.
+Abstractinverse remains supported_limited, other sources open. One rarelocus,
+workingunits/wordgroups and oldsource projections are premises;1242notan
+alphabetproof,1244stillunresolved. No dictionary/segmentation/source repair.
+
+## 2026-10-07 short adjacency clarified; IDEA974 constructive inverse retained
+
+f20v8d|sis definiteZL/IT butuncertainRF;f21r3o|l isdefiniteZL,joinedIT,
+uncertainRF. No imageornewglobalcount;linefinalsoutside1227strictscope.
+IDEA974completewordchannel lets glyphs bewholewordshortcutsalone andliteral
+insideotherwords, withwhole-unary length+1quoting to preserve singleletters.
+Manualinversecaseproof supported_limited; no actualL/Dmap orVoynichmeaning.
+Primary: research_registry/proposals/production_origin_supply_20261003/WHOLE_GROUP_ABBREVIATION_MANUAL_REVIEW_20261007.json.
+FreeDcoverage isunidentifying;wordfrequencyinvariant;old1202/1226failures
+stand. No native/corpusencoderselected;producerfinished, no runningwork.
+
+## 2026-10-07 short-group profile synthesis
+
+Old1227strict counts have a widespread core:s/r/y/l/o are94.44%ZL,92.67%IT,
+93.36%RFof tokens. d/l/o/r/s/sh/y each recur separately in every reading;
+rareone-occurrence types remain. No newcount, aligned-reader corroboration or
+role/value assignment. Broad words profiles use different eligibility and stay
+separate. Seven preexisting ZLwitnesslines retained for context, not newsyntax.
+Primary: research_registry/proposals/production_origin_supply_20261003/SHORT_GROUP_PROFILE_SYNTHESIS_20261007.json.
+Wholeword shorthand835/837remains an architecture option only; no nativeW
+identity, no newdecoder or sourcefrequency repair. Producerfinished.
+
+## 2026-10-07 a source vowel condition constrains the universal-cover class
+
+Using old1227counts only: fixed one-spelling/nonempty sourceletter codes and
+one complete vowel-containing lexical sourceword per group require at least
+10ZL/12IT/14RFdistinct vowel LETTERS. An explicitly <=6vowelletter model
+cannot satisfy all these premises. No actual native vowel/language selected.
+Primary: research_registry/proposals/production_origin_supply_20261003/SINGLETON_SOURCE_VOWEL_OBLIGATION_20261007.json.
+Numerals/abbreviations/syllabograms/allographs/other units remain different
+contracts. Source vowels must be tested after1253decoding, not by rawglyph
+hitting sets. No newdata,languagefit,decoder or exception repair;1253retained.
+
+## 2026-10-07 GDT1253: grammar-assisted23entry coverage is universal
+
+Constructive rule: n singleton codes plusB→xy, x≠y; sourcegrammar forbids
+adjacent singletonXxXy. Every outputword has one legal sourceparse. This gives
+23entries for22workingunits, matching the inherited conditionalnontrivial
+<=22exclusion. Identity22table still allowed; codeentries≠visiblecharacters.
+Primary: experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md.
+All-lengthproof plus510binaryoutputs/608legalsources checked; no native/source
+corpus or actualmeaning. Universal coverage is not evidence for a particular
+language. No further shape-cover search without independent sourceconstraint;
+wordwisefrequencyinvariance andoldfailures preserved. No runningwork/no push.
+
+## 2026-10-07 source-grouping selection checkpoint, no new test
+
+1176/1177/1178/1221/1222primaries re-read. Existing tradeoff retained: joining
+reduces excessive top-frequency concentration but several fixed rules create
+too many types.1222SCG4passes its two metrics; other books fail and original
+joint decision remainsFAIL. No subset rescue, language selection, complete
+encoder or universal grouping exclusion. Complete nominal-phrase grouping is
+not identical to1221's executed relation set, but has no new selected design.
+Detailed source-specific figures/limits in HAND_WRITER dossier. No new ledger
+result, corpus, rawproposal or computation; producerfinished.
+
+## 2026-10-07 first-introduction spacing rule fails on fixed f82r prefix
+
+Known850joinedqolchedy f82r.2 appears after nine fully literal preceding groups
+from a ZL/IT-consensus paragraph start, with no separateqol|chedy introduction.
+This rejects only compulsory introduction-before-join within each paragraph.
+RFopaque prefix unscored; no nonlocal-memory/compound ban or lexical values.
+Primary: research_registry/proposals/production_origin_supply_20261003/FIRST_INTRO_F82R_MANUAL_CHECK_20261007.json.
+Retain old850/852same-line native spacing contrast;853capacity stop is not an
+estimated zero spacing effect,1056no visible repair is not proof of intention.
+No new image, decoder, relaxed853comparison or reset-window repair.
+
+## 2026-10-07 fixed obligatory length cap cannot select these candidate joins
+
+Conditional on the same literalCHEOL+Xconstruction, joinedcheoltchedaiin
+(f114r39)length14 and separatedcheol|chedytey(f108v43)combined13cannot satisfy
+JOIN iff length<=one fixed cap. chcollapsed12vs11gives the same ordering.
+All readings retain the focal strings/boundary; both sourcehand3/sectionS.
+This is a manual deduction, not a new statistical test or established native
+morphology. Mere maximum allowance, actual width/restspace and contextual
+eligibility are not refuted. Source-bound proof:
+research_registry/proposals/production_origin_supply_20261003/CHEOL_FIXED_CAP_MANUAL_CHECK_20261007.json.
+No cap/geometry repair or new decoder; prior1251/1252limits preserved.
+
+## 2026-10-07 f76v.28 local join support after explicit localization correction
+
+1251first region clipped target; originalUNRESOLVED_REGION_MISLOCALIZED and
+extra.26pixel exposure remain documented.1252separately registered one fixed
+corrected region before viewing. Completecheolcheyseam appears tighter than
+both outer gaps: LOCAL_INTERNAL_LIKE_SUPPORT, one informed AI, no meaning or
+linguistic wordhood. ITsplit retained as raw reading; not evidence of authorial
+optional separation at this point. Both reports/source receipts are under
+experiments/yolo/gdt1251_f76v_cheol_seam_view/ andgdt1252_f76v_corrected_seam_localization/.
+Two new bounded f76vimage grants are explicit; no implicit179image admission.
+No reserves/OCR, no decoder or global join census; producerfinished. Local/no push.
+
+## 2026-10-07 cheol composition examples extended, alternatives retained
+
+Exact whole cheolchey f76r.30 and cheolkeedy f108v.43 occur in all3readings.
+The latter line also has adjacent free cheol. Together with cheoltchedaiin,
+retain three formal composition candidates; no morphology/meaning selected.
+Alternative cheo+lchey and che+olchey prevent a unique cheolchey parse;
+ZL also allows cheolk+eedy. IT f76v.28 splits cheol chey, RF f85r1.10 has
+an opaque entity. cheolchedy0is sparse absence, not a grammatical prohibition.
+Primary: research_registry/proposals/production_origin_supply_20261003/CHEOL_EXTENSION_RESULT_20261007.json.
+No global join census, decoder, image or new lexical value; producer finished.
+
+## 2026-10-07 rare long-form composition candidate retained
+
+All13ASCII cuts of cheoltchedaiin checked via existing exact profiles. Only
+cheol|tchedaiin has separately attested wholes in ZL/IT; RF also permits
+cheolt|chedaiin. Free tchedaiin occurs at f114r.24, long whole at .39; full
+six reader-lines preserved. Prior tight internal image join retained. This
+is one exposed formal compound candidate, no meaning, unique authorial parse
+or productivity claim. Primary result and scope:
+research_registry/proposals/production_origin_supply_20261003/LONG_FORM_ALL_CUT_RESULT_20261007.json.
+Pre-query12-cut typo corrected explicitly; all13were included from the start.
+No decoder, global join/recency rerun or new image. No running work.
+
+## 2026-10-07 one1250boundary visually contextualized
+
+Existing f77r2000px930image is compatible with otedy .25 starting the second
+large prose block. One informed manual alignment; no inference of a new message
+or historical empty memory. Original1250conditional rejection unchanged.
+Receipt and disclosed2793px-vs2000px hash-check correction:
+research_registry/proposals/production_origin_supply_20261003/CACHE_RESET_F77R_BOUNDARY_VIEW_20261007.json.
+No new image admission, geometry measurement, candidate or running work.
+
+## 2026-10-07 GDT1250: mandatory disjoint cache plus paragraph reset excluded
+
+New necessary-condition test finds5ZL/8IT/5RFexact types in both strict internal
+doublets and consensus paragraph-initial positions. Globally disjoint literal/
+reference forms, mandatory storage/hit references and empty paragraph resets
+cannot jointly account for these, regardless of cache size. No general cache
+ban: overlapping modes/optional literals/other resets are outside this contract.
+Primary: experiments/yolo/gdt1250_cache_reset_doublet_conflict/REPORT.md.
+All18reader-specific full-line witnesses retained. SQL validator and own hashes
+pass; original data are exposed, paragraph flags projected fromZL/IT, no image
+confirmation or meaning. Prior58/50/36capacity bound is unchanged. No larger
+cache/decoder repair. Global checks retain unrelated old failures; local/no push.
+
+## 2026-10-07 reordered classes checked before building another writer
+
+Stable partition of source symbols into two classes loses their interleaving
+unless order is supplied by marks, layout, context or explicit source limits.
+Six-way teaching example and binomial account are retained in
+research_registry/proposals/production_origin_supply_20261003/PARTITION_INFORMATION_ACCOUNT_20261007.json.
+This differs from929's index-paired coordinate halves. A deterministic lossless
+one-word/one-group repair still preserves source frequencies, so it does not
+repair1202's fixed four-source failures. No universal language exclusion or new
+native statistic. No encoder, fitted sign inventory or renewed source run.
+973remains parked, f77r left-only countercase and854capacity retained.
+Producer finished with no distinct complete proposal; no running work.
+
+## 2026-10-07 IDEA973 physical preflight parked inconclusive
+
+Direct existing f83r canvas view at high and original detail did not define
+alternate shape contours/anchor, prior-ink chronology or a clearance test.
+No candidate marked both-free/colliding. Do not interpret this as a refutation
+or build a detector from arbitrary fitted contours. Reopening requires a
+concrete independently justified drawing contract. Primary receipt:
+research_registry/proposals/production_origin_supply_20261003/INTERLINE_COLLISION_E_PLACEMENT_PREFLIGHT_20261007.json.
+The f77r left-only countercase,854capacity and972stop remain. No new meaning,
+image admission or running work; no duplicate alternator selected.
+
+## 2026-10-07 manual two-site choice: retain f77r left-only countercase
+
+Read29complete ZL lines and the eight existing word profiles. Then the existing
+854 qokaiin examples led to a targeted f77r30/34 full-line check: all3readings
+retain qokaiin chckhey versus qokaiin checkhy, definite boundaries, same
+page/hand and internal category. Different ordinals/right contexts remain.
+This excludes only a deterministic choice from the declared family, immediately
+preceding word and coarse metadata, not both neighbors or content-dependent
+spelling. Exploratory selection; no new image, classifier or word meaning.
+Source-bound result: research_registry/proposals/production_origin_supply_20261003/TWO_SITE_MANUAL_DECISION_20261007.json.
+854capacity and972stop stand. No automatic broader countercase census.
+
+## 2026-10-07 literal-edit correction and two-site working frame
+
+808's ol→eol adds e, edy→eody adds o: the preceding universal-e wording
+was too broad. Retain the original failed fixed cross-axis transfer and865
+robustness, not a universal e-function exclusion. Detailed correction is in
+HAND_WRITER_RECONSTRUCTION_20261004.md, "literal edit correction and two-site
+construction synthesis". Existing849 supplies all four literal ch[e]ckh[e]y
+corners;854 mixed cells preserve positional distinctions within page/hand/etc.
+This is a working form description with grammatical versus compound-spelling
+parses unresolved, not a newly discovered grammar.845/846prevent universal
+ee+d exclusion. No new corpus test or meanings;854capacity and972stop stand.
+
+## 2026-10-07 existing statistical background restored to working context
+
+At the user's explicit request, root read the existing claim-bearing reports
+on boundaries, directed composition, within-group dependencies, word adjacency,
+position, register, form families and instrument calibration. Numerical findings
+and binding counterexamples are consolidated in the existing
+research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md
+under "Existing statistics loaded on explicit user correction". Some reports
+were read in relevant sections; this is not a fresh implementation audit.
+The interrupted 80-form profile comparison is exploratory, preserved with
+negative extensions in FORM_FAMILY_EXPLORATION_SUMMARY_20261007.json beside
+that dossier. It is subordinate to the larger prior evidence. No new scientific
+test, lexical assignment or candidate selected. Component inventory coverage
+is not word reconstruction; family contrasts are not universal morpheme values;
+pooled statistics do not automatically apply to each hand/register. Use this
+background together with the retained image/text packets.972 remains closed.
+No running work; local checkpoint only.
+
+## 2026-10-07 short samples and provisional explanatory picture
+
+User-requested text packet now retains23complete loci, separate ZL/IT/RF raw
+groups and separators: docs/visual_overview/TEXT_SAMPLES_20261007.json and.txt.
+Use together with REVISIT_20261007.json before new model selection. Candidate
+circle text was stopped by the179allowlist preflight before raw-word extraction;
+the earlier metadata-only scout is disclosed, not a new text grant.
+Working picture: reusable form families plus possibly distinct scribal/layout
+realization. qokey/qokeey/qokedy/qokeedy and daldy/dalor/dal are illustrative
+old positives, not newly identified morphemes. Reader joined/split differences
+are not authorial optional-fusion proof.920prevents adopting p/f→k/t as verified
+case folding. No new full writer, statistical test or meaning selected;972closed.
+This is hypothesis synthesis from concrete context, not a claimed aha discovery.
+
+## 2026-10-07 user-directed visual memory refreshed
+
+Root directly re-viewed five cached full original canvases: f4r,f17r,f76r,f83r
+and sharedf69v/f70r. All hashes match existing receipts and image admissions.
+Source-bound observations: docs/visual_overview/REVISIT_20261007.json.
+Retain plant pages with multiple text blocks, variable line lengths around
+illustrations, f76r's dense prose plus separate marginal signs, f83r's mixed
+long/short writing and connected figure motifs, and radial/annular/horizontal
+writing together on the circle canvas. Do not flatten these into one universal
+line/sentence/label grammar. No glyph meanings, object identities, flow direction
+or new language selected. This is renewed orientation, not independent evidence
+or a new discovery.972carrier stays closed. No new test or running process.
+One orientation ledger row; local/no push. Prior timed research request is not
+claimed complete merely from elapsed clock time.
+
+## 2026-10-07 targeted review freshness repaired; scientific route unchanged
+
+The eight old review-basis mismatches from the1249index rebuild are resolved
+by explicit append-only reviews after verification of16unchanged evidence
+hashes and current primary conclusions. No verdict, blocker or finding was
+upgraded. Registry checkPASS; unrelated global experiment issues remain.
+The nasal-abbreviation uniqueness sketch is only an existing-family design
+possibility; fixed deterministic word spelling cannot change word frequencies.
+No new experiment or native value selected;972carrier remains closed.
+Detailed selection/admin note in the existing HAND_WRITER dossier.
+
+## 2026-10-07 GDT1249: unchanged972carrier excluded, source inverse retained
+
+Registered initial bound excludes19heads in each reading, retaining i/n/m.
+Disclosed post-result literal-code checks eliminate the remaining heads: an/am
+for n/m; aiichy for iRF/ZL, and separately nominated known GDT1204 ITdaiin.
+Exact original groups/working units and one global bijection are assumptions;
+rare and alternate-reader evidence is not independent ink confirmation.
+Primary report: experiments/yolo/gdt1249_suffix_carrier_initial_capacity/REPORT.md.
+Initial result and every intermediate survivor remain; source inverse positive
+is unchanged. Stop this carrier without marker/escape/reader repair. No native
+meaning, new source language, general shorthand exclusion or confirmed word.
+Local validators and1249manifest PASS. Global checks retain older layout/hash/
+artifact issues. Index refresh exposed8stale older reviews (1121–1124,1238/1239,
+1245/1247); no automatic recuration. See existing HAND_WRITER dossier closure.
+Two scoped material rows and append-only1249/972reviews. No push or running work.
+
+## 2026-10-07 IDEA972: complete paid source carrier, native fit untested
+
+The unchanged common-suffix block now has an explicit22working-sign carrier
+for its82source characters, control scope, empty prefixes, overwide fragments
+and24cell layout. Sixteen exposed teaching cases reconstruct through a separate
+same-author reader; code-table, framing and costs checked. No native meaning,
+key, historical practice or statistical match. This is not a22glyph discovery.
+Compared with literal writing under the same carrier, several examples save
+signs, others do not; selected examples do not measure corpus usefulness.
+All artifacts: research_registry/proposals/production_origin_supply_20261003/
+COMMON_SUFFIX_BLOCK_CARRIER_*_20261007.*. IDEA972 review appended and one
+material ledger row added. Prior failures and abstract972proof remain.
+Next nomination: predeclare the at-most-four initial-follower necessary bound
+for the carrier's reserved sign under any global renaming; no native counts
+or actual marker chosen yet. No automatic repairs. Local/no stage or push.
+
+## 2026-10-07 IDEA972: concrete shared-ending construction, abstract inverse only
+
+A new first-two-word/maximal-common-suffix block writes its missing ending
+once, followed by prefixes and an explicit closer; empty prefixes are overt.
+The frozen teaching syntax preserves source words and permits later repeated
+members. The first two nonempty members cannot be identical when BOTH initial
+members are nonempty; empty members must not be skipped to apply this rule.
+A singleton is literal under the same paragraph rule; no label-only mode.
+Four predeclared root examples expand by3/3/5/1ASCII characters after controls;
+a longer shared-suffix producer example saves11. These are examples, not corpus
+statistics. No22sign carrier, historical attestation, native values or target fit.
+Raw, small replay, result and review: production_origin_supply_20261003/
+COMMON_SUFFIX_BLOCK_*_20261007.* under research_registry/proposals/.
+One material ledger event; IDEA972 supported_limited for abstract inverse only.
+No next corpus/decoder/marker scan selected. Big-picture working priority and
+all earlier failures remain;5h work not claimed complete. Local/no push.
+
+## 2026-10-07 whole-book working priority after user big-picture request
+
+Exploratory priority: illustrated specialist compendium with a common writing
+practice across local text functions. This is a research wager, not confirmed
+genre, language, recipe content or a new construction. Prose/reference use/
+mnemonic dependence are different axes, not three exclusive models. Existing
+W89, source-writer and mnemonic stops remain. Root re-viewed admitted W90 f88r
+for whole-page orientation only; no new image finding or word assignment.
+No new experiment/decoder selected. Detailed reasoning in
+research_registry/proposals/production_origin_supply_20261003/NEXT_MEANING_TASK_STRATEGIC_REVIEW.md,
+7October whole-book section. The requested5h work is not claimed completed.
+
+7Oct965length bound: unchanged3unit preparation suffixes cannot derive each old1200B/By/Bdytriplet from one fixed base under any bijective working-unit renaming. Separate learned roots remain legal; no native morphemes or meanings identified. Earlier lesson positive/cost bound retained. Primary: production_origin_supply_20261003/MATERIAL965_LENGTH_OBLIGATION_RESULT_20261007.json.
+
+7Oct912countermodel: with no initially prepared stock, fresh locally executable choice yields exactly the same AA/BB histories as a once-selected course. This is a finite semantic rival, not manuscript evidence.4Octoberpriority withdrawal retained; no f82rreading selected. Primary: production_origin_supply_20261003/COURSE912_AVAILABILITY_RESULT_20261007.json.
+
+7Oct953followup: existing admitted f66r photograph does not securely resolve dair/ykodas inner boundary. Correct locus is eighth main prose row, not lower margin. ZLliteral-carrier failure stays conditional; no general rejection or native meaning. Receipt: production_origin_supply_20261003/PROPERTY953_F66R_BOUNDARY_VISUAL_20261007.json.
+
+7Oct953literal carrier: ZL f66r.57dairykodas fails fixed ry grammar outside quoted names; IT dair|ykodas and RF entity/uncertain gap retained. Conditional transcription-specific failure only; earlier teaching positive intact. Primary: production_origin_supply_20261003/PROPERTY953_RY_WITNESS_RESULT_20261007.json. No new meaning or automatic marker repair.
+
+7Oct source-only checkpoint: Muntahab edition lead verified; complete medical text and source-specific morphology not acquired. Mixed-period article examples not adopted. No native language, word values or writer selected. See HISTORICAL_PRODUCTIVE_MEDICAL_SOURCE_20261007.json in production_origin_supply_20261003. Construction exploration remains open; no process running.
+
+7Oct user resumed construction search. Earlier operational impasse is not a ban on exploration. IDEA956 review now also retains GDT1227: teaching-label conflicts in all readings, global-renaming capacity conflict RFonly; no successful IT/ZL map. No new native test or word meaning. Current route/dossier give continuation.
+
+7Oct operational goal impasse: three consecutive continuation blocks did not supply a complete evidence-bound reading discriminator (Fedeli source,971module,913source consumer). No new manuscript failure or universal impossibility claim. Current candidate work stopped; confirmed lexemes remain0. See production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md, Translation-goal impasse audit. Resumption requires materially new discriminating input; prior positives and failures retained.
+
+## 6Oct new ten-hour block: two early construction stops, no meanings
+
+7Oct scope clarification: the old roughly91percent measure is separate normalized root/form inventory coverage, not full-form prediction or checked exact reconstruction. Stored values unchanged;718unseen-group transition and608exterior-profile positives retained. Jointly hypothesized attachment is allowed under a finite shared writer; independent prior attachment is not a universal prerequisite. No new test, lexeme or codebook reopening. Primary: research_registry/proposals/differential_reading_20260914/STRUCTURAL_BASELINE.md (7October clarification); selection details in production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md. Current five-hour request remains unfinished.
+
+7Oct GDT1248: explicit complete cfh/cph tables attain1234conditional nontrivial prefix-code minimum27 in all3readings; compound activity below0.7percent. q construction fully covers same panel with32/33used entries at18–20percent activity. No source values, meanings or independent prediction. Cost question closed; no automatic table/source fit. Primary: experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md.
+
+7Oct GDT1247: all7original1097cases admit simultaneous prefix-free representatives for22locally recurrent atoms, including all4UNKNOWNs and3stronger-modelINFEASIBLEs. Necessary projection cannot select; no complete placements/singletons/four-page code or word meaning. Original outcomes unchanged; no further weak-projection chain. Primary: experiments/yolo/gdt1247_prefix_representative_capacity/REPORT.md.
+
+7Oct GDT1246: separately narrowed conditional half-pair dependence measured; no excess (ZL7vs55/7,IT6vs59/8,RF5vs35/6). All observed repeats sit in zero-variance strata: no movable comparison for the motivating cases. No general repetition refutation or relaxed null.968old synthetic equivalence proof retained; descriptive test does not select mental copying. Primary: experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md. No next test selected.
+
+7Oct local968design review: synthetic copy/template/whole-table writers yield identical forms and identical pairing scores; seam-conditioned true-copy example can have zero mobility. Do not run968for mechanism selection. Descriptive question and1200positive forms retained; no native count or repetition refutation. Primary: research_registry/proposals/production_origin_supply_20261003/IDEA968_IDENTIFIABILITY_RESULT_20261007.json. New10hour request remains unfinished.
+
+06Oct22:29UTC checkpoint:1245overclaim corrected; terminal-mfollowup review found no new selected test. Existing800/801positive line-position relation retained,802family/context limits and829capacity stop retained. Current turn 6.8minutes; new10hour block unfinished. Root/producer stopped, no background process or publication. Details: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md.
+
+6Oct1245communication correction: whole implementation remains INCONCLUSIVE because269windows are unresolved. Prior report and264scorable failures preserved. Same-page/four-paragraph/native2-1-2width assumptions are not supplied by the historical two-folio example. No repair or rerun. Primary: experiments/yolo/gdt1245_internal_start_cue_capacity/artifacts/GDT1245_CLAIM_PRIORITY_CORRECTION_20261006.json.
+
+06Oct22:22UTC local checkpoint: 17.5minutes this turn; requested new10hours unfinished.1245complete as necessary test only, no candidates;264scorable failures and269unresolved remain distinct. No next test selected or width/page/alias repair. Source/validator/privacy checks passed for new artifacts; overall18FAIL+2STALEbaseline remains. Root/producer stopped; no unattended work or push. Primary: experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md.
+
+6Oct22:18UTC GDT1245: no complete local2/1/2cue candidate;264scorable reader-windows contradicted,269unresolved,13gap,3short;RFno own paragraph capacity. Historical901cue source retained, no full native interpretation or general reference ban. Original954failure stays. Primary: experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md.
+
+06Oct22:04UTC local checkpoint: current turn 25.3minutes; requested new10hours unfinished.1244unresolved;967deprioritized; strict typed field cycle contradicted by old857witness.896exact bridge packet has no p/ycase;959followups linked. No selected full writer or meaning; root/producer stopped, no unattended process or push. Next inspect897primaries before selection. Details: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md.
+
+6Oct typed whole-field triage: fixed global eight-role cycle not selected because existing857adjacent repetition contradicts disjoint typed codewords. No new manuscript observation or general field-code exclusion. Complete three-entry source projection only24groups. Primary: research_registry/proposals/production_origin_supply_20261003/TACUINUM_TYPED_CYCLE_SELECTION_20261006.json.
+
+6Oct967priority decision: full writer deprioritized after existing common-word profiles show thatchedy/qokedy also require vowel-free words under its frozen rule. No general language refutation.1243positive gaps and1244unresolved endpoint retained. No further same-byte gap tests/decoder without a complete source/phonemic and physical contract. Primary: research_registry/proposals/production_origin_supply_20261003/IDEA967_COMMON_WORD_OBLIGATIONS_20261006.json.
+
+6Oct21:43UTC GDT1244: fixedkeeees left arch/body seam clear gap, right seam unresolved. No two-gap pass or physical refutation.1243ten gaps preserved;967still unselected. Full-writer change packet incomplete; no phonemic/source binding or decoder. Primary: experiments/yolo/gdt1244_f21v_arch_body_gaps/REPORT.md.
+
+6Oct21:39UTC local checkpoint: current turn about37.8minutes, requested new10hours unfinished.1243retains ten local white gaps under967; no vowel/meaning/full writer selected.888historical source access resolved but content pairing partial. Root/producer stopped; no unattended process, commit or push. Next full test needs source/physical binding with known counterconstraints retained.
+
+6Oct21:32UTC GDT1243: ten fixed internal seams in f45r.10daldy/dalor/dal show white gaps; one informed source view. Retains only IDEA967necessary local separation, no vowel/meaning/full-writer selection. Source/chronology/reductionPASS; no independent palaeography. Primary: experiments/yolo/gdt1243_f45r_mandatory_grapheme_gaps/REPORT.md.
+
+6Oct21:16UTC resumed work: IDEA888 official Latin6977f6r complete image acquired; partial reading only. Paris9333 prose keeps explicit rubrics and groups four final categories with variable order. Two tentative table-owner readings withdrawn. No complete lossless pair, native compiler or meaning. Primary: research_registry/proposals/production_origin_supply_20261003/TABLE888_SOURCE_COLLATION_20261006.json. Earlier20:01checkpoint and403receipts are historical; root active with one bounded producer.
+
+6Oct20:01UTC unfinished checkpoint: about53minutes of the new requested ten-hour block, not ten hours completed. Root and producer stopped; no unattended work. No new selectable writer after the scoped source/grouping review. GDT1242 limited source observation retained;0confirmed meanings.
+
+6Oct source check GDT1242: official f21v.3 photograph supports four small drawn bodies and external clearances in rare keeees. One informed observation, not four proven native graphemes. GDT1238–1241 decisions unchanged. IDEA888 complete-table acquisition stopped at inaccessible institutional source/incomplete mirror; no historical omission rule acquired. Primaries: experiments/yolo/gdt1242_f21v_four_body_source/REPORT.md; research_registry/proposals/production_origin_supply_20261003/TABLE_COMPILATION888_ACQUISITION_RECEIPTS_20261006.json.
+
+6Oct19:20 baseline reconciliation:1074/1075old pX/yX paragraph-position robustness restored to the live brief/route;1073originalRFmetadata unscorable preserved.1076follower control capacity missing;1099only one same-paragraph head/reprise opportunity. No new measurement, semantic assignment, normalization or rerun. Details:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md.
+
+User repetition correction6Oct19:02UTC: recent fixed-code/feedback and miniature-language branches are related families, not independent decipherment advances. Defer more table/direction/control/teaching variants;955producer expansion stopped. Preserve all original outcomes. Next selection must explain a concrete native pattern by a materially different mechanism under existing decision rules. Primary:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md, Nutzerkorrektur section.
+
+GDT1241: direct right-quotient closure forces20/21/19singleton codes inIT/RF/ZL, includingk,e,s. Reused1240zero-sourcepower result excludes the same five fixedsource contracts for unlimited suffix-free nonempty literal expansions. Not all22forced; no general nontrivial suffix-code ban. First-discovered proofs and keeees use rare forms; no new source census/image/meaning. Primary:experiments/yolo/gdt1241_suffix_quotient_expansion/REPORT.md.
+
+GDT1240: fixed prefix-free nonempty literal expansions of arbitrary table size cannot cover oldkeeees from any of five fixed source populations;required XU^4Y is absent across87219storedtokens.18oldquotientproofevents and fullsourcecensus validated. Unlimited aliases allowed; rare native witness and exactword/unit assumptions retained. Primary:experiments/yolo/gdt1240_prefix_expansion_fourth_power/REPORT.md.
+
+966source-held comparison lesson manually read and mechanically checked: exactname,root-finalr,listnegation,repeatedreferent,changedstandard and continuation preserved.8logicalwords cost79units14physicalgroups. Complete-message cost bounds and two old triple-based control-mapping exclusions are conditional; no native content/lexicalbinding or fit. Primary:research_registry/proposals/production_origin_supply_20261003/COMPARISON966_COST_OBLIGATION_20261006.json.
+
+IDEA957: the old uniform-terminal stop now extends to any fixed nonempty literal SAME exponent at any position; old strict chol/ytaiin triples have disjoint working-sign sets. The abstract lesson remains meaningful, full carrier unpaid; zero/allomorphic/other grammar untested. Primary:research_registry/proposals/production_origin_supply_20261003/PIVOT957_NONEMPTY_EXPONENT_BOUND_20261006.json.
+
+GDT1239 separately excludes the fixed Deot positional envelope in both orientations:47/33/32logical and32/23/18reversed whole groups unsupported inIT/RF/ZL. Reverse witnesses are singletons. No universal source-language conclusion;1238inconclusive remains unchanged. Primary:experiments/yolo/gdt1239_written_feedback_position_envelope/REPORT.md.
+
+GDT1238 maximum-only feedback bound is inconclusive: native max4 in all readings requires source run3; fixed Deot contains one triple. No table selected. Length/position is a separate question tested by1239above, not a retrospective1238failure. Primary:experiments/yolo/gdt1238_written_feedback_run_bound/REPORT.md.
+
+965has a source-held complete material-list hand reading: exact vessels, quantities, preparation order and outer/local/IF scopes recovered; small replayPASS. Explicit controls/names cost22of29challenge groups. Complete-message cost identity remains conditional, not a native frequency test. No meaning/content/native-fit binding and no large generator. Primary:research_registry/proposals/production_origin_supply_20261003/MEASURED_MATERIAL965_HAND_REPLAY_RESULT_20261006.json and MEASURED_MATERIAL965_COST_OBLIGATION_20261006.json.
+
+953now has a complete paid narrow physical teaching writer; root exposed-message hand reading and95character/row replay agree. Native lexicon/content/statisticalfit remain unbound, no image comparison selected. Exactly one visible internal sentence seam is required for bareAAA; oldf104vimage report does not measure it. Primary:research_registry/proposals/production_origin_supply_20261003/HUMAN_PROPERTY953_PHYSICAL_ROOT_REVIEW_20261006.json.
+
+The shared-junction failure now has a separate recurrent-form proof:15S forced from11fixed whole forms, each supported on at least5physical leaves in every reading (minimum tokens9IT/8RF/7ZL). Earlier rare-witness proof remains frozen; no hapax is needed for this new consequence. Still conditional on exact working units/group boundaries. Primary:research_registry/proposals/production_origin_supply_20261003/SHARED_JUNCTION_RECURRENT_PROOF_RESULT_20261006.json.
+
+Active until at least7Oct00:34:53UTC, started6Oct14:34:53UTC. Sorted additive two-form classes contradict the repeated d,a,l,d in whole daldy. A different shared-junction teaching script is manually readable, including a continued new name, but its14simple-sign capacity is exceeded by15forced signs in every alternate reading using old whole-form witnesses. Neither failure refutes all additive or contextual writing. Exact working-unit/group assumptions and rare witnesses retained;0confirmed native meanings. No corpus rerun, table repair or public push. Primaries:research_registry/proposals/production_origin_supply_20261003/SORTED_TWO_FORM_ADDITIVE_ROOT_REVIEW_20261006.json and SHARED_JUNCTION_HAND_VALIDATION_20261006.json. Root reviews the next motivated human writing mechanism; producer restarts on a bounded separate supply task.
+
+## 6Oct ten-hour construction checkpoint completed
+
+2026-10-06T14:33:43.945613+00:00: the requested block from04:33:34UTC has completed at least10hours. No confirmed native word and no complete statistically/native-fitting writer. Retain the956/958limited hand-readability positives,1225pooled-frequency comparison limit,1236rare-proof dependence,1237small recurrent residual and separate fixed22defect consequence. Full decisions and primary pointers are in the final critical section of research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md. IDEA964is a new unreviewed source-to-packet singleton-frequency proposal, not a selected test; its value1lemma already exists in959. Before any selection, author a complete source/group/control/censoring contract; do not substitute an old interior denominator or rerun the old arithmetic fit. Root and producer stopped at this checkpoint; no background process, no commit/push under the local construction exception.
+
+## 6Oct fixed22 table: ambiguous parsing cannot rescue coverage
+
+Separate post-result defect proof extends the old UD22 exclusion to ANY fixed ordinary-concatenation table of at most22 nonempty codewords: only22-singleton identity covers the unchanged full whole-group panels. Grammar filtering cannot enlarge that cover. This sharpens the older UD-only scope paragraph below; original1235andUD22results remain untouched. Cap is on table entries, not visible glyphs; larger/context-dependent shorthand remains a different contract. Rare/unit/seam assumptions retained; no meanings or new native evidence. Primary:research_registry/proposals/production_origin_supply_20261003/NON_UD22_DEFECT_CONSEQUENCE_20261006.json. Local10hblock until14:33:34UTC; no push.
+
+## 6Oct one-compound discrepancy
+
+GDT1237 enumerates946formal22letter tables. At1/5/10percent activity, in-without-singletonn has minimum60IT/48RF/43ZLwhole-group exceptions and3795/3440/3331active. ExactUD22failure remains; qokan/chan recurring residuals forbid calling the result a repairedwriter or translation. See experiments/yolo/gdt1237_one_compound_letter_exceptions/REPORT.md.
+
+## 6Oct prefix proof support diagnostic
+
+GDT1236 retains1234full27bound but shows count>=2/page>=2bounds23in all readers. Rare-type dependence is material; no corrected corpus or restored writer.14/15of19singleton conclusions and daldyABCADretain recurrent dispersed support. UD1235andUD22post-result are separate, unchanged. See experiments/yolo/gdt1236_prefix_proof_support/REPORT.md.
+
+## 2026-10-06 post-result: nontrivial freeUDlettercode≤22excluded
+
+GDT1235registeredbounds23IT22RF22ZLretain their exact scope. All RF/ZL22-cap residual singleton sets now contradict wholeain/aiin by a separate symbol-count/substring proof, independently checked. No longer code can fit within22entries; identity remains. This is a conditional sourceletter-entry cap, not the number of drawn signs: larger sourcealphabets and mixed/grammar-assisted shorthand remain open. Primary:research_registry/proposals/production_origin_supply_20261003/UD22_POSTRESULT_CAPACITY_CLOSURE_20261006.json. No key/meaning or newimage; no automatic decoder. Ten-hourblockto14:33:34UTC, localnopush.
+
+## 2026-10-06 GDT1234: nontrivial prefix table needs at least27entries
+
+Unchanged1233whole groups, shared code heads and arbitrary finite lengths:19forced singleton working signs;cfh/cph need six branches,q11IT/ZL or12RF. Necessary nontrivial bound27in all3readings,22/26excluded;28not excluded, no exact minimum or table. Identity remains formal capacity. Some retained proof chains depend on one-token forms; no independent ink confirmation. Complete left-quotient closure and independent replay PASS. Primary:experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md. No automatic decoder/spacing/alphabet repair. User10hblock continues to14:33:34UTC; local no push.
+
+## 2026-10-06 GDT1233: every fixed appended tail is empty
+
+All22heads forced singleton separately in IT/RF/ZL under the distinct-initial, fixed finite tail, complete-word contract.22528/19321/19332strict-interior whole groups; exact23node certificates and original-source reconstruction PASS. Trivial substitution survives formally; no source values, physical alphabet proof or meaning. Old1228source-specificH2failure and892/984/1097/1098/1168stops retained. Primary:experiments/yolo/gdt1233_distinct_initial_fixed_expansion/REPORT.md. Root reviews the remaining historically motivated packet scope before another selection; block continues to14:33:34UTC, local no push.
+
+## 2026-10-06: pair swap stopped; number path remains incomplete
+
+The complete fixed-gap pair swap using the literal935carrier fails the old857qokedy triple under both global parities. Its teaching inverse remains valid. IDEA960has a mathematically reversible ordinal module but no complete writer; literal mandatoryqo is contradicted conditionally by existing f114r.39G009qetchar. No word meanings, new image/data, global renaming search or automatic repair. Root and one bounded producer review other hand rules with their actual predecessors; ten-hour block continues to14:33:34UTC. Primaries: research_registry/proposals/production_origin_supply_20261003/HUMAN_FIXED_GAP_PAIR_SWAP_ROOT_REVIEW_20261006.json and HUMAN_END_OPTION_WORD_INDEX_ROOT_REVIEW_20261006.json. Local checkpoint, no push.
+
+## 2026-10-06 GDT1232: direct distinct-value alphabet stopped
+
+The exact22-working-sign injection into the28Abjadvalues contradicts the same fixed interior packet in all readers. FiveIT/sevenRF/fifteenZLforms suffice; independent full branch-certificate replay PASS, including the losslessly compressed retained artifacts.1231shared-value arithmetic capacity remains supported and is not a native key. No complete writer, meaning, global Arabic/cipher rejection or automatic alias repair. Primary:experiments/yolo/gdt1232_injective_abjad_packet_bound/REPORT.md. Root next reviews the producer's different human construction and its actual prior countercases.10hblock active through14:33:34UTC; local, no push.
+
+## 2026-10-06 GDT1231: additive packet relaxation remains feasible
+
+The source-attested additive letter-packet rule, reconstructed with the complete28-value Abjad pool, fits all strict-interior groups of the old manual packet when different working signs may share values. IT66tokens/55types,RF62/51,ZL56/45; explicit witnesses and separate reconstruction/sums PASS. This is necessary arithmetic capacity only, with no native values, complete writer, word framing or frequency/direction explanation. Primary:experiments/yolo/gdt1231_additive_abjad_packet_bound/REPORT.md. Root reviews the actual alphabet/framing contract before another test; no automatic expansion.10hblock continues to14:33:34UTC; local, no push.
+
+## 2026-10-06: growing-phrase rules stopped by existing repetitions
+
+Two explicit online dictionary rules fail before carrier construction: index+literal records cannot recur under immediate longest-match learning; pure stable phrase indices can double but cannot triple.857already records four strict internal all-reader triple coordinates. This is a scoped deduction from old transcriptions, not new data or a general shorthand rejection. The separate1170cache bound remains58IT/50ZL/36RFaddress forms under its own contract;1149/1150d-entry route stays parked. Primary:research_registry/proposals/production_origin_supply_20261003/HUMAN_GROWING_PHRASE_EXISTING_TRIPLES_APPLICATION_20261006.json. No1231experiment or automatic altered-cache writer;10hblock continues through14:33:34UTC. Local checkpoint, no push.
+
+## 2026-10-06 GDT1230: all fixed one-source-letter-memory tables excluded
+
+For the full bare Deot projection, H(output_next|output_previous)>=H(source_current|two previous source positions). All4declared orientation/reset bounds2.68217–2.86757exceed even the largest cached nativeH2+.30=2.621689. This excludes arbitrary fixed previous-decoded-letter bijections under the exact one-in/one-out contracts without key search. Extra state, variable units, other sources and small native strata remain outside scope; no native meaning or general Hebrew/memory claim. Independent proof review and raw-source/50digit validation PASS. Primary:experiments/yolo/gdt1230_previous_source_entropy_bound/REPORT.md. Root reviews wordcache invariants next before any new writer; producer checks predecessors without native counts. Ten-hourblock remains active through14:33:34UTC; no push.
+
+## 2026-10-06 GDT1230 selected: entropy bound for one-letter memory
+
+Before another context-alphabet run, compute the necessary empirical boundH(output_next|output_previous)>=H(source_current|two previous source positions), with exact resets and source-word positions. Four predeclared orientation/reset cases, same complete Deot projection and cached1228nativeH2. No key or writer fitting; prior1217is not reopened. Independent producer checks the proof without source counts. Budget08:32–09:17UTC; block remains active to14:33:34UTC. Primary:experiments/yolo/gdt1230_previous_source_entropy_bound/src/SPEC.json.
+
+## 2026-10-06 GDT1229: fixed full wordbook fails glyph statistics
+
+The exact958alphabetical branch-rank writer preserves all6288bare Deot tokens but hasH1=3.49990below every native interval andH2=2.84288above every interval. All length gates pass; no joint six-gate sample in any reading. Full source inverse and3072independent native reconstructions PASS. The2411entry shared book remains a large paid cost. This closes the fixed source/Lrule, not a language; no automatic rotor/dictionary repair. Primary:experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md. Root next reconsiders the simplest complete writing mechanisms using their known failures. Ten-hourblock remains active through14:33:34UTC; local checkpoint, no push.
+
+## 2026-10-06 GDT1229 selected after958hand reading
+
+The concealed14token branch-rank lesson was read exactly, with literal words and paid continuation. No source/native fit follows.1229freezes all6288bare Deot tokens and their full alphabetically ordered spelling book; compare one deterministic writer by six invariant measures against all eligible equal-size native cells. Forced rank1tails and wordbook cost stay binding. Budget08:19–09:04UTC; ten-hourblock continues to14:33:34UTC. Primary:experiments/yolo/gdt1229_fixed_wordbook_branch_rank/src/SPEC.json. No output yet; producer reviews926 independently.
+
+## 2026-10-06 GDT1228: bare-source direct alphabet screen fails
+
+The entire fixed Deot projection has6288words across71sections. Its conditional
+glyph entropy is3.683logical/3.695word-reversed; all scoreable native equal-size
+samples range1.849–2.322, even+0.30is too low. Length SD fits all comparisons,
+mean length most. One-letter/one-sign bijections preserve this mismatch.
+Eight scoreable cells per reader(pooled,A/B,H/S,hand1/2/3),128old page orders;
+18smaller cells untested. No independent confidence claim or chosen native key.
+Separate source/native reconstruction and all3072samples PASS. This only closes
+the fixed bare digital edition/direct-bijection screen, not Hebrew or other
+writing rules.1223/1225warnings and all older failures remain; no rescore.
+Primary:experiments/yolo/gdt1228_bare_hebrew_bijection_screen/REPORT.md.
+Root next reviews a genuinely different human writing operation, with no
+automatic decoder repair. Producer drafts from whole Deot4:13independently;
+local10hblock remains active through14:33:34UTC, no push.
+
+## 2026-10-06 complete digital Deot source now available
+
+Explicit Torat Emet363Sefaria Hebrew chapters1..7provide71nonempty segments;
+missing-version fill disabled, hashes and sequence checked. Full chapter4has
+23sections; its Glazer1927PDtranslation and five Hebrew places were read for
+scope. Digital vocalization, final forms and punctuation remain untouched.
+No collated medieval witness spelling, source normalization, language priority,
+frequency test or decoder. This different legal/ethical work with health
+material does not open122's multilingual medical channel or965/966failures.
+Primary:MAIMONIDES_DEOT_SOURCE_REVIEW_20261006.json in production-origin dossier.
+Root selects a substantive complete-content question next; no automatic source
+run. Producer continues two bounded raw ideas; local ten-hour block remains.
+
+## 2026-10-06 GDT1227: one-sign capacity differs across readings
+
+Unchanged956permits13single-sign roots. All179old selectors, definite internal
+prose only, yield ZL10/252tokens, IT12/300, RF14/422. Only RF exceeds13;
+rare e,m,n,t each occur once. No pooled or image-confirmed global-renaming
+exclusion. Exact original teaching labels conflict in all3readings (252/337/211
+IT/RF/ZL tokens). Separate validator PASS. Artificial source-held lesson stays
+positive; no native map, meaning, historical source or statistical production.
+Primary:experiments/yolo/gdt1227_relation_path_one_sign_capacity/REPORT.md.
+Do not repair controls automatically. Root reviews the independent word-part
+proposal next; ten-hour block remains active to14:33:34UTC, local without push.
+
+## 2026-10-06 IDEA956: paid relation-path lesson is readable
+
+Root froze a full manual readback07:02:14UTC before expected-source release.
+Both artificial clauses, names Tava Ada Mora/Lira, saved-branch reference,
+absence-of-water scope and whole three-link-path negation match. Six physical
+rows23/5/23/24/22/8cells pay name continuation and all controls. Curated
+supported_limited: one source-held lesson, no historical corpus or native value.
+Seven learned relations, nine whole doubled-sign controls and83literal cells
+are explicit costs. Optional same-root joining has no fixed production policy;
+arbitrary admitted root shapes do not explain frequencies or native families.
+Primary:HUMAN_RELATION_PATH_ROOT_REVIEW_20261006.json in the production-origin
+dossier. Rules, task, frozen readback and released expected source are retained.
+Root next reviews the unchanged carrier's single-sign-word capacity; bounded
+producer drafts a different word-part notation. No automatic956repair or count
+model. Ten-hour block remains active to at least14:33:34UTC. Local; no push.
+
+## 2026-10-06 GDT1226: mixing the fixed source profiles still exceeds concentration limits
+
+Every convex mixture of1202's four unchanged8000word profiles has exact
+continuous minimum top10mass670049/452=1482.409292, given at most two global
+spellings per exact source word. This exceeds all three old ceilings; the gap
+to the loosest is only17.409292count units. Two five-word sets and exact rational
+weights certify the lower bound; a primal mixture attains it in the abstract
+relaxation. Independent32000source-position reconstruction and certificate check
+PASS, with no optimizer in the validator. No integer source text, type capacity,
+physical writer, native meaning or general language/mixture exclusion.
+Only the four fixed empirical profiles are covered, not all possible windows
+of their books.1225's filter-portability warning and every older failure stay.
+Primary:experiments/yolo/gdt1226_pooled_source_alias_lower_bound/REPORT.md.
+1226local closure06:55UTC: own bindings/privacy, registry and context PASS;
+global18foreign failures/2stale indexes byte-identical to1225, no1226finding.
+Root prepares a manual reading; bounded producer drafts a different writer.
+The current ten-hour block continues until at least14:33:34UTC. Local; no push.
+
+## 2026-10-06 GDT1225: pooled frequency bands are not universal across large strata
+
+Existing hand=2 has0/128 joint two-frequency passes in each scoreable reading
+IT/ZL; every sample has too few types relative to its own old pooled reference.
+Twelve other large reader/category cells meet122/128;25cellsNO_CAPACITY,
+includingRFhand2=7794andZLsectionH=7994. All old pooled IDs/counts reproduce;
+separate regex/page-bucket validation PASS. Categories and samples overlap.
+No causal hand/content claim, language, new band or rescored old writer.
+For a new individual source/register, the pooled profile is not a sole
+universal hard filter without a justified comparison unit.1213's pooled PASS,
+1223's separate full-screen failure and all source/form failures remain.
+Primary:experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md.
+Ten-hour block remains active until at least14:33:34UTC.1225local closure
+06:09UTC; own validation/bindings/privacy PASS, inherited18foreign preflight
+errors and2stale global indexes remain. Root separately confirmed the rejected
+noun-class draft: sheol/okaiin/chol have three distinct initials, while only
+two adjective initials can support three identical internal words under its
+disjoint-class/at-most-two-NP grammar. The global-bijection bound is specific
+to this complete contract; the exposed teaching examples remain readable.
+Primary: HUMAN_NOUN_CLASS_WRITER_ROOT_REVIEW_20261006.json in the production
+origin dossier; HIST:abcbdb9b97d06b19 refuted_specific_model. No native values.
+Root selects a justified source comparison; bounded producer checks genuine
+Hebrew/Judaeo-Arabic medical source access without counts or native mappings.
+No source language is preferred. No push.
+
+## 2026-10-06 IDEA954: source-held hand reading works; fixed controls fail
+
+Two full assertions, time/negation/roles, exact names and paid continuation
+were recovered manually before expected-source access. A valid teaching
+fragment is retained; no learned value is a native meaning. The frozen
+qo+selector table excludes qok, so qokeedy/qokedy/qokeey cannot be written:
+already-profiled countsIT814/RF642/ZL819over these3whole types. No statistical
+implementation or automatic selector/remapping repair. This is the fixed
+named-glyph contract, not every possible syllabary or global bijection.
+Primary:research_registry/proposals/production_origin_supply_20261003/HUMAN_SYLLABARY954_ROOT_REVIEW.json.
+Selector-only reallocation also fails: withq/o fixed, a complete initial-q
+word containing no secondq can only be a mode-prefixed predicate; the next
+identical qokedy is no required nominal argument. Old857f79v.19triples retain
+all3readings with their differing indices. The eight-function case proof is
+in HUMAN_SYLLABARY954_SELECTOR_PERMUTATION_NOTE.json; no new control added.
+New ten-hour block remains active until at least14:33:34UTC; root reviews955.
+1193's old three-medial bound also excludes common qokeedy/qokedy, each with
+four interior types: existing countsIT534/RF373/ZL539for these two exact forms.
+This post-result extension does not rely only on rare long words, estimate
+actual errors or cover1195. Primary:HAND_WRITER_1193_COMMON_MEDIAL_ADDENDUM_20261006.json
+in the same production_origin_supply dossier. Old1193positives remain.
+955's nominal power lesson is coherent with existential-count and Cartesian
+argument scope; positive-n plus outer-negative-(n+1) can express an exact
+unary population count. It lacks the full physical writer/source binding;
+no native value or new statistic. Primary:HUMAN_COUNTED_NOMINAL_POWER_ROOT_REVIEW_20261006.json
+in the same dossier. Root selects a complete candidate; bounded producer
+reviews existing alternatives. Local; no push.
+
+## 2026-10-06 new ten-hour block and1224scope clarification
+
+New user block starts04:33:34UTC; earliest regular finish14:33:34UTC.
+One bounded idea producer accompanies root; no background authorization.
+IDEA953preserves readable state/change/causation contrasts but lacks a paid
+physical writer. No corpus implementation or native values selected.
+Post-result1224arithmetic gives optimistic minimum exceptions21/450IT,
+19/468RF,16/393ZLshort groups:4.67/4.06/4.07percent locally, but only
+0.2625/0.2375/0.2percent of the respective saved8000samples. All924six-final
+subsets checked separately. Not actual error rates or a sufficient repair.
+The exact no-exception contradiction and1195failure remain; do not inflate
+this alone into a rejection of all human writers with a paid exception channel.
+Primary:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_1224_MINIMUM_EXCEPTION_SCOPE_20261006.json.
+Next: manual review of a genuinely learned lexical/syllabic writing contract,
+with all physical controls and content costs; no old optimizer rescue.
+Local construction checkpoint under4Octoberinstruction; no commit/push.
+
+## 2026-10-06 04:32UTC checkpoint
+
+Ten-hour elapsed window reached; not a claim of uninterrupted active work.
+GDT1224 and1223 fully closed and reviewed; no running process or producer.
+Native confirmed words0; no complete new writer selected. Next selection must
+bring a genuinely different complete human writing rule and retain the exact
+short-/long-form constraints before any larger statistical/source run. The
+comparison contract must account prospectively for1223; no old writer rescue.
+Local checkpoint under4Octoberinstruction; no commit/push.
+
+## 2026-10-06 GDT1224: paired-tail architecture has too few short finals
+
+Each reading has12final working signs among definite internal2sign groups;
+unchanged1194/1195has at most6in its empty-body context0. Independent24,000ID,
+regex/count/certificate validationPASS. Conditional whole-group and22working-
+unit proof, including any global bijective renaming; no new image or meaning.
+Old1195FAIL and1193basicPASS/medial contradiction remain;1223methodfragility
+cannot repair this exact-form counterexample. No new short-word exceptions,
+threshold changes or optimizer. Primary:
+experiments/yolo/gdt1224_short_word_final_capacity/REPORT.md.
+Next: select a genuinely different complete human writing rule with actual
+word-shape obligations before source/statistical implementation; none selected.
+Local checkpoint; producer finished, no research process running; native words0.
+
+## 2026-10-06 GDT1223: cross-reading full-profile screen is unstable
+
+29/128all-nine-pair passes versus126/128own-reading joint passes;122required.
+Final-y dominates; word entropy/q-count few failures; all other gates pass.
+All1213sample identities/frequencies and1174anchor metrics reproduce; separate
+same-author metric/neighbor implementation PASS. Overlapping exposed samples,
+not an error-rate estimate or causal separation of reader/sampling effects.
+Do not use the cross-reading full-profile conjunction as sole hard preliminary
+filter for new writers. Next comparison must be justified prospectively; no
+selected preferred reader, widened band, best seed or automatic calibration.
+1195and other registered failures stay;1193basicPASS and its conditional hard
+interior-alphabet counterexample stay. No old writer rescored; native words0.
+Primary:experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md.
+Ten-hour task still active; producer finished, no research process running.
+
+## 2026-10-06:1193 has a conditional hard interior-alphabet contradiction
+
+Owned whole cheoltchedaiin needs8distinct interior working glyphs; kydainy
+needs5. Frozen1193offers3, so every global bijective relabeling fails these
+whole forms. New manual capacity review, not a source refit or fresh target
+count. Its original basic-screen and blinded-readerPASS remain unchanged.
+1195uses a different interior rule and is not covered. Conditional22working
+units/whole-group boundary; no native values or general cipher exclusion.
+Primary:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_1193_MEDIAL_CAPACITY_RESULT_20261006.json.
+Ten-hour task active; no automatic decoder repair; local checkpoint, no push.
+
+## 2026-10-06 GDT1222: lexical inflection source contract fails jointly
+
+All9type conditions pass. SCG2/3top-ten1606/1657 fail all6comparisons;SCG4
+has2760types/top1347 and passes both necessary metrics. The all-book contract
+remains failed; no source selection from its positive book.19381projected
+analysis sentence inverses and separate same-author validatorPASS. Original
+orthography/full meaning not claimed. No physical writer or native word.
+Primary:experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md.
+952manualcase/numberexamples are coherent but its compulsory named-set domain
+and absent carrier do not justify a large implementation. Next: reassess useful
+human writing mechanisms, not another relation/feature/source repair.
+Ten-hour task active; local no-push checkpoint; confirmed native words0.
+
+## 2026-10-06 GDT1221: grammatical source grouping fails diversity
+
+Three complete cached ITTB books, fixed14dependency relations and strictly
+adjacent same-host groups.4077/4084/4206types among8000 fail all9type conditions;
+all9top-ten conditions pass.19381full sentence FORM inverses, separate component-
+based validator PASS. Primary:experiments/yolo/gdt1221_grammatical_source_groups/REPORT.md.
+The exact source/grouping contract is closed before carrier construction; no
+source language selected, no automatic relation/punctuation/source change.
+Next: assess the human-writing obligation that remains, using the bounded
+producer's raw proposals and historical glossary example. Ten-hour task active,
+local no-push checkpoint. Confirmed native words remain0.
+
+## 2026-10-06 GDT1220: material/action pair retains diversity, fails top-ten share
+
+Unchanged artificial source, material=(plant,part,state), operation=(op,medium,
+amount,duration), common4096ROOTS address writer.2209types pass all3bounds;
+1553top10count fails all3.5120complete records invert; separate source/table/
+count validator PASS. Full16metric stage skipped as registered. Primary:
+experiments/yolo/gdt1220_material_predicate_pair_writer/REPORT.md.
+Only this finite source/grouping/common-address contract closed; no automatic
+partition/key/source repair. Unknown names/negation/conditions unsupported,
+no native meaning. Next root manually reviews RAW951's distinct topic/assertion
+scope; raw status is no selection. Ten-hour task active, local no-push checkpoint.
+
+## 2026-10-06 GDT1219: contextual CV/body writer fails necessary screen
+
+Complete126-cell table, explicit marks/escapes and six-vowel state recover1054
+recipes/80931words. All12type/top10/SDcomparisons fail;38of60conditions fail.
+Separate full rebuild/inverse/metric validator PASS. Exact writer closed, no
+automatic cell/mark/source repair. Primary:
+experiments/yolo/gdt1219_contextual_cv_body_screen/REPORT.md.
+Prior1180/892/895/905/906/1196/1202/1217decisions retained. No native meaning,
+new target access, historical feasibility or full16metric claim. Root continues
+10hourtask; independent producer explores a different small usage-language rule.
+Local checkpoint, no push.
+
+## 2026-10-06 GDT1218: fixed64-form alternation excluded
+
+Each existing reader sample supplies65 adjacent pairs with130 disjoint exact
+whole forms. A class intersecting every pair needs at least65forms. Separate
+source/seam/sample/certificate checker PASS; no optimum or native meaning.
+Primary: experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md.
+Only fixed64 name inventory and strict alternation closed. No automatic class
+expansion, exceptions or new glyph carrier. Older failures remain scoped.
+Ten-hour task active until at least04:32:21UTC. Local checkpoint, no push.
+
+## 2026-10-05 GDT1217: fixed ring fits coarse frequency, fails length SD
+
+Unchanged948 recovers1054recipes/80931words; all12type/top10/mean/repeat
+tolerance conditions pass, but11of12length-SD conditions fail. Near-zero
+repeat rates merely fit the loose inherited gate, not actual repetition.
+Separate full source/hash/statistic reconstruction PASS. Primary:
+experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md.
+Only fixed source/ring/reset conjunction closed; retain coarse frequency
+positive. No native meaning or remaining-statistics pass, no automatic repair.
+Root continues10hourtask until at least Oct6 04:32:21UTC; producer to00:15UTC.
+Local construction checkpoint, no push. Prior failures retained.
+
+## 2026-10-05 GDT1216: fixed repeated-head application fails argument typing
+
+Whole olol ol at f79r.17 binds BB B. All8short947heads need nominal arguments;
+none is among18possible two-sign nominal initials. All462pair assignments
+covered with1214; separate source/type certificate PASS. No paragraph premise.
+Primary: experiments/yolo/gdt1216_iterated_head_nominal_argument/REPORT.md.
+Only unchanged947 direct global-map/whole-group/strict-type application rejected;
+no general iteration rejection or native value.1215 nonrefutation retained.
+Next reassess a different complete human writing convention; no automatic947
+repair or new experiment selected. Root active, producer to23:35UTC. Ten-hour
+work continues until at least Oct6 04:32:21UTC. Local checkpoint, no push.
+
+## 2026-10-05 GDT1215: no terminal argument contradiction
+
+10ZL+13ITeligible whole olol leave later groups;19other reader cases untestable.
+All42cases and1349complete intervals separately validated. No actual argument,
+ITER meaning, or paragraph syntax established. Primary:
+experiments/yolo/gdt1215_paragraph_local_iteration_arity/REPORT.md.
+Next inspect the different typed obligation at whole olol ol (f79r.17):947
+requires a nominal argument after repeated action head; the same bare head
+would still be an action. Exposed manual lead, not yet proven or a new gloss.
+Ten-hour task active until at least Oct6 04:32:21UTC; one producer to23:35UTC.
+Local checkpoint, no push. Original1214 grammar and1175 cost failures retained.
+
+## 2026-10-05 GDT1214: fixed old grammar cannot write the whole short square
+
+All462 ordered distinct sign pairs:38 bases readable, zero doubled wholes.
+Separate2850-word relaxed grammar agrees. No global22-sign renaming rescues
+this unchanged word grammar; meanings and native unit identity remain unbound.
+Primary: experiments/yolo/gdt1214_short_square_fixed_grammar/REPORT.md.
+946's independent b6.8 name-cost binding also closed:16different names, zero
+hits,48extra signs; no general cache rejection. Next review RAW947's explicit
+iteration grammar and required following arguments before any implementation.
+No new selection. Ten-hour task active until at least Oct6 04:32:21UTC.
+Root active; one bounded producer until23:35UTC. Local checkpoint, no push.
+
+## 2026-10-05 GDT1213: pooled selection control supports retaining the frequency screen
+
+All128 fixed alternative page-order selections pass both old bands in all three
+readings. Separate parser/count validation agrees; exact24k reference IDs match.
+Keep the old engineering thresholds; no candidate retest or failure reversal.
+These overlapping exposed samples do not establish independent calibration or
+stratum homogeneity. Primary:
+experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md.
+Next manually review946's literal-only name register against the already written
+b6.8 source; do not implement a cache when its paid first uses cannot save.
+Root active; producer block finished with946RAW. Ten-hour work remains active
+until at least Oct6 04:32:21UTC. Local construction checkpoint, no push.
+
+## 2026-10-05 GDT1212: fixed bilateral grouping fails types, preserves content
+
+Frozen945 grouping roundtrips1054recipes/80931normalized source tokens. All12
+head-frequency conditions pass; seven type-count conditions fail by1–91types.
+No full22-sign carrier or native value. Exact source projection and old thresholds
+retained; no automatic rule/list repair. Primary:
+experiments/yolo/gdt1212_bidirectional_function_binding/REPORT.md.
+Next inspect existing sampling/control evidence for the frequency screen before
+another writer selection; no benchmark change or new target access selected.
+Root active; bounded raw producer until22:50UTC. Earliest regular task end remains
+Oct6 04:32:21UTC. Local construction checkpoint, no push.
+
+## 2026-10-05 GDT1211: one variant occurrence per line is insufficient jointly
+
+Two of12necessary cases fail:gr1 top10 against IT/RF by122/8changed occurrences;
+ten other cases remain unexcluded, not complete writer passes. Native filtered
+8000group selections touch1000/1171/1160IT/RF/ZLtranscription lines. Independent
+implementation checks all24,000IDs, source counts and inequalities; same author.
+No causal shortening, native meaning, source-language or general family claim.
+Primary: experiments/yolo/gdt1211_one_variant_per_line_capacity/REPORT.md.
+No automatic larger edit budget. Review existing complete b6.7 grammar and1175
+before choosing a genuinely different full writer. Root active; producer unit
+finished without new duplicate cards. Ten-hour task remains active until at least
+Oct6 04:32:21UTC. Local construction checkpoint, no push.
+
+## 2026-10-05 fixed pair-code construction excluded before table building
+
+Existing nonfinal ol and whole olol bind the conditional global piece-UD
+contradiction: two pieces versus four in the doubled form. All three separate
+transcription bindings PASS; no independent image or native-unit claim.
+Only this strong realization of the incomplete pairing idea is excluded;
+context-dependent or confluent decoding stays outside its premise.
+Primary: research_registry/proposals/production_origin_supply_20261003/PAIRED_PIECE_GLOBAL_UD_REPORT_20261005.md.
+Next inspect existing contextual-shorthand predecessors before any new selection.
+Root active, one bounded producer; ten-hour task continues to at least Oct6
+04:32:21UTC. Local construction checkpoint, no push.
+
+## 2026-10-05 GDT1210: fixed two-group content frequency fails
+
+942 on unchanged1174 artificial messages yields4382types and194top10occurrences
+among8000groups; all six inherited bounds fail.5120finite messages roundtrip;
+separate validatorPASS. Equality counts exclude every shared fixed injective
+carrier for this exact source/grouping, not all meaningful notation. No native
+intake, glyph writer or meaning. Primary: experiments/yolo/gdt1210_two_group_content_frequency/REPORT.md.
+The25minute unit exceeded wall time; exact chronology retained in the report.
+Close and reassess content assumptions before selecting any new experiment.
+The minimum-ten-hour task remains active until at least Oct6 04:32:21UTC.
+Root active; overdue producer block interrupted. Local checkpoint, no push.
+
+## 2026-10-05 active ten-hour reconstruction;943 literal carrier stopped
+
+Work began18:32:21UTC; earliest regular finish Oct6 04:32:21UTC unless user
+interrupts. Existing human-cost and manual-word constraints govern selection.
+943s exact teaching carrier violates the definite kydainy | ypchol outer seam
+at f2r.1. Only this carrier is refuted; no all-bijection or source-frequency
+test ran. General liaison remains untested and942 lacks a selected variable
+native carrier. Primary: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA943_LITERAL_REPORT_20261005.md.
+Next select a complete content-bearing hand notation, retaining1174/1175 costs
+and actual form/counterexample obligations. One bounded idea supplier runs;
+no new GDT or source experiment selected. Local checkpoint, no publication.
+
+## 2026-10-05 manual frequent/long/rare review before942
+
+User-steered inspection of12 exact forms,36 full reader-lines at12 loci, with
+existing word profiles and retained primary counterexamples. Rare cfham/ckholsy/
+kydainy remain whole singletons; frequent daiin/chedy/ol/aiin have different
+positions and dispersion. f112r.45 longest joined form has an unresolved split
+alternative; f114r.39 cheoltchedaiin is reader-stable and its original photograph
+supports tighter inner spacing than exterior gaps. One informed observer only;
+no native atoms, morphemes or word meanings. f2r.1 original localizes two rare
+forms alongside daiin. Source/boundary/image-provenance validator PASS.
+
+Primary: research_registry/proposals/production_origin_supply_20261003/HAND_WORD_EXTREMES_REPORT_20261005.md.
+942 is a newly retained raw two-group plant-agreement construction; no source
+frequency test or native carrier selected. Its five-position teaching code is
+not a native fit. Review a complete variable-length rule against the retained
+short/long/repetition cases before selecting a next test. New f114r.39 scope is
+in docs/VOYNICH_DATA_SCOPE_20261005_WORD_EXTREMES.md; other seals unchanged.
+Local selection checkpoint, no running work or publication.
+
+## 2026-10-05 GDT1209: new941 column-writer necessary balance fails
+
+941 is a complete invented hand procedure: eight source-word rows are transmitted
+by columns; END retires a row, variable-width1/2/3 character units preserve exact
+source content. Registered role-only relaxation permits every fixed bijection
+of its22 working signs, all ordinary selectors and free partial window edges.
+No role assignment fits the whole exposed f45r.10 line. Status
+NO_RENAMED_COLUMN_BALANCE; one locus/alternate readers, no native atom or meaning.
+A hand proof on its G3–G9 suffix and a separate recursive-cover validator agree.
+The first validator draft's wrong prefix-free LABEL assumption was corrected;
+no fixed method/data/result changed. No source encoder or frequency run selected.
+
+Primary: experiments/yolo/gdt1209_column_table_cell_balance/REPORT.md. One ledger
+row and941/GDT1209 assessments; no repair, image, new data or reserve. The prior
+101-card method shortlist is completed as bounded navigation, not a universal
+absence claim. Raw123/925/926 lacking complete fixed channels were not retested.
+Next work is construction of a materially different complete writing convention
+in the existing hand-writer dossier, retaining the exact repetition/end/balance
+countercases before any implementation; do not redo the same registry shortlist
+or automatically vary941's width, block size or reset. No next experiment selected.
+Local construction checkpoint under Oct4exception; no publication or running work.
+
+## 2026-10-05 IDEA927/940: fixed-rule countercases bound to existing evidence
+
+927s already reported conflict is now bound to851 definite inner/exterior seams:
+qokedy/qokedy f108r.26 G7-8, chedy/chedy f106r.2 G9-10, daiin/daiin f115r.17
+G4-5, same coordinates in each separately retained reader. Mandatory cap4 prefix
+copying requires one common H4 initial for any same-line multi-atom output
+doublet. Status LITERAL_ATOM_PREFIX_COPY_CONTRADICTED, conditional on whole-group
+and literal distinct-atom binding. Existing observation, not new discovery.
+
+940 references and NEW fragments must both end in one of2 single working
+markers. Prior1208 f45r.10 daldy/dalor/dal force y/r/l in every exact parse of
+940s fixed22 inventory. Status FIXED_WORKING_INVENTORY_TWO_TERMINALS_CONTRADICTED,
+including every fixed bijective renaming, independent of recipe resets. No
+native atoms or meanings established; no general rejection of fragment memory.
+A proposed same-line cache repetition countercase was NOT adopted because940
+resets at recipe boundaries, which are unbound natively. Original857/1170/
+1179/1182/1183 decisions stay. Source/logic validator PASS, bounded producer
+separately checked necessities; no new GDT, source encoding, image or census.
+
+Primary results and fixed contracts: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA927_RESULT_20261005.json and HAND_WRITER_IDEA940_RESULT_20261005.json; complete closure in HAND_WRITER_RECONSTRUCTION_20261004.md there. Two ledger rows and two scoped append-only reviews.
+Next action: bounded remaining method-card shortlist for a complete fixed writer
+that survives retained repetition and terminal constraints; no next candidate
+or experiment selected. Producer's limited inventory review found no suitable
+complete candidate in the inspected set; this is not an exhaustive absence
+claim.935 is not reclassified as executed1179A: grouping contracts differ.
+Do not rerun933's unchanged missing-input audit or generate another marker fix.
+Local checkpoint under Oct4exception; no publication, commands or agents running.
+
+## 2026-10-05 GDT1208: original f45r.10 recurring visible beginning
+
+One prospectively admitted Yale1006162 whole-image localization and one native
+row region support compatible ordered beginnings in daldy/dalor/dal, distinct
+endings and external space-like clearances. Status SOURCE_AWARE_LOCAL_SHAPE_SUPPORT.
+Single informed observer; zero independent confirmation or word meanings. This
+adds an image check to1198, not a linguistic root boundary. A meaningful stem
+and smaller-sign spelling may coexist;1201 transparent representations remain.
+Separate validator PASS checks source hashes/chronology and fixed reduction,
+not palaeography. Primary: experiments/yolo/gdt1208_f45r_repeated_dal_body/REPORT.md.
+
+Next exact selection: attach existing exact differing-initial adjacent doublets
+to IDEA927's already reported mandatory-prefix-copy countercase, after checking
+its existing reviews/primaries. No decoder or new count selected.1179C prior
+whole-word reference and1183 dictionary-prefix contract differ; their failures
+remain. IDEA913 missing-channel consumer and949 adjacency trap do not justify
+another generic family run. Narrow45r image grant is separately linked in route;
+f84/f84r,f116v and reserves stay closed. Local source-check/selection checkpoint
+under Oct4exception; no publication or work running at closure.
+
+## 2026-10-05 IDEA934 lexical module: interface and cost limits
+
+The fixed shortest-unique-prefix module recovers its six original teaching words plusWURZ/A and rejects three malformed cases; separate longest-common-prefix derivation and prefix-free argument retain the full-dictionary requirement. With L equal to the old29artificial English root identifiers, unmarked code substitution makes SET(X,Y) and REL(APPLY(EGG,X),Y) identical, including their complete DO/IN statements. This violates934's own delimited-root prerequisite; it does not refute the proper module. A root marker t declared before execution separates the pair, using22glyphs each versus old11/13. No full recipe or native sample rerun.
+
+Known-root costs old2,new>=2,tagged>=3; corresponding a-z/A-Z literal payload costs old2+n+count(t-z)<=9342+2n. The executed interface retains old literal branches, so that literal comparison is analytic only, not a new case-preserving codec. Fixed bijective full-group spelling cannot improve equality frequencies.1175's175/278spelling STOP remains; adding72nonliteral glyphs would merely change its ratio to50%, not shorten unknown content. No larger dictionary, repaired source, native key or meaning selected. Primary: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA934_MODULE_RESULT_20261005.json; detailed closure at HAND_WRITER_RECONSTRUCTION_20261004.md top in that folder. Boundedproducer separately checked the reasoning/limits, no new raw card.
+
+Next exact selection: inspect f45r.10 image access and prior visual readings before a prospective native form check of1198's same-line daldy/dalor/dal sequence. No f45r image admitted or viewed here; text consensus alone gives neither authorial morphemes nor image permission.1199f75v and1205f108v are different closed probes. No new experiment or image task selected yet. One ledgerrow/scoped934review; local checkpoint under userexception, no publication or work running at closure.
+
+## 2026-10-05 source-unit audit and936 literal-carrier counterexample
+
+Separate reprojection exactly matches1054retained recipes/80931words/333022characters and3whole exclusions. In the unchanged first8000source groups, nonletter contribution toTop10 is0/0/258/0 for b4/w1/bs1/gr1. Standalone punctuation is therefore not a common explanation for high source concentration. These are expanded editorial groups;1174targetpages are seed-permuted, readers alternative, and broad bands uncalibrated as language-exclusion tests. Original1176–1179/1196/1202/1203/1206/1207failures and1193qualifiedpositive retain their different grouping contracts. Sourceaudit is no new manuscript finding.
+
+IDEA936's exact12-word list differs from1176/1177: its grouping remains unexecuted. However, every legal group under its literal teaching carrier ends in one of19ordinary non-y signs;82character codes and12prefix pairs exhaust primitive cases. It cannot emit retained whole daldy at f45r.10. Root proof and separate bounded-producer rule review agree. Status LITERAL_CARRIER_END_Y_IMPOSSIBLE__GROUPING_UNTESTED; no carrier repair, meaning, new text/image or reserve. Primary artifacts and complete selection account: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md (top), HAND_WRITER_SOURCE_UNIT_REVIEW_RESULT_20261005.json and HAND_WRITER_IDEA936_TERMINAL_RESULT_20261005.json in the same folder.
+
+Next exact selection task: inspect existing934's full lexicon/learning contract against1175's actual50%-spelling-cost stop.934is only a stem module; no full-message writer or corpus run selected. Bijective abbreviation of unchanged whole source words cannot alter their frequencies. Any different grouping/grammar and source-content recovery must be specified before implementation. No retrospective b6.8 dictionary repair. Twoledgerrows and scoped936review; localcheckpoint under userexception, no publication claimed. No running work at closure.
+
+## 2026-10-05 GDT1207: fixed-value letter aliases fail type frequency
+
+The fixed independent26tick ALT writer gives3209–3586types/8000, above every separate reader upperband(max2930);all12typeconditionsfail. Top10shares11.175–12.8625%pass all12bands. Allfour samples havezeroexactneighbourrepeats;12loose repeatconditions formallypass but do not explain native repetition. All1054recipes/80931words/333022characters recover; separate same-author occurrence-count/parity validationPASS for complete streams and36conditions. A fixed uniquely decodable unit carrier cannot repair equality frequencies. No native meaning, letter binding or historical use. Primary: experiments/yolo/gdt1207_letter_alias_parity_frequency/REPORT.md.
+
+Conditional parity obligation retained: wholeol andolol under one non-erasing UDaliascarrier/no internalreset force two equal decoded character blocks within one sourceword. Every ordinary letter must have even count in that block; auxiliaries are neutral. This is possible, not a native contradiction/translation. BBdy orB Bdy additionally needB anddyas complete code strings and no gapreset. Arbitrary substrings do not supply cuts.1200/1201/1198remain;1206MTFfailed,1197historicaldeferralunchanged withbotharmsnowcoveredbylater1206/1207. No tick-subset/reset/source/tolerance repair.
+
+Next exact selection task: inspect1176's existing source projection and word/group contract before another writer; distinguish four-projection conditional exclusions from general claims. Retain1176–1178/1196/1203grouping decisions,1202bound and1204/1205countercase. No new source, language, grouping rule or decoder selected. Local checkpoint under userexception; no staging/commit/push, nothingrunning. Boundedproducer completed parity/UDlogic review without new cards or data counts.
+
+## 2026-10-05 GDT1206: fixed source MTF fails necessary frequency screen
+
+One complete source-forward moving26-letter alphabet, recipe resets and fixed56auxiliary symbols preserves all1054recipes/80931words/333022characters. On each8000-group sample it produces5997–6351whole forms and top10shares2.2625–5.1%, violating both fixed conditions for allthree separate reader summaries.24of36conditionsfail;12exact-repeat conditions pass the inherited loose tolerance. Separate same-author timestamp forward/reverse/count validation PASS. A fixed uniquely decodable carrier preserves these frequencies and cannot repair the result. No native key, glyph mapping, morphology, meaning or historical use. Primary: experiments/yolo/gdt1206_mtf_source_frequency/REPORT.md.
+
+Only the previously unrun MTF arm of1197was tested;1197historicalreport unchanged,ALTstillunrun.001nativeinversefailure,1202two-whole-aliasbound and1194/95/96/1180failures remain.1204/1205do not prefer MTF. At turn entry the proposed physical space extension was not selected: IDEA200written remainders do not bind available room; the Sep5width-priority primary already limits information yield. No new geometry/image/negative pressure result; original descriptive IDEA200untested.
+
+Next exact selection: review IDEA938's fixed source-letter values and parity/repetition obligations as a different response to recurrent word parts, before selecting any test. Whole code-unit identity is not established native segmentation or dal/dy meaning. No automatic ALT run, new carrier/reset/source or relaxed bands. Local construction/selection checkpoint under user exception; no commit/push; no work running. Bounded producer finished logical/primary review without new cards or measurements.
+
+## 2026-10-05 GDT1205: informed original-photo support for f108v35/52 contrast
+
+One registered Yale1006265 photograph view supports an additional closed looped body in the middle group of f108v52 compared with35, compatible qualitative complete neighbour sequences and space-like separations on both sides. Status SOURCE_AWARE_VISUAL_SUPPORT. This supplements GDT1204's conditional literal countercase without replacing it. One informed AI observer, zero independent confirmation; no lexical identity, morpheme, d meaning or translation established. RF entities stay raw. Separate source/receipt/observation-reduction validation PASS does not validate palaeography. Source images, admission, preregistration and sealed observation retained. Primary: experiments/yolo/gdt1205_f108v_y_dy_native_pair/REPORT.md.
+
+Next exact selection task: review IDEA000200 and independent available-writing-space inputs before any short/long space-pressure test. Remaining written characters/groups are not independently available physical space. No new mechanism or measurement selected; retain910/927capacity limits,1153prior-choice failure,1155transfer failure and1156NO_CAPACITY. A strict base alternator must first account for1163's retained chedy qokedy chedy; its historical meanings are not adopted. Local source-check/selection checkpoint under user exception; no staging, commit, push or work running. Bounded producer finished predecessor/raw-card review without additions to ample supply.
+
+## 2026-10-05 GDT1204: fixed full-neighbour By/Bdy spelling rule has literal countercase
+
+ZL3b and IT2a both retain qokeedy chey qokeey at f108v35and qokeedy chedy qokeey at f108v52, same page/recorded sectionS/CurrierB/hand3, internal position and definite seams. A deterministic function of exactly base/page/metadata/INTERNAL/full immediate neighbours cannot produce both. FULL mixed cells1/3/0 across ZL/IT/RF, with only3/5/1repeated cells: sparse complete-context comparison, not a high global error rate. RF52contains opaque entities and is not an exact third witness. The separately fixed EDGE inputs have100/124/65mixed cells. No meaning, morpheme, general allography exclusion or handwriting confirmation follows; stochastic/farther-context/hidden-state rivals remain.
+
+Independent same-author SQL extraction/source validation PASS checks8974candidate events/16906cells; multiple base decompositions are not independent physical groups. Generic end/start correlation was screened out as already known and not logically forced by1203alone.1203failure,311stochastic choice,689frozen guessed meanings,1078r/l failure and1198dal-context result remain. Primary: experiments/yolo/gdt1204_yd_context_rule_countercases/REPORT.md.
+
+Next exact task: check existing image admission for f108v and register a bounded original-source reading of35/52before image access. No image has been admitted or viewed here;179text selectors confer no image rights. This can qualify the conditional transcription countercase before any substantive interpretation. Do not add context identifiers merely to memorize the exception or assign d a meaning. Local construction/selection checkpoint; no commit/push or running work. Producer finished logical/predecessor review; ample raw supply retained.
+
+## 2026-10-05 GDT1203: content-preserving shifted groups narrowly fail fixed frequency screen
+
+A fixed right-by-one source-character boundary shift, with one paid END unit per recipe, preserves all1054complete exposed recipe projections/80931source words.23of24book/reader/frequency conditions pass. w1types2861exceed IT2a's unchanged upper2851by10, so the registered conjunction FAILS. Retain the positive simple content-preserving regrouping without a word dictionary, AND the exact screen failure. No threshold repair or automatic opposite/longer shift. The small miss is not a general statistical rejection of related spacing mechanisms.
+
+Source grouping can alter whole-form frequencies while preserving continuous content. This does not identify native boundaries, explain daldy/endings/q-o, compress inner source-word lengths, establish historical use, or constitute a complete glyph writer. Same-author independent stream-cut/source validation PASS verifies only source/recovery/counts. Existing1176–1179grouping failures,839capacity stop,1202conditional whole-word bound and1193basic-control positive/limitations remain.1197unexecuted. Primary: experiments/yolo/gdt1203_shifted_word_boundaries/REPORT.md.
+
+Next selection: require a genuinely different predeclared consequence for existing native word construction and a paid content-recovery account before another writer implementation. No next candidate selected; no more fitting just the two frequency measures. Local construction checkpoint under route; no commit/push or running work. Bounded producer reviewed predecessors and boundary/length countercases; no raw additions needed.
+
+## 2026-10-05 GDT1202: at-most-two whole-word spellings conditionally excluded
+
+The optimistic whole-word capacity bound fails both necessary frequency directions in all4exposed CoReMA books and all3cached reader summaries. At most1649–1846types/8000 versus joint minimum2130; top10at least20.15–23.3375% versus joint maximum17.6%. This excludes any glyph table and any occurrence-allocation mechanism within the at-most-two whole-word spelling contract on these sources. Exact stored source token, including standalone punctuation, equals one output group. No general exclusion of another source language, content-bearing grouping or native meaning. Separately implemented count/bound validator PASS is same-author source/mathematical verification, not independent native confirmation.
+
+1180V2fixed-table failures remain;1202provides their broader conditional capacity ceiling.1196fragment boundaries were different;1197letter-state models remain unexecuted.1200literal families and1201transparent chunk confluence retained. No new native data or lexical assignment. Primary: experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md.
+
+Next exact task: select a genuinely changed information-grouping hypothesis, inspecting1175–1178closed source-word/short-word binding families before nomination, and state its full content and learning costs plus a new falsifier. No next candidate selected; no automatic extra-alias sweep or another glyph fit. Local construction/selection checkpoint under current route; no commit/push, no running work. Bounded producer completed existing-idea/predecessor review; no raw additions because supply is ample.
+
+## 2026-10-05 GDT1201: transparent chunks remove a false unique-parse prerequisite
+
+A small constructed prefix-free code over seven uninterpreted symbols, plus three paid word/scope markers, permits transparent learned chunks. Every allowed parse expands to the same complete source-symbol message; a general proof and separate same-author finite verification are preserved. No actual historical paragraph, native word meanings or native statistics were tested.10primitive codes/20optional chunks are a teaching construction, not a statistically adequate Voynich writer or a reduction of1193table cost. Whole chunks do not save written glyphs here.
+
+The1200ol/olol information collision is CONDITIONAL on assigning different independent source values. The project has not established that difference; independent occurrence of olol does not establish it. Therefore a native unique parse-tree decision is not required before further construction. Genuinely independent whole values still need distinguishable encoding or a fixed content-recovering context.1201retains explicit loss witnesses for an extra whole value, erased word boundary/scope and dropped repetition.1200counts/fixed positive remain unchanged;616UNSAT and1174/1175/1193limitations remain.
+
+Next selection question: assess a stable-body whole-word writer with at most two initial variants by its necessary whole-word type/concentration bound before any glyph table. NOT SELECTED/TESTED yet. Read1180V2primaries and1196fragment bounds before claiming changed inputs;1197ALT/MTFremains unexecuted. This is neither a suffix census nor a silent repetition of the failed contextual alphabets. Primary: experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md. Local construction checkpoint; no commit/push; no running work. Producer confirmed the distinction and relevant old controls, no new raw card because supply is ample.
+
+## 2026-10-05 GDT1200: formal repeated-base capacity, inverse still ambiguous
+
+Fixed179-selector literal census retains113non-dal B/By/Bdy families in both ZL and IT. Three also have exact whole BBdy in each: al/ch/ol, with1/1/2occurrences respectively in each reader. Seven meet the separately defined whole-or-definite-two-word capacity; separate words never enter joined-word counts. RF remains separate, with ch/ol exact doubles and opaque @221;laldy at the al example. Bor is reported, including dalor and the sheoor zero. Existing source counts, not independent discoveries or semantic confirmation.
+
+The manual follow-through retains an actual collision: olol14,ololy1,ololdy2 in EACH reader. Both ol+ol+dy and olol+dy are possible under the candidate rule; a writer taking every observed whole as an independent input code is not uniquely invertible without extra assumptions. This is a limit of the artificial writer, not a general refutation of natural language. No native meaning or universal suffix selected. GDT1200source/count reconstruction PASS covers161bases/2391profiles/14three-reader source loci, not morphology. Primary report and hand rule: experiments/yolo/gdt1200_stable_part_repetition_capacity/REPORT.md and HAND_RULE.md.
+
+Next exact task: address primitive-base choice and this retained ol/olol collision by a small content-preserving hand construction before any broad writer fit. Do not repeat suffix occupancy counts or declare a parser tie-break a native decipherment.1197unexecuted;1198/1199local evidence retained; old788/916/983/1050and1194/95/96failures unchanged. Local construction/selection checkpoint under current route; no commit/push, no running work. Authorized producer returned retained operator-scope counterexamples only; no new raw ideas needed.
+
+## 2026-10-05 GDT1198/1199: daldy contexts and qualified native spacing
+
+1198retrieves the19-locus union of exact daldy in three separate readings. ZL/IT have literal daldy versus dal dy at f103r.1,f75v.22,f89v1.13; f89v1.14 has daldaldy versus dal daldy. RF entities and uncertain small spaces remain raw. f45r.10 agrees in all three: kair daldy dalor cheol dal, with definite separators there. No exact two-sided neighbour frame is shared by distinct dal/daly/daldy forms in the fixed census. The exposed f89v1paragraph had already been read in September; this is targeted source review, not a new discovery.1198source/count validation PASS does not identify morphology or meaning.
+
+1199separately registers one original-image view within the existing complete upper-pond f75v scope. Root locates caption22/third field and32/eighth field, judging the expected dal/dy clearance SPACE_LIKE versus INTERNAL_LIKE. This is one source-aware qualitative AI observation, no measured scaling, independent confirmation, lexical boundary proof or semantic assignment. Source identity and observation-reduction validation PASS does not validate handwriting judgments. No new image key, download, crop, OCR, reserve or native meaning.
+
+Retain an exploratory stable-part/variable-spacing account with whole-form exceptions; do not promote dal+dy to a universal morpheme split or treat transcriber disagreement alone as authorial variation. Next: use the pinned literal examples and uncertain boundaries as constraints on one explicit hand-writing proposal, with its learning cost and alternatives stated before testing. No new model selected;1197remains unexecuted,1196and1194/95stay failed,1193basic control keeps known limitations. Primary reports: experiments/yolo/gdt1198_daldy_exact_contexts/REPORT.md and experiments/yolo/gdt1199_daldy_label_seam_view/REPORT.md. Both local checkpoints; no commit/push; no running work. Producer supplied two parked prior contrasts only and independently checked five1198source lines, without new raw ideas or native meanings.
+
+## 2026-10-05 daldy reminder:1197 deferred before implementation
+
+The user explicitly asks to account for nonrandom word construction, naming daldy. The proposed ALT/MTF source-frequency census1197 was preregistered but not implemented, locked, run or scored. Its fixed-carrier invariance received contract-only review; this is not model validation. Root defers it as the next main task and returns to word-form evidence. No ALT/MTF scientific failure or success is recorded.
+
+Existing exact-word profiles: dal191/201/158; daly23/25/21; daldy17/16/8; aldy10/9/5; dy225/221/170 in ZL3b/IT2a/RF1b separately. daldy crosses sections and both Currier groups, with no immediate exact repetition in this profile scope. It is not evidence for a local picture-specific meaning. These are retrieved descriptive profiles, not new whole-manuscript counts. Standalone/embedded strings and readers remain distinct. No dal+dy cut, morpheme, tense or meaning is assigned.
+
+GDT608's directed formal composition plus whole-form residual is retained; GDT788's lack of general DAL component export and916's failed new-pair generalization remain. Historical glosses were not adopted. Next exact action: inspect admitted daldy/daly/dal contexts and boundaries for a small explicit surface-rule account before another global writer. Primary decision and existing-tool profile receipt: experiments/yolo/gdt1197_letter_memory_frequency/REPORT.md.1197is unexecuted,1196stays excluded,1193basic control retains its limitations. Local checkpoint; no commit/push; no work running.
+
+## 2026-10-05 GDT1196: cheap vowel-boundary writing families excluded
+
+Two fixed vowel-run splits crossed with NONE/VC/V6 previous-fragment entry states fail necessary frequency bounds in all four exposed CoReMA books. At most899–1447distinct forms per8000 groups versus at least2130; top-ten share at least21.675–33.425% versus at most17.6%. A deterministic carrier conditioned on the declared complete labels cannot fix these counts. No glyph table, alphabet fit or new native data was used. The optimistic free-alias relaxation first clears the two necessary directions at5, but supplies no public writing rule. Actual six-state context fails; state count alone is not a solution.
+
+Independent counting/bound validation passes;2108complete source grouping reconstructions are not glyph inverses or a native reading. Primary: experiments/yolo/gdt1196_vowel_boundary_capacity/REPORT.md. The pre-output start-state correction is preserved with the original source/lock. All six exact families close; no generic exclusion of syllabic or medieval writing.1193basic control and its2130-entry cost/q/y/entropy mismatches remain;1194/1195stay failed;0native words assigned.
+
+Next: review a genuinely different human-executable information-grouping rule and its primary predecessors before any new carrier implementation. No next candidate selected, no automatic extra-state or table fit. Local construction checkpoint; no commit/push; no running work. Bounded producer completed duplicate/counterexample and bound review without new raw cards; existing unreviewed supply remains ample.
+
+## 2026-10-05 GDT1194/1195 closed; retain working1193 basic control
+
+1194 adds a declared reversible pair notation, paid qo guard and contextual endings to frozen1193.902length/q-count candidates survive. Four-context final-y assignment is impossible; thirteen-context optimizing solver is UNKNOWN at10s. No full1194writer/fit was reached.1195 separately asks pure feasibility and verifies an explicit13-context witness, then performs the previously unexecuted single6000proposal fit. Original1194stop is retained.
+
+1195still fails: bs1H2, b4final-y, w1glyph entropy, and tighteredit1 in w1/bs1/gr1.16pre-fit parity checks plus1054full recipe inverses/4frozen book metrics pass only as software/source validation. The successful capacity witness and near misses do not promote the failed writer. No additional restart, corpus or decoder extension. The already complete1193writer remains the concrete basic-screen control, with its costly2130-entry dictionary and retained q/y/entropy mismatches; no new native words.
+
+Primary reports: experiments/yolo/gdt1194_paired_tail_orthography/REPORT.md and experiments/yolo/gdt1195_final_table_feasibility_witness/REPORT.md. Pure-feasibility/source/metric certificates retained. Original1195runner has a live deadline; its isolated replay entry point fixes only that operational clock to verify the original scientific result without overwriting it. Shared08:25–08:55budget includes closure. Local checkpoint; no commit/push. Stop automatic table fitting. Any next design must first justify its human learning cost and address the retained word-formation constraints with a different declared mechanism.
+
+## 2026-10-05 GDT1193: complete basic-control pass; native form mismatch retained
+
+1191 remains failed;1192 independently excludes every single pair exchange.1193 selects the first cost-ordered three-entry cycle after exact length filtering:244affected sample positions,358eligible cycles, one complete candidate tested. The frozen table passes all10basic conditions plus tighteredit±.01 across4exposed source books and3alternate native summaries.1054recipes/80931source words reverse exactly; frozen1174metrics agree. A blinded assistant reads16groups/15words exactly with electronic table lookup and supplied glyph segmentation. The2130-entry table remains substantial human cost.
+
+This is a working artificial control writer, not native reconstruction or confirmation. Descriptive cached diagnostics outside the registered screen show q→o only26–30% versus≈98%, y-final19.5–25.1% versus37.1–41.5%, glyph entropy3.10–3.18 versus3.86–3.87. Several passed gates lie near their tolerance limits. Preserve the positive basic-screen result AND these counterexamples; do not reinterpret the screen as sufficient or reuse source-table values as native meanings. Zero translated native words; no new target/raw/reserve access.
+
+Primary: experiments/yolo/gdt1193_three_source_code_cycle/REPORT.md; full source, lock, validator, public tables, texts, manual trace and extra-diagnostic critique alongside. Local construction checkpoint, no commit/push. No work remains running. Before selecting another writer, explicitly address known native-form constraints and dictionary cost, inspect relevant primary predecessors and declare a different bounded test. Do not automatically extend the completed optimization.
+
+## 2026-10-05 GDT1188–1190 closed; global public code-table design1191
+
+Greedy source lookup simplifies the writing algorithm but all42fixed frequency-rank allocations fail the six necessary source invariants. No glyph permutation repairs those counts, and no1188–1190optimizer ran.18even cases1190complete the1..7allocation space; no adjacency-capacity stage was reached. These are fixed-family source-control findings, not native-language results.
+
+1191changes only the global bijection from literal source fragments to complete codewords, with the same public greedy inverse/counter/word/recipe seams. Two H pools, bounded6000proposals each, all4exposed source books and all3summaryreadings, ten basic gates plus tighteredit±.01. Table itself is a paid learning cost; no mnemonic or historical advantage assumed. Fastarray metrics must match frozenmetrics before any fit. Block07:25–07:55, root active, producer concept review. All old failures and0native meanings remain; local checkpoint.
+
+## 2026-10-05 GDT1187 failed; direct hand dictionary1188
+
+All4initial-only variants fail bs1/gr1 necessary invariants; no optimizer ran.4216complete source roundtrips validate only software/source fidelity. A bounded manual audit confirms the ordered1024/2048 merge rules remain expensive to execute per word.1188 changes the writing rule to longest matching dictionary fragment, down to single characters, with three fixed code layouts and three table sizes. All4exposed sources screened before fitting; tighter prospective edit1±.01 retained. Block07:02–07:22. No native value, target acquisition or historical-practicality claim. Local checkpoint; root1188 active, producer done.
+
+## 2026-10-05 GDT1185–1186: stored failures and exact adjacency ceiling
+
+All six frozen alternatives1185 fail the full design filter;3204 complete recipe roundtrips validate source consistency only.1186 proves the entire fixed role-alphabet family can meet the inherited loose edit-one gate, with82/82-pair witnesses. Its exact individual maxima are1.71–1.98%, versus known native summaries near4%. A mathematical gate pass cannot be promoted to reproducing that observed level. No other-nine-condition fit or transfer for the witnesses;1184/85 remain failed.
+
+No further alphabet optimization authorized by this result alone. Reassess source-writing rules and human cost before selecting a different finite construction. Exact matchings, proof and independent28029-pair distance validation retained in1186. No native words or target access. Local checkpoint. Producer checks adequate raw supply; root closing1186.
+
+## 2026-10-05 GDT1181–1184 closed; bounded stored-table audit1185
+
+1181 full source-fragment codes retain excessive length spread.1182 changes visible boundaries to fragments with explicit source-word endings; all six fail the full basic filter.1183 contracts initial tree prefixes: two K7 necessary passes fail offered-alphabet capacity, and the optimized K13 candidate fails H2/edge/glyph conditions. No1183 transfer.1184 uses three publicly conditioned initial styles and fits known target summaries on b4/w1. Both fixed selected tables satisfy nine of ten conditions but adjacent edit-one repetition remains below at least ZL's lower gate. No1184 transfer. Every original decision remains failed; no threshold was widened.
+
+These are artificial control-source writers with full public decoding, not manuscript findings or native values. Frozen corpora/criteria and program/parameter locks, full encoded text, validators and append-only reviews are in the primary experiment directories. All source books are exposed. A10146-roundtrip1183 validation PASS is software/data consistency, not a scientific pass.1184 checks2136 complete recipe roundtrips. No target raw/reserve read or native word assignment.
+
+After06:28UTC budget reassessment,1185 evaluates only six already produced nonselected1184 parameter sets against the full filter, excluding both failed selected tables. No optimization rerun. If any fully qualifies, exactly one is selected before an unchanged bs1/gr1 transfer; no fallback candidate. Cross-role sign-sharing differs from global renaming and is explicitly recorded. This retrospective audit cannot rescue1184 or supply independent confirmation. Block through06:48UTC including closure. Raw940 eight-fragment notebook added independently, unreviewed/unselected; producer completed. Root1185 running.
+
+Local construction checkpoints under the4October exception; no commit or push. All prior stops and zero translated words remain. Next exact action: complete1185 full design/conditional transfer and validate; do not modify the six tables or criteria.
+
+## 2026-10-05 GDT1176–1180: complete source constructions still fail
+
+Four frozen partitions1176, narrowed preposition binding1177 and two spelling-independent short-word chains1178 fail their necessary word-frequency gates.1177 passes the two design books but fails common-word concentration in bs1/gr1. All retained complete source projections preserve every word.
+
+1179's three complete writers (literal shortcuts;503-word table;503-token nearest-reference channel) reverse all1054 recipes each but fail the unchanged ten-metric screen.1180's six small contextual alphabets likewise reverse all1054 each but fail concentration, diversity, entropy and initial/final contrast. Neither a partial score nor a reversible program establishes statistical fit.0native meanings remain assigned. Full reports/locks/validators and append-only reviews preserve each stop.
+
+Current bounded construction1181 learns reusable source fragments from b4/w1 only and uses six fixed branching codes with a public four-state counter. All four sources are exposed; bs1/gr1 do not train fragments. No new target raw text, reserve or native gloss. GDT857 repeated-word counterexamples were reviewed; its failed disjoint cyclic-pool subclass is not adopted. Prior001/605/606 inverse failures remain. Await full source roundtrips and inherited screen before any stronger structural study. Remaining declared work block ends05:58UTC for reassessment.
+
+Local construction checkpoints under the4October exception; no commit/push. Root1181 running, bounded producer supplies raw ideas separately. Sources: reports1176–1180 and1181 PREREGISTRATION.md under experiments/yolo/.
+
+## 2026-10-05 GDT1175: fixed b6.8 transfer stops the29-root large run
+
+The next complete cached unit after b6.7, b6.8, was selected by source
+completeness before encoding. Its11 manually accounted statements/fragments
+write and reverse-read under the unchanged29-root/17-tag grammar:31words,
+278glyphs,175literal-spelling glyphs (62.95%). This exceeds the previously
+registered50% purpose threshold. Stop the large statistical run of this fixed
+writer; no post-result root/grammar repair. This is a control-construction
+finding, not a manuscript statistic or newly translated word.
+
+Complete source spans, pre-output hash lock, code, all text, independent source
+review and a separate surface cost validator are in GDT1175. Unknown words are
+retained with manually stipulated attachments; their meanings still require
+source-language knowledge. Source fragments remain verb-less; yolk quantity,
+strengthening words and unresolved references are retained. Eir compound scope
+adds no independent count of individual eggs. No new acquisition or reserve.
+The original b6.7 construction positive and GDT1174 failures remain unchanged.
+
+Next action: review the already described ten manual constructions for their
+explicit general lexicon/learning costs before selecting a new candidate. No
+replacement chosen and no repeat of1175. Historical recipe exposure is not a
+new holdout. Ten statistically fitting systems remain unachieved.
+Primary: experiments/yolo/gdt1175_fixed_writer_b6_8_transfer/REPORT.md.
+Local construction checkpoint per current-route exception; not committed or
+pushed. Bounded producer/reviewer completed; no running work.
+
+## 2026-10-05 productive b6.7 word formation; transfer and statistical fit remain open
+
+One new artificial writer uses29 learned primitive roots,17 one-sign grammatical
+modifiers, explicit nominal composition and material-to-action derivation, an
+open26-letter spelling table and marked reference forms. It writes the same17
+source-account statements as59 words/287 working glyphs; prior manual system2
+used58/347. All normalized trees and six prescribed new constructions recover
+with no additional root entries. The five content contrasts survive; a sixth
+operator-order probe is structural only, not a natural recipe reading.
+
+Second-reader review made two definitions explicit: imperative DO licenses
+causing/maintaining a specified state; APPLY means furnish with material without
+choosing external application over mixing. Two overly narrow new example labels
+were corrected. First output preserved; text, keys, trees and counts unchanged.
+The29 roots are not the full learning cost. Existing source ambiguities retained;
+no native word assignments and no new target data/counts. Top10 remains21 of59
+versus21 of58 before: compactness is not demonstrated Voynich fit.
+
+Next: freeze these rules; choose the next visibly complete cached B6 unit after
+b6.7, checking source completeness before writing, and transfer without extra
+roots, grammatical repairs or resolved pronouns. Count literal spelling costs.
+Over50% literal-spelling glyphs or required rule changes stop a large corpus
+run of this29-root writer. This is an engineering-purpose threshold, not a
+Voynich statistical gate. Current spelling burden35/287; a second source not
+yet read in this block. Historical exposure is not an independent holdout.
+GDT1174 and all other original stops remain; ten statistically fitting systems
+still unachieved. IDEA000934 is separate raw/unreviewed supply, not selected.
+Dossier: research_registry/proposals/production_origin_supply_20261003/B6_7_PRODUCTIVE_STEMS.md.
+Local construction checkpoint; no commit/push; bounded supplier/reviewer done;
+nothing running. No new GDT, source acquisition, reserve or manuscript finding.
+
+## 2026-10-05 complete b6.7 manual writing, no statistical fit claimed
+
+The complete cached recipe is accounted for in17 source-aligned manual units
+and rendered in ten revised artificial writing systems. All reconstruct the
+stipulated trees from the public key and written text, without a source-message
+lookup. Until/after, analogy/identity, oversalting/salting, adjective scope and
+open pronouns remain distinguishable. Source-reader review preserves the chosen
+C04 pronoun interpretation, explicit sieden and paragraph-level goal scope.
+This is not a diplomatic transcription or independent historical translation.
+
+Systems1/5/9 share exact word-frequency partitions;2/3 also do. The explicit
+sentence/command markers in1/4/5/7/9 and the selected macro10 still force a
+conditional concentration floor,32 words here. Bound grammar in2/3 and the
+sentence-mode variant6 remove that particular floor, not every statistical
+problem. The common fixed-length toy roots and long modifier chains are not
+ready for a larger corpus run. GDT1174 remains failed;289/290/297/307 retain
+their limits on universal native wrapper interpretations.
+
+Next manual construction: a small productive root table with short meaningful
+inflection, initially on these same17 statements. Selection is for construction
+simplicity, not claimed native morphology or a statistically preferred reading.
+No new target data/counts, images, reserves, lexemes, source acquisition or
+scientific experiment ID. All original stops remain. User's ten statistically
+fitting systems have NOT been achieved. Local construction checkpoint; no
+commit/push; bounded source reviewer finished; nothing running.
+Dossier: research_registry/proposals/production_origin_supply_20261003/B6_7_MANUAL_DESIGN.md.
+
+## 2026-10-05 ten complete writers: meaningful reversibility is not distributional fit
+
+GDT1174 implements ten distinct finite writing/reading mechanisms under one
+22-form working inventory, with all5120 synthetic records reconstructed per
+system. The jointly registered ten-diagnostic screen fails for all ten under
+each separate reader. Top10 shares48.84–90.89% versus12.60–13.31% in fixed
+8000-group admitted samples. These are not whole-manuscript estimates.
+A posthoc analytic account shows every fixed schema has a Top10 lower bound
+of20–80%, from mandatory small fields or control words. No glyph-key change
+or extra sampling of the same inventory removes that limitation.
+
+This preserves meaningful finite encoding and the old structural positives;
+it does not refute abbreviation, anaphora, morphology or technical notation
+in general. No genuine Voynich meanings assigned. The user's request for ten
+statistically fitting systems remains unmet; these are ten tested prototypes.
+Next construction must first specify a richer meaningful statement/word
+grammar that avoids the bound, before changing surface keys. None selected.
+No automatic repair, new source/image/reserve or contact. f84/f84r remain sealed.
+Report: experiments/yolo/gdt1174_ten_scribes_forward_comparison/REPORT.md.
+Rules and full examples beside it. One bounded supplier completed; none running.
+Local construction checkpoint; no commit or push.
+
+## 2026-10-05 complete-reading review: retained lexicons are not predictive reuse
+
+Primary/followup reconciliation of the selected music and transport families.
+Music1024 actually reuses6types at9/33positions, adds18values/6constructions;
+1026 reuses18types at32/55, adds20values/11constructions/10bindings. Long
+transport1013 reuses4positions at93ZL/89IT, adds75/71 whole aliases under old
+17constructions. These are old conditional assignments, not accuracy scores.
+1014's41-47 function/input cells have only0-4 repeated-input constraints;
+1016's stronger unary law fails.1018 retains two fixed sufficient plans;
+1019's fresh-completed-event law fails all full extension classes. Keep these
+different contracts separate.994/1041 are capacity stops;1008/1009 close only
+the fixed short context panel.1003/1013 positives remain, no meanings selected.
+
+No family ranked as preferred manuscript content. Existing assessed reviews
+already preserve these limits; no duplicate review or experiment. Next select
+at most one explicit repeated-effect rule without free per-input tables, after
+countercase review; none selected yet. Word profiles precede concrete meanings.
+IDEA360 source contrast remains old/unbound, not automatic continuation.
+Dossier: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md.
+Compact source-hashed result: COMPLETE_READING_PREDICTION_REVIEW_20261005.json
+beside it. No new raw text, image, reserve, source, solver, publication or running
+work. Supplier completed without new card. Local selection checkpoint.
+
+## 2026-10-05 IDEA889 acquisition closed without a guide/completion witness
+
+Targeted registry and named native-report review supplies no qualified small
+guide/completed initial pair. IDEA889 reviewed NOT_TESTED: missing source
+relation, not a rejected mechanism or global absence. No image experiment.
+RFH001 f73v.15 positive is explicitly retained: pale attached hook remains
+visible while darker retracing omits it. This is a layer feature omission,
+not a deleted whole glyph, equivalent character or expansion. RYO001, CRP001,
+processed correction-screen and1056 original visual limits remain unchanged.
+No new image, raw target text, reserve, value or meaning. No repeated scan.
+
+Next selection preparation: read1041/1002 primaries and later dependencies
+before choosing a constrained content/language hypothesis;1024/994 followup
+cards already retrieved. This selects no old music/transport meaning or new
+decoder. Any actual lexical proposal still requires existing word profiles.
+Dossier: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md.
+Guide acquisition contract/result/review beside it. Supplier finished with no
+new card. Local checkpoint; no publication and no running work.
+
+## 2026-10-05 shortlist: unbound mandatory shortcuts add no coverage selection
+
+Compared complete G2,927 and933 mechanisms against retained608 composition.
+Old G2 coverage/context result and927 conditional repeat countercase retained,
+not rerun. New933 all-length construction: any2..25 observed types can be
+mapped with two active AB/BC shortcuts and<=23 D..Z literals; literal A/B/C
+signs need not occur. No shortcut crosses a block boundary, so both priority
+writers canonically reproduce every group with one fixed corpus-wide key.
+Pure construction, not manuscript alphabet or translation. Bound ABC still
+distinguishes left/right priorities; source/content restrictions may matter.
+IDEA933 reviewed INCONCLUSIVE; do not choose a decoder from coverage.
+
+Next bounded acquisition question is889's native guide/completion relation:
+find one named locus in existing native production reports before any image
+test. Raw889 supplies no witness. IP052 and COL001/processed f2r/f99v do not
+supply this specific relation; preserve their original positives and limits.
+At most10minutes targeted primary-pointer search, no global image scan,
+no repeats of closed visual checks. This is not a confirmed-word prerequisite.
+Dossier: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md.
+Shortlist contract/source/result/review beside it. Supplier finished with no new
+card; no running work. Local checkpoint, no publication or new target intake.
+
+## 2026-10-05 IDEA932 conditional spatial projection: no supported vowel or carrier binding
+
+Existing sh cap is manually localizable in the already exposed first two f25v
+lines. Fixed G1-body projection with only sh split into ch+CAP yields one CAP
+per reader,63ZL/76IT/76RF bodies and no multi-mark stack. Hypothetical C/V
+counts only; no native letter values or language diagnosis. No observed body
+satisfies all K rules; ch is bare in chor and medial/bare in qopchey. Reject
+that conditional carrier assignment, retain unbound writer as INCONCLUSIVE.
+An unobserved K or another motivated segmentation is not ruled out. SOURCE865
+consonant augmentation does not establish this following-vowel-run mechanism.
+
+No decoder, new image, transcription intake, reserve or publication. Full
+contract, observation, script, result and assessed932 review in the existing
+HAND_WRITER dossier. IDEA933 raw overlapping-shortcut writer was added during
+root work; no automatic test priority. Next shortlist at most3 existing writers
+against retained GDT608 structural consequences after primary/followup review;
+select a distinct native-bound prediction before another implementation.
+Current dossier: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md.
+No running work. Local construction checkpoint, not decipherment progress.
+
+## 2026-10-05 IDEA931 fixed capacity fails; local syntax cannot choose switch scope
+
+Exact teaching size13payload+1toggle cannot injectively realize17ZL/18IT/18RF
+stored G1 surface types in the fixed eligible two-line account. Conditional
+G1-as-atoms finding only, not a native alphabet count or universal switch
+refutation. No automatic larger table, segmentation repair or native T search.
+The separately explicit persistent-toggle and next-payload-only constructions
+have exactly the same nonempty(T?G)+ surface language and different readings.
+Constructive proof plus complete small enumeration retained. This is no new
+manuscript statistic; legal coverage/roundtrip cannot select scope. Language-
+constrained predictions could differ and were not tested. IDEA931 review keeps
+these distinctions and the still missing native switch binding explicit.
+
+No translation, new data, image, reserve, decoder or publication. Other fixed
+failures and IDEA928's limited open i/n possibilities stay unchanged. The
+bounded supplier added IDEA932 as RAW/UNTESTED; no automatic latest-idea
+priority. Next read its spatial claim and source predecessors (including865)
+before any native selection, rather than expand another free teaching table.
+Current dossier: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md;
+frozen toggle contract/source/result/review files in that dossier. No running work.
+
+## 2026-10-05 IDEA928 necessary connector constraints; no native body selected
+
+Under fixed G1 surface-as-cell binding, word-reset LOW plus exact observed
+adjacency forces15/17 ZL and16/18 IT/RF entry classes LOW on the complete
+eligible two-line subset (14/17/18groups). ch and sh both start definite groups;
+they cannot be the two entry realizations of one body under this contract.
+19 separately feasible pairs per reader all involve i/n, many with unconstrained
+terminal exits; no joint alphabet or equal native body identified. An all-LOW
+writer with distinct bodies remains possible. Explicit binary assignments and
+equality-merge checks agree; this is conditional model arithmetic, not glyph
+recognition. IDEA928 reviewed inconclusive with this narrow counterassignment.
+
+The prospectively named extra iin probe has zero definite complete-group
+witnesses: one ZL f77r.30 G004 with uncertain left seam, IT/RF0. No LOW(i)
+constraint added and no automatic replacement-form hunt. Original contract,
+source snapshots, output, additional profile and review preserved in the existing
+HAND_WRITER_RECONSTRUCTION_20261004.md dossier. No meaning, new page, image or
+reserve. IDEA927's old countercase warning was not retested as new progress;
+G2 and conditional929/930 stops unchanged. IDEA931 supplied as RAW/UNTESTED;
+next read its IP050 and relevant primary predecessors before target selection.
+Local construction checkpoint, no publication and no running work.
+
+## 2026-10-05 fixed G2 alias triage and IDEA930 conditional short-group failure
+
+The four pre-existing whole-form pairs have no common exact two-sided literal
+flank in any separately retained reader of the fixed exposed profile packet.
+This parks that immediate-context path, not the G2 writer or all possible
+allography evidence. Same-span alternate transcriptions and old inherited
+glosses supply no independent pair identity. No new relation score or decoder.
+
+IDEA930's three-head grouping fails under the explicit indivisible G0 motif
+binding at the complete nonfinal single-SK f25v.2 G005. Three readings are one
+physical case. The already admitted image crop was revisited; a smaller native
+atomization is still unbound, not refuted in general. The raw proposal is
+preserved with an append-only conditional method review. No language, sound,
+word value, new page or reserve. G2 coverage/alias distinctions and IDEA929's
+original conditional failure remain unchanged. These are local construction
+checkpoints; no publication or running process. Before another implementation,
+shortlist existing raw writers against the retained short-group and repeated-
+motif countercases. Do not repair these fixed failures with new atom divisions.
+
+Details and source hashes: research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md;
+HAND_WRITER_ALIAS_TRIAGE_RESULT_20261005.json and HAND_WRITER_IDEA930_BOUND_RESULT_20261005.json in that dossier.
+
+## 2026-10-04 constructed writers: coverage cannot select G2; fixed IDEA929 binding fails
+
+[Existing hand-writer dossier, selection result](research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md): BH and HB accept exactly the same sequences over their20 surface motifs; an all-length constructive argument and8,421 short-sequence checks retain equal decoded lengths/motif counts. Their alias partitions differ, so this is equal support, not equivalence under every possible language or probabilistic model. Stop further coverage/roundtrip-based orientation ranking; require an explicitly identifying fixed-pair or linguistic consequence before a decoder. No confirmed seed word is a general prerequisite. IDEA929 under the predeclared f25v S-O-S motif binding has zero possible disjoint row/column assignments; IT/RF definite groups are one physical witness, ZL uncertain boundary excluded. The unbound native code remains untested. Append-only review retains that conditional failure and forbids ad hoc repartition; no general rejection of coordinate scripts. All prior G0/mandatory failures and188/605/611/856 stay. IDEA930 raw/unreviewed. Local construction checkpoint, no new transcription/image admission, reserve, meaning, publication or running work.
+
+## 2026-10-04 optional hand writer: deterministic trigger requirement corrected
+
+[Existing hand-writer dossier, G2 result](research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md): optional but finitely fixed connections can remain reversibly readable; predicting every scribal choice is not a prerequisite for a complete exploratory writer. G2-BH and G2-HB each use16 abstract motifs and4 optional connections, with globally fixed opposite expansion orders. Each round-trips all4,369 length0–3 inputs/4,501 allowed outputs and represents all53 exposed reader/group records; this is construction verification, not unknown-key recovery. Both orientations and atomic-compound identity remain unresolved. Eight-form profiles supply conditional conflicts for deterministic whole-word/hand/page rules; ZL f55r same-hand2/middle chky–ckhy witness independently matched to selector-first source. Only3/4 pairs conflict under page+position; cthor/tchor does not. No native-image validation or semantic identity of these pairs follows. Keep G0 incomplete and mandatory rules contradicted; no retrospective rescue of188/605/856. Next seek an identifying whole-form consequence for the rival readings, not extra arbitrary trigger conditions or a new decoder. IDEA929 raw/unreviewed. Local model/method checkpoint; no new image, reserve, meaning, publication or running task.
+
+## 2026-10-04 f25v graphic writer applied to two complete lines
+
+[Existing hand-writer dossier, two-line result](research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md): the frozen first-line motif recipes cover 7/9 second-line raw groups per reader; cthor/ckhey require the unprovided tall-in-bench construction. A post-application insertion rule describes both, but provides no reason when a writer uses it. All53 separate reader/line/group records and original separators retained; faded first high form unresolved. GDT605 already includes these composites, so this is a local design checkpoint, not a new manuscript discovery. Mandatory tall-then-bench fusion conflicts with first-line forms; mandatory reverse fusion conflicts with admitted exact chky/chty/chpy profiles under the retained transcription representation, without fresh native confirmation of those remote countercases. Keep juxtaposition and insertion distinct; no normalization, letter values or decoder. Next construction needs a bound use condition or independently justified compound identity. Raw IDEA928 remains separate/unreviewed. No new access, reserve, public finding or running task; zero meanings.
+
+## 2026-10-04 human handwriting reconstruction: exploratory design only
+
+[Complete hand-writer dossier](research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md): construct an invented six-core/five-ending alphabet, fixed paragraph initial decoration, and two complete reversible example lines. This demonstrates usability, not Voynich fit or historical identity. Reinspection of the previously admitted f25v crop does not identify the invented table; q/curl distinctions, ambiguous spaces and the earlier incomplete source correspondence remain. Raw IDEA927 supplies a strict previous-word prefix writer with a known conditional repeat-countercase obligation, not a selected target test. The user-requested exploratory route now asks for a fixed native graphic decomposition of the whole first f25v line and an unchanged attempt on its already exposed second line. No new access, score, alphabet value or word meaning; preserve188/605/608/892/906 decisions. Local checkpoint, no publication; no running work.
+
 ## 2026-10-04 GDT1173 provenance correction
 
 [GDT1173 correction](experiments/yolo/gdt1173_edge_identity_statistic_scope/CORRECTION.md): the same paper and identical edge-driver hash were already reviewed in the5September primary proposal, which also records the user restriction on public-approach searches. Withdraw the fresh-source rationale and restore that instruction in the live route. The fixed arithmetic and original protocol remain unchanged. This is a provenance/selection correction; no new manuscript result, executable reading test or meaning.
@@ -25,6 +1955,18 @@
 ## 2026-10-04 CoReMA source-rule package remains a partial writer
 
 [Source reconstruction](research_registry/proposals/production_origin_supply_20261003/source_rule_package/REPORT.md): the accepted source task enumerated all six original witnesses with the fixed character-declaration relation.11,724 selected complete groups:11,517 compatible,204 unresolved,3 local mismatches;11,436 compatible groups still allow multiple outputs.169 witness/exact-expansion pairs retain shortened and unabbreviated spellings. Values are supplied by the edition; no key was recovered. Native graphic identities and full contextual/obligatory application conditions remain insufficient. Publish the executable partial package; do not start a Voynich decoder or automatically repair1166. All known failures and0 confirmed words remain. No target data or reserves used; source work complete, no running task.
+
+## 2026-10-04 IDEA912 priority withdrawn; user revokes45-minute limit
+
+[Selection correction](research_registry/proposals/production_origin_supply_20261003/NEXT_MEANING_TASK_STRATEGIC_REVIEW.md): the proposed f82r draft was favored for available records and a logical contrast, not a manuscript-supported ranking over other approaches. No draft began. IDEA912 remains possible but unpreferred; no substitute decoder/source route is automatically selected. The user's removal of the45-minute limit supersedes the preceding live plan and its timing. Require identifying evidence for the next priority; confirmed seed words are not a prerequisite. No running work or new manuscript result.
+
+## 2026-10-04 concrete next authoring step selected on user followup
+
+[Existing strategy dossier, final section](research_registry/proposals/production_origin_supply_20261003/NEXT_MEANING_TASK_STRATEGIC_REVIEW.md) selects IDEA912 for a bounded complete f82r P1/P2 draft: one whole-course choice versus stagewise choice versus joint enumeration, one explicit inventory and a written downstream discriminator. This is exploratory authorship, not a selected meaning or scored test; work has not started. Retain GDT1015 diplomatic uncertainties and GDT1039/1018/1153 predecessors; no inherited glosses.45-minute inclusive checkpoint when drafting starts. Confirmed words0.
+
+## 2026-10-04 user-requested critical review; no new test selected
+
+[Critical synthesis and next-selection decision](research_registry/proposals/production_origin_supply_20261003/NEXT_MEANING_TASK_STRATEGIC_REVIEW.md): structural positives and original failures retained after primary-chain review; no justified new decoder or word assignment. One future discriminator remains a shared writer with unequal observed consequences under rival readings, without requiring a confirmed seed. Existing 908/911/920 primary stops are now bound by append-only ideas reviews; raw 901/912/922 are not promoted. No unchanged missing-input audit, new target access or reserve. This is a local strategy/registry correction, not a new manuscript result; confirmed words0.
 
 ## 2026-10-03 GDT1167 inherited numeric prior weakened
 

@@ -1,0 +1,193 @@
+{
+  "artifact": "qb_native_unit_predecessors.json",
+  "status": "BOUNDED_SOURCE_AUDIT",
+  "question": "Whether native visual unit boundaries at f67r2.56 tol daiin and f67r2.64 s air were already examined/settled, with corrected cached mappings and f89r2 running counterpart.",
+  "inputs": {
+    "ledger": {
+      "path": "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv",
+      "exists": true,
+      "sha256": "d8041b797063289d5c6bc9bc10df720761b3eb7b40c023126b86d254d4d6c35b"
+    },
+    "f67_event": {
+      "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_4581_EVENT_LEDGER.tsv",
+      "exists": true,
+      "sha256": "7b4e512968be9b74428ea0435e6917c7db67af204ea2fed169a1aabdc7583e71"
+    },
+    "gdt791_spine": {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv",
+      "exists": true,
+      "sha256": "4075ffca8e7a8b9cefda62c9ec6997fb6c518dba8f86790f5309bfe2a8574707"
+    },
+    "gdt791_atlas": {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv",
+      "exists": true,
+      "sha256": "5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f"
+    },
+    "r3_report": {
+      "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+      "exists": true,
+      "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+    },
+    "phrase": {
+      "path": "experiments/yolo/sidequest_semantic_source_phrase_twenty_fourth_edition/TWENTY_FOURTH_258_SOURCE_PHRASE_EDITION.tsv",
+      "exists": true,
+      "sha256": "95081371b23b41809ee0ef6a88a7feed2f89403152bcf130829aefe3a211e1dd"
+    },
+    "statement": {
+      "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_627_STATEMENT_EDITION.tsv",
+      "exists": true,
+      "sha256": "e7a75f98cb40b7413391ff97ab8b052cdfa2fee93165dacefac9f9b92f67a112"
+    }
+  },
+  "old_4sys_report_pointer": {
+    "ledger_report_path": "results/f67r2_four_system_family_source_controls_report.md",
+    "exists": false,
+    "interpretation": "The ledger pointer is retained; the pointed report is not present in the local checkout, so no claim is made from its absent bytes."
+  },
+  "evidence": [
+    {
+      "id": "f67r2_native_unit_56",
+      "purpose": "R3 direct-visible unit/owner assignment",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+        "line": 246,
+        "line_end": 246,
+        "quote": "| f67r2.56 | A1 | 2 | `A1_LEFT_WHEEL` | DIRECT_VISIBLE | `A1_LEFT_OUTER_STAR_STATION_05` | äußerer Sternplatz 05 des linken f67r2-Rades |\n",
+        "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+      },
+      "finding": "f67r2.56 is assigned to A1_LEFT_WHEEL / A1_LEFT_OUTER_STAR_STATION_05; the source establishes a visual locus and owner, not a decoded meaning."
+    },
+    {
+      "id": "f67r2_native_unit_64",
+      "purpose": "R3 direct-visible unit/owner assignment",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_theory_candidates_v71/V71_R3_TECHNICAL_REPORT.md",
+        "line": 254,
+        "line_end": 254,
+        "quote": "| f67r2.64 | A1 | 2 | `A1_RIGHT_WHEEL` | DIRECT_VISIBLE | `A1_RIGHT_PHASE_STATION_01` | lokaler Scheiben-/Bedingungsplatz 01 des rechten f67r2-Rades |\n",
+        "sha256": "3df5f4696b89c7c0812fc508b7d85fdf4685f03c5e2caf238c6743ef2fc57b90"
+      },
+      "finding": "f67r2.64 is assigned to A1_RIGHT_WHEEL / A1_RIGHT_PHASE_STATION_01; again this is a bounded visual owner, not a semantic value."
+    },
+    {
+      "id": "f67r2_tol_daiin",
+      "purpose": "corrected admitted cached mapping",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_4581_EVENT_LEDGER.tsv",
+        "line": 737,
+        "line_end": 738,
+        "quote": "736\tP912-E1881\tf67r2\tf67r2\tCELESTIAL\tf67r2.56\tCURRENT_BASE\ttol\tT+OL\tLOKALE ADRESSE KOPIEREN\tzwei lokale Himmelsraeder: Platz einstellen, gleiche Reihe weiter.\tLOCAL_ADDRESS_OR_LABEL\t\t\tPASS1002\n737\tP912-E1882\tf67r2\tf67r2\tCELESTIAL\tf67r2.56\tCURRENT_BASE\tdaiin\tAIIN\tLOKALE ADRESSE KOPIEREN\tzwei lokale Himmelsraeder: verzeichneter Sollwert.\tLOCAL_ADDRESS_OR_LABEL\t\t\tPASS1002\n",
+        "sha256": "7b4e512968be9b74428ea0435e6917c7db67af204ea2fed169a1aabdc7583e71"
+      },
+      "finding": "PASS1009 maps f67r2.56 to tol then daiin as two LOCAL_ADDRESS_OR_LABEL records, with local renderings Platz einstellen/g gleiche Reihe weiter and verzeichneter Sollwert."
+    },
+    {
+      "id": "f67r2_s_air",
+      "purpose": "corrected admitted cached mapping",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_4581_EVENT_LEDGER.tsv",
+        "line": 749,
+        "line_end": 750,
+        "quote": "748\tP912-E1893\tf67r2\tf67r2\tCELESTIAL\tf67r2.64\tCURRENT_BASE\ts\tS\tLOKALE ADRESSE KOPIEREN\tzwei lokale Himmelsraeder: Klasse wählen.\tLOCAL_ADDRESS_OR_LABEL\t\t\tPASS1002\n749\tP912-E1894\tf67r2\tf67r2\tCELESTIAL\tf67r2.64\tCURRENT_BASE\tair\tAIR\tLOKALE ADRESSE KOPIEREN\tzwei lokale Himmelsraeder: Ringlauf.\tLOCAL_ADDRESS_OR_LABEL\t\t\tPASS1002\n",
+        "sha256": "7b4e512968be9b74428ea0435e6917c7db67af204ea2fed169a1aabdc7583e71"
+      },
+      "finding": "PASS1009 maps f67r2.64 to s then air as two LOCAL_ADDRESS_OR_LABEL records, with Klasse wählen and Ringlauf."
+    },
+    {
+      "id": "f67r2_gdt791_spine",
+      "purpose": "cached source ownership and unit boundaries",
+      "evidence": {
+        "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv",
+        "line": 1634,
+        "line_end": 1635,
+        "quote": "1633\tLOCAL_CARD:ORIGINAL22_LOCAL_ADDRESS:P912-E1881\tLOCAL_ADDRESS_OR_LABEL\tf67r2\tf67r2\tCELESTIAL\tRADIAL_ARRAY\tf67r2.56\t56\t1\ttol\tNONE\tzwei lokale Himmelsraeder\tNONE\tNONE\tNONE\tLEGACY_LOCAL_CARD_WITH_PAGE_CONTEXT\tF67R2_RADIAL_PAGE\tZERO__STRUCTURAL_CROSSWALK_ONLY\n1634\tLOCAL_CARD:ORIGINAL22_LOCAL_ADDRESS:P912-E1882\tLOCAL_ADDRESS_OR_LABEL\tf67r2\tf67r2\tCELESTIAL\tRADIAL_ARRAY\tf67r2.56\t56\t2\tdaiin\tNONE\tzwei lokale Himmelsraeder\tNONE\tNONE\tNONE\tLEGACY_LOCAL_CARD_WITH_PAGE_CONTEXT\tF67R2_RADIAL_PAGE\tZERO__STRUCTURAL_CROSSWALK_ONLY\n",
+        "sha256": "4075ffca8e7a8b9cefda62c9ec6997fb6c518dba8f86790f5309bfe2a8574707"
+      },
+      "finding": "GDT791 occurrence spine preserves f67r2.56 as two local-card records in RADIAL_ARRAY / F67R2_RADIAL_PAGE."
+    },
+    {
+      "id": "f67r2_gdt791_spine_64",
+      "purpose": "cached source ownership and unit boundaries",
+      "evidence": {
+        "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv",
+        "line": 1646,
+        "line_end": 1647,
+        "quote": "1645\tLOCAL_CARD:ORIGINAL22_LOCAL_ADDRESS:P912-E1893\tLOCAL_ADDRESS_OR_LABEL\tf67r2\tf67r2\tCELESTIAL\tRADIAL_ARRAY\tf67r2.64\t64\t1\ts\tNONE\tzwei lokale Himmelsraeder\tNONE\tNONE\tNONE\tLEGACY_LOCAL_CARD_WITH_PAGE_CONTEXT\tF67R2_RADIAL_PAGE\tZERO__STRUCTURAL_CROSSWALK_ONLY\n1646\tLOCAL_CARD:ORIGINAL22_LOCAL_ADDRESS:P912-E1894\tLOCAL_ADDRESS_OR_LABEL\tf67r2\tf67r2\tCELESTIAL\tRADIAL_ARRAY\tf67r2.64\t64\t2\tair\tNONE\tzwei lokale Himmelsraeder\tNONE\tNONE\tNONE\tLEGACY_LOCAL_CARD_WITH_PAGE_CONTEXT\tF67R2_RADIAL_PAGE\tZERO__STRUCTURAL_CROSSWALK_ONLY\n",
+        "sha256": "4075ffca8e7a8b9cefda62c9ec6997fb6c518dba8f86790f5309bfe2a8574707"
+      },
+      "finding": "GDT791 occurrence spine preserves f67r2.64 as two local-card records in the same local radial page namespace."
+    },
+    {
+      "id": "f67r2_phrase_56",
+      "purpose": "running source phrase interpretation",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_source_phrase_twenty_fourth_edition/TWENTY_FOURTH_258_SOURCE_PHRASE_EDITION.tsv",
+        "line": 173,
+        "line_end": 173,
+        "quote": "172\tASTRO\tf67r2\tf67r2.56\tA1_LEFT_OUTER_STAR_STATION_05\t2\tA_GRADE_VALUE\tVISIBLE LOCUS > VALUE/STAGE/GRADE > CURRENT/READ\tIn figura A1_LEFT_OUTER_STAR_STATION_05, gradum vel valorem statutum lege.\tAm sichtbaren Diagrammplatz Stufe, Grad oder Sollwert lesen.\ttol daiin\tOL | AIIN\tFortsetzen; Sollwert\tleft outer star station 05: Fortsetzen; Sollwert\n",
+        "sha256": "95081371b23b41809ee0ef6a88a7feed2f89403152bcf130829aefe3a211e1dd"
+      },
+      "finding": "The later source phrase table still treats tol daiin as one f67r2.56 local phrase application, rendered Fortsetzen; Sollwert; this is a source-bound application, not proof that the two tokens are one native visual unit."
+    },
+    {
+      "id": "f67r2_phrase_64",
+      "purpose": "running source phrase interpretation",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_source_phrase_twenty_fourth_edition/TWENTY_FOURTH_258_SOURCE_PHRASE_EDITION.tsv",
+        "line": 181,
+        "line_end": 181,
+        "quote": "180\tASTRO\tf67r2\tf67r2.64\tA1_RIGHT_PHASE_STATION_01\t2\tA_LOCAL_ENTRY\tVISIBLE LOCUS > LEARNED LOCAL VALUE > READ\tIn figura A1_RIGHT_PHASE_STATION_01, signum loci ex exemplari lege.\tDen lokalen Wert am sichtbaren Platz aus dem Meisterexemplar lesen.\ts air\tS | AIR\tNebenwert; Himmels-, Ring- oder Zeigerlauf\tright phase station 01: Nebenwert; Himmels-, Ring- oder Zeigerlauf\n",
+        "sha256": "95081371b23b41809ee0ef6a88a7feed2f89403152bcf130829aefe3a211e1dd"
+      },
+      "finding": "The later source phrase table treats s air as one f67r2.64 local phrase application, rendered Nebenwert; Himmels-, Ring- oder Zeigerlauf."
+    },
+    {
+      "id": "f89r2_running_counterpart",
+      "purpose": "running counterpart locator",
+      "evidence": {
+        "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv",
+        "line": 960,
+        "line_end": 962,
+        "quote": "959\tf89r2\tf89r\tPHARMA\tMATERIAL_REGISTER\tf89r2.6\t6\t1\t0\tRUNNING_PROSE\t15\t15\t0\tF89R_MATERIAL_PAGE\tGefäß-/Pflanzenteilgruppe D\tNONE\tNONE\tNONE\tDIRECT_PAGE_CONTEXT_ONLY\tqokcheody cheodal dair cholkeedy qokedy cheal cheo dal qoaiis shey cpheeedol deey qockhey chaldy daim\tZERO__STRUCTURAL_CROSSWALK_ONLY\n960\tf89r2\tf89r\tPHARMA\tMATERIAL_REGISTER\tf89r2.7\t7\t0\t0\tRUNNING_PROSE\t16\t16\t0\tF89R_MATERIAL_PAGE\tGefäß-/Pflanzenteilgruppe D\tNONE\tNONE\tNONE\tDIRECT_PAGE_CONTEXT_ONLY\tchos aiin cheodal daiin chy chedain dolchsyckheol daiin chody cheedy tchodol chor choldy chos dol okcheeg\tZERO__STRUCTURAL_CROSSWALK_ONLY\n961\tf89r2\tf89r\tPHARMA\tMATERIAL_REGISTER\tf89r2.8\t8\t0\t1\tRUNNING_PROSE\t13\t13\t0\tF89R_MATERIAL_PAGE\tGefäß-/Pflanzenteilgruppe D\tNONE\tNONE\tNONE\tDIRECT_PAGE_CONTEXT_ONLY\ttol daiin daiin daiinody qokeey cheoldy qody cheor sain daiin oky cheody cheoky\tZERO__STRUCTURAL_CROSSWALK_ONLY\n",
+        "sha256": "5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f"
+      },
+      "finding": "GDT791 maps f89r2.6/.7/.8 as PHARMA running prose/material-register lines; these are a separate page-local owner namespace, not an asserted f67r2 visual-unit identity."
+    },
+    {
+      "id": "f89r2_event_counterpart",
+      "purpose": "cached running-token counterpart",
+      "evidence": {
+        "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_4581_EVENT_LEDGER.tsv",
+        "line": 4355,
+        "line_end": 4355,
+        "quote": "4354\tP1008-E1186\tf89r\tf89r2\tPHARMA\tf89r2.6\tP\tdair\tD_ADDR+AIR\tTEIL · LAUF\tbei der Gefäß-/Pflanzenteilgruppe D: teil · lauf\tRUNNING_STATEMENT\tP1009-S615\tP1008-S153\tPASS1008_FOUR_PAGE_TEMPLATE_TRANSFER\n",
+        "sha256": "7b4e512968be9b74428ea0435e6917c7db67af204ea2fed169a1aabdc7583e71"
+      },
+      "finding": "PASS1009 contains f89r2.6 dair as a running statement with D_ADDR+AIR and local TEIL · LAUF rendering; it supplies a counterpart pointer, not a cross-page identity claim."
+    },
+    {
+      "id": "old_4sys_ledger",
+      "purpose": "old F67R2_4SYS_001 status",
+      "evidence": {
+        "path": "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv",
+        "line": 714,
+        "line_end": 714,
+        "quote": "2026-08-08\tF67R2_4SYS_001_source_controls\tPASS_SELF_VALIDATED_SYNTHETIC_SOURCE_CONTROLS_TARGET_ABSENT\texact-rational controls pass valid asymmetric repeat one-view missing-record empty-record malformed-atom negation even-median symmetry automorphism ring and leave-one-view gates with current code hashes while no historical atoms or target artifact were accessed\tobtain nonimporting independent validation before real source matrices; infer no historical match Voynich meaning lexeme plaintext language or translation\tresults/f67r2_four_system_family_source_controls_report.md\n",
+        "sha256": "d8041b797063289d5c6bc9bc10df720761b3eb7b40c023126b86d254d4d6c35b"
+      },
+      "finding": "The append-only ledger records source controls as PASS_SELF_VALIDATED_SYNTHETIC_SOURCE_CONTROLS_TARGET_ABSENT and explicitly requires independent validation before real source matrices; it does not examine these f67r2 native visual units."
+    }
+  ],
+  "conclusions": {
+    "native_unit_boundaries": "At the admitted cached-record level, both loci were already assigned bounded visual owners and token records: .56 is a two-token tol/daiin local address and .64 is a two-token s/air local address. The current records settle the source mapping/ownership used by the cache.",
+    "not_settled": "They do not settle whether each two-token phrase corresponds to one native visual unit, nor any decoded meaning. The phrase table groups each pair as a local application, while the event/spine ledgers preserve two token records; this is the narrow unresolved boundary question.",
+    "old_4sys": "F67R2_4SYS_001 is a source-control/capacity predecessor with target absent, not a visual-unit examination. Its missing report bytes prevent stronger source claims.",
+    "f89r2": "f89r2 is located as a separate running pharmaceutical/material-register namespace in GDT791, with a concrete dair/D_ADDR+AIR example. It is a running counterpart for cached structural comparison only, not a proven cross-page counterpart or identity.",
+    "next_narrow_question": "If revisited, ask only whether the two-token local phrase applications (.56 and .64) are visually co-owned as one native unit or are adjacent separately owned records, using an explicitly admitted visual boundary source. Existing cached text/ownership records alone cannot answer that."
+  },
+  "limits": [
+    "No images or GDT874 artifacts inspected.",
+    "No target run, source rebuild, registry or shared file mutation.",
+    "Structural record mappings are not semantic confirmation."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "experiment": "GDT1228",
+  "selected_utc": "2026-10-06T07:43:47.540552+00:00",
+  "preparation_began_utc": "2026-10-06T07:37:00Z",
+  "whole_work_deadline_utc": "2026-10-06T08:22:00Z",
+  "total_budget_minutes": 45,
+  "question": "Does any one-base-letter-to-one-working-sign bijection of the entire fixed bare Hebrew Deot projection survive a prospective three-invariant screen against equal-word-count pooled and single-metadata native profiles?",
+  "hebrew_files": [
+    "research_registry/proposals/production_origin_supply_20261003/sources/sefaria_deot_20261006/chapter1.json",
+    "research_registry/proposals/production_origin_supply_20261003/sources/sefaria_deot_20261006/chapter2.json",
+    "research_registry/proposals/production_origin_supply_20261003/sources/sefaria_deot_20261006/chapter3.json",
+    "research_registry/proposals/production_origin_supply_20261003/sources/sefaria_deot_20261006/chapter4.json",
+    "research_registry/proposals/production_origin_supply_20261003/sources/sefaria_deot_20261006/chapter5.json",
+    "research_registry/proposals/production_origin_supply_20261003/sources/sefaria_deot_20261006/chapter6.json",
+    "research_registry/proposals/production_origin_supply_20261003/sources/sefaria_deot_20261006/chapter7.json"
+  ],
+  "source_review": "research_registry/proposals/production_origin_supply_20261003/MAIMONIDES_DEOT_SOURCE_REVIEW_20261006.json",
+  "projection": "Take all text of all71segments from explicit Torat Emet363chapters1..7. Strip HTML markup but retain all text including small/parenthetical/biblical references and bracketed editorial text. Remove Unicode combining marks and ASCII single/double quotes; all other non-Hebrew-letter characters are word boundaries. Fold final forms ךםןףץ to כמנפצ. Preserve every maximal Hebrew letter run and order. This is the declared bare edition projection, NOT recovery of printed points, punctuation, quotation, variant brackets, medieval orthography or unique original meaning.",
+  "projection_stops": "Unknown HTML tags beyond small, unobserved nonletter punctuation, any Latin/digit text, empty section, wrong version, missing segment or fewer than500projected words stops the test. Do not select a different passage. Pure nonletter formatting is not scored as a word.",
+  "writer_family": "One fixed injective map of the22base letters into22working signs; one source word remains one group. Two declared orientations: logical letter order, or reverse each complete word. No glyph expansion, omission, homophony, additional allography, word splitting/joining, abbreviation or context changes. No actual key is selected.",
+  "invariance": "Mean and population SD of word lengths and within-word first-order conditional glyph entropy are unchanged by any bijective sign renaming. Counted repeated graph units are real source letters, not arbitrary root IDs.",
+  "native_source": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+  "metadata_source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+  "scope_spec": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+  "working_signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "native_eligibility": "Unchanged1174 P; left DEFINITE_SPACE/LINE_START; right DEFINITE_SPACE/LINE_END; exact full22working-sign parse, no entity normalization. Selector-first179allows; unique metadata match edition/locus/group/page.",
+  "comparison_cells": "Each reader separately: pooled, every observed value of currier, section and hand separately. No intersections. A cell is scoreable only if it has at leastNwords, where N is the entire fixed source projection count. No-capacity cells remain explicitly untested.",
+  "samples": "Seeds0..127 shuffle the unchanged sorted179prose-page universe. Within page, order by literal locus then integer group. For each cell take its firstNeligible groups. No source truncation or choice of source window.",
+  "metrics": {
+    "mean_length": [
+      "relative",
+      0.2
+    ],
+    "sd_length": [
+      "relative",
+      0.25
+    ],
+    "conditional_entropy": [
+      "absolute",
+      0.3
+    ]
+  },
+  "comparison": "Retain the three old1174individual tolerances. For each orientation and each scoreable native sample report all3differences/bounds and joint result. A source orientation survives this conservative necessary screen if ANY scoreable sample passes all3. This generosity is fixed before output; no historical preference for the matching cell follows. Exclusion requires ZEROjoint matches across all scoreable cells in that reading, both orientations; joint three-reading exclusion requires all3. Report each metric native range and each cell outcomes. No posterior widening.",
+  "limits": "A prospective candidate-specific screen, not calibrated error rate, significance, universal Hebrew rejection, complete statistical writer or exact textual source identification. Overlapping cells/samples/readers are dependent. Source work genre differs from native categories; scope limited to this bare full-work projection and stated operational comparison. Unknown-capacity categories are not excluded.",
+  "outcome_changes": {
+    "excluded": "Do not search22!keys for this direct projected-source writer; no key can repair these invariant differences under the declared screen. Other scripts, source spellings, sources and changed writing rules remain untested.",
+    "survives": "Only this minimal coarse screen survives; full q/y/word-building/content obligations remain. Do not call a native reading or start a decoder automatically.",
+    "invalid_no_capacity": "No source or native conclusion; retain exact defect/capacity, no replacement corpus."
+  },
+  "priors": "193/194European consonant-stripping code failures,605/60698-unit Latin/Italian/mixed-code failures,965/966Geniza exact-source failures retained.1223cross-readerfilterfragility and1225single-stratumfrequencyfailure motivate prospective equal-Nall-cell screen, not rescue or rescore of an old candidate. Newly acquired Deot is a different source;122shared multilingual medical channel not reopened.",
+  "access": "Same179guarded selectors; f84/f84r sealed; f116v/reserves/images excluded. No native word meaning, new relation packet or public release.4Octoberlocal checkpoint."
+}

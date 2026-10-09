@@ -1,0 +1,56 @@
+{
+  "title": "RAW UNREVIEWED: a hand writer puts all row coordinates first and all column coordinates in reverse order",
+  "summary": "Invented complete writing procedure, without historical attestation or Voynich values. A small six-by-five letter table and eleven distinct coordinate signs encode each word in two passes: rows left to right, then columns right to left. This creates one class transition and equal class counts, unlike an interleaved two-part letter. New words, exact repeats and physical line breaks have explicit rules. Retained as raw supply only; no target images, transcriptions, predictions or root's fresh decomposition were inspected.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "For source letters x1 through xn, write R(row(x1)) ... R(row(xn)) C(column(xn)) ... C(column(x1)). Six row signs and five column signs are disjoint atomic inventories. No fusion, deletion, ornament, run compression, allography or optional ordering is allowed.",
+    "unit": "One complete source word maps to one complete written group, with exactly two coordinate signs per source letter and one invariant word space between groups.",
+    "contrast": "A two-pass folded coordinate word versus root's interleaved body-plus-endpiece letter construction, local entry-connector allography, or a generic unconstrained permutation of whole words.",
+    "prediction": "Every complete group has the class form R^n C^n with n at least one. There is exactly one R-to-C transition and no C-to-R transition. Its first and last atomic signs cannot be identical. No complete group is a nonempty exact square UU. Complete word repetition remains legal and identical. Changing source letter i changes only row position i and column position 2n+1-i, with either coordinate possibly unchanged.",
+    "scope": "Source-free constructive raw hypothesis. No native glyph inventory, known key, source language, letter value, word meaning, target test, historical claim, source search or manuscript access is asserted.",
+    "writing_kit": {
+      "table": ["A B C D E", "F G H I J", "K L M N O", "P Q R S T", "U V W X Y", "Z - - - -"],
+      "signs": "R1 through R6 and C1 through C5 denote eleven mutually distinct atomic drawn signs in this teaching example. They are metanotation, not Voynich transcription or actual numeral strings. A table cell is one source letter; the four empty cells are invalid, not nulls.",
+      "memory_cost": "The complete word must remain available for a second pass, either in memory or on a temporary plaintext slate. The method doubles the sign count and does not claim to save ink. The reader needs the same small table and eleven signs."
+    },
+    "writer": [
+      "Choose the complete source spelling over the fixed A-Z teaching alphabet. Preserve each letter, including every repetition. Do not normalize unfamiliar letters into the table silently.",
+      "Read the source word left to right and write only each letter's row sign. This is the first pass.",
+      "Read that same source word right to left and append only each letter's column sign. This is the second pass. The disjoint sign classes reveal the unique turn without an additional marker.",
+      "Leave an ordinary visible word space. Every following word uses the same two passes independently of previous words, word frequency or content.",
+      "Keep the complete encoded group on one physical line. If it will not fit, move it intact to the next line; do not split a group, reset a coordinate mid-word or change its encoding. Paragraph starts, ordinary line starts and isolated inscriptions use the identical rule."
+    ],
+    "reader": [
+      "At each word space require a nonempty run of row signs followed by an equally long nonempty run of column signs. Any return to a row sign, unequal counts or missing run violates the fixed writer.",
+      "Pair the outermost row and column, then proceed inward. Lookup of each pair gives the next source letter in ordinary order. An empty table cell is an error or contradiction, not an abbreviation.",
+      "Use the unchanged table for every word. No dictionary or prior word is required, so new words are as readable as old ones. Punctuation, if used, must be an explicitly separate conventional channel outside groups."
+    ],
+    "invented_examples": {
+      "ALMA": "R1 R3 R3 R1 C1 C3 C2 C1",
+      "ALME": "R1 R3 R3 R1 C5 C3 C2 C1",
+      "contrast": "The final A-to-E change leaves all four row signs unchanged but changes the first column sign at the turn, not the end of the written group. These are invented plaintext and coordinates only.",
+      "repetition": "ALMA ALMA has the identical eight-sign group twice, with a word space. A new physical line changes neither group. No special repeated-word code is introduced."
+    },
+    "minimal_falsifier": "With one independently fixed native atomic decomposition and one fixed disjoint row/column classification, a single clear complete group that returns from C to R or has unequal counts rejects this exact mechanism before a letter key is fitted. Even without choosing row/column labels, a clear complete group whose first and last atomic sign are identical, or which is exactly UU for nonempty U, rejects every such disjoint classification. These statements concern complete groups and atomic signs, not arbitrary EVA characters or BPE pieces.",
+    "why_the_square_fails": "A legal complete group contains both classes. If UU were legal, U must contain both classes because duplicating a one-class U cannot supply the other class. The class turn in the first U is then followed by a return to its initial row class at the second U, violating the single-turn rule.",
+    "smallest_decision_change": "A fixed native counterexample removes this serialization from hand-writer candidates without a decoder. A compatible fixed decomposition would retain only the serialization as a candidate and justify inspecting a second already admitted complete group under unchanged classes; it would not identify any cell value or authorize broad fitting.",
+    "known_obligations_and_countercases": [
+      "The current route retains distinct unembedded and embedded forms and no established ligature trigger. Root's known chky/chty/chpy and otchey/qopchey/qofchor countercases remain obligations for any future native decomposition. This proposal has no fusion rule to hide an extra coordinate or alter a failed count; none of these target examples was classified here.",
+      "GDT608 establishes directed formal components but retains stronger exact-whole prediction on all 23 held folios. Its o family is not a stable left component, and ol/or have pair-specific residuals. Those observed BPE roles cannot simply be relabelled as the two disjoint coordinate alphabets.",
+      "GDT326's host-by-coordinate factorization loses to the register baseline on the 315-event new-combination test as a whole, not necessarily on each event; GDT338 does not establish a new renderer-invariant equivalence. Their joint forms remain opaque. A coordinate teaching table is not evidence that the actual manuscript factorizes into independently meaningful coordinates.",
+      "IP014's deterministic terminal-checksum model remains contradicted by the published okalal/okalam pair. This mechanism is not a new modulus or checksum: its last sign is the first source letter's column coordinate and is not a function of the other signs alone. The cited pair is not automatically a pass for this proposal.",
+      "Whole written doublets do not contradict this writer; no AAA ban or mandatory prior-word compression is borrowed from IP038/GDT857 or IDEA927. Within-group square structure, in contrast, is forbidden. Do not confuse repeated complete words with a repeated substring forming one complete word."
+    ],
+    "predecessor_review": [
+      "VOYNICH_CURRENT_ROUTE.md and context topic composition read at this bounded supply checkpoint.",
+      "Root's HAND_WRITER_RECONSTRUCTION_20261004.md supplies the existing small-table motivation. The new element here is complete separation and reverse-order pairing of coordinate streams, not the table itself; it is not an amendment to root's writer or findings.",
+      "IP036 in docs/IDEA_BACKLOG.md proposes an unspecified multiset-preserving transposition between independently bound equivalent forms. This draft specifies a total encoding and a native class-balance falsifier; it does not search for anagrams or claim such an equivalent pair exists.",
+      "GDT326_HOST_COORDINATE_COMPOSITION_REPORT.md and its GDT338 followup primary were read. Their negative decisions are retained.",
+      "GDT608 primary and indexed followups were reviewed for the formal-composition ceiling. Neither GDT609's historical FST proposal nor GDT611's lexical-slot discussion establishes these invented signs or a coordinate alphabet.",
+      "GDT905 METHOD.md and GDT905/906 followup cards fix a different greedy CV channel and an exhausted restricted Latin grammar search. This draft has neither that component inventory nor a Latin lexicon and does not reopen the completed decoder.",
+      "IDEA927 copies preceding-word content and IDEA928 changes the next entry stroke from a body's fixed exit. This draft carries no state across words and makes no entry, exit-height or ligature claim."
+    ],
+    "scientific_limit": "Compatibility would leave the table's letter permutation unidentified. The procedure may create reusable parts and word-specific combinations by construction, but that is not an explanation of the measured whole-form residual until a native decomposition and independent consequences are demonstrated. No claim of full novelty follows merely from empty duplicate metadata. The present action only retains one unreviewed constructive alternative; no experiment or target count is run."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "RAW REVIEW RECORD: complete letter-recency hand writers with already known conditional counterexamples",
+  "summary": "Constructive sketches, not an open candidate nomination. The three-slot writer emits a slot reference whenever the next source letter is still stored, otherwise its fixed literal sign, then moves that letter to the front. The already retained S-O-S binding contradicts it because the initial literal S is necessarily still stored at its second written occurrence. A one-slot repeat-only variant was deliberately considered afterward and is separately documented; root reports that the fixed G0 inventory already has distinct repeated e and i motifs, contradicting that variant under G0. Neither conditional result establishes native atom identities. Retain the failed sketches without an automatic repair or target test.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_SKETCH_RECORD_WITH_KNOWN_CONDITIONAL_FAILURES_NOT_OPEN_NOT_SELECTED",
+    "mechanism": "A complete word is encoded sequentially using fixed literal signs and mandatory references to the three most recently used distinct source letters. The list resets to empty at every word. A separately labelled later one-slot variant uses one immediate-repeat sign instead.",
+    "unit": "One source letter per written atomic sign; complete source words retain their written boundaries. The alphabet and reference signs are disjoint and fixed.",
+    "contrast": "Within-word letter memory versus preceding-word prefix copying, independently chosen homophones, two-height joining, folded coordinate streams or optional ligatures.",
+    "prediction": "Three-slot case: no literal sign can recur until it has been evicted after at least three distinct other letters were subsequently used; references require populated slots and cannot begin a word. One-slot case: every immediately repeated atomic sign must be the single repeat sign, which cannot begin a word. The known fixed bindings already violate the respective conditions.",
+    "scope": "Source-free hand procedures and deductive countercase review only. No target data query, image, native atom identification, G2 orientation judgement, Voynich meaning, experiment, source search or historical claim.",
+    "common_teaching_kit": "Use the invented source alphabet A-Z and 26 distinct literal drawings L_A through L_Z. Their names are explanatory labels, not Voynich values. Every source spelling uses this same bijection. No outside-alphabet character is silently normalized, no literal is a null, and reference drawings are distinct from all literals.",
+    "three_slot_sketch": {
+      "additional_signs": "Three distinct atomic reference signs REF1, REF2 and REF3.",
+      "writer": [
+        "At word start empty the ordered list of up to three distinct source letters.",
+        "If the next source letter x already occupies list position j, emit REFj. Otherwise emit its ordinary literal sign L_x. This choice is mandatory, with no literal alternative for a cached letter.",
+        "Remove x from its old list position if present, put x first and retain only the first three distinct entries. Continue with the next source letter.",
+        "At word end insert a visible word space and clear the list. Keep the whole word on one physical line; moving it to a new line changes no sign. Paragraph starts and isolated labels use the same empty-list word start."
+      ],
+      "reader": [
+        "At word start use an empty list. A literal L_x decodes as x but is legal only when x is not currently stored.",
+        "REFj decodes as the letter currently at position j and is illegal when that slot is empty. Apply the identical move-to-front update after either kind of sign.",
+        "The shared literal key and list make every legal word uniquely readable. New words require no dictionary, and complete word repetition produces the same written group each time."
+      ],
+      "invented_example": "ABACABA -> L_A L_B REF2 L_C REF2 REF3 REF2. The lists after successive letters are [A], [B,A], [A,B], [C,A,B], [A,C,B], [B,A,C], [A,B,C].",
+      "human_cost": "A literal alphabet, three short reference drawings and three ordered erasable slots; one source letter is processed at a time. This is mechanically feasible on a small slate but no historical use or overall ink saving is asserted.",
+      "known_conditional_counterexample": "Under the existing fixed S-O-S atomic binding, the first S must be a literal because the list begins empty. Processing the intervening O cannot evict it from a three-slot list. The last S would therefore have to be a reference rather than the same literal. This contradicts that complete fixed sequence. The argument does not assume an alphabet value for S or O.",
+      "decision": "Discard this sketch under the existing S-O-S binding. Do not nominate it as an unexecuted open test or choose a new cache size as though predeclared. The binding is conditional, not a newly established native atom identity."
+    },
+    "later_one_slot_variant": {
+      "chronology": "This variant was explicitly considered after noticing the three-slot S-O-S contradiction. It is an adaptive new sketch, not a predeclared survivor or an independent confirmation attempt. Root then supplied its already known G0 double-motif countercase; no new target inspection was performed here.",
+      "additional_sign": "One distinct atomic repeat sign REP, disjoint from all 26 literals.",
+      "writer": [
+        "At word start the previous-letter memory is empty, so write the first source letter literally.",
+        "For each following source letter x, write REP exactly when x equals the immediately preceding decoded letter; otherwise write L_x. Set the previous-letter memory to x.",
+        "End the complete word with a visible space and clear the memory. Whole-word line wrapping, paragraph starts, isolated labels and new words use the same rules as the three-slot sketch. No extra letter allography or optional repeat expansion is allowed."
+      ],
+      "reader": "Read literals through the fixed key and REP as another occurrence of the preceding decoded letter. REP is illegal at word start; a literal identical to the preceding decoded letter is noncanonical and illegal. These rules uniquely recover every legal complete word.",
+      "invented_examples": ["BALLOON -> L_B L_A L_L REP L_O REP L_N", "ABABA -> L_A L_B L_A L_B L_A", "AAA -> L_A REP REP"],
+      "deductive_falsifier": "If an atomic sign doubles immediately inside a word, it cannot be a literal, since the second literal would require REP. Therefore all immediately doubled sign types must be the same REP. No sign that begins a word may also double immediately inside any word under the same fixed inventory.",
+      "known_conditional_counterexample": "Root reports that the fixed G0 decomposition already has distinct doubled e and i motifs. If those two distinct motifs are the written atomic signs of this writer, both would need to be its single REP, which is impossible. This is a G0-bound contradiction, not an assertion that EVA e/i or G0 motifs have been identified as native letter atoms.",
+      "decision": "Discard under the stated G0 binding. No multiple-repeat-sign repair, new allography, bigger alphabet, selected occurrence exclusion or further cache variant follows this review."
+    },
+    "predecessors_and_retained_limits": [
+      "IDEA927 copies a capped prefix of the previous complete word; these sketches copy no preceding-word content and allow identical complete words to recur after the mandatory word reset. IDEA928's connector rule, IDEA929's coordinate folding and IDEA930's three-cell spacing are distinct; none is advanced by this record.",
+      "IP071 in docs/IDEA_BACKLOG.md:1966 concerns ditto content from a preceding field and lacks an independently bound ditto/full pair. It is a conceptual reference predecessor, not evidence for these within-word alphabetic conventions.",
+      "IDEA237's research_registry/proposals/differential_reading_20260914/ASSESSMENT.md distinguishes a reversible construction from an identified message and forbids free antecedents or resets. The sketches specify their complete memory, boundaries and inverse, but do not acquire meaning from that fact.",
+      "GDT857's primary rejects an exclusively nonsingleton cyclic-pool model with known whole-group triples. These sketches reset at each word and retain whole-word triples. They do not rescue GDT857 or propose another triple census; their immediate-letter constraints are different.",
+      "GDT849's primary retains independent written e-position lengths and contradicts obligatory equal lengths. A generic whole-word harmony/parity-allography alternative was considered but not added as a second proposal; there is no independent new carrier rule here.",
+      "GDT608's directed composition and exact-whole residual advantage remain required explanatory facts. A tiny memory can be defined on paper without explaining those observations.",
+      "The current route's IDEA929 failure is only under its fixed S-O-S binding. This record neither extends that failure to all native decompositions nor treats unbound decompositions as evidence of an open successful mechanism."
+    ],
+    "review_basis": "Current route and composition topic read, bounded ideas searches and duplicate navigation performed, IP040/IP071 and IDEA237 predecessors inspected, GDT849 and GDT857 primaries read with GDT857 followup check. Root supplied the already recorded conditional S-O-S and G0 double-motif obligations. No target query or new image was used.",
+    "next_action": "End this bounded producer round. Preserve these conditional failures for any later candidate selection; do not launch a decoder, new motif classification, data expansion or repair chain from this record."
+  }
+}

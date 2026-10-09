@@ -1,0 +1,58 @@
+{
+  "record_id": "GDT1218",
+  "scope": "structural",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; separate source certificate checker by same author",
+  "assessment_basis": "primary_reports",
+  "reason": "All three existing reader samples contain65 pairwise whole-form-disjoint adjacent pairs. Strict alternation therefore needs at least65 name-class forms, excluding the stipulated fixed64 inventory; separate validator PASS.",
+  "blockers": [
+    {
+      "code": "small_class_adjacency_capacity",
+      "detail": "A class meeting every actual adjacent pair requires at least65 distinct forms under the retained certificate.",
+      "evidence": [
+        "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md",
+        "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/CERTIFICATES.json",
+        "experiments/yolo/gdt1218_alternating_small_class_capacity/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Output glyph renaming",
+      "Overlapping name/procedure spellings",
+      "Arbitrary phase at line start"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1210",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1211",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1040",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

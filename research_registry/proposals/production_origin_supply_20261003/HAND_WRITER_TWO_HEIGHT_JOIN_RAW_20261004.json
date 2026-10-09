@@ -1,0 +1,54 @@
+{
+  "title": "RAW UNREVIEWED: a two-height joining hand changes only the next letter's entry stroke",
+  "summary": "Constructive invented handwriting procedure: fixed distinguishable letter bodies each have one permanent high/low exit; the next letter receives the matching entry connector. Every word starts low. A small body table and two connector shapes make new words and repeats readable without a word dictionary. The finite local mechanism predicts that replacing one body changes at most that body and the next entry connector, never an arbitrary later suffix or whole-word spelling. No f25v image, line or proposed target decomposition was inspected or classified; the root toy dossier motivates human usability, not an established alphabet.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "Fixed letter body plus deterministic previous-body-conditioned two-height entry connector; body-specific output height is invariant. Every visible word space resets the entry height to LOW.",
+    "unit": "Complete words over one fixed finite source alphabet, written with a previously specified body inventory, two entry connectors and one invariant exit class for each body.",
+    "contrast": "Local pen-connection allography versus independent full glyphs, arbitrary whole-word allography or a stateful writer whose change propagates through the remaining word.",
+    "prediction": "Within every written word the next glyph's entry height equals the preceding body's fixed exit height. After substituting one source letter, only its own body/exit and the immediately next entry may change. All later bodies and entries stay identical. Every word starts with LOW entry, and an unchanged complete word repeats identically regardless of earlier words.",
+    "scope": "Source-free constructive hypothesis retained raw. No historical attestation, target symbol identity, target key, phoneme, word gloss, target query, native image classification, test, score, decoder or publication.",
+    "writing_kit": {
+      "inventory": "One fixed distinct central body per source letter; two entry connector drawings, LOW and HIGH; one exit class LOW or HIGH per body. The two entry variants do not alter the central body or its exit class.",
+      "fixed_teaching_key": "For an explicitly invented A-Z teaching alphabet, use distinct bodies labelled A-Z and assign HIGH exits to alphabet positions 1,3,5,... and LOW exits to 2,4,6,... . These labels stand in for drawn bodies, not Voynich signs or a claimed medieval alphabet.",
+      "drawing_geometry": "Each body occupies the central part of a letter cell with fixed left/right attachment ports. The entry connector reaches that fixed left port from the LOW or HIGH level at the cell's left edge. The exit reaches the body's permanently assigned level at its right edge. Adjacent cell edges meet at the same level. Body boundaries/ports must be specified before a real image is segmented; joining alone cannot be used to invent a new body at each occurrence.",
+      "learning_cost": "The complete alphabet's body assignments plus one exit bit per body and two shared entry strokes; not merely two meanings or two letters. A table can retain these choices for the writer and reader."
+    },
+    "writer": [
+      "Before each word set entry=LOW. Select the next source letter's fixed body from the table.",
+      "Draw its entry connector at the current entry level, then the unchanged central body and its fixed exit.",
+      "For the next letter in this same word set entry to the exit of the body just written. Do not consult the source word's meaning, its frequency or any earlier letter.",
+      "At the final letter stop after its ordinary exit. There is no special final allograph, tail extension, silent letter, decoration or additional ending.",
+      "Leave a visible word space and begin the next word LOW. Do not join strokes across this space.",
+      "Keep each complete word on one physical line; move it intact to the next line if necessary. Line and paragraph starts introduce no extra variant beyond the normal word reset. An isolated inscription uses exactly the same word rules."
+    ],
+    "reader": [
+      "Identify each central body by the fixed inventory; decode it by the shared body table.",
+      "At word start require LOW entry; inside a word verify each entry against the preceding body's fixed exit. A mismatch is an error or a counterexample to this fixed writer, not permission to change the body table.",
+      "Connector differences carry no independent source letters. The central-body sequence determines the complete word uniquely if the body boundaries and key are known."
+    ],
+    "new_words": "Every sequence over the agreed source alphabet uses the same procedure; no learned-word exception or dictionary expansion is needed. Characters outside the agreed alphabet remain outside this teaching example rather than being silently normalized.",
+    "punctuation": "Punctuation belongs to a declared separate conventional channel outside words; it is not a new body or a covert connector reset inside a word.",
+    "invented_example": {
+      "notation": "A_L means body A with LOW entry; A_H means the same body with HIGH entry. Body A exits HIGH, body B exits LOW, body C exits HIGH. This is metanotation, not a target transcription.",
+      "word_ABBA": "A_L B_H B_L A_L",
+      "word_ACBA": "A_L C_H B_H A_L",
+      "difference": "Replacing the second body B by C changes that body and the next B's entry. The last A stays A_L. Repeating ABBA on the next word or line gives exactly A_L B_H B_L A_L again."
+    },
+    "minimal_falsifier": "After a body inventory, two connector definitions and exit classes are frozen independently of the new example, one clear recurrent body requiring HIGH entry after a frozen LOW-exit predecessor (or vice versa) contradicts the strict writer. An unchanged later body whose entry changes two or more positions after a single-body substitution also contradicts its one-step effect. UNKNOWN segmentation is not scored as a mismatch or repaired by adding a body.",
+    "strongest_existing_obligations": [
+      "GDT800 rejects obligatory terminal l/m allography: 203 paired nonfinal m and 310 paired final l events remain, and both A09 labels are standalone. This proposal must not relabel l/m as its two entries without an independent physical decomposition; word/line finality is not its conditioning variable.",
+      "GDT859's disclosed manual f56r alignment places an upper contact across a definite transcription seam. If that seam is selected as a word space and the upper contact as the proposed connector, the no-cross-word-join rule fails. Do not silently declare it ornament or merge the groups after a failure.",
+      "GDT608's exact-whole residual advantage remains unexplained until measured under a truly fixed native decomposition; the existence of two connector forms supplies no semantic gain.",
+      "GDT830/831 failed contrast-based ink/pen-state controls. This design does not infer stroke chronology, ink age or hidden pen movement and does not reopen those image-processing routes."
+    ],
+    "predecessor_distinctions": [
+      "IP009 concerns actual shared strokes across written groups, not this fully specified within-word transition rule.",
+      "IDEA883 concerns cross-hand transport; here one hand has two mechanically selected entry variants and no inter-hand map.",
+      "Root's HAND_WRITER_RECONSTRUCTION_20261004.md uses a body/endpiece table plus paragraph ornament. This alternate author-made writer changes an entry connector from the immediate prior body's exit; it does not enlarge root's table or classify root's f25v targets.",
+      "IDEA927 copies prior plaintext prefixes; this design carries no word content or count across words and allows unchanged arbitrary written doublets."
+    ],
+    "scientific_limit": "This is a fully specified local rule schema and an invented complete teaching alphabet, not a fixed native body inventory. It can motivate graphical comparison only after a separately chosen inventory and actual entry/exit observations exist. A connected cursive script is a straightforward rival; even successful transition predictions would not identify an alphabet, source language or historical invention."
+  }
+}

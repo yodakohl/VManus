@@ -1,0 +1,44 @@
+{
+  "record_id": "GDT1291",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "informed root",
+  "assessment_basis": "one_original_overview_and_fixed_crop",
+  "reason": "Secure locus localization, but f upper overhang leaves split/join ambiguous. Retain alternate readings, no image-confirmed standalone chof.",
+  "blockers": [
+    {
+      "code": "boundary_unresolved",
+      "detail": "Software validates image bytes and records only, not visual judgment.",
+      "evidence": [
+        "experiments/yolo/gdt1291_f8r4_gap_review/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_boundary_evidence",
+        "change": "new_binding",
+        "detail": "New independently justified physical boundary evidence; no repeated identical view to force a choice.",
+        "evidence": [
+          "experiments/yolo/gdt1291_f8r4_gap_review/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Reader majority",
+      "Software PASS",
+      "Unchanged image repeated"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1289",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1291_f8r4_gap_review/REPORT.md"
+      ]
+    }
+  ]
+}

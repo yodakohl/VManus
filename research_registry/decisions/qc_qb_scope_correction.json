@@ -1,0 +1,53 @@
+{
+  "artifact": "qc_qb_scope_correction.json",
+  "status": "ADDITIVE_PROVENANCE_CORRECTION",
+  "source_artifact": "research_registry/decisions/qb_native_unit_predecessors.json",
+  "source_artifact_sha256": "eb05e25d03a5af8f5fc24b69802141946b23b633a5e48a2d4fd32b427c9b3309",
+  "tsv_access_clarification": {
+    "method": "The QB audit read repository cached/derived TSV artifacts directly with Python open() and line slicing for exact evidence checks.",
+    "guarded_query_tsV_used": false,
+    "commands_used": "python scripts opened PASS1009_4581_EVENT_LEDGER.tsv, GDT791_5866_OCCURRENCE_SPINE.tsv, GDT791_1007_LINE_OWNER_ATLAS.tsv, V71_R3_TECHNICAL_REPORT.md and TWENTY_FOURTH_258_SOURCE_PHRASE_EDITION.tsv; no vmanus-exp query-tsv invocation occurred.",
+    "sealed_raw_payload_materialized": false,
+    "correction": "QB must not be described as a guarded raw-TSV audit. Its claims are limited to already cached derived artifacts; no f84/f84r or mixed sealed source rows were read."
+  },
+  "old_4sys_resolution": {
+    "ledger_pointer": "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv:714",
+    "pointer_report": "results/f67r2_four_system_family_source_controls_report.md",
+    "checkout_find_exists": false,
+    "git_history_path_found": false,
+    "vmanus_locate_attempt": "locate accepts simple GDT/DIC IDs, not this filename; it returned a usage error and did not establish availability.",
+    "corrected_statement": "The report is unresolved/unavailable in this checkout after filename find and git path search; the ledger row is the available primary pointer. Do not call it a source inspection or infer visual-boundary conclusions from it."
+  },
+  "corrected_cached_mapping_metadata": [
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_5866_OCCURRENCE_SPINE.tsv",
+      "sha256": "4075ffca8e7a8b9cefda62c9ec6997fb6c518dba8f86790f5309bfe2a8574707",
+      "f67r2_rows": "1634-1635 and 1646-1647",
+      "role": "admitted cached occurrence/namespace mapping; no image viewed"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_1007_LINE_OWNER_ATLAS.tsv",
+      "sha256": "5ef9ef2a3ddf294aa9b57a459f0669e1aab7f38c4546f3914bd28e6fbac3378f",
+      "f89r2_rows": "960-962 and related f89r2 page rows",
+      "role": "admitted cached running-page owner mapping; no image viewed"
+    },
+    {
+      "path": "experiments/yolo/gdt791_thirty_page_visual_owner_spine/artifacts/GDT791_30_PAGE_EVIDENCE_REGISTRY.tsv",
+      "sha256": "67c0aec3b81474ec943d615c130404ebeac86f93241a6d3e30ce4a56b74b3e83",
+      "role": "cached page evidence registry metadata only; no image viewed"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_4581_EVENT_LEDGER.tsv",
+      "sha256": "7b4e512968be9b74428ea0435e6917c7db67af204ea2fed169a1aabdc7583e71",
+      "f67r2_rows": "737-738 and 749-750",
+      "role": "corrected admitted text/event mapping, not image evidence"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_627_STATEMENT_EDITION.tsv",
+      "sha256": "e7a75f98cb40b7413391ff97ab8b052cdfa2fee93165dacefac9f9b92f67a112",
+      "role": "cached statement mapping metadata only; no image viewed"
+    }
+  ],
+  "scope_effect": "QB remains a derived-cache source audit. Its narrow unresolved question and no-image limitation stand; only the prior implication of guarded TSV access and the old report absence wording are corrected.",
+  "canonical_files_mutated": false
+}

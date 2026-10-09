@@ -1,0 +1,52 @@
+{
+  "record_id": "IDEA000968",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "reviewer": "root_20261007_968_association_result",
+  "assessment_basis": "Frozen descriptive comparison, exact conditional moments and source re-projection validation; exposed data.",
+  "reason": "The separately narrowed descriptive association question was executed as GDT1246 and is nonconfirming, with no movable contrast for the motivating observed repeats. The earlier synthetic mechanism-identification stop remains unchanged; no native copying meaning or universal repetition failure follows.",
+  "blockers": [
+    {
+      "code": "no_positive_conditional_excess",
+      "detail": "Observed/expected: ZL7/(55/7), IT6/(59/8), RF5/(35/6).",
+      "evidence": [
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md"
+      ]
+    },
+    {
+      "code": "motivating_repeats_have_no_movable_comparison",
+      "detail": "Every observed diagonal belongs to a stratum with zero diagonal-count variance.",
+      "evidence": [
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/artifacts/STRATA.json",
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/artifacts/EVENTS.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A genuinely different justified observable contrast with decision consequences; retain original fixed result and capacity limitation.",
+        "evidence": [
+          "experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Relax conditioning after the result",
+      "Change suffix or split to obtain an excess",
+      "Call alternate readings independent confirmations",
+      "Treat no excess as rejecting all reduplication"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1246",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md"
+      ]
+    }
+  ]
+}

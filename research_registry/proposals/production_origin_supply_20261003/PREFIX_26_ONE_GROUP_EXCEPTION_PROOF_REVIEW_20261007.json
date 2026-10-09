@@ -1,0 +1,51 @@
+{
+  "status": "SOURCE_FREE_CONDITIONAL_EXACT_EXCEPTION_COST_PROOF",
+  "ownership": "Root proposed deleting a once-used entry from an existing27-entry prefix witness. bounded_idea_supply checked the proof without opening usage payloads or counting any native groups. Root owns1262's numerical instantiation and validation.",
+  "objects_and_cost": {
+    "population": "W is the unchanged finite multiset of complete whole-group occurrences under one fixed working-unit reading. Repeated occurrences are retained separately.",
+    "candidate_class": "A fixed prefix-free set of at most26 distinct nonempty codewords covering some of W. It must actually use a code longer than one working unit on at least one accepted group.",
+    "cost": "The number of whole-group OCCURRENCES in W which have no complete parse in that table. This is not a number of removed code entries, code uses, different word types, glyph edits or presumed manuscript errors.",
+    "essential_nontriviality": "Without the used-long-code condition, the22-singleton identity table has cost0. The theorem does not call this table erroneous or exclude it."
+  },
+  "premises_to_verify_in_old_artifacts": [
+    "A fixed prefix-free table C has exactly27 entries and covers every occurrence in W.",
+    "A selected entry c has exactly one token use in the unique C-parses across ALL occurrences in W; it is not merely present in one distinct type or listed once in the table.",
+    "After the affected group is removed from the accepted population, at least one accepted group still uses a longer code. A sufficient old-summary check is that the original C-table was compound-active on at least two different group occurrences.",
+    "The retained1234lower bound applies to this exact W, unit definition and whole-word contract: any table covering ALL of W and actually using a longer code has at least27 entries."
+  ],
+  "subcode_lemma": [
+    "Let C'=C without c. Removing an entry preserves prefix freedom, and C' has26 entries.",
+    "A group whose old complete C-parse avoids c still has exactly that parse in C'.",
+    "A group whose old parse uses c has no complete C'-parse. Any such alternative would also be a complete C-parse; prefix freedom gives a unique complete parse, contradicting that the unique old parse used the removed entry.",
+    "Therefore the unreadable group occurrences under C' are EXACTLY those whose old complete C-parse uses c. No resegmentation can rescue them inside this subcode. This uniqueness argument would not automatically apply to an arbitrary ambiguous code."
+  ],
+  "code_uses_versus_groups": {
+    "definition": "If U_c is the total number of uses of c across all C-parses and G_c is the number of group occurrences whose parse uses c, then0<=G_c<=U_c. For U_c>0, G_c>=1.",
+    "once_used_case": "U_c=1 implies G_c=1 exactly. Thus deleting c makes exactly one group occurrence unreadable.",
+    "multiple_use_case": "U_c>1 does not imply that several groups are lost: all uses might lie in one group. A once-used entry is a sufficient, not necessary, route to cost1.",
+    "type_warning": "One affected distinct word type may have several occurrences. Its occurrence cost is then greater than1. The declared endpoint requires the original occurrence identifiers or an already validated token-use count, not a type count."
+  },
+  "exact_minimum_argument": [
+    "The premises produce a26-entry C' with exactly one unreadable group and with a longer code still used on an accepted group. Hence the minimum cost in the declared nontrivial class is at most1.",
+    "If any admissible table with at most26 entries had cost0, it would cover every group in W and use a longer code. That contradicts the inherited1234at-least27 bound. Hence the minimum cost is at least1.",
+    "The two bounds yield exact minimum1. This quantifies over all fixed prefix-free tables of at most26 entries in the stated class, even though a single simple subcode suffices as the upper witness. No general decoder or optimization search is needed for this proof."
+  ],
+  "nontriviality_check": "Deleting c can affect only the one identified group when U_c=1. If the old table was long-code-active in at least two distinct group occurrences, at least one other long-code-active group is unchanged and accepted by C'. This proves the required nontriviality even if some other table entries become unused after the deletion. Unused entries can be retained within the26budget or pruned; neither changes accepted parses.",
+  "scope_and_nonclaims": [
+    "This is a formal robustness/exception-cost result, not evidence that the lost group is miswritten, missegmented, mistranscribed or dispensable. The complete exact26-entry contract remains contradicted.",
+    "No native letter values, phonemes, language, semantic content or historically intended table are supplied by deleting an entry from a native-fitted formal table.",
+    "The result does not assert cost1 under an additional minimum compound-activity rate, a given plaintext alphabet, a source-content constraint or a required word-length/entropy fit. A low-activity subcode cannot automatically satisfy those different demands.",
+    "The<=31full-panel activity corollary inherits ALL full-panel constraints. It must not automatically be applied to arbitrary exception-permitting tables after a group is dropped.",
+    "Rare-form dependence remains central.1236previously established rare-input support limits; it did not compute this minimal occurrence-exception endpoint.1237's22-entry one-compound family is also a different restriction and its failures remain.",
+    "The same statement must be checked separately per reading. A once-used entry in one reader does not establish the condition in the others, and alternate readings are not independent manuscripts.",
+    "No q-head extension, changed table, corrected reading, new source or automatic repaired writer is proposed. The root-selected numerical task is limited to the already existing cfh/cph witnesses."
+  ],
+  "primary_predecessors": [
+    "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md",
+    "experiments/yolo/gdt1236_prefix_proof_support/REPORT.md",
+    "experiments/yolo/gdt1237_one_compound_letter_exceptions/REPORT.md",
+    "experiments/yolo/gdt1248_prefix_bound_attainment/METHOD.md",
+    "experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md"
+  ],
+  "activity_record": "Mathematical proof only. No usage table, native payload, group count, sample, parser execution, image, experiment, new RAW card, root-file or registry mutation was performed for this note. The old files and their original decisions remain unchanged."
+}

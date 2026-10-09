@@ -1,0 +1,58 @@
+{
+  "record_id": "GDT1178",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_short_word_rules",
+  "assessment_basis": "Two predefined source-independent length predicates, unchanged source projections and inherited thresholds",
+  "reason": "Both frozen word-length grouping rules fail necessary frequency gates across four exposed books, despite complete word-sequence reversal.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "L2 too concentrated; L3 too many types. No passing fixed rule.",
+      "evidence": [
+        "experiments/yolo/gdt1178_short_word_grouping/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_meaning_preserving_partition_with_collection_transfer",
+        "change": "new_design",
+        "detail": "Genuinely different explicitly paid word-boundary or context-reference mechanism; no silent threshold change or reinterpretation of these failures.",
+        "evidence": [
+          "experiments/yolo/gdt1178_short_word_grouping/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Changing glyph shapes",
+      "Selecting a partial score as a pass",
+      "Omitting source words or grammar"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1178_short_word_grouping/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1176",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1178_short_word_grouping/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1177",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1178_short_word_grouping/REPORT.md"
+      ]
+    }
+  ]
+}

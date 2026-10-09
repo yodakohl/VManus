@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-05T00:56:19.414391+00:00",
+  "question": "Which observed surface units can differ only in the two entry connectors of IDEA928, under the already fixed G1 surface segmentation?",
+  "source": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_NATIVE_ACCOUNT_20261004.json",
+  "source_sha256": "d768d3f60dc8566087c96d6a83767c4b496cff3f97efadbb93b44a9f2b1e4769",
+  "proposal": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_TWO_HEIGHT_JOIN_RAW_20261004.json",
+  "proposal_sha256": "6fd24f2e6e104eb87ea1a91cfac8c97f2b3478dca50dc22812833db689d7ea9b",
+  "binding": "Each already stored G1 surface segment is a complete cell realization, with a unique observable LOW/HIGH entry and fixed body exit. Embedded c[kptf]h remains one surface segment, not BH/HB expansion. No motif split, null, merger or cell-dependent identity. Conditional symbolic binding, not established native letter atoms.",
+  "readers": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "eligible_groups": "Both complete group boundaries definite or physical line edge. Ignore uncertain groups; do not join them. All internal motif adjacencies in retained groups are included.",
+  "constraints": [
+    "Each eligible word-first surface v has entry(v)=LOW.",
+    "For each observed adjacency u,v: exit(u)=entry(v).",
+    "For any tested same-body pair a,b: exit(a)=exit(b) and entry(a)!=entry(b). Distinct surfaces of one body must be its two connector realizations."
+  ],
+  "analysis": "Equality components from entry/exit constraints; report forced LOW entries, all remaining free equality components, and necessary same-body pair compatibility. A component may independently be LOW or HIGH; no guessed letter table.",
+  "scope": "53 already exposed two-line reader records; readers separate. Pair enumeration is a necessary-condition census, not learned synonymy, score or a native body inventory.",
+  "decisions": {
+    "no_compatible_pair": "This fixed-cell realization can make no observed two-entry allographic identification; park it before a decoder.",
+    "some_compatible_pairs": "Retain only as formal possibilities requiring a separately motivated common native body; do not select by feasibility.",
+    "specific_pair_conflict": "Reject only this same-body assignment, not IDEA928 without a native inventory."
+  },
+  "countercases_and_predecessors": [
+    "G0 single SK and double BO/MI do not automatically reject a word-reset connector writer.",
+    "GDT800 rejects a different obligatory terminal l/m rule; no relabelling as entry variants.",
+    "GDT859/861 retain native upper links/no-links and qualified manual alignment, not proof of this cell model.",
+    "Closed minimal-pair family is not reopened: no recurring substitution search, learned class collapse or new data. Its reported primary path is absent in this checkout, so no independently audited family claim is adopted.",
+    "IDEA927 countercase warning already recorded; not retested as a new result."
+  ],
+  "budget_minutes": 20,
+  "no_new_target_data": true,
+  "no_meanings": true
+}

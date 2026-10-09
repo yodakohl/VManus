@@ -1,0 +1,29 @@
+{
+  "status": "CONCEPTUAL_PROOF_REVIEW_NO_DATA_NO_SELECTED_TEST",
+  "origin": "Root proposed a necessary source-envelope consequence while independently reviewing1234 predecessors. Producer checked only the mathematical statement; no1234 artifacts, new native forms, source words, counts or root outcomes were accessed in this proof task.",
+  "premises": [
+    "C is a fixed prefix-free set of nonempty written working-unit strings. There is no bound on how many entries C contains.",
+    "The singleton written strings k, e and s belong to C, as supplied by root's scoped prior quotient proof. This review does not recompute or extend that proof.",
+    "Each codeword c has one context-independent nonempty source-string expansion phi(c). Different codewords need not have different expansions.",
+    "A complete written group belongs to C*, decodes by concatenating those expansions in the declared order, and corresponds to one complete source word. No extra letters, empty expansions, omitted markers or post-decoding spelling changes are allowed.",
+    "The supplied complete native working form is k e e e e s. These working units are conditional atoms, not confirmed native alphabet letters or meanings."
+  ],
+  "proof": [
+    "Since k is a codeword, prefix-freeness excludes every longer codeword beginning with k. Thus the first code of keeees must be k. The same argument fixes each following e and the final s as its singleton code.",
+    "Put X=phi(k), U=phi(e), Y=phi(s). All are nonempty by premise. The unique code sequence therefore expands to X U U U U Y = X U^4 Y.",
+    "Consequently the source word contains a fourth power strictly inside both word edges. Its length is at least6 source units; U may have any positive length, need not be primitive, and its copies need not form a maximal repeated run.",
+    "Adding codewords, using long multiletter expansions or permitting phi(c)=phi(d) for distinct codes does not alter this fixed factorization."
+  ],
+  "necessary_source_envelope": "For any predeclared source-word population under these premises, absence of every factorization X U^4 Y with |X|,|U|,|Y|>=1 excludes this exact complete source/writer contract. Presence is only necessary capacity: it neither supplies a common full table nor identifies X,U,Y or a manuscript meaning.",
+  "direction": {
+    "whole_source_word_reversal": "The property is reversal-invariant: rev(X U^4 Y)=rev(Y) rev(U)^4 rev(X), with all parts nonempty. Reversing the ordered decoded code sequence likewise preserves a strict interior fourth power.",
+    "qualification": "This symmetry is not permission to transfer an original left-prefix quotient proof to a newly defined suffix-free codebook or different segmentation orientation. Membership of the required singleton codes must hold in the actual declared contract. The units must be reversed as units, not characters inside multicharacter roman labels."
+  },
+  "excluded_generalizations": [
+    "Empty source expansions could erase U or either edge; they are explicitly forbidden here.",
+    "Context-dependent expansions, a higher grammar rewriting the concatenated result or a non-prefix-free alternative parse can change the conclusion and are different contracts.",
+    "Joining source words, splitting a source word over several native groups, or allowing unmatched material removes the stated complete-word premise.",
+    "The source test must look for arbitrary nonempty repeated pieces, not only four equal individual letters. Fixed alignment or maximal-run requirements would be stronger than this proof licenses.",
+    "No restriction to at most22 code entries is needed. This is not the old free-UD table-size argument, the1238/1239 feedback-row run theorem, or a general impossibility result for natural language, abbreviation or morphology."
+  ]
+}

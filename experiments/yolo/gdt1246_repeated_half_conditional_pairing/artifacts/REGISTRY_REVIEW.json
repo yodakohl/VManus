@@ -1,0 +1,52 @@
+{
+  "record_id": "GDT1246",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "reviewer": "root_20261007_conditional_pairing",
+  "assessment_basis": "Frozen descriptive comparison, exact conditional moments and source re-projection validation; exposed data.",
+  "reason": "No positive conditional diagonal excess in any reading; primary decision fails. All actually observed repeated halves belong to zero-variance strata, so this does not refute repetition. No relaxed conditioning or copy component selected.",
+  "blockers": [
+    {
+      "code": "no_positive_conditional_excess",
+      "detail": "Observed/expected: ZL7/(55/7), IT6/(59/8), RF5/(35/6).",
+      "evidence": [
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md"
+      ]
+    },
+    {
+      "code": "motivating_repeats_have_no_movable_comparison",
+      "detail": "Every observed diagonal belongs to a stratum with zero diagonal-count variance.",
+      "evidence": [
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/artifacts/STRATA.json",
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/artifacts/EVENTS.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A genuinely different justified observable contrast with decision consequences; retain original fixed result and capacity limitation.",
+        "evidence": [
+          "experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Relax conditioning after the result",
+      "Change suffix or split to obtain an excess",
+      "Call alternate readings independent confirmations",
+      "Treat no excess as rejecting all reduplication"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1200",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md"
+      ]
+    }
+  ]
+}

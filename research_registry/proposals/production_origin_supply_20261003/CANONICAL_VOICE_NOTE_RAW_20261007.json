@@ -1,0 +1,147 @@
+{
+  "title": "RAW UNREVIEWED: canonical active/passive notes with shared field spelling and paid tense/polarity",
+  "summary": "A complete modern bounded note writer parses eight explicit active/passive source frames, then writes the named agent, verb base and named patient in that order followed by a tense/polarity clause end. The same exact character code is used in every content field, so a name heat and the predicate HEAT can have identical spelling. Auxiliary words and by are not copied after their role, tense and polarity information has been represented. Original voice/focus and wording are deliberately not recovered. Names, punctuation, fields and physical continuation are paid. No native values, historical attribution or statistical pass is claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_COMPLETE_BOUNDED_NOTE_WRITER_NOT_SELECTED_NATIVE_MODEL",
+  "source_status": "MODERN_CONTROLLED_SOURCE_GRAMMAR_NOT_HISTORICAL_ATTESTATION",
+  "ownership": "Root requested completion of the bounded active/passive note and explicitly rejected disjoint argument/predicate spelling namespaces. bounded_idea_supply supplied the complete source grammar, shared exact carrier, examples, inverse and cost consequences. No blind test or independent manuscript finding is claimed.",
+  "design": {
+    "human_purpose": "Keep a short factual note of who did what to whom, at which of two grammatical tenses and with which polarity. The original sentence may foreground the actor or the affected participant; the note uses one common field order so a reader need not retain the original voice. This is an information-losing normalization of wording but an exact notation of its declared five-part content.",
+    "preserved_message": "An ordered nonempty finite sequence of tuples (agent-name, verb, patient-name, tense, polarity). Verbs are HEAT, TOUCH, HOLD and MIX. Tense is PRESENT or PAST; polarity is AFFIRMATIVE or NEGATIVE. A negative item is NOT[tense(VERB(agent,patient))], with the same ordered names. This records grammatical tense, not an unprovided calendar time, duration, perfect/progressive aspect or separate event identity. Repeated items remain repeated entries; they do not by themselves assert distinct events.",
+    "lost_information": [
+      "ACTIVE versus PASSIVE source voice and its information-structure/focus choice are deliberately lost.",
+      "The original auxiliary/inflected spelling and original source word count are not reconstructed; the reader can print a canonical active paraphrase instead.",
+      "No assertion is made that all unrestricted English active/passive sentences are pragmatically interchangeable. The accepted source is the exact controlled factual sublanguage below.",
+      "Agentless passive, pronouns, articles, quantifiers, coordination, adverbs, subordinate clauses, questions, directives, perfect/progressive aspect and additional predicates are outside the input domain, not silently deleted or inferred."
+    ],
+    "source_name_syntax": {
+      "payload_alphabet": "lower-case a-z, space, hyphen, apostrophe, double quote, period and comma",
+      "allowed_payload": "Any nonempty finite string over this alphabet containing at least one letter; every payload character and every internal/leading/trailing space is retained exactly. Uppercase, digits and other characters are unsupported, not normalized.",
+      "source_display": "A name is delimited by double quotes in the source sentence. A double quote inside the name is doubled. Source punctuation between quoted names follows the fixed frame. This makes source tokenization explicit, including names which contain spaces, periods or words such as heat or by.",
+      "reference": "An identical exact name string denotes the same reference term wherever repeated. Different strings are different terms, but do not assert inequality of their referents. No meaning, type or verb valency is inferred from a name."
+    },
+    "learned_verb_table": [
+      {"verb": "HEAT", "base": "heat", "present_3sg": "heats", "past": "heated", "participle": "heated", "relation": "agent heats patient"},
+      {"verb": "TOUCH", "base": "touch", "present_3sg": "touches", "past": "touched", "participle": "touched", "relation": "agent touches patient"},
+      {"verb": "HOLD", "base": "hold", "present_3sg": "holds", "past": "held", "participle": "held", "relation": "agent holds patient"},
+      {"verb": "MIX", "base": "mix", "present_3sg": "mixes", "past": "mixed", "participle": "mixed", "relation": "agent mixes patient"}
+    ],
+    "source_frames": [
+      {"voice": "ACTIVE", "tense": "PRESENT", "polarity": "AFFIRMATIVE", "frame": "NAME_A V.present_3sg NAME_B."},
+      {"voice": "ACTIVE", "tense": "PAST", "polarity": "AFFIRMATIVE", "frame": "NAME_A V.past NAME_B."},
+      {"voice": "ACTIVE", "tense": "PRESENT", "polarity": "NEGATIVE", "frame": "NAME_A does not V.base NAME_B."},
+      {"voice": "ACTIVE", "tense": "PAST", "polarity": "NEGATIVE", "frame": "NAME_A did not V.base NAME_B."},
+      {"voice": "PASSIVE", "tense": "PRESENT", "polarity": "AFFIRMATIVE", "frame": "NAME_B is V.participle by NAME_A."},
+      {"voice": "PASSIVE", "tense": "PAST", "polarity": "AFFIRMATIVE", "frame": "NAME_B was V.participle by NAME_A."},
+      {"voice": "PASSIVE", "tense": "PRESENT", "polarity": "NEGATIVE", "frame": "NAME_B is not V.participle by NAME_A."},
+      {"voice": "PASSIVE", "tense": "PAST", "polarity": "NEGATIVE", "frame": "NAME_B was not V.participle by NAME_A."}
+    ],
+    "input_rules": "Use exactly one ordinary source blank between frame components and one final period outside the quoted names. A message is one or more such sentences separated by a blank. Both participants are mandatory and named. The four learned verbs and their table forms have a unique frame analysis here. Reject every other sentence rather than applying an unrestricted semantic parser. A source named heat remains a name by its visible source quotes even when the predicate is HEAT.",
+    "output_inventory": ["a", "o", "y", "ch", "sh", "k", "t", "p", "f", "ckh", "cth", "cph", "cfh", "l", "r", "s", "d", "n", "m", "e", "q", "i"],
+    "unit_warning": "Each item is ONE teaching drawing; ch, ckh and other multi-letter labels are not ASCII substrings to split. This invented table is not a native letter, word or phonetic assignment.",
+    "shared_exact_payload_table": {
+      "a": ["a"], "b": ["o"], "c": ["y"], "d": ["ch"], "e": ["sh"], "f": ["k"], "g": ["t"], "h": ["p"],
+      "i": ["q", "p"], "j": ["f"], "k": ["ckh"], "l": ["cth"], "m": ["q", "cth"], "n": ["q", "f"],
+      "o": ["cph"], "p": ["cfh"], "q": ["l"], "r": ["r"], "s": ["s"], "t": ["d"], "u": ["q", "ckh"],
+      "v": ["n"], "w": ["m"], "x": ["e"], "y": ["q", "a"], "z": ["q", "o"],
+      " ": ["q", "cph"], "-": ["q", "cfh"], "'": ["q", "l"], "\"": ["q", "r"], ".": ["q", "s"], ",": ["q", "d"]
+    },
+    "paid_controls": {
+      "END_PRESENT_AFFIRMATIVE": ["q", "y"],
+      "END_PRESENT_NEGATIVE": ["q", "sh"],
+      "END_PAST_AFFIRMATIVE": ["q", "k"],
+      "END_PAST_NEGATIVE": ["q", "i"],
+      "CONTINUATION": ["q", "t"]
+    },
+    "role_and_boundary_rule": "Each clause has exactly FOUR logical groups: exact agent-name payload, exact verb-base payload, exact patient-name payload, one END control. Use one ordinary visible space between groups. There is NO NAMEOPEN/NAMECLOSE and no lexical class prefix: fields one and three get name interpretation from their positions, field two gets predicate interpretation from its position and the learned four-verb inventory. Every clause has its actual written END; a paragraph or physical line never supplies an implicit clause end. The first field is anchored by the visible start of the message, and later first fields follow END. No cropping phase may be guessed as part of reading a complete message.",
+    "writer": [
+      "Parse each complete source sentence using the quoted-name syntax and one of the eight frames. Retain each exact name, the selected verb, tense and polarity. ACTIVE selects first name as agent and second as patient; PASSIVE selects its by-name as agent and its initial name as patient.",
+      "Write the exact agent-name with the shared payload table as one logical group. Write the verb's complete base spelling with THE SAME table as group two. Write the exact patient-name with that same table as group three.",
+      "Write the one END code naming both tense and polarity as group four. Never omit it or replace it with a line gap. No source auxiliary, by, verbal ending or source quotation mark is copied separately; the declared content it supplied is already represented. Quotes which belong INSIDE a name remain exact payload characters.",
+      "Apply the physical wrapping rule below. The writer has no frequency choice, alias cycle, previous-word cache or source-dependent dictionary update."
+    ],
+    "reader": [
+      "First reconstruct continued logical groups from their paired edge markers. Do not decode a fragment as a separate field. Reject missing or extra continuation markers.",
+      "Beginning at the message start, read exactly three nonempty payload groups and one END group per clause. The payload table is prefix-free: ordinary one-unit entries never begin q; q always takes exactly one listed selector. Reject an unknown selector, bare i, truncated q or END/continuation pair inside a payload.",
+      "Decode field one and field three to exact allowed name strings; check the nonempty/at-least-one-letter domain. Decode field two exactly and require one of heat/touch/hold/mix. The same decoded spelling may legally be a name in another field; no inequality or disjoint namespace is imposed.",
+      "Read tense and polarity from END and return the ordered tuple (field-one-name, learned-verb, field-three-name, tense, polarity). Repeat until the complete message ends immediately after END; reject an unfinished final clause.",
+      "If prose is wanted, print the canonical ACTIVE source frame for that tuple. This returns the declared content exactly, but cannot recover whether the author's original sentence was active or passive. Do not pretend to recover focus or any excluded feature."
+    ],
+    "inverse_argument": [
+      "Each accepted source frame uniquely supplies its two exact quoted names, one learned verb, tense and polarity. ACTIVE/PASSIVE counterparts therefore intentionally normalize to the same tuple.",
+      "Every payload character has one distinct prefix-free code. Exact name punctuation, internal spaces and every minim-letter spelling are retained, unlike975's ambiguous ordinary-word channel.",
+      "The three explicit group slots recover agent/predicate/patient without word-class-specific drawings. The END code recovers both grammatical flags. Thus the output recovers the normalized tuple exactly, including name equality, direction, tense and negation.",
+      "Different normalized tuples have different complete logical outputs. Repeated tuples produce repeated four-group clauses. Original voice is the explicitly discarded information, not an unnoticed collision."
+    ],
+    "complete_example": {
+      "source": "\"vat a\" was not heated by \"ada\". \"ada\" touches \"vat a\".",
+      "logical_groups": [["a", "ch", "a"], ["p", "sh", "a", "d"], ["n", "a", "d", "q", "cph", "a"], ["q", "i"], ["a", "ch", "a"], ["d", "cph", "q", "ckh", "y", "p"], ["n", "a", "d", "q", "cph", "a"], ["q", "y"]],
+      "decoded_items": [
+        {"agent": "ada", "verb": "HEAT", "patient": "vat a", "tense": "PAST", "polarity": "NEGATIVE"},
+        {"agent": "ada", "verb": "TOUCH", "patient": "vat a", "tense": "PRESENT", "polarity": "AFFIRMATIVE"}
+      ],
+      "canonical_readback": "\"ada\" did not heat \"vat a\". \"ada\" touches \"vat a\".",
+      "physical_display": "Choose W=40. Write these eight groups on one line with one blank between them:32 working units plus7 blanks=39 cells. This is an author-exposed hand calculation, not a program run or blind reader result.",
+      "contrast_polarity": "Changing only the first END from [q,i] to [q,k] changes PAST NEGATIVE to PAST AFFIRMATIVE while preserving the verb and the exact ordered names.",
+      "contrast_roles": "The source \"ada\" was not heated by \"vat a\" instead writes the vat-a payload in field one and ada in field three, with the same HEAT and END. The original example cannot silently be read with these roles reversed.",
+      "legal_triple": {
+        "source": "\"heat\" heats \"heat\".",
+        "groups": [["p", "sh", "a", "d"], ["p", "sh", "a", "d"], ["p", "sh", "a", "d"], ["q", "y"]],
+        "content": "PRESENT HEAT(NAME('heat'),NAME('heat')). The two exact name strings refer to the same term; no distinct-object claim. The middle identical spelling is a predicate by slot, not a second name. This is a possible teaching message, not a meaning assigned to any native AAA."
+      },
+      "open_name_payload_example": {
+        "name": "minu \"m\"",
+        "group": ["q", "cth", "q", "p", "q", "f", "q", "ckh", "q", "cph", "q", "r", "q", "cth", "q", "r"],
+        "explanation": "All four i/n/u/m source letters and the internal space and quote are exact. There are no unpaid name-mode delimiters because this entire nonempty group occupies a name slot. Source-display quoting doubles the internal quote, but the name value contains one quote at each indicated position."
+      }
+    },
+    "physical_layout": {
+      "width": "A teaching line has declared capacity W>=7 working-unit cells. Each working drawing and each separator blank costs one cell. This is not a proposed native grid or spacing measurement.",
+      "ordinary_wrap": "Place complete groups with one blank between them until the next group will not fit. If that group fits a fresh line, start it there, with no continuation marker. No line break changes grammatical roles or clause state.",
+      "overwide_group": "For a logical group longer than W, start on a fresh line. Write exactly W-3 payload units, a blank and CONTINUATION at the right edge. Each following line starts with CONTINUATION and a blank. If the remaining payload fits W-3 cells, finish it. Otherwise write exactly W-6 payload units, a blank and CONTINUATION, and repeat. Hence a middle fragment line pays two markers, two blanks and at least one payload unit. Resume ordinary packing after the final fragment if there is room.",
+      "reassembly": "A right-edge continuation marker joins the preceding nonempty fragment to the next line's nonempty fragment after its leading matching marker. Remove both markers and their surrounding physical separator blanks; concatenate working units. This may join the two halves of a q code, so field decoding happens only after reassembly. The pair [q,t] occurs in no valid payload or END, and cannot itself be a payload fragment; no marker ambiguity or invisible overwide-word exception is used."
+    },
+    "paid_costs_and_obligations": [
+      "The carrier has22 working drawings,32 exact source-character code entries, four two-unit END codes and one two-unit continuation code. Twenty payload entries are one-unit; the other twelve are q plus one selector. This is not the old<=22-code-entry family. Names retain full spelling length and escape costs; no claim of compression for rare names.",
+      "Learn four verb meanings and their principal parts, eight source frames, quoted-name syntax, fixed three-field role order, four tense/polarity controls, exact name identity, full payload table and continuation. The existing language words and their grammatical analyses are learned information, not information supplied freely by the glyphs.",
+      "The mechanism removes redundant source function words only under its declared grammar. It does not remove an unexpressed agent, a quantifier, an article, an adverb or an uncertain lexical meaning. It deliberately cannot translate arbitrary source paragraphs.",
+      "For C complete clauses and b within-group breaks, logical groups=4C and physical groups P=4C+3b. The four END types and one continuation type contribute exactly C+2b mandatory control tokens, so the top-five physical-word count is at least C+2b and at least P/4. This is a necessary burden for a complete message population, not a count on native data. Do NOT transfer it directly to strict-interior filters or arbitrarily cropped paragraphs.",
+      "Word-for-word source frequency invariance does not apply unchanged: active/passive source sentences with different word counts map to the same content note, roles may change order, and framing/continuation add physical groups. This does not imply favorable output frequencies. Old1176/1212/1221/1222 fixed contracts and1202/1226 source bounds keep their actual scopes and failures.",
+      "Identical adjacent content groups and AAA are constructively allowed because role is positional. All content fields nevertheless use one exact shared spelling; the reader cannot assign a convenient new meaning to the same field position after reading a target.",
+      "The exact q-code successors, mandatory mode controls, field count, whole-name cost and complete-message boundaries are physical commitments. They have not been tested against native singletons, short/long forms, q/o, final-y, or known whole paragraphs. A successful hand inverse would not establish those bindings or the source content."
+    ]
+  },
+  "predecessor_review": [
+    {
+      "ids": ["IDEA000952"],
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA952_MANUAL_REVIEW_20261006.json",
+      "difference": "952 teaches number/case concord with mandatory kind+name NPs and lacks a paid carrier. This source grammar instead canonicalizes overt active/passive role order and auxiliaries; no noun kind, case ending or number agreement is inserted. Its named-domain restriction remains honestly narrow. This is not952 with a new ending table."
+    },
+    {
+      "ids": ["IDEA000942", "IDEA000944", "GDT1210"],
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_TWO_GROUP_PLANT_AGREEMENT_RAW_20261005.json", "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_OPEN_NAME_DEFAULT_SUFFIXES_DRAFT_20261005.json", "experiments/yolo/gdt1210_two_group_content_frequency/REPORT.md"],
+      "difference": "942 already allows shared spellings across positional roles; that principle is not new. Its fixed A/B plant four-tuples and1210 frequency failure remain.944's omitted defaults were unfinished and preserved the same organization. Here the new content operation is the fully specified voice normalization, not a regrouped old seven-field source or a changed default distribution."
+    },
+    {
+      "ids": ["GDT1005"],
+      "primary": "experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md",
+      "difference": "The complete Cennini FULL/DELTA field writers and their one/two-record ownership per group were all conditionally contradicted. This proposal uses neither that source, its379 semantic values, record-packing rule nor delta inheritance. No old field/source/boundary repair is made."
+    },
+    {
+      "ids": ["GDT1201", "IDEA000074", "GDT944"],
+      "primaries": ["experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md", "experiments/yolo/gdt944_third_content_formation_separation/REPORT.md"],
+      "difference": "1201 demonstrates multiple transparent parses of identical expanded content, not this source-grammar normalization.074 concerns omitted agents; this rule requires both agents and patients overtly named. GDT944's hypothetical native passive readings and unselected source/product alternatives supply no values here; only its caution about assumed participant identity is retained. None of its native glosses is adopted."
+    },
+    {
+      "ids": ["GDT1176", "GDT1212", "GDT1221"],
+      "primaries": ["experiments/yolo/gdt1212_bidirectional_function_binding/METHOD.md", "experiments/yolo/gdt1221_grammatical_source_groups/METHOD.md"],
+      "difference": "Those grouping contracts preserve the complete original token/FORM sequence inside tuples. This contract explicitly forgets voice and original auxiliaries while preserving a declared semantic tuple. It is not a new function-word list, dependency-relation threshold or refit of their failed source counts."
+    },
+    {
+      "ids": ["IDEA000975"],
+      "primary": "research_registry/proposals/production_origin_supply_20261003/AMBIGUITY_SET_MINIM_WRITER_RAW_20261007.json",
+      "difference": "Only975's exact NAME payload codes are reused, openly and with every character cost. Its ordinary minim ambiguity, dictionary, noun/property grammar, NAME delimiters and source examples remain frozen. Here field roles make delimiters unnecessary; the new voice-normalization rule, complete explicit slots and new END interpretation are separately specified. This does not repair or retest975 as a native writer."
+    }
+  ],
+  "retention_decision": "Retain one RAW complete bounded content-note construction, not a selected native reading or statistical source experiment. The constructive question is whether roles and polarity can remain explicit after grammar-licensed omission without disjoint noun/verb spellings; the supplied inverse and example address that question only. No sourcebook or target population was selected, no native value assigned, and no decoder, count or image operation was performed."
+}

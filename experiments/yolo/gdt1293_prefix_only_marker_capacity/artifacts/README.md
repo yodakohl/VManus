@@ -1,0 +1,1 @@
+RESULT contains all66role rows. COUNTEREXAMPLES.gz retains exact old source fields and noninitial offsets without pooling readers. VALIDATION is independent raw parsing/counter replay, not native handwriting confirmation.

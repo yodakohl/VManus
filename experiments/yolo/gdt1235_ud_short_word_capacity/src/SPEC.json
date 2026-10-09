@@ -1,0 +1,73 @@
+{
+  "experiment": "GDT1235",
+  "selected_utc": "2026-10-06T12:49:34.924720+00:00",
+  "preparation_began_utc": "2026-10-06T12:40:00Z",
+  "inclusive_deadline_utc": "2026-10-06T13:35:00Z",
+  "inclusive_minutes": 55,
+  "question": "What necessary size bound do complete one/two-sign words and original-word initial branches impose on ANY nontrivial freely uniquely decodable fixed letter code, without prefix or suffix freedom?",
+  "source": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+  "readers": [
+    "IT2a",
+    "RF1b",
+    "ZL3b"
+  ],
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "contract": "One finite code C of distinct nonempty finite working-unit strings, one code per abstract sourceletter. Arbitrary sequences of codewords are uniquely decodable (UD). Prefix/suffix freedom is NOT required. Whole native groups are complete concatenations in C*. A longer code must actually be used. No contextual code, erased/zero entry, per-word codebook, unmarked spelling alias, native atom/boundary correction or source grammar used to disambiguate a nonUD code. No length cap.",
+  "selection": "Exactly all immutable1233eligible occurrences, separate readers. Let A be22fixed working units; verify every unit occurs. W unique complete unit strings. W1 length1, W2 length2. No native quotient strings enter the new proof.",
+  "enumeration": "Enumerate every exact singleton subset S of A containing W1. S=A is identity only and kept separately, never a nontrivial positive. For each proper S, B(S) consists of its singletons plus every whole ab in W2 for which a or b is absent from S. These digrams must be individual codewords, since their only other nonempty factorization is a|b. A nonUD B(S) forbids any containing UD C. Decide B using complete finite residual search, retaining a collision or closed residual certificate.",
+  "capacity": "For each h outside S, d_h counts DISTINCT second units of ORIGINAL full h-initial words; b_h counts already forced h-headed B entries. At least d_h h-headed codes are needed because singleton h is absent. Lower L(S)=|B|+sum(max(0,d_h-b_h) for h outside S), then max(L,|S|+1). The latter uses all A occurring and S proper. Longer h-codes with h INSIDE S remain legal and must never be banned; the bound optimistically ignores any additional cost. Minimize over every proper S with UD B. Necessary bound only, no global minimum or full C existence.",
+  "predeclared_caps": [
+    22,
+    26,
+    28
+  ],
+  "cap_meaning": "Generic entry-count reference points, not identified source alphabets. Below bound EXCLUDED_NONTRIVIAL; otherwise NOT_EXCLUDED. No viable properS implies only identity. No positive full-word code or decoder follows.",
+  "optional_consequence": "Intersection of every short-code-compatible proper S plus identity gives signs forced singleton by this necessary test alone. No1234forced set imported. If no proper S remains, allAforced. This statement concerns all possible sizes, not a cap-filtered subset.",
+  "fixtures": "Before target enumerate all UD codebooks from binary nonempty strings length<=3 using independent residual-set checker. For all455sets of1..3binary words length<=3 containing both letters, parse exactly with dynamic programming, and check required B membership and capacity against every compatible actual code using a longer entry. Six named cases include nonprefix UD {a,ab}, forced-middle conflict a/c/ab/bc, positive repeated aa/b, and AAA/b with a possible3-unit code.",
+  "validation": "Independent nonimporting validator derives every S/B and input summary anew, uses separate unoriented residual closure, checks each collision concatenation or complete residual set, recomputes all missing-head counts/lower bounds and exhaustiveness across all proper S. Immutable1233input hash and original eligibility validation retained. No new mixed TSV or image query.",
+  "prior_review": [
+    "GDT856fixed98BPE dictionary collision remains; its residual theorem is established finite code logic, not a native alphabet",
+    "GDT1233distinct-initial and1234prefix-free capacity remain; their quotient/singleton conclusions are NOT applied to generalUD",
+    "GDT900source-tables prefix-code UNSAT,965/966source-bound restrictions and984/1168stops remain untouched",
+    "GDT1206fixedsource moving alphabet frequency failure holds regardless of carrier; this is a source-free native capacity prerequisite, not a rerun"
+  ],
+  "human_motivation": "A reader may inspect the whole written word before separating its letters, instead of recognizing each letter instantly from its left edge. This is a generous capacity class, not proof all UD codes are easy to learn or historically attested. A future practical writer still owes a small public decoding rule.",
+  "assumptions": [
+    "Exact whole-group boundaries preserve sourceword boundaries",
+    "Fixed22working atoms; no physical atomicity proof",
+    "Free UD over arbitrary letter sequences, stronger than grammar-assisted recognition",
+    "All old rare readings retained and readers separate; no independent holdout"
+  ],
+  "decisions": {
+    "bound_exceeds_cap": "Stop that entire size-limited nontrivial UD letter-channel class under these assumptions, including both prefix/suffix subsets.",
+    "bound_le_cap": "Capacity unresolved; no full table, source fit or automatic longer search.",
+    "only_identity": "Longer spellings excluded in this freeUDclass; ordinary substitution stays possible.",
+    "unknown": "No exclusion on incomplete enumeration, timeout or failed validation."
+  },
+  "runtime_seconds_per_reader": 120,
+  "claim_ceiling": "Source-free conditional necessary code capacity only; no native values, source language, phonetics, historic use, exact minimum, semantic decipherment or grammar-assisted-code ban.",
+  "access": "Same exposed1233artifact only; f84/f84rsealed,f116vunadmitted,reservesclosed.4Octlocalcheckpoint no commit/push."
+}

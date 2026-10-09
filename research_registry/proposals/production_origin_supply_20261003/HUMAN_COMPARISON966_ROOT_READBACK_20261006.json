@@ -1,0 +1,178 @@
+{
+  "status": "ROOT_MANUAL_READBACK_FROZEN_BEFORE_EXPECTATION_ACCESS",
+  "saved_utc": "2026-10-06T18:07:33.215782+00:00",
+  "challenge_sha256": "86f4417c7730e9df3ab194693ce40842ebabeff0d4fcca44f3e3c9d1004807f7",
+  "prior_exposure": "The complete disclosed966lesson and separate width correction were read. The newly learned mass root was supplied in the challenge. No expected source content or decoder output has been read. A filesystem listing incidentally showed the expected filename, not its content.",
+  "clauses": [
+    {
+      "scale": "mass",
+      "root": [
+        "ch",
+        "f",
+        "r"
+      ],
+      "comparator": "LESS",
+      "negate_whole_list": true,
+      "subjects": [
+        "Ada",
+        "Bela",
+        "Bela"
+      ],
+      "standard": "Orin, A.",
+      "end_message": false,
+      "reading": "Es ist nicht wahr, dass Ada und Bela und nochmals Bela jeweils weniger Masse als Orin, A. haben. Die Bela-Wiederholung bleibt dieselbe Referenz und derselbe redundante Vergleich."
+    },
+    {
+      "scale": "length",
+      "root": [
+        "f",
+        "p",
+        "ch"
+      ],
+      "comparator": "GREATER",
+      "negate_whole_list": false,
+      "subjects": [
+        "Ada"
+      ],
+      "standard": "Bela",
+      "end_message": true,
+      "reading": "Ada ist länger als Bela. Der Standard wird hier ausdrücklich neu als Bela geschrieben."
+    }
+  ],
+  "manual_name_arithmetic": {
+    "pairs": [
+      [
+        "e",
+        "d"
+      ],
+      [
+        "i",
+        "q"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "i",
+        "ckh"
+      ],
+      [
+        "a",
+        "f"
+      ],
+      [
+        "a",
+        "a"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "a",
+        "sh"
+      ]
+    ],
+    "selector_indices": [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        19
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        0,
+        14
+      ]
+    ],
+    "ascii_minus32": [
+      47,
+      82,
+      73,
+      78,
+      12,
+      0,
+      33,
+      14
+    ],
+    "characters": [
+      "O",
+      "r",
+      "i",
+      "n",
+      ",",
+      " ",
+      "A",
+      "."
+    ],
+    "exact_name": "Orin, A."
+  },
+  "parsing_observations": [
+    "From the first head remove final rr-i, then rr-o. The remaining ch,f,r is the newly learned mass root; its last r is retained despite the rrr boundary.",
+    "Lines3,4,5 join to one28-unit standard word. Line4 has both a leading and a trailing rr-ch continuation word. The name close is itself divided across a line boundary.",
+    "The first standard closes its clause with rr-n rr-d only. The final Bela standard adds rr-s and ends the message.",
+    "Physical line boundaries have no extra semantic scope or topic-reset meaning."
+  ],
+  "manual_costs": {
+    "logical_words": 8,
+    "logical_working_units": 67,
+    "continued_breaks": 2,
+    "continuation_words": 4,
+    "continuation_units": 12,
+    "physical_groups": 14,
+    "physical_working_units": 79,
+    "visible_same_line_blanks": 7,
+    "line_cell_widths": [
+      13,
+      7,
+      16,
+      16,
+      12,
+      10,
+      12
+    ],
+    "grammatical_suffix_units": 24,
+    "literal_name_units_including_frame": 22,
+    "ordinary_lexical_root_units": 21
+  },
+  "scope_counterexample": {
+    "mass_values": {
+      "Ada": 2,
+      "Bela": 1,
+      "Orin, A.": 2
+    },
+    "individual_less_comparisons": [
+      false,
+      true,
+      true
+    ],
+    "negative_whole_conjunction": true,
+    "conjunction_of_individual_negations": false,
+    "all_strictly_greater": false,
+    "meaning": "The negative list can be true with Ada equal to the standard and Bela below it. It does not assert that both are heavier or that every comparison is false."
+  },
+  "claim_ceiling": "One manual teaching-message readback before source reveal; no native word meaning, historical interpretation, full source coverage, statistics or independent native evidence."
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "SIDEQUEST_V81_TARGET_PACKET_FREEZE_V1",
+  "status": "PASS__FROZEN_AFTER_FOUR_SOURCE_FIRST_FREEZES",
+  "checks": {
+    "four_source_freezes": true,
+    "target_cards_30": true,
+    "visible_occurrences_217": true,
+    "independent_source_positions_216": true,
+    "all_targets_ge_3": true,
+    "selection_order_exact": true,
+    "surface_withheld": true,
+    "fixed_pages_only": true,
+    "sealed_pages_absent": true,
+    "affected_statements_complete": true
+  },
+  "passed": 10,
+  "total": 10,
+  "counts": {
+    "target_cards": 30,
+    "visible_occurrences": 217,
+    "independent_source_positions": 216,
+    "affected_statements": 94
+  },
+  "selection": "V80_INDEPENDENT_SOURCE_POSITIONS_GE_3__RANK_NEG_FREQUENCY_THEN_ID",
+  "source_freeze_hashes": {
+    "R1": "fe42fec87f56e88c381e29443abad2654898e350744668c2fde717f0cb497e2a",
+    "R2": "680ad5b17bd5286b4b2ef7e495b3f0ce92cafc402c1531bbccd8d3ca65b29fdb",
+    "R3": "89faaeb866ced5ac12da4c4e1b214470f81fa7bff5076faa16bf077f3c2376ff",
+    "R4": "6ed6ce5b8ee2bd1a6805e1f20a670f4eccaa037bcd72e634e5a3b6facc45ab2a"
+  },
+  "source_inventory_hashes": {
+    "R1": "9ef4d4e265aa2d39042773b2ffa91a82e01787dfcff93e1a5ab88fc189eeb549",
+    "R2": "45d0ed8c3586f018134ce4e9c058c343e368c6e62765205e85f0d5a62f09766c",
+    "R3": "6ac100560aa5d0ebba24494cb513972e02a63b809e9d7fd0e2f251c2ae356ac2",
+    "R4": "df6c79c842a0cf37d5a0e6d762dacd50ac4cfa0460febfe3b773c23b8d0e1d78"
+  },
+  "input_hashes": {
+    "V80_CANONICAL_173_CARD_DICTIONARY.tsv": "694ad383f01d51d267382094b97915725463dca905ae7d43c3a7e05edc8aae99",
+    "V80_CANONICAL_381_PROSE_EVENT_INTERLINEAR.tsv": "70d3487de2c4536ad5e47e7dfbd3bda1cccffde2bb4054b42e1c5db8fa03b50f",
+    "V80_CANONICAL_116_STATEMENT_EDITION.tsv": "5972c9f1104835e324cb9954221a1e38c53a8748be70b8181efbf28362cf2a6c",
+    "SIDEQUEST_V81_ATOMIC_CODEBOOK_VOCABULARY_PROTOCOL.md": "45ec0cfed64cea2fc4488a89a053fa94e04c320fea321d37f24d4d4821437d92"
+  },
+  "output_hashes": {
+    "V81_TARGET_MANIFEST.tsv": "c2c2ad1bd6418ed7a332d6ed948192f469ce8fd64e6cd4c5c5c87e33b76e2b04",
+    "V81_TARGET_OCCURRENCE_PACKET.tsv": "b6cc5afd9421a64aaec6644f095160a42f8e7999bd63ea3151a05860dd9896ee",
+    "V81_TARGET_AFFECTED_STATEMENTS.tsv": "8a0b627902605ca59a7f25f1d148d1fdc0b00f63e53a1f5617409e0af25ca2b7"
+  },
+  "blinding": {
+    "source_inventories_frozen_before_target": true,
+    "surface_spelling_withheld": true,
+    "component_coordinates_withheld": true,
+    "r3_old_v77_line_incident": "DISCLOSED__DOCUMENTARY_SOURCE_ELIGIBLE__STRICT_INDEPENDENCE_ADVISORY",
+    "r4_prior_v80_context": "DISCLOSED__LOWER_BLINDNESS_WEIGHT"
+  },
+  "seals": {
+    "f84": "SEALED_NOT_ACCESSED",
+    "f84r": "SEALED_NOT_ACCESSED"
+  },
+  "next": "PHASE2_FOUR_INDEPENDENT_ATOMIC_MAPPING_AUDITS__NO_TARGET_EXPANSION"
+}

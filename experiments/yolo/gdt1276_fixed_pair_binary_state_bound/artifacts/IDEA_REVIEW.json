@@ -1,0 +1,89 @@
+{
+  "record_id": "GDT1276",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root; bounded source-free proof reviewer; independent cached-source validator",
+  "assessment_basis": "exposed_cardinality_proof_and_complete_old_family_census",
+  "reason": "One binary initialinput and fixedstem/slot maps cannot emit>2pairtraces, even with deterministic updates. Old22familyevaluationhas4/6/6incompatiblefamilies, includingqoka/o3cellsineachreader. Notnewmixeddiscovery, actualstatemeaning orcommonconstruction.",
+  "blockers": [
+    {
+      "code": "fixed_common_construction_and_input_contract",
+      "detail": "Homographs, different constructions, extra perword input and optional spellings lie outside; no actual shared-feature semantics established.",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md",
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "code": "exposed_transcription_evidence",
+      "detail": "Allcellsseen beforelock;readersarealternative readings;sourcevalidatornotpalaeography.",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/artifacts/VALIDATION.json",
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/src/REGISTRATION_LOCK.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "distinct_bound_extra_input",
+        "change": "new_design",
+        "detail": "Identify a motivated additional input or different construction with a separately falsifiable consequence; no automatic state expansion.",
+        "evidence": [
+          "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Invertonefixeddeclensionclass",
+      "Deterministicupdatealone",
+      "Callminimumstatesactualgrammar",
+      "Adhocexceptionorstateperoccurrence"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT915",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT916",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT949",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT981",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1260",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1275",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md"
+      ]
+    }
+  ]
+}

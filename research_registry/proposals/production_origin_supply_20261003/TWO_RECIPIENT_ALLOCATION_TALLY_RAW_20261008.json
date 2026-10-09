@@ -1,0 +1,61 @@
+{
+  "title": "RAW UNREVIEWED INCOMPLETE: two tally runs allocate one explicitly declared total to two recipients",
+  "summary": "A modern hand-note module places copies of the same counting mark before and after a fixed batch core. The two runs record shares for separately written left and right recipients. A separately encoded total constrains their sum. Moving a mark across the core changes the allocation while, for positive runs, preserving endpoints and the directed bigram multiset. No Voynich glyph or word receives a value; the22-sign physical carrier and wider prose grammar remain unspecified.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+  "source_status": "MODERN_SOURCE_FREE_HAND_SKETCH_NO_HISTORICAL_ATTESTATION",
+  "origin": "Bounded producer sketch while root examines two already observed first-order-equivalent form pairs. Root explicitly permitted incomplete RAW retention after predecessor comparison. Native examples motivate the question only; their readings, frequencies and surrounding text are not used to choose any symbols, counts or recipients.",
+  "design": {
+    "purpose": "List alternative ways to distribute a known finite stock between two named recipients, retaining both allocations and the same total instead of assigning a free whole-word value to each possibility.",
+    "source_domain": "A block of proposed allocations of one explicitly named batch, a fixed count unit, two explicitly named distinct recipients and a separately supplied nonnegative integer total N. A record supplies integers a,b>=0 with a+b=N. One mark means one instance of the declared count unit; a continuous mass requires a supplied common discrete measure. Identity of individual interchangeable units is not retained. No density conversion, disposal, third recipient or hidden remainder is allowed.",
+    "meaning": "Each row denotes an alternative allocation plan, not another performed transfer or a claim that several different plans hold simultaneously. Repeating the same row records the same plan again; it does not double the stock. Record order is retained but is not an inferred execution chronology.",
+    "explicit_header": "Before the records write LEFT recipient, RIGHT recipient, BATCH identifier, UNIT and TOTAL N, with explicit field boundaries. In the teaching notation the total is written in ordinary decimal digits, interpreted by one fixed decimal rule independently of the tally rows. The reader must decode it before checking a row; it is never chosen afterwards as that row's tally sum. Another total or recipient requires a new explicit header and closure of the preceding block.",
+    "record_notation": "Let T be one abstract counting mark, A and Z distinct boundary markers, and K the nonempty fixed batch core declared in the header. A row is A T^a K T^b Z. In this schematic layer K has no T, A or Z, so the two maximal runs and the exact core are uniquely identifiable, including empty runs. This is explanatory notation with unpaid physical symbols, not an assignment to e,k,ch,y or any other manuscript unit.",
+    "writer": [
+      "Write the complete header and its total independently from the record.",
+      "For each proposed plan, verify that both shares use the declared unit and sum to the written N.",
+      "Write A, then a copies of T, the complete fixed K, b copies of T and Z. Preserve every proposed row, including repeats. Finish the block with an explicit END marker in the teaching notation."
+    ],
+    "reader": [
+      "Read the explicit ordered recipients, batch, unit and total from the header.",
+      "At each row, require its boundary markers and exact K. Count the preceding T run as a and the following run as b; zero marks means zero in that slot.",
+      "Require a+b to equal the already decoded N. Return the ordered allocation plan with its written recipients, batch and unit. An absent or conflicting header is an unreadable record, not permission to infer N or owner identity.",
+      "At END close the block. No line or page break silently changes the header."
+    ],
+    "hand_example": {
+      "header": "LEFT Ada; RIGHT Bela; BATCH beanlot; UNIT one bean; TOTAL4",
+      "alternative_rows": ["A T K T T T Z", "A T T K T T Z", "A T T T K T Z"],
+      "K": "the same written batch identifier beanlot in every row",
+      "readback": "Three alternative plans for the same four beans: Ada1/Bela3; Ada2/Bela2; Ada3/Bela1. No plan is automatically performed or preferred.",
+      "zero_case": "A K T T T T Z means Ada0/Bela4. A K Z is legal only under a separately written TOTAL0.",
+      "countercase": "A T T K T T T Z is invalid under TOTAL4, although both runs and the core are individually well formed. The total cannot be changed to5 to save the row."
+    },
+    "independent_consequences": [
+      "All records in the same independently bounded total block have the same a+b. Reallocating one unit from right to left changes(a,b)to(a+1,b-1), requiring b>=1. It preserves total but changes the recipients' shares.",
+      "For K fixed and a,b>=1, the endpoints and directed bigram multiset depend on a+b rather than its allocation: A->T, T->first(K), last(K)->T and T->Z each occur once; internal K edges are fixed; T->T occurs a+b-2times. Thus different meaningful allocations can share homogeneous first-order likelihood. This is a construction theorem, not an interpretation of the observed four forms.",
+      "When either run is empty the entry/exit bigrams change; the positive-run theorem must not be extended to those cases. Empty runs are allowed source content, not post-result exceptions.",
+      "The distinctly new obligation beyond run relocation is the separately written total and stable recipient/unit scope across further records. Without that external written constraint, an arbitrary total inferred from every word supplies no discriminator."
+    ],
+    "costs_and_missing_parts": [
+      "Learn the count unit, two ordered recipient roles, the batch identifier, decimal total notation, framing and the tally rule. Unary records cost N tally marks, so large totals are expensive.",
+      "Exact names, header punctuation, A/T/Z/END and ordinary prose still require a complete22-working-sign representation and escaping. The teaching symbols are not free extra manuscript signs.",
+      "No paid overwide-word/line-continuation system has been supplied. A wider teaching sheet can display an example but is not a complete historical page-layout contract.",
+      "Negation, conditional allocation, weights with differing units, operations on contents and unrestricted prose are not covered. This is an information-bearing module, not a full language or full manuscript writer.",
+      "Native segmentation, a counting-mark identity, batch-core identity, independently written total and recipient binding remain unassigned. Neither likelihood equivalence nor similar strings identifies them."
+    ],
+    "strongest_limits": "The pattern A T^a K T^b Z could also be phonographic, inflectional or arbitrary symbol composition. Its first-order equivalence alone gives no preference. A native application must fix framing, unitization and an independently readable total before examining whether selected runs fit. The observed zero/one/both modifier-site cases and reader boundary disagreements cannot be silently omitted. No run maximum, checksum tuning, classes, native names or fitted dictionary is introduced.",
+    "future_falsifier_not_selected": "Under an independently specified common header/total and fixed literal tally binding, a row with the wrong sum, changed recipient order without written change, or an unsupported remainder contradicts the frozen contract. Until such a binding exists, only the hand arithmetic is testable; no new native count or source-fitting run is recommended."
+  },
+  "predecessors": [
+    {"id": "IDEA000096", "primary": "research_registry/work_batches/luna_throughput_20260914/TRANSITIONS_RESULT.json", "difference": "The older conservation proposal had no fixed separating observable. Here two ordered shares and a separately written total give an explicit sum constraint. It is still not a native realization of096, and its material references are not inherited."},
+    {"id": "IDEA000929", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_FOLDED_COORDINATES_RAW_20261004.json", "difference": "929projects each source letter into disjoint row/column coordinate alphabets and reverses one stream. This module counts two shares with the SAME mark on both sides of one unchanged core; no letter-table coordinates or equal-half requirement.929's fixed sos exclusion remains."},
+    {"id": "IDEA000930", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_THREE_CELL_GROUPS_RAW_20261004.json", "difference": "930's tally is a finite source-character code and its outer grouping is every three cells. Here a tally is an explicitly declared quantity, with no fixed three-cell packing and no reused930carrier."},
+    {"id": "IDEA000955", "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_COUNTED_NOMINAL_POWER_RAW_20261006.json", "difference": "955repeats a primitive noun to count witnesses under a property. Here the core is written once, repeated counting marks have two recipient scopes and their sum is constrained by a separate header. No955carrier is repaired."},
+    {"id": "IDEA000979", "primary": "research_registry/proposals/production_origin_supply_20261003/RATIONAL_ADDITION_PATH_RAW_20261008.json", "difference": "979preserves only a reduced ratio through arithmetic operations;2:3 and4:6 coincide. This module preserves the supplied absolute count total and ordered shares, so those allocations are different. No meaning or source selection from979is inherited."}
+  ],
+  "review_and_access": {
+    "bounded_screen": "Current route/e-position topic, targeted tally/coordinate/allocation searches, route-check and ideas duplicates;096claim-bearing review plus already read929/955/979contracts. No exact prior two-run allocation with separately written fixed total was found in this bounded review; no exhaustive novelty claim.",
+    "exposure": "The root supplied four native forms and descriptive context totals during the discussion. They were not independently checked, assigned values, used to select a tally length or treated as confirmation. No native payload, image, source acquisition, code execution, statistic or root file was accessed or modified.",
+    "ownership": "One own RAW JSON and one ideas-add. No route, ledger, state, previous RAW or experiment modified; no refresh or new agent."
+  }
+}

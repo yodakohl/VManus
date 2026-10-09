@@ -1,0 +1,159 @@
+{
+  "title": "Separate physical realization of IDEA951: complete teaching carrier, conditionally stopped by the short-word alphabet bound",
+  "status": "FIXED_CONSTRUCTION_WITH_MANUAL_CONDITIONAL_OBJECTION_NOT_SELECTED_NOT_CORPUS_TESTED",
+  "registry": "No new idea card. This is the requested separate construction note; IDEA951 and its existing review remain unchanged.",
+  "parent_language": "research_registry/proposals/production_origin_supply_20261003/HUMAN_EXPLICIT_TOPIC_PREDICATE_LANGUAGE_RAW_20261006.json",
+  "parent_review": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA951_SCOPE_REVIEW_20261006.json",
+  "scope": "A physical teaching carrier for the already stipulated content language, not a historical script, native translation, source compiler or successful statistical candidate. All glyph values below are invented control values. They assign no meaning to a Voynich form.",
+  "construction_history": {
+    "block_start_utc": "2026-10-06T02:19:47Z",
+    "before_objection": "The producer proposed four one-sign property roots, twelve one-sign grammar heads, five quotation/delimiter/escape signs and one globally reserved physical-continuation sign. The literal table uses nineteen direct lowercase letters, seven two-sign lowercase escapes and fifty-seven three-sign escapes. Root then pointed out the four-versus-five short-word obstruction before any encoding program, data run or registration.",
+    "freeze": "The construction is written down without adding short roots, deleting delimiters, changing the continuation scope or otherwise repairing that objection. No frequency result determined this table. Known native shape obligations were already exposed; this is not a blind construction.",
+    "ownership": "One bounded producer. Only this separate note is written. No source/target count, raw manuscript query, image, encoder, test, root-file edit, ledger entry, metadata refresh, additional agent or publication was performed. Root owns the scoped decision and any source-profile verification."
+  },
+  "content_contract": {
+    "input": "Exactly IDEA951's ordered, explicitly typed ground statements with named entities, its four property roots, open ordinary-language predicates of the specified arities, and explicit supplied paragraph boundaries. Quoted strings are nonempty and use the eighty-two inherited characters plus ordinary space. Unsupported input is rejected visibly, not normalized or dropped.",
+    "meaning": "Preserve the original property/action distinction, ordered atom runs, general conjunction, NOT, goal, prohibition, IF, postchecked UNTIL, ordered action sequence and the one current topic. Ordinary-language vocabulary is still needed to understand an open label. A label may not conceal a whole clause, missing quantity, unresolved pronoun or unsupported grammatical construction.",
+    "topic": "A visibly written topic name supplies the first entity of every subsequent predicate. A written second participant never becomes the topic. Only a new explicit topic header changes it; a supplied visible paragraph boundary clears it. Physical line wraps do neither.",
+    "unsupported_content": "Quantification, numerals with units, tense, arbitrary higher arity and unresolved references remain outside951's declared domain. Completing the physical carrier does not expand that domain or settle any historical ambiguity."
+  },
+  "working_inventory": ["o", "a", "y", "e", "i", "n", "r", "l", "s", "d", "ch", "sh", "k", "t", "p", "f", "q", "ckh", "cth", "cph", "cfh", "m"],
+  "working_atom_assumption": "Each inventory entry denotes one existing working drawing. ch, sh, ckh, cth, cph and cfh are single working signs, not strings of separately admitted c/h characters. These are conditional teaching units, not an identified native alphabet. Arrays in the examples separate working signs for legibility; those separators are not printed.",
+  "outside_literal_table": {
+    "o": "W: warm property",
+    "l": "D: dry property",
+    "r": "F: fine-in-texture property",
+    "y": "C: clean property",
+    "p": "@ topic introduction",
+    "ch": "p open unary-property label",
+    "sh": "r open binary-relation label",
+    "k": "g goal",
+    "t": "a1 open unary-action label",
+    "f": "a2 open action with one named second participant",
+    "d": "b prohibition",
+    "i": "i conditional action",
+    "e": "u postchecked until-loop",
+    "s": "s ordered action sequence",
+    "a": "! property negation",
+    "n": "& general ordered conjunction",
+    "ckh": "opening parenthesis",
+    "cth": "closing parenthesis",
+    "cph": "argument comma",
+    "q": "opening or closing literal quote, according to parser position",
+    "cfh": "literal escape prefix; illegal outside a quoted string",
+    "m": "physical continuation only; illegal in every logical group and literal payload"
+  },
+  "literal_table": {
+    "selector_order": ["o", "a", "y", "e", "i", "n", "r", "l", "s", "d", "ch", "sh", "k", "t", "p", "f", "ckh", "cth", "cph"],
+    "direct_characters_in_order": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s"],
+    "direct_rule": "Inside quotes each of these nineteen lowercase letters is written with the selector at the same index. The roles these drawings have outside quotes do not apply inside quotes.",
+    "short_escape_second_signs": ["o", "a", "y", "e", "i", "n", "r"],
+    "short_escape_characters": ["t", "u", "v", "w", "x", "y", "z"],
+    "short_escape_rule": "Write cfh followed by the corresponding one selector. No third selector belongs to this escape.",
+    "long_escape_rows": [
+      {"second_sign": "l", "characters_in_selector_order": ["ä", "ö", "ü", "ß", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ",", ";", ":", "!"]},
+      {"second_sign": "s", "characters_in_selector_order": ["?", "(", ")", "-", "/", "'", "\"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]},
+      {"second_sign": "d", "characters_in_selector_order": ["M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Ä", "Ö", "Ü", "ẞ", " "]}
+    ],
+    "long_escape_rule": "Write cfh, the row's second_sign, and the selector at the character's column. These fifty-seven values are the pre-existing fifty-six additional source characters plus ordinary space, not a newly mined vocabulary. A literal source double quote uses its table entry, never q. A literal source space uses the last cell, never a physical within-group space.",
+    "inverse": "Between opening and closing q, a selector alone recovers its direct lowercase letter. cfh followed by one of the first seven selectors recovers t-z and consumes exactly two signs. cfh followed by l, s or d consumes one additional selector and recovers that row/column character. Any other second sign, missing selector, naked cfh, m, or malformed escape is invalid. q closes the string only when no selector is pending. Empty strings are invalid. No literal payload can contain q or m.",
+    "quotation_scope": "The teaching syntax's backslash-before-quote is not a source character: encode the underlying literal double quote through the table. Backslash itself remains unsupported under951. Reconstructing its explanatory syntax adds its original escape notation again; this does not alter the literal content."
+  },
+  "exact_surface_grammar": {
+    "notation": "Q(x) below means q + the full literal-table encoding of nonempty x + q. Spaces inside the grammar descriptions separate sign names for exposition only. Printed logical groups have no interior physical space.",
+    "topic": "p Q(name)",
+    "atoms": ["o", "l", "r", "y", "ch Q(label)", "sh Q(label) ckh Q(name) cth"],
+    "property_P": ["one or more adjacent atoms", "a ckh P cth", "n ckh P cph P cth"],
+    "action_A": ["k ckh P cth", "t Q(label)", "f Q(label) ckh Q(name) cth", "d ckh A cth", "i ckh P cph A cth", "e ckh A cph P cth", "s ckh A cph A cth"],
+    "whole_group": "Exactly one topic header, one complete P, or one complete A. Outside quotes the different first signs and visible delimiters select the production. A property atom run ends at its enclosing comma/close or at the complete group boundary. Negated or general conjunction expressions cannot be silently appended to an atom run; use the explicit n construction as951 requires.",
+    "typing": "The loop's first operand is an action and its second a property; the conditional reverses those types. Negation accepts a property; prohibition accepts an action. Goal accepts a property and supplies no specific physical method. General conjunction retains both property operands in order. Parentheses and commas are mandatory wherever displayed.",
+    "repetition": "Repeated atom occurrences remain in their atom run, and repeated complete groups are written again. No REPEAT code, changing alphabet, hidden portion number or deletion of redundant assertions is permitted."
+  },
+  "physical_boundaries_and_continuation": {
+    "groups": "An ordinary physical space separates complete logical groups. An unmarked physical line break is legal only between complete groups and has the same separating role. No group-internal literal space is represented by this spacing: it uses the literal table.",
+    "paragraphs": "A visible blank line represents each supplied paragraph boundary. It is legal only after a complete logical group and with no pending continuation. It clears the topic. EOF likewise requires complete syntax. The first predicate in a paragraph needs a preceding explicit header.",
+    "overwide_group": "For a logical group that must continue on the next physical line, stop between two whole working signs, append m immediately to the current segment at the line's end, and begin the next physical line with m immediately followed by the remaining payload. Both adjacent segments must contain at least one payload sign. An interior continuation line can have both its leading and trailing m. Do not insert a space at the join and do not insert a blank paragraph line. One may split even inside a multi-sign literal escape because continuation removal precedes grammatical reading; one may never split a single working drawing.",
+    "reading_layout": "Remove exactly a matched line-final m / next-line-initial m pair and concatenate its two payload segments. Every remaining m is invalid. Then parse quotes, literal escapes and logical groups. Ordinary unmarked line breaks remain group separators. The continuation marks cannot reset the topic or close an expression.",
+    "paid_layout_choice": "The writer needs an actual writing margin and enough room for the continuation mark. Where a physical line is ended is visible and does not affect recovered content. This construction does not claim a measured native ruling or a fixed native width. Any later frequency/physical-length comparison must specify its page layout in advance and include the emitted continuation signs and segments, not silently merge convenient native words.",
+    "short_segment_limit": "A two-sign visible segment consisting of one payload sign and one m is possible only immediately at a marked physical line edge. It is not a complete logical statement or an exception allowing an ordinary two-sign inner-line group."
+  },
+  "human_procedure": {
+    "write": [
+      "Receive a covered, explicitly interpreted951 content paragraph. Write a full topic header before its first assertion or command and whenever its subject changes.",
+      "Use the outside-literal table to write every grammar head, property root, delimiter and quote. Spell every open label or name with the literal table; do not invent an abbreviation for a long unknown term.",
+      "Write one complete logical group for each supplied statement tree. Retain order, repeated actions, all scopes and all literal characters. End the group with a space or an ordinary line break.",
+      "If a group must cross a line edge, pay the paired m marks and carry the same parser/topic state. End a paragraph only after a complete group, then clear the topic."
+    ],
+    "read": [
+      "Join only paired marked physical continuations. Keep ordinary group spaces and supplied paragraph boundaries.",
+      "Read q-delimited strings through the prefix-free literal table. Outside them use the fixed typed grammar and its visible brackets/commas; no word list, source text or hidden message ID is available.",
+      "Store the explicit topic name or look back to its header. Insert that entity as every node's first participant, retaining written second participants without changing topic.",
+      "Recover the complete ordered content trees and literal labels. Preserve NOT, prohibition, goal, conditional and postchecked-loop differences. Unsupported or incomplete syntax is an error, not a guessed reading."
+    ]
+  },
+  "manual_invented_examples": [
+    {
+      "teaching_text": "@\"Nara\" WD b(g(W))",
+      "groups_as_working_sign_arrays": [["p", "q", "cfh", "d", "a", "o", "cth", "o", "q"], ["o", "l"], ["d", "ckh", "k", "ckh", "o", "cth", "cth"]],
+      "literal_check": "N is cfh d a; a is o; r is cth; a is o. The opening/closing q and initial p are additional paid signs.",
+      "reading": "Introduce the named entity Nara. Assert that Nara is warm and dry. Forbid bringing about warmth in Nara. This does not assert that Nara is not warm."
+    },
+    {
+      "teaching_texts_under_the_same_written_topic": ["!(W)", "g(!(W))", "b(g(W))"],
+      "groups_as_working_sign_arrays": [["a", "ckh", "o", "cth"], ["k", "ckh", "a", "ckh", "o", "cth", "cth"], ["d", "ckh", "k", "ckh", "o", "cth", "cth"]],
+      "reading": "Respectively assert not-warm, make not-warm, and prohibit making warm. There is no cold root or hidden choice of physical method."
+    },
+    {
+      "teaching_text_under_the_same_written_topic": "i(!(D),u(a1\"stir\",D))",
+      "group_as_working_sign_array": ["i", "ckh", "a", "ckh", "l", "cth", "cph", "e", "ckh", "t", "q", "cph", "cfh", "o", "s", "cth", "q", "cph", "l", "cth", "cth"],
+      "literal_check": "stir spells cph / cfh o / s / cth inside its two q quotes.",
+      "reading": "If the current topic is not dry, stir it at least once, then check dryness and repeat while not dry. No zero-iteration interpretation or different topic is supplied."
+    },
+    {
+      "literal_entity_name": "a \"b\"",
+      "header_as_working_sign_array": ["p", "q", "o", "cfh", "d", "cph", "cfh", "s", "r", "a", "cfh", "s", "r", "q"],
+      "reading": "One entity whose literal name includes a space and two double-quote characters. The literal space is cfh d cph; a literal double quote is cfh s r. None terminates the physical group or the outer quote."
+    },
+    {
+      "purpose": "Visible continuation of the Nara topic header, split only for demonstration; not a width measurement.",
+      "physical_rows_as_working_sign_arrays": [["p", "q", "cfh", "d", "m"], ["m", "a", "o", "cth", "o", "q"]],
+      "reading": "Removing only the edge m pair recovers exactly the first example's header, including its three-sign uppercase-N escape. No character, separator or new topic is inferred."
+    }
+  ],
+  "paid_costs": {
+    "semantic_learning": "The same four taught property meanings and951's typed constructors, their arities, topic convention and postchecked-loop interpretation. This is not a four-word universal language: all open labels require ordinary-language knowledge, and unfamiliar concepts still require explanation outside or within a separately extended declared input language.",
+    "graphic_learning": "Twenty-two outside/physical roles, nineteen direct lowercase correspondences, seven two-sign lowercase escapes, and a three-by-nineteen table for the remaining fifty-seven literal values. The latter includes uppercase, umlauts, punctuation, digits and space. These may be looked up; consultation time is a real cost. No learned whole-name code table is supplied.",
+    "writing_cost": "For a literal containing n1 direct lowercase letters, n2 letters t-z and n3 additional characters including spaces, its quoted spelling costs exactly2+n1+2*n2+3*n3 working signs. Topic or unary open-predicate/action adds one head. A unary bracketed constructor adds three signs to its operand; a binary bracketed constructor adds four to its operands. Each physical continuation adds two m signs. No compression or source-cost improvement is claimed.",
+    "memory": "One explicit topic or a lookup back to its written header, quote/escape state, and the visible nesting stack. There is no bounded-depth guarantee or measured reading-speed claim. Deep nesting, long labels and line continuation can be slow and awkward for a human even though the instructions are finite.",
+    "native_limit": "Some whole groups can be one sign; many literals end q and many constructors end cth. The carrier has no special q-o law or empirically motivated native root values. Terminal variety and abstract word repetition alone are not fit evidence."
+  },
+  "conditional_short_word_objection": {
+    "complete_two_sign_words": "Exactly all two-atom runs drawn from the four singleton roots o, l, r and y. This statement follows directly from the displayed grammar; no source or target enumeration was run.",
+    "exhaustive_lower_bounds": {
+      "single_root_atom": "One sign. Thus a two-root run can have length two.",
+      "topic_header": "At least four: p, opening q, at least one literal payload sign, closing q.",
+      "open_unary_property_or_action": "At least four by the same nonempty-quote requirement.",
+      "binary_relation_or_action": "At least nine: one head, two nonempty quoted strings, two parentheses.",
+      "NOT_or_goal": "At least four: one head, two parentheses and a property of at least one sign.",
+      "general_conjunction": "At least six: one head, two parentheses, one comma and two nonempty properties.",
+      "prohibition_conditional_loop_sequence": "Longer still; every action operand is at least four signs under this grammar.",
+      "literal_or_continuation_alone": "Neither is a complete logical group. Continuation segments can be short only at their explicit physical edges."
+    },
+    "bijection_proof": "Under any single global bijective renaming of the twenty-two working signs, the union of signs used by all complete two-sign logical groups has cardinality at most four. The three given whole forms ol, al and ky jointly contain five distinct working items: o,l,a,k,y. Therefore they cannot all be complete two-sign groups of this fixed physical realization under any such renaming.",
+    "native_binding_is_conditional": "This conclusion assumes the specified working-item identities, whole-group correspondence, a single fixed bijection, and that the three examples are complete logical groups rather than marked physical continuation segments. It does not prove a native atomic alphabet or native sentence boundaries.",
+    "root_profile_information": "After the proposed construction, root reported separate existing profiles with inner-line occurrences in each reader: ol386/381/395, al176/166/185, ky24/19/12 for ZL/IT/RF. Those root-verified MIDDLE positions cannot be supplied by this carrier's edge-only continuation convention. This producer did not run those queries or independently validate their raw rows. Relevant retained primary pointers are GDT1200 and HAND_WORD_EXTREMES_REPORT_20261005.md; root owns the exact source binding and scoped decision.",
+    "decision_limit": "Stop this particular physical realization as a direct native whole-group writer under those assumptions. Do not add short open literals, more unmarked roots, different delimiters or interior continuation exceptions after the objection. The abstract951 topic/property/action language, other fully specified carriers, and meaningful constructed languages in general are not refuted. No claim is made to have closed every twenty-two-sign realization of951."
+  },
+  "primary_predecessors": [
+    {"id": "IDEA000951", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA951_SCOPE_REVIEW_20261006.json", "boundary": "The three abstract readbacks preserve meaning and scope. This note supplies only its missing physical construction; historical-content compilation remains separate."},
+    {"id": "GDT1175", "primary": "experiments/yolo/gdt1175_fixed_writer_b6_8_transfer/REPORT.md", "boundary": "Its frozen29-root transfer stops at its declared spelling-cost limit. The present full literal chart neither reduces that measured cost nor repairs the old parser."},
+    {"id": "GDT1214", "primary": "experiments/yolo/gdt1214_short_square_fixed_grammar/REPORT.md", "boundary": "The old B6 grammar excludes every short square under a bijection. Here atom runs can contain a square and then another atom run, but a different small-word alphabet obstruction closes this particular carrier."},
+    {"id": "GDT1215", "primary": "experiments/yolo/gdt1215_paragraph_local_iteration_arity/REPORT.md", "boundary": "The existing right-space result remains a nonrefutation of the registered paragraph-end obligation. No paragraph-end premise is used for this short-word cardinality argument."},
+    {"id": "GDT1216", "primary": "experiments/yolo/gdt1216_iterated_head_nominal_argument/REPORT.md", "boundary": "947's doubled action head cannot take its following action base as a nominal argument.951 has complete property assertions instead; that conceptual difference does not erase947's stop or establish native meanings."},
+    {"id": "IP077", "primary": "docs/IDEA_BACKLOG.md:2049", "boundary": "Explicit escape completion obligations are an old family. This table fixes an artificial typed carrier; it identifies no native escape sign and claims no novelty for escaping itself."},
+    {"id": "IDEA000935 / IDEA000948", "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_CIRCULAR_LETTER_DIFFERENCE_RAW_20261005.json", "boundary": "Only the inherited fifty-six-character supplemental inventory is reused. No multigraph shortcut, ring state, source-word frequency success or changed key is inherited."},
+    {"id": "GDT1200", "primary": "experiments/yolo/gdt1200_stable_part_repetition_capacity/REPORT.md", "boundary": "Existing exact whole-form evidence remains conditional working-unit evidence, not a morpheme or meaning assignment."},
+    {"id": "word-extremes dossier", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WORD_EXTREMES_REPORT_20261005.md", "boundary": "Root supplies the retained short-form profile binding; this note does not create a new native observation."}
+  ],
+  "retrieval": "Read live route,951 raw and review, composition topic, bounded ideas duplicates/search and route-check; lookup1175/1214/1216 followups and read1175/1214/1215/1216 reports. IP077's exact backlog row and the old supplementary character inventory were read. Search rankings are not exhaustive novelty proofs. No new registry card or automatic reopening follows."
+}

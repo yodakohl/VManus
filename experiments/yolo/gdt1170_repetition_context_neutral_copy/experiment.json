@@ -1,0 +1,143 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Existing guarded transcription/complete run tables retained for reproducibility; no new data collection.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory conditional duplication model only; no translation, deletion permission or search-wide significance.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1170_repetition_context_neutral_copy/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1170_repetition_context_neutral_copy/src/validate.py"
+  },
+  "created": "2026-10-04",
+  "dependencies": [
+    "GDT574",
+    "GDT803",
+    "GDT820",
+    "GDT821",
+    "GDT910"
+  ],
+  "experiment_id": "GDT1170",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen admitted input",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "frozen admitted input",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/RESULT.json",
+      "role": "result artifact",
+      "sha256": "6d53db622264c17d2534b8a2b81ff6553bd631ec23dd9b1cb7850c1a59f36d33"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/RUNS.tsv",
+      "role": "result artifact",
+      "sha256": "26585da9646ac72321ed5c3c74a10570254f62cdc09e6398be4e10aa35f36d1a"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md",
+      "role": "primary report",
+      "sha256": "2c81bef089e2351b7cfc73644f600441d5447301c540a3a5f068f856d645daf7"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/METHOD.md",
+      "role": "existing reproducibility artifact",
+      "sha256": "bdbf3837eb012ec949edbcbba9707e264d0cc4aae49d7aadd08f0912de70e544"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/PREREGISTRATION.md",
+      "role": "existing reproducibility artifact",
+      "sha256": "bdbf3837eb012ec949edbcbba9707e264d0cc4aae49d7aadd08f0912de70e544"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/README.md",
+      "role": "existing reproducibility artifact",
+      "sha256": "82d638dcc51a44ef56e1f3793b0b7043509b7bda5aed1e4a8f9ad76b4acc3316"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARD.json",
+      "role": "existing reproducibility artifact",
+      "sha256": "d6d3b2adc536fea7ed700f48d6417694c0d8e81928ff1c2c9aada998f7fa7656"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "role": "existing reproducibility artifact",
+      "sha256": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/IDEA_REVIEW.json",
+      "role": "existing reproducibility artifact",
+      "sha256": "bc3f5970d2fce0f3356557ff6ffed58d423c8386426c2110aa5afe99fd297d34"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/LONGER_RUNS.json",
+      "role": "existing reproducibility artifact",
+      "sha256": "535d11f35679acc66871a43929a7c818d24dcc508f1a54bd1779823cfac666d3"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/NULL_IT2a.tsv",
+      "role": "existing reproducibility artifact",
+      "sha256": "037606515789551d2c05bc24b2ade207dc4e4897447119bd201f4cd877e82e83"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/NULL_RF1b.tsv",
+      "role": "existing reproducibility artifact",
+      "sha256": "850943da8f427652f3dbde281e7d2b8ca4cb05d74f49b09f4400d5fe76de89ba"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/NULL_ZL3b.tsv",
+      "role": "existing reproducibility artifact",
+      "sha256": "2349f87b574f82c20ae93121cda3974ad58eb7bad02c075977686fb39badfa4c"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/README.md",
+      "role": "existing reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/REGISTRATION_LOCK.json",
+      "role": "existing reproducibility artifact",
+      "sha256": "5df01cc3570ac627f14c17e2e64916959ee2978da4ed6c52a830a406312af97c"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/VALIDATION.json",
+      "role": "existing reproducibility artifact",
+      "sha256": "1545f4e995ef96366443062692dce9cffd6b43f1ef7523ff50b30e8870d85c4a"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "role": "existing reproducibility artifact",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/run.py",
+      "role": "existing reproducibility artifact",
+      "sha256": "154fd1b7db63aff493e1b6db25d0b2585a112a503082429862e6f9bc11fb4a6c"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/validate.py",
+      "role": "existing reproducibility artifact",
+      "sha256": "817503686975ca829577904d2cd2bb3392f402aff7035391be988885db6d385e"
+    }
+  ],
+  "question": "Are maximal exact double runs context-exchangeable with singleton runs of the same word on the same physical leaf and line-position third?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "repetition_context_neutral_copy",
+  "status": "NO_RETAINED_CONTEXT_SIGNAL",
+  "title": "repetition context neutral copy",
+  "updated": "2026-10-04",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "status": "PROVISIONAL_ZL32_COMPLETE_ATTEMPT_IT_INCOMPLETE",
+  "claim_ceiling": "A fitted whole ZL handling/use episode only; meanings remain unconfirmed and no two-reader fit or semantic result is claimed.",
+  "inherited_scope": {
+    "positions": 117,
+    "values": 88,
+    "constructions": 13,
+    "source": "PARENT.json"
+  },
+  "target": {
+    "reader": "ZL3b",
+    "groups": 32,
+    "positions": 32,
+    "record": {
+      "id": "f108r|f108r.48-f108r.50",
+      "page": "f108r",
+      "leaf": 108,
+      "lines": [
+        {
+          "locus": "f108r.48",
+          "row": 4806,
+          "start": true,
+          "end": false,
+          "words": [
+            "pcheedy",
+            "qokeo",
+            "l",
+            "okeol",
+            "keol",
+            "dain",
+            "ar",
+            "otedy",
+            "qokedy",
+            "qokeedy",
+            "qokeedy",
+            "lchdy"
+          ],
+          "source_ids": [
+            "ZL3b|f108r.48|G001",
+            "ZL3b|f108r.48|G002",
+            "ZL3b|f108r.48|G003",
+            "ZL3b|f108r.48|G004",
+            "ZL3b|f108r.48|G005",
+            "ZL3b|f108r.48|G006",
+            "ZL3b|f108r.48|G007",
+            "ZL3b|f108r.48|G008",
+            "ZL3b|f108r.48|G009",
+            "ZL3b|f108r.48|G010",
+            "ZL3b|f108r.48|G011",
+            "ZL3b|f108r.48|G012"
+          ],
+          "anchor_eligible": true,
+          "offset": 0
+        },
+        {
+          "locus": "f108r.49",
+          "row": 4807,
+          "start": false,
+          "end": false,
+          "words": [
+            "oteedy",
+            "lchedy",
+            "qokeedy",
+            "qokeedy",
+            "qokeo",
+            "lchedy",
+            "qokey",
+            "qokeey",
+            "lkedy",
+            "lkedy"
+          ],
+          "source_ids": [
+            "ZL3b|f108r.49|G001",
+            "ZL3b|f108r.49|G002",
+            "ZL3b|f108r.49|G003",
+            "ZL3b|f108r.49|G004",
+            "ZL3b|f108r.49|G005",
+            "ZL3b|f108r.49|G006",
+            "ZL3b|f108r.49|G007",
+            "ZL3b|f108r.49|G008",
+            "ZL3b|f108r.49|G009",
+            "ZL3b|f108r.49|G010"
+          ],
+          "anchor_eligible": true,
+          "offset": 12
+        },
+        {
+          "locus": "f108r.50",
+          "row": 4808,
+          "start": false,
+          "end": true,
+          "words": [
+            "qokeedy",
+            "lchedy",
+            "lkaiin",
+            "chdy",
+            "qokey",
+            "okedy",
+            "okaram",
+            "chdar",
+            "ar",
+            "okam"
+          ],
+          "source_ids": [
+            "ZL3b|f108r.50|G001",
+            "ZL3b|f108r.50|G002",
+            "ZL3b|f108r.50|G003",
+            "ZL3b|f108r.50|G004",
+            "ZL3b|f108r.50|G005",
+            "ZL3b|f108r.50|G006",
+            "ZL3b|f108r.50|G007",
+            "ZL3b|f108r.50|G008",
+            "ZL3b|f108r.50|G009",
+            "ZL3b|f108r.50|G010"
+          ],
+          "anchor_eligible": false,
+          "offset": 22
+        }
+      ],
+      "groups": 32
+    }
+  },
+  "productions": [
+    {
+      "id": "U1_USE_STATE_TRANSITION",
+      "arguments": [
+        "episode",
+        "assembly",
+        "wearer",
+        "event",
+        "time"
+      ],
+      "order": "episode, assembly, wearer, event, time",
+      "rule": "Compose a bounded use/handling episode. REMOVE changes only WORN_BY(A,W); REWEAR restores it only when written. HOLD and REQUIRED do not create physical events. Used for both line48 and line50 transitions."
+    },
+    {
+      "id": "U2_COMPONENT_STATE",
+      "arguments": [
+        "state_operator",
+        "component",
+        "assembly",
+        "wearer",
+        "time"
+      ],
+      "order": "state_operator, component, assembly, wearer, time",
+      "rule": "Keep/require/preserve the same old components (S,G,P) within A and attach state to the explicitly supplied W and t_use. It never transfers components, mixes PE/Wing, or implies attributed protection."
+    }
+  ],
+  "bindings": [
+    {
+      "id": "B1_SAME_ASSEMBLY",
+      "rule": "qokeo, qokedy and qokeedy arguments resolve to the inherited A/S/P/G assembly; no fresh object."
+    },
+    {
+      "id": "B2_SAME_WEARER",
+      "rule": "ar and old BY/WORN_STATE arguments resolve to the inherited W; removal leaves W unchanged as a person."
+    },
+    {
+      "id": "B3_EVENT_ORDER",
+      "rule": "pcheedy starts one later use episode; lchdy is the only written REWEAR event; okam orders the later state after removal."
+    },
+    {
+      "id": "B4_USE_TIME",
+      "rule": "lkaiin supplies one t_use for the use state; old making/claim times are not silently extended."
+    }
+  ],
+  "rows": [
+    {
+      "locus": "f108r.48",
+      "raw": [
+        "pcheedy",
+        "qokeo",
+        "l",
+        "okeol",
+        "keol",
+        "dain",
+        "ar",
+        "otedy",
+        "qokedy",
+        "qokeedy",
+        "qokeedy",
+        "lchdy"
+      ],
+      "source_ids": [
+        "ZL3b|f108r.48|G001",
+        "ZL3b|f108r.48|G002",
+        "ZL3b|f108r.48|G003",
+        "ZL3b|f108r.48|G004",
+        "ZL3b|f108r.48|G005",
+        "ZL3b|f108r.48|G006",
+        "ZL3b|f108r.48|G007",
+        "ZL3b|f108r.48|G008",
+        "ZL3b|f108r.48|G009",
+        "ZL3b|f108r.48|G010",
+        "ZL3b|f108r.48|G011",
+        "ZL3b|f108r.48|G012"
+      ],
+      "production": "U1_USE_STATE_TRANSITION + U2_COMPONENT_STATE",
+      "formula": "AFTER_USE( A, REMOVE(A,FROM_WEARER=W), HOLD(A), BUT REWEAR(A,SAME_WEARER=W; components=S,P,P) )",
+      "reading": "After the inherited claim, the same assembled object is removed from W, kept intact, and then written as worn again by that same W.",
+      "new_forms": [
+        "pcheedy",
+        "qokeo",
+        "l",
+        "okeol",
+        "keol",
+        "ar",
+        "lchdy"
+      ],
+      "fixed_forms": [
+        "dain",
+        "otedy",
+        "qokedy",
+        "qokeedy"
+      ]
+    },
+    {
+      "locus": "f108r.49",
+      "raw": [
+        "oteedy",
+        "lchedy",
+        "qokeedy",
+        "qokeedy",
+        "qokeo",
+        "lchedy",
+        "qokey",
+        "qokeey",
+        "lkedy",
+        "lkedy"
+      ],
+      "source_ids": [
+        "ZL3b|f108r.49|G001",
+        "ZL3b|f108r.49|G002",
+        "ZL3b|f108r.49|G003",
+        "ZL3b|f108r.49|G004",
+        "ZL3b|f108r.49|G005",
+        "ZL3b|f108r.49|G006",
+        "ZL3b|f108r.49|G007",
+        "ZL3b|f108r.49|G008",
+        "ZL3b|f108r.49|G009",
+        "ZL3b|f108r.49|G010"
+      ],
+      "production": "U2_COMPONENT_STATE + U1_USE_STATE_TRANSITION",
+      "formula": "KEEP(G,P,P within A); REQUIRE(WORN_STATE(A,W) during USE_EPISODE), twice",
+      "reading": "The grape seed and the two written wing-tip references remain components of the same assembly; the wearing state is required for the bounded use episode.",
+      "new_forms": [
+        "qokeo",
+        "qokeey",
+        "lkedy"
+      ],
+      "fixed_forms": [
+        "oteedy",
+        "lchedy",
+        "qokeedy",
+        "qokey"
+      ]
+    },
+    {
+      "locus": "f108r.50",
+      "raw": [
+        "qokeedy",
+        "lchedy",
+        "lkaiin",
+        "chdy",
+        "qokey",
+        "okedy",
+        "okaram",
+        "chdar",
+        "ar",
+        "okam"
+      ],
+      "source_ids": [
+        "ZL3b|f108r.50|G001",
+        "ZL3b|f108r.50|G002",
+        "ZL3b|f108r.50|G003",
+        "ZL3b|f108r.50|G004",
+        "ZL3b|f108r.50|G005",
+        "ZL3b|f108r.50|G006",
+        "ZL3b|f108r.50|G007",
+        "ZL3b|f108r.50|G008",
+        "ZL3b|f108r.50|G009",
+        "ZL3b|f108r.50|G010"
+      ],
+      "production": "U2_COMPONENT_STATE + U1_USE_STATE_TRANSITION",
+      "formula": "AT_TIME(t_use, USE_STATE(A,W)); LATER(REMOVE(A,W), PRESERVE_ASSEMBLY(A))",
+      "reading": "At t_use the same wing-tip and seed remain in the worn assembly; a later written removal preserves that assembly and its wearer reference.",
+      "new_forms": [
+        "lkaiin",
+        "chdy",
+        "okaram",
+        "chdar",
+        "ar",
+        "okam"
+      ],
+      "fixed_forms": [
+        "qokeedy",
+        "lchedy",
+        "qokey",
+        "okedy"
+      ]
+    }
+  ],
+  "state_ledger": {
+    "before": "Inherited A is assembled, W is its wearer, and protection is only an attributed claim; no health state is initialized.",
+    "remove": "Written l/okeol transition sets WORN_BY(A,W)=false and leaves A,S,G,P identities/contents intact.",
+    "hold": "keol keeps A available without disassembly.",
+    "rewear": "Written lchdy transition sets WORN_BY(A,W)=true for the same W; no automatic rewear is inferred elsewhere.",
+    "benefit": "No physical protection or relief follows from the use state or claim."
+  },
+  "IT_reader": {
+    "status": "INCOMPLETE_IT_READER",
+    "record": {
+      "id": "f108r|f108r.48-f108r.50",
+      "page": "f108r",
+      "leaf": 108,
+      "lines": [
+        {
+          "locus": "f108r.48",
+          "row": 4637,
+          "start": true,
+          "end": false,
+          "words": [
+            "pcheedy",
+            "qokeol",
+            "okeol",
+            "keol",
+            "dain",
+            "ar",
+            "otedy",
+            "qokedy",
+            "qokeedy",
+            "qokeedy",
+            "lchdy"
+          ],
+          "source_ids": [
+            "IT2a|f108r.48|G001",
+            "IT2a|f108r.48|G002",
+            "IT2a|f108r.48|G003",
+            "IT2a|f108r.48|G004",
+            "IT2a|f108r.48|G005",
+            "IT2a|f108r.48|G006",
+            "IT2a|f108r.48|G007",
+            "IT2a|f108r.48|G008",
+            "IT2a|f108r.48|G009",
+            "IT2a|f108r.48|G010",
+            "IT2a|f108r.48|G011"
+          ],
+          "anchor_eligible": true,
+          "offset": 0
+        },
+        {
+          "locus": "f108r.49",
+          "row": 4638,
+          "start": false,
+          "end": false,
+          "words": [
+            "oteedy",
+            "lchedy",
+            "qokeedy",
+            "qokeedy",
+            "qokeo",
+            "lchedy",
+            "qokey",
+            "qokeey",
+            "lkedy",
+            "lkedy"
+          ],
+          "source_ids": [
+            "IT2a|f108r.49|G001",
+            "IT2a|f108r.49|G002",
+            "IT2a|f108r.49|G003",
+            "IT2a|f108r.49|G004",
+            "IT2a|f108r.49|G005",
+            "IT2a|f108r.49|G006",
+            "IT2a|f108r.49|G007",
+            "IT2a|f108r.49|G008",
+            "IT2a|f108r.49|G009",
+            "IT2a|f108r.49|G010"
+          ],
+          "anchor_eligible": true,
+          "offset": 11
+        },
+        {
+          "locus": "f108r.50",
+          "row": 4639,
+          "start": false,
+          "end": true,
+          "words": [
+            "qokeedy",
+            "lchedy",
+            "lkaiin",
+            "chdy",
+            "qokey",
+            "okedy",
+            "okaram",
+            "chdar",
+            "or",
+            "okam"
+          ],
+          "source_ids": [
+            "IT2a|f108r.50|G001",
+            "IT2a|f108r.50|G002",
+            "IT2a|f108r.50|G003",
+            "IT2a|f108r.50|G004",
+            "IT2a|f108r.50|G005",
+            "IT2a|f108r.50|G006",
+            "IT2a|f108r.50|G007",
+            "IT2a|f108r.50|G008",
+            "IT2a|f108r.50|G009",
+            "IT2a|f108r.50|G010"
+          ],
+          "anchor_eligible": true,
+          "offset": 21
+        }
+      ],
+      "groups": 31
+    },
+    "shared_provisional_forms": [
+      "ar",
+      "chdar",
+      "chdy",
+      "dain",
+      "keol",
+      "lchdy",
+      "lchedy",
+      "lkaiin",
+      "lkedy",
+      "okam",
+      "okaram",
+      "okedy",
+      "okeol",
+      "otedy",
+      "oteedy",
+      "pcheedy",
+      "qokedy",
+      "qokeedy",
+      "qokeey",
+      "qokey"
+    ],
+    "reader_specific_unbound_forms": [
+      "or",
+      "qokeol"
+    ],
+    "spacing_or_variant_conflicts": [
+      {
+        "locus": "f108r.48",
+        "ZL": "qokeo l",
+        "IT": "qokeol",
+        "effect": "not normalized; IT one-group surface has no ZL derivation"
+      },
+      {
+        "locus": "f108r.50",
+        "ZL": "ar",
+        "IT": "or",
+        "effect": "not normalized; IT form remains unbound"
+      }
+    ],
+    "binary_options_reference": "BINARY_OPTIONS.json",
+    "semantic_status": "No claim that the ZL derivation transfers to IT; all 31 IT groups remain visible."
+  },
+  "limitations": [
+    "IT has 15 new atomic forms against the 14 cap; therefore this is not a complete two-reader account.",
+    "IT qokeol versus ZL qokeo l and IT or versus ZL ar remain literal reader differences.",
+    "All old binary alternatives remain in BINARY_OPTIONS.json; no binary choice was forced by position.",
+    "The 14 ZL meanings are exposed guesses, not confirmed word values."
+  ]
+}

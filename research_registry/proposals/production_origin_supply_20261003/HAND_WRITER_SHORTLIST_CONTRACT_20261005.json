@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-05T01:27:58.014066+00:00",
+  "candidate": "IDEA000933",
+  "raw_sha256": "d93e05cfb90291e41fb8540b2bfb317037035ed4c421ee923320938c6b6fa7bb",
+  "question": "Can mandatory overlapping shortcuts constrain unbound surface syntax when their literal A/B/C drawings need never occur?",
+  "hypothesis_to_check": "For every finite surface alphabet of size2..25, assign any two distinct observed types to MU=AB and NU=BC; inject all remaining at most23 types into literal D..Z; reserve literal A/B/C as unobserved. Every word then reencodes identically under either left-first or right-first priority.",
+  "scope": "Source-free formal construction. No new Voynich query, native fit, language identification or glyph key. Existing G1 counts are only a conditional applicability limit, not a proved manuscript alphabet.",
+  "proof_obligations": [
+    "All cross-atom boundaries avoid a new AB or BC match",
+    "Both internal shortcut matches survive either scanning order",
+    "Every role and repetition including repeated shortcuts covered",
+    "Both shortcuts may actually occur; their inactivity must not be required",
+    "Retain ABC overlap distinction when literal A/C is bound and observed"
+  ],
+  "checks": "Short direct encoders in each direction plus all words up to length6 over MU,NU and one representative ordinary literal; per-type substitution covers the other ordinary literal labels. Deductive proof, not finite enumeration, carries all-length claim.",
+  "decisions": {
+    "proof_holds": "Do not select933 or scan the corpus solely for legal coverage. A useful continuation needs a justified literal/shortcut binding or explicit source/content distribution; do not require a confirmed word.",
+    "proof_fails": "Record exact boundary countercase; reconsider whether the distinguishing syntax can support a small fixed test before any corpus implementation."
+  },
+  "predecessors": [
+    "GDT608 directed partial composition does not prove a writer",
+    "GDT995 already uses mandatory forward compatibility with supplied literal maps; its nonoverlapping suffix orders remain equal",
+    "GDT883 tests overlapping consumed blocks, not disjoint shortcut consumption",
+    "GDT837/1166 original failures remain"
+  ],
+  "budget_minutes": 15,
+  "assumptions": [
+    "Unbound unrestricted A-Z source spellings",
+    "Observed alphabet size at most25",
+    "Two distinct shortcut drawings, all literals distinct",
+    "No corpus-wide requirement that every literal drawing occurs",
+    "Word boundaries preserved"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "SEALED_FROM_ROOT_READER_UNTIL_READING_SAVED",
+  "id": "IDEA000954",
+  "authorship": "Hand-authored by bounded producer before reader release; no encoder/decoder or statistical run.",
+  "source_message": [
+    "In the past, some person, some person and some vessel inside the entity named Tava Ada shared a location.",
+    "No vessel that is a proper part of the entity named Tava is cold now."
+  ],
+  "clauses": [
+    {
+      "number": 1,
+      "mode": "ASSERT",
+      "time": "PAST_EXISTENTIAL_INTERVAL",
+      "polarity": "POSITIVE",
+      "predicate": "badu",
+      "predicate_meaning": "SHARE_LOCATION",
+      "arity": 3,
+      "arguments": [
+        {"class": "miba", "meaning": "person"},
+        {"class": "miba", "meaning": "person"},
+        {"class": "daka", "meaning": "vessel", "restriction": "IN", "complement": {"kind": "NAME", "literal": "Tava Ada"}}
+      ],
+      "scope": "EXISTS a past interval t and p1,p2,v: PERSON(p1,t) AND PERSON(p2,t) AND VESSEL(v,t) AND INSIDE(v,NAME('Tava Ada'),t) AND SHARE_LOCATION(p1,p2,v,t).",
+      "retained_limits": [
+        "The two person arguments are not forced distinct; no hidden two-person numeral.",
+        "The main relation and the vessel's IN restriction concern the same past reference interval.",
+        "The proper name has one literal interior space. It is not the two names Tava and Ada and is not silently renamed Tava-Ada.",
+        "There is no exact past date or duration and no present shared-location assertion."
+      ]
+    },
+    {
+      "number": 2,
+      "mode": "ASSERT",
+      "time": "PRESENT_REFERENCE_INTERVAL",
+      "polarity": "NEGATIVE_WHOLE_EXISTENTIAL",
+      "predicate": "gaki",
+      "predicate_meaning": "COLD",
+      "arity": 1,
+      "arguments": [
+        {"class": "daka", "meaning": "vessel", "restriction": "PART", "complement": {"kind": "NAME", "literal": "Tava"}}
+      ],
+      "scope": "NOT EXISTS v: VESSEL(v,now) AND PROPER_PART_OF(v,NAME('Tava'),now) AND COLD(v,now).",
+      "retained_limits": [
+        "The relation is proper-part, not inside or ownership.",
+        "This does not assert that there is such a vessel or that every relevant vessel is warm.",
+        "NAME('Tava') is not identified with NAME('Tava Ada').",
+        "No co-reference identifies any vessel with clause1's existential witness."
+      ]
+    }
+  ],
+  "written_group_trace": [
+    {"group": 1, "physical_line": 1, "decoded": "PAST-badu", "obligation": "Three nominal arguments follow."},
+    {"group": 2, "physical_line": 1, "decoded": "miba", "role": "First person-class argument."},
+    {"group": 3, "physical_line": 1, "decoded": "miba", "role": "Second person-class argument."},
+    {"group": 4, "physical_lines": [2,3], "decoded": "daka-IN-NAME(Tava Ada)-CLAUSE_END", "continuation": "Line2 ends after the encoded capital A in Tava A; qo-s pays continuation. Line3 begins with d and a, then NAME_CLOSE and CLAUSE_END."},
+    {"group": 5, "physical_line": 3, "decoded": "NOT-gaki", "obligation": "One nominal argument follows; tense is unmarked present."},
+    {"group": 6, "physical_line": 4, "decoded": "daka-PART-NAME(Tava)-CLAUSE_END", "role": "The whole existential assertion is negated."}
+  ],
+  "name_pair_trace": [
+    {"name": "Tava Ada", "pairs": [["i","r"],["a","a"],["o","a"],["a","a"],["i","cph"],["e","m"],["a","i"],["a","a"]]},
+    {"name": "Tava", "pairs": [["i","r"],["a","a"],["o","a"],["a","a"]]}
+  ],
+  "line_layout": "The first three groups fit line1. The fourth group is overwide and starts fresh: its longest prefix of complete atoms fitting21cells ends after six name characters Tava A; qo-s follows. The remaining suffix fits line3, as does the next short predicate after an ordinary blank. The final complete group starts line4. Layout carries no additional clause or name-space information.",
+  "claim_ceiling": "This source-only manual readability fixture tests the frozen invented contract. It is not a native translation, statistical evaluation or independent historical confirmation."
+}

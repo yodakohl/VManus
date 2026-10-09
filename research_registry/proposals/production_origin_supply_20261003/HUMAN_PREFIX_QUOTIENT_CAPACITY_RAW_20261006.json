@@ -1,0 +1,174 @@
+{
+  "title": "RAW UNREVIEWED: prefix-quotient and short-word capacity for a genuinely nontrivial small letter code",
+  "summary": "A source-free necessary-condition proposal for a fixed prefix-free letter code with at most22 entries, arbitrary finite lengths and possibly shared initial signs. Identity always survives; only a code actually using a multi-sign entry is at issue. Complete-word prefix quotients force further legal code strings and sometimes singleton entries. Two-sign whole remainders propagate non-singleton obligations backward; distinct second signs then yield a codebook-size lower bound. No native application, source values, solver, language or translation is supplied.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_MATHEMATICAL_PROPOSAL_NOT_SELECTED_NOT_EXECUTED",
+  "origin": {
+    "producer": "bounded_idea_supply",
+    "parent_question": "Root proposed the broader shared-initial prefix-code family after the distinct-initial review. The quotient/capacity derivation below is the producer's conceptual work, not a blind data result.",
+    "started_utc": "2026-10-06T12:02:43Z",
+    "inclusive_deadline_utc": "2026-10-06T12:30:00Z",
+    "exposure": "Mandatory live-route reading disclosed its terse1233 outcome. A bounded ideas-search result also returned the1233 status. No1233 report, artifacts, implementation or native counts were inspected; this is openly outcome-aware concept review, not a blinded comparison.",
+    "access": "No native data/image/profile query, source encoding/counting, solver, code experiment, root document edit or publication."
+  },
+  "contract": {
+    "A": "A fixed finite working-unit alphabet, at most22 units in the contemplated application. Its native atomicity is an explicit assumption, not a manuscript conclusion.",
+    "C": "A fixed finite set of distinct nonempty code strings over A, prefix-free. Each represents a distinct source letter. Several codes may share a first working unit; lengths are arbitrary finite positive integers.",
+    "W": "Already bounded complete written groups. Each must be in C*, with source word boundaries preserved. No source word values or language are invented.",
+    "K": "The proposed human alphabet limit is |C|<=22, counting all entries. The necessary conditions below can conservatively count only demanded/used entries.",
+    "nontriviality": "At least one code of length>1 must actually occur in the unique parse of some w in W. An unused long code does not qualify.",
+    "exclusions": [
+      "No empty code, contextual/state-dependent code, optional deletion, null padding, code crossing a complete-word boundary, or secret mode.",
+      "No claim that any derived remainder is an attested standalone native word.",
+      "No claim that a formal source-letter sequence is a grammatical source word."
+    ]
+  },
+  "human_purpose_and_cost": {
+    "purpose": "A short learned writing table may assign simple letters to one sign and some letters to fixed multi-sign spellings; ordinary open source words are spelled compositionally instead of receiving arbitrary whole-word addresses.",
+    "writer": "Given an agreed source alphabet and fixed table C, replace each source letter by its table entry and concatenate within the original source word.",
+    "reader": "Use the prefix-free table from left to right, recovering each source letter without a hidden code-boundary oracle.",
+    "learning": "Learn each source-letter/code pairing and every sign in its code. Total table size is not merely the number of entries; sum of code lengths and lookup effort are also paid. Ordinary language knowledge remains required.",
+    "limits": "This RAW is a capacity contract rather than a completed native or historical writer. Unknown names are spellable only over the agreed source alphabet. Extra source signs, punctuation, physical overwide-word continuation and any additional control alphabet remain outside the present contract and cannot be inserted to rescue its native application."
+  },
+  "identity_objection": {
+    "theorem": "Every finite W over A is covered by the prefix-free identity table C=A.",
+    "consequence": "No lower bound above |A| can apply to all such codebooks. A possible23-entry obstruction concerns ONLY the separately required actually-used multi-sign code. This distinction is part of the proposal, not an after-result change.",
+    "no_assumed_native_result": "No native lower bound, including23, is asserted here."
+  },
+  "quotient_theorem": {
+    "statement": "If u and v=u r are both in C*, then r is in C* for a prefix-free C.",
+    "proof": "The complete decoding of u consists of a sequence of codewords. The decoding of v must use exactly those same initial codewords: at each step, two different possible codewords would be prefix-comparable, forbidden by prefix-freeness. Therefore the position immediately after u is a code boundary in v and the remaining r is a concatenation of complete codewords.",
+    "closure": "Start R with W and repeatedly add every nonempty r such that u,v are in R and v=u r. All resulting strings lie in C* for any compatible C.",
+    "finiteness": "Every added string is a suffix of an original word and is strictly shorter than the v that produced it. The distinct possible nonempty remainders are finite; no code-length cutoff or source dictionary is needed.",
+    "singleton": "If the one-sign string g lies in R, g itself must be a codeword. Prefix-freeness then forbids every longer code beginning with g.",
+    "not_suffix_deletion": "From u and r u in C* one may NOT generally infer r in C*. Example C={a,ba}: a and ba are legal, but b is not.",
+    "prefix_free_not_merely_UD": "C={a,ab} is uniquely decodable, yet a and ab are legal while b is not. Thus this cancellation obligation must not be exported to every uniquely decodable/contextual code."
+  },
+  "exact_constraint_reduction": {
+    "P": "Let P be the nonempty members of the fixed-point R having no proper nonempty prefix in R.",
+    "prefix_free": "P is prefix-free by its definition.",
+    "factorization": "Every r in R lies in P*: choose a shortest member of R that prefixes r. It belongs to P. If it is not all of r, quotient closure supplies a shorter suffix in R; continue by induction.",
+    "equivalence": "For every proposed prefix-free C, W subset C* iff P subset C*. Forward: P subset R subset C* by the quotient theorem. Reverse: W subset P*, so parsing every P-entry suffices.",
+    "limit": "P itself is an available formal prefix code for W, but may be far larger than22 entries and is not thereby a human alphabet or native decipherment. Its role here is an exact constraint reduction, not a free word dictionary.",
+    "unbounded_size_corollary": "If the singleton members of R include every working sign actually occurring in W, all used codes are singleton under EVERY compatible prefix-free codebook, regardless of size. Conversely, if some occurring sign is absent from those singleton remainders, P contains a multi-sign entry; as a derived boundary-aligned suffix it is used in a parse of an original word. Hence a nontrivial code exists when codebook size is unrestricted. The22-entry cap remains a separate problem."
+  },
+  "necessary_cardinality": {
+    "definitions": {
+      "H": "The set of first signs of the nonempty strings in R.",
+      "F": "The set of signs whose one-sign strings occur in R; F is a subset of H.",
+      "T": "A directed edge a->b for each exactly two-sign string ab in R.",
+      "d_h": "Number of distinct second signs among all strings in R beginning with h. For h in F, a one-sign remainder additionally forbids h being a multi-sign-code head.",
+      "candidate_g": "The first sign of an actually used multi-sign code. It must occur somewhere in W, but need NOT be in H.",
+      "N_g": "g and every predecessor reaching g along directed edges of T.",
+      "K_g": "H union {g}."
+    },
+    "base_bound": "|C| >= |H|, because every required first sign needs at least one differently headed code.",
+    "predecessor_rule": "For ab in R, if a is a singleton code then b must also be a singleton code. Contrapositively, if b is not a singleton code, a is not one either. Since a prefix-free table with a multi-sign g-code cannot contain singleton g, every h in N_g is non-singleton.",
+    "impossible_head": "If N_g intersects F, the hypothesized used multi-sign head g is impossible.",
+    "branch_rule": "For each h in N_g, no singleton h is allowed. Two reached strings beginning with h but having different second signs require different h-headed codewords, however long those codes may be. Hence at least max(1,d_h) codes are required for that head; the1 also covers g outside H.",
+    "bound": "For any permitted g: |C| >= |K_g| + sum over h in N_g of (max(1,d_h)-1). Every member of N_g belongs to K_g: proper predecessors occur as first signs of two-sign remainders, while g was explicitly added.",
+    "global_necessary_bound": "Take the minimum of the bound across all possible used multi-sign heads g not already impossible. If no head remains, no used multi-sign code is possible. If that minimum exceeds22, the specified small nontrivial code family is excluded. A value<=22 is only NOT EXCLUDED, never a constructed code.",
+    "missing_inner_boundary_caution": "Considering only heads in H is incomplete: a used multi-sign code can begin after an unobserved earlier code inside a word. The g outside H cases must be retained.",
+    "distinct_initial_corollary": "If H already contains all22 working signs and |C|<=22, then exactly one code begins with each sign. The shared-initial family then reduces to the distinct-initial contract, independently of source-letter labels. No native claim that H has that size is made."
+  },
+  "manual_toy_examples": [
+    {
+      "name": "Quotients force complete identity",
+      "W": [
+        "a",
+        "ab",
+        "ac"
+      ],
+      "deductions": [
+        "a and ab force residual b.",
+        "a and ac force residual c.",
+        "The singleton codes a,b,c are forced; no longer code beginning with one of these signs is possible."
+      ],
+      "conclusion": "No actually used multi-sign code exists over this three-sign alphabet, even if more than three entries were allowed."
+    },
+    {
+      "name": "Shared initials really permit a nontrivial code",
+      "W": [
+        "a",
+        "ba",
+        "bc"
+      ],
+      "codebook": [
+        "a",
+        "ba",
+        "bc"
+      ],
+      "check": "The codebook is prefix-free and covers all three whole strings; ba and bc share the same initial b. This is not a counterexample to a distinct-initial theorem, because it violates that premise.",
+      "bound": "With a used multi-sign b-code, two b branches are mandatory, plus singleton a: at least3 entries, attained by the displayed codebook."
+    },
+    {
+      "name": "A sharp nontrivial lower bound exceeds the identity size",
+      "W": [
+        "aa",
+        "ab",
+        "ba",
+        "bb"
+      ],
+      "identity": [
+        "a",
+        "b"
+      ],
+      "nontrivial_codebook": [
+        "aa",
+        "ab",
+        "ba",
+        "bb"
+      ],
+      "proof": "If either a or b is singleton, the complete two-sign words force the other singleton too, leaving no multi-sign code beginning with either sign. Therefore a nontrivial representation has neither singleton and all four two-sign words must each be a code. The minimum nontrivial size is exactly4, although the identity uses2."
+    },
+    {
+      "name": "Conceptual23 is possible but not assumed for the manuscript",
+      "construction": "Take an invented22-sign alphabet, complete one-sign words for21 signs other than g, and the two complete words gx and gy with x!=y among those21.",
+      "proof": "Every nontrivial used code must begin g; gx and gy must be distinct whole codes. Therefore21 singleton entries plus2 g-headed entries are required, and that23-entry codebook achieves the bound. The identity22-entry code still covers the same words.",
+      "warning": "This is a mathematical teaching construction, not a native dataset or predicted native outcome."
+    }
+  ],
+  "retained_priors": [
+    {
+      "id": "IP076",
+      "primary": "docs/IDEA_BACKLOG.md:2048",
+      "relation": "The reserved-prefix/direct-code architecture already motivates prefix segmentation. Its missing source table is not newly discovered. This proposal asks for necessary capacity of an arbitrary-length class before any source-value fit, not a new claim that prefix coding itself is novel."
+    },
+    {
+      "id": "GDT892",
+      "primary": "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/METHOD.md",
+      "relation": "The length1/2 CV code already used a global singleton-initial set and counted single plus observed double codes. That is the closest finite-length predecessor. The present quotient and branch implications remain necessary without a length1/2 restriction and without the old source grammar.",
+      "original_stop": "INSUFFICIENT_ELIGIBLE_SENTENCES; not a passed control or general prefix-code exclusion.",
+      "later_primaries_read": [
+        "experiments/yolo/gdt895_simon_complete_entry_cv_code/REPORT.md",
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md"
+      ],
+      "later_stops": "The fixed complete Simon-entry law and the fixed905 Latin grammar/key space remain closed. No source words, paragraph assignments, old keys or additional solver runtime are reused."
+    },
+    {
+      "id": "GDT856",
+      "primary": "experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md",
+      "relation": "The old98-unit BPE vocabulary has its CE collision. This proposal does not treat that vocabulary as a codebook or rerun its UD test. Prefix-freeness is a stronger declared premise than free UD."
+    },
+    {
+      "id": "GDT984 / GDT1168",
+      "primaries": [
+        "experiments/yolo/gdt984_name_code_remainder_prefix_capacity/METHOD.md",
+        "experiments/yolo/gdt1168_interval_unknown_completion/REPORT.md"
+      ],
+      "relation": "Source-bound prefix-incomparability and old unresolved whole-code searches are substantial prior work. Their fixed source assignments and runtime-only reopening remain untouched."
+    },
+    {
+      "id": "GDT1233",
+      "primary_review_boundary": "Only the root-proposed contract and producer's own HUMAN_FIXED_HEAD_APPENDAGE_CONTRACT_REVIEW_20261006.json were reviewed in detail. The route/search outcome was exposed, but no new result artifact was opened.",
+      "difference": "The new proposed class allows multiple codewords with the same initial sign. The identity exception and actual-use criterion are kept. A later application must inspect1233's full primary before claiming a distinct selected test."
+    }
+  ],
+  "duplicate_review": "Bounded ideas search/duplicates, route-check and targeted primary/followup review performed. No identical prefix-quotient/cardinality application was established by those limited searches; no claim of exhaustive archival absence or novelty of the underlying mathematics.",
+  "selection_boundary": {
+    "smallest_action": "If root independently selects this question, derive only replayable prefix-quotient and short-word/head certificates on a fixed already-admitted complete-word packet. No source dictionary, native value assignment or full code-fitting program is needed for the necessary bound.",
+    "negative": "A verified bound greater than22 or forced identity excludes only the declared nontrivial prefix-free, word-preserving, fixed-working-unit channel.",
+    "positive": "A bound at most22 leaves compatibility unresolved. It neither constructs a writer nor gives a phonetic alphabet, lexical meaning, language or historical identity.",
+    "practical_limit": "The class is only one plausible low-table orthography. Non-prefix uniquely decodable codes, context-dependent spellings, different physical atoms, unequal source/output word boundaries and linguistic shorthand are outside the contract; none is automatically selected as a repair."
+  }
+}

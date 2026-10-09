@@ -1,0 +1,235 @@
+{
+  "status": "PASS_SOURCE_FREE_SCOPE_DEMONSTRATION",
+  "inherited_identity_receipts": {
+    "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/MATRICES.json": "81545bfaad1db4cba641edd03a21d8fa3bbb406aa49d8e4d927357298d32dc37",
+    "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/CERTIFICATES.json": "9b1f7c452231ba19002f35ecb1a5698d12cb00a08c4283efd6b29f6c47bc90f2",
+    "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/RESULT.json": "62d8fe631df77deb1a71bd1b6381d53e4db0fac41129c2e48ab1c97520648425",
+    "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/VALIDATION.json": "40dd5c06cb3e71e8231f131af27bba0c7143d0322942c42cbd4b4414f497d250"
+  },
+  "two_state_corollary": "Every permutation of two states is identity or swap; fixed symbol maps therefore give a C2 additive counter. GDT1286forces every swap bit zero under its same paragraph assumptions.",
+  "toy_symbols_are_not_native_values": true,
+  "toy_words": [
+    "AA",
+    "B",
+    "BB",
+    "ABABA"
+  ],
+  "three_state_maps": {
+    "A": [
+      1,
+      0,
+      2
+    ],
+    "B": [
+      0,
+      2,
+      1
+    ]
+  },
+  "traces_from_zero": {
+    "AA": [
+      0,
+      1,
+      0
+    ],
+    "B": [
+      0,
+      0
+    ],
+    "BB": [
+      0,
+      0,
+      0
+    ],
+    "ABABA": [
+      0,
+      1,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  "complete_actions": {
+    "AA": [
+      0,
+      1,
+      2
+    ],
+    "B": [
+      0,
+      2,
+      1
+    ],
+    "BB": [
+      0,
+      1,
+      2
+    ],
+    "ABABA": [
+      0,
+      2,
+      1
+    ]
+  },
+  "noncommuting_AB_BA_endpoints": [
+    2,
+    1
+  ],
+  "augmented_toy_counts": [
+    [
+      2,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      2,
+      -1
+    ],
+    [
+      3,
+      2,
+      -1
+    ]
+  ],
+  "integer_left_inverse": [
+    [
+      -1,
+      2,
+      -2,
+      1
+    ],
+    [
+      0,
+      -1,
+      1,
+      0
+    ],
+    [
+      0,
+      -2,
+      1,
+      0
+    ]
+  ],
+  "toy_two_state_cases": [
+    {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "start": 0,
+      "common_endpoint": true,
+      "nontrivial_orbit": false
+    },
+    {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "start": 1,
+      "common_endpoint": true,
+      "nontrivial_orbit": false
+    },
+    {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "start": 0,
+      "common_endpoint": false,
+      "nontrivial_orbit": true
+    },
+    {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "start": 1,
+      "common_endpoint": false,
+      "nontrivial_orbit": true
+    },
+    {
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "start": 0,
+      "common_endpoint": false,
+      "nontrivial_orbit": true
+    },
+    {
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "start": 1,
+      "common_endpoint": false,
+      "nontrivial_orbit": true
+    },
+    {
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "start": 0,
+      "common_endpoint": false,
+      "nontrivial_orbit": true
+    },
+    {
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "start": 1,
+      "common_endpoint": false,
+      "nontrivial_orbit": true
+    }
+  ],
+  "limits": [
+    "No native3state search or fit",
+    "Not a full information-preserving encoder",
+    "No glyph/word meanings",
+    "Actual paragraph flags and22working-unit assumptions inherited",
+    "Noninvertible maps are not excluded by the two-state corollary",
+    "GDT885physical-line3state failure and903large-line witness remain unchanged"
+  ]
+}

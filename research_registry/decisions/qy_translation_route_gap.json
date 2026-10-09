@@ -1,0 +1,53 @@
+{
+  "status": "NO_NEW_TRANSLATION_ROUTE_ADDED",
+  "added_ids": [],
+  "screened": [
+    {
+      "route": "qokaldy text-internal self-correction/reference",
+      "observation": {
+        "path": "experiments/yolo/gdt798_qokaldy_complete_whole_paragraph_discriminator/REPORT.md",
+        "line": 15,
+        "line_end": 22,
+        "quote": "Weder `davon` noch `Heilmittel` ist hier ein entschlüsseltes Wort. `davon` ist\ndie knappste Referenzlesung für eine vollständige Form, die nur textintern\nvorkommt, an verschiedenen Positionen innerhalb der Zeile steht, in einem\nkurzen Absatz möglicherweise wiederaufgenommen wird und einmal direkt nach\nkomplettem `okaldy` steht. Dieselben Beobachtungen passen jedoch fast ebenso gut\nzu einem wandernden Inhaltswort `Heilmittel`. Die zehn Rendererzellen zeigen\ndeshalb bewusst `⟦qokaldy:davon?/Heilmittel?⟧`. `davon` steht nur redaktionell\nzuerst; es besitzt keinen Evidenzvorrang.",
+        "sha256": "cdaad700d5d31e542b636e12ccb9342c96b8caf8eb0228e21dedf57ad77d6e10"
+      },
+      "nearest": [
+        "GDT798",
+        "IDEA000054"
+      ],
+      "disposition": "same text-internal reference family; ten cells already retain reference/content rival, and a reformulation label would not create a new falsifier."
+    },
+    {
+      "route": "panel label/prose function-preserving paraphrase",
+      "observation": {
+        "path": "experiments/yolo/gdt790_panel_owner_image_grammar_overlay/REPORT.md",
+        "line": 5,
+        "line_end": 25,
+        "quote": "**The image grammar fits as an additional owner layer and does not conflict\nwith the surviving text model.** GDT790 assigns all 123 prose lines on f77r,\nf82r and f83r to thirteen paragraph records under ten visible image panels,\nwhile leaving every token and all H1–H4/whole-word/bounded-field structures\nunchanged.\n\nThe selected model is `PANEL_OWNER_WITH_EXACT_LOCAL_LABEL_REFERENCES`:\n\n```text\nPAGE\n└── IMAGE PANEL = silent owner/topic\n    └── PARAGRAPH RECORD\n        ├── line-head tendency (H1–H4 or open)\n        ├── bounded field such as X daiin\n        ├── exact local label reference\n        └── open complete forms\n```\n\nThis is not a translation. It is a more informative renderer and a concrete\nroute toward meaning: the prose is no longer ownerless, but the picture is not\npretended to decode every word.",
+        "sha256": "c613d9869015e996ed6e8a33463a041a453e468f439ce78c4fdaa54a0bbe0ee3"
+      },
+      "nearest": [
+        "GDT790",
+        "IDEA000054",
+        "GDT878"
+      ],
+      "disposition": "existing panel-owner model already states exact local label references while preserving text; no independent paraphrase or changed semantic commitment is recorded."
+    },
+    {
+      "route": "descriptive-versus-prescriptive mixed channel",
+      "observation": {
+        "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 16,
+        "quote": "Die historische Brücke ist real, aber sie liegt **eine Ebene höher als ein\nWörterbuchgleichnis**. Spätmittelalterliche pharmazeutische Handschriften\nbelegen zwei komplementäre Recordtypen:\n\n1. **deskriptiv:** gelernter Drogenname oder Lemma, optional Pflanzenteil oder\n   Stoffform, Qualität/Zustand und Grad;\n2. **präskriptiv:** Befehl, benannte Zutat oder Zubereitung, gebundene Menge,\n   Einheit und Prozess/Produkt.\n\nDer beste historische Arbeitsrahmen ist deshalb ein gemischtes System aus\ngelernten Ganzformen und gebundenen Fachfeldern, das beide Recordtypen getrennt\nhält. Das ist eine bessere Architektur als ein flaches Wort-für-Wort-Lexikon.",
+        "sha256": "934a3cda39d4c1f069778d789d3c7db2dfe1f54a26f343e3bd610fd53936e141"
+      },
+      "nearest": [
+        "GDT735",
+        "IDEA000092"
+      ],
+      "disposition": "same historical channel architecture; a new raw card would only rename the existing descriptive/prescriptive distinction."
+    }
+  ],
+  "scope_note": "No candidate supplied a genuinely new observable and incompatible semantic rival after bounded duplicate screening. The first two have concrete source observations but remain existing routes; the third is an authored historical architecture, not an independent binding. No registry mutation, review, ledger, route or experiment change."
+}

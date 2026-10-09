@@ -1,0 +1,11 @@
+# GDT1294 preregistration: one line, three qoky sequences
+
+Decisionquestion: does the original image support an internal-like or space-like gap before embeddedqoky in qoteytyqoky, compared with two same-line standaloneqoky sequences? All3readersagreegroup9joined; grouping is a source premise of1293, not an independentlyverifiedlinguisticword. qoteytywholecount0allreaders; qoky135ZL/138IT/124RF across64/67/63selectors, nosupportedwordmeaning. Wholelongform1eachreaderonephysicalsite. Do notpoolstandalone/embeddedcounts.
+
+Knowntextf82v.12: dal shol dar ol [gap] qoky qol chedy qokar qoteytyqoky chcthy qoky. RFfirstgroup@152;al; earlierol|qoky seamUNCERTAIN_SMALL_SPACEinZL,DEFINITEinIT/RF. Targetgroup9outerseamsDEFINITEall3. Sourceflagsplace12as eighthPline(start5), secondlineofownmarked11–14paragraph. No labelcount used asprosecount. Older663inventedsemanticrenderingisfrozenhistory,notreading.852/1056precedents physicalspacingcontrastnotmorphemeproof;1252localizationcorrectionwarnsagainstassuminglocusfromlinecountalone.
+
+Smallesttest: onehashrecordedofficialoriginaloverview,thenonecropofline12withneighbors. Locatebothbylineorderandcompleteflanks. Scoretarget y|q seam SPACE_LIKE, INTERNAL_LIKE orUNRESOLVED againstgroup8|9 and9|10externalgaps, group10|11standaloneqokygap, earliergroup4|5gap, andq-to-o/otherinternalgaps. Recordearlieruncertaintymixedreaders ratherthanusingitasfixedtruth. Do notfitapixelthreshold orchangeclassificationafteranotherzoom. Iflocalizationunclear,stopUNRESOLVEDwithoutsubstitutingsite.
+
+SPACE_LIKE weakensphysicaljoinpremiseatthissitewithoutoverwritingtranscriptions. INTERNAL_LIKE supportslocalwrittenjoinbutnotonewordmeaning/constituentidentity. UNRESOLVEDleavespremiseconditional. Alloutcomesretain1293exactpanelresult; otherqcountergroupsremain. No newcarrier, omissionofcounterexamples, compoundvalueortranslation follows. Recordsamplingispost1293/exposed/informed,notblindconfirmation.
+
+Assumptions: officialsourceidentity,exactlocuslocalization, falliblequalitativegapjudgment anduncertainrelationshipofvisiblegaps tolinguisticwords. Existingstructuralcompositionpositive608doesnotassignconstituents. Budget20minutesincludingpreparation,view,record,checksandlocalclosurethrough03:44UTC;timingistargetnotmeasuredclaim. Tenhourblock00:26:04–10:26:04UTCcontinues.

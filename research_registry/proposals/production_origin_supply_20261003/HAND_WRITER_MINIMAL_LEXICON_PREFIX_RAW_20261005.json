@@ -1,0 +1,60 @@
+{
+  "title": "RAW UNREVIEWED: deterministic shortest distinguishing stem prefixes replace independently assigned whole-stem codes",
+  "summary": "An invented teaching module, not a historical claim or Voynich reading. A frozen list of ordinary written stems determines every abbreviated root: write its shortest nonempty distinguishing prefix, using an explicit end marker where one stem prefixes another. Unknown stems are fully spelled through a marked literal branch. One general spelling key replaces freely assigned output strings for individual stems; the full shared lexicon and its learning cost remain explicit.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "source_status": "INVENTED_TEACHING_MODULE_NO_NEW_HISTORICAL_SOURCE",
+  "design": {
+    "purpose": "Offer a concrete alternative to assigning an unrelated cipher word to every basic concept. This is a lexical spelling module; it does not supply a new semantic grammar, pronounce a source language correct, or resolve b6.7 pronouns.",
+    "inputs": [
+      "A finite public lexicon L of nonempty canonical written stems over A-Z and underscore, fixed before writing a message.",
+      "Exactly one canonical stem spelling per intended lexical entry. Homographs with different meanings are not disambiguated by this module; the surrounding independently specified message grammar must preserve that ambiguity or encode a distinction.",
+      "The same general alphabetic carrier and two distinct structural markers for every stem. There is no per-stem output table or per-message expansion table."
+    ],
+    "lexical_encoder": [
+      "Append an abstract END character to each member of L, and form the finite spelling trie of these terminated strings.",
+      "For a stem w in L, take the shortest NONEMPTY prefix p of w+END that prefixes exactly one terminated member of L. Output the shared letter encoding of p. END is written if the distinguishing prefix reaches it.",
+      "For a stem w outside L, output LITERAL followed by its complete shared letter encoding and END. A known member of L must not take this literal branch.",
+      "Do not update L during a message, insert guessed stems after seeing an output, or change earlier codes. A revised lexicon is a separately declared teaching edition, not an unmarked context switch."
+    ],
+    "lexical_decoder": [
+      "If the group starts with LITERAL, read complete letter units up to END; reject malformed units and a literal output whose stem is already in L.",
+      "Otherwise traverse the shared spelling trie until exactly one lexicon entry remains. Its full canonical spelling is the decoded stem. Require that the written prefix is the shortest allowed one; extra or omitted letters reject canonical decoding.",
+      "In an existing root-plus-inflection writer, apply this module only to its explicitly delimited root field. Inflections, syntactic operators, source order and references remain in that writer and must still be transmitted. This card does not silently invent that surrounding writer."
+    ],
+    "fully_specified_teaching_carrier": {
+      "scope": "Only a reproducible illustrative surface realization, not an asserted native alphabet or a selected manuscript candidate.",
+      "data_signs_in_order": ["a", "e", "i", "o", "r", "y"],
+      "source_characters_in_order": "ABCDEFGHIJKLMNOPQRSTUVWXYZ_",
+      "letter_law": "For zero-based source-character index j, write data_signs[floor(j/6)] followed by data_signs[j mod 6]. Thus all27 source characters have fixed two-sign encodings, without a per-word choice.",
+      "end_sign": "d",
+      "literal_sign": "k",
+      "learning_cost": "Six ordered data drawings, the normal27-character source alphabet arranged in a6-column table, two control drawings, the entire frozen lexical list, and two prefix/literal rules. This is not zero-cost vocabulary knowledge.",
+      "glyph_scope": "Only already familiar transcription-designated shapes are used as artificial marks. Their assignment is an invented demonstration; no native atomic identity, sound, gloss or Voynich whole-form value is claimed.",
+      "limits": "The two-sign carrier may erase any compression benefit and requires at least two signs for an ordinary known root. It cannot itself account for all native one-sign groups if those are bound as complete roots. It is not proposed as a successful full-manuscript writer, and no after-the-fact carrier repair is authorized."
+    },
+    "small_hand_example": {
+      "lexicon": ["BILD", "BLUT", "BROT", "EI", "EIS", "SALZ"],
+      "prefixes_before_surface_encoding": {"BILD": "BI", "BLUT": "BL", "BROT": "BR", "EI": "EI<END>", "EIS": "EIS", "SALZ": "S"},
+      "new_stem": "WURZ is not in this teaching lexicon, so write LITERAL + the complete WURZ spelling + END; do not guess an expansion from W.",
+      "one_character_input": "A, absent from L, is LITERAL + its single complete letter unit + END. A future independent lexicon edition containing A still follows the same shortest-prefix rule.",
+      "repetitions": "Identical stems produce identical outputs. Repeated letters are neither dropped nor turned into copy commands. Two consecutive identical stems are written twice.",
+      "line_handling": "Wrap between complete encoded stem groups. A physical line boundary changes neither L nor the alphabetic key; no hidden state or automatic reset is introduced.",
+      "claim": "These are ordinary German teaching strings, not proposed readings of manuscript forms. No generated output was queried against Voynich data."
+    },
+    "necessary_different_consequence": "With L and the spelling key fixed, every root code is forced. Two stems whose last common prefix has length h require distinguishing prefixes of at least h+1 source units, except that the shorter word can terminate with END. Unrelated per-stem code assignment need not obey this shared spelling constraint.",
+    "smallest_falsifier": "Present the learner with the frozen six-stem list, one ordinary new literal stem and an altered or ambiguous abbreviation. The unchanged rule must recover every legal full spelling and reject the malformed prefix without a private answer table. For a later corpus proposal, freeze a real lexical inventory, input reading and output key first; a required non-prefix spelling or unmarked collision falsifies that exact conjunction.",
+    "strong_counterexample": "Adding BLATT to the teaching vocabulary invalidates the former BL abbreviation of BLUT. Therefore unfamiliar words must use the literal branch and the dictionary must not silently grow. Shortest-prefix compression also preserves homographic ambiguity and may yield poor native length/frequency distributions; it is not a meaning-recovery method.",
+    "message_information_account": "The reader needs the entire shared list of ordinary stem spellings. Supplying only short prefixes and hiding the list would discard information. A b6.7-only lexical list is a message-conditioned codebook whose acquisition and size must be charged, not called an independent language lexicon.",
+    "statistical_claim": "None measured. The design predicts variable root lengths from lexicon collisions and exact reuse across inflections, but does not claim to match the manuscript's frequency tail, positional asymmetries or whole-form residuals.",
+    "learning_comparison": "Compared with N freely chosen whole-stem codes, the learner still knows N stem meanings/spellings but need not memorize N unrelated output assignments. The alphabetic key, lexicon coverage and surrounding inflection grammar remain paid. This changes the kind of freedom, not a demonstrated total description-length improvement."
+  },
+  "predecessors_and_retained_limits": [
+    {"id": "IDEA000864", "primary": "research_registry/decisions/idea864_whole_lexical_design_20261002.md", "difference": "A related lexical contraction family, not an exact predecessor of the compulsory shortest-distinguishing-prefix algorithm. The owned source sometimes omits case endings, so no universal ending-preservation claim is inherited. This artificial design does not reopen the missing target construction."},
+    {"id": "IDEA000905", "primary": "research_registry/proposals/production_origin_supply_20261003/BARTOLOMEO_RECURSIVE_DIGEST_REVIEW.md", "later_primary": "research_registry/proposals/production_origin_supply_20261003/VAT3677_F17V_BP_COUNTERREAD.md", "difference": "Bartolomeo concatenates ordered child cues into higher digests; here one fixed lexical trie determines the shortest uniquely invertible spelling of one stem. The old source p/b mismatch and unbound target hierarchy remain."},
+    {"id": "IDEA000927", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_PREFIX_C4_RAW_20261004.json", "difference": "927 copies letters from the immediately previous word and has repetition restrictions. This module is stateless across words and looks up a frozen lexical spelling; it neither changes nor repairs927."},
+    {"id": "IDEA000933", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SHORTLIST_CONTRACT_20261005.json", "difference": "933 is mandatory local substring shorthand with free source/key coverage. This module has no individually chosen shortcuts: prefixes follow the fixed lexicon and source spelling. Unbound legal coverage is still not evidence; all933 failures and its nonidentifiability proof remain."}
+  ],
+  "duplicate_screen": "Read current route/composition topic; bounded searches, route-check, ideas show864/905/933 and targeted primaries; targeted duplicates before add. Related families found, no exact mandatory shortest-unique-lexicon-prefix contract established by that bounded review. This is not an exhaustive novelty claim.",
+  "access_and_ownership": "No new source, image, Voynich query, reserve, experiment, root-file change, publication or subagent. Only this unique proposal and ideas-add records are written. RAW remains explicitly unreviewed and carries no test priority."
+}

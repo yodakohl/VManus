@@ -1,0 +1,58 @@
+{
+  "status": "SOURCE_FREE_FORMULA_REVIEW_VALID_WITH_FROZEN_ESTIMANDS",
+  "ownership": "Root proposed1264's binary-class interior alternation screen. bounded_idea_supply checked the expectation, MaxCut identity and protocol pitfalls without opening word payloads, constructing a graph, selecting classes or evaluating scores.",
+  "word_processing": [
+    "Parse each retained complete group into the same declared working units. Remove exactly its first and last UNIT, not its first and last ASCII character. Keep the interior only when its length n is at least3.",
+    "No adjacency crosses a complete-group boundary. The original whole-form identity and physical leaf stay attached to each retained interior occurrence.",
+    "For a fixed binary class map, let A and B be the interior counts of its two classes, with A+B=n. Let O be the number of adjacent interior positions with different classes."
+  ],
+  "expectation_proof": [
+    "Under a uniform permutation of the n interior token positions, a given adjacent ordered pair is A then B with probability (A/n)*(B/(n-1)), and B then A with the same probability.",
+    "Summing this2AB/[n(n-1)] probability over the n-1 adjacent positions gives E[O]=2AB/n.",
+    "The same result holds when distinct orders of the UNIT multiset are sampled uniformly: each such order has the same number of labelled-token permutations. There is no independence assumption between neighboring edges.",
+    "For two different working units u and v with interior multiplicities c_u,c_v, the expected number of UNORDERED u-v adjacencies is2*c_u*c_v/n. A self-pair u,u can never cross a binary cut and is omitted from the cut graph."
+  ],
+  "maxcut_identity": {
+    "weights": "For each unordered pair u<v, define W_uv as the sum over TRAIN occurrences of observed u-v adjacency count minus2*c_u*c_v/n.",
+    "score": "For binary labels z_u, sum over u<v of W_uv*1[z_u!=z_v] equals exactly sum over TRAIN occurrences of (O-2AB/n), before weight rounding.",
+    "reason": "The observed contribution counts each crossed adjacency once. For a fixed group, summing2*c_u*c_v/n over pairs in opposite classes gives2AB/n. No diagonal or second copy of a symmetric edge is added.",
+    "signed_weights": "Weights may be negative. This is a signed weighted MaxCut objective, not a maximum over positive edges only.",
+    "complement": "Complementing every label leaves the objective unchanged. Fixing one declared working-unit label to0 removes only this symmetry and leaves2^21 assignments for a22-unit alphabet, before any separately declared nontriviality exclusion."
+  },
+  "hand_checks": [
+    {"interior": "ABA", "class_counts": [2,1], "observed_crossings": 2, "expected_crossings": "4/3", "excess": "2/3"},
+    {"interior": "AAB", "class_counts": [2,1], "observed_crossings": 1, "expected_crossings": "4/3", "excess": "-1/3"},
+    {"interior": "ABAB", "class_counts": [2,2], "observed_crossings": 3, "expected_crossings": 2, "excess": 1},
+    {"interior": "AABB", "class_counts": [2,2], "observed_crossings": 1, "expected_crossings": 2, "excess": -1}
+  ],
+  "rounding_and_exact_search": [
+    "Round each COMPLETE aggregated W_uv once to the predeclared10^-6count grid. Rounding individual words first creates a different objective and an error which can accumulate with the number of words.",
+    "Fix the exact half-way rounding convention, unit order, complement anchor and tie-breaking rule before search. Rational accumulation is possible because each expectation term is rational. Floating accumulation followed by nominal decimal rounding must not be described as an exact rational objective without its numerical qualification.",
+    "Search and compare scaled signed integer weights exactly, with a checked integer range. The selected partition is an exact maximizer of the ROUNDED objective, not automatically of the unrounded one.",
+    "For22units a cut crosses at most11*11=121unordered pairs. Nearest rounding to10^-6changes any cut's unrounded aggregate score by at most0.0000605 count; choosing a rounded maximizer loses at most0.000121 count against an unrounded maximizer. Tiny training-score differences can still select different partitions, so freeze tie resolution without consulting TEST.",
+    "Retain the selected mask, rounded optimum and its directly reconstructed unrounded TRAIN score. A positive optimized TRAIN value is not independent evidence: the partition was selected to maximize it."
+  ],
+  "nontriviality_and_unseen_units": [
+    "The all-one-class cut has score0 and is a useful null baseline. If it is excluded, require and declare both classes to contain TRAIN-active units; merely assigning an unused alphabet label to a second class does not create a trained contrast.",
+    "A unit absent from TRAIN has no informed class preference. Its frozen assignment may follow the declared tie rule, but TEST occurrences of such units must not be presented as learned class evidence. No relabeling from TEST is allowed.",
+    "An optimal class split can be highly unbalanced. A minimum class size or a requirement of phonological balance would change the model and cannot be added after seeing the split.",
+    "Do not infer vowels, consonants, source letters or meanings from the two classes. Labels0/1 are exchangeable descriptions of this adjacency objective."
+  ],
+  "train_test_and_reporting": [
+    "Use the prospectively fixed odd/even PHYSICAL leaf partition; recto/verso or selector strings must not be mistaken for separate leaves. Both sides of a leaf belong to the same partition. Existing project exposure remains disclosed.",
+    "Apply the frozen class mask to TEST; no refit, complement relabeling for interpretability, threshold search or third class is introduced from the result.",
+    "Define an unseen whole form by the original complete group before trimming. A novel whole form may share an already observed interior string with a different TRAIN form. Such a result concerns new complete forms, not necessarily unseen interior sequences, morphemes or semantic combinations.",
+    "Preserve repeated occurrences according to the declared population. Do not silently replace token weighting with distinct-type weighting in only one arm.",
+    "The proposed TRAIN objective is a pooled sum of crossing EXCESS COUNTS. An equal-leaf TEST mean is a different weighting. Freeze the leaf-level numerator and denominator explicitly; for example (sum O-sum E)/sum(n-1) is an edge-normalized leaf excess, whereas the mean of per-word excess rates is a different estimand. Neither may replace the other after observing results.",
+    "Fix treatment of leaves with no eligible interiors or no unseen forms before scoring. They have no defined conditional mean for that subset; do not use a favorable denominator or silently fill a missing score with zero.",
+    "Whole TEST and unseen-whole-form TEST are related endpoints. Report both with their declared population and equal-leaf policy, without choosing the better one as a replacement primary result.",
+    "Specify whether a primary-reader cut transfers unchanged to other readers or each reader has its own TRAIN fit. Do not pool alternative transcriptions as independent training/confirmation samples."
+  ],
+  "interpretation_ceiling": [
+    "The test asks whether one fixed binary coarsening captures a transferable preference for cross-class interior adjacency beyond each word's own class inventory. It is not a new discovery that native within-word dependencies exist.",
+    "Observed-minus-expected crossings are not an information-theoretic fraction of total Markov dependence. Calling the labels one bit does not by itself define compression savings, an H2reduction or a predictive coding rate. Those would require a separately specified probabilistic/coding model and its costs.",
+    "Removing the exterior units does not remove every position effect, lexical family, word-template, copy or graphotactic dependence. A transferred split does not identify the cause of the preference.",
+    "No strict alternation law is asserted; same-class edges are allowed. No permutation reference distribution, p-value, independent reserve confirmation or semantic result follows from this expectation identity alone.",
+    "No data, graph weights, learned cut, test score, source language or new scientific selection is supplied by this producer review. Root owns the proposal, predecessor comparison, preregistration and any1264execution."
+  ]
+}

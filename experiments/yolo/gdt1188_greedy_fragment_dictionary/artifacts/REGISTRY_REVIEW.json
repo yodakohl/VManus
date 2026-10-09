@@ -1,0 +1,64 @@
+{
+  "record_id": "GDT1188",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_greedy_dictionary",
+  "assessment_basis": "Nine fixed complete writers, all4source invariant checks and exact full-source inverse",
+  "reason": "No candidate passes all necessary conditions; dense rank codes produce similarity but insufficient diversity and unsuitable length distribution.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "H variants fail source diversity/length-TV; R/T variants fail necessary word statistics.",
+      "evidence": [
+        "experiments/yolo/gdt1188_greedy_fragment_dictionary/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_code_allocation",
+        "change": "new_design",
+        "detail": "Different fixed meaningful table allocation tested across all4source books with original basic criteria and tight edit1.",
+        "evidence": [
+          "experiments/yolo/gdt1188_greedy_fragment_dictionary/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Relaxing small misses",
+      "Selecting a partial edit1 pass"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1179",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1188_greedy_fragment_dictionary/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1184",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1188_greedy_fragment_dictionary/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1186",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1188_greedy_fragment_dictionary/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1187",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1188_greedy_fragment_dictionary/REPORT.md"
+      ]
+    }
+  ]
+}

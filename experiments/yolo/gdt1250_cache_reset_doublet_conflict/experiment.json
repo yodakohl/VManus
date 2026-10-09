@@ -1,0 +1,141 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional exact-transcription and projected-paragraph contradiction only; no semantics, actual historical resets, general cache rejection or native image confirmation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1250_cache_reset_doublet_conflict/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1250_cache_reset_doublet_conflict/src/validate.py"
+  },
+  "created": "2026-10-07",
+  "dependencies": [
+    "GDT1170",
+    "GDT1073",
+    "GDT1074"
+  ],
+  "experiment_id": "GDT1250",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "sha256": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be",
+      "role": "frozen existing source or scope"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARD.json",
+      "sha256": "d6d3b2adc536fea7ed700f48d6417694c0d8e81928ff1c2c9aada998f7fa7656",
+      "role": "frozen existing source or scope"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "frozen existing source or scope"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+      "role": "frozen existing source or scope"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/.gitignore",
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/METHOD.md",
+      "sha256": "8fadc6c901ddef76126ae7cc1100d9d162a38e38e86195a32e46a972b9025a57",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/PREREGISTRATION.md",
+      "sha256": "74baf66be77dcca3d881b0170a94ef5adff9be451d6af39b80cc35ad9c5d435a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/README.md",
+      "sha256": "00059b3a38ae924661e8d9d64f01d5b69b3ecc65afdc767969741cd9869c8343",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/REPORT.md",
+      "sha256": "2241a85483b34286f2aad8e3fd064b5a4da0338471b916c9cd4e5bc87692f58e",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/EVENTS.json",
+      "sha256": "18a614e7d2296aab5ad7178dd120d6bfd13a585da47787aca38572fef2f3e58e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/IDEA_REVIEW.json",
+      "sha256": "3a0bc6503c385bb95fcbe674d50ac608cdd9a1d52b8c791440652252222668e3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/METADATA.tsv",
+      "sha256": "a58008a4312b0745bed58b2902a425ca7c5001d5e073999571d90094c2a6a7d6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/METADATA_RECEIPT.json",
+      "sha256": "64efafe85a90d29fff4ffaf7d15605f3c048040b09fa44f54471921e4b7594b3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/RESULT.json",
+      "sha256": "4fe61ae1b9d67fa6e43437570946d9fac52133b0faa73ce693d36e2ec02bc036",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/VALIDATION.json",
+      "sha256": "6622e233cea8b7e6dad89d8bf1ee904d3ba79e4821080253a7d89c7927c579d5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/WITNESSES.json",
+      "sha256": "82280ba392be50b2d5005ff0306360b476c1ac7f55aa93771dc2b0e724bc7fe7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/src/REGISTRATION_LOCK.json",
+      "sha256": "d503b777eff1bea8031bfa9e6aaf79545143e44a0663bba6ad658cf3a3f0a9f0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/src/SPEC.json",
+      "sha256": "af77bb0efe41d8c5d871d7b7a1a69e70f1d163ac737258a02b246818cebcdad8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/src/run.py",
+      "sha256": "9826f2f3af36fddd249fbd0ab651c493310a963b201006bc8847dceb498df7b6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/src/validate.py",
+      "sha256": "f3907c0e6469ab1b0d487ade25474868987daae5b4084e3bab07826090134bad",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can a mandatory whole-word cache with disjoint literal/reference forms and empty consensus paragraph resets account for both strict doublets and paragraph-initial whole forms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cache_reset_doublet_conflict",
+  "status": "DISJOINT_RESET_CACHE_CONTRADICTED",
+  "title": "Mandatory cache doublets versus empty paragraph starts",
+  "updated": "2026-10-07",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1250_cache_reset_doublet_conflict/artifacts/VALIDATION.json"
+  }
+}

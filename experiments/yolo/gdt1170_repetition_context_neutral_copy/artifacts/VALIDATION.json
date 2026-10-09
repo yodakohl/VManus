@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "independent_of_runner": true,
+  "checks": [
+    {
+      "check": "registered_bytes",
+      "passed": true
+    },
+    {
+      "check": "allowlist_pin",
+      "passed": true
+    },
+    {
+      "check": "guarded_pin",
+      "passed": true
+    },
+    {
+      "check": "recorded_chronology",
+      "passed": true
+    },
+    {
+      "check": "guard_scope_columns",
+      "passed": true
+    },
+    {
+      "check": "guard_command",
+      "passed": true
+    },
+    {
+      "check": "complete_source_loci",
+      "passed": true
+    },
+    {
+      "check": "every_eligible_run_exact",
+      "passed": true
+    },
+    {
+      "check": "every_longer_run_exact",
+      "passed": true
+    },
+    {
+      "check": "independent_fixtures",
+      "passed": true
+    },
+    {
+      "check": "IT2a_counts_capacity",
+      "passed": true
+    },
+    {
+      "check": "IT2a_capacity_status",
+      "passed": true
+    },
+    {
+      "check": "IT2a_every_shuffle_score",
+      "passed": true
+    },
+    {
+      "check": "IT2a_left_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "IT2a_right_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "IT2a_right_minus_left_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "ZL3b_counts_capacity",
+      "passed": true
+    },
+    {
+      "check": "ZL3b_capacity_status",
+      "passed": true
+    },
+    {
+      "check": "ZL3b_every_shuffle_score",
+      "passed": true
+    },
+    {
+      "check": "ZL3b_left_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "ZL3b_right_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "ZL3b_right_minus_left_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "RF1b_counts_capacity",
+      "passed": true
+    },
+    {
+      "check": "RF1b_capacity_status",
+      "passed": true
+    },
+    {
+      "check": "RF1b_every_shuffle_score",
+      "passed": true
+    },
+    {
+      "check": "RF1b_left_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "RF1b_right_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "RF1b_right_minus_left_score_calibration",
+      "passed": true
+    },
+    {
+      "check": "joint_gate_status",
+      "passed": true
+    },
+    {
+      "check": "meaning_confirmation_ceiling",
+      "passed": true
+    }
+  ],
+  "source_rows": 96184,
+  "eligible_runs": 55595,
+  "power": {
+    "IT2a": {
+      "nominal_strata": 141,
+      "balanced_two_run_invariant_strata": 37,
+      "permutation_informative_strata": {
+        "left": 98,
+        "right": 101,
+        "right_minus_left": 103
+      },
+      "doubles_in_informative_strata": {
+        "left": 111,
+        "right": 114,
+        "right_minus_left": 116
+      },
+      "union_informative_strata": 103,
+      "power_audit": "All legal fixed-count assignments enumerated per stratum; variation tolerance1e-10."
+    },
+    "ZL3b": {
+      "nominal_strata": 115,
+      "balanced_two_run_invariant_strata": 29,
+      "permutation_informative_strata": {
+        "left": 81,
+        "right": 83,
+        "right_minus_left": 85
+      },
+      "doubles_in_informative_strata": {
+        "left": 90,
+        "right": 92,
+        "right_minus_left": 94
+      },
+      "union_informative_strata": 85,
+      "power_audit": "All legal fixed-count assignments enumerated per stratum; variation tolerance1e-10."
+    },
+    "RF1b": {
+      "nominal_strata": 73,
+      "balanced_two_run_invariant_strata": 30,
+      "permutation_informative_strata": {
+        "left": 40,
+        "right": 41,
+        "right_minus_left": 43
+      },
+      "doubles_in_informative_strata": {
+        "left": 44,
+        "right": 45,
+        "right_minus_left": 47
+      },
+      "union_informative_strata": 43,
+      "power_audit": "All legal fixed-count assignments enumerated per stratum; variation tolerance1e-10."
+    }
+  },
+  "result_status": "NO_RETAINED_CONTEXT_SIGNAL",
+  "limits": [
+    "Conditional exchangeability on exposed alternate readings, not translation or a general copying-mechanism test.",
+    "Nominal capacity includes permutation-invariant strata; informative counts reported separately.",
+    "Recorded chronology and guarded artifact audited without a new source query.",
+    "NumPy fixed-count permutations independently replayed; not independent manuscript witnesses.",
+    "Upper-tail right-minus-left tests only the registered direction, not every possible asymmetry."
+  ],
+  "validator_sha256": "817503686975ca829577904d2cd2bb3392f402aff7035391be988885db6d385e",
+  "audited_artifact_sha256": {
+    "artifacts/GUARDED.tsv": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be",
+    "artifacts/RUNS.tsv": "26585da9646ac72321ed5c3c74a10570254f62cdc09e6398be4e10aa35f36d1a",
+    "artifacts/LONGER_RUNS.json": "535d11f35679acc66871a43929a7c818d24dcc508f1a54bd1779823cfac666d3",
+    "artifacts/RESULT.json": "6d53db622264c17d2534b8a2b81ff6553bd631ec23dd9b1cb7850c1a59f36d33",
+    "artifacts/NULL_IT2a.tsv": "037606515789551d2c05bc24b2ade207dc4e4897447119bd201f4cd877e82e83",
+    "artifacts/NULL_ZL3b.tsv": "2349f87b574f82c20ae93121cda3974ad58eb7bad02c075977686fb39badfa4c",
+    "artifacts/NULL_RF1b.tsv": "850943da8f427652f3dbde281e7d2b8ca4cb05d74f49b09f4400d5fe76de89ba"
+  }
+}

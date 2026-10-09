@@ -1,0 +1,326 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete encoded books are retained for direct decode and rewrite verification; no raw manuscript data or images.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete source-control writing only; no native word meanings, historical usability or independent holdout.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1183_initial_prefix_contraction/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1183_initial_prefix_contraction/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT1174",
+    "GDT1181",
+    "GDT1182"
+  ],
+  "experiment_id": "GDT1183",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/scribes.py",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "400daada5d4388bad1acaa11cf8add46457cbf5ffeb6cf1d62cdd0ffed4634e6"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "f7ab54a25caa1388350e89317b470ff795431c8b6078badcc9778b4eb8d847d0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/METHOD.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "8602711560e9a8f88fc58816d8e5d034a9332954af9b6a11c26b028597bf787b"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/PREREGISTRATION.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "437eaa86bde89060211fe0ebebc3f5a7d8fd9d80d34015c41ca1b5d37c368b09"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "5eede386e3bda6710502014de1b0a8adad8f2ef25e55373dd4c682fcf8b4be23"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md",
+      "role": "Primary report",
+      "sha256": "4d1227646ce39fa21f824b0908c00102cdc1a443ed296b69d17f3992c01014fc"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S3-K13_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "307191a43afbbed842e8288f9ce89c9ab996e613c831ba49b06fdbdb8e9fb388"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S3-K13_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "1613e735e50df08bd13311b43c549f14778caa5c0e3865855051425045f863a2"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S3-K21_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "03a4605ae8349a0077da21b802268bffb741970e81c6c5efa453ed41c4841dea"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S3-K21_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ed007cdc3ceba2d39426687d9b84385734e8be550004004525b522b476a1f3f6"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S3-K7_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "b21c6416286f3539f4c0362d0178effa6f61a5ad0931270209a7fd71fc8a37a4"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S3-K7_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "e4a1fc0c6d2d643ad971ec7f7b9b132071c9165f1d0b4b7f28d6a1b4fda20737"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S6-K13_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "4528c346f0cf93c1627d611eb9673e3c52ebb563a888f54dd7b9158d606f4778"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S6-K13_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "254690ad16514defd66b5059ace9415884198fc2d67df1e8311e92d2224a44d7"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S6-K21_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ab4d58a490ac366c2c7a0c6d5f5cc576564173c99b057cfc96ce550c33ddfaa0"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S6-K21_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "b9835282bf1998f86253968c44456cf60c4c963b8fde273aedf4fc5ae0b7738d"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S6-K7_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "29ac705f16222f36212a54fec5b2aa572f762448ed3103d88d858f3f41565319"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M1024-S6-K7_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "fbeecdb61e0ead9a9bdda7a18a02abde4b907455c55ed858948a721ae1f25194"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S3-K13_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "a0c4a483e7bc1be65e1198605f6d7480011bac29c49c795f6b6fe0bd542bf15a"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S3-K13_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "442f95c00aa8d2a5867862d70eb1be505a991e5484fdb1cbd30bf536bdc4db95"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S3-K21_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "05fae42fa934273a313d3e0d1b31ca90cd4437b96e14f1127ca137f2d7132016"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S3-K21_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "4227abd769c509182efb78a14033ffc6bea460bdc6e9ebcc09f6788b178a5889"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S3-K7_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "7118d4d58fac203b9cc44e92a7cbf613d1afe32680efc3258be39e268fd191f5"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S3-K7_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "a6d86e7cbb2cfa5360bf4a0c3406c60b691c63009d4f305fc902dfb33530a509"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S6-K13_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "40732ca132d8fea41a1c01c90e6ddb7649e27015237ccf594b260f7f0a8e4369"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S6-K13_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "7bb19f34fa4fffd173c499e334ba69e13a01e118f5409aab84b65d39c6e3e9ff"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S6-K21_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "0342873cfe04fa730953717e696ded7cd5f054f36c73931f486162bb42b876ca"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S6-K21_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "5bd9eb3ae6ac444e962be1d3914b2e6c023129d89c53ddcb7e4c1c52c99461f9"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S6-K7_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "0d1248366bbd514c47da4ede949e8e9060bb7a31764c679a88e740ac25675673"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M2048-S6-K7_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "735d555221717c6c4354456198e7d251a3c78008b9b48e16567ed03b993ead18"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S3-K13_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "5c1e759452935c9ee26f4e5f2e318873cd00eac87277f80a78ea35e8ad8c9045"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S3-K13_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "6458f31716a096357a5e9cfdb024e7b3c15a3831baea143e5ffbc1cfc93438b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S3-K21_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "a161267160b2bab3eaa618b5fedbea45ee442758d7bed847c571e4e47aebbc0d"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S3-K21_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "1fd10a00c5183669edc112bae65e2551e267b5c32e329c97bc8d2cd29deeb43b"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S3-K7_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "fe105d18e5f3df32799bd6467bc70d4fdf0cb1cc574df8ab8d8d753b36fb1fbf"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S3-K7_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "43a2fe9860ba4c1e42b8e3fa7c09d5d4d7db533b5d5c1a98af0142d9fc5da6a7"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S6-K13_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "49b11604a326632158cb1909852f695e01a516578e1e0286af0b8969f45a8ec0"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S6-K13_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "a1fad0b75582440e08dae8d4ecc10e8ac9ab6ccc95a29fb2729defd87a0b451d"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S6-K21_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "231d71c526d7d4d072e215e5b7c12f61414a612d7b180bee2d89f7acbc1b5738"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S6-K21_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "cf2d5d9a14d895602e560433d67a662e79cf8ae2ab94c8efa262a47585e7159d"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S6-K7_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "8415c9bc6d33c06d5b023cfaf1bc18627cc8a207233c95ca2be76dc4182e4e57"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/A_M512-S6-K7_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "2fe837a5045cad380e7f8dc79a731fac2cf5681cb31750b7bcde76cbc3063a2b"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/B_M1024-S6-K13_b4.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "11a1d66250f7c3051a890b2cb8902e60ff43e879f487078bcc40e17cb64b8d7a"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/B_M1024-S6-K13_w1.txt",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "05f2d7d8af496f7ea934a7e29fbc26773ae4f95acb20c5a7b435722f1b5afd7a"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/DESIGN.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "936eca6de266c7f7d1cb33bead2132ebb8a8f9b2466896de0e827e1e04140282"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/REGISTRATION_LOCK.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "b17f0ab9fe45a7780c4494b4a8714e854552504edd7571d43a18f777990ff44e"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/REGISTRY_REVIEW.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "10b487be2bfd4813f277abaa69b7a7bbb584e8362997fe58a51f88d2e0d23187"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/RESULT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "06501541d298a606c8c6bc19477ad360ce3bd8c7232d6d7edfc9f9c3dc8cd66d"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/STAGE_A.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "f7f3563aef92cc5a5cde9d1c097348516b701ea78995a54ceebd990c9dfcfa5f"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/TABLES.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "92b0f647b7002fcbb08fa51bb4b0fc6674b2dc89cf6146103cd15272501dacfd"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/VALIDATION.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "552b5862289b6e370fa1b933269d07304c6f702b06780a2c62ab197beb1f5663"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/src/codec.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "60f27d6f19771afab1d1285e6ec554105fa5e46186d2ad533dc6e09eab642498"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/src/run.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "777517441a140124b5645e4209d49dc462293bc29feed4ea910bf25db580415f"
+    },
+    {
+      "path": "experiments/yolo/gdt1183_initial_prefix_contraction/src/validate.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "6c80ef1d03dc0ca4b6634048411703b9f561560df31b36f68bb9be61963e8d56"
+    }
+  ],
+  "question": "Does any complete fixed source-writing channel pass the inherited ten-metric screen across all declared source collections?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "initial_prefix_contraction",
+  "status": "STOP_NO_DESIGN_WRITER",
+  "title": "initial prefix contraction",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1183_initial_prefix_contraction/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

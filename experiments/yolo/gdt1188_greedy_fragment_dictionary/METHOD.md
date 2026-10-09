@@ -1,0 +1,5 @@
+# Hand procedure and evidence ceiling
+
+A person can index fragments alphabetically and take the longest visible match from the current point, down to one source character. The printed code table gives an initial0–6 value and one or more0–2 digits. Only the initial sign rotates with decoded-source character count modulo6; public paragraph/preceding punctuation chooses one of three banks. The final digit uses E or C signs, explicitly preserving source word endings. A reader performs inverse table lookup and maintains the same small counter. A blank recipe boundary resets it.
+
+H has unchanged inherited code paths. R/T densely enumerate all mixed-radix strings by total length (minimum2/3 respectively) and lexical digits; more frequent dictionary entries get earlier strings. This remains a complete dictionary cipher with actual table lookup costs, not a proposed Voynich translation, historical reconstruction or phonetic assignment. Reversibility/full statistical fit/human usability are three different claims.

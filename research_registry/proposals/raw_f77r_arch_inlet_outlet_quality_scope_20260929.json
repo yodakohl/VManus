@@ -1,0 +1,12 @@
+{
+  "title": "RAW UNREVIEWED: f77r arch inlet and outlet have distinct material or state roles",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. GDT790 assigns f77r upper arch eight labels and one 142-token complete record, while f82r/f83r supply related inflow/outlet topology leads. Wellcome MS.542 in GDT735 binds drug name, plant part, hot/dry qualities and degree in one source entry; the named material and its state are separate fields. Fix the f77r arch owner and physically identifiable inlet and outlet before reading any complete words. A retained-material model predicts one entity with changed state across the arch; a two-material model predicts distinct inputs/outputs and a transformation relation. No flow direction, substance or quality word is independently confirmed. Raw unreviewed proposal only.",
+  "scope": "semantic",
+  "design": {
+    "mechanism": "one named material may change quality across a channel or be replaced by another material",
+    "unit": "f77r upper arch complete record and its independently mapped ports",
+    "contrast": "same material altered state versus different source and product materials",
+    "prediction": "Retained-material reading needs a source-to-outlet identity bridge plus distinct state fields; replacement reading needs independent material identities. Visual flow alone cannot select either.",
+    "scope": "exploratory; no fixed experiment selected"
+  }
+}

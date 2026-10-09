@@ -1,0 +1,122 @@
+{
+  "title": "RAW INCOMPLETE: a local repeat mark copies the last three to eight decoded characters inside one word",
+  "summary": "An invented, dictionary-free shortening module replaces a consecutive repetition inside the current source word by an explicit copy-length command. The source characters to be copied are already present in the reader's current word; no previous word, whole-word table, semantic root inventory or distant reference is needed. The abstract encoder and inverse are fully stated, while the22-working-sign carrier remains unpaid. Word-frequency equality is invariant, so this module alone cannot reopen1202 or supply a new full-writer test on the same four sources.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+  "source_status": "INVENTED_TEACHING_MODULE_NO_HISTORICAL_ATTESTATION",
+  "design": {
+    "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "Within one source word, retain the last eight already emitted source characters. At each source position, if the next n characters exactly equal the immediately preceding n decoded characters for any n from3through8, write COPY(n) for the greatest such n. Otherwise write the next source character literally. All source word boundaries are preserved and clear this local memory.",
+    "unit": "A nonempty source word over the explicitly declared source-character alphabet; a complete message is an ordered sequence of these words with supplied single spaces, punctuation and paragraph boundaries.",
+    "contrast": "A literal substring shortcut has a learned expansion such as ung. Here the six commands have no fixed lexical expansion: COPY4 copies whichever four literal source characters immediately precede it in this very word. Unlike927, no part of a previous complete word is consulted. Unlike1179C, no earlier word is located or counted back to.",
+    "prediction": "The first operation of a word must be literal. Each COPY(n) requires at least n prior decoded characters and appends exactly their current suffix of length n. The writer must take the greatest currently legal n, so a matching tandem block is obligatorily abbreviated at that scan position. The identical source word always produces the identical entire command sequence regardless of its neighbors or physical line position.",
+    "scope": "A complete abstract source-character transducer and hand-reading rule, not a complete22-sign script, native parser, claimed medieval practice, statistical pass or selected experiment. No source or target is encoded or counted.",
+    "input_contract": {
+      "ordinary_characters": "abcdefghijklmnopqrstuvwxyz",
+      "additional_characters_in_fixed_order": ["ä", "ö", "ü", "ß", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ",", ";", ":", "!", "?", "(", ")", "-", "/", "'", "\"", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Ä", "Ö", "Ü", "ẞ"],
+      "provenance": "The fixed82-character domain is inherited from935's openly declared teaching input, not newly extracted or optimized. Its16 substring shortcuts are not imported. No new capitalization, spelling, punctuation or Unicode normalization is performed.",
+      "words": "Nonempty source tokens are separated by single spaces. Punctuation already attached to a token stays attached and participates as its literal character; punctuation supplied as a separate token remains one. Paragraphs are explicitly supplied. Characters outside the stated domain cause an explicit unsupported-input stop, never silent omission.",
+      "meaning": "The preserved ordinary-language wording carries every action, participant, negation, comparison, pronoun and scope relation. COPY is only an orthographic command. Repeated characters do not imply repeated actions, plural objects or identical physical portions.",
+      "open_vocabulary": "Any new word or invented name over the source alphabet is legal and follows the same scan. There is no word list, minimum-frequency requirement, private gloss, definition lookup or exception for an unfamiliar word."
+    },
+    "abstract_output_language": {
+      "literal": "L(c) denotes one explicitly written source character c. The notation L and parentheses are explanatory here, not proposed native signs.",
+      "copy": "C3,C4,C5,C6,C7,C8 are six distinguishable copy-length commands. These abstract labels are not six identified Voynich shapes or source syllables.",
+      "separation": "A visible group boundary separates complete source words. No COPY may refer across it. Paragraphs remain visible; punctuation introduces no hidden reset inside a token.",
+      "carrier_debt": "A full22-working-sign realization must distinguish every literal character from every command, including a source token literally spelling C3, and must encode all82 source characters without erasure. A possible two-mark command requires a reserved copy introducer plus six distinguishable length selectors. Those marks and literal escapes consume the same22-sign inventory; no compatible complete table is selected here."
+    },
+    "writing_steps": [
+      "Begin each source word with empty decoded prefix p and scan position i=0. There is no state inherited from another word, line or paragraph.",
+      "Consider only n in {3,4,5,6,7,8} for which p has at least n characters and at least n source characters remain. A candidate is legal exactly when the next n source characters equal the final n characters of p, case and punctuation included.",
+      "If there is at least one legal n, choose its largest value, emit Cn, append those n source characters to p and advance by n. The block was wholly written before this operation, so a copy never overlaps its own newly generated characters.",
+      "Otherwise emit L(c) for the next single source character, append c to p and advance by one. Literal spelling is compulsory in this case; no unlicensed shorter or longer copy command is introduced.",
+      "Continue until the complete word is represented. Write its supplied boundary and clear p. A reader or scribe may keep only the latest eight source characters for the next local choice, although a full decoded word is needed to check canonicality afterward.",
+      "Wrap only between complete output groups. Moving a word to another physical line changes no operation and inserts no marker, padding or reset-dependent spelling. A word too wide for the physical writing area needs a separately declared layout rule; no within-word line continuation is supplied here."
+    ],
+    "reading_steps": [
+      "Start a visible group with empty decoded prefix p. A literal operation appends its one stated source character.",
+      "For Cn, require n in3through8 and length(p)>=n. Copy a snapshot of the last n characters of p and append it. Cn cannot read another word, select an earlier occurrence, change case or infer an omitted ending.",
+      "At group end, the accumulated p is the complete source word. Restore its word boundary and clear the local memory.",
+      "For the strict writer language, rescan the recovered word with the unchanged greatest-n rule. Reject a noncanonical alternative, even if its informal expansion produces readable text. This second scan is an actual reading/checking cost, not a free oracle.",
+      "All punctuation, negation and reference words survive as part of the literal source message. The decoder never adds a linguistic interpretation beyond what those original words provide."
+    ],
+    "invented_examples": [
+      {
+        "source": "lege naranara neben neruneru.",
+        "meaning_note": "Naranara and Neruneru are expressly invented object names in a teaching instruction. No native form is assigned these values.",
+        "abstract_groups": ["L(l) L(e) L(g) L(e)", "L(n) L(a) L(r) L(a) C4", "L(n) L(e) L(b) L(e) L(n)", "L(n) L(e) L(r) L(u) C4 L(.)"],
+        "inverse": "The second group supplies nara before C4, which therefore appends nara. The fourth supplies neru before C4, which appends neru; the period is separately preserved. The entire original sentence is recovered."
+      },
+      {
+        "source_word": "murmurmur",
+        "abstract_group": "L(m) L(u) L(r) C3 C3",
+        "inverse": "The first C3 appends mur to mur; the second C3 appends the latest mur again. Both are legal because only three source characters remain at each of those positions, so no larger command is available."
+      },
+      {
+        "source_word": "aaaaaaaaa",
+        "abstract_group": "L(a) L(a) L(a) C3 C3",
+        "inverse": "After three literal a characters, at most3already written characters can be copied. After that copy only3source characters remain. A shorter literal spelling is noncanonical under the fixed rule."
+      },
+      {
+        "source": "naranara naranara",
+        "abstract_groups": ["L(n) L(a) L(r) L(a) C4", "L(n) L(a) L(r) L(a) C4"],
+        "inverse": "Both source words start from empty local state and have the same complete spelling. No shared interword repeat header is required."
+      },
+      {
+        "source_word": "abab",
+        "abstract_group": "L(a) L(b) L(a) L(b)",
+        "inverse": "The doubled block has length2, below the declared copy range, and is therefore left literal. This invented example is not a decoding of olol."
+      },
+      {
+        "source_word": "C3",
+        "abstract_group": "L(C) L(3)",
+        "inverse": "The source text C3 is literal uppercase C and digit3, not a copy operation. The eventual carrier must pay for this distinction."
+      }
+    ],
+    "learning_and_operation_cost": {
+      "table": "No learned whole-word or substring expansion table. Six copy lengths, or one copy introducer plus six numeric selectors, supplement the complete literal character script. The latter remains unpaid at the22-sign level.",
+      "memory": "An eight-character scratch window of the already written or decoded CURRENT word. The writer compares at most six candidate adjacent blocks; the reader counts back at most eight characters. This is smaller than503previous words, but its speed and convenience are not established by reversibility.",
+      "length_cost": "If a future carrier realizes Cn in exactly two marks and every literal source character costs at least one mark, a use saves at least n-2 marks relative to full literal spelling of the copied block. This is conditional accounting only; no complete carrier, source total, mean or dispersion has been measured.",
+      "unknowns": "Unknown words are fully spelled except for exactly licensed local repetitions. Long words without a legal tandem block receive no shortening. No dictionary growth is hidden in the fallback.",
+      "error_scope": "A misread literal or copy length can corrupt the rest of that word. The visible next word boundary resets the copying state; no earlier completed word is altered. Canonicality checking costs a second local scan."
+    },
+    "analytic_limits": [
+      "The deterministic encoder has a unique inverse for its valid command strings, hence distinct complete source words remain distinct and identical words remain identical. Whole-word type counts, frequencies and exact adjacent word-repeat counts are invariant.1202therefore already excludes this module ALONE on its four fixed one-token/one-group source projections; no new source-frequency run or glyph optimization is justified for that unchanged conjunction.",
+      "This is not attached to948, any alias bank, another grouping or a state counter. Combining it with another writer would be a new full contract, not a repair authorized by RAW retention.",
+      "A long source word with no consecutive repeat of length3through8 is unchanged. The module cannot promise a smaller length spread, and may shorten some already short words more than long nonrepetitive ones.",
+      "The formal source-word literal spelling of XYZXYZT would be noncanonical at its second XYZ when the first three letters are the already emitted prefix. A source-free native conjunction needs an actual literal/control carrier binding before this becomes a manuscript contradiction.",
+      "GDT1200's ZL daldaldy would be a conditional countercase if dal were exactly three ordinary literal source-character code units and the whole group boundary were retained. IT instead has dal|daldy at that site; it must not be silently merged. No such source-character binding is asserted. The retained olol two-unit pattern does not by itself meet the copy-length minimum.",
+      "No q-o law, final-y distribution, output alphabet, morphology or historical source is supplied. Known native obligations remain; a readable artificial module is not evidence of their satisfaction."
+    ],
+    "smallest_new_falsifier": "Under a separately fixed literal/control carrier, one unambiguously all-literal tandem of length3through8 at a mandatory-copy scan position contradicts this canonical rule. Conversely, Cn at the first operation or with fewer than n decoded characters is intrinsically invalid. Neither condition requires a semantic gloss, but native testing requires a justified unit/carrier binding. This card selects no test; the unchanged full-word source-frequency use is already ruled out by1202.",
+    "pre_registration_design_note": "The first discussion considered arbitrary backward distance plus length within eight characters, with a three-field command. Before a raw contract or any data access, the producer restricted it to the immediately preceding block and a single length field to reduce manual counting. No source or native outcome was used to choose the range or alter an existing registered model. The present3through8greatest-match rule is the sole retained raw version."
+  },
+  "predecessors_and_limits": [
+    {
+      "id": "IDEA000927",
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_PREFIX_C4_RAW_20261004.json", "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA927_RESULT_20261005.json"],
+      "relation": "927copies a capped prefix of the previous complete word and its mandatory header conflicts with distinct-initial output doublets. This proposal copies a local suffix only within the current word and resets at every word;927is not repaired or reopened. Its raw procedure and later registry decision were reviewed."
+    },
+    {
+      "id": "GDT1179C",
+      "primaries": ["experiments/yolo/gdt1179_complete_natural_source_writers/METHOD.md", "experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md"],
+      "relation": "The executed writer references a nearest exact complete source word up to503tokens back. Its failure and counting burden remain. The present local block has no word antecedent, history index or learned503-word table. Its determinism also does not inherit1179C's context-dependent whole-form diversity."
+    },
+    {
+      "id": "IDEA000933 / IDEA000935",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json",
+      "relation": "These fix the literal expansion of every abbreviation in advance. A copy-length command obtains its expansion from the already recovered local word. Both families still need canonical parsing and a paid carrier; free-key surface coverage is not meaning identification. The whole-word equality invariant remains common."
+    },
+    {
+      "id": "GDT1200 / GDT1202",
+      "primaries": ["experiments/yolo/gdt1200_stable_part_repetition_capacity/REPORT.md", "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"],
+      "relation": "Claim-bearing reports and followup navigation were reviewed. The literal repeated-part facts do not identify a copy operator.1202is an existing source-conditioned exclusion of unchanged whole-word use, not a new result of this RAW module."
+    }
+  ],
+  "review_and_access": {
+    "status": "UNREVIEWED retention of a concrete different MODULE, explicitly not a viable selected full writer for the same source-word contract.",
+    "navigation": "Current route, composition baseline, bounded copy/backreference/intraword/Lempel/tandem searches, bounded duplicates, route-check,927primary,1179method/report/followups and1200/1202primaries. Empty lexical hits were not treated as exhaustive novelty proof.",
+    "exposure": "The parent supplied a qualitative948length objection and the live route disclosed1218's compact stop. No fresh source output, target packet, corpus count, image or experiment result details were inspected for this construction. Frozen predecessor reports remain exposed background evidence.",
+    "ownership": "One bounded producer, block ending2026-10-06T01:10:00Z. No subagent, source encoding, native query, experiment, threshold/marker fitting, root-file edit, registry refresh or publication. Only this new raw file and ideas-add metadata may be changed."
+  }
+}

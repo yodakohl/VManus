@@ -1,0 +1,57 @@
+{
+  "record_id": "GDT1286",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root after exact certificate validation",
+  "assessment_basis": "unchanged1259counts_integer_lattice_identity_certificate",
+  "reason": "Both reader augmented count lattices are Z^23,index1. No nonzero fixed additive common paragraph total in any abelian group. Different boundary/unit contract from882; strengthens1259integer-only ceiling.",
+  "blockers": [
+    {
+      "code": "exact_additive_paragraph_lattice_unit",
+      "detail": "C*A=I23 forbids every fixed weight and cyclic modulus under this scope. No meaning or general state-machine inference.",
+      "evidence": [
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_source_or_model_change",
+        "change": "new_binding",
+        "detail": "Independently justified source/unit correction or genuinely different observable construction, explicitly accounting for old exact failure.",
+        "evidence": [
+          "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+          "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/VALIDATION.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another modulus",
+      "Different fixed weights",
+      "Arbitrary boundary or glyph repairs",
+      "Renaming fixed working units",
+      "A trivial zero counter"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1259",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/VALIDATION.json"
+      ]
+    },
+    {
+      "target": "GDT882",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+        "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/VALIDATION.json"
+      ]
+    }
+  ]
+}

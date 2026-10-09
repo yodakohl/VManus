@@ -1,0 +1,153 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exposed large-stratum frequency portability only; dependent readings/categories/samples, no meanings, cause, source language or old-writer rescue.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1225_stratified_frequency_self_control/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1225_stratified_frequency_self_control/src/validate.py"
+  },
+  "created": "2026-10-06",
+  "dependencies": [
+    "GDT1174",
+    "GDT1202",
+    "GDT1211",
+    "GDT1213",
+    "GDT1223"
+  ],
+  "experiment_id": "GDT1225",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/RESULT.json",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "10bd1e24c5f580dc293f83269df636cb430ead9a412ebd5cb7902d4c830060de"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/TARGET_SAMPLE_IDS.json",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "c5b18b4903be1a45cd24e01bf399d7ced9e9634524e11ec1e191c58c84d78c99"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/scribes.py",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "400daada5d4388bad1acaa11cf8add46457cbf5ffeb6cf1d62cdd0ffed4634e6"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/src/SPEC.json",
+      "role": "Frozen native projection/metadata, reference or specification",
+      "sha256": "4308f8c495d5f5be94b10ad2f15e09e3eafd73b2d8b02e1827aea26fd68dacd8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/METHOD.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "3accd08359a7982c045c4668e83b484eaff1da5d4b2dcca26b5f89851029965a"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/PREREGISTRATION.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "1cba5b9c7d11a7c19a4ed183b1bf78d18f42641f6f5eb3c6e9911d90422af237"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/README.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "1daa75d977f4b1bf6f054c1c2a1ecbcff4865e6c0c65605a01adcecd46bde297"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md",
+      "role": "Primary report",
+      "sha256": "e48bbead8cf24d5dcbb99161b55d686a51a815d16e5a2d4fce4b8654588e3dca"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/CLOSURE.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "b4b3d107f7b5b48c7f7a37d1f4be6c1b278e0ba814ac032970d13e4297777e51"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/README.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "510d67b21628eff46a37bc6d1869b8634455ac250765ba6a5e8b1dfdf306da04"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/REGISTRATION_LOCK.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "2271c9a63daa4b04f074a788da460e3b928e69d374b556a646eec299d946ebae"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/REGISTRY_REVIEW.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "672863d2d094dd53102125c72bdf6ca93c0b122fae995a35e3e0f095b0d5832e"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/RESULT.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "216b1f5001aa2b3db61da00507dda116afe3f754bfda86660057b35b02316264"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/RUN_RECEIPT.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "e2d7563e78980766ef0a5e2b10b62b31611bbefe8fda84edb5c912dee926ccb8"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/VALIDATION.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "98e7475d1901551fb34e512af0d6cb9a80cbeb9b55f48709fc06d33934dda2cb"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/src/SPEC.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "4308f8c495d5f5be94b10ad2f15e09e3eafd73b2d8b02e1827aea26fd68dacd8"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/src/run.py",
+      "role": "Source, protocol, result or validation",
+      "sha256": "fd0f7b56140cff41f83cb3c5bcb6e002da16303aa18c5ee9849da4715a874b56"
+    },
+    {
+      "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/src/validate.py",
+      "role": "Source, protocol, result or validation",
+      "sha256": "2626cbbd645879810cbf159d577b9a62322bbde171f02f08b808cddf3324cbb7"
+    }
+  ],
+  "question": "Do the unchanged two pooled-reference frequency bands remain operationally stable within every sufficiently large individual Currier, section and hand stratum?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "stratified_frequency_self_control",
+  "status": "POOLED_FREQUENCY_BANDS_NOT_PORTABLE_TO_ALL_LARGE_STRATA",
+  "title": "Portability of pooled frequency bands to large individual strata",
+  "updated": "2026-10-06",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1225_stratified_frequency_self_control/artifacts/VALIDATION.json"
+  }
+}

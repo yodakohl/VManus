@@ -1,0 +1,388 @@
+{
+  "status": "FIXED_TWO_PIECE_GLOBAL_UD_CARRIER_CONTRADICTED",
+  "binding_validation": "PASS",
+  "witnesses": [
+    {
+      "edition": "ZL3b",
+      "base": {
+        "source_group_id": "ZL3b|f23r.5|G008",
+        "edition": "ZL3b",
+        "page": "f23r",
+        "locus": "f23r.5",
+        "section": "H",
+        "currier": "A",
+        "hand": "1",
+        "kind": "P",
+        "source_group_index": 8,
+        "source_group_count": 11,
+        "ivtff_group_raw": "ol",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      "double": {
+        "source_group_id": "ZL3b|f14r.3|G005",
+        "edition": "ZL3b",
+        "page": "f14r",
+        "locus": "f14r.3",
+        "source_group_index": "5",
+        "source_group_count": "5",
+        "ivtff_group_raw": "olol",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      }
+    },
+    {
+      "edition": "IT2a",
+      "base": {
+        "source_group_id": "IT2a|f23r.5|G008",
+        "edition": "IT2a",
+        "page": "f23r",
+        "locus": "f23r.5",
+        "section": "H",
+        "currier": "A",
+        "hand": "1",
+        "kind": "P",
+        "source_group_index": 8,
+        "source_group_count": 11,
+        "ivtff_group_raw": "ol",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      "double": {
+        "source_group_id": "IT2a|f14r.3|G005",
+        "edition": "IT2a",
+        "page": "f14r",
+        "locus": "f14r.3",
+        "source_group_index": "5",
+        "source_group_count": "5",
+        "ivtff_group_raw": "olol",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      }
+    },
+    {
+      "edition": "RF1b",
+      "base": {
+        "source_group_id": "RF1b|f23r.5|G008",
+        "edition": "RF1b",
+        "page": "f23r",
+        "locus": "f23r.5",
+        "section": "H",
+        "currier": "A",
+        "hand": "1",
+        "kind": "P",
+        "source_group_index": 8,
+        "source_group_count": 11,
+        "ivtff_group_raw": "ol",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE"
+      },
+      "double": {
+        "source_group_id": "RF1b|f14r.3|G005",
+        "edition": "RF1b",
+        "page": "f14r",
+        "locus": "f14r.3",
+        "source_group_index": "5",
+        "source_group_count": "5",
+        "ivtff_group_raw": "olol",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "LINE_END"
+      }
+    }
+  ],
+  "existing_profile_summaries": {
+    "ol": {
+      "ZL3b": {
+        "count": 455,
+        "pages_with_form": 107,
+        "positions": {
+          "start": 30,
+          "middle": 386,
+          "end": 39,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 410,
+          "repeated_lines": 40,
+          "adjacent_pairs": 7,
+          "max_per_line": 3
+        }
+      },
+      "IT2a": {
+        "count": 456,
+        "pages_with_form": 106,
+        "positions": {
+          "start": 29,
+          "middle": 381,
+          "end": 46,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 408,
+          "repeated_lines": 42,
+          "adjacent_pairs": 9,
+          "max_per_line": 4
+        }
+      },
+      "RF1b": {
+        "count": 469,
+        "pages_with_form": 103,
+        "positions": {
+          "start": 33,
+          "middle": 395,
+          "end": 41,
+          "single": 0
+        },
+        "repetition": {
+          "lines_with_form": 420,
+          "repeated_lines": 43,
+          "adjacent_pairs": 9,
+          "max_per_line": 4
+        }
+      }
+    },
+    "olol": {
+      "ZL3b": {
+        "count": 14,
+        "pages_with_form": 13,
+        "positions": {
+          "start": 1,
+          "middle": 7,
+          "end": 5,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 14,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        }
+      },
+      "IT2a": {
+        "count": 14,
+        "pages_with_form": 13,
+        "positions": {
+          "start": 1,
+          "middle": 7,
+          "end": 5,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 14,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        }
+      },
+      "RF1b": {
+        "count": 14,
+        "pages_with_form": 13,
+        "positions": {
+          "start": 1,
+          "middle": 7,
+          "end": 5,
+          "single": 1
+        },
+        "repetition": {
+          "lines_with_form": 14,
+          "repeated_lines": 0,
+          "adjacent_pairs": 0,
+          "max_per_line": 1
+        }
+      }
+    }
+  },
+  "source_command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "--selector",
+    "locus",
+    "--allow",
+    "f14r.3",
+    "--columns",
+    "source_group_id,edition,page,locus,source_group_index,source_group_count,ivtff_group_raw,left_separator,right_separator"
+  ],
+  "guard_receipt": "GUARD_STATS {\"selected\": 15, \"skipped_forbidden\": 2122, \"skipped_not_allowed\": 113333}",
+  "guarded_full_double_lines": [
+    {
+      "source_group_id": "ZL3b|f14r.3|G001",
+      "edition": "ZL3b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "1",
+      "source_group_count": "5",
+      "ivtff_group_raw": "ydaiin",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "ZL3b|f14r.3|G002",
+      "edition": "ZL3b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "2",
+      "source_group_count": "5",
+      "ivtff_group_raw": "olchy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "ZL3b|f14r.3|G003",
+      "edition": "ZL3b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "3",
+      "source_group_count": "5",
+      "ivtff_group_raw": "kchor",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "ZL3b|f14r.3|G004",
+      "edition": "ZL3b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "4",
+      "source_group_count": "5",
+      "ivtff_group_raw": "daiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "ZL3b|f14r.3|G005",
+      "edition": "ZL3b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "5",
+      "source_group_count": "5",
+      "ivtff_group_raw": "olol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "source_group_id": "IT2a|f14r.3|G001",
+      "edition": "IT2a",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "1",
+      "source_group_count": "5",
+      "ivtff_group_raw": "ydaiin",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "IT2a|f14r.3|G002",
+      "edition": "IT2a",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "2",
+      "source_group_count": "5",
+      "ivtff_group_raw": "olchy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "IT2a|f14r.3|G003",
+      "edition": "IT2a",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "3",
+      "source_group_count": "5",
+      "ivtff_group_raw": "kchor",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "IT2a|f14r.3|G004",
+      "edition": "IT2a",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "4",
+      "source_group_count": "5",
+      "ivtff_group_raw": "daiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "IT2a|f14r.3|G005",
+      "edition": "IT2a",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "5",
+      "source_group_count": "5",
+      "ivtff_group_raw": "olol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    },
+    {
+      "source_group_id": "RF1b|f14r.3|G001",
+      "edition": "RF1b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "1",
+      "source_group_count": "5",
+      "ivtff_group_raw": "ydaiin",
+      "left_separator": "LINE_START",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "RF1b|f14r.3|G002",
+      "edition": "RF1b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "2",
+      "source_group_count": "5",
+      "ivtff_group_raw": "olchy",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "RF1b|f14r.3|G003",
+      "edition": "RF1b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "3",
+      "source_group_count": "5",
+      "ivtff_group_raw": "kchor",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "RF1b|f14r.3|G004",
+      "edition": "RF1b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "4",
+      "source_group_count": "5",
+      "ivtff_group_raw": "daiin",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "DEFINITE_SPACE"
+    },
+    {
+      "source_group_id": "RF1b|f14r.3|G005",
+      "edition": "RF1b",
+      "page": "f14r",
+      "locus": "f14r.3",
+      "source_group_index": "5",
+      "source_group_count": "5",
+      "ivtff_group_raw": "olol",
+      "left_separator": "DEFINITE_SPACE",
+      "right_separator": "LINE_END"
+    }
+  ],
+  "hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/HAND_WORD_EXTREMES_PACKET_20261005.json": "f4848e2b3c7b9ad2457f4b36a604d8f2f5ee9235096e798471bb4b037cff1fb0",
+    "research_registry/proposals/production_origin_supply_20261003/PAIRED_PIECE_GLOBAL_UD_PROFILES_20261005.json": "99836785968960564d5a834654f0796d6380eef9292901f5478ab982905f89aa",
+    "research_registry/proposals/production_origin_supply_20261003/PAIRED_PIECE_GLOBAL_UD_CONTRACT_NOTE_20261005.json": "81828ff10e1c7b322699a7f835d2406bd4adbc912c2d85fd83393fc6dd41a564",
+    "research_registry/proposals/production_origin_supply_20261003/PAIRED_PIECE_GLOBAL_UD_VALIDATE_20261005.py": "e9805f875ba4e98755399c08a9098a1d49e06a4e7caaf646f9025799e23a9b90"
+  },
+  "proof": "Global injectivity of the non-erasing homomorphic piece code forces parse(WW)=parse(W)parse(W). Nonfinal W has two tokens; WW must then have four, exceeding either normal two or final singleton.",
+  "limits": [
+    "Conditional literal transcription and common-carrier contract, not identified native atoms",
+    "Three alternate readings of one manuscript, not independent confirmations",
+    "No original image inspection for these two loci",
+    "No refutation of variable piece counts, group/context-dependent decoding, or1201confluent content decoding",
+    "No complete writer, source-frequency test, or word meaning"
+  ]
+}

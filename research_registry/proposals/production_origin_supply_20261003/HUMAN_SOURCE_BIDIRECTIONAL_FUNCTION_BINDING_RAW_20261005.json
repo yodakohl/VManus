@@ -1,0 +1,183 @@
+{
+  "title": "RAW INCOMPLETE: fixed right and left function-word binding around openly spelled source kernels",
+  "summary": "Root-proposed source-writing direction, retained without selection. The unchanged1177 right-binding list is paired with the seven pronoun/adverb spellings removed from1176P3, now explicitly assigned leftward binding. A four-state hand rule produces exact ordered source-word tuples, preserves orphan runs and punctuation, and restores every source word. The22-sign spelling and internal-boundary carrier remain UNBUILT AND UNPAID; this is not a complete Voynich-compatible writer.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+  "source_status": "INVENTED_TEACHING_CONVENTION_NO_HISTORICAL_ATTESTATION_CLAIM",
+  "ownership_and_exposure": {
+    "origin": "Root proposed genuinely bidirectional attachment; bounded_idea_supply specified this one exact R/L/H/X contract and its exceptions. Not an independent discovery by the producer.",
+    "date_utc": "2026-10-05",
+    "prior_exposure": "1176-1179 and1202 failures were known before drafting. Their exact preregistrations, specifications, reports and targeted followup cards were checked. The mandatory current-route read displayed1211's terse decision; no1211 source/output/count artifacts were opened. This card has no physical-width rule and is not a1211 repair.",
+    "access": "No source corpus, native text/image, reserve, count, encoding, experiment, external source or subagent. Only this new raw card and its ideas-add record are written. Root retains scientific selection and all shared documents."
+  },
+  "design": {
+    "purpose": "Keep ordinary source vocabulary, order, grammatical particles, negation and unresolved references intact while allowing a written group to carry material before and after one open lexical kernel. Source words do not become arbitrary semantic numbers.",
+    "input_contract": "Input is an ordered sequence of nonempty word tokens separated by single ordinary spaces, with explicit paragraph boundaries. Token spelling and case are retained exactly; no lowercase conversion, expansion, stemming or punctuation stripping is part of this rule. Repeated original whitespace and physical source line wraps are outside this normalized input contract. Empty paragraphs, if supplied, remain empty paragraph boundaries. The source language is already understood by writer and reader.",
+    "class_priority": [
+      "X: any token containing a character outside Unicode letter categories. Digits, punctuation, a standalone punctuation token, and a word with attached punctuation are therefore X; nothing is detached or removed.",
+      "R: an otherwise alphabetic token whose entire case-sensitive spelling occurs in the fixed right list.",
+      "L: an otherwise alphabetic token whose entire case-sensitive spelling occurs in the fixed left list.",
+      "H: every remaining alphabetic token, including unfamiliar names, spelling variants, capitalized forms and negative words absent from the lists. H is an open spelling kernel, not a claim that the token is grammatically a noun or content word."
+    ],
+    "right_list": {
+      "source": "Unchanged union of CONJ, ARTICLE and PREP in experiments/yolo/gdt1177_preposition_binding_transfer/src/SPEC.json.",
+      "CONJ": ["und", "vnd", "vnnd", "unnd", "vn", "oder", "aber"],
+      "ARTICLE": ["der", "die", "das", "den", "dem", "des", "ein", "eine", "einen", "einem", "einer", "eines", "eyn", "eyne", "eynen", "eynem", "eyner", "eynes", "ain", "aine", "ainen", "ainem", "ainer", "ains"],
+      "PREP": ["zu", "in", "im", "von", "mit", "auf", "auff", "an", "am", "aus", "vonn", "vmb", "umb"]
+    },
+    "left_list": {
+      "source": "Exactly the seven LINK entries removed when1176P3 became1177P4; membership is unchanged, direction is newly declared.",
+      "words": ["so", "du", "es", "da", "dan", "dann", "denn"]
+    },
+    "grammar_warning": "These51 exact spellings are a teaching convention, not a part-of-speech analysis or evidence of actual medieval enclitics. In 'und es kocht', es is before its predicate but remains L under this rule and becomes an orphan. Article homographs and sentence-opening particles receive no per-occurrence rescue. The word nicht was not in1176P3/1177P4 and is not newly added; its full spelling survives as H. No negation scope or pronoun antecedent is resolved by attachment.",
+    "output_object": "An ordered list of nonempty tuples of the exact original word strings, with paragraph boundaries. Brackets, tuple commas and vertical bars in the examples are explanatory notation, NOT free written glyphs. A normal group has class pattern R* H L*. A punctuation-closing group has R* X. Other groups are maximal orphan R-runs or orphan L-runs. No group contains two H kernels.",
+    "states": {
+      "E": "No group is open.",
+      "R": "The open tuple contains only right-binding words and is waiting for an immediately following H or X; it may instead close as an orphan run.",
+      "H": "The open tuple contains its one H kernel, optional leading R words, and any already appended L words.",
+      "L": "The open tuple contains only orphan left-binding words; they cannot reach back through an R run, X token or paragraph boundary."
+    },
+    "actions": {
+      "start": "Start a new tuple with the current word, retaining its exact spelling.",
+      "append": "Append the current word to the existing tuple, retaining the original internal source word boundary as part of the tuple.",
+      "emit": "Finish the open tuple as the next output group. No source token is inserted, omitted or reordered."
+    },
+    "complete_transition_table": {
+      "E": {
+        "R": "start; state R",
+        "L": "start; state L",
+        "H": "start; state H",
+        "X": "emit singleton tuple containing X; state E"
+      },
+      "R": {
+        "R": "append; state R",
+        "L": "emit orphan R tuple; start current L; state L",
+        "H": "append; state H",
+        "X": "append X; emit punctuation-closing tuple; state E"
+      },
+      "H": {
+        "R": "emit current tuple; start current R; state R",
+        "L": "append; state H",
+        "H": "emit current tuple; start current H; state H",
+        "X": "emit current tuple; emit singleton X tuple; state E"
+      },
+      "L": {
+        "R": "emit orphan L tuple; start current R; state R",
+        "L": "append; state L",
+        "H": "emit orphan L tuple; start current H; state H",
+        "X": "emit orphan L tuple; emit singleton X tuple; state E"
+      }
+    },
+    "paragraph_end": "Emit the open tuple in R, H or L state; E emits nothing. Preserve the paragraph boundary and restart in E. No new host is invented for an orphan. Physical output lines may wrap only between complete groups and do not reset this state. An overlong group is a real writing liability; no splitting, abbreviation, cap or silent state reset is supplied.",
+    "punctuation_detail": "An X token closes immediately and blocks every later L from reaching across it. A preceding R run attaches to X exactly as the right-binding predecessor allowed a pending run to meet a non-list token. Thus 'und salbei,' stays together, whereas a following 'es' cannot attach across the comma. Punctuation inside a token makes the whole token X, even if its letters would otherwise spell an R or L entry. This is a mechanical barrier, not syntactic punctuation interpretation.",
+    "human_encode": "Copy source tokens in order, consult the fixed lists and punctuation rule, and maintain only E/R/H/L. Follow the table for where to put the next group space. Pending words can be copied onto a scratch strip or written into the still-open group; they need not be memorized. No backward source search, hidden numbered dictionary, object identity register or guessed source parse is used.",
+    "tuple_decode": "Read groups in order and read each group's constituent word strings in order; restore one source space between every consecutive recovered token, including between groups, and restore the written paragraph boundaries. The recovered source alone is enough to reapply the transition table and check canonical grouping. Neither class tags nor states need an external side table. This inverse presupposes that the future physical carrier actually exposes all constituent word boundaries; tuple punctuation in a data file does not pay that debt.",
+    "unknown_and_repeat": "A new alphabetic word is an H unless it exactly matches an R or L entry. A new punctuated or digit-bearing token is X. Both are retained in full, without a new meaning/code assignment. Single-character kernels are permitted. Consecutive identical H words form two identical singleton tuples when no adjacent R/L changes their surroundings. Repeated R words remain repeated explicit members of one R run, and repeated L words remain repeated explicit members of one suffix or orphan run. No repeat is copied implicitly or obligatorily replaced by a special header.",
+    "learning_and_memory_cost": "Learn44 right-list spellings and7 left-list spellings, their assigned directions, the X barrier convention and the four-state transition table. Familiar ordinary vocabulary/language knowledge is assumed but receives no secret extra code dictionary. There is no bound on source word length or binder-run length: memory can be outsourced to visible scratch writing, with real writing cost. The alphabet, spelling escapes for all admitted source characters, representation of every removed space, group framing, paragraph marks and human reading costs remain unbuilt. Consequently no total22-sign learning or length cost is claimed.",
+    "carrier_debt": "Before a full writer or glyph-level test, provide ONE shared22-working-sign carrier that spells every admitted source token and explicitly recovers every internal source boundary, including punctuation, orphan runs and unknown words. No future decoder may obtain the original tuple from a hidden list or source oracle. Any ambiguity must preserve the same complete source message under the declared claim; otherwise the carrier fails. This card chooses no alphabet, shorthand table or native value. Existing935/936 teaching-carrier terminal failures remain; that carrier is not silently reused or repaired.",
+    "necessary_frequency_scope": "Only after separate root selection, equality statistics may be evaluated on these exact full tuples as a necessary screen for one fixed injective tuple-to-group carrier. Such a carrier preserves tuple type identities and frequencies. A failure rejects that frozen source/grouping/carrier-injectivity conjunction before glyph construction. A pass is only NOT EXCLUDED: it does not supply the unpaid carrier, good lengths, q/o/y behavior, readability or native meanings. Noninjective or context-dependent surface aliases are different contracts and cannot be added to repair a result.",
+    "smallest_changed_observation": "The elementary source triple H,L,H is grouped [H,L] | [H] here, compared with [H] | [L,H] when the same L is forced rightward as in1176P3. The triples R,L,H instead yield [R] | [L] | [H], so there is no free skipping to recover a preferred host. These exact tuple differences, rather than a palette change, can alter which complete source groups repeat. No outcome has been counted.",
+    "smallest_falsifier": "For this hand contract, a single lost, reordered, silently supplied or undecidable source token/boundary in one of the declared transition cases fails completeness. A later necessary source-frequency failure would stop this fixed bidirectional grouping on those sources; neither a different list direction nor an orphan/punctuation exception may be added after seeing that failure. A later physical carrier that cannot spell the already-known short groups, repeated whole groups or diverse terminals fails separately. A correct tuple inverse alone does not validate a native writer."
+  },
+  "invented_demonstrations": [
+    {
+      "purpose": "Both-sided attachments with an ordinary meaningful imperative",
+      "source": "und trockne es in dem kessel",
+      "classes": ["R", "H", "L", "R", "R", "H"],
+      "groups": [["und", "trockne", "es"], ["in", "dem", "kessel"]],
+      "recovered_source": "und trockne es in dem kessel",
+      "note": "Synthetic teaching sentence only. No Voynich code or medical claim. The referent of es remains unresolved."
+    },
+    {
+      "purpose": "R to L conflict without skipping or invented host",
+      "source": "und es kocht",
+      "classes": ["R", "L", "H"],
+      "groups": [["und"], ["es"], ["kocht"]],
+      "recovered_source": "und es kocht",
+      "note": "R cannot jump over L. L has no earlier H in the open group. Source grammar is not rewritten to make the class assignment sound natural."
+    },
+    {
+      "purpose": "Direct repetition of the same open kernel",
+      "source": "ruehre ruehre",
+      "classes": ["H", "H"],
+      "groups": [["ruehre"], ["ruehre"]],
+      "recovered_source": "ruehre ruehre",
+      "note": "A second command remains a second command; no repeat code, common header or forced fusion."
+    },
+    {
+      "purpose": "Punctuation blocks suffix inheritance, but retains a preceding prefix run",
+      "source": "und salbei, es kocht",
+      "classes": ["R", "X", "L", "H"],
+      "groups": [["und", "salbei,"], ["es"], ["kocht"]],
+      "recovered_source": "und salbei, es kocht",
+      "note": "The comma stays attached to salbei,. This artificial fragment demonstrates exact copying rather than editorial grammatical improvement."
+    },
+    {
+      "purpose": "All-binder paragraph with both orphan directions",
+      "source": "und der es dann in",
+      "classes": ["R", "R", "L", "L", "R"],
+      "groups": [["und", "der"], ["es", "dann"], ["in"]],
+      "recovered_source": "und der es dann in",
+      "note": "No H is invented. This deliberately incomplete phrase is legal copying input, not an asserted complete semantic instruction."
+    },
+    {
+      "purpose": "Unlisted negation and an unfamiliar lexical kernel",
+      "source": "nicht zelmor es",
+      "classes": ["H", "H", "L"],
+      "groups": [["nicht"], ["zelmor", "es"]],
+      "recovered_source": "nicht zelmor es",
+      "note": "Zelmor is a made-up source word. Its spelling survives; the rule supplies no meaning for it and does not resolve the negation's scope."
+    }
+  ],
+  "known_counterexamples_and_obligations": [
+    "1176P1-P3,1177P4 and1178L2/L3 fail their unchanged necessary source-frequency gates. Their output families were rightward; their failures do not establish an execution of this exact R/L contract, and this difference does not establish success.",
+    "1179A already pays inner source boundaries and is too long under its fixed rule; a tuple-only proposal can hide precisely that cost.1179B/C dictionary/history costs are not introduced here.",
+    "1202's whole-word two-alias bound remains closed. This proposal changes grouping, so it is not claimed as a passing spelling variant of that failed contract.",
+    "The known fixed-count global-UD piece contradiction remains valid under its premises. This proposal neither fixes two pieces per group nor supplies any word/piece code. It does not infer native substring segmentation from ol/olol.",
+    "Known complete-word doublets with different initial signs, f45r.10's daldy/dalor/dal endings and the free ol/olol forms must remain visible obligations of any later carrier. Allowing singleton repeated H tuples and leaving terminals unrestricted at the abstract level is only non-exclusion, not an explanation of those native forms.",
+    "The existing daldy family and directed-part/whole-form-residual baseline do not identify R, L, H or a suffix value. This raw convention assigns no native meaning to dal, dy, y, r, l or any whole form.",
+    "The listed pronouns/adverbs occur in different grammatical positions; class-by-spelling is knowingly coarse. Unlisted historical spellings become H, which can make source-to-source behavior unstable. No list patch is licensed.",
+    "Long runs are unbounded and a future paid boundary code can make groups impractically long. q-followed-by-o, q entry concentration, common final forms and the native length distribution are not explained by this grouping alone."
+  ],
+  "predecessors": [
+    {
+      "id": "GDT1176",
+      "primary": "experiments/yolo/gdt1176_natural_text_word_partition/PREREGISTRATION.md",
+      "spec": "experiments/yolo/gdt1176_natural_text_word_partition/src/SPEC.json",
+      "decision": "experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md",
+      "relation": "Same exact51-word union at P3, but every member binds right there. New fixed direction partition, not a retrospective reclassification of that failure."
+    },
+    {
+      "id": "GDT1177",
+      "primary": "experiments/yolo/gdt1177_preposition_binding_transfer/PREREGISTRATION.md",
+      "spec": "experiments/yolo/gdt1177_preposition_binding_transfer/src/SPEC.json",
+      "decision": "experiments/yolo/gdt1177_preposition_binding_transfer/REPORT.md",
+      "relation": "Right list retained byte-for-value; its seven removed forms are now a fixed left class rather than absent from the binding list. Its transfer failure remains."
+    },
+    {
+      "id": "GDT1178",
+      "primary": "experiments/yolo/gdt1178_short_word_grouping/PREREGISTRATION.md",
+      "decision": "experiments/yolo/gdt1178_short_word_grouping/REPORT.md",
+      "relation": "Short-token thresholds bind only right and are not this spelling-class rule. Its full-boundary cost warning is adopted."
+    },
+    {
+      "id": "GDT1179",
+      "primary": "experiments/yolo/gdt1179_complete_natural_source_writers/METHOD.md",
+      "decision": "experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md",
+      "relation": "Complete <=3-character-plus-one-word pairing, not arbitrary R* H L* runs. Actual carrier length/history failures retained."
+    },
+    {
+      "id": "IDEA000936",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MARKED_FUNCTION_PREFIXES_RAW_20261005.json",
+      "decision": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA936_TERMINAL_RESULT_20261005.json",
+      "relation": "Twelve-word right-prefix teacher, with a literal carrier already excluded by final-y. Neither its list nor its carrier is silently presented as the new rule."
+    },
+    {
+      "id": "GDT1175",
+      "primary": "experiments/yolo/gdt1175_fixed_writer_b6_8_transfer/REPORT.md",
+      "relation": "Small semantic-root spelling-cost failure retained. Here all ordinary words are retained, but their glyph spelling cost is still unpaid, not improved by assertion."
+    }
+  ],
+  "duplicate_review": "Current route and composition baseline read. Bounded bidirectional/enclitic/left-attachment searches, ideas duplicates and route-check consulted;1176/1177/1178 followups led to the1179 complete-writer primary. The exact bidirectional source-word tuple rule was not found among those executed nearest contracts. This is a bounded novelty assessment, not exhaustive proof of absence. Older native bilateral quantity and semantic-attachment reports do not supply this forward source grouping or its carrier. No old meanings are adopted.",
+  "selection_status": "Retain RAW UNREVIEWED INCOMPLETE. No new scientific experiment, source selection, frequency extraction, grammar success, native compatibility or historical plausibility has been established. Root may independently select a necessary test only after reviewing this fixed contract."
+}

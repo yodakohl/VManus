@@ -1,0 +1,78 @@
+import collections,gzip,hashlib,itertools,json,re
+from pathlib import Path
+B=Path(__file__).resolve().parents[1];R=B.parents[2]
+SOURCE='experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz'
+def save(n,x):(B/('artifacts/'+n+'.json')).write_text(json.dumps(x,indent=2)+'\n')
+def signature(w):return (w[0],w[-1],tuple(sorted(collections.Counter(zip(w,w[1:])).items())))
+def feasible(edges,start,end):
+ active=[(a,b,n) for (a,b),n in edges.items() if n];total=sum(n for a,b,n in active)
+ if not total:return start==end
+ balance=collections.Counter();adj=collections.defaultdict(set);vertices={start,end}
+ for a,b,n in active:balance[a]+=n;balance[b]-=n;adj[a].add(b);adj[b].add(a);vertices.update([a,b])
+ for v in vertices:
+  expected=int(v==start)-int(v==end)
+  if balance[v]!=expected:return False
+ seen={start};stack=[start]
+ while stack:
+  for v in adj[stack.pop()]:
+   if v not in seen:seen.add(v);stack.append(v)
+ return vertices<=seen
+
+def alternative(word):
+ edges=collections.Counter(zip(word,word[1:]));end=word[-1]
+ for i,(at,observed) in enumerate(zip(word,word[1:])):
+  for nxt in sorted({b for (a,b),n in edges.items() if n and a==at and b!=observed}):
+   trial=edges.copy();trial[at,nxt]-=1
+   if not feasible(trial,nxt,end):continue
+   result=list(word[:i+1])+[nxt];current=nxt
+   while sum(trial.values()):
+    for step in sorted({b for (a,b),n in trial.items() if n and a==current}):
+     trial[current,step]-=1
+     if feasible(trial,step,end):result.append(step);current=step;break
+     trial[current,step]+=1
+    else:raise AssertionError('lost feasiblecompletion')
+   out=tuple(result);assert out!=tuple(word) and signature(out)==signature(word) and len(out)==len(word) and collections.Counter(out)==collections.Counter(word);return out
+  edges[at,observed]-=1
+ return None
+
+def controls():
+ count=0
+ for alphabet,maxlen in [('ab',8),('abc',6)]:
+  words=[w for n in range(1,maxlen+1) for w in itertools.product(alphabet,repeat=n)];groups=collections.defaultdict(set)
+  for w in words:groups[signature(w)].add(w)
+  for w in words:
+   alt=alternative(w);assert (alt is not None)==(len(groups[signature(w)])>1)
+   if alt is not None:assert alt in groups[signature(w)] and alt!=w
+   count+=1
+ assert alternative(tuple('abac')) is None and alternative(tuple('abaca')) is not None
+ return count
+
+def main():
+ for p,h in json.loads((B/'src/REGISTRATION_LOCK.json').read_text())['hashes'].items():assert hashlib.sha256((R/p).read_bytes()).hexdigest()==h,p
+ data=json.loads(gzip.decompress((R/SOURCE).read_bytes()));words=sorted({tuple(r['units']) for rows in data.values() for r in rows});types=[];idx={}
+ for w in words:
+  idx[w]=len(types);a=alternative(w);types.append({'units':list(w),'alternative':list(a) if a is not None else None})
+ result={};fibres={};events=[]
+ for reader,rows in data.items():
+  assert all(not r['page'].startswith('f84') and r['page']!='f116v' for r in rows)
+  leaf=lambda r:int(re.match(r'f(\d+)',r['page'])[1]);known={tuple(r['units']) for r in rows if leaf(r)%2};buckets={k:[] for k in ['ALL_CACHE','LENGTH_GE4','EVEN_GE4','EVEN_UNSEEN_WHOLE_GE4']};sigs=collections.defaultdict(lambda:collections.defaultdict(list))
+  for r in rows:
+   w=tuple(r['units']);ti=idx[w];e={'reader':reader,'id':r['id'],'page':r['page'],'leaf':leaf(r),'type_index':ti,'mobile':types[ti]['alternative'] is not None};events.append(e);buckets['ALL_CACHE'].append(e);sigs[signature(w)][ti].append(r['id'])
+   if len(w)>=4:
+    buckets['LENGTH_GE4'].append(e)
+    if not leaf(r)%2:
+     buckets['EVEN_GE4'].append(e)
+     if w not in known:buckets['EVEN_UNSEEN_WHOLE_GE4'].append(e)
+  summaries={}
+  for cohort,es in buckets.items():
+   per=collections.defaultdict(lambda:[0,0])
+   for e in es:per[e['leaf']][0]+=1;per[e['leaf']][1]+=int(e['mobile'])
+   unique={e['type_index'] for e in es};summaries[cohort]={'occurrences':len(es),'mobile_occurrences':sum(e['mobile'] for e in es),'distinct_types':len(unique),'mobile_types':sum(types[i]['alternative'] is not None for i in unique),'leaves':len(per),'mobile_leaves':sum(v[1]>0 for v in per.values()),'per_leaf':{str(k):{'occurrences':v[0],'mobile':v[1]} for k,v in sorted(per.items())}}
+  result[reader]=summaries;fibres[reader]=[{'types':[{'type_index':ti,'units':types[ti]['units'],'source_ids':ids} for ti,ids in sorted(group.items())]} for sig,group in sorted(sigs.items()) if len(group)>=2]
+ p=result['ZL3b']['EVEN_UNSEEN_WHOLE_GE4'];status='ORDER_CONTROL_CAPACITY' if p['mobile_occurrences']>=100 and p['mobile_leaves']>=10 else 'ORDER_CONTROL_CAPACITY_STOP';examples={w:next((t for t in types if ''.join(t['units'])==w),None) for w in ['qokeedy','daldy','daiin']};zltypes={tuple(r['units']) for r in data['ZL3b']};mobile=[t for t in types if t['alternative'] is not None and tuple(t['units']) in zltypes][:3]
+ save('TYPES',types);save('ATTESTED_FIBRES',fibres);save('EXAMPLES',{'old_named':examples,'first_three_mobile_ZL':mobile,'warning':'Alternative strings generated by algorithm, not necessarily attested;attestedfibres separately enumerated.'});save('RESULT',{'status':status,'readers':result,'distinct_computational_types':len(types),'attested_fibres':{r:len(v) for r,v in fibres.items()},'controls':controls(),'claim_ceiling':'Existence/capacityonlygivenperwordbigramcounts;no content,chunkselection,predictionorposition-conditionednull.'});(B/'artifacts/EVENTS.json.gz').write_bytes(gzip.compress(json.dumps(events,separators=(',',':')).encode(),mtime=0))
+ print(json.dumps({'status':status,'readers':{r:{c:{k:v for k,v in z.items() if k!='per_leaf'} for c,z in d.items()} for r,d in result.items()},'attested_fibres':{r:len(v) for r,v in fibres.items()},'examples':examples,'first_mobile':mobile},indent=2))
+if __name__=='__main__':
+ import sys
+ if '--controls' in sys.argv:print(controls())
+ else:main()

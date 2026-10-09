@@ -1,0 +1,57 @@
+{
+  "title": "RAW UNREVIEWED INCOMPLETE: an addition path writes an exact positive rational proportion",
+  "summary": "A source-free hand notation for an ordered positive rational proportion starts at (1,1). L replaces (p,q) by (p,p+q); R replaces it by (p+q,q). A finite path uniquely gives a reduced ratio, and reverse subtraction recovers the path. This retains a distinct arithmetic information module, not a complete22-sign script, a historical claim or a native reading.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+  "source_status": "MODERN_TEACHING_SKETCH_NO_HISTORICAL_ATTESTATION",
+  "origin": "Bounded producer sketch requested for retention by root after an initial incomplete-module report. This is not a repair of978 or977. Familiar arithmetic is not claimed as newly discovered.",
+  "design": {
+    "purpose": "Record exact relative proportions without learning a separate whole-word meaning for each fraction. A reader needs two integer counters and the two addition operations.",
+    "input": "An ORDERED pair of explicitly identified positive commensurable quantities together with a rational ratio p:q, p and q positive integers. The identification, common measure basis and assertion or instruction scope must be supplied by an outer notation that is not yet designed. No unnamed materials, units or participant identities are inferred.",
+    "preserved_information": "The exact ordered ratio. Divide p and q by their greatest common divisor before encoding. Thus2:3 and4:6 intentionally share a notation; absolute amounts, scale factor and original numerical wording are not retained. Equal units or an explicitly paid conversion are prerequisites, not an inferred density conversion.",
+    "teaching_alphabet": "L and R are two abstract operation labels only. Neither denotes a Voynich glyph, sound, word, direction of writing or established manuscript component. The empty path denotes1:1 mathematically but needs an overt physical representation before this can become a usable standalone writing system.",
+    "reader": [
+      "Initialize two counters at(1,1).",
+      "Read the path in its written order. On L keep the first counter and replace the second by their sum. On R keep the second and replace the first by their sum.",
+      "At the explicitly known end of the path, read the ordered counter pair as the reduced proportion. Path framing is currently metanotation, not an uncharged manuscript sign."
+    ],
+    "writer": [
+      "Reduce the supplied positive integer pair by its greatest common divisor.",
+      "While p differs from q: if p<q, record L and replace q by q-p; otherwise record R and replace p by p-q.",
+      "The reduced pair terminates at(1,1). Reverse the recorded operation sequence to obtain the written path. This reverse-copy step and its scratch-space cost are explicit."
+    ],
+    "inverse_proof": "Each operation preserves positivity and coprimality. Its final inequality identifies its inverse uniquely: p<q means the last operation was L, and p>q means R. Reverse subtraction strictly decreases p+q until the only coprime equality(1,1). Therefore all and only positive reduced rational pairs have one finite path.",
+    "hand_examples": [
+      {"path": "RL", "steps": [[1,1],[2,1],[2,3]], "readback": "first quantity:second quantity =2:3"},
+      {"path": "LR", "steps": [[1,1],[1,2],[3,2]], "readback": "first quantity:second quantity =3:2"},
+      {"input": "4:6", "reduced": "2:3", "reverse_subtractions": "(2,3) --L--> (2,1) --R--> (1,1)", "written": "RL"}
+    ],
+    "productive_consequences": [
+      "Interchanging the two quantity roles complements every L/R in the same order; it does not reverse the path. RL for2:3 becomes LR for3:2.",
+      "Appending L keeps p and adds p to q; appending R keeps q and adds q to p. Concatenation is composition of these operations, not addition of the two represented ratios.",
+      "A run of n L operations from the base denotes1:(n+1); n R denotes(n+1):1. No arbitrary ratio is chosen for a repeated substring."
+    ],
+    "learning_and_effort": "Two additions, comparison/subtraction, reduction and order reversal; no fraction-to-word table. Arithmetic magnitude and scratch memory are unbounded. A ratio1:N needs N-1 written operations, so no universal brevity or practical compression claim follows.",
+    "missing_parts": [
+      "A complete22-working-sign carrier, including how the two operation labels coexist with ordinary lexical text.",
+      "Explicit beginning/end of a path and a written1:1 case; exact names, punctuation, quotation and literal escape.",
+      "Outer sentence or instruction grammar, polarity, role order, units, absolute quantities if required, conditions and alternatives.",
+      "Word/paragraph boundaries and paid overwide continuation. No invisible resets or free extra marks are licensed.",
+      "Any independently justified native ratio-bearing scope or role-swap pair. No manuscript form is assigned to a quantity or operation."
+    ],
+    "limits_and_countercases": "Zero, negative values and infinite ratios are outside the declared positive domain. A recipe needing absolute dose cannot be represented by this module alone. Different dimensional quantities cannot be equated by an unpaid unit conversion. A binary path by itself does not explain a22-sign manuscript or its long interior diversity. Retaining this incomplete module selects no corpus, key, decoder or statistical test.",
+    "future_discriminator": "After an independent source/role/physical binding, a true reciprocal pair must have equal path length with exactly complemented operation labels in the same order. Failure rejects that fixed binding. Without an independently bound reciprocal relation this is only a source-side theorem, not a native test or a license to seek convenient word pairs."
+  },
+  "predecessor_review": [
+    {"id": "IDEA000727", "review_scope": "Current bounded registry card read; its original detailed primary was not located in the small allotted search. No absence or unexecuted claim.", "difference": "That card distinguishes concentration from heating temperature using a complete preparation. This module instead supplies an exact constructive encoding/inverse for arbitrary positive rational proportions, without choosing material or temperature meanings."},
+    {"id": "IDEA000879", "primary": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_FRESH_APPEARANCE_CORRECTION_RAW_20261002.json", "difference": "The historical actual/apparent dimension argument and its one-fiftieth correction require a bound reference. They do not supply this two-operation rational spelling. No architectural source or native scope is inherited."},
+    {"id": "IDEA000955", "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_COUNTED_NOMINAL_POWER_ROOT_REVIEW_20261006.json", "difference": "955 repeats a primitive noun to count distinct witnesses and scopes an outer property. This path encodes a ratio of two quantities; it neither repeats noun roots nor asserts a number of distinct entities.955 remains incomplete."},
+    {"id": "IDEA000966", "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_COMPARISON_WORD_FAMILY_RAW_20261006.json", "difference": "966 supplies greater/less/equal comparison and a written standard/list. This module distinguishes exact ratios such as2:3 and3:4 even though both are less than1. It does not inherit or repair966's physical controls."}
+  ],
+  "novelty_and_access": {
+    "screen": "Current route, composition topic, bounded ratio/continued-fraction searches, route-check and ideas duplicates. No identical declared addition-path proposal was returned; this is a bounded local novelty assessment, not exhaustive historical novelty.",
+    "retention_reason": "The exact arbitrary-rational encoding and reciprocal-complement law are a distinct information-bearing module. Incompleteness is explicit and does not prevent RAW retention.",
+    "exposure": "Existing proposal/primary prose only; no native payload, profile, image, new source, count, encoder, experiment or1272result was accessed. Earlier primaries955/966 were already read in the bounded supply work.",
+    "ownership": "Own new JSON and one ideas-add only; no root route/state/ledger or old RAW modified. No new agent or publication."
+  }
+}

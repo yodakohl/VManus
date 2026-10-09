@@ -1,0 +1,97 @@
+{
+  "status": "ONE_CANONICAL_ABSOLUTE_PATCH_PER_GROUP_EXCLUDED",
+  "recorded_utc": "2026-10-06T00:58:52.238707+00:00",
+  "selection": "Analytic preselection, not a new statistical experiment; old anchors chosen because their multiple distinct doublets were already established.",
+  "contract": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_ONE_GROUP_ABSOLUTE_DELTA_CONTRACT_20261006.json",
+  "contract_sha256": "3742ac90cb0f0ed15ac5d8a434939947ed63b026bf88c6a6a2a22b862e9b76f4",
+  "source_packet": "research_registry/proposals/production_origin_supply_20261003/HAND_WORD_EXTREMES_PACKET_20261005.json",
+  "source_packet_sha256": "f4848e2b3c7b9ad2457f4b36a604d8f2f5ee9235096e798471bb4b037cff1fb0",
+  "query_command": [
+    "./vmanus-exp",
+    "query-tsv",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+    "--selector",
+    "locus",
+    "--allow",
+    "f5v.3",
+    "--allow",
+    "f23r.5",
+    "--columns",
+    "edition,page,locus,kind,source_group_index,ivtff_group_raw,left_separator,right_separator"
+  ],
+  "query_receipt": "GUARD_STATS {\"selected\": 60, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 96124}",
+  "query_sha256": "af412b687f33bd7ca301cd1d2eda868944a27d39817ebf0c04033365dc32e40b",
+  "old_source_rows_reproduced": 60,
+  "anchors": {
+    "ZL3b": [
+      {
+        "locus": "f5v.3",
+        "left_index": 3,
+        "right_index": 4,
+        "form": "daiin",
+        "same_physical_line": true,
+        "shared_seam": "DEFINITE_SPACE"
+      },
+      {
+        "locus": "f23r.5",
+        "left_index": 8,
+        "right_index": 9,
+        "form": "ol",
+        "same_physical_line": true,
+        "shared_seam": "DEFINITE_SPACE"
+      }
+    ],
+    "IT2a": [
+      {
+        "locus": "f5v.3",
+        "left_index": 3,
+        "right_index": 4,
+        "form": "daiin",
+        "same_physical_line": true,
+        "shared_seam": "DEFINITE_SPACE"
+      },
+      {
+        "locus": "f23r.5",
+        "left_index": 8,
+        "right_index": 9,
+        "form": "ol",
+        "same_physical_line": true,
+        "shared_seam": "DEFINITE_SPACE"
+      }
+    ],
+    "RF1b": [
+      {
+        "locus": "f5v.3",
+        "left_index": 3,
+        "right_index": 4,
+        "form": "daiin",
+        "same_physical_line": true,
+        "shared_seam": "DEFINITE_SPACE"
+      },
+      {
+        "locus": "f23r.5",
+        "left_index": 8,
+        "right_index": 9,
+        "form": "ol",
+        "same_physical_line": true,
+        "shared_seam": "DEFINITE_SPACE"
+      }
+    ]
+  },
+  "reason": "Every nonempty absolute SET patch is idempotent on its record state. A second identical group cannot be canonical after the first, so only the globally unique REPEAT form may double. Each reader already has both ol/ol and daiin/daiin inside definite same-line spans.",
+  "assumptions": [
+    "Exactly one whole canonical patch or one globally fixed REPEAT per whole group.",
+    "Only truly changed fields emitted, state-independent injective patch serialization.",
+    "No reset inside the selected ordinary definite spaces; reset only at explicitly visible paragraph start.",
+    "Alternate readings are not independent evidence."
+  ],
+  "scope_limits": [
+    "No native value is assigned to either repeated form.",
+    "GDT1005 allows two records per group, so its full contract is not refuted by this one-patch lemma.",
+    "Redundant SETs, multiple REPEAT spellings, relative increments and state-dependent code values lie outside this contract.",
+    "No new image or paleographic reset verification; conditional on retained transcriptions and the stated paragraph-reset model.",
+    "No source-frequency test, GDT388 relation score, significance or general contextual-writing rejection."
+  ],
+  "decision": "Do not build a renderer for the stipulated one-patch contract. Retain older model failures unchanged; no automatic relative-delta or alias repair.",
+  "proof_review": "Producer supplied algebraic argument; root independently read contract and prior primaries, checked T(T(s))=T(s), and revalidated the already known source anchors. No independent native observation or semantic confirmation."
+}

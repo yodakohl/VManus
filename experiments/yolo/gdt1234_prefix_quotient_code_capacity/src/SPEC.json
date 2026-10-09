@@ -1,0 +1,70 @@
+{
+  "experiment": "GDT1234",
+  "selected_utc": "2026-10-06T12:20:22.618502+00:00",
+  "preparation_began_utc": "2026-10-06T12:09:00Z",
+  "inclusive_deadline_utc": "2026-10-06T13:04:00Z",
+  "inclusive_minutes": 55,
+  "question": "What necessary codebook-size bound follows for any actually used multi-sign entry of an arbitrary finite prefix-free word-preserving letter code, allowing shared initial signs?",
+  "source": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+  "readers": [
+    "IT2a",
+    "RF1b",
+    "ZL3b"
+  ],
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "contract": "One fixed finite prefix-free table C of distinct nonempty words over the22working units. Arbitrary finite lengths and several entries per head allowed. Every unchanged eligible whole group belongs to C*. Nontrivial requires an actually consumed code of length>1. Identity always covers W and is not a nontrivial positive. No source values, contextual spelling, optional errors, nulls or moved word boundaries.",
+  "selection": "All and only immutable1233GROUPS, separately by reader. No new query, native image, word selection or normalization. Every occurrence retained; deduplicate only mathematical constraints.",
+  "algorithm": "Iteratively add nonempty left prefix quotients: u,v=u r in R implies r. Save earlier parent IDs for every new string. Full fixed point required; otherwise UNKNOWN. Compute H first signs, F singleton strings, T two-sign edges, d distinct second signs. For every occurring possible long-code head g including g outside H, compute N backwards-reachable in T. If N intersects F g impossible. Otherwise direct bound |H union {g}|+max(1,d_g)-1 and stronger |H union {g}|+sum(max(1,d_h)-1 for h in N). Minimum remaining bound is necessary only, never exact minimum. Also compute irreducible prefix basis P for exact constraint reduction; it is a native-fitted formal code, not source language or a human writer.",
+  "predeclared_caps": [
+    22,
+    26,
+    28
+  ],
+  "cap_meaning": "Generic cardinality reference points only, not particular source alphabets. Report excluded only if necessary bound exceeds cap; otherwise NOT_EXCLUDED. If all heads forced singleton, no nontrivial code at any size. No solver follows a non-exclusion.",
+  "fixtures": "Before native output, all469sets of1..3binary words of lengths1..3 compared with every prefix-free codebook from binary words length1..3. Check all derived quotients, forced singleton membership and used-nontrivial size bounds. Named three-sign shared-head positive, all-singletons negative, four-digraph exact example, and outside-H candidate.",
+  "validation": "Independent implementation imports neither runner nor engine. Hash-check immutable inputs, reconstruct W from GROUPS, replay parent equality and earlier indices, check complete fixed-point closure, recompute all set/count/bound summaries and P factorization. No new source query is necessary:1233validated exact eligibility. Fixtures also checked by validator.",
+  "prior_review": [
+    "IDEA961RAW and proof addendum read fully; raw status not treated as conclusion",
+    "1233source-free distinct-initial fixed-tail capacity excludes used long codes but does not cover shared heads",
+    "892length1/2 prefix model,895/905/906source grammar stops remain; new test arbitrary finite lengths/source-free necessary bound",
+    "856BPE code collision retained; prefix-free stronger than UD, no all-UD inference",
+    "984weak projection and1097/1098/1168UNKNOWN/stop retained; no extra decoder runtime or fixed-source fitting"
+  ],
+  "decisions": {
+    "forced_identity": "Stop any used nontrivial code within this prefix-free, atom-fixed, word-preserving model; identity remains formal capacity.",
+    "finite_bound": "Exclude only cardinality caps below certified necessary bound; surviving caps remain unresolved.",
+    "unknown": "No exclusion from incomplete or invalid computation; stop rather than expand."
+  },
+  "assumptions": [
+    "22working units not proved physical alphabet",
+    "Literal definite whole groups correctly transcribed and preserve original source-word code boundaries",
+    "One context-free prefix-free spelling table, no hidden control channel",
+    "All prior exposure is exploratory, never independent reserve"
+  ],
+  "claim_ceiling": "Conditional source-free formal capacity only; no lexical meaning, source language, historical attestation, exact global minimum or full writer.",
+  "runtime_seconds_per_reader": 120,
+  "access": "Old1233whole-group artifact only; f84/f84rsealed, f116vnot admitted, no image/reserve. Local4Octcheckpoint exception: no commit/push."
+}

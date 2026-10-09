@@ -1,0 +1,14 @@
+{
+  "title": "Fixed overlapping digram encoding constrains latent endpoints",
+  "summary": "RAW_UNSCREENED: each literal written symbol encodes a fixed ordered pair of unknown latent symbols. Adjacent written symbols overlap by one latent symbol. Exact endpoint equalities test all such assignments without choosing a plaintext alphabet.",
+  "scope": "method",
+  "design": {
+    "mechanism": "Fixed map g -> (L_g,R_g), with R_g=L_h for every admitted within-group adjacency gh.",
+    "unit": "Literal characters inside complete definite raw groups; freeze alphabet and transcription treatment before testing.",
+    "contrast": "Overlapping pair code versus unconstrained symbol or whole-group notation.",
+    "prediction": "A nontrivial latent alphabet and, for the strict injective variant, distinct endpoint pairs must remain possible after every observed adjacency equality.",
+    "falsifier": "Union-find forces all endpoints equal, or forces distinct written symbols to identical endpoint pairs under the separately stated injective variant.",
+    "scope_note": "RAW_UNSCREENED, unreviewed proposal. No result, sound value, plaintext or execution approval. Homophonic surface choice and alternative segmentation are separate mechanisms.",
+    "nearest_predecessors": "GDT188 fixed symbol bijection; GDT160 edit-operation compatibility; neither inspected report gives overlapping latent endpoint equalities."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "DENOMINATOR_AND_FLAG_PROVENANCE_CLARIFIED_ORIGINAL_RESULTS_RETAINED",
+  "question": "What exactly is the pX/yX paragraph-start contrast and where do its flags come from?",
+  "findings": [
+    "GDT1074only selects line-initial P-prose groups with strict source boundaries and a shared paragraph flag. Its fractions are conditional on line-initial eligibility, not all occurrences of each whole form.",
+    "The inspected source-separator builder sets paragraph_start from the literal <%> annotation in the source line; it does not compute that flag from p/y spelling.1074then retains ZL3b/IT2a agreement at a line locus and projects it to all readings.",
+    "This verifies the inspected local projection code, not independent upstream palaeographic creation of every annotation. No original-source annotation algorithm or new image validation was established, and no circularity failure is claimed.",
+    "The registered five-base direction and1075three-base within-section/hand positive stay unchanged. The three readings are not independent physical confirmation.",
+    "Known1074pchedy has4paragraph starts among9eligible line-initial ZLtokens, so its other5alreadyprevent a strict rule that every pchedy is on a paragraph-opening line. This is not a new counterexample census."
+  ],
+  "full_profile_examples": {
+    "pchedy_ZL": {
+      "all_exact_raw_groups": 34,
+      "line_start": 12,
+      "line_middle": 21,
+      "line_end": 1
+    },
+    "pchor_ZL": {
+      "all_exact_raw_groups": 12,
+      "line_start": 7,
+      "line_middle": 5,
+      "line_end": 0
+    }
+  },
+  "profile_scope": "Existing words-profile tool over its admitted raw population. This differs from1074strict selected denominator; do not recompute paragraph fractions by mixing them. Line-middle is not automatically paragraph-middle.",
+  "decision": "Keep positive conditional position tendency, no universal capitalization/allograph/paragraph-marker rule and no native meaning. Clarify live brief wording; no new image, classifier or rerun.",
+  "sources": [
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/REPORT.md",
+      "sha256": "c99871e8e872f0a1b8efd2abf3011a5c74ff1a11038e05624cefb4d842e7fe54"
+    },
+    {
+      "path": "experiments/yolo/gdt1074_physical_paragraph_pair_robustness/METHOD.md",
+      "sha256": "948c625693d198599433574fd1d065c8c2e8fa188745bd5089fc3f5bca5fd94b"
+    },
+    {
+      "path": "experiments/yolo/gdt1075_py_section_hand_confound/REPORT.md",
+      "sha256": "fc0894be0cc703a55954fb5895a400a26eca4b7868237ff4ba5cee7dcdae014a"
+    },
+    {
+      "path": "experiments/semantic_assumptions/build_source_separator_transcription.py",
+      "sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51"
+    },
+    {
+      "path": "experiments/semantic_assumptions/SOURCE_SEPARATOR_TRANSCRIPTION_SPEC.md",
+      "sha256": "fdcfb65a67438ae154979b1499ce63dc359e0e65ae5eaf93e73637e7dec3ec46"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_FORM_PROFILES_20261007.json",
+      "sha256": "ad52c6c2d7094b354d99b234c065d17339587f17ea83ee3ca3e59088a6addd0f"
+    }
+  ]
+}

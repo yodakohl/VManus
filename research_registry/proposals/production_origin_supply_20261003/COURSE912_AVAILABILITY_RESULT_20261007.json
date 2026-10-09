@@ -1,0 +1,80 @@
+{
+  "status": "EMPTY_STOCK_TRACE_EQUIVALENCE_NO_SCOPE_IDENTIFICATION",
+  "scope": "Exact finite semantic countermodel for IDEA912, not a historical or native observation.",
+  "assumptions": [
+    "A/B abbreviate two invented material-specific preparation/application courses, not native signs or words.",
+    "Preparation makes its material available and leaves any other ready material available.",
+    "Application requires that material to have been prepared.",
+    "There are exactly two stages and no external preparation between them.",
+    "The global model commits to A or B once. The local model freshly chooses among executable applications, without a remembered course variable.",
+    "No historical initial stock or Voynich treatment subject is asserted."
+  ],
+  "cases": [
+    {
+      "initially_prepared": "none",
+      "global_course": [
+        "AA",
+        "BB"
+      ],
+      "fresh_executable_choice": [
+        "AA",
+        "BB"
+      ],
+      "same_trace_set": true
+    },
+    {
+      "initially_prepared": "B",
+      "global_course": [
+        "AA",
+        "BB"
+      ],
+      "fresh_executable_choice": [
+        "AA",
+        "AB",
+        "BB"
+      ],
+      "same_trace_set": false
+    },
+    {
+      "initially_prepared": "A",
+      "global_course": [
+        "AA",
+        "BB"
+      ],
+      "fresh_executable_choice": [
+        "AA",
+        "BA",
+        "BB"
+      ],
+      "same_trace_set": false
+    },
+    {
+      "initially_prepared": "AB",
+      "global_course": [
+        "AA",
+        "BB"
+      ],
+      "fresh_executable_choice": [
+        "AA",
+        "AB",
+        "BA",
+        "BB"
+      ],
+      "same_trace_set": false
+    }
+  ],
+  "proof": "With empty initial stock, preparing X leaves only X available. Every executable second-stage choice is therefore X, yielding AA or BB in both models. The physical prepared-stock state encodes the consequence of the first action without an extra persistent grammatical choice. Any first-stage probability p gives identical full two-stage trace probabilities p and1-p under both models.",
+  "contrast": "Both materials initially prepared gives four allowed local traces versus two global traces. This is a difference in permitted traces, not a claim that finite observed absence of mixed traces proves the global model.",
+  "historical_limit": "The read Trotula packet attests nested alternatives but neither this two-course abstraction nor independent initial-stock or mixed-history prohibition. It cannot supply missing semantic premises.",
+  "predecessors": "1018already distinguishes executable local options and instruction adequacy;1153refutes a different prior-occurrence selection rule. Both original decisions remain unchanged.",
+  "decision": "Do not select a native912test from AA/BB persistence alone. A written scope/identity binding or independently justified opportunity for a mixed trace is needed; mere repetition or a new arbitrary connector value is insufficient.",
+  "validation": "Four generated rows agree with a separately hand-derived truth table. Same author, no independent semantic validation.",
+  "source_hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/one_choice_course_scope.json": "91e9e25ac7a048bd7e21e5f666072e8b1af56eeb1c7f1e3cbf5bf2e692c62a0a",
+    "research_registry/work_batches/ten_hours_20260915/TROTULA_IV15_V19_SOURCE_PACKET_20260920.md": "d4624cbfa797c57514e823122831856cbe1650f1c9e05859bcc9c1a1fc30655f",
+    "experiments/yolo/gdt1018_transport_sufficient_instruction_audit/REPORT.md": "1adc439cc580d1c5cbd6a9978c376368b56c8aadb69185b256ede904c469b45e",
+    "experiments/yolo/gdt1153_prior_continuation_choice/REPORT.md": "1b13b2800edd7be6a45a1d5fdbd6a5ef4fe9afa24f7cab34b6b3347e2724b376"
+  },
+  "no_native_access": true,
+  "confirmed_native_words_added": 0
+}

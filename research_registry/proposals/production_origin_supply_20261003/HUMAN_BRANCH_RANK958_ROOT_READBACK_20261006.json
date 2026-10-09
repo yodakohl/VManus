@@ -1,0 +1,72 @@
+{
+  "status": "FROZEN_MANUAL_READBACK_BEFORE_EXPECTED_RELEASE",
+  "frozen_utc": "2026-10-06T08:16:37.618355+00:00",
+  "idea": "IDEA000958",
+  "method": "Root decoded directly from the supplied finite lexicon and integer chart; no encoder, decoder or expected-source file used.",
+  "input_hashes": {
+    "HUMAN_BRANCH_RANK958_READER_RULES_20261006.json": "50812f581bc96449bcdac83fa9595127bd4d2e76980a7d6a9ced402019c602a5",
+    "HUMAN_BRANCH_RANK958_CHALLENGE_20261006.txt": "87f72e7b9ec9619081a644a72fac1f73120c9024f362fb4c535065d6c6ae9acd",
+    "HUMAN_BRANCH_RANK958_PHYSICAL_DOMAIN_NOTE_20261006.json": "dbeabeea977b3ba68154b369550668c11c45147733ba9332cef2f0495412314b"
+  },
+  "tokens": [
+    "yara",
+    ",",
+    "wait",
+    "wait",
+    ".",
+    "drink",
+    "water",
+    ".",
+    "uncharacteristically,",
+    "water",
+    "is",
+    "not",
+    "warm",
+    "."
+  ],
+  "exact_token_string": "yara , wait wait . drink water . uncharacteristically, water is not warm .",
+  "ordinary_message": "Yara, wait, wait. Drink water. Uncharacteristically, water is not warm.",
+  "literal_tokens": [
+    "yara",
+    "uncharacteristically,"
+  ],
+  "manual_trace": [
+    "cfh + cphn,a,sh,a gives literal indices25,1,18,1: yara.",
+    "r is root rank10 and the terminal comma; s is root rank9 and terminal full stop.",
+    "yaaa follows w,a,i,t; repeated exactly.",
+    "oaaaa follows d,r,i,n,k, stopping at terminal drink despite its s child.",
+    "yaeaa follows w,a,t,e,r; ea follows i,s; iaa follows n,o,t; yaoa follows w,a,r,m.",
+    "Third row payload after literal header: cpha,t,e,y,a,sh,a,e,cth,n,sh,s,ckh,cth,s,e,a,m,m,cphn gives uncharacteristically. Final cfh is continuation, not a source letter. Next-row cphy is index28, attached comma."
+  ],
+  "line_boundaries": {
+    "row1_to_row2": "ordinary source space after full stop",
+    "row2_to_row3": "ordinary source space after full stop",
+    "row3_to_row4": "no source space; cfh continuation joins cphy to unknown token",
+    "paragraph_breaks": 0
+  },
+  "manual_accounting": {
+    "logical_tokens": 14,
+    "physical_groups": 15,
+    "logical_drawings": 67,
+    "continuation_drawings": 1,
+    "physical_drawings": 68,
+    "within_row_blanks": 11,
+    "row_cells": [
+      20,
+      13,
+      24,
+      22
+    ],
+    "long_literal_logical_drawings": 25
+  },
+  "friction": [
+    "Small branch chart made recovery straightforward, but each character requires a local child list or traversal of a complete trie. A full wordbook would make this lookup cost much larger.",
+    "Multiletter working labels were manually separated as drawings; this is an artificial notation lesson, not an ink-reading test.",
+    "Capitalization and editorial sentence punctuation in ordinary_message are presentation only; exact_token_string preserves the actual lowercase source tokens and attached comma."
+  ],
+  "unstated_rule_needed": false,
+  "limits": [
+    "Does not measure historical usability, native statistics or word meanings.",
+    "The disclosed finite-alphabet physical-domain limit is retained; the N=28 lesson lies within the sufficient N<=440 domain."
+  ]
+}

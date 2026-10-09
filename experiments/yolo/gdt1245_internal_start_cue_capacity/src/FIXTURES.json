@@ -1,0 +1,133 @@
+[
+  {
+    "name": "ordered_unique",
+    "base": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "cues": [
+      [
+        "b",
+        "c"
+      ],
+      [
+        "d"
+      ],
+      [
+        "f",
+        "g"
+      ]
+    ],
+    "contradicted": false
+  },
+  {
+    "name": "missing",
+    "base": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "cues": [
+      [
+        "b",
+        "c"
+      ],
+      [
+        "d"
+      ],
+      [
+        "f",
+        "h"
+      ]
+    ],
+    "contradicted": true
+  },
+  {
+    "name": "ambiguous",
+    "base": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "b",
+      "c"
+    ],
+    "cues": [
+      [
+        "b",
+        "c"
+      ],
+      [
+        "d"
+      ],
+      [
+        "f",
+        "g"
+      ]
+    ],
+    "contradicted": true
+  },
+  {
+    "name": "initial_not_internal",
+    "base": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "cues": [
+      [
+        "b",
+        "c"
+      ],
+      [
+        "d"
+      ],
+      [
+        "f",
+        "g"
+      ]
+    ],
+    "contradicted": true
+  },
+  {
+    "name": "reversed",
+    "base": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "cues": [
+      [
+        "f",
+        "g"
+      ],
+      [
+        "d"
+      ],
+      [
+        "b",
+        "c"
+      ]
+    ],
+    "contradicted": true
+  }
+]

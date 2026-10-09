@@ -1,0 +1,58 @@
+{
+  "schema": "v81_r2_phase1_source_freeze_v1",
+  "role": "R2",
+  "phase": 1,
+  "status": "FROZEN_BEFORE_V81_TARGET_MANIFEST",
+  "frozen_at_utc": "2026-08-22T15:32:49Z",
+  "target_manifest_opened": false,
+  "inventory_path": "experiments/yolo/sidequest_theory_candidates_v81/V81_R2_PHASE1_SOURCE_INVENTORY.tsv",
+  "inventory_sha256": "45d0ed8c3586f018134ce4e9c058c343e368c6e62765205e85f0d5a62f09766c",
+  "inventory_data_rows": 37,
+  "inventory_row_cap": 60,
+  "report_path": "experiments/yolo/sidequest_theory_candidates_v81/V81_R2_PHASE1_HISTORICAL_SOURCE_REPORT.md",
+  "report_sha256": "426036560691beee9e8567a941d6489198ef7ed67b650cd3c70b0aa0ac53b6d8",
+  "protocol_path": "experiments/yolo/SIDEQUEST_V81_ATOMIC_CODEBOOK_VOCABULARY_PROTOCOL.md",
+  "protocol_sha256": "45ec0cfed64cea2fc4488a89a053fa94e04c320fea321d37f24d4d4821437d92",
+  "historical_key": {
+    "source_id": "MEISTER1906_LAVINDE_UNNUMBERED_ANON_AFTER_28",
+    "identity": "Gabriel de Lavinde manual, separately headed unnumbered [Anonym.] nomenclator placed after no. 28",
+    "date": "1379 manual stratum; anonymous table not separately dated",
+    "archive_shelfmark": "Archivio Apostolico Vaticano (Meister: Vat. Arch.), Collect. 393, ff. 166-181",
+    "documentary_edition_pages": [
+      175,
+      176
+    ],
+    "not_lavinde_key_13": true,
+    "not_lavinde_key_26": true,
+    "independence_warning": "Meister footnotes the table as very similar to no. 13; rows must not be counted as independent cumulative support."
+  },
+  "source_object": {
+    "kind": "documentary_edition_pdf",
+    "citation": "Aloys Meister, Die Geheimschrift im Dienste der päpstlichen Kurie von ihren Anfängen bis zum Ende des XVI. Jahrhunderts (Paderborn: Ferdinand Schöningh, 1906)",
+    "stable_url": "https://archive.org/download/diegeheimschrift00meis/diegeheimschrift00meis.pdf",
+    "sha256": "5d38b02e1dfd75803fbe645dd70e73ba77ec62fee9dc9a0955522732d37d6c90",
+    "page_175_locator": "https://archive.org/details/diegeheimschrift00meis/page/n191/mode/1up",
+    "page_176_locator": "https://archive.org/details/diegeheimschrift00meis/page/n192/mode/1up"
+  },
+  "admission_rule": "All and only source-first, fully printed entry-code pairs whose codes are unambiguous Roman letters and/or Arabic digit 3; no target comparison and no graphic-sign reconstruction.",
+  "excluded_controls": [
+    "graphic substitution alphabet",
+    "papa: graphic code",
+    "Karolus de la pace: supraline or overbarred b-like code",
+    "Comes fundorum: letter plus graphic stroke",
+    "Matrimonium: typographically l/I-like first code character"
+  ],
+  "evidence_ceiling": "SOURCE_VOCABULARY_ONLY_NO_TARGET_IDENTITY",
+  "blindness_attestation": {
+    "v80_artifacts_opened": false,
+    "v81_target_or_card_manifest_opened": false,
+    "voynich_occurrence_table_opened": false,
+    "sibling_v81_output_opened": false,
+    "voynich_page_opened": false,
+    "voynich_image_opened": false,
+    "voynich_transcription_opened": false,
+    "f84_opened": false,
+    "f84r_opened": false
+  },
+  "phase2_authorization": "STOP_AFTER_PHASE1_FREEZE"
+}

@@ -1,0 +1,68 @@
+{
+  "status": "FORMULA_VALID_RESTRICTED_POSITION_ASSOCIATION_NOT_JOINT_BAG_CONTROL",
+  "ownership": "Root proposed the positions-conditioned diagnostic after1264. bounded_idea_supply checked the algebra, identified a source-free joint-confound counterexample and reviewed nearby methods. No native tables, payloads, new counts, samples or learned labels were constructed.",
+  "fixed_inputs": "Retain1264's learned ZL class map, working-unit parsing, exterior-unit trimming, odd/even physical-leaf split and unscorable-unit treatment. Apply the unchanged map to alternate readers. Source page selector, interior length n and pair position j define each TEST contingency cell. No label refit is made on TEST.",
+  "cell_algebra": {
+    "counts": "Let a=n00, b=n01, c=n10, d=n11 and N=a+b+c+d>0. Row totals r0=a+b,r1=c+d; column totals c0=a+c,c1=b+d. Use separate names for N, the number of paired observations in this cell, and n, the length of a word interior.",
+    "observed": "O=b+c.",
+    "product_margin_expectation": "E=(r0*c1+r1*c0)/N.",
+    "difference": "Delta=O-E=2*(b*c-a*d)/N.",
+    "normalized_difference": "Delta/N=-2 times the empirical binary covariance computed with divisor N.",
+    "informative": "Both margins vary exactly when r0>0,r1>0,c0>0,c1>0. All four individual cells need NOT be positive. If either margin is constant, Delta is exactly0; this mechanical equality is not confirmation of independence.",
+    "expectation_interpretation": "E is the expected crossing count if the N observed right-column labels are uniformly paired with the N fixed left labels within this one cell. It is also the empirical product-margin baseline. There is no N-1 correction for this matching expectation."
+  },
+  "important_counterexample": {
+    "purpose": "The new margin contrast and1264's bag contrast do not jointly condition on BOTH word composition and position. Both can be positive in a model with only a fixed bag and a positional preference, without a further neighbor interaction.",
+    "five_synthetic_interiors_same_cell_population": ["AAB", "ABA", "ABA", "ABA", "BAA"],
+    "generating_description": "Every word contains exactly2A and1B. Choose the B location at positions1,2,3 with probabilities1/5,3/5,1/5. This is a positional weight conditioned on the fixed bag; no adjacent-pair potential is needed.",
+    "old_bag_endpoint": "The five words have8 observed crossings in total.1264's uniform-bag expectation is5*(2*2*1/3)=20/3. The bag excess is therefore4/3, positive.",
+    "first_pair_position_table": [[1,3],[1,0]],
+    "second_pair_position_table": [[1,1],[3,0]],
+    "new_endpoint": "At each position N=5, O=4, E=14/5 and Delta=6/5. The total Delta across ten edges is12/5, hence Delta/all_edges=0.24, also positive. Both position cells are informative.",
+    "conclusion": "Positive old and new endpoints would not establish an increment beyond a JOINT bag-plus-position model. This is an interpretation limit, not a claim that the supplied synthetic mechanism explains the manuscript."
+  },
+  "conditioning_not_relearning": [
+    "The binary symbol labels remain learned only from the frozen TRAIN partition. TEST margins are computed because they define a descriptive conditional association statistic, not because a new symbol classifier is being trained.",
+    "This is not an out-of-sample probability model for positions. Calling the observed-margin subtraction a learned positional predictor would be inaccurate.",
+    "For each cohort ALL,UNSEEN_INTERIOR andUNSEEN_WHOLE, recompute its own cell counts and margins from that same cohort if the intended endpoint is that cohort's conditional association. Using ALL margins for a subset instead defines a different reference and does not satisfy the subset determinant identity above.",
+    "UNSEEN_INTERIOR must mean absence of the exact trimmed working-unit sequence from the same reader's odd-leaf training vocabulary. It is stricter than unseen whole form, but does not require an unseen binary pattern or an unseen family structure.",
+    "No phrase, glyph value, word meaning, training label or extra class is selected from the new conditional scores."
+  ],
+  "aggregation_and_gates_to_freeze": [
+    "For each physical leaf, sum Delta over its page-selector/length/position cells and divide by ALL scored edges on that leaf, including edges in uninformative cells. Such cells contribute zero numerator but retain their denominator cost.",
+    "Keep page-selector conditioning distinct from physical-leaf aggregation. Recto/verso and extra selectors of one physical leaf must not become independent leaves.",
+    "Define an informative leaf explicitly, naturally as one containing at least one informative cell. It can still have total Delta=0 through cancellation. Zero is not positive for the two-thirds sign gate.",
+    "The requested minimum10informative leaves, two-thirds positive informative leaves and mean excess>=0.01 are declared engineering criteria, not p-value thresholds. The mean's leaf population must be frozen explicitly: informative leaves only OR every leaf with scored edges. Report both if useful, but do not choose between them after seeing the outcome.",
+    "A leaf or cohort with no scored edges has no defined rate. Keep it as a capacity/exclusion case rather than silently replacing its score by zero. An edge-bearing but uninformative leaf has a genuine zero contrast and should be reported separately.",
+    "Use exact rational arithmetic where practical. Every cell's sign can be checked by b*c-a*d; avoid numerical positivity from roundoff at a zero determinant.",
+    "Expose informative-cell sizes and all denominators. A cell with only two observations can already be informative and strongly positive or negative; several such cells are not automatically strong independent evidence."
+  ],
+  "not_a_coherent_text_null": [
+    "A word contributes multiple overlapping adjacent pairs at different j. Independently repairing pairings in each contingency cell can assign incompatible labels to the shared middle position of a word.",
+    "Consequently the cell matching interpretation alone is not a distribution of coherent complete texts preserving their bags or other constraints. No whole-text permutation p-value, independence assertion or Monte Carlo reference follows from summing these expectations.",
+    "Repeated exact words, repeated binary patterns and overlapping edges remain dependent observations. Equal physical-leaf weighting does not remove all such dependence or turn alternate readings into replications."
+  ],
+  "nearby_predecessors": [
+    {
+      "id": "GDT1264",
+      "primary": "experiments/yolo/gdt1264_interior_binary_alternation/METHOD.md",
+      "difference": "1264 learns the fixed split and evaluates against each interior's uniform symbol bag. It explicitly leaves position-specific frequencies open. The new statistic fixes those marginal frequencies at page/length/position resolution but does not also preserve each word bag."
+    },
+    {
+      "id": "GDT845/846",
+      "primary": "experiments/yolo/gdt846_grid_prefix_confound_audit/METHOD.md",
+      "difference": "846already uses2x2product margins, all-positive marginal eligibility and separate all/informative summaries for a fixed e-run/d grid. The algebra and warning about uninformative cells are not new. Its specified form grid and prefix/kernel/metadata strata are not the frozen binary whole-interior position question."
+    },
+    {
+      "id": "GDT849/854",
+      "primary": "experiments/yolo/gdt849_two_e_run_grid_discovery/METHOD.md",
+      "difference": "849describes a3x3outer/inner e-position grid within fixed literal wrappers;854's different cross-kernel neighbor transfer stopped on capacity. Neither supplies this all-interior binary adjacency residual. No e-placement role or semantic value is inherited."
+    },
+    {
+      "id": "GDT915/1261",
+      "difference": "Those controls concern terminal r/l on separate whole words and token-label assignments with leaf/stem/position or added line margins. They are different randomization objects; the exact-text sampler1261stopped on computational capacity and is not revived by independent pair-cell marginals."
+    }
+  ],
+  "bounded_prior_verdict": "The inspected relevant methods and bounded route/idea lookup expose prior contingency arithmetic and position concerns, but no identical executed frozen-binary TEST page/length/position contrast. No exhaustive absence claim is made. No new RAW is needed to rename this methodological diagnostic.",
+  "decision_ceiling": "The proposed computation is valid as a separately scoped descriptive class-association check conditional on observed position margins. Any positive should be stated at that level only: it does not by itself establish syllables, vowel/consonant roles, a genuine writer, semantic composition, phonetics, H2compression or dependence beyond a joint bag-and-position mechanism. Root owns scientific selection, final gate definitions and any execution."
+}

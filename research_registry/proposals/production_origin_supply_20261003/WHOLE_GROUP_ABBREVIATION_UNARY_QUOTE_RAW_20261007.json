@@ -1,0 +1,94 @@
+{
+  "title": "RAW UNREVIEWED: whole-group abbreviation with ordinary embedded letters and unary quoting",
+  "summary": "Root-proposed complete word-channel construction. A fixed literal alphabet reuses some of its signs as whole-word abbreviations only when the sign is the entire written group. To preserve every source single-letter word and every unary source word, a reserved sign's unary literal run is lengthened by exactly one sign. Longer nonunary words remain literal. This pays the collision without an extra escape sign or hidden context; source word identity and frequencies remain invariant. No native values, source language or successful corpus model is selected.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_COMPLETE_WORD_CHANNEL",
+  "source_status": "MODERN_CONSTRUCTION_PROPOSED_BY_ROOT_NOT_HISTORICAL_ATTESTATION",
+  "ownership": "Root supplied the group-conditioned role contract and then the unary quoting completion before any implementation or target test. Bounded producer checked the proof, exact predecessor distinction and limitations, and records the construction here. This is not an independent discovery or blind result.",
+  "design": {
+    "purpose": "A writer can use familiar short whole-word notes while keeping the same small signs available for ordinary spelling inside words. A reader uses an actually visible whole-group boundary rather than a previous passage, an inferred topic or a guessed meaning to select the reading mode.",
+    "public_parameters": {
+      "source_alphabet": "A fixed finite alphabet Sigma of m characters, with m at most22. For a full22-sign instance m=22. Word separators are not members of Sigma. Every finite nonempty Sigma-string is an admissible source word, including new names, single letters and arbitrarily repeated letters. The source alphabet is a declared input parameter, not inferred from target frequencies.",
+      "literal_map": "One fixed bijection L from Sigma to m distinct working signs G. The signs may be the existing22 working drawings when m=22; their source values remain abstract and unselected here. L has no word-position, paragraph or frequency dependence.",
+      "shortcut_signs": "A fixed subset S of G.",
+      "shortcut_lexicon": "D assigns every g in S one distinct finite NONUNARY source word D(g). Nonunary means containing at least two different source characters, and therefore having length at least2. D is injective. Its entire list is shared and learned before writing; no occurrence-specific new shortcut is allowed.",
+      "no_source_hole": "Unlike the preliminary no-escape sketch, source words consisting only of a reserved sign's letter are not excluded. The unary quoting rule represents all of them.",
+      "scope": "A finite ordered message of nonempty source words and declared paragraph boundaries. Source spaces and paragraph boundaries are reproduced as visible spaces and paragraph separation. Punctuation or digits are supported exactly when they belong to the declared Sigma and count toward m; none is silently dropped, normalized or supplied by an unpriced extra channel. This is not a claim to cover every historical orthography, Unicode character or existing corpus projection."
+    },
+    "writer": [
+      "Read the complete next source word w. If w is a value in the fixed D lexicon, write its unique shortcut sign g as the entire group. This precedence is compulsory.",
+      "Otherwise, if w=a^n is unary for a source character a and n>=1, and L(a)=g belongs to S, write g^(n+1) as the complete group. The extra copy is the paid quotation; do not double every individual character.",
+      "In every other case, write the ordinary characterwise literal image L(w). In particular a reserved sign occurring in a nonunary longer word is not doubled and keeps its ordinary letter role.",
+      "Copy exactly one visible source-word separator after the complete group where the input has one. Copy the declared paragraph separation. No state is retained across groups. Unknown words use precisely the same rule, never a guessed dictionary value."
+    ],
+    "reader": [
+      "First identify one complete visible written group c. A line fragment is not a group and must not be decoded separately.",
+      "If c is a singleton g in S, return D(g).",
+      "Otherwise, if c=g^m is unary, g belongs to S and m>=2, return a^(m-1), where a=L^-1(g).",
+      "Otherwise return the ordinary letterwise inverse L^-1(c).",
+      "Re-encode that recovered source word using the unchanged writer. Accept only if the same complete group returns. This rejects a fully spelled shortcut word, even though the informal literal reading is intelligible. Restore the original source separators and paragraph order."
+    ],
+    "inverse_proof": [
+      "Every shortcut output has length1 and a reserved sign; it decodes to its unique nonunary D-value and re-encodes to itself.",
+      "Every quoted unary output uses a reserved sign and length at least2. Subtracting one copy gives the original positive source length. This source word is unary and hence cannot be a D-value.",
+      "An unquoted nonunary source word has a nonunary literal image because L is bijective, so it cannot collide with either preceding output class. If it is not in D, literal reading and re-encoding agree.",
+      "An unreserved unary word remains literal at every positive length. Its sign is outside S, so it cannot be mistaken for a shortcut or quotation.",
+      "These cases exhaust every nonempty source word. Hence the forward map has a unique exact inverse on its canonical output language and is injective per complete word."
+    ],
+    "invented_examples": {
+      "three_letter_configuration": "Sigma={A,B,C}; L(A)=u, L(B)=v, L(C)=w; S={u}; D(u)=BC. The labels u/v/w denote arbitrary teaching drawings, NOT assigned Voynich signs or sounds.",
+      "source_words": ["A", "AA", "BCA", "BC", "C"],
+      "written_groups": ["uu", "uuu", "vwu", "u", "w"],
+      "readback": "uu returns A; uuu returns AA; the embedded u in vwu is ordinary A, giving BCA; isolated u returns BC; w returns C.",
+      "noncanonical_counterexample": "Under this same fixed configuration, vw would informally spell BC but is rejected: BC must be written as u. No second meaning or optional spelling is added after that rejection.",
+      "meaningful_source_illustration": "In any independently declared source alphabet containing the required ordinary letters, let g_a mean only the abstract literal image L(a), and let the fixed entry D(g_v) be the source word 'the'. The ordinary message 'we stir the pot' writes [g_w g_e] [g_s g_t g_i g_r] [g_v] [g_p g_o g_t]. The source word 'v' writes [g_v g_v], 'vv' writes three g_v, and 'vessel' writes [g_v g_e g_s g_s g_e g_l]. This is an illustrative source-word choice, not a proposed language or any native sign-to-word assignment."
+    },
+    "physical_and_human_costs": {
+      "sign_inventory": "No sign beyond G is introduced. Spaces and paragraph separation are actual visible layout, not glyph-free hidden bits. The role switch is determined by the complete group's length and unary/nonunary shape.",
+      "learning": "m literal correspondences plus |S| complete shortcut correspondences, wholeword precedence, and one unary length-shift rule. Normal language vocabulary and grammar are assumed, not supplied by the code. D's meanings are ordinary source words known to the reader; their spelling associations are additional learning cost.",
+      "memory": "No word cache or alternating counter. The writer must recognize a whole source word and whether it is a unary run; the reader must delimit the complete group and count that run. Very long runs are error-prone even though the inverse is exact.",
+      "length": "A shortcut of source length n saves n-1 working signs. Each reserved unary source word costs one additional sign. Other words keep their source character count. Dictionary learning, spaces, paragraph layout and counting are not free, and no net saving has been measured.",
+      "lines": "Do not split a group across physical lines. Wrap only at existing word separators; no line reset or line-dependent spelling occurs. The abstract word-channel permits arbitrary finite word length. For a finite hand demonstration, provide a writing line or strip long enough for its longest encoded group, chosen before copying. If a fixed page cannot hold a group, the physical instance fails unless separately given a paid continuation contract. No such finite-page continuation is silently included or claimed native.",
+      "local_labels": "The same complete-group rule applies to a detached inscription and a prose word. A label requires the shared L and D but no previous prose. No noun, name, numeral or control role is inferred from being detached."
+    },
+    "observable_consequences_and_limits": [
+      "The same sign can be a whole-word abbreviation alone and an ordinary letter inside a longer nonunary word. Thus occurrence both alone and embedded does not force a literal-only global role in this new contract; that inference remains valid for834/837's different fixed-role contract.",
+      "For a reserved g, g^1 decodes to D(g), while g^2,g^3,... decode to a,a^2,... . All positive unary written lengths are permitted. This is not the odd/even terminal-escape law of IP077.",
+      "Equal complete written groups decode to equal complete source words independently of context. Exact adjacent word repetitions, including triples, remain legal and identical. Repeating a sign inside one group has the separately declared unary rule, not a free semantic repetition meaning.",
+      "For fixed L and D, the only nonempty output strings excluded by canonicality are the complete literal spellings L(D(g)) of the shortcut words. They are nonunary. A bound occurrence of one would contradict the mandatory precedence rule; an arbitrary substring inside a larger word would not.",
+      "Free coverage is not a discriminator. For any finite output-word panel and a fixed alphabet with at least two symbols, an unconstrained D can choose distinct nonunary literal spellings absent from that panel. Every observed group then has a canonical source reading. This is a proof of underdetermination, not permission to invent those words or fit a native shortcut list.",
+      "Since the writer is deterministic and injective per source word and preserves whole-word boundaries, type identities, frequencies and exact adjacent repetition counts are unchanged.1202 and1226 retain their failures on their exact old source populations; this construction does not rescue them or license a source swap.",
+      "This is not a context-free homomorphic expansion of every occurrence of a sign: whole-group and unary context matter. Therefore the all-singletons confluence theorem and the fixed<=22 ordinary-concatenation-table exclusion cannot simply be copied onto this different rule. Their premises and earlier conclusions remain unchanged.",
+      "No source language, native value, writing direction, reader choice, complete historical-source coverage, statistical fit or actual word interpretation follows. A target application would still need a motivated source/alphabet/dictionary contract and independently meaningful consequences, not only a successful inverse."
+    ],
+    "decision": "Retain RAW as a distinct explicit word-channel construction, not as a selected Voynich writer. No native key search, corpus calculation, decoder, control experiment or same-family repair is authorized by this card."
+  },
+  "predecessor_review": [
+    {
+      "ids": ["GDT834", "GDT835", "GDT837"],
+      "primaries": ["experiments/yolo/gdt834_role_blind_mixed_control/METHOD.md", "experiments/yolo/gdt835_wholeword_precedence_audit/METHOD.md", "experiments/yolo/gdt837_scg_integrated_wholeword_control/src/ENCODER_SPEC.json"],
+      "difference": "Mandatory wholeword-first writing and canonical re-encoding are prior mechanisms, not new discoveries. Those controls give each supplied atom one global L/S/W role, with W only alone. This proposal deliberately reuses the same drawing as L inside longer words and W alone, then pays the newly created unary collision. All old recovery failures and995's separately limited correction remain."
+    },
+    {
+      "id": "IP077",
+      "primary": "docs/IDEA_BACKLOG.md",
+      "locator": "IP077 explicit escape writing",
+      "difference": "The old escape selects the following sign and doubled escape writes itself wherever it appears. Here no sign is a general escape introducer and ordinary embedded occurrences are unchanged; only a whole unary word is lengthened by one, not doubled character by character."
+    },
+    {
+      "ids": ["IDEA000933", "GDT1201"],
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_OVERLAPPING_SHORTCUT_PRIORITY_RAW_20261005.json", "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SHORTLIST_RESULT_20261005.json", "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"],
+      "difference": "933 has distinct literal and substring-shortcut drawings, and its free-key coverage is already non-identifying.1201 permits transparent reader chunks with identical expanded content. Neither is this group-length-dependent literal/wholeword role switch or unary length quotation. Both warn against presenting reversible formal coverage as a new reading."
+    },
+    {
+      "ids": ["all-singleton confluence review", "nonUD22 defect consequence"],
+      "primaries": ["research_registry/proposals/production_origin_supply_20261003/HUMAN_CONFLUENT_SHORTCUT_LITERAL_COST_REVIEW_20261006.json", "research_registry/proposals/production_origin_supply_20261003/NON_UD22_DEFECT_CONSEQUENCE_20261006.json"],
+      "difference": "The old results concern fixed context-free expansions or nonempty fixed codeword concatenation. The whole-group branch here explicitly changes an occurrence's expansion; no old capped-table result is rescored or rescued."
+    }
+  ],
+  "duplicate_and_access_record": {
+    "screen": "Current route; bounded group-length/wholeword/literal/homograph and unary-quotation searches, ideas duplicates, route-check; actual834/835/837,609,933/1201 and IP077 primaries. No exact prior contract with this unary n-to-n+1 completion was recovered in the bounded check. This is not an exhaustive originality claim.",
+    "changes": "Only this new producer RAW file and its ideas-add entry. No previous proposal, experiment, root route, ledger, state or source data changed.",
+    "access": "No new native/source query, image, corpus count, implementation, test, word profile, semantic assignment, or extra agent. Examples and the inverse were considered manually. No native glyph map was selected."
+  }
+}

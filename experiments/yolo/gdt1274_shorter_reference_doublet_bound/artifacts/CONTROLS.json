@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "cost_mode_cases": 252,
+  "tight_case": {
+    "literal": "AAAA",
+    "reference": "AAAA",
+    "r": 4,
+    "output": [
+      "AAAA",
+      "AAAA"
+    ]
+  },
+  "outside_contract_cases": [
+    {
+      "removed": "mandatory strict saving",
+      "literal": "AAAA",
+      "reference": "B",
+      "r": 1,
+      "output": [
+        "AAAA",
+        "AAAA"
+      ],
+      "explanation": "Optional full spelling despite available saving permits the long doublet."
+    },
+    {
+      "removed": "reference availability for retained word",
+      "literal": "AAAA",
+      "legal_reference": null,
+      "r_for_other_words": 1,
+      "output": [
+        "AAAA",
+        "AAAA"
+      ],
+      "explanation": "Storage alone does not force a shorter option."
+    }
+  ]
+}

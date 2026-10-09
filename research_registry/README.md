@@ -306,6 +306,13 @@ returned `next_offset` with `--offset` for another page. `show` displays one
 dossier with three recent events. Longer history, evidence and requirements
 have their own bounded pages:
 
+`show` also displays the number of incoming research relations and up to four
+source cards. An earlier proposal may still be broadly untested while a later
+history record already excludes a particular realization. Follow these pointers
+to their primary evidence before selecting work; they do not automatically
+supersede the proposal or authorize reopening. `ideas relations ID` pages both
+incoming and outgoing links, including those omitted from the compact card.
+
 ```bash
 ./vmanus-work ideas events GDT854 --limit 8 --offset 0
 ./vmanus-work ideas requirements GDT854

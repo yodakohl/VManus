@@ -1,0 +1,126 @@
+{
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": ""
+  },
+  "claim_ceiling": "Computational capacity stop only; zero worlds and no new statistical or meaning result.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/src/validate.py"
+  },
+  "created": "2026-10-07",
+  "dependencies": [
+    "GDT1260",
+    "GDT915",
+    "GDT916"
+  ],
+  "experiment_id": "GDT1261",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/TOKENS.json",
+      "sha256": "654a981d6c01e5f4ba4365d607379fd8f331a269eca5923695be27aaef1a11e1",
+      "role": "fixed validated source or source-free exact sampling proof"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/PAIRS.json",
+      "sha256": "939b991a7f2d2b22e987954c84f0c6ee1117dac40ce971b781ddd23a36473f86",
+      "role": "fixed validated source or source-free exact sampling proof"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/VALIDATION.json",
+      "sha256": "893fccf7f757f7b413622541bca3cc3bf1f025c61ac3a544dfe9c10a500309f3",
+      "role": "fixed validated source or source-free exact sampling proof"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/REPORT.md",
+      "sha256": "03414219d420b6a2c284583e35f7b7c2eb1e8bdf79975b7663cb044d8893918d",
+      "role": "fixed validated source or source-free exact sampling proof"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/CANDIDATES.json",
+      "sha256": "910d10010e4d55c8ba1328c60c3192a3680ba0fdb46ef94c4783d7141a9f961b",
+      "role": "fixed validated source or source-free exact sampling proof"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RL_SCC_UNIFORM_MARGIN_SAMPLER_PROOF_REVIEW_20261007.json",
+      "sha256": "0219304244ffb69ad3be8d9a962d1ef4cf68bdec6b41d559fc7f6b2a45e9d796",
+      "role": "fixed validated source or source-free exact sampling proof"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/METHOD.md",
+      "sha256": "a01f1d601973498dd2e7520a5570992ade985687a4d6675467bbfa97dca94c10",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/PREREGISTRATION.md",
+      "sha256": "a01f1d601973498dd2e7520a5570992ade985687a4d6675467bbfa97dca94c10",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/README.md",
+      "sha256": "0d7cd347f966aac467c9902d1feec69d6a9b6d516e382c60381d0b974ae3d0d5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/REPORT.md",
+      "sha256": "fed9085788d045e52edc17621e1af7cf25cb9872af37b975aa07b93af4d0d593",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/artifacts/IDEA_REVIEW.json",
+      "sha256": "ca2047400ac00a84cf2790aaccdc74a448f7b65cde1e5f9600700d603d9a01a0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/artifacts/RESULT.json",
+      "sha256": "d965a014c84d34367910057fb83022834179f7e3a1bd0502c14988c81e3b18b4",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/artifacts/VALIDATION.json",
+      "sha256": "ef2684da39795e83f22fceb8c2ccbd15a730b4cd95e40c858c9f119fc0f3dfe0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/src/REGISTRATION_LOCK.json",
+      "sha256": "c3802b0d890b3a691732d29c0b95c6a002d3bb158d8a9a141b3337e2721de923",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/src/SPEC.json",
+      "sha256": "b426c5e0b6bcb9ae727e3e6801edb218d9ce70e5a6aaf7e800988c6abe912132",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/src/run.py",
+      "sha256": "029a941c21e40987e455d4da0c5811ca1f8a93080e59a4b829048f48d35709b9",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/src/validate.py",
+      "sha256": "4778626d7dba8c752fa1a6854508fe46d140f98ff921f755766a32716687451e",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Does fixed915family co-variation exceed an exact uniform reference preserving line andoldstem/leaf/position margins?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "lr_exact_line_conditioned_reference",
+  "status": "COMPUTATIONAL_CAPACITY_STOP",
+  "title": "Bounded exact line-conditioned r/l reference",
+  "updated": "2026-10-07",
+  "validation": {
+    "status": "BLOCKED",
+    "artifact": "experiments/yolo/gdt1261_lr_exact_line_conditioned_reference/artifacts/VALIDATION.json"
+  }
+}

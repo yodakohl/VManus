@@ -1,0 +1,115 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exposed counterexample to one exact spelling rule in ZL/RF; ITwholeokalarineligible. No fulltransfer,globalaccuracy,onewayrescueorwordmeaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1277_oka_aiin_context_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1277_oka_aiin_context_transfer/src/validate.py"
+  },
+  "created": "2026-10-08",
+  "dependencies": [
+    "GDT915",
+    "GDT949",
+    "GDT1047",
+    "GDT1078",
+    "GDT1148",
+    "GDT1204",
+    "GDT1276"
+  ],
+  "experiment_id": "GDT1277",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/OKA_OTA_PARADIGM_CONTEXT_RESULT_20261008.json",
+      "role": "old exposed source context",
+      "sha256": "0cd2d5231d65adb745e10cb51bd2ce2c960d0c753c9799fdc4d03b791493ae60"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "old exposed source context",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "old exposed source context",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "old exposed source context",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "d23a803c13c7e01d3e3a978d56de5e1c1b70a03515ef5690576c69453d5b30ef"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "d23a803c13c7e01d3e3a978d56de5e1c1b70a03515ef5690576c69453d5b30ef"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "72b7069c6f69519ce3e4dfeb929f1ba48d6a6b4e9c6c067f560a1796ceeebc92"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/REPORT.md",
+      "role": "primary_report",
+      "sha256": "5444565b06a5012ed336b973f354cfbcb35f85302dd0f2ccfbe75c6d75c3248a"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/artifacts/IDEA_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "edde3469c354187b615767db112b6da4e118a4880f12fbfcdb150e4f23551264"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "2f6fdece84676eaed76a56759d8efd7e12d4c21247e7dd9e117889949e393177"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "10e05a9d595314b3088e847ee13852b26784e5b98e7dc14d34bfc1576aa3cd71"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "28876125533ac0a71a10ddc04309b4e97d9f3a0c514ca7a5e8ceee5302bc30bc"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "3a026428dcf637ea3785a4e968ba3b7a16c53e8f6321fb9635017986da70a2a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "b321214b7a2782aca0cd3f16dbb1ac3b5ac3d7e5f5628d49a3e46b265a358811"
+    },
+    {
+      "path": "experiments/yolo/gdt1277_oka_aiin_context_transfer/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "5545c2c732ac9dd33146baa41111497d87a793f591baffdf47e782d6f60ae5c8"
+    }
+  ],
+  "question": "Does the exact precedingaiin/kaiin-to-okal,otherwiseokar rule survive the retained non-ota f58v.26case before broader implementation?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "oka_aiin_context_transfer",
+  "status": "KNOWN_COUNTERCASE_STOP_BEFORE_BROAD_TRANSFER",
+  "title": "Oka preceding aiin/kaiin rule counterexample preflight",
+  "updated": "2026-10-08",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1277_oka_aiin_context_transfer/artifacts/VALIDATION.json"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "record_id": "GDT1244",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root_20261006_mixed_gap_review",
+  "assessment_basis": "Two fixed seam judgments in one exposed original region, sealed before deterministic reduction and independently implemented integrity validation.",
+  "reason": "Left seam visibly separated; right seam cannot securely distinguish close approach from contact. The two-gap condition remains unresolved;1243positives and all full-writer limits remain.",
+  "blockers": [
+    {
+      "code": "unresolved_right_endpoint",
+      "detail": "Fine white gap versus contact is not reliably identified at this source endpoint.",
+      "evidence": [
+        "experiments/yolo/gdt1244_f21v_arch_body_gaps/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "informative_endpoint_evidence",
+        "change": "new_data",
+        "detail": "Separately justified more informative physical evidence or independent palaeographic assessment of the registered endpoint, without replacing targets or changing the gap rule.",
+        "evidence": [
+          "experiments/yolo/gdt1244_f21v_arch_body_gaps/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another magnification of the same bytes treated as independent evidence",
+      "Treat uncertainty as either contact or gap",
+      "Promote the left gap to a two-boundary pass"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1242",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1244_f21v_arch_body_gaps/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1243",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1244_f21v_arch_body_gaps/REPORT.md"
+      ]
+    },
+    {
+      "target": "IDEA000967",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1244_f21v_arch_body_gaps/REPORT.md"
+      ]
+    }
+  ]
+}

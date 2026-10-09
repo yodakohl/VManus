@@ -1,0 +1,49 @@
+{
+  "record_id": "IDEA000933",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root",
+  "assessment_basis": "source_free_all_length_canonical_coverage_construction",
+  "reason": "For any surface alphabet with2..25 types, choose two as MU=AB and NU=BC and inject the rest into literals D..Z, with ordinary A/B/C drawings unobserved. No cross-atom AB/BC match can arise, so every word returns identically under both priorities. One fixed map works for an arbitrary corpus and both shortcuts may be active. Thus unknown-key legal coverage supplies no selection in this scope. The full writers still differ on ABC with bound A/C literals; no manuscript key, native alphabet or language was identified.",
+  "blockers": [
+    {
+      "code": "unbound_surface_coverage_cannot_select",
+      "detail": "The formal mandatory restrictions can all be vacuous on observed output even with active shortcuts. This is a constructive all-length result, not only another missing-input report. Directed composition and whole-form residuals from608 do not by themselves choose a hidden source or key.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SHORTLIST_CONTRACT_20261005.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SHORTLIST_PROOF_20261005.py",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SHORTLIST_RESULT_20261005.json"
+      ]
+    },
+    {
+      "code": "native_or_source_constraint_not_bound",
+      "detail": "No justified observed literal/shortcut relation, source-content distribution or language prior was applied. This is not a demand for a previously confirmed word. The conditional G1 inventory is not asserted to be the complete native alphabet.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_OVERLAPPING_SHORTCUT_PRIORITY_RAW_20261005.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SHORTLIST_RESULT_20261005.json"
+      ]
+    }
+  ],
+  "relations": [],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "binding_or_source_constraint_breaks_free_construction",
+        "change": "new_binding",
+        "detail": "Supply an explicitly motivated literal/shortcut binding OR a declared source/content restriction that prevents the universal free assignment, then name a distinguishing consequence before target fitting. Account for all fixed counterexamples; a new literal-exposure requirement must be declared as a changed contract, not silently inserted.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SHORTLIST_RESULT_20261005.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More legal native words under a freely chosen key",
+      "More roundtrips or a better compression count",
+      "Both shortcut signs occur",
+      "Declare unobserved literal drawings impossible without a source argument",
+      "Count arbitrary complete writing systems as evidence for this manuscript",
+      "Claim all source distributions or fixed bindings have equal predictions"
+    ]
+  }
+}

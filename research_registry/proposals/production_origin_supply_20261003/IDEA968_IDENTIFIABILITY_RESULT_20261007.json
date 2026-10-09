@@ -1,0 +1,71 @@
+{
+  "status": "MECHANISM_NOT_IDENTIFIABLE_BY_PROPOSED_STATISTIC",
+  "scope": "Synthetic mathematical design counterexample only; no Voynich observation or native word meaning.",
+  "pointwise_equal_outputs": [
+    "alaalady",
+    "araarady"
+  ],
+  "mechanisms": [
+    "whole-base copying",
+    "binary feature realized in two template positions",
+    "stored whole lookup"
+  ],
+  "distribution_claim": "Pointwise equality for either input implies identical observable distributions for any shared input law; not only equal repetition scores.",
+  "synthetic_conditional_null": {
+    "half_length": 3,
+    "seam": "a/a",
+    "left_counts": {
+      "ala": 8,
+      "ara": 8
+    },
+    "right_counts": {
+      "ala": 8,
+      "ara": 8
+    },
+    "observed_matches": 16,
+    "permutation_histogram": {
+      "0": 1,
+      "2": 64,
+      "4": 784,
+      "6": 3136,
+      "8": 4900,
+      "10": 3136,
+      "12": 784,
+      "14": 64,
+      "16": 1
+    },
+    "upper_tail": {
+      "numerator": 1,
+      "denominator": 12870
+    },
+    "interpretation": "Correctly rejects exchangeable independent pairing for this artificial corpus; cannot select copying among the three observationally identical mechanisms. This is not a manuscript p-value."
+  },
+  "true_copy_zero_mobility_example": {
+    "bases": [
+      "al",
+      "or"
+    ],
+    "copies_per_base": 8,
+    "strata": [
+      [
+        2,
+        "l",
+        "a"
+      ],
+      [
+        2,
+        "r",
+        "o"
+      ]
+    ],
+    "all_conditional_matches": 16,
+    "interpretation": "No contrast capacity, not evidence against copying."
+  },
+  "decision": "Do not run IDEA968 as a discriminator of copying versus ordinary word-building. A descriptive pairing statistic remains mathematically possible but has no selected downstream writer decision.",
+  "limits": [
+    "Does not reject a real repeated-base construction.",
+    "Does not show these artificial words occur in the manuscript.",
+    "Does not invalidate conditional permutation tests when their actual null is justified.",
+    "Does not prove all future observable consequences of distinct fully specified writers equivalent."
+  ]
+}

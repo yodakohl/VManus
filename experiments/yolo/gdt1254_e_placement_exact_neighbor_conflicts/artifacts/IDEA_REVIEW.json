@@ -1,0 +1,44 @@
+{
+  "record_id": "GDT1254",
+  "scope": "structural",
+  "verdict": "inconclusive",
+  "reviewer": "root; independent pairwise validator",
+  "assessment_basis": "frozen_exposed_exact_neighbor_conflict_screen",
+  "reason": "No conflicts, but146BOTHkeys for146events and only one repeatedRIGHTkey leave deterministic local selection unidentifying. No supported rule or context independence.",
+  "blockers": [
+    {
+      "code": "no_repeated_both_neighbor_support",
+      "detail": "Every full same-cell BOTH key occurs once; RIGHT has one repeated key. Finite compatibility is not prediction.",
+      "evidence": [
+        "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_shared_rule",
+        "change": "new_binding",
+        "detail": "Independently justified shared source or contextual rule with contrasting repeated support; not post-result key coarsening.",
+        "evidence": [
+          "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Memorizing each full neighbor pair",
+      "Lowering854capacity gates",
+      "Post-result coarsening to obtain repeats"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT854",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md"
+      ]
+    }
+  ]
+}

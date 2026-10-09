@@ -1,0 +1,105 @@
+{
+  "status": "BOUNDED_PRIMARY_FRAMING_REVIEW_NO_NEW_WRITER_SELECTED_NO_NEW_RAW_CARD",
+  "started_utc": "2026-10-06T11:52:15Z",
+  "deadline_utc": "2026-10-06T12:20:00Z",
+  "provenance": "Producer reviewed only current route, targeted registry/primary reports and the already retained historical source images. Root's active GDT1233 implementation/results were not inspected.",
+  "primary_objects": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/QALQASHANDI_1916_IX_P232_20261006.png",
+      "location": "Printed IX232, final two lines",
+      "reading": "The additive example displays one source name Muhammad as four separated packets LI, BW, LI, AJ. This is packet spacing inside one source word."
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/QALQASHANDI_1916_IX_P233_20261006.png",
+      "location": "Printed IX233, first three lines",
+      "reading": "The passage explains the four sums40,8,40,4 and expressly permits other letters carrying the same numbers. It does not prescribe a deterministic or stochastic packet-choice policy."
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/QALQASHANDI_1916_IX_P233_20261006.png",
+      "location": "Printed IX233, lower paragraph immediately above the invented alphabet table",
+      "reading": "The instruction to separate words with a stroke, dots, white space, a circle or another convention follows the distinct invented-one-sign-per-letter alphabet procedure. It is not a demonstrated two-level packet/word grammar for the earlier additive cipher."
+    },
+    {
+      "path": "experiments/yolo/gdt1231_additive_abjad_packet_bound/artifacts/HISTORICAL_SOURCE_REVIEW.json",
+      "reading": "Root's separate primary-table review supplies28 positive distinct Abjad values, with alif1,ba2,jim3. This producer did not newly acquire that source or claim independent visual corroboration of its entire table."
+    }
+  ],
+  "historical_ceiling": {
+    "attested": "A useful letterwise arithmetic substitution example, including permission to vary the packet while preserving its sum.",
+    "not_attested_in_inspected_passage": [
+      "A multiword additive ciphertext showing both original source-word boundaries and packet boundaries.",
+      "An explicit message terminator, paragraph reset or overwide-packet line rule.",
+      "A complete rule for vowels/diacritics, nonalphabetic punctuation, numerals or unsupported signs.",
+      "A fixed22-working-glyph adaptation or an alphabetically justified shared-value homophony.",
+      "A rule selecting one particular packet or distribution of packets for each source letter."
+    ],
+    "notation_warning": "The vertical bars in modern LI | BW | LI | AJ transcription annotate packet divisions; they are not an extra historical sign observed in the scan.",
+    "date_warning": "The primary object inspected is the1916Cairo printed edition transmitting the historical work, not a medieval codex or a Voynich source."
+  },
+  "concrete_framing_obstruction": {
+    "teaching_units": "Use the separately documented values1,2,3 for alif,ba,jim. No Voynich glyph is bound to them.",
+    "output_without_packet_boundary": "alif followed by ba",
+    "parse1": "[alif] [ba] decodes to two source letters, alif then ba.",
+    "parse2": "[alif ba] has sum3 and decodes to one source letter, jim.",
+    "consequence": "An unmarked concatenation is not an injective representation of source-letter sequences. Knowing the addition table alone cannot recover the intended segmentation.",
+    "second_level": "Even correctly separated packets yield only a letter stream. Original source-word spaces require another paid distinction, an explicitly restricted source domain, or an honest declaration that word segmentation is lost.",
+    "meaning_boundary": "A reader's knowledge of the language may narrow an ambiguity, but is not a general guarantee of unique intended-message recovery."
+  },
+  "modern_completion_options_not_selected": [
+    {
+      "option": "Preserve source words as written groups; mark the boundaries of their internal letter packets.",
+      "paid_cost": "A packet separator or length/escape grammar must be rendered using the declared working repertoire, including how to quote any reserved sign. Every original source character and overwide group still needs a rule.",
+      "changed_contract": "One written group now contains several numeric letter packets. Its total need not be a single Abjad letter value. This is not the GDT1231/1232 whole-group=one-letter contract.",
+      "novelty_limit": "Adding a separator is a generic framing operation, not by itself a substantively new historical mechanism or a selected human writer."
+    },
+    {
+      "option": "Keep one packet per written group; transmit an explicit original-word-end control.",
+      "paid_cost": "The control requires an unambiguous reserved spelling or mode, escaping and complete message/line handling. It contributes real groups/signs and cannot be silently omitted.",
+      "retained_countercase": "Every ordinary packet still owes its original positive-sum condition. Merely adding word-end controls does not rescue1232's distinct-value alphabet on any groups still declared ordinary packets.",
+      "novelty_limit": "Selecting native groups as controls after seeing the contradiction would change the model, not complete the old test."
+    }
+  ],
+  "choice_rule_analysis": {
+    "historical_variation": "Different decompositions and permutations can recover the same source letter. The source gives permission, not a frequency law.",
+    "deterministic_completion": "A fixed canonical packet for every source letter is teachable. IF one complete source word remains exactly one written group with paid internal packet boundaries, it becomes a fixed injective wordwise code and preserves that group's equality/frequency partition; existing1202/1226 exclusions then remain for their fixed sources. If one packet instead remains one written group, those word-frequency bounds do not transfer automatically: the grouping contract has genuinely changed and must be assessed separately.",
+    "free_alias_completion": "An unrestricted menu of equal-sum packets does not supply the requested complete production rule. Choosing lengths, order or aliases to obtain the desired manuscript statistics would be an unregistered fit.",
+    "direction": "Addition alone does not make within-packet order meaningful. A separate spelling convention could prefer an order, but its human rule and costs must be stated; the known directed composition baseline is not automatically explained by arithmetic capacity.",
+    "learning": "Ordinary source literacy plus the numeric table and arithmetic are real but manageable costs. Framing, unsupported signs and the alias-choice rule are additional costs, not word meanings obtained from the arithmetic."
+  },
+  "retained_primary_decisions": [
+    {
+      "id": "IDEA000959",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/QALQASHANDI_ADDITIVE_LETTER_RAW_20261006.json",
+      "retained": "The original historical example remains valid source evidence; the card itself was already explicitly incomplete. This review supplies no new discovery of that incompleteness."
+    },
+    {
+      "id": "GDT1231",
+      "primary": "experiments/yolo/gdt1231_additive_abjad_packet_bound/REPORT.md",
+      "retained": "Relaxed shared-value assignments have necessary arithmetic capacity on the fixed old manual packet. They are not a whole-message writer, key or meaning."
+    },
+    {
+      "id": "GDT1232",
+      "primary": "experiments/yolo/gdt1232_injective_abjad_packet_bound/REPORT.md",
+      "retained": "The direct22-distinct-value adaptation with one complete group per source letter is excluded separately for all three readings. No homophony, new boundary mode or selected exemption is silently added."
+    },
+    {
+      "id": "Adjacent historical pair swap",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_QALQASHANDI_PAIR_TRANSPOSITION_REVIEW_20261006.json",
+      "retained": "The historical continuous-pair example has its own word-boundary uncertainty. The separately constructed literal935 completion already has a retained triple countercase; no repair is proposed."
+    }
+  ],
+  "bounded_alternative_review": {
+    "navigation": "Targeted searches for whole-message reversible hand/syllable rules and additive packet framing plus duplicates/route-check; no full reserve scan.",
+    "already_reviewed_selection_note": "research_registry/proposals/production_origin_supply_20261003/HUMAN_THREE_MECHANISM_SELECTION_REVIEW_20261006_B.json",
+    "returned_complete_candidate": "IDEA954 is a complete teaching writer with a successful hand readback, but its unchanged direct physical grammar is already specifically excluded. It is not a new open manual experiment.",
+    "returned_modules": "934 and237 remain distinct modules/architecture ideas rather than supplied complete alternative writers. No repeated missing-table hunt was undertaken.",
+    "conclusion": "This bounded retrieval did not produce a different complete surviving rule with a new decision-changing hand question. That does not assert exhaustion of the raw collection or of historical writing mechanisms."
+  },
+  "final_decision": "No new RAW card or manual test recommended from this block. Preserve the historical source, the explicit two-level framing obligation, and the exact1231/1232 distinction. A future independent completion needs a justified writer action beyond generic separator addition or arbitrary equal-sum aliases.",
+  "actions_not_taken": [
+    "No native profile, transcription or image query.",
+    "No source-frequency count, encoded corpus, solver, decoder, key assignment or statistical test.",
+    "No new historical source acquisition.",
+    "No ideas add, GDT, root route/state/ledger/experiment edit or publication."
+  ]
+}

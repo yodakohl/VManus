@@ -1,0 +1,56 @@
+{
+  "title": "Contract note: two source pieces per written group under one global UD piece code",
+  "status": "BOUNDED_LOGICAL_REVIEW_ONLY_NOT_A_NEW_WRITER_PROPOSAL",
+  "origin": "Root proposed fixed vowel-run source pieces, explicit source-word-end information, and pairing consecutive pieces across original source-word boundaries. Producer examined feasibility before any complete carrier or new source count. No raw writer is registered by this note.",
+  "unimplemented_proposal": {
+    "segmentation": "Use one fixed predeclared vowel-run rule on the ordinary source; every resulting nonempty piece retains its explicit source-word E/C status. Exact choice and full carrier were not frozen here.",
+    "grouping": "Pair consecutive distinguished pieces across source-word boundaries. A normal printed group represents exactly two piece tokens. At most one final singleton per explicitly framed paragraph is allowed. There are no empty pieces, padding or silent word-end losses.",
+    "costs_still_unpaid": "A general symbol carrier, unknown-character escapes, a complete small abbreviation table if any, visible paragraph ownership, decoding cost and native form compatibility were not settled. A counter state of one bit alone does not pay these costs."
+  },
+  "lemma": {
+    "objects": "Let P be the alphabet of distinguished source-piece tokens, including literal piece and E/C flag. Let Sigma be a fixed working-sign alphabet. C maps every p in P to a nonempty string in Sigma*. Writing a piece sequence concatenates its code strings, without state-dependent renaming, overlapping strokes or boundary-dependent substitutions.",
+    "ud_premise": "The homomorphic extension C*:P* -> Sigma* is injective on ALL finite piece-token sequences. This is global unique decodability on piece sequences, not just unique recovery of expanded source letters or legality-filtered complete recipes.",
+    "proof": "If a nonfinal group W encodes p1,p2, then W=C(p1)C(p2). Therefore WW=C(p1)C(p2)C(p1)C(p2). If WW also encodes a normal two-piece group q1,q2, injectivity would equate a four-token sequence with a two-token sequence, impossible. Even a final one-piece interpretation of WW is impossible under that same UD premise.",
+    "generalization": "For a fixed positive piece count k, a group W with k pieces cannot have W^m, m>1, as another k-piece group under the same global non-erasing UD homomorphism. A final shorter allowed group also cannot contain mk pieces.",
+    "minimum_scope_needed": "At least W must be bound as a normal nonfinal two-piece group. If W itself were allowed to be a final singleton, WW could encode two copies of that one piece and the argument would not exclude it. Root owns the exact positional binding of existing witnesses.",
+    "why_shortcuts_do_not_fix_it": "A small fixed prefix-free or otherwise globally UD shorthand table for complete pieces can reduce glyph lengths and include word-end flags for free of EXTRA glyphs only because the table entry pays them. It cannot change this token-count argument. No such table is added after the counterargument.",
+    "not_claimed": "No contradiction follows merely from an arbitrary glyph substring repeating. The whole W must belong to the same complete piece-code language and have the stipulated count. Native atoms, code boundaries, source pieces and meanings are not identified by this algebra."
+  },
+  "important_limits": [
+    "If only complete group-boundary-delimited messages are uniquely readable, while the piece code itself is not globally UD, the lemma's premise is absent. That is a different contract; no replacement group-dependent codec is designed here.",
+    "If uniqueness is required only for source-grammar-legal whole texts, the formal four-piece concatenation might be illegal. The global UD premise deliberately does not rely on its source-grammar legality. A weaker source-conditioned uniqueness claim needs separate reasoning.",
+    "Unique expanded source-character content is weaker than unique piece-token sequence. Several transparent chunk parses may expand to the same message, as1201already showed. This note does not reject such confluence or demand unique native morphology.",
+    "Context-dependent carriers, ligatures spanning piece joins, changed grouping, hidden resets, null pieces or extra allowed piece counts are outside the premise. They are not proposed as post-counterexample repairs.",
+    "No native/source data were queried, no carrier enumerated and no experiment run. Root independently binds the already available whole-form/position witnesses. This is a conditional model obligation, not a new manuscript discovery or a general impossibility of meaningful writing."
+  ],
+  "primary_predecessors": [
+    {
+      "id": "GDT1207",
+      "primary": "experiments/yolo/gdt1207_letter_alias_parity_frequency/METHOD.md",
+      "closest_relation": "The closest exact algebraic predecessor: for a fixed non-erasing UD carrier, parse(XX)=parse(X)parse(X), even without prefix-freeness.1207uses it for ALT letter-count parity; this note applies the same lemma to a fixed number of distinguished source pieces. Its actual source-frequency failure remains unchanged."
+    },
+    {
+      "id": "GDT1197",
+      "primary": "experiments/yolo/gdt1197_letter_memory_frequency/PREREGISTRATION.md",
+      "relation": "Earlier fixed-unit UD carrier contract and frequency invariance.1197's original deferral is not confused with the later executed1206/1207 source tests."
+    },
+    {
+      "id": "GDT1201",
+      "primary": "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md",
+      "relation": "Multiple chunk parses can legitimately expand to one full symbolic message. Its result prevents mistaking letter-level content uniqueness for the stronger piece-token uniqueness assumed here."
+    },
+    {
+      "id": "GDT1196",
+      "primary": "experiments/yolo/gdt1196_vowel_boundary_capacity/REPORT.md",
+      "method": "experiments/yolo/gdt1196_vowel_boundary_capacity/METHOD.md",
+      "relation": "Six vowel-piece/entry-state contracts fail their necessary frequency bounds. They emit individual pieces. Pairing pieces changes grouping, but this note supplies no positive capacity or complete writer for that change."
+    },
+    {
+      "id": "GDT1179",
+      "primary": "experiments/yolo/gdt1179_complete_natural_source_writers/METHOD.md",
+      "relation": "1179groups short whole source words with their next word, under its fixed complete literal/dictionary/history carriers; all fail the full screen. This is different from pairing two vowel pieces, and remains failed."
+    }
+  ],
+  "witness_boundary": "Root identified existing free ol and olol as the candidate whole-form witness. This note neither newly counts them nor independently certifies their paragraph positions. Properly bound nonfinal ol and whole olol would instantiate the lemma under the stated common global piece-UD contract, not establish those code assumptions natively.",
+  "provenance": "Route read21:30:30UTC; relevant1196/1179/1197/1207/1201primaries and bounded lookup/search reviewed. The first code/length exploration remained conceptual; no carrier or table was registered. Root explicitly requested stopping shortcut construction after the UD issue. Only this own contract note is written; no ideas-add entry, root-file, ledger, route, corpus, image or experiment modification."
+}

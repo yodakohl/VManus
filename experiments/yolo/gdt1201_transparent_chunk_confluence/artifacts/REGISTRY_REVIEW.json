@@ -1,0 +1,87 @@
+{
+  "record_id": "GDT1201",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root; separate same-author forward-DP verification",
+  "assessment_basis": "primary_reports",
+  "reason": "Fixed artificial prefix-free primitive code with exact-expansion chunks preserves one source message across all legal parses; word and scope boundaries are paid. This removes unique parse-tree choice as a necessary construction gate, not a native ambiguity.",
+  "blockers": [
+    {
+      "code": "native_primitives_and_content_unidentified",
+      "detail": "Opaque artificial U symbols and invented marker values do not identify any Voynich primitive or meaning.",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+      ]
+    },
+    {
+      "code": "no_statistical_or_full_content_writer",
+      "detail": "No historical passage or native statistics tested; this is a small mathematical construction, not a new language or decipherment.",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/PREREGISTRATION.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "complete_writer_duty",
+        "change": "new_design",
+        "detail": "A complete meaningful source-writing rule pays vocabulary/boundaries and preserves literal structural composition while passing unchanged statistical constraints.",
+        "evidence": [
+          "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Additional alias enumeration",
+      "A chosen native parse without semantic evidence",
+      "Dropping word/scope boundaries",
+      "Replacing the original616failure with later diagnostic PASS"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT616",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT995",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1175",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1193",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1200",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md"
+      ]
+    }
+  ]
+}

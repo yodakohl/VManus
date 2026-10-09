@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Full 5.6MB emitted unit sequences are necessary for independent complete-source inverse validation without hidden source lengths; compact frequency/provenance tables also retained. Existing exposed source only; no new corpus or image.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete source-preserving regrouping and fixed two-metric frequency screen on four exposed projections; no native word meanings, complete glyph writer, historical attestation or independent confirmation.",
+  "commands": {
+    "run": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1203_shifted_word_boundaries/src/run.py",
+    "validate": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1203_shifted_word_boundaries/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT839",
+    "GDT1174",
+    "GDT1177",
+    "GDT1179",
+    "GDT1181",
+    "GDT1193",
+    "GDT1200",
+    "GDT1201",
+    "GDT1202"
+  ],
+  "experiment_id": "GDT1203",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410"
+    },
+    {
+      "path": "experiments/yolo/gdt839_boundary_conservation_screen/REPORT.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "d5aac618f4f2dad60c35a1eef2c8aa819b3f59c4c7176930e0e4b230e08bc4ac"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/METHOD.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "35f81c0167a5bee4e5f401783a7a4eb9d18976e5315ddba1ded65d5b063c23fc"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/PREREGISTRATION.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "d2d1a98f98f7df07a32a0e80b9071c445ffcaed0fe5d3e65066a9431717d383b"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "67456fb04b1f9fa2ea230d59d03ae23144fdebbbe31293039ef3f3ce6b8323b5"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/REPORT.md",
+      "role": "Primary report",
+      "sha256": "b47d908809248ba6a428e28cf20478ffc7395f46bb57b37d5734f022d2d76e7a"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/ENCODED.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "97fd04dae012f1b72c64ff47443e1d9ddd3aa988cd25161934e7ab5efec7b2db"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/FREQUENCIES.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "8d262514263fae51c6f7d100bf1b9b8d3127d708674c7d7fa0eb64e6cd2a4b3d"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/README.md",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "e15c477c4586dde2d0c1f6b44af81eab9b0e45b6961254f5f4d292a59dfd9218"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/REGISTRATION_LOCK.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "5a7f9dbedfb62d9bba5e7be40d150bb13b85c938e77c500f549ce86ebc1deedf"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/REGISTRY_REVIEW.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "d925b35ed0ea326fb78cc87df88b5b246d8645dc307050c3513d9de5d0019c32"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/RESULT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "6323e261be8d06deb0bc160d6e3ed7aae18036f6815b0bd4bdf308881accb347"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/RUN_RECEIPT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "8ba6efb30f7f1d2ff06c3905c62c345af519f6a401893a39e35cc217647b7a21"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/SOURCE_RECEIPT.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "0e5b691ae7123320391bd660ca519da40988701ff2d843fb04b6b47bb3122615"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/VALIDATION.json",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "0a5cc42181fdd5d226ea7d7793460e11e612a558119a8c9c210917acf7454b29"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/src/run.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "1383fa8eedb09c92dcc18844541771a707f37ea042bd62ea7bc6ca8309378589"
+    },
+    {
+      "path": "experiments/yolo/gdt1203_shifted_word_boundaries/src/validate.py",
+      "role": "Reproducible source, full partition, contract, program, result or review",
+      "sha256": "fa3e8219d7abe97087786bab7acad381aed6883de2ab14619a8fea9b55beeb67"
+    }
+  ],
+  "question": "Does one fixed right-by-one source-character boundary shift preserve complete input and meet both inherited frequency intervals on every fixed source and reader?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "shifted_word_boundaries",
+  "status": "SHIFT_ONE_FREQUENCY_SCREEN_FAIL",
+  "title": "shifted word boundaries",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1203_shifted_word_boundaries/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

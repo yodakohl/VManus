@@ -1,0 +1,51 @@
+{
+  "record_id": "GDT1257",
+  "scope": "structural",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; source-free producer proof review; independent index/DP validator",
+  "assessment_basis": "six_disjoint_four_group_window_certificate",
+  "reason": "Each reading separately has six four-group windows with pairwise disjoint form sets on distinct folios.976requires every such window to contain one of at most five fixed control words; impossible even with arbitrary control spellings. Source-content inverse remains valid separately.",
+  "blockers": [
+    {
+      "code": "insufficient_fixed_control_vocabulary",
+      "detail": "Six disjoint window vocabularies need at least six control forms; the complete fixed architecture has five.",
+      "evidence": [
+        "experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "independently_different_grammar",
+        "change": "new_design",
+        "detail": "A separately justified different information/grammar contract and falsifier, not a post-result control alias, omitted marker or boundary repair.",
+        "evidence": [
+          "experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another global alphabet/control renaming",
+      "Changed sourcebook with same mandatory-control rule",
+      "Adding a sixth marker solely to evade these witnesses"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000976",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1218",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

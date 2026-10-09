@@ -1,0 +1,59 @@
+{
+  "record_id": "GDT1285",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "reviewer": "root",
+  "assessment_basis": "frozen_predictive_comparison_with_independent_reconstruction",
+  "reason": "Fixed M2 loses to M1 at strictlyinner targets:ZL ALL0/46positive, newinteriors2/45. Capacity adequate. This does not prove one-unit sufficiency or no higher-order information.",
+  "blockers": [
+    {
+      "code": "predictive_upgrade_failed",
+      "detail": "Joint descriptive prediction gate fails; sparse conditioning and fixed0.5smoothing limit interpretation.",
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independently_justified_new_decision",
+        "change": "new_binding",
+        "detail": "Genuinely different bound construction or falsifier with a research decision beyond automatic higher-order or smoothing repair.",
+        "evidence": [
+          "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Order3/4 escalation",
+      "Support filtering",
+      "Postresult smoothing repair",
+      "Treat model loss as memory proof"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1279",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1280",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT003",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ]
+    }
+  ]
+}

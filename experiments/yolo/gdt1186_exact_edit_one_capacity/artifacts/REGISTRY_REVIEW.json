@@ -1,0 +1,71 @@
+{
+  "record_id": "GDT1186",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_20261005_exact_capacity",
+  "assessment_basis": "Exact finite matching enumeration, proof review and independent dynamic-program witness checks",
+  "reason": "Necessary edit-one gate feasible for both source encoders; exact maxima only1.71\u20131.98% versus native summaries near4%. No full writer.",
+  "blockers": [
+    {
+      "code": "missing_data",
+      "detail": "No simultaneous remaining-nine-condition or source-transfer result for these witnesses; actual4% adjacency is outside exact capacity.",
+      "evidence": [
+        "experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "changed_source_writer",
+        "change": "new_design",
+        "detail": "Different frozen source-writing rule with explicit utility and full criteria, accounting for proven actual-rate gap.",
+        "evidence": [
+          "experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Another permutation of the same roles",
+      "Calling a necessary gate a complete fit"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT889",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT914",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1184",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1185",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1186_exact_edit_one_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

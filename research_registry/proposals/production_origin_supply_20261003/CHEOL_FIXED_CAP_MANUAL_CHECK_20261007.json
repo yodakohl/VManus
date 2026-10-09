@@ -1,0 +1,46 @@
+{
+  "status": "CONDITIONAL_FIXED_CAP_JOIN_CONTRADICTION",
+  "method": "Retrospective small logical check on already selected examples; not a preregistered corpus experiment or newly discovered manuscript count.",
+  "contract": "Assume these are instances of the same literal CHEOL+X construction with no seam deletion/addition. For one fixed capL (global or same hand3/sectionS), join if and only if combined written length<=L.",
+  "metrics": {
+    "ASCII": {
+      "joined": 14,
+      "separated_if_joined": 13
+    },
+    "ch_as_one_working_unit": {
+      "joined": 12,
+      "separated_if_joined": 11
+    }
+  },
+  "proof": "The observed joined form requires L>=14, while the observed separate pair requires L<13. No L satisfies both. Collapsing literal ch yields L>=12 and L<11, likewise impossible.",
+  "witnesses": {
+    "joined": "f114r.39 cheoltchedaiin, every reading exact",
+    "separated": "f108v.43 cheol | chedytey, every reading exact with definite shared boundary"
+  },
+  "limits": [
+    "Candidate CHEOL+X segmentation is an assumption, not established morphemes or meanings.",
+    "Not a contradiction of a merely permissive maximum: short enough need not mean obligatory join.",
+    "Not actual pixel width, available line space, word meaning, context-dependent joining or a different segmentation.",
+    "No independent-reader pooling, image of f108v43, significance or source language.",
+    "No new cap fitted, no change to907/910/611decisions."
+  ],
+  "sources": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CHEOL_EXTENSION_LINES_20261007.tsv",
+      "sha256": "4e7aed6ecca277795f91a484c11bcd4ec28b5251c91d6065d5e6a1d14599c70a"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/LONG_FORM_INITIAL_PROFILES_20261007.json",
+      "sha256": "b652b6239ec58680b201b1afb890ae88b71377bea33a4eb1ef86c2b5919f773d"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/LONG_FORM_F114R_CONTEXT_20261007.tsv",
+      "sha256": "c85562633d8dd94baf4a6ccf5f4fa2c650ac2d247ea0279f8b446485b6d786d2"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CHEDYTEY_EXACT_PROFILE_20261007.json",
+      "sha256": "4f83c087f8baac14803eebe93c2ab8c844583c2b8e47b5a224a422c922a49016"
+    }
+  ],
+  "decision": "Do not explain the selected joined/separate construction solely by one obligatory monotone length cutoff. No new decoder or spacing/threshold optimization."
+}

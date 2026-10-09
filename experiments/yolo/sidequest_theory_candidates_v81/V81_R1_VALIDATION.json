@@ -1,0 +1,74 @@
+{
+  "schema": "V81_R1_PHASE2_VALIDATION_V1",
+  "status": "PASS",
+  "validated_at_utc": "2026-08-22T15:47:16Z",
+  "validator_run": {
+    "passed": 1196,
+    "failed_count": 0
+  },
+  "new_portable_word_survives": false,
+  "phase1_freeze_preserved": true,
+  "phase1_hashes": {
+    "source_inventory": "9ef4d4e265aa2d39042773b2ffa91a82e01787dfcff93e1a5ab88fc189eeb549",
+    "source_report": "0eed2a082f791ba78cc7b2f7d09239bae93b7009aafd568e707303bb9ed41ebe",
+    "source_freeze": "fe42fec87f56e88c381e29443abad2654898e350744668c2fde717f0cb497e2a"
+  },
+  "input_hashes": {
+    "protocol": "45ec0cfed64cea2fc4488a89a053fa94e04c320fea321d37f24d4d4821437d92",
+    "source_inventory": "9ef4d4e265aa2d39042773b2ffa91a82e01787dfcff93e1a5ab88fc189eeb549",
+    "source_report": "0eed2a082f791ba78cc7b2f7d09239bae93b7009aafd568e707303bb9ed41ebe",
+    "source_freeze": "fe42fec87f56e88c381e29443abad2654898e350744668c2fde717f0cb497e2a",
+    "target_freeze": "76b102a61f30ca9aa507a6c42b5315f6c43e75628d19c0ebe10ef835ec44a06d",
+    "target_manifest": "c2c2ad1bd6418ed7a332d6ed948192f469ce8fd64e6cd4c5c5c87e33b76e2b04",
+    "target_occurrences": "b6cc5afd9421a64aaec6644f095160a42f8e7999bd63ea3151a05860dd9896ee",
+    "target_statements": "8a0b627902605ca59a7f25f1d148d1fdc0b00f63e53a1f5617409e0af25ca2b7"
+  },
+  "output_hashes": {
+    "decisions": "790a32174b911d6e65aade1209a0895a373bfab20e318ccf85120381867f1f84",
+    "audit": "d716f3389290f8f203b41aa315f5a4a6662cbcd56292253dc6719132d97ea063",
+    "revisions": "deb5b88cbe98afdb700127e25b5aad433ce7c8425b38a33f59fc767d11b0d380",
+    "report": "bdcc6ea772da684de9b03b8bc364bf601273c019a1da3c5bb7cda173d34e0f6b",
+    "validator": "395c08c6eb294b9d9709c6b54a8ab87c0bc23d0b08029c077afea584682337d6"
+  },
+  "counts": {
+    "source_rows": 6,
+    "target_cards": 30,
+    "visible_occurrences": 217,
+    "independent_source_positions": 216,
+    "central_affected_statements": 94,
+    "tested_candidates": 5,
+    "tested_candidate_occurrences_audited": 48,
+    "promoted": 0,
+    "near": 0,
+    "rejected": 30,
+    "affected_statement_revisions": 0,
+    "retained_formal_controls": 4
+  },
+  "tested_candidates": [
+    "C01_QUE_TO_UND",
+    "C02_QUI_TO_HIER",
+    "C03_E_DUPLICATUM_TO_DOPPELT",
+    "C04_S_DUPLICATUM_TO_WIEDERHOLEN",
+    "C05_QUO_TO_WOHIN"
+  ],
+  "retained_controls": {
+    "T001": "FORMAL_PARAMETER_CHANNEL__NOT_A_WORD",
+    "T002": "FORMAL_LINK_OR_SLOT__ET_OPTIONAL",
+    "T010": "FORMAL_RELATION_OR_ENTRY__PER_OPTIONAL",
+    "T016": "FORMAL_RELATION_SLOT_CHANNEL__NOT_A_WORD"
+  },
+  "blinding": {
+    "phase1_frozen_before_target": true,
+    "target_manifest_opened_only_in_phase2": true,
+    "surface_spelling_used": false,
+    "component_coordinates_used": false,
+    "sibling_outputs_opened": false,
+    "v80_directly_opened": false,
+    "manuscript_pages_images_or_transcriptions_opened": false
+  },
+  "seals": {
+    "f84": "SEALED_NOT_ACCESSED",
+    "f84r": "SEALED_NOT_ACCESSED"
+  },
+  "validator_command": "python3 experiments/yolo/sidequest_theory_candidates_v81/V81_R1_VALIDATE.py"
+}

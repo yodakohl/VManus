@@ -1,0 +1,176 @@
+{
+  "status": "MANUAL_NOMINAL_POWER_SCOPE_COHERENT_PHYSICAL_WRITER_INCOMPLETE",
+  "completed_utc": "2026-10-06T05:43:03.673171+00:00",
+  "raw_path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_COUNTED_NOMINAL_POWER_RAW_20261006.json",
+  "raw_sha256": "b83547c9962b3bb97e5d2d822f79d71c1008f9bb2d846c50438216e574534083",
+  "kind": "Informed manual source-side semantic review, not blind reading, a new native experiment or software decoder.",
+  "retained_positive": "The complete primitive noun stem carries an explicit witness-set count and the outer property is written once. Whole repeated nouns can occupy adjacent nominal argument slots without the947predicate/nominal type collision.",
+  "primitive_readbacks": [
+    {
+      "written": "lum~dri",
+      "N": "lum",
+      "count": 1,
+      "J": "dri"
+    },
+    {
+      "written": "lumlum~dri",
+      "N": "lum",
+      "count": 2,
+      "J": "dri"
+    },
+    {
+      "written": "lumlumlum~dri",
+      "N": "lum",
+      "count": 3,
+      "J": "dri"
+    }
+  ],
+  "unary_worlds_manually_judged": [
+    {
+      "world": "zero leaves",
+      "cold_leaf_count": 0,
+      "ALL cold lum.": false,
+      "ALL cold lumlum.": false,
+      "NOT ALL cold lumlum.": true,
+      "ALL cold lumlumlum.": false,
+      "two_clause_exact_two": false
+    },
+    {
+      "world": "one cold leaf",
+      "cold_leaf_count": 1,
+      "ALL cold lum.": true,
+      "ALL cold lumlum.": false,
+      "NOT ALL cold lumlum.": true,
+      "ALL cold lumlumlum.": false,
+      "two_clause_exact_two": false
+    },
+    {
+      "world": "two cold leaves",
+      "cold_leaf_count": 2,
+      "ALL cold lum.": true,
+      "ALL cold lumlum.": true,
+      "NOT ALL cold lumlum.": false,
+      "ALL cold lumlumlum.": false,
+      "two_clause_exact_two": true
+    },
+    {
+      "world": "three cold leaves",
+      "cold_leaf_count": 3,
+      "ALL cold lum.": true,
+      "ALL cold lumlum.": true,
+      "NOT ALL cold lumlum.": false,
+      "ALL cold lumlumlum.": true,
+      "two_clause_exact_two": false
+    },
+    {
+      "world": "two leaves, only one cold",
+      "cold_leaf_count": 1,
+      "ALL cold lum.": true,
+      "ALL cold lumlum.": false,
+      "NOT ALL cold lumlum.": true,
+      "ALL cold lumlumlum.": false,
+      "two_clause_exact_two": false
+    }
+  ],
+  "binary_worlds_manually_judged": [
+    {
+      "world": "two leaves, two vessels; both leaves beside v1 only",
+      "leaves": [
+        "l1",
+        "l2"
+      ],
+      "vessels": [
+        "v1",
+        "v2"
+      ],
+      "beside_edges": [
+        [
+          "l1",
+          "v1"
+        ],
+        [
+          "l2",
+          "v1"
+        ]
+      ],
+      "ALL nara lumlum tek.": true,
+      "ALL nara lumlum tektek.": false,
+      "reason": "The two leaves share the same singleton vessel witness; there is no two-vessel Cartesian witness."
+    },
+    {
+      "world": "two leaves, two vessels; only matched pairs",
+      "leaves": [
+        "l1",
+        "l2"
+      ],
+      "vessels": [
+        "v1",
+        "v2"
+      ],
+      "beside_edges": [
+        [
+          "l1",
+          "v1"
+        ],
+        [
+          "l2",
+          "v2"
+        ]
+      ],
+      "ALL nara lumlum tek.": false,
+      "ALL nara lumlum tektek.": false,
+      "reason": "Each leaf has a vessel, but there is no common singleton vessel and not all four cross-pairs hold."
+    },
+    {
+      "world": "two leaves, two vessels; all four cross-pairs",
+      "leaves": [
+        "l1",
+        "l2"
+      ],
+      "vessels": [
+        "v1",
+        "v2"
+      ],
+      "beside_edges": [
+        [
+          "l1",
+          "v1"
+        ],
+        [
+          "l1",
+          "v2"
+        ],
+        [
+          "l2",
+          "v1"
+        ],
+        [
+          "l2",
+          "v2"
+        ]
+      ],
+      "ALL nara lumlum tek.": true,
+      "ALL nara lumlum tektek.": true,
+      "reason": "Both nonempty witness sets satisfy all four required ordered cross-relations."
+    }
+  ],
+  "scope_proof": "For any positive existential ALL assertion with anonymous nominal counts, choose a smaller nonempty subset of each witness set. N/J restrictions and the Cartesian universal predicate persist. Thus a positive assertion with a larger count implies the corresponding one with a smaller count. Written n gives exact witness size, not maximality of the described population.",
+  "exact_count_is_still_expressible": {
+    "text": [
+      "ALL cold lumlum.",
+      "NOT ALL cold lumlumlum."
+    ],
+    "reading": "Exactly two individuals are both leaves and cold in the interpreted world. The first clause asserts at least two, and the second denies at least three. This uses the already declared ordered text/outer-NOT grammar, not a new quantifier or rule.",
+    "ceiling": "It identifies no individual leaves by name and does not establish a globally closed inventory of other properties or preserve an anonymous participant set across clauses. In a finite world these two clauses impose exactly two cold leaves."
+  },
+  "negative_scope": "NOT ALL cold lumlum is true even with no leaves, and also with one cold leaf. It is neither two warm leaves nor an assertion that a specified known pair is not all cold.",
+  "collective_limit": "Two persons jointly lifting one vessel is outside the individual Cartesian lifting and cannot be substituted for each person individually lifting it. No new predicate was taught in this review.",
+  "lesson_cost": "Primitive-N spelling restriction, learned count units and meanings, predicate valency, property delimiter, written ALL/NOT, full names/escaping, clause punctuation and line handling remain real costs. A complete22sign carrier is absent.",
+  "decision": "Retain as a coherent restricted nominal/assertion module, with clarified existential count scope. Do not select a full corpus writer or native count interpretation from it. No new carrier/quantifier is added and no old failure is reopened.",
+  "predecessors_read": [
+    "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md",
+    "experiments/yolo/gdt1216_iterated_head_nominal_argument/REPORT.md"
+  ],
+  "other_predecessors": "RAW955 lists additional priors; this limited review does not certify un-read claims from those primaries.",
+  "no_native_values": true
+}

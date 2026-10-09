@@ -1,0 +1,54 @@
+{
+  "status": "MANUAL_CONSTRUCTION_OBLIGATION_NOT_NATIVE_TEST",
+  "question": "Can stable sorting into two symbol classes itself explain a readable ordered word shape?",
+  "teaching_example": {
+    "class_A": "AB",
+    "class_B": "12",
+    "source_sequences": [
+      "AB12",
+      "A1B2",
+      "A12B",
+      "1AB2",
+      "1A2B",
+      "12AB"
+    ],
+    "same_output_parts": [
+      "AB",
+      "12"
+    ],
+    "claim": "With only these two stable subsequences all six original orders collide."
+  },
+  "general_argument": "For fixed disjoint-class subsequences of lengths k and n-k, each choice of the k A positions yields exactly one distinct source sequence. Hence there are binom(n,k) possible interleavings. A lossless unrestricted writer must retain enough information somewhere to distinguish them.",
+  "illustrative_costs": [
+    {
+      "n": 4,
+      "k": 2,
+      "orders": 6,
+      "fixed_binary_bits": 3
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "orders": 20,
+      "fixed_binary_bits": 5
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "orders": 70,
+      "fixed_binary_bits": 7
+    }
+  ],
+  "conditional_limits": [
+    "Bound assumes every interleaving is allowed, no external dictionary/grammar/context restriction.",
+    "Restricting permissible source words can reduce the ambiguity; must specify those restrictions, not claim impossible readable sorting universally.",
+    "Information can be represented by explicit signs, spatial placement, context or restricted lexical knowledge; no fixed added glyph count is established.",
+    "No native sound, character class, morpheme, word value or alphabet selected."
+  ],
+  "predecessor_distinction": {
+    "IDEA000929": "Each original symbol contributes one row and one column coordinate; equal-length streams pair by known indices. Not the same information loss as sorting source symbols into disjoint classes. Fixed native929motif contradiction remains unchanged.",
+    "IDEA000932": "Source spatial attachment can retain ordering but its native binding remains unsupported.",
+    "GDT1202": "Any fixed deterministic, lossless one-source-token/one-written-group code preserves word equality and frequency partition. Permutation plus a uniquely recoverable mask does not fix prior four-source frequency failures. Other source languages or grouping contracts not excluded."
+  },
+  "decision": "No encoder or fresh frequency run. Pure unmarked stable partition is not a complete unrestricted reversible writer; a paid repair would still require a decision-changing source/grouping or spelling-choice account. No new supported Voynich mechanism."
+}

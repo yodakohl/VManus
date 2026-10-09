@@ -1,0 +1,69 @@
+{
+  "status": "SOURCE_FREE_JOINT_PAIR_FIBER_EXPECTATION_AND_CAPACITY_VALID",
+  "ownership": "Root proposed the fixed disjoint-word-pair joint control after the producer's counterexample to separate product margins. This review contains mathematical derivations and hand examples only; no native pairs, counts, scores or simulated texts were inspected or generated.",
+  "unselected_predecessor_note": "research_registry/proposals/production_origin_supply_20261003/BINARY_POSITION_MARGIN_CONTRAST_REVIEW_20261007.json",
+  "fixed_pair_scope": [
+    "Use unchanged learned binary classes and eligible interiors. Within each declared (source page selector, interior length n) cell, retain the pre-existing cache order and pair words1/2,3/4,... without looking at their class patterns. An odd remaining word stays fixed.",
+    "Build separate fixed pairs for ALL,UNSEEN_INTERIOR and diagnostic UNSEEN_WHOLE from their original membership. Do not change pairing, pool lengths/pages or discard fixed pairs after inspecting their mobility or score.",
+    "Novelty cohorts are defined by ORIGINAL observed sequences against the corresponding odd-TRAIN vocabulary. A rearranged reference interior might become a previously seen sequence. Do not re-filter such outcomes: that would change the stated fiber and its analytic expectation. This reference does not claim to preserve the novelty property of generated strings."
+  ],
+  "pair_fiber": {
+    "columns": "For each position j, preserve s_j=x_j+y_j. A column of sum0 is fixed00; a column of sum2 is fixed11. A column of sum1 has (z_j,1-z_j).",
+    "row_count": "Let k be the number of sum1 columns and f the number of sum2 columns. If the first word originally contains R ones, set r=R-f. Choose exactly r of the k variable columns to have z=1. Then the first row count is preserved and the second row count follows from the fixed column totals.",
+    "feasibility": "The original pair supplies a valid assignment, so0<=r<=k. The fiber has exactly binom(k,r) distinct ordered binary matrices. For k=0 it contains the single fixed matrix.",
+    "uniformity": "Give every r-subset of the k variable positions equal weight. Equivalently, their probability is1/binom(k,r). Uniformity over possible run counts or possible crossing totals would be a different, generally biased distribution."
+  },
+  "coherent_glyph_realization": [
+    "For each of the two original words, keep its ordered list of class0 working units and its ordered list of class1 working units. Fill any new binary pattern from these two queues in their original within-class order.",
+    "The preserved row class counts ensure both queues are exhausted exactly. The resulting whole interior preserves the complete original working-unit bag, length and within-class unit order. Restore its unchanged first and last exterior units.",
+    "Different binary patterns produce different working-unit strings because the two glyph classes are disjoint. Thus every binary matrix has one canonical stable-interleaving realization; repeated same-class units introduce no extra binary weighting.",
+    "All disjoint pairs can be realized simultaneously, with unpaired words unchanged. Per-pair column sums imply preservation of each page/length/position class marginal after summation. This is a coherent complete-word reference, unlike independent permutation of overlapping adjacent pairs."
+  ],
+  "pair_crossing_expectation": {
+    "fixed_fixed": "Two neighboring fixed columns contribute0 if their row bits agree, or2 if they disagree.",
+    "fixed_variable": "Exactly one variable and one fixed neighboring column contribute exactly1 total crossing across the two rows, regardless of z.",
+    "variable_variable": "Two neighboring variable columns contribute2*1[z_j!=z_(j+1)]. For k>=2, P(z_j!=z_l)=2*r*(k-r)/(k*(k-1)) for distinct variable positions, hence expected total contribution4*r*(k-r)/(k*(k-1)).",
+    "closed_form": "Let K0 be the sum of the fixed-fixed and fixed-variable contributions, and m the number of adjacent pairs of variable columns in the ORIGINAL position sequence. Then E[T_pair]=K0+4*m*r*(k-r)/(k*(k-1)) when k>=2. When k<2, m=0 and E[T_pair]=K0; do not divide by zero.",
+    "cut_identity": "The graph on variable positions has an edge only when the two positions are adjacent in the word. It is a disjoint union of paths. If Cut(z) is its cut size, T_pair=K0+2*Cut(z)."
+  },
+  "exact_capacity_by_runs": {
+    "runs": "Let L1,...,Lt be the lengths of maximal runs of consecutive variable columns, including length1 runs. Their lengths sum to k. Choose a_i ones in run i with0<=a_i<=L_i and sum a_i=r.",
+    "minimum_one_run": "For length L with a ones, the minimum crossing count is0 if a=0 or a=L, otherwise1. The latter is achieved by one contiguous zero block followed by one contiguous one block.",
+    "maximum_one_run": "The maximum is min(L-1,2*min(a,L-a)); alternate the minority bits with majority bits as far as possible.",
+    "global_min_max": "A min/max convolution over runs and total ones r gives the exact minimum and maximum of sum run cuts. Add K0 and multiply cuts by2 to obtain the pair crossing extrema. Gaps between runs contribute only the already fixed K0, so no additional endpoint coupling is omitted.",
+    "informative": "A pair is informative precisely when its exact minimum and maximum differ. k>0 or binom(k,r)>1 alone is not enough."
+  },
+  "independent_count_polynomial_check": {
+    "run_counts": "Compute N_L(a,c), the number of length-L binary sequences with a ones and c changes, by a recurrence retaining the last bit. This is finite integer dynamic programming, not enumeration of complete manuscript assignments.",
+    "convolution": "For each run use P_L(t,z)=sum N_L(a,c)*t^a*z^c. Multiply run polynomials and take the coefficient of t^r. Its coefficient at z^c counts pair assignments with Cut=c.",
+    "checks": "The coefficient sum must be binom(k,r). The smallest/largest supported c must match the min/max DP. The weighted mean of K0+2c must match the closed-form expectation.",
+    "weight_warning": "An allocation a_i of ones to runs has multiplicity product binom(L_i,a_i), not weight1. Uniform whole assignments, not uniform allocations or uniform attainable scores, determine the expectation. No random sampling is necessary for this analytic mean."
+  },
+  "optional_source_free_variance_identity": {
+    "scope": "A further independent algebra check, not an instruction to expand the selected computation.",
+    "formula": "For the variable-position path graph let m be its edge count, A the number of unordered edge pairs sharing a vertex and B=binom(m,2)-A. Set p=2r(k-r)/(k(k-1)), p_shared=r(k-r)/(k(k-1)), and p_disjoint=4r(r-1)(k-r)(k-r-1)/(k(k-1)(k-2)(k-3)). Then E[Cut^2]=m*p+2A*p_shared+2B*p_disjoint and Var(T_pair)=4*(E[Cut^2]-(m*p)^2).",
+    "small_k": "Omit terms for absent edge-pair types; do not evaluate the shared/disjoint denominator at k<3/4. If m=0, the variance is0. These are exact rational expressions.",
+    "interpretation": "Under a finite uniform fiber, positive variance is equivalent to differing minimum/maximum crossing counts. This is not a statistical p-value."
+  },
+  "required_counterexample_check": {
+    "old_false_joint_inference": "Separate controls can both be positive for the five interiors AAB,ABA,ABA,ABA,BAA, generated by exactly one B per word with a preferred middle position. The earlier bag baseline has observed8 versus expected20/3 crossings. The separate product-position margins give total excess12/5 over10edges. Neither implies an additional neighbor mechanism.",
+    "fixed_pairing": ["AAB / ABA", "ABA / ABA", "BAA left fixed"],
+    "first_pair": "Column sums are0,1,1; k=2,r=1. One fixed-variable edge contributes1 and one variable-variable edge contributes2 under BOTH possible assignments. Observed and expected totals are3.",
+    "second_pair": "All columns are fixed; observed and expected totals are4.",
+    "leftover": "The fixed BAA word has observed=expected=1.",
+    "joint_result": "Observed total8 equals joint expected total8. Excess0. The pairs have no variable total-crossing capacity, despite the first pair having two possible ordered assignments."
+  },
+  "reporting_scope": [
+    "Aggregate observed-minus-expected crossing counts per physical leaf and divide by every scored edge in that cohort, including fixed pairs and odd leftovers. They contribute zero excess but retain their denominator cost.",
+    "An informative leaf has at least one informative pair. The root's prospectively stated gate uses at least10 such leaves, at least two-thirds strictly positive among them and their equal-leaf mean excess>=0.01. Retain all-leaf and informative-leaf denominators/results separately; zero leaf excess is not positive.",
+    "ALL andUNSEEN_INTERIOR are the declared primary cohorts;UNSEEN_WHOLE is diagnostic. Different cohorts have independently fixed own pairs and hence different fibers. Do not choose whichever pairing or cohort gives the better outcome.",
+    "Alternate readers use the inherited fixed class map and remain separate sensitivity views of one manuscript. Unsupported-unit and small-interior exclusions stay as declared in1264."
+  ],
+  "limits": [
+    "The reference preserves each word's bag and every position's class total inside its fixed pair. It is a RESTRICTED pairwise subset of the full fiber of all word-by-position binary matrices with those row/column margins. Its expectation is not asserted equal to that unrestricted fiber's expectation.",
+    "Pair selection is additional conditioning. A different pairing can have different capacity and expectation, but no post-result repair or wider matching is licensed.",
+    "A positive excess is relative to this fixed pairwise stable-interleaving reference. It does not identify vowels, consonants, syllables, a spelling mechanism, meaning, or an information-theoretic share of H2.",
+    "The reference may create unattested words. Coherent unit strings and preserved bags are not a claim that every rearrangement is a grammatical word in an unknown language.",
+    "No p-value, independent holdout claim, unrestricted matrix sampler, MCMC or automatic extra-class learner is supplied. Root owns selection, implementation, synthetic validation and all data handling."
+  ]
+}

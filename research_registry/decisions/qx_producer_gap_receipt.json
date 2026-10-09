@@ -1,0 +1,60 @@
+{
+  "status": "NO_ADDITIONAL_RAW_PROPOSALS",
+  "reason": "Three source-grounded candidates were screened; each is already represented by a same-mechanism historical/idea predecessor or is only a missing anchor, so no distinct add was justified.",
+  "screened": [
+    {
+      "candidate": "mixed-script label/content bridge",
+      "decision": "retain_zero",
+      "observation": {
+        "path": "experiments/yolo/gdt735_historical_semantic_bridge_atlas/REPORT.md",
+        "line": 5,
+        "line_end": 16,
+        "quote": "Die historische Brücke ist real, aber sie liegt **eine Ebene höher als ein\nWörterbuchgleichnis**. Spätmittelalterliche pharmazeutische Handschriften\nbelegen zwei komplementäre Recordtypen:\n\n1. **deskriptiv:** gelernter Drogenname oder Lemma, optional Pflanzenteil oder\n   Stoffform, Qualität/Zustand und Grad;\n2. **präskriptiv:** Befehl, benannte Zutat oder Zubereitung, gebundene Menge,\n   Einheit und Prozess/Produkt.\n\nDer beste historische Arbeitsrahmen ist deshalb ein gemischtes System aus\ngelernten Ganzformen und gebundenen Fachfeldern, das beide Recordtypen getrennt\nhält. Das ist eine bessere Architektur als ein flaches Wort-für-Wort-Lexikon.",
+        "sha256": "934a3cda39d4c1f069778d789d3c7db2dfe1f54a26f343e3bd610fd53936e141"
+      },
+      "nearest": [
+        "ANCHOR:F1R_LATER_ALPHABET_TABLE",
+        "ANCHOR:F17R_F116V_MARGINALIA",
+        "IDEA000092"
+      ],
+      "why_not_added": "The available mixed-script records have no equality pointer or independently readable paired value; the proposed label/content split is an anchor requirement, not a concrete incompatible semantic mechanism."
+    },
+    {
+      "candidate": "equal-share operator versus absolute dose",
+      "decision": "retain_zero",
+      "observation": {
+        "path": "experiments/yolo/gdt759_quantity_part_state_construction_atlas/REPORT.md",
+        "line": 10,
+        "line_end": 21,
+        "quote": "Die wichtigste Korrektur lautet:\n\n```text\ns aiin = saiin\nArbeitslesung: drei Drachmen\nRivalen: drei gleiche Teile | drei Unzen\n```\n\nDas ist nicht aus der EVA-Form geraten. Vier verschiedene physische Zeilen\nwerden über ZL3b, IT2a und RF1b vollständig identisch, sobald lediglich die\nGrenze `s aiin`/`saiin` normalisiert wird. Insgesamt gibt es 23 getrennte\nreader-exakte `s aiin` und 89 fusionierte `saiin`.",
+        "sha256": "322a0842c189fd3f3f2fd3384030781db1f6c3c4e147a324c18ddd5dafeda7d1"
+      },
+      "nearest": [
+        "GDT759",
+        "GDT758",
+        "IDEA000071"
+      ],
+      "why_not_added": "GDT759 already states the same equal-parts versus dose rival and supplies the complete expression deck; renaming it as a relational quantifier would duplicate the existing route."
+    },
+    {
+      "candidate": "same-carrier property versus event reading",
+      "decision": "retain_zero",
+      "observation": {
+        "path": "experiments/yolo/gdt821_raiin_admitted_paragraph_transfer/REPORT.md",
+        "line": 5,
+        "line_end": 11,
+        "quote": "The complete admitted occurrence set does not force `raiin=steigt?` to be\nimpossible, but it supplies no securely identified moving subject outside the\noriginal guessed air reading. One additional air...raiin contact at f77r.45\nkeeps that construction worth exploring. A single separate post-reading rival,\n`raiin=leicht?` in the physical-weight sense, can describe a substance without\ninventing its ascent; it also loses the finite verb supplied by the original\ntrial. Neither is a global winner. Keep both meanings separate and C0.",
+        "sha256": "85e54762b22b19bda5df98115827989ac01b6b67b527a0802247ad834893eaab"
+      },
+      "nearest": [
+        "GDT820",
+        "GDT821",
+        "IDEA000093"
+      ],
+      "why_not_added": "The current QW proposal IDEA000093 already preserves this exact carrier-persistence contrast; a new form would be a duplicate, while the remaining missing carrier binding is not a new hypothesis."
+    }
+  ],
+  "added_ids": [],
+  "registry_mutation": false,
+  "source_validation": "All quoted spans were generated from splitlines and checked against file SHA256."
+}

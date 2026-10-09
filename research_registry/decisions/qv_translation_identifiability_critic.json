@@ -1,0 +1,109 @@
+{
+  "artifact": "qv_translation_identifiability_critic.json",
+  "status": "BOUNDED_PLANNING_CRITIQUE",
+  "scope": [
+    "current route and bounded idea/route screens",
+    "primary reports GDT808/809/827",
+    "no manuscript payload, TSV, image, web search, code or test",
+    "planning only; no registry mutation"
+  ],
+  "prior_limits": [
+    {
+      "claim": "Full paragraph renderings do not identify meanings.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "line": 7,
+          "line_end": 11,
+          "quote": "The unfinished comparison is repaired. Four complete source paragraphs now",
+          "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+        },
+        {
+          "path": "experiments/yolo/gdt809_record_conditioned_whole_head_semantic_tournament/REPORT.md",
+          "line": 26,
+          "line_end": 33,
+          "quote": "These meanings are explicit assumptions, including the numbers. The first",
+          "sha256": "4ba0b56b633b85771f533c1ec00737f6a71109d91086c9d1ac7701e06529d86f"
+        }
+      ],
+      "reason": "The common 16-entry dictionary produces fluent competing readings, but the report explicitly labels the meanings assumptions and says the comparison neither confirms nor erases them."
+    },
+    {
+      "claim": "Contextual record relations are not lexical translation.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md",
+          "line": 48,
+          "line_end": 54,
+          "quote": "Das ist konkrete Information, aber noch kein Wörterbuch:",
+          "sha256": "7dcf23794cf134702ebea986eb8210c9ed59d517f8f432392c7b4157f9ab5e4c"
+        },
+        {
+          "path": "experiments/yolo/gdt808_exact_relation_slot_residual_bridge/REPORT.md",
+          "line": 59,
+          "line_end": 61,
+          "quote": "nicht vom lokalen Slot getragen. Das stützt eine breite Kanalgrammatik",
+          "sha256": "7dcf23794cf134702ebea986eb8210c9ed59d517f8f432392c7b4157f9ab5e4c"
+        }
+      ],
+      "reason": "Portable L/DY relations survive formal holdouts, yet the report explicitly rejects direct component meaning and a dictionary."
+    },
+    {
+      "claim": "Joint coverage is not discrimination.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/WORKING_THEORY.md",
+          "line": 6,
+          "line_end": 9,
+          "quote": "TRANSFORMATION and FLOW can both complete f77r.35 with the same grammatical",
+          "sha256": "28c1e35d183101713b8e79822a0da3a7e4ca90720ee7fb769bae1a1139fe28bf"
+        },
+        {
+          "path": "experiments/yolo/gdt827_joint_core_paragraph_contrast/WORKING_THEORY.md",
+          "line": 11,
+          "line_end": 15,
+          "quote": "MANUAL proposes rub/press/stroke, hand/foot/skin, on/it. It gives known",
+          "sha256": "28c1e35d183101713b8e79822a0da3a7e4ca90720ee7fb769bae1a1139fe28bf"
+        }
+      ],
+      "reason": "Rivals share exact coverage and retain unknowns; generated knowledge graphs or prose can only rename latent roles unless a held contrast breaks the symmetry."
+    }
+  ],
+  "identifiability_diagnosis": {
+    "core_problem": "Unknown-label permutation symmetry: a model can fit form, topic and layout while any bijection of opaque labels to English meanings fits equally. Topic/layout dependence can also create homographs, so recurrence alone cannot choose a translation.",
+    "what_old_routes_lacked": "An independently sourced endpoint and a predeclared held prediction that changes under rival lexical assignments. More fluent renditions, graph joins, or raw structural passes do not supply that constraint.",
+    "positive_evidence_standard": "Infer meanings jointly as latent variables only when multiple source-bound constraints overdetermine them: repeated complete forms, independently fixed owner/role endpoints, matched contrasts and held folios. Report unresolved equivalence classes when renaming symmetry remains."
+  },
+  "plans": [
+    {
+      "id": "PLAN_A_JOINT_OWNER_ENDPOINT_LEXICON",
+      "mechanism": "Fit a finite latent lexicon jointly with record/owner roles. Keep complete unknown wholes opaque; use the existing 45 visual keys as source-bound endpoint variables and repeated prose/diagram occurrences as constraints. Permit three rivals: invariant lexical core with topic-specific realization; topic-conditioned homography; layout-only procedural marker with no stable content.",
+      "positive_evidence_needed": [
+        "At least five independently provenance-bound owner/part/state endpoints across held physical folios, with two-reader agreement and alternate-reading preservation.",
+        "The same unknown whole recurs in at least two disjoint folio contexts with the same endpoint, while a predeclared contrasting whole tracks a different endpoint; topic and page are nuisance variables rather than labels.",
+        "A held combination of known owner/record features predicts an endpoint or whole choice before its meaning is assigned."
+      ],
+      "untouched_prediction": "On held folios, the invariant-core model predicts the same latent endpoint relation for a repeated whole despite topic/layout change; the homography model predicts owner/topic-specific reassignment; the layout-only model predicts role/position but no endpoint association.",
+      "falsifier": "All assignments remain equally permutable, the held endpoint prediction is no better than topic/layout-only rivals, or apparent transfer disappears when owner and folio are held out. Then preserve only an equivalence class, not a translation.",
+      "acquisition_if_45_insufficient": "Acquire a small targeted set of new native keys designed to split the remaining permutation classes: same source family, repeated endpoint, independent readers, and untouched held folios. More generic visual coverage does not help unless it breaks a specific symmetry."
+    },
+    {
+      "id": "PLAN_B_MATCHED_MINIMAL_CONTRASTS",
+      "mechanism": "Use source-native matched pairs where one observable dimension changes while owner/topic is held: field order, state transition, quantity/stage slot, or downstream action. Infer the unknown whole and endpoint jointly from contrast constraints. Permit a topic-dependent lexical model and a layout-conditioned renderer model as explicit rivals.",
+      "positive_evidence_needed": [
+        "Predeclare matched pairs with complete whole boundaries and source-bound structural roles; no imported English gloss may define the contrast.",
+        "Require one independently bound endpoint or process relation per pair, then test whether the same whole follows the endpoint across distinct topics or whether only layout predicts it.",
+        "Reserve untouched folios and alternate readings for the final contrast; do not score the same paragraph used to choose the pair."
+      ],
+      "untouched_prediction": "A lexical model predicts the same contrastive role when the layout is changed but the source-bound relation is preserved; a renderer model predicts only position/order; a topic-homography model predicts systematic reassignment by owner/topic.",
+      "falsifier": "No pair isolates one dimension, or all rival models make identical predictions after allowing topic/layout effects. A structural pass without a divergent endpoint prediction is retained as structure only.",
+      "acquisition_if_45_insufficient": "Add only keys that create the missing matched contrast, preferably an endpoint pair on an untouched folio; do not expand to a generic decoder or broad image census."
+    }
+  ],
+  "implementation_ceiling": {
+    "first_gate": "Freeze rival commitments, endpoint provenance, held folios and the allowed relabeling symmetry before fitting any meanings.",
+    "no_gold_blanket": "Structural constraints can be evaluated without semantic gold; semantic inference begins only where independent endpoints and rival-divergent held predictions exist.",
+    "translation_claim": "A word-level translation is reportable only after a nontrivial latent assignment survives both plans or one plan plus a held cross-topic/owner prediction. Otherwise report source-bound functional roles and the remaining equivalence class."
+  },
+  "canonical_files_mutated": false
+}

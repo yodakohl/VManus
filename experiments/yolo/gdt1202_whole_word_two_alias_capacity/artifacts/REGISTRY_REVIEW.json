@@ -1,0 +1,96 @@
+{
+  "record_id": "GDT1202",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; separate same-author indexed count and occurrence-allocation check",
+  "assessment_basis": "primary_reports",
+  "reason": "Even optimal at-most-two whole-source-word spellings yield at most1649\u20131846types/8000 and top10 at least20.15\u201323.3375percent; every reader/book direction fails the unchanged bounds. Exact source-token grouping is part of the excluded contract.",
+  "blockers": [
+    {
+      "code": "whole_word_two_alias_capacity",
+      "detail": "Source word projection and one-token/one-group rule cannot reach either necessary frequency direction under any at-most-two-spelling allocation.",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/artifacts/RESULT.json"
+      ]
+    },
+    {
+      "code": "source_scope_is_conditional",
+      "detail": "Existing CoReMA tokenization includes standalone punctuation; no general source-language or native-word exclusion follows.",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/PREREGISTRATION.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "changed_information_grouping",
+        "change": "new_design",
+        "detail": "A different independently motivated information-grouping or source contract with explicit content/learning costs and a predeclared falsifier; inspect1175\u20131178and1196before selection.",
+        "evidence": [
+          "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A different glyph table under the same at-most-two contract",
+      "More sophisticated placement of the same two forms",
+      "An automatic extra-variant sweep",
+      "Treating two aliases per letter as the tested whole-word model",
+      "Treating source-control failure as absence of native meaning"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1177",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1180",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1196",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1197",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1200",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1201",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

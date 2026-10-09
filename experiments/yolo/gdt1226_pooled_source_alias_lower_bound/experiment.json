@@ -1,0 +1,131 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact continuous concentration bound for mixtures of four fixed exposed source profiles; no integer text, type test, physical writer, native meaning, language or general mixture exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1226_pooled_source_alias_lower_bound/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1226_pooled_source_alias_lower_bound/src/validate.py"
+  },
+  "created": "2026-10-06",
+  "dependencies": [
+    "GDT1174",
+    "GDT1176",
+    "GDT1177",
+    "GDT1202",
+    "GDT1207",
+    "GDT1213",
+    "GDT1223",
+    "GDT1225"
+  ],
+  "experiment_id": "GDT1226",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/artifacts/FREQUENCIES.json",
+      "sha256": "61f09129c84ec7fb866a65f0092759dfb07b31e78bf0c8cc35870a981fc96c3f",
+      "role": "Frozen existing source profile or aggregate reference"
+    },
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/artifacts/SOURCE_RECEIPT.json",
+      "sha256": "984d3f9cc7866cafdb9f444fd8c9e20428fa164f467770a31c17554ba8402456",
+      "role": "Frozen existing source profile or aggregate reference"
+    },
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/artifacts/RESULT.json",
+      "sha256": "ee399df2d5db46fc59f32e2d05050e63c7ac1145fee0c867c66a5f6974a0eba4",
+      "role": "Frozen existing source profile or aggregate reference"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e",
+      "role": "Frozen existing source profile or aggregate reference"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a",
+      "role": "Frozen existing source profile or aggregate reference"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/METHOD.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "ae4a12665c33f599d948f309e0764c59764515cc06bb12d90388d6f82e6c59a5"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/PREREGISTRATION.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "2a2db995d044ca9b18f39f494da353f198df7c92f7f526c24c3ca335743455df"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/README.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "050bc318906fbdac5a01eff25e5f0fe95b9ca52b97909def948df6a3ef7a7151"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/REPORT.md",
+      "role": "Primary report",
+      "sha256": "38e70ae08e781f75391a3a6a18f76eb8fc162336c7bd6c6aece8fae02e3045d7"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/CLOSURE.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "7ce4119d07d3885873feb1c1eeda2c264fa0c5281477bb7f5b4463ee6f374bd6"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/README.md",
+      "role": "Source, protocol, result or validation",
+      "sha256": "2af04e0ddcd8a52dc40409362e2123d6c012ac1fcb8463f0e458f9c332aa534a"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/REGISTRATION_LOCK.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "f7d3a3f83a60e7e9069f6b3248fd27b2b211e3286b9811f94aa9ff3371227926"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/REGISTRY_REVIEW.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "abda67d594e3628b40ab0c25477c2f99b649c8744027f6adcd0b994d3b731be0"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/RESULT.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "ec018196fe3973da64e9a4ff629d52e71113e77524618720cb08b63f9aa6a214"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/RUN_RECEIPT.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "d5376f6dce4303140dc81b750a724f2d4c4f805f86506e289d561713c02fc570"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/VALIDATION.json",
+      "role": "Source, protocol, result or validation",
+      "sha256": "572df98e7250b6b267d1b14552a5e59b0f5658a22e31b0eb2a369ffd4fb71e6b"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/src/run.py",
+      "role": "Source, protocol, result or validation",
+      "sha256": "1c2f8b48b383b0e617b932895f704288fb2644e7214bec5f6964cbf586303e33"
+    },
+    {
+      "path": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/src/validate.py",
+      "role": "Source, protocol, result or validation",
+      "sha256": "df7ef930ac17a963663972a86d7e7718ade7ddf15ae8181864901348dbc48e19"
+    }
+  ],
+  "question": "Can any convex mixture of the four unchanged empirical word profiles meet the pooled top-ten ceiling with at most two global spellings per exact source word?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "pooled_source_alias_lower_bound",
+  "status": "EVERY_MIXTURE_TWO_ALIAS_CONCENTRATION_EXCLUDED",
+  "title": "All-mixture concentration bound for four fixed source profiles",
+  "updated": "2026-10-06",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/artifacts/VALIDATION.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "experiment": "GDT1222",
+  "selected_utc": "2026-10-06T02:52:21Z",
+  "preparation_began_utc": "2026-10-06T02:47:28Z",
+  "total_budget_minutes": 45,
+  "whole_work_deadline_utc": "2026-10-06T03:32:28Z",
+  "question": "Can a source word represented by its ordinary lemma and fully retained declared morphological analysis pass necessary fixed-injective-writer frequency conditions?",
+  "source": ".gdt001/repos/latin_ittb/la_ittb-ud-train.conllu",
+  "source_sha256": "0f0aded3ec3f697cdb8dc2294d213bdc951b127a5bc3d2114be22cd730cac5b8",
+  "source_readme": ".gdt001/repos/latin_ittb/README.md",
+  "scope": {
+    "SCG2": [
+      105,
+      5657
+    ],
+    "SCG3": [
+      5658,
+      13519
+    ],
+    "SCG4": [
+      16810,
+      22775
+    ]
+  },
+  "projection": {
+    "word": [
+      "LEMMA exact literal",
+      "UPOS exact literal",
+      "all FEATS keys and values, key-sorted; underscore is explicit unspecified, never inferred",
+      "TraditionalMood and TraditionalTense from MISC, independently unspecified if absent",
+      "FORM literal only if LEMMA is underscore, to prevent lost unknown lexical content"
+    ],
+    "punctuation": "Every integer-ID UPOS=PUNCT token becomes its exact FORM punctuation atom. Attach punctuation to preceding lexical word; leading punctuation to first following word; all-punctuation sentence is one group. No other adjacent words are joined.",
+    "order": "Every selected integer-ID token appears exactly once, in original order. MWT headers and decimal empty nodes are annotations, not additional running words.",
+    "boundaries": "Retain sentence boundaries separately, with the future carrier assumed to use explicit layout that does not change lexical group identity. No cost-free extra word/positional aliases are allowed by this fixed common-renderer contract.",
+    "unknown": "Unspecified features remain unspecified; no inferred gender, case, sense, reference or agreement. Duplicate feature keys, malformed rows, repeated/missing sentence IDs invalidate instead of repair.",
+    "omitted": "FORM orthography for known lemmas; XPOS, dependency arcs, other MISC fields and exact whitespace. No complete historical meaning, syntax-tree or diplomatic inverse is claimed. Annotation choices/errors remain source assumptions."
+  },
+  "carrier_assumption": "Every entire projected group maps to one distinct physical word under the same context-independent injective renderer. Different source FORM strings can have the same analysis; one FORM can have several analyses. Neither exact FORM equality nor its old two-alias bound is assumed. Morphological feature and lexicon signs are not yet specified.",
+  "screen": {
+    "target": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+    "sample_groups": 8000,
+    "metrics": [
+      "types",
+      "top10_count"
+    ],
+    "absolute_count_tolerance": 400,
+    "all_books_all_readers_required": true,
+    "native_reader_policy": "three alternative readings; no pooled replication",
+    "no_postpass_full_glyph_run": true
+  },
+  "manual_observations": [
+    {
+      "id": "train-s1:4",
+      "form": "dicit",
+      "lemma": "dico",
+      "upos": "VERB",
+      "feats": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+      "traditional_mood": "Indicativus",
+      "traditional_tense": "Praesens"
+    },
+    {
+      "id": "train-s4:1",
+      "form": "dico",
+      "lemma": "dico",
+      "upos": "VERB",
+      "feats": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act",
+      "traditional_mood": "Indicativus",
+      "traditional_tense": "Praesens"
+    },
+    {
+      "id": "train-s1:7",
+      "form": "operationem",
+      "lemma": "operatio",
+      "upos": "NOUN",
+      "feats": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+      "traditional_mood": null,
+      "traditional_tense": null
+    },
+    {
+      "id": "train-s2:3",
+      "form": "operationis",
+      "lemma": "operatio",
+      "upos": "NOUN",
+      "feats": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+      "traditional_mood": null,
+      "traditional_tense": null
+    }
+  ],
+  "manual_consequence": "The same ordinary lemma carries different explicitly attested person or case; these pairs remain distinct. No gloss of a native word. Manual sentences1..4 lie outside all counted books.",
+  "predeclared_diagnostics": [
+    "Full-book lemma/UPOS and complete analysis inventories as learning-cost lower descriptions",
+    "Number of source FORM spellings with multiple retained analyses, and analyses with multiple FORM spellings; descriptive only, no followup fit",
+    "All full projected sentence roundtrips and fixed sample hashes"
+  ],
+  "decisions": {
+    "fail": "Close this exact projected-source/group/common-renderer conjunction before constructing any carrier. No changed feature subset, punctuation, source, alias or threshold in this work unit.",
+    "pass": "Only reconsider a complete paid physical writer; this is neither a full statistical pass nor identification of Latin/native inflection.",
+    "invalid": "Report missing source/annotation capacity, not model refutation."
+  },
+  "predecessors": [
+    "GDT1174",
+    "GDT1176",
+    "GDT1193",
+    "GDT1195",
+    "GDT1202",
+    "GDT1213",
+    "GDT1221",
+    "GDT832",
+    "GDT998",
+    "IDEA000412",
+    "IDEA000952"
+  ],
+  "novelty_scope": "New projected lexical/grammatical input and one-running-word unit, not 1221 syntactic grouping, a repair of its relation list, or another tiny generated semantic world. Original failures retained.",
+  "access": "Cached historical source and cached aggregate target summaries only. No native raw text, word assignment, image, relation packet, reserve or f84/f84r/f116v access. All sources exposed. Local construction checkpoint, no push."
+}

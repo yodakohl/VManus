@@ -1,0 +1,35 @@
+{
+  "record_id": "GDT1251",
+  "scope": "acquisition",
+  "verdict": "inconclusive",
+  "reviewer": "root; one informed native view with source-accounting validator",
+  "assessment_basis": "registered_source_view_and_qualified_manual_judgment",
+  "reason": "The single detail region clipped the fixed target and exposed a preceding extra row; no reliable seam comparison was possible. Original outcome retained, not a failed compound hypothesis.",
+  "blockers": [
+    {
+      "code": "mislocalized_target_invalid_measurement",
+      "detail": "The single detail region clipped the fixed target and exposed a preceding extra row; no reliable seam comparison was possible. Original outcome retained, not a failed compound hypothesis.",
+      "evidence": [
+        "experiments/yolo/gdt1251_f76v_cheol_seam_view/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "source_or_independent_binding",
+        "change": "source_correction",
+        "detail": "Explicitly fixed corrected localization without changing target; preserve original failed view.",
+        "evidence": [
+          "experiments/yolo/gdt1251_f76v_cheol_seam_view/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treating software provenance PASS as visual or semantic confirmation",
+      "Relabeling source readings as independent manuscripts"
+    ]
+  },
+  "relations": []
+}

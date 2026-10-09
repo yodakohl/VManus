@@ -1,0 +1,49 @@
+{
+  "record_id": "IDEA000930",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root",
+  "assessment_basis": "manual_necessary_length_proof_under_explicit_G0_motif_binding",
+  "reason": "A nonfinal group must contain three distinct drawn head occurrences and therefore at least three nonempty G0 atoms. f25v.2 group5 is a complete one-atom SK group, strictly inside the continuing text line. No choice of head/tally identities or letter-table values can supply three heads in one bound atom. Reject only the bound realization; the raw design has no independently established native head/tally inventory.",
+  "blockers": [
+    {
+      "code": "model_counterexample",
+      "detail": "Complete nonfinal single-motif group cannot contain three nonempty heads under the explicit fixed G0 binding.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA930_BOUND_RESULT_20261005.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_NATIVE_ACCOUNT_20261004.json",
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_THREE_CELL_GROUPS_RAW_20261004.json"
+      ]
+    },
+    {
+      "code": "unbound_other_native_realizations",
+      "detail": "No independent smaller native atomization was supplied; other such realizations were not tested.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_THREE_CELL_GROUPS_RAW_20261004.json"
+      ]
+    }
+  ],
+  "relations": [],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "independent_native_head_binding",
+        "change": "new_binding",
+        "detail": "Independently motivate a different consistent native head/tally inventory and retain the short-group countercase; do not divide one sign post hoc just to supply three heads.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA930_BOUND_RESULT_20261005.json",
+          "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_NATIVE_ACCOUNT_20261004.json",
+          "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_THREE_CELL_GROUPS_RAW_20261004.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Change table letter values",
+      "Change group size after the result",
+      "Invent hidden heads or optional fusion",
+      "Join definite spaces",
+      "Count alternate readers as independent witnesses"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete source-indexed rank books and first8000-group frequency partitions preserve every recipe, source word and equality count for independent reconstruction. Each artifact is below300kB; no new native text or images.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Known-source content-preserving construction and necessary frequency rejection only; no rendered carrier, native morphology, word value, language or historical claim; GDT001failure and GDT1197historicaldeferral retained.",
+  "commands": {
+    "run": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1206_mtf_source_frequency/src/run.py",
+    "validate": "env PYTHONHASHSEED=0 python3 experiments/yolo/gdt1206_mtf_source_frequency/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT001",
+    "GDT1174",
+    "GDT1177",
+    "GDT1180",
+    "GDT1193",
+    "GDT1194",
+    "GDT1195",
+    "GDT1196",
+    "GDT1197",
+    "GDT1202",
+    "GDT1204",
+    "GDT1205"
+  ],
+  "experiment_id": "GDT1206",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MOVABLE_LETTER_RANK_RAW_20261005.json",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "9e2fc8279a72b3fb4e13a463744d17baee7d0935c5ba906815d4a75f9c68c36c"
+    },
+    {
+      "path": "experiments/yolo/gdt1197_letter_memory_frequency/PREREGISTRATION.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "dc6809ba33f0c8b79e4fdae3ff91bb9a74c760831ce77b35e2df77c5858498eb"
+    },
+    {
+      "path": "experiments/yolo/gdt1197_letter_memory_frequency/REPORT.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "c260d81962320d7813ad79fc09d94216f25823c6d2eb93272531ab6da0eaac8d"
+    },
+    {
+      "path": "GDT001_MTF_DYNAMIC_RANK_REPORT.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "0892c4eb3e3f50ecf832e2521503e59da1d4fbe221f34a63024b62dab5caf590"
+    },
+    {
+      "path": "docs/visual_overview/NEXT_STEP.md",
+      "role": "Pinned existing source/projection or inherited target summary",
+      "sha256": "9b6a92926433d3e2cc56a88cddbfd5e7cfa44664426335f3dc48faa1058cfbc9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/METHOD.md",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "b14fef446e1e12b4f173fb89ed155f819b68cfdea30b151de63b685b8eb8f34e"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/PREREGISTRATION.md",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "8e55da45f27e29788c0f6493df4e0c6324c07c5b77a4d835a82bda743e8f8b15"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/README.md",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "60c50ebd2f3f3f06d4b21ddbdcb5a8dfef79317404dd43ef4cd0449693e6d958"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/REPORT.md",
+      "role": "Primary report",
+      "sha256": "703aab4fe347d2715dc5e761d107bf0c05cd492faf35e6ced97e7a0c29859204"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/ENCODED_b4.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "fa6ac999c196b28a69aa7f878eba8c4202006bf91c7eb700318b98035622cf1b"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/ENCODED_bs1.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "5a0b52dc20c8eec31c1dca192ae200aa9dc21e1d8a90eeab4c8e1de34ed2e40b"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/ENCODED_gr1.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "96735ab85f95f29e22235c7a14d490b3122e7e27844861764996e7619a042759"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/ENCODED_w1.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "d965ea4c92c29c25ee67c25f0f4614b616af53a0caa898cb117a946254ce8f95"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/FREQUENCIES_b4.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "9c1ebc341745545e8be203db65e40fdcca4d3703aa77258e0ef7d2514b2d907d"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/FREQUENCIES_bs1.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "f51bb00e452ff071238f3ac2b02b8cce3f2184e08ddaea936422da40039e75a2"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/FREQUENCIES_gr1.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "55f656d88f0dd57de44025530474ac7ae05ddc224691612735f093bde718f002"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/FREQUENCIES_w1.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "04c5680a858e9f334d14909e9db4e0053e628f1808c4c949efc32a83a7e6ecab"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/IDEA939_REVIEW.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "22ed5e8d4a3861ea0b30e84515884f66589f5cc7099c774a9eb35bfafea1f339"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/README.md",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "edbdc8ee372978db826880385135b23fc34f7298fc344e8058266ad5a453da52"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/REGISTRATION_LOCK.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "9e311385868b549abf96575713270d7a88db41bd4fe44f919cd64df4ad26c325"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/REGISTRY_REVIEW.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "7c25da40022171acd937e13af0aaeadc2090cdc4c1c49083a1b735042c56440f"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/RESULT.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "961f4b479529573be70039c9c63b19b4169afdeb394252ab3f32d8f9e4dd8f0b"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/RUN_RECEIPT.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "6e69bb43b917286c21f7a76d137d5d81f65638da09131a61561110841c379887"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/VALIDATION.json",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "6de8f0052d42b14f1b30ded269e49999dc813d28f35915e1d7a55bb1a708dfb9"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/src/run.py",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "dd54205f7d22aebf7e33798f201f9465fdbc5a69d781412c47f3b534b2973fa8"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/src/validate.py",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "4c45ca2ba99302a8c4fa3311745c5ee9f9c0fd1c0ae6c2041c3237678793ad92"
+    },
+    {
+      "path": "experiments/yolo/gdt1206_mtf_source_frequency/src/writer.py",
+      "role": "Complete rank-book/frequency provenance, frozen contract/program, result or review",
+      "sha256": "eacac06a4e781eab1588e3737b4f28bb3902fb44b914d245de089a552f0c8a90"
+    }
+  ],
+  "question": "Does the existing recipe-reset26-letter moving alphabet meet the three fixed necessary equality-frequency conditions on four exposed sources under any fixed uniquely decodable carrier?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "mtf_source_frequency",
+  "status": "MTF_FREQUENCY_SCREEN_FAIL",
+  "title": "Fixed source-forward MTF frequency screen",
+  "updated": "2026-10-05",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1206_mtf_source_frequency/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

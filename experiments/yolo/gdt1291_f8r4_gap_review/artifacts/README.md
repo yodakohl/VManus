@@ -1,0 +1,1 @@
+Source metadata and the informed visual observation are retained. Original/crop image bytes remain in local cache. Software verification checks records and image identity, not the truth of the palaeographic judgment.

@@ -1,0 +1,59 @@
+{
+  "title": "RAW UNREVIEWED: two overlapping fixed shortcuts with mandatory left-to-right priority",
+  "summary": "Invented complete hand procedure, not historical attestation or a Voynich key. One literal A-Z alphabet and two distinct shorthand drawings for the teaching strings AB and BC suffice. Scan each source word once from the left and take a shortcut whenever its two letters are next; otherwise spell one literal. ABC must therefore be written as the AB shortcut followed by literal C, never literal A followed by the BC shortcut. This overlap supplies a concrete priority contrast absent from GDT995's nonoverlapping suffix deck. Single letters, direct repetitions, new words and word repetitions are explicitly covered. RAW UNREVIEWED: no native assignment or target test.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "A fixed ordinary literal alphabet plus two mandatory two-letter shortcuts. At the leftmost unread source letter, consume AB as MU or BC as NU when matched; otherwise consume that one letter as its literal sign. Previously emitted output is never rescanned. Word boundaries stop all matches.",
+    "unit": "Complete A-Z source words. Each output atom is either a literal letter drawing or one of the two distinct shortcut drawings. A shortcut consumes two source letters without sharing either letter with the next output atom.",
+    "contrast": "Left-first selection of competing source substrings versus right-first selection or optional shorthand. The shortcut is not defined as a physical ligature, a connected stroke or an allograph of its literal spelling.",
+    "prediction": "With fixed sign bindings L_A, L_B, L_C, MU=AB and NU=BC, canonical output cannot contain L_A L_B, L_B L_C or L_A NU as adjacent atoms inside one word. MU L_C is legal and writes ABC. Right-first selection instead writes ABC as L_A NU. Thus the same two established shortcut expansions would impose different cross-shortcut neighbour restrictions under the two priorities.",
+    "scope": "Source-free constructive raw hypothesis. No actual Voynich letter or word meaning, native glyph equivalence, historical source claim, target image/data access, experimental output, source search or new decoder.",
+    "teaching_kit": {
+      "alphabet": "A-Z mapped bijectively to 26 distinct literal drawings L_A through L_Z. These are invented teaching labels, not target signs or a selected manuscript language.",
+      "shortcut_card": "MU expands exactly to A followed by B; NU expands exactly to B followed by C. MU and NU are distinct from one another and every literal sign. They need not visually resemble their expansions. Source letters M, N or U still use their ordinary distinct literal drawings.",
+      "cost": "One ordinary alphabet and a two-entry shortcut card. The writer needs only one-letter lookahead and advances a finger by one or two input letters. There is no prior-word memory, arithmetic, movable alphabet, syllabification or hidden mode."
+    },
+    "writer": [
+      "Begin at the first letter of the complete next input word. Use the fixed A-Z teaching contract; unfamiliar characters outside that contract are not silently normalized.",
+      "If the current and next unread letters are AB, write MU and advance past both. Otherwise, if they are BC, write NU and advance past both. Because A and B differ, those two matches cannot begin at the same position.",
+      "If neither pair matches, write the current letter's literal sign and advance by one. Repeat on the unread source remainder. A source letter already consumed by MU cannot also participate in NU.",
+      "A final single letter is written literally. Leave a visible space after every complete source word. Do not match across that space or apply a second substitution pass to emitted shorthand.",
+      "Keep each complete written word on one physical line and move it intact when needed. A new line or paragraph changes neither priority nor spelling; an isolated inscription follows the same word rule. No joining, decoration or optional contraction is added."
+    ],
+    "reader": [
+      "Expand each literal drawing to its one table letter, MU to AB and NU to BC; concatenate expansions within the preserved word boundaries.",
+      "Apply the same writer to that complete expansion. The written group is canonical only when the regenerated output is identical. A different regeneration is a rule violation, not an alternative spelling licensed after inspection.",
+      "The fixed disjoint output inventory makes expansion unique. The canonical check additionally enforces the forward shorthand priority. No word dictionary is required."
+    ],
+    "required_hand_cases": {
+      "single_input_letter": "A -> L_A, B -> L_B, and likewise for every other single letter. A one-atom output group may also be MU for source AB or NU for source BC, with an unambiguous expansion because the drawings differ.",
+      "direct_character_repetition": "AA -> L_A L_A; BB -> L_B L_B; CC -> L_C L_C. Every same-letter run is spelled literally because neither shortcut has repeated letters.",
+      "repeated_shortcut": "ABAB -> MU MU; BCBC -> NU NU. Different shortcut drawings may therefore double too; no universal single-repeat-sign constraint is imposed.",
+      "whole_word_repetition": "ABC ABC -> [MU L_C] [MU L_C]. Repetition and physical line wrapping leave each complete spelling unchanged.",
+      "new_words": "Every finite A-Z spelling uses the same one-pass rule. Unfamiliar complete words need no additional abbreviation entry.",
+      "separated_repetition": "DED -> L_D L_E L_D. An S-O-S output pattern is not generically forbidden; this example supplies no native S/O assignment.",
+      "overlap_witness": "ABC has candidate source matches AB at positions 1-2 and BC at positions 2-3. Left-first consumes AB and writes MU L_C. L_A NU expands to the same ABC but fails canonical reencoding. This is a deductive invented example, not a target observation.",
+      "nonoverlap_control": "ABBC -> MU NU. Both shortcuts are legal together when their consumed source spans do not overlap."
+    },
+    "minimal_falsifier": "Once one fixed literal/shortcut correspondence is independently justified, a definite internal L_A NU rejects left-first priority while MU L_C is permitted; the reverse priority gives the opposite result on this ABC overlap. L_A L_B or L_B L_C would reject mandatory use of their respective shortcuts. Keep all complete groups and existing contradictory spellings; no optional-use exception or new synonym may be introduced after failure. No such native correspondence is asserted or queried here.",
+    "decision_value": "A genuine overlap witness could distinguish two otherwise equally readable forward writers without first choosing whole-word meanings. If the native shortcut correspondence remains unbound, the example remains a construction only. Absence of a forbidden pair alone does not establish either the correspondence or a shorthand mechanism; ordinary spelling restrictions are a rival.",
+    "known_obligations": [
+      "Known short groups, different doubled motifs and separated repetition do not alone contradict this toy procedure. That capability statement does not classify any G0/G1/G2 motif, establish coverage or identify a native alphabet.",
+      "The earlier bare bench-plus-gallows versus embedded-form countercases must not be ignored if someone later proposes them as these literal and shortcut spellings. No such binding is made here; the drawings are not required to join or share strokes.",
+      "One complete source word has exactly one canonical output here. Independently demonstrated synonymous spellings under a fixed key would therefore contradict this strict writer, even when both can be expanded fluently.",
+      "GDT608's directed composition and stronger exact-whole residuals remain explanatory requirements. A small shorthand convention can be defined on paper without accounting for those measured facts.",
+      "This is not a repair of IDEA928, 929, 930, 931 or 932 and does not alter any of their fixed motif bindings or decisions. No target result informed the two teaching shortcuts."
+    ],
+    "predecessor_review": [
+      "IP039 already retains mandatory abbreviation as a raw family. Its docs/IDEA_BACKLOG.md:1721 note distinguishes written expansion from mere stroke joining and reports no independent complementary pair. The present invented table does not supply that missing manuscript pair.",
+      "GDT835_wholeword_precedence_audit/REPORT.md shows why a decoded expansion must also satisfy its declared forward writer. Its retrospective wholeword-first result leaves GDT834 failed; canonical compatibility is not newly discovered here.",
+      "GDT995_conditional_suffix_inverse/REPORT.md completes the old finite suffix inverse. It explicitly states that all 24 suffix priority orders remain indistinguishable because none of its four compatible suffixes overlaps. The present small construction instead fixes one overlap and its two different outputs; it does not repeat the suffix audit or claim its proposed continuation is unexecuted.",
+      "GDT835 and GDT995 followup cards retain GDT837's strict recovery failure and later1160/1164/1166/1171 results. No new abbreviation control, source corpus or decoder follows this raw proposal; the current route's failures remain.",
+      "GDT609 is an older mixed-abbreviation architecture prior, not a proved historical codebook. This two-shortcut teaching card is a narrow constructive instance in that broad family, not evidence of a new historical writing tradition or recovery of its FST34.",
+      "IDEA113/GDT883 concerns fixed overlapping blocks advancing by one: adjacent outputs must share an underlying endpoint. That model is contradicted under its registered units. Here candidates can overlap in the source, but the actual chosen outputs consume disjoint spans and impose no endpoint equality between every adjacent output pair. The GDT883 primary and followup pointer were reviewed; its failure is not reopened."
+    ],
+    "review_basis": "Read current route and composition topic; bounded idea and duplicate searches, route-check, IP039, GDT835/995/883 followups, primary835/995/883/609 reports and the targeted IP039 backlog passage. No empty search or unreviewed status was treated as evidence of novelty or absent execution.",
+    "next_decision": "Retain one raw complete writer for comparison, not an experimental selection. No new data access, native symbol fit, repetition census, greedy-search decoder or control-repair chain is requested. A future test requires a justified fixed correspondence and a genuinely decision-changing overlap case."
+  }
+}

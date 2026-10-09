@@ -1,0 +1,151 @@
+{
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": ""
+  },
+  "claim_ceiling": "Necessary capacity and explicit fixed-family score-change witnesses; no reference probability, native meaning or altered915/916decision.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1260_lr_line_margin_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1260_lr_line_margin_capacity/src/validate.py"
+  },
+  "created": "2026-10-07",
+  "dependencies": [
+    "GDT915",
+    "GDT916",
+    "GDT1078"
+  ],
+  "experiment_id": "GDT1260",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/SPEC.json",
+      "sha256": "2ee906757f41cf270077b1e10a2d66daf38dbf69bcaaf76fe2e861fba18df6fd",
+      "role": "fixed parent source or source-free graph proof"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/src/run.py",
+      "sha256": "c2d2d8203423139aecd991a87155f472188224b46a0b9d8175d41e7bdfc3e7b6",
+      "role": "fixed parent source or source-free graph proof"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/CANDIDATES.json",
+      "sha256": "910d10010e4d55c8ba1328c60c3192a3680ba0fdb46ef94c4783d7141a9f961b",
+      "role": "fixed parent source or source-free graph proof"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/RESULT.json",
+      "sha256": "91638317f87b08fe0a8a576216a504b682cf2bfd77884ba5f699d78a7f9b165b",
+      "role": "fixed parent source or source-free graph proof"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "fixed parent source or source-free graph proof"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "fixed parent source or source-free graph proof"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "fixed parent source or source-free graph proof"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RL_DOUBLE_MARGIN_CYCLE_CAPACITY_PROOF_REVIEW_20261007.json",
+      "sha256": "2da5c6d49c236ea4d80653a08b197f93370dee2d95bbbb047d4695227a05fbc7",
+      "role": "fixed parent source or source-free graph proof"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/METHOD.md",
+      "sha256": "209e8adb89fcdbc5250c9ea4586e1af2955c3054a5ccef46b8bffc37ae7e8a0a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/PREREGISTRATION.md",
+      "sha256": "209e8adb89fcdbc5250c9ea4586e1af2955c3054a5ccef46b8bffc37ae7e8a0a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/README.md",
+      "sha256": "0fed97163c02c89d4a36e3f4b3cb8fa3e1fc044920121e3b4d6831ee33ad3bac",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/REPORT.md",
+      "sha256": "03414219d420b6a2c284583e35f7b7c2eb1e8bdf79975b7663cb044d8893918d",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/IDEA_REVIEW.json",
+      "sha256": "b67e546001c671e6def7ebc80a8f766bc0a959bbb01a00590a309b7aa9445962",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/PAIRS.json",
+      "sha256": "939b991a7f2d2b22e987954c84f0c6ee1117dac40ce971b781ddd23a36473f86",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/RESULT.json",
+      "sha256": "814829781bfbc3a5fb28d95d6fd60a33b8ac7347fb19c1e1ffd94147395e5eb3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/TOKENS.json",
+      "sha256": "654a981d6c01e5f4ba4365d607379fd8f331a269eca5923695be27aaef1a11e1",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/VALIDATION.json",
+      "sha256": "893fccf7f757f7b413622541bca3cc3bf1f025c61ac3a544dfe9c10a500309f3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/WITNESSES.json",
+      "sha256": "2ec7c2fc046f0cbfc7d8e4a3b7e88d50a2a654df247de2e4e92bda1347983aa7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/src/REGISTRATION_LOCK.json",
+      "sha256": "8aeee00855f813fe01a41ddeb04349a1a549a28ae940caaffc6d1df0c019a915",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/src/SPEC.json",
+      "sha256": "ede1cfd9b0c84a4a717a3f24638de3d17b917f9418284739d29b1f80cecbc06b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/src/run.py",
+      "sha256": "3122f3673683d0ff6a8db5ec1c7941f9e1188204bb7bda2ad1f56dadd16d1e78",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1260_lr_line_margin_capacity/src/validate.py",
+      "sha256": "877c65ac7699cd8330b29db89f4ec916b53d99a4662cee3df883cf1f7111d0a4",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Does the old915known-phrase panel retain mobility when line ending counts and oldleaf/stem/position counts are jointly preserved?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "lr_line_margin_capacity",
+  "status": "WITNESSED_SCORE_CAPACITY",
+  "title": "Exact r/l line and stem margin capacity",
+  "updated": "2026-10-07",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1260_lr_line_margin_capacity/artifacts/VALIDATION.json"
+  }
+}

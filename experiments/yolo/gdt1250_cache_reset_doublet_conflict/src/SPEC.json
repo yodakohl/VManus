@@ -1,0 +1,38 @@
+{
+  "id": "GDT1250",
+  "registered_utc": "2026-10-07T07:43:37.857065+00:00",
+  "inputs": {
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be",
+    "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARD.json": "d6d3b2adc536fea7ed700f48d6417694c0d8e81928ff1c2c9aada998f7fa7656",
+    "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+  },
+  "readers": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "metadata_columns": [
+    "edition",
+    "page",
+    "locus",
+    "kind",
+    "source_group_index",
+    "paragraph_start"
+  ],
+  "primary": "ZL3b; IT/RF separate sensitivities, not pooled or independent",
+  "contract": [
+    "Every source word produces one complete written group.",
+    "Global injective literal encoding and globally DISJOINT literal/reference written forms.",
+    "Every missing word is written literally and inserted, retained until next token; every cached word MUST be a reference.",
+    "Cache may have any capacity and update policy preserving immediate retention.",
+    "Every consensus-marked prose paragraph begins with an EMPTY cache, no hidden preamble or inherited dictionary.",
+    "No unprinted reset occurs inside a physical source line."
+  ],
+  "selection": "All cached P lines; exact lowercase a-z groups only. Doublet requires both equal groups strictly interior, consecutive indices, both sides DEFINITE_SPACE on pair and external seams including actual adjacent groups. Start requires index1, LINE_START, right DEFINITE_SPACE or LINE_END. Consensus start: ZL and IT P first rows both paragraph_start=1; apply same locus to each reader. No RF own flag.",
+  "decision": "Per reader any intersection of strict-doublet types and consensus paragraph-initial types contradicts this contract for every cache size. Empty intersection is only NO_COUNTERCASE, no support. Empty source populations =>NO_CAPACITY.",
+  "witness": "All doublet/start occurrences retained as IDs; per conflicting type first lexicographic start and doublet displayed with complete original line rows.",
+  "scope": "Existing179selectors, guarded metadata only, no new words, images, f84/f84r/f116v or reserve. No meaning, significance or global cache exclusion.",
+  "budget": "25minutes inclusive implementation, validation and local closure; no repairs or geometry.",
+  "distinction": "Old58/50/36bound permitted literal/reference overlap and did not use empty paragraph starts. This test adds explicit disjoint modes plus reset and can reject all capacities. No change to old theorem/decisions."
+}

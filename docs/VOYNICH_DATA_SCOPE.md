@@ -21,6 +21,10 @@ frühere Einzelverträge bleiben unverändert.
 
 | Zulassung | Vertrag |
 |---|---|
+| GDT1298: f103r.46/.53 repetition premises | [Prospective scope](103r.md) |
+| GDT1294: f82v.12, three qoky seams | [Prospective scope](82v.md) |
+| GDT1292: f99v upper hole, ink/edge timing only | [Prospective scope](99v.md) |
+| GDT1291: f8r.4, selected writing gap | [Prospective scope](f8r4_scope.md) |
 | GDT791: ursprüngliche 30 Schlüssel / 35 Selektoren | [PAGE_SELECTOR_SPECS](../experiments/yolo/gdt791_thirty_page_visual_owner_spine/src/PAGE_SELECTOR_SPECS.tsv) |
 | GDT812: f21r/f32v/f100v/f101r | [PAGE_ADMISSIONS](../experiments/yolo/gdt812_additional_page_semantic_bridge/src/PAGE_ADMISSIONS.tsv) |
 | GDT844: f6v/f9v | [PAGE_ADMISSIONS](../experiments/yolo/gdt844_ychor_visual_subentry/src/PAGE_ADMISSIONS.tsv) |

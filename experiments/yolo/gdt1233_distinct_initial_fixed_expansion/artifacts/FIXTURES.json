@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-06T11:48:44.090782+00:00",
+  "binary_word_sets": 469,
+  "all_binary_codebooks_per_set": 49,
+  "positive_sets": 164,
+  "negative_sets": 305,
+  "named": {
+    "positive": {
+      "status": "NONTRIVIAL",
+      "certificate": {
+        "kind": "branch",
+        "head": "a",
+        "options": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a"
+          ]
+        ],
+        "children": [
+          {
+            "code": [
+              "a",
+              "b"
+            ],
+            "node": {
+              "kind": "branch",
+              "head": "b",
+              "options": [
+                [
+                  "b",
+                  "b"
+                ],
+                [
+                  "b"
+                ]
+              ],
+              "children": [
+                {
+                  "code": [
+                    "b",
+                    "b"
+                  ],
+                  "node": {
+                    "kind": "positive",
+                    "used_heads": [
+                      "a",
+                      "b"
+                    ],
+                    "longer_used_heads": [
+                      "a",
+                      "b"
+                    ]
+                  }
+                }
+              ],
+              "search_status": "NONTRIVIAL"
+            }
+          }
+        ],
+        "search_status": "NONTRIVIAL"
+      },
+      "witness": {
+        "a": [
+          "a",
+          "b"
+        ],
+        "b": [
+          "b",
+          "b"
+        ]
+      },
+      "statistics": {
+        "nodes": 3,
+        "contradictions": 0,
+        "identity_leaves": 0,
+        "positive_leaves": 1,
+        "max_depth": 2
+      }
+    },
+    "parity": {
+      "status": "ALL_USED_CODES_SINGLETON",
+      "certificate": {
+        "kind": "branch",
+        "head": "b",
+        "options": [
+          [
+            "b"
+          ]
+        ],
+        "children": [
+          {
+            "code": [
+              "b"
+            ],
+            "node": {
+              "kind": "branch",
+              "head": "a",
+              "options": [
+                [
+                  "a",
+                  "a"
+                ],
+                [
+                  "a"
+                ]
+              ],
+              "children": [
+                {
+                  "code": [
+                    "a",
+                    "a"
+                  ],
+                  "node": {
+                    "kind": "conflict",
+                    "word_id": "1",
+                    "offset": 2,
+                    "head": "a",
+                    "code": [
+                      "a",
+                      "a"
+                    ],
+                    "remainder": [
+                      "a"
+                    ]
+                  }
+                },
+                {
+                  "code": [
+                    "a"
+                  ],
+                  "node": {
+                    "kind": "identity_only",
+                    "used_heads": [
+                      "a",
+                      "b"
+                    ]
+                  }
+                }
+              ],
+              "search_status": "NEGATIVE"
+            }
+          }
+        ],
+        "search_status": "NEGATIVE"
+      },
+      "witness": null,
+      "statistics": {
+        "nodes": 4,
+        "contradictions": 1,
+        "identity_leaves": 1,
+        "positive_leaves": 0,
+        "max_depth": 2
+      }
+    }
+  },
+  "native_data_read": false
+}

@@ -1,0 +1,45 @@
+{
+  "title": "RAW INCOMPLETE: repeated-label state walk carries source characters through local branch choices",
+  "scope": "method",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. Replace whole-word ordinal lookup by a continuous source-character channel. One fixed circular chart may repeat visible working signs at different internal positions; a reader tracks the exact position, not merely the last visible sign. A two-step local-rank rule carries one of24source symbols. This retains a concrete invertible kernel while leaving the actual chart, layout and source contract uninstantiated. It is related to960, not a claim that graphical path coding itself is new.",
+  "design": {
+    "stage": "Raw incomplete research candidate; retention is not gate approval or a complete native writer.",
+    "core_contract": [
+      "Choose one finite circular chart W over the existing22working-unit labels, each label represented at least once. Labels may repeat at different positions. Fix a public initial pointer. This chart is still MISSING, not fitted here.",
+      "At pointer p, traverse W clockwise starting at p and list the first occurrences of distinct visible labels. To encode source index v in0..23, split v=4a+b with a in0..5 and b in0..3. Move to the a-th entry of the first-six distinct-label list and emit its label. From that position move to the b-th entry of the first-four distinct-label list and emit its label. Indices are zero-based; staying at the current position is allowed.",
+      "Decoder retains pointer and first/second phase. Each selected list has distinct labels, so each emitted sign determines its branch rank and the exact destination occurrence. Two ranks recover v. Repeated visible labels at other chart positions are not globally merged.",
+      "A possible source alphabet is22base letters plus explicit space and source-paragraph separator. This is an abstract possibility, not selection of a language or a new source. Source separators must be encoded; display spaces/line breaks can then be separately specified and ignored by the character decoder.",
+      "The kernel emits exactly2working units per source symbol. Actual message starts/ends, incomplete physical excerpts, glyph rendering and a fixed display-grouping rule still need a paid full contract. No padding, null or hidden reset is silently supplied."
+    ],
+    "why_consider": "Known repeated components and strong within-word dependence motivate a constrained local transition channel. Many active glyphs can coexist with restricted next choices. This is a possible production explanation, not native evidence for a chart, hidden state or source value.",
+    "difference_from_priors": [
+      "960encodes fixed whole-word indices through an end-aware graph and retains whole-word equality statistics. This proposal instead encodes source characters and explicit separators continuously, using repeated chart labels and a hidden position; display groups need not correspond to source words. The changed information unit and state binding are substantive, but novelty has only a bounded preliminary screen.",
+      "1217writes one difference from the previous decoded unit on a one-to-one ring;1268writes differences from a previous-word buffer. Here source values select short local paths and emitted signs are chart labels; neither old rule is rerun.",
+      "1269bounds a small GLOBAL fixed pair dictionary with at most one singleton control. Here the same source value may have different pair spellings at different chart states, so a chart must explicitly pay those states. This is not evidence that its state/entropy/word statistics will pass.",
+      "1229wordbook hand-readability and failed fixed-source entropies remain; no larger wordbook, rotor or retuned source is commissioned."
+    ],
+    "preselection_requirements": [
+      "Freeze an actual finite chart, state count, source alphabet/order, reset/end convention and physical grouping before scoring. Charge all repeated positions, branch tables and layout decisions; small verbal rules do not make the chart free.",
+      "Check retained qetchar qe, qokdy/okdy zero-e+d, daldy/daldaldy reading disagreements and actual repetitions before a large implementation. Do not build a literal exceptionless q-to-o edge.",
+      "First test the proposed chart on previously exposed contiguous snippets allowing only explicitly paid unknown entry states/phases. An impossible whole snippet rejects THAT chart; no post-result chart edits or state enlargement.",
+      "Only after a complete meaningful source/inverse exists can the frozen full distribution screen be selected. A reversibility demonstration or admissible graph walk is not a statistical fit or a translation."
+    ],
+    "unresolved": [
+      "actual W and state budget",
+      "source and explicit source-symbol values",
+      "physical grouping and reset signalling",
+      "global compatibility with retained whole forms",
+      "word-frequency and q/y/entropy constraints",
+      "historical plausibility beyond an invented executable mechanism"
+    ],
+    "primary_pointers": [
+      "research_registry/proposals/production_origin_supply_20261003/HUMAN_END_OPTION_WORD_INDEX_PATH_RAW_20261006.json",
+      "experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md",
+      "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md",
+      "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md",
+      "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md"
+    ],
+    "native_meanings_assigned": 0,
+    "new_data_or_scores": false
+  }
+}

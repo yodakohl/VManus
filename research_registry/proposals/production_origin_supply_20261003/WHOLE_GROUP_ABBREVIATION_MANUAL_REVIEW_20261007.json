@@ -1,0 +1,67 @@
+{
+  "status": "MANUAL_CONSTRUCTIVE_INVERSE_SUPPORTED_NOT_NATIVE_SELECTED",
+  "idea": "IDEA000974",
+  "proposal": "research_registry/proposals/production_origin_supply_20261003/WHOLE_GROUP_ABBREVIATION_UNARY_QUOTE_RAW_20261007.json",
+  "proposal_sha256": "5b69c268d84f8d61241619553f11df0083dcc5a000f088d7177433f84a61e156",
+  "configuration": "TeachingSigmaA/B/C withA->u,B->v,C->w;reservedu expandsBC. These are abstract teaching drawings, not native glyph values.",
+  "manual_examples": [
+    {
+      "source": "A",
+      "written": "uu",
+      "readback": "A",
+      "case": "quoted singleton"
+    },
+    {
+      "source": "AA",
+      "written": "uuu",
+      "readback": "AA",
+      "case": "quoted unary run"
+    },
+    {
+      "source": "BCA",
+      "written": "vwu",
+      "readback": "BCA",
+      "case": "reserved sign embedded as ordinary letter"
+    },
+    {
+      "source": "BC",
+      "written": "u",
+      "readback": "BC",
+      "case": "wholeword shorthand"
+    },
+    {
+      "source": "C",
+      "written": "w",
+      "readback": "C",
+      "case": "unreserved singleton"
+    },
+    {
+      "source": "CC",
+      "written": "ww",
+      "readback": "CC",
+      "case": "unreserved unary word"
+    },
+    {
+      "source": "BCBC",
+      "written": "vwvw",
+      "readback": "BCBC",
+      "case": "not two separate words, and not shortcutBC"
+    }
+  ],
+  "mandatory_rejection": {
+    "written": "vw",
+    "literal_expansion": "BC",
+    "reason": "BCmustuseu; rejectnoncanonical spelling rather than inventing a second meaning."
+  },
+  "proof_review": "The four disjoint classes in the RAW inverse proof exhaust nonempty sourcewords. Nonunary shortcutwords cannot collide with quoted unary sourcewords. Literal bijection preserves unary/nonunary distinction; canonical re-encoding removes spelled-out shortcut images. Manual reasoning, not executed corpus or finite software test.",
+  "positive": "A complete group-dependent L/Wrole switch can reuse drawings without deleting arbitrary one-letter sourceinputs or adding an escape sign.",
+  "limits": [
+    "No native L/Dmap, source language, full historical alphabet or actual word meaning is supplied.",
+    "Unknown words are covered only within the declared finite sourcealphabet; punctuation/digits must be counted there.",
+    "Finite-page long-word continuation is not supplied; complete groups must fit the chosen teaching surface.",
+    "A free shortcutdictionary can avoid any finite outputpanel, so coverability does not identify the design.",
+    "Deterministic wordwise bijection keeps source frequencies unchanged; fixed1202/1226source failures remain.",
+    "This does not select a marker interpretation for adjacentd/sorresolveo/lspaces."
+  ],
+  "decision": "Retain supported_limited source-channel construction; no native/corpus implementation or key search."
+}

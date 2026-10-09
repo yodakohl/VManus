@@ -1,0 +1,97 @@
+{
+  "status": "SOURCE_FREE_TWO_SIDED_INFERENCE_VALID_NO_CARDINALITY_CAP",
+  "ownership": "Root proposed the intersected residual inference. bounded_idea_supply checked the proof, one-sided counterexamples, finite closure and prior limits without native payloads or new counts. The mathematical principle is not claimed as globally novel.",
+  "premises": "C is a fixed freely uniquely decodable set of nonempty words over a fixed working-unit alphabet. Let M=C*. The complete original word strings W are contained in M. This means uniqueness of codeword factorization for ALL finite C-concatenations, not just for a selected natural-language grammar. No prefix or suffix freedom and no bound on |C| are assumed.",
+  "lemma": "If x,xy,yz,z all belong to M, then y belongs to M.",
+  "proof": [
+    "Choose C-parses A of x, B of xy, D of yz and E of z. Then the concatenated codeword lists A followed by D and B followed by E both spell the same visible word xyz.",
+    "Free unique decodability forces these two lists to be identical. Both A and B are therefore prefixes of that same codeword list.",
+    "Because codewords are nonempty and |xy|>=|x|, B cannot be a strictly shorter list prefix than A. Hence B=A followed by a codeword list F (empty only if y is empty).",
+    "Cancelling the visible prefix x from spell(B)=xy=spell(A)spell(F) gives spell(F)=y. Thus y is in C*. This proves the inference without requiring either one-sided quotient rule."
+  ],
+  "finite_rule": {
+    "initial_set": "S begins with the finite original complete word set W. Derived strings are obligations in C*, not new attested manuscript words.",
+    "suffix_residuals": "R(S)={y nonempty: there exists nonempty x with x and xy in S}.",
+    "prefix_residuals": "L(S)={y nonempty: there exists nonempty z with yz and z in S}.",
+    "update": "Add every member of R(S) intersection L(S), retaining one explicit pair of witnesses from each side. Repeat until no new string is added.",
+    "soundness": "Induction on additions uses the lemma: every premise is already certified in C*, so each inferred center is also in C*.",
+    "finiteness": "Every new center is a proper nonempty suffix and prefix of already present strings, hence a contiguous working-unit substring of an original word. The finite union of original-word substrings bounds the universe; no unbounded concatenation enumeration is needed.",
+    "certificate": "For each addition y store four earlier node IDs witnessing x,xy,yz,z. Check exact tuple equalities xy=x+y and yz=y+z, nonempty operands and strict earlier indices. This makes the proof DAG acyclic. Do not infer y from a witness which depends on that same not-yet-certified y.",
+    "scope": "A fixed point is closure under this stated finite inference system. It is not automatically the complete free hull, a complete characterization of every freelyUDcover, or proof that an unforced unit can be omitted by some UDtable."
+  },
+  "synthetic_control_cases": [
+    {
+      "case": "right residual alone is invalid for generalUD",
+      "code": ["a", "ab"],
+      "facts": "This code is suffix-free and therefore UD. a and ab are in M, but b is not. A rule adding every y from x,xy alone would be unsound."
+    },
+    {
+      "case": "left residual alone is invalid for generalUD",
+      "code": ["a", "ba"],
+      "facts": "This code is prefix-free and therefore UD. ba and a are in M, but b is not. A rule adding every y from yz,z alone would be unsound."
+    },
+    {
+      "case": "two-sided singleton inference",
+      "initial_words": ["a", "ab", "bc", "c"],
+      "required_inference": "b, using x=a,y=b,z=c. The singleton alphabet {a,b,c} supplies a positive UDcover. Every freelyUDcover of these four words must include singleton b."
+    },
+    {
+      "case": "a composite center is only a code-sequence obligation",
+      "initial_words": ["a", "abc", "bcd", "d"],
+      "positive_code": ["a", "bc", "d"],
+      "required_inference": "bc is in M. This example does not force b or c individually; the displayed prefix-free cover omits both singleton codes."
+    },
+    {
+      "case": "genuinely neither-prefix-nor-suffix UD fixture",
+      "code_and_initial_words": ["0", "01", "110"],
+      "facts": "0 prefixes01 and suffixes110, so neither instantaneous direction applies. The ordinary UDresidual test has residual stages {1}, then{10}, then empty, with no empty residual; hence the code is UD. The two-sided closure of these three seeds must not force1, which is not in C*. A one-sided implementation would make a false inference."
+    },
+    {
+      "case": "free UD is essential",
+      "code": ["a", "ab", "bc", "c"],
+      "facts": "The four premises a,ab,bc,c are individual codewords, but b is not in C*. This code is NOT UD: [a,bc] and[ab,c] both spell abc. A grammar can forbid one concatenation or permit only one codeword per source word, but that does not turn this into a freelyUDtable. The proposed inference may not be imposed on such a restricted writer."
+    }
+  ],
+  "singleton_and_expansion_consequence": [
+    "If an inferred obligation is exactly one working unit g, then g itself must be a codeword: a nonempty length1string cannot be a concatenation of two nonempty codewords.",
+    "If all active alphabet singletons were forced, any additional longer codeword would collide with its singleton factorization. Only the singleton identity table could then be freelyUD. This is a general conditional theorem, NOT an unknown outcome on the present full W because of the explicit countermodels below.",
+    "If k,e,s are forced specifically, freeUDmakes the factorization of the known whole keeees exactly k|e|e|e|e|s. Under one fixed NONEMPTY literal source-string expansion per codeword, the decoded source word must contain X U^4 Y with X,U,Y nonempty.",
+    "That expansion implication has no prefix/suffix/cardinality premise beyond the proved singleton obligations and freeUD. It still requires fixed non-erasing literal expansion, exact whole-group/source-word correspondence and the retained working-unit reading. Contextual meanings, null expansions or changed groups are outside it."
+  ],
+  "known_countermodels_for_the_actual_W": {
+    "primary": "experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md",
+    "cfh": "The existing complete27-entry prefix-free cfh-pair table covers exactly W and omits singleton cfh. It is a freelyUDcover, so no sound universal-UD inference on that same W can force singleton cfh.",
+    "cph": "The separate complete27-entry cph-pair table similarly forbids a universal inference of singleton cph.",
+    "q": "The existing complete q-pair tables of32/33entries omit singleton q. The new question has no table-size cap, so these too are admissible freelyUDcountermodels and prohibit a universal inference of singleton q.",
+    "algorithm_guard": "An implementation claiming all22singletons, or any of cfh/cph/q, under these unchanged inputs contradicts the retained complete covers. Treat that as an input/proof/implementation inconsistency, not a new discovery defeating1248. The remaining potential k/e/s consequence is a genuinely separate question."
+  },
+  "predecessor_scope": [
+    {
+      "id": "GDT1235",
+      "primary": "experiments/yolo/gdt1235_ud_short_word_capacity/METHOD.md",
+      "difference": "1235uses mandatory one/two-unit subcodes, UDtesting of those subcodes and head-branch cardinality bounds. It does not provide the present no-cap intersection of two quotient witness pairs. Its necessity-only decisions remain."
+    },
+    {
+      "id": "GDT1241 / GDT1234",
+      "primary": "experiments/yolo/gdt1241_suffix_quotient_expansion/REPORT.md",
+      "difference": "1241uses one-sided right cancellation under SUFFIX freedom;1234uses the other one-sided cancellation under PREFIX freedom. Neither permits taking a one-sided residual under arbitrary UD. The new two-sided proof explicitly needs both witnessed contexts."
+    },
+    {
+      "id": "NON_UD22defect consequence",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/NON_UD22_DEFECT_CONSEQUENCE_20261006.json",
+      "difference": "Its conclusion for grammar-assisted ambiguous tables depends on the at-most22code-entry cap plus an auxiliary smallerUDcover. It is not a no-cap obligation that all such ambiguous tables obey this new singleton inference. Its earlier exact scope remains unchanged."
+    },
+    {
+      "id": "GDT1253 / GDT1201 / GDT856",
+      "difference": "Canonical grammar-restricted decoding and confluent multiple analyses are distinct from free unique decodability. The new proof does not reopen or refute those constructions and does not convert their context rules into freelyUDcodes."
+    }
+  ],
+  "implementation_warnings": [
+    "All strings and cuts are tuples of the declared working units. Do not take an ASCII substring inside a multi-letter label such as ch or cfh.",
+    "Retain all original whole-form boundaries and alternative readings separately. A derived obligation is not a separately observed lexical form or an assigned native letter.",
+    "Acyclic certificates establish sound deductions. Any runtime or universe limit which interrupts saturation yields a partial necessary closure, not a completed fixed point or a contrary code witness.",
+    "No inferred singleton or source-envelope extension is reported before the actual closure is independently verified. No new source text, label values or interpretation is supplied here."
+  ],
+  "bounded_duplicate_verdict": "The inspected1235method,1241report, retained nonUD22proof and bounded route search concern related but different deductions. No identical executed no-cap two-sided closure was established in that review; no exhaustive absence or global mathematical novelty is claimed.",
+  "actions": "No native/source payload, image, code table fitting, closure computation, synthetic program, count, registry mutation or new RAWcard. Synthetic cases above are hand-worked proof controls for root's separately selected implementation."
+}

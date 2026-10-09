@@ -1,0 +1,112 @@
+{
+  "title": "One complete canonical absolute SET patch per written group: repeated-group obligation",
+  "status": "ANALYTIC_CONTRACT_NOTE_NOT_A_NEW_SELECTED_WRITER",
+  "recorded_utc": "2026-10-06T00:52:27Z",
+  "ownership": "The one-group proposal was suggested by root. The bounded producer derived this necessary consequence and checked the named predecessors. No independent native observation, source encoding or experiment was performed.",
+  "purpose": "Preserve a concrete countercase before building another renderer or counting a source. The transition and canonical-writing rules below are complete at the abstract record level. A practical22-working-sign serialization is neither supplied nor claimed; the implication holds for every fixed carrier satisfying the stated premises.",
+  "contract": {
+    "input_domain": "A sequence of complete records over a fixed ordered list of fields. The seven1174 fields are one possible domain, but the proof does not depend on their names, value counts or subject matter. Every semantically distinguished value is explicit in its field. This is not a grammar for unrestricted historical prose.",
+    "open_values": "A field may contain an unfamiliar, completely written literal name or expression. Its exact boundary and spelling must be paid in the carrier. The ordinary source-language meaning of that expression is not learned from this notation. Negation, an unresolved reference, a condition or a scope distinction must remain explicit inside a supported value or an independently declared field; it cannot be silently inferred. Enlarging this domain is not an already completed full-text writer.",
+    "state": "Remember the previous complete record s, including every compared field value. At an explicitly visible paragraph beginning the state is empty. Ordinary physical line wraps do not reset it. No implicit reset may be inserted between adjacent groups.",
+    "initial_record": "At an empty state write SET for every field exactly once in fixed field order, with its complete absolute value. The new state is that full record. A REPEAT before this initialization is illegal.",
+    "later_record": "For intended next record t, form D(s,t) from exactly those fields j with t[j] different from s[j]. Write each such field once, in fixed field order, with its full absolute t[j]. Omit every unchanged field. If D is empty, emit the one canonical REPEAT code instead. Redundant SETs are not legal writer outputs.",
+    "grouping": "Exactly one complete D(s,t), or one REPEAT, occupies one written group. A group cannot contain two records, two separate sequential patches or an unmarked reset. Outer spaces are group boundaries, not inferred field boundaries.",
+    "carrier": "One globally fixed, state-independent uniquely readable serialization maps the complete ordered patch to its group spelling. Different patches have different spellings. REPEAT has exactly one nonempty spelling distinct from every nonempty patch. One working sign for REPEAT is allowed but not needed by the proof. There are no state-dependent whole-group meanings, spelling aliases or free fields.",
+    "reader": "Parse the complete group into its one absolute patch. Copy s, replace the explicitly named fields, and return the resulting complete next record. Check that every listed field actually changed; otherwise reject it as a noncanonical written output. REPEAT copies the full previous record and still returns another instruction occurrence.",
+    "portion_policy": "If every record instructs a new portion, executing the returned record creates a new instruction occurrence for that portion. The compared specification fields remain the same when their values are identical. A fresh hidden portion identifier cannot be added to the comparison state to evade the consequence; a declared and paid extra field would be a different contract.",
+    "human_cost": "The reader and writer keep one complete previous record, not merely one bit. The writer compares every field, then writes all changed values and their field identities. Long unfamiliar names remain long when they change. A full literal alphabet, field markers, value boundaries, the reset convention and REPEAT all require a teachable paid representation; this note does not disguise these costs as an existing22-sign writer."
+  },
+  "proof": [
+    "Let a nonempty parsed patch U list distinct fields j and fixed absolute values v[j]. Its transition T_U sets those fields to v[j] and leaves all others unchanged.",
+    "For any state on which it is defined, T_U(T_U(s)) equals T_U(s). This is idempotence of the stored specification, not a claim that repeating the physical instruction has no effect.",
+    "After a first canonical occurrence of U, all its fields already have their listed values. A second identical group must parse to that same U under the global carrier. Its listed SETs therefore change no field and violate the canonical writing rule.",
+    "If the next intended record equals the first result, its only canonical output is REPEAT. If it differs, its canonical patch must change something and cannot be U, since U changes nothing from that state.",
+    "Thus an immediate pair of identical whole groups inside an uninterrupted state span can only be REPEAT followed by REPEAT. Globally there is at most one distinct group spelling capable of such an adjacent doublet.",
+    "Two different exact whole-group spellings, each occurring in an immediate doublet within its own uninterrupted state span, contradict this contract. This implication requires no individual native-sign decomposition and no word meaning."
+  ],
+  "invented_example": {
+    "notice": "Metanotation only; these labels and values have no Voynich assignment and are not a proposed glyph table.",
+    "fields": ["name", "operation", "amount"],
+    "source_records": [
+      ["nara", "heat", "one"],
+      ["nara", "heat", "two"],
+      ["nara", "heat", "two"],
+      ["nara", "heat", "two"],
+      ["nara", "heat", "one"]
+    ],
+    "abstract_groups": [
+      "SET(name=nara;operation=heat;amount=one)",
+      "SET(amount=two)",
+      "REPEAT",
+      "REPEAT",
+      "SET(amount=one)"
+    ],
+    "invalid_doublet": "SET(amount=two) SET(amount=two) is not the canonical representation of the second and third records. The second SET is redundant. Writing a new portion does not alter this fact about the compared amount field."
+  },
+  "sharp_limits": [
+    "Both members of each putative doublet must lie in one reset span. An explicitly visible reset between them is a real exception, not freely inferred from a desired reading.",
+    "The proof concerns one complete patch per whole group. It does not follow from an arbitrary repeated substring or a group containing part of a record.",
+    "Two records per group defeat this particular implication: starting with x=B, a group that contains SET(x=A) then SET(x=B) can repeat canonically. This explains why the full1-or2-record contract of GDT1005 is not closed wholesale by this lemma.",
+    "If redundant absolute SETs are permitted as noncanonical variants, the decoder remains meaningful but the required writer rule has changed. Idempotence alone does not prohibit repeatedly stating the same setting.",
+    "If one written group means different absolute values in different states, or several spellings are allowed for REPEAT, the fixed-carrier or single-REPEAT premise has changed.",
+    "Relative increments, additions, toggles, arbitrary programs and hidden occurrence counters are outside this contract. No such repair is proposed here.",
+    "There is no inference that any Voynich form means REPEAT, SET, an instruction or a portion. Native use also needs the whole-group/whole-record and reset-span assumptions to be adopted explicitly."
+  ],
+  "prior_native_evidence_boundary": {
+    "existing_primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA927_REVIEW_20261005.json",
+    "pointer": "Its reason field retains the GDT851 doublet anchors qokedy/qokedy at f108r.26 G7-8, chedy/chedy at f106r.2 G9-10 and daiin/daiin at f115r.17 G4-5, with the stated reader and seam qualifications. Those are old findings, not observations made here.",
+    "parent_scope": "Root additionally retains whole ol and qualified chedy evidence. This note neither opens new source rows nor selects a new count or image test. Each reader and each boundary qualification must remain separate in any root application.",
+    "difference_from927": "IDEA927's maximal-prefix proof constrained the initial header of a repeated output. This patch proof constrains the entire repeated group to one REPEAT spelling, independently of individual sign identities. It still depends on the complete-group and reset contract."
+  },
+  "predecessors": [
+    {
+      "id": "GDT1174_model8",
+      "primary": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/METHOD.md",
+      "lines": "151-164",
+      "claim": "It already writes only changed absolute fields, keeps the prior complete record and gives an unchanged new portion a paid CLOSE. Each changed field is a separate role-marked word and CLOSE is another word; it is not one entire patch per group.",
+      "later_primary": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/REPORT.md",
+      "later_lines": "150-157",
+      "retained_stop": "The original fixed prototype failed its declared statistical screen. This note neither reruns it nor changes that decision."
+    },
+    {
+      "id": "GDT1005",
+      "primary": "experiments/yolo/gdt1005_cennini_lossless_context_records/METHOD.md",
+      "lines": "12-28",
+      "claim": "FULL/DELTA with a changed-field mask and complete absolute values is an earlier complete record writer. A group owns one or two whole records. The one-record case is the closest structural predecessor; merely placing all changed values in one group is not a new general idea.",
+      "later_primary": "experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md",
+      "later_lines": "28-45,63-72",
+      "retained_stop": "Its exact complete Cennini account and1-or2-record ownership failed necessary capacity. That source-specific failure is not a universal failure of every contextual writer. The present one-record idempotence implication was not asserted in the inspected METHOD/REPORT."
+    },
+    {
+      "id": "IDEA000441",
+      "primary": "research_registry/proposals/raw_cennini_sparse_state_delta_writer_20260920.json",
+      "claim": "The older guarded writer contains SET, REUSE, BRANCH, ADVANCE and EMIT with FIELD+OP+VALUE groups. It is broader than absolute canonical patches and cannot be declared refuted by this narrow lemma. Its source interpretation and unbound target fields remain assumptions."
+    },
+    {
+      "id": "GDT1008_followup",
+      "primary": "experiments/yolo/gdt1008_transport_complete_shared_lexicon/REPORT.md",
+      "lines": "55-76,103-108",
+      "claim": "The lookup chain after1005 moves to complete shared transport dictionaries; projected positives do not supply a complete common reading. These later decisions neither rescue the failed1005 writer nor establish the present delta mechanism."
+    },
+    {
+      "id": "GDT1175_followup",
+      "primary": "experiments/yolo/gdt1175_fixed_writer_b6_8_transfer/REPORT.md",
+      "lines": "3-15,37-43",
+      "claim": "Full literal retention can preserve unfamiliar expressions, but its declared spelling-cost failure remains. Carrying old fields does not make a newly changed open expression free."
+    },
+    {
+      "id": "GDT1210_followup",
+      "primary": "experiments/yolo/gdt1210_two_group_content_frequency/REPORT.md",
+      "lines": "23-40,44-61",
+      "claim": "The fixed two-group common-tuple writer failed on the unchanged artificial content. Its equality-frequency result does not test a delta writer, and the present note is not a repair of its grouping."
+    },
+    {
+      "id": "existing_schedule_overwrite_comparison",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/F38V_CHAIN_CONSTRUCTION.md",
+      "lines": "52-68",
+      "claim": "An earlier exploratory note already distinguishes successive portion allocation from an idempotent overwrite of one specification. It explicitly lacks an identified written consumer and supported meanings. That distinction is retained, not promoted to a translated schedule."
+    }
+  ],
+  "decision": "Do not add a supposedly new surviving writer card or build a22-sign table for this narrow contract. Preserve the source-free implication and let root decide the exact existing-boundary application. No relative-delta or alias repair follows automatically.",
+  "activity_limits": "Only route/topic, bounded registry navigation and named existing primary documents were read. No raw source/native query, image, count, encoding, experiment, source extension, additional agent, ledger/state/route edit or publication."
+}

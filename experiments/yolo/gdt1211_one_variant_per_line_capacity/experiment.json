@@ -1,0 +1,173 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed-source/projected-target necessary capacity only; no causal width or abbreviation claim, native meanings, full writer or general language rejection.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1211_one_variant_per_line_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1211_one_variant_per_line_capacity/src/validate.py"
+  },
+  "created": "2026-10-05",
+  "dependencies": [
+    "GDT1170",
+    "GDT1174",
+    "GDT1202",
+    "GDT801",
+    "GDT802"
+  ],
+  "experiment_id": "GDT1211",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/artifacts/FREQUENCIES.json",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "61f09129c84ec7fb866a65f0092759dfb07b31e78bf0c8cc35870a981fc96c3f"
+    },
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/artifacts/RESULT.json",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "ee399df2d5db46fc59f32e2d05050e63c7ac1145fee0c867c66a5f6974a0eba4"
+    },
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/run.py",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "fdc1bed937fb07ba0b5360fefecf3a59bad3daa49c4a5e1cc40c4c2bb12b5c8c"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/scribes.py",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "400daada5d4388bad1acaa11cf8add46457cbf5ffeb6cf1d62cdd0ffed4634e6"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db"
+    },
+    {
+      "path": "experiments/yolo/gdt801_terminal_lm_boundary_hierarchy_discriminator/REPORT.md",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "1256b13fb399ab212aa177e9f00a157197499deb464d9188dba0e6568806d458"
+    },
+    {
+      "path": "experiments/yolo/gdt802_masked_lm_neighbour_context_transfer/REPORT.md",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "ee90702db20bf4c46d350b57c1a3a02203fd9f6c197a416058d88d6ee3ff1917"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/successors/branch_choice_vs_line_remainder.json",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "1a08ece2ea8a6922276019ced8828ecc9907e978ffaab9e2927ff6bcf9c24d46"
+    },
+    {
+      "path": "docs/visual_overview/NEXT_STEP.md",
+      "role": "Frozen source, selection, summary or primary predecessor",
+      "sha256": "9b6a92926433d3e2cc56a88cddbfd5e7cfa44664426335f3dc48faa1058cfbc9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/METHOD.md",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "52d579a4422ef29355445fdc3c916e53715a8a2799bccb98c285d6d676e1ac3c"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/PREREGISTRATION.md",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "53a753b79e1ae37dbdcadb7945c2812226db98f251e12200f43633d22bc98da2"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/README.md",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "61fc27a2554e82b06faf1f51d4f10769883fc6e12576a7b327de09120c42b0b0"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/REPORT.md",
+      "role": "Primary report",
+      "sha256": "3126eb79bfd1ccdc7bd64a7330f2de574def716a1c6c4124e27e487129c4c1e2"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/README.md",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "85538e7e0b1c529872338834d5018e16093627492d15538c7d99b3a4203552ec"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/REGISTRATION_LOCK.json",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "b09ca8f3c6881b654c6500ba1c8182f50396d34a945ec2928576cc3a78090db3"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/REGISTRY_REVIEW.json",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "39046211cfe721b2792e0a9f25fa8a8c913c4984fe2d65bce61c322df7ec1341"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/RESULT.json",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "334b250506b90f9b74de8c1cec98e21c9cf0fb5c1b766ade699eb751794b33bc"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/RUN_RECEIPT.json",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "2796115b163a3f4ca94d42052e30c988c739c433e706584bfafc2b3f3009967b"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/TARGET_SAMPLE_IDS.json",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "c5b18b4903be1a45cd24e01bf399d7ced9e9634524e11ec1e191c58c84d78c99"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/VALIDATION.json",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "59117f042e9fd97abbd29d64a69cd50367e40f6307cdf112a7080476ffef6459"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/src/run.py",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "1d3cef726839646ddf1f39a7084564bd1c59876b52967f0a429a4852436bb37b"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/src/validate.py",
+      "role": "Specification, code, selection or result artifact",
+      "sha256": "22e3a26c27834971a51905590f07aec1bca348fa9e90c7373adb3439e8aac160"
+    }
+  ],
+  "question": "Can at most one altered whole-source-word position per touched target line meet the unchanged type and top-ten frequency bounds?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "one_variant_per_line_capacity",
+  "status": "ONE_VARIANT_PER_LINE_CAPACITY_EXCLUDED",
+  "title": "Necessary capacity of one variant word per line",
+  "updated": "2026-10-05",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/VALIDATION.json"
+  }
+}

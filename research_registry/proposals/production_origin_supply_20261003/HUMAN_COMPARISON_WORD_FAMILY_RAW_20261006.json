@@ -1,0 +1,141 @@
+{
+  "title": "RAW UNREVIEWED: productive comparison words with an explicit written standard and list-wide negation",
+  "summary": "A modern complete teaching notation for comparisons derives greater-than, less-than and equal-value predicates from an open learned scale root. One explicitly written reference serves a written participant list; optional negation has fixed scope over the entire conjunction. Operators and closures are attached to words. Twenty-two working drawings, exact literal names and paid line continuation are specified. Comparative semantics is an old idea; the new candidate is this complete, restricted physical hand contract, not a native interpretation or statistical success.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "source_status": "MODERN_INVENTED_TEACHING_NOTATION_NO_HISTORICAL_ATTESTATION",
+  "origin": "Producer's independent scalar-word sketch before targeted duplicate review. The root requested a different content/word-building mechanism, but did not supply this grammar, table or example.",
+  "design": {
+    "purpose": "Write a comparison catalogue without learning a different whole word for every scale/comparator combination. Preserve which named items are compared, the common reference and whether the whole listed claim is denied. A reader can revisit the written standard rather than guess an absolute threshold.",
+    "input_domain": "A finite nonempty ordered list of clauses. Each clause declares one already learned scalar function Q on a specified entity domain, one comparator from greater/less/equal, a nonempty ordered list of explicit referential terms, one explicit reference term, and positive or negative whole-clause polarity. All arguments must belong to Q's learned domain. Q has a fixed totally ordered value domain for the comparison; equality means equal Q-values, not object identity. Time, causation, commands, alternatives, measurements with numerical units, resemblance and open-world missing values are outside this restricted notation. No complete historical recipe or universal language coverage is claimed.",
+    "meaning": "For subjects s1,...,sn and reference b, the positive clause means the conjunction of Q(si) COMP Q(b) for i=1,...,n. A negative clause means NOT of that whole conjunction. It does not mean that every individual comparison is false. To deny each comparison separately, write separate negative clauses. Written clause and participant order are retained in the readback even where conjunction is logically order-insensitive.",
+    "learning": {
+      "scale_entry": "Learn an ordinary root, the function Q, its argument domain and its ordered range. Learning the spelling of an unknown scale name is not learning this meaning. Each new independent scale costs one genuine lexical/conceptual entry; the three comparisons and their negations then follow productively without six extra whole-word entries.",
+      "referential_entry": "A learned ordinary term has one declared referent. A literal name instead preserves an exact name string as a stable reference label; it does not teach the bearer's properties or imply that differently spelled names identify different entities. An ordinary taught name and its literal spelling co-refer only when the teaching lexicon explicitly says so.",
+      "no_hidden_interpretation": "No axis, reference, timestamp, participant, property value, lexical sense or threshold is supplied by unseen original text. A writer requiring an unlearned scale must teach its definition outside this already bounded message contract; an unsupported word does not silently acquire meaning.",
+      "cost": "Learn ten three-drawing controls, the22working shapes, the95-character literal formula and its21selectors, and every independent scale/reference root. The sample below teaches two scales and two reference roots. Aussprechbarkeit, normal-language vocabulary or shared professional knowledge is not counted as free evidence for the arbitrary root spellings."
+    },
+    "working_units": ["a","o","e","i","n","d","s","l","m","k","t","p","f","ch","sh","ckh","cth","cph","cfh","q","r","y"],
+    "unit_status": "These22labels denote22working drawings in the teaching convention, not an identified native alphabet. Multi-character labels such as ch are one drawing. Arrays below supply their segmentation; brackets, commas and quotation marks are display notation, not additional ink signs.",
+    "ordinary_roots": "Any nonempty finite sequence of working units without two consecutive r units may be an explicitly learned root. Its last unit may be r. A root can have any positive length and any terminal working unit; no three-unit interior alphabet or fixed root length is imposed. Root meaning is learned, never inferred by splitting an unlisted whole. Separate scale and referential lexical entries are type checked by their grammatical positions; there is no automatic nominalization of a predicate.",
+    "controls": {
+      "GREATER": ["r","r","a"],
+      "LESS": ["r","r","o"],
+      "EQUAL_VALUE": ["r","r","e"],
+      "NEGATE_WHOLE_LIST_CLAUSE": ["r","r","i"],
+      "STANDARD": ["r","r","n"],
+      "END_CLAUSE": ["r","r","d"],
+      "END_MESSAGE": ["r","r","s"],
+      "NAME_OPEN": ["r","r","p"],
+      "NAME_CLOSE": ["r","r","f"],
+      "CONTINUE_SAME_WORD": ["r","r","ch"]
+    },
+    "logical_grammar": [
+      "A clause is one predicate word, then at least one subject term word, then exactly one standard term word. Predicate = learned SCALE_ROOT + exactly one comparator control + optional NEGATE_WHOLE_LIST_CLAUSE. Subject = learned referential root or complete literal name, without added controls.",
+      "Standard word = a referential root or complete literal name + STANDARD + END_CLAUSE. Only the last clause also appends END_MESSAGE. No standalone grammatical-control word occurs in a logical message. A zero-subject clause, a second standard, an unattached control or a missing closure is malformed.",
+      "Read attached suffix controls from the RIGHT in their fixed grammatical order. A root ending in r followed by a control consequently causes three consecutive r units but is unambiguous: remove the complete final three-unit suffix, then retain the remaining root r. Leftmost-rr scanning is NOT the parser.",
+      "After suffix removal, every ordinary root must be nonempty and rr-free. The only other term form is the exact NAME_OPEN + payload + NAME_CLOSE construction. Controls have no optional spelling, no zero realization and no per-occurrence alias."
+    ],
+    "literal_names": {
+      "domain": "Any nonempty string of printable ASCII characters U+0020 through U+007E, including spaces and literal punctuation. Other characters are outside the declared teaching domain and cause explicit failure, never normalization or omission. This is an open name spelling domain, not support for arbitrary Unicode or all historical names.",
+      "selectors": ["a","o","e","i","n","d","s","l","m","k","t","p","f","ch","sh","ckh","cth","cph","cfh","q","y"],
+      "encode": "For each character c, j=its ASCII value minus32, write selectors[floor(j/21)] followed by selectors[j mod21]. Wrap the nonempty payload with NAME_OPEN and NAME_CLOSE in the same logical word. All spaces inside a name are encoded; none becomes an external written space.",
+      "decode": "Read exactly two non-r selectors at a time; j=21*first_index+second_index must be0..94. Recover the exact character U+0020+j. Payload contains no r, so it cannot contain an rr control. Odd payload length, an unused pair, empty payload or missing close is malformed.",
+      "cost": "A literal name of n characters costs2n+6working drawings before any standard/closure suffixes. This can be expensive. It is not a free noun ID, and an unfamiliar name supplies no previously unknown scale meaning."
+    },
+    "physical_writing": [
+      "One ordinary visible blank separates complete logical words. Ordinary physical line wraps and blank rows carry no sentence, reference or state-reset meaning. END_CLAUSE and END_MESSAGE remain written even at a line or page edge. No fixed cell raster or exceptional wide space is required.",
+      "Move a whole word to the next line when it fits there. For a word wider than the available writing line, cut it into nonempty fragments. At each break write fragment, one ordinary blank, CONTINUE_SAME_WORD at the old line end; begin the next line with CONTINUE_SAME_WORD, one blank, and the next fragment. Neither visible fragment may itself equal that three-unit continuation word. Single-unit fragments always make a legal fallback, provided the page has room for one unit, a blank and the three-unit marker.",
+      "Join marked fragments and remove both continuation words before the logical parse. A marker without its matching line-edge mate is an error. A bare line break without the pair is a normal interword wrap. A cut may fall within a control or a name-character pair because logical parsing occurs after joining. No original word length or private source boundary is used.",
+      "The same paired rule may cross a page turn, whose continuation marker must be visible. Each break adds six control drawings and two ordinary blanks, and introduces one pending-word state. No hyphen, punctuation sign or unprinted line reset is free."
+    ],
+    "hand_encode": [
+      "Choose the actually intended learned scale and comparison; write its root with the comparator and, only when the entire conjunction is denied, the negation suffix.",
+      "Write every subject term in its intended list order. Use taught ordinary reference words or fully spell the literal name; do not invent new short roots for an inconvenient message.",
+      "Write the explicit reference term with STANDARD and END_CLAUSE; attach END_MESSAGE to the final clause. Apply only the paid physical continuation when needed."
+    ],
+    "hand_decode": [
+      "First restore any explicitly continued words. Strip the comparator/optional negation from the predicate's right edge and retrieve its learned scale.",
+      "Find the clause's written final STANDARD+END_CLAUSE word, recover its reference, and then read the nonempty subject list. The reader may visibly look ahead and revisit the paper; no hidden original source or automatic memory of an unbounded list is supplied.",
+      "Form one comparison per subject against that written reference. Apply any NEGATE to the complete conjunction, not separately to each subject. Preserve every literal name, clause order and listed repetition in the readback. End only on the written final END_MESSAGE."
+    ],
+    "repetition": [
+      "Any ordinary term may occur immediately two, three or more times within the subject list. These are repeated assertions about the same named participant, not different physical objects, a number, an intensity or an instruction to remeasure. Logically repeated conjuncts can be redundant; they do not supply new facts.",
+      "The writer preserves an explicitly supplied list and may not insert or vary repetitions merely as padding. A list containing the same subject three times is syntactically legal, but this does not explain frequent native triples.",
+      "A doubled substring inside a lexical root has no automatic meaning. The notation does not identify ol, olol, daldy, daldaldy, qokedy or any native form. A whole repeated predicate in a subject slot remains illegal; arbitrary grammatical retyping is not allowed to save a counterexample."
+    ]
+  },
+  "open_teaching_example": {
+    "not_blinded": "This is a disclosed complete teaching message, not a source-held reading experiment. No separate challenge or expected-answer concealment was requested for this RAW.",
+    "learned_lexicon": [
+      {"root":["f","p","ch"],"type":"scale","meaning":"length of a named specimen in the shared ordered length scale"},
+      {"root":["k","t","sh"],"type":"scale","meaning":"temperature of a named specimen in the shared ordered temperature scale"},
+      {"root":["f","p","k"],"type":"referential","meaning":"the specimen with literal name Ada"},
+      {"root":["p","k","f"],"type":"referential","meaning":"the specimen with literal name Bela"}
+    ],
+    "intended_message": "Ada and Bela are each longer than Dora. It is not true that Ada and Bela are both warmer than Dora.",
+    "logical_words_as_working_unit_arrays": [
+      ["f","p","ch","r","r","a"],
+      ["f","p","k"],
+      ["p","k","f"],
+      ["r","r","p","o","ckh","i","cth","i","q","i","e","r","r","f","r","r","n","r","r","d"],
+      ["k","t","sh","r","r","a","r","r","i"],
+      ["f","p","k"],
+      ["p","k","f"],
+      ["r","r","p","o","ckh","i","cth","i","q","i","e","r","r","f","r","r","n","r","r","d","r","r","s"]
+    ],
+    "literal_name_hand_arithmetic": "Dora: ASCII-minus32 indices36,79,82,65; base21pairs(1,15),(3,16),(3,19),(3,2); payload[o,ckh,i,cth,i,q,i,e]. No encoder was run.",
+    "readback": "The first predicate is length+GREATER, followed by Ada and Bela; the final marked literal supplies Dora and closes that clause. The second predicate is temperature+GREATER+NEGATE. Its same written subject list and Dora reference yield NOT(temp(Ada)>temp(Dora) AND temp(Bela)>temp(Dora)). The written final rr-s ends the message. It is not legitimate to read the second clause as both colder, neither warmer, or one specified subject failing the comparison.",
+    "optional_paid_continuation_of_last_word": {
+      "old_line_final_groups": [["r","r","p","o","ckh","i","cth"],["r","r","ch"]],
+      "next_line_initial_groups": [["r","r","ch"],["i","q","i","e","r","r","f","r","r","n","r","r","d","r","r","s"]],
+      "meaning": "Join the two nonmarker fragments to recover exactly the final logical word. This optional layout does not change the name, reference or negation scope."
+    }
+  },
+  "minimal_decision_changing_checks": [
+    "Teaching-only readback must distinguish GREATER(A,B) from LESS(A,B), and both from EQUAL_VALUE(A,B); negated GREATER admits equality and is not LESS. A fresh learned scale uses the identical productive suffixes without new derived-word entries.",
+    "For the disclosed negative two-subject example, one subject exceeding the reference and the other equalling it makes the negated conjunction true. Reading it as two separate negative comparisons gives a different result. This is a concrete scope falsifier, not a statistical fit.",
+    "With a physical control/root binding fixed, every complete clause has exactly one marked comparison head, at least one unmarked subject term and one marked standard/closure. No standard may change within that list without a new fully written clause. A missing standard, malformed name, illegal predicate-as-subject or hidden reset falsifies this exact teaching contract.",
+    "These are candidate-specific consequences. No native source population, control identity, clause boundary or word meaning has been selected, so none is reported as a passed manuscript test."
+  ],
+  "known_form_and_cost_obligations": [
+    "Ordinary one- and two-unit reference roots may use all22working units and various terminals; root interiors are not confined to three drawings. This is grammar capacity only, not learned native coverage or a frequency result.",
+    "The known qokedy/sheol/okaiin/chol triples could be syntactically repeated reference terms only after a separately justified lexical/category binding; they cannot be blindly promoted from predicates to terms. No such binding is proposed. The older947/954noun-versus-predicate failures remain.",
+    "Every predicate carries a three-unit comparison suffix; negation adds three; every clause-final standard carries six extra units; the last adds another three. The marker pair rr, the fixed selector endings and overt name frames are substantial native-relevant obligations. No q→o or common-final-y fit is supplied.",
+    "Open learned roots are genuine lexical costs. Long literal names and a broad ordinary reference vocabulary can remain expensive. This notation covers only declared comparisons, not the full content of a historical passage.",
+    "The ordinary-root ban on rr, exact control identities, typed positions and mandatory final closures can fail known or later admitted whole forms under a bound carrier. No exception, hidden constituent, extra alias or after-the-fact remapping is licensed."
+  ],
+  "predecessors_and_novelty": [
+    {
+      "id":"IDEA000357",
+      "primary":"research_registry/proposals/raw_joint_comparative_grouping.json",
+      "later":"research_registry/work_batches/ten_hours_20260915/COMPARATIVE_REFERENT_DECISION.md; experiments/yolo/gdt976_dioscorides_shared_referent_projection/REPORT.md",
+      "relation":"Comparison/order algebra and written standard/axis obligations are already present. This RAW claims only a concrete restricted22drawing grammar and full paid hand message, not discovery of comparisons or a completion of the full Dioscorides grammar.976's proposed LEAF/BROAD followup was977; further recurrent and prefix projections were978/984/1096. None is nominated anew."
+    },
+    {
+      "id":"IDEA000181",
+      "primary":"research_registry/proposals/translation_programs_20260912/work/RELATIVE_STANDARD_REVIEW/REPORT.md",
+      "relation":"Fixed opposing strict comparisons remain contradictory; weak opposites imply equality, and free standards cannot rescue a native reading. The present lesson explicitly writes its standard and distinguishes equality from whole-clause negation. It does not re-read that old passage or assign its forms."
+    },
+    {
+      "id":"IDEA000913 / IDEA000920 / IDEA000953",
+      "primary":"research_registry/proposals/production_origin_supply_20261003/abbreviated_action_material_derivation.json; research_registry/proposals/production_origin_supply_20261003/RECIPIENT_NOMINAL_CONSTRUCTION_LIMIT.md; research_registry/proposals/production_origin_supply_20261003/HUMAN_OPEN_LEXICON_SUPPLY_20261006_A.json",
+      "relation":"Material/action derivation, nominal/clausal alternation and state/change/causation are related productive-semantic proposals, not this comparative list grammar. No unknown recipient, passive argument, antonym or material identity is imported.953's physical and triple review remains unchanged; this is not its repaired grammar."
+    },
+    {
+      "id":"IDEA000841",
+      "primary":"research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FO_RAW_APPEND_PROPOSAL_2.json",
+      "relation":"Already distinguishes a written comparison standard from a processed patient and requires paid standard reuse. That RAW has no complete physical grammar. The present restricted catalogue always writes one standard per clause and contains no material-changing action or hidden standard carryover. It is not a new discovery of reference roles or a repair of that proposed native account."
+    },
+    {
+      "id":"IDEA000965",
+      "primary":"research_registry/proposals/production_origin_supply_20261003/HUMAN_MEASURED_MATERIAL_LIST_RAW_20261006.json",
+      "relation":"The existing paid-name and line-framing design is a precedent, not a new historical invention.965counts repeated material words as spoon measures and has procedural/ban scope. Here listed references feed comparisons and repeated assertions are logically redundant, never doses. No965source or frozen contract is modified."
+    }
+  ],
+  "review_and_access": {
+    "bounded_checks":"Current route, prior composition topic, two bounded duplicates queries, ideas357/181/913/920 and976followups, plus the named claim-bearing primaries. Search rankings are not exhaustive novelty certification.",
+    "exposure":"Reading the old357RAW exposed its already cached Greek source quotations along with its design. Those quotations supplied no new source selection, numerical values or proposed native binding and were not counted. Existing old report excerpts also remain historical exposure. This design is not blind to the stated prior failures.",
+    "limits":"No source/native count, target query, image, new corpus, encoder, decoder, statistical fit, new agent, root-file edit, route/ledger/state change, refresh, commit or publication. Only this RAW and its ideas-add record are authorized."
+  }
+}

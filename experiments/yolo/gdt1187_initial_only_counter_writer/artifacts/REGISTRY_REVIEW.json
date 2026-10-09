@@ -1,0 +1,64 @@
+{
+  "record_id": "GDT1187",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_initial_only",
+  "assessment_basis": "All four complete source books; six necessary mapping-invariant gates; full exact-source validation",
+  "reason": "Every fixed candidate fails one or more invariants in bs1/gr1; optimization correctly not run.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "1024 variants fail concentration/diversity;2048 variants fail gr1 length-TV. Ordered merge segmentation retains high manual cost.",
+      "evidence": [
+        "experiments/yolo/gdt1187_initial_only_counter_writer/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_manual_source_rule",
+        "change": "new_design",
+        "detail": "Different predeclared complete segmentation/code with explicit manual cost and all4source checks.",
+        "evidence": [
+          "experiments/yolo/gdt1187_initial_only_counter_writer/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A new alphabet permutation",
+      "Fitting only the two easier source books"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT605",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1187_initial_only_counter_writer/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT857",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1187_initial_only_counter_writer/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1184",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1187_initial_only_counter_writer/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1186",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1187_initial_only_counter_writer/REPORT.md"
+      ]
+    }
+  ]
+}

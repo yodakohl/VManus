@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-05T01:16:03.875718+00:00",
+  "candidate": "IDEA000932",
+  "question": "Does the already recorded f25v body/cap geometry provide a concrete supported spatial vowel-run or initial-empty-carrier binding?",
+  "inputs": {
+    "HAND_WRITER_STACKED_VOWEL_RUNS_RAW_20261005.json": "a11dd901cdcbc658607c2f0861c480b21a46e2769b171fdd8aa5279cecb031ce",
+    "HAND_WRITER_NATIVE_G0_20261004.json": "04f272e17ca6863a730fb66b869079c667115fff938cd594415a41c466215c0b",
+    "HAND_WRITER_NATIVE_ACCOUNT_20261004.json": "d768d3f60dc8566087c96d6a83767c4b496cff3f97efadbb93b44a9f2b1e4769"
+  },
+  "image": "runtime/f25v_paleographic_top.png",
+  "image_sha256": "0798c6b0269803130c3fe396a00934003fbb6d851ceeea37803841fa4b572b15",
+  "image_scope": "Revisit same previously admitted crop, assess first two lines only; no new pixels, enhanced images, OCR or observer independence.",
+  "fixed_conditional_projection": "Keep each stored G1 surface piece as one baseline body, except sh is the already recorded BE plus one upper CAP. Map sh body to ch. Tall forms and embedded tall forms retain their stored whole-body identity; no new upper-vowel pieces cut out of them. This is one explicit exploratory projection, not a native alphabet finding.",
+  "eligibility": "Complete groups with definite or line-edge outer boundaries; uncertain groups shown separately, readers never pooled.",
+  "observations_to_record": [
+    "Is the pre-recorded sh upper cap visually localizable above its bench in the fixed crop?",
+    "Does this unchanged projection contain a multi-mark vertical stack?",
+    "Does any observed body type satisfy K rules on all its retained occurrences: always first and always with nonempty mark stack?",
+    "What input consonant/vowel count would follow if ordinary bodies were consonants and upper caps vowels under IDEA932?"
+  ],
+  "decisions": {
+    "projection_has_no_supported_stack_or_carrier": "Do not choose a glyph key or start a CV decoder. Preserve the geometric cap observation without vowel promotion.",
+    "bound_K_counterexample": "Reject only that body-as-K assignment under this projection.",
+    "few_or_no_marks": "Report conditional projected vowel counts; do not declare every source language or the spatial writer refuted, because consonant-only inputs are legal."
+  },
+  "limits": [
+    "G1 cells and CAP split remain conditional",
+    "No actual vowel or consonant letter value assigned",
+    "Source865 tau/mu evidence is not an all-vowel writer",
+    "All data exposed; no statistical or holdout claim",
+    "Do not move baseline e/i into upper stacks after result"
+  ],
+  "budget_minutes": 15
+}

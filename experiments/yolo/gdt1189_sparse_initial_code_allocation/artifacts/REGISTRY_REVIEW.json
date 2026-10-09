@@ -1,0 +1,57 @@
+{
+  "record_id": "GDT1189",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_sparse_allocations",
+  "assessment_basis": "18fixed source writers, all4source necessary conditions and full inverse validation",
+  "reason": "All18fail necessary invariants; no optimizer or full statistical pass.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "Sparse/dense tradeoff still fails diversity, concentration or length distribution.",
+      "evidence": [
+        "experiments/yolo/gdt1189_sparse_initial_code_allocation/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_unmeasured_finite_codes",
+        "change": "new_design",
+        "detail": "A different frozen source-code assignment, not a rerun of these18; preserve all4source/fullreader criteria.",
+        "evidence": [
+          "experiments/yolo/gdt1189_sparse_initial_code_allocation/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A favorable ZL-only diagnostic",
+      "Changing glyph permutation"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1186",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1189_sparse_initial_code_allocation/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1187",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1189_sparse_initial_code_allocation/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1188",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1189_sparse_initial_code_allocation/REPORT.md"
+      ]
+    }
+  ]
+}

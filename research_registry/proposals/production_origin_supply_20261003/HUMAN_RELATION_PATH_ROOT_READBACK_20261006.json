@@ -1,0 +1,114 @@
+{
+  "status": "FROZEN_MANUAL_ROOT_READBACK_BEFORE_EXPECTED_SOURCE",
+  "frozen_utc": "2026-10-06T07:02:14.983319+00:00",
+  "reader": "root",
+  "manual_only": true,
+  "expected_source_opened": false,
+  "inputs": [
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_RELATION_PATH_READER_RULES_20261006.json",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_RELATION_PATH_CHALLENGE_20261006.txt"
+  ],
+  "input_hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_RELATION_PATH_READER_RULES_20261006.json": "b0375ac8f02f645103aff323410129ec1e1e04972285fa28a78850f6f23f7272",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_RELATION_PATH_CHALLENGE_20261006.txt": "dc4a91ca9d6c9416d28f09de7ac6898b1086f048a49033959ac4c12a133d66ef"
+  },
+  "source_expected_hash_announced": "d6d04a154e34dd4f506301214a6f98eeb2901564b20566e699c396695f654afa",
+  "method": "Read full frozen lesson, then decode six physical lines by hand using only its chart/lexicon. No decoder, expected source or native data consulted. Producer supplied the lesson and challenge; this is source withholding within one team, not independent philological validation.",
+  "layout": {
+    "line_cell_counts": [
+      23,
+      5,
+      23,
+      24,
+      22,
+      8
+    ],
+    "continued_name_payload_marks": [
+      20,
+      6
+    ],
+    "name_lengths_characters": [
+      13,
+      4
+    ],
+    "logical_groups": 25,
+    "physical_groups_including_trailer_and_split": 27,
+    "semantic_marks": 82,
+    "physical_marks_including_ss": 84,
+    "physical_blank_cells": 21
+  },
+  "names": [
+    {
+      "literal": "Tava Ada Mora",
+      "pairs": [
+        "ir",
+        "aa",
+        "oa",
+        "aa",
+        "icph",
+        "em",
+        "ai",
+        "aa",
+        "icph",
+        "io",
+        "af",
+        "ackh",
+        "aa"
+      ],
+      "continued_after_character": 10
+    },
+    {
+      "literal": "Lira",
+      "pairs": [
+        "ia",
+        "ar",
+        "ackh",
+        "aa"
+      ]
+    }
+  ],
+  "positive_clause": {
+    "readback_de": "Es gibt ein kaltes Blatt, das neben einem Gefäß liegt und sich in dem Gefäß mit dem Namen Tava Ada Mora befindet. Dieses benannte Gefäß enthält kein Wasser. Das Gefäß neben dem Blatt kann dasselbe wie das benannte Gefäß sein, muss es aber nicht.",
+    "formula": "exists x,u,v: LEAF(x) and COLD(x) and BESIDE(x,u) and VESSEL(u) and INSIDE(x,v) and VESSEL(v) and v=NAME(Tava Ada Mora) and not(exists z: INSIDE(z,v) and WATER(z))",
+    "trace": [
+      "aa starts existential x",
+      "pf and fk filter x without changing current entity",
+      "ee saves x; pt moves to u; tf filters u as vessel",
+      "ii returns to x, not u",
+      "kp moves from x to v; tf filters v as vessel",
+      "dd exact continued name yy constrains v to Tava Ada Mora",
+      "nn saves v; pk moves to z with INSIDE(z,v); fm filters z as water",
+      "ii closes whole existential negative branch and returns v",
+      "oo closes positive clause"
+    ],
+    "not_asserted": [
+      "The beside-vessel and named vessel are distinct",
+      "The beside-vessel contains no water",
+      "The named vessel is beside another vessel instead of the leaf being beside it",
+      "A water quantity or type of leaf"
+    ]
+  },
+  "negative_clause": {
+    "readback_de": "Von Lira aus gibt es keinen Weg aus genau drei aufeinanderfolgenden INSIDE-Beziehungen, der bei einem Gefäß endet.",
+    "formula": "not(exists a,b,c,d: a=NAME(Lira) and INSIDE(a,b) and INSIDE(b,c) and INSIDE(c,d) and VESSEL(d))",
+    "word_expansion": [
+      "kpkp -> kp kp",
+      "following kp adds the third link",
+      "tf is the final identity filter"
+    ],
+    "not_asserted": [
+      "Lira is outside every vessel",
+      "No one-link or two-link containment path exists",
+      "The three links visit three different entities",
+      "Three actions were performed",
+      "There is a three-link path whose endpoint is not a vessel"
+    ]
+  },
+  "limits": [
+    "The lexical definitions and controls are synthetic taught values, never Voynich meanings.",
+    "No supplied axiom makes INSIDE transitive or its linked entities distinct.",
+    "Original English phrasing is not recoverable; the relation description, names and scopes are.",
+    "Optional grouping is visible but not a fixed frequency production model.",
+    "The six physical rows are one handed teaching example, not historical-source coverage or statistical fit."
+  ]
+}

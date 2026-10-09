@@ -1,0 +1,103 @@
+{
+  "status": "TWO_DISTINCT_RETAINED_RAW_MODULES_NOT_TWO_READY_WRITERS",
+  "started_utc": "2026-10-06 04:03:37",
+  "budget_limit_utc": "2026-10-06 04:15:37",
+  "task_scope": "Bounded existing-supply review for root's manual selection; no native data, word meanings, corpus counts, decoder, new source, root experiment output, changed failure contract or infrastructure.",
+  "overall_decision": "IDEA949 and950 have genuinely different hand operations and neither exact RAW module has a cited execution in the inspected material. That is not a claim that both are experimentally eligible.949 remains incomplete and source-uninstantiated.950's unchanged whole-word use on the four fixed source projections is already analytically excluded by1202. The producer cannot honestly nominate two complete, ready, surviving22-sign writers from this bounded selection. Preserve both original RAW statuses; add no duplicate card.",
+  "rules": [
+    {
+      "id": "IDEA000949",
+      "title": "Write supplied emphasis in two visibly different space grades while keeping every ordinary word.",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_EXPLICIT_FOCUS_SPACING_RAW_20261006.json",
+      "registry_status": "Imported unreviewed, RAW INCOMPLETE, not selected. The record is not upgraded by this review.",
+      "human_purpose": "Preserve how the author emphasizes a meaningful sentence without hiding its ordinary words or relying on a whole-sentence mnemonic table.",
+      "hand_rule": "The input supplies every literal word and one explicit emphasis bit per word. Write each word fully. Put a narrow gap before emphasis0 and a broad gap before emphasis1. Broad gaps begin primary groups; narrow gaps continue them. Preserve the same grade as indentation from a common left margin after a line wrap. A blank row marks a paragraph. An initial unaccented run is legal and has its own initial group. No lexical list or hidden counter decides the emphasis.",
+      "full_manual_example": {
+        "source": "koche die wurzel in wasser.",
+        "bits_A": [1, 0, 1, 0, 1],
+        "written_A": "W:koche N:die W:wurzel N:in W:wasser.",
+        "groups_A": ["koche die", "wurzel in", "wasser."],
+        "bits_B": [1, 0, 1, 1, 0],
+        "written_B": "W:koche N:die W:wurzel W:in N:wasser.",
+        "groups_B": ["koche die", "wurzel", "in wasser."],
+        "readback": "Both restore exactly the same ordinary wording and punctuation; they restore different explicitly supplied emphasis. N/W are teaching labels for actual narrow/broad gaps, not free inserted words or proposed Voynich signs. No source corpus or native form was used for this example."
+      },
+      "short_words_repeat_and_interior": "A single emphasized short word forms a short group. Two equal emphasized words can form identical consecutive groups. Unknown and long words are copied fully. The module imposes no three-sign medial palette; however, because its22-sign body script remains unspecified, an actual glyph realization with particular short-word lengths or interior diversity has NOT been constructed. Open vocabulary is allowed; this is not itself a new source-language word-formation grammar.",
+      "learning_and_writing_cost": "Ordinary language and full word script; two visible gap grades; common margin; paragraph marks; line-opening indentation rule. One additional bit per word is physically paid by space. Wide gaps consume writing area. There is no learned whole-word code table or implicit source answer. Overwide individual words still lack an internal continuation rule.",
+      "strongest_unresolved_problem": "The old source projections do not supply independent authorial emphasis, and existing transcription groups are not these hypothetical primary groups. Choosing bits to obtain desired frequencies or treating narrow visible source-word gaps as if they vanished would violate this RAW contract. A true22-sign writer also requires literal/rare-character spelling and paid line continuation. The extra spatial channel cannot be counted as a free22-symbol alphabet.",
+      "concrete_falsifier_if_later_selected": "Hold word sequence AND declared emphasis fixed. A physical reflow must preserve both recovered data and primary grouping. A changed grouping under unchanged inputs or an unreadable gap/indent distinction fails the exact rule. This is a conditional source-side consequence, not a native test selected here.",
+      "predecessors_and_later_primaries": [
+        {
+          "path": "experiments/yolo/gdt1212_bidirectional_function_binding/REPORT.md",
+          "relation": "945's fixed R/L word lists and source-frequency failure remain.949 uses additional supplied emphasis and a paid space distinction, not an edited lexical list or a rescue of1212."
+        },
+        {
+          "path": "experiments/yolo/gdt852_f75v_native_join_split_spacing/REPORT.md",
+          "relation": "A local visible spacing contrast is supported; it does not identify two universal gap grades, emphasis or word identity."
+        },
+        {
+          "path": "experiments/yolo/gdt853_spacing_context_transfer/REPORT.md",
+          "relation": "The exact held comparator has zero eligible pairs and no predictor score. This is not a failed949 implementation or evidence that all spacing is irrelevant."
+        },
+        {
+          "path": "experiments/yolo/gdt1056_f75v44_visible_repair_capacity/REPORT.md",
+          "relation": "No visible repair was established at the fixed joined form. That does not establish intended emphasis."
+        },
+        {
+          "path": "experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md",
+          "relation": "No convincing aggregate identification of hyphenation or word continuation. Lookup followups include910 and1182, so no unchanged continuation test is treated as new.949's paid indentation is not supplied by907."
+        }
+      ],
+      "nomination": "Distinct RAW module worth retaining, not a chosen full writer or ready statistical trial. No new source, width survey or bit-selection experiment recommended automatically."
+    },
+    {
+      "id": "IDEA000950",
+      "title": "Inside one word, copy the immediately preceding three to eight source characters with a paid length command.",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_INTRAWORD_TANDEM_COPY_RAW_20261006.json",
+      "registry_status": "Imported unreviewed, RAW INCOMPLETE, not selected. Its original card already states the1202 exclusion of unchanged whole-word use; unreviewed must not mean unaffected by existing evidence.",
+      "human_purpose": "Shorten repeated spelling inside open ordinary words without learning a dictionary of words or substrings and without remembering earlier complete words.",
+      "hand_rule": "Start every word with empty memory. Keep at most the last eight decoded source characters. At the current source position, if its next n characters equal the immediately previous n characters for n=3..8, write COPY(n) for the greatest legal n. Otherwise write the next character literally. A copy reads a snapshot that was already present; it does not overlap its own output. Preserve every source word boundary and reset memory there. Six commands plus the complete literal alphabet are required.",
+      "full_manual_example": {
+        "source": "lege naranara neben neruneru.",
+        "abstract_groups": [
+          "L(l) L(e) L(g) L(e)",
+          "L(n) L(a) L(r) L(a) C4",
+          "L(n) L(e) L(b) L(e) L(n)",
+          "L(n) L(e) L(r) L(u) C4 L(.)"
+        ],
+        "readback": "The second group writes nara then copies that local four-character suffix; the fourth writes neru then copies its different local suffix and retains the period. Naranara/Neruneru are expressly invented object names. L/C labels are abstract instructions, not Voynich values or a hidden whole-message table."
+      },
+      "short_words_repeat_and_interior": "Single characters and short words can remain literal. abab remains literal because the repeated piece has length2. An entire source word repeated next to itself has the same output twice, because each word resets its own scratch window; no common interword repeat header appears. Literal long words can use many distinct source characters, so the algorithm has no three-symbol interior restriction. Its actual22-sign literals/commands are nevertheless unpaid; possible source diversity is not an established native surface fit.",
+      "learning_and_writing_cost": "Know the ordinary language and82-character declared input domain; learn six length commands and a full literal/escape script. The writer checks at most six local candidate blocks; the reader counts back at most eight recovered characters. Canonicality requires another scan. A literal source string C3 must be distinguishable from the command C3. No cross-word memory, semantic roots, letter-value state or global word table is used. Long nonrepeating words receive no saving, and overwide-word continuation remains unspecified.",
+      "strongest_unresolved_problem": "A uniquely readable, non-erasing22-sign carrier must separate82 literal values from six commands and pay all escapes. More decisively for the existing four source projections, the deterministic per-word inverse preserves the entire whole-word frequency partition.1202 already rules out this unchanged one-source-word/one-group conjunction; constructing its alphabet or recounting the same sources cannot change that decision. A new grouping, source or state would be a different contract, not an authorized repair.",
+      "concrete_falsifier_if_later_selected": "A leading COPY(n), a command with fewer than n prior decoded characters, or failure to use the greatest mandatory local tandem is illegal. Native application would need a justified literal/control carrier and true aligned unit boundaries. A repeated visible substring alone is not such a binding.",
+      "predecessors_and_later_primaries": [
+        {
+          "path": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA927_RESULT_20261005.json",
+          "relation": "927 copies a previous complete word's prefix and has a retained header/doublet contradiction.950 resets each word and never copies a previous word, so it is not that exact mechanism or its repair."
+        },
+        {
+          "path": "experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md",
+          "relation": "1179C uses up to503 previous source tokens; its failed history-reference writer and cost are not reused as evidence for this local module."
+        },
+        {
+          "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json",
+          "relation": "935 has fixed literal expansions for all shortcuts;950 obtains an expansion from an explicitly paid local suffix. Both still preserve whole-word equality when used alone."
+        },
+        {
+          "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+          "relation": "The existing necessary source bound applies even without an exact950 implementation. It does not exclude every source language or a separately motivated different information contract, but no such replacement is selected here."
+        }
+      ],
+      "nomination": "Retain the distinct RAW module, but exclude it from a new trial on the unchanged four-source whole-word contract. It is not one of two ready alternatives to1193."
+    }
+  ],
+  "review_accuracy": {
+    "not_executed_does_not_mean_viable": "949/950 remain raw modules; the bounded registry and targeted later-primary check found no cited exact execution. This is not an exhaustive proof of absence, and950's analytic inherited exclusion is already sufficient on the fixed sources.",
+    "other_candidates_not_relabelled": "934's delimited-prefix module has already received its interface/cost review;946 already has a fixed no-reuse cost consequence;932 and928 have concrete conditional native-binding countercases;936 is now curated refuted_specific_model for its literal final-y inability. They are not offered as wholly unexamined alternatives.951/952 and their separate physical/coverage limits are untouched.",
+    "1223": "Root's new comparison-audit result changes no old model decision in this review. No threshold is relaxed and no fresh calibration output is used to alter either raw rule.",
+    "1193": "The three-medial-sign architecture's retained conditional exclusion remains. Avoiding that single obstruction does not establish complete morphology, q/o, final-y, word-frequency or historical adequacy."
+  },
+  "navigation": "Live route first; bounded method-card search in two pages, selected show records, exact949/950 raw primaries, bounded duplicates, route-check,907followups, claim-bearing852/853/1056/1212reports and previously read1202/1179primaries. No wholesale registry dump or new evidence intake.",
+  "mutations": {"this_own_review": 1, "ideas_add": 0, "experiments": 0, "root_files": 0, "route": 0, "state": 0, "ledger": 0}
+}

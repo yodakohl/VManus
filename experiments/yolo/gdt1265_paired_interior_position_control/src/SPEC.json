@@ -1,0 +1,58 @@
+{
+  "source": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+  "fit": "experiments/yolo/gdt1264_interior_binary_alternation/artifacts/TRAIN.json",
+  "fit_lock": "experiments/yolo/gdt1264_interior_binary_alternation/artifacts/TRAIN_LOCK.json",
+  "readers": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "cohorts": [
+    "ALL",
+    "UNSEEN_WHOLE",
+    "UNSEEN_INTERIOR"
+  ],
+  "primary_reader": "ZL3b",
+  "primary_cohorts": [
+    "ALL",
+    "UNSEEN_INTERIOR"
+  ],
+  "minimum_interior_units": 3,
+  "minimum_informative_leaves": 10,
+  "positive_fraction": [
+    2,
+    3
+  ],
+  "minimum_mean_excess": [
+    1,
+    100
+  ],
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/artifacts/TRAIN.json",
+      "sha256": "e81f3b68d1a3d7b9ea7705f56cf722eee64934ea79509b71229e208fca3a96e8"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/artifacts/TRAIN_LOCK.json",
+      "sha256": "e91301f323a489aa66638b742f8ab9bdb28663b3260795382d9ca03132c808e3"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md",
+      "sha256": "d6887e32b10db533aaf9bed92dd4e3f3630cbafcdf9f3328eed6d9b46f850545"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_native_within_group_interior_target_report.md",
+      "sha256": "d4474628606df2679a23f228f543380b7ae0930166fcf4ccf68b7c7d0705633d"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/BINARY_PAIRED_BAG_POSITION_REVIEW_20261007.json",
+      "sha256": "dc8501ade75779711f0ac811151735754a93bc952abfd6d17a7c2f0406a0a51d"
+    }
+  ],
+  "budget_start_utc": "2026-10-07T18:06:29Z",
+  "budget_end_utc": "2026-10-07T18:51:29Z"
+}

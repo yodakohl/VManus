@@ -1,0 +1,58 @@
+{
+  "record_id": "GDT1176",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_natural_partition",
+  "assessment_basis": "Four predeclared source-word partitions, pinned recipe editions and inherited target summaries; independent reconstruction/counts",
+  "reason": "None meets both necessary frequency bands in both collections. P3 reduces concentration but exceeds type-ratio bounds. All source words are retained. No glyph writer or native meanings.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "All four fixed partitions miss at least one joint necessary frequency condition across b4/w1.",
+      "evidence": [
+        "experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_meaning_preserving_partition_with_collection_transfer",
+        "change": "new_design",
+        "detail": "Changed explicit source-word partition with all content retained, frozen before another collection-level transfer; treat b4/w1 frequencies as known design data and retain this failure.",
+        "evidence": [
+          "experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Changing glyph shapes",
+      "Selecting a partial score as a pass",
+      "Omitting source words or grammar"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1175",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1159",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1176_natural_text_word_partition/REPORT.md"
+      ]
+    }
+  ]
+}

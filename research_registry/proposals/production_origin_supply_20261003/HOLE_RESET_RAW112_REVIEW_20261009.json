@@ -1,0 +1,44 @@
+{
+  "record_id": "IDEA000112",
+  "scope": "semantic",
+  "verdict": "inconclusive",
+  "reviewer": "informed root",
+  "assessment_basis": "single_informed_original_image_inspection",
+  "reason": "1292onlychecksphysicalprerequisite:avoidancecompatible;originalsemanticreset/continuityexperimentnotexecuted, independentrecordrelationsunbound.",
+  "blockers": [
+    {
+      "code": "chronology_and_semantics_unbound",
+      "detail": "Older enlargement and later damage in blank space remain; no independently bound record/reset relation.",
+      "evidence": [
+        "experiments/yolo/gdt1292_f99v_hole_edge_chronology/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_chronology_or_record_binding",
+        "change": "new_binding",
+        "detail": "Independently justified chronological or record-relation evidence before a causal/semantic experiment.",
+        "evidence": [
+          "experiments/yolo/gdt1292_f99v_hole_edge_chronology/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Visual clearance alone",
+      "A gap called a reset",
+      "Repeated unchanged image"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1292",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1292_f99v_hole_edge_chronology/REPORT.md"
+      ]
+    }
+  ]
+}

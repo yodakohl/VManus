@@ -1,0 +1,136 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed predictive estimator nonconfirmation only; not first-order sufficiency, no-information claim, minimum memory, meaning, or stopped-control reopening.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1285_inner_two_unit_memory/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1285_inner_two_unit_memory/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT003",
+    "GDT1279",
+    "GDT1280"
+  ],
+  "experiment_id": "GDT1285",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "cached admitted raw source or fixed22unit groups",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "cached admitted raw source or fixed22unit groups",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "cached admitted raw source or fixed22unit groups",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "cached admitted raw source or fixed22unit groups",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "cached admitted raw source or fixed22unit groups",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "cached admitted raw source or fixed22unit groups",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "cached admitted raw source or fixed22unit groups",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "49f35339d3ecf7b7bc6348fb210f3991cd5fa8f9fab9dda1051715ab9e4c6091"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "49f35339d3ecf7b7bc6348fb210f3991cd5fa8f9fab9dda1051715ab9e4c6091"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "bd4b4736d3e7311a72021b5aa2f38a0febc5473e80aa8621f669b13321462a5e"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md",
+      "role": "primary_report",
+      "sha256": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/artifacts/EVENTS.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "6cfd5d268631e9d44017390c921de1427397b2464f8d264fd47cb5c23ab0ec89"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/artifacts/MODEL.json",
+      "role": "reproducibility artifact",
+      "sha256": "9574192fbc4f5c2e07f3c2329c7808dd0079d22648ec66df519e5f4d15eaeed8"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/artifacts/MODEL_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "3b70a407cce4914917548ed84d648fbdd555c4ee43568249d49922de90252140"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "6da45aa45fb28baca6eb675cd938ea707004a9a33c14329870f95e4f50a3f765"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "e4aa1987707ba17a3cd5284aa16fb8a2090654a47d7214a8589993c06902e5d3"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "21b245be41687b6291ae92df9f2d067023b8098d2147d4164fee0f7f5137b507"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "03a661868119c59fc8af54e3d77bd7bc58a2f2d6e80c277a59f20f8b0b838c63"
+    },
+    {
+      "path": "experiments/yolo/gdt1285_inner_two_unit_memory/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "42af5bbe2b57b9642dfeecdf7ca29027e098a08fe0c3d5e20bbe2dd7ef98addb"
+    }
+  ],
+  "question": "Does a second preceding unit improve fixed exact-position inner next-unit prediction, also on unseen interiors?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "inner_two_unit_memory",
+  "status": "NO_JOINT_TWO_UNIT_INCREMENT",
+  "title": "Strictly inner two-unit versus one-unit predictive context",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1285_inner_two_unit_memory/artifacts/VALIDATION.json"
+  }
+}

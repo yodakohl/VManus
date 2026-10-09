@@ -1,0 +1,149 @@
+{
+  "title": "Fixed contiguous grammatical source groups",
+  "selected_utc": "2026-10-06T02:08:07Z",
+  "total_budget_minutes": 40,
+  "deadline_utc": "2026-10-06T02:48:07Z",
+  "question": "Does one fixed syntactic grouping of three complete cached books meet the two inherited necessary equality-frequency conditions?",
+  "positive_basis": "Spaces carry native hierarchy and directed reusable parts; an ordinary writer can join adjacent grammatical dependents without selecting words by target frequency. Neither fact establishes this grammar.",
+  "unknown": "1176/1177/1178/1212 used fixed spelling or length classes, not a separate grammatical analysis of each occurrence. No output counts have been made for this exact syntactic contract.",
+  "strongest_predecessors": [
+    "1177 fixed spelling classes fail transfer",
+    "1212 bidirectional binding has excess types in7of12 reader/book comparisons",
+    "1213 sampling diagnostic does not rescue1212",
+    "895 exact Latin/CV writer and892 grammatical decoder retain their separate failures"
+  ],
+  "source": ".gdt001/repos/latin_ittb/la_ittb-ud-train.conllu",
+  "source_sha256": "0f0aded3ec3f697cdb8dc2294d213bdc951b127a5bc3d2114be22cd730cac5b8",
+  "scope": {
+    "SCG2": [
+      105,
+      5657
+    ],
+    "SCG3": [
+      5658,
+      13519
+    ],
+    "SCG4": [
+      16810,
+      22775
+    ]
+  },
+  "scope_basis": ".gdt001/repos/latin_ittb/README.md documents these three full books. train-s1..3 were manually examined before selection and are outside counted books. Missing declared IDs invalidate scope; no replacement.",
+  "projection": "Every integer-ID FORM row, unchanged and in original order, including punctuation. Multiword range headers and decimal empty annotation nodes are not extra visible FORM tokens. This preserves the expanded annotated token sequence, not diplomatic orthography, original whitespace, MWT spelling or annotations.",
+  "bound_relations": [
+    "case",
+    "det",
+    "aux",
+    "cop",
+    "mark",
+    "cc",
+    "fixed",
+    "amod",
+    "nummod",
+    "advmod",
+    "compound",
+    "flat",
+    "clf",
+    "discourse"
+  ],
+  "anchor_rule": "For each nonpunctuation token, follow its parent while its outgoing base relation (before colon) is in bound_relations. Stop at root or first ineligible relation. Every nonzero parent must exist. Dependency cycles invalidate the source contract; no repair. UPOS=PUNCT cuts before anchor following and is never a host.",
+  "adjacency_rule": "Merge adjacent nonpunctuation tokens if their resulting anchors match. Never move tokens, bridge a different anchor or cross punctuation/sentence boundaries. Punctuation is attached to the preceding group and closes it; consecutive punctuation stays there. Leading punctuation prefixes the first following group; an all-punctuation sentence is one group.",
+  "representation": "A group is an ordered tuple of exact FORM spellings, with original inner boundaries recoverable. Any later common fixed injective tuple-to-written-group map preserves these frequencies and must separately pay for those boundaries, punctuation and every character. No physical22-sign carrier is provided or scored here.",
+  "manual_examples": [
+    {
+      "sent_id": "train-s1",
+      "groups": [
+        [
+          "unde"
+        ],
+        [
+          "et",
+          "philosophus"
+        ],
+        [
+          "dicit"
+        ],
+        [
+          "felicitatem"
+        ],
+        [
+          "esse",
+          "operationem",
+          "perfectam",
+          "."
+        ]
+      ]
+    },
+    {
+      "sent_id": "train-s2",
+      "groups": [
+        [
+          "perfectio"
+        ],
+        [
+          "autem"
+        ],
+        [
+          "operationis"
+        ],
+        [
+          "dependet"
+        ],
+        [
+          "ex",
+          "quatuor",
+          "."
+        ]
+      ]
+    },
+    {
+      "sent_id": "train-s3",
+      "groups": [
+        [
+          "primo",
+          ","
+        ],
+        [
+          "ex",
+          "suo",
+          "genere",
+          ":"
+        ],
+        [
+          "ut",
+          "scilicet",
+          "sit",
+          "manens"
+        ],
+        [
+          "in",
+          "ipso",
+          "operante",
+          "."
+        ]
+      ]
+    }
+  ],
+  "manual_limits": "Interruption in perfectio autem operationis dependet leaves autem separate; punctuation blocks merger even with equal anchors; grammatical annotation is a modern source aid, not recovered Voynich syntax.",
+  "screen": {
+    "sample_groups_per_book": 8000,
+    "target": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+    "types_absolute_tolerance": 400,
+    "top10_count_absolute_tolerance": 400,
+    "joint_conditions": 18,
+    "readers": "IT2a/RF1b/ZL3b separately; alternate readings, not independent replication"
+  },
+  "validation": "Separate same-author implementation using tree component union, different CoNLL-U parsing and run segmentation; reconstruct all full-book groups, source inverses, sample hashes and18decisions. Independently inspect punctuation and manual fixtures. No source-count optimization or hidden exception.",
+  "decision_if_fail": "Close this exact source/scope/relation/group contract under any common injective group renderer. No carrier work, additional relation list, source substitution, punctuation deletion or tolerance repair.",
+  "decision_if_pass": "Retain necessary frequency compatibility only; a separately selected paid carrier would then be worth considering. No automatic full-writer, Latin or native-grammar preference.",
+  "assumptions": [
+    "Source annotations treated as fixed for this control",
+    "Contiguous function/modifier grouping is a design choice, not attested medieval convention",
+    "All declared source words/order retained",
+    "No native word meanings",
+    "Source and target summaries previously exposed",
+    "No claimed independent holdout"
+  ],
+  "access": "No native raw transcription/images/new source acquisition/relation packet. f84/f84r sealed; f116v and reserves closed.",
+  "closure": "Within40minutes including preparation, implementation, validation and local construction closure. Existing4October no-push checkpoint applies."
+}

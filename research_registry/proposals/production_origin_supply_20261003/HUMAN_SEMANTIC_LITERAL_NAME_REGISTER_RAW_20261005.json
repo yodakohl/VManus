@@ -1,0 +1,133 @@
+{
+  "title": "RAW UNREVIEWED: four paid literal-name slots inside the existing productive semantic grammar",
+  "summary": "An invented bounded writing module changes only how the existing 29-root grammar spells an open LIT or quoted predicate name. Every first or evicted name is written completely into one of four cyclic slots; subsequent uses read that exact spelling from its visible prior definition. The semantic grammar, arities, scope, statement grouping and open reference obligations remain unchanged. First uses become longer, so this is not a solution to one-off vocabulary or an automatic successor selected for testing.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "completion_status": "COMPLETE_LITERAL_MODULE_ON_DECLARED_DOMAIN; COMPLETE_NEW_WRITER_NOT_IMPLEMENTED_OR_VALIDATED; NATIVE_BINDING_ABSENT",
+  "origin": {
+    "kind": "Invented source-control teaching procedure, no historical attestation asserted",
+    "owner": "bounded_idea_supply under root's explicit bounded producer task",
+    "created_utc": "2026-10-05T22:28:34Z",
+    "exposure": "Prospective construction after reading1175 and later stops; not a preregistered repair of1175. No new source or manuscript data, encoding, frequencies or experiment outcomes were inspected for this construction. The mandatory current route disclosed the1212 decision but no1212 output or count artifact was read or used. Four slots are a fixed small scratch-card design choice, not a measured optimum; no alternative slot-count sweep is proposed."
+  },
+  "purpose": "A reader who already knows the ordinary source language can reuse a fully spelled unfamiliar name without learning a permanent extra codeword. A name is a string, not a resolved person, portion, material identity or meaning. Two distinct referents bearing the same name remain distinct where the unchanged grammar distinguishes them.",
+  "input_and_unchanged_contract": {
+    "base": "research_registry/proposals/production_origin_supply_20261003/B6_7_PRODUCTIVE_STEMS.py",
+    "semantic_description": "research_registry/proposals/production_origin_supply_20261003/B6_7_PRODUCTIVE_STEMS.md",
+    "unchanged": "Retain the existing29 learned roots,17 unary grammatical tags, productive constructors, eight open grammatical reference values, QUOTE0..3 arities, statement marker, AST semantics, grouping, and declared normalization. Modify only emission and reading of the LIT name module, including the LIT spelling inside QUOTE. Do not turn an unsupported source meaning into a known root or resolve pronouns. No new source interpretation is supplied by this card.",
+    "domain": "Finite expressions accepted by the existing grammar. Every LIT name must be a nonempty lowercase a-z string, exactly as in the old spelling module. Unlisted characters, names with spaces, arbitrary Unicode or unsupported source structures require an explicit stop; they are not silently normalized or promised complete coverage. This is not a complete general natural-language transcription scheme.",
+    "reset": "One explicitly visible recipe paragraph begins with four empty slots and pointer0. Physical line wrapping, a statement marker, a grammatical clause or a repeated word NEVER resets the slots. The reset scope is a stipulated source-control boundary, not an identified native recipe boundary.",
+    "traversal": "Process name modules in their actual emitted left-to-right order, including recursive names inside a single composite stem and then the following argument groups. Update the slots exactly once per emitted/read name. Preliminary analysis, tree validation and a later verification pass must not mutate the writing state. There is no backward lookahead or side-channel list of forthcoming names."
+  },
+  "finite_tables": {
+    "working_inventory": ["a", "o", "e", "i", "n", "d", "q", "y", "s", "r", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+    "slot_selectors_in_order": ["a", "o", "e", "i"],
+    "ordinary_letter_signs_for_a_through_s": ["a", "o", "e", "i", "n", "d", "s", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+    "letters_t_through_z": "q followed respectively by a,o,e,i,n,d,s",
+    "spell": "Concatenate these unchanged26 letter codes. In particular spell(name) never contains the raw working sign y or r. Multi-letter labels such as ch denote one existing working sign in this artificial teaching inventory, not proven native atoms.",
+    "not_a_new_native_key": "Every spelling value is the existing artificial teaching assignment. No source word or working sign is proposed as the meaning of a Voynich form."
+  },
+  "name_module": {
+    "state": "Four occupied-or-empty slots containing distinct exact source-name strings, plus a pointer p in0..3. Slot numbers never move. They are not semantic classes. State storage is at most four strings but their total character length is unbounded on this input domain.",
+    "hit": "If the exact name is already in slot s, write l y S_s r. This branch is mandatory. The slot contents and replacement pointer remain unchanged.",
+    "miss": "If absent, write l y y S_p spell(name) r. The spelling must be nonempty. Replace slot p by that name and advance p=(p+1) mod4. Replacement is mandatory even if a different slot seems more useful. The definition is part of the current ordinary semantic expression, not free front matter or an added statement.",
+    "decoder": [
+      "When the unchanged grammatical parser expects a LIT name module, require l followed by y.",
+      "If the next sign is one of a,o,e,i, read it as a slot selector and require the immediate r terminator. Reject an empty slot. Return the stored exact name without updating state.",
+      "If that next sign is y, read exactly one selector a,o,e,i; require it to equal the current pointer. Read a nonempty ordinary spelling to r, with q consuming exactly one of its seven selectors. Reject malformed letters or a name already in any occupied slot. Store the decoded name in the indicated slot and advance the pointer once.",
+      "The normal parser then resumes immediately after r. Grammar tags, constructor structure and QUOTE arity stay outside the name module and retain their existing interpretation. A malformed module is not guessed from context."
+    ],
+    "why_unambiguous": "The reference and definition branches differ at the sign after l y: a slot selector versus y. Literal body spelling contains no raw r, so its end is explicit. The old ordinary l spell r branch is not an optional alternative in this changed module. By induction over emitted name occurrences the reader and writer have the same four names and pointer.",
+    "unknowns_and_repetitions": "An unfamiliar a-z name is fully transmitted on a miss. Single-letter names and adjacent repeated letters use exactly the same spelling rules. An immediate second occurrence after a definition uses a call; all further immediate occurrences use the same unchanged call. Repeated roots outside LIT are entirely unaffected. Whole statements still emit all their old grammatical information. No repeated content is declared meaningless decoration.",
+    "quotation": "The same stored spelling can occur as a noun name and within QUOTE0..3. Only the string is shared. The surrounding unchanged QUOTE marker, arity and arguments remain written and distinguish these uses; the cache does not invent a predicate meaning or silently change arity."
+  },
+  "invented_hand_examples": [
+    {
+      "input_name_occurrences": ["zelmor", "zelmor", "avrek", "zelmor"],
+      "initial_state": "All slots empty; p=0",
+      "trace": [
+        "zelmor: absent, define slot0; write l y y a [q s n p f sh cph] r; p becomes1.",
+        "zelmor: call slot0; write l y a r; p remains1.",
+        "avrek: absent, define slot1; write l y y o [a q e cph n t] r; p becomes2.",
+        "zelmor: call slot0 again; write l y a r; p remains2."
+      ],
+      "notation": "Spaces between working signs and brackets around spell(name) are explanatory typography only, not extra written separators. These are invented strings with no native meaning assignment."
+    },
+    {
+      "input_name_occurrences": ["zelmor", "avrek", "belo", "canu", "dirum", "zelmor", "zelmor"],
+      "trace": "The first four misses fill slots0,1,2,3. dirum replaces slot0 and sets p=1. The returning zelmor is absent and MUST be spelled in full into slot1, replacing avrek; p becomes2. The final zelmor calls slot1. No distance into an arbitrary prior text or recognition of an evicted name permits an unpaid call."
+    },
+    {
+      "input": "An occurrence of LIT:zelmor followed by QUOTE1:zelmor(X)",
+      "trace": "The first name defines slot0. The later quoted predicate still writes the old QUOTE marker and arity1, then l y a r, and its explicit argument X according to the old grammar. The reader restores the exact two distinct expression structures. Only the spelling zelmor is reused; neither the noun nor predicate is translated by the register."
+    }
+  ],
+  "learning_and_cost": {
+    "inherited_learning": "All29 root values,17 grammatical tags, productive and reference rules, QUOTE conventions,26 letter mappings and ordinary source-language meanings remain learned costs. This card does not rename their sum as29 learning items.",
+    "additional_learning": "Four slot labels, two compulsory module patterns, exact-string equality, cyclic replacement, the public paragraph reset and emission-order update rule. Each name requires at most four exact-string comparisons. A scratch card must retain four complete names plus the current pointer; unbounded name length is not free memory.",
+    "written_cost": "Let n be the number of working signs in spell(name), not necessarily its source-letter count. The old literal costs n+2. A new definition costs n+5, exactly three extra signs; a call costs4. In an interval consisting of one definition and m-1 hits before eviction, saving relative to repeatedly using the old literal equals (m-1)(n-2)-3. This is algebra from the declared module, not a measured source result.",
+    "strong_countercases": "A once-used open name is always three signs worse. Names with n<=2 never save under these rules. Repeatedly cycling through five distinct names produces misses and repeated overhead. A reader entering midparagraph lacks prior definitions; there is no free reconstruction from semantic plausibility. Losing a definition can corrupt later calls until replacement/reset.",
+    "cost_comparison_boundary": "A call is still part of the paid open-name channel, not a newly learned semantic root. Any later cost comparison must count definition markers, selectors, every literal-body sign, every call sign, inherited grammar and retained-name memory. Relabeling references as zero spelling payload would not be a fair continuation of1175's cost question. The formula above concerns written module signs only, not semantic learning or total hand effort.",
+    "no_automatic_success_claim": "The mechanism may reduce repeated long spelling payload while making rare one-off vocabulary worse. It provides no reason by itself to think1175's failed transfer cost would pass, nor to select another large run. It also leaves the known root grammar's semantic assumptions and complete-word distribution unvalidated."
+  },
+  "observable_and_selection_limits": {
+    "fixed_discriminator": "A name is redefined after four intervening misses that overwrite all slots, but intervening hits never advance the replacement pointer. Empty-slot calls, a definition into a non-pointer slot, and a literal redefinition of a resident name are invalid. This is a finite exact contract, not arbitrary occurrence-by-occurrence aliases.",
+    "smallest_future_decision": "Before any source run, inspect whether the proposed use requires savings chiefly on one-off names: the algebra already denies that claim. If a future separately authorized source-control application is selected, all definitions, hits, evictions, inherited grammar and physical scratch-card effort must be charged. A favorable module saving would justify only considering that bounded writing aid, not a historical or native reading.",
+    "known_native_obligations": "Same neighboring whole groups and different y/r/l terminal working signs remain prior obligations. This module imposes r only on its own embedded name modules, not two mandatory finals on every group as940 did. It does not therefore inherit940's whole-channel terminal theorem unchanged. It supplies no native classification of which groups contain a LIT, no actual parse of f45r.10 and no claim of compatibility with its full line or q/y distributions.",
+    "no_piece_ud_claim": "The name call is context-readable through its four paid definitions; it is not a global context-free code from names to strings.1201 does not license free changing meanings or macros here. Any optional learned larger reading chunk would have to preserve the underlying expression AND every state update; no such shortcut is added by this card."
+  },
+  "predecessors": [
+    {
+      "id": "IDEA000934",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA934_MODULE_RESULT_20261005.json",
+      "relation": "The earlier stem-prefix replacement must respect a delimited module interface; an unmarked insertion collided with the old grammar, while a paid marker separated it without saving under its fixed table. Here l/r framing and the unused literal y branch are declared explicitly. This is a different literal-state rule, not evidence that a small module automatically improves the full writer."
+    },
+    {
+      "id": "GDT1175",
+      "primary": "experiments/yolo/gdt1175_fixed_writer_b6_8_transfer/REPORT.md",
+      "relation": "The original fixed29-root channel exceeded its declared spelling-cost limit and remains stopped. This new module changes its forward writing rules prospectively; it is not a reinterpretation of that result. First-use vocabulary cost is worsened, not erased."
+    },
+    {
+      "id": "B6_7_MANUAL_SYSTEM7",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/B6_7_MANUAL_DESIGN.md",
+      "section": "7. Rueckverweise",
+      "relation": "An already constructed four-register model stores the last known root in each semantic class. The present four slots are cyclic, store fully paid open-name strings only, and keep old productive grammar. Four registers and lexical references are not novel ideas; the exact name-only miss/hit contract is the proposed difference."
+    },
+    {
+      "id": "GDT1174_SYSTEM10",
+      "primary": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/METHOD.md",
+      "relation": "Explicit material definitions and later calls already exist in the failed ten-system comparison. Those definitions introduce complete material descriptions into a growing paragraph name table. Here only an exact literal spelling is cached in four cyclic slots; no complex expression or whole message becomes a hidden ID. The old failure remains."
+    },
+    {
+      "id": "GDT1179_C",
+      "primary": "experiments/yolo/gdt1179_complete_natural_source_writers/PREREGISTRATION.md",
+      "later_primary": "experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md",
+      "relation": "The failed C writer points to the nearest prior whole word at distances1..503. This module uses four explicit current slots, no countback, and only names inside the inherited semantic grammar. Bounded memory alone is not evidence of improvement."
+    },
+    {
+      "id": "IDEA000940",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_EIGHT_FRAGMENT_CACHE_RAW_20261005.json",
+      "later_primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA940_RESULT_20261005.json",
+      "relation": "940 already uses paid first spellings and eight movable recently used fragments. Its complete one-fragment-per-group END/CONT framing is conditionally contradicted by the three terminal signs. This is not a resized940 writer: no source fragmentation, no END/CONT whole-group framing, no LRU move, and no source-word replacement. The distinct scope is an embedded semantic-name module, whose own native applicability is entirely unbound."
+    },
+    {
+      "id": "IDEA000400_GDT1134",
+      "primary": "research_registry/proposals/raw_pacioli_reciprocal_posting_context.json",
+      "later_primary": "experiments/yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md",
+      "relation": "Real operand references and separate retained values can be meaningful, but1134's complete account relied on an undeclared collection selector/predicate. This module names all four locations, update rules, reset and permitted consumers; no extra semantic object lookup is allowed. It does not reopen accounting meanings."
+    },
+    {
+      "id": "IDEA000441_GDT1005",
+      "primary": "research_registry/proposals/raw_cennini_sparse_state_delta_writer_20260920.json",
+      "later_primary": "experiments/yolo/gdt1005_cennini_lossless_context_records/REPORT.md",
+      "relation": "The fixed FULL/DELTA complete-record writers failed their registered capacity contracts. This proposal neither copies omitted semantic fields nor changes their masks, record ownership or source. Retaining prior strings is related memory use, not permission to revive those failed records."
+    },
+    {
+      "id": "GDT1201",
+      "primary": "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md",
+      "relation": "Multiple learned parses can expand to the same message; this is not free semantic compression. The present contextual module must additionally preserve the actual four-slot state transition. No independent whole-form values or source boundaries are discarded."
+    }
+  ],
+  "review_status": "RAW_UNREVIEWED. Route, composition baseline, targeted search/duplicates, route-check,1175/1005/1134 followup navigation and listed claim-bearing primaries were read. Lexical duplicate hits are not an exhaustive novelty proof. No experimental selection, source encoding, native data access, drawing inspection, statistical claim, historical claim or supported meaning assignment is made.",
+  "ownership": "Only this new raw proposal and its ideas-add record. No root experiment, route, state, ledger or existing source is changed; no extra agent, publication or new corpus."
+}

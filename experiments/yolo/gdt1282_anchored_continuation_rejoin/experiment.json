@@ -1,0 +1,157 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixedexposedliteralcontinuationcensusonly;no rejoininassessablescope,notgeneralgrammar/contentnegative or928revision.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1282_anchored_continuation_rejoin/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1282_anchored_continuation_rejoin/src/validate.py"
+  },
+  "created": "2026-10-08",
+  "dependencies": [
+    "GDT926",
+    "GDT927",
+    "GDT928",
+    "GDT1153"
+  ],
+  "experiment_id": "GDT1282",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt926_repeated_context_continuation_atlas/artifacts/CANDIDATES_ZL3b.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "078ab7de7003ef7257d1d961c84be1451cd1a113db2ad47cfaf5e265d0b504b7"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/artifacts/PARAGRAPHS.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "667ca3ae0705a6bb3ccfcd09ea7ee04e28747e58d810e8fa9379f28c0f4fc89b"
+    },
+    {
+      "path": "experiments/yolo/gdt928_multi_anchor_complete_paragraphs/src/run.py",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "9838c29bc6dbbe57952604b12dd6b009fe55762cd3ede37d2291246207c1c11a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "role": "fixedoldseeds/paragraphs/rawsources oroldcodeforsyntheticcontrol",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "e46b103242363d6dfe6b14f817bf3445c497702b774f4bdd1693ac0822f6bd7f"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "e46b103242363d6dfe6b14f817bf3445c497702b774f4bdd1693ac0822f6bd7f"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "7dbe3f5ecf47922efef6f83415a3ae2712e2734633b78d8e5be36601788f81b9"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/REPORT.md",
+      "role": "primary_report",
+      "sha256": "92e3554cda2c813cd754948760bb07588c34700f3fc50e81dc92882dc9b84966"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/CASES.json",
+      "role": "reproducibility artifact",
+      "sha256": "270c5e5e31f7ea72772ed66f8dbde081b1083f56a2bba20e29f96014036d9eb3"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/DESIGN_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "111a29ce9a47a49aac9ed4f9ae1e977d735affc83564c93e0faf4ba74056cbb2"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/IDEA_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "e561c87a33cf42f303a801a67103272d343eaee521d8d0ed8f90a4cf629e4597"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/PARAGRAPHS.json",
+      "role": "reproducibility artifact",
+      "sha256": "ea20beff4ce9fa6682a8d6bc6ebfe90ad499a80f560925fe959f2330c885612d"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/RAW196_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "032c4f97ba94fa1ff0e8c5864d6daad9860fbf8332074dfebc7aaf7cc3ba8fda"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "491785ad699a4faa77c701b05a53ea2f93ece6e0f48af4499aaa14fcc70fa235"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "cc3cf7c7c4a8ea4584af51176a3ace1d9c4b28d732a07a6b21c51e40bd5e4ebe"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "c2ae56d9f48e966f2b124af06085b36715695d3990cc5ef235aa29ba35cbf5e1"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "3f1cb3feacaa878f4e0ef6baa069e0e44593a15db84e133e4519bcd99e76021d"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "a872a3bf37faea07dea3540051aa4782d84ee9384309a8969f3cc847a2a7eed3"
+    },
+    {
+      "path": "experiments/yolo/gdt1282_anchored_continuation_rejoin/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "e94a7e8d39a56d3e22e790cedc731c24c158fbf8005a2b3899404382544f21bc"
+    }
+  ],
+  "question": "Do the13fixed926contexts rejoin an eligible literal3-wordsequence after nonempty divergentbranches within their completeoriginalparagraphs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "anchored_continuation_rejoin",
+  "status": "NO_LITERAL_REJOIN_IN_FIXED_13",
+  "title": "Fixed-anchor continuation rejoining",
+  "updated": "2026-10-08",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1282_anchored_continuation_rejoin/artifacts/VALIDATION.json"
+  }
+}

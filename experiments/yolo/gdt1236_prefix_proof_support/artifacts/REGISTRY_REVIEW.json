@@ -1,0 +1,60 @@
+{
+  "record_id": "GDT1236",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_20261006_prefix_proof_support",
+  "assessment_basis": "Prospective post-result sensitivity; maximum-minimum quotient proofs with acyclic certificates, saturation and independent threshold reconstruction.",
+  "reason": "Original27bound depends on hapax types; recurring-type/page bound23allreaders,14/15forcedsingletons retained; daldyABCADsupported by recurring dispersed inputs. No corrected corpus or repaired writer.",
+  "blockers": [
+    {
+      "code": "conditional_support_not_error_estimate",
+      "detail": "All original input decisions retained. Threshold2omits12percent of tokens, not a verified error correction; different mathematical lower bounds may exist.",
+      "evidence": [
+        "experiments/yolo/gdt1236_prefix_proof_support/REPORT.md",
+        "experiments/yolo/gdt1236_prefix_proof_support/artifacts/RESULT.json",
+        "experiments/yolo/gdt1236_prefix_proof_support/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "source_correction",
+        "detail": "A documented correction to input support or proof, not choosing a favorable threshold.",
+        "evidence": [
+          "experiments/yolo/gdt1236_prefix_proof_support/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treating common-form compatibility as full-code existence",
+      "Calling all hapaxes errors",
+      "Transferring prefix sensitivity to freeUD without its own evidence",
+      "Selecting a preferred reader or frequency threshold after result"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1233",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1236_prefix_proof_support/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1234",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1236_prefix_proof_support/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1235",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1236_prefix_proof_support/REPORT.md"
+      ]
+    }
+  ]
+}

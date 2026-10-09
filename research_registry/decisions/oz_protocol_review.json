@@ -1,0 +1,75 @@
+{
+  "status": "PASS_DISCOVERY_SCOPE_WITH_PREEXTRACTION_ALGORITHM_CLARIFICATIONS",
+  "input_hashes": {
+    "experiments/yolo/gdt872_whole_pair_directed_profile/PREREGISTRATION.md": "2118bc5d1712fbcbc1b4a509a8d90d3c8be3defc62398e96c973fa6c3f1fae81",
+    "experiments/yolo/gdt872_whole_pair_directed_profile/src/SPEC.json": "961aee15458e8419797113c2d9b3f44163874a1f4260825981a251f023d3d684"
+  },
+  "confirmed": {
+    "anchor_forms": [
+      "cheo",
+      "cheor",
+      "sheo",
+      "sheor"
+    ],
+    "response_forms": [
+      "chdy",
+      "chedy",
+      "cheedy",
+      "cheey",
+      "cheol",
+      "chey",
+      "cho",
+      "chol",
+      "chy",
+      "shdy",
+      "shedy",
+      "sheedy",
+      "sheey",
+      "sheol",
+      "shey",
+      "sho",
+      "shol",
+      "shy"
+    ],
+    "disjoint": true,
+    "pair_reversal_tautology": false,
+    "raw_position_lag_not_filtered_hit_lag": true,
+    "all_intermediate_groups_retain_positions": true,
+    "no_cross_page": true,
+    "primary_distal3to8": true,
+    "near_is_descriptive_only": true,
+    "all_three_editions_not_independent": true,
+    "no_semantic_or_GDT388_score": true
+  },
+  "pre_extraction_clarifications": [
+    {
+      "issue": "Anchor-normalized rate formula unspecified",
+      "recommended": "Define perstratum distinct eligible-anchor count; report hits/eligibleanchors as meanhits pereligibleanchor, whichcanexceed1. Ifalso reporting meanper-anchorhit/opportunity rate, name it separately andexcludezero-opportunityanchors explicitly."
+    },
+    {
+      "issue": "Gap exclusion extent",
+      "recommended": "Check onlytraversed consecutive-groupgaps, includingboth adjacentseparator representations wherepresent. A forbiddenseparator on anouteredge nottraversed by thepair shouldnot discarditsopportunity. DRAWING_ must be prefixmatch, notliteralexactmatch."
+    },
+    {
+      "issue": "Repeated responsepair denominators",
+      "recommended": "Oneeligibleanchor/direction/lag/path isonepooledopportunity. Eachresponsepairtable mayreusethatdenominator, butpooling mustnot sumthe9copies. Includezerohitrows forpair-sidecells."
+    },
+    {
+      "issue": "Diagnostic denominator parity",
+      "recommended": "Alltraversedline3editionrawparity mustapplytoopportunities aswellashits, includingnonresponseendpoints. Sameprimarydenominatorwithfilteredstablehitswouldbiasrate."
+    },
+    {
+      "issue": "Physicalfolio versuspanel grouping",
+      "recommended": "Use existingphysicalfolio mapping; multiplepagepanels ononefolio areonesupportunit. Counts mayretainpageselector while supportdeduplicatesfolio."
+    }
+  ],
+  "interpretation_limits": [
+    "Differentwithin/betweenparagraphdensity andanchorlocationcanproduceprofiledifferences; descriptiveboundaryattenuationdoesnotidentifyreset.",
+    "CH/SHsidelabels areforminventory labels, notalltokenprefixes nor dry/moist meanings.",
+    "Concordanceconditionalonhit andopportunity-normalizedagreement answerdifferentquestions; reportbothwithcounts.",
+    "No genericgoldrequirement: thisisadmissibleexploratorystructuralwork withalloutcomesretained."
+  ],
+  "pipeline_question": "Only ifa directedprofileappears, askwhetheronefixed repeatedformula orone responsepair accountsforit. The currentpreregisteredpair-specificcontributions alreadygivefirstanswer; donotlaunchanotherexperiment torecountthem. A laterheldcontrast shouldbechosenafterdiscovery and labellednewselection, notretroactiveconfirmation. Noindependentnewpipelineexperimentnominatedbeforetheseobservations.",
+  "no_target_access": true,
+  "operative_mutations": false
+}

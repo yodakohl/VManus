@@ -1,0 +1,159 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exposed pooled-sample selection sensitivity only; no independent error rate, native meaning, source identification or writer rescue.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1223_strengthened_screen_self_control/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1223_strengthened_screen_self_control/src/validate.py"
+  },
+  "created": "2026-10-06",
+  "dependencies": [
+    "GDT1174",
+    "GDT1193",
+    "GDT1194",
+    "GDT1195",
+    "GDT1211",
+    "GDT1213"
+  ],
+  "experiment_id": "GDT1223",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "sha256": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/RESULT.json",
+      "sha256": "10bd1e24c5f580dc293f83269df636cb430ead9a412ebd5cb7902d4c830060de",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/TARGET_SAMPLE_IDS.json",
+      "sha256": "c5b18b4903be1a45cd24e01bf399d7ced9e9634524e11ec1e191c58c84d78c99",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/scribes.py",
+      "sha256": "400daada5d4388bad1acaa11cf8add46457cbf5ffeb6cf1d62cdd0ffed4634e6",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1194_paired_tail_orthography/src/run.py",
+      "sha256": "a05244bb5a5308bb84777f36451c90d02a7fc2a5895eb99d75b50702d7d92bb4",
+      "role": "Frozen reference/source/protocol"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/src/SPEC.json",
+      "sha256": "13e33ff7b0e9635176464c41a267588bd2f7675b33d39849ae71f1ea9facf52f",
+      "role": "Frozen reference/source/protocol"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/METHOD.md",
+      "role": "Registered source, compact result or validation",
+      "sha256": "b4373f39ee4b2a915cb500a760bcae64ef62d1fec37761db88409178718cc428"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/PREREGISTRATION.md",
+      "role": "Registered source, compact result or validation",
+      "sha256": "6736e8a8e9ffd3e4f48a5f54b5f2a25c63f932985ffc4160eaa9e0acb4595bbe"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/README.md",
+      "role": "Registered source, compact result or validation",
+      "sha256": "f0ad098cffdae7860856385851e89106954cc7c432421e45c81b216284a81d06"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/REPORT.md",
+      "role": "Primary report",
+      "sha256": "9458a80ae02be6654e2ddd153bfb064766ea9c282ed1fd0919aa490570485e03"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/CLOSURE.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "fe3d0252072193f6b9162f618c537766b79c160794580367091cc8b981dea27f"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/PRE_OUTPUT_FIXTURES.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "2b26ec84555b0193c5dce301351f21fdb61c72b1025cf0ae0d5aedb96b7a1577"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/README.md",
+      "role": "Registered source, compact result or validation",
+      "sha256": "0f10243611981df4e455efabc8d171ab48115918f080ccfe429c5b633313bda1"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/REGISTRATION_LOCK.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "f58cdebef680218a8e8a5393f8e0163a9cba6365c4166803b0888400d342c029"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/REGISTRY_REVIEW.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "b65c4ed210152e8d60c6e7af02fa2aa665e0f2127221f999f7e768f73cccb41f"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/RESULT.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "68075876a87c1b9208e9d99f5a01a961ee48d51724ca527cd3293e74480d997b"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/RUN_RECEIPT.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "930a56558008c85ab16334caada96a897c0b3d818b2afdc44e7751bd360a5594"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/VALIDATION.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "4eed60be6eece9408d8eeb9535b4991c813d0f2be4b66e76c3921b175214b24d"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/src/SPEC.json",
+      "role": "Registered source, compact result or validation",
+      "sha256": "13e33ff7b0e9635176464c41a267588bd2f7675b33d39849ae71f1ea9facf52f"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/src/run.py",
+      "role": "Registered source, compact result or validation",
+      "sha256": "adb33fdb5a2af1acec365a7e3a69c117af3fe3357e78c004e6675bc20638a8c6"
+    },
+    {
+      "path": "experiments/yolo/gdt1223_strengthened_screen_self_control/src/validate.py",
+      "role": "Registered source, compact result or validation",
+      "sha256": "54c93ab44e4892a450bfc7e1f3c30d7aff4b5133a1d7182bb5840e4a81b0525b"
+    }
+  ],
+  "question": "Does the unchanged strengthened writer screen accept the fixed128 alternative native page-order samples across all three candidate readings and all three fixed reference readings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "strengthened_screen_self_control",
+  "status": "STRENGTHENED_SCREEN_OPERATIONALLY_UNSTABLE",
+  "title": "Strengthened writer screen on native selection perturbations",
+  "updated": "2026-10-06",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1223_strengthened_screen_self_control/artifacts/VALIDATION.json"
+  }
+}

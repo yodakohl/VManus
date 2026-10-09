@@ -1,0 +1,5 @@
+# Public dictionary assignment
+
+Writing uses the longest matching source fragment, its globally fixed assigned code, initial counter rotation and public style, then a terminal word-end/continuation sign. Reading reverses that exact table and reconstructs the counter from decoded characters. Source-unit/codeword permutation changes word neighborhoods and length-frequency association; this differs from a glyph renaming and lies outside1186's fixed numeric bound. It does not change or rescue any earlier selected codebook.
+
+The writing algorithm remains human-describable, but a large learned table and reliable counter are still required. Similar code neighbors are a statistically constructed code neighborhood; mnemonic benefit is untested, not attested medieval practice or meanings for actual manuscript words. General word-family/line-position/section constraints are not covered by the ten descriptive metrics. Full source-control reversibility, basic statistical fit and native decipherment must remain separate.

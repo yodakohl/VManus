@@ -1,0 +1,133 @@
+{
+  "title": "RAW UNREVIEWED: a suffix-free letter table with word-end reading and right-quotient capacity",
+  "summary": "A fixed small letter code may be suffix-free without being prefix-free. The writer concatenates codes in ordinary source-letter order; the reader identifies them from the visible word end and restores their source order. Reversing working-unit sequences converts the class exactly into a prefix-code problem, so complete-word right quotients and dual branch counts give necessary capacity bounds. This is a new orientation-specific proposal in the reviewed workflow, not new coding theory, a native reading, an executed count or a completed historical writer.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_CONTRACT_AND_PROOF_NOT_SELECTED_NOT_EXECUTED",
+  "origin": {
+    "producer": "bounded_idea_supply",
+    "proposal_origin": "Root explicitly proposed the suffix-free class and the C={a,ab}, BA example. The producer reviewed the hand contract, exact reversal and dual necessary conditions. This is not an independent discovery by the producer.",
+    "date_utc": "2026-10-06",
+    "deadline_utc": "2026-10-06T12:58:00Z",
+    "exposure": "Live route and bounded ideas/duplicates navigation automatically displayed1234 status/summary metadata. No1234 report, code, result artifact, counts table or native input was opened. No blindness or independent outcome comparison is claimed; no displayed1234 numbers are premises of this proposal.",
+    "access": "Only route/topic/registry navigation, existing conceptual proposals and the listed primary methods/reports. No new native/source query, image, count, solver, encoder, key fit, GDT registration or root-file edit."
+  },
+  "contract": {
+    "working_alphabet": "A fixed finite alphabet A of working units; the contemplated limit is22. Multi-ASCII labels such as ch or cph designate single elements only if that unit binding is explicitly adopted. Their native atomicity is not established here.",
+    "source_alphabet": "A fixed finite source alphabet Sigma with at most22 distinct characters for this proposed small-table class. Each source character has exactly one distinct nonempty codeword over A. No source language or character value is selected here.",
+    "codebook": "C is finite and suffix-free: no distinct codeword is a proper suffix of another. Lengths may be any positive finite integers. Codes can share initial units; distinct long codes can also share terminal units as long as neither is a suffix of the other.",
+    "word_contract": "Each complete source word is written as the concatenation of its character codes in unchanged source order. Visible source-word spaces and paragraph boundaries remain visible. No code crosses a whole-word boundary; no empty code, optional alias, context state, padding or erased character is allowed.",
+    "nontriviality": "At least one codeword longer than one working unit must actually be used in the parse of an observed complete group. Unused long entries do not qualify.",
+    "identity_exception": "C=A always writes every group over A with singleton codes and at most22 entries. A bound above22 can concern only the declared actually-used multi-unit condition, never all suffix-free codes.",
+    "physical_scope": "This is a formal complete-word channel and necessary-condition proposal. A later actual writer must bind a source alphabet, a table, punctuation and a finite physical line contract. Unknown names are spellable only from the declared source alphabet; outside characters are rejected, not silently normalized. Punctuation either consumes declared source-character entries or needs a separately paid visible convention. Words are not allowed to split invisibly over a line; until continuation is specified, only unbroken words fitting the physical line are covered."
+  },
+  "hand_procedure": {
+    "writing": [
+      "Keep the ordinary source-word sequence and character order.",
+      "For each character, copy its fixed table entry in the table's stated orientation.",
+      "Concatenate those entries within the word and write the source-word space. No hidden internal boundary marker is supplied."
+    ],
+    "reading": [
+      "Locate a visible complete word end.",
+      "Read working units leftward until a table entry ending there is identified. Suffix-freeness ensures no shorter or longer rival code ends at that same position.",
+      "Remove that code and repeat on the remaining prefix until the complete group is consumed. A stuck nonempty remainder is invalid.",
+      "The recovered source characters arrive last first. Put them into their original order, for example by writing them right-to-left into a scratch word slot, then read the reconstructed source word normally. Keep the visible sequence of words unchanged."
+    ],
+    "costs": "The reader learns every character/code pairing, the total sum of code lengths, and the end-first lookup rule. Reading needs word-local reverse-order handling or a scratch line; it is not as immediate as ordinary left-to-right letter reading. Normal source-language knowledge is still necessary. No whole-word meanings, private message IDs or dictionary of target forms is provided.",
+    "historical_status": "A modern teachable construction and mathematical class; no historical attestation, native writing direction or reversed plaintext claim."
+  },
+  "unit_reversal_equivalence": {
+    "definition": "rho reverses the ordered list of working units in one string. For a tuple (ch,o,cfh), rho gives (cfh,o,ch), never the character reversal of the printed label cho cfh.",
+    "code_property": "C is suffix-free if and only if rho(C) is prefix-free; codebook size and every code length are unchanged.",
+    "word_property": "w=c1...cn lies in C* if and only if rho(w)=rho(cn)...rho(c1) lies in rho(C)*. The used-multi-unit property is also preserved.",
+    "limit": "This is an exact mathematical reduction on fixed unit sequences. It does not claim the original manuscript, writer, source language or whole paragraph ran backwards. A result on W is not automatically a result on rho(W); the transformed complete groups are a different predeclared input to the dual argument."
+  },
+  "right_quotient_theorem": {
+    "statement": "If u and v=r u both lie in C* for suffix-free C, then r lies in C*.",
+    "direct_proof": "Both strings must have the same last codeword: two possible last codes are suffix-comparable, hence equal by suffix-freeness. Repeated cancellation consumes exactly the known complete code sequence for u from the end of v. The remaining prefix r therefore ends at a true code boundary and is a concatenation of complete codes.",
+    "reversal_proof": "rho(v)=rho(u)rho(r). Apply the prefix-quotient theorem to rho(C), then reverse back.",
+    "closure": "Start R=W and repeatedly add each nonempty r whenever u and r u are already in R. Every resulting string lies in C* and is a prefix of an original word. The closure is finite without imposing a maximum code length.",
+    "singleton": "If the one-unit string g is in R, singleton g is an actual codeword. Suffix-freeness then forbids any longer code ending in g.",
+    "not_a_native_word_claim": "A derived prefix is a complete code string under this contract, not a newly attested standalone manuscript word or a known source-language word.",
+    "wrong_side_counterexample": "C={a,ab} is suffix-free. The strings a and ab are legal, but deleting the complete LEFT prefix a from ab leaves b, which is not in C*. Left cancellation is therefore not licensed for this class.",
+    "mere_UD_counterexample": "C={a,ba} is prefix-free and hence freely uniquely decodable, but it is not suffix-free. Both a and ba are legal, whereas the right quotient b is not. Thus the right-quotient implication does not hold for arbitrary UD codes.",
+    "grammar_limit": "A code may be readable only after restricting legal source strings or using grammar, despite failing free UD. That is a different contract. For example A->a, B->aa is unambiguous if the only allowed source words are the single letters A and B, but unrestricted source AA collides with B. No such source-language restriction can be imported here as an uncharged substitute for suffix-freeness."
+  },
+  "dual_necessary_capacity": {
+    "definitions": {
+      "H": "Terminal units of all nonempty strings in the right-quotient closure R.",
+      "F": "Units whose singleton strings occur in R; F is a subset of H.",
+      "T": "For each exactly two-unit string ab in R, add the directed edge b->a.",
+      "d_h": "Number of distinct penultimate units among R strings of length at least2 ending in h.",
+      "candidate_g": "Terminal unit of an actually used multi-unit code. Consider every unit occurring anywhere in W, including g not in H.",
+      "N_g": "g together with every vertex that reaches g along directed edges of T.",
+      "K_g": "H union {g}."
+    },
+    "basic": "|C|>=|H|, because different required terminal units need different codewords.",
+    "propagation": "For ab in R, singleton b implies singleton a by the right quotient. Contrapositively, if a is non-singleton then b is non-singleton. A used long code ending g excludes singleton g, so every h in N_g is non-singleton.",
+    "impossible_candidate": "N_g intersect F nonempty contradicts that candidate. If R is fully closed, F is already forward-closed under T, so for g not in F this extra test is redundant but remains a useful consistency check.",
+    "branch_obligation": "If singleton h is forbidden, two legal strings ending in h with different penultimate units need different h-ending codes. Hence at least max(1,d_h) codes ending in h are needed. The1 covers an actually used g outside H.",
+    "first_bound": "For a possible candidate g: |C|>=|H union {g}|+max(1,d_g)-1.",
+    "propagated_bound": "For a possible candidate g: |C|>=|K_g|+sum over h in N_g of (max(1,d_h)-1). Proper predecessors belong to H because they terminate an R two-unit string; therefore N_g is contained in K_g and no terminal-class contribution is double-counted.",
+    "global_bound": "Take the minimum over all possible actually-used multi-unit terminal candidates g. If none remain, only singleton usage is possible. If the minimum exceeds22, the declared small nontrivial suffix-free class is excluded. A bound at most22 is only NOT EXCLUDED; it does not prove existence, exact minimality, a key or a language.",
+    "no_presumed_number": "No native bound is computed or predicted here. Neither23nor any earlier prefix-side number is assumed."
+  },
+  "small_hand_examples": [
+    {
+      "purpose": "Positive suffix-free but non-prefix-free hand reading",
+      "source_table": {"A": "a", "B": "ab"},
+      "source_word": "BA",
+      "written_group": "aba",
+      "end_first_steps": ["Strip final a, recover A.", "Strip remaining ab, recover B.", "Reverse the recovered list [A,B] to source order [B,A]."],
+      "qualification": "A and B are merely invented source-character names; no native value or meaningful-language claim is attached to this two-letter example."
+    },
+    {
+      "purpose": "Multiple codes may share a terminal unit",
+      "C": ["a", "ab", "cb"],
+      "reason": "Suffix-free: a ends neither ab nor cb, and the two b-ending codes are equal length and different. This is not the one-code-per-terminal special case."
+    },
+    {
+      "purpose": "Right quotients can force identity",
+      "W": ["a", "ba", "ca"],
+      "reason": "Removing the complete suffix a from ba and ca forces singleton b and c. Singleton a,b,c then forbid every used longer code ending in the observed alphabet."
+    },
+    {
+      "purpose": "Sharp nontrivial size can exceed identity size",
+      "W": ["aa", "ab", "ba", "bb"],
+      "identity_C": ["a", "b"],
+      "nontrivial_C": ["aa", "ab", "ba", "bb"],
+      "proof": "If either singleton occurs, the two-unit whole strings force the other singleton by right cancellation, so no used longer code remains possible. Otherwise every length2 word must itself be a code. Thus the exact nontrivial minimum is4 for this toy set, while identity uses2."
+    }
+  ],
+  "known_form_and_statistical_obligations": {
+    "repeats": "No state changes between words: identical whole words and triples are legal whenever the underlying repeated source word is legal. If X is a legal code string, XX is legal too. This gives formal capacity only, not a semantic assignment or predicted frequency.",
+    "diversity": "There is no fixed three-unit interior alphabet or six-terminal-role table. This does not prove compatibility with any known long or short native group.",
+    "q_and_y": "No privileged q/o transition or y-ending rule is introduced. Their known statistical obligations remain entirely unaddressed by free decoding alone.",
+    "word_statistics": "With one fixed injective letter code and preserved source-word spaces, distinct source words remain distinct output groups, so word types and complete-word equality frequencies are preserved. Prior source-specific word-frequency exclusions therefore still apply when their same source/input assumptions are adopted. This proposal is not a rescue of those writers."
+  },
+  "predecessor_and_duplicate_boundary": [
+    {
+      "id": "IDEA000961",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_PREFIX_QUOTIENT_CAPACITY_RAW_20261006.json",
+      "relation": "Exact mathematical dual on reversed working-unit sequences. The underlying proof method is not new; the changed contract is suffix-free rather than prefix-free in the fixed original orientation. A prefix-code result alone cannot exclude suffix-free codes on unchanged W."
+    },
+    {
+      "id": "GDT892 and GDT906",
+      "primaries_read": [
+        "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/METHOD.md",
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md"
+      ],
+      "relation": "The old globally prefix-free length1/2 CV table and fixed Latin grammar are narrower, source-bound constructions.892 lacked enough control sentences;906 exhausted its fixed space without a grammar-valid key. No old key, source grammar, native assignment or larger solver is resumed."
+    },
+    {
+      "id": "GDT856",
+      "primary_read": "experiments/yolo/gdt856_codeword_unique_decodability/REPORT.md",
+      "relation": "The98-unit inventory's free-UD collision remains. Grammar/BPE-dependent canonicalization is distinct from free code uniqueness, just as suffix-free is distinct from arbitrary UD here. No old unit inventory is adopted."
+    },
+    {
+      "id": "GDT1233 / GDT1234",
+      "relation": "Known through route/registry metadata and their already reviewed conceptual premises only in this block. Neither result is repaired. No claim about the suffix-free application outcome is inferred from them. Root must own any later scientific selection and primary result comparison."
+    }
+  ],
+  "duplicate_review": "Root reported targeted suffix-free/right-quotient route and primary searches. The producer separately used bounded ideas search/duplicates, topic retrieval and the cited primaries. These did not establish an already executed identical suffix-side capacity application; this is not a claim of exhaustive archival absence or mathematical novelty.",
+  "smallest_changed_decision": "If independently selected, apply only the declared dual necessary conditions to reversed lists of already admitted complete working-unit groups, retaining all cases and identity. A verified exclusion would close this additional small-table reading convention; a weak bound would leave it unresolved and would not justify a decoder or26/28-entry expansion. No such application is performed here."
+}

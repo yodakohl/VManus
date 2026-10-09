@@ -1,0 +1,83 @@
+{
+  "record_id": "GDT1234",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_20261006_prefix_quotient_bound",
+  "assessment_basis": "Frozen unchanged whole-group input; complete quotient derivations and necessary codebook bounds independently replayed; exhaustive binary fixtures before target.",
+  "reason": "A nontrivial fixed prefix-free word-preserving code requires at least27entries in every reading.22/26excluded;28merelynot excluded; identity22alwayspossible.",
+  "blockers": [
+    {
+      "code": "no_small_table_construction_or_meaning",
+      "detail": "Necessary bound is not exact minimum; no27/28table or source content. Several retained singleton proofs depend on one-token transcriptions.",
+      "evidence": [
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md",
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/artifacts/RESULT.json",
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/artifacts/VALIDATION.json",
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/artifacts/PROOF_EXAMPLES.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A separately motivated explicit writer contract and decision-changing falsifier; no automatic code solver or atom/space repair.",
+        "evidence": [
+          "experiments/yolo/gdt1234_prefix_quotient_code_capacity/PREREGISTRATION.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Identity table as a nontrivial solution",
+      "Another sourceletter renaming",
+      "Longer maximum codes: lengths already arbitrary finite",
+      "Ignoring rare readings retrospectively",
+      "Claiming27or28entries are sufficient from the lower bound"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000961",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT856",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT892",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT984",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1168",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1233",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

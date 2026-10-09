@@ -1,0 +1,38 @@
+{
+  "status": "LITERAL_CARRIER_END_Y_IMPOSSIBLE__GROUPING_UNTESTED",
+  "raw_card_sha256": "bffa424c11747fff96e65b2300521fb0c44ddd19f66262b4ef4e8c94108f1390",
+  "checker_sha256": "360061f894acfc0fcd4369f32802e831ed5b84f4f9ef86512c1042f03a9d7bd5",
+  "source_character_codes": 82,
+  "prefix_codes": 12,
+  "possible_primitive_terminal_signs": [
+    "a",
+    "cfh",
+    "ch",
+    "ckh",
+    "cph",
+    "cth",
+    "d",
+    "e",
+    "f",
+    "i",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "s",
+    "sh",
+    "t"
+  ],
+  "proof": "Every legal nonempty group is a concatenation of complete marked-prefix codes and/or complete character codes. Its last sign is the last sign of its last code. All those terminal signs exclude y. A y escape has two required following selectors. The final marker-only run also ends in a non-y selector. Physical wraps occur only between complete groups.",
+  "consequence": "The literal unchanged teaching carrier cannot emit a complete y-final group, including the retained definite daldy group at f45r.10. This uses the specified working drawing labels, not a discovered native alphabet.",
+  "native_primary": "experiments/yolo/gdt1198_daldy_exact_contexts/REPORT.md",
+  "limits": [
+    "No source encoding, frequency test, new manuscript count/image or meaning.",
+    "The exact twelve-word grouping has not been executed by GDT1176/1177; their lists differ.",
+    "Different carriers and prefix grouping as a family are not refuted.",
+    "No automatic carrier, grouping-list, source or threshold repair."
+  ],
+  "review": "Root proof; bounded producer independently read the raw rule and confirmed the terminal argument without data queries. Same-author code is a finite primitive check, not an independent manuscript reading."
+}

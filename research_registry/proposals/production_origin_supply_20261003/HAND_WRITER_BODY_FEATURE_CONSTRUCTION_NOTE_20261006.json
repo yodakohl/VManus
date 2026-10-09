@@ -1,0 +1,87 @@
+{
+  "title": "Linear base body plus distinguishing features: a complete teaching construction and its limits",
+  "status": "UNREVIEWED_CONSTRUCTION_NOTE_NOT_REGISTERED_AS_A_NEW_CANDIDATE",
+  "ownership": "Root suggested the body-plus-feature direction and the Unicode primary. The bounded producer checked predecessors and wrote this artificial lesson without source/native encoding or measurements. It is not a historical alphabet, a Voynich letter assignment or a selected statistical candidate.",
+  "source_positive": {
+    "url": "https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-9/",
+    "stable_page": "https://unicode.org/versions/Unicode17.0.0/core-spec/chapter-9/",
+    "locations": "Section9.2.1 Encoding Principles, Ijam versus Tashkil; section9.2.4 Arabic Joining Groups, BEH example.",
+    "finding": "The specification distinguishes letter-identifying ijam from vocalization marks. BEH, TEH and THEH share a skeleton/joining family but differ by one dot below, two above and three above. Thus similar bodies can belong to different letters; resemblance does not require that they encode the same word stem.",
+    "limit": "This modern encoding description supports the stated Arabic structural example. It supplies neither a medieval date for this artificial lesson nor a native Voynich decomposition. Its above/below geometry is not the following linear notation; no missing vowel is recovered from the source analogy."
+  },
+  "complete_artificial_lesson": {
+    "purpose": "Demonstrate exactly how a shared drawn body can support several distinct letter values while retaining every character and every word boundary. It does not claim compression or reduced word-frequency concentration.",
+    "source_contract": "Nonempty words/tokens over the82 explicitly listed characters, separated by one source space, with explicit paragraph breaks. Punctuation remains in its original token. Repeated whitespace and original physical lineation are outside this input convention. There is no lowercasing, vowel omission, orthographic normalization, hidden whole-word dictionary or language identification.",
+    "ordinary_source_characters_in_order": "abcdefghijklmnopqrstuvwxyz",
+    "additional_source_characters_in_order": ["ä","ö","ü","ß","0","1","2","3","4","5","6","7","8","9",".",",",";",":","!","?","(",")","-","/","'","\"","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","Ä","Ö","Ü","ẞ"],
+    "source_inventory_predecessor": "The same ordered26+56 input characters are retained from HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json. No source corpus was opened to choose this set.",
+    "working_body_signs_in_order": ["a","o","i","n","d","q","y","s","r","l","m","k","t","p","f","ch","sh","ckh","cth","cph","cfh"],
+    "feature_sign": "e",
+    "atom_assumption": "Each listed spelling label denotes one working drawing in the artificial lesson, including ch and ckh. e is disjoint from every body. This is not an established native atomic inventory.",
+    "fixed_assignment": "Append the additional source list to a-z. The source character with zero-based index j is assigned body floor(j/4) followed by j modulo4 copies of e. The learner may instead use the equivalent21-row table with four columns. There are84 possible cells; the last row's columns2and3 are unused and illegal. The last row's columns0and1 encode Ü and ẞ.",
+    "writing": [
+      "For each next source character consult its fixed row and column. Write its body once, always, then0,1,2or3 feature signs on the same baseline immediately after it.",
+      "Proceed to the next source character by writing its complete body anew, even if it equals the previous body. No body suppression, ligature, optional point, vowel deletion or persistent alphabet state is allowed.",
+      "Preserve every source space as a visible group boundary and each paragraph break. A source word therefore produces exactly one complete written group.",
+      "Keep each word on one physical line and move it intact when necessary. An overwide word needs a larger writing surface; no unmarked within-word wrap is licensed. This page-width cost is not claimed to fit the manuscript. Line and paragraph starts change no code."
+    ],
+    "reading": [
+      "At group start require one of the21 bodies. Read it and the maximal immediately following run of e. The next different sign begins the next character cell; the written space ends the group.",
+      "Require0through3 feature signs, compute the row/column source character, and reject either unused cell. A leading e, a run longer than3, or a missing recognized body is illegal.",
+      "Emit the recovered source character and continue. Preserve spaces and paragraph breaks. Because every body is distinct from e, the cell division and source character are unique. No global memory or guessed word is needed."
+    ],
+    "single_character_and_repeats": "A single source character is one complete cell. Repeated letters retain repeated bodies: aa gives aa, b gives ae, bb gives aeae, and c gives aee. Identical complete source words give identical complete groups without a mandatory common initial or final sign. A valid whole code B can be concatenated with itself inside one group to represent the repeated source string.",
+    "open_words": "Every unfamiliar word over the82 input characters is spelled character by character by the same rule. A character outside that set is explicitly unsupported, never deleted or guessed. For example, the invented name nara is [ne][a][de][a], with brackets shown only to explain the four paid cells.",
+    "complete_invented_example": {
+      "source": "lege lege salz.",
+      "cell_trace": ["[ieee][o][oee][o]", "[ieee][o][oee][o]", "[dee][a][ieee][ye][m]"],
+      "written_groups": ["ieeeooeeo", "ieeeooeeo", "deeaieeeyem"],
+      "inverse": "l-e-g-e | l-e-g-e | s-a-l-z-.",
+      "qualification": "All letter values in this artificial example are stipulated teaching values. These group strings are not claimed to be manuscript words or translations. Brackets and hyphens in the trace are metanotation, not uncharged written delimiters."
+    },
+    "learning_and_writing_cost": "The user still knows the ordinary source language and its spellings. The notation requires21 body drawings, one feature drawing, the fixed82 source-character positions or their equivalent row/column table, and counting up to3. It stores no prior word or record, but82 character assignments are not merely22 learned letter values. Every source character costs1through4 working drawings; repeated bodies are never saved. Long uncommon words retain their full spelling cost."
+  },
+  "nonfree_suppression_counterexample": {
+    "premise": "Only for demonstrating why adding optional suppression changes and can break the lesson: allow an immediately repeated body to disappear while retaining its feature signs.",
+    "collision": "b is ae and c is aee. Fully written bb is aeae. If the second a may be suppressed, bb can also become aee, identical to c. The two decoded strings differ.",
+    "consequence": "A reader cannot distinguish those messages from the shortened string alone. A mandatory, uniquely readable separator, a separate repeat operation, a restricted source domain or another paid convention would be required. None is added here. Arabic ijam as described by Unicode does not justify the invented suppression rule."
+  },
+  "necessary_consequences_and_known_limits": [
+    "The complete lesson has a globally fixed disjoint body/feature partition. No legal group starts with the feature sign, and no feature run exceeds3. These are falsifiable consequences after such a native binding is independently proposed, not permission to find whichever native mark passes them.",
+    "All complete source words preserve exact equality and inequality. Consequently type counts, top-ten share and identical adjacent-word events are unchanged by this injective word-for-word representation. GDT1202's existing necessary-frequency rejection on its four fixed sources covers this use already; no new run is warranted merely for a body/feature font.",
+    "Diverse endings and direct identical whole-word repeats are possible. That ability does not prove the observed q-to-o pattern, final y distribution, local daldy family, word lengths or whole-form residuals. None was measured or fitted here.",
+    "The most direct Unicode-inspired graphical alternative would use actual attached distinctions inside the22 complete working drawings. No such decomposition or letter inventory has been fixed here. Introducing unlisted dots or moving existing strokes without a declared rule would change the repertoire rather than explain it."
+  ],
+  "predecessor_review": [
+    {
+      "id": "IDEA000931",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_TWO_BANK_TOGGLE_RAW_20261005.json",
+      "later_primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_TOGGLE_REVIEW_RESULT_20261005.json",
+      "relation": "The reviewed alternative already applies an explicit selector only to the next payload, contrasting it with a persistent toggle. A local row/column selector is therefore not a newly discovered coding family. The present postfix unary selector and different table size are not the exact old14-sign instance, but merely changing those details does not create evidence or revive its cardinality failure."
+    },
+    {
+      "id": "IDEA000932",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_STACKED_VOWEL_RUNS_RAW_20261005.json",
+      "later_primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA932_REVIEW_20261005.json",
+      "relation": "932's upper stacks encode separate vowel runs after consonants and require a special initial empty carrier. Here a feature only selects which single character a complete body cell encodes. There is no vowel classification, upper stack or empty carrier. This conceptual distinction does not repair932's conditional projection or bind any native mark."
+    },
+    {
+      "id": "IDEA000935",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_MULTIGRAPH_SHORTHAND_RAW_20261005.json",
+      "relation": "The same finite full-spelling input alphabet and general literal recovery cost already exist. Its exact16 shortcuts differ and are not copied here. Both static word-preserving channels retain whole-word frequencies."
+    },
+    {
+      "id": "GDT1202",
+      "primary": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "relation": "The fixed four-source one-word/one-group capacity rejection remains. A different font cannot alter equality-frequency cells. No claim that all languages or all body-feature scripts are excluded follows."
+    },
+    {
+      "id": "GDT965_GDT966",
+      "primary": "experiments/yolo/gdt965_genizah_complete_record_grapheme_code/REPORT.md",
+      "later_primary": "experiments/yolo/gdt966_genizah_constructed_clause_code/REPORT.md",
+      "relation": "These earlier printed Judaeo-Arabic source/code contracts have their own retained failures and unknown scope.966 fixes one complete source word per group;965 did not require source-word/EVA-group identity. Neither establishes this graphic body-feature lesson, an Arabic source language or native values. No old source is reopened."
+    }
+  ],
+  "retention_decision": "Retain this concrete source-linked construction/cost note, not an additional priority raw card. The familiar body/feature principle is real; the new linear lesson is a transparent local character code with already known source-frequency limits. A native graphic decomposition or a different content/grouping contract remains a separate hypothesis, not supplied by calling the notation Arabic-like.",
+  "access": "Read the explicitly named public Unicode primary and existing route, bounded registry cards and primary reports. No new manuscript image, raw source/native query, source encoding, measurement, corpus, reserve, experiment, parent-file edit or publication."
+}

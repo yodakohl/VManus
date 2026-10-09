@@ -1,0 +1,414 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-06T12:51:03.901545+00:00",
+  "all_binary_codebooks_checked": 16383,
+  "binary_ud_codebooks": 1033,
+  "word_sets": 455,
+  "compatible_book_word_pairs": 19951,
+  "used_nontrivial_bound_checks": 19496,
+  "named": [
+    {
+      "W": [
+        "a",
+        "ab"
+      ],
+      "alphabet": [
+        "a",
+        "b"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "rows": [
+          {
+            "mask": 0,
+            "singletons": [
+              "a"
+            ],
+            "forced_code_count": 2,
+            "ud": {
+              "status": "UD",
+              "residuals": [
+                [
+                  "b"
+                ]
+              ]
+            },
+            "bound": 2,
+            "extra_head_codes": {
+              "b": 0
+            }
+          }
+        ],
+        "summary": {
+          "initial_singletons": [
+            "a"
+          ],
+          "optional_signs": [
+            "b"
+          ],
+          "whole_pair_types": 1,
+          "original_second_signs": {
+            "a": [
+              "b"
+            ],
+            "b": []
+          },
+          "proper_sets": 1,
+          "non_ud_subcodes": 0,
+          "ud_subcodes": 1,
+          "forced_singletons_from_short_code_condition": [
+            "a"
+          ],
+          "necessary_nontrivial_bound": 2,
+          "bound_histogram": {
+            "2": 1
+          },
+          "minimum_sets": [
+            0
+          ],
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          },
+          "decision": "NECESSARY_BOUND_ONLY",
+          "identity": "Always compatible; no used longer code can coexist with all alphabet singletons."
+        }
+      }
+    },
+    {
+      "W": [
+        "a",
+        "c",
+        "ab",
+        "bc"
+      ],
+      "alphabet": [
+        "a",
+        "b",
+        "c"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "rows": [
+          {
+            "mask": 0,
+            "singletons": [
+              "a",
+              "c"
+            ],
+            "forced_code_count": 4,
+            "ud": {
+              "status": "NON_UD",
+              "left": [
+                2,
+                1
+              ],
+              "right": [
+                0,
+                3
+              ]
+            }
+          }
+        ],
+        "summary": {
+          "initial_singletons": [
+            "a",
+            "c"
+          ],
+          "optional_signs": [
+            "b"
+          ],
+          "whole_pair_types": 2,
+          "original_second_signs": {
+            "a": [
+              "b"
+            ],
+            "b": [
+              "c"
+            ],
+            "c": []
+          },
+          "proper_sets": 1,
+          "non_ud_subcodes": 1,
+          "ud_subcodes": 0,
+          "forced_singletons_from_short_code_condition": [
+            "a",
+            "b",
+            "c"
+          ],
+          "necessary_nontrivial_bound": null,
+          "bound_histogram": {},
+          "minimum_sets": [],
+          "caps": {
+            "22": "EXCLUDED_NONTRIVIAL",
+            "26": "EXCLUDED_NONTRIVIAL",
+            "28": "EXCLUDED_NONTRIVIAL"
+          },
+          "decision": "ONLY_IDENTITY",
+          "identity": "Always compatible; no used longer code can coexist with all alphabet singletons."
+        }
+      }
+    },
+    {
+      "W": [
+        "aa",
+        "b"
+      ],
+      "alphabet": [
+        "a",
+        "b"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "rows": [
+          {
+            "mask": 0,
+            "singletons": [
+              "b"
+            ],
+            "forced_code_count": 2,
+            "ud": {
+              "status": "UD",
+              "residuals": []
+            },
+            "bound": 2,
+            "extra_head_codes": {
+              "a": 0
+            }
+          }
+        ],
+        "summary": {
+          "initial_singletons": [
+            "b"
+          ],
+          "optional_signs": [
+            "a"
+          ],
+          "whole_pair_types": 1,
+          "original_second_signs": {
+            "a": [
+              "a"
+            ],
+            "b": []
+          },
+          "proper_sets": 1,
+          "non_ud_subcodes": 0,
+          "ud_subcodes": 1,
+          "forced_singletons_from_short_code_condition": [
+            "b"
+          ],
+          "necessary_nontrivial_bound": 2,
+          "bound_histogram": {
+            "2": 1
+          },
+          "minimum_sets": [
+            0
+          ],
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          },
+          "decision": "NECESSARY_BOUND_ONLY",
+          "identity": "Always compatible; no used longer code can coexist with all alphabet singletons."
+        }
+      }
+    },
+    {
+      "W": [
+        "aaa",
+        "b"
+      ],
+      "alphabet": [
+        "a",
+        "b"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "rows": [
+          {
+            "mask": 0,
+            "singletons": [
+              "b"
+            ],
+            "forced_code_count": 1,
+            "ud": {
+              "status": "UD",
+              "residuals": []
+            },
+            "bound": 2,
+            "extra_head_codes": {
+              "a": 1
+            }
+          }
+        ],
+        "summary": {
+          "initial_singletons": [
+            "b"
+          ],
+          "optional_signs": [
+            "a"
+          ],
+          "whole_pair_types": 0,
+          "original_second_signs": {
+            "a": [
+              "a"
+            ],
+            "b": []
+          },
+          "proper_sets": 1,
+          "non_ud_subcodes": 0,
+          "ud_subcodes": 1,
+          "forced_singletons_from_short_code_condition": [
+            "b"
+          ],
+          "necessary_nontrivial_bound": 2,
+          "bound_histogram": {
+            "2": 1
+          },
+          "minimum_sets": [
+            0
+          ],
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          },
+          "decision": "NECESSARY_BOUND_ONLY",
+          "identity": "Always compatible; no used longer code can coexist with all alphabet singletons."
+        }
+      }
+    },
+    {
+      "W": [
+        "aa",
+        "aaa"
+      ],
+      "alphabet": [
+        "a"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "rows": [
+          {
+            "mask": 0,
+            "singletons": [],
+            "forced_code_count": 1,
+            "ud": {
+              "status": "UD",
+              "residuals": []
+            },
+            "bound": 1,
+            "extra_head_codes": {
+              "a": 0
+            }
+          }
+        ],
+        "summary": {
+          "initial_singletons": [],
+          "optional_signs": [
+            "a"
+          ],
+          "whole_pair_types": 1,
+          "original_second_signs": {
+            "a": [
+              "a"
+            ]
+          },
+          "proper_sets": 1,
+          "non_ud_subcodes": 0,
+          "ud_subcodes": 1,
+          "forced_singletons_from_short_code_condition": [],
+          "necessary_nontrivial_bound": 1,
+          "bound_histogram": {
+            "1": 1
+          },
+          "minimum_sets": [
+            0
+          ],
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          },
+          "decision": "NECESSARY_BOUND_ONLY",
+          "identity": "Always compatible; no used longer code can coexist with all alphabet singletons."
+        }
+      }
+    },
+    {
+      "W": [
+        "a",
+        "ab",
+        "bba"
+      ],
+      "alphabet": [
+        "a",
+        "b"
+      ],
+      "certificate": {
+        "status": "COMPLETE",
+        "rows": [
+          {
+            "mask": 0,
+            "singletons": [
+              "a"
+            ],
+            "forced_code_count": 2,
+            "ud": {
+              "status": "UD",
+              "residuals": [
+                [
+                  "b"
+                ]
+              ]
+            },
+            "bound": 3,
+            "extra_head_codes": {
+              "b": 1
+            }
+          }
+        ],
+        "summary": {
+          "initial_singletons": [
+            "a"
+          ],
+          "optional_signs": [
+            "b"
+          ],
+          "whole_pair_types": 1,
+          "original_second_signs": {
+            "a": [
+              "b"
+            ],
+            "b": [
+              "b"
+            ]
+          },
+          "proper_sets": 1,
+          "non_ud_subcodes": 0,
+          "ud_subcodes": 1,
+          "forced_singletons_from_short_code_condition": [
+            "a"
+          ],
+          "necessary_nontrivial_bound": 3,
+          "bound_histogram": {
+            "3": 1
+          },
+          "minimum_sets": [
+            0
+          ],
+          "caps": {
+            "22": "NOT_EXCLUDED",
+            "26": "NOT_EXCLUDED",
+            "28": "NOT_EXCLUDED"
+          },
+          "decision": "NECESSARY_BOUND_ONLY",
+          "identity": "Always compatible; no used longer code can coexist with all alphabet singletons."
+        }
+      }
+    }
+  ],
+  "extra_named_limit": "Unaryaa/aaa survives necessary bound1 with S empty, but has no actual unaryUDfull writer; do not treat bounds as existence."
+}

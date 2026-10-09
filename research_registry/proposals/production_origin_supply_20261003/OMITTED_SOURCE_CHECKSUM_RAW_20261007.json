@@ -1,0 +1,42 @@
+{
+  "title": "RAW INCOMPLETE: omitted-source checksum resolves a paid lexical contraction",
+  "scope": "method",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. Keep a small explicit source prefix, describe omitted length, and transmit an order-sensitive checksum of the OMITTED SOURCE suffix. A fixed public wordbook supplies candidates; ambiguous or absent candidates require a paid unambiguous literal mode. Unlike IP014, the extra value is not a deterministic function of the remaining visible spelling. Actual wordbook, finite carrier and escape/interface grammar are missing; this is not a successful shortening or native checksum assignment.",
+  "design": {
+    "stage": "Raw incomplete candidate; no complete writer, source run or native selection.",
+    "core_contract": [
+      "Fix a source alphabet with integer ranks and one public wordbook L before any comparison. Consider retaining the first two source letters P and omitting the rest R; short words need an explicitly defined literal case.",
+      "The abstract short record is (P, len(R), H(R)), where an illustrative fixed choice is H(R)=sum((i+1)*rank(R[i])) modulo19. This is a SOURCE suffix checksum, not a checksum of the visible Voynich prefix. No native glyph encodes any field yet.",
+      "Reader selects words in L matching all three fields. Use short mode only if the candidate is unique. Otherwise use a separately and visibly marked full-spelling mode. Its markers, payload and group boundaries must be charged, never recovered from an invisible mode decision.",
+      "The modulus and weighted formula are a concrete raw example, not an optimized or tested choice. No search across moduli/weights or native terminal signs is selected."
+    ],
+    "manual_collision_to_keep": "With source ranks A=1,B=2,C=3, omitted strings CA and AB both have length2 and weighted sum5. Thus XXCA and XXAB share the same proposed short record for every modulus. A checksum alone is not an inverse; L must disambiguate or literal mode must remain.",
+    "difference_from_priors": [
+      "IP014fixed terminal=F(visible prefix) remains contradicted by old okalal/okalam. Here a different hidden source suffix may carry different information even when the kept prefix agrees; the old exact function is not rescued.",
+      "934uses shortest distinguishing prefixes and a source wordbook; its interface collision and costs remain. This candidate retains a deliberately limited prefix and pays additional information about omitted content. It must be checked for real novelty/benefit against934 before selection.",
+      "A canonical one-word-to-one-group implementation still preserves word equality frequencies.1202and1226retain their four-source and mixture exclusions; changing the letter carrier cannot fix them. No new source is chosen to evade those stops."
+    ],
+    "preselection_requirements": [
+      "Read the claim-bearing IP014/GDT800,934interface and whole-word frequency primaries; a different design label does not satisfy reopening gates.",
+      "Freeze L, source projection, all finite field encodings, length convention, escape discrimination, complete message grammar and a small work budget before a source run.",
+      "The minimum useful source test must count checksum collisions, literal fallbacks and ALL marker/wordbook costs while preserving the full source. If it does not alter a research decision, do not implement a large decoder.",
+      "No native word or terminal-glyph meaning is assigned. An apparent form family or one picture is not evidence for the checksum fields."
+    ],
+    "unresolved": [
+      "concrete wordbook/source",
+      "finite22-sign field carrier",
+      "short-word and literal-mode interface",
+      "collision/escape costs",
+      "full statistical fit",
+      "independent native evidence distinguishing this from ordinary morphology"
+    ],
+    "primary_pointers": [
+      "experiments/yolo/gdt800_terminal_b2_b3_line_final_bridge/REPORT.md",
+      "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA934_MODULE_RESULT_20261005.json",
+      "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/REPORT.md"
+    ],
+    "native_meanings_assigned": 0,
+    "new_data_or_scores": false
+  }
+}

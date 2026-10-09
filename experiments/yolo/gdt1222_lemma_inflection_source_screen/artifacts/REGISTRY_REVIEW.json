@@ -1,0 +1,79 @@
+{
+  "record_id": "GDT1222",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root; separate same-author source reconstruction",
+  "assessment_basis": "primary_reports",
+  "reason": "All9type comparisons pass; SCG2/3 fail all6top-ten comparisons, while SCG4 passes both metrics against all3readers. Joint fixed contract fails;19381projected sentence inverses and independent implementation PASS.",
+  "blockers": [
+    {
+      "code": "lemma_inflection_common_word_excess",
+      "detail": "SCG2/3top-ten counts1606/1657 exceed every old upper bound. Common injective group renderer cannot alter this equality pattern; SCG4positive remains scoped.",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md",
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/artifacts/RESULT.json",
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [],
+    "not_sufficient": [
+      "Selecting the already observed passing SCG4 book",
+      "Changing the glyph alphabet alone",
+      "Post-result feature deletion or function-word binding"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1193",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1195",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1202",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1221",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT998",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md"
+      ]
+    },
+    {
+      "target": "IDEA000952",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1222_lemma_inflection_source_screen/REPORT.md"
+      ]
+    }
+  ]
+}

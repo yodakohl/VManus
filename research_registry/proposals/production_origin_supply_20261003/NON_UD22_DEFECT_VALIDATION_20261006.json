@@ -1,0 +1,101 @@
+{
+  "status": "PASS_SYNTHETIC_DEFECT_AND_INHERITED_PREMISE_BINDINGS",
+  "checked_utc": "2026-10-06T13:58:53.710411+00:00",
+  "synthetic": {
+    "tables": 16383,
+    "initial_ud": 1033,
+    "reduction_steps": 134446,
+    "strict_cardinality_steps": 78588,
+    "initial_non_ud": 15350
+  },
+  "maximum_reduction_steps": 17,
+  "hand_example": [
+    {
+      "u": "ab",
+      "v": "aba",
+      "r": "a",
+      "before": [
+        "ab",
+        "aba",
+        "ba"
+      ],
+      "after": [
+        "a",
+        "ab",
+        "ba"
+      ]
+    },
+    {
+      "u": "a",
+      "v": "ab",
+      "r": "b",
+      "before": [
+        "a",
+        "ab",
+        "ba"
+      ],
+      "after": [
+        "a",
+        "b",
+        "ba"
+      ]
+    },
+    {
+      "u": "b",
+      "v": "ba",
+      "r": "a",
+      "before": [
+        "a",
+        "b",
+        "ba"
+      ],
+      "after": [
+        "a",
+        "b"
+      ]
+    }
+  ],
+  "inherited_all_22_units_occur": {
+    "status": "BOUND_TO_PREVIOUS_VALIDATOR_PASS_NOT_NEW_DATA_REPLAY",
+    "readers": [
+      "IT2a",
+      "RF1b",
+      "ZL3b"
+    ],
+    "units": [
+      "a",
+      "o",
+      "e",
+      "i",
+      "n",
+      "d",
+      "q",
+      "y",
+      "s",
+      "r",
+      "l",
+      "m",
+      "k",
+      "t",
+      "p",
+      "f",
+      "ch",
+      "sh",
+      "ckh",
+      "cth",
+      "cph",
+      "cfh"
+    ]
+  },
+  "bindings": {
+    "research_registry/proposals/production_origin_supply_20261003/UD22_POSTRESULT_CAPACITY_CLOSURE_20261006.json": "33d0a034bc360d269d573e7e80b2f52ca2c18c14e8030a063b9137a3c8545b05",
+    "research_registry/proposals/production_origin_supply_20261003/UD22_POSTRESULT_CAPACITY_VALIDATION_20261006.json": "b7f2f084966fa9dab3dd11df449a6a29ebc97196130c8ac6cf5db31631f90545",
+    "experiments/yolo/gdt1235_ud_short_word_capacity/src/validate.py": "1834a37354ad52f1f6a4979dae13f73cb41079f80649d1a06b01deed5af430bd",
+    "experiments/yolo/gdt1235_ud_short_word_capacity/artifacts/REGISTRATION_LOCK.json": "78e8477fc67fa0a9a0ccaff1e760c0ac03e0e3d0038909f430336ffb3ab93b6b",
+    "research_registry/proposals/production_origin_supply_20261003/HUMAN_NON_UD_DEFECT_BOUND_REVIEW_20261006.json": "0de91ac6ba6623d02a503f16b9f609be1687952254737eae3251f9efa679019a",
+    "research_registry/proposals/production_origin_supply_20261003/NON_UD22_DEFECT_CHECK_20261006.py": "997a5aa084a170f89b1f76e0d9ebf6069742a025040e23c10020c358778a68a2"
+  },
+  "scientific_limit": "Finite examples are not the general proof. The human proof applies to arbitrary finite nonempty codewords. This run verifies old evidence hashes, not its independent scientific correctness or the manuscript ink.",
+  "native_data_query": false,
+  "new_meaning": false
+}

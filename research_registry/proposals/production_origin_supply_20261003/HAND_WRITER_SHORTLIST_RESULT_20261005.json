@@ -1,0 +1,3171 @@
+{
+  "status": "UNBOUND_SHORTCUT_WRITER_HAS_UNIVERSAL_COVERAGE_ON_AT_MOST_25_OBSERVED_TYPES",
+  "scope": "Invented writer construction only; no manuscript test or language assignment",
+  "contract_sha256": "f43f89784be55628d5587c2a3c1ff8604cc401e470042d53fe552fec8d2d798e",
+  "source_sha256": "65b1b07b0a2d0de9f21caad83026e5a694afce6b567a67b7bb6868843afb662b",
+  "observed_type_scope": {
+    "minimum": 2,
+    "maximum": 25
+  },
+  "construction": "Choose any two distinct observed surface types as MU and NU. Inject the remaining types into the23 literals D..Z. Literal A/B/C drawings stay unobserved, though those source letters occur inside the shortcuts.",
+  "all_length_proof": [
+    "Expand MU to AB, NU to BC and every ordinary literal to itself.",
+    "Inside each shortcut there is exactly its own required match.",
+    "Between shortcut atoms, possible two-letter boundaries are BA, BB, CA, CB; none is AB or BC.",
+    "At a boundary touching a D..Z literal, at least one letter is outside A/B/C, so it is not AB or BC.",
+    "Thus all matches are exactly the original disjoint shortcut interiors. Both scan directions consume them and return the original output at any length.",
+    "The same fixed assignment works for every word in an arbitrary corpus over this surface alphabet, not a separate per-word repair."
+  ],
+  "finite_checks": {
+    "representative_words_including_empty": 1093,
+    "all_actual_atom_boundaries": 625,
+    "both_priorities_return_exact_input": true,
+    "bound_overlap_still_distinguishes": {
+      "source": "ABC",
+      "left": [
+        "MU",
+        "C"
+      ],
+      "right": [
+        "A",
+        "NU"
+      ]
+    }
+  },
+  "boundary_table": [
+    {
+      "left": "D",
+      "right": "D",
+      "boundary": "DD"
+    },
+    {
+      "left": "D",
+      "right": "E",
+      "boundary": "DE"
+    },
+    {
+      "left": "D",
+      "right": "F",
+      "boundary": "DF"
+    },
+    {
+      "left": "D",
+      "right": "G",
+      "boundary": "DG"
+    },
+    {
+      "left": "D",
+      "right": "H",
+      "boundary": "DH"
+    },
+    {
+      "left": "D",
+      "right": "I",
+      "boundary": "DI"
+    },
+    {
+      "left": "D",
+      "right": "J",
+      "boundary": "DJ"
+    },
+    {
+      "left": "D",
+      "right": "K",
+      "boundary": "DK"
+    },
+    {
+      "left": "D",
+      "right": "L",
+      "boundary": "DL"
+    },
+    {
+      "left": "D",
+      "right": "M",
+      "boundary": "DM"
+    },
+    {
+      "left": "D",
+      "right": "N",
+      "boundary": "DN"
+    },
+    {
+      "left": "D",
+      "right": "O",
+      "boundary": "DO"
+    },
+    {
+      "left": "D",
+      "right": "P",
+      "boundary": "DP"
+    },
+    {
+      "left": "D",
+      "right": "Q",
+      "boundary": "DQ"
+    },
+    {
+      "left": "D",
+      "right": "R",
+      "boundary": "DR"
+    },
+    {
+      "left": "D",
+      "right": "S",
+      "boundary": "DS"
+    },
+    {
+      "left": "D",
+      "right": "T",
+      "boundary": "DT"
+    },
+    {
+      "left": "D",
+      "right": "U",
+      "boundary": "DU"
+    },
+    {
+      "left": "D",
+      "right": "V",
+      "boundary": "DV"
+    },
+    {
+      "left": "D",
+      "right": "W",
+      "boundary": "DW"
+    },
+    {
+      "left": "D",
+      "right": "X",
+      "boundary": "DX"
+    },
+    {
+      "left": "D",
+      "right": "Y",
+      "boundary": "DY"
+    },
+    {
+      "left": "D",
+      "right": "Z",
+      "boundary": "DZ"
+    },
+    {
+      "left": "D",
+      "right": "MU",
+      "boundary": "DA"
+    },
+    {
+      "left": "D",
+      "right": "NU",
+      "boundary": "DB"
+    },
+    {
+      "left": "E",
+      "right": "D",
+      "boundary": "ED"
+    },
+    {
+      "left": "E",
+      "right": "E",
+      "boundary": "EE"
+    },
+    {
+      "left": "E",
+      "right": "F",
+      "boundary": "EF"
+    },
+    {
+      "left": "E",
+      "right": "G",
+      "boundary": "EG"
+    },
+    {
+      "left": "E",
+      "right": "H",
+      "boundary": "EH"
+    },
+    {
+      "left": "E",
+      "right": "I",
+      "boundary": "EI"
+    },
+    {
+      "left": "E",
+      "right": "J",
+      "boundary": "EJ"
+    },
+    {
+      "left": "E",
+      "right": "K",
+      "boundary": "EK"
+    },
+    {
+      "left": "E",
+      "right": "L",
+      "boundary": "EL"
+    },
+    {
+      "left": "E",
+      "right": "M",
+      "boundary": "EM"
+    },
+    {
+      "left": "E",
+      "right": "N",
+      "boundary": "EN"
+    },
+    {
+      "left": "E",
+      "right": "O",
+      "boundary": "EO"
+    },
+    {
+      "left": "E",
+      "right": "P",
+      "boundary": "EP"
+    },
+    {
+      "left": "E",
+      "right": "Q",
+      "boundary": "EQ"
+    },
+    {
+      "left": "E",
+      "right": "R",
+      "boundary": "ER"
+    },
+    {
+      "left": "E",
+      "right": "S",
+      "boundary": "ES"
+    },
+    {
+      "left": "E",
+      "right": "T",
+      "boundary": "ET"
+    },
+    {
+      "left": "E",
+      "right": "U",
+      "boundary": "EU"
+    },
+    {
+      "left": "E",
+      "right": "V",
+      "boundary": "EV"
+    },
+    {
+      "left": "E",
+      "right": "W",
+      "boundary": "EW"
+    },
+    {
+      "left": "E",
+      "right": "X",
+      "boundary": "EX"
+    },
+    {
+      "left": "E",
+      "right": "Y",
+      "boundary": "EY"
+    },
+    {
+      "left": "E",
+      "right": "Z",
+      "boundary": "EZ"
+    },
+    {
+      "left": "E",
+      "right": "MU",
+      "boundary": "EA"
+    },
+    {
+      "left": "E",
+      "right": "NU",
+      "boundary": "EB"
+    },
+    {
+      "left": "F",
+      "right": "D",
+      "boundary": "FD"
+    },
+    {
+      "left": "F",
+      "right": "E",
+      "boundary": "FE"
+    },
+    {
+      "left": "F",
+      "right": "F",
+      "boundary": "FF"
+    },
+    {
+      "left": "F",
+      "right": "G",
+      "boundary": "FG"
+    },
+    {
+      "left": "F",
+      "right": "H",
+      "boundary": "FH"
+    },
+    {
+      "left": "F",
+      "right": "I",
+      "boundary": "FI"
+    },
+    {
+      "left": "F",
+      "right": "J",
+      "boundary": "FJ"
+    },
+    {
+      "left": "F",
+      "right": "K",
+      "boundary": "FK"
+    },
+    {
+      "left": "F",
+      "right": "L",
+      "boundary": "FL"
+    },
+    {
+      "left": "F",
+      "right": "M",
+      "boundary": "FM"
+    },
+    {
+      "left": "F",
+      "right": "N",
+      "boundary": "FN"
+    },
+    {
+      "left": "F",
+      "right": "O",
+      "boundary": "FO"
+    },
+    {
+      "left": "F",
+      "right": "P",
+      "boundary": "FP"
+    },
+    {
+      "left": "F",
+      "right": "Q",
+      "boundary": "FQ"
+    },
+    {
+      "left": "F",
+      "right": "R",
+      "boundary": "FR"
+    },
+    {
+      "left": "F",
+      "right": "S",
+      "boundary": "FS"
+    },
+    {
+      "left": "F",
+      "right": "T",
+      "boundary": "FT"
+    },
+    {
+      "left": "F",
+      "right": "U",
+      "boundary": "FU"
+    },
+    {
+      "left": "F",
+      "right": "V",
+      "boundary": "FV"
+    },
+    {
+      "left": "F",
+      "right": "W",
+      "boundary": "FW"
+    },
+    {
+      "left": "F",
+      "right": "X",
+      "boundary": "FX"
+    },
+    {
+      "left": "F",
+      "right": "Y",
+      "boundary": "FY"
+    },
+    {
+      "left": "F",
+      "right": "Z",
+      "boundary": "FZ"
+    },
+    {
+      "left": "F",
+      "right": "MU",
+      "boundary": "FA"
+    },
+    {
+      "left": "F",
+      "right": "NU",
+      "boundary": "FB"
+    },
+    {
+      "left": "G",
+      "right": "D",
+      "boundary": "GD"
+    },
+    {
+      "left": "G",
+      "right": "E",
+      "boundary": "GE"
+    },
+    {
+      "left": "G",
+      "right": "F",
+      "boundary": "GF"
+    },
+    {
+      "left": "G",
+      "right": "G",
+      "boundary": "GG"
+    },
+    {
+      "left": "G",
+      "right": "H",
+      "boundary": "GH"
+    },
+    {
+      "left": "G",
+      "right": "I",
+      "boundary": "GI"
+    },
+    {
+      "left": "G",
+      "right": "J",
+      "boundary": "GJ"
+    },
+    {
+      "left": "G",
+      "right": "K",
+      "boundary": "GK"
+    },
+    {
+      "left": "G",
+      "right": "L",
+      "boundary": "GL"
+    },
+    {
+      "left": "G",
+      "right": "M",
+      "boundary": "GM"
+    },
+    {
+      "left": "G",
+      "right": "N",
+      "boundary": "GN"
+    },
+    {
+      "left": "G",
+      "right": "O",
+      "boundary": "GO"
+    },
+    {
+      "left": "G",
+      "right": "P",
+      "boundary": "GP"
+    },
+    {
+      "left": "G",
+      "right": "Q",
+      "boundary": "GQ"
+    },
+    {
+      "left": "G",
+      "right": "R",
+      "boundary": "GR"
+    },
+    {
+      "left": "G",
+      "right": "S",
+      "boundary": "GS"
+    },
+    {
+      "left": "G",
+      "right": "T",
+      "boundary": "GT"
+    },
+    {
+      "left": "G",
+      "right": "U",
+      "boundary": "GU"
+    },
+    {
+      "left": "G",
+      "right": "V",
+      "boundary": "GV"
+    },
+    {
+      "left": "G",
+      "right": "W",
+      "boundary": "GW"
+    },
+    {
+      "left": "G",
+      "right": "X",
+      "boundary": "GX"
+    },
+    {
+      "left": "G",
+      "right": "Y",
+      "boundary": "GY"
+    },
+    {
+      "left": "G",
+      "right": "Z",
+      "boundary": "GZ"
+    },
+    {
+      "left": "G",
+      "right": "MU",
+      "boundary": "GA"
+    },
+    {
+      "left": "G",
+      "right": "NU",
+      "boundary": "GB"
+    },
+    {
+      "left": "H",
+      "right": "D",
+      "boundary": "HD"
+    },
+    {
+      "left": "H",
+      "right": "E",
+      "boundary": "HE"
+    },
+    {
+      "left": "H",
+      "right": "F",
+      "boundary": "HF"
+    },
+    {
+      "left": "H",
+      "right": "G",
+      "boundary": "HG"
+    },
+    {
+      "left": "H",
+      "right": "H",
+      "boundary": "HH"
+    },
+    {
+      "left": "H",
+      "right": "I",
+      "boundary": "HI"
+    },
+    {
+      "left": "H",
+      "right": "J",
+      "boundary": "HJ"
+    },
+    {
+      "left": "H",
+      "right": "K",
+      "boundary": "HK"
+    },
+    {
+      "left": "H",
+      "right": "L",
+      "boundary": "HL"
+    },
+    {
+      "left": "H",
+      "right": "M",
+      "boundary": "HM"
+    },
+    {
+      "left": "H",
+      "right": "N",
+      "boundary": "HN"
+    },
+    {
+      "left": "H",
+      "right": "O",
+      "boundary": "HO"
+    },
+    {
+      "left": "H",
+      "right": "P",
+      "boundary": "HP"
+    },
+    {
+      "left": "H",
+      "right": "Q",
+      "boundary": "HQ"
+    },
+    {
+      "left": "H",
+      "right": "R",
+      "boundary": "HR"
+    },
+    {
+      "left": "H",
+      "right": "S",
+      "boundary": "HS"
+    },
+    {
+      "left": "H",
+      "right": "T",
+      "boundary": "HT"
+    },
+    {
+      "left": "H",
+      "right": "U",
+      "boundary": "HU"
+    },
+    {
+      "left": "H",
+      "right": "V",
+      "boundary": "HV"
+    },
+    {
+      "left": "H",
+      "right": "W",
+      "boundary": "HW"
+    },
+    {
+      "left": "H",
+      "right": "X",
+      "boundary": "HX"
+    },
+    {
+      "left": "H",
+      "right": "Y",
+      "boundary": "HY"
+    },
+    {
+      "left": "H",
+      "right": "Z",
+      "boundary": "HZ"
+    },
+    {
+      "left": "H",
+      "right": "MU",
+      "boundary": "HA"
+    },
+    {
+      "left": "H",
+      "right": "NU",
+      "boundary": "HB"
+    },
+    {
+      "left": "I",
+      "right": "D",
+      "boundary": "ID"
+    },
+    {
+      "left": "I",
+      "right": "E",
+      "boundary": "IE"
+    },
+    {
+      "left": "I",
+      "right": "F",
+      "boundary": "IF"
+    },
+    {
+      "left": "I",
+      "right": "G",
+      "boundary": "IG"
+    },
+    {
+      "left": "I",
+      "right": "H",
+      "boundary": "IH"
+    },
+    {
+      "left": "I",
+      "right": "I",
+      "boundary": "II"
+    },
+    {
+      "left": "I",
+      "right": "J",
+      "boundary": "IJ"
+    },
+    {
+      "left": "I",
+      "right": "K",
+      "boundary": "IK"
+    },
+    {
+      "left": "I",
+      "right": "L",
+      "boundary": "IL"
+    },
+    {
+      "left": "I",
+      "right": "M",
+      "boundary": "IM"
+    },
+    {
+      "left": "I",
+      "right": "N",
+      "boundary": "IN"
+    },
+    {
+      "left": "I",
+      "right": "O",
+      "boundary": "IO"
+    },
+    {
+      "left": "I",
+      "right": "P",
+      "boundary": "IP"
+    },
+    {
+      "left": "I",
+      "right": "Q",
+      "boundary": "IQ"
+    },
+    {
+      "left": "I",
+      "right": "R",
+      "boundary": "IR"
+    },
+    {
+      "left": "I",
+      "right": "S",
+      "boundary": "IS"
+    },
+    {
+      "left": "I",
+      "right": "T",
+      "boundary": "IT"
+    },
+    {
+      "left": "I",
+      "right": "U",
+      "boundary": "IU"
+    },
+    {
+      "left": "I",
+      "right": "V",
+      "boundary": "IV"
+    },
+    {
+      "left": "I",
+      "right": "W",
+      "boundary": "IW"
+    },
+    {
+      "left": "I",
+      "right": "X",
+      "boundary": "IX"
+    },
+    {
+      "left": "I",
+      "right": "Y",
+      "boundary": "IY"
+    },
+    {
+      "left": "I",
+      "right": "Z",
+      "boundary": "IZ"
+    },
+    {
+      "left": "I",
+      "right": "MU",
+      "boundary": "IA"
+    },
+    {
+      "left": "I",
+      "right": "NU",
+      "boundary": "IB"
+    },
+    {
+      "left": "J",
+      "right": "D",
+      "boundary": "JD"
+    },
+    {
+      "left": "J",
+      "right": "E",
+      "boundary": "JE"
+    },
+    {
+      "left": "J",
+      "right": "F",
+      "boundary": "JF"
+    },
+    {
+      "left": "J",
+      "right": "G",
+      "boundary": "JG"
+    },
+    {
+      "left": "J",
+      "right": "H",
+      "boundary": "JH"
+    },
+    {
+      "left": "J",
+      "right": "I",
+      "boundary": "JI"
+    },
+    {
+      "left": "J",
+      "right": "J",
+      "boundary": "JJ"
+    },
+    {
+      "left": "J",
+      "right": "K",
+      "boundary": "JK"
+    },
+    {
+      "left": "J",
+      "right": "L",
+      "boundary": "JL"
+    },
+    {
+      "left": "J",
+      "right": "M",
+      "boundary": "JM"
+    },
+    {
+      "left": "J",
+      "right": "N",
+      "boundary": "JN"
+    },
+    {
+      "left": "J",
+      "right": "O",
+      "boundary": "JO"
+    },
+    {
+      "left": "J",
+      "right": "P",
+      "boundary": "JP"
+    },
+    {
+      "left": "J",
+      "right": "Q",
+      "boundary": "JQ"
+    },
+    {
+      "left": "J",
+      "right": "R",
+      "boundary": "JR"
+    },
+    {
+      "left": "J",
+      "right": "S",
+      "boundary": "JS"
+    },
+    {
+      "left": "J",
+      "right": "T",
+      "boundary": "JT"
+    },
+    {
+      "left": "J",
+      "right": "U",
+      "boundary": "JU"
+    },
+    {
+      "left": "J",
+      "right": "V",
+      "boundary": "JV"
+    },
+    {
+      "left": "J",
+      "right": "W",
+      "boundary": "JW"
+    },
+    {
+      "left": "J",
+      "right": "X",
+      "boundary": "JX"
+    },
+    {
+      "left": "J",
+      "right": "Y",
+      "boundary": "JY"
+    },
+    {
+      "left": "J",
+      "right": "Z",
+      "boundary": "JZ"
+    },
+    {
+      "left": "J",
+      "right": "MU",
+      "boundary": "JA"
+    },
+    {
+      "left": "J",
+      "right": "NU",
+      "boundary": "JB"
+    },
+    {
+      "left": "K",
+      "right": "D",
+      "boundary": "KD"
+    },
+    {
+      "left": "K",
+      "right": "E",
+      "boundary": "KE"
+    },
+    {
+      "left": "K",
+      "right": "F",
+      "boundary": "KF"
+    },
+    {
+      "left": "K",
+      "right": "G",
+      "boundary": "KG"
+    },
+    {
+      "left": "K",
+      "right": "H",
+      "boundary": "KH"
+    },
+    {
+      "left": "K",
+      "right": "I",
+      "boundary": "KI"
+    },
+    {
+      "left": "K",
+      "right": "J",
+      "boundary": "KJ"
+    },
+    {
+      "left": "K",
+      "right": "K",
+      "boundary": "KK"
+    },
+    {
+      "left": "K",
+      "right": "L",
+      "boundary": "KL"
+    },
+    {
+      "left": "K",
+      "right": "M",
+      "boundary": "KM"
+    },
+    {
+      "left": "K",
+      "right": "N",
+      "boundary": "KN"
+    },
+    {
+      "left": "K",
+      "right": "O",
+      "boundary": "KO"
+    },
+    {
+      "left": "K",
+      "right": "P",
+      "boundary": "KP"
+    },
+    {
+      "left": "K",
+      "right": "Q",
+      "boundary": "KQ"
+    },
+    {
+      "left": "K",
+      "right": "R",
+      "boundary": "KR"
+    },
+    {
+      "left": "K",
+      "right": "S",
+      "boundary": "KS"
+    },
+    {
+      "left": "K",
+      "right": "T",
+      "boundary": "KT"
+    },
+    {
+      "left": "K",
+      "right": "U",
+      "boundary": "KU"
+    },
+    {
+      "left": "K",
+      "right": "V",
+      "boundary": "KV"
+    },
+    {
+      "left": "K",
+      "right": "W",
+      "boundary": "KW"
+    },
+    {
+      "left": "K",
+      "right": "X",
+      "boundary": "KX"
+    },
+    {
+      "left": "K",
+      "right": "Y",
+      "boundary": "KY"
+    },
+    {
+      "left": "K",
+      "right": "Z",
+      "boundary": "KZ"
+    },
+    {
+      "left": "K",
+      "right": "MU",
+      "boundary": "KA"
+    },
+    {
+      "left": "K",
+      "right": "NU",
+      "boundary": "KB"
+    },
+    {
+      "left": "L",
+      "right": "D",
+      "boundary": "LD"
+    },
+    {
+      "left": "L",
+      "right": "E",
+      "boundary": "LE"
+    },
+    {
+      "left": "L",
+      "right": "F",
+      "boundary": "LF"
+    },
+    {
+      "left": "L",
+      "right": "G",
+      "boundary": "LG"
+    },
+    {
+      "left": "L",
+      "right": "H",
+      "boundary": "LH"
+    },
+    {
+      "left": "L",
+      "right": "I",
+      "boundary": "LI"
+    },
+    {
+      "left": "L",
+      "right": "J",
+      "boundary": "LJ"
+    },
+    {
+      "left": "L",
+      "right": "K",
+      "boundary": "LK"
+    },
+    {
+      "left": "L",
+      "right": "L",
+      "boundary": "LL"
+    },
+    {
+      "left": "L",
+      "right": "M",
+      "boundary": "LM"
+    },
+    {
+      "left": "L",
+      "right": "N",
+      "boundary": "LN"
+    },
+    {
+      "left": "L",
+      "right": "O",
+      "boundary": "LO"
+    },
+    {
+      "left": "L",
+      "right": "P",
+      "boundary": "LP"
+    },
+    {
+      "left": "L",
+      "right": "Q",
+      "boundary": "LQ"
+    },
+    {
+      "left": "L",
+      "right": "R",
+      "boundary": "LR"
+    },
+    {
+      "left": "L",
+      "right": "S",
+      "boundary": "LS"
+    },
+    {
+      "left": "L",
+      "right": "T",
+      "boundary": "LT"
+    },
+    {
+      "left": "L",
+      "right": "U",
+      "boundary": "LU"
+    },
+    {
+      "left": "L",
+      "right": "V",
+      "boundary": "LV"
+    },
+    {
+      "left": "L",
+      "right": "W",
+      "boundary": "LW"
+    },
+    {
+      "left": "L",
+      "right": "X",
+      "boundary": "LX"
+    },
+    {
+      "left": "L",
+      "right": "Y",
+      "boundary": "LY"
+    },
+    {
+      "left": "L",
+      "right": "Z",
+      "boundary": "LZ"
+    },
+    {
+      "left": "L",
+      "right": "MU",
+      "boundary": "LA"
+    },
+    {
+      "left": "L",
+      "right": "NU",
+      "boundary": "LB"
+    },
+    {
+      "left": "M",
+      "right": "D",
+      "boundary": "MD"
+    },
+    {
+      "left": "M",
+      "right": "E",
+      "boundary": "ME"
+    },
+    {
+      "left": "M",
+      "right": "F",
+      "boundary": "MF"
+    },
+    {
+      "left": "M",
+      "right": "G",
+      "boundary": "MG"
+    },
+    {
+      "left": "M",
+      "right": "H",
+      "boundary": "MH"
+    },
+    {
+      "left": "M",
+      "right": "I",
+      "boundary": "MI"
+    },
+    {
+      "left": "M",
+      "right": "J",
+      "boundary": "MJ"
+    },
+    {
+      "left": "M",
+      "right": "K",
+      "boundary": "MK"
+    },
+    {
+      "left": "M",
+      "right": "L",
+      "boundary": "ML"
+    },
+    {
+      "left": "M",
+      "right": "M",
+      "boundary": "MM"
+    },
+    {
+      "left": "M",
+      "right": "N",
+      "boundary": "MN"
+    },
+    {
+      "left": "M",
+      "right": "O",
+      "boundary": "MO"
+    },
+    {
+      "left": "M",
+      "right": "P",
+      "boundary": "MP"
+    },
+    {
+      "left": "M",
+      "right": "Q",
+      "boundary": "MQ"
+    },
+    {
+      "left": "M",
+      "right": "R",
+      "boundary": "MR"
+    },
+    {
+      "left": "M",
+      "right": "S",
+      "boundary": "MS"
+    },
+    {
+      "left": "M",
+      "right": "T",
+      "boundary": "MT"
+    },
+    {
+      "left": "M",
+      "right": "U",
+      "boundary": "MU"
+    },
+    {
+      "left": "M",
+      "right": "V",
+      "boundary": "MV"
+    },
+    {
+      "left": "M",
+      "right": "W",
+      "boundary": "MW"
+    },
+    {
+      "left": "M",
+      "right": "X",
+      "boundary": "MX"
+    },
+    {
+      "left": "M",
+      "right": "Y",
+      "boundary": "MY"
+    },
+    {
+      "left": "M",
+      "right": "Z",
+      "boundary": "MZ"
+    },
+    {
+      "left": "M",
+      "right": "MU",
+      "boundary": "MA"
+    },
+    {
+      "left": "M",
+      "right": "NU",
+      "boundary": "MB"
+    },
+    {
+      "left": "N",
+      "right": "D",
+      "boundary": "ND"
+    },
+    {
+      "left": "N",
+      "right": "E",
+      "boundary": "NE"
+    },
+    {
+      "left": "N",
+      "right": "F",
+      "boundary": "NF"
+    },
+    {
+      "left": "N",
+      "right": "G",
+      "boundary": "NG"
+    },
+    {
+      "left": "N",
+      "right": "H",
+      "boundary": "NH"
+    },
+    {
+      "left": "N",
+      "right": "I",
+      "boundary": "NI"
+    },
+    {
+      "left": "N",
+      "right": "J",
+      "boundary": "NJ"
+    },
+    {
+      "left": "N",
+      "right": "K",
+      "boundary": "NK"
+    },
+    {
+      "left": "N",
+      "right": "L",
+      "boundary": "NL"
+    },
+    {
+      "left": "N",
+      "right": "M",
+      "boundary": "NM"
+    },
+    {
+      "left": "N",
+      "right": "N",
+      "boundary": "NN"
+    },
+    {
+      "left": "N",
+      "right": "O",
+      "boundary": "NO"
+    },
+    {
+      "left": "N",
+      "right": "P",
+      "boundary": "NP"
+    },
+    {
+      "left": "N",
+      "right": "Q",
+      "boundary": "NQ"
+    },
+    {
+      "left": "N",
+      "right": "R",
+      "boundary": "NR"
+    },
+    {
+      "left": "N",
+      "right": "S",
+      "boundary": "NS"
+    },
+    {
+      "left": "N",
+      "right": "T",
+      "boundary": "NT"
+    },
+    {
+      "left": "N",
+      "right": "U",
+      "boundary": "NU"
+    },
+    {
+      "left": "N",
+      "right": "V",
+      "boundary": "NV"
+    },
+    {
+      "left": "N",
+      "right": "W",
+      "boundary": "NW"
+    },
+    {
+      "left": "N",
+      "right": "X",
+      "boundary": "NX"
+    },
+    {
+      "left": "N",
+      "right": "Y",
+      "boundary": "NY"
+    },
+    {
+      "left": "N",
+      "right": "Z",
+      "boundary": "NZ"
+    },
+    {
+      "left": "N",
+      "right": "MU",
+      "boundary": "NA"
+    },
+    {
+      "left": "N",
+      "right": "NU",
+      "boundary": "NB"
+    },
+    {
+      "left": "O",
+      "right": "D",
+      "boundary": "OD"
+    },
+    {
+      "left": "O",
+      "right": "E",
+      "boundary": "OE"
+    },
+    {
+      "left": "O",
+      "right": "F",
+      "boundary": "OF"
+    },
+    {
+      "left": "O",
+      "right": "G",
+      "boundary": "OG"
+    },
+    {
+      "left": "O",
+      "right": "H",
+      "boundary": "OH"
+    },
+    {
+      "left": "O",
+      "right": "I",
+      "boundary": "OI"
+    },
+    {
+      "left": "O",
+      "right": "J",
+      "boundary": "OJ"
+    },
+    {
+      "left": "O",
+      "right": "K",
+      "boundary": "OK"
+    },
+    {
+      "left": "O",
+      "right": "L",
+      "boundary": "OL"
+    },
+    {
+      "left": "O",
+      "right": "M",
+      "boundary": "OM"
+    },
+    {
+      "left": "O",
+      "right": "N",
+      "boundary": "ON"
+    },
+    {
+      "left": "O",
+      "right": "O",
+      "boundary": "OO"
+    },
+    {
+      "left": "O",
+      "right": "P",
+      "boundary": "OP"
+    },
+    {
+      "left": "O",
+      "right": "Q",
+      "boundary": "OQ"
+    },
+    {
+      "left": "O",
+      "right": "R",
+      "boundary": "OR"
+    },
+    {
+      "left": "O",
+      "right": "S",
+      "boundary": "OS"
+    },
+    {
+      "left": "O",
+      "right": "T",
+      "boundary": "OT"
+    },
+    {
+      "left": "O",
+      "right": "U",
+      "boundary": "OU"
+    },
+    {
+      "left": "O",
+      "right": "V",
+      "boundary": "OV"
+    },
+    {
+      "left": "O",
+      "right": "W",
+      "boundary": "OW"
+    },
+    {
+      "left": "O",
+      "right": "X",
+      "boundary": "OX"
+    },
+    {
+      "left": "O",
+      "right": "Y",
+      "boundary": "OY"
+    },
+    {
+      "left": "O",
+      "right": "Z",
+      "boundary": "OZ"
+    },
+    {
+      "left": "O",
+      "right": "MU",
+      "boundary": "OA"
+    },
+    {
+      "left": "O",
+      "right": "NU",
+      "boundary": "OB"
+    },
+    {
+      "left": "P",
+      "right": "D",
+      "boundary": "PD"
+    },
+    {
+      "left": "P",
+      "right": "E",
+      "boundary": "PE"
+    },
+    {
+      "left": "P",
+      "right": "F",
+      "boundary": "PF"
+    },
+    {
+      "left": "P",
+      "right": "G",
+      "boundary": "PG"
+    },
+    {
+      "left": "P",
+      "right": "H",
+      "boundary": "PH"
+    },
+    {
+      "left": "P",
+      "right": "I",
+      "boundary": "PI"
+    },
+    {
+      "left": "P",
+      "right": "J",
+      "boundary": "PJ"
+    },
+    {
+      "left": "P",
+      "right": "K",
+      "boundary": "PK"
+    },
+    {
+      "left": "P",
+      "right": "L",
+      "boundary": "PL"
+    },
+    {
+      "left": "P",
+      "right": "M",
+      "boundary": "PM"
+    },
+    {
+      "left": "P",
+      "right": "N",
+      "boundary": "PN"
+    },
+    {
+      "left": "P",
+      "right": "O",
+      "boundary": "PO"
+    },
+    {
+      "left": "P",
+      "right": "P",
+      "boundary": "PP"
+    },
+    {
+      "left": "P",
+      "right": "Q",
+      "boundary": "PQ"
+    },
+    {
+      "left": "P",
+      "right": "R",
+      "boundary": "PR"
+    },
+    {
+      "left": "P",
+      "right": "S",
+      "boundary": "PS"
+    },
+    {
+      "left": "P",
+      "right": "T",
+      "boundary": "PT"
+    },
+    {
+      "left": "P",
+      "right": "U",
+      "boundary": "PU"
+    },
+    {
+      "left": "P",
+      "right": "V",
+      "boundary": "PV"
+    },
+    {
+      "left": "P",
+      "right": "W",
+      "boundary": "PW"
+    },
+    {
+      "left": "P",
+      "right": "X",
+      "boundary": "PX"
+    },
+    {
+      "left": "P",
+      "right": "Y",
+      "boundary": "PY"
+    },
+    {
+      "left": "P",
+      "right": "Z",
+      "boundary": "PZ"
+    },
+    {
+      "left": "P",
+      "right": "MU",
+      "boundary": "PA"
+    },
+    {
+      "left": "P",
+      "right": "NU",
+      "boundary": "PB"
+    },
+    {
+      "left": "Q",
+      "right": "D",
+      "boundary": "QD"
+    },
+    {
+      "left": "Q",
+      "right": "E",
+      "boundary": "QE"
+    },
+    {
+      "left": "Q",
+      "right": "F",
+      "boundary": "QF"
+    },
+    {
+      "left": "Q",
+      "right": "G",
+      "boundary": "QG"
+    },
+    {
+      "left": "Q",
+      "right": "H",
+      "boundary": "QH"
+    },
+    {
+      "left": "Q",
+      "right": "I",
+      "boundary": "QI"
+    },
+    {
+      "left": "Q",
+      "right": "J",
+      "boundary": "QJ"
+    },
+    {
+      "left": "Q",
+      "right": "K",
+      "boundary": "QK"
+    },
+    {
+      "left": "Q",
+      "right": "L",
+      "boundary": "QL"
+    },
+    {
+      "left": "Q",
+      "right": "M",
+      "boundary": "QM"
+    },
+    {
+      "left": "Q",
+      "right": "N",
+      "boundary": "QN"
+    },
+    {
+      "left": "Q",
+      "right": "O",
+      "boundary": "QO"
+    },
+    {
+      "left": "Q",
+      "right": "P",
+      "boundary": "QP"
+    },
+    {
+      "left": "Q",
+      "right": "Q",
+      "boundary": "QQ"
+    },
+    {
+      "left": "Q",
+      "right": "R",
+      "boundary": "QR"
+    },
+    {
+      "left": "Q",
+      "right": "S",
+      "boundary": "QS"
+    },
+    {
+      "left": "Q",
+      "right": "T",
+      "boundary": "QT"
+    },
+    {
+      "left": "Q",
+      "right": "U",
+      "boundary": "QU"
+    },
+    {
+      "left": "Q",
+      "right": "V",
+      "boundary": "QV"
+    },
+    {
+      "left": "Q",
+      "right": "W",
+      "boundary": "QW"
+    },
+    {
+      "left": "Q",
+      "right": "X",
+      "boundary": "QX"
+    },
+    {
+      "left": "Q",
+      "right": "Y",
+      "boundary": "QY"
+    },
+    {
+      "left": "Q",
+      "right": "Z",
+      "boundary": "QZ"
+    },
+    {
+      "left": "Q",
+      "right": "MU",
+      "boundary": "QA"
+    },
+    {
+      "left": "Q",
+      "right": "NU",
+      "boundary": "QB"
+    },
+    {
+      "left": "R",
+      "right": "D",
+      "boundary": "RD"
+    },
+    {
+      "left": "R",
+      "right": "E",
+      "boundary": "RE"
+    },
+    {
+      "left": "R",
+      "right": "F",
+      "boundary": "RF"
+    },
+    {
+      "left": "R",
+      "right": "G",
+      "boundary": "RG"
+    },
+    {
+      "left": "R",
+      "right": "H",
+      "boundary": "RH"
+    },
+    {
+      "left": "R",
+      "right": "I",
+      "boundary": "RI"
+    },
+    {
+      "left": "R",
+      "right": "J",
+      "boundary": "RJ"
+    },
+    {
+      "left": "R",
+      "right": "K",
+      "boundary": "RK"
+    },
+    {
+      "left": "R",
+      "right": "L",
+      "boundary": "RL"
+    },
+    {
+      "left": "R",
+      "right": "M",
+      "boundary": "RM"
+    },
+    {
+      "left": "R",
+      "right": "N",
+      "boundary": "RN"
+    },
+    {
+      "left": "R",
+      "right": "O",
+      "boundary": "RO"
+    },
+    {
+      "left": "R",
+      "right": "P",
+      "boundary": "RP"
+    },
+    {
+      "left": "R",
+      "right": "Q",
+      "boundary": "RQ"
+    },
+    {
+      "left": "R",
+      "right": "R",
+      "boundary": "RR"
+    },
+    {
+      "left": "R",
+      "right": "S",
+      "boundary": "RS"
+    },
+    {
+      "left": "R",
+      "right": "T",
+      "boundary": "RT"
+    },
+    {
+      "left": "R",
+      "right": "U",
+      "boundary": "RU"
+    },
+    {
+      "left": "R",
+      "right": "V",
+      "boundary": "RV"
+    },
+    {
+      "left": "R",
+      "right": "W",
+      "boundary": "RW"
+    },
+    {
+      "left": "R",
+      "right": "X",
+      "boundary": "RX"
+    },
+    {
+      "left": "R",
+      "right": "Y",
+      "boundary": "RY"
+    },
+    {
+      "left": "R",
+      "right": "Z",
+      "boundary": "RZ"
+    },
+    {
+      "left": "R",
+      "right": "MU",
+      "boundary": "RA"
+    },
+    {
+      "left": "R",
+      "right": "NU",
+      "boundary": "RB"
+    },
+    {
+      "left": "S",
+      "right": "D",
+      "boundary": "SD"
+    },
+    {
+      "left": "S",
+      "right": "E",
+      "boundary": "SE"
+    },
+    {
+      "left": "S",
+      "right": "F",
+      "boundary": "SF"
+    },
+    {
+      "left": "S",
+      "right": "G",
+      "boundary": "SG"
+    },
+    {
+      "left": "S",
+      "right": "H",
+      "boundary": "SH"
+    },
+    {
+      "left": "S",
+      "right": "I",
+      "boundary": "SI"
+    },
+    {
+      "left": "S",
+      "right": "J",
+      "boundary": "SJ"
+    },
+    {
+      "left": "S",
+      "right": "K",
+      "boundary": "SK"
+    },
+    {
+      "left": "S",
+      "right": "L",
+      "boundary": "SL"
+    },
+    {
+      "left": "S",
+      "right": "M",
+      "boundary": "SM"
+    },
+    {
+      "left": "S",
+      "right": "N",
+      "boundary": "SN"
+    },
+    {
+      "left": "S",
+      "right": "O",
+      "boundary": "SO"
+    },
+    {
+      "left": "S",
+      "right": "P",
+      "boundary": "SP"
+    },
+    {
+      "left": "S",
+      "right": "Q",
+      "boundary": "SQ"
+    },
+    {
+      "left": "S",
+      "right": "R",
+      "boundary": "SR"
+    },
+    {
+      "left": "S",
+      "right": "S",
+      "boundary": "SS"
+    },
+    {
+      "left": "S",
+      "right": "T",
+      "boundary": "ST"
+    },
+    {
+      "left": "S",
+      "right": "U",
+      "boundary": "SU"
+    },
+    {
+      "left": "S",
+      "right": "V",
+      "boundary": "SV"
+    },
+    {
+      "left": "S",
+      "right": "W",
+      "boundary": "SW"
+    },
+    {
+      "left": "S",
+      "right": "X",
+      "boundary": "SX"
+    },
+    {
+      "left": "S",
+      "right": "Y",
+      "boundary": "SY"
+    },
+    {
+      "left": "S",
+      "right": "Z",
+      "boundary": "SZ"
+    },
+    {
+      "left": "S",
+      "right": "MU",
+      "boundary": "SA"
+    },
+    {
+      "left": "S",
+      "right": "NU",
+      "boundary": "SB"
+    },
+    {
+      "left": "T",
+      "right": "D",
+      "boundary": "TD"
+    },
+    {
+      "left": "T",
+      "right": "E",
+      "boundary": "TE"
+    },
+    {
+      "left": "T",
+      "right": "F",
+      "boundary": "TF"
+    },
+    {
+      "left": "T",
+      "right": "G",
+      "boundary": "TG"
+    },
+    {
+      "left": "T",
+      "right": "H",
+      "boundary": "TH"
+    },
+    {
+      "left": "T",
+      "right": "I",
+      "boundary": "TI"
+    },
+    {
+      "left": "T",
+      "right": "J",
+      "boundary": "TJ"
+    },
+    {
+      "left": "T",
+      "right": "K",
+      "boundary": "TK"
+    },
+    {
+      "left": "T",
+      "right": "L",
+      "boundary": "TL"
+    },
+    {
+      "left": "T",
+      "right": "M",
+      "boundary": "TM"
+    },
+    {
+      "left": "T",
+      "right": "N",
+      "boundary": "TN"
+    },
+    {
+      "left": "T",
+      "right": "O",
+      "boundary": "TO"
+    },
+    {
+      "left": "T",
+      "right": "P",
+      "boundary": "TP"
+    },
+    {
+      "left": "T",
+      "right": "Q",
+      "boundary": "TQ"
+    },
+    {
+      "left": "T",
+      "right": "R",
+      "boundary": "TR"
+    },
+    {
+      "left": "T",
+      "right": "S",
+      "boundary": "TS"
+    },
+    {
+      "left": "T",
+      "right": "T",
+      "boundary": "TT"
+    },
+    {
+      "left": "T",
+      "right": "U",
+      "boundary": "TU"
+    },
+    {
+      "left": "T",
+      "right": "V",
+      "boundary": "TV"
+    },
+    {
+      "left": "T",
+      "right": "W",
+      "boundary": "TW"
+    },
+    {
+      "left": "T",
+      "right": "X",
+      "boundary": "TX"
+    },
+    {
+      "left": "T",
+      "right": "Y",
+      "boundary": "TY"
+    },
+    {
+      "left": "T",
+      "right": "Z",
+      "boundary": "TZ"
+    },
+    {
+      "left": "T",
+      "right": "MU",
+      "boundary": "TA"
+    },
+    {
+      "left": "T",
+      "right": "NU",
+      "boundary": "TB"
+    },
+    {
+      "left": "U",
+      "right": "D",
+      "boundary": "UD"
+    },
+    {
+      "left": "U",
+      "right": "E",
+      "boundary": "UE"
+    },
+    {
+      "left": "U",
+      "right": "F",
+      "boundary": "UF"
+    },
+    {
+      "left": "U",
+      "right": "G",
+      "boundary": "UG"
+    },
+    {
+      "left": "U",
+      "right": "H",
+      "boundary": "UH"
+    },
+    {
+      "left": "U",
+      "right": "I",
+      "boundary": "UI"
+    },
+    {
+      "left": "U",
+      "right": "J",
+      "boundary": "UJ"
+    },
+    {
+      "left": "U",
+      "right": "K",
+      "boundary": "UK"
+    },
+    {
+      "left": "U",
+      "right": "L",
+      "boundary": "UL"
+    },
+    {
+      "left": "U",
+      "right": "M",
+      "boundary": "UM"
+    },
+    {
+      "left": "U",
+      "right": "N",
+      "boundary": "UN"
+    },
+    {
+      "left": "U",
+      "right": "O",
+      "boundary": "UO"
+    },
+    {
+      "left": "U",
+      "right": "P",
+      "boundary": "UP"
+    },
+    {
+      "left": "U",
+      "right": "Q",
+      "boundary": "UQ"
+    },
+    {
+      "left": "U",
+      "right": "R",
+      "boundary": "UR"
+    },
+    {
+      "left": "U",
+      "right": "S",
+      "boundary": "US"
+    },
+    {
+      "left": "U",
+      "right": "T",
+      "boundary": "UT"
+    },
+    {
+      "left": "U",
+      "right": "U",
+      "boundary": "UU"
+    },
+    {
+      "left": "U",
+      "right": "V",
+      "boundary": "UV"
+    },
+    {
+      "left": "U",
+      "right": "W",
+      "boundary": "UW"
+    },
+    {
+      "left": "U",
+      "right": "X",
+      "boundary": "UX"
+    },
+    {
+      "left": "U",
+      "right": "Y",
+      "boundary": "UY"
+    },
+    {
+      "left": "U",
+      "right": "Z",
+      "boundary": "UZ"
+    },
+    {
+      "left": "U",
+      "right": "MU",
+      "boundary": "UA"
+    },
+    {
+      "left": "U",
+      "right": "NU",
+      "boundary": "UB"
+    },
+    {
+      "left": "V",
+      "right": "D",
+      "boundary": "VD"
+    },
+    {
+      "left": "V",
+      "right": "E",
+      "boundary": "VE"
+    },
+    {
+      "left": "V",
+      "right": "F",
+      "boundary": "VF"
+    },
+    {
+      "left": "V",
+      "right": "G",
+      "boundary": "VG"
+    },
+    {
+      "left": "V",
+      "right": "H",
+      "boundary": "VH"
+    },
+    {
+      "left": "V",
+      "right": "I",
+      "boundary": "VI"
+    },
+    {
+      "left": "V",
+      "right": "J",
+      "boundary": "VJ"
+    },
+    {
+      "left": "V",
+      "right": "K",
+      "boundary": "VK"
+    },
+    {
+      "left": "V",
+      "right": "L",
+      "boundary": "VL"
+    },
+    {
+      "left": "V",
+      "right": "M",
+      "boundary": "VM"
+    },
+    {
+      "left": "V",
+      "right": "N",
+      "boundary": "VN"
+    },
+    {
+      "left": "V",
+      "right": "O",
+      "boundary": "VO"
+    },
+    {
+      "left": "V",
+      "right": "P",
+      "boundary": "VP"
+    },
+    {
+      "left": "V",
+      "right": "Q",
+      "boundary": "VQ"
+    },
+    {
+      "left": "V",
+      "right": "R",
+      "boundary": "VR"
+    },
+    {
+      "left": "V",
+      "right": "S",
+      "boundary": "VS"
+    },
+    {
+      "left": "V",
+      "right": "T",
+      "boundary": "VT"
+    },
+    {
+      "left": "V",
+      "right": "U",
+      "boundary": "VU"
+    },
+    {
+      "left": "V",
+      "right": "V",
+      "boundary": "VV"
+    },
+    {
+      "left": "V",
+      "right": "W",
+      "boundary": "VW"
+    },
+    {
+      "left": "V",
+      "right": "X",
+      "boundary": "VX"
+    },
+    {
+      "left": "V",
+      "right": "Y",
+      "boundary": "VY"
+    },
+    {
+      "left": "V",
+      "right": "Z",
+      "boundary": "VZ"
+    },
+    {
+      "left": "V",
+      "right": "MU",
+      "boundary": "VA"
+    },
+    {
+      "left": "V",
+      "right": "NU",
+      "boundary": "VB"
+    },
+    {
+      "left": "W",
+      "right": "D",
+      "boundary": "WD"
+    },
+    {
+      "left": "W",
+      "right": "E",
+      "boundary": "WE"
+    },
+    {
+      "left": "W",
+      "right": "F",
+      "boundary": "WF"
+    },
+    {
+      "left": "W",
+      "right": "G",
+      "boundary": "WG"
+    },
+    {
+      "left": "W",
+      "right": "H",
+      "boundary": "WH"
+    },
+    {
+      "left": "W",
+      "right": "I",
+      "boundary": "WI"
+    },
+    {
+      "left": "W",
+      "right": "J",
+      "boundary": "WJ"
+    },
+    {
+      "left": "W",
+      "right": "K",
+      "boundary": "WK"
+    },
+    {
+      "left": "W",
+      "right": "L",
+      "boundary": "WL"
+    },
+    {
+      "left": "W",
+      "right": "M",
+      "boundary": "WM"
+    },
+    {
+      "left": "W",
+      "right": "N",
+      "boundary": "WN"
+    },
+    {
+      "left": "W",
+      "right": "O",
+      "boundary": "WO"
+    },
+    {
+      "left": "W",
+      "right": "P",
+      "boundary": "WP"
+    },
+    {
+      "left": "W",
+      "right": "Q",
+      "boundary": "WQ"
+    },
+    {
+      "left": "W",
+      "right": "R",
+      "boundary": "WR"
+    },
+    {
+      "left": "W",
+      "right": "S",
+      "boundary": "WS"
+    },
+    {
+      "left": "W",
+      "right": "T",
+      "boundary": "WT"
+    },
+    {
+      "left": "W",
+      "right": "U",
+      "boundary": "WU"
+    },
+    {
+      "left": "W",
+      "right": "V",
+      "boundary": "WV"
+    },
+    {
+      "left": "W",
+      "right": "W",
+      "boundary": "WW"
+    },
+    {
+      "left": "W",
+      "right": "X",
+      "boundary": "WX"
+    },
+    {
+      "left": "W",
+      "right": "Y",
+      "boundary": "WY"
+    },
+    {
+      "left": "W",
+      "right": "Z",
+      "boundary": "WZ"
+    },
+    {
+      "left": "W",
+      "right": "MU",
+      "boundary": "WA"
+    },
+    {
+      "left": "W",
+      "right": "NU",
+      "boundary": "WB"
+    },
+    {
+      "left": "X",
+      "right": "D",
+      "boundary": "XD"
+    },
+    {
+      "left": "X",
+      "right": "E",
+      "boundary": "XE"
+    },
+    {
+      "left": "X",
+      "right": "F",
+      "boundary": "XF"
+    },
+    {
+      "left": "X",
+      "right": "G",
+      "boundary": "XG"
+    },
+    {
+      "left": "X",
+      "right": "H",
+      "boundary": "XH"
+    },
+    {
+      "left": "X",
+      "right": "I",
+      "boundary": "XI"
+    },
+    {
+      "left": "X",
+      "right": "J",
+      "boundary": "XJ"
+    },
+    {
+      "left": "X",
+      "right": "K",
+      "boundary": "XK"
+    },
+    {
+      "left": "X",
+      "right": "L",
+      "boundary": "XL"
+    },
+    {
+      "left": "X",
+      "right": "M",
+      "boundary": "XM"
+    },
+    {
+      "left": "X",
+      "right": "N",
+      "boundary": "XN"
+    },
+    {
+      "left": "X",
+      "right": "O",
+      "boundary": "XO"
+    },
+    {
+      "left": "X",
+      "right": "P",
+      "boundary": "XP"
+    },
+    {
+      "left": "X",
+      "right": "Q",
+      "boundary": "XQ"
+    },
+    {
+      "left": "X",
+      "right": "R",
+      "boundary": "XR"
+    },
+    {
+      "left": "X",
+      "right": "S",
+      "boundary": "XS"
+    },
+    {
+      "left": "X",
+      "right": "T",
+      "boundary": "XT"
+    },
+    {
+      "left": "X",
+      "right": "U",
+      "boundary": "XU"
+    },
+    {
+      "left": "X",
+      "right": "V",
+      "boundary": "XV"
+    },
+    {
+      "left": "X",
+      "right": "W",
+      "boundary": "XW"
+    },
+    {
+      "left": "X",
+      "right": "X",
+      "boundary": "XX"
+    },
+    {
+      "left": "X",
+      "right": "Y",
+      "boundary": "XY"
+    },
+    {
+      "left": "X",
+      "right": "Z",
+      "boundary": "XZ"
+    },
+    {
+      "left": "X",
+      "right": "MU",
+      "boundary": "XA"
+    },
+    {
+      "left": "X",
+      "right": "NU",
+      "boundary": "XB"
+    },
+    {
+      "left": "Y",
+      "right": "D",
+      "boundary": "YD"
+    },
+    {
+      "left": "Y",
+      "right": "E",
+      "boundary": "YE"
+    },
+    {
+      "left": "Y",
+      "right": "F",
+      "boundary": "YF"
+    },
+    {
+      "left": "Y",
+      "right": "G",
+      "boundary": "YG"
+    },
+    {
+      "left": "Y",
+      "right": "H",
+      "boundary": "YH"
+    },
+    {
+      "left": "Y",
+      "right": "I",
+      "boundary": "YI"
+    },
+    {
+      "left": "Y",
+      "right": "J",
+      "boundary": "YJ"
+    },
+    {
+      "left": "Y",
+      "right": "K",
+      "boundary": "YK"
+    },
+    {
+      "left": "Y",
+      "right": "L",
+      "boundary": "YL"
+    },
+    {
+      "left": "Y",
+      "right": "M",
+      "boundary": "YM"
+    },
+    {
+      "left": "Y",
+      "right": "N",
+      "boundary": "YN"
+    },
+    {
+      "left": "Y",
+      "right": "O",
+      "boundary": "YO"
+    },
+    {
+      "left": "Y",
+      "right": "P",
+      "boundary": "YP"
+    },
+    {
+      "left": "Y",
+      "right": "Q",
+      "boundary": "YQ"
+    },
+    {
+      "left": "Y",
+      "right": "R",
+      "boundary": "YR"
+    },
+    {
+      "left": "Y",
+      "right": "S",
+      "boundary": "YS"
+    },
+    {
+      "left": "Y",
+      "right": "T",
+      "boundary": "YT"
+    },
+    {
+      "left": "Y",
+      "right": "U",
+      "boundary": "YU"
+    },
+    {
+      "left": "Y",
+      "right": "V",
+      "boundary": "YV"
+    },
+    {
+      "left": "Y",
+      "right": "W",
+      "boundary": "YW"
+    },
+    {
+      "left": "Y",
+      "right": "X",
+      "boundary": "YX"
+    },
+    {
+      "left": "Y",
+      "right": "Y",
+      "boundary": "YY"
+    },
+    {
+      "left": "Y",
+      "right": "Z",
+      "boundary": "YZ"
+    },
+    {
+      "left": "Y",
+      "right": "MU",
+      "boundary": "YA"
+    },
+    {
+      "left": "Y",
+      "right": "NU",
+      "boundary": "YB"
+    },
+    {
+      "left": "Z",
+      "right": "D",
+      "boundary": "ZD"
+    },
+    {
+      "left": "Z",
+      "right": "E",
+      "boundary": "ZE"
+    },
+    {
+      "left": "Z",
+      "right": "F",
+      "boundary": "ZF"
+    },
+    {
+      "left": "Z",
+      "right": "G",
+      "boundary": "ZG"
+    },
+    {
+      "left": "Z",
+      "right": "H",
+      "boundary": "ZH"
+    },
+    {
+      "left": "Z",
+      "right": "I",
+      "boundary": "ZI"
+    },
+    {
+      "left": "Z",
+      "right": "J",
+      "boundary": "ZJ"
+    },
+    {
+      "left": "Z",
+      "right": "K",
+      "boundary": "ZK"
+    },
+    {
+      "left": "Z",
+      "right": "L",
+      "boundary": "ZL"
+    },
+    {
+      "left": "Z",
+      "right": "M",
+      "boundary": "ZM"
+    },
+    {
+      "left": "Z",
+      "right": "N",
+      "boundary": "ZN"
+    },
+    {
+      "left": "Z",
+      "right": "O",
+      "boundary": "ZO"
+    },
+    {
+      "left": "Z",
+      "right": "P",
+      "boundary": "ZP"
+    },
+    {
+      "left": "Z",
+      "right": "Q",
+      "boundary": "ZQ"
+    },
+    {
+      "left": "Z",
+      "right": "R",
+      "boundary": "ZR"
+    },
+    {
+      "left": "Z",
+      "right": "S",
+      "boundary": "ZS"
+    },
+    {
+      "left": "Z",
+      "right": "T",
+      "boundary": "ZT"
+    },
+    {
+      "left": "Z",
+      "right": "U",
+      "boundary": "ZU"
+    },
+    {
+      "left": "Z",
+      "right": "V",
+      "boundary": "ZV"
+    },
+    {
+      "left": "Z",
+      "right": "W",
+      "boundary": "ZW"
+    },
+    {
+      "left": "Z",
+      "right": "X",
+      "boundary": "ZX"
+    },
+    {
+      "left": "Z",
+      "right": "Y",
+      "boundary": "ZY"
+    },
+    {
+      "left": "Z",
+      "right": "Z",
+      "boundary": "ZZ"
+    },
+    {
+      "left": "Z",
+      "right": "MU",
+      "boundary": "ZA"
+    },
+    {
+      "left": "Z",
+      "right": "NU",
+      "boundary": "ZB"
+    },
+    {
+      "left": "MU",
+      "right": "D",
+      "boundary": "BD"
+    },
+    {
+      "left": "MU",
+      "right": "E",
+      "boundary": "BE"
+    },
+    {
+      "left": "MU",
+      "right": "F",
+      "boundary": "BF"
+    },
+    {
+      "left": "MU",
+      "right": "G",
+      "boundary": "BG"
+    },
+    {
+      "left": "MU",
+      "right": "H",
+      "boundary": "BH"
+    },
+    {
+      "left": "MU",
+      "right": "I",
+      "boundary": "BI"
+    },
+    {
+      "left": "MU",
+      "right": "J",
+      "boundary": "BJ"
+    },
+    {
+      "left": "MU",
+      "right": "K",
+      "boundary": "BK"
+    },
+    {
+      "left": "MU",
+      "right": "L",
+      "boundary": "BL"
+    },
+    {
+      "left": "MU",
+      "right": "M",
+      "boundary": "BM"
+    },
+    {
+      "left": "MU",
+      "right": "N",
+      "boundary": "BN"
+    },
+    {
+      "left": "MU",
+      "right": "O",
+      "boundary": "BO"
+    },
+    {
+      "left": "MU",
+      "right": "P",
+      "boundary": "BP"
+    },
+    {
+      "left": "MU",
+      "right": "Q",
+      "boundary": "BQ"
+    },
+    {
+      "left": "MU",
+      "right": "R",
+      "boundary": "BR"
+    },
+    {
+      "left": "MU",
+      "right": "S",
+      "boundary": "BS"
+    },
+    {
+      "left": "MU",
+      "right": "T",
+      "boundary": "BT"
+    },
+    {
+      "left": "MU",
+      "right": "U",
+      "boundary": "BU"
+    },
+    {
+      "left": "MU",
+      "right": "V",
+      "boundary": "BV"
+    },
+    {
+      "left": "MU",
+      "right": "W",
+      "boundary": "BW"
+    },
+    {
+      "left": "MU",
+      "right": "X",
+      "boundary": "BX"
+    },
+    {
+      "left": "MU",
+      "right": "Y",
+      "boundary": "BY"
+    },
+    {
+      "left": "MU",
+      "right": "Z",
+      "boundary": "BZ"
+    },
+    {
+      "left": "MU",
+      "right": "MU",
+      "boundary": "BA"
+    },
+    {
+      "left": "MU",
+      "right": "NU",
+      "boundary": "BB"
+    },
+    {
+      "left": "NU",
+      "right": "D",
+      "boundary": "CD"
+    },
+    {
+      "left": "NU",
+      "right": "E",
+      "boundary": "CE"
+    },
+    {
+      "left": "NU",
+      "right": "F",
+      "boundary": "CF"
+    },
+    {
+      "left": "NU",
+      "right": "G",
+      "boundary": "CG"
+    },
+    {
+      "left": "NU",
+      "right": "H",
+      "boundary": "CH"
+    },
+    {
+      "left": "NU",
+      "right": "I",
+      "boundary": "CI"
+    },
+    {
+      "left": "NU",
+      "right": "J",
+      "boundary": "CJ"
+    },
+    {
+      "left": "NU",
+      "right": "K",
+      "boundary": "CK"
+    },
+    {
+      "left": "NU",
+      "right": "L",
+      "boundary": "CL"
+    },
+    {
+      "left": "NU",
+      "right": "M",
+      "boundary": "CM"
+    },
+    {
+      "left": "NU",
+      "right": "N",
+      "boundary": "CN"
+    },
+    {
+      "left": "NU",
+      "right": "O",
+      "boundary": "CO"
+    },
+    {
+      "left": "NU",
+      "right": "P",
+      "boundary": "CP"
+    },
+    {
+      "left": "NU",
+      "right": "Q",
+      "boundary": "CQ"
+    },
+    {
+      "left": "NU",
+      "right": "R",
+      "boundary": "CR"
+    },
+    {
+      "left": "NU",
+      "right": "S",
+      "boundary": "CS"
+    },
+    {
+      "left": "NU",
+      "right": "T",
+      "boundary": "CT"
+    },
+    {
+      "left": "NU",
+      "right": "U",
+      "boundary": "CU"
+    },
+    {
+      "left": "NU",
+      "right": "V",
+      "boundary": "CV"
+    },
+    {
+      "left": "NU",
+      "right": "W",
+      "boundary": "CW"
+    },
+    {
+      "left": "NU",
+      "right": "X",
+      "boundary": "CX"
+    },
+    {
+      "left": "NU",
+      "right": "Y",
+      "boundary": "CY"
+    },
+    {
+      "left": "NU",
+      "right": "Z",
+      "boundary": "CZ"
+    },
+    {
+      "left": "NU",
+      "right": "MU",
+      "boundary": "CA"
+    },
+    {
+      "left": "NU",
+      "right": "NU",
+      "boundary": "CB"
+    }
+  ],
+  "limitations": [
+    "Not a statement that every fixed key accepts every string",
+    "Not a proof that all Voynich text has at most25 native alphabet symbols",
+    "No natural-language, historical-frequency or source-content constraint imposed",
+    "Literal/shortcut bindings may make the forbidden-pair test informative",
+    "The full left and right writers differ on ABC; only this unrestricted common subalphabet has equal coverage",
+    "This theorem supplies no likelihood, meaning, key selection or positive evidence for abbreviation"
+  ],
+  "decision": "Reject legal coverage as a selection criterion for unbound933 in this scope. Do not launch another symbol search or decoder from the shortlist alone."
+}

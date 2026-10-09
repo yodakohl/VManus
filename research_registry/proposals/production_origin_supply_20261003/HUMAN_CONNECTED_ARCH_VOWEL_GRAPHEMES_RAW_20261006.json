@@ -1,0 +1,82 @@
+{
+  "title": "RAW UNREVIEWED: connected arch graphemes encode vowel quality and length, with paid small letter gaps",
+  "summary": "A modern hand-writing proposal, not an attested medieval alphabet or a Voynich reading. One tightly connected e-like or i-like arch run is one phonemic vowel grapheme. Its family selects front/back and its length selects one of three openings and short/long duration. Ordinary consonant bodies and complete vowel graphemes are separated by a small physical gap; larger gaps separate spoken words. A long arch run is not a sequence of repeated source letters. All source, layout, learning and loss assumptions are explicit. RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED.",
+  "scope": "method",
+  "design": {
+    "mechanism": "A writer who knows the spoken language writes one consonant body or one connected vowel arch grapheme per source phoneme. Counted strokes are internal features of the vowel sign, not copies of a source letter. The discriminating information includes visible grapheme gaps and is therefore not silently represented by a flat EVA string.",
+    "unit": "One source phoneme per separated physical grapheme, one source spoken word per larger-gap written group. No grouping change, contextual alias choice, state counter or supplied whole-word codebook.",
+    "contrast": "A tight connected four-arch figure can be one long high vowel under this rule; two adjacent short graphemes require the declared internal gap. A fixed flat-letter interpretation instead treats the same counted bows as multiple code units. The contrast is conditional on an independently established physical gap/connection measurement, not a word gloss.",
+    "prediction": "All same-family arches belonging to one vowel grapheme are connected with no white gap; every adjacent pair of distinct phonemic graphemes has the declared clear small gap. In particular every transition involving a non-e/i body, and every e-to-i or i-to-e transition, is a forced grapheme boundary under this grammar and must have that gap: no allowed composite spans it. No vowel grapheme exceeds seven arches. A whole run at or above eight must show at least one grapheme gap. Ordinary consonant bodies do not acquire optional extra arches. Failure of this gap grammar under a frozen native attachment hypothesis rejects this physical realization, without rejecting all composite graphemes. The segmentation of a same-family run of length1..4 is not independently predicted: without an independently bound underlying vowel count, its observed gaps can merely select a reading. Such post-hoc selection is not confirmation.",
+    "scope": "Source-only modern construction retained before any native image/count/fit. The observed four-bow example motivated the question and is not a novel prediction success. No native phoneme, word meaning, source language, atomization or small-gap class is asserted. A new image question would require root selection and the normal access contract."
+  },
+  "complete_teaching_rule": {
+    "working_shape_inventory": ["a", "ch", "ckh", "cph", "cth", "cfh", "d", "e", "f", "i", "k", "l", "m", "n", "o", "p", "q", "r", "s", "sh", "t", "y"],
+    "shape_scope": "These are names for the existing 22 working shapes in a teaching convention, not established native graphemes. No new basic ink shape is added. Tight repetition and small/large blank widths are additional physical information and are charged below.",
+    "input_domain": "A message authored in a mutually known spoken language, supplied as words over the 22 declared consonants and 12 declared vowels, with sentence boundaries. No original alphabetic orthography, capitalization, stress, tone, comma or other punctuation is claimed recoverable. A content distinction depending on an omitted prosodic feature lies outside this declared domain; it may not be guessed from context. The rule does not supply a semantic translation or grammar for an unknown language.",
+    "consonants_in_table_order": ["p", "b", "t", "d", "k", "g", "f", "v", "theta", "eth", "s", "z", "sh", "zh", "h", "m", "n", "ng", "l", "r", "j", "w"],
+    "consonant_map": "Pair the consonant list and working-shape inventory by index. A consonant is exactly one bare body. In particular bare teaching e and i are consonants; a connected run with two or more such arches is a vowel grapheme.",
+    "vowel_map": {
+      "front_series": {"family": "e", "height_1": "i", "height_2": "e", "height_3": "a"},
+      "back_series": {"family": "i", "height_1": "u", "height_2": "o", "height_3": "back-open-a"},
+      "arch_count": "1 + height + 3*long, where height is 1,2,3 and long is 0 or 1. Thus short vowels use 2,3,4 joined arches and long vowels use 5,6,7. This ordered feature convention and the distinction of the two open vowels are taught explicitly.",
+      "entry_and_exit": "Start each vowel grapheme at its left edge and complete all arches as one joined figure. Do not connect its exit to a following grapheme. A following vowel of the same family receives a new small gap, even if the combined silhouette would otherwise resemble a longer run."
+    },
+    "spaces": "Let w be the agreed broad-nib stroke width. Internal arches touch through their joins. Between separate graphemes leave one clear w of paper. Between source words leave three clear w. For this exact ideal teaching contract those are fixed widths, not post-result thresholds. A practical tolerance and a native measurement protocol are not yet selected. The small gap is not a source word boundary.",
+    "sentences": "Every complete source sentence is written as one physical paragraph and followed by one completely blank line. Sentence boundaries are preserved by that paid blank line, not inferred from the source or a reader's guess. The end of the written message closes its final sentence. Multiple clauses may occur within a sentence according to the already known language; no scope operator is invented by the script.",
+    "line_handling": "Use a visible ruled left reference margin. The first line after a sentence blank begins at the margin. Prefer wraps at word boundaries: a continuation line beginning a new word starts three w to the right of the margin. An overwide word may be broken only between whole graphemes; its next physical line begins at the margin, so the reader concatenates it to the preceding word. This zero-versus-three-w line-entry distinction is paid layout information, not an invisible reset. Never split one connected vowel grapheme. Choose a text band wide enough for the seven-arch grapheme plus the three-w indent; otherwise this writer cannot use that page. Ordinary line changes do not alter phoneme values.",
+    "unknown_words_and_names": "Any unfamiliar word or name whose pronunciation uses the declared phonemes is written by the same rule and recovered as the same phoneme sequence. The reader need not already know that name, but spelling, identity, etymology and meaning do not follow merely from its sounds. A name or word with a phoneme outside the inventory is rejected rather than silently normalized. No claim of full historical-corpus coverage is made.",
+    "repetitions": "Repeat the ordinary word spelling with an ordinary word gap. There is no special repeat header or previous-word dependency. Phoneme repetition inside a word repeats whole graphemes with their small gaps. Therefore two consonants e,e differ physically from one connected ee vowel grapheme.",
+    "reader": "Use sentence blank lines and continuation indents to restore physical words. Within each word, split only at clear small gaps. Decode a single body by the consonant table. Decode a connected e/i run of length2..7 by family, subtracting1, then height and long flag. Reject any other grapheme. Read the recovered phonemic words using the mutually known language; retain any semantic ambiguity that language actually has.",
+    "costs": "22 learned consonant-to-body pairs; two vowel families, three height values and one short/long formula producing12 additional graphemes; counting at most7 joined arches; explicit fine spacing, larger word spacing, ruled left margin, continuation indent and blank sentence line. The ordinary language and its lexicon must already be learned. Source words have34 possible phonemic signs, not22 code entries. The rule spends space and pen separations to avoid a large syllable table and to make phonological relationships graphic. It makes no economy or frequency claim."
+  },
+  "hand_example": {
+    "status": "Exposed invented teaching input; not a blinded reading and not a historical pronunciation claim.",
+    "source_phonemic_words": [["t", "o", "m", "a"], ["t", "e", "n", "e"], ["a", "k", "w", "a", "m"]],
+    "source_sentence": "A declared Latin teaching pronunciation of 'Toma tene aquam': address Toma and tell that person to hold water. The source author supplies the language; no Voynich word receives that meaning.",
+    "graphemes_by_word": [["ckh", "iii", "p", "eeee"], ["ckh", "eee", "q", "eee"], ["eeee", "cth", "y", "eeee", "p"]],
+    "physical_display_notation": "ckh|iii|p|eeee / ckh|eee|q|eee / eeee|cth|y|eeee|p ; then one blank physical line. Here | denotes the paid one-w gap and / the paid three-w gap; neither is extra ink.",
+    "readback": "ckh=t; connected iii=short back height2=o; p=m; connected eeee=short front height3=a. The other two groups similarly recover tene and akwam. Internal eeee is one vowel, not four repeated phonemes.",
+    "minimal_contrast": "One connected eeee decodes as short a. Two separate connected ee graphemes, ee|ee, decode as two short i vowels. A flat 'eeee' transcription that erases the gap loses this distinction."
+  },
+  "predecessors_and_nonclaims": [
+    {
+      "id": "IDEA000932",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_STACKED_VOWEL_RUNS_RAW_20261005.json",
+      "review_primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_SPATIAL_REVIEW_RESULT_20261005.json",
+      "difference": "932 puts explicit vowel marks above consonant bodies, with a word-initial empty carrier. This rule instead writes each vowel as an autonomous inline connected grapheme and pays its boundaries. It neither reclassifies the old cap projection nor repairs the known bare/medial ch cases."
+    },
+    {
+      "id": "IDEA000928",
+      "difference": "No high/low connector chosen from the preceding letter, no obligatory shared interletter stroke and no G2 body equivalence. Each grapheme ends before the explicit small gap."
+    },
+    {
+      "id": "GDT1219",
+      "primary": "experiments/yolo/gdt1219_contextual_cv_body_screen/REPORT.md",
+      "difference": "No126 source-trained defaults, omitted vowel, last-vowel memory, or context-CV body table. Its full inverse and38/60 fixed-source failures remain unchanged."
+    },
+    {
+      "id": "GDT1196",
+      "primary": "experiments/yolo/gdt1196_vowel_boundary_capacity/REPORT.md",
+      "difference": "No printed groups formed from vowel-run fragments. Source word boundaries remain intact, so this does not reopen the six failed segmentation contracts."
+    },
+    {
+      "id": "NON_UD22_DEFECT_CONSEQUENCE",
+      "difference": "This proposal has34 phonemic graphemes and paid physical inter-grapheme gaps. It is not a fixed table of at most22 nonempty flattened code strings, UD or non-UD. This distinction is an explicit cost, not a defect-theorem exception."
+    },
+    {
+      "id": "GDT1226",
+      "primary": "experiments/yolo/gdt1226_pooled_source_alias_lower_bound/REPORT.md",
+      "limit": "Deterministic source-word to written-word phonemic rendering preserves exact word frequencies when injective and can only coarsen them under homophony. It cannot rescue the four fixed word-source profiles. No new segmentation or alternate spelling is allowed after this freeze. No source test is selected."
+    }
+  ],
+  "review_access_correction": "After this rule and hand example had been written, the producer mistakenly displayed the large HAND_WRITER_SPATIAL_REVIEW_RESULT_20261005.json instead of only its decision fields. The truncated tool output included already exposed f25v cell records. This exceeded the assigned report-only scope. Root was informed immediately. No native image, new source acquisition, counting, parsing or outcome test occurred; those cells were not used to alter this design. No blinding is claimed. Future predecessor checks must select compact decision fields rather than whole result JSON.",
+  "native_obligations_unassessed": [
+    "The teaching consonant assignments are arbitrary and are not proposed native sound values. A later native hypothesis must declare whether they are literal or permuted before looking at outcomes.",
+    "Known short words, identical neighbor words/triples and diverse long interiors are not removed or given exceptional parses. The rule allows their abstract shapes but has not parsed any native form.",
+    "An observed four-bow form is prior motivation, not a prediction success. A four-bow figure does not by itself distinguish one grapheme from several.",
+    "Native spaces may not contain the declared fine-spacing hierarchy; pen joins may cross the grammar-forced boundaries at non-e/i bodies or between e and i. Either is a direct risk for this exact physical contract. A freely segmented same-family run is not an independent test of its own vowel interpretation.",
+    "e/i runs are the ONLY vowel graphemes. Under the literal teaching-shape binding, existing complete daldy, ol, or and chol have no vowel grapheme and would require consonant-only source words. The declared input domain permits such strings but no unknown language is assumed to permit those particular words or their frequency. A later fixed source must pay this obligation. There is no silent vowel, reassignment of a/o/y, or post-result added vowel class.",
+    "One sentence per visibly blank-line-delimited paragraph and the continuation-indent convention are additional native obligations, not established manuscript facts. The isolated arch hypothesis must not inherit a full-writer pass from them.",
+    "q/o behavior, terminal-y concentration, word frequencies, historical source coverage and writer effort remain untested. There is no q/o exception or native frequency optimization."
+  ]
+}

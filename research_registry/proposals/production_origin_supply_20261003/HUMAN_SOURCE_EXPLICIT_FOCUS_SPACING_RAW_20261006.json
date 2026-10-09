@@ -1,0 +1,142 @@
+{
+  "title": "RAW INCOMPLETE: two visible space grades preserve explicitly supplied emphasis while open words remain fully written",
+  "summary": "An invented hand-writing module carries an author's overt emphasis choices through two visibly different interword gaps. Every ordinary source word and punctuation mark is retained. Broad gaps begin emphasized-word groups; narrow gaps attach an unaccented following word. This is a complete abstract text-plus-emphasis layout rule, not a complete22-working-sign writer, an attested historical rule or a native reading. No source or target has been encoded or counted.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+  "source_status": "INVENTED_TEACHING_MODULE_NO_NEW_HISTORICAL_SOURCE",
+  "ownership": "Independently outlined by the bounded producer during the parent's different plant-name/procedure-word design block. The idea does not modify942,945,948 or any existing experiment. The parent retains scientific selection authority.",
+  "design": {
+    "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "The source author supplies a literal word sequence together with an explicit emphasized/unemphasized choice for each word. Write every word fully. The gap immediately before a word carries its emphasis choice: narrow for unemphasized, broad for emphasized. The same distinction is visibly carried by indentation at a physical line beginning. Paragraph breaks remain separately visible. Thus large-gap groups depend on the author's declared emphasis, not on a fixed word list, alternating counter, prior letter or a silently omitted word boundary.",
+    "unit": "A complete source paragraph consisting of nonempty ordinary word strings, their punctuation, and one overt emphasis bit per source word. The artificial gap convention acts on these words; no source-language or native alphabet is identified.",
+    "contrast": "Word-list grouping assigns the same binding class to a spelling everywhere. Here the same spelling can start a group or follow inside one because the author explicitly changes emphasis, which is additional message information. Keeping the word sequence and emphasis unchanged must keep the grouping unchanged.",
+    "prediction": "At the abstract level, every word with emphasis1 starts a new primary group, while emphasis0 continues the preceding group except for an explicitly unheaded paragraph-initial run. No phrase may be regrouped merely to improve a frequency score. Across a physical line wrap the incoming gap grade must preserve the same emphasis bit and primary grouping. This is a stipulated necessary consequence, not a measured native finding.",
+    "scope": "Source-free invented grouping and spatial transmission module. It preserves words and explicit emphasis but has no fixed22-sign word carrier, no corpus prosody annotation and no native gap-class binding. It is not ready for the inherited8000-native-group comparison. A primary group may span physical lines, so it cannot silently be equated with an existing transcription group.",
+    "input_contract": {
+      "words": "Each paragraph is an ordered finite sequence of nonempty literal word strings. Input punctuation stays attached to its original word or is a separately declared token; the choice is supplied with the input and preserved, never inferred for favorable grouping. Original single word spaces and paragraph boundaries are retained. No accent, spelling, name, negation, article or pronoun is deleted or normalized.",
+      "emphasis": "An explicit bit e_i accompanies every source word.1 requests audible emphasis;0 does not. This is not an automatic phonological analysis or a lexical stress dictionary. A writer must obtain the author's actual intended emphasis or declare it as part of a newly authored teaching message before considering target statistics. The existing historical source projections do not already supply these bits.",
+      "content": "The ordinary language and complete literal wording carry participants, action, negation, comparison, reference and scope. This module adds emphasis; it does not resolve a pronoun, supply an omitted argument or equate emphasis with a particular truth-conditional operator. All ambiguity already in the wording remains.",
+      "unknown_words": "An unfamiliar name, technical word, single letter or digit is written in full by the same underlying word script. No exception dictionary or reader access to an unwritten original is permitted. The underlying22-working-sign script and its rare-character handling remain explicitly unprovided in this RAW module."
+    },
+    "hand_rule": [
+      "Before copying, use the supplied word order and emphasis choices. Do not choose different emphasis merely to obtain a desired group length or frequency.",
+      "Use one publicly taught narrow interword gap N and a visibly broader gap W. W marks emphasis1 on the immediately following word; N marks emphasis0. There is no erased or invisible source word boundary: both gap grades separate full source words.",
+      "At a paragraph's first word, indentation from the common left margin is N for emphasis0 and W for emphasis1. A blank row separates paragraphs. An all-unemphasized opening or paragraph is legal and begins one unheaded group; no fictitious stressed word is inserted.",
+      "Copy each complete word and all its supplied punctuation. At every following word use N or W according to that word's bit. All words after a W belong to that primary group until the next W or paragraph end. The initial unheaded run ends at the first W or paragraph end.",
+      "Physical line wrapping does not reset the rule. Break only between complete source words. At the next physical row use N or W indentation according to the incoming word's bit: N continues the current primary group, W starts the next. No marker word or padding is inserted at a wrap.",
+      "If the ordinary word script cannot fit an individual word in the available line, this edition has no within-word continuation rule. Use a suitable writing area or declare this layout unsupported; do not silently split or abbreviate the word. This is an explicit remaining physical limitation, not native evidence.",
+      "Do not add optional word contractions, attachments, aliases or new gap meanings to this module."
+    ],
+    "reader_rule": [
+      "Know the ordinary word script, the source language, the left margin, and the two taught gap grades. Read each full word and punctuation exactly.",
+      "Every source word boundary is visible as N, W or a physical line break followed by one of those indentation grades. Restore one ordinary word space there; restore a paragraph boundary at each blank row.",
+      "Assign emphasis0 or1 from the gap immediately preceding each word, including the first word of a physical row. At a new paragraph clear only the previous-group link. No lexical lookup chooses the bit.",
+      "Primary groups can be reconstructed mechanically from emphasis1 starts. A leading emphasis0 run remains an unheaded group. A physical row beginning at N continues the preceding group when the paragraph has not ended.",
+      "An ambiguous gap grade is an unreadable emphasis/boundary classification, not permission to guess from expected message or target statistics. The full underlying22-sign body reader remains unconstructed."
+    ],
+    "spatial_cost": {
+      "teaching_idealization": "A toy practice sheet could use N=one pen-body unit and W=three such units, measured from the end of one written word to the start of the next; line-opening indentation is measured from a ruled left margin. These ideal widths are an invented lesson only. No tolerance bands, native pixel thresholds or corpus width distributions have been selected or measured.",
+      "extra_channel": "The two gap grades carry one explicit bit per word, including a line-initial word. The extra spacing channel is part of the communication cost even though it adds no new drawn glyph. It must not be reported as a free22-symbol alphabet.",
+      "memory": "No changing letter table, dictionary cache or arithmetic counter is required. The writer retains the supplied emphasis for the next word; the reader retains whether the paragraph already has an open group. Knowledge of the source language and word script is still paid. Narrow and broad spacing, the left margin, paragraph separation and wrap interpretation are additional learned conventions.",
+      "writing_cost": "No letter is saved. Broad gaps consume more page width. Large primary groups may contain several visible source-word gaps and may span rows. Treating these as ordinary native transcription words would be a further substantive assumption."
+    },
+    "invented_examples": [
+      {
+        "source": "koche die wurzel in wasser.",
+        "words": ["koche", "die", "wurzel", "in", "wasser."],
+        "emphasis": [1, 0, 1, 0, 1],
+        "primary_groups": [["koche", "die"], ["wurzel", "in"], ["wasser."]],
+        "abstract_display": "W:koche N:die W:wurzel N:in W:wasser.",
+        "reading": "Recover every word as printed and emphasize koche, wurzel and wasser. No ingredient or procedural meaning is assigned to a native sign."
+      },
+      {
+        "source": "koche die wurzel in wasser.",
+        "words": ["koche", "die", "wurzel", "in", "wasser."],
+        "emphasis": [1, 0, 1, 1, 0],
+        "primary_groups": [["koche", "die"], ["wurzel"], ["in", "wasser."]],
+        "abstract_display": "W:koche N:die W:wurzel W:in N:wasser.",
+        "reading": "The literal sentence is unchanged; the author's overt emphasis is now on in instead of wasser. The changed group boundary transmits that difference rather than acting as a cost-free spelling variant. No claim about the exact pragmatic interpretation is made."
+      },
+      {
+        "source": "und dann koche nara.",
+        "words": ["und", "dann", "koche", "nara."],
+        "emphasis": [0, 0, 1, 1],
+        "primary_groups": [["und", "dann"], ["koche"], ["nara."]],
+        "abstract_display": "N:und N:dann W:koche W:nara.",
+        "reading": "Nara is an expressly invented open name and is fully written. The first group is an unheaded initial run, not a dropped or invented accent."
+      },
+      {
+        "source": "nara nara, nicht neru.",
+        "words": ["nara", "nara,", "nicht", "neru."],
+        "emphasis": [1, 1, 1, 1],
+        "primary_groups": [["nara"], ["nara,"], ["nicht"], ["neru."]],
+        "abstract_display": "W:nara W:nara, W:nicht W:neru.",
+        "reading": "All punctuation and negation remain written. Exact neighboring equal words with equal punctuation and emphasis would yield exact repeated bodies; the comma here is deliberately not discarded to manufacture an exact doublet."
+      },
+      {
+        "source": "a a",
+        "words": ["a", "a"],
+        "emphasis": [1, 1],
+        "primary_groups": [["a"], ["a"]],
+        "abstract_display": "W:a W:a",
+        "reading": "Single-character source words and exact adjacent repeated groups are legal. This is an artificial word example, not an assignment of a native drawing."
+      }
+    ],
+    "necessary_obligations": [
+      "The same complete source word can be a group head or a follower only if the supplied emphasis differs. Unchanged text and emphasis have a fixed grouping.",
+      "The same annotated phrase copied twice has identical grouping. No universal repeat header, two-terminal alphabet or fixed number of source pieces per primary group is imposed.",
+      "A pure physical line reflow cannot alter the recovered words, emphasis bits or primary groups. Indentation must visibly pay for whether an incoming word continues or starts a group.",
+      "All source-word gaps remain visible. If a later native binding requires genuinely unspaced mergers with no separately readable internal boundary, this exact gap-preserving module cannot merely call the boundary hidden.",
+      "The module does not predict native q-o, final-y, directed glyph-order frequencies or ol/dal morphology. Their known obligations remain outstanding; no statistical fit is claimed."
+    ],
+    "smallest_decision_changing_consequence": "A future claim of this exact mechanism must bind an actual independently specified emphasis contrast to a changed broad-versus-narrow boundary while keeping the literal word sequence fixed, and must pay the physical gap distinction. If emphasis is chosen after seeing the desired grouping, the construction loses its discriminator and cannot be selected as an explanation. No new corpus collection, width census or native test is proposed in this RAW card.",
+    "strongest_counterexamples_and_limits": [
+      "The existing source-control inputs have word spellings and recipe boundaries, not independently supplied emphasis bits. Choosing one arbitrary bit pattern per source sentence after a frequency failure would be an unbounded repair, forbidden here.",
+      "GDT852 supports one local written spacing contrast; GDT1056 finds no visible repair there. Neither establishes two universal gap grades, emphasis or this parser. Ordinary handwriting variation remains a rival.",
+      "GDT853's matched spacing-transfer test stopped for capacity; its missing pairs cannot be treated as evidence for this explanation. GDT907 did not identify cross-line word continuation. The present row-indent convention has no native binding.",
+      "A two-grade spatial channel may require more writing area and visual precision than ordinary word spacing. It is additional information and learning cost, not free ambiguity resolution.",
+      "The complete22-working-sign body script, lexical literal/rare-character escape, real physical tolerances and long-word continuation are not specified. The proposal is therefore RAW INCOMPLETE, not an executable full writer.",
+      "Known exact neighboring repeats and several terminal shapes are not excluded by the abstract rule, but no mapping to them has been constructed or tested. This is not a claimed native pass."
+    ]
+  },
+  "predecessors_and_boundaries": [
+    {
+      "id": "IDEA000945 / GDT1212 / GDT1213",
+      "primaries": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_BIDIRECTIONAL_FUNCTION_BINDING_RAW_20261005.json",
+        "experiments/yolo/gdt1212_bidirectional_function_binding/REPORT.md",
+        "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md"
+      ],
+      "relation": "Related general question of source words versus printed groups.945's fixed R/L lexical lists and their failed common injective realization remain unchanged. This RAW module requires overt emphasis as extra message input and a paid second gap grade; it is neither another list selection nor a threshold repair.1213 does not relax the old frequency gates."
+    },
+    {
+      "id": "GDT852 / GDT853 / GDT1056 / GDT907",
+      "primaries": [
+        "experiments/yolo/gdt852_f75v_native_join_split_spacing/REPORT.md",
+        "experiments/yolo/gdt853_spacing_context_transfer/REPORT.md",
+        "experiments/yolo/gdt1056_f75v44_visible_repair_capacity/REPORT.md",
+        "experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md"
+      ],
+      "relation": "These primary reports were read. Local spacing evidence, failed comparator capacity, absence of visible repair, and lack of identified cross-line continuation stay distinct. None identifies an emphasis channel; no proposed old followup is presented as unexecuted."
+    },
+    {
+      "id": "GDT608 / GDT282 / GDT286 / GDT318",
+      "primaries": [
+        "research_registry/proposals/differential_reading_20260914/STRUCTURAL_BASELINE.md",
+        "docs/VOYNICH_RESEARCH_BRIEF.md"
+      ],
+      "relation": "Retained structural baseline: ordered reusable components, whole-form residuals and entry context. The current RAW module only addresses a possible grouping input; it does not supply or rediscover this glyph-level structure."
+    },
+    {
+      "id": "IDEA000937 / GDT1196; IDEA000948 / GDT1217",
+      "relation": "No vowel-run splitting, ring state, escape table or glyph palette is changed. The producer knows the live route's compact1217stop but did not inspect its fresh source outputs or adapt948. The present invented gap convention is independent of its quantitative outcome."
+    }
+  ],
+  "review_and_exposure": {
+    "navigation": "Live route and composition topic; bounded searches for prosodic/Betonung/enclitic/phonological/spacing; bounded duplicates; route-check;945card and1212followups; exact later spacing primaries. Empty lexical searches were not treated as proof of historical novelty.",
+    "proposal_timing": "Outlined during the authorized block ending2026-10-06T00:45:00Z. All examples were invented without source or native counting. Prior1212/1213reports were read as frozen constraints; no values were used to choose emphasis or gap rules.",
+    "history_claim": "None. No external source search, source acquisition or claim of medieval attestation.",
+    "access": "No new native/source query, image, corpus encoding, experiment, fitting, subagent, shared route/state/ledger edit or publication. Only this raw proposal and ideas-add metadata may be written.",
+    "selection": "Unreviewed retention only. This does not supply an input adapter for the existing four source books or a scientifically selected next test. No native word meaning is assigned."
+  }
+}

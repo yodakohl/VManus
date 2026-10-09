@@ -1,0 +1,60 @@
+{
+  "record_id": "GDT1213",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root; separate parser/count implementation, same author",
+  "assessment_basis": "primary_reports",
+  "reason": "All128 prespecified pooled page-order samples satisfy both original frequency bands in all three separate readings. Exact1174 reference-ID reproduction and independent implementation agree. Retain the quick descriptive screen; no changed band or failed-writer reopening.",
+  "blockers": [
+    {
+      "code": "overlapping_exposed_selection_only",
+      "detail": "Pooled sample sensitivity, not independent error calibration, per-section homogeneity, native meaning or historical model confirmation.",
+      "evidence": [
+        "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md",
+        "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/RESULT.json",
+        "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_decision_relevant_sampling_question",
+        "change": "new_design",
+        "detail": "A prospectively justified different comparison unit addressing a new selection decision, not more seeds or looser thresholds.",
+        "evidence": [
+          "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More random seeds after a completed128-seed control",
+      "Calling alternate readings independent",
+      "Reusing a favorable sample to rescue an old failed writer"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1211",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1212",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md"
+      ]
+    }
+  ]
+}

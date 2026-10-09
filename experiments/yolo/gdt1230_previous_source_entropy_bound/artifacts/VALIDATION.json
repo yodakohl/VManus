@@ -1,0 +1,40 @@
+{
+  "experiment": "GDT1230",
+  "status": "PASS",
+  "validated_utc": "2026-10-06T08:45:57.299224+00:00",
+  "source_tokens": 6288,
+  "source_sections": 71,
+  "within_word_pairs": 18380,
+  "high_precision_bounds": [
+    {
+      "orientation": "logical",
+      "reset": "paragraph",
+      "decimal50_lower_bound": "2.8393327404666509977158484438522926523235391748594"
+    },
+    {
+      "orientation": "logical",
+      "reset": "word",
+      "decimal50_lower_bound": "2.7178742541796022218718089563650473005520614296883"
+    },
+    {
+      "orientation": "reverse_each_source_word",
+      "reset": "paragraph",
+      "decimal50_lower_bound": "2.8675710557361841777530523754162168146252444821796"
+    },
+    {
+      "orientation": "reverse_each_source_word",
+      "reset": "word",
+      "decimal50_lower_bound": "2.6821747594130342552954362094381870634331967605200"
+    }
+  ],
+  "checks": [
+    "frozen inputs and proof/code",
+    "independent raw source projection",
+    "flat-offset traversal including first pairs one-letter words and reset sentinels",
+    "full four context-count certificates",
+    "exhaustive binary permutations and essential noninjective null",
+    "joint-minus-context entropy and50digit Decimal logs",
+    "unchanged cached native sample ceilings capacities and all decisions"
+  ],
+  "claim": "Separate computation by same root; producer independently checked proof before source output. Neither establishes native meaning or historical use."
+}

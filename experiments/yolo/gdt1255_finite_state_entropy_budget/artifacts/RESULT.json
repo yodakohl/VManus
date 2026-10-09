@@ -1,0 +1,183 @@
+{
+  "status": "ALL_AT_MOST_TWO_STATE_FIXED_SOURCE_WRITERS_EXCLUDED",
+  "K": 2,
+  "source_tokens": 6288,
+  "ceilings": {
+    "IT2a": {
+      "largest_allowed_H2": 2.6216890417756678,
+      "scoreable_cells": 8,
+      "no_capacity_cells": [
+        {
+          "field": "section",
+          "value": "B",
+          "eligible_groups": 5412
+        },
+        {
+          "field": "section",
+          "value": "C",
+          "eligible_groups": 372
+        },
+        {
+          "field": "section",
+          "value": "P",
+          "eligible_groups": 1336
+        },
+        {
+          "field": "section",
+          "value": "T",
+          "eligible_groups": 2019
+        },
+        {
+          "field": "hand",
+          "value": "5",
+          "eligible_groups": 715
+        },
+        {
+          "field": "hand",
+          "value": "@",
+          "eligible_groups": 440
+        }
+      ]
+    },
+    "RF1b": {
+      "largest_allowed_H2": 2.607891385185642,
+      "scoreable_cells": 8,
+      "no_capacity_cells": [
+        {
+          "field": "section",
+          "value": "B",
+          "eligible_groups": 4460
+        },
+        {
+          "field": "section",
+          "value": "C",
+          "eligible_groups": 302
+        },
+        {
+          "field": "section",
+          "value": "P",
+          "eligible_groups": 1151
+        },
+        {
+          "field": "section",
+          "value": "T",
+          "eligible_groups": 1753
+        },
+        {
+          "field": "hand",
+          "value": "5",
+          "eligible_groups": 578
+        },
+        {
+          "field": "hand",
+          "value": "@",
+          "eligible_groups": 407
+        }
+      ]
+    },
+    "ZL3b": {
+      "largest_allowed_H2": 2.5845646350677387,
+      "scoreable_cells": 8,
+      "no_capacity_cells": [
+        {
+          "field": "section",
+          "value": "B",
+          "eligible_groups": 4657
+        },
+        {
+          "field": "section",
+          "value": "C",
+          "eligible_groups": 324
+        },
+        {
+          "field": "section",
+          "value": "P",
+          "eligible_groups": 1120
+        },
+        {
+          "field": "section",
+          "value": "T",
+          "eligible_groups": 1745
+        },
+        {
+          "field": "hand",
+          "value": "5",
+          "eligible_groups": 595
+        },
+        {
+          "field": "hand",
+          "value": "@",
+          "eligible_groups": 397
+        }
+      ]
+    }
+  },
+  "cases": [
+    {
+      "orientation": "logical",
+      "source_H2": 3.6832851789352214,
+      "lower_bound": 2.6832851789352214,
+      "margins": {
+        "IT2a": 0.0615961371595537,
+        "RF1b": 0.07539379374957944,
+        "ZL3b": 0.09872054386748275
+      }
+    },
+    {
+      "orientation": "reversed",
+      "source_H2": 3.695099300056572,
+      "lower_bound": 2.695099300056572,
+      "margins": {
+        "IT2a": 0.0734102582809042,
+        "RF1b": 0.08720791487092994,
+        "ZL3b": 0.11053466498883324
+      }
+    }
+  ],
+  "all_margins_positive": true,
+  "fixture_cases": 9216,
+  "fixture_source_H2": 1.5326008146717762,
+  "sharp_example": {
+    "source": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "output": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "source_H2": 1.0,
+    "output_H2": 0.0,
+    "states": 2,
+    "boundary": "flip after each word; identity state update inside word",
+    "rows": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "noninjective_countercontrol": {
+    "source_H2": 1.0,
+    "output_H2": 0.0,
+    "claimed_states": 1,
+    "reason": "constant noninjective row violates the injective-row premise"
+  },
+  "ceiling": "Conditional fixed-source operational screen; no native state count, source identification or meaning."
+}

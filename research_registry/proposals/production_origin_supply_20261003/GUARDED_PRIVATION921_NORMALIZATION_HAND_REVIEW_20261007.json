@@ -1,0 +1,65 @@
+{
+  "status": "BOUNDED_SOURCE_LOGIC_REVIEW_NOT_NATIVE_SELECTION",
+  "proposal": "IDEA000921",
+  "raw_unchanged": "research_registry/proposals/production_origin_supply_20261003/guarded_privation_vs_negation.json",
+  "question": "When may a note normalize two qualified absences to the same privative expression without silently losing an intended history distinction?",
+  "existing_source_basis": {
+    "receipt": "research_registry/proposals/production_origin_supply_20261003/CATEGORIES10_SOURCE_RECEIPT.json",
+    "scope": "The retained source review summarizes Categories10's distinction between plain absence and absence in a bearer at a stage where the faculty should naturally be present. The cached receipt concerns a modern English translation, not a medieval codex or an identified Voynich source.",
+    "formal_contract_already_in921": "PRIV_P(x,t)=E_P(x,t) AND NOT P(x,t). E is the explicitly declared eligibility condition. This existing expression contains no past-possession variable.",
+    "not_new_historical_claim": "The following check is of that already stated formal definition. It does not independently collate the original Greek, add a claim about all historical senses of privation, or adopt a medical prognosis."
+  },
+  "three_distinct_contents": {
+    "plain_negation": "NEG_P(x,t)=NOT P(x,t).",
+    "guarded_privation": "PRIV_P(x,t)=E_P(x,t) AND NOT P(x,t).",
+    "guarded_prior_loss_for_this_hand_check": "LOSS_P(x,t)=E_P(x,t) AND H_P(x,t) AND NOT P(x,t), where H_P(x,t) says that the SAME bearer had P at some explicitly earlier time. This is a newly defined comparison predicate, not a purported translation of every ordinary use of loss."
+  },
+  "complete_synthetic_cases": [
+    {"case": "not eligible, absent, never present", "E": false, "P_now": false, "H_past": false, "NEG": true, "PRIV": false, "LOSS": false},
+    {"case": "eligible, absent, never present", "E": true, "P_now": false, "H_past": false, "NEG": true, "PRIV": true, "LOSS": false},
+    {"case": "eligible, absent, formerly present", "E": true, "P_now": false, "H_past": true, "NEG": true, "PRIV": true, "LOSS": true},
+    {"case": "eligible, currently present", "E": true, "P_now": true, "H_past": true, "NEG": false, "PRIV": false, "LOSS": false}
+  ],
+  "small_hand_message_pair": {
+    "source_A": "For the named bearer X at the declared stage t, eligibility E is true and P is absent. P has never been present before t.",
+    "source_B": "For the same named bearer X at the same declared stage t, eligibility E is true and P is absent. P was present before t.",
+    "equal_current_note": "PRIV_P(X,t)",
+    "different_history_reading": "LOSS_P(X,t) is false in A and true in B. These are alternative fully stated source histories, not a newly observed pair of people or manuscript passages.",
+    "what_the_reader_may_say": "The common current note states eligible absence. It does NOT state whether P was formerly possessed, whether P will return, how P was lost, or who caused the state."
+  },
+  "two_decision_outcomes": [
+    {
+      "declared_preserved_content": "Current guarded classification only, with the exact bearer, stage and property already paid.",
+      "outcome": "Mapping A and B to the same PRIV note is an honest semantic normalization. The reader recovers precisely that common current content; history is explicitly outside the note's claim."
+    },
+    {
+      "declared_preserved_content": "The same current classification PLUS whether this bearer possessed the faculty earlier.",
+      "outcome": "The identical PRIV note is insufficient: two intended source contents collide. A complete writer must write the history distinction or license it from an independently public context which already determines H. The word privation, a before/after picture, or an analyst's story cannot supply that bit."
+    }
+  ],
+  "additional_guard_limit": "Even the current normalization may not erase eligibility indiscriminately. The first and second synthetic cases share NOT P but differ in PRIV. An overt or independently fixed E is needed to interpret the qualified predicate; absence of a written qualifier is not evidence that E is false.",
+  "learning_and_reference_cost": "A practical notation must teach the property P, what makes E true at the stated stage, the exact bearer/time reference, and whether H is part of the promised content. This review does not provide those as native words, introduce an unpriced definition lexicon, or build a physical writer. An English adjective alone is not an exact object-identity or time-binding mechanism.",
+  "predecessor_limits": [
+    {
+      "id": "IDEA000921",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/guarded_privation_vs_negation.json",
+      "retained": "The E=0/E=1 plain-negation contrast and the missing target binding are already recorded. The useful hand clarification here is that this formal guard still does not encode earlier possession. No duplicate RAW card is justified."
+    },
+    {
+      "id": "GDT1140 and IDEA000777",
+      "primary": "experiments/yolo/gdt1140_fortune_status_whole_reading/REPORT.md",
+      "retained": "The old Fortune/status/tense candidate is partial and contains unconfirmed lexical and reference assumptions. Its report explicitly separates a past statement from a present loss and retains unsettled temporal scope. None of its native values or bearer assignments is adopted. A cycle narrative cannot provide H for921."
+    },
+    {
+      "id": "GDT1070",
+      "primary": "experiments/yolo/gdt1070_first_head_collision_capacity/REPORT.md",
+      "retained": "Its first-head uniqueness/collision question supplies neither eligibility nor past possession nor a meaning for a word. No naming or picture analogy is used here."
+    },
+    {
+      "id": "IDEA000863",
+      "retained": "The separate source-side reason-negation qualification was encountered in bounded navigation. It concerns scope over a reason, not this eligibility/history distinction; no rhyme, phonetic or musical route is proposed."
+    }
+  ],
+  "selection_recommendation": "The existing921card is adequate to retain this question. If root selects a small manual content check, ask a reader of the same PRIV note separately for the current qualification and the past-possession claim. The correct result preserves the former and leaves the latter unknown. Do not begin a native contrast search or new carrier merely because this formal distinction is coherent.",
+  "actions": "Read current route, targeted idea dossiers,921primary/receipt and1140report, plus1070lookup scope. No native profiles, manuscript payloads, images, source acquisition, statistics, decoder, registry refresh or root-file change. Registry staleness during root's update was respected. No new RAW card."
+}

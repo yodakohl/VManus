@@ -1,0 +1,143 @@
+{
+  "status": "NO_CONCRETE_CLAIM_CORRECTION_REQUIRED_IN_AUDITED_CURRENT_SUMMARIES",
+  "scope": "Current route interval summary, full four-hour session narrative through QM, five compact GDT872–876 reports, QM root review/source validation/scoped revision/preservation receipt. No image, manuscript TSV or experiment rerun in this audit. Not an audit of every historical active-state claim or public commit.",
+  "interval_is_complete": false,
+  "new_manuscript_data_results": [
+    {
+      "id": "GDT872",
+      "type": "New exploratory structural count on existing permitted transcription data",
+      "finding": "198 raw anchors; 1930 opportunities and 178 hits. Distal ZL overall response density is 51/529 forward versus 66/646 backward. Conditional CH share is 41/51 versus 36/66; strict diagnostic 7/9 versus 5/6 does not reproduce that direction.",
+      "limit": "No tested equivalence, persistence, reset or translation; alternate readings are not independent witnesses."
+    },
+    {
+      "id": "GDT873",
+      "type": "New retrospective descriptive structural comparison on existing cache",
+      "finding": "41 of 82 eligible primary anchors matched, 29 folios; equal-anchor signed-density D=0 versus control D=-.010967; residual +.010967 with 15 negative/12 positive/2 zero folio signs. Strict diagnostic has one matched anchor.",
+      "limit": "New endpoint and selected half of sample; does not explain or falsify GDT872 conditional composition. Branch STOP is preserved."
+    },
+    {
+      "id": "GDT874",
+      "type": "New fixed-roster raw-record census; matching method already had GDT811 predecessor",
+      "finding": "392 metadata local records; 40/78/41 eligible in ZL/IT/RF. Two reading-specific cross-leaf exact raw windows; zero fixed same-index all-reading bridges.",
+      "limit": "Metadata locality is not authorial phrasehood. Focal RF entity is ineligible, not a tested negative. No semantic bridge or null score."
+    }
+  ],
+  "native_checks": [
+    {
+      "id": "GDT875",
+      "classification": "Newly recorded native source-unit audit of previously viewed originals; unresolved rather than positive reading evidence",
+      "finding": "Both running lines located; disputed reading/division unresolved. Local .56 unlocalized by both; .64 A candidate not independently localized by B.",
+      "limit": "Neither complete bridge confirmed or linguistically refuted; two original canvases revisited, not new pages."
+    },
+    {
+      "id": "GDT876",
+      "classification": "Native recheck plus correction of known historical source-map regression",
+      "finding": "All three long lines localized below right circle; two later definite circular-band written locations contradicted. R1 had already placed the three lines below right circle.",
+      "limit": "Not newly discovered manuscript geometry, not a meaning or referent. Separate A/B judgements concern the same manuscript; fine readings open."
+    }
+  ],
+  "source_memory_and_engineering": {
+    "PN_PV": "Two finite historical GDT734 models recovered, with 20 and 28 paged applications respectively, and two scoped questions. No new manuscript observation or confirmed lexical core. The 28-row spoken policy preserves stored cores and higher-precedence local rendering; 305 cells are not all attributed to those 28 rows.",
+    "QM": "Six guarded target rows in two stored source layers establish propagation of the two wrong placements. One existing IA question revised append-only; zero new question keys or models; 74 V75R2 applications remain context only. Source-validation PASS is not semantic truth.",
+    "implementation": "Experiment producers, independent validators, compact projections, source guards and reproducibility receipts support the passes. Test or replay counts are engineering validation, not extra manuscript findings. This audit does not count all code edits in the interval."
+  },
+  "checked_overclaim_boundaries": {
+    "route_preserves_873_endpoint_and_half_coverage": true,
+    "route_does_not_promote_874_matches_after_875": true,
+    "route_distinguishes_876_regression_from_new_geometry": true,
+    "route_does_not_falsify_general_copy_reset": true,
+    "qm_retains_74_as_context_not_cases": true,
+    "no_new_semantic_lexeme_claim": true,
+    "no_new_page_admission_claim": true
+  },
+  "concrete_corrections": [],
+  "compact_accurate_interval_description": "Three new exploratory transcription-data passes, two native audits revisiting two distinct original canvases, one specific historical map regression corrected and traced into later sources, two historical finite models recovered. Zero confirmed meanings. Do not report five new semantic experiments or a decoded phrase.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt872_whole_pair_directed_profile/REPORT.md",
+      "sha256": "26bb7da2a8e48ea659819f3c40805a792f6f626ab9a55de8cb212e205ab7d04c",
+      "selected_literal_spans": [
+        {
+          "line": 20,
+          "quote": "There is no overall forward response-density excess in the distal band in either"
+        },
+        {
+          "line": 26,
+          "quote": "paragraph ZL hits,41/51 forward responses are CH-side versus36/66 backward."
+        }
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt873_matched_paragraph_position_profile/REPORT.md",
+      "sha256": "d89950a079983b47a3a2c872b9a0d072f839de814f5d75d4834a5d1e58490604",
+      "selected_literal_spans": [
+        {
+          "line": 4,
+          "quote": "lead. The strict reading diagnostic fails the declared coverage threshold."
+        },
+        {
+          "line": 16,
+          "quote": "hits and not the original GDT872 endpoint."
+        },
+        {
+          "line": 21,
+          "quote": "| Same 41 matched anchors | .056911 | .024390 | .069106 | .036585 | .000000 |"
+        }
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt874_raw_multigroup_record_bridge/REPORT.md",
+      "sha256": "cdc1b12e15a0c031074ff239769a90e3cce8e3dbef883ac33ba54ca5b2797287",
+      "selected_literal_spans": [
+        {
+          "line": 3,
+          "quote": "The fixed thirty-page census yields two reading-specific cross-leaf matches and zero same-index three-reading bridges. It supplies two inspectable text-identity candidates, not a semantic bridge or established phrase. Preregistration and executable sources were published in bd35761017212386223332e31a16ce639c1f2f4e before the target run."
+        },
+        {
+          "line": 38,
+          "quote": "Run `python experiments/yolo/gdt874_raw_multigroup_record_bridge/src/run.py`, then `python experiments/yolo/gdt874_raw_multigroup_record_bridge/src/validate.py`. The runner recreates ignored selector-guarded caches from the fixed source receipts. The separately implemented validator enumerates every eligible local-record/running-window pairing and checks candidates, bridges, counts, completeness, opportunities and coordinate joins. It passes 1,176 local-record checks, the two bridges and zero same-index bridges. A synthetic fixture checks duplicate labels, a raw anomaly, a drawing separator, edition differences and the distinction between same-index and literally identical bridges. Validation establishes census fidelity, not semantics."
+        }
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt875_native_bridge_unit_readings/REPORT.md",
+      "sha256": "d26b3faa93bc57f45e2057a7fe1cac0cf0fbdd70b28442d0944f8e744ef56368",
+      "selected_literal_spans": [
+        {
+          "line": 3,
+          "quote": "Two native viewers inspected the two original Yale canvases. Neither GDT874 candidate becomes an independently agreed complete local-inscription / running-text identity. Both viewers localize the two running lines and leave the disputed glyphs and group divisions unresolved. This closes the immediate promotion of these candidates; it is not a negative semantic test."
+        },
+        {
+          "line": 5,
+          "quote": "Preregistration b50263b7 was public before this interval's native views. Root had already read the four target records in all three editions, the GDT874 results and the historical R3 owner assignments. Both canvases had been viewed in earlier orientation. Root sealed its observations before viewer B received the task. B did not read root's observations or old owner maps; both were aware of the supplied transcription alternatives. They are two model observations of the same manuscript, not independent manuscript witnesses."
+        }
+      ]
+    },
+    {
+      "path": "experiments/yolo/gdt876_f67r2_long_record_placement/REPORT.md",
+      "sha256": "e65bbc286708758aff7bb1f962e231c9350dbe7372f5e66f335488995de768a0",
+      "selected_literal_spans": [
+        {
+          "line": 5,
+          "quote": "This is a correction of a later working-map regression, not discovery of previously unknown manuscript geometry or a translation. The earlier V71 R1 code already assigns all three to the lower horizontal block. Only these three records were evaluated; no complete f67r2 remapping or restoration of all R1 claims follows."
+        },
+        {
+          "line": 17,
+          "quote": "Root had seen the complete original in GDT875 and older orientation, the three transcription strings and the old placement claims. The protocol therefore declares retrospective source correction. Preregistration d8bcb285 was published before this audit's source crop. Root sealed its three observations before viewer B received the neutral packet. B read neither the motivating placement predictions nor root's observations. B also had earlier whole-image exposure. These are separate native observations of one manuscript, not independent manuscript witnesses or a new three-edition confirmation."
+        },
+        {
+          "line": 29,
+          "quote": "`src/SPEC.json` binds the original image SHA2560518312a566ee713a46c9887d8b8b9d7141d14095e360661789c1dad9b5c0d1c and official source URL. Root viewed one new lossless crop of the already viewed original; B viewed the original and one independently chosen crop. A_VIEWS.json and B_VIEWS.json retain exact coordinates and image hashes. No new original, page admission, OCR, enhancement, generated pixels or automatic character classification was used."
+        }
+      ]
+    }
+  ],
+  "receipt_hashes": {
+    "VOYNICH_CURRENT_ROUTE.md": "22633874e645d15f069db8593b5cb17330c89f3d76f79e6ee8c8e173a0e14ba9",
+    "research_registry/decisions/semantic_4h_followon_session.md": "3315fac291927ea08e68189002f10cb5a2e736055d2129cc04866d8cbbc5c61e",
+    "research_registry/decisions/qm_root_owner_review.json": "bf5415d144acba17000ad7ec69a322f1aed0b60eb5784b8c9d1a75e85a8139df",
+    "research_registry/decisions/qm_source_validation.json": "593d4e033f32fd9b46de375bb87cce7896396f5f79cea20e3b5784e63d4ab4a1",
+    "research_registry/decisions/qm_owner_scoped_revision.json": "da5a5866c903076669aec6acffd7916315946f252e25af1548405549aa8e419b",
+    "research_registry/decisions/qm_preservation_receipt.json": "21f50c803e934a312b01678662c61bd7c81a76bf25561e818368358fedbb3548"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed edited source projections and two pooled reference bands only; no universal stratum test, language identification, writer fit or native word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1290_historical_source_frequency_baseline/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1290_historical_source_frequency_baseline/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT001",
+    "GDT003",
+    "GDT605",
+    "GDT1174",
+    "GDT1202",
+    "GDT1223",
+    "GDT1225"
+  ],
+  "experiment_id": "GDT1290",
+  "inputs": [
+    {
+      "path": "gdt003_structural_fingerprint_source_provenance.json",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "c09d246515dfab8e3de68e3ad6239d510accb737a44e99769e583d3dc056289f"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/ANCIENT_GREEK_PROIEL_CONTROL.conllu.gz",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "bc5a6f098f7421edd23fa59c9c1818571d681faf640b46cfe489378b29175781"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/ANCIENT_GREEK_PROIEL_CONTROL_README.md",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "ecda2da7bcb8a5ae4eaf6459fec10483bc3fa07ad0121cce1d37a8bee72865ac"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/LATIN_PROIEL_CONTROL.conllu.gz",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "91ef9a2ed328685000b2e1ad01c30465a98665990757a2e52fc6aef99a6a31fb"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/LATIN_PROIEL_CONTROL_README.md",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "dccd53d9544eb679ca71a6921d24c9c2bd80264283eebc3dfc1a123379ec5d45"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/OLD_ITALIAN_UD_CONTROL.conllu.gz",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "4f40540f2fae75795dd60c7609d1fa189f4831999bfa07850a15b562bc4bbee0"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/OLD_ITALIAN_UD_CONTROL_README.md",
+      "role": "old provenance/target aggregate or acquired hash-matched historical source",
+      "sha256": "1796c08e68d943ca458642d334165a192705455586cc6d35ccd83382ffe1d1a5"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "b04475c000d277ced29872fc5b467ba72fabb8047a47f6d515908baea851b282"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "b04475c000d277ced29872fc5b467ba72fabb8047a47f6d515908baea851b282"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "2daf98680485ede305fa13a9133cd6be17265d6e0580b460621fbdf973f96e19"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md",
+      "role": "primary_report",
+      "sha256": "741a526e30df20021808afd67911147bb27ca5da0dd7d9a61bba7423c231ed02"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/FIXTURES.json",
+      "role": "reproducibility artifact",
+      "sha256": "aac6f432a569d7ce50d5b62d0772ab1a4e97abf5cd0836ccfbcc28d788dfe2df"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/FREQUENCIES.json",
+      "role": "reproducibility artifact",
+      "sha256": "f81d6405775e04652a2c45e97a8d13d8b2170287756b544b4bbe6eeb0e533bd1"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "b62c56fcce9ae9c518353f80a945e20035330a1ddf474c91988ce5ddd675f40c"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "b7e3d101c3c45ffab1200bb4ad9990d5e86841bec7a7c0cb415c553cf6583d73"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SOURCE_RECEIPT.json",
+      "role": "reproducibility artifact",
+      "sha256": "dcbaeedb26a9fe0bfea2da5ae6671e8017ed0cc457f3131a04b70a02daf5dcab"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "53b1d1ec6069841ecf0d7fc0ff1f357333fbd1aeccf60faaebb30a6580c7ef3a"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/ANCIENT_GREEK_PROIEL_CONTROL.conllu.gz",
+      "role": "reproducibility artifact",
+      "sha256": "bc5a6f098f7421edd23fa59c9c1818571d681faf640b46cfe489378b29175781"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/ANCIENT_GREEK_PROIEL_CONTROL_README.md",
+      "role": "source attribution",
+      "sha256": "ecda2da7bcb8a5ae4eaf6459fec10483bc3fa07ad0121cce1d37a8bee72865ac"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/LATIN_PROIEL_CONTROL.conllu.gz",
+      "role": "reproducibility artifact",
+      "sha256": "91ef9a2ed328685000b2e1ad01c30465a98665990757a2e52fc6aef99a6a31fb"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/LATIN_PROIEL_CONTROL_README.md",
+      "role": "source attribution",
+      "sha256": "dccd53d9544eb679ca71a6921d24c9c2bd80264283eebc3dfc1a123379ec5d45"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/OLD_ITALIAN_UD_CONTROL.conllu.gz",
+      "role": "reproducibility artifact",
+      "sha256": "4f40540f2fae75795dd60c7609d1fa189f4831999bfa07850a15b562bc4bbee0"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/sources/OLD_ITALIAN_UD_CONTROL_README.md",
+      "role": "source attribution",
+      "sha256": "1796c08e68d943ca458642d334165a192705455586cc6d35ccd83382ffe1d1a5"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/src/ACQUISITION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "edf83622f7fa08d328b380b26c8e21aa12ec598b2ea5b7bc08d25738a6e1676d"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "1d94a8272e810dc56dcb1634cf81eef7024ed4a14234d8a0150927ce803b2715"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/src/SOURCE_SPEC.json",
+      "role": "reproducibility artifact",
+      "sha256": "9f79072cf884c7879334c16c0347cc7f0368929abb9a7061358a82d9a91bf0dd"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/src/acquire.py",
+      "role": "reproducibility artifact",
+      "sha256": "8563891042799bb1a2812cfb51d33b7ce6348739baadd256186b76d5648217f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "c376ea774a069e869a35335c355a8609ecefe5b5427d19293fb433025b8eaf65"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "b4fff5e30374215bb38adf94cd86c5c346182f22db1eeec250b0b54fdc402379"
+    }
+  ],
+  "question": "Do fixed literal source projections from three old historical controls meet the existing pooled8000group type/top10bands without extra spellings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "historical_source_frequency_baseline",
+  "status": "NO_PRIMARY_REFERENCE_COMPATIBILITY",
+  "title": "Three historical source frequency baselines",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/VALIDATION.json"
+  }
+}

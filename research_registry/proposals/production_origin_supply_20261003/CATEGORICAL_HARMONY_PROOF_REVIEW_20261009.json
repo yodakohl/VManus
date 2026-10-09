@@ -1,0 +1,91 @@
+{
+  "title": "Source-free review: categorical whole-group harmony capacity",
+  "date": "2026-10-09",
+  "status": "PROOF_REVIEW_ONLY_NO_NATIVE_DATA_OR_RESULT_INSPECTION",
+  "authorship": "bounded_idea_supply, reviewing the root-proposed necessary screen",
+  "timing": "Records the proof and scope already delivered by message. Root separately clarified before input lock that lexicographic tie-breaking applies only to reduced (A,Bmax) candidates. This file does not claim independent verification of an experiment or outcome.",
+  "contract": {
+    "alphabet": "The fixed 22 working units, treated as vertices V. No assertion that these units are the actual phonetic alphabet.",
+    "partition": "Globally fixed pairwise disjoint A, B and NEUTRAL whose union is V, with |A|>=2 and |B|>=2. Neutral membership is unrestricted.",
+    "domain": "Every retained complete strict group is exactly one harmony domain. No group may contain both an A unit and a B unit. No exemptions, errors, per-page reassignment or internal reset.",
+    "population": "Each reader is separate. Use the prospectively fixed whole-group occurrence panel and its full denominator N, not an alphabet-class-conditioned subset.",
+    "coverage": "c(S) is the number of panel group occurrences containing at least one unit of S, divided by N. Repetition of a unit inside one group does not multiply its contribution. Repeated group occurrences retain their token multiplicities.",
+    "common_use_requirement": "Both c(A)>=0.05 and c(B)>=0.05. Five percent is a chosen scope requirement, not an established property of natural vowel harmony or the manuscript."
+  },
+  "graph_equivalence": {
+    "definition": "Construct a simple undirected graph G on V. Distinct u,v have an edge exactly when some retained complete group contains both. Self-loops are unnecessary.",
+    "equivalence": "A and B satisfy the categorical prohibition exactly when they are disjoint and no edge joins a member of A to a member of B.",
+    "reason": "Any forbidden mixed group supplies a cross-edge; every cross-edge comes from a forbidden mixed group. Within-A and within-B edges are allowed. Neutrals may occur with either class."
+  },
+  "maximal_B_reduction": {
+    "definition": "For fixed A, let N_G(A) be the union of graph-neighbor sets of its vertices. Set Bmax(A)=V \\ (A union N_G(A)).",
+    "containment": "Every admissible B for this A is a subset of Bmax(A). Conversely, every subset of Bmax(A) is disjoint from A and has no forbidden cross-edge.",
+    "monotonicity": "Enlarging B to Bmax(A) cannot decrease c(B), does not change c(A), and preserves validity. Its added units previously belonged to NEUTRAL; there is no neutral-size restriction.",
+    "proof_of_optimum": "Every feasible original pair (A,B) with both sizes at least two is dominated by the feasible reduced pair (A,Bmax(A)). Every reduced pair is itself an original feasible pair. Thus the two maxima of min(c(A),c(B)) are equal.",
+    "exact_objective": "Maximize min(c(A),c(Bmax(A))) over all A subsets of V with |A|>=2 and |Bmax(A)|>=2. If there is no eligible candidate, the categorical size contract has no feasible pair; do not fabricate a maximizing witness.",
+    "important_distinction": "This reduction computes the exact global optimum and threshold feasibility over all original class pairs. It does NOT explicitly enumerate or count all valid smaller B subsets, nor all optimal original class pairs.",
+    "tie_rule": "A lexicographic tie rule among the reduced (A,Bmax(A)) candidates is valid. It must not be described as the lexicographically first maximizer among all original (A,B) pairs with potentially smaller B.",
+    "threshold_arithmetic": "For N>0, test five percent without rounding: 20 times each class's touched-group count must be at least N. The balanced optimum reaches five percent if and only if a pair meeting both coverage requirements exists."
+  },
+  "boundary_checks": [
+    "A group consisting only of neutral units touches neither class and remains in the fixed denominator. Removing such groups would change the contract.",
+    "An empty group supplies neither a graph edge nor a coverage hit. If empty groups are absent by the strict-panel construction, no additional rule is needed. If present, their denominator treatment must be fixed, not changed after seeing the optimum.",
+    "N=0 is unscorable because coverage fractions are undefined; it is not a pass or an exclusion.",
+    "For every valid pair, events 'group touches A' and 'group touches B' are disjoint. Therefore c(A)+c(B)<=1 and the balanced objective is at most one half.",
+    "Single-unit groups contribute coverage but no edges. They are neither excluded nor automatically assigned to a harmonic class.",
+    "If the fixed alphabet contained unobserved units, their coverage would be zero and they could pad a class-size condition. State whether the size condition counts all declared or only active vertices; do not silently change it. This review performs no active-inventory check.",
+    "Neutral vertices do not transmit an equality constraint: edges a-neutral and neutral-b do not imply an a-b edge. The test is not graph connectedness or SCC collapse."
+  ],
+  "prior_scope_review": [
+    {
+      "id": "IP040",
+      "primary": "docs/IDEA_BACKLOG.md:450 and 945-958",
+      "retained_decision": "NEEDS_DISCRIMINATOR. Prior review rejected a compulsory equality of two written e-run lengths, not every possible word-wide harmony system."
+    },
+    {
+      "id": "GDT849",
+      "primary": "experiments/yolo/gdt849_two_e_run_grid_discovery/REPORT.md",
+      "distinction": "The old two-site grid concerns designated written positions and run lengths. It neither executes the present unknown A/B/neutral partition optimization nor identifies phonetic classes."
+    },
+    {
+      "id": "GDT854 and GDT1254",
+      "primaries": [
+        "experiments/yolo/gdt854_e_placement_cross_kernel_transfer/REPORT.md",
+        "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md"
+      ],
+      "distinction": "Cross-kernel context capacity and sparse exact-neighbor lookup compatibility are different questions. Their original stops remain unchanged."
+    },
+    {
+      "id": "GDT1263",
+      "primary": "experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md",
+      "distinction": "Directed adjacency imposes nondecreasing class rank in that test. The present contract forbids opposite-class cooccurrence anywhere within a complete group and permits unrestricted neutral units. These are different constraints."
+    },
+    {
+      "id": "GDT1295",
+      "primary": "experiments/yolo/gdt1295_local_allograph_letter_bound/REPORT.md",
+      "distinction": "Local deterministic source-neighbor allography conflicts concern a different writer contract. No extra context field or alphabet repair is proposed here."
+    }
+  ],
+  "novelty_limit": "No identically executed quantified screen was located in the bounded registry and primary review. This is a bounded navigation conclusion, not an exhaustive absence-of-research claim. No new RAW card is needed for this explicit necessary discriminator of the existing IP040 topic.",
+  "interpretation": {
+    "failure": "Excludes only the globally fixed, categorical single-working-unit A/B/neutral architecture with the stipulated minimum class sizes, common-use threshold and one-retained-group/one-domain binding.",
+    "survival": "Necessary formal capacity only. It supplies no phonetic values, language, readable writer, inferred morphology, significance or independent prediction.",
+    "rarity": "Under the zero-error contract, one rare mixed group can forbid a cross-pair and thereby exclude an otherwise common partition. This must not be presented as a general rejection of statistical or exception-bearing harmony.",
+    "outside_scope": [
+      "Several harmony domains inside one visible group or a domain spanning several groups",
+      "Multi-unit graphemes or multi-unit exponents rather than stable individual working-unit classes",
+      "Dialect-, page-, lexical-class- or occurrence-dependent assignments",
+      "Probabilistic harmony, explicit exceptions or an error budget",
+      "Any claim that the observed spaces are established linguistic word boundaries"
+    ],
+    "decision_value": "Useful before a full writer only as a finite necessary capacity question: failure parks this exact architecture; survival retains it without selecting a decoder. No automatic modified threshold, new partition scope or exception system follows."
+  },
+  "actions": {
+    "native_queries": false,
+    "native_result_inspection": false,
+    "images": false,
+    "experiments_or_synthetic_runs": false,
+    "new_raw_card": false,
+    "shared_route_or_ledger_edits": false
+  }
+}

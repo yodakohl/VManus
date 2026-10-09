@@ -1,0 +1,9 @@
+# GDT1190 — the finite rank-allocation family is closed
+
+All18previously unmeasured C2/4/6 candidates fail one or more all-four-source necessary invariants. No exact adjacency-capacity stage or optimizer was reached. The validator verifies18972complete recipe roundtrips and the early-stop decisions. This does not claim an adjacency impossibility measurement where none ran.
+
+Together with1188's six R/T-C7 cases and1189's18C1/3/5 cases, all42members of the declared family (three inventories, two minimum tails, seven allocation counts) fail invariant word statistics. Those statistics do not depend on a role-injective glyph permutation. Therefore no glyph permutation can make any of these42fixed source encoders pass the complete declared screen. Earlier H candidates are separate and remain failed under their own contracts.
+
+The family is a fixed rank allocation ordered by source frequency, with initial-only six-state rotation and greedy source segmentation. It is not every dictionary, counter, language or meaningful writer. In particular, permuting which literal source fragment occupies which codeword is not a glyph permutation and is outside this family. No such codebook search was executed here. Do not automatically change counter/dictionary sizes or weaken a failed criterion.
+
+Human-use audits retained: writing uses the indexed longest matching fragment; reading requires visible code-group boundaries, E/C word seams and recipe resets. Rank codes are not prefix-free. Offered initial table slots are not all reachable; C1 with six states never uses seventh initial position in a normal bank, and recipe-first state is zero. These facts were not turned into false22-used-sign or historical-practicality claims. No native meanings, new target/raw access or reserve. Local checkpoint.

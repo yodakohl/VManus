@@ -1,0 +1,23 @@
+{
+  "registered_utc": "2026-10-07T09:18:47.415358+00:00",
+  "alphabet_size": 22,
+  "actual_native_key_selected": false,
+  "teaching_alphabet": [
+    "0",
+    "1"
+  ],
+  "code": {
+    "A": "0",
+    "B": "01",
+    "C": "1"
+  },
+  "allowed_source_rule": "All nonempty A/B/C strings excluding adjacent AC. Visible spaces separate complete source words.",
+  "generalization": "For any n>=2 visible symbols and distinct x,y, use n singleton codes plus B->xy; forbid adjacent source singletonXx thenXy. Greedy xy contraction is inverse to expansion on this language.",
+  "finite_check_output_max_length": 8,
+  "finite_check_source_max_length": 6,
+  "predecessor": "research_registry/proposals/production_origin_supply_20261003/NON_UD22_DEFECT_CONSEQUENCE_20261006.json",
+  "predecessor_sha256": "44b2e2e185e59e50878056b75d5e2373b210bf6011e38955b1acf019b4800e10",
+  "claim": "Universal formal coverage with n+1entries and a specified source restriction, not recovery of a natural source grammar. Conditional on the inherited <=22shape-cover exclusion,23attains the nontrivial grammar-restricted bound. No manuscript query or actual sign-pair fitting.",
+  "decision": "Coverage alone cannot select a grammar-assisted table in this unconstrained class at23or more entries. Do not launch an alphabet/codebook search without an independently justified grammar/source constraint.",
+  "budget": "20minutes inclusive proof, tiny implementation/check and localclosure; no target or source-corpus run."
+}

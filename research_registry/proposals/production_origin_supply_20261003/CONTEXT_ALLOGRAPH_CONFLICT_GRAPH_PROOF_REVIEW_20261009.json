@@ -1,0 +1,112 @@
+{
+  "status": "SOURCE_FREE_NECESSARY_BOUND_REVIEW_NO_NATIVE_EXECUTION",
+  "date_utc": "2026-10-09",
+  "ownership": "Root proposed the exact-context conflict graph and owns GDT1295 selection/execution. Producer reviewed the proof and bounded predecessor primaries; no native group payload, graph, count, image, source key or candidate outcome was inspected.",
+  "contract": {
+    "observation_units": "The same fixed22indivisible working units and strict complete groups as the declared1233input. Word length and character index are lengths/indices of working-unit tuples, not ASCII labels such as ch.",
+    "inverse": "A single global function psi maps every observed visible unit to exactly one source letter. Several visible units may map to the same source letter. No contextual inverse, null source letters, insertion or deletion is allowed.",
+    "forward": "Each source letter produces exactly one visible unit. Its deterministic choice is F(page, source_word_length, character_index, left_source_letter_or_BOS, current_source_letter, right_source_letter_or_EOS). No other history, whole-word identity, line ordinal, lexical sense, random choice or invisible state is supplied.",
+    "boundary_symbols": "BOS/EOS are public formal sentinels distinct from each other and all actual source letters. One-unit words have both sentinels. Source word spaces and the one-to-one position alignment are preserved.",
+    "reader_scope": "Treat the transcriptions separately. The global psi is shared across pages within a reader even though F may vary with page. No same-source-letter value or sound is assigned in this review."
+  },
+  "theorem": {
+    "key": "For an occurrence at index i in a word of n units use (source_page_selector,n,i,visible_left_or_BOS,visible_right_or_EOS).",
+    "edge": "If the same key has two distinct visible centres x and y, require psi(x)!=psi(y). Multiplicity does not strengthen the logical implication; one correctly bound conflicting pair is sufficient.",
+    "proof": "Suppose instead psi(x)=psi(y). Equal visible neighbours have equal source interpretations under the fixed single-valued psi. Length and position correspond exactly to source positions by one-in/one-out spelling; page also agrees. All arguments of deterministic F are therefore identical, so it must emit the same unit at both occurrences. Observed x!=y contradicts that requirement.",
+    "coloring": "Every compatible psi is a proper coloring of the graph with vertices the visible units and these inequality edges. Any clique of size q requires at least q distinct source-letter values. A witnessed12-clique therefore excludes every compatible source alphabet with at most11letters under this contract.",
+    "page_union": "Edges from different pages can be united: each is a global inequality on the same psi. They need not occur in one common twelve-centre context.",
+    "renaming": "A global bijection of the22visible-unit names only relabels the graph and preserves its clique numbers. This is not a source-letter assignment."
+  },
+  "graph_variants_received_before_scores": {
+    "FULL": "All exact conflicting-centre edges under the frozen key.",
+    "DISPERSED": "Retain only edges witnessed on at least2distinct physical leaves. Each contributing witness must itself satisfy the same-page exact key; do not create an edge from unmatched contexts on two leaves.",
+    "relationship": "DISPERSED is a subgraph of FULL, so its maximum clique cannot exceed FULL's. Both predeclared graphs and their outcomes must be retained. Alternate reader versions of one locus do not create additional independent leaves.",
+    "support_scope": "A recurrent-edge restriction changes premise support, not the mathematical theorem. It does not establish independent palaeography or a calibrated statistical error rate."
+  },
+  "limits": {
+    "clique_not_chromatic_number": "A maximum clique below12 does not prove11colorability. Even a five-cycle has clique number2 and chromatic number3. Report only not excluded by this clique bound unless a different complete coloring result was separately established.",
+    "coloring_not_writer": "Even an actual proper graph coloring is only necessary. Merging previously different neighbour units can create new equal source-context keys with incompatible visible centres; those conflicts are absent from the literal-neighbour graph.",
+    "two_shapes": "The bound concerns the number of source letters, not a recovered two-shape pairing. With22active visible units, at most11letters and at most2shapes per letter would impose a further pairing requirement. A low clique does not certify that pairing.",
+    "deterministic_scope": "Optional/stochastic allography, dependence on additional context, page-dependent psi, source expansions/contractions, different word boundaries and another physical atomization change the premise. The result would not refute all historical allography or ordinary language.",
+    "exact_evidence": "Rare forms and transcription/word-boundary premises remain material. No retrospective merging, error deletion, word-length binning, favourable page selection or field removal follows from an outcome.",
+    "meaning": "Neither colors nor graph edges identify sounds, morphemes, word meanings, a language or a human writing action. The model is an exact capacity contract, not a translation.",
+    "validation": "A proposed clique must have all its pairwise edges verified from their bound witness keys. Calling it maximum additionally requires an exact exhaustive/branch-certified optimum; a search timeout must not be described as a proved maximum."
+  },
+  "small_hand_controls": [
+    {
+      "name": "genuine conflict",
+      "words": [
+        "axb",
+        "ayb"
+      ],
+      "same_page": true,
+      "target_index": 1,
+      "consequence": "At n=3both visible flanks are a,b, so x and y must have different psi values."
+    },
+    {
+      "name": "valid contextual two-letter three-shape writer",
+      "source_alphabet": [
+        "X",
+        "Y"
+      ],
+      "psi": {
+        "a": "X",
+        "b": "X",
+        "c": "Y"
+      },
+      "writer": "Write X as a at index0and as b at later indices; write Y as c everywhere. This is a complete deterministic1:1writer with an unambiguous psi.",
+      "examples": {
+        "X": "a",
+        "Y": "c",
+        "XX": "ab",
+        "XY": "ac",
+        "YX": "cb",
+        "YY": "cc"
+      },
+      "consequence": "The declared index conditioning must not invent an a-b conflict. The two source values remain a valid construction; no native binding is asserted."
+    },
+    {
+      "name": "literal graph coloring can fail after merges",
+      "words": [
+        "axb",
+        "cyd"
+      ],
+      "same_page": true,
+      "proposed_merges": [
+        "a=c",
+        "x=y",
+        "b=d"
+      ],
+      "consequence": "Initially the two words have no matching literal-flank key at any common index, so their six-vertex literal conflict graph is empty. The proposed three-color assignment nevertheless makes both complete source words identical, giving equal source contexts but different visible outputs. It is not a valid deterministic writer."
+    },
+    {
+      "name": "clique is not chromatic sufficiency",
+      "graph": "cycle on5vertices",
+      "consequence": "Maximum clique2, but no proper2coloring. A small clique alone cannot certify an alphabet size."
+    }
+  ],
+  "primaries_read": [
+    {
+      "id": "IDEA000928",
+      "path": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_ENTRY_CONSTRAINTS_CONTRACT_20261005.json",
+      "difference": "Fixed body/LOW-HIGH-entry and permanent exit equalities on a small prebound G1panel; specific same-body pairs and word-start LOW constraints. Not the present global source-letter conflict graph with two source neighbours, page, length and exact index."
+    },
+    {
+      "id": "GDT1204",
+      "path": "experiments/yolo/gdt1204_yd_context_rule_countercases/REPORT.md",
+      "difference": "Deterministic whole By/Bdy choice, fixed base/page and complete external neighbour words. Different output lengths are allowed there. Its contradictions do not directly answer one-letter/one-unit source-alphabet capacity."
+    },
+    {
+      "id": "GDT1254",
+      "path": "experiments/yolo/gdt1254_e_placement_exact_neighbor_conflicts/REPORT.md",
+      "difference": "Fixed146ZL e-placement records and complete neighbour-word keys; BOTH keys had no repeats. This is not the present within-word midpoint inequality graph."
+    },
+    {
+      "id": "GDT883",
+      "path": "experiments/yolo/gdt883_overlapping_digram_constraints/METHOD.md",
+      "difference": "Equalities between latent endpoints of overlapping blocks and their forced identical-block classes. Here the necessary constraints are inequalities between single source-letter values of distinct visible centres."
+    }
+  ],
+  "bounded_novelty": "Route/topic, ideas search and route-check plus the listed primaries were reviewed. No equivalent executed literal-key/source-coloring bound was found in this bounded set. No claim of exhaustive archival absence, new glyph discovery or outcome independence beyond the stated source-free review.",
+  "disposition": "Proof is valid as a necessary bound. Root reports prospective FULL and DISPERSED graphs, K<=11 exclusion only if a clique reaches12, and no writer-pass inference from a lower bound. No new RAW, native count, encoder or follow-up repair is performed by the producer."
+}

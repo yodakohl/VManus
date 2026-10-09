@@ -1,0 +1,64 @@
+{
+  "status": "TOTAL_FORMAL_PROJECTION_NOT_YET_A_DISCRIMINATING_WRITER",
+  "ownership": "Root proposed using the fixed1264/1265binary classes as heads and following modifiers. bounded_idea_supply reviewed the formal grammar and named predecessors only. No native payload, cell inventory, frequency, image or meaning was examined.",
+  "proposed_rule": "For a complete group over the bound class alphabet, make each class1unit the start of a cell and attach the following maximal class0run, possibly empty. Each leading class0unit before the first class1unit stands alone. Preserve the original word boundary. The unbound unit m receives no class or fallback from this note.",
+  "source_free_coverage_proof": [
+    "Every finite binary sequence has an initial run of zeros, followed by zero or more occurrences of1each followed by its maximal zero run. Its pattern is0*(1 0*)*.",
+    "The initial zeros have prescribed singleton cuts and each1 fixes the next cell start. Therefore every sequence over the two bound classes has exactly one canonical segmentation by this rule, including an all-zero word, an all-one word, empty modifier runs and arbitrary repetitions.",
+    "Concatenating the segmented units reconstructs the exact input. No spelling length or source word has been independently predicted by this reversible regrouping.",
+    "Consequently complete surface coverage, repeated whole words and successful roundtrips cannot distinguish this rule from a rival: they are guaranteed before inspecting any data on the bound alphabet."
+  ],
+  "restricted_grammar_caveat": "The cell dictionary alone is not a freely uniquely decodable code. If h is class1and z class0, both h and hz are allowed cells, while z is an allowed singleton; unrestricted concatenation would give h|z and hz the same output. The canonical inverse depends on allowing bare0singletons ONLY before the first head in a word. This source-sequence restriction must be retained; it is not prefix freedom or an identified natural grammar.",
+  "parent_supplied_examples_only": [
+    {"form": "qokeedy", "projection": "qo | kee | dy", "scope": "Uses only the class memberships stipulated in root's example. No letters, sounds, morphemes or syllables assigned."},
+    {"form": "daldy", "projection": "dal | dy", "scope": "A formal boundary convention. It does not establish what dal/dy mean or whether the same sequence elsewhere is an independent linguistic word."}
+  ],
+  "orientation_is_not_learned_by_the_crossing_score": [
+    "The cross-class adjacency statistic is unchanged when the labels0/1are exchanged. Which class is called a body rather than a modifier is an added hypothesis, not a semantic result of the optimum.",
+    "Crossing counts are also symmetric under global sequence reversal. Taking a zero run with the PRECEDING head rather than the FOLLOWING head is a separately chosen attachment direction.",
+    "Both attachment conventions admit universal formal segmentations with their respective boundary exceptions. A later preference must be justified by an additional independently stated consequence, not by calling one displayed parse more intuitive."
+  ],
+  "primary_predecessors": [
+    {
+      "id": "GDT892",
+      "primaries": ["experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/METHOD.md", "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/src/SPEC.json"],
+      "actual_rule": "Greedily consume a consonant and at most ONE following vowel; use a selected inherent vowel, explicit noninherent modifiers, CARRIER and VIRAMA, with27globally prefix-free component codes of length1or2.",
+      "difference": "That source-language/orthographic channel is not the current arbitrary-length1 0*cell rule over a train-learned binary partition.892originally stopped on source-sentence capacity, not on a universal impossibility of body/modifier writing."
+    },
+    {
+      "id": "GDT895/905/906 and1219",
+      "scope": "The fixed Latin/CV source-copy or grammar-key experiments and the later source-trained contextual CV default writer have their own retained failures. Their lookup followups were reviewed as constraints; they do not automatically test this new literal class segmentation or license a new CV decoder."
+    },
+    {
+      "id": "IDEA000932",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_STACKED_VOWEL_RUNS_RAW_20261005.json",
+      "actual_rule": "A consonant plus its entire following vowel run is one spatial cell. Initial vowels use one explicit empty carrier, and every vowel is drawn in a stack owned by its body.",
+      "difference": "This is the closest formal cell construction. It already pays a complete teaching alphabet and physical attachment law, unlike the new linear projection. Its initial carrier and spatial/vowel commitments are different and cannot be replaced silently after their known native-binding limits."
+    },
+    {
+      "id": "IDEA000937 / GDT1196",
+      "primaries": ["experiments/yolo/gdt1196_vowel_boundary_capacity/PREREGISTRATION.md", "experiments/yolo/gdt1196_vowel_boundary_capacity/src/run.py"],
+      "actual_rule": "AFTER cuts after each maximal orthographic vowel run except the last; BEFORE cuts before each vowel run except the first. Zero/one-run words stay whole. These rules may keep consonant clusters together and include paid source-word continuation labels.",
+      "difference": "They are not one-head-per-cell segmentation. Their fixed four-source frequency failures remain unchanged; no source or segmentation repair is nominated here."
+    },
+    {
+      "id": "GDT605/608/611",
+      "primaries": ["experiments/yolo/gdt605_multisymbol_unit_alphabet/METHOD.md", "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md"],
+      "actual_rule": "605learns byte-pair merges after explicit collapses and boundary handling.608checks formal exterior-role transfer along the frozen merge tree, retaining whole-form residuals;611does not identify semantic slots.",
+      "difference": "The new binary cells are not those98BPEunits or their inferred meanings. Existing reusable parts and directional roles do not by themselves select this head/modifier inverse."
+    },
+    {
+      "id": "GDT1253",
+      "primary": "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md",
+      "actual_result": "A different canonical grammar-restricted code can represent every possible visible word. Its source grammar makes the inverse unique without making surface coverage informative.",
+      "lesson": "The same universal-coverage warning applies here, even though the particular grouping rule is different. Reversibility is not a native word-formation explanation."
+    }
+  ],
+  "what_would_add_a_real_writer": [
+    "A complete human interpretation must say what a head denotes, what each modifier does, which combinations are legal, and what an initial headless singleton does. Those rules may be hypothetical, but must be explicit and shared across all uses.",
+    "Alternatively a fixed finite source-letter/syllable inventory could restrict permitted whole cells, or a physically specified mark-ownership law could have an independently observed consequence. Merely learning all observed cells as free entries would not test that restriction.",
+    "Any new content or physical rule must yield a possible counterexample beyond mere failure to run the canonical splitter. The rule should precede target comparison; no maximum run length, convenient vowel value, silent default, m classification or whole-word exception is inserted here.",
+    "A globally bijective word-to-word rendering still preserves the equality/frequency partition of a fixed source. Cell regrouping alone does not evade prior fixed-source word-frequency constraints. No new source-frequency or native count is made."
+  ],
+  "bounded_verdict": "No identical execution of this exact train-learned class splitter was found in the inspected primaries; the broader cell idea has clear predecessors. Implementing it solely to show coverage or display plausible cells would add no discriminating result. Retain the binary structural lead and the formal projection separately, with no new RAW card, semantic assignment or complete-writer claim. This is a bounded review, not an exhaustive search of all history."
+}

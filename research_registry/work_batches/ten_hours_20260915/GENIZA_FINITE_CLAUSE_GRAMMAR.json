@@ -1,0 +1,247 @@
+{
+  "title": "Draft finite clause grammar from PGP40129 selected fruit records",
+  "status": "SOURCE_DRAFT_NOT_SELECTED",
+  "source": {
+    "record": "PGP40129 / T-S Ar.43.225",
+    "url": "https://geniza.princeton.edu/en/documents/40129/",
+    "source_packet": "research_registry/work_batches/ten_hours_20260915/PGP40129_SOURCE.json",
+    "source_packet_sha256": "8e2246879c5b2dd1e8f00600fda7f8110c997c0cdaed4f56cb07ff003f23ed36",
+    "source_dossier": "research_registry/work_batches/ten_hours_20260915/PGP40129_CONSTRUCTION_SOURCE.md",
+    "source_dossier_sha256": "a0e58038c0e7ea9ffd7a9ced1ff2a3364c1d7ba4689cae0273476d41dbb01291",
+    "language": "Judaeo-Arabic in Hebrew script",
+    "record_boundaries": {
+      "PEACH": "recto 5 through recto 13 immediately before אלרמֹאן",
+      "POMEGRANATE": "recto 13 at אלרמֹאן through verso 5 immediately before אלספרגֹל",
+      "QUINCE": "verso 5 at אלספרגֹל through verso 14 immediately before אלתֹפאחֹ"
+    }
+  },
+  "interpretive_policy": {
+    "working_meanings": "English meanings are source-translator working glosses where the public translation covers the clause; they describe the historical text and are not clinical claims.",
+    "surface_policy": "Preserve exact Hebrew-script strings, combining marks, final forms, conjunction attachment, and source line breaks. No invented articles, restorations, transliteration, or normalization.",
+    "known_vs_generated": "Every template below is observed_exact. This draft lists only three finite generated_novel recipes for the T04 follow-up alternatives; it emits no generated sentence. Any future slot substitution must be labeled generated_novel and must obey the compatibility bundles and single-head paragraph rule.",
+    "no_free_product": "Do not take a fruit from one bundle, a condition from another, and an outcome from a third. A paragraph selects one head bundle and only its licensed templates."
+  },
+  "compatibility_bundles": {
+    "PEACH": {
+      "head": "אלכוך",
+      "working_meaning": "peach",
+      "licensed_templates": ["T01", "T02", "T03", "T04"],
+      "conditions": ["base", "cold_temperament_eaters"],
+      "allowed_references": ["אלכוך", "אכלה", "מנה", "נואה", "אלמזאגֹ אלבארד"],
+      "secondary_comparison": "T02 explicitly compares peach food with apricot food; this is a source-attested comparison dependency, not a free second-head substitution."
+    },
+    "POMEGRANATE": {
+      "head": "אלרמֹאן",
+      "working_meaning": "pomegranate",
+      "licensed_templates": ["T05", "T06", "T07", "T08", "T09"],
+      "conditions": ["base", "sour", "sweet", "named_type", "cited_case"],
+      "allowed_references": ["אלרמֹאן", "מנה", "הו", "חב אלרמאן", "פם מעדתהא", "להא"],
+      "condition_lock": "T05/T06 are sour; T07 is sweet; T08 is the named soft-seed type; T09 is the cited woman case. Do not swap their outcomes."
+    },
+    "QUINCE": {
+      "head": "אלספרגֹל",
+      "working_meaning": "quince",
+      "licensed_templates": ["T10", "T11", "T12", "T13", "T14"],
+      "conditions": ["base_before_food", "base_after_food", "unripe", "sour", "sweet", "degree_comparison"],
+      "allowed_references": ["אלספרגֹל", "מנה", "פהו", "מזאגֹה", "אלטביעה", "ומאוה"],
+      "condition_lock": "T10 keeps before/after-food branches; T11 is unripe; T12 is sour; T13 is sweet; T14 is a comparative degree continuation."
+    }
+  },
+  "templates": [
+    {
+      "id": "T01",
+      "record": "PEACH",
+      "class": "head_state_phrase",
+      "source_offsets": ["recto:5"],
+      "source_text_exact": "אלכוך. בארד רטב",
+      "source_context_line": "אלכוך. בארד רטב מולד ללבלגם ואלגדא",
+      "slots": {"HEAD": "אלכוך", "PROPERTY_1": "בארד", "PROPERTY_2": "רטב"},
+      "dependencies": {"head": "explicit HEAD אלכוך", "arguments": ["cold", "moist"], "pronouns": []},
+      "working_meaning": "Peach: cold and moist.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete phrase; source sentence continues with further properties"
+    },
+    {
+      "id": "T02",
+      "record": "PEACH",
+      "class": "food_comparison_clause",
+      "source_offsets": ["recto:5 tail ואלגדא", "recto:6", "recto:7 before ומא כאן"],
+      "source_text_exact": "ואלגדא\nאלמתולד מנה אגלטֹ מן אלגדא אלמתולד מן אלמשמש\nוליס יפסד פי אלמעדה כפסאד אלמשמש.",
+      "slots": {"HEAD": "implicit peach from PEACH record", "COMPARATOR": "אלמשמש", "OUTCOME": "אלמעדה"},
+      "dependencies": {"head": "אלמתולד מנה refers back to peach", "arguments": ["food produced from it", "food produced from apricot", "stomach"], "pronouns": ["מנה = peach antecedent"]},
+      "working_meaning": "The food produced from peach is thicker than food produced from apricot; it does not spoil in the stomach like apricot spoilage.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete comparison clauses; COMPARATOR is fixed by the source and cannot be freely replaced"
+    },
+    {
+      "id": "T03",
+      "record": "PEACH",
+      "class": "material_part_and_digestive_outcome",
+      "source_offsets": ["recto:7 at ומא כאן", "recto:8", "recto:9", "recto:10", "recto:11 before ומתי"],
+      "source_text_exact": "ומא כאן;\nמן אלכוך רכו ינתזע מנה נואה בסהולה פהו אסרע\nאנהצֹאמא ואנחדארא ען אלמעדה. ומא כאן מנה\nמלתצקא בנואה וגֹוהרה צלב מנדמגֹ והו אלגֹבלי פהו\nאגלטֹ ואבטא אנהצֹאמא.",
+      "slots": {"HEAD": "אלכוך", "PART": "נואה", "SOFT_CASE": "רכו", "HARD_CASE": "מלתצקא בנואה וגֹוהרה צלב מנדמגֹ"},
+      "dependencies": {"head": "אלכוך explicit; מנה and נואה refer to the peach and its pit/part", "arguments": ["soft peach case", "easy pit removal", "faster digestion and departure", "material attached to the pit", "thicker and slower peach case"], "pronouns": ["מנה = peach/its part", "פהו = relevant peach/material case"]},
+      "working_meaning": "The source contrasts a soft peach whose pit is easily removed, with faster digestion and departure from the stomach, against a peach whose material adheres to the pit and is thicker and slower. The exact attachment of each predicate is an interpretive judgment.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete source clause sequence through the contrastive period"
+    },
+    {
+      "id": "T04",
+      "record": "PEACH",
+      "class": "conditioned_followup_instruction",
+      "source_offsets": ["recto:11 at ומתי", "recto:12", "recto:13 before אלרמֹאן"],
+      "source_text_exact": "ומתי אכלה אצחאב\nאלמזאגֹ אלבארד פליאכלו בעדה זנגֹבילא מרבא או\nעסל אלנחל או שראב אלעסל.",
+      "slots": {"HEAD": "implicit peach", "AGENT_GROUP": "אצחאב אלמזאגֹ אלבארד", "FOLLOWUP": "זנגֹבילא מרבא / עסל אלנחל / שראב אלעסל"},
+      "dependencies": {"head": "אכלה refers to peach", "arguments": ["eaters with cold temperament", "after it", "one of three attested followups"], "pronouns": ["אכלה = peach object", "בעדה = after peach"]},
+      "working_meaning": "When people of cold temperament eat it, the source instructs them to eat ginger jam, bee honey, or honey drink after it.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete instruction; alternatives are an attested source list, not a free cross-product"
+    },
+    {
+      "id": "T05",
+      "record": "POMEGRANATE",
+      "class": "head_condition_property_and_body_targets",
+      "source_offsets": ["recto:13 at אלרמֹאן", "recto:14", "recto:15", "recto:16 through מסכן ללקי"],
+      "source_text_exact": "אלרמֹאן\nבארד ומא כאן מנה חאמצֹא פהו קוי אלברד מעתדל\nאלרטובה ואליבס קאמעא ללצפרא מקויא ללמעדה\nואלכבד אלחארתין מסכן ללקי.",
+      "slots": {"HEAD": "אלרמֹאן", "CONDITION": "מנה חאמצֹא", "BODY_TARGETS": "ללמעדה ואלכבד", "MODIFIER": "אלחארתין"},
+      "dependencies": {"head": "explicit pomegranate", "arguments": ["base cold", "sour condition", "yellow-bile suppression", "stomach and liver target", "vomiting relief"], "pronouns": ["מנה = pomegranate", "פהו = sour pomegranate"], "agreement": "אלחארתין follows the coordinated stomach+liver phrase; source translation supports a dual-agreement working reading"},
+      "working_meaning": "Pomegranate is cold; if sour, it is intensely cold, balanced in humidity and dryness, suppresses yellow bile, strengthens a hot stomach and liver, and alleviates vomiting.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete selected pomegranate clause through the period after ללקי"
+    },
+    {
+      "id": "T06",
+      "record": "POMEGRANATE",
+      "class": "conditioned_seed_process_clause",
+      "source_offsets": ["recto:16 at וחב", "recto:17", "recto:18 before ואלרמאן"],
+      "source_text_exact": "וחב אלרמאן אלחאמץֹ\nאדא גֹפף עקל אלטביעה ומנע אלמואד אלצפראויה\nמן אלאנצבאב אלי אלבטן.",
+      "slots": {"HEAD": "אלרמאן", "PART": "חב אלרמאן", "CONDITION": "אלחאמץֹ ... אדא גֹפף", "EFFECT": "מנע אלמואד אלצפראויה"},
+      "dependencies": {"head": "explicit pomegranate seed", "arguments": ["sour seed", "dried condition", "nature", "bilious substances", "abdomen"], "pronouns": [], "lexical_caution": "עקל אלטביעה is treated as a likely verb–object construction here, not idāfa"},
+      "working_meaning": "The seed of sour pomegranate, if dried, constrains nature and prevents bilious substances from flowing into the abdomen.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete selected clause; source translation supplies the working historical meaning"
+    },
+    {
+      "id": "T07",
+      "record": "POMEGRANATE",
+      "class": "sweet_condition_state_clause",
+      "source_offsets": ["recto:18 at ואלרמאן", "recto:19 through והו רטב אלמזאגֹ"],
+      "source_text_exact": "ואלרמאן אלחלוא מעתדל פי\nאלחרארה ואלברודה והו רטב אלמזאגֹ.",
+      "slots": {"HEAD": "אלרמאן אלחלוא", "STATE": "מעתדל פי אלחרארה ואלברודה", "QUALITY": "רטב אלמזאגֹ"},
+      "dependencies": {"head": "sweet pomegranate", "arguments": ["balanced heat/cold", "moist temperament"], "pronouns": ["והו = sweet pomegranate"]},
+      "working_meaning": "Sweet pomegranate is balanced in heat and cold and is moist in temperament.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete clause through the period after אלמזאגֹ"
+    },
+    {
+      "id": "T08",
+      "record": "POMEGRANATE",
+      "class": "named_type_outcome_clause",
+      "source_offsets": ["recto:19 at ואלנוע", "recto:20", "recto:21"],
+      "source_text_exact": "ואלנוע אלמערוף\nמנה באלמליסי אללין אלעגֹס ינפע מן אלסעל אלחאדא\nמן חרארה והו מולד ללריאח פי אלמעדה אלבארדה",
+      "slots": {"HEAD": "אלנוע אלמערוף מנה באלמליסי", "TYPE_PROPERTY": "אללין", "OUTCOME": "ינפע מן אלסעל אלחאדא מן חרארה", "TARGET": "אלמעדה אלבארדה"},
+      "dependencies": {"head": "named pomegranate type introduced by אלנוע אלמערוף מנה", "arguments": ["soft seed", "acute cough from heat", "cold stomach"], "pronouns": ["מנה = pomegranate type/source relation", "והו = named type"]},
+      "working_meaning": "The type known as Emlysian/Emilisi, with a soft seed, benefits acute cough from heat and generates wind in a cold stomach.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete selected clause through the end of recto 21"
+    },
+    {
+      "id": "T09",
+      "record": "POMEGRANATE",
+      "class": "cited_case_condition_outcome",
+      "source_offsets": ["verso:1", "verso:2", "verso:3", "verso:4", "verso:5 before אלספרגֹל"],
+      "source_text_exact": "ודכר בקראט פי כתאב אפידימיא אן אמראה כאן\nיוגֹעהא פואדהא אעני פם מעדתהא וכאן יסכנה ענהא\nמא אלרמאן מע סויק אלשעיר ודלך אן אלוגֹע כאן יערץֹ\nלהא מן מראר כאן ינצב אלי פם מעדתהא פכאן מא\nאלרמאן יטפי דלך ואלסויק ינשפה.",
+      "slots": {"CASE_SOURCE": "בקראט פי כתאב אפידימיא", "PATIENT": "אמראה", "BODY_RELATION": "פם מעדתהא", "TREATMENT": "מא אלרמאן מע סויק אלשעיר", "OUTCOME": "אלרמאן יטפי דלך ואלסויק ינשפה"},
+      "dependencies": {"head": "pomegranate is explicit in treatment and outcome", "arguments": ["woman", "pain at mouth/stomach", "pomegranate water", "barley drink", "pain and drying outcome"], "pronouns": ["יוגֹעהא/להא/ענהא = woman", "פואדהא and מעדתהא = patient-linked body relation", "דלך = pain/condition antecedent"]},
+      "working_meaning": "A cited case says a woman's mouth/stomach pain was treated with pomegranate water and barley drink; the source states that pomegranate water soothed the pain and the barley drink dried it.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete pomegranate case segment before the quince head; source attribution is preserved"
+    },
+    {
+      "id": "T10",
+      "record": "QUINCE",
+      "class": "head_property_before_after_food",
+      "source_offsets": ["verso:5 at אלספרגֹל", "verso:6", "verso:7", "verso:8 through וגדאוה כתיר"],
+      "source_text_exact": "אלספרגֹל\nבארד יאבס קאבץֹ ללמעדה אלחארה עאקל ללטביעה\nאדא אכל קבל אלטעאם. וילין אלטביעה אדא אכל בעד\nאלטעאם וגדאוה כתיר.",
+      "slots": {"HEAD": "אלספרגֹל", "BASE_PROPERTIES": "בארד יאבס קאבץֹ", "BEFORE_FOOD": "אדא אכל קבל אלטעאם", "AFTER_FOOD": "אדא אכל בעד אלטעאם"},
+      "dependencies": {"head": "explicit quince", "arguments": ["cold", "dry", "astringent", "hot stomach", "before-food condition", "after-food condition", "many nutrients"], "pronouns": [], "lexical_caution": "אלטביעה is the recipient's/nature term in the effect clause; do not treat it as a simple pronoun for quince"},
+      "working_meaning": "Quince is cold, dry, and astringent for a hot stomach, constricting in nature if eaten before food; after food its nature softens and its nutrients are many.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete base and before/after-food clause sequence"
+    },
+    {
+      "id": "T11",
+      "record": "QUINCE",
+      "class": "unripe_condition_outcome",
+      "source_offsets": ["verso:8 at ומא כאן מנה", "verso:9", "verso:10 before ומא כאן מן אלספרגֹל"],
+      "source_text_exact": "ומא כאן מנה גיר נצֹיגֹ פהו עסר\nאלאנהצֹאם בטי אלאנחדאר ען אלמעדה קוי אלחבס\nללטביעה.",
+      "slots": {"HEAD": "implicit quince", "CONDITION": "מנה גיר נצֹיגֹ", "OUTCOME": "עסר אלאנהצֹאם ... קוי אלחבס ללטביעה"},
+      "dependencies": {"head": "מנה refers to quince", "arguments": ["unripe condition", "difficult digestion", "slow stomach emptying", "strong constipation in nature"], "pronouns": ["מנה = quince", "פהו = unripe quince"]},
+      "working_meaning": "If quince is unripe, the source says it causes difficult digestion, slow emptying from the stomach, and strong constriction in nature.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete condition/outcome clause"
+    },
+    {
+      "id": "T12",
+      "record": "QUINCE",
+      "class": "sour_condition_degree_clause",
+      "source_offsets": ["verso:10 at ומא כאן מן אלספרגֹל", "verso:11 through אלתאלתה"],
+      "source_text_exact": "ומא כאן מן אלספרגֹל חאמצֹא פמזאגֹה\nבארדֹֹֹ פי אלתאניה יאבס פי אלתאלתה",
+      "slots": {"HEAD": "אלספרגֹל", "CONDITION": "חאמצֹא", "DEGREE_2": "בארדֹֹֹ פי אלתאניה", "DEGREE_3": "יאבס פי אלתאלתה"},
+      "dependencies": {"head": "explicit quince", "arguments": ["sour condition", "cold in second", "dry in third"], "pronouns": ["מזאגֹה = quince temperament"], "marks": "retain three consecutive holam marks in בארדֹֹֹ"},
+      "working_meaning": "If quince is sour, its temperament is cold in the second degree and dry in the third.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete sour conditional clause; ordinal interpretation follows the public source translation"
+    },
+    {
+      "id": "T13",
+      "record": "QUINCE",
+      "class": "sweet_condition_balance_and_comparison",
+      "source_offsets": ["verso:11 at ומא כאן מנה חלוא", "verso:12", "verso:13 through אכתר יבסא"],
+      "source_text_exact": "ומא כאן מנה חלוא\nפהו מעתדל אלמזאגֹ פי אלחרארה ואלברודה וכל מא כאן\nאשד קבצֹא פהו אכתר יבסא.",
+      "slots": {"HEAD": "implicit quince", "CONDITION": "מנה חלוא", "BALANCE": "מעתדל אלמזאגֹ פי אלחרארה ואלברודה", "COMPARATIVE": "אשד קבצֹא ... אכתר יבסא"},
+      "dependencies": {"head": "מנה refers to quince", "arguments": ["sweet condition", "balanced heat/cold", "astringency-to-dryness comparison"], "pronouns": ["מנה = quince", "פהו = sweet quince"], "marks": "retain source marks and final forms exactly"},
+      "working_meaning": "If quince is sweet, it is balanced in heat and cold; the more astringent it is, the drier it is.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete sweet clause through its comparative period; the next clause continues the degree discussion"
+    },
+    {
+      "id": "T14",
+      "record": "QUINCE",
+      "class": "comparative_effect_continuation",
+      "source_offsets": ["verso:13 at ומאוה", "verso:14"],
+      "source_text_exact": "ומאוה אשד תקויה ללמעדה\nואקל חבסא ללטביעה וגֹרמה אשד חבסא",
+      "slots": {"HEAD": "implicit quince", "COMPARATIVE": "ומאוה אשד", "TARGET": "ללמעדה", "NATURE": "ללטביעה", "BODY_OR_MASS": "וגֹרמה"},
+      "dependencies": {"head": "ומאוה continues the preceding quince discussion", "arguments": ["effect at the stomach", "nature term", "וגֹרמה body/mass term"], "pronouns": ["ומאוה may be a water/juice form or another continuation; lexical identity is unresolved"], "translation_limit": "The public translation stops before a full English rendering of verso 13–14; no omitted meaning is imported."},
+      "working_meaning": "A displayed continuation contrasts an effect at the stomach, a nature term, and a body/mass term. The lexical scope of ומאוה is unresolved (a water/juice reading is possible); this segment is retained as observed source material and is not a productive slot template.",
+      "utterance_status": "observed_exact",
+      "completeness": "complete displayed clause segment, but English semantic coverage is incomplete in the public translation"
+    }
+  ],
+  "finite_paths": [
+    {"bundle": "PEACH", "start_template_ids": ["T01"], "source_order": ["T01", "T02", "T03", "T04"], "requires_previous": {"T02": "T01", "T03": "T02", "T04": "T03"}, "reference_rule": "מנה, נואה, פהו, אכלה, and בעדה resolve within the peach chain"},
+    {"bundle": "POMEGRANATE", "start_template_ids": ["T05"], "source_order": ["T05", "T06", "T07", "T08", "T09"], "requires_previous": {"T06": "T05", "T07": "T06", "T08": "T07", "T09": "T08"}, "reference_rule": "The sour, sweet, named-type, and cited-case links retain their source order and cannot be interchanged"},
+    {"bundle": "QUINCE", "start_template_ids": ["T10"], "source_order": ["T10", "T11", "T12", "T13", "T14"], "requires_previous": {"T11": "T10", "T12": "T11", "T13": "T12", "T14": "T13"}, "reference_rule": "ומא כאן, מנה, פהו, ומאוה resolve only along the quince chain; T14 remains non-productive"}
+  ],
+  "finite_linked_variants": [
+    {"id": "L01", "base_template": "T04", "bundle": "PEACH", "status": "generated_novel", "source_attested_form": "זנגֹבילא מרבא", "source_offset": "recto:12", "substitution": {"FOLLOWUP": "זנגֹבילא מרבא", "removed_source_disjunction": "או עסל אלנחל או שראב אלעסל"}, "surface_recipe": "Copy the exact T04 prefix through בעדה and insert this one exact listed follow-up; retain peach antecedent and cold-temperament condition.", "historical_attestation": "The resulting single-option utterance is not attested as a standalone historical sentence."},
+    {"id": "L02", "base_template": "T04", "bundle": "PEACH", "status": "generated_novel", "source_attested_form": "עסל אלנחל", "source_offset": "recto:13", "substitution": {"FOLLOWUP": "עסל אלנחל", "removed_source_disjunction": "או שראב אלעסל"}, "surface_recipe": "Copy the exact T04 prefix through בעדה and insert this one exact listed follow-up; retain peach antecedent and cold-temperament condition.", "historical_attestation": "The resulting single-option utterance is not attested as a standalone historical sentence."},
+    {"id": "L03", "base_template": "T04", "bundle": "PEACH", "status": "generated_novel", "source_attested_form": "שראב אלעסל", "source_offset": "recto:13", "substitution": {"FOLLOWUP": "שראב אלעסל", "removed_source_disjunction": "או"}, "surface_recipe": "Copy the exact T04 prefix through בעדה and insert this one exact listed follow-up; retain peach antecedent and cold-temperament condition.", "historical_attestation": "The resulting single-option utterance is not attested as a standalone historical sentence."}
+  ],
+  "paragraph_contract": {
+    "required": [
+      "Select exactly one bundle: PEACH, POMEGRANATE, or QUINCE.",
+      "Begin with an explicit head template when available; later pronouns must resolve to that head or to an explicitly introduced source argument.",
+      "Use only templates licensed by the selected bundle and preserve their condition/outcome pairing.",
+      "Keep each template's source record and line offsets; label copied source text observed_exact.",
+      "If a future output substitutes an attested slot, label it generated_novel and record the exact substitutions; do not present it as a historical quotation."
+    ],
+    "forbidden": [
+      "Cross-fruit substitution or mixing peach, pomegranate, and quince conditions.",
+      "Invented articles, restored lacunae, dot/final normalization, or free feature cross-products.",
+      "Using the supplemental recto 2, verso 19/21, or right-margin material as selected-record clauses.",
+      "Clinical claims, Voynich symbol assignments, target fitting, reserve access, or decoder construction."
+    ],
+    "ceiling": "This finite language is a source-grounded draft of clause dependencies and compatible bundles. It does not establish a Voynich language, code, translation, or historical medical truth."
+  }
+}

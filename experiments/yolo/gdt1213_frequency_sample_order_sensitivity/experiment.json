@@ -1,0 +1,142 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Within-cache selection sensitivity only; overlapping exposed samples are not independent and no candidate, language, native meaning or error probability is confirmed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1213_frequency_sample_order_sensitivity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1213_frequency_sample_order_sensitivity/src/validate.py"
+  },
+  "created": "2026-10-06",
+  "dependencies": [
+    "GDT1170",
+    "GDT1174",
+    "GDT1211",
+    "GDT1212"
+  ],
+  "experiment_id": "GDT1213",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "ccff1909c3dbca720b28f11711278853e3befa99e6f444a0335249d6d6db01be"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "8e43163f34539634b6e504286f7ca520515e1b48653c242399790c285dd265db"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/artifacts/RESULT.json",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "5af5757676f6a9d74f98fa790c3202d3eca76488cc4760ee0d418b0e51b6d40a"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/PREREGISTRATION.md",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "5fb241521fe9a5e35c7b3265d3cb6f189fab3fb30a58fd68786af8fc1078a354"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/run.py",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "fdc1bed937fb07ba0b5360fefecf3a59bad3daa49c4a5e1cc40c4c2bb12b5c8c"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/metrics.py",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "de8a9540793b081f39886e9a7e962b4f4c9ec57f6fdc1ce8653ad9e180425c42"
+    },
+    {
+      "path": "experiments/yolo/gdt1174_ten_scribes_forward_comparison/src/scribes.py",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "400daada5d4388bad1acaa11cf8add46457cbf5ffeb6cf1d62cdd0ffed4634e6"
+    },
+    {
+      "path": "experiments/yolo/gdt1211_one_variant_per_line_capacity/artifacts/TARGET_SAMPLE_IDS.json",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "c5b18b4903be1a45cd24e01bf399d7ced9e9634524e11ec1e191c58c84d78c99"
+    },
+    {
+      "path": "experiments/yolo/gdt1212_bidirectional_function_binding/REPORT.md",
+      "role": "Frozen source, selector, comparison, reproduction anchor or primary",
+      "sha256": "d0d7384b271485e0e97e0ac54666f0d48000bc43e858d353f21a506ebf65cd13"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/METHOD.md",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "6c207326948529f77a520d1cf7371156422bbc072fbefa83bc46eaf4c8750f10"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/PREREGISTRATION.md",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "1b015ba412784426308392e8257dc18f088d32a701e373cf9d3cd01b34d2a391"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/README.md",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "a656f19487ba6a38137e153e61969df18e06363f6d0aaa9eadbad1a83e915f7a"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/REPORT.md",
+      "role": "Primary report",
+      "sha256": "bfba858bfd575636d59d72867b8311470da27f1e05a8d7a921273d207fbe3c77"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/README.md",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/REGISTRATION_LOCK.json",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "293b7f45040f770c7f4d5de9779ebb1db51e53ece9ca83893402ac554fd1621d"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/REGISTRY_REVIEW.json",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "abc443db3b5740f07aa5591e935a79f170402fa7371ec24c8a0cab597aee771b"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/RESULT.json",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "10bd1e24c5f580dc293f83269df636cb430ead9a412ebd5cb7902d4c830060de"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/RUN_RECEIPT.json",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "94edb343471baa888975072a2f44d4aacb6f3de3d9c999595cc22c6f35467f9e"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/VALIDATION.json",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "32fd4b2f98b61e03039259d5d94039fc4e7c519cb7288b1ccc56ac004268951f"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/src/run.py",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "c6de37775a5b12a8a1eb9682c70db133952455db3a275140193f5b4321f1aee8"
+    },
+    {
+      "path": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/src/validate.py",
+      "role": "Code, registration, validation or compact result",
+      "sha256": "42708f4f3b01e7a27a2a6fbb096ec48fd4ef79326fb2de68a8bf4d70f531349b"
+    }
+  ],
+  "question": "Do at least122of128 fixed alternative page-order samples satisfy both original frequency bands against the1174 reference across all three readings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "frequency_sample_order_sensitivity",
+  "status": "FREQUENCY_SELECTION_OPERATIONALLY_STABLE",
+  "title": "Frequency-screen sensitivity to page-sample order",
+  "updated": "2026-10-06",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1213_frequency_sample_order_sensitivity/artifacts/VALIDATION.json"
+  }
+}

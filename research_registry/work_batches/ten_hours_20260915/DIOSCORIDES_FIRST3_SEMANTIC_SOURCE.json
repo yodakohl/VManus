@@ -1,0 +1,1353 @@
+{
+  "status": "SOURCE_ONLY_AUDITED",
+  "date": "2026-09-15",
+  "source": {
+    "author": "Dioscorides Pedianus",
+    "work": "De materia medica",
+    "edition": "Max Wellmann, Pedanii Dioscuridis Anazarbei de materia medica libri quinque, Berlin, Weidmann, 1907-1914",
+    "cache": "dioscorides_cache/Wellmann_DMM.xml",
+    "cache_sha256": "e2a2175c5ca1c1a2313c5816bc79c7fa1c9103766fcad193356d0c13ce6746bc",
+    "source_url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0656/tlg001/tlg0656.tlg001.1st1K-grc1.xml",
+    "access_scope": "Book I chapters 1-3 only; TEI apparatus notes excluded from the main-text trace",
+    "excerpt_cache": "dioscorides_cache/first3_greek_excerpt.txt",
+    "excerpt_sha256": "07a10060ebe19e5bf6bcd09054e7afa4504f4d37b06bea7c908aece963e1cf3a"
+  },
+  "trace_policy": {
+    "order": "source order",
+    "locator": "Book I chapter and section; chapter 3 is one unnumbered main-text paragraph",
+    "role_values": "Greek source terms retained; English renderings are bounded working glosses",
+    "uncertainty": "scope, lexical, and translation uncertainty is stated; no unstated dose, vehicle, or condition is added",
+    "target_access": false,
+    "voynich_glosses": false
+  },
+  "chapters": [
+    {
+      "book": 1,
+      "chapter": 1,
+      "name": "ἶρις Ἰλλυρική (Iris Illyrian)",
+      "events": [
+        {
+          "index": 1,
+          "locator": "I.1.1",
+          "kind": "identification_description",
+          "subject": "ἶρις Ἰλλυρική",
+          "roles": {
+            "place": [
+              "Ἰλλυρία (Illyria)"
+            ],
+            "plant_parts": [
+              "φύλλα (leaves)",
+              "ἄνθη (flowers)",
+              "καυλοί (stalks)",
+              "ῥίζαι (roots)"
+            ],
+            "appearance": [
+              "leaves compared with ξιφίῳ (source comparison to the named ξιφίον; no literal-sword or modern-taxon normalization)",
+              "larger, broader, more fleshy leaves",
+              "parallel, bent flowers on stalks",
+              "flowers white, yellow, μήλινα (apple-like colour term; exact colour value uncertain), purple, or bluish"
+            ],
+            "root_attributes": [
+              "γονατώδεις (knobby/jointed; exact morphology uncertain)",
+              "στερεαί (firm/solid)",
+              "εὐώδεις (fragrant)"
+            ],
+            "name_relation": "the variety of flower colours is given as the reason for comparison with Iris"
+          },
+          "source_effect": "descriptive identification",
+          "scope_uncertainty": "I.1 ξιφίῳ is kept opaque in this trace. The separate IV.20 ξιφίον passage provides the reciprocal source comparison to Iris as smaller and narrower; it does not authorize a literal sword reading or a modern Xiphium/Gladiolus identification."
+        },
+        {
+          "index": 2,
+          "locator": "I.1.1",
+          "kind": "harvest_storage",
+          "subject": "ἶρις roots",
+          "roles": {
+            "material": "ῥίζαι (roots)",
+            "preparation": [
+              "after cutting",
+              "dry in shade",
+              "διείραντας λίνῳ"
+            ],
+            "storage": "ἀποτίθεσθαι (put away/store)"
+          },
+          "scope_uncertainty": "διείραντας λίνῳ is retained as Greek; the exact action involving flax/linen is not normalized"
+        },
+        {
+          "index": 3,
+          "locator": "I.1.1",
+          "kind": "quality_comparison",
+          "subject": "Iris varieties",
+          "roles": {
+            "preferred_origins": [
+              "Ἰλλυρική (Illyrian)",
+              "Μακεδονική (Macedonian)"
+            ],
+            "less_preferred_origin": "Λιβυκή (Libyan)",
+            "quality": "Illyrian and Macedonian are better; Libyan is secondary in δύναμις (potency)"
+          }
+        },
+        {
+          "index": 4,
+          "locator": "I.1.1",
+          "kind": "quality_condition_effect",
+          "subject": "best Iris root",
+          "roles": {
+            "material": "πυκνόρριζος ῥίζα (thick-rooted root)",
+            "quality": [
+              "short/stubby",
+              "hard to break",
+              "ὑπόκιρρος (somewhat tawny/reddish; exact shade uncertain)",
+              "very fragrant",
+              "hotter/pungent taste",
+              "not moist"
+            ],
+            "condition": "while cutting",
+            "effect": "πταρμοί (sneezing)"
+          },
+          "scope_uncertainty": "ὑποκόλοβος and πυρωδεστέρα are rendered descriptively, without fixing a modern botanical or pharmacological term"
+        },
+        {
+          "index": 5,
+          "locator": "I.1.1",
+          "kind": "quality_condition",
+          "subject": "ἶρις roots (scope of the plural ageing clause uncertain; not assigned to Libyan only)",
+          "roles": {
+            "condition": "παλαιούμεναι (when they age)",
+            "effect": "τερηδονίζονται (become worm-eaten/decayed) but εὐωδέστεραι γίνονται (become more fragrant)"
+          },
+          "scope_uncertainty": "The preceding sentence discusses the Libyan variety, but the following plural παλαιούμεναι is not treated as proof that ageing applies to Libya alone; the antecedent and scope remain open"
+        },
+        {
+          "index": 6,
+          "locator": "I.1.2",
+          "kind": "general_property_effect",
+          "subject": "all Iris roots",
+          "roles": {
+            "material": "ῥίζαι (roots)",
+            "properties": [
+              "θερμαντική (warming)",
+              "λεπτυντική (thinning)"
+            ],
+            "body_or_condition": [
+              "βῆχες (coughs)",
+              "δυσανάγωγα ὑγρὰ (difficult-to-shift fluids)"
+            ],
+            "effects": [
+              "suit coughs",
+              "thin difficult-to-shift fluids"
+            ]
+          },
+          "scope_uncertainty": "The passage states these general properties before the separately qualified hydromel cleansing clause; no vehicle or dose is inherited here."
+        },
+        {
+          "index": 7,
+          "locator": "I.1.2",
+          "kind": "oral_preparation_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "material": "ῥίζαι (roots)",
+            "preparation": "ποτιζόμεναι μεθ᾿ ὑδρομέλιτος δραχμῶν ἑπτά (drunk with hydromel; seven drachms stated, measure referent not normalized)",
+            "body_or_condition": [
+              "πάχη (thick materials/humours)",
+              "χολαί (biles)"
+            ],
+            "effect": "καθαίρουσι (cleanse/clear)"
+          },
+          "scope_uncertainty": "The seven-drachm hydromel wording is attached to the cleansing of πάχη and χολαί in this clause only; it is not a dose for every Iris effect in I.1.2."
+        },
+        {
+          "index": 8,
+          "locator": "I.1.2",
+          "kind": "general_property_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "properties": [
+              "ὑπνοποιοί (sleep-inducing)",
+              "δακρυοποιοί (tear-inducing)"
+            ],
+            "body_or_condition": [
+              "στρόφοι (colic)"
+            ],
+            "effects": [
+              "induce sleep",
+              "induce tears",
+              "treat colic"
+            ]
+          },
+          "scope_uncertainty": "These effects follow the hydromel clause without a repeated vehicle or dose; no hydromel/7-drachm condition is silently assigned to them."
+        },
+        {
+          "index": 9,
+          "locator": "I.1.2",
+          "kind": "oral_preparation_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "preparation": "πινόμεναι μετ᾿ ὄξους (drunk with vinegar)",
+            "conditions": [
+              "θηριοδήκτοι (animal bites)",
+              "σπληνικοί (spleen conditions)",
+              "σπωμένοι (uncertain cramp/convulsion condition)",
+              "περιψυχόμενοι or ῥιγοῦντες (chilled or shivering)",
+              "τοῖς γόνον προιεμένοις (a reproductive/foetal-loss condition; scope uncertain)"
+            ],
+            "effect": "ἀρήγουσι (help)"
+          },
+          "scope_uncertainty": "σπωμένοις and γόνον προιεμένοις are not forced into a modern diagnosis"
+        },
+        {
+          "index": 10,
+          "locator": "I.1.2",
+          "kind": "oral_preparation_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "preparation": "ποθεῖσαι σὺν οἴνῳ (drunk with wine)",
+            "effect": "ἄγουσιν ἔμμηνα (bring on menstruation)"
+          }
+        },
+        {
+          "index": 11,
+          "locator": "I.1.2",
+          "kind": "decoction_external_and_enema",
+          "subject": "Iris decoction",
+          "roles": {
+            "preparation": "ἀπόζεμα (decoction)",
+            "administration": [
+              "female πυρίαι (fomentations/steams)",
+              "ἔγκλυσμα (enema)"
+            ],
+            "body_or_condition": [
+              "female sites",
+              "ἰσχιάς (sciatica/hip condition)",
+              "σύριγγες (fistulas/tubes)",
+              "κόλποι (cavities)"
+            ],
+            "effects": [
+              "soften sites",
+              "open passages",
+              "form flesh in fistulas and cavities"
+            ],
+            "branch_effects": [
+              {
+                "preparation": "ἀπόζεμα πρὸς γυναικείας πυρίας",
+                "effect": "εὔθετον; μαλάσσον τοὺς τόπους καὶ ἀναστομοῦν (suitable for female fomentation; softens and opens the sites)",
+                "scope": "female sites"
+              },
+              {
+                "administration": "ἔγκλυσμα",
+                "body_or_condition": "ἰσχιάς",
+                "effect": "suitable/helpful for the hip/sciatic condition"
+              },
+              {
+                "body_or_condition": [
+                  "σύριγγες",
+                  "κόλποι"
+                ],
+                "effect": "σαρκωτικόν (flesh-forming in fistulas/tubes and cavities)"
+              }
+            ]
+          },
+          "scope_uncertainty": "The Greek supplies several uses in sequence; branch-to-body-site relations are kept at the stated level and no modern procedure is imposed."
+        },
+        {
+          "index": 12,
+          "locator": "I.1.3",
+          "kind": "topical_preparation_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "preparation": "προστεθεῖσαι ὡς κολλύριον μετὰ μέλιτος (applied/inserted in collyrium form with honey)",
+            "administration": "προστεθεῖσαι (application/insertion; route unresolved; not assumed to be ocular)",
+            "effect": "ἔμβρυα κατασπῶσι (draw down embryos/fetuses)"
+          },
+          "scope_uncertainty": "κολλύριον names a preparation form, but this sentence does not establish ocular administration for the embryo effect; προστεθεῖσαι may indicate addition/application/insertion. The exact route and relation to later πεσσοί remain unresolved."
+        },
+        {
+          "index": 13,
+          "locator": "I.1.3",
+          "kind": "topical_preparation_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "preparation": "ἑφθαὶ καταπλασθεῖσαι (boiled and applied as a poultice)",
+            "body_or_condition": [
+              "χοιράδες (scrofulous swellings)",
+              "σκιρρώματα παλαιά (old indurations/tumours)"
+            ],
+            "effect": "μαλάσσουσι (soften)"
+          },
+          "scope_uncertainty": "The separate poultice clause is kept in source order; its exact relation to the preceding collyrium form is not normalized."
+        },
+        {
+          "index": 14,
+          "locator": "I.1.3",
+          "kind": "topical_preparation_effect",
+          "subject": "dry Iris roots",
+          "roles": {
+            "material_state": "ξηραί (dry)",
+            "administration": "ξηραί (dry roots); fill ulcers, and with honey clean/restore flesh over denuded bones",
+            "body_or_condition": [
+              "ἕλκη (ulcers)",
+              "ἐψιλωμένα ὀστέα (denuded bones)"
+            ],
+            "effects": [
+              "fill ulcers",
+              "clean ulcers",
+              "flesh over exposed bones"
+            ],
+            "branch_effects": [
+              "πληροῦσιν ἕλκη (fill ulcers)",
+              "ἀνακαθαίρουσι μετὰ μέλιτος (cleanse with honey)",
+              "τὰ ἐψιλωμένα τῶν ὀστέων σαρκοῦσιν (flesh over denuded bones)"
+            ]
+          }
+        },
+        {
+          "index": 15,
+          "locator": "I.1.3",
+          "kind": "topical_preparation_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "preparation": "poultice with vinegar and ῥόδινον (rose preparation/oil)",
+            "body_part": "κεφαλή (head)",
+            "effect": "help headache"
+          },
+          "scope_uncertainty": "ῥόδινον is retained as a rose-derived preparation, without fixing its exact vehicle"
+        },
+        {
+          "index": 16,
+          "locator": "I.1.3",
+          "kind": "topical_preparation_effect",
+          "subject": "Iris roots",
+          "roles": {
+            "preparation": "with white hellebore at double amount and honey, applied",
+            "body_or_condition": [
+              "φακοί (freckles/lentigines)",
+              "ἐφήλεις (sun-spots/ephelides)"
+            ],
+            "effect": "clean/remove"
+          }
+        },
+        {
+          "index": 17,
+          "locator": "I.1.3",
+          "kind": "compound_reuse_summary",
+          "subject": "Iris",
+          "roles": {
+            "compound_forms": [
+              "πεσσοί (pessaries)",
+              "μαλάγματα (poultices/softening applications)",
+              "ἀκόποι (historical compound term; exact scope uncertain)"
+            ],
+            "effect": "πολύχρηστοι (very widely useful)"
+          }
+        }
+      ]
+    },
+    {
+      "book": 1,
+      "chapter": 2,
+      "name": "ἄκορον (name retained; modern identification unresolved)",
+      "events": [
+        {
+          "index": 1,
+          "locator": "I.2.1",
+          "kind": "identification_description",
+          "subject": "ἄκορον",
+          "roles": {
+            "plant_parts": [
+              "φύλλα (leaves)",
+              "ῥίζαι (roots)"
+            ],
+            "comparison": "leaves like Iris but narrower; roots similar to Iris",
+            "root_appearance": [
+              "tangled",
+              "not growing straight",
+              "sideways and near the surface",
+              "divided by joints",
+              "whitish underneath",
+              "sharp in taste",
+              "not unpleasant in smell"
+            ],
+            "quality": "dense and white, not worm-eaten, and full of fragrance is superior",
+            "place": [
+              "Κολχίς (Colchis)",
+              "Γαλατία (Galatia)"
+            ],
+            "alternate_name": "the Galatian form is called ἄσπληνον"
+          },
+          "scope_uncertainty": "ἄβρωτον is rendered as not worm-eaten/undamaged in context; no modern species identification is asserted"
+        },
+        {
+          "index": 2,
+          "locator": "I.2.2",
+          "kind": "oral_preparation_effect",
+          "subject": "ἄκορον root",
+          "roles": {
+            "property": "θερμαντική (warming)",
+            "preparation": "ἀπόζεμα (decoction)",
+            "administration": "πινόμενον (drunk)",
+            "body_or_condition": [
+              "οὖρα (urine)",
+              "πλευρᾶς πόνοι (side pains)",
+              "θώραξ (chest)",
+              "ἧπαρ (liver)",
+              "στρόφοι (colic)",
+              "ῥήγματα (ruptures/strains)",
+              "σπάσματα (spasms)",
+              "σπλήν (spleen)"
+            ],
+            "effects": [
+              "move urine",
+              "suit side, chest, and liver pains",
+              "treat colic, ruptures, and spasms",
+              "reduce/dissolve spleen enlargement or material (scope historical)"
+            ],
+            "additional_conditions": [
+              "στραγγουρία (strangury)",
+              "θηριοδήκτοι (animal bites)"
+            ],
+            "additional_effect": "ὠφελεῖ (helps)"
+          }
+        },
+        {
+          "index": 3,
+          "locator": "I.2.2",
+          "kind": "external_preparation_effect",
+          "subject": "ἄκορον root/decoction",
+          "roles": {
+            "administration": "εἰς ἐγκάθισμα (sitz bath)",
+            "comparison": "as Iris, for female conditions",
+            "body_or_condition": "τὰ γυναικεῖα (female conditions)",
+            "effect": "suit/help"
+          }
+        },
+        {
+          "index": 4,
+          "locator": "I.2.2",
+          "kind": "topical_oral_preparation_effect",
+          "subject": "ἄκορον root juice",
+          "roles": {
+            "preparation": "χυλός (expressed juice)",
+            "body_part": "κόραι (pupils/eyes)",
+            "condition": "ἐπισκοτοῦντα (things causing dimness/clouding)",
+            "effect": "ἀποκαθαίρει (clears)"
+          }
+        },
+        {
+          "index": 5,
+          "locator": "I.2.2",
+          "kind": "compound_reuse",
+          "subject": "ἄκορον root",
+          "roles": {
+            "compound_context": "ἀντίδοτα (antidotes/compound counteragents)",
+            "effect": "root is mixed in usefully"
+          }
+        }
+      ]
+    },
+    {
+      "book": 1,
+      "chapter": 3,
+      "name": "μῆον Ἀθαμαντικόν (name retained; modern identification unresolved)",
+      "events": [
+        {
+          "index": 1,
+          "locator": "I.3",
+          "kind": "identification_description",
+          "subject": "μῆον τὸ καλούμενον Ἀθαμαντικόν",
+          "roles": {
+            "place": [
+              "Μακεδονία (Macedonia)",
+              "Σπανία (Spain)"
+            ],
+            "plant_parts": [
+              "καυλός (stalk)",
+              "φύλλα (leaves)",
+              "ῥίζαι (roots)"
+            ],
+            "comparison": "stalk and leaves like dill, but thicker; about two cubits high",
+            "root_appearance": [
+              "thin",
+              "sideways and straight",
+              "long",
+              "fragrant"
+            ],
+            "body_part": "γλῶττα (tongue)",
+            "effect": "roots warm the tongue",
+            "abundance": "γεννᾶται πλεῖστον (grows most abundantly)"
+          }
+        },
+        {
+          "index": 2,
+          "locator": "I.3",
+          "kind": "alternative_oral_preparation_effect",
+          "subject": "μῆον roots",
+          "roles": {
+            "material": "ῥίζαι",
+            "alternative_preparation_1": "ἀποζεσθεῖσαι μεθ᾿ ὕδατος (boiled/decocted with water)",
+            "alternative_preparation_2": "λεῖαι δίχα ἑψήσεως (made smooth/fine without boiling)",
+            "administration": "ποθεῖσαι (drunk)",
+            "body_or_condition": [
+              "στεγνὰ περὶ κύστιν καὶ νεφρούς πάθη (στεγνά conditions around bladder/kidneys; exact sense unresolved: dry/obstructive/contracted)",
+              "δυσουρίαι (difficult urination)",
+              "στομάχου ἐμπνευματώσεις (stomach wind/distension)",
+              "στρόφοι (colic)",
+              "ὑστερικαὶ διαθέσεις (uterine/hysterical conditions)",
+              "ἄρθρων πόνοι (joint pains)"
+            ],
+            "effect": [
+              "παρηγοροῦσι (relieve/soothe)",
+              "ἁρμόζουσι (suit)"
+            ]
+          },
+          "scope_uncertainty": "The Greek στεγνά is retained because “dry disorders” is not secure; dry, obstructive, or contracted conditions are possible historical senses. The two preparation alternatives and their shared drinking syntax are preserved, without choosing equivalence or a modern diagnosis."
+        },
+        {
+          "index": 3,
+          "locator": "I.3",
+          "kind": "honey_oral_preparation_effect",
+          "subject": "μῆον roots",
+          "roles": {
+            "preparation": "λεῖαι σὺν μέλιτι ἀντὶ ἐκλεικτοῦ (made smooth/fine with honey as an electuary/syrup form)",
+            "body_part": "θώραξ (chest)",
+            "condition": "ῥευματιζόμενος (rheumatic/flux-affected)",
+            "effect": "βοηθοῦσι (help)"
+          },
+          "scope_uncertainty": "ἀντὶ ἐκλεικτοῦ is retained as an administration-form phrase; it is not treated as a new ingredient"
+        },
+        {
+          "index": 4,
+          "locator": "I.3",
+          "kind": "external_preparation_effect",
+          "subject": "μῆον roots",
+          "roles": {
+            "preparation": "ἀποζεσθεῖσαι (boiled/decocted)",
+            "administration": "εἰς ἐγκάθισμα (sitz bath)",
+            "effect": "ἄγουσιν αἷμα δι᾿ ἐμμήνων (bring menstrual blood)"
+          },
+          "scope_uncertainty": "the passage supplies the boiled form and sitz-bath route here; it does not supply a numerical dose"
+        },
+        {
+          "index": 5,
+          "locator": "I.3",
+          "kind": "topical_preparation_effect",
+          "subject": "μῆον roots",
+          "roles": {
+            "preparation": "καταπλασθέντος (applied as a poultice)",
+            "body_part": "ἐφηβαῖον παιδίων (pubic/lower-belly region of children)",
+            "effect": "οὖρα ἄγουσιν (bring urine/induce urination)"
+          },
+          "scope_uncertainty": "ἐφηβαῖον is retained as the more specific pubic/lower-belly term; no broader body region is inferred"
+        },
+        {
+          "index": 6,
+          "locator": "I.3",
+          "kind": "adverse_condition_effect",
+          "subject": "μῆον when drunk",
+          "roles": {
+            "condition": "πλεῖον ἢ δεῖ πινόμενον (drunk in an amount more than needed)",
+            "body_part": "κεφαλή (head)",
+            "effect": "κεφαλαλγές (headache)"
+          },
+          "scope_uncertainty": "the final Greek sentence does not separately name a decoction in this adverse clause; no unspoken preparation state, dose threshold, or vehicle is added"
+        }
+      ]
+    }
+  ],
+  "shared_concepts_across_chapters": {
+    "materials_or_parts": [
+      "ῥίζαι (roots)",
+      "φύλλα (leaves)"
+    ],
+    "preparations": [
+      "ἀπόζεμα/ἀποζέω (decoction/boiling)",
+      "χυλός (juice)",
+      "λεῖαι (smooth/fine pounding)",
+      "κατάπλασμα (poultice)",
+      "μετὰ μέλιτος (with honey)",
+      "μετ᾿ ὄξους (with vinegar)",
+      "σὺν οἴνῳ (with wine)",
+      "μεθ᾿ ὑδρομέλιτος (with hydromel)"
+    ],
+    "administration_routes": [
+      "ποθεῖν/πίνειν (drink)",
+      "ἐγκάθισμα (sitz bath)",
+      "κατάπλασμα (topical poultice)",
+      "κολλύριον (collyrium form; route unresolved)",
+      "ἔγκλυσμα (enema)",
+      "πεσσός (pessary)"
+    ],
+    "body_sites": [
+      "γλῶττα (tongue)",
+      "κεφαλή (head)",
+      "κόραι (eyes/pupils)",
+      "θώραξ (chest)",
+      "ἧπαρ (liver)",
+      "σπλήν (spleen)",
+      "κύστις (bladder)",
+      "νεφροί (kidneys)",
+      "ὑστέρα (womb/uterus)",
+      "ἰσχία (hips)",
+      "ἄρθρα (joints)",
+      "ἐφήβαιον (pubic/lower-belly region)"
+    ],
+    "effects_or_outcomes": [
+      "warming",
+      "thinning/clearing",
+      "moving urine",
+      "bringing menstruation",
+      "relieving pain",
+      "softening/cleaning/flesh-forming",
+      "helping animal bites",
+      "sleep/tear induction",
+      "headache as excess adverse effect"
+    ],
+    "conditions_and_limits": [
+      "origin/quality differences",
+      "boiled versus unboiled fine preparation",
+      "different administration routes",
+      "with-more-than-needed drunk as an adverse condition"
+    ]
+  },
+  "interpretive_ceiling": {
+    "historical_content_supported": true,
+    "complete_target_reading": false,
+    "voynich_meaning_binding": false,
+    "confirmed_words": 0,
+    "medical_safety_or_efficacy_claim": false,
+    "note": "The trace is a source-derived historical content model. It does not recommend treatments, map any target form to a Greek concept, or establish a complete target reading."
+  },
+  "source_ready": true,
+  "correction_log": [
+    {
+      "issue": "I.1.1 ξιφίῳ comparison",
+      "correction": "Initial “sword-like” wording was superseded: the comparator is now kept opaque as ξιφίῳ and linked only to the separately traced named ξιφίον in IV.20; no literal-sword or modern-taxon reading remains.",
+      "basis": "Wellmann I.1 and IV.20 main text; reciprocal comparison now documented in DIOSCORIDES_XIPHION_SOURCE.json."
+    },
+    {
+      "issue": "I.1.1 initial root attributes omitted",
+      "correction": "Added γονατώδεις, στερεαί, εὐώδεις as root attributes in the opening identification event.",
+      "basis": "Wellmann main text I.1.1: ῥίζαι ... γονατώδεις, στερεαί, εὐώδεις."
+    },
+    {
+      "issue": "I.1.1 ageing scope over-narrowed",
+      "correction": "Removed Libyan-only subject assignment; ageing remains a plural-root clause with unresolved antecedent scope.",
+      "basis": "Wellmann main text I.1.1: παλαιούμεναι δὲ τερηδονίζονται ..."
+    },
+    {
+      "issue": "I.1.2 dose/vehicle leakage",
+      "correction": "Separated general Iris properties, the seven-drachm hydromel cleansing clause, and unqualified sleep/tear/colic effects.",
+      "basis": "Wellmann main text I.1.2 clause boundaries; dose retained only with πάχη/χολαί cleansing."
+    },
+    {
+      "issue": "I.1.3 κολλύριον route overclaimed",
+      "correction": "Removed “topical eye preparation”; retained collyrium form and application/insertion with route unresolved, and separated the later poultice clause.",
+      "basis": "Wellmann main text I.1.3: προστεθεῖσαι ... ὡς κολλύριον μετὰ μέλιτος ἔμβρυα κατασπῶσι."
+    },
+    {
+      "issue": "I.3 στεγνά overtranslated",
+      "correction": "Retained στεγνά with dry/obstructive/contracted possibilities; no modern disorder selected.",
+      "basis": "Wellmann main text I.3: τὰ στεγνὰ περὶ κύστιν καὶ νεφροὺς πάθη."
+    },
+    {
+      "issue": "I.3 final adverse clause",
+      "correction": "Retained excess drinking → headache only; no decoction, hidden dose, or vehicle added.",
+      "basis": "Wellmann main text I.3 final sentence."
+    },
+    {
+      "issue": "I.1 ξιφίῳ comparator over-normalized",
+      "correction": "Changed the comparator to opaque ξιφίῳ and linked it only to the separately traced named ξιφίον in IV.20, where the text explicitly compares ξιφίον with Iris as smaller and narrower.",
+      "basis": "Wellmann I.1 and IV.20; DIOSCORIDES_XIPHION_SOURCE.json."
+    }
+  ],
+  "clause_coverage_audit": {
+    "method": "Exact Unicode substring membership against the cached main-text excerpt; each exact_greek_span is a source substring and atomic_content_values are source-form tokens/phrases. TEI notes excluded from excerpt; source order retained.",
+    "excerpt_sha256": "07a10060ebe19e5bf6bcd09054e7afa4504f4d37b06bea7c908aece963e1cf3a",
+    "clause_count": 29,
+    "clauses": [
+      {
+        "locator": "I.1.1",
+        "label": "opening identification",
+        "anchor": "ἶρις Ἰλλυρικὴ φύλλα φέρει",
+        "trace_event_indices": [
+          1
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ἶρις Ἰλλυρικὴ φύλλα φέρει",
+        "atomic_content_values": [
+          "ἶρις Ἰλλυρικὴ",
+          "φύλλα",
+          "ξιφίῳ",
+          "ἄνθη",
+          "καυλῶν",
+          "ποικίλα",
+          "λευκὰ",
+          "ὠχρὰ",
+          "μήλινα",
+          "πορφυρᾶ",
+          "κυανίζοντα",
+          "Ἴριδι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.1",
+        "label": "initial roots",
+        "anchor": "ῥίζαι δὲ ὕπεισι γονατώδεις, στερεαί, εὐώδεις",
+        "trace_event_indices": [
+          1
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ῥίζαι δὲ ὕπεισι γονατώδεις, στερεαί, εὐώδεις",
+        "atomic_content_values": [
+          "ῥίζαι",
+          "ὕπεισι",
+          "γονατώδεις",
+          "στερεαί",
+          "εὐώδεις"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.1",
+        "label": "harvest and storage",
+        "anchor": "ἃς δεῖ μετὰ τὴν τομὴν ξηράναντας",
+        "trace_event_indices": [
+          2
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ἃς δεῖ μετὰ τὴν τομὴν ξηράναντας",
+        "atomic_content_values": [
+          "τομὴν",
+          "ξηράναντας",
+          "σκιᾷ",
+          "διείραντας",
+          "λίνῳ",
+          "ἀποτίθεσθαι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.1",
+        "label": "origin and quality",
+        "anchor": "ἔστι δὲ βελτίων ἡ Ἰλλυρικὴ καὶ Μακεδονική",
+        "trace_event_indices": [
+          3,
+          4
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ἔστι δὲ βελτίων ἡ Ἰλλυρικὴ καὶ Μακεδονική",
+        "atomic_content_values": [
+          "Ἰλλυρικὴ",
+          "Μακεδονική",
+          "πυκνόρριζος",
+          "ὑποκόλοβος",
+          "δύσθραυστος",
+          "ὑπόκιρρος",
+          "εὐώδης",
+          "πυρω δεστέρα",
+          "νοτίζουσα",
+          "πταρμούς"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.1",
+        "label": "Libyan comparison",
+        "anchor": "ἡ δὲ Λιβυκὴ λευκή τέ ἐστι",
+        "trace_event_indices": [
+          3
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ἡ δὲ Λιβυκὴ λευκή τέ ἐστι",
+        "atomic_content_values": [
+          "Λιβυκὴ",
+          "λευκή",
+          "πικρά",
+          "δευτερεύουσα",
+          "δυνάμει"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.1",
+        "label": "ageing",
+        "anchor": "παλαιούμεναι δὲ τερηδονίζονται",
+        "trace_event_indices": [
+          5
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "παλαιούμεναι δὲ τερηδονίζονται",
+        "atomic_content_values": [
+          "παλαιούμεναι",
+          "τερηδονίζονται",
+          "εὐωδέστεραι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.2",
+        "label": "general powers",
+        "anchor": "δύναμιν δὲ ἔχουσι πᾶσαι θερμαντικήν",
+        "trace_event_indices": [
+          6
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "δύναμιν δὲ ἔχουσι πᾶσαι θερμαντικήν",
+        "atomic_content_values": [
+          "δύναμιν",
+          "θερμαντικήν",
+          "λεπτυντικήν",
+          "βῆχας",
+          "δυσανάγωγα ὑγρὰ",
+          "λεπτοποιοῦσαι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.2",
+        "label": "hydromel cleansing",
+        "anchor": "καθαίρουσι δὲ πάχη καὶ χολὰς",
+        "trace_event_indices": [
+          7
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "καθαίρουσι δὲ πάχη καὶ χολὰς",
+        "atomic_content_values": [
+          "καθαίρουσι",
+          "πάχη",
+          "χολὰς",
+          "ποτιζόμεναι",
+          "ὑδρομέλιτος",
+          "δραχμῶν ἑπτά"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.2",
+        "label": "sleep tears colic",
+        "anchor": "εἰσὶ δὲ καὶ ὑπνοποιοὶ καὶ δακρυοποιοὶ καὶ στρόφους ἰῶνται",
+        "trace_event_indices": [
+          8
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "εἰσὶ δὲ καὶ ὑπνοποιοὶ καὶ δακρυοποιοὶ καὶ στρόφους ἰῶνται",
+        "atomic_content_values": [
+          "ὑπνοποιοὶ",
+          "δακρυοποιοὶ",
+          "στρόφους ἰῶνται"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.2",
+        "label": "vinegar branch",
+        "anchor": "μετ᾿ ὄξους δὲ πινόμεναι",
+        "trace_event_indices": [
+          9
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "μετ᾿ ὄξους δὲ πινόμεναι",
+        "atomic_content_values": [
+          "ὄξους",
+          "πινόμεναι",
+          "θηριοδήκτοις",
+          "σπληνικοῖς",
+          "σπωμένοις",
+          "περιψυχομένοις",
+          "ῥιγοῦσι",
+          "γόνον προιεμένοις",
+          "ἀρήγουσι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.2",
+        "label": "wine branch",
+        "anchor": "σὺν οἴνῳ δὲ ποθεῖσαι",
+        "trace_event_indices": [
+          10
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "σὺν οἴνῳ δὲ ποθεῖσαι",
+        "atomic_content_values": [
+          "οἴνῳ",
+          "ποθεῖσαι",
+          "ἄγουσιν ἔμμηνα"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.2",
+        "label": "decoction external branch",
+        "anchor": "καὶ τὸ ἀπόζεμα δὲ αὐτῶν",
+        "trace_event_indices": [
+          11
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "καὶ τὸ ἀπόζεμα δὲ αὐτῶν",
+        "atomic_content_values": [
+          "ἀπόζεμα",
+          "γυναικείας πυρίας",
+          "μαλάσσον",
+          "ἀναστομοῦν",
+          "ἰσχιάδος",
+          "ἔγκλυσμα",
+          "συρίγγων",
+          "κόλπων",
+          "σαρκωτικόν"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.3",
+        "label": "collyrium branch",
+        "anchor": "ὡς κολλύριον μετὰ μέλιτος",
+        "trace_event_indices": [
+          12
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ὡς κολλύριον μετὰ μέλιτος",
+        "atomic_content_values": [
+          "προστεθεῖσαι",
+          "κολλύριον",
+          "μέλιτος",
+          "ἔμβρυα",
+          "κατασπῶσι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.3",
+        "label": "boiled poultice branch",
+        "anchor": "μαλάσσουσι δὲ χοιράδας καὶ σκιρρώματα παλαιὰ",
+        "trace_event_indices": [
+          13
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "μαλάσσουσι δὲ χοιράδας καὶ σκιρρώματα παλαιὰ",
+        "atomic_content_values": [
+          "μαλάσσουσι",
+          "χοιράδας",
+          "σκιρρώματα παλαιὰ",
+          "ἑφθαὶ",
+          "καταπλασθεῖσαι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.3",
+        "label": "dry-root branch",
+        "anchor": "ξηραὶ δὲ πληροῦσιν ἕλκη",
+        "trace_event_indices": [
+          14
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ξηραὶ δὲ πληροῦσιν ἕλκη",
+        "atomic_content_values": [
+          "ξηραὶ",
+          "πληροῦσιν ἕλκη",
+          "ἀνακαθαίρουσι",
+          "μέλιτος",
+          "ἐψιλωμένα τῶν ὀστέων",
+          "σαρκοῦσιν"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.3",
+        "label": "headache branch",
+        "anchor": "ὠφελοῦσι δὲ καὶ κεφαλαλγίας",
+        "trace_event_indices": [
+          15
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ὠφελοῦσι δὲ καὶ κεφαλαλγίας",
+        "atomic_content_values": [
+          "ὠφελοῦσι",
+          "κεφαλαλγίας",
+          "ὄξει",
+          "ῥοδίνῳ",
+          "καταπλασθεῖσαι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.3",
+        "label": "freckles branch",
+        "anchor": "φακούς τε καὶ ἐφήλεις",
+        "trace_event_indices": [
+          16
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "φακούς τε καὶ ἐφήλεις",
+        "atomic_content_values": [
+          "φακούς",
+          "ἐφήλεις",
+          "ἐλλεβόρῳ λευκῷ",
+          "διπλασίονι",
+          "μέλιτι",
+          "ἀποκαθαίρουσι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.1.3",
+        "label": "compound summary",
+        "anchor": "μείγνυνται δὲ καὶ πεσσοῖς",
+        "trace_event_indices": [
+          17
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "μείγνυνται δὲ καὶ πεσσοῖς",
+        "atomic_content_values": [
+          "μείγνυνται",
+          "πεσσοῖς",
+          "μαλάγμασι",
+          "ἀκόποις",
+          "πολύχρηστοι"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.2.1",
+        "label": "ἄκορον identification",
+        "anchor": "ἄκορον τὰ μὲν φύλλα",
+        "trace_event_indices": [
+          1
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ἄκορον τὰ μὲν φύλλα",
+        "atomic_content_values": [
+          "ἄκορον",
+          "φύλλα",
+          "ἴριδι",
+          "ῥίζας",
+          "διαπεπλεγμένας",
+          "γόνασι",
+          "ὑπολεύκους",
+          "δριμείας",
+          "πυκνὸν",
+          "λευκὸν",
+          "ἄβρωτόν",
+          "εὐωδίας",
+          "Κολχίδι",
+          "Γαλατίας",
+          "ἄσπληνον"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.2.2",
+        "label": "ἄκορον decoction",
+        "anchor": "δύναμιν δὲ ἔχει ἡ ῥίζα",
+        "trace_event_indices": [
+          2
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "δύναμιν δὲ ἔχει ἡ ῥίζα",
+        "atomic_content_values": [
+          "ῥίζα",
+          "θερμαντικήν",
+          "ἀπόζεμα",
+          "πινόμενον",
+          "οὖρα",
+          "πλευρᾶς",
+          "θώρακος",
+          "ἥπατος",
+          "στρόφους",
+          "ῥήγματα",
+          "σπάσματα",
+          "σπλῆνάς",
+          "τήκει",
+          "στραγγουριῶντας",
+          "θηριοδήκτους"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.2.2",
+        "label": "ἄκορον sitz branch",
+        "anchor": "καὶ εἰς ἐγκάθισμα ὡς ἶρις",
+        "trace_event_indices": [
+          3
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "καὶ εἰς ἐγκάθισμα ὡς ἶρις",
+        "atomic_content_values": [
+          "ἐγκάθισμα",
+          "ἶρις",
+          "γυναικεῖα"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.2.2",
+        "label": "ἄκορον juice",
+        "anchor": "ὁ δὲ χυλὸς τῆς ῥίζης",
+        "trace_event_indices": [
+          4
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ὁ δὲ χυλὸς τῆς ῥίζης",
+        "atomic_content_values": [
+          "χυλὸς",
+          "ῥίζης",
+          "ἀποκαθαίρει",
+          "ἐπισκοτοῦντα",
+          "κόραις"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.2.2",
+        "label": "ἄκορον compounds",
+        "anchor": "μείγνυται δὲ καὶ ταῖς ἀντιδότοις",
+        "trace_event_indices": [
+          5
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "μείγνυται δὲ καὶ ταῖς ἀντιδότοις",
+        "atomic_content_values": [
+          "μείγνυται",
+          "ἀντιδότοις",
+          "χρησίμως"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.3",
+        "label": "μῆον identification",
+        "anchor": "μῆον τὸ καλούμενον Ἀθαμαντικὸν",
+        "trace_event_indices": [
+          1
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "μῆον τὸ καλούμενον Ἀθαμαντικὸν",
+        "atomic_content_values": [
+          "μῆον",
+          "Ἀθαμαντικὸν",
+          "γεννᾶται",
+          "Μακεδονίᾳ",
+          "Σπανίᾳ",
+          "καυλῷ",
+          "φύλλοις",
+          "ἀνήθῳ",
+          "δίπηχύ",
+          "ῥίζαις",
+          "λεπταῖς",
+          "πλαγίαις",
+          "εὐθείαις",
+          "μακραῖς",
+          "εὐώδεσι",
+          "θερμαινούσαις",
+          "γλῶτταν"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.3",
+        "label": "μῆον oral alternatives",
+        "anchor": "αἵτινες ἀποζεσθεῖσαι μεθ᾿ ὕδατος",
+        "trace_event_indices": [
+          2
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "αἵτινες ἀποζεσθεῖσαι μεθ᾿ ὕδατος",
+        "atomic_content_values": [
+          "ἀποζεσθεῖσαι",
+          "ὕδατος",
+          "λεῖαι",
+          "δίχα ἑψήσεως",
+          "ποθεῖσαι",
+          "στεγνὰ",
+          "κύστιν",
+          "νεφροὺς",
+          "πάθη",
+          "παρηγοροῦσι",
+          "δυσουρίαις",
+          "ἐμπνευματώσεσι",
+          "στρόφοις",
+          "ὑστερικαῖς τε διαθέσεσι",
+          "ἄρθρων πόνοις"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.3",
+        "label": "μῆον honey chest",
+        "anchor": "θώρακί τε ῥευματιζομένῳ",
+        "trace_event_indices": [
+          3
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "θώρακί τε ῥευματιζομένῳ",
+        "atomic_content_values": [
+          "θώρακί",
+          "ῥευματιζομένῳ",
+          "μέλιτι",
+          "λεῖαι",
+          "ἐκλεικτοῦ",
+          "βοηθοῦσιν"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.3",
+        "label": "μῆον menstrual sitz",
+        "anchor": "αἷμά τε ἄγουσι δι᾿ ἐμμήνων",
+        "trace_event_indices": [
+          4
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "αἷμά τε ἄγουσι δι᾿ ἐμμήνων",
+        "atomic_content_values": [
+          "αἷμά",
+          "ἄγουσι",
+          "ἐμμήνων",
+          "ἀποζεσθεῖσαι",
+          "ἐγκάθισμα"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.3",
+        "label": "παιδίων poultice",
+        "anchor": "παιδίων δὲ καταπλασθέντος",
+        "trace_event_indices": [
+          5
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "παιδίων δὲ καταπλασθέντος",
+        "atomic_content_values": [
+          "παιδίων",
+          "καταπλασθέντος",
+          "ἐφηβαίου",
+          "οὖρα",
+          "ἄγουσιν"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      },
+      {
+        "locator": "I.3",
+        "label": "excess drinking headache",
+        "anchor": "ἔστι δὲ καὶ κεφαλαλγὲς πλεῖον ἢ δεῖ πινόμενον",
+        "trace_event_indices": [
+          6
+        ],
+        "present_in_excerpt": true,
+        "status": "COVERED",
+        "exact_greek_span": "ἔστι δὲ καὶ κεφαλαλγὲς πλεῖον ἢ δεῖ πινόμενον",
+        "atomic_content_values": [
+          "κεφαλαλγὲς",
+          "πλεῖον",
+          "ἢ δεῖ",
+          "πινόμενον"
+        ],
+        "no_voynich": true,
+        "target_access": false,
+        "span_type": "exact source substring (bounded clause anchor), not a reconstructed sentence"
+      }
+    ],
+    "all_anchors_present": true,
+    "all_trace_events_mapped": true,
+    "note": "Labels use source names; no modern botanical or target-language identification is asserted.",
+    "coverage_claim": "The 29 exact anchors and mapped 28 events document selected clause coverage; all anchors present is not equivalent to exhaustive source-character coverage, complete actor/root coreference binding, or complete semantic atomization.",
+    "source_character_exhaustiveness": false,
+    "semantic_atomization_complete": false,
+    "source_compiler_complete": false,
+    "known_uncompiled_context": [
+      "repeated subject/root bindings (ῥίζαι, αὐτῶν, αἵτινες, and related anaphora)",
+      "all source characters outside the selected anchors"
+    ]
+  },
+  "atomization_policy": {
+    "manual_atomic_lists": true,
+    "claim_ceiling": "Atomic lists are selected source-form checks supporting the trace; they are not an exhaustive token compiler.",
+    "repeated_actor_root_bindings": "Retained in event subject/scope fields but not claimed as fully compiled across every clause.",
+    "voynich_access": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "record_id": "GDT1183",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root_20261005_prefix_contraction",
+  "assessment_basis": "18 frozen necessary screens; one bounded target-summary-fitted permutation search; no design passer",
+  "reason": "Three necessary passes include two alphabet-capacity failures; the only eligible optimized candidate fails H2 and two JS gates. No transfer was scored.",
+  "blockers": [
+    {
+      "code": "counterexample",
+      "detail": "No full design pass; K7 necessary successes lack22-sign capacity under the registered single-bank contract.",
+      "evidence": [
+        "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "id": "different_complete_source_channel",
+        "change": "new_design",
+        "detail": "A genuinely different fully paid and reversible source channel with a predeclared falsifier; no retrospective key or threshold repairs.",
+        "evidence": [
+          "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Changing glyph shapes",
+      "Selecting a partial score as a pass",
+      "Omitting source words or grammar"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1174",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1181",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1182",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md"
+      ]
+    }
+  ]
+}

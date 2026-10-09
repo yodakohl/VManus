@@ -1,0 +1,101 @@
+{
+  "status": "BOUNDED_EXPLORATORY_OBSERVATION_CANDIDATE_NOT_SEMANTIC_TEST_READY",
+  "question": "Do exact CH/SH alternative wholes show directional concordance beyond their immediate two-token context, and does that descriptive signal differ across explicit source paragraph boundaries?",
+  "motivation": {
+    "forms": [
+      "cheor",
+      "sheor",
+      "cheo",
+      "sheo"
+    ],
+    "actual_spans": [
+      "f102v1.14 chor cheor",
+      "f49r.5 chor sheor",
+      "f49v.42 cheo chor",
+      "f66v.6 chor sheo"
+    ],
+    "known": "761reports shared immediate contexts andvariablewrittenorder; no downstreamprofile isprinted. These examplesmotivate forms only; theydo not demonstrate persistence."
+  },
+  "nominated_exploratory_scope": {
+    "anchors": [
+      "cheor",
+      "sheor"
+    ],
+    "responses": {
+      "CH": [
+        "cheo",
+        "chol"
+      ],
+      "SH": [
+        "sheo",
+        "shol"
+      ]
+    },
+    "reason_for_separate_response": "Exclude identicaltargetword repetitions fromprimaryresponse; exactwholes only, no general prefixsegmentation. Responses are preselectedmembers ofknownpairedwholefamilies, not inferred dry/moistlabels.",
+    "windows": "Fixed signed raw-whole offsets3–6 and7–12. Positions1–2excluded asalready-known localframes. Reportavailableopportunities, responsecounts andsame/opposite rates separately bydistance,direction,and sourceparagraphcrossing. Neverjoin overpagebreaks.",
+    "boundary": "Only explicit source start/end flags withcompleteparagraph; nouniversalDYorparserstatementboundary. Boundary-crossingwindows reporteddescriptively, not automaticallycomparable tointeriorwindows.",
+    "discovery_partition": "Root must preregister admitted discovery selectors excluding whatevercurrentheldpartition itreserves. Read noheldtargets inthisreview. No targetstatisticcomputedhere.",
+    "nuisance": "Report folio/sectionandparagraphposition strata; before/after opportunities andtextdensity differ nearboundaries. Do notinterpret pooledassociation ascausalsetting.",
+    "output": "One compactevent table plusstratifiedsignedlagcountsummary, allzero/ambiguouscells retained. No classifier/GPU/controlcorpus needed."
+  },
+  "restricted_formal_rivals": {
+    "P": "A written-concordance-setting model predicts a residual downstream same-side excess atoffset3–12 withinparagraph, beyond correspondingupstreamprofile, withattenuationafteranexplicitboundary. Thisadds anexplicit written echo requirement tosetting; notallpersistentsemanticsettings entailit.",
+    "L": "A restricted local-envelope model permitsimmediateframes andsameparagraph/topicclustering, butpredictsno residualdirectional same-sideexcess outsideoffset2 afterfixedcontext/opportunityconditioning. It isnotalllocal-attributetheories.",
+    "incompatibility": "Positive residualforwardexcess withboundaryattenuation versuszeroresidualforwardexcess cannotbothdescribe thesameconditionaldistribution. Exploratorycounts estimate these features; nosignificancegateorconfirmationclaim is selectedbeforecapacity review.",
+    "important_nonidentifiability": "A positiveprofile alsofitsdirectedcopyingororderedtopics; a nullprofile doesnotrejectlatentsettingthatneednotbeexplicitlyrepeated. Neitheroutcome identifiesdry/moist, operatororattribute semantics."
+  },
+  "decision_consequences": {
+    "positive_profile": "Preserve newstructuralobservation anddesign ahelddirectional-recurrence test withrestrictedcopy/orderalternatives; do notpromotesemantics.",
+    "symmetric_only": "Preferparagraph/topicrecurrence explanationforthisobservable; donotspendtimeonpersistentdirectedconcordanceasproposed.",
+    "opposite_or_boundary_persistent": "Revise hypothesizedreset/direction; publish exactpattern, notpost-hocsuccess.",
+    "sparse": "Reportactualqualifiedanchor/responsewindows andstop; noautomaticradius/formexpansion."
+  },
+  "predecessor_audit": {
+    "GDT761": "Direct andradius2 bridge/sharedframecensus; notsigned3–12lag orboundaryreset profile.",
+    "GDT807": "Differentregisteredpairs, whole targetlinesremoved andunorderedparagraph ecology.0robust3provisional survives. Thisproposal doesnotrerunthatclassifier or inherititsnull/threshold.",
+    "GDT507": "AnalystCH/SHactioncards andargumentinheritance, includingconsecutivecards; notrawcheor/sheor directional lexical profile.",
+    "GDT685": "Wholequality/headworkingdispatch; usefulexactchol/shol responsefamily, notindependentstate/meaning evidence.",
+    "novelty_limit": "No exactdirectedprofile foundinboundedreturnedprimaries; lexicalroute-checkisnotglobalnoveltyproof."
+  },
+  "reader": "Existing GDT807 src/run.py guarded_query and load_corpus provideadmittedlines andexplicitparagraphflags. Reuseonly acquisition/paragraph reconstruction; donotrun GDT807 modellingpipeline. Rootshouldconfirmraw-wholecontract andparagraphavailability beforeexecution;f84/f84rremainsealed.",
+  "budget": "Max10minutes includingpreregistration,smallcountpass,validationandpublication; capacity/dataobservationfirst, no chainofcontrols.",
+  "primary_evidence": [
+    {
+      "path": "experiments/yolo/gdt761_state_pair_outer_carrier_bridge/REPORT.md",
+      "line": 23,
+      "line_end": 35,
+      "quote": "## Die fünf konkreten `chor`-Lesungen\n\n| Locus | exakter Span | konditionale Arbeitslesung |\n|---|---|---|\n| f102v1.14 | `chor cheor` | getrockneter Blüten-/Samenstand |\n| f28v.4 | `cheor chor` | getrockneter Blüten-/Samenstand |\n| f49r.5 | `chor sheor` | feuchter/eingeweichter Blüten-/Samenstand |\n| f49v.42 | `cheo chor` | trocken angesetzte Zubereitung aus Blüten-/Samenstand |\n| f66v.6 | `chor sheo` | Feuchtzubereitung aus Blüten-/Samenstand |\n\nDie wechselnde schriftliche Reihenfolge wird in der deutschen Ausgabe\ngeglättet. Sie beweist weder freie Wortstellung noch Kopf-/Modifier-Syntax. Die\nLesungen gelten nur an diesen fünf exakten Spans; `chor`, `ch`, `or` oder andere",
+      "sha256": "cf87bd5408428a4f55c897082bddd1dfbc822ec82eb443f3e64a685560e2812e"
+    },
+    {
+      "path": "experiments/yolo/gdt761_state_pair_outer_carrier_bridge/REPORT.md",
+      "line": 45,
+      "line_end": 58,
+      "quote": "keine konkrete Übersetzungslizenz.\n\n## Was die beiden Zielpaare gemeinsam halten\n\n`cheor/sheor` teilen acht gleichseitige direkte Rahmentypen: links `chor`,\n`okain`, `oraiin`; rechts `aiin`, `chey`, `ol`, `sheedy`, `sheey`.\n`cheo/sheo` teilen zwei: links `daiin`, rechts `al`. Dabei ist `daiin` ein\nWert-/Mengenrahmen, `al` dagegen der bestehende Material-I-Kandidat und keine\nMengenform.\n\nDas ist deskriptive Kompatibilität mit den geerbten Paarrollen, kein neuer\nBeweis für „trocken/feucht“ oder „Drogenteil/Zubereitung“. Dafür fehlen noch\nunabhängige Kontrollpaare. Radius zwei liefert acht weitere gemeinsame Rahmen;\n`cthy` liegt einmal zwei Plätze links von `cheo` und einmal zwei Plätze links",
+      "sha256": "cf87bd5408428a4f55c897082bddd1dfbc822ec82eb443f3e64a685560e2812e"
+    },
+    {
+      "path": "experiments/yolo/gdt807_target_masked_paragraph_exchange_codebook/REPORT.md",
+      "line": 7,
+      "line_end": 20,
+      "quote": "Der offizielle Lauf rekonstruiert exakt 665 vollständig durch Start-/Endflags\nbegrenzte Absätze aus 4.137 guarded gelesenen Zeilen. Vor jedem Modell werden\nalle vollständigen Zeilen entfernt, die eines der sieben registrierten Zielwörter\nenthalten. Eligibility und Längenbin entstehen danach, aber noch vor der\nGanzwort- beziehungsweise ED1-Featurequarantäne.\n\n| Paar | raw AUC | stable AUC | stable BA | stable ED1 AUC | cyclic Rang | K24 Rang | Removal | Entscheidung |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |\n| `cheol` / `otal` | 0.733614330875 | 0.702507232401 | 0.616923818708 | 0.662729026037 | 1/13 | 17 | 1 | `PROVISIONAL_PARAGRAPH_ECOLOGY_SPLIT` |\n| `qokol` / `qotal` | 0.731656184486 | 0.706705539359 | 0.636734693878 | 0.585422740525 | 6/13 | 11 | 1 | `PROVISIONAL_PARAGRAPH_ECOLOGY_SPLIT` |\n| `qokeol` / `qokol` | 0.667108753316 | 0.694041867955 | 0.631239935588 | 0.693236714976 | 2/13 | 12 | 1 | `PROVISIONAL_PARAGRAPH_ECOLOGY_SPLIT` |\n\nFehlende Robust-Gates:\n",
+      "sha256": "8e60dd3a6ff6769de9fca29c0e8286417da00deb1c2f0d14641e62840b32ef0a"
+    },
+    {
+      "path": "experiments/yolo/gdt507_contextual_pair_argument_bridge_atlas/REPORT.md",
+      "line": 12,
+      "line_end": 24,
+      "quote": "`CH>CH` kommt in der vollständigen Aktionsfolge nicht nur siebenmal, sondern\n65-mal vor. Davon nennen 53 Ereignisse ihr Argument ausdrücklich, elf erben es\naus dem Besitzerzustand und eines kommt ganz ohne Argument aus. Zusätzlich\ngibt es vier unmittelbare `CH→CH`-Kartenfolgen im selben Satz, deren beide\nKarten dasselbe Argument erben.\n\nFür `CH>SH` bleibt der enge Befund richtig: Die drei alten Träger innerhalb\neiner Karte haben ein ausdrückliches Argument. Der Textbestand enthält aber\nneun unmittelbare `CH→SH`-Kartenfolgen, in denen beide Karten dasselbe geerbte\nArgument verwenden. Sie verteilen sich auf sieben Seiten und alle fünf\nRegister. GDT436 rekonstruiert den Argumentzustand in allen 26 beteiligten\nKartenpositionen exakt, und GDT425 liest alle beteiligten Aktionen mit alten\nseitenübergreifenden Faktoren.",
+      "sha256": "cbaf0ab186a2eeaa9ac66eee507ad376530318d58f134058166756505c02df1d"
+    },
+    {
+      "path": "docs/WORKFLOW.md",
+      "line": 174,
+      "line_end": 177,
+      "quote": "- Permit explicitly labelled discovery before selecting a confirmatory hypothesis:\n  preregister its source scope, exploratory purpose, output and stopping budget;\n  disclose motivating examples. Reserve unseen data for later confirmation.\n  Do not represent discovery-selected patterns as predeclared successes.",
+      "sha256": "8928ec8e0cfd1717c31323b3f33e35d6cdad728612d273f374c6d0e34966414b"
+    }
+  ],
+  "no_data_access": "Only primaryMarkdown andreader code viewed. No manuscriptrows,images,heldtargets orproduceroutput inspected; no operative mutation.",
+  "pair_reversal_audit": "Anchors {cheor,sheor} and responses {cheo,chol,sheo,shol} are disjoint. Reversing an anchor/response pair does not produce another eligible anchor of the same design, so forward/backward equality is not algebraically forced. Using one identical inventory for both roles would create that tautology and is forbidden. Disjointness does not remove positional/selection confounding."
+}

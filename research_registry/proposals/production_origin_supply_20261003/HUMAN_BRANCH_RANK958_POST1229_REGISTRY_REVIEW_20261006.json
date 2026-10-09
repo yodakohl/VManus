@@ -1,0 +1,76 @@
+{
+  "record_id": "IDEA000958",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root_20261006_after_full_wordbook_test",
+  "assessment_basis": "Original frozen hand readback plus complete preregistered1229source/Lwriter and independent source/rank/native validation.",
+  "reason": "The hand lesson remains exactly readable. Full2411entry Deot wordbook is now executed and failsH1andH2for every scoreable native comparison; that fixed application is closed, without rejecting the general procedure for every possible source.",
+  "blockers": [
+    {
+      "code": "fixed_deot_wordbook_entropy_failure",
+      "detail": "The fixed Deot instance has lowH1and highH2throughout the declared comparison; no alphabet renaming or automatic source/dictionary/rotor tuning. Historical/native application remains unbound.",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md",
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "separately_motivated_new_instance",
+        "change": "new_design",
+        "detail": "A genuinely different independently motivated full question, with a source/rule changed for reasons beyond improving the measured fit. Original1229failure must remain.",
+        "evidence": [
+          "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md",
+          "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/artifacts/VALIDATION.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "The existing readable teaching example",
+      "Global glyph renaming",
+      "Post-result dictionary changes or omission of rank1",
+      "A lowerH2than1228without a complete declared pass"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000934",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_BRANCH_RANK958_ROOT_REVIEW_20261006.json"
+      ]
+    },
+    {
+      "target": "GDT1193",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_BRANCH_RANK958_ROOT_REVIEW_20261006.json"
+      ]
+    },
+    {
+      "target": "GDT1195",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_BRANCH_RANK958_ROOT_REVIEW_20261006.json"
+      ]
+    },
+    {
+      "target": "GDT1228",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/HUMAN_BRANCH_RANK958_ROOT_REVIEW_20261006.json"
+      ]
+    },
+    {
+      "target": "GDT1229",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/REPORT.md",
+        "experiments/yolo/gdt1229_fixed_wordbook_branch_rank/artifacts/VALIDATION.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "status": "EXPLORATORY_G0_LOCK_BEFORE_FORMAL_LINE2_ENCODING",
+  "created_utc": "2026-10-04T19:28:50.745267+00:00",
+  "image": "runtime/f25v_paleographic_top.png",
+  "image_sha256": "0798c6b0269803130c3fe396a00934003fbb6d851ceeea37803841fa4b572b15",
+  "construction_locus": "f25v.1",
+  "application_locus": "f25v.2",
+  "exposure": "Both lines previously visible to root; no independent holdout",
+  "motif_recipes": {
+    "o": {
+      "code": "OV",
+      "description": "niedriges geschlossenes Oval"
+    },
+    "e": {
+      "code": "BO",
+      "description": "kleiner offener Bogen"
+    },
+    "a": {
+      "code": "AU",
+      "description": "niedrige a-artige Form; nicht mit OV gleichgesetzt"
+    },
+    "i": {
+      "code": "MI",
+      "description": "kurzer schraeger Minimstrich"
+    },
+    "n": {
+      "code": "EN",
+      "description": "terminaler Rueckbogen der Minimfolge; nicht als Zahl gelesen"
+    },
+    "q": {
+      "code": "AQ",
+      "description": "kantiger Kopf mit Unterlaenge; nicht Y"
+    },
+    "y": {
+      "code": "YK",
+      "description": "runder Endkringel mit absteigendem Zug; nicht Q"
+    },
+    "d": {
+      "code": "DL",
+      "description": "8-artige Doppelschlaufe"
+    },
+    "s": {
+      "code": "SK",
+      "description": "kurzer eigenstaendiger Haken; nicht automatisch Aufsatz von SH"
+    },
+    "r": {
+      "code": "RK",
+      "description": "kurze r-artige Abschlussform"
+    },
+    "p": {
+      "code": "HP",
+      "description": "hohe p-Form; separat, erster Beleg verblasst"
+    },
+    "k": {
+      "code": "HK",
+      "description": "hohe k-Form; separat"
+    },
+    "t": {
+      "code": "HT",
+      "description": "hohe t-Form; separat"
+    },
+    "f": {
+      "code": "HF",
+      "description": "hohe f-Form; separat"
+    },
+    "ch": {
+      "code": "BE",
+      "description": "niedrige verbundene Bankform, nicht zwei Lautzeichen"
+    },
+    "sh": {
+      "code": "BE+CAP",
+      "description": "Bankform mit kleinem oberen Haken; kein Lautwert"
+    }
+  },
+  "construction_rules": [
+    "Preserve every source group and separator separately for each reader.",
+    "Greedy ch/sh recognition before single EVA characters; these are reference spellings only.",
+    "Compose motif recipes horizontally without cross-group merges.",
+    "Only sh has the declared small upper cap; no tall sign inserted through a bench.",
+    "Unknown characters or entities stay unresolved and invalidate full coverage of that source group.",
+    "No upper/lowercase mapping, no phonetic/semantic values, no word-specific exception."
+  ],
+  "ceiling": "Symbolic bookkeeping plus manual graphic plausibility; not a native image recognizer or identified grapheme grammar."
+}

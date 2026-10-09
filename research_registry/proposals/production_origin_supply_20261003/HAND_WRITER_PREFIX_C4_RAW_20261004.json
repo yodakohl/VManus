@@ -1,0 +1,52 @@
+{
+  "title": "RAW UNREVIEWED: hand writer copies at most four letters of the immediately preceding word and spells the remainder",
+  "summary": "Constructive invented hand procedure, not historical attestation or a Voynich reading. One ordinary substitution alphabet and three distinct H2/H3/H4 prefix-count signs give an explicit reversible writer for new words. Compression is mandatory for common prefixes of length at least two, capped at four; every physical line and isolated inscription resets. A derived necessary condition is severe: every immediately repeated multicharacter written group within a line must start with the same H4 sign. Root reports existing differently initialized whole-group doublets, so the literal Voynich application faces a known counterexample, not a selected new experiment. Retain this fixed design without marker allography or optional compression repairs.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_CONSTRUCTIVE_DESIGN_WITH_REPORTED_COUNTERCASE_NOT_SELECTED",
+    "mechanism": "Bounded immediate-word front coding with cap exactly four, three reserved atomic prefix-count headers, a fixed one-to-one alphabet, mandatory maximal profitable copying and physical-line resets.",
+    "unit": "A complete sequence of nonempty words in a fixed source alphabet, grouped into physical lines; isolated inscriptions are independent lines.",
+    "contrast": "This writer versus a context-free whole-word spelling: the same plaintext word may be written differently after different immediate predecessors, but only by the stated prefix rule; no other context, semantic class or hidden reset is available.",
+    "prediction": "All exact adjacent repeated written groups longer than one atomic sign within one physical line start with H4. H2 or H3 followed by a nonempty remainder cannot repeat identically; any multicharacter all-letter literal group cannot repeat identically. H2/H3/H4 never begin a line or isolated inscription. Violations reject this literal writer, not writing systems in general.",
+    "scope": "Author-made hand procedure and analytic consequence only. No source attestation, target values, manuscript query, image, program execution, fitted alphabet, experiment, reserve, publication or semantic claim.",
+    "table": {
+      "alphabet": "One fixed bijection from the agreed source-letter alphabet to distinct atomic written letter signs. A teaching example may use a-z to A-Z; this is invented notation, not a historical or Voynich key.",
+      "headers": "H2, H3 and H4 are three further distinct atomic signs, disjoint from every alphabet sign. They may appear only as the first sign of a group. No homographs, aliases, multi-sign marker realizations, escapes or alternative headers.",
+      "other_marks": "Spaces delimit words. Declared punctuation is copied as a separate punctuation channel, never part of a word and never a reset. The procedure covers words over the fixed alphabet; it does not silently normalize source spelling or invent values for characters outside it."
+    },
+    "writing_steps": [
+      "At physical line start set previous word to empty; treat each isolated inscription the same way.",
+      "For next complete source word w, compare its initial letters with the immediately preceding complete decoded word v. Set k=min(4,length of their longest common prefix).",
+      "If k is zero or one, spell the entire w through the alphabet table, with no count header.",
+      "If k is two, three or four, write the one sign Hk followed by alphabet spellings of all letters of w after position k. This compression is obligatory; an empty remainder is permitted.",
+      "Set v=w. Keep a visible space before the next word. Never choose a different earlier word as antecedent.",
+      "Do not split a word at line end. If the entire written group does not fit, move it to the next line and regenerate it with empty predecessor. Add no invisible end symbol."
+    ],
+    "reading_steps": [
+      "At each physical line or isolated-inscription start clear the previous word.",
+      "If the group begins with an alphabet sign, decode every sign literally through the inverse alphabet.",
+      "If it begins Hk, require a previous word of length at least k, copy its first k letters and append the inverse-alphabet decoding of the remaining signs.",
+      "Recompute the maximal-prefix rule from the recovered word and predecessor. A noncanonical full spelling or wrong header is invalid, not an allowed variant.",
+      "Store the recovered complete word as the next predecessor. Errors may propagate within the line; the visible next-line reset bounds propagation."
+    ],
+    "new_words_and_repetition": "No word dictionary is needed. Every new word over the alphabet is written by the same rule. Repetition of a word of length two, three or four is H2/H3/H4 alone; repetition longer than four is H4 plus the unchanged suffix from letter five. A one-letter repetition stays literal.",
+    "invented_worked_example": {
+      "key": "Toy a-z to A-Z, with atomic H2/H3/H4 shown by their names; brackets are explanatory typography only.",
+      "source_single_line": "alma alme alta altar altar",
+      "written_single_line": "ALMA [H3]E [H2]TA [H4]R [H4]R",
+      "new_line_case": "If the second altar begins a new line, write ALTAR, not [H4]R.",
+      "claim": "Hand-worked construction only, not executed software or a manuscript decipherment."
+    },
+    "analytic_reason": "A fixed header/rest pair (k,r) acts on its predecessor as F(v)=prefix_k(v)+r. Applying it twice is idempotent whenever defined. After its first output, the second identical plaintext word has common-prefix length equal to its entire length. For a repeated written group with nonempty r, the canonical header can stay k only when k is the cap four. A repeated multicharacter literal group would instead require a positive header on its second occurrence. Therefore every multicharacter adjacent doublet starts with H4.",
+    "strongest_countercase": "Root reports already documented exact whole-group doublets with different initial signs; these conflict with the necessary condition if those literal initial signs represent distinct atomic signs. No new target lookup was made here, and no target glyph equivalence is asserted. The published GDT851 and GDT1170 reports establish many exact same-line repetitions, but this proposal does not pretend their aggregate counts alone prove the differing-initial countercase.",
+    "composition_limit": "The scheme creates reusable letter runs and prefix headers while preserving the remaining lexical spelling. It may account for some whole-form residual through actual word identity and predecessor dependence; it has not reproduced the GDT608 statistics or identified their cause.",
+    "predecessors": [
+      "IP043 codes the extent of a previous complete passage; this design fixes the immediate previous word, its prefix, a cap of four and a literal new remainder.",
+      "IDEA000237 remains unselected. This constructive descendant supplies a finite fully readable procedure, but lossless coding alone is not evidence of a Voynich differential message; ASSESSMENT.md's identifiability caveats remain.",
+      "GDT608 directed components plus stronger exact-whole residual are constraints to explain, not support for this particular writer.",
+      "GDT1170's failure to retain a right-context signal is not evidence for this prefix code and is not rerun.",
+      "GDT851's exact adjacent and period-two repetitions remain real manuscript constraints. No deletion of repetitions or reinterpretation as errors is permitted."
+    ],
+    "smallest_next_action": "No decoder. Root may attach already published exact differing-initial doublets to the analytic consequence and dispose of this fixed literal variant. Do not repair by optional compression, marker allography, new resets, changed cap or retargeting the alphabet after seeing the counterexample."
+  }
+}

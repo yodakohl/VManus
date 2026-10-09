@@ -1,0 +1,25 @@
+{
+  "status": "ENGINEERING_INCOMING_RELATION_DISPLAY_VERIFIED",
+  "scope": "Existing registry navigation only; no scientific verdict change or new tracking system",
+  "change": "ideas show exposes incoming relation count and at most4source cards, preserves exact parent verdict, and points to existing paged relations command.",
+  "evidence_case": "IP080 now visiblylinks HIST:053092e34cb5d3f8 oldsingle-treefailure without treating broaderIP080 as universally refuted.",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest tests.test_research_registry tests.test_research_registry_lifecycle tests.test_research_registry_source_quotes tests.test_research_registry_submitted_scope tests.test_research_registry_optional_design_scope",
+    "passed": 48,
+    "regressions": "Incominghistory visibility, parentdecision/sourcebytepreservation, exactaliasresolution,4cardbound,existingrelationpaging andemptycase"
+  },
+  "bindings": {
+    "tools/research_registry.py": "cfa0b5f26f3fdd0958202e4589cc87c5699011739600bb077db206f19a2ee340",
+    "tests/test_research_registry.py": "b78235f36e9961fd29375398a65ffa98cdad8a4c79e804b1831f9d4d00e84588",
+    "research_registry/README.md": "5374725a8a6087051b79daeaf0ae242eec069cf2388a54948f3d85201c832514"
+  },
+  "new_native_data": false,
+  "new_meanings": 0,
+  "publication": "localonly",
+  "checks": {
+    "context_format": "PASS",
+    "git_diff_whitespace": "PASS",
+    "global_experiment_check": "20priorFAILs,0newrelative tolocal_allograph_global_check",
+    "registry_freshness": "8currentlyreportedissues: GDT1284..1290reviewbasis and paragraph_state_scope growing-dossier evidence; not silently rebound and no fullregistryPASSclaimed"
+  }
+}

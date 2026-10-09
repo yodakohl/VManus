@@ -1,0 +1,93 @@
+{
+  "title": "Two growing component-dictionary contracts: necessary repeat restrictions before any carrier",
+  "status": "BOUNDED_CONCEPTUAL_REVIEW_NO_ENCODER_NO_NEW_RAW_WRITER_CARD",
+  "date_utc": "2026-10-06",
+  "producer_block_started_utc": "2026-10-06T09:59:33Z",
+  "ownership": "The producer considered contract A during a bounded search for reusable source components. Root separately proposed contract B and its triple argument after receiving A's preliminary countercase. These are shared design/proof deliberations, not independent blinded discoveries or historical attestations.",
+  "common_scope": {
+    "input": "A finite character stream over an explicitly declared finite source alphabet. Spaces and punctuation, if part of the message, are ordinary retained source symbols. Unknown words and names over that alphabet require no word-specific meaning table. Characters outside it would require a separately paid escape; none is supplied here.",
+    "epoch": "The abstract stream is divided only by explicitly supplied visible epoch boundaries. The dictionary starts anew there. Ordinary physical line wraps do not reset it. There are no unprinted word, clause, line-length or semantic barriers limiting a phrase match.",
+    "dictionary": "Entries have immutable expansions and permanent distinct indices during an epoch. Entries are never removed or reassigned. Every required new entry is admitted before the next greedy phrase selection. Learning never stops because of capacity saturation.",
+    "carrier_premise": "Exactly one complete record in A, or one complete index in B, becomes one visible output group through a fixed globally injective spelling. Equal whole groups therefore identify the same record or index. The spelling may contain any finite number of working signs; no native atomization is used in these equality proofs.",
+    "not_a_complete_physical_writer": "No22-working-sign address, literal, terminal, escape or overwide-group carrier is constructed. A real writer would have to pay these costs. The necessary contradictions below make that construction unnecessary for the stated whole-group application."
+  },
+  "A_prefix_plus_literal": {
+    "initial_state": "Dictionary entry0 is the empty string; no other entries are needed initially.",
+    "hand_rule": [
+      "At the next unconsumed source position, choose the longest existing dictionary string u matching the beginning of the remaining stream.",
+      "If a following source character c exists, output the regular record (index(u),c), insert u+c at a fresh stable index and advance by length(u)+1 source characters.",
+      "If the entire nonempty remainder equals the chosen u, output one separately tagged terminal record (index(u),END) and finish the epoch. END is not a source character. An empty remainder produces no record.",
+      "The reader looks up u, appends the literal c, outputs u+c and inserts the same new phrase. A terminal record outputs only u. Concatenation recovers the exact source stream, including retained source spaces."
+    ],
+    "necessary_consequence": "No regular record can occur twice anywhere in one uninterrupted epoch. In particular, immediate equal regular whole groups are impossible. The single terminal record cannot imitate a regular record under the tagged injective carrier premise.",
+    "proof": [
+      "After the first record (i,c), the phrase u+c, where u is the permanent expansion of i, is in the persistent dictionary.",
+      "A later occurrence of the same record would mean that the remaining source again begins with u+c, but the writer selected only u as its longest known prefix.",
+      "The already known u+c is strictly longer and matches that source prefix, contradicting maximality. If u+c is the entire remaining source, the canonical rule instead gives a terminal record for that longer phrase."
+    ],
+    "hand_example": "With only entry0 empty, source aa gives regular (0,a), inserts a at1, then terminal (1,END). It does not give (0,a),(0,a). This is a manual example, not executed source encoding."
+  },
+  "B_longest_phrase_index": {
+    "initial_state": "A fixed known dictionary contains every one-character source symbol and may contain additional nonempty strings. Its exact contents do not affect the theorem. Empty strings cannot be output phrases.",
+    "hand_rule": [
+      "Choose the longest known nonempty string w matching the remaining source; output its stable dictionary index and advance by length(w).",
+      "If a source character c remains, immediately insert w+c, where c is that next character, before choosing the next phrase. Since w was maximal and c remains, w+c was not already an available longer match.",
+      "At source end, emit the final known phrase's index without adding an entry. No additional terminal index or hidden reset is inserted."
+    ],
+    "reader_obligation": "A reader with the same initial dictionary can expand indices and add previous_phrase+first(current_phrase) as each next phrase arrives. If the next received index is exactly the next not-yet-defined index, its only legitimate expansion is previous_phrase+first(previous_phrase); other undefined indices are invalid. This is the ordinary delayed dictionary-reconstruction corner case, not access to future plaintext. A complete physical address code remains unpaid.",
+    "necessary_consequence": "Three immediately identical complete index groups cannot occur within one uninterrupted epoch. Two can occur and are not excluded by this theorem.",
+    "proof": [
+      "Suppose three successive equal groups denote stable index i with nonempty permanent expansion w. Their source expansions are therefore w,w,w.",
+      "After the first w the next source character is c=first(w), so the writer inserts w+c before selecting the second phrase.",
+      "The source remainder before the second phrase begins with ww. Its first length(w)+1 characters are w+c. Thus a known phrase strictly longer than w matches.",
+      "The second greedy phrase cannot be w, contradicting the supposed triple. The third occurrence is needed to guarantee a source character after the second copy even when w has length1; an adjacent pair alone does not supply that guarantee."
+    ],
+    "manual_positive_and_negative_examples": [
+      "Start with a,b. Source aab: output a and insert aa; output a and insert ab; finally output b. The valid index sequence is a,a,b, proving that a general doublet prohibition would be false.",
+      "Start with a,b. Source aaa: output a and insert aa; then output the already known aa at source end. The output is a,aa, not a,a,a.",
+      "For the second example the decoder's aa index is its next undefined entry; the stated previous_phrase+first(previous_phrase) rule recovers it without a plaintext oracle."
+    ]
+  },
+  "premise_limits": [
+    "An explicit reset between repeated groups, eviction, index reassignment, a stopped or delayed learning rule, or discretionary nonmaximal phrase emission changes the contract. No such repair is proposed.",
+    "A fixed finite dictionary with no learning can repeat the same address arbitrarily often. Merely calling a mechanism a dictionary code does not imply either theorem.",
+    "Two or more records packed into one group, a record split across groups, state-dependent address spellings, or contextually resolved address collisions remove the stated whole-group implication. They require different paid framing/decoding rules.",
+    "A source word boundary that silently forces a flush is not included. Here source spaces are retained characters, and all output phrases participate in the same declared matching stream. Hidden boundaries must not be inserted to evade a known repeat.",
+    "Additional permanent initial entries do not rescue B: the newly admitted w+first(w) still persists and still defeats selection of w at the second position.",
+    "Native application requires already supported whole-group identities and a justified common reset span. Same drawn glyph or a repeated arbitrary substring is insufficient. No source meaning or individual native sign value follows."
+  ],
+  "human_costs": [
+    "These rules avoid independent per-word meaning assignments because entries expand to previously decoded source characters. They do not avoid a growing learned or written table: A adds one entry per regular group; B adds one per nonfinal group.",
+    "The writer must repeatedly locate the longest current matching entry and retain stable addresses. The reader must reconstruct the same table, including B's delayed-entry special case. Address length and lookup burden grow with the epoch unless a separately declared limit is added.",
+    "Names and spelling variants cost their full previously unseen character material. Recovered source spaces cost characters inside phrases; output spaces only separate records. Neither message information nor source word boundaries are free.",
+    "No claim of medieval attestation, practical superiority, native q/o or final-y explanation, statistical compatibility or useful dictionary size is made."
+  ],
+  "closest_primaries_and_distinctions": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_WORD_CACHE_DOUBLET_BOUND_REVIEW_20261006.json",
+      "relation": "Earlier this morning's complete-word cache argument proves doubled output types must belong to a finite address set. It does not imply either present prohibition: a stable cache address may repeat indefinitely. Its atom-level one-slot predecessor is already identified there; no new cache theorem is claimed merely from this analogy."
+    },
+    {
+      "paths": ["research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_PREFIX_C4_RAW_20261004.json", "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA927_RESULT_20261005.json"],
+      "relation": "927 already uses compulsory maximal previous-word prefix copying and constrains repeated group headers through idempotence and a fixed cap. A/B instead grow persistent phrase entries. Its literal conditional exclusion remains; these are not repaired927 carriers."
+    },
+    {
+      "paths": ["research_registry/proposals/production_origin_supply_20261003/HUMAN_SOURCE_EIGHT_FRAGMENT_CACHE_RAW_20261005.json", "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA940_RESULT_20261005.json"],
+      "relation": "940 fragments source words in advance, then uses eight mutable recency slots and E/C flags. It does not extend a dictionary phrase by the next source character or select longest growing phrases. Its two-terminal contradiction remains unchanged."
+    },
+    {
+      "paths": ["experiments/yolo/gdt1179_complete_natural_source_writers/PREREGISTRATION.md", "experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md"],
+      "relation": "1179C uses nearest previous whole-word distances and may combine two source tokens in a printed group. It is neither A nor B. Its complete failed source comparison is retained, not reopened."
+    },
+    {
+      "paths": ["experiments/yolo/gdt1181_productive_source_syllabary/PREREGISTRATION.md", "experiments/yolo/gdt1181_productive_source_syllabary/REPORT.md", "experiments/yolo/gdt1182_explicit_fragment_continuation/REPORT.md"],
+      "relation": "1181 freezes source-trained fragment merges and codes before writing;1182 pays source-word continuation while printing fragments separately. Their recorded failures and later descendants do not establish these online phrase-learning theorems. Their proposed continuation is already executed, not a new candidate here."
+    },
+    {
+      "paths": ["research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_ONE_GROUP_ABSOLUTE_DELTA_CONTRACT_20261006.json", "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md"],
+      "relation": "The canonical absolute-SET contract and857's nonsingleton without-replacement pools already use whole-group repeats as deductive falsifiers. Their mechanisms differ. Root owns review of857's already recorded actual triple windows; this producer neither queried them nor counted new evidence."
+    }
+  ],
+  "bounded_retrieval": "Route and composition topic; bounded ideas search/duplicates and route-check; targeted actual935,950,927,940,1179,1181 and cache/SET primaries;1181 and857 followup navigation. Searches for LZW/Lempel returned no indexed hits, which is navigation only and does not prove exhaustive novelty. No data or program outcomes were generated.",
+  "disposition": "Preserve the two narrow proof contracts without building a22-sign carrier, registering another raw writer or choosing a statistical experiment. Existing whole-group repeats are already a serious conditional countercase to A; root is checking previously owned triple evidence for B. No variant or exception is added after those obligations. Existing935/950 are not nominated as new continuations: the former is already a complete word-local shorthand with retained source failures, the latter still lacks its physical carrier and shares the static word-partition limitation. This bounded review does not exhaust the ample raw reserve."
+}

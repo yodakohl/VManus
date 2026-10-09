@@ -1,0 +1,39 @@
+{
+  "status": "MANUAL_READBACK_FROZEN_BEFORE_HELD_EXPECTATION_OPENED",
+  "created_utc": "2026-10-06T16:44:12Z",
+  "challenge_sha256": "4ab342f91719b38ebd1281a90ee15fa21537172023852651b24f376a7c8fa052",
+  "held_expectation_sha256": "b5a097f7c96893b1a0cea517afd16bf1438630a047124544e7b04bfd199f266f",
+  "method": "Root read the working-unit arrays by hand, consulting the frozen95-character table. No program decoded the names or message. The expectation path and source content have not been released to Root.",
+  "name_decoding": [
+    {"name": "Bela", "steps": "rrd frame; q,a,s has rare index6, hence B; selectors n,p,a give e,l,a; qq ends the name."},
+    {"name": "Ivo", "steps": "rrd frame; q,a,ch has rare index13, hence I; q,a,a has rare index0, hence v; sh gives o; qq ends the name."}
+  ],
+  "instructions_in_order": [
+    {"operation": "FORBID", "vessel": "Bela", "base_stock": "oil", "preparation_prefix": [], "scope": "Subsequent additions to Bela through END-MESSAGE, including inside a true IF."},
+    {"operation": "IF_EMPTY", "vessel": "Bela", "evaluation": "Once at block entry; no actual emptiness state is supplied by the text.", "body": [
+      {"operation": "FORBID", "vessel": "Bela", "base_stock": "leaf", "preparation_prefix": ["DRIED"], "scope": "Local to this IF; bars dried leaf and any preparation whose history begins DRIED."},
+      {"operation": "ADD", "vessel": "Bela", "ordered_portions": [
+        {"base_stock": "water", "preparation_history": [], "level_spoons": 1},
+        {"base_stock": "water", "preparation_history": [], "level_spoons": 1},
+        {"base_stock": "leaf", "preparation_history": ["GROUND"], "level_spoons": 1}
+      ]},
+      {"operation": "ADD", "vessel": "Ivo", "ordered_portions": [
+        {"base_stock": "oil", "preparation_history": [], "level_spoons": 1}
+      ]}
+    ]},
+    {"operation": "END_IF", "effect": "Discard the local dried-leaf ban and remembered guard. Retain the outer oil ban for Bela."},
+    {"operation": "ADD", "vessel": "Bela", "ordered_portions": [
+      {"base_stock": "leaf", "preparation_history": ["DRIED", "GROUND"], "level_spoons": 1}
+    ]},
+    {"operation": "MIX", "vessel": "Bela"},
+    {"operation": "END_MESSAGE", "effect": "Close the message; the outer ban expires."}
+  ],
+  "consistency": "No written addition conflicts with an active ban. Ground-only leaf lacks the banned DRIED prefix. Oil is added to Ivo, not Bela. Dried-then-ground leaf is added to Bela only after the local dried-leaf ban expires. The persistent outer ban is only on oil in Bela.",
+  "guard_cases": {
+    "true": "Execute all three body instructions. Add two level spoons of water, then one of ground-only leaf to Bela; add one level spoon of oil to Ivo. After the IF add one level spoon of dried-then-ground leaf to Bela and mix Bela. The first addition makes Bela nonempty but does not cancel the rest of the already entered true block.",
+    "false": "Read the IF syntax but activate no local ban and perform none of its additions. The initial outer oil ban on Bela still applies. After END-IF add one spoon of dried-then-ground leaf to Bela and mix Bela.",
+    "unknown": "Retain the conditional instruction; do not choose an execution branch or claim the conditional additions occurred. The post-IF addition and mixing are written outside the guard."
+  },
+  "physical_reading": "No rrch continuation marker occurs. The row break after the two water words does not end ADD: the next row's ground-leaf word belongs to the same ADD list until rry. Other ordinary row breaks likewise introduce no hidden reset.",
+  "limits": "This is an invented narrow instruction language and three learned teaching stocks. No native meaning, historical recipe, medical effect, actual execution, source frequency or native fit is claimed. Volume units are the shared level spoon; no equality of material masses is inferred."
+}

@@ -1,0 +1,35 @@
+{
+  "method": "Blinded assistant table reading; literal rg row lookups with manually calculated keys and states; no decoder or source/expected access.",
+  "A": {
+    "words": ["des", "ersten", "von", "hecht", "pratten", "dv", "solt", "nemen"],
+    "final_state": 5,
+    "pending_word": "",
+    "trace": [
+      {"group": 1, "incoming_state": 0, "style": "recipe-first", "initial": "cph", "initial_position": 6, "rank": 6, "tail": "01112", "fragment": "des", "character_count": 3, "end_flag": "E", "outgoing_state": 3, "emitted_word": "des"},
+      {"group": 2, "incoming_state": 3, "style": "ordinary", "initial": "i", "initial_position": 0, "rank": 4, "tail": "220110", "fragment": "ersten", "character_count": 6, "end_flag": "E", "outgoing_state": 3, "emitted_word": "ersten"},
+      {"group": 3, "incoming_state": 3, "style": "ordinary", "initial": "q", "initial_position": 1, "rank": 5, "tail": "1011", "fragment": "von", "character_count": 3, "end_flag": "E", "outgoing_state": 0, "emitted_word": "von"},
+      {"group": 4, "incoming_state": 0, "style": "ordinary", "initial": "d", "initial_position": 2, "rank": 2, "tail": "11021", "fragment": "hecht", "character_count": 5, "end_flag": "E", "outgoing_state": 5, "emitted_word": "hecht"},
+      {"group": 5, "incoming_state": 5, "style": "ordinary", "initial": "r", "initial_position": 5, "rank": 0, "tail": "0002122", "fragment": "pratten", "character_count": 7, "end_flag": "E", "outgoing_state": 0, "emitted_word": "pratten"},
+      {"group": 6, "incoming_state": 0, "style": "ordinary", "initial": "k", "initial_position": 6, "rank": 6, "tail": "101121", "fragment": "dv", "character_count": 2, "end_flag": "E", "outgoing_state": 2, "emitted_word": "dv"},
+      {"group": 7, "incoming_state": 2, "style": "ordinary", "initial": "q", "initial_position": 1, "rank": 6, "tail": "2111", "fragment": "solt", "character_count": 4, "end_flag": "E", "outgoing_state": 0, "emitted_word": "solt"},
+      {"group": 8, "incoming_state": 0, "style": "ordinary", "initial": "y", "initial_position": 4, "rank": 4, "tail": "21102", "fragment": "nemen", "character_count": 5, "end_flag": "E", "outgoing_state": 5, "emitted_word": "nemen"}
+    ]
+  },
+  "B": {
+    "words": ["item", "wildw", "machen", "ein", "guet", "air", "von"],
+    "final_state": 4,
+    "pending_word": "",
+    "trace": [
+      {"group": 1, "incoming_state": 0, "style": "recipe-first", "initial": "p", "initial_position": 4, "rank": 4, "tail": "12201", "fragment": "item", "character_count": 4, "end_flag": "E", "outgoing_state": 4, "emitted_word": "item"},
+      {"group": 2, "incoming_state": 4, "style": "ordinary", "initial": "k", "initial_position": 6, "rank": 2, "tail": "0202", "fragment": "wild", "character_count": 4, "end_flag": "C", "outgoing_state": 2, "emitted_word": null, "pending_word": "wild"},
+      {"group": 3, "incoming_state": 2, "style": "ordinary", "initial": "i", "initial_position": 0, "rank": 5, "tail": "10122", "fragment": "w", "character_count": 1, "end_flag": "E", "outgoing_state": 3, "emitted_word": "wildw"},
+      {"group": 4, "incoming_state": 3, "style": "ordinary", "initial": "r", "initial_position": 5, "rank": 2, "tail": "101", "fragment": "machen", "character_count": 6, "end_flag": "E", "outgoing_state": 3, "emitted_word": "machen"},
+      {"group": 5, "incoming_state": 3, "style": "ordinary", "initial": "n", "initial_position": 3, "rank": 0, "tail": "002", "fragment": "ein", "character_count": 3, "end_flag": "E", "outgoing_state": 0, "emitted_word": "ein"},
+      {"group": 6, "incoming_state": 0, "style": "ordinary", "initial": "y", "initial_position": 4, "rank": 4, "tail": "002011", "fragment": "guet", "character_count": 4, "end_flag": "E", "outgoing_state": 4, "emitted_word": "guet"},
+      {"group": 7, "incoming_state": 4, "style": "ordinary", "initial": "i", "initial_position": 0, "rank": 3, "tail": "210202", "fragment": "air", "character_count": 3, "end_flag": "E", "outgoing_state": 1, "emitted_word": "air"},
+      {"group": 8, "incoming_state": 1, "style": "ordinary", "initial": "k", "initial_position": 6, "rank": 5, "tail": "1011", "fragment": "von", "character_count": 3, "end_flag": "E", "outgoing_state": 4, "emitted_word": "von"}
+    ]
+  },
+  "unstated_rules_needed": false,
+  "limitations": ["Electronic exact-row search, not paper-table search", "Glyph-separated aid supplied", "After-punctuation style not exercised", "No expected-answer comparison by reader", "No native translation or independent statistical test", "No evidence of medieval practicality"]
+}
