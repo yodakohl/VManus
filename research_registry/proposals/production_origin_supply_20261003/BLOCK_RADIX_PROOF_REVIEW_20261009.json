@@ -1,0 +1,14 @@
+{
+  "status": "SOURCE_FREE_PROOF_REVIEW_BEFORE_COUNTS",
+  "reviewer": "bounded idea producer",
+  "argument": "V<22^s<=N^s forces k-s leading source zeros when k>s; nonterminal R bounds them, k<=R+s. Length L>=2 implies N^k>22^(L-1). Hence N^(R+s)>22^(L-1).",
+  "constraints": [
+    "R excludes END/padding.",
+    "Native short group must be within the same continuing encoded document, with no hidden reset.",
+    "END occupies its own source value; END=0 is permitted.",
+    "Decoder rejects nonminimal numerals, values>=N^k, nonzero terminal padding and any later group after END.",
+    "Alphabet ordering does not change runs; output bijection does not change length."
+  ],
+  "predecessors": "930 per-character nonempty heads,001 resetting observed-word chunks,1269 fixed output pairs,1188/960 wordbook ranks do not supply this bound. Bounded primary review, not exhaustive novelty claim.",
+  "data_access": "No source counts, native rows, empirical outputs, images or implementation viewed by producer."
+}

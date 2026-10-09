@@ -1,0 +1,24 @@
+# GDT1299 — positional block conversion, run/length obstruction
+
+Source-informed preregistration before new source-run/native-extreme counts. Start preparation08:02:47UTC9October; inclusive45minute budget through08:47:47UTC, including selection, implementation, independent checking and privacy-checked publication. No extra corpus, k search, error budget or altered alphabet after results.
+
+## Unknown and decision
+The old930 three-head carrier fails a short whole group;001 cuts observed words into blocks and1269 bounds an output-pair table. They do not test ordinary positional conversion of complete source blocks. The present different falsifier combines very short and long written groups with source-character runs. If a bound exceeds82, close only this whole-group/radix family on that fixed source. Nonexclusion supplies no fit or native key. If the11-unit primary witness does not exclude, retain that result even if the separately reported longest-form sensitivity excludes. No broader language/cipher conclusion.
+
+## Complete artificial human writer/reader
+Teach an alphabet of N source characters indexed0..N-1, including ordinary word SPACE, recipe NEWLINE and one END not present in content, with22<=N<=82; any global order is allowed. Teach22 output digit shapes (the declared working units, not proven original glyph atoms) indexed0..21, any bijection, and one fixed positive block length k. Alphabet/table and k are part of the learned key, not invisibly changing per word. No historical attestation claimed.
+
+Write the complete fixed source stream and END, divide into k-character blocks; only the final block is padded on the RIGHT with digit0. Read each block as an ordinary big-endian base-N integer. Emit its shortest base22 numeral, writing zero as one zero digit and inserting exactly one visible space between block numerals. No leading output zeros, aliases, fusion, multi-unit digits, additional resets or within-numeral line breaks. Lines wrap only between groups.
+
+The reader converts each group integer back to exactly k base-N digits, restoring leading source zeros, concatenates decoded blocks and stops at the first END; reject a value>=N^k and any nonzero suffix padding. Source words and paragraph breaks are literal decoded characters, not inferred from output spaces. The last END/padding block is exempt from the source-run claim. All target short witnesses are strict interior groups, hence nonterminal under this contract. The source books are controls, not asserted Voynich plaintext.
+
+## Bound instead of fitting a key
+Let R be the maximum uninterrupted run of one actual character anywhere in a complete source stream before END. A nonterminal output of at most s digits has integer<22^s<=N^s. If k>s, its first k-s source characters must therefore all be the zero digit; hence k<=R+s. This also holds when k<=s. It uses no particular zero-character identity or block phase. A length-L output requires integer>=22^(L-1), while all k-digit source integers are<N^k. Necessarily N^(R+s)>22^(L-1). At N<=82, violation by82 already excludes all bases/orders/k in scope. Report floor_integer_root(22^(L-1),R+s)+1 as an optimistic necessary minimum base, not an achievable exact optimum.
+
+## Frozen evidence and robustness tiers
+Sources: unchanged1177 SOURCE_TEXTS b4/w1/bs1/gr1, all stored recipes; every original character preserved, recipe/word separators explicitly inserted as above. If distinct content characters plus END exceed82, report UNSUPPORTED_SOURCE_ALPHABET separately. Do not relabel missing-input failure as contradiction. Source words must be nonempty strings; content cannot use the separately tagged END.
+
+Targets: unchanged1233 guarded strict-interior pure22-unit cache, readers separate; no raw TSV or image read. Primary short witnesses: every one-working-unit whole group, with exact IDs and counts. A prespecified weaker short tier uses whole ol of length2. Primary long form: exact qoteytyqoky on f82v.12,11working units;1294 inspected its internal seam, not every letter identity. A separate sensitivity takes the maximum length per reader and reports all ties and all source IDs. Retain rare/uncertain-real-alphabet assumptions. Do not promote sensitivity-only exclusion to primary success. No source word or native form receives a meaning.
+
+## Validation
+Separate validator rebuilds source streams and run maxima via a different counting method, verifies short/long target source IDs and integer bounds. Small artificial roundtrips and exhaustive leading-zero cases illustrate the algebra, including a terminal-padding counterexample to applying the run claim to the last block. These are software/algebra checks, not manuscript confirmation. Producer may critique the proof without reading empirical outputs. No new source, image, reserved page or semantic edge; f84/f84r/f116v excluded. Publish only privacy-checked results/code; preserve original old files.

@@ -1,0 +1,1 @@
+SOURCE_BOUNDS preserves run counts/hashes and bounded witnesses. TARGET_WITNESSES preserves reader-specific strict groups. RESULT contains all primary/sensitivity inequalities. FIXTURES and VALIDATION are code/algebra checks, not decipherment evidence.

@@ -1,0 +1,123 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed-source/key-independent radix length/run obstruction only; no general cipher, language, native numeral, sign identity or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1299_positional_block_run_length/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1299_positional_block_run_length/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT1177",
+    "GDT1227",
+    "GDT1233",
+    "GDT1269",
+    "GDT1294"
+  ],
+  "experiment_id": "GDT1299",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "unchanged cached source or guarded native projection",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "unchanged cached source or guarded native projection",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/BLOCK_RADIX_PROOF_REVIEW_20261009.json",
+      "role": "source-free pre-count proof review",
+      "sha256": "81b4f435b92fa43ee1194e45515c9f0bbb8ecea76883cf7a4c3bafc884c4500b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "7d1f0522efa48c71d91ae8fbacb34ba50ef556211ee078db3b26409d2fe471b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "7d1f0522efa48c71d91ae8fbacb34ba50ef556211ee078db3b26409d2fe471b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "6f99bc6ae20b2dd0283c44d7e7a9b580491b5baa5932e7030b670d75ec86e68b"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/REPORT.md",
+      "role": "primary_report",
+      "sha256": "861d7be34ef8e070f2016e4ad003a5aeb0caa1390f95fb12eb212986b7bd57cd"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/artifacts/FIXTURES.json",
+      "role": "reproducibility artifact",
+      "sha256": "6f9f2e528511d2f4b784ba0733b659771d04c91bc94b39425ac3cdeed6131d8f"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "15e42948dac76ff8528396af8fc596efa21c21f74e01c1d1ceb4c0e74785c42c"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "3970513e8eab76367ff948265b299fc9c91b27b37b2b76f0374f749c9b6515dc"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/artifacts/SOURCE_BOUNDS.json",
+      "role": "reproducibility artifact",
+      "sha256": "eb7dd610d4e22843c817d1ae65811c400b8643983fd7c54f4254ce3c3d46cdd6"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/artifacts/TARGET_WITNESSES.json",
+      "role": "reproducibility artifact",
+      "sha256": "3adbca8727896903b3175bd42a1ce2dda30162c09d77714f3417cecaa690f402"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "8ff2f7daf05f7f45de95000fa5068cb8c0b805b693d9a71907e602b262c4a311"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "1327c00a9197089bc1095b869fc18445fbf8cf968de1f101d7ca399c1da0491e"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/src/SPEC.json",
+      "role": "reproducibility artifact",
+      "sha256": "eaababd83e109d2e09369c8c557796988405e0e3f26f0590c167e0ecce6093fd"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "5e0476297bf5d565cb33c3a3de4c9914d9c294a7f6442948a89b99053c2371a8"
+    },
+    {
+      "path": "experiments/yolo/gdt1299_positional_block_run_length/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "937c4ccb5b4e902824dd43b73c5ea21c8889aea0e9cdb0fd5bcb52f499735088"
+    }
+  ],
+  "question": "Can any fixed source-block positional conversion with input base22..82 and22output digits cover both the existing very short and eleven-unit whole groups on the four old source streams?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "positional_block_run_length",
+  "status": "ALL_FIXED_SOURCES_PRIMARY_EXCLUDED",
+  "title": "positional block run length",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1299_positional_block_run_length/artifacts/VALIDATION.json"
+  }
+}

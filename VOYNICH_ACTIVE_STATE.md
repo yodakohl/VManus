@@ -1,3 +1,7 @@
+# 2026-10-09: GDT1299 fixed-source radix block bound
+
+Allfour existing source streams haveR3. Under shortest base22 whole-block output and inputN22..82, short1 or wholeol2 plus qoteytyqoky11 require source bases>=2271 or485. The fixed carrier fails for everyk/key order on these sources, including the weaker ol-only check. Not a general cipher/language rejection or word meaning. Independent raw/source/integer replayPASS. Source-free proof reviewed before counts. See1299REPORT; no repair selected.
+
 # 2026-10-09: canonical quantity module retained, no native number reading
 
 IDEA984 gives a complete modern rational-value writer/reader. It does not preserve historical decomposition or arbitrary internal substitution: equal isolated1/2 blocks with denominator products6/2 give7/12 versus3/4 after the same prefix. Preserve affine action(V,D), not just value. This specializes old386/1201 principles; no native count, meaning, source language or decoder selected. Scope note and reviewed decision are in the writer dossier.

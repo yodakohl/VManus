@@ -5,10 +5,10 @@ Updated: 2026-10-09.
 Phase: exploration
 Status: active
 Task: Writer selection.
-Latest decision: 984 module only.
-Working files: writer dossier.
+Latest decision: 1299 source fail.
+Working files: 1299.
 Assumptions: No meanings.
-Resume: Seek bound content rule.
+Resume: Read1299 limits; shortlist.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public export separate; local raw retained.
+Public main68e8a6f0a; local raw retained.
