@@ -1,3 +1,19 @@
+# 2026-10-09: GDT1309 concentration and avoided edge-coupling repeat
+
+1308gain is distributed: top20positive forms coverabout25%of positive mass;
+ZL66forms cover50%,287cover90%. Exact original scores and negative/unseen
+contributions retained, no new predictor or inferred lexical minimum.
+Rare form rankings can be reader-specific (doiir); no meanings assigned.
+Source/numeric validationPASS6983types/23496scores.
+
+Opening-to-closing test found already executed and negative: HIST:a10ec2552e586060,
+-.058951nat/group,13/94positive. Reviewed from originalspec/report/validation,
+no payload or rerun;1308does not justify changingrepresentation/split or removing
+the second-unit control. Old contextual grammar positives remain distinct.
+Sources: experiments/yolo/gdt1309_whole_form_gain_concentration/REPORT.md and
+research_registry/proposals/production_origin_supply_20261003/OPENING_CLOSING_PRIOR_REVIEW_20261009.json.
+Reproducible artifacts included; publication requires the exact staged privacy check.
+
 # 2026-10-09: GDT1308 whole-form prediction without BPE
 
 Fixed50:50whole-form frequency/M1prediction improves held words on41/46ZL

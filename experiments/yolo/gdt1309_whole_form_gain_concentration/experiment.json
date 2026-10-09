@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1309",
+  "slug": "whole_form_gain_concentration",
+  "title": "Concentration of fixed whole-form predictive contributions",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "status": "FIXED_SCORE_CONCENTRATION_ACCOUNTED",
+  "question": "Is the unchanged1308whole-form gain concentrated in a few exact forms or distributed across many, under original leafweights and complete negative contributions?",
+  "claim_ceiling": "Post-result score accounting only; no new predictor, minimal lexicon, construction mechanism or meaning.",
+  "dependencies": [
+    "GDT1308",
+    "GDT398"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/EVENTS.json.gz",
+      "sha256": "55bc1add546cebd4136bfd6f83d6d18dcde2999f96ed871cb38c350f8639cd86",
+      "role": "unchanged1308fixed-score source"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL.json",
+      "sha256": "36297201b1c2998226d876bb032cfe2fdc640e28aec31973d06bea240604d5bb",
+      "role": "unchanged1308fixed-score source"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/RESULT.json",
+      "sha256": "62ef7728e374b53cff103f068e2b0d5558db50d114951be95fbb5886d31e7cc1",
+      "role": "unchanged1308fixed-score source"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/VALIDATION.json",
+      "sha256": "340c13814adfedc6fe336e432ab14410247f27b76620aac496e88b1f2395e962",
+      "role": "unchanged1308fixed-score source"
+    },
+    {
+      "path": "experiments/semantic_assumptions/SOURCE_NATIVE_EDGE_COUPLING_TEST_SPEC.md",
+      "sha256": "634eff5ddf6e3e823728d3aa40e4fd0465b5743ba003216c69692f21ef3f466c",
+      "role": "documentary prior only; no old target payload"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_native_edge_coupling_target_report.md",
+      "sha256": "c1f1cc935c198a2b849ac62eb44f060ae8fe9908f35712109b12714df1007e9e",
+      "role": "documentary prior only; no old target payload"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_native_edge_coupling_target_validation_report.md",
+      "sha256": "6ffd771a25ab8fbf3670ffdaba49a43cc2f3cca0fc7a23bffd14d47b7d941d57",
+      "role": "documentary prior only; no old target payload"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/METHOD.md",
+      "sha256": "0b0b497d61450fbacd35d865938e74c7b099f36cf549a29ca787e3875169d59e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/PREREGISTRATION.md",
+      "sha256": "0b0b497d61450fbacd35d865938e74c7b099f36cf549a29ca787e3875169d59e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/README.md",
+      "sha256": "15d48d1f09afda9a4455e1bd63688d7399a4a7b8c99b90742794bb7ede1b1b2a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/REPORT.md",
+      "sha256": "9cba8c6a2c9675b81610003b3220502425aaff99b0b57b1f7d738969a3449a8e",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/artifacts/RESULT.json",
+      "sha256": "177ea24d4fd9a861f8b013a29820e2c6f7ce25b646a52100d6e547cf9a1a9cd5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/artifacts/TYPE_CONTRIBUTIONS.tsv",
+      "sha256": "8ba58162887b79e07185309c7ed48cda5c935f4c5e4663b28d361d4cecb01d46",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/artifacts/VALIDATION.json",
+      "sha256": "d8b3f6f1b375538771bc5cae6fde13a5daef02c604bf1e5af09ef04b52aafdef",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/src/REGISTRATION_LOCK.json",
+      "sha256": "0c1f8113a62e170b4f0e81a08be7fdc788f9a5da751db2829f4686bd2bcb1d73",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/src/run.py",
+      "sha256": "f404909a8587049559e023ce0ed0f0b501c5e3202631e9908e672f292e18a986",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1309_whole_form_gain_concentration/src/validate.py",
+      "sha256": "e504ac293bab41c3117ffcb9d82f0ff43621d3616c6cef562ac4326b1ba5b1bd",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1309_whole_form_gain_concentration/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1309_whole_form_gain_concentration/src/validate.py"
+  },
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1309_whole_form_gain_concentration/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": ""
+  }
+}

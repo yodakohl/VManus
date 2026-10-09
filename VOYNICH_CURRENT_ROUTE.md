@@ -5,16 +5,16 @@ Updated: 2026-10-09.
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1308 whole-form predictive gain.
-Working files: GDT1308.
-Assumptions: Fixed units/gaps;no meanings.
-Resume: Use1308 limits; select mechanism.
+Latest decision: 1309 gain dispersed.
+Working files: GDT1309.
+Assumptions: No meanings.
+Resume: Read1309 and old edge-coupling review.
 Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
 Wholeform/entry608/282/286/318;BPE selection1306.
-1308:whole-form frequencies add prediction;no meanings.
+1308whole-form gain;1309distributed,not lexical minimum.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet(98learned units).
 No default Latin/phonetics;k/t open(1058).
@@ -42,7 +42,7 @@ GDT616 failed; later diagnostic PASS does not rescue it.
 f9v: GDT1064 corrects Jacea/Viola polysemy; `fochor` remains C0,
 with no second bound Viola owner (IDEA621).
 IDEA237 untested/not preferred; all30 programs first-passed, P09 closed.
-Closed families: registry; no auto reopening.
+Old opening/closing test negative;1309review.
 
 ## Access and operating boundaries
 f84 and f84r remain sealed. <!-- f84r is sealed -->
@@ -68,7 +68,7 @@ No approach websearch: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context topic Wortzusammensetzung`: bounded baseline.
 `context topics`; `context check`.
 Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before selection.
-[Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
+[Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Public406a134d2.
+Publicbc00e84f4.

@@ -10137,3 +10137,21 @@ Source-free protocol review happened after empirical run, with provisional
 positive status known; no reviewer data/program access or blindness claim.
 See experiments/yolo/gdt1308_whole_form_prediction/REPORT.md and
 WHOLE_FORM_PREDICTION_REVIEW_20261009.json. Inclusive budget14:16–15:16UTC.
+
+## 2026-10-09: GDT1309 whole-form gain is distributed
+
+Exact1308score accounting: top20positive types contribute25.01/24.13/24.30%
+of positive mass;50%needs66/72/69types and90%287/311/270. This is post-result
+ranking with original leafweights, not a miniature predictor or a dictionary
+lowerbound. TRAINtop20complements still contribute positively under unchanged
+weights. Rare oeees is1TRAIN/4held in each reading; doiir's largeITspike has
+no strictTRAINcounterpart inZL/RF, so no reader pooling or semantic promotion.
+Validator checks6983type rows and23496scores; no refit or new native corpus.
+See experiments/yolo/gdt1309_whole_form_gain_concentration/REPORT.md.
+
+First-unit-to-last proposal stopped before test: direct old coupling experiment
+HIST:a10ec2552e586060alreadyfailed (-.058951;13/94positive); the contemplated
+change would remove the second-unit control. Primary/spec/oldvalidation read
+and reviewed in OPENING_CLOSING_PRIOR_REVIEW_20261009.json. No rerun and no
+universal rejection of long-range information. New meaningful writer not yet
+selected; no automatic wholewordtable optimization. Budget14:35:15–15:15:15UTC.
