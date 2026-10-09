@@ -1,3 +1,12 @@
+# 2026-10-09: GDT1301 wordbook displacement capacity fails
+
+Four fixed source books have zero triple-capable residues for every shared
+paragraph-start anchor; all four common GDT857 AAA forms require capacity.
+Exact whole-word Unicode ordering, fixed injective code map, visible recipe
+resets. No native meaning or general wordbook-cipher exclusion. Independent
+implementation validates all8724 anchors and source readback. No order repair.
+See experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md.
+
 # 2026-10-09: GDT1300 complete codec, failed held screen
 
 838output entries; all4source books recover exactly, but every frozen basic/stronger held-reader comparison fails. Glyph conditionalentropy/lengthspread too high; adjacent equal/edit-one groups too scarce. Sourcebits improve type diversity versusfairbits under the samekey, without restoringjointfit. No native key/meaning or historically selected writer. Independent key/inverse/metricchecksPASS. No automatic moretable/context/whitening repair. See1300REPORT.

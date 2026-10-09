@@ -1,0 +1,51 @@
+{
+  "record_id": "GDT1301",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root separate modular-second-difference validator",
+  "assessment_basis": "fixed_source_wordbook_delta_triple_capacity",
+  "reason": "All four fixed books have zero AAA-capable residues over every shared anchor, below four common native forms. Whole-word rank channel is reversible but fails this necessary capacity.",
+  "blockers": [
+    {
+      "code": "zero_triple_capacity",
+      "detail": "Exact fixed Unicode whole-token order and source books; no injective rendering can repair equality patterns.",
+      "evidence": [
+        "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "genuinely_different_justified_construction",
+        "change": "new_design",
+        "detail": "New independently justified mechanism or data with a predeclared falsifier; no automatic reorder or source expansion.",
+        "evidence": [
+          "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Numerical roundtrip",
+      "Different glyph shapes for residues",
+      "Changing only the shared starting anchor"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1268",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT857",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

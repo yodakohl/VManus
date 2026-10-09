@@ -4,11 +4,11 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: Writer selection.
-Latest decision: 1300 fit failed.
-Working files: 1300.
+Task: Wordbook delta capacity.
+Latest decision: 1301 capacity zero.
+Working files: 1301.
 Assumptions: No meanings.
-Resume: Read1300 failure; shortlist.
+Resume: Review AAA image premise.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public main8ff148764; local raw retained.
+Public main8122c0fa0; local raw retained.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1299**
-- Experiment-associated tracked files: **25,725** (2.3 GiB)
-- Structured GDT337+ experiments: **964**
+- Experiments indexed: **1300**
+- Experiment-associated tracked files: **25,736** (2.3 GiB)
+- Structured GDT337+ experiments: **965**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1301 | GDT1301_wordbook_delta_triple_capacity | `ALL_FIXED_SOURCES_PRIMARY_EXCLUDED` | [report](../experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md) | 11 | 143.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT1300 | GDT1300_canonical_pair_message_codec | `FIXED_CODEC_SCREEN_FAILED` | [report](../experiments/yolo/gdt1300_canonical_pair_message_codec/REPORT.md) | 22 | 510.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1299 | GDT1299_positional_block_run_length | `ALL_FIXED_SOURCES_PRIMARY_EXCLUDED` | [report](../experiments/yolo/gdt1299_positional_block_run_length/REPORT.md) | 15 | 389.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT1298 | GDT1298_f103r_repeat_source_review | `UNRESOLVED` | [report](../experiments/yolo/gdt1298_f103r_repeat_source_review/REPORT.md) | 12 | 31.4 KiB | 3 | STRUCTURED_YOLO |

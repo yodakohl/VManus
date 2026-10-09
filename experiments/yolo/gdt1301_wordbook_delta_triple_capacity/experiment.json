@@ -1,0 +1,98 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed source/order equality capacity only; no native meaning, historical identification or general cipher exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1301_wordbook_delta_triple_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1301_wordbook_delta_triple_capacity/src/validate.py"
+  },
+  "created": "2026-10-09",
+  "dependencies": [
+    "GDT857",
+    "GDT1177",
+    "GDT1217",
+    "GDT1229",
+    "GDT1268"
+  ],
+  "experiment_id": "GDT1301",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e",
+      "role": "fixed prior source"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/artifacts/HITS.json",
+      "sha256": "ca6d42f40df636d1c97cbfbe6097d715ceb401e1fc87ddd885f0afb2ecb5d562",
+      "role": "fixed prior source"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/METHOD.md",
+      "sha256": "8eb31a56fe80492bac45f23f81cd1878b290b58d1e6bc850751fc92ddafee742",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/PREREGISTRATION.md",
+      "sha256": "8eb31a56fe80492bac45f23f81cd1878b290b58d1e6bc850751fc92ddafee742",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/README.md",
+      "sha256": "4107f16f1f127310f1159cbc9a82a1cf90295d5a0dd94a44308e9203f9e32541",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md",
+      "sha256": "e69c37e8ce622187bb63bafef1f958964cfdde283a5999d42c5f4421c93a35bf",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/artifacts/README.md",
+      "sha256": "faa74710252ea832a08dce83c87c1434e8ff2db667d63a569d01eb0598f6ac43",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/artifacts/RESULT.json",
+      "sha256": "57d9216502e545f5c5a946c97eb9c5cda4bc7e5598609e6ec938ad39f26167b5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/artifacts/VALIDATION.json",
+      "sha256": "71ec7e567ade30c8d513df701de3e2f99bfa6d48ce3359054472a589a8fdacd6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/src/REGISTRATION_LOCK.json",
+      "sha256": "47b4f1ebcd7a9256e55fb8ccbb4e6d8afc43ac18a7aab92faf5d5bd0552e2eb4",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/src/run.py",
+      "sha256": "fdaad588208f35dad9c42e57ba450ac452d917b1474fd46cb8913b1a06520f94",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/src/validate.py",
+      "sha256": "b0e45ac750f0898ebd92e11a8b5f20379110eb1064bccaaa257a9623ddb8aacf",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can the fixed wordbook-delta writer support four distinct exact AAA codewords on existing source books?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "wordbook_delta_triple_capacity",
+  "status": "ALL_FIXED_SOURCES_PRIMARY_EXCLUDED",
+  "title": "Whole-word alphabetical displacement triple capacity",
+  "updated": "2026-10-09",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/artifacts/VALIDATION.json"
+  }
+}
