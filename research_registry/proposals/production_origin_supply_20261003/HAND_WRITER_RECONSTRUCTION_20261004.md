@@ -10098,3 +10098,9 @@ One overview and one fixed1930x200crop support the separated repeated layout of 
 ## 2026-10-09 GDT1303 pair-table even-triple obstruction
 
 For even-L AAA, any fixed pair inverse with unchanged gaps requires w1[1:]=w2[1:] and w2[:-1]=w3[:-1]. Old Deot has6146triples;5all-length6;0overlap witnesses. This excludes every such fixed pair table on THISsource, not other content. Fixed2x11column exchange also fails all old3metric comparisons (H2=4.00503) while recovering6288projected words. Pre-count addendum/proof/lock11:17:08; source-free exhaustive fixtures and separate source/metrics validatorPASS. No adaptivegrid/source/resetrepair or native meaning. See1303REPORT.
+
+## 2026-10-09 GDT1304 qeeey source comparison and selection
+
+After bounded prior review, no new surface generator selected: replacing1300with stationary M1+SPACE would mostly refit form control, not decide content;1279/1285do not establish M1writer sufficiency. Fixed931/936/945/954/998outcomes remain scoped; no general script/paradigm exclusion. Decision inGENERATOR_SELECTION_DECISION_20261009.json.
+
+Three fixed qeeey sites f76r.17G004,f107r.2G012,f108r.38G005 show q-like initials followed directly by low open curves, without the separate round body of same-line qo comparisons. Alloutside gaps space-like. One overview+onefixedcrop/page; one informed root observer. Exact9readerlines+2ZLlocalizationlines andRFentities/flags preserved. Supports local strict-interior1233qfork premises, not phonemes, intended omission vsregular spelling, true alphabet, meanings or globaltranscriptionrepair. Imageslocalonly. Provenance/source aggregationvalidatorPASS. See1304REPORT.

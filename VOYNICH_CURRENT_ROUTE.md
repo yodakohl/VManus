@@ -4,11 +4,11 @@ Updated: 2026-10-09.
 ## Work
 Phase: exploration
 Status: active
-Task: Pair-table writer.
-Latest decision: 1303 pair/source fail.
-Working files: 1303.
+Task: qeeey review.
+Latest decision: 1304 q/non-o support.
+Working files: 1304.
 Assumptions: No meanings.
-Resume: Review non-pair supply.
+Resume: Read1304;no qo hard rule.
 Running: none.
 
 ## Structural baseline
@@ -21,7 +21,7 @@ Adjacency transfers across Currier/section/hand; extra direction only across Cur
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
 reversible rendering are not confirmed meanings or sentence boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076no follower capacity;1099one reprise. No meanings. Confirmed English lexemes: **0**
+1076no follower capacity;1099one reprise. No meanings. Confirmed lexemes: **0**
 GDT327/GDT336: historical; no access.
 
 ## Decisions to retain
@@ -48,7 +48,7 @@ f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not confirmation.
 179 cached selectors; grants separate; F historical. f1r margins only;
-f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [40r](docs/40r.md);[103r](docs/103r.md);
+f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57layout](docs/VOYNICH_DATA_SCOPE_20261004_F57V_LAYOUT.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
 [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md);
@@ -70,4 +70,4 @@ Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before s
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Live guide](research_registry/README.md): phases, closing protocol and exceptions.
 Results: dossiers/ledger; state on route changes.
-Public mainbb8a040b0; local raw retained.
+Public826a38c29;local raw retained.

@@ -1,3 +1,12 @@
+# 2026-10-09: GDT1304 qeeey exceptions have local image support
+
+All3fixed qeeey sites (76r.17,107r.2,108r.38) show no separate rounded
+post-initial body like same-line qo controls; initials compatible, outside
+gaps space-like. One informed observer, not independent palaeography or exact
+native unit identity. Retain strict1233premises locally; no intentionality,
+meaning or source correction. No automatic M1surface-generator expansion.
+See experiments/yolo/gdt1304_qeeey_source_comparison/REPORT.md.
+
 # 2026-10-09: GDT1303 fixed-source pair-table obstruction
 
 Even-length AAA requires source suffix/prefix overlap ladder under any fixed
