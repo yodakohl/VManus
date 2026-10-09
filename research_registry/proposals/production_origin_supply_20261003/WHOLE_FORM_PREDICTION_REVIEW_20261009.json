@@ -1,0 +1,66 @@
+{
+  "record_id": "GDT1308",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root separate numerical reconstruction; bounded source-free post-result protocol review",
+  "assessment_basis": "fixed_normalized_whole_form_prediction_and_fitted_M1_simulations",
+  "reason": "A fixed half whole-form frequency mixture improves held word prediction on41/46ZLleaves (+.087350nat/word equal-leaf); alternate readers37/46and38/46positive. All32fitted-M1controls per reader lose. Exact whole frequencies add predictive value under this estimator without BPE, while unseen words pay the full declared penalty. No human lexical mechanism or meaning inferred.",
+  "blockers": [
+    {
+      "code": "conditional_predictor_and_simulation_scope",
+      "detail": "Length/Currier supplied; exposed odd/even data; fixed smoothing/weight; no codebook cost; controls omit latent page/topic effects. Higher-order and heterogeneous character systems remain alternatives.",
+      "evidence": [
+        "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_mechanism_not_automatic_tuning",
+        "change": "new_design",
+        "detail": "A complete motivated construction or a different decision-changing comparison retaining the old failures and known unseen-word penalty; not a larger optimizer or implicit semantic interpretation.",
+        "evidence": [
+          "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Interpret gain as confirmed lexicon or word meanings",
+      "Claim first-order sufficiency from1285failure",
+      "Promote32fittedcontrols to a universal null",
+      "Retune mixture/smoothing after these scores"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1279",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1280",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1285",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1306",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md"
+      ]
+    }
+  ]
+}

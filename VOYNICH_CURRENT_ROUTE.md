@@ -3,17 +3,18 @@ Updated: 2026-10-09.
 
 ## Work
 Phase: exploration
-Status: active
-Task: Fusion.
-Latest decision: 1307 bound failure.
-Working files: 1307.
-Assumptions: No meanings.
-Resume: Read1307scope.
+Status: checkpoint
+Task: Select.
+Latest decision: 1308 whole-form predictive gain.
+Working files: GDT1308.
+Assumptions: Fixed units/gaps;no meanings.
+Resume: Use1308 limits; select mechanism.
 Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
-Wholeform/entry effects(608/282/286/318);BPE selection:1306.
+Wholeform/entry608/282/286/318;BPE selection1306.
+1308:whole-form frequencies add prediction;no meanings.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet(98learned units).
 No default Latin/phonetics;k/t open(1058).
@@ -63,11 +64,11 @@ Mixed TSVs: selector-first `vmanus-exp query-tsv`; partial grants require
 New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
-No public-approach search: [user rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
+No approach websearch: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context topic Wortzusammensetzung`: bounded baseline.
-`context topics`: eight topics; `context check`: retrieval check.
+`context topics`; `context check`.
 Use `ideas search/show`, `lookup --followups`, `vmanus-exp route-check` before selection.
 [Research brief](docs/VOYNICH_RESEARCH_BRIEF.md) and [topic map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
-[Live guide](research_registry/README.md): phases, closing protocol and exceptions.
-Results: dossiers/ledger; state on route changes.
-Publiceb8d813c4;local raw retained.
+[Guide](research_registry/README.md): phases and closure.
+Results: ledger.
+Public406a134d2.

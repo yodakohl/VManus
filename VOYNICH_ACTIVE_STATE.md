@@ -1,3 +1,17 @@
+# 2026-10-09: GDT1308 whole-form prediction without BPE
+
+Fixed50:50whole-form frequency/M1prediction improves held words on41/46ZL
+leaves, equal-leaf+.087350nat/word; IT37/46andRF38/46agree. All32fitted-M1
+control mixtures perreader lose. New words retain their complete penalty.
+Keep exact whole-form weighting as a useful predictive component, not a
+confirmed native lexicon or meaning. No universalM1rejection, codebook-cost
+claim, independent reserve or decoder upgrade. 1280/1285failures retained.
+Separate numeric/source validatorPASS; post-result source-free protocol review
+acknowledges known provisional status. Original data/grapheme assumptions remain.
+Source: experiments/yolo/gdt1308_whole_form_prediction/REPORT.md.
+Reproducible artifacts included in this checkpoint; publication requires the
+exact staged privacy check. No additional manuscript or image access.
+
 # 2026-10-09: GDT1307 bound compulsory fusion fails
 
 Whole chky andkchy defeat both fixed obligatory ch+k/k+ch→ckh orders.

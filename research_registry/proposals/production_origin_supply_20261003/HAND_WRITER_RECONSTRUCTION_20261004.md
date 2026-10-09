@@ -10122,3 +10122,18 @@ On unchanged1233strictgroups andonce-only605projection, all64rules/reader scorab
 ## 2026-10-09 GDT1307 mandatory bench-fusion early stop
 
 Bound ch,k literals andckhshortcut, either compulsoryorder: chky invalidforward, kchy invalidreverse; strictcounts12/15/13 and18/23/20 overmultipleleaves.101readerrecords,202orderchecks and2184sourcefree roundtrips replayPASS. Fullprofilesknown beforeprotocol; notblindnewdiscovery. No physicalbinding or wordmeaning established; optional/contextualfusion and933freecoverage remainopen. IP039missingcomplementnotresolved. Binaryclassr/linversion candidate already1276, no newfit. No largewriter/sourceoptimization selected afterexactcountercase. See1307REPORT.
+
+## 2026-10-09: GDT1308 whole-form predictive increment
+
+The fixed50:50TRAINwhole-frequency/position-awareM1mixture improves ALLheld
+wordprediction in ZL(+.087350nat/word equal-leaf,41/46positive leaves), with
+IT37/46andRF38/46. All32fitted-M1simulations perreader lose. The full cost of
+unseen words remains; no BPE merges/survival cohorts are involved. Separate
+validator reconstructs61181joins,23496native scores and96synthetic worlds.
+Whole-form weighting is a useful component under this estimator, not a proven
+human lexicon, universalM1rejection, morphology or wordmeaning. Higher-order
+spelling and heterogeneous contexts remain alternatives. No decoder repair.
+Source-free protocol review happened after empirical run, with provisional
+positive status known; no reviewer data/program access or blindness claim.
+See experiments/yolo/gdt1308_whole_form_prediction/REPORT.md and
+WHOLE_FORM_PREDICTION_REVIEW_20261009.json. Inclusive budget14:16–15:16UTC.

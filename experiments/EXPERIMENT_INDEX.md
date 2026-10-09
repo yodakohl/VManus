@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1306**
-- Experiment-associated tracked files: **25,824** (2.3 GiB)
-- Structured GDT337+ experiments: **971**
+- Experiments indexed: **1307**
+- Experiment-associated tracked files: **25,840** (2.3 GiB)
+- Structured GDT337+ experiments: **972**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1308 | GDT1308_whole_form_prediction | `WHOLE_FORM_PREDICTIVE_LEAD` | [report](../experiments/yolo/gdt1308_whole_form_prediction/REPORT.md) | 16 | 2.8 MiB | 7 | STRUCTURED_YOLO |
 | GDT1307 | GDT1307_mandatory_bench_fusion | `BOTH_BOUND_ORDERS_EXCLUDED` | [report](../experiments/yolo/gdt1307_mandatory_bench_fusion/REPORT.md) | 14 | 68.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT1306 | GDT1306_common_stage_merge_survival | `LATER_SELECTION_EFFECTS_WITH_READER_DEPENDENT_SIGN_CREATION` | [report](../experiments/yolo/gdt1306_common_stage_merge_survival/REPORT.md) | 15 | 387.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT1305 | GDT1305_merge_survival_counterexample | `SOURCE_FREE_SELECTION_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt1305_merge_survival_counterexample/REPORT.md) | 12 | 28.5 KiB | 1 | STRUCTURED_YOLO |
