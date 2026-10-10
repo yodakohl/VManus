@@ -2,13 +2,13 @@
 Updated: 2026-10-10.
 
 ## Work
-Phase: workflow
+Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 160/161 routed.
-Working files: 160/161.
-Assumptions: No new result.
-Resume: Select; retain failures.
+Latest decision: 1319active I/O constant.
+Working files: GDT1319.
+Assumptions: Global I/O.
+Resume: No marker/reset repair.
 Running: none.
 
 ## Structural baseline
@@ -20,7 +20,7 @@ No proven parser/alphabet.
 1310aliases;1311gap open;1314cfh fits.
 1317unseenFAIL not mechanism rejection.
 1318edit transfer FAIL.
-No default Latin/phonetics;k/t open(1058).
+No default Latin/phonetics;1058k/t open.
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
 reversible rendering are not confirmed meanings or sentence boundaries.
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public606ba8b4e.
+Publicc7080eb2a.

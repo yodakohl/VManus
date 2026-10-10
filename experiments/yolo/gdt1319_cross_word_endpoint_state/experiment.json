@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1319",
+  "slug": "cross_word_endpoint_state",
+  "title": "Exact cross-word endpoint marker state capacity",
+  "created": "2026-10-10",
+  "updated": "2026-10-10",
+  "status": "ACTIVE_CHANNEL_CONSTANT_ALL_READINGS",
+  "question": "Can global first-unit entry and last-unit exit tables carry a nonconstant unchanged state across retained consecutive word boundaries?",
+  "claim_ceiling": "Observed active marker-interface capacity only; no full writer-state count, informationless text, semantic value or general state-cipher exclusion.",
+  "dependencies": [
+    "GDT1233",
+    "GDT915",
+    "GDT883",
+    "GDT1287",
+    "GDT318"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "fixed guarded source, originalpositions or exhaustivepriorpartitioncounts"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/METHOD.md",
+      "sha256": "1a1fdd2eeefeea90b2d0457eb6c302edc8adba46e0c457a6f575d44e77011879",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/PREREGISTRATION.md",
+      "sha256": "1a1fdd2eeefeea90b2d0457eb6c302edc8adba46e0c457a6f575d44e77011879",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/README.md",
+      "sha256": "469d6076ba83d7a656821035f828988bd40c3e411b8bb27278a411a3513a49d3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md",
+      "sha256": "282a898c18cff584f1efacaf9f5db11f7b72a6a0d3fbefdb21005d4195ef1aee",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/EDGES.json",
+      "sha256": "13f75aaa93184df64aa8e3b5934337b531ff15412f2202e22a8a25c82e02a204",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/PAIRS.json.gz",
+      "sha256": "ad40adb40591fe013a75a79fd3e263304eeb7cbedb85394e1f870dc24e3c9025",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/README.md",
+      "sha256": "d96c5afb612c594ce9bd1721961e651cdc9b168b4064746649b6e9fcc03f7a28",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/RESULT.json",
+      "sha256": "b606eb5e3897089736b6a5670f136ada0a4df987e353cba15b145ecbd495fbd6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/VALIDATION.json",
+      "sha256": "902f90728e2321bf60b8da3163c43bb39c625a2afb9b0250c1109928b679b603",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/src/PROOF_REVIEW.json",
+      "sha256": "68336f7cff775d06c5556ed2a2773f3f04a96c65ce5999662e25e5726718f6ad",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/src/REGISTRATION_LOCK.json",
+      "sha256": "c3c076bd5e1b03d62f9b2c04f33ca99049ce70a0fdb802d7a4fcf4f2ac54594c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/src/run.py",
+      "sha256": "cf3c315e4e207c3faef13a40c7e21151ed6e72024f484b53d7fe3d885484dbd2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/src/validate.py",
+      "sha256": "e815624a1d9fa9a73a9d443477a0491653e6d186ccd9bc7fd8fd9c984d85d3dd",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1319_cross_word_endpoint_state/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1319_cross_word_endpoint_state/src/validate.py"
+  },
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": "Compressed full pair source packet; no images or executables."
+  }
+}

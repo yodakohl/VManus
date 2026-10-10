@@ -1,0 +1,82 @@
+{
+  "record_id": "GDT1319",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root independent source-window/BFS verifier; bounded producer pre-count source-free proof",
+  "assessment_basis": "cross_word_first_last_marker_equality_capacity",
+  "reason": "All retained reader graphs have one active equality component: ZL14549pairs/187edges/38nodes;IT18418/200/40;RF13869/192/40. Separate global I/Otables must therefore assign one shared value to their active nodes. Inactive endpoints remain unconstrained. No full-writer or meaning exclusion.",
+  "blockers": [
+    {
+      "code": "fixed_global_marker_and_continuity_contract",
+      "detail": "Only first/last22workingunits and every retained definite contiguous within-line seam. No resets, page-dependent values, uncertain-index bridging or larger markers. Entry/exit roles distinct even for sameglyph.",
+      "evidence": [
+        "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+      ]
+    },
+    {
+      "code": "active_interface_only",
+      "detail": "Unobserved endpoints, word interiors and unmarked memory remain free. A constant marked interface does not mean a meaningless text or refute probabilistic context effects.",
+      "evidence": [
+        "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_bound_channel_or_corrected_source",
+        "change": "new_design",
+        "detail": "An independently motivated different complete information channel with a new consequence, or independently established source correction; no automatic larger endpoints/reset exceptions or state expansion.",
+        "evidence": [
+          "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Increase state alphabet on same equalities",
+      "Merge I_gandO_gwithout evidence",
+      "Treat inactive nodes as observed constants",
+      "Call this a general state-cipher ban",
+      "Pool alternate readings",
+      "Repair rare edges after seeing closure"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1233",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT915",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT883",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1287",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT318",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md"
+      ]
+    }
+  ]
+}

@@ -10344,3 +10344,15 @@ See PAIRING160_RESULT_REVIEW_20261010.json and CLASSES161_RESULT_REVIEW_20261010
 Recent1316/1318scores and1317interpretive limit stay unchanged. No new native
 finding, calculation, image, source access or meaning. Boundedproducer supplied
 no new completecandidate; no fillerRAW added.
+
+## 2026-10-10 — GDT1319: explicit cross-word endpoint channel constant
+
+Global independent I(firstunit)/O(lastunit)tables with unchanged state across every
+strict retained seam have ONEactive equality component in each reader. ZL14549
+pairs/187edges/38nodes;IT18418/200/40;RF13869/192/40. Thus active interface carries
+no distinct states. Inactive nodes remain free:ZLI:n,m/O:q,cth,cph,cfh;ITI:n/
+O:q,cph,cfh;RFI:m/O:q,cph,cfh. No full-writer-state or meaning exclusion.
+Independent61181joins46836pairs579edges115witness-treeedges/BFSverified.
+883withinword/1287completion/318probabilistic hypotheses remain separate.
+No reset/marker-span/state-count repair. See experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md
+and CROSS_WORD_STATE_REVIEW_20261010.json. No new image/rawTSV/meaning.

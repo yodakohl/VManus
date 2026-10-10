@@ -1,3 +1,13 @@
+# 2026-10-10 GDT1319 — fixed visible state interface constant
+
+Every retained boundary imposesO(lastleft)=I(firstright), with separate global
+I/Otables. All active nodes are one component in each reader:38/40/40nodes.
+No informative varying state in this explicit interface on retained seams.
+Inactive endpoints remain unconstrained; interiors/unmarked states/content free.
+Independent61181joins46836pairs579edges115source-witness forestedgesPASS.
+Next: distinctboundchannel; no larger-marker/reset/state-count repair.
+Primary experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md.
+
 # 2026-10-10 — documented160/161result routing
 
 160/161lookup fallbackUNREGISTERED replaced via appended documentaryledgerrows
