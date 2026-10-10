@@ -1,0 +1,1 @@
+RESULT.json stores all six cases and199null scores each. OPPORTUNITIES.json.gz preserves fixed source slots and binary choices; HELD_SCORES.json.gz contains held probabilities and gains. VALIDATION.json is the independent computation receipt.

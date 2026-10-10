@@ -10387,3 +10387,8 @@ Deshalb kein zusätzlicher Varianten-Pooling-Versuch. Eine abweichende
 Vorhersage braucht eine ausdrücklich begrenzte gemeinsame Schreibregel oder
 eine unabhängig festgelegte Quellenverteilung. Deren Erfolg ist damit nicht
 gezeigt. Bestehende positive Ergebnisse und gescheiterte Tests bleiben bestehen.
+
+
+### GDT1320: optionale Verbindung braucht mehr als eine einheitliche Gewohnheit
+
+Der [feste Vergleich](../../../experiments/yolo/gdt1320_optional_fusion_choice/REPORT.md) erhält in beiden Auflösungsrichtungen und jedem Leser einen Vorhersagegewinn durch die angenommene ganze Quellform. Die einfache unabhängige Wahl pro Currier/Hochform wird unter den Panelannahmen nicht beibehalten. Kein Nachweis von Ligaturen, Bedeutungen oder einer richtigen Richtung; unbekannte Quellformen gewinnen hier nichts. Hand, Position und andere Abhängigkeiten bleiben mögliche Erklärungen. Keine automatische Modellreparatur.

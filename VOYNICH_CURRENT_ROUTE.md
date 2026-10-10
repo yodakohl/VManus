@@ -5,16 +5,16 @@ Updated: 2026-10-10.
 Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: Free pooling equals Q.
-Working files: G2 dossier.
-Assumptions: Empirical joint.
-Resume: Require constrained writer.
+Latest decision: 1320 IIDchoice fails.
+Working files: gdt1320.
+Assumptions: Fixed expansion.
+Resume: No direction selection.
 Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
-1308/9whole gain/distributed;1316halves ALL+/newFAIL.
+1308/9whole gain;1316halves ALL+/newFAIL;1320word-choice+.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet.
 1310aliases;1311gap open;1314cfh fits.
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicdfc704bd5.
+Publicb7fb1a635.

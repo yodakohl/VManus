@@ -1,3 +1,7 @@
+## 2026-10-10 — GDT1320 optional fusion choice
+
+All six fixed reader/order cases retain source-whole-conditioned choice gain on held leaves; simple IID choice per Currier/height is not retained under the selected panel assumptions. No native ligature, direction, meaning or novel-source prediction established. No automatic conditioning repair. See [report](experiments/yolo/gdt1320_optional_fusion_choice/REPORT.md).
+
 # 2026-10-10 — fixed word-bracket depth corollary
 
 No newexperiment:1287integer-translation projection forces every fixed PUSH/POP/

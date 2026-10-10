@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Compact gzipped opportunity and held-score receipts; no images or executables.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed conditional writing-choice comparison only; no direction selection, true ligature, synonymy or lexical meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1320_optional_fusion_choice/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1320_optional_fusion_choice/src/validate.py"
+  },
+  "created": "2026-10-10",
+  "dependencies": [
+    "GDT1307",
+    "GDT1233",
+    "GDT915",
+    "GDT1318"
+  ],
+  "experiment_id": "GDT1320",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "guarded strict groups and provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "guarded strict groups and provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "guarded strict groups and provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "guarded strict groups and provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "guarded strict groups and provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "guarded strict groups and provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "guarded strict groups and provenance"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "guarded strict groups and provenance"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/METHOD.md",
+      "sha256": "5076d8c15eaa7c1c1d1c3b65246b81dfccaeeebf86c194c2de37d296baa2f047",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/PREREGISTRATION.md",
+      "sha256": "5076d8c15eaa7c1c1d1c3b65246b81dfccaeeebf86c194c2de37d296baa2f047",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/README.md",
+      "sha256": "db8a59a890655dc4892ac1b1411c8855b54739cd7eee01d37937d13dd50ec00a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/REPORT.md",
+      "sha256": "2fdcdc7b0c350eb07328452cb4a4cba83a30ef29978dd586b52691fb8453d64c",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/artifacts/HELD_SCORES.json.gz",
+      "sha256": "438c3b5705093f69e7a02c924021cf35b203adfe3cb8e5e37b2fd0d1be8607ba",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/artifacts/OPPORTUNITIES.json.gz",
+      "sha256": "28adb6e7bb005a088b00fed2a3de51a5a4a187188cf02c3b55371caeabc0d91f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/artifacts/README.md",
+      "sha256": "b3b7d31e98b2b2d2ddeb6cfbbc2f6ab6a95938d4f2d25d11f1d129c48a3a5837",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/artifacts/RESULT.json",
+      "sha256": "971d2b1c4cd3897b3b14e7bc1e9254d2a442b197636dbad7286e87e1720d588a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/artifacts/VALIDATION.json",
+      "sha256": "efc6d9001e0a9c81a92cf75be48913b841db259961544e07d7d8399dbc56d6f6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/src/REGISTRATION_LOCK.json",
+      "sha256": "747afe98eea99ed5ebd0a58ca35a6ab2be8fabc0268bbb614705fe2fdef6b2b0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/src/run.py",
+      "sha256": "46f49aa3d41f3711d93237abccb7b2ac6395fed38a94f4d12cd6686bbe9946f8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1320_optional_fusion_choice/src/validate.py",
+      "sha256": "1d8687aa70c9c1eda3f5afebbf1edf7ed6a80cfcbe638b9a10eeced3cb357cee",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Does complete expanded source-word identity predict optional fusion choices beyond a fixed Currier-by-height writing habit on held leaves?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "optional_fusion_choice",
+  "status": "WORD_CONDITIONED_CHOICE_GAIN_ALL_CASES",
+  "title": "Optional fusion and word-conditioned writing choice",
+  "updated": "2026-10-10",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1320_optional_fusion_choice/artifacts/VALIDATION.json"
+  }
+}
