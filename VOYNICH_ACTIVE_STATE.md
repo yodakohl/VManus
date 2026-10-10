@@ -1,3 +1,7 @@
+## 2026-10-10 — IDEA925 primary source collation
+
+The1518table and Clavis now substantiate a four-letter author example and explicit supplied null phrases/restart permissions. A rigid global word-position schedule is narrower than the actual source. No native writer or historical Voynich connection selected. [Source decision](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_SOURCE_COLLATION_20261010.json).
+
 ## 2026-10-10 — research selection checkpoint
 
 No new candidate selected after bounded review. Preserve all scientific results; do not default to another relaxed capacity model. Require a complete independently motivated writer/reader and a distinct consequence against a rival before implementation. This is workflow selection, not a manuscript finding. [Decision](research_registry/proposals/production_origin_supply_20261003/SELECTION_CHECKPOINT_20261010.json).

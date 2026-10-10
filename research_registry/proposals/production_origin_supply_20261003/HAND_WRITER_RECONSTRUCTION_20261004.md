@@ -10402,3 +10402,12 @@ Der [vollständige Abschluss](../../../experiments/yolo/gdt1321_nonreturning_wor
 ### Auswahlcheckpoint: keine weitere Ausschlussserie als Standard (10. Oktober 2026)
 
 Die [Auswahlprüfung](SELECTION_CHECKPOINT_20261010.json) hält alle bisherigen Ergebnisse fest, wählt aber keinen neuen Versuch. Die zuletzt ausgeschlossenen speziellen Architekturen bestimmen noch keinen tatsächlichen Leser. Weitere Kapazitätsprüfungen werden nur für einen vollständig beschriebenen, eigenständig begründeten Kandidaten mit einer entscheidbaren Folge ausgewählt. Im begrenzten aktuellen Abruf liegt kein solcher neuer Kandidat vor. Das ist eine Änderung der Arbeitsauswahl, kein neuer Manuskriptbefund und keine Behauptung, alle Möglichkeiten seien erschöpft.
+
+
+### IDEA925: Originalquelle und wirklicher Schreibablauf gelesen
+
+Die [Quellenkollation](TRITHEMIUS_SOURCE_COLLATION_20261010.json) ersetzt die bisherige reine Katalognavigation. Vier alphabetische Spalten des Drucks1518 sind manuell erfasst; die separate Clavis erläutert selbst Conditor–clemens–discernens–mundana als caue (CAVE mit historischeru/v-Konvention). Ein Quellenprüfer bestätigt diese vier Zellen und die Regeln unabhängig.
+
+Entscheidende Präzisierung: Vorgegebene Zusatzphrasen außerhalb der Alphabete tragen keine Nachrichtenbuchstaben. RegelIV erlaubt unter ihren Fortsetzungsbedingungen einen Neustart, eine Wiederaufnahme andernorts oder die Fortsetzung inBuchII. Das starre Positionsschema des altenRAW ist enger als die tatsächliche Quelle. Kein freies Überspringen, keine nachträglich erfundenen Nullwörter. Die Erkennbarkeit jedes Neustarts ist hier nicht formal bewiesen.
+
+Dies ist historische Quellenarbeit, keine Voynich-Lesung. Das vollständige Tabellenwerk und eine native Bindung fehlen weiterhin;1518belegt keine Praxis um1420. Kein Decoder oder Zieltest ausgewählt. Die96Tabellenzellen, sechs Quellenbilder, Integritätsprüfung und das Autorenbeispiel sind reproduzierbar gespeichert.
