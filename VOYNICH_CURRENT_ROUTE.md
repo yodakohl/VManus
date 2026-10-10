@@ -5,10 +5,10 @@ Updated: 2026-10-10.
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1314edges exclude m; cfh retains.
-Working files: GDT1314.
-Assumptions: Line edges delimit groups.
-Resume: Read1314; no keyfit/tablegrowth.
+Latest decision: 1315local two-state writer fails.
+Working files: GDT1315.
+Assumptions: Fixed local inputs.
+Resume: Read1315; no state/context repair.
 Running: none.
 
 ## Structural baseline
@@ -17,7 +17,7 @@ Wholeform/entry608/282/286/318;BPE selection1306.
 1308whole-form gain;1309distributed,not lexical minimum.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet.
-1310aliases;1311gap open;1314onlycfh common.
+1310aliases;1311gap open;1314cfh capacity.
 No default Latin/phonetics;k/t open(1058).
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -72,4 +72,4 @@ Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Public44468b19f.
+Public36c8183b1.

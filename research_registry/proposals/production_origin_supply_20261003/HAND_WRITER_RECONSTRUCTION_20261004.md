@@ -10253,3 +10253,18 @@ is outsidecontract. No recordcontinuityneeded, no sourcevalues or glyphchoiceexp
 See experiments/yolo/gdt1314_binary_line_edge_capacity/REPORT.md and
 BINARY_LINE_EDGE_CAPACITY_REVIEW_20261010.json. Source-free producer proof beforecount;
 noadditionalrawproposal. Independentiterativeparser/source/countverificationPASS.
+
+## 2026-10-10 — GDT1315: binary local shape-choice completion fails
+
+All1314survivors2/2/1need3wholeoutputchoices within an identical context fixing
+decodedleft/current/right characters,page,exactgroupordinalandlinegroupsize.
+The specific<=2state deterministiclocalrenderer is excluded:4/12/3conflicting
+layoutcells perkey; sparseexactcounterexamples,notglobalerrorrate.134/173/112
+cfhSOURCE-only maxima shrinkto12/12/9withpage and3withfulllayout. Those larger
+bounds do notapplyto theprimaryrichercontext.Paragraphflagswereomittedbeforecount
+becauseRFmetadataunscorable; paragraphrole,longerhistory,writtenneighbors,counters
+andfreechoiceoutsidecontract.3isnecessary,notanachievablemachineornativestatecount.
+1312/1314capacity and1313runsretained. Noautomaticthirdstate/contextrepair/keyfit.
+See experiments/yolo/gdt1315_binary_local_renderer_capacity/REPORT.md and
+BINARY_LOCAL_RENDERER_REVIEW_20261010.json. Independent81007sourcejoins50874triples
+146586cellsverified. Source-free producerreviewbeforecount; nonewRAWcard.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1313**
-- Experiment-associated tracked files: **25,934** (2.3 GiB)
-- Structured GDT337+ experiments: **978**
+- Experiments indexed: **1314**
+- Experiment-associated tracked files: **25,948** (2.3 GiB)
+- Structured GDT337+ experiments: **979**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1315 | GDT1315_binary_local_renderer_capacity | `LOCAL_TWO_STATE_RENDERER_EXCLUDED` | [report](../experiments/yolo/gdt1315_binary_local_renderer_capacity/REPORT.md) | 14 | 1.7 MiB | 12 | STRUCTURED_YOLO |
 | GDT1314 | GDT1314_binary_line_edge_capacity | `READER_SPECIFIC_EDGE_CAPACITY` | [report](../experiments/yolo/gdt1314_binary_line_edge_capacity/REPORT.md) | 13 | 654.3 KiB | 7 | STRUCTURED_YOLO |
 | GDT1313 | GDT1313_binary_decoded_runs | `DECODED_RUN_OBLIGATIONS` | [report](../experiments/yolo/gdt1313_binary_decoded_runs/REPORT.md) | 13 | 995.4 KiB | 8 | STRUCTURED_YOLO |
 | GDT1312 | GDT1312_scientific_route_restored | `CAPACITY_FEASIBLE` | [report](../experiments/yolo/gdt1312_binary_whole_code_capacity/REPORT.md) | 24 | 9.4 MiB | 7 | STRUCTURED_YOLO |

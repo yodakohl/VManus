@@ -1,3 +1,15 @@
+# 2026-10-10 GDT1315 — fixed local renderer excluded
+
+All1314survivingkeys need3wholeforms inoneidentical decoded-neighbor/page/
+ordinal/linegroupsize context. Specific<=2state localdeterministiccompletion
+fails;4/12/3conflictinglayoutcells perkey. Boundnotanactualnativecount or
+sufficient3stateautomaton. Paragraphroleomittedpre-countafterRFmetadatacaution.
+1312/1314unrestrictedcapacity and1313runobligationsremain. No nativevalueassigned.
+Independent81007sourcejoins50874triples5keys146586cellsPASS.
+Next: park thiscompletion; require independentlymotivatedchoiceprinciple
+withnewfalsifier, notautomaticthirdstate/contextaddition orkeyfit.
+Primary: experiments/yolo/gdt1315_binary_local_renderer_capacity/REPORT.md.
+
 # 2026-10-10 GDT1314 — line-edge extension
 
 Same32-row binaryfamily onstrictplusallclearedges: mrequires37/40/40rows;
