@@ -5,10 +5,10 @@ Updated: 2026-10-10.
 Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 1287bracket corollary.
-Working files: 1287review.
-Assumptions: Fixed depth.
-Resume: No bracket parser.
+Latest decision: Free pooling equals Q.
+Working files: G2 dossier.
+Assumptions: Empirical joint.
+Resume: Require constrained writer.
 Running: none.
 
 ## Structural baseline

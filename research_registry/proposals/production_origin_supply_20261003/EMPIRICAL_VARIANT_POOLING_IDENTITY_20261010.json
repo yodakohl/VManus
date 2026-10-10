@@ -1,0 +1,33 @@
+{
+  "status": "METHOD_IDENTITY_NO_NEW_MANUSCRIPT_FINDING",
+  "decision_note": {
+    "unknown": "Can unrestricted empirical latent-class pooling distinguish the optional writer directions by the resulting written-word marginal?",
+    "predecessor": "HAND_WRITER_RECONSTRUCTION_20261004.md, Ergebnis der Auswahlkraft-Pruefung: same visible coverage, distinct variant classes; an independent restriction is required.",
+    "outcomes": "Equality means no native pooling experiment; a different marginal requires an explicit additional model assumption before selection.",
+    "smallest_test": "Algebraic proof, including fractional analyses and zero-probability classes; no corpus access or decoder.",
+    "budget": "20 minutes for proof review, documentation, validation and publication; no expansion."
+  },
+  "premises": [
+    "Q is a normalized empirical TRAIN distribution over complete written forms.",
+    "For each w, alpha(s|w) is nonnegative and sums to one.",
+    "Both the source-class prior and free within-class renderer are derived from the SAME joint J(s,w)=Q(w)*alpha(s|w)."
+  ],
+  "proof": [
+    "pi(s)=sum_w J(s,w).",
+    "For pi(s)>0, R(w|s)=J(s,w)/pi(s). Classes with pi(s)=0 contribute zero.",
+    "sum_s pi(s)*R(w|s)=sum_s J(s,w)=Q(w)*sum_s alpha(s|w)=Q(w)."
+  ],
+  "special_cases": [
+    "Hard partitions have alpha in {0,1}.",
+    "The identity holds separately in each consistently conditioned cell; alternate manuscript readings remain separate.",
+    "TRAIN-unseen forms have zero mass in this empirical construction.",
+    "Smoothing one joint first and refactorizing reproduces that smoothed joint marginal; separately smoothing the factors is a different model."
+  ],
+  "limits": [
+    "A fixed independent source prior, constrained shared renderer, or productive rule for unseen forms can break the premises; neither predictive improvement nor correct decipherment follows automatically.",
+    "This is not a prohibition on statistical cryptanalysis, contextual evidence, or the optional writers themselves.",
+    "No assignment of word meaning, no new native count, no scientific novelty claim."
+  ],
+  "selection_decision": "Do not implement free variant pooling as a new discriminator. A future candidate must state the independently constrained source or writing-choice rule and its new falsifier first.",
+  "review": "Root and bounded producer independently checked the algebra. Producer used only bounded registry cards and the named dossier section; no new payload access in this task."
+}

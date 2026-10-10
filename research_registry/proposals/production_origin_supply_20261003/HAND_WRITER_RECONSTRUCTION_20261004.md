@@ -10374,3 +10374,16 @@ The bounded reviewer accidentally received old f39r.3 payload/gloss lines during
 a broad Markdown search; stopped and disclosed. Root checked only generator/hash
 and headings, currentadmission verified; no passage used. Incident recorded in
 PRODUCER_SOURCE_FREE_SCOPE_INCIDENT_20261010.json; no source-free credit forwholepass.
+
+
+### Empirische Variantenklassen: keine neue Vorhersage durch bloßes Zusammenfassen (10. Oktober 2026)
+
+Wer Grundwort-Häufigkeiten und freie Schreibvarianten aus denselben gezählten
+Wörtern ableitet, erhält nach dem Zusammenfügen exakt die ursprüngliche
+Wortverteilung zurück. Das gilt auch bei anteiligen Mehrfachanalysen.
+Der [kurze Beweis](EMPIRICAL_VARIANT_POOLING_IDENTITY_20261010.json) präzisiert
+die vorhandene G2-Auswahlkraftprüfung; er ist kein neuer Manuskriptbefund.
+Deshalb kein zusätzlicher Varianten-Pooling-Versuch. Eine abweichende
+Vorhersage braucht eine ausdrücklich begrenzte gemeinsame Schreibregel oder
+eine unabhängig festgelegte Quellenverteilung. Deren Erfolg ist damit nicht
+gezeigt. Bestehende positive Ergebnisse und gescheiterte Tests bleiben bestehen.
