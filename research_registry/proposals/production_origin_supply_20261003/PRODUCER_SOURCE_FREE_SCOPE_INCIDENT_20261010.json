@@ -1,0 +1,49 @@
+{
+  "status": "DISCLOSED_SOURCE_FREE_ASSIGNMENT_BREACH",
+  "date": "2026-10-10",
+  "actor": "bounded_idea_supply",
+  "what_happened": "A broad Markdown rg search during a source-free predecessor review returned five lines from an old native-text/working-gloss artifact. The agent stopped, disclosed the event and did not use those hits in the proof. No new image or experiment was run.",
+  "command": "rg -n -i 'pushdown|Dyck|bracket.{0,30}(word|glyph|balance)|stack.{0,30}(depth|balance)|stack.*1287|Klammer.*(Wort|1259|1287)' research_registry/proposals docs experiments --glob '*.md' --max-count 5 | head -60",
+  "exposure": {
+    "artifact": "experiments/yolo/gdt939_written_content_subject_passage/artifacts/TARGET_LINES_ZL3b.md",
+    "sha256": "8c4072cb782dc24409e65f48558ca2246f6e4f67b2d283fc4bf2c6863c3c3fb9",
+    "expected_sha256": "8c4072cb782dc24409e65f48558ca2246f6e4f67b2d283fc4bf2c6863c3c3fb9",
+    "metadata_only_heading_audit": [
+      {
+        "artifact_line": 4483,
+        "locus": "f39r.3",
+        "page": "f39r",
+        "currently_admitted": true
+      },
+      {
+        "artifact_line": 4485,
+        "locus": "f39r.3",
+        "page": "f39r",
+        "currently_admitted": true
+      },
+      {
+        "artifact_line": 4487,
+        "locus": "f39r.3",
+        "page": "f39r",
+        "currently_admitted": true
+      },
+      {
+        "artifact_line": 4489,
+        "locus": "f39r.3",
+        "page": "f39r",
+        "currently_admitted": true
+      },
+      {
+        "artifact_line": 4491,
+        "locus": "f39r.3",
+        "page": "f39r",
+        "currently_admitted": true
+      }
+    ],
+    "raw_body_lines_returned": 0
+  },
+  "root_audit": "Checked original output hash, bound generator and heading metadata only. All reported artifact line numbers map to f39r.3 on currently admitted f39r; no raw body lines or glosses were returned by the audit. Generator uses guarded915sources and its stored179selector allowlist. This does not restore source-free status to the whole agent pass.",
+  "scientific_effect": "The algebraic depth projection is self-contained and uses1259/1287primary methods/reports. No candidate, word value, native count or image conclusion uses the incidental hits. The initial proof argument was supplied before the broad search; later predecessor review is not claimed blind/source-free.",
+  "future_bound": "Use exact METHOD/REPORT/contract paths or bounded registry tools. Do not search arbitrary Markdown under experiments/artifacts for a source-free assignment. No raw incidental passage is copied into this incident record.",
+  "search_output_limit": "head60 and max_output_tokens5500; the reported five payload-hit line numbers were audited. No claim of an exhaustive review of other archival contents."
+}

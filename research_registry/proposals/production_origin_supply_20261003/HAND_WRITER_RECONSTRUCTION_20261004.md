@@ -10356,3 +10356,21 @@ Independent61181joins46836pairs579edges115witness-treeedges/BFSverified.
 883withinword/1287completion/318probabilistic hypotheses remain separate.
 No reset/marker-span/state-count repair. See experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md
 and CROSS_WORD_STATE_REVIEW_20261010.json. No new image/rawTSV/meaning.
+
+## 2026-10-10 — fixed word-bracket corollary, no new parser
+
+A word-local PUSH/POP/neutral unit convention has fixed depth increments+1/-1/0.
+Empty-to-empty words have sum0. Integer translations are a bijective algebraic
+shadow, so1287's old quotient certificate forces every increment0. Onlyneutral
+roles remain under this contract. The actual partialPOPneednot be invertible;
+the shadow is. No ol/olol square step needed because START=ENDalreadyassumed.
+1259already explicitly covered paragraph bracket counters inZL/IT; the word-level
+1287corollary separately covers all3readings under its own rare premises.
+No arbitrary pushdown, contextual role or cross-word stack exclusion.
+FIXED_WORD_BRACKET_COROLLARY_20261010.json and WORD_BRACKET_SCOPE_REVIEW_20261010.json
+retain old results and append an explicit fresh1287assessment; its originalREPORT
+hash is unchanged. No newexperimentID/data/model or image.
+The bounded reviewer accidentally received old f39r.3 payload/gloss lines during
+a broad Markdown search; stopped and disclosed. Root checked only generator/hash
+and headings, currentadmission verified; no passage used. Incident recorded in
+PRODUCER_SOURCE_FREE_SCOPE_INCIDENT_20261010.json; no source-free credit forwholepass.

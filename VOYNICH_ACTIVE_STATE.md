@@ -1,3 +1,15 @@
+# 2026-10-10 — fixed word-bracket depth corollary
+
+No newexperiment:1287integer-translation projection forces every fixed PUSH/POP/
+neutral unit role neutral when each word is empty-to-empty.1259alreadyparagraph
+caseZL/IT. This is a limited corollary, not arbitrarypushdown/meaning exclusion.
+Original1287REPORThashunchanged; explicitfreshreviewappendpreservesoldassessment.
+Rareunit/gappremises retained,1291unresolved. No nativecount/parser/image run.
+Agent source-free assignment breach: broad Markdown search displayed five old
+f39r.3artifact lines; stopped/disclosed, generator/hash/header-onlyscopeaudit
+confirmscurrentadmission. Incidental text/glosses notused; no blindcredit.
+Files inexistingproduction_origin_supply dossier; nextselectionnotanotherbracketparser.
+
 # 2026-10-10 GDT1319 — fixed visible state interface constant
 
 Every retained boundary imposesO(lastleft)=I(firstright), with separate global

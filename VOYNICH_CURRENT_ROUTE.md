@@ -2,13 +2,13 @@
 Updated: 2026-10-10.
 
 ## Work
-Phase: exploration
+Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 1319active I/O constant.
-Working files: GDT1319.
-Assumptions: Global I/O.
-Resume: No marker/reset repair.
+Latest decision: 1287bracket corollary.
+Working files: 1287review.
+Assumptions: Fixed depth.
+Resume: No bracket parser.
 Running: none.
 
 ## Structural baseline
@@ -19,7 +19,7 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 No proven parser/alphabet.
 1310aliases;1311gap open;1314cfh fits.
 1317unseenFAIL not mechanism rejection.
-1318edit transfer FAIL.
+1318edit transfer FAIL;1319active I/O constant.
 No default Latin/phonetics;1058k/t open.
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -42,8 +42,7 @@ W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted
 GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
 GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
 GDT616 failed; later diagnostic PASS does not rescue it.
-f9v: GDT1064 corrects Jacea/Viola polysemy; `fochor` remains C0,
-with no second bound Viola owner (IDEA621).
+f9v:1064 Jacea/Viola polysemy;621 second owner unbound.
 IDEA237 untested/not preferred; all30 programs first-passed, P09 closed.
 Old opening/closing test negative;1309review.
 
@@ -73,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicc7080eb2a.
+Publicdfc704bd5.

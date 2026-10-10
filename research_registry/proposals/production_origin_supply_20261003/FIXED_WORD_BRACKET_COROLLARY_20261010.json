@@ -1,0 +1,36 @@
+{
+  "status": "COROLLARY_OF_EXISTING_CERTIFICATES_NO_NEW_EXPERIMENT",
+  "date": "2026-10-10",
+  "question": "Can each of the22fixed working units have a permanent PUSH, POP or neutral role if every complete written word starts and ends with an empty stack?",
+  "answer": "Under the unchanged1287whole-word/transcription premises, no unit can have a nonzero fixed depth change. The only assignment in this narrowly defined role family is all-neutral.",
+  "contract": [
+    "Each unit always pushes one bracket, pops one bracket or leaves the stack unchanged.",
+    "Any number of bracket types is allowed; type correctness and underflow avoidance are extra conditions.",
+    "Every declared complete word starts and naturally ends with an empty stack; spaces do not silently discard unmatched brackets.",
+    "Fixed22working units and native whole-word premises are inherited, not newly image-verified."
+  ],
+  "proof": [
+    "Set d_g=+1 for PUSH, -1 for POP and0 for neutral. Every valid empty-to-empty whole word has sum_g count_g(word)*d_g=0.",
+    "Define total bijections T_g(z)=z+d_g on the integers. This is an algebraic depth projection; it does not claim the actual partial stack operations are bijections or permit negative physical stack depths.",
+    "Every word premise used by1287 fixes0 in this projection. Its previously verified LEFT/RIGHT quotient chains force every one of the22unit actions to fix0.",
+    "Therefore T_g(0)=d_g=0 for every unit. Under the stated three-role contract, only neutral units remain. More bracket types or deeper stacks cannot change this necessary depth equation.",
+    "The separate ol/olol step deriving common START=END is unnecessary here: empty-to-empty already supplies equality. No old native certificate is rerun or recomputed."
+  ],
+  "already_known_related_result": "1259METHOD explicitly includes +/-1 bracket counters among its excluded fixed integer paragraph sums forZL/IT. Its RFparagraph comparison was unscorable. The1287word certificate supplies the stated word-local corollary separately for all three readings, with its own premises. This is not a fresh or independent manuscript result.",
+  "limits": [
+    "Not a rejection of arbitrary pushdown systems, context-dependent roles, multi-unit delimiters, stack continuation across spaces, hidden operations/resets, nonempty ending stacks or zero-net-depth stack rewriting.",
+    "Neutral here means no stack action, not meaningless ink or absence of lexical content.",
+    "The original rare transcription/gap assumptions remain, including1291unresolved f8r.4 grouping; no physical boundary is certified by this proof.",
+    "No source alphabet, pronunciation, word translation or native glyph value is assigned.",
+    "Do not implement another bracket parser, change role assignments by context or rescore native data as an automatic continuation."
+  ],
+  "primaries": [
+    "experiments/yolo/gdt1287_whole_word_reversible_closure/METHOD.md",
+    "experiments/yolo/gdt1287_whole_word_reversible_closure/REPORT.md",
+    "experiments/yolo/gdt1259_paragraph_integer_balance/METHOD.md",
+    "experiments/yolo/gdt1259_paragraph_integer_balance/REPORT.md",
+    "experiments/yolo/gdt1291_f8r4_gap_review/REPORT.md"
+  ],
+  "review_exposure": "Root reviewed the mathematical argument and current primary texts. Bounded reviewer supplied the initial algebraic argument, then disclosed an accidental payload hit during a broad predecessor search; see PRODUCER_SOURCE_FREE_SCOPE_INCIDENT_20261010.json. No new empirical experiment or independent-source-free manuscript credit.",
+  "binding_note": "The1287REPORTsha256 remains4a53bf38e43e925ffc858d14209417283580446a436f6b9b7a1c3f3921481c14, identical to its original review evidence. The new review is an explicit fresh assessment adding this limited corollary, not a silent freshness rebind."
+}
