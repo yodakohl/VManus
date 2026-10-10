@@ -5,10 +5,10 @@ Updated: 2026-10-10.
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1316ALL gain; unseen gate fails.
-Working files: GDT1316.
-Assumptions: Fixed midpoint.
-Resume: New construction; no midpoint repair.
+Latest decision: 1317raw-unseen oracle countercase.
+Working files: GDT1317.
+Assumptions: Source-free toy.
+Resume: Retain1316FAIL; no rerun.
 Running: none.
 
 ## Structural baseline
@@ -17,7 +17,8 @@ Wholeform/entry608/282/286/318;BPE selection1306.
 1308/9whole gain/distributed;1316halves ALL+/newFAIL.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet.
-1310aliases;1311gap open;1314cfh capacity.
+1310aliases;1311gap open;1314cfh fits.
+1317unseenFAIL not mechanism rejection.
 No default Latin/phonetics;k/t open(1058).
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -71,5 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Results: ledger.
-Public84e7ccf2c.
+Publicb47d46ca0.

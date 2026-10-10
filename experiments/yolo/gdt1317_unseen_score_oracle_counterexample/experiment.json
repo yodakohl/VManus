@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1317",
+  "slug": "unseen_score_oracle_counterexample",
+  "title": "Exact oracle counterexample for raw unseen-word score inference",
+  "created": "2026-10-10",
+  "updated": "2026-10-10",
+  "status": "ORACLE_RAW_UNSEEN_COUNTEREXAMPLE_VERIFIED",
+  "question": "Can an exact true half-generator improve ALL expected raw score yet lose on its TRAIN-unseen subset?",
+  "claim_ceiling": "Constructed source-free logical counterexample only; no native score/gate change, false-negative calibration, mechanism identification or meaning.",
+  "dependencies": [
+    "GDT1316",
+    "GDT1308"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/SPEC.json",
+      "sha256": "fa0bb9c056583b205779f86a0ad76a61ba95ec49bfb8270ef1c7a7702b54cfce",
+      "role": "complete source-free synthetic specification"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/METHOD.md",
+      "sha256": "9652e4a7119914a92757cf5b54125de674a67e845f4bc389ca47942242b80d77",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/PREREGISTRATION.md",
+      "sha256": "9652e4a7119914a92757cf5b54125de674a67e845f4bc389ca47942242b80d77",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/README.md",
+      "sha256": "cec35211c93fcf6330d6d504b7e5480bb8bb4e76956e7b718ca6d65386f89ba2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md",
+      "sha256": "02a78412711f4c07d13e3cfafa9fb4e31c392f6d27d4c71d653adbacf246c330",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/artifacts/README.md",
+      "sha256": "271548f94195e85179ce5db6a8d5887b447128c6142f7b762dc7db41f4f81425",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/artifacts/RESULT.json",
+      "sha256": "b87d0638e7b6b6036b11432d62457b52c9992f5cfa66ea3c2f3d0c3a2d49485a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/artifacts/VALIDATION.json",
+      "sha256": "8a8c3c6241ee72c96109d3d60d35937d6c9a5a162c893acdcb05dbc51d2c86ed",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/PROOF_REVIEW.json",
+      "sha256": "983d04ac773978eae2da9893d49b658204155c6e1e43267d78c290daf970d243",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/REGISTRATION_LOCK.json",
+      "sha256": "aa36dd037677b1d345751431437ec26229bce96e5577831f9c9305e32ffbacdc",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/SPEC.json",
+      "sha256": "fa0bb9c056583b205779f86a0ad76a61ba95ec49bfb8270ef1c7a7702b54cfce",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/run.py",
+      "sha256": "b3d25b7f8d8ee33bc93d262f62235c146e318ee42e45b9a21e8a8d0a0b0af54b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/validate.py",
+      "sha256": "b4e90af7a8722cde7d3c98fb2170c532e0ca116aa3134d0f9458dea4d6251882",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1317_unseen_score_oracle_counterexample/src/validate.py"
+  },
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": "No large artifacts; exact finite synthetic tables and rational certificates only."
+  }
+}

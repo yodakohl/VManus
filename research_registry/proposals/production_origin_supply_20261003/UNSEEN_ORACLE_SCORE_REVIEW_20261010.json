@@ -1,0 +1,60 @@
+{
+  "record_id": "GDT1317",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root independent exact finite verifier; bounded producer pre-computation source-free proof",
+  "assessment_basis": "oracle_half_generator_raw_unseen_score_counterexample",
+  "reason": "Constructed54wordTRAINhaspositiveprobability underoracleH; empiricalH=oracleexactly. ALLexpectedgain+.8943585124773443butrawUNSEENgain-.12125858169044743; soleunseenBACBhasH2/81<M1(75625/2363296). Exact rational signs andnormalizationverified. Disproves universaltrueHimpliespositive rawunseengain; native1316failureunchanged.",
+  "blockers": [
+    {
+      "code": "constructed_control_not_native_calibration",
+      "detail": "Toyselectedafter1316, no nativepayload or newcount, no false-negative-rate/powerestimate, no full physicalleafcapacitygate. No estimateofnativefailurecause.",
+      "evidence": [
+        "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md"
+      ]
+    },
+    {
+      "code": "original_registered_failure_retained",
+      "detail": "1316unseen/rawscorefailure andno-retuningstop remain. Control only prevents interpretingthatfailure asstructuralmechanismrejection; doesnotinstallconditionalnormalizationorothergate.",
+      "evidence": [
+        "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "separate_native_construction_test",
+        "change": "new_design",
+        "detail": "A separately justified construction with a predeclared discriminating consequence and calibrated interpretation; not an automatic replacement of1316gate or midpoint/weight/seamrepair.",
+        "evidence": [
+          "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Mark1316PASSbecauseofthiscontrol",
+      "ClaimnativeHtrue",
+      "Estimate nativefalse-negativefrequencyfromoneconstructedmultiset",
+      "Call rawunseenlogscorewrongarithmetic",
+      "Retrospectively renormalize nativepredictions"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1316",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1308",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md"
+      ]
+    }
+  ]
+}

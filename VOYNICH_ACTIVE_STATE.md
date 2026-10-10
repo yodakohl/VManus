@@ -1,3 +1,13 @@
+# 2026-10-10 GDT1317 — oracle control, no native rerun
+
+Exactsource-freecounterexample:fittedH=truth,ALLgain+.894359yetrawUNSEEN-.121259.
+Allneededfragmentsknown; TRAINpositiveprobability; soleunseenBACBhasM1>trueH.
+This rulesoutmechanismrejectionfromrawsubsetfailurealone.1316registeredFAIL,
+nativelossesandno-retuningstop remain; nocorrection/replacementgate.
+No nativepayload/image/newmeaning. Exactsigns/fullnormalization/90digitcheckPASS.
+Primary experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md.
+Next: preserve1316'sscoreand1317'sinterpretivelimit; noautomaticrerun.
+
 # 2026-10-10 GDT1316 — aggregate gain, failed unseen gate
 
 Fixedmidpointfragmentmixture improvesALLvs1308M1on46/43/43leaves andbeats

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1315**
-- Experiment-associated tracked files: **25,964** (2.3 GiB)
-- Structured GDT337+ experiments: **980**
+- Experiments indexed: **1316**
+- Experiment-associated tracked files: **25,977** (2.3 GiB)
+- Structured GDT337+ experiments: **981**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1317 | GDT1317_unseen_score_oracle_counterexample | `ORACLE_RAW_UNSEEN_COUNTEREXAMPLE_VERIFIED` | [report](../experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md) | 13 | 33.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT1316 | GDT1316_fixed_half_form_prediction | `NO_PRODUCTIVE_HALF_FORM_LEAD` | [report](../experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md) | 16 | 2.4 MiB | 11 | STRUCTURED_YOLO |
 | GDT1315 | GDT1315_binary_local_renderer_capacity | `LOCAL_TWO_STATE_RENDERER_EXCLUDED` | [report](../experiments/yolo/gdt1315_binary_local_renderer_capacity/REPORT.md) | 14 | 1.7 MiB | 12 | STRUCTURED_YOLO |
 | GDT1314 | GDT1314_binary_line_edge_capacity | `READER_SPECIFIC_EDGE_CAPACITY` | [report](../experiments/yolo/gdt1314_binary_line_edge_capacity/REPORT.md) | 13 | 654.3 KiB | 7 | STRUCTURED_YOLO |

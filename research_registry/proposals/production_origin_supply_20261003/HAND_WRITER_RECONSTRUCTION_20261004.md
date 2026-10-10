@@ -10293,3 +10293,15 @@ illustratesnewpairingonly;nomeaningormorphemes. Independent61181joins23496
 heldscores49normalizedtablesPASS. Old1285/1246/openingclosingfailuresretained.
 See experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md and
 FIXED_HALF_FORM_REVIEW_20261010.json. No split/weight/seamrepair ordecoder.
+
+## 2026-10-10 — GDT1317: oracle control limits raw unseen-score inference
+
+Source-free54wordTRAINoraclecounterexample. Exact fittedH=truth; allneeded
+fragmentsknown. ALLexpectedgain+.8943585124773443butrawUNSEEN-.12125858169044743.
+OnlyunseenBACBhastrueH2/81<M1(75625/2363296); mixture ratio10852217/12251250<1.
+Exact rational signproducts, fullnormalization and90digitverifierPASS.
+Thus rawunseenfailurealone doesnot reject thegeneratingconstruction, evenwith
+perfectHknowledge.1316registeredconjunctionFAILandno-retuningstop remain.
+No nativeexplanation/power/false-negative-rateestimate orreplacementgate; toy
+constructedafter1316. See experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md
+and UNSEEN_ORACLE_SCORE_REVIEW_20261010.json. Controlfinding,notnativefinding.
