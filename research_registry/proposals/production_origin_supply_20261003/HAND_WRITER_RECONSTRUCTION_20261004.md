@@ -10240,3 +10240,16 @@ Lookup1312had selected laterengineeringrowasprimary; scientificREPORTread
 directly and append-onlycorrection restores its scientificrouting. Engineering
 row/artifacts preserved. BINARY_CODE_ROUTING_CORRECTION_20261009.json records
 this navigationrepair, not a changed researchresult. Budget16:57:59–17:32:59UTC.
+
+## 2026-10-10 — GDT1314: fixed binary keys at line edges
+
+The strict-only1312m partition does not extend to all clear edge words within32rows:
+37/40/40rows, versus22each before. Exhaustive prior-survivor check6/5/3cases on
+6232/7293/6301additional groups retains onlycfh separatelyacrossallreadings
+(27/27/28rows); cph32/32/33retainsZL/ITonly. Monotonicity excludes revivalofoldkeys.
+Physical line edges are assumedcompletegroupboundaries; unmarkedcrosslinewrapping
+is outsidecontract. No recordcontinuityneeded, no sourcevalues or glyphchoiceexplanation.
+1312strictpositive and1313conditionalrunsremain; noautomatickeyfit or tableenlargement.
+See experiments/yolo/gdt1314_binary_line_edge_capacity/REPORT.md and
+BINARY_LINE_EDGE_CAPACITY_REVIEW_20261010.json. Source-free producer proof beforecount;
+noadditionalrawproposal. Independentiterativeparser/source/countverificationPASS.

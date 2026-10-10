@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-09.
+Updated: 2026-10-10.
 
 ## Work
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1313 requires6char/3letterruns.
-Working files: GDT1313.
-Assumptions: Continuous blocks.
-Resume: Read1313framing; no keyfit.
+Latest decision: 1314edges exclude m; cfh retains.
+Working files: GDT1314.
+Assumptions: Line edges delimit groups.
+Resume: Read1314; no keyfit/tablegrowth.
 Running: none.
 
 ## Structural baseline
@@ -17,7 +17,7 @@ Wholeform/entry608/282/286/318;BPE selection1306.
 1308whole-form gain;1309distributed,not lexical minimum.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet.
-1310aliases;1311gap open;1312rare-bit capacity.
+1310aliases;1311gap open;1314onlycfh common.
 No default Latin/phonetics;k/t open(1058).
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -68,8 +68,8 @@ New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE
 No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context topic Wortzusammensetzung`: bounded baseline.
 `context topics`; `context check`.
-Selection: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
+Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Publiccc118730c.
+Public44468b19f.

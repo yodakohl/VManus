@@ -1,3 +1,15 @@
+# 2026-10-10 GDT1314 — line-edge extension
+
+Same32-row binaryfamily onstrictplusallclearedges: mrequires37/40/40rows;
+cph32/32/33;cfh27/27/28. Onlycfhcommonacrossreadings, stillcapacityonly.
+6232/7293/6301addedgroups; old6/5/3keys exhaustivebymonotonicity.
+Physical linebreaks assumedcompletegroupboundaries; crosslinewrappinguntested.
+1312strictcapacity and1313continuousblockrunsremain. No sourcevalueassigned.
+Independentiterativeparser/integercountverifierPASS61181strictjoins19826edges14keys.
+Next: requirecompletegraphical-choice/constructionprediction beforekeyfit;
+noautomatictablegrowth, sourcecorpusshopping or unchangedmissing-inputaudit.
+Primary: experiments/yolo/gdt1314_binary_line_edge_capacity/REPORT.md.
+
 # 2026-10-09: GDT1313 unavoidable decoded repetitions
 
 Under continuouswithin-lineblock interpretation, every1312key requires a run
