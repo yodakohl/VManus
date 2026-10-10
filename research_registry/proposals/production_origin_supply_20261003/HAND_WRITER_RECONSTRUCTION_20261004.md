@@ -10425,3 +10425,10 @@ Zugleich präzisiert die Tabelle den Ablauf: Eine Zelle ist nicht immer ein Wort
 Ein [neuer Rohentwurf](SELF_CONTAINED_POSITION_CONCORDANCE_RAW_20261010.json) bezahlt jedes unterschiedliche Wort und alle seine ursprünglichen Positionen; Zeilenwortzahlen stellen die zulässigen Leerstellen wieder her. Die drei angegebenen Beispiele werden exakt rückgelesen. Das ist eine Konstruktion, kein Voynich-Befund.
 
 Die [Kostenprüfung](POSITION_CONCORDANCE_COST_20261010.json) reicht vor jeder Corpusumsetzung: BeiMausgeschriebenen Zahlengruppen liegt jedes Feld höchstens bei max(M,127). Eine elfstellige minimale Basis22-Zahl benötigt daher mindestens26.559.922.791.424Gruppen in der vollständigen Nachricht. Der alte1299Beleg liefert nur die bedingte Elf-Einheiten-Prämisse; dessen anderer Quellblockvertrag wird nicht neu getestet. Dieser feste Träger wird nicht ausgewählt. Kein freies Zusammenfügen von Feldern, keine neue native Zahlbedeutung, keine Quellenzählung.
+
+
+### IDEA991: Kontextrekonstruktion bleibt möglich, konkreter Träger scheitert
+
+Der [vollständige Rohentwurf](AGREEMENT_RECOVERED_INFLECTION_RAW_20261010.json) schreibt alle Subjektnamen, Koordination und Negation, lässt aber nur dadurch eindeutig bestimmte Verbflexion weg. Im ausdrücklich beschränkten kanonischen Quellbereich rekonstruiert die Grammatik die genaue Quelle; das ist kein neuer allgemeiner Kontext-Lesebeweis und keine Voynich-Deutung.
+
+Die [Vorprüfung](AGREEMENT_CARRIER_HEAD_ASSESSMENT_20261010.json) stoppt seinen konkreten Zeichen-Code: Namen beginnen immer mit der kodierten QuoteE, andere Gruppen nur mit den Anfängen von and/not/lift/carry/wash. Das ergibt höchstens5Initialzeichen. Das alte1319Inventar enthält bereits20/21/21beobachtete Initialeinheiten; dessen Zustandsannahme wird hierfür nicht übernommen. Keine neue native Zählung oder Quellen-Corpusumsetzung. Die feste Ein-Zeichnung/Ein-Arbeitseinheit-Zuordnung und Gruppengrenzen bleiben die Bedingungen des Widerspruchs. Keine automatische Trägerreparatur.

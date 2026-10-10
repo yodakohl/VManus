@@ -5,10 +5,10 @@ Updated: 2026-10-10.
 Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 990 size cost.
-Working files: 990 cost note.
-Assumptions: One field/group.
-Resume: No numeral carrier repair.
+Latest decision: 991 carrier fails.
+Working files: 991 head note.
+Assumptions: Fixed atoms/groups.
+Resume: No quote-carrier repair.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public28f6215c6.
+Public981ada18e.

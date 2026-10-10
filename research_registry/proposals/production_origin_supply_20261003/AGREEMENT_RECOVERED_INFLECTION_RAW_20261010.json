@@ -1,0 +1,103 @@
+{
+  "title": "RAW UNREVIEWED: omit only verb forms uniquely recoverable from the fully written coordinated subject",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. A complete invented restricted-source writer retains all exact named participants, coordination and negation but always writes a verb base, omitting syntactically forced present-tense agreement and do-support. Its reader reconstructs the exact canonical source sentence from the explicitly written subject-list size. A paid22-drawing character carrier handles names, punctuation, spaces and boundaries. This is sentence-level injectivity despite verb-form homography, not a native reading or a generally complete English shorthand.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "authored_date": "2026-10-10",
+  "design": {
+    "mechanism": "Erase only the present-tense agreement distinctions and do/does support predetermined by the fully written coordinated subject in a fixed restricted source grammar; reconstruct those distinctions by the same public grammar.",
+    "unit": "One complete canonical named-participant sentence per physical line; finite sequences of such sentences.",
+    "contrast": "Lossless restricted whole-sentence reconstruction with a many-to-one verb channel, versus feature-retaining lemma analysis, voice/focus normalization, an unresolved ambiguity set, or per-occurrence supplied answer lists.",
+    "prediction": "The same encoded verb base occurs with one and with several written subject members, but its exact source inflection is uniquely determined by that independently parsed written context. A missing or ambiguous subject-list parse makes the complete message invalid. No native experiment is selected.",
+    "scope": "Source-only invented notation, finite taught predicate inventory and open exact-name domain; no native sign or word meaning."
+  },
+  "source_domain": {
+    "verbs": [
+      {"base": "lift", "third_singular": "lifts"},
+      {"base": "wash", "third_singular": "washes"},
+      {"base": "carry", "third_singular": "carries"}
+    ],
+    "name_values": "Any nonempty finite string of printable ASCII32..126. A name denotes one named reference in this formal source domain; its internal words do not determine grammatical number.",
+    "quoted_name": "Enclose the exact name value in ASCII double quotes. Inside those quotes, prefix every double quote and every backslash with one backslash; no other escapes are legal. Spaces inside quotes are part of the name. Newlines and non-ASCII names are unsupported.",
+    "subject": "One or more quoted names, joined by exactly the five ASCII characters SPACE and SPACE. Repeated identical names remain repeated source members; do not deduplicate them. Let k be the number of syntactic list members, not the number of distinct names or real-world referents.",
+    "positive": "For k=1: SUBJECT SPACE THIRD_SINGULAR SPACE OBJECT_PERIOD. For k>=2: SUBJECT SPACE BASE SPACE OBJECT_PERIOD. OBJECT_PERIOD is one quoted object name followed immediately by a full stop.",
+    "negative": "For k=1: SUBJECT SPACE does SPACE not SPACE BASE SPACE OBJECT_PERIOD. For k>=2: SUBJECT SPACE do SPACE not SPACE BASE SPACE OBJECT_PERIOD.",
+    "message": "A finite list of these exact sentences joined by LF, with no trailing LF. The empty source string is the empty list. No other capitalization, spacing, contractions, tense, voice or sentence pattern is in this domain. Reject rather than silently normalize other input.",
+    "content": "Present-tense relation assertions about the named references. A coordinated subject is distributive: each listed member bears the predicate to the named object, or for a negative sentence each listed member does not bear it. Negation is not merely an omission of a positive fact. This semantic stipulation is part of the invented source language, not a claim covering every natural English coordination."
+  },
+  "normalized_body": {
+    "positive": "SUBJECT SPACE BASE SPACE OBJECT_PERIOD",
+    "negative": "SUBJECT SPACE not SPACE BASE SPACE OBJECT_PERIOD",
+    "unchanged": "Copy all quoted names byte-exactly in their original order and with their canonical quote escaping, every and, the polarity, the full stop and sentence order. There is no subject omission or implicit participant supplied by a reader.",
+    "writer": "Parse the complete declared source grammar first. Validate agreement against k and the fixed verb table. Emit the corresponding normalized body. An invalid source sentence is rejected.",
+    "reader": "Parse the complete normalized body, treating and and not as operators only outside quoted names. Count its explicit subject members. From the verb base, k and polarity, emit the unique source frame and the fixed third-singular spelling when required. Nothing is learned from a desired answer at that occurrence."
+  },
+  "physical_carrier": {
+    "inventory": "Twenty-two abstract distinct drawings: L0..L20 and E. The labels name individual drawings, not multi-character outputs. No Voynich assignment is made.",
+    "direct": "The21 lower-case ASCII letters a through u map respectively to L0..L20.",
+    "escape": "Every other printable nonspace ASCII character with integer value v in33..126 maps to E followed by exactly two payload drawings L_floor(v/21), L_(v mod21). Inside quoted name values, ASCII SPACE32 also uses this three-sign escape. Thus v through z, upper-case letters, quotes, backslashes, punctuation and exact internal name spaces are paid. The lower-case u remains the direct L20. E is itself not a source ASCII character. Reject escaped a..u as noncanonical.",
+    "space": "Each normalized-body ASCII SPACE outside quoted names is one visible group separation. A space inside a quoted name is instead E,L1,L11, so repeated, leading and trailing name spaces need no unpriced gap-width measurement. The writer knows quoted-name spans from the source grammar. The reader's canonical check rejects a physical blank inside a quoted name or an escaped SPACE outside one.",
+    "lines": "Each sentence occupies exactly one physical line. LF is a sentence boundary, not discretionary wrapping. The empty message has no lines. Choose line width sufficient for the longest encoded sentence; no fixed manuscript raster or overwide-word continuation is claimed. There is no hidden intra-line reset.",
+    "decoder": "At each nonspace position read a direct L sign as its a..u letter, or E plus its two required payload signs as one ASCII value in32..126. Reject illegal ranges, incomplete escapes and noncanonical literals. Apply the complete quote-aware normalized-body parser and require canonical re-encoding, including the inside-name versus outside-name SPACE rule, before source reconstruction. All drawings after E are payload, even if the recovered ASCII character is quote or backslash.",
+    "framing": "One complete sentence is explicitly delimited by its physical line and paid full-stop character. Entire-message start/end is the document boundary. No extra metadata, count, wordbook ID or implicit escape alphabet is used.",
+    "cost": "One sign per direct a..u character, three signs for every other permitted printable character including every internal name SPACE, one visible space per outside-name syntactic SPACE, and one LF per between-sentence boundary. Quote/backslash syntax and punctuation are all charged. Learning costs include21 direct values, the escape arithmetic/table, quote parsing and the six fixed verb spellings."
+  },
+  "inverse_proof": [
+    "The nonblank character carrier is prefix-free: E begins no direct code and consumes exactly two payload signs; all L signs are complete direct codes. Physical SPACE and LF are explicit separate format symbols. This recovers exactly one normalized character string; quote-aware canonical re-encoding checks the two specified uses of decoded SPACE.",
+    "Canonical quoting determines each name span, including names containing and, not, spaces, quotes or backslashes. Outside quotes, the subject is a nonempty list separated by and; the fixed verb bases are disjoint from and and not. The object is one quoted name followed by the full stop. Hence k, verb and polarity are unique.",
+    "The declared source grammar supplies exactly one positive or negative surface sentence for each recovered subject list, verb, object and polarity. Re-encoding that sentence returns the same normalized body. No two distinct permitted source sentences map to the same complete output.",
+    "Nevertheless the isolated verb group is genuinely homographic for source lift/lifts, wash/washes or carry/carries. Its source spelling cannot be decided without the written grammatical context. Source do and does are recoverable omitted words, not unmarked information loss in this restricted domain."
+  ],
+  "hand_examples": [
+    {
+      "source": "\"Ada\" carries \"Box 1\".",
+      "normalized_body": "\"Ada\" carry \"Box 1\".",
+      "reader": "One subject-list member forces carries. The space inside Box 1 stays part of one object name."
+    },
+    {
+      "source": "\"Ada\" and \"Bo\" carry \"Box 1\".",
+      "normalized_body": "\"Ada\" and \"Bo\" carry \"Box 1\".",
+      "reader": "Two explicit subject-list members force carry, using the same isolated written verb group as the preceding example."
+    },
+    {
+      "source": "\"Ada\" does not wash \"Bo\".",
+      "normalized_body": "\"Ada\" not wash \"Bo\".",
+      "reader": "One member plus written not restores does not wash, preserving polarity."
+    },
+    {
+      "source": "\"Ada and Bo\" lifts \"not\".",
+      "normalized_body": "\"Ada and Bo\" lift \"not\".",
+      "reader": "There is one quoted subject name. Neither the internal and nor the object name not changes grammar."
+    },
+    {
+      "source": "\"Ada\" and \"Ada\" do not lift \"Bo\".",
+      "normalized_body": "\"Ada\" and \"Ada\" not lift \"Bo\".",
+      "reader": "The syntactically repeated member is retained, so k=2 and do is restored. Do not substitute distinct-name counting."
+    }
+  ],
+  "small_carrier_examples": {
+    "ASCII_internal_name_space_32": ["E", "L1", "L11"],
+    "ASCII_double_quote_34": ["E", "L1", "L13"],
+    "ASCII_A_65": ["E", "L3", "L2"],
+    "ASCII_y_121": ["E", "L5", "L16"],
+    "ASCII_full_stop_46": ["E", "L2", "L4"],
+    "ASCII_backslash_92": ["E", "L4", "L8"]
+  },
+  "predecessors": [
+    {"id": "IDEA000952", "distinction": "Its inspected card writes/repeats explicit case-number and mood features. Here a specifically redundant verb feature is absent from the output and recovered from overt subject coordination. The old source/carrier limitations remain, and no r/l values are used."},
+    {"id": "IDEA000976", "distinction": "That source note normalizes active/passive voice and focus. This construction preserves the exact canonical source surface on its narrower grammar; it has no passive input or four-group record-end architecture."},
+    {"id": "IDEA000975", "distinction": "That complete minim channel returns an ambiguity set, including unresolved rim/run. This channel has a unique inverse for every declared complete source sentence while its individual verb group remains ambiguous."},
+    {"id": "IDEA000971", "distinction": "No missing public candidate-set rule or shortest phonetic complement is invoked. The complete public controller is explicitly written subject-list syntax and a fixed verb table; no supplement is emitted."},
+    {"id": "GDT1222", "primary": "experiments/yolo/gdt1222_lemma_inflection_source_screen/METHOD.md", "distinction": "The inspected method retains lemma, UPOS and every declared feature and reconstructs that analysis stream, not original FORM. This method deliberately omits only a feature that its written context uniquely recovers, and reconstructs the exact restricted canonical source sentence. It does not rescue the fixed historical-source frequency failure."},
+    {"id": "GDT1160", "primary": "experiments/yolo/gdt1160_contextual_abbreviation_inverse/METHOD.md", "distinction": "Its supervised source-context expansion gain is already positive and is not rediscovered here. This is a finite hand grammar with a complete inverse rather than a learned ranker; no natural historical coverage follows."},
+    {"id": "GDT1171", "primary": "experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md", "distinction": "The fixed four-character-history contextual source decoder's no-useful-gain decision is retained. This is not a model-order, reference-source or fitted-candidate repair."}
+  ],
+  "prospective_consequences": {
+    "formal": "In this fixed input domain, changing the explicit subject list from one member to several changes required source agreement while leaving the normalized verb group unchanged. The same complete normalized body cannot support two permitted source sentences. Arbitrary broader grammar, collective readings, tense variation or omitted subjects would invalidate that uniqueness claim unless separately specified; they are not admitted here.",
+    "native_limit": "A native application would require an independently justified subject-list/quote/predicate interpretation and exact carrier binding. Neither is supplied. No native word has been assigned a meaning, no known ending has been called agreement, and the construction is not selected for a manuscript test.",
+    "frequency_limit": "The complete-sentence map is injective while word spellings merge and do-support words disappear. Therefore do not apply a one-source-word/one-output-group injection theorem directly. Conversely, collapsing inflected variants is not evidence that any real source-frequency gate will pass.",
+    "carrier_limit": "The literal/escape alphabet and one-sentence-per-line format are exact commitments, not fitted to native groups. Existing native prefix, role, length and line-boundary constraints must be checked before any selection; a failure may reject this carrier without rejecting all grammatical redundancy reduction. No alternative carrier is silently supplied."
+  },
+  "novelty_and_timing": "Bounded source-free review only. The stated cards and named Markdown primaries were read; no exact complete agreement-erasure contract was identified. This is not an assertion of historical novelty or exhaustive registry absence. The concept is deliberately narrow and taught, not evidence that a native text uses it. No source/native counts, program, image or empirical test was run.",
+  "not_claimed": ["Historical attestation", "General English recoverability", "Native meanings or sign values", "A decipherment or statistical PASS", "A repair of952,975,976,1171 or1222", "Uncharged names, boundaries or grammar"]
+}
