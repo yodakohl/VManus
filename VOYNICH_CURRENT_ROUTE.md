@@ -2,13 +2,13 @@
 Updated: 2026-10-10.
 
 ## Work
-Phase: exploration
+Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 1318edit consistency gate fails.
-Working files: GDT1318.
-Assumptions: Boundary edits.
-Resume: No edit/weight repair.
+Latest decision: SIAchronology open.
+Working files: SIA001.
+Assumptions: No new pixels.
+Resume: No chronology from placement.
 Running: none.
 
 ## Structural baseline
@@ -19,6 +19,7 @@ Wholeform/entry608/282/286/318;BPE selection1306.
 No proven parser/alphabet.
 1310aliases;1311gap open;1314cfh fits.
 1317unseenFAIL not mechanism rejection.
+1318edit transfer FAIL.
 No default Latin/phonetics;k/t open(1058).
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -72,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public72cc18766.
+Publicba62ad4a4.

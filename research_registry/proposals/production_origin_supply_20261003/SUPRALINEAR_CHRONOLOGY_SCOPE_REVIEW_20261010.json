@@ -1,0 +1,49 @@
+{
+  "record_id": "HIST:d807c77f52e89593",
+  "scope": "acquisition",
+  "verdict": "supported_limited",
+  "reviewer": "root documentary/logic review plus bounded source-free method reviewer; no new image inspection",
+  "assessment_basis": "supralinear_geometry_does_not_identify_writing_chronology",
+  "reason": "Retain the original SIA001two-of-two/five-gatePASS and its documented spatial observations atf31r.7/f50v.8. Those criteria establish bounded, anchored supralinear geometry with a coherent baseline, but do not independently establish the 'distinct later insertion' asked by the method. Gate4allows noncontinuous placement instead of an ordered overlap; gate5baselinecoherence doesnot exclude a planned multipart unit. This is a claim-scope qualification, not a new pixel judgment or a reversal of the original arithmetic/gate classification.",
+  "blockers": [
+    {
+      "code": "geometric_gates_do_not_determine_chronology",
+      "detail": "Two counterhistories can yield the same final anchored geometry: uppermark first then planned baseline, or baseline first then uppermark. No temporal overlap relation is required by the five gates. Even demonstrated baseline-before-upper order would not by itself distinguish normal multipart construction from revising a previously completed expression. The actual marks are not assigned to either history.",
+      "evidence": [
+        "experiments/semantic_assumptions/SIA001_SUPRALINEAR_ADDITION_METHOD.md",
+        "experiments/semantic_assumptions/results/sia001_supralinear_addition_result_report.md"
+      ]
+    },
+    {
+      "code": "source_comment_not_independent_time_validation",
+      "detail": "The source comments used for selecting the loci already allege an addition/afterwards. A subsequent pass on spatial separation, ink density or baseline coherence does not independently verify that chronological interpretation. Ink darkness alone is not a supplied temporal ordering. No actual glyph identity, correction intent or meaning is established.",
+      "evidence": [
+        "experiments/semantic_assumptions/SIA001_SUPRALINEAR_ADDITION_METHOD.md",
+        "experiments/semantic_assumptions/results/sia001_supralinear_addition_selection_report.md",
+        "experiments/semantic_assumptions/results/sia001_supralinear_addition_result_report.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independently_ordered_physical_states",
+        "change": "new_data",
+        "detail": "An independently interpretable temporal cue or distinct physical states at a precisely owned locus. Establishing local stroke order and establishing revision of a completed expression are separate claims. Another look at the same geometry, an asserted reading or the original afterwards-comment is not enough.",
+        "evidence": [
+          "experiments/semantic_assumptions/SIA001_SUPRALINEAR_ADDITION_METHOD.md",
+          "experiments/semantic_assumptions/results/sia001_supralinear_addition_result_report.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treat all-five geometric PASS as a dated before/after manuscript state",
+      "Infer revision from a coherent baseline after mentally removing a mark",
+      "Treat darker ink or separated placement alone as a clock",
+      "Assign sh or any other actual glyph identity from this logical review",
+      "Use the two loci as a meaning-bearing correction pair"
+    ]
+  },
+  "relations": []
+}

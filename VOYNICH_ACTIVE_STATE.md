@@ -1,3 +1,13 @@
+# 2026-10-10 SIA001 — interpretive chronology qualification
+
+Documentary/logic review preserves original2/2fivegatePASS and twoanchored
+supralinearmarks. TheMETHOD'sdistinctLATERinsertion questionisnotresolved
+bythesegeometriccriteria:upper-firstandbaseline-firstcanendidentically.
+Evenlocalstrokeorderwouldnotaloneprovearevisionofcompletedtext.
+Noactualglyphidentity/imagecorrectionornewnativeobservation. No newexperiment.
+Review: research_registry/proposals/production_origin_supply_20261003/SUPRALINEAR_CHRONOLOGY_SCOPE_REVIEW_20261010.json.
+1318andallotherfixedfailuresremain; nextselectionneedsactualnewdiscriminator.
+
 # 2026-10-10 GDT1318 — fixed boundary-edit predictor not selected
 
 TransferredFIRST/LASToneunitrules generatealloutcomes, preservinginteriors.
