@@ -5,10 +5,10 @@ Updated: 2026-10-10.
 Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 1320 IIDchoice fails.
-Working files: gdt1320.
-Assumptions: Fixed expansion.
-Resume: No direction selection.
+Latest decision: 1321 fulloneclass.
+Working files: gdt1321.
+Assumptions: Fixed sign classes.
+Resume: No block-return repair.
 Running: none.
 
 ## Structural baseline
@@ -16,7 +16,7 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole gain;1316halves ALL+/newFAIL;1320word-choice+.
 852:same-line join/split differs;meaning open.
-No proven parser/alphabet.
+No proven parser/alphabet;1321blocksFAIL.
 1310aliases;1311gap open;1314cfh fits.
 1317unseenFAIL not mechanism rejection.
 1318edit transfer FAIL;1319active I/O constant.
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicb7fb1a635.
+Publicc28c56ebf.

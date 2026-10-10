@@ -10392,3 +10392,8 @@ gezeigt. Bestehende positive Ergebnisse und gescheiterte Tests bleiben bestehen.
 ### GDT1320: optionale Verbindung braucht mehr als eine einheitliche Gewohnheit
 
 Der [feste Vergleich](../../../experiments/yolo/gdt1320_optional_fusion_choice/REPORT.md) erhält in beiden Auflösungsrichtungen und jedem Leser einen Vorhersagegewinn durch die angenommene ganze Quellform. Die einfache unabhängige Wahl pro Currier/Hochform wird unter den Panelannahmen nicht beibehalten. Kein Nachweis von Ligaturen, Bedeutungen oder einer richtigen Richtung; unbekannte Quellformen gewinnen hier nichts. Hand, Position und andere Abhängigkeiten bleiben mögliche Erklärungen. Keine automatische Modellreparatur.
+
+
+### GDT1321: frei geordnete Blöcke mit festen Zeichenklassen
+
+Der [vollständige Abschluss](../../../experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md) erzwingt auch ohne globale Blockreihenfolge eine einzige Klasse für alle22Zeichen. Damit scheitert die nichttriviale Ein-Block-je-Zeichenklasse-Schreibweise am vollen Panel. Die vorab festgelegte Zwei-Blätter-Diagnose behält19Kernzeichen plusq,n,m; sie ersetzt nicht das volle Ergebnis. Überlappende Zeicheninventare gewöhnlicher Wortteile bleiben möglich. Keine Bedeutungszuordnung oder automatische Mehrfachblock-Reparatur.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1319**
-- Experiment-associated tracked files: **26,019** (2.3 GiB)
-- Structured GDT337+ experiments: **984**
+- Experiments indexed: **1320**
+- Experiment-associated tracked files: **26,031** (2.3 GiB)
+- Structured GDT337+ experiments: **985**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1321 | GDT1321_nonreturning_word_blocks | `FULL_NONRETURNING_CLASSES_EXCLUDED` | [report](../experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md) | 12 | 137.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT1320 | GDT1320_optional_fusion_choice | `WORD_CONDITIONED_CHOICE_GAIN_ALL_CASES` | [report](../experiments/yolo/gdt1320_optional_fusion_choice/REPORT.md) | 13 | 433.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT1319 | GDT1319_cross_word_endpoint_state | `ACTIVE_CHANNEL_CONSTANT_ALL_READINGS` | [report](../experiments/yolo/gdt1319_cross_word_endpoint_state/REPORT.md) | 14 | 2.0 MiB | 6 | STRUCTURED_YOLO |
 | GDT1318 | GDT1318_boundary_edit_form_prediction | `NO_BOUNDARY_EDIT_PREDICTIVE_LEAD` | [report](../experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md) | 15 | 2.9 MiB | 13 | STRUCTURED_YOLO |
