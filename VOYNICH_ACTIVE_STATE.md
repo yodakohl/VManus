@@ -1,3 +1,12 @@
+# 2026-10-10 — IDEA882 workflow curation
+
+882nowrecords existing1149/1150/6Octoberreview/1283limitations; exactwrap-spanning
+proposal remainsnot_tested.1150same-linecounterpartabsence isnot882refutation.
+No newnativefinding, dataaccess, image, counting ormeaning.1315stopunchanged.
+Boundedproducer found no genuinelynewcompletewriter; nofillerRAW.
+Next selection must follow currentroute and substantive newdiscriminator,
+notimported-unreviewed status or unchanged missing-inputaudit.
+
 # 2026-10-10 GDT1315 — fixed local renderer excluded
 
 All1314survivingkeys need3wholeforms inoneidentical decoded-neighbor/page/

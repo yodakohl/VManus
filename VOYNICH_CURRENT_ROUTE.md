@@ -2,13 +2,13 @@
 Updated: 2026-10-10.
 
 ## Work
-Phase: exploration
+Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 1315local two-state writer fails.
-Working files: GDT1315.
-Assumptions: Fixed local inputs.
-Resume: Read1315; no state/context repair.
+Latest decision: 882prior stops curated; no test.
+Working files: IDEA882 review.
+Assumptions: No new native claim.
+Resume: Select new discriminator; retain1315.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Public36c8183b1.
+Public1cc4befcf.

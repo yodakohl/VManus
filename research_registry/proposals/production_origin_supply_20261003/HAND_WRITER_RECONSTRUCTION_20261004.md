@@ -10268,3 +10268,14 @@ andfreechoiceoutsidecontract.3isnecessary,notanachievablemachineornativestatecou
 See experiments/yolo/gdt1315_binary_local_renderer_capacity/REPORT.md and
 BINARY_LOCAL_RENDERER_REVIEW_20261010.json. Independent81007sourcejoins50874triples
 146586cellsverified. Source-free producerreviewbeforecount; nonewRAWcard.
+
+## 2026-10-10 — IDEA882 routing only; no new experiment
+
+Attach the existing1149/1150/6Octoberpriorreview/1283decisions to882's still
+imported-unreviewed card. The wrap-spanningright2/right3proposal remainsNOT_TESTED,
+not anexactduplicate or refutation by1150's same-line no-counterpart result.
+1149entryasymmetry ispositive;1150missingcomparisons and1283unboundwidths remain
+capacitystops. No d deletion, B/Didentity or meaning follows. No repeated census,
+newimage, sourcequery or decoder. Existing failures/RAWbytes unchanged.
+MINIM_ENTRY882_ROUTING_REVIEW_20261010.json isworkflowcuration, notnativeprogress.
+The boundedproducer found no new completecandidate; nofillerRAWadded.
