@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1316",
+  "slug": "fixed_half_form_prediction",
+  "title": "Fixed midpoint fragment recombination versus character and whole-form predictors",
+  "created": "2026-10-10",
+  "updated": "2026-10-10",
+  "status": "NO_PRODUCTIVE_HALF_FORM_LEAD",
+  "question": "Does a fixed midpoint fragment mixture improve both all-word and globally unseen whole-word prediction beyond the unchanged1308M1?",
+  "claim_ceiling": "Fixed exposed predictive component; aggregate gain retained but unseen gate fails; no native halves, source encoder, language, meanings or independent confirmation.",
+  "dependencies": [
+    "GDT1308",
+    "GDT1309",
+    "GDT1233",
+    "GDT915",
+    "GDT160",
+    "GDT326",
+    "GDT608",
+    "GDT1246",
+    "GDT1285",
+    "GDT1306"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "fixed guarded current source and metadata"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL.json",
+      "sha256": "36297201b1c2998226d876bb032cfe2fdc640e28aec31973d06bea240604d5bb",
+      "role": "unchanged1308training model or held event scores"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/EVENTS.json.gz",
+      "sha256": "55bc1add546cebd4136bfd6f83d6d18dcde2999f96ed871cb38c350f8639cd86",
+      "role": "unchanged1308training model or held event scores"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/METHOD.md",
+      "sha256": "c113bd02517f3f79393aa4e57ed25ec8c37366566b55fc9e0a5c36f198f4be42",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/PREREGISTRATION.md",
+      "sha256": "c113bd02517f3f79393aa4e57ed25ec8c37366566b55fc9e0a5c36f198f4be42",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/README.md",
+      "sha256": "bbb8905f924d112fe09c040e57357f5035f284e5124e848ca2f3a85da626c33c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md",
+      "sha256": "fef018adc91944be62f8267194ec8760b579d7373f3e2021846f4cacd67b2ce7",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/EVENTS.json.gz",
+      "sha256": "14804a3321917e31d747d81a122d50648ab0cde1065c186c2feaac372c52d96a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/MODEL_H.json",
+      "sha256": "b2717c8bf788db54e5776c952b526b6962d824c3ccc0ec909e18a1d44c3d62ee",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/POST_RESULT_DESCRIPTION.json",
+      "sha256": "16bc4eaef17d955fb7deec7704929432579091356691b13b79201d759f235cb7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/README.md",
+      "sha256": "9a6021b5f2ca857636071cbec0fd18e8314e6f8c87b00976a78233409b79a34a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/RESULT.json",
+      "sha256": "fb66bac0a1e98c90b7a2e9f3cb12742532e7bbd06700236a75442c23605062f2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/VALIDATION.json",
+      "sha256": "f037759000a746e8811fa002d054c23792eff76c6719af727901a392330bc94c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/src/PROOF_REVIEW.json",
+      "sha256": "f7b70fa72363e217b101c444d29fd2f843c653ed5689d29b6405900927a30680",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/src/REGISTRATION_LOCK.json",
+      "sha256": "56f60fc6370c47d7015106897bae72b482a26c46778a5dbc666a92a7941beeed",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/src/describe.py",
+      "sha256": "ded909f1b477440023044120516104ab018e74523683fd86c919ae5a7860e9df",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/src/run.py",
+      "sha256": "d71e5e189ce89d7c22fd1120804cd5728ccefe0905713cb0329af882e9d44640",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/src/validate.py",
+      "sha256": "a177d47b83a6839ce17fc6c79c5b1f477312856a2f3d16632cb51f93f1592cdd",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1316_fixed_half_form_prediction/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1316_fixed_half_form_prediction/src/validate.py"
+  },
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": "Complete fixed score packet compressed, no images or executables."
+  }
+}

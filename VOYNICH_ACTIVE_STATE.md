@@ -1,3 +1,14 @@
+# 2026-10-10 GDT1316 — aggregate gain, failed unseen gate
+
+Fixedmidpointfragmentmixture improvesALLvs1308M1on46/43/43leaves andbeats
+wholemixtureoverall. But globalunseenwordmeansnegative-.245110/-.256621/-.277827;
+conjunctivegateFAILallreadings. Retainaggregatepositivewithoutproductivewriterclaim.
+Hsupports480/597/502newwholeoccurrences;other1112/1259/1138penaltiesretained.
+Fragmententrycounts2274/2489/2276nearlywholetablecost; noMDLorwordmeanings.
+Independent61181joins23496scores49exactnormalizedtablesPASS.
+Next: differentindependentlymotivatedconstruction, notautomaticmidpoint/weight/
+seam/smoothingrepair. Primary experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md.
+
 # 2026-10-10 — IDEA882 workflow curation
 
 882nowrecords existing1149/1150/6Octoberreview/1283limitations; exactwrap-spanning

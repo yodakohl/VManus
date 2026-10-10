@@ -2,19 +2,19 @@
 Updated: 2026-10-10.
 
 ## Work
-Phase: workflow
+Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 882prior stops curated; no test.
-Working files: IDEA882 review.
-Assumptions: No new native claim.
-Resume: Select new discriminator; retain1315.
+Latest decision: 1316ALL gain; unseen gate fails.
+Working files: GDT1316.
+Assumptions: Fixed midpoint.
+Resume: New construction; no midpoint repair.
 Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
 Wholeform/entry608/282/286/318;BPE selection1306.
-1308whole-form gain;1309distributed,not lexical minimum.
+1308/9whole gain/distributed;1316halves ALL+/newFAIL.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet.
 1310aliases;1311gap open;1314cfh capacity.
@@ -72,4 +72,4 @@ Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
 Results: ledger.
-Public1cc4befcf.
+Public84e7ccf2c.

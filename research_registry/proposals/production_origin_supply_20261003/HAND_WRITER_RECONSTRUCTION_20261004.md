@@ -10279,3 +10279,17 @@ capacitystops. No d deletion, B/Didentity or meaning follows. No repeated census
 newimage, sourcequery or decoder. Existing failures/RAWbytes unchanged.
 MINIM_ENTRY882_ROUTING_REVIEW_20261010.json isworkflowcuration, notnativeprogress.
 The boundedproducer found no new completecandidate; nofillerRAWadded.
+
+## 2026-10-10 — GDT1316: useful aggregate fragments, unseen gate failed
+
+Frozenmidpoint Hsamplesleftthenrightconditionalonlylastleftunit. MIX_H50:50
+withunchanged1308M1gainsALL+.162811/+.138111/+.159988nat/word,46/43/43positive
+leaves, andbeatsoldwholemixtureoverall+.075461/+.067491/+.072256. BUTglobal
+unseenmeans-.245110/-.256621/-.277827with4/3/1positiveleaves:conjunctionFAIL.
+Hpositive480/597/502unseenoccurrencesvs1112/1259/1138H0; post-resultpartition
+notnewgate. Fragmententries2274/2489/2276vswhole2329/2591/2299, nottinycode/MDL.
+Post-selectedalalor=ala|lor example fromTRAINalaiinandchealor/okalor/opalor
+illustratesnewpairingonly;nomeaningormorphemes. Independent61181joins23496
+heldscores49normalizedtablesPASS. Old1285/1246/openingclosingfailuresretained.
+See experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md and
+FIXED_HALF_FORM_REVIEW_20261010.json. No split/weight/seamrepair ordecoder.
