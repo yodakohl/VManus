@@ -10331,3 +10331,16 @@ Retain twoanchoredsupralinearmarks; do notexportchronology/correctionintent/
 glyphidentity/meaning. See SUPRALINEAR_CHRONOLOGY_SCOPE_REVIEW_20261010.json
 (curatesHIST:d807c77f52e89593). Rootandboundedrevieweragreeonthelogic; neither
 reopenedtheimages. Alllegacybytes/counts/PASSremain. No newexperimentID.
+
+## 2026-10-10 — restore documented160/161results in live lookup
+
+Both completed reports were routed asUNREGISTERED with empty question/summary.
+Append documentary ledger rows with their actual original decisions; no retrospective
+preregistration and no source/program/result bytes changed.160 retains specific
+LEFT×RIGHTpairing excess;161 retains failed latent-class prediction versus host
+baseline (-.306214bits/cell,0/12positivefolds). K32isnot a native class inventory.
+168calibrates separate162–167instruments; it is not a direct161rescue.
+See PAIRING160_RESULT_REVIEW_20261010.json and CLASSES161_RESULT_REVIEW_20261010.json.
+Recent1316/1318scores and1317interpretive limit stay unchanged. No new native
+finding, calculation, image, source access or meaning. Boundedproducer supplied
+no new completecandidate; no fillerRAW added.

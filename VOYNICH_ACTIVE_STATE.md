@@ -1,3 +1,12 @@
+# 2026-10-10 — documented160/161result routing
+
+160/161lookup fallbackUNREGISTERED replaced via appended documentaryledgerrows
+with their ORIGINALpositivepairing/failedlatentclass decisions. No oldfile changed,
+no retrospectivepreregistration,newcount,image orwordmeaning.
+160specificpairing remains;161-.306214bits/cell,0/12positivefolds remainsfailed.
+168isnotdirect161calibration; recent1316/1318also do notsupersede these results.
+Reviews inexisting production_origin_supply dossier. No newtestselected.
+
 # 2026-10-10 SIA001 — interpretive chronology qualification
 
 Documentary/logic review preserves original2/2fivegatePASS and twoanchored

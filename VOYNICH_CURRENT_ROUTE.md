@@ -5,15 +5,15 @@ Updated: 2026-10-10.
 Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: SIAchronology open.
-Working files: SIA001.
-Assumptions: No new pixels.
-Resume: No chronology from placement.
+Latest decision: 160/161 routed.
+Working files: 160/161.
+Assumptions: No new result.
+Resume: Select; retain failures.
 Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
-Wholeform/entry608/282/286/318;BPE selection1306.
+160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole gain/distributed;1316halves ALL+/newFAIL.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet.
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicba62ad4a4.
+Public606ba8b4e.

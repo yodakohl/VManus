@@ -9,7 +9,7 @@ The authoritative scientific status remains
 - Experiments indexed: **1317**
 - Experiment-associated tracked files: **25,992** (2.3 GiB)
 - Structured GDT337+ experiments: **982**
-- IDs without a ledger entry: **165**
+- IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
 
@@ -1176,8 +1176,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT164 | GDT164 | `UNREGISTERED` | [report](../GDT164_PARSER_INDEPENDENT_SUBSTITUTION_REPORT.md) | 14 | 5.0 MiB | 4 | LEGACY_ROOT |
 | GDT163 | GDT163 | `UNREGISTERED` | [report](../GDT163_SUBSTITUTION_CONTEXT_TRANSFER_REPORT.md) | 15 | 10.0 MiB | 4 | LEGACY_ROOT |
 | GDT162 | GDT162 | `UNREGISTERED` | [report](../GDT162_PAGE_HOST_CODEBOOK_REPORT.md) | 16 | 320.4 KiB | 5 | LEGACY_ROOT |
-| GDT161 | GDT161 | `UNREGISTERED` | [report](../GDT161_LATENT_OPERATION_CLASS_REPORT.md) | 16 | 1.4 MiB | 3 | LEGACY_ROOT |
-| GDT160 | GDT160 | `UNREGISTERED` | [report](../GDT160_COMPATIBILITY_PAIRING_NULL_REPORT.md) | 14 | 2.1 MiB | 2 | LEGACY_ROOT |
+| GDT161 | GDT161_documented_result_routing | `LATENT_CLASSES_NOT_ABOVE_HOST_DEGREE_BASELINES` | [report](../GDT161_LATENT_OPERATION_CLASS_REPORT.md) | 16 | 1.4 MiB | 3 | LEGACY_ROOT |
+| GDT160 | GDT160_documented_result_routing | `SPECIFIC_LEFT_RIGHT_PAIRING_EXCESS_SUPPORTED` | [report](../GDT160_COMPATIBILITY_PAIRING_NULL_REPORT.md) | 14 | 2.1 MiB | 2 | LEGACY_ROOT |
 | GDT159 | GDT159 | `UNREGISTERED` | [report](../GDT159_DIPLOMATIC_SOURCE_AUDIT.md) | 19 | 1.7 MiB | 3 | LEGACY_ROOT |
 | GDT158 | GDT158 | `UNREGISTERED` | [report](../GDT158_STRUCTURED_CONTROL_SOURCE_AUDIT.md) | 18 | 3.9 MiB | 3 | LEGACY_ROOT |
 | GDT157 | GDT157 | `UNREGISTERED` | [report](../GDT157_LEARNED_ABBREVIATION_CAUSAL_REPORT.md) | 20 | 9.4 MiB | 2 | LEGACY_ROOT |
