@@ -5,10 +5,10 @@ Updated: 2026-10-10.
 Phase: exploration
 Status: checkpoint
 Task: Select.
-Latest decision: 1317raw-unseen oracle countercase.
-Working files: GDT1317.
-Assumptions: Source-free toy.
-Resume: Retain1316FAIL; no rerun.
+Latest decision: 1318edit consistency gate fails.
+Working files: GDT1318.
+Assumptions: Boundary edits.
+Resume: No edit/weight repair.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicb47d46ca0.
+Public72cc18766.

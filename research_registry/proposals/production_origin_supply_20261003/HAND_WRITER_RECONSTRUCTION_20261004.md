@@ -10305,3 +10305,15 @@ perfectHknowledge.1316registeredconjunctionFAILandno-retuningstop remain.
 No nativeexplanation/power/false-negative-rateestimate orreplacementgate; toy
 constructedafter1316. See experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md
 and UNSEEN_ORACLE_SCORE_REVIEW_20261010.json. Controlfinding,notnativefinding.
+
+## 2026-10-10 — GDT1318: boundary edits fail cross-leaf consistency
+
+FixedlearnedFIRST/LASToneunitruletransfer normalizedoveralloutputs. NEW=.5M1+
+.25Q+.25EvsOLD=.5M1+.5Q. ALL equal-leafgain+.016497/.019466/.015738butonly
+20/22/23of46positiveleaves; tokenmeans-.040337/-.034404/-.028898. ConsistencyFAIL.
+UnseenEpositive658/788/667on46leaves iscoverage, notaccuracy;unseenOLDgains
+areautomaticwhenE>0. Rulespreserveentireinteriors.566/604/586ruleentriesplus
+wholeinventory;41682/48080/40322output-cellentries. Independent61181joins
+130084inverseoutputs23496scoresPASS. Noedit/weight/thresholdrepair.
+See experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md and
+BOUNDARY_EDIT_FORM_REVIEW_20261010.json.1316/1317andoldanalogydecisionsretained.

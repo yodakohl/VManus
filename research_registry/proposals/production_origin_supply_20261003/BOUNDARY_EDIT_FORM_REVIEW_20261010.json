@@ -1,0 +1,130 @@
+{
+  "record_id": "GDT1318",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "reviewer": "root independent source/inverse-path verifier; bounded producer pre-count source-free review",
+  "assessment_basis": "normalized_boundary_edit_transfer_full_word_prediction",
+  "reason": "ALL NEWvsOLD equal-leaf means+.016497/.019466/.015738 butonly20/22/23of46positiveleaves, failing2/3consistency. Tokenmeans-.040337/-.034404/-.028898. UnseenEpositivecoverage658/788/667on46leavespassesbutisnotaccuracy. Fixedsamplerdoesnotaddconsistentgain; noautomaticrepair.",
+  "blockers": [
+    {
+      "code": "failed_cross_leaf_consistency",
+      "detail": "Positive equal-leafmean cannot override20/22/23positiveleaves; alltokenmeansnegative. Coveragealonecannotselectsampler.",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "code": "spelling_predictor_not_semantic_writer",
+      "detail": "Ruleschangeoneboundaryunit andpreserveallinteriors. UnseenNEWvsOLDgainautomaticwhenE>0; noactualsource/meaning/inverseconstruction identified.1317interpretationlimitretained.",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "different_independently_motivated_construction",
+        "change": "new_design",
+        "detail": "A concrete independentlymotivated construction with a genuinelydifferent predeclaredconsequence, notautomaticeditlength/position/weight/threshold/multieditsearch.",
+        "evidence": [
+          "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Promotepositiveequal-leafmeanwhileignoringconsistency",
+      "Callnovelcoveragecorrectwordpredictions",
+      "UseunseenOLDgainasindependentsuccess",
+      "Assignmeaningtoendunitreplacement",
+      "Fitpage-specificrepairafteroutcome"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1308",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1316",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1317",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1233",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT915",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT160",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT161",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT522",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT524",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT746",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT914",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1170",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md"
+      ]
+    }
+  ]
+}

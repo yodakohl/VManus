@@ -1,3 +1,14 @@
+# 2026-10-10 GDT1318 — fixed boundary-edit predictor not selected
+
+TransferredFIRST/LASToneunitrules generatealloutcomes, preservinginteriors.
+ALLvswholebaselineequal-leafmeans+.016497/.019466/.015738but20/22/23positive
+leavesof46fails2/3gate. Tokenmeansnegative.658/788/667newwholeoccurrences
+coveredon46leaves, notcorrectpredictioncounts;unseenOLDgainalgebraicautomatic.
+Independent61181joins130084inverseprobabilities23496scoresPASS.
+Noactualscribaloperationorwordmeaning;1317scoreinterpretationlimitretained.
+Next: distinctconstruction, noautomaticeditposition/weight/multieditrepair.
+Primary experiments/yolo/gdt1318_boundary_edit_form_prediction/REPORT.md.
+
 # 2026-10-10 GDT1317 — oracle control, no native rerun
 
 Exactsource-freecounterexample:fittedH=truth,ALLgain+.894359yetrawUNSEEN-.121259.
