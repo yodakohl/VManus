@@ -10411,3 +10411,10 @@ Die [Quellenkollation](TRITHEMIUS_SOURCE_COLLATION_20261010.json) ersetzt die bi
 Entscheidende Präzisierung: Vorgegebene Zusatzphrasen außerhalb der Alphabete tragen keine Nachrichtenbuchstaben. RegelIV erlaubt unter ihren Fortsetzungsbedingungen einen Neustart, eine Wiederaufnahme andernorts oder die Fortsetzung inBuchII. Das starre Positionsschema des altenRAW ist enger als die tatsächliche Quelle. Kein freies Überspringen, keine nachträglich erfundenen Nullwörter. Die Erkennbarkeit jedes Neustarts ist hier nicht formal bewiesen.
 
 Dies ist historische Quellenarbeit, keine Voynich-Lesung. Das vollständige Tabellenwerk und eine native Bindung fehlen weiterhin;1518belegt keine Praxis um1420. Kein Decoder oder Zieltest ausgewählt. Die96Tabellenzellen, sechs Quellenbilder, Integritätsprüfung und das Autorenbeispiel sind reproduzierbar gespeichert.
+
+
+### IDEA925: vollständiger erster Beispielsatz bleibt unbestätigt
+
+Die [begrenzte Satzprüfung](TRITHEMIUS_FIRST_PERIOD_20261010.json) findet eine konkrete Abweichung: Spalte10hat a=celis und b=celestibus, das Beispiel dagegen cælis; der angegebene Geheimtext verlangt an dieser Stelleb. Schon wörtlich sind die Formen verschieden; auch mit ausdrücklich zugestandeneræ/e-Gleichsetzung würdea stattb entstehen. Die Ursache bleibt offen. Die zusätzliche Lesung expectentibus und die Endungsabbreviatur bei amenitate bleiben gesondert qualifiziert. Keine stille Quellenkorrektur.
+
+Zugleich präzisiert die Tabelle den Ablauf: Eine Zelle ist nicht immer ein Wort; etwa secula seculorum, euum sanctum und regno celorum sind jeein codierender Eintrag. Die vorgegebenen Zusätze nachSpalte8,9,10sind davon getrennt. Der alte CAUE-Vierbuchstabenbeleg bleibt erhalten; ein exakter vollständiger Satz-Replay ist nicht bestätigt. Keine neue Voynich-Aussage und kein Zieldecoder.

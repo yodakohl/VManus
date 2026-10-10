@@ -1,0 +1,177 @@
+{
+  "status": "FULL_FIRST_PERIOD_NOT_VALIDATED",
+  "message_prefix_printed": "caue tibi ab",
+  "message_prefix_table_labels": "cavetibiab",
+  "normalization": "Case folded and printed u/v convention used for message labels; original message spaces not represented. No general lexical/orthographic correction installed.",
+  "cells": [
+    {
+      "column": 1,
+      "expected_message_label": "c",
+      "table_entry": "Conditor",
+      "author_example_reading": "Conditor",
+      "assessment": "MATCH",
+      "table_source": "polygraphia_0033.jpg",
+      "side": "left"
+    },
+    {
+      "column": 2,
+      "expected_message_label": "a",
+      "table_entry": "clemens",
+      "author_example_reading": "clemens",
+      "assessment": "MATCH",
+      "table_source": "polygraphia_0033.jpg",
+      "side": "right"
+    },
+    {
+      "column": 3,
+      "expected_message_label": "v",
+      "table_entry": "discernens",
+      "author_example_reading": "discernens",
+      "assessment": "MATCH",
+      "table_source": "polygraphia_0034.jpg",
+      "side": "left"
+    },
+    {
+      "column": 4,
+      "expected_message_label": "e",
+      "table_entry": "mundana",
+      "author_example_reading": "mundana",
+      "assessment": "MATCH",
+      "table_source": "polygraphia_0034.jpg",
+      "side": "right"
+    },
+    {
+      "column": 5,
+      "expected_message_label": "t",
+      "table_entry": "insinuet",
+      "author_example_reading": "insinuet",
+      "assessment": "MATCH",
+      "table_source": "polygraphia_0035.jpg",
+      "side": "left"
+    },
+    {
+      "column": 6,
+      "expected_message_label": "i",
+      "table_entry": "expetentibus",
+      "author_example_reading": "expectentibus",
+      "assessment": "APPARENT_LITERAL_MISMATCH",
+      "table_source": "polygraphia_0035.jpg",
+      "side": "right"
+    },
+    {
+      "column": 7,
+      "expected_message_label": "b",
+      "table_entry": "amenitatem",
+      "author_example_reading": "amenitate [final abbreviation unresolved]",
+      "assessment": "ENDING_READING_UNRESOLVED",
+      "table_source": "polygraphia_0036.jpg",
+      "side": "left"
+    },
+    {
+      "column": 8,
+      "expected_message_label": "i",
+      "table_entry": "seraphicam",
+      "author_example_reading": "seraphicā",
+      "assessment": "ABBREVIATION_EXPANSION",
+      "table_source": "polygraphia_0036.jpg",
+      "side": "right"
+    },
+    {
+      "column": 9,
+      "expected_message_label": "a",
+      "table_entry": "sanctis",
+      "author_example_reading": "sanctis",
+      "assessment": "MATCH",
+      "table_source": "polygraphia_0037.jpg",
+      "side": "left"
+    },
+    {
+      "column": 10,
+      "expected_message_label": "b",
+      "table_entry": "celestibus",
+      "author_example_reading": "cælis [ligature reading; line break after cæ]",
+      "assessment": "DIFFERENT_TABLE_ROW_IF_ORTHOGRAPHICALLY_IDENTIFIED",
+      "table_source": "polygraphia_0037.jpg",
+      "side": "right"
+    }
+  ],
+  "supplied_null_phrases": [
+    {
+      "after_column": 8,
+      "chosen": [
+        "cum",
+        "omnibus"
+      ],
+      "alternative": [
+        "cum",
+        "universis"
+      ],
+      "source": "polygraphia_0036.jpg"
+    },
+    {
+      "after_column": 9,
+      "chosen": [
+        "suis",
+        "in"
+      ],
+      "source": "polygraphia_0037.jpg"
+    },
+    {
+      "after_column": 10,
+      "chosen": [
+        "amen"
+      ],
+      "source": "polygraphia_0037.jpg"
+    }
+  ],
+  "column10_countercase": {
+    "expected_letter": "b",
+    "expected_cell": "celestibus",
+    "other_row_letter": "a",
+    "other_row_cell": "celis",
+    "author_form": "cælis",
+    "consequence": "Strict literal matching does not identify ca(e)lis with celis. Even granting that orthographic identification, the row is a, not the expected b. No corrected source wording or remapped alphabet adopted."
+  },
+  "column6_countercase": {
+    "expected_letter": "i",
+    "table_cell": "expetentibus",
+    "author_reading": "expectentibus",
+    "nearby_y_cell": "expectantibus",
+    "consequence": "Do not silently remove c or replace e/a to complete a roundtrip.",
+    "reading_confidence": "Root reads expectentibus; independent reader also prefers it, with lower confidence than the clearly printed table. This is not the sole discrepancy basis."
+  },
+  "multiword_cell_examples": [
+    {
+      "column": 10,
+      "letter": "g",
+      "tokens": [
+        "secula",
+        "seculorum"
+      ]
+    },
+    {
+      "column": 10,
+      "letter": "h",
+      "tokens": [
+        "euum",
+        "sanctum"
+      ]
+    },
+    {
+      "column": 10,
+      "letter": "k",
+      "tokens": [
+        "regno",
+        "celorum"
+      ]
+    }
+  ],
+  "claim_limits": [
+    "This mismatch is between the specified printed table and the author example, not a claim that the historical cipher is impossible.",
+    "No cause assigned: typographical mistake, textual variant or another explanation has not been established.",
+    "Earlier independently checked four-letter CAUE example remains valid.",
+    "Neither literal exact matching nor the conditional column10 diagnosis supplies a fully decoded ten-letter author example.",
+    "No Voynich data or meaning."
+  ],
+  "source_resolution": "First4table columns are in sibling trithemius_source_20261010; new columns5-10 in this folder. No all144-cell collation is claimed."
+}

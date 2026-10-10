@@ -1,3 +1,7 @@
+## 2026-10-10 — IDEA925 first-period source discrepancy
+
+Full first author cover sentence is not validated against printed table: conditional ae/e matching at column10 gives a, while stated plaintext requires b. Some additional readings remain uncertain. One table entry can contain multiple words. Prior four-letter CAUE check retained; no source repair or native test. [Source check](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json).
+
 ## 2026-10-10 — IDEA925 primary source collation
 
 The1518table and Clavis now substantiate a four-letter author example and explicit supplied null phrases/restart permissions. A rigid global word-position schedule is narrower than the actual source. No native writer or historical Voynich connection selected. [Source decision](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_SOURCE_COLLATION_20261010.json).

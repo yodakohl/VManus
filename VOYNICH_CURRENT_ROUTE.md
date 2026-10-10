@@ -5,10 +5,10 @@ Updated: 2026-10-10.
 Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 925 source only.
-Working files: 925 source note.
-Assumptions: No native binding.
-Resume: No rigid schedule test.
+Latest decision: 925 source mismatch.
+Working files: 925 period note.
+Assumptions: No emendation.
+Resume: No native table fit.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public011420f36.
+Public0aba47e60.
