@@ -1,0 +1,53 @@
+{
+  "status": "CONDITIONAL_SELF_CONTAINMENT_COST_BOUND",
+  "scope": "Preimplementation mathematical assessment of a new raw writer; no native recount or decipherment.",
+  "decision_note": {
+    "unknown": "Can the proposed complete self-contained positional concordance, with one minimal-base22 integer per visible group, accommodate the retained long groups without enormous output?",
+    "outcomes": "A small compatible output would justify further source assessment; a forced enormous output stops this exact carrier before implementation.",
+    "smallest_test": "Prove a bound on all numeric fields from the number of explicitly emitted groups; reuse old1299length witness, no new corpus access.",
+    "budget": "10minutes for contract review, proof, record and publication; no encoder/corpus run."
+  },
+  "assumptions": [
+    "Every source occurrence position is explicitly emitted as one group.",
+    "Every source line has an explicitly emitted word-count field.",
+    "Every character of each dictionary word is emitted as one ASCII-valued group.",
+    "Other fields are source-word count, line count, distinct-word count, per-word length and frequency, and occurrence positions. No additional unbounded IDs, checksums or payload integers.",
+    "Each number uses shortest base22 notation, one working unit per digit, with0written as one digit.",
+    "M denotes all output groups of the complete self-contained message, not only an excerpt."
+  ],
+  "proof": [
+    "Nsourcewords<=M because Npositions are emitted. Eachposition<=N.",
+    "Llines<=M because eachline has its count group; eachlinecount<=N.",
+    "Ddistinctwords<=N<=M and eachfrequency<=N<=M.",
+    "Eachdictionarywordlength<=M because its individual characters are explicitly emitted.",
+    "ASCIIvalues<=127. Therefore every numericfield<=max(M,127).",
+    "An11digit minimalbase22 numeral has value>=22**10=26559922791424. Since this exceeds127, its presence requiresM>=26559922791424."
+  ],
+  "source_witness": {
+    "report": "experiments/yolo/gdt1299_positional_block_run_length/REPORT.md",
+    "location": "f82v.12 G009",
+    "form": "qoteytyqoky",
+    "working_units": 11,
+    "readers": "ZL3b, IT2a, RF1b separately",
+    "limits": "Inherited exact working-unit and complete-group premise; earlier imagecheck supported local inner seam, not every sign or authorial boundary. No new image or recount."
+  },
+  "decision": "Do not implement this carrier as a Voynich candidate. Retain the raw complete idea and its enormous conditional cost; no new field joining, nonminimal zeros or external unrecorded dictionary repair.",
+  "limits": [
+    "This is not GDT1299sourceblockconversion: the new bound comes from paying all concordance positions and wordspellings in the output itself.",
+    "Not a general exclusion of concordances, numbers, dictionary notation or the manuscript being a fragment. For a fragment the bound applies to the complete external message, which is not supplied by this contract.",
+    "No exact word meaning or native numeral value is assigned.",
+    "No source-language/cipher rejection and no new manuscript statistic."
+  ],
+  "record_id": "IDEA000990",
+  "raw_contract": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/SELF_CONTAINED_POSITION_CONCORDANCE_RAW_20261010.json",
+    "sha256": "8342f2abec4a6b06fea5c7504cd298156ac4558e193a81e5dce4b5168b6835cf"
+  },
+  "independent_contract_review": "Root read all writer/reader fields, domain, framing and examples; producer confirmed all field categories are bounded by max(M,127).",
+  "exact_group_cost": "M=N+A+2D+L+3, where A is the total character count of distinct dictionary words.",
+  "validation": {
+    "program": "research_registry/proposals/production_origin_supply_20261003/POSITION_CONCORDANCE_COST_CHECK_20261010.py",
+    "result": "research_registry/proposals/production_origin_supply_20261003/POSITION_CONCORDANCE_COST_VALIDATION_20261010.json",
+    "scope": "Three authored examples and arithmetic only; not an empirical corpus run."
+  }
+}

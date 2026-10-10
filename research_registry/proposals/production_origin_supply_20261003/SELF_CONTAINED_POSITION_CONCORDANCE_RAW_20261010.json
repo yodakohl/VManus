@@ -1,0 +1,95 @@
+{
+  "title": "RAW UNREVIEWED: self-contained position concordance with a fully transmitted dictionary and line reconstruction",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. A complete invented source-only writer sorts distinct exact source tokens, transmits each token literally once together with all its original occurrence positions, and pays a header for source line lengths. Every field is one minimal base22 numeral. The inverse reconstructs exact permitted ASCII text. This changes source grouping rather than assigning free meanings to manuscript words. Its fixed physical carrier already has a severe known length obligation: an eleven-sign numeral entails at least 22^10 output groups in the complete message. Retention is not experimental selection, historical attestation or native fit.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "authored_date": "2026-10-10",
+  "design": {
+    "mechanism": "Transmit a self-contained lexicographically sorted exact-token dictionary together with exhaustive increasing original occurrence-position lists and line token counts; serialize every integer separately as a minimal base22 numeral.",
+    "unit": "One finite source message, comprising ASCII tokens and exact SP/LF structure in the stated domain; one visible output group per numeric field.",
+    "contrast": "An explicitly paid inverse of source-token sorting, versus a sorted inventory without order information, an external wordbook rank channel, previous-word prefix copying, or per-source-word substitution.",
+    "prediction": "A complete fixed-carrier output must satisfy the count-delimited integer grammar, exact ASCII literal fields, sorted dictionary, exhaustive disjoint occurrence-position lists and the global numeric-field length bound. No source or target scoring is selected.",
+    "scope": "Invented source-only modern hand procedure; no Voynich sign values, words, message boundaries or historical writer are assigned."
+  },
+  "source_domain": {
+    "alphabet": "Token characters are exactly ASCII integer values 33 through 126 inclusive. Upper/lower case and punctuation remain distinct.",
+    "separators": "Exactly one ASCII SPACE separates adjacent tokens on a nonempty line. LF separates lines. Empty lines and a trailing LF are allowed. A nonempty line has no leading or trailing spaces.",
+    "rejection": "Reject doubled spaces, tabs, CR, other control characters and non-ASCII input before encoding. Do not normalize them silently.",
+    "empty_input": "The empty string has one empty line. A string consisting of k LF characters has k+1 empty lines.",
+    "preserved_information": "All permitted source characters, capitalization, punctuation, token order, repetition and SP/LF positions are recovered. No semantics are interpreted."
+  },
+  "carrier": {
+    "signs": "Exactly 22 distinct abstract drawings S0 through S21. These labels name drawings; the letters and decimal digits in the labels are not additional output signs. No native glyph assignment is made.",
+    "integer": "An unsigned integer is written in shortest ordinary big-endian base22, using Sd for digit d. Zero is the singleton S0. Positive numerals have no leading S0.",
+    "groups": "One numeral is one visible group. A single visible SPACE separates consecutive groups. There are no reserved marker-only signs or hidden fields.",
+    "physical_lines": "For each finite message choose W=max(80, maximum numeral digit length in that message), measured in output-sign and separating-space cells. Greedily place complete numeral groups left to right, wrapping before a group that would exceed W. Never split a numeral group. Output LF is layout only and is read as an inter-group separator. This pays potentially very wide lines; it asserts no fixed manuscript raster or page fit.",
+    "escapes": "No escape is needed within the declared domain: every source token character is carried by its ASCII integer value in a counted literal field. Outside-domain characters are unsupported, not omitted.",
+    "reset": "All dictionary, occurrence and source-line counters are local to one complete message. A fresh message begins with fresh N and L fields. There is no retained prior-word or prior-message memory.",
+    "framing": "Counts determine the last field. A standalone message must end there. Explicitly concatenated messages restart immediately with their own N,L header; an incomplete final message is rejected."
+  },
+  "writer": [
+    "Split the permitted source at LF, retaining empty and trailing lines. Let L>=1 be the number of lines, and n_j the token count of line j. Enumerate tokens in original reading order at positions 1 through N, where N=sum_j n_j.",
+    "List the D distinct exact tokens in ascending lexicographic order of their ASCII byte sequences, with the shorter sequence first when it is an exact prefix of another.",
+    "Write header fields N, L, n_1,...,n_L, D.",
+    "For each sorted token, write its positive byte length m; its m ASCII integer values; its positive occurrence count k; and its k strictly increasing original positions.",
+    "Render every field by the one-group minimal-base22 rule, then apply the declared physical wrapping rule."
+  ],
+  "reader": [
+    "Read each visible group as one canonical unsigned base22 integer; reject illegal signs or nonminimal numerals. Treat physical output LF only as a group separator.",
+    "Read N,L and require L>=1. Read exactly L line counts and require their sum to equal N. Read D.",
+    "Read exactly D records. In each record require m>=1, read exactly m ASCII values in 33..126, then k>=1 and exactly k positions in 1..N in strictly increasing order.",
+    "Require the decoded record tokens to be strictly ASCII-lexicographically increasing. Require position lists to be pairwise disjoint and their union to equal 1..N. For N=0 require D=0 and every line count zero.",
+    "Place each record's token at all its listed positions. Divide the resulting N-token sequence according to the L declared line counts. Join tokens within each nonempty line with one SPACE and join all L lines with LF.",
+    "The next field, if any, must be explicitly treated as a new complete message rather than ignored. Canonical re-encoding reproduces the same field sequence; physical line wraps do not convey source information."
+  ],
+  "inverse_argument": "Each source occurrence has one unique original position. The paid disjoint exhaustive position lists place exactly one exact token at every position, hence recover the complete ordered token sequence. The paid line counts restore the unique permitted SP/LF structure, including empty and trailing lines. Literal ASCII integers preserve case and punctuation. Conversely, sorting and counts are deterministic for that reconstructed source, so a valid field sequence re-encodes identically. Token-prefix collisions and repeated tokens are handled by lengths and occurrence lists, not by unstated escapes.",
+  "hand_examples": [
+    {
+      "source": "HEAT OIL\nMIX OIL",
+      "header": [4, 2, 2, 2, 3],
+      "records": [
+        {"token": "HEAT", "m": 4, "ASCII": [72, 69, 65, 84], "k": 1, "positions": [1]},
+        {"token": "MIX", "m": 3, "ASCII": [77, 73, 88], "k": 1, "positions": [3]},
+        {"token": "OIL", "m": 3, "ASCII": [79, 73, 76], "k": 2, "positions": [2, 4]}
+      ],
+      "complete_integer_fields": [4, 2, 2, 2, 3, 4, 72, 69, 65, 84, 1, 1, 3, 77, 73, 88, 1, 3, 3, 79, 73, 76, 2, 2, 4],
+      "base22_examples": {"72": [3, 6], "69": [3, 3], "65": [2, 21], "84": [3, 18], "77": [3, 11], "73": [3, 7], "88": [4, 0], "79": [3, 13], "76": [3, 10]},
+      "output_group_count": 25,
+      "readback": "Positions 1..4 receive HEAT,OIL,MIX,OIL. Line counts 2,2 restore exactly HEAT OIL LF MIX OIL."
+    },
+    {"source": "", "complete_integer_fields": [0, 1, 0, 0]},
+    {"source": "\n", "complete_integer_fields": [0, 2, 0, 0, 0]}
+  ],
+  "costs": {
+    "notation": "N source-token occurrences; D distinct tokens; L source lines; A=sum of byte lengths of distinct tokens; M output numeral groups.",
+    "exact_group_count": "M=N+A+2D+L+3.",
+    "glyph_cost": "The sum of minimal-base22 digit lengths of every transmitted integer. Each ASCII character field has exactly two signs. Group separators and physical line layout are additional visible costs.",
+    "human_work": "Writer must retain the finite token list, sort distinct exact tokens and count all positions. Reader must allocate and fill N positions. Suitable only as a deliberate concordance-style operation; not a claim of fluent ordinary handwriting.",
+    "learning": "Twenty-two digit drawings, positional base22 arithmetic, ASCII values for 94 permitted token characters, lexicographic order and the fixed count grammar.",
+    "compression": "No net compression claim. A long repeated token is spelled once, but occurrence indices and header/record costs are compulsory.",
+    "word_frequency_scope": "One source token is not one physical output group, so exact word-frequency invariance of a bijective wordwise code does not directly apply. This fact does not establish any target statistical fit."
+  },
+  "known_carrier_obstruction_before_any_new_test": {
+    "status": "Prior constraint supplied by root during source-free construction; no new source or native count and no selected experiment.",
+    "bound": "Every transmitted field is at most max(M,127): N<=M because each occurrence position is emitted; L<=M because every source line emits a count; D<=N; each token length is <=M because each character emits a field; k and positions are <=N; literal ASCII values are <=126. There are no unbounded IDs, hashes or other numerical fields.",
+    "long_group": "A minimal base22 numeral of length h represents at least 22^(h-1). Therefore an eleven-sign output group entails M>=22^10=26559922791424 groups in the same complete message.",
+    "known_target_premise": "Root points to the existing GDT1299 REPORT's eleven-working-unit whole-group witness. Its applicability remains conditional on that working-unit atomicity, visible-group boundary and complete-message binding. This proposal performs no recount or image check.",
+    "decision": "The fixed carrier consequently has an enormous self-containment cost for such a group. Retain the RAW as a complete construction, not as a practical selected manuscript explanation. Do not join numeric fields, enlarge the alphabet, insert exceptions or alter framing to evade the obligation."
+  },
+  "bounded_predecessor_check": [
+    {"id": "IP056", "distinction": "The inspected card proposes fixed strict ordering of whole forms in each physical prose line. This writer instead transmits a separate sorted dictionary and exhaustive original-position lists, restoring a nonsorted source sequence. No claim that IP056 had no later work follows from the card."},
+    {"id": "IDEA000927", "distinction": "Previous-word prefix-copy records use online prior-word state. This writer sends a complete message-local dictionary and all occurrence positions, with no preceding-word prefix operation."},
+    {"id": "GDT1301", "distinction": "Fixed external Unicode-sorted wordbook rank differences do not transmit each exact dictionary word and its full occurrence-position list. No GDT1301 source failure is reopened."},
+    {"id": "GDT1299", "distinction": "Fixed-k source-character blocks converted from baseN to shortest base22 are different source grouping. The present variable semantic fields still incur their own stronger explicit length-cost obligation; there is no attempt to repair GDT1299."},
+    {"id": "GDT1321", "distinction": "A no-return class-block condition inside each written word does not describe this message-wide positional concordance. No class mapping is fitted here."}
+  ],
+  "novelty_limit": "Bounded registry searches and the stated cards found no exact paid position-concordance contract. This is not a claim of historical invention, exhaustive registry novelty, or absence of all possible followups. IDEA000886 was inspected but is a correction-cascade card, not a lexical-sort precedent; it is not cited as a relevant writer.",
+  "prospective_falsifier": "Only after an independently fixed sign-to-digit table and complete message boundary, require exact count parsing, two-sign ASCII literal groups, sorted distinct tokens and exhaustive position coverage. Independently, the field-size bound above applies to any complete output without fitting a digit map. No experimental selection is requested now.",
+  "not_claimed": [
+    "No Voynich glyph, word, token or number meaning.",
+    "No native fit, translation, statistical PASS, historical attestation or source-language preference.",
+    "No new native data, image, source scan, encoder implementation or experiment.",
+    "No repair or supersession of an earlier failed construction.",
+    "No automatic publication or change to root-owned route, ledger or experiment."
+  ]
+}

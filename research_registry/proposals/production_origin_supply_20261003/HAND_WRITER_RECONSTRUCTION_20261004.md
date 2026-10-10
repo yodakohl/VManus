@@ -10418,3 +10418,10 @@ Dies ist historische Quellenarbeit, keine Voynich-Lesung. Das vollständige Tabe
 Die [begrenzte Satzprüfung](TRITHEMIUS_FIRST_PERIOD_20261010.json) findet eine konkrete Abweichung: Spalte10hat a=celis und b=celestibus, das Beispiel dagegen cælis; der angegebene Geheimtext verlangt an dieser Stelleb. Schon wörtlich sind die Formen verschieden; auch mit ausdrücklich zugestandeneræ/e-Gleichsetzung würdea stattb entstehen. Die Ursache bleibt offen. Die zusätzliche Lesung expectentibus und die Endungsabbreviatur bei amenitate bleiben gesondert qualifiziert. Keine stille Quellenkorrektur.
 
 Zugleich präzisiert die Tabelle den Ablauf: Eine Zelle ist nicht immer ein Wort; etwa secula seculorum, euum sanctum und regno celorum sind jeein codierender Eintrag. Die vorgegebenen Zusätze nachSpalte8,9,10sind davon getrennt. Der alte CAUE-Vierbuchstabenbeleg bleibt erhalten; ein exakter vollständiger Satz-Replay ist nicht bestätigt. Keine neue Voynich-Aussage und kein Zieldecoder.
+
+
+### IDEA990: vollständige Positionskonkordanz vor Umsetzung gestoppt
+
+Ein [neuer Rohentwurf](SELF_CONTAINED_POSITION_CONCORDANCE_RAW_20261010.json) bezahlt jedes unterschiedliche Wort und alle seine ursprünglichen Positionen; Zeilenwortzahlen stellen die zulässigen Leerstellen wieder her. Die drei angegebenen Beispiele werden exakt rückgelesen. Das ist eine Konstruktion, kein Voynich-Befund.
+
+Die [Kostenprüfung](POSITION_CONCORDANCE_COST_20261010.json) reicht vor jeder Corpusumsetzung: BeiMausgeschriebenen Zahlengruppen liegt jedes Feld höchstens bei max(M,127). Eine elfstellige minimale Basis22-Zahl benötigt daher mindestens26.559.922.791.424Gruppen in der vollständigen Nachricht. Der alte1299Beleg liefert nur die bedingte Elf-Einheiten-Prämisse; dessen anderer Quellblockvertrag wird nicht neu getestet. Dieser feste Träger wird nicht ausgewählt. Kein freies Zusammenfügen von Feldern, keine neue native Zahlbedeutung, keine Quellenzählung.

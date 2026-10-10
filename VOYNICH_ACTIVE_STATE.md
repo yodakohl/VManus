@@ -1,3 +1,7 @@
+## 2026-10-10 — IDEA990 complete raw concordance, not selected
+
+A fully paid positional dictionary restores its stated ASCII source domain, but the fixed one-number-per-group carrier requires >=26.56trillion groups for an11unit numeral. Mathematical preimplementation cost only; no native test or numeral meaning. [Assessment](research_registry/proposals/production_origin_supply_20261003/POSITION_CONCORDANCE_COST_20261010.json). No automatic carrier repair.
+
 ## 2026-10-10 — IDEA925 first-period source discrepancy
 
 Full first author cover sentence is not validated against printed table: conditional ae/e matching at column10 gives a, while stated plaintext requires b. Some additional readings remain uncertain. One table entry can contain multiple words. Prior four-letter CAUE check retained; no source repair or native test. [Source check](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json).
