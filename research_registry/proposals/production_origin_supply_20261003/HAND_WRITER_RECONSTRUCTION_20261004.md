@@ -10397,3 +10397,8 @@ Der [feste Vergleich](../../../experiments/yolo/gdt1320_optional_fusion_choice/R
 ### GDT1321: frei geordnete Blöcke mit festen Zeichenklassen
 
 Der [vollständige Abschluss](../../../experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md) erzwingt auch ohne globale Blockreihenfolge eine einzige Klasse für alle22Zeichen. Damit scheitert die nichttriviale Ein-Block-je-Zeichenklasse-Schreibweise am vollen Panel. Die vorab festgelegte Zwei-Blätter-Diagnose behält19Kernzeichen plusq,n,m; sie ersetzt nicht das volle Ergebnis. Überlappende Zeicheninventare gewöhnlicher Wortteile bleiben möglich. Keine Bedeutungszuordnung oder automatische Mehrfachblock-Reparatur.
+
+
+### Auswahlcheckpoint: keine weitere Ausschlussserie als Standard (10. Oktober 2026)
+
+Die [Auswahlprüfung](SELECTION_CHECKPOINT_20261010.json) hält alle bisherigen Ergebnisse fest, wählt aber keinen neuen Versuch. Die zuletzt ausgeschlossenen speziellen Architekturen bestimmen noch keinen tatsächlichen Leser. Weitere Kapazitätsprüfungen werden nur für einen vollständig beschriebenen, eigenständig begründeten Kandidaten mit einer entscheidbaren Folge ausgewählt. Im begrenzten aktuellen Abruf liegt kein solcher neuer Kandidat vor. Das ist eine Änderung der Arbeitsauswahl, kein neuer Manuskriptbefund und keine Behauptung, alle Möglichkeiten seien erschöpft.

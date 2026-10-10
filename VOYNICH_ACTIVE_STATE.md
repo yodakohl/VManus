@@ -1,3 +1,7 @@
+## 2026-10-10 — research selection checkpoint
+
+No new candidate selected after bounded review. Preserve all scientific results; do not default to another relaxed capacity model. Require a complete independently motivated writer/reader and a distinct consequence against a rival before implementation. This is workflow selection, not a manuscript finding. [Decision](research_registry/proposals/production_origin_supply_20261003/SELECTION_CHECKPOINT_20261010.json).
+
 ## 2026-10-10 — GDT1321 nonreturning class blocks
 
 Even free per-word block order forces all22active units into one class on each full strict panel. Excludes only disjoint fixed sign classes with one contiguous block per class; not general morphology. Recurrent19core+q,n,m diagnostic remains separate. [Report](experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md). No automatic return-block repair.
