@@ -10559,3 +10559,38 @@ The earlier dossier sentence calling7–8%global is WRONG. Original stored enume
 ## 2026-10-11 — 1337 explanation wording corrected
 
 A boundedreportcheck caughtoverbroad "equivalent" for00/01vs10/11same-entryassignments. Theyrender twoMQbodies mmvsqm; bothfitpanelbutaredistinctwriters. Reportcorrectedwithsourcefreefinitecounterexample; counts/radiusunchanged. This isreportprecision, notnewnativeevidence.
+
+## 2026-10-11 — selection and manual-context checkpoint
+
+No word meaning, source language or physical alias was established in this block.
+Keep the levels separate:1335is a source-free likelihood clarification;1336is an
+empty opportunity screen;1337qualifies exact exclusion strength;1338uses a known
+adverse prose case rather than discovering a new manuscript feature. The original
+1331/1333/1334scoped results remain, with1332/1337qualifications and explicit report
+corrections. In particular1332global and10%-budget minima must not be conflated;
+1337panel-fitting port assignments are not equivalent on arbitrary source inputs.
+
+Existing1311line21/line33image bytes were re-viewed for working context after
+matching their old crop receipts. This added no crop, page, target, transcription,
+gap regrading or palaeographic result. Keep rounded versus oblique body appearance
+separate from source letters, and retain the unresolved aiiinboundary/atomicity.
+The old material is exposed ideation context, not independent confirmation.
+
+Bounded native-informed idea reviews did not justify a replacement template or
+minim decoder. Likewise the modular AAA-to-source-ccc necessity does not choose
+a source law:1313is a relevant predecessor, existing sources allow triple runs,
+and event-count bounds need an explicitly non-reused full source stream. No new
+modular control, cost repair, larger error budget or content assignment is selected.
+Historical Fontana metadata was retrieved only as navigation; IDEA904remains
+unreviewed and was not adopted as a new native reading or an unexecuted experiment.
+
+For the next selection, require a concrete native motivation and a consequence
+that changes the reading decision. A mathematically different toy or a high fit
+rate on selected interiors is insufficient. Check already published full-word
+edge countercases when the claimed scope includes them; preserve source and
+boundary qualifications rather than dropping difficult occurrences. This records
+selection discipline and unresolved content binding, not decipherment progress.
+
+## 2026-10-11 — five-hour block closed, translation goal remains open
+
+Clock window06:54:21UTC to11:54:52UTC exceeds the requested five hours. Material results and corrections through1338were published and independently remote-verified at8cd86850d3f977969cc3d8c939b82285a928c329. No supported word meaning or complete native writer emerged. No successor experiment is selected; retain the current positive structural baseline and all scoped stops. No source/control/cost/exception repair is authorized by a technical difference alone. The translation goal stays active and unachieved. Bounded producer has completed; no tool process or unattended between-turn agent work remains.

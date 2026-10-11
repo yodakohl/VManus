@@ -4,12 +4,12 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 5h until11:54:21UTC.
+Task: 5h done; translation open.
 Latest decision: 1338oldmol blocks extension.
 Working files: 1338;HAND_WRITER.
-Assumptions: oldstrict radius1retained.
-Resume: publish;closebounded pass.
-Running: root.
+Assumptions: 0meanings;no nativewriter.
+Resume: native-informed RAW review;no testchosen.
+Running: none.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public1dd9c7f2e.
+Public8cd86850d.
