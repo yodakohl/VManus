@@ -1,0 +1,52 @@
+{
+  "status": "PASS_SCOPED_OLD_CERTIFICATE_PREFLIGHT",
+  "reviewer": "separate closure_error_audit agent",
+  "preflight_sha256": "85bc23a5c538df116d8c89b0689e678905dfefd72e1a1b92ccc08a3a44a97e2a",
+  "script_sha256": "90430e31f3671a04a42c2a8140cf863928cba79a7a01acf4db1cb59ac377cd75",
+  "checked_old_cases": [
+    {
+      "section": "3:1",
+      "start_zero_based": 4,
+      "matches_pinned_source": true,
+      "no_adjacent_square_pair": true
+    },
+    {
+      "section": "3:1",
+      "start_zero_based": 5,
+      "matches_pinned_source": true,
+      "no_adjacent_square_pair": true
+    },
+    {
+      "section": "4:6",
+      "start_zero_based": 7,
+      "matches_pinned_source": true,
+      "no_adjacent_square_pair": true
+    },
+    {
+      "section": "4:9",
+      "start_zero_based": 89,
+      "matches_pinned_source": true,
+      "no_adjacent_square_pair": true
+    },
+    {
+      "section": "4:13",
+      "start_zero_based": 39,
+      "matches_pinned_source": true,
+      "no_adjacent_square_pair": true
+    }
+  ],
+  "logic": [
+    "GDT1303 already certifies exactly five within-section length6/6/6 triples for the pinned unchanged projection. Five distinct source positions, each verified as one such triple, exhaust that inherited population. This uses the old completeness result rather than performing or claiming a new census.",
+    "Under1014, preserved ordered word lengths make a native length6 AAA correspond to a source length6/6/6 triple. Either local pair phase places an aligned pair at positions0/1 or1/2. Allowing BOTH possibilities is a relaxation, so zero qualifying pairs suffices without fixing paragraph parity.",
+    "An aligned equal even-length output pair requires two adjacent source squares. The tested condition ignores stronger cross-word symbol-identity constraints, making it necessary-only and conservative. A global bijective source/glyph renaming cannot change the internal square property.",
+    "None of the five old triples contains an adjacent pair of square words. The unchanged Deot stream under the fixed section boundaries therefore cannot supply the declared native AAA requirement.",
+    "The old1303 fixed-letter-pair overlap failure is not reused as the new theorem; its exhaustive source candidate list is reused."
+  ],
+  "actual_objections": [],
+  "scope_limits": [
+    "This audit checked the five cited source positions and existing hashes/count certificate only. No full-source re-enumeration, source resampling, new encoder, key fitting or Voynich query.",
+    "Completeness remains inherited from GDT1303 and its old fixed projection; it is not independently re-proved here.",
+    "Failure excludes only this unchanged source/section/1014 conjunction, not Hebrew, other source texts, all pairweave ciphers or meaningful writing.",
+    "This is an exposed logical preflight, not preregistered fresh confirmation or empirical support for an alternative writer. No further experiment selected."
+  ]
+}
