@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: f83r content drafts written.
-Latest decision: scaffolds;0wordvalues.
-Working files: IDEA1009-1011;WHOLE_DRAFT.
-Assumptions: RFvariant;qokyuntested.
-Resume: ground construction choices.
+Task: qoky rule tested.
+Latest decision: 1342 page rule FAIL.
+Working files: GDT1342;IDEA1010.
+Assumptions: no hidden producers.
+Resume: ground wholepage construction.
 Running: none.
 
 ## Structural baseline
@@ -30,7 +30,7 @@ GDT327/GDT336: historical; no access.
 ## Decisions to retain
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
-1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224exceptions16–21;1223unstable;1225pool≠strata.
+1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224exceptions16–21;1223unstable;1225pool≠strata.
 1171:no context gain;1172:rota86/62.1173:arithmetic only;source old.
 f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clockSTOP.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
@@ -66,8 +66,8 @@ New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE
 ## Retrieval
 No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context topic Wortzusammensetzung`: bounded baseline.
-`context topics`; `context check`.
+`context check`.
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public979c4f846.
+Publicb0ee0c24e.

@@ -1,0 +1,83 @@
+{
+  "status": "NO_PREREGISTRATION_IMPLEMENTATION_MISMATCH_FOUND_IN_SCOPED_REVIEW",
+  "reviewer": "discriminating_test_review independent bounded agent",
+  "input_sha256": {
+    "experiments/yolo/gdt1342_qoky_written_predecessor/PREREGISTRATION.md": "f409d53eeb46a414f61214bed0075fa4f5b6fde742e40f83677d7bfd0bb2ea77",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/src/run.py": "b1d1a89cae5a8603d4ded535860eefbfa1eff62b7b1b712f831fb75e37fd6150",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/src/validate.py": "ba728d27a1483f23497c9fb4be1a78007d6d71bf58367470e3a900f83e826f38",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/src/REGISTRATION_LOCK.json": "e38e4595e759b79064c44ac09e1ae23cb2e9950585a50a2cfa1dc5d2698a8455",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/SOURCE.json.gz": "947cfef82ee3192771e0e6719dd50f6b5db20bfda03d8050f1d547444f72f755",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/CASES.json": "92b799d731d7f2c7164c294f7757e57de5eca1053ecd462877ff2d24fa8d4825",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/RESULT.json": "d14d0daa2c895dfcd8e6ec2ba528fb12b1498c4aab4c91237b02b9b27b0298fe",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/VALIDATION.json": "3add609bbb7e924211e3c1ab18a5f78dcabe27befd86cbda4846a61b76f37933",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/GUARD_RECEIPT.json": "7bb75359d75db380ae74f7321d0f4ef8192703ccbf431960418632783bff6a3e"
+  },
+  "exposure": "Review began after registration lock. Programs/protocol read first; completed output summaries and saved guarded source projection were then inspected. Not blind to scientific result.",
+  "checks": [
+    "Lock hashes match actual files. Receipt allow arguments equal the locked179-selector list, with correct original source and page selector. No forbidden page in saved projection.",
+    "All saved readers are exactly ZL3b/IT2a/RF1b. Source IDs unique. Every saved line has consistent row/count/page metadata and all original group indices1..count.",
+    "Every exact standalone qoky is represented exactly once. Source list order is used as frozen row/index order; no substring inclusion.",
+    "Independent prefix slicing and ASCII ordinal checks reproduce every consumer status, earlier reliable producer and uncertain-prefix list. Consumer uncertainty takes precedence over availability; an earlier reliable producer takes precedence over unrelated prefix uncertainty.",
+    "No current or future producer is admitted; page/reader state is separate. qoky does not itself create a producer.",
+    "The root validator separately queries the original guarded source and compares the entire P projection, not only selected qoky lines. This auditor checked its code/receipt rather than performing a third raw-source query.",
+    "Development and other-page decisions remain separately reported. Any reliable missing case contradicts only this exact stipulated page-prior rule."
+  ],
+  "source_free_precedence_table": [
+    {
+      "consumer_clear": false,
+      "earlier_reliable_producer": false,
+      "earlier_uncertainty": false,
+      "status": "CONSUMER_UNCERTAIN"
+    },
+    {
+      "consumer_clear": false,
+      "earlier_reliable_producer": false,
+      "earlier_uncertainty": true,
+      "status": "CONSUMER_UNCERTAIN"
+    },
+    {
+      "consumer_clear": false,
+      "earlier_reliable_producer": true,
+      "earlier_uncertainty": false,
+      "status": "CONSUMER_UNCERTAIN"
+    },
+    {
+      "consumer_clear": false,
+      "earlier_reliable_producer": true,
+      "earlier_uncertainty": true,
+      "status": "CONSUMER_UNCERTAIN"
+    },
+    {
+      "consumer_clear": true,
+      "earlier_reliable_producer": false,
+      "earlier_uncertainty": false,
+      "status": "MISSING_PREDECESSOR"
+    },
+    {
+      "consumer_clear": true,
+      "earlier_reliable_producer": false,
+      "earlier_uncertainty": true,
+      "status": "SOURCE_UNCERTAIN"
+    },
+    {
+      "consumer_clear": true,
+      "earlier_reliable_producer": true,
+      "earlier_uncertainty": false,
+      "status": "AVAILABLE"
+    },
+    {
+      "consumer_clear": true,
+      "earlier_reliable_producer": true,
+      "earlier_uncertainty": true,
+      "status": "AVAILABLE"
+    }
+  ],
+  "limits": [
+    "Complete means complete relative to the locked transcription and allowlist. A wholly absent physical passage or an incorrect transcription is not independently excluded.",
+    "Clear seams and lowercase raw spelling are the registered source-reliability convention, not paleographic truth.",
+    "Using a second implementation and audit does not establish qoky meaning, shared meanings of the four producers, a latest resolver or semantic independence.",
+    "RF/ZL/IT remain alternate readings, not separate manuscripts.",
+    "Full consumer lines are represented by their source IDs in CASES and recoverable in the complete SOURCE artifact."
+  ],
+  "changes_to_primary": "None. No root source, output, protocol, registry or route file modified."
+}

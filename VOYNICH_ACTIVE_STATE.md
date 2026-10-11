@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1342 optional qoky reference prerequisite fails
+
+The formerly unexecuted qoky-to-{qokey,qokeey,qokedy,qokeedy} candidate now has a fixed whole-P-page test. Reliable missing-prior cases: ZL3, IT26, RF2; uncertain preceding text never counts as absence. First-line f103v qoky precedes its qokeey doublet, not vice versa. All397 exact occurrences accounted for, readers separate. Close only this optional page-local backward-reference construction; no general abbreviation rejection or lexical value. IDEA1009-1011 stay exploratory and K(A)/K(B) remains unconfirmed attachment. [Report](experiments/yolo/gdt1342_qoky_written_predecessor/REPORT.md).
+
 ## 2026-10-11 — whole f83r content scaffolds authored, lexical interpretation still open
 
 Material/specification and shared-curriculum drafts now retain every ZL record/caption, alternative-reader source and explicit unknowns. Proposed K(A)/K(B) attachment at.25/.28 is not recovered syntax; the literal shedy secondcase belongs onlyZL/IT,RFreads{ch'}edy. No new word values or semantic coverage. Explicit peer correction:1341qotal/talfails, but the separateqokylongform-reference candidate wasnotexecuted and mustnotbe calledfailed. Source-onlychecks pass; no fixedsemantic test. [Assessment](research_registry/proposals/production_origin_supply_20261003/F83R_WHOLE_DRAFT_ROOT_ASSESSMENT_20261011.json).
