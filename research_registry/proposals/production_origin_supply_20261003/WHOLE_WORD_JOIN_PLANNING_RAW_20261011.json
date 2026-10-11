@@ -1,0 +1,95 @@
+{
+  "title": "RAW UNREVIEWED: plan a word's allographs jointly to minimize incompatible joins while preserving every letter body",
+  "summary": "An invented source-only writer chooses learned allographs for an entire word by one fixed minimum-join-cost rule, with a complete lexical tie rule. A reader recovers the unchanged letter bodies. This supplies local transition structure and whole-word-dependent form choice without a whole-word lookup bank. The symbolic writer is complete; its physical glyph inventory, unique segmentation and any22-working-unit realization are explicitly unbound. This is not a native fit, a historical cursive attribution or a repair of928/1295/1320.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_SYMBOLIC_WRITER_COMPLETE_PHYSICAL_CARRIER_INCOMPLETE",
+    "mechanism": "Every source letter has one or two fixed body-preserving allographs, each with a LOW/HIGH entry and exit port. At a written word boundary start a fresh optimization, with both outer ports free. Among all allograph sequences spelling exactly that source word, minimize the number of adjacent exit/entry mismatches; break equal-cost ties by the lexicographically smallest variant-index sequence. Mismatches are written with a pen lift rather than prohibited.",
+    "unit": "One source word remains one visible word group. At the symbolic level every source letter contributes one recognizable allograph body. No source letter, source space or paragraph break is omitted.",
+    "contrast": "Whole-word planning over a learned per-letter allograph inventory, rather than928's fixed body exit and myopic next-entry attachment, a source-neighbor lookup table, optional independent fusion, line-width stretching, source-letter clock, or a new code-size budget.",
+    "prediction": "A distant source letter can change the selected allograph of a letter with unchanged immediate source neighbors. Nevertheless identical actual written neighboring allographs plus the same decoded center body force the same canonical center variant: local replacement would otherwise improve cost or tie order. Independent body/port binding is required before either consequence can be used on manuscript forms.",
+    "source_domain": "Finite uppercase ASCII A-Z words, separated by exactly one SPACE; LF separates paragraphs and is preserved, including empty paragraphs. No leading/trailing word spaces. Other characters are outside this teaching domain, not normalized or silently escaped. The source letters below are Roman teaching values, never Voynich values. An ordinary message already written in this source orthography retains every letter and its ordinary content.",
+    "frozen_teaching_inventory": {
+      "A": "One allograph A0 with entryLOW and exitLOW.",
+      "Z": "One allograph Z0 with entryHIGH and exitHIGH.",
+      "C": "One allograph C0 with entryLOW and exitHIGH; this directed port pair is not reversible by choice.",
+      "all_other_23_letters": "For each X, allograph X0 has entryLOW,exitLOW and X1 has entryHIGH,exitHIGH. Both decode to X. Allograph bodies of different source letters are distinguishable.",
+      "size": "49symbolic allograph forms representing26source letters: three single-form letters and23two-form letters. Their labels are atomic teaching metanotation, not strings of native working units.",
+      "cost_table": "An adjacent pair costs0 when left exit equals right entry,1otherwise. There are no letter-specific bonuses, whole-word parameters, page/hand adjustments, start/end penalties or learned target statistics. Internal body-writing costs are stipulated equal across a letter's variants, so they cancel from this limited optimization.",
+      "honest_physical_limit": "No49-shape native alphabet, actual body identity, entry/exit trajectory, pen-lift count, drawing decomposition or unique optical segmentation is established. The exact realization of these allographs with22working primitives has not been supplied. This RAW retains the selection mechanism rather than inventing another arbitrary carrier. A later physical inventory would need its own independently justified cost account and could not be tuned from the desired target choices."
+    },
+    "writer": [
+      "For each complete source word, list the allowed variants of every letter from the frozen table. A new word requires no lexical entry beyond its ordinary letters.",
+      "Compute the minimum sum of mismatch costs across its internal adjacent pairs. A hand planner can tabulate minimum remaining costs for LOW/HIGH ports at each letter, then choose the smallest variant index that permits the minimum total. The final word edge has zero remaining cost at either height.",
+      "The tie order is the variant-index vector in source order, with0before1. It is fixed for all words; no freely selected second spelling or frequency-dependent exception is permitted.",
+      "Write the selected distinguishable letter bodies in original order. Join compatible adjacent ports; lift between incompatible ports. Every word remains writable even when its best plan requires lifts. Leave the original word space and retain every sourceLF."
+    ],
+    "reader": [
+      "At the symbolic teaching level, read each allograph's invariant body identity, discard its variant index and return the source letter. Keep every original word space andLF.",
+      "For canonical validation, recompute the minimum-cost, lexicographically first plan of that recovered word; reject a different variant sequence. Exact source readback itself does not require solving an ambiguity or guessing a word.",
+      "A physical reader would additionally require the unprovided reliable body recognition/segmentation and port inventory. The symbolic inverse is not proof that raw ink can be segmented that way."
+    ],
+    "hand_examples": [
+      {
+        "source": "ABBBA",
+        "canonical_allographs": ["A0", "B0", "B0", "B0", "A0"],
+        "cost": 0,
+        "reason": "LOW anchors at both ends permit zero mismatches only when every B is LOW/LOW. A HIGH block incurs two internal mismatches."
+      },
+      {
+        "source": "ZBBBZ",
+        "canonical_allographs": ["Z0", "B1", "B1", "B1", "Z0"],
+        "cost": 0,
+        "reason": "HIGH anchors instead force the zero-mismatch HIGH/ HIGH B forms. The center source B still has B/B as its immediate neighbors, the same length5 and index3 as ABBBA. Distant source endpoints change its spelling without changing its letter value. This constructed contrast is not an observed native alias."
+      },
+      {
+        "source": "ABCBZ",
+        "canonical_allographs": ["A0", "B0", "C0", "B1", "Z0"],
+        "cost": 0,
+        "reason": "C's LOW-to-HIGH body connects the LOW region to the HIGH region without a lift."
+      },
+      {
+        "source": "ZBCBA",
+        "canonical_allographs": ["Z0", "B0", "C0", "B0", "A0"],
+        "cost": 2,
+        "reason": "Reversing the same source letters does not reverse C's directed ports. Each side of C needs one mismatch, with the LOW B variants winning the fixed ties. The word is still written and read exactly; nonzero cost is not a grammar violation."
+      },
+      {
+        "source": "B",
+        "canonical_allographs": ["B0"],
+        "cost": 0,
+        "reason": "Both variants cost0 with free outer edges; the explicit tie rule chooses0. Short isolated text needs no previous word or paragraph state."
+      }
+    ],
+    "proof_and_paid_costs": [
+      "Every allowed allograph has one fixed source-body value. Reading those values in order gives the exact input word, independent of the selection rule. The finite word has finitely many variant paths; minimization and the total lexical tie order select exactly one. This proves a complete injective deterministic symbolic word writer.",
+      "A table with at most two candidates per source position suffices. Dynamic programming over the two port states uses work linear in word length, followed by a left-to-right canonical tie resolution. A person must either perform that small whole-word planning or have learned its outcomes through writing practice. The mechanism does not make this planning or49forms free.",
+      "The message stores no arbitrary output whole-word bank, but the source text itself can naturally repeat lexical words at different frequencies. The deterministic injective one-source-word/one-group rule preserves the source whole-word frequency multiset. Old1202fixed-source frequency exclusions therefore remain relevant; planning is not a route around them.",
+      "The mechanism supplies a reason for neighboring components and a whole word's body sequence jointly to affect selected forms. It does not prove the causes of608/1279/1308/1320, and supplies no prediction of e/i run-length dispersion without a bound drawing decomposition. The1328geometric failure and1329capacity stop are not repaired or reinterpreted.",
+      "No constant start or end port is required, and a necessary lift is permitted. Therefore this is not a claim that every word realizes one invertible common-endpoint action or a zero-balance path. No added hidden state is selected after an old state-count exclusion."
+    ],
+    "local_optimality_lemma_and_old_bound": {
+      "lemma": "Fix the actually written neighboring allographs (or a free word edge) and the source identity of the center letter. Only its two incident join costs change when its variant is replaced. A canonical globally optimal word must therefore use the lexicographically smallest center variant attaining the minimum of those local costs. A cheaper replacement contradicts global optimality; an equal-cost smaller replacement contradicts the global lexical tie rule.",
+      "consequence": "Two distinct center allographs with identical actually written neighbors cannot be variants of the same body under this exact rule. Thus the already computed1295literal-neighbor conflict edges remain necessary inequalities for a proposed atomic body map, despite this writer not generally being a function of immediate SOURCE neighbors alone.",
+      "old_primary": "experiments/yolo/gdt1295_local_allograph_letter_bound/REPORT.md",
+      "retained_scope": "The old reported15body FULL lower bound and13body dispersed lower bound transfer conditionally if the same22working units are assumed to be whole allographs under this rule. This is a source-free implication using an old primary, not a new native count, source value, fitted alphabet or smaller-alphabet rescue. The teaching example has26body identities and no native unit binding.",
+      "nontransfer": "GDT1310's additional contradictions after merging SOURCE neighbors do not automatically transfer: equal neighboring source bodies can be written with different ports because of distant letters. Do not export all1310pairs to the global rule, or call an unexcluded pair an actual allograph."
+    },
+    "independent_falsifier": "Before target evaluation, one must fix recognizable body equivalences, allowed physical variants, entry/exit ports and their true writing costs independently of which plan wins. An observed word whose variant sequence costs more than another spelling of the SAME recovered bodies, or loses the fixed lexical tie rule, rejects this exact selection rule. A single replacement can suffice by the local-optimality lemma; no decoder, lexical meaning or fresh corpus is inherently required. No such independently bound native specimen/inventory is supplied or selected in this RAW. Whole-word fit obtained by freely changing body classes or per-word costs would not test it.",
+    "bounded_predecessor_review": [
+      "Current route and composition topic read. Targeted ideas searches pen/allograph/minimum cost/join and route-check used for navigation, not an exhaustive novelty claim.",
+      "IDEA928's authored card: each body has one fixed exit, the next receives the matching entry, each word starts LOW. Its missing native body binding and fixed ch/sh same-entry contradiction remain. This RAW allows fixed variants that alter both ports, free outer word ports and explicit lifts; its actual new selection rule is whole-word minimum join cost, not a renamed928trial.",
+      "GDT1295 METHOD and REPORT read: its formal forward rule depends on neighboring source letters, page, length and index. ABBBA/ZBBBZ show why that complete forward-function class is different, while the local-replacement proof above preserves the useful original literal-neighbor inequalities. No extra-context fit is selected.",
+      "GDT1310 REPORT read: source-neighbor merger consistency and arbitrary forward lookup witnesses are distinct from this fixed low-cost physical rule. Old local-model conclusions are preserved at their original scope.",
+      "GDT1320 METHOD read: old optional fusion choice is not independent of whole source identity under its binding. This RAW does not add features to that model, choose an expansion direction, fit its word probabilities, or label native forms as ligatures. Whole-word planning is retained only as a separately specified source mechanism.",
+      "IDEA973 line-geometry route remains parked; this proposal contains no line-width target, previous-ink mask, inferred drawing chronology, hole contour or e-placement value. It does not obtain those missing inputs by renaming them as ports.",
+      "GDT1306BPEsurvival and the distinction between formal parts and semantic morphemes remain. Body labels in the teaching alphabet are not inferred from native BPE units or distant shape similarity."
+    ],
+    "work_record": {
+      "block_started_utc": "2026-10-11 07:32:08 UTC",
+      "maximum_active_minutes": 25,
+      "activity": "Source-free creative construction, registry and exact named Markdown primary reading, hand proof/examples and possible raw retention. No new manuscript/source corpus query, image, optimizer implementation or empirical statistic.",
+      "exposure_note": "Root communicated1332summary during this block. That concerned the separate frozen999carrier and did not supply inputs for this proposal. No blinding, independent native confirmation or pre-1332 registration is claimed. No999/1000carrier was changed."
+    }
+  }
+}

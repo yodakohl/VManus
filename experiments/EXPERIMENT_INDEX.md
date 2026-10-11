@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1331**
-- Experiment-associated tracked files: **26,187** (2.4 GiB)
-- Structured GDT337+ experiments: **996**
+- Experiments indexed: **1332**
+- Experiment-associated tracked files: **26,199** (2.4 GiB)
+- Structured GDT337+ experiments: **997**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1333 | gdt1333_fusion_flank_residual_choice | `NO_RETAINED_WORD_SITE_INCREMENT_ALL_CASES` | [report](../experiments/yolo/gdt1333_fusion_flank_residual_choice/REPORT.md) | 12 | 502.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT1332 | gdt1332_paired_carrier_residual_frontier | `EXACT_BOUND_NOT_SMALL_RESIDUAL_ROBUST` | [report](../experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md) | 13 | 2.3 MiB | 7 | STRUCTURED_YOLO |
 | GDT1331 | gdt1331_paired_word_shared_carrier_bound | `SAME_SOURCE_PAIR_LOWER_BOUND_ONLY` | [report](../experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md) | 13 | 4.2 MiB | 5 | STRUCTURED_YOLO |
 | GDT1330 | GDT1330 | `READER_SPECIFIC_SUCCESSOR_BOUNDS` | [report](../experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md) | 13 | 5.1 MiB | 6 | STRUCTURED_YOLO |

@@ -5,10 +5,10 @@ Updated: 2026-10-11.
 Phase: exploration
 Status: checkpoint
 Task: 5h until11:54:21UTC.
-Latest decision: 1332bound brittle.
-Working files: gdt1332.
-Assumptions: no errors diagnosed.
-Resume: publish1332;new writer review.
+Latest decision: 1333no residual gain.
+Working files: gdt1333.
+Assumptions: BH/HB stipulated.
+Resume: publish1333;review compact rule.
 Running: root;bounded producer.
 
 ## Structural baseline
@@ -69,4 +69,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public73cc3df51.
+Public0bca03457.

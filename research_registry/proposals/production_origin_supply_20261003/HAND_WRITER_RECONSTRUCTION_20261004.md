@@ -10513,3 +10513,7 @@ GDT1331 finds only cfh/cph/q as relaxed3head set; singletonBOTH obligations forc
 ## 2026-10-11 — paired-carrier sensitivity closes
 
 GDT1332shows the79–81% exact bound is sensitive:46–66unexplained groups lower it to16–18% amongparsable; global relaxedminimum7–8% costs343–477. No residual is erased or diagnosed. Source reconstruction remains unselected. Original1331counts already occur as1236singletoncoverage; new consequence is candidate-specific source equality. Five-hour research block continues. See experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md.
+
+## 2026-10-11 — immediate-flank residual comparison completed
+
+1333all6primaryincrements negative after immediately surrounding expandedunits; allnominalcapacitypasses. SmallIT/RFHBconditionalp retained without claimingpositivepracticalgain or localindependence.1320doesnotrequireworddictionary; no actualfusion binding or directionselected. Sourceprovenance/11994nullreplayPASS. See experiments/yolo/gdt1333_fusion_flank_residual_choice/REPORT.md. Five-hour block remains active.
