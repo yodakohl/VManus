@@ -1,0 +1,1 @@
+All pair and port decisions; exact2CNF; literal full-source witnesses; primary validation. NQ_UNSAT_CORES and VALIDATION_CORES are explicitly post-result explanatory certificates, not token-error bounds.

@@ -1,0 +1,91 @@
+{
+  "title": "RAW UNREVIEWED: shared observation profiles bind explicit subject names and reinstantiate only marked SELF arguments",
+  "summary": "A complete semantic normalization for a restricted observation register, with an incomplete physical writer. Store each context, every named subject and a multiset of signed observations. Group subjects having exactly the same complete profile after replacing a literal self-reference by a typed SELF argument. Write that profile once with its explicit subject list. The reader expands it separately for each subject, retaining names, polarity, rational quantities, units, relational targets and observation multiplicities. No Voynich word, predicate, marker or numerical value is assigned.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_SEMANTIC_CODEC_COMPLETE_PHYSICAL_CARRIER_INCOMPLETE_NOT_SELECTED",
+    "mechanism": "Distribute one fully written multiset of relative observations over a fully written list of subject names. Only the distinguished SELF variable is rebound for each subject; a quoted NAME reference always denotes that exact named object.",
+    "unit": "One logical block is a complete observation-profile expression and its nonempty subject-name set within one explicit context. No correspondence between this block, its atoms and native word groups is asserted.",
+    "contrast": "Neither a cipher alphabet nor freely named target classes. Reusable parts are the declared source predicates, signs, quantities and argument constructors. The same complete profile can apply to several named objects, while profiles differing by one observation differ in that explicit component. This is not a repair of976controls,991quote prefixes,942finite tuple frequencies,957participant carry, or999/1000framing.",
+    "prediction": "Within one complete context the canonical writer has exactly one block per distinct relative profile, and each declared subject occurs in exactly one block. A block whose relative profile contains LINK(NAME(y)) cannot include y in its subject list: that subject's link would canonically be LINK(SELF). These are checkable consequences once complete scope, profile syntax and names are independently supplied, not claims about any manuscript span.",
+    "source_domain": {
+      "document": "A finite map from exact context identifiers c to frames(D_c,F_c). D_c is a finite set of exact subject identifiers. F_c is a finite multiset of typed signed ground observation atoms whose subject belongs to D_c. A context with no subjects is legal and must be retained. A subject with no observations is also legal and must be retained.",
+      "identifiers": "Nonempty finite Unicode scalar strings, compared exactly, with no case folding, spelling normalization, alias assumption or inferred referent inequality. An identifier denotes one source object by declaration; different source identifiers are distinct. Context identifiers remain explicit. A LINK target may name an object not observed as a subject in that context.",
+      "predicate_inventory": [
+        "DRY(x): a unary source observation about x.",
+        "INTACT(x): a unary source observation about x.",
+        "MASS(x,q,u): a source mass observation with nonnegative rational value q and exact nonempty unit identifier u.",
+        "LINK(x,y): a directed source observation that x links/refers to the named object y. It need not be symmetric or transitive."
+      ],
+      "polarity": "Every atom has an explicit plus or minus. Minus asserts the negative of that exact observation; it does not mean missing information or a negative numerical mass. Positive and negative versions may coexist and neither is canceled. The message is a register of claims, not a system applying logical explosion or inferred truths.",
+      "multiplicity": "Each signed ground atom has a positive integer multiplicity k. Repeated observations are preserved as k, not discarded. This is separate from the rational quantity q in MASS. Zero observations means absence of that atom; MASS(x,0,u) is a genuine observation when supplied.",
+      "declared_equivalence": "Only ordering of independent observation records and surface spellings of equal rational numbers are ignored. The exact frame, subjects, signed atoms and multiplicities define the message. Units remain exact labels: no implicit g/mg conversion or comparison inference is performed. Original prose wording, voice, focus or chronology was never an input to this structured domain and is not silently claimed recovered.",
+      "outside_domain": "Ordered action programs, imperatives with temporal effects, modal or hypothetical claims, unrecorded participants, implicit quantities, unresolved pronouns and natural-language prose parsing are not covered. An instruction repeated twice cannot be normalized as one by invoking this observation notation. If temporal order matters it must be part of a different fully declared source domain; it cannot be introduced or removed after a failed comparison."
+    },
+    "relative_profile": {
+      "construction": "For a fixed subject x in context c, collect all its signed atoms with their multiplicities. Remove only the repeated subject slot. DRY and INTACT then need no remaining argument. MASS retains q and u. For LINK(x,y), use the typed argument SELF exactly when y=x; otherwise use NAME(y), containing the exact literal identifier.",
+      "mandatory_rule": "SELF use is mandatory on literal equality y=x, not an optional shorter spelling. It denotes the current subject selected from the explicitly written subject list. NAME(y) is never rebound or treated as a pronoun. A source object literally named SELF is written NAME(\"SELF\") when it is another object; the typed constructor keeps it distinct from SELF.",
+      "normal_form": "Reduce q to p/d with gcd(p,d)=1, p>=0,d>=1, including0/1. Merge only identical signed relative atoms by adding their observation multiplicities. Sort atoms by the frozen predicate order DRY,INTACT,MASS,LINK; within a predicate use minus before plus, then the canonical literal argument serialization. Every multiplicity is explicitly printed, including1."
+    },
+    "writer": [
+      "For every declared frame c, compute the complete relative profile P_c(x) of every subject x, including the empty profile.",
+      "Partition D_c by exact equality of these relative profiles. Create one logical block per class: its full profile and all its subject identifiers. No similarity threshold, intersection-only summary, dropped exception or inferred common property is allowed.",
+      "Sort each subject list by the UTF-8 byte order of its exact scalar-string identifiers. Sort blocks by their canonical profile serialization; sort frames by their context identifier. These orders carry no causal or anatomical interpretation.",
+      "Write every context, every profile atom, polarity, quantity numerator/denominator, unit, multiplicity, argument tag and subject list. An empty frame and an empty profile have explicit empty-list notation."
+    ],
+    "logical_notation_and_cost": {
+      "frame_shape": "FRAME(quoted_context, [BLOCK(profile,[quoted_subjects...]), ...]). A document is a bracketed list of frames. A profile is a bracketed list of signed typed atom records with explicit k. For example an atom record may be[LINK,+,SELF,1]or[MASS,+,2/1,\"g\",1]. These are explanatory logical tokens, not proposed native groups or signs.",
+      "quoting": "All names and unit identifiers use quoted strings with JSON string escaping for quotes, backslashes and control characters. The empty name is disallowed. Reserved terms and argument constructors are typed syntax outside quotes, so a literal name can equal any displayed keyword without changing its role.",
+      "framing": "Brackets, separators, context scope, block scope and subject-list scope are visible in the teaching notation. They are costs, not inferred hidden boundaries. No line wrapping or native group interpretation is supplied.",
+      "apparatus": "Four predicate definitions, two signs, positive integer observation counts, nonnegative rational quantities, exact units and names, one scoped SELF binder, and finite visible list/record grammar. All subject names remain written; only the common profile is shared. Long names, many distinct profiles and quantity detail can make the notation expensive.",
+      "physical_gap": "There is no frozen22-working-sign carrier, native segmentation, physical name alphabet, shorthand sign for any predicate, or glyph for a quantity. Those interfaces remain honestly incomplete. A new carrier must pay the scopes and arbitrary names and respect earlier control/initial/ending constraints; no implicit font or marker renaming is offered as a solution."
+    },
+    "reader": [
+      "Parse the visible logical frames, blocks and lists. Require unique context identifiers, nonempty subject lists in blocks, and no subject appearing in two blocks of the same frame. Empty frames are separately legal.",
+      "For each x in a block's subject list and each profile atom, restore x as the first argument. Replace only SELF by x; preserve every NAME(y) literally. Restore the explicit polarity, MASS quantity/unit and observation multiplicity.",
+      "The union of subject lists is exactly D_c, including subjects in empty-profile blocks. Expanded signed atoms with multiplicities reconstruct F_c. No absent property is assigned false, no conflicting claims are resolved, and no unnamed recipient is introduced.",
+      "Canonical validation recomputes mandatory SELF substitution and complete-profile grouping. Reject nonreduced quantities, unsorted/duplicate profile atoms, noncanonical explicit own-name arguments or repeated equal-profile blocks. This verifies a unique written normal form for the declared semantic message."
+    ],
+    "source_only_examples": {
+      "first_message": {
+        "context": "inspection 1",
+        "subjects": ["A", "B", "C"],
+        "A_observations": ["+DRY with count2", "-INTACT with count1", "+MASS(2/1, g)with count1", "+LINK(A)with count1"],
+        "B_observations": ["+DRY with count2", "-INTACT with count1", "+MASS(2/1, g)with count1", "+LINK(B)with count1"],
+        "C_observations": [],
+        "normal_form": "One block applies the complete profile[+DRY*k2,-INTACT*k1,+MASS(2/1,\"g\")*k1,+LINK(SELF)*k1]to[A,B]; a separate empty-profile block retains[C]. Each item has mass2g according to its claim;2g is not a total shared between A and B."
+      },
+      "different_content_same_unary_parts": "If A and B instead both link to C, the shared profile uses LINK(NAME(\"C\")), preserving A->C and B->C. It cannot be read as the first message's A->A and B->B. No unseen consumer or expected answer selects the referents.",
+      "mandatory_self_boundary": "If both A and B link to A, A's canonical profile contains LINK(SELF)while B's contains LINK(NAME(\"A\")). They must be two blocks despite sharing the literal destination. A single block[A,B]with LINK(NAME(\"A\"))would expand correctly but is noncanonical and must be rejected by the declared writer.",
+      "unknown_negative_and_zero": "No INTACT record for C is different from an explicit -INTACT(C). A +MASS(C,0/1,\"g\")record is different from no mass record. A +DRY and a -DRY record can both remain, with their separate counts. None is converted into a guessed physical state."
+    },
+    "proof_and_composition": [
+      "For each subject x, replacing a literal second argument x by the scoped SELF token is undone exactly when the same x is restored. All other argument identities, signs, quantities and counts are copied literally. Partitioning subjects by equal relative profiles therefore loses no fact or multiplicity from the declared source message.",
+      "Complete profiles, mandatory SELF substitution and fixed canonical sorting determine one output per semantic message. Conversely reading the frames/blocks yields that message. Thus the reader returns precisely the declared semantic equivalence class, not the original prose spelling or event order.",
+      "A profile's reusable parts are typed source observations. Combining profiles means multiset union of their relative atoms, adding counts only for identical signed atoms. The fixed written order is notation order, not evidence that conjunction itself is semantically directional. No native morpheme or prefix role is inferred from this formal operation.",
+      "Whole-profile identity matters: two subjects share a block only when ALL their signed atoms, quantities, units, targets and observation counts match after the one permitted SELF substitution. A common substring or one common property cannot license grouping and hidden exceptions.",
+      "No one-source-word/one-written-group frequency invariant is claimed, because the source domain is a structured observation multiset and a block distributes over several explicitly listed subjects. This is not evidence that the resulting physical text meets any native frequency, length or run statistic."
+    ],
+    "limited_research_consequence": "This RAW supplies a precisely readable candidate information structure for a property/observation register, as an alternative to assuming that every recurring complete form names a referent or a single predicate. It is not ready for a native decoder or a source-frequency prototype. A future selection would need independently bound complete context/subject scope and a physical renderer, then could test the canonical grouping, mandatory SELF-versus-NAME distinction and explicit preservation of contrary/zero/absent records. The present action only retains the complete semantic contract; no manuscript term or scope is selected.",
+    "bounded_predecessor_review": [
+      "Current route read. Targeted registry searches distributive/property bundle/observation/identical profiles and route-check used; temporarily stale searches were repeated after root's refresh. The duplicate screen reported no identical declared design, not a proof of broad novelty. Its closest common-property lead concerns computing an intersection; this writer groups only fully equal profiles and does not discard nonshared facts.",
+      "IDEA976 card and linked1257decision retain the restricted active/passive normalization positive but the five-control physical architecture failure. This proposal does not move, rename or enlarge those controls; its physical interface is explicitly absent.",
+      "IDEA991 card retains context-recovered inflection but a five-initial carrier contradiction. Its quoted-name escape carrier is not reused; symbolic quoting here is an openly unpaid physical interface, not a native workaround.",
+      "IDEA942 card preserves the fixed shared four-tuple source frequency failure1210. IDEA944's separately reviewed name/default interfaces do not provide a complete native writer. The present source domain and grouping are stated from scratch, not substituted into the old experiment or claimed to rescue its counts.",
+      "IDEA957 card retains the fixed nonempty SAME-exponent contradiction. Here every subject is explicitly written in the current block; SELF binds only a specified argument within its own complete profile. There is no carry from the preceding clause or assumed SAME marker in a native triple.",
+      "IDEA895 card and linked authored account concern token reuse versus pattern rebinding in a partially interpreted native passage. This proposal imports no classes, glosses or passage evidence from it. The source-only SELF/NAME contrast is fully specified but is NOT newly bound native evidence for895.",
+      "IDEA979 card read: its positive-rational addition path remains an incomplete numeric module and is not used to encode the quantities here. Rational normalization is ordinary source-value notation with explicit numerator, denominator and unit, not a new numeral hypothesis or a completion of979.",
+      "GDT1200's formal repeated-base construction and later confluence constraints do not identify count, polarity or observation semantics. No BB or e/i run is assigned any of the above source roles. No new source corpus, natural-language parser or hypothesis fit was built."
+    ],
+    "work_record": {
+      "block_started_utc": "2026-10-11 07:53:27 UTC",
+      "maximum_active_minutes": 20,
+      "status_of_data_exposure": "THIS BLOCK IS NOT NATIVE-BLIND. The proposed source-only profile/SELF direction was described before the access below; no embedded native content was used to choose its semantics, examples or grammar. No native strings, profiles or glosses are reproduced in this proposal.",
+      "exact_access": "cat research_registry/proposals/production_origin_supply_20261003/IDEA895_WHOLE_ACCOUNT.md",
+      "access_output_limit": "max_output_tokens=3200; tool reported4886original tokens and176lines, with truncated output. The explicitly linked Markdown included an embedded native passage and form profiles. No companion JSON, native cache, image or second read was accessed.",
+      "access_time": "The tool did not return an exact UTC timestamp. It occurred between the verified receipts2026-10-11 07:53:27UTC and07:57:35UTC; this interval is reported instead of inventing exact precision.",
+      "handling": "Reported the access promptly to root; no further access to that account, no reproduction or use of its native contents. Subsequent primary access was restricted to metadata/explicitly safe sections. Root's1333proof review was in the separately completed earlier block, before this access.",
+      "activity": "Source-domain and inverse construction, bounded registry/primary review and raw retention only. No new native/source corpus query, image, empirical count, software prototype, optimizer or root-file edit."
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "title": "RAW UNREVIEWED: named observation trails reuse the last explicit relation target as the next subject",
+  "summary": "An alternative complete semantic serialization of IDEA1002's declared observation space. Deterministically traverse the finite multiset of signed observations. A trail writes its initial subject in full; unary observations retain that subject, while LINK(y) writes y in full and makes y the next subject. Observation multiplicities are paid by repeated records, and quantities/units remain explicit. Named empty subjects and empty contexts are preserved. The logical reader is complete; no22-sign physical carrier, native role or historical notation is claimed.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_SEMANTIC_WRITER_COMPLETE_PHYSICAL_CARRIER_INCOMPLETE_NOT_SELECTED",
+    "mechanism": "Treat a given signed observation multiset as a directed multigraph. Unary observations are source-retaining records; a binaryLINKrecord carries an explicit new target and advances the topic cursor to that target. A deterministic finite walk decomposition, rather than a free antecedent guess, selects which repeated subject names can be omitted.",
+    "unit": "One logical frame per named context, containing explicitly framed named trails. Each observation occurrence is one typed compositional record. No record/trail/field is asserted to equal a native word or line.",
+    "contrast": "Unlike1002, no equal-profile classes or broadcast subject lists are formed, and noSELFconstructor is used. Unlike957, there is no separately chosen SAME/NEXT inflection: the declared predicate's arity fixes the cursor operation. Unlike951, a complete multiset-to-text compilation rule is supplied rather than starting from an already arranged topic passage. Anaphoric reference itself is not claimed new.",
+    "prediction": "Within a framed trail, every unary record has the subject currently fixed by its initial name or most recent LINKtarget. Each LINKtarget is the subject of the next record if one follows, even when theLINKclaim is negative. A trail ends exactly when that current subject has no unconsumed outgoing observations under the canonical encoder. These are source-contract consequences, not decoded native relations.",
+    "unchanged_meaning_space": {
+      "reference": "research_registry/proposals/production_origin_supply_20261003/DISTRIBUTIVE_OBSERVATION_PROFILES_RAW_20261011.json",
+      "message": "Exactly the same finite map c -> (D_c,F_c): exact named contexts; an explicit finite set of declared subject identifiers; a finite multiset of signed DRY(x),INTACT(x),MASS(x,q,u),LINK(x,y)observations. q is a nonnegative rational, u an exact unit identifier, and every observation multiplicity is preserved.",
+      "identifiers": "Nonempty Unicode scalar strings, exact and case-sensitive. Targets may name objects that are not declared subjects in that context. No alias, equivalent spelling or pronoun resolution is inferred.",
+      "semantic_equivalence": "Observation order is not part of this structured domain. Signed facts, multiplicities, contexts, object identities, rational values and exact units are. Contrary claims may coexist; absence is not negation; mass zero is not a missing value. Temporal action order, natural-language prose parsing and implied quantities remain excluded exactly as in1002.",
+      "no_source_repair": "1002remains frozen. This separate writer accepts its same semantic objects and does not change the source interpretation, discard difficult observations or claim native distributions."
+    },
+    "logical_records": {
+      "D_plus_or_minus": "Record the indicated signed DRY(current)observation once; leave current unchanged.",
+      "I_plus_or_minus": "Record the indicated signed INTACT(current)observation once; leave current unchanged.",
+      "M_plus_or_minus_q_unit": "Record the indicated signed MASS(current,q,u)observation once; leave current unchanged. Numerator, denominator and exact unit are written.",
+      "L_plus_or_minus_name": "Record the indicated signed LINK(current,y)observation once, where y is written as a full quoted identifier, then set current=y.",
+      "arity_is_control": "The predicate itself already distinguishes a unary observation from a directed reference observation. No independent SAME/CHANGE bit or universally shared nonempty SAME exponent is inserted. This is a declared source grammar, not a native glyph-role assignment.",
+      "negative_links": "A negative LINKclaim is not treated as an actual physical edge or motion. Advancing to its explicitly mentioned y is a writing/reading topic convention only; it does not infer the positive relation or a causal event."
+    },
+    "deterministic_writer": [
+      "For each named context, retain a mutable multiset of all its observation occurrences. A multiplicity k supplies k identical occurrences; it is not silently reduced to one. Sort context identifiers by exact UTF-8 byte order.",
+      "While observations remain, choose the lexicographically least subject having an unconsumed outgoing observation. Start a new visibly framed trail with that complete subject name as current.",
+      "At current, choose the least remaining signed observation by the frozen order DRY,INTACT,MASS,LINK; within one type put minus before plus and use the canonical literal argument serialization as the final tie order. Consume exactly one occurrence and append its typed record.",
+      "Unary records remain at current. ALINKrecord prints its full target and changes current to it. Repeat while current has an unconsumed outgoing observation. Stop this trail immediately when it does not, then start the next trail by the same least-subject rule.",
+      "After all observations are consumed, write one empty named trail for each declared subject with ZERO original outgoing observation occurrences, in exact name order. This includes declared subjects that occurred earlier only as relation targets; it does not add undeclared external targets to D_c.",
+      "Retain each context even if both its subject set and observation multiset are empty. There is no word-count cap, renderer adjustment, hidden restart, optional omission or shortest-trail optimization."
+    ],
+    "logical_framing_and_cost": {
+      "notation": "A teaching frame is FRAME(quoted_context,[TRAIL(quoted_initial_name,[records...]),...]). Lists, record constructors and their argument fields are visibly delimited. A unary record has no name argument; aLINKrecord has one exact target; MASS has an exact rational and unit. These are logical compositional parts, not a proposed native code alphabet.",
+      "names": "Quoted names and units use JSON string escaping for quotes, backslashes and controls. Literal identifiers equal to reserved labels remain quoted data. No open name is treated as one free working glyph.",
+      "quantity": "Every rational is written as its reduced p/d, p>=0,d>=1, including0/1; the unit is written as its exact identifier. No conversion of units or implicit dose is licensed.",
+      "counts": "There is no separate observation-count field: k identical source observations consume and emit k records. This can be expensive. It differs from1002's explicit count in a shared profile, while preserving the same semantic multiplicity.",
+      "apparatus": "Four typed predicate records and polarity, exact literal name/quantity notation, a topic cursor, visible context/trail scope, and the deterministic next-record ordering rule. Writers need a scratch inventory of unconsumed observations. Readers need only the current name plus the growing decoded register.",
+      "physical_limit": "No22-sign spelling, actual native word segmentation, rendered literal alphabet, marker placement or line-wrap convention is specified. Framing remains a paid logical requirement, not a hidden boundary. This avoids mandating a separate finite control WORD after each short clause at the logical level, but does not prove that a later physical carrier escapes1257or other known constraints. No such carrier is manufactured here."
+    },
+    "reader": [
+      "Parse the visible context/trail/record grammar. Each trail begins with an explicit complete name. Set current to that name, and declare that initial name a subject of the context even for an empty trail.",
+      "For every record, add its exact signed ground observation at current with multiplicity one. The subject of any emitted record belongs to D_c. Unary records retain current; LINKrecords replace it with their fully written target.",
+      "A target that merely occurs at the end of a trail is NOT automatically a declared subject. It enters D_c only if it later serves as a record subject or appears in a named trail anchor, including an explicit empty one.",
+      "Aggregate identical signed ground observations by counting their occurrences. Retain all context identifiers, declared subjects, quantities, units and arguments; do not cancel contrary records or infer unmentioned properties.",
+      "Canonical validation reruns the fixed walk decomposition on the reconstructed message and requires the identical logical transcript. A readable but differently arranged trail is not an allowed spelling under this frozen deterministic writer."
+    ],
+    "source_only_examples": [
+      {
+        "context": "inspection",
+        "declared_subjects": ["A", "B", "C"],
+        "observations": ["+DRY(A)twice", "+LINK(A,B)once", "-INTACT(B)once", "+MASS(B,2/1,\"g\")once"],
+        "canonical_trails": [
+          "TRAIL(\"A\",[D+,D+,L+(\"B\"),I-,M+(2/1,\"g\")])",
+          "TRAIL(\"C\",[])"
+        ],
+        "readback": "The twoDrecords both concernA. The explicitBtarget transfers the next two observations toB. C's empty trail preserves a declared object with no observations. The quantity2g is not the count of DRYobservations."
+      },
+      {
+        "contrast": "A links to itself three times",
+        "trail": "TRAIL(\"A\",[L+(\"A\"),L+(\"A\"),L+(\"A\")])",
+        "consequence": "Identical consecutive relation records are legal and preserve multiplicity3. No universal ban on repeated complete records or nonempty SAME suffix follows. This does not assert that any native triple denotes repeated observations."
+      },
+      {
+        "contrast": "Declared empty subject versus external target",
+        "first_message": "D={A}; one+LINK(A,B). Writer emits onlyTRAIL(A,[L+(B)]). B is a named target but not a declared observed subject.",
+        "second_message": "D={A,B}; the same one+LINK(A,B). Writer additionally emitsTRAIL(B,[]), because B is explicitly declared but has no observations.",
+        "consequence": "The writer cannot erase this domain difference by assuming every mentioned name is a declared subject."
+      },
+      {
+        "contrast": "Changing a link target",
+        "rule": "In any readable trail, replacing only L+(B)byL+(C)changes the subject of following unary records toC until anotherLINKor new trail. It does not only alter the first relational fact. Such a modified trail may fail canonical re-encoding, but its explicitly decoded message difference is determined without a guessed consumer."
+      }
+    ],
+    "proof_and_distinctness": [
+      "Each writing step consumes exactly one occurrence of a supplied source observation and emits a record whose reader restores precisely that occurrence. Unary records keep their actual subject; LINKprints the destination before advancing. Induction along each trail proves exact recovery of all signed facts and multiplicities.",
+      "The finite occurrence multiset decreases at every step. A trail may terminate early at a sink, but the least-subject restart processes every remaining component. Thus no connectivity, Eulerian balance, positive relation, shortest-path or hidden world-state assumption is required.",
+      "Subjects with observations are recovered from their emitted subject positions. Explicit empty trails recover precisely the declared zero-observation subjects. Merely referenced external names remain external. Empty contexts also have a visible record. This proves recovery of the entire1002meaning object, not just its positive edge set.",
+      "All ordering choices and literal normal forms are fixed, so the semantic writer is deterministic; its exact reader makes it injective on the declared semantic messages. No original prose order or wording is promised, because those were not part of this meaning domain.",
+      "Repeated parts arise from source predicate/value/target identity, and whole record meaning depends on the currently written topic established by the preceding relation. The mechanism supplies neither native semantic labels nor an explanation of any measured statistic without an independently bound rendering.",
+      "This is a canonical graph-trail compilation of the same observation multiset as1002, not a different placement of1002's profile delimiters. Equal full profiles are irrelevant; repeated objects may be interleaved according to their explicit links."
+    ],
+    "predecessor_scope": [
+      "Current route and composition topic read. Targeted registry searches current subject/walk/graph/anaphoric and route-check were bounded navigation, not proof of historical novelty.",
+      "IDEA951already supplies an explicit topic and variable predicate sequence; its missing physical writer and later short-word carrier contradiction remain. This proposal adds a total deterministic compiler from a fully specified observation multiset and precise treatment of external targets/empty subjects, not a new claim that topics or anaphora are unknown mechanisms.",
+      "IDEA957already carries participants across clauses. Its fixed nonempty SAME-exponent counterexample remains. The present cursor rule is fixed by predicate arity in a different given-source domain, with no optional role inflection or native exponent; the physical interface stays unbound rather than being repaired.",
+      "GDT342lookup and only METHOD's Frozen graph representation section were read: it discards identity labels after deriving anonymous flow signatures for a comparator, not a complete exact-name writer. Its uncalibrated result and343/888followup limits are preserved; no graph similarity is used as meaning evidence here.",
+      "Old976/1257fixed control-word failure,991carrier-initial failure and942/1210shared-tuple frequency failure remain. No source replacement is run against their inherited gates and no source domain is called a Voynich reading.",
+      "IP080-style expression arity and generic typed constructors are not claimed novel. This grammar does not make a full paragraph one prefix tree; it serializes directed observation occurrences with explicitly named trail anchors. No old arity stop is reopened.",
+      "IDEA1002remains unchanged. This RAW has no invented22-sign rendering and does not promise to solve its physical interface simply by replacing profile blocks with trails."
+    ],
+    "prospective_decision_limit": "This is a retained semantic construction, not an experiment-ready native decoder. A future candidate would need independently justified context/trail scope, recognizable compound records and literal name/quantity handling. It could then test the exact subject-continuity law and whether all written observations reconstruct one declared source record without hidden participants or quantities. A new toy roundtrip alone would not change manuscript interpretation, so no prototype or corpus test is requested here.",
+    "work_record": {
+      "idea_block_started_utc": "2026-10-11 08:14:09 UTC",
+      "maximum_active_minutes": 15,
+      "separate_prior_task": "The1334proof was persisted immediately before this block from already delivered messages; this proposal neither changes that experiment nor supplies its inputs.",
+      "activity": "Source-only semantic construction, bounded registry navigation and one explicitly limited METHOD section. No native payload or image, source corpus, empirical statistic, implementation, target meaning or shared root-file edit. Earlier895exposure in the1002block remains disclosed in that original work_record; no contents from it are reused."
+    }
+  }
+}

@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1334 canonical two-port aliases excluded
+
+Fixed atomic22-unit minimum-join writer: all nontrivial observed alias partitions excluded by pairrefinement;666literal pair conflicts and324remainingportcases UNSAT. No native SAT writer, phonemes, image binding or general handwriting rejection. Source-only1001keeps its missingphysicalcarrier; no extra ports/costs selected. [Report](experiments/yolo/gdt1334_canonical_two_port_alias_capacity/REPORT.md).
+
 ## 2026-10-11 — GDT1333 word/site residual beyond immediate flanks
 
 All6fixedmobileheldgains negative after localexpandedflanks; no retained positive increment. IT/RF_HBsmallconditionalp stay visible, so no localindependence confirmation. Local-vs-CHgains descriptivepositive;1320limitedpositive preserved, not a requiredworddictionary. No actualfusion, direction ormeanings; no contextrepair. [Report](experiments/yolo/gdt1333_fusion_flank_residual_choice/REPORT.md).

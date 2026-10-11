@@ -10517,3 +10517,7 @@ GDT1332shows the79–81% exact bound is sensitive:46–66unexplained groups lowe
 ## 2026-10-11 — immediate-flank residual comparison completed
 
 1333all6primaryincrements negative after immediately surrounding expandedunits; allnominalcapacitypasses. SmallIT/RFHBconditionalp retained without claimingpositivepracticalgain or localindependence.1320doesnotrequireworddictionary; no actualfusion binding or directionselected. Sourceprovenance/11994nullreplayPASS. See experiments/yolo/gdt1333_fusion_flank_residual_choice/REPORT.md. Five-hour block remains active.
+
+## 2026-10-11 — compact two-port writer capacity completed
+
+GDT1334uses source-free pairrefinement/run decomposition fixedbeforedata to checkall231pairs perreader withoutlargeCEGIS.666literal contradictions +324portUNSAT exclude nontrivialaliases underatomic22/equalcost/canonical2portcontract. Independentoriginalsource/Z3checksPASS; postresultn/qcores give96exactrunwitnesses, no errorradius. Concrete chon/oqaiin contradiction recordedwithoutmeanings. No port/cost/segmentationrepair; five-hourblockstillactive. See experiments/yolo/gdt1334_canonical_two_port_alias_capacity/REPORT.md.

@@ -1,0 +1,57 @@
+{
+  "title": "Source-free proof review: whole-word port optimization reduces exactly to one-pair run constraints and2SAT",
+  "status": "SOURCE_FREE_MATHEMATICAL_REVIEW_NO_NATIVE_RESULT",
+  "scope": "GDT1334candidate contract reviewed before native enumeration. This note records the previously delivered proof messages, not a new experiment, registry proposal, data count, physical identification or translation.",
+  "contract": {
+    "alphabet": "Each of22fixed working glyphs has one global entry bit and exit bit. An unknown partition assigns glyphs to source bodies, with at most one glyph of a body for each of the four port pairs. Different bodies may freely share port pairs.",
+    "writer": "One source body yields one glyph; source word order and boundaries are preserved. For a complete word minimize the sum of adjacent exit/entry mismatch indicators. Outer word ports are free. Among minimum-cost renderings choose the lexicographically smallest complete portcode sequence, with portcode=2*entry+exit. No page, position, length, word-lookup or intrinsic-variant bonus is present.",
+    "nontrivial_family": "At least two of the observed working glyphs belong to the same body. The all-singleton identity partition is always possible and is outside this nontrivial-alias exclusion question."
+  },
+  "local_optimality": {
+    "proof": "Holding the actual written neighbors and decoded center body fixed, replacing only the center variant changes only its incident mismatch costs. A cheaper replacement contradicts global minimum cost; an equal-cost replacement with smaller portcode contradicts the global lexical tie rule. Therefore every observed center is locally canonical under its actual written neighbors.",
+    "limitation": "Local canonicality is necessary, not sufficient for whole-word canonicality.",
+    "counterexample": "Let x have portsLL(code0), y have portsHH(code3), and let h be a different singleton body with portsHH. Observed hxxh has cost2. Changing either x alone to y leaves cost2 and makes the sequence lexicographically larger, so each individual x is locally canonical. Changing BOTH gives hyyh with cost0. A global verifier must reject hxxh."
+  },
+  "one_pair_refinement": {
+    "construction": "From any valid nontrivial body partition choose any two distinct observed aliases x,y in one class. Keep only x/y together; make every other observed glyph a singleton body. Retain all port assignments and the fixed portcode tie order.",
+    "proof": "Decode each observed word under the refined body map. Its permitted rendering set is a subset of its old permitted set and still contains the observed rendering. Any cheaper or equal-cost lexicographically earlier refined rendering would already have contradicted old canonicality. Thus the refined writer remains valid on every observed word.",
+    "coverage": "The two aliases have distinct port pairs by the within-body uniqueness premise. All12ordered assignments of two distinct port pairs therefore cover every possible chosen pair. Other20glyphs supply40free Boolean port variables. They require no global all-different constraint.",
+    "consequence": "If every observed glyph pair and all12assignments are rigorously UNSAT, no nontrivial observed-alias partition in this family is possible. A feasible pair supplies a complete symbolic21-body writer, not a joint solution for several independently feasible pairs.",
+    "meaning_limit": "Refinement changes hypothetical source-body values; it preserves observational realizability, not an already known plaintext or translation. Unobserved extra alternatives may be deleted for this necessary argument, but the conclusion concerns aliases among the observed22glyphs, not all possible unobserved forms."
+  },
+  "exact_run_decomposition": {
+    "runs": "For a fixed pair, the positions bearing its body are exactly the maximal contiguous runs of literal x/y in the observed word. Replacing x by y or conversely does not change these positions or run boundaries. Every other position has a fixed singleton output glyph.",
+    "cost_factorization": "For fixed port bits, total cost is the constant contribution of singleton/singleton edges plus one term for each alias run. That term includes all internal run edges, the left external edge when present, and the right external edge when present. Each physical edge is included exactly once.",
+    "separating_singleton": "When only one singleton separates two runs, its ENTRY bit governs the right boundary of the left run and its EXIT bit governs the left boundary of the right run. The bit variables are globally shared through the conjunction of constraints, but after fixing them the two choices of alias sequences are independent. No internal singleton cost depends on either run's chosen variants.",
+    "lexical_factorization": "A minimum of the sum must minimize each run term separately. Among those minima, the global lexicographic minimum chooses each run's lexicographically smallest minimum sequence. Otherwise replacing the earliest noncanonical run improves the complete word's tie order without changing cost.",
+    "equivalence": "The observed complete word is globally canonical if and only if every observed alias run is the canonical minimum sequence for its length and its actual boundary-port context. Words containing no x/y impose no rendering condition."
+  },
+  "run_dp_and_2sat": {
+    "contexts": "For each fixed x/y port assignment and run length n, compute the canonical run by exact dynamic programming for each of nine boundary contexts: left external EXIT in{LOW,HIGH,FREE}, right external ENTRY in{LOW,HIGH,FREE}. FREE means the boundary edge is absent, not a third Boolean port value.",
+    "interior_clause": "If observed run r is not the canonical run when its left boundary bit l=a and right boundary bit t=b, forbid that assignment with(l!=a OR t!=b). Any binary allowed-context relation can be represented by these at-most-four2literal clauses.",
+    "one_free_edge": "With one FREE boundary, each forbidden value of the remaining boundary bit yields a unit clause.",
+    "two_free_edges": "With both word edges FREE, a noncanonical observed run yields the empty clause and immediate UNSAT; a canonical one yields no condition.",
+    "port_sides": "Always use EXIT(actual left singleton)and ENTRY(actual right singleton). Even if both neighbors are the same glyph, its entry and exit are distinct variables unless another valid constraint forces them equal.",
+    "sufficiency": "Conjoin all run clauses across all words under the same40port variables. Any satisfying assignment makes every run and therefore every complete word canonical. An exact UNSAT result proves there is no port assignment for this pair/ordered-port branch. This is an exact finite feasibility reduction, not a statistical or approximate relaxation beyond the expressly chosen one-pair refinement.",
+    "ties": "DP ties use portcode order, not native-label order. Swapping LOW/HIGH preserves mismatch costs but reverses portcode order; it cannot be used as a free symmetry quotient while retaining the same canonical rule. Lexicographically smallest satisfying40bit assignment is optional reproducible witness selection, not required for the existence proof.",
+    "validation": "A separate full-word DP is useful to check all accepted assignments and catch missing or double-counted boundary edges. Backward run DP and an independent Boolean solver can check the run constraints without importing the primary implementation."
+  },
+  "superseded_precount_cegis_note": {
+    "valid_but_unneeded": "The earlier CEGIS idea was sound but is superseded before native enumeration by the smaller exact run/2SAT reduction.",
+    "cut": "For observed w and an alternative v in the same one-pair body sequence, require C(w)+epsilon<=C(v), where epsilon=1 if v is lexicographically earlier than w, otherwise0. The first difference is x/y and their ports are fixed, so epsilon does not change with the other40bits.",
+    "status_limits": "Each violated valid cut eliminates the current candidate. Full-word acceptance proves SAT, and exact UNSAT of any finite necessary-cut conjunction proves impossibility. A timeout or unexplored branch remains UNKNOWN. The2SAT replacement removes the need for this iterative search."
+  },
+  "claim_ceiling": [
+    "All branches must be covered by valid logical exclusion or exact feasibility results; zero found solutions under a timeout is not an all-pair exclusion.",
+    "Success does not identify a real source alphabet, physical body family, pen trajectory, human preference or meaning. Fixed working-unit and whole-word segmentation remain premises.",
+    "Failure concerns fixed ports, additive adjacent mismatch cost, free word edges, one body per unit and the stated canonical tie rule. It is not a rejection of arbitrary handwriting, optional choice, multi-unit allographs or unseen variants.",
+    "No native data, images, corpus code or new counts were read during this proof block. Earlier scientific results and source exposure are not claimed independently replicated."
+  ],
+  "timing": {
+    "proof_block_started_utc": "2026-10-11 08:06:36 UTC",
+    "proof_block_completed_utc": "2026-10-11 08:11:16 UTC",
+    "active_elapsed": "4minutes40seconds, including source-free message review and the current route read; no waiting padding.",
+    "persistence": "Written afterward at root's request from the already delivered proof messages, before root's stated native enumeration/input lock. No new native or primary-file access was made for persistence.",
+    "separate_prior_block": "The previously disclosed embedded895Markdown exposure occurred in the earlier semantic1002block, not during this proof review. The blocks are not represented as independent historical data acquisitions."
+  }
+}

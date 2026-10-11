@@ -5,10 +5,10 @@ Updated: 2026-10-11.
 Phase: exploration
 Status: checkpoint
 Task: 5h until11:54:21UTC.
-Latest decision: 1333no residual gain.
-Working files: gdt1333.
-Assumptions: BH/HB stipulated.
-Resume: publish1333;review compact rule.
+Latest decision: 1334aliases FAIL.
+Working files: gdt1334.
+Assumptions: atomic22;fixed ports.
+Resume: publish1334;semantic RAWreview.
 Running: root;bounded producer.
 
 ## Structural baseline
@@ -69,4 +69,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public0bca03457.
+Publicafc6e14be.
