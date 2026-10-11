@@ -1,0 +1,53 @@
+{
+  "status": "PASS_EXPLORATORY_SOURCE_AND_MECHANICAL_LOGIC_ONLY",
+  "reviewer": "separate closure_error_audit agent",
+  "inspected_sha256": {
+    "research_registry/proposals/production_origin_supply_20261003/PAIR_WEAVE_HAND_SOURCE_20261011.json": "1e64a0248d141a66815219ef92b443cfc2d56308409147cc22565a4e23c73b41",
+    "research_registry/proposals/production_origin_supply_20261003/PAIR_WEAVE_HAND_CONTRACT_20261011.json": "809b669641b611fefc17a05c34fed6592f753e7fd816f4a76689cd3242b5a210",
+    "research_registry/proposals/production_origin_supply_20261003/PAIR_WEAVE_HAND_RUN_20261011.py": "ebb8138ee8de5023ed3c1fe3d4915d861cfdcab75a09130e7c13f14b59bbf9b6",
+    "research_registry/proposals/production_origin_supply_20261003/PAIRED_WORD_INTERLEAVING_LENGTH_CHANNEL_RAW_20261011.json": "57bddf3c2f35ba9c4e4dc9128b7bbb775b55423ca9d045f6afddd0c808eee8d7",
+    "research_registry/proposals/production_origin_supply_20261003/PAIR_WEAVE_HAND_RESULT_20261011.json": "06e3e2daf08aec2e932921f3dac58f2d779bc3e352226f92af8bfc2e57b03a93"
+  },
+  "scope": "Only the already guarded three-locus hand packet, declared proposal/contract and hand runner. No original mixed TSV reopened, unrelated native data, source vocabulary or key fitting.",
+  "source_checks": {
+    "cached_rows": 79,
+    "unique_ids": 79,
+    "complete_reader_locus_lines": 9,
+    "paragraph_groups_per_reader": 16,
+    "ZL_IT_paragraph": "Complete consecutive lines .43-.44 with own start/end flags and literal full-unit parsing; eight pair blocks each, with the .43/.44 boundary inside one pair. No line reset.",
+    "RF_paragraph": "UNSCORABLE: all paragraph flags zero; shee@152;y and {ch'}okey fail literal fixed-unit parsing. No normalization or transferred paragraph phase.",
+    "triple_ids": {
+      "ZL3b": [
+        "ZL3b|f79v.19|G005",
+        "ZL3b|f79v.19|G006",
+        "ZL3b|f79v.19|G007"
+      ],
+      "IT2a": [
+        "IT2a|f79v.19|G005",
+        "IT2a|f79v.19|G006",
+        "IT2a|f79v.19|G007"
+      ],
+      "RF1b": [
+        "RF1b|f79v.19|G006",
+        "RF1b|f79v.19|G007",
+        "RF1b|f79v.19|G008"
+      ]
+    }
+  },
+  "proof": [
+    "The two retained output group lengths equal the two original source word lengths, so the positions assigned to each row are known without a language model or hidden length annotation.",
+    "The inverse consumes the paired alternating prefix and puts every excess unit into the longer source row. The independently constructed row-position schedule checks the same permutation without importing the runner.",
+    "Any three consecutive whole groups within one uninterrupted paragraph contain an aligned pair under either pair parity. An odd final unpaired word does not invalidate this: the other two form the aligned pair.",
+    "qokedy has six complete working units. Unweaving an aligned equal pair yields qkdqkd and oeyoey before the unknown key. A bijection preserves their internal square patterns but supplies no source letters.",
+    "Uncertain earlier seams on f79v.19 prohibit deriving a full preceding parity from this snippet. The checked triple has definite own seams, and both local parities are retained; no hidden paragraph boundary within it is allowed by the contract."
+  ],
+  "result_check": "Saved ZL/IT full symbolic inverse agrees with independently generated weave-position schedule for all 16 pairs across alternate readings; RF unscorable and all three local triple records agree.",
+  "actual_logical_objections": [],
+  "limitations": [
+    "Every eligible paragraph has a symbolic inverse under this permutation. Successful bookkeeping is not empirical support, natural source-word recovery or translation.",
+    "The packet guard receipt and contract document the earlier selector-first acquisition; this review verifies cached scope/completeness rather than independently repeating that query.",
+    "The hand runner records its packet hash in the output rather than enforcing a separate preregistered packet lock. The peer record pins the inspected bytes; this remains disclosed exploration, not blind testing.",
+    "No source language, phonetic key, corpus fit, unknown-word handling or measured improvement has been established.",
+    "Alternative readers remain observations of one manuscript; RF paragraph remains unscorable even though its local triple is literal."
+  ]
+}

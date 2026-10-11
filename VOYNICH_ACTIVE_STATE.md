@@ -1,3 +1,7 @@
+## 2026-10-11 — IDEA1014 pair-weave inverse made concrete, meanings remain open
+
+A new exact two-word interleaving preserves original word lengths as its output split; no extra END or wordbook. The old f103r.43-44 paragraph now has a complete16group symbolic pre-key inversion in ZL/IT, including the pair across the line break. RF stays unscorable. Oldf79v.19qokedy×3 forces one aligned pair under either local parity: two adjacent source squares qkdqkd/oeyoey before an unknown global key. No actual plaintext, key, language, statistical fit or native-use evidence; the inverse is guaranteed by construction. Keep source length/repetition obligations before any independently fixed source comparison; no phase/source repair. [Assessment](research_registry/proposals/production_origin_supply_20261003/PAIR_WEAVE_HAND_ASSESSMENT_20261011.json).
+
 ## 2026-10-11 — GDT1344 rejects preserved-mask two-class sorting
 
 The new IDEA1013 retains a source word's binary class mask but sorts symbols within each class. Recurrent exact daldy atf45r.10 andolaiin atf17r.4 supply a d/a/l incompatibility triangle in everyreading: at least3classes would be required, so the fixed2classwriter fails. All144nominatedPgroups retained;48direct class/order cases independently fail. This differs from1263weak whole-rank ordering and1321nonreturningblocks. Conditional22-unit/whole-group proof only; no3classfit, actualclasses, semantics or general composition rejection. No decoder or automatic repair. [Report](experiments/yolo/gdt1344_two_class_sort_triangle/REPORT.md).

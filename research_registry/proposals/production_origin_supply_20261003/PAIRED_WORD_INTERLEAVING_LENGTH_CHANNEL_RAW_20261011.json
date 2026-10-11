@@ -1,0 +1,128 @@
+{
+  "title": "RAW UNREVIEWED: interleave each pair of source words and retain their two lengths as the output split",
+  "summary": "A complete word-pair transposition alternates source letters from two consecutive words, appends the remaining longer tail, then divides the combined stream after the first source word’s length. The two visible group lengths therefore transmit the row lengths needed for exact unweaving. No extra END, dictionary, reference or lost information. Equal even-length output triple WWW forces an aligned pair whose two source words are both exact squares; odd length forces an aligned cyclic-conjugate pair. No source corpus, native sounds or meanings selected.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source_status": "NEW_PROPOSAL",
+  "design": {
+    "mechanism": "Lossless two-row interleaving with the original row lengths encoded by the two retained output group lengths.",
+    "unit": "Exactly two consecutive complete source words form a block; the two output groups generally each contain letters from BOTH source words.",
+    "source_domain": "Any finite nonempty paragraph of nonempty words over22abstract source tokens. Every token has one fixed bijective representative among the existing22complete working units. This is not an identified phonetic alphabet; punctuation/digits/unknown tokens outside this domain require a separately declared source projection and cannot be silently discarded.",
+    "working_inventory": [
+      "a",
+      "o",
+      "e",
+      "i",
+      "n",
+      "d",
+      "q",
+      "y",
+      "s",
+      "r",
+      "l",
+      "m",
+      "k",
+      "t",
+      "p",
+      "f",
+      "ch",
+      "sh",
+      "ckh",
+      "cth",
+      "cph",
+      "cfh"
+    ],
+    "encoder": [
+      "From each supplied source paragraph start, pair words1/2,3/4,andsoforth. No hidden within-paragraph reset or content-dependent pairing.",
+      "For pair(u,v), record m=len(u),n=len(v). Write u[0],v[0],u[1],v[1],... through min(m,n) rows, then append the remaining suffix of whichever word is longer.",
+      "Split this stream immediately after m source units, yielding output group lengths exactlym andn. Map every unit through the fixed glyph bijection and preserve the group gap.",
+      "If the paragraph has an odd final word, map it literally without interleaving. Physical line wrapping may happen only between complete output groups and does not reset pairing. Preserve paragraph boundaries."
+    ],
+    "decoder": [
+      "Use the supplied paragraph boundary to pair output groups1/2,3/4,...; map their complete working units back through the glyph bijection.",
+      "For a pair with observed lengths m,n, concatenate its groups. Assign the first2*min(m,n) units alternately to source rowsu,v, beginning withu.",
+      "Append the remaining tail to u ifm>n, or to v ifn>m. Their recovered lengths are exactlym,n.",
+      "A final unpaired output group is a literal source word. This recovers the exact paragraph without external word lists, original word lengths or hidden separators."
+    ],
+    "examples": [
+      {
+        "source": [
+          "ABC",
+          "DEFG"
+        ],
+        "interleaved": "ADBECFG",
+        "output": [
+          "ADB",
+          "ECFG"
+        ],
+        "point": "The split lengths3/4, not the oldsource gap inside theinterleaving, supply the original row lengths."
+      },
+      {
+        "output": [
+          "ABCD",
+          "ABCD"
+        ],
+        "decoded_source_before_key_inverse": [
+          "ACAC",
+          "BDBD"
+        ],
+        "point": "Even-length equal output pair forces two source squares."
+      },
+      {
+        "output": [
+          "ABC",
+          "ABC"
+        ],
+        "decoded_source_before_key_inverse": [
+          "ACB",
+          "BAC"
+        ],
+        "point": "Odd-length equal output pair need not force squares; it forces the exact cyclic-conjugate pairUV,VU withU=AC,V=B."
+      }
+    ],
+    "information_account": "The output has exactly the same number of words, same ordered word lengths, same paragraph length and same symbol multiset within each aligned two-word block. The word gaps are an explicit length channel: they retain original sourceword lengths while cutting a different stream. This is not a free hidden annotation. One wordbuffer and one upcomingword are needed to write; reader stores twooutputgroups. No whole-word dictionary, auxiliary ENDmark or unknown-token escape exists.",
+    "positive_structure_relation": "Ordered source subsequences and contextual word-pair dependence can preserve recurring subparts and produce whole-form effects. A source word can have many output forms depending on its partner, so this is not an independent fixed substitution per sourceword. This is a mechanism description, NOT measured Voynich composition/alternation fit; it does not automatically reproduce knownq/o,endingorlineeffects.",
+    "necessary_repeat_consequence": {
+      "phase": "Any three consecutive equal complete output groupsX X X inside one uninterrupted paragraph contain one aligned pair(X,X), regardless of the unknown parity at the snippet start.",
+      "even_length": "If len(X)=2k, letU be its odd-position units andV its even-position units. UnweavingXX gives sourcewordsUU andVV. Both must be adjacent exact squares of length2k. This remains true under every fixed source/glyph renaming.",
+      "odd_length": "If len(X)=2k+1, letU be its odd-position units (k+1) andV its even-position units(k). The aligned sourcewords areUV andVU. This is a specific cyclic rotation by k+1positions, not arbitrary anagrams or a demand that both words are equal. For a one-unitX,Vempty, both sourcewords areX.",
+      "scope": "This is a necessary source-content obligation, not a claim of observed sourcewords or a manuscript result. A doublet alone requires a known pairphase; an unbroken triple removes that phase choice. Unknown physical codeunit/groupidentity remains conditional."
+    },
+    "smallest_necessary_check": "Before any key-fitting or statisticalrenderer, inspect OLD exact same-line whole-group triples under the fixed unitcontract and derive the required source-square/conjugate structure for both pairing phases. Only if root separately selects an independently justified source projection, check its complete adjacent wordpairs for the corresponding condition. Never substitute another source or grouping after a failure. No source/native count is run in this proposal.",
+    "other_necessary_constraints": [
+      "All outputwordlengths equal the ordered sourcewordlengths; their distribution cannot be fixed by a glyph permutation. Known source-length failures remain relevant wherever exactly the same source/group projection is reused.",
+      "The fixed wholeword one/two-alias type bound1202does NOT automatically apply because the outputwhole depends on its paired neighbour. A bound on complete aligned sourcepairs would still be necessary; no diversitysuccess is assumed.",
+      "Paragraph parity is part of the contract; oldRFmissingparagraphmetadata cannot be treated as verifiedstarts. For internal same-line triples only the two unknown phases are required, not a fabricatedRFparagraphstart."
+    ]
+  },
+  "nearest_predecessors": [
+    {
+      "id": "IDEA000941/GDT1209",
+      "primary": "experiments/yolo/gdt1209_column_table_cell_balance/REPORT.md",
+      "difference": "941 outputs each shrinking verticalcolumn as a separategroup and paysEND to retire rows; its cellbalance countercase remains. Here one full two-row interleaving is sliced according to the two preserved sourcewordlengths, so no outputgroup is asserted to be a column and noEND exists. This changes the information-bearing layout contract, not just a markername."
+    },
+    {
+      "id": "IDEA000999/GDT1331/GDT1332",
+      "primary": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md",
+      "difference": "999aligns longestcommon subsequences and combines equallettercolumns underpaidLEFT/RIGHT/BOTHroles. Here every sourceletter is retained exactlyonce and rows are separated by knownalternatingpositions/lengths. Its identical-source-pair lowerbounds remain unchanged."
+    },
+    {
+      "id": "IDEA000988/GDT1303",
+      "primary": "experiments/yolo/gdt1303_paired_coordinate_exchange/REPORT.md",
+      "difference": "1303applies a fixed invertibletable to consecutive LETTERpairs in a continuousletterstream. Here the permutation depends on both completewordlengths and transposes entire WORDpairs. Its evenAAAend-overlap/sourcefailure is a different obligation; no originalsource rescued."
+    },
+    {
+      "id": "GDT1203",
+      "primary": "experiments/yolo/gdt1203_shifted_word_boundaries/REPORT.md",
+      "difference": "1203shifts a source boundary by exactlyoneletter andpaysEND; this is a wordpairpermutationwithboth lengthsretained. Its source-frequencyfailure and lengthlimits remain."
+    },
+    {
+      "id": "GDT1269",
+      "primary": "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md",
+      "difference": "No sourceletter is represented by one fixed two-unit codeentry, so the70/72pair-table entrybound is not the currentcontract. It remains valid for its declaredcodefamily."
+    }
+  ],
+  "novelty_record": "Route/topic and bounded interleaving/wordpair/zip searches, ideasduplicates and route-check reviewed. Closest941/1209,999/1331/1332,988/1303and1203read as distinctcontracts. No exactsame declared design found; this is not an exhaustivehistoricalnoveltyproof.",
+  "claim_ceiling": "Invented exact content-preserving transposition over a declaredsource domain. No historicalattestation, selected language, nativewordmeaning/sound, fittingkey, statisticalfit, newdataadmission orexperimentresult. A roundtrip alone would prove onlycodecorrectness.",
+  "ownership": "Boundedproducer proposal only. Rootowns scientificselection andanynative/sourceevaluation. Preserve thisraw afterregistration; do notsilentlyalterparity, wordlengthchannel, oddtailor sourcealphabet."
+}
