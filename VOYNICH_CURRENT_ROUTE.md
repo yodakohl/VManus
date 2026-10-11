@@ -2,13 +2,13 @@
 Updated: 2026-10-11.
 
 ## Work
-Phase: fixed_test
+Phase: exploration
 Status: checkpoint
-Task: 1324 closed.
-Latest decision: Toy only.
-Working files: gdt1324.
-Assumptions: Known bank/prior.
-Resume: Bind bank/prior; no attack.
+Task: 993 bounded.
+Latest decision: At most30/31/22ranks.
+Working files: IDEA993.
+Assumptions: Canonical binary;22units.
+Resume: Other writer.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicdd1ba9792.
+Public532aead27.

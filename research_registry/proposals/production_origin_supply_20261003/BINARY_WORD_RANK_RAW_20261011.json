@@ -1,0 +1,34 @@
+{
+  "title": "RAW UNREVIEWED: canonical positive binary word ranks with multiple drawing forms per bit",
+  "summary": "Complete invented wordbook writer: fixed exact source tokens have lexicographic ranks1..N. Each rank is written in canonical binary, with one of22drawing aliases per bit, one group per source token. No target word meanings or medieval attestation. A necessary first-bit constraint permits a preimplementation upper bound using existing1319heads and1312counts.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_NATIVE_SELECTED",
+    "source_domain": "Empty message or finite sequences of exact tokens from a paid finite dictionary of N>=2 distinct nonempty printableASCII33..126strings, joined by exactly one SPACE; no leading/trailing/repeated source spaces or source LF. Reject other input, do not silently normalize. Dictionary sorted lexicographically; rank starts1.",
+    "inventory": "22distinct abstract drawings, each emits exactly one bit under a fixed global map. Both bit classes are nonempty. Working Voynich22unit identification is only a conditional binding, not established script anatomy.",
+    "apparatus": "Paid exact dictionary, fixed drawing-to-bit map, and fixed positive integer choice weights per drawing. No output whole-word bank.",
+    "writer": "Replace each source token by its positive rank in shortest base2 notation, without leading zeros. Independently choose a drawing of the required bit with probability proportional to its fixed weight. Write one full group. Separate groups by one physical SPACE; greedily wrap whole groups at max(80,longestpossiblegroup)cells. Physical LF is layout only.",
+    "reader": "Classify drawings, reject empty groups/leadingzero/out-of-range rank, interpret each whole canonical bitstring as rank and output its unique dictionary token. Restore one source SPACE between tokens. Empty source has empty output.",
+    "inverse": "Every permitted stochastic rendering preserves every rank and source token. Canonical positive binary begins1; therefore every admitted leading drawing must map1. Different drawing spellings may be homophones.",
+    "historical_status": "Invented mathematical writer, not an attested medieval procedure. No source language, actual dictionary, native key, sounds or word meanings selected.",
+    "predecessors": [
+      {
+        "id": "GDT1312",
+        "difference": "32arbitrary bitword rows for source characters; leading zeros preserved. Its full-panel pattern counts can bound this distinct canonical positive-rank word channel."
+      },
+      {
+        "id": "GDT1319",
+        "difference": "Its pair-endpoint head witnesses give necessary leading1constraints, not the complete initial inventory."
+      },
+      {
+        "id": "GDT1299",
+        "difference": "Fixed-length source-character blocks converted from base22..82 to base22; not word ranks to binary."
+      },
+      {
+        "id": "GDT1301",
+        "difference": "Differences between consecutive wordbook ranks; this proposal writes absolute ranks."
+      }
+    ],
+    "selection": "Only a preimplementation corollary of published counts. No new native census, decoder, dictionary fit or sourcebook comparison."
+  }
+}

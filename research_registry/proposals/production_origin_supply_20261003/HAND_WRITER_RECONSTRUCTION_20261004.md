@@ -10449,3 +10449,7 @@ Same-unit-bag variants necessarily decode identically under1322; within-page exc
 ## 2026-10-11 — GDT1324 exact toy recovery and source-law ambiguity
 
 Unchanged1322bank, all8keys and all outputs through6groups: fixed asymmetric source law gives72.718734% exact-key and78.599929% exact-whole-source ML accuracy at6; uniformIID leaves3lawclasses and at most3/8exact-key accuracy at any length. Independent rational validator PASS. Source-free oracle control only; no native/full22drawing recovery gate met.1322unlabeled-partition wording qualified;1323capacity stop retained. [Report](experiments/yolo/gdt1324_modular_exact_key_recovery/REPORT.md). No automatic native attack or larger control.
+
+## 2026-10-11 — IDEA993 canonical binary wordbook ranks
+
+Complete invented absolute word-rank writer retained; preimplementation corollary combines1319necessary head witnesses with1312old projection counts. At most30/31/22distinct source words could occur at the19,332/22,528/19,321retained strict ZL/IT/RFpositions. Upper bounds only, not attainable keys, dictionary sizes or whole-manuscript vocabulary. No new census or source-book comparison. Independent report-table check PASS. This candidate is not selected for native wordbook fitting; other radices/leadingzero policies are not automatic repairs. [Assessment](research_registry/proposals/production_origin_supply_20261003/BINARY_WORD_RANK_BOUND_20261011.json).
