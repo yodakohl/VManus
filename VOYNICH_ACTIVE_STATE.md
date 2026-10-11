@@ -1,3 +1,6 @@
+## 2026-10-11 — GDT1338 old edge case blocks the prose extension
+
+Old mol f17r.10has the same BOS/o context as strict q-,cfh-,cph-initial witnesses and contradicts every1337remainingpair. All22units have>=2STRICTgroup supports; completeclassificationforcesamanasfirstresidual. Thus strictplusfixedoldedgeforms need>=2discrepancies, notnecessarily2.1337strict radius1stayscorrect. No2+search, newports orerrorcorrection. [Report](experiments/yolo/gdt1338_port_known_edge_countercases/REPORT.md).
 ## 2026-10-11 — GDT1337 exact allography exclusion is one-occurrence fragile
 
 The unchanged1334family has radius1in everyreading: only aman f111v.33 remains unexplained. Common m/q witnesses; RFalso cfh/m,cph/m. Complete star graph implies exactly21observedbodyclasses for any nontrivial one-residual writer; maxminoritysupport<1%. Noerror/meaning/physicalaliasidentified. Existing standaloneqlabel/mprose prevents unchangedglobalq/mextension. [Report](experiments/yolo/gdt1337_two_port_single_discrepancy/REPORT.md).

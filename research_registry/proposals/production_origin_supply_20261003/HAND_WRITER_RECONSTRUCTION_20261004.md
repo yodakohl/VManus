@@ -10551,3 +10551,11 @@ The earlier dossier sentence calling7–8%global is WRONG. Original stored enume
 ## 2026-10-11 — exact two-port sensitivity completed
 
 1337radius1allreadings, onlyamanf111v.33; m/qcommon,RFextra cfh/m,cph/m. Completeone-residualgraphstar => everyactivepartition21bodies; maxminority<1%. Original1334exactfailurepreserved, noerrordiagnosis. PostresultprofilesqL/mPblockunchangedglobalqmextension. Fullsource/Z3/backward-DP526candidatechecksand12portwitnessesvalidated. No2+errorsearchor decoderselected. See experiments/yolo/gdt1337_two_port_single_discrepancy/REPORT.md.
+
+## 2026-10-11 — known edge counterexample closes unchanged port extension
+
+1338usesONLYold1314mol/damo/qokomo:11readerrows; molaloneBOS/o conflictswithall5remainingpairs(12portbranches),0solverfallback. Unitminimum39/37/36protectsrestrictionbridge. Expandedsubsetradius>=2; oldstrict1337radius1unchanged. No2+errorsearch, physicalaliasorwordmeaning. Knownadversecasecheckbeforelargeimplementation. See experiments/yolo/gdt1338_port_known_edge_countercases/REPORT.md.
+
+## 2026-10-11 — 1337 explanation wording corrected
+
+A boundedreportcheck caughtoverbroad "equivalent" for00/01vs10/11same-entryassignments. Theyrender twoMQbodies mmvsqm; bothfitpanelbutaredistinctwriters. Reportcorrectedwithsourcefreefinitecounterexample; counts/radiusunchanged. This isreportprecision, notnewnativeevidence.

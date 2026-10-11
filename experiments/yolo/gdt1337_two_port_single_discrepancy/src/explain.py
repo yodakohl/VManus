@@ -5,6 +5,14 @@ U=sorted('a o e i n d q y s r l m k t p f ch sh ckh cth cph cfh'.split());I={u:i
 def read(p):
  b=p.read_bytes();return json.loads(gzip.decompress(b) if p.suffix=='.gz' else b)
 def main():
+ correction=read(B/'artifacts/EXPLANATION_CORRECTION_20261011.json')
+ for case in correction['cases']:
+  pm,pq=case['m_port'],case['q_port'];options=[]
+  for chars in __import__('itertools').product('mq',repeat=2):
+   ports=tuple(pm if c=='m' else pq for c in chars);options.append((int(ports[0]%2!=ports[1]//2),ports,''.join(chars)))
+  best=min(options);assert best[2]==case['canonical_two_body_output'] and best[0]==case['cost']
+  assert [{'output':o,'cost':cost,'codes':list(codes)} for cost,codes,o in sorted(options)]==case['all_candidates']
+ assert [c['canonical_two_body_output'] for c in correction['cases']]==['mm','qm']
  decisions=read(B/'artifacts/DECISIONS.json.gz');data=read(R/'experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz');out={}
  for ed,table in decisions.items():
   witness=next(w for w in table['witnesses'] if w['pair']==['m','q'] and w['pair_ports']==[0,1]);bits=witness['bits'];high={u for u in U if bits[2*I[u]]};assert not high.intersection(('m','q'));fail=[];checked=0

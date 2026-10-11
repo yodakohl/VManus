@@ -5,10 +5,10 @@ Updated: 2026-10-11.
 Phase: exploration
 Status: checkpoint
 Task: 5h until11:54:21UTC.
-Latest decision: 1337radius1;21bodies only.
-Working files: 1337;HAND_WRITER.
-Assumptions: aman retained;qmnotglobal.
-Resume: publish;native binding selection.
+Latest decision: 1338oldmol blocks extension.
+Working files: 1338;HAND_WRITER.
+Assumptions: oldstrict radius1retained.
+Resume: publish;closebounded pass.
 Running: root.
 
 ## Structural baseline
@@ -28,7 +28,8 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 GDT327/GDT336: historical; no access.
 
 ## Decisions to retain
-1262: nontrivial prefix26 min1 group miss; no error diagnosed.
+1262: nontrivial prefix26 min1 miss; no error diagnosed.
+1337ports radius1strict;1338oldedges>=2.
 1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224exceptions16–21;1223unstable;1225pool≠strata.
 1171:no context gain;1172:rota86/62.1173:arithmetic only;source old.
 f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clockSTOP.
@@ -69,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publiccc542cfe5.
+Public1dd9c7f2e.

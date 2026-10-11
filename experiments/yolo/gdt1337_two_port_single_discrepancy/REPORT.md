@@ -60,8 +60,8 @@ of the saved positive witness; no extra model was fitted after seeing aman.
 
 Its predicted rendering of aman is aqan, so aman is retained as the contradiction.
 This does NOTsuggest replacing the manuscript reading with aqan. The actual label
-and word positions, not English meanings, are being discussed. The two equivalent
-same-entry port levels00/01and10/11plus additional ZLvariants remain in the artifact.
+and word positions, not English meanings, are being discussed. The two same-entry
+assignments00/01and10/11that fit this panel, plus additional ZLvariants, remain in the artifact.
 Other singleton ports can be unidentifiable; a saved lex-least table is a witness,
 not a recovered unique key or an estimate of pen movements.
 
@@ -108,3 +108,13 @@ No semantic relation packet or word translation. Reproduce using the manifest
 run/validate commands and the unchanged hash-bound1334helpers.
 
 The post-result algebraic explanation, exact saved-profile qualification and star-graph consequence can be replayed with `python3 experiments/yolo/gdt1337_two_port_single_discrepancy/src/explain.py`; they are not added primary gates.
+
+## Scope correction11October2026
+
+The first report called the00/01and10/11assignments "equivalent". That was too
+strong: a hypothetical source word of two identical MQbodies renders mm under
+m00/q01but qm under m10/q11. They fit the same checked panel, but are distinct
+writers on other inputs. This source-free counterexample changes no native count,
+classification, radius, validation or selected data. The phrase is corrected above;
+EXPLANATION_CORRECTION_20261011.json retains the exact finite comparison and old
+report hash. A bounded critical reviewer identified this before the next publication.

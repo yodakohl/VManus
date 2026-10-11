@@ -1,0 +1,89 @@
+{
+  "status": "SOURCE_FREE_SCOPE_CORRECTION",
+  "old_report_sha256": "40a6464b4df69b2e7af25b76e940128b9be23dec2ee6518bbab0981b0ed21cbf",
+  "source_word": "two identical opaque MQbodies; no native word or meaning",
+  "cases": [
+    {
+      "m_port": 0,
+      "q_port": 1,
+      "canonical_two_body_output": "mm",
+      "cost": 0,
+      "all_candidates": [
+        {
+          "output": "mm",
+          "cost": 0,
+          "codes": [
+            0,
+            0
+          ]
+        },
+        {
+          "output": "mq",
+          "cost": 0,
+          "codes": [
+            0,
+            1
+          ]
+        },
+        {
+          "output": "qm",
+          "cost": 1,
+          "codes": [
+            1,
+            0
+          ]
+        },
+        {
+          "output": "qq",
+          "cost": 1,
+          "codes": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "m_port": 2,
+      "q_port": 3,
+      "canonical_two_body_output": "qm",
+      "cost": 0,
+      "all_candidates": [
+        {
+          "output": "qm",
+          "cost": 0,
+          "codes": [
+            3,
+            2
+          ]
+        },
+        {
+          "output": "qq",
+          "cost": 0,
+          "codes": [
+            3,
+            3
+          ]
+        },
+        {
+          "output": "mm",
+          "cost": 1,
+          "codes": [
+            2,
+            2
+          ]
+        },
+        {
+          "output": "mq",
+          "cost": 1,
+          "codes": [
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "native_results_changed": false,
+  "method": "Exhaustively enumerate four renderings per assignment; cost is the single inner exit/entry mismatch and ties use portcode order."
+}
