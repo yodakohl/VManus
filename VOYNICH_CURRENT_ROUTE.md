@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: BookV start branch closed.
-Latest decision: Identity sourced;boundary fails.
-Working files: BookV start.
-Assumptions: Source-only.
-Resume: No further clock fit or scans.
+Task: 944 routing corrected.
+Latest decision: Existing1210stop linked.
+Working files: 944 review.
+Assumptions: Scoped subcase.
+Resume: No unchanged942carrier work.
 Running: none.
 
 ## Structural baseline
@@ -32,7 +32,7 @@ GDT327/GDT336: historical; no access.
 1262: nontrivial prefix26 min1 group miss; no error diagnosed.
 1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224exceptions16–21;1223unstable;1225pool≠strata.
 1171:no context gain;1172:rota86/62.1173:arithmetic only;source old.
-f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed.
+f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clockSTOP.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publice1e3b52b1.
+Publicdec924d8b.
