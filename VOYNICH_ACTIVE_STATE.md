@@ -1,3 +1,7 @@
+## 2026-10-11 — IDEA998 historical BookV alphabet clock
+
+Clavis0027/28explicitlyadvance24alphabets; thelongexampletraversesrecta->aversa->recta, withaone-tableoptionseparately. Actual0475/76tableslocated;0477first5expandedalphabetscollated120pairs. Literalcolumn4r->y,s->xdeparturesandfirst-columnhunc->iyqgvsprintedHxpfremainunreconciled. Twoinformedreaders,arithmeticvalidationPASS; nofull24/48phasereplay,nativeperiodicityorwordmeaning.1518sourceislatercomparativeevidenceonly. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_BOOK5_ASSESSMENT_20261011.json).
+
 ## 2026-10-11 — GDT1330 deterministic whole-word successor bound
 
 If the previous exact written whole word is the entire state, global nonself successor maxima require201/160/160source commands IT/RF/ZL; a global27command writer is excluded even with exactecho nulls. Page-specific maxima21/16/18do not exclude27but identify no writer. BroadIDEA237remains unselected; no alphabet, meaning or all-stateful-code rejection. Original-window validation checks61,181groups and46,836pairs. [Report](experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md).
