@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: BookV partial closed.
-Latest decision: Initial phase unresolved.
-Working files: BookV proposal.
+Task: BookV start branch closed.
+Latest decision: Identity sourced;boundary fails.
+Working files: BookV start.
 Assumptions: Source-only.
-Resume: No native clock fit.
+Resume: No further clock fit or scans.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public2f7938b7d.
+Publice1e3b52b1.

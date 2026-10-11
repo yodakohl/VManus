@@ -10497,3 +10497,7 @@ If the previous exact written whole word is the entire state, global nonself suc
 ## 2026-10-11 — IDEA998 historical BookV alphabet clock
 
 Clavis0027/28explicitlyadvance24alphabets; thelongexampletraversesrecta->aversa->recta, withaone-tableoptionseparately. Actual0475/76tableslocated;0477first5expandedalphabetscollated120pairs. Literalcolumn4r->y,s->xdeparturesandfirst-columnhunc->iyqgvsprintedHxpfremainunreconciled. Twoinformedreaders,arithmeticvalidationPASS; nofull24/48phasereplay,nativeperiodicityorwordmeaning.1518sourceislatercomparativeevidenceonly. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_BOOK5_ASSESSMENT_20261011.json).
+
+## 2026-10-11 — IDEA998 ordinary alphabet sourced, boundary counter retained
+
+0481explicitlycounts23transposedplusordinaryalphabet=24; last2columnsareadditionalexamples. Ordinary-FIRSTplacementisnotexplicit. Thatcandidateyieldshunc ca->hxpf gfwitholdliteralcolumns,butafter24lettersfirstaversae->uwouldcontradictprinted e atposition25. Thus6letterprefixagreementdoesnotrecoverfullschedule. Threeboundednewhistoricalpages/twoinformedreaders; no nativeclockfit orfurtherautomaticscans. Old120pairs/r-sdeparturesretained. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_BOOK5_START_ASSESSMENT_20261011.json).
