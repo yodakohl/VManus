@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-10.
+Updated: 2026-10-11.
 
 ## Work
 Phase: workflow
 Status: checkpoint
 Task: Select.
-Latest decision: 991 carrier fails.
-Working files: 991 head note.
-Assumptions: Fixed atoms/groups.
-Resume: No quote-carrier repair.
+Latest decision: 885 prior linked.
+Working files: 885 review.
+Assumptions: Old limits stand.
+Resume: No repeated885audit.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public981ada18e.
+Publicce2361f5e.

@@ -10432,3 +10432,8 @@ Die [Kostenprüfung](POSITION_CONCORDANCE_COST_20261010.json) reicht vor jeder C
 Der [vollständige Rohentwurf](AGREEMENT_RECOVERED_INFLECTION_RAW_20261010.json) schreibt alle Subjektnamen, Koordination und Negation, lässt aber nur dadurch eindeutig bestimmte Verbflexion weg. Im ausdrücklich beschränkten kanonischen Quellbereich rekonstruiert die Grammatik die genaue Quelle; das ist kein neuer allgemeiner Kontext-Lesebeweis und keine Voynich-Deutung.
 
 Die [Vorprüfung](AGREEMENT_CARRIER_HEAD_ASSESSMENT_20261010.json) stoppt seinen konkreten Zeichen-Code: Namen beginnen immer mit der kodierten QuoteE, andere Gruppen nur mit den Anfängen von and/not/lift/carry/wash. Das ergibt höchstens5Initialzeichen. Das alte1319Inventar enthält bereits20/21/21beobachtete Initialeinheiten; dessen Zustandsannahme wird hierfür nicht übernommen. Keine neue native Zählung oder Quellen-Corpusumsetzung. Die feste Ein-Zeichnung/Ein-Arbeitseinheit-Zuordnung und Gruppengrenzen bleiben die Bedingungen des Widerspruchs. Keine automatische Trägerreparatur.
+
+
+### IDEA885: vorhandene Auswahlgrenze mit der Karte verbunden (11. Oktober 2026)
+
+Die bislang unbewertete Registerkarte hatte die [bereits vorhandene Prüfung vom6.Oktober](SOURCE_SEAM885_NATIVE_PRIOR_LIMIT_20261006.json) nicht als aktuelle Bewertung verknüpft. Die [nachgetragene Bewertung](SOURCE_SEAM885_ROUTING_REVIEW_20261011.json) erhält deren ursprüngliche Entscheidung: keine neue Auswahl; vorausgesetzte Identitäten alter Renderer sind keine unabhängige Begründung eines Quellenwechsels. Kein neuer Manuskriptbefund, kein wiederholter Fehlstellentest und keine allgemeine Widerlegung von Kompilation. Der Rohentwurf bleibt unverändert.
