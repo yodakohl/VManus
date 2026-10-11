@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: qoky rule tested.
-Latest decision: 1342 page rule FAIL.
-Working files: GDT1342;IDEA1010.
-Assumptions: no hidden producers.
-Resume: ground wholepage construction.
+Task: source-writer adoption reviewed.
+Latest decision: constant END adapter fails.
+Working files: SHIFT_END_ADOPTION.
+Assumptions: word/group binding open.
+Resume: ground content-to-sign rule.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicb0ee0c24e.
+Public5cd086a85.
