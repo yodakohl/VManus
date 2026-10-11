@@ -32,9 +32,13 @@ no threshold is promoted to an acceptable error rate.
 | RF1b | 10 | 7764/19311 | 52 | 3540/19269 | 8219 | 687/11102 |
 | ZL3b | 8 | 7578/19324 | 46 | 3129/19286 | 9078 | 493/10254 |
 
-Even the minimum over ALL relaxed heads remains a7–8% lower bound on identical
-pairs among that head set's parsable groups. The minimizing heads are a/e/o and
-leave343–477groups unexplained. This is still not a source-language rejection:
+Correction11October2026: the minimum over ALL relaxed heads is4.808%ZL,
+5.147%IT and6.188%RF, attained by a/o/y with9078/10229/8219unparsed groups,
+respectively. The table above was correct; the original following prose wrongly
+called the a/e/o result global. At the fixed10%-of-original-panel residual budget,
+a/e/o instead gives7.309%ZL,7.555%IT and8.041%RF with343/477/417unparsed groups.
+These are two distinct comparisons; the global optimum leaves42.5–47.0% of the
+original groups unexplained. This is still not a source-language rejection:
 no independently chosen source book or natural-language repetition law was tested.
 Nor is it an attained full78-entry writer: forbidden long slots, canonical LCS,
 source framing and source vocabulary are omitted exactly as in1331.

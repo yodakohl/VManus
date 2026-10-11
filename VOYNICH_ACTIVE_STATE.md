@@ -8,7 +8,7 @@ All6fixedmobileheldgains negative after localexpandedflanks; no retained positiv
 
 ## 2026-10-11 — GDT1332 exact paired-source bound is not discrepancy-robust
 
-Frozen999relaxed carrier:46–66unparsed groups permit16–18% forcedequal amongparsable rather than79–81% atzeroresidual. Globalrelaxedminimum7–8% costs343–477failures. Keep allresiduals; no copyingerror, actualkey, fullcarrier or source fit established.1331remains exact, not a robusthistorical exclusion. [Report](experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md).
+Frozen999relaxed carrier:46–66unparsed groups permit16–18% forcedequal amongparsable rather than79–81% atzeroresidual. Corrected11Oct:7–8% with343–477failures is the fixed10%budget optimum; global a/o/y gives4.808–6.188% with8219–10229failures. Keep allresiduals; no copyingerror, actualkey, fullcarrier or source fit established.1331remains exact, not a robusthistorical exclusion. [Report](experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md).
 
 ## 2026-10-11 — GDT1331 paired-source carrier content cost
 

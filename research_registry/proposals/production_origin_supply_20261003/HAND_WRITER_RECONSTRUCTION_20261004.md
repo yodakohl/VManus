@@ -10543,3 +10543,7 @@ remains active; the user's question did not cancel it.
 ## 2026-10-11 — native-informed echo nomination stops cheaply
 
 GDT1336 finds0inner-run opportunities under1005strictTTdynomination; all4/4/3candidates are familiar ololdy/dydydy. No copytest or relaxedtail follows. This is an opportunity check, not decipherment. User clarified the earlier repetition remark was a question, not an instruction; continuation remains authorized. Producer now works from native structural positives rather than another toy key. See experiments/yolo/gdt1336_echo_run_nomination/REPORT.md.
+
+## 2026-10-11 — GDT1332 global-minimum wording corrected
+
+The earlier dossier sentence calling7–8%global is WRONG. Original stored enumeration/table give a/o/y:IT633/12299,RF687/11102,ZL493/10254with10229/8219/9078residuals. a/e/o7–8% is instead bestatfixed10%budget, using477/417/343residuals. No count, frontier or protocolchanged; previous assessedreviewpreserved andappend-onlycorrection added. Source-free1334robustness planning paused to publishthisfix. See experiments/yolo/gdt1332_paired_carrier_residual_frontier/ERRATUM_20261011.md.

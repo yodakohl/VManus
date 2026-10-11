@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1335**
-- Experiment-associated tracked files: **26,241** (2.4 GiB)
+- Experiment-associated tracked files: **26,244** (2.4 GiB)
 - Structured GDT337+ experiments: **1000**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -24,7 +24,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1335 | gdt1335_modular_unknown_emission_profile | `PROFILE_AND_BAG_CONDITIONING_DISTINCT` | [report](../experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md) | 12 | 169.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1334 | gdt1334_canonical_two_port_alias_capacity | `NONTRIVIAL_TWO_PORT_ALIAS_FAMILY_EXCLUDED` | [report](../experiments/yolo/gdt1334_canonical_two_port_alias_capacity/REPORT.md) | 18 | 211.7 KiB | 6 | STRUCTURED_YOLO |
 | GDT1333 | gdt1333_fusion_flank_residual_choice | `NO_RETAINED_WORD_SITE_INCREMENT_ALL_CASES` | [report](../experiments/yolo/gdt1333_fusion_flank_residual_choice/REPORT.md) | 12 | 502.6 KiB | 6 | STRUCTURED_YOLO |
-| GDT1332 | gdt1332_paired_carrier_residual_frontier | `EXACT_BOUND_NOT_SMALL_RESIDUAL_ROBUST` | [report](../experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md) | 13 | 2.3 MiB | 7 | STRUCTURED_YOLO |
+| GDT1332 | gdt1332_global_minimum_wording_correction | `REPORT_SCOPE_CORRECTED` | [report](../experiments/yolo/gdt1332_paired_carrier_residual_frontier/ERRATUM_20261011.md) | 16 | 2.3 MiB | 7 | STRUCTURED_YOLO |
 | GDT1331 | gdt1331_paired_word_shared_carrier_bound | `SAME_SOURCE_PAIR_LOWER_BOUND_ONLY` | [report](../experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md) | 13 | 4.2 MiB | 5 | STRUCTURED_YOLO |
 | GDT1330 | GDT1330 | `READER_SPECIFIC_SUCCESSOR_BOUNDS` | [report](../experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md) | 13 | 5.1 MiB | 6 | STRUCTURED_YOLO |
 | GDT1329 | GDT1329 | `PAIRED_RUN_CAPACITY_STOP_ALL_READINGS` | [report](../experiments/yolo/gdt1329_paired_run_capacity/REPORT.md) | 12 | 47.9 KiB | 9 | STRUCTURED_YOLO |
