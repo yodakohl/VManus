@@ -1,0 +1,113 @@
+{
+  "title": "RAW UNREVIEWED: preserve a binary source-class mask while sorting letters inside each class",
+  "summary": "A fixed22-unit source alphabet is divided into two nonempty classes and given a strict total order. Within each source word the writer preserves the class at every position, sorts the letters of each class, and refills that class’s original positions. Reusable class patterns survive, but within-class source order is lost; the reader needs a fixed lexicon/grammar or retains all preimages. No native classes, phonemes, meanings or fit are supplied.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NATIVE_PRECOUNT",
+  "source_status": "NEW_PROPOSAL",
+  "design": {
+    "mechanism": "Two independent ordered subsequences interleaved according to the original binary class mask, followed by one fixed bijective drawing map.",
+    "unit": "One complete source word maps to one complete written group. Every source token maps to one of the existing22complete working units; source and output lengths and word boundaries are unchanged.",
+    "source_domain": "Nonempty words over a fixed abstract22-token alphabet. No concrete natural language, normalization, corpus or phoneme inventory is chosen; punctuation/digits/unknown tokens are outside unless included in a separately declared22-token projection.",
+    "parameters": "One fixed partition into exactly two nonempty classes; one fixed STRICT total order on distinct source symbols, whose within-class restrictions determine sorting; one fixed bijection to the existing22working-unit drawings. Equal ranks for different units, page-specific orders/classes, optional exceptions, invisible separators and output repairs are not allowed.",
+    "working_inventory": [
+      "a",
+      "o",
+      "e",
+      "i",
+      "n",
+      "d",
+      "q",
+      "y",
+      "s",
+      "r",
+      "l",
+      "m",
+      "k",
+      "t",
+      "p",
+      "f",
+      "ch",
+      "sh",
+      "ckh",
+      "cth",
+      "cph",
+      "cfh"
+    ],
+    "encoder": [
+      "Record the binary class mask of the complete source word, retaining every original position.",
+      "Extract the multiset of symbols in each class, including repetitions. Sort each multiset into nondecreasing order under the fixed strict symbol order.",
+      "Traverse the original mask. At a class0position emit the next symbol from sortedclass0; at a class1position emit the next symbol from sortedclass1.",
+      "Replace symbols by the fixed drawing bijection. Preserve the complete word boundary. There is no earlier-word memory, source-reference mechanism or END marker."
+    ],
+    "inverse": [
+      "Undo the fixed drawing bijection and recover the class mask directly from class membership.",
+      "Reject a written word if either class subsequence is not sorted under the key.",
+      "Otherwise return every source word obtained by independently permuting the multiset of symbols in each class among that class’s fixed positions. Deduplicate permutations of repeated symbols.",
+      "A separately supplied fixed lexicon or grammar can reduce this set; no such filter is supplied here. Unique source spelling or unique meaning is NOT guaranteed."
+    ],
+    "source_only_example": {
+      "classes": {
+        "0": [
+          "A",
+          "C"
+        ],
+        "1": [
+          "B",
+          "D"
+        ]
+      },
+      "withinclass_orders": [
+        "A<C",
+        "B<D"
+      ],
+      "source1": "CBAD",
+      "source2": "ABCD",
+      "shared_output": "ABCD",
+      "point": "Both preserve mask0101 but different within-class source order is erased. These are synthetic letters, not native values."
+    },
+    "positive_baseline_relation": "The writer preserves source class alternation and reusable class-mask parts exactly. Sorting introduces additional directed within-class order. Whole lexical source distributions can yield whole-form effects, but this mechanism is not claimed to reproduce1264/1265,608,1308/1309or any native statistic. The learned native partition is not imported as a source class key.",
+    "necessary_native_consequence": {
+      "relative_order": "If distinct written units u,v share a class, every occurrence with both in one complete group must place allu beforeallv or allv beforeallu according to the one global order.",
+      "bidirectional_pair_graph": "Create an undirected constraint edge u--v whenever retained whole groups witness BOTH relative orders u-before-v andv-before-u (not necessarily adjacent, and possibly in different groups). Such units cannot share a class. A witnessed u...v...u inside one group alone supplies both orders.",
+      "odd_cycle": "An odd cycle in this graph excludes every two-class key under the fixed unit/group premises. This is necessary-only; a bipartite graph does not establish a fitting sort order, because longer directed cycles within a chosen class may remain. No automatic three-class or weak-order repair.",
+      "capacity_notmeaning": "An excluded key family does not reject all source-class sorting, natural language, source morphology or native meaning. Nonexclusion would not supply a decoder or a uniquely recoverable message."
+    },
+    "root_proposed_smallest_check": {
+      "scope": "Root proposes a separate preregistered necessary graph check on the existing GDT1343 strict cache, restricted to whole forms with at least2strict occurrences WITHIN EACH reader. This prospective recurrent-word selection is not a correction of older full-panel results. No native payload/count was opened by this producer.",
+      "cases": "Retain original raw whole-form witnesses and reader-specific eligibility; do not pool readings or weaken source-group/working-unit restrictions. Before selecting any test, root must freeze its exactcachehash, count rule and witness ties.",
+      "preknown_observation": "Root and producer already noticed a potential daldy/olaiin triangle from published primaries before registration. That is disclosed motivating exposure, not a heldout prediction or a claimed recurrent-cache witness; eligibility must be independently checked in the chosen scope."
+    },
+    "information_cost": "For each class, permutations of distinct/repeated symbols generally collide. This differs from keeping the source order within each class while erasing only the mask. The present mask is retained, but each class’s lexical ordering information is lost. Do not label the writer lossless without a separately paid input-language restriction.",
+    "frequency_obligation": "This is deterministic and wordwise, so outputtypes cannot exceed exact sourcetypes; collisions may only reduce them. GDT1202s unchanged four fixed source-word projections therefore remain excluded, even though its more generous two-alias family was tested. No spelling normalization, new source or changed grouping is silently used to rescue them."
+  },
+  "predecessor_review": [
+    {
+      "id": "GDT1263",
+      "primary": "experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md",
+      "difference": "Requires the WHOLE group to be monotone under weak class ranks. Here classes may interleave and distinct letters inside each class must sort. OldAB/BA forces equalranks there but DIFFERENTclasses here. Its full/recurrent decisions remain."
+    },
+    {
+      "id": "GDT1321",
+      "primary": "experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md",
+      "difference": "Each class may occur only in one contiguous block there. Here repeatedclassvisits preserve the original mask. InABA,1321forces A/Bsameclass; the present mechanism forcesoppositeclasses. Its mergecertificate cannot be transferred as the new proof."
+    },
+    {
+      "id": "HIST:88d2c6baa6978d2a",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/PARTITION_INFORMATION_ACCOUNT_20261007.json",
+      "difference": "Old stablepartition keeps withinclasssourceorder but loses interleaving. This keeps interleaving but sorts away withinclassorder. Both information obligations remain."
+    },
+    {
+      "id": "IDEA001000",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/LETTER_BAG_REMAINING_SELECTION_RAW_20261011.json",
+      "difference": "OldBAG/ORDERwriter explicitly transmits the source order through a second field; its constant-final-rank countercase remains. No such orderfield exists here."
+    },
+    {
+      "id": "GDT1202",
+      "primary": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "difference": "The unchanged fixed source-frequency failure applies as a stronger inherited obstacle, not a new measured result."
+    }
+  ],
+  "novelty_review": "Bounded topic/ideas/duplicates/route search and the listed primaries distinguish the exact preserved-mask/within-class-sort contract from earlier sorting, nonreturningclasses and explicitletterbags. No guarantee of exhaustive historical novelty. GDT1263lookupfollowups and1321followups reviewed.",
+  "claim_ceiling": "An invented constrained writing relation with a set-valued inverse. No historical attestation, source-language choice, native sound/word assignment, statistical fit, native result or information-preserving decipherment is claimed.",
+  "ownership": "Root proposed this mechanism; bounded producer performed targeted predecessor review and precise RAW registration. Root owns any scientificselection, experiment, ledger/route andpublication. Do not silently edit after registration."
+}

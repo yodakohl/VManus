@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1344 rejects preserved-mask two-class sorting
+
+The new IDEA1013 retains a source word's binary class mask but sorts symbols within each class. Recurrent exact daldy atf45r.10 andolaiin atf17r.4 supply a d/a/l incompatibility triangle in everyreading: at least3classes would be required, so the fixed2classwriter fails. All144nominatedPgroups retained;48direct class/order cases independently fail. This differs from1263weak whole-rank ordering and1321nonreturningblocks. Conditional22-unit/whole-group proof only; no3classfit, actualclasses, semantics or general composition rejection. No decoder or automatic repair. [Report](experiments/yolo/gdt1344_two_class_sort_triangle/REPORT.md).
+
 ## 2026-10-11 — GDT1343 constrains the new default-vowel doubling proposal
 
 IDEA1012 is a concrete ambiguous writing rule: default CV writes C, other CV writes CV, bare C writes CC. Thus source consonant-final words require doubled final working units. The new complete cached census finds18/31/29strict examples among25564/29821/25622ZL/IT/RFgroups: at most0.0704/0.1040/0.1132percent codas in those strict subsets. These are not population estimates; allowing every excluded stored group as one coda-word raises the conditional full-raw ceilings to19.9637/5.2270/18.7627percent. No source/key/phoneme meaning or full writer fit, no general abugida rejection. Do not build a decoder or patch final consonants; independently fixed source and word/unit correspondence would be needed. [Report](experiments/yolo/gdt1343_default_vowel_terminal_capacity/REPORT.md).

@@ -1,0 +1,69 @@
+{
+  "status": "NO_LOGICAL_FALSE_EXCLUSION_FOUND_IN_BOUNDED_REVIEW",
+  "reviewer": "separate closure_error_audit agent",
+  "scope": "Independent manual review of declared writer, proof, extraction code, validator and completed compact results; no new source query, native image, full graph search or executable census rerun.",
+  "inspected_sha256": {
+    "experiments/yolo/gdt1344_two_class_sort_triangle/PREREGISTRATION.md": "d116005b0f79163e701cd2a8a07eb9cd38a8c11f4d28e9171fd1985b0de79731",
+    "experiments/yolo/gdt1344_two_class_sort_triangle/src/run.py": "7fd56e5356e3b30be6b89dfc0d2b29bb69884811de376279f095e23a6c2ec146",
+    "experiments/yolo/gdt1344_two_class_sort_triangle/src/validate.py": "c008da502b0357bba07908499337e816ce8cfc0035e6b1351c898395fde2be1a",
+    "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/RESULT.json": "cf70b5bc4d3dfabad712a853745fff21978fe76a22ad726553ece66b624ab35c",
+    "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/VALIDATION.json": "586b1924e710bf97bf53d5a88a4c46f7856ae47fb7ef5f6138c54d0067e937c8",
+    "research_registry/proposals/production_origin_supply_20261003/PRESERVED_MASK_WITHIN_CLASS_SORT_RAW_20261011.json": "02b7f7a71fbb0c54993fc87323b3ade3944edad0dea7a18720a98978cadf440a"
+  },
+  "logic": [
+    "Every subsequence of a sorted class subsequence remains sorted. Projecting daldy to dald and olaiin to la therefore gives necessary constraints, irrespective of classes or ranks assigned to the omitted y/o/i/n units.",
+    "If d and a shared a class, d-a-d could not be nondecreasing under a strict order on distinct symbols; similarly d-l-d prohibits a shared d/l class.",
+    "Two classes then force a and l together. dald demands a<l, while la demands l<a. No fixed strict order satisfies both.",
+    "Enumerating all eight assignments of d/a/l to two class labels is a relaxation: it includes assignments with one class empty on these three units. Global nonempty-class requirements cannot restore a solution absent in this larger domain.",
+    "All six strict total orders on d/a/l include the restriction of every global 22-symbol strict order. Zero solutions in the 48 reduced cases thus suffices; no enumeration of full keys is required.",
+    "A fixed bijective drawing renaming preserves repetition and relative-order constraints. The obstruction does not assign any source-letter value.",
+    "The triangle requires at least three classes for these selected constraints only; it proves neither full three-class feasibility nor an exact manuscript-wide minimum."
+  ],
+  "source_and_result_review": {
+    "selection": "Only exact standalone daldy and olaiin; each needs >=2 STRICT occurrences within its own reading. daldy witness fixed to f45r.10; earliest strict olaiin selected by source row then group index.",
+    "strict_counts": {
+      "IT2a": {
+        "daldy": 15,
+        "olaiin": 38
+      },
+      "RF1b": {
+        "daldy": 5,
+        "olaiin": 32
+      },
+      "ZL3b": {
+        "daldy": 15,
+        "olaiin": 34
+      }
+    },
+    "witness_ids": {
+      "IT2a": [
+        "IT2a|f45r.10|G006",
+        "IT2a|f17r.4|G005"
+      ],
+      "RF1b": [
+        "RF1b|f45r.10|G006",
+        "RF1b|f17r.4|G005"
+      ],
+      "ZL3b": [
+        "ZL3b|f45r.10|G006",
+        "ZL3b|f17r.4|G005"
+      ]
+    },
+    "saved_validation": {
+      "claim": "Source and fixed-code implication only; no native semantic or palaeographic confirmation.",
+      "independent_class_order_cases": 48,
+      "solutions": 0,
+      "source_rows": 144,
+      "status": "PASS"
+    },
+    "checks": "Code retains all 144 exact-form P rows including excluded seams; validator independently tokenizes and rederives classification, counts, selector sets and selected witness records. Cache and classification hashes are locked. Validator checks all source pages against the 179-selector allowlist and excludes f84-prefix/f1r/f116v. This review inspected those checks rather than recollating every source row again.",
+    "no_pooling": "All three reader decisions separately satisfy the stipulated recurrence and selected-locus conditions. They remain alternate transcriptions of one manuscript."
+  },
+  "actual_objections": [],
+  "limits": [
+    "Source-informed two-form certificate; not an unforeseen prediction, independently new manuscript evidence or significance test.",
+    "Literal working-unit identity, complete group boundaries, fixed symbol classes and strict order remain model assumptions.",
+    "No general exclusion of composition, interleaved classes, meaningful writing, three-class writers or languages.",
+    "No retrospective change to GDT1263 weak-rank or GDT1321 nonreturning-class results: their premises differ."
+  ]
+}

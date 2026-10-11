@@ -1,0 +1,129 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed preserved-mask two-class sorting only, conditional on22units and exact whole groups; no actual class values, minimum full alphabet, meanings or general composition exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1344_two_class_sort_triangle/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1344_two_class_sort_triangle/src/validate.py"
+  },
+  "created": "2026-10-11",
+  "dependencies": [
+    "GDT1198",
+    "GDT1202",
+    "GDT1263",
+    "GDT1321",
+    "GDT1342",
+    "GDT1343"
+  ],
+  "experiment_id": "GDT1344",
+  "inputs": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PRESERVED_MASK_WITHIN_CLASS_SORT_RAW_20261011.json",
+      "role": "frozen proposal or exposed source",
+      "sha256": "02b7f7a71fbb0c54993fc87323b3ade3944edad0dea7a18720a98978cadf440a"
+    },
+    {
+      "path": "experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/SOURCE.json.gz",
+      "role": "frozen proposal or exposed source",
+      "sha256": "947cfef82ee3192771e0e6719dd50f6b5db20bfda03d8050f1d547444f72f755"
+    },
+    {
+      "path": "experiments/yolo/gdt1343_default_vowel_terminal_capacity/artifacts/CLASSIFICATION.json.gz",
+      "role": "frozen proposal or exposed source",
+      "sha256": "4c55521a700c49b4733fe5a6f5d6bf8921147edfd5052c1326c52ff239c9e40e"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen proposal or exposed source",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "d116005b0f79163e701cd2a8a07eb9cd38a8c11f4d28e9171fd1985b0de79731"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "d116005b0f79163e701cd2a8a07eb9cd38a8c11f4d28e9171fd1985b0de79731"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "c40398b182146365c677efd5f844ca86cf1d4308c762ccbc39040f5aadf0637c"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/REPORT.md",
+      "role": "primary_report",
+      "sha256": "507cae7fbd80b78993c7cc201bbee4c138d0d29d04da5bb5f9b7eb151ad63b70"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/FORM_PROFILES.txt",
+      "role": "reproducibility artifact",
+      "sha256": "d42871f03207b9b97b375c88153824a1cb39272ea59b12ef0216aaf46c2e1f37"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/INDEPENDENT_LOGIC_AUDIT.json",
+      "role": "reproducibility artifact",
+      "sha256": "ff3b5f6ff7074c1b2bede4f7a4f2fc7ea823c3780e2ec5c986fa2de1238637f2"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/PROOF.json",
+      "role": "reproducibility artifact",
+      "sha256": "f8242a892500764309304a4e39763b0e28ed7662af9df4de3c46a705400bee13"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "743c470c03c01df3264563e67ef0dceee00b8a6bff6e57fb4e5ef93680f1557c"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "cf70b5bc4d3dfabad712a853745fff21978fe76a22ad726553ece66b624ab35c"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/SOURCE_CASES.json",
+      "role": "reproducibility artifact",
+      "sha256": "6b925d2c3c51a0c5fba0cf3b1b122d066594f732fdfbe5a7fc9e9f7d1ef49a3b"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "586b1924e710bf97bf53d5a88a4c46f7856ae47fb7ef5f6138c54d0067e937c8"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "5295e4a84e8257e9bf6ce308f87431df71153f7d377a8eff91e20306739a1544"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "7fd56e5356e3b30be6b89dfc0d2b29bb69884811de376279f095e23a6c2ec146"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "c008da502b0357bba07908499337e816ce8cfc0035e6b1351c898395fde2be1a"
+    }
+  ],
+  "question": "Do the fixed exact daldy and olaiin witnesses recurrently support the d/a/l triangle under the strict cached unit/group readings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "two_class_sort_triangle",
+  "status": "TWO_CLASS_SORT_CONTRADICTED_ALL_READINGS",
+  "title": "A recurrent two-word triangle excludes preserved-mask two-class sorting",
+  "updated": "2026-10-11",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1344_two_class_sort_triangle/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
