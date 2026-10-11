@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: f83r reference review.
-Latest decision: local/serial overlap.
-Working files: IDEA1010;OVERLAP_REVIEW.
-Assumptions: no mandatory nativeconsumer.
-Resume: fix producer/consumer beforepage.
+Task: qotal/tal reference test done.
+Latest decision: 1341page-ruleFAIL.
+Working files: GDT1341;IDEA1010.
+Assumptions: reference meaning unassigned.
+Resume: different justified dependency.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public1a5bc235c.
+Public032396999.

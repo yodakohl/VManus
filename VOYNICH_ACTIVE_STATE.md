@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1341 specific f83r reference candidate fails transfer
+
+The explicit qotal→chey tal occurrence-pointer hypothesis conditionally bridges P1/P2 on f83r, but strict consumers on oldf75v/f104v have no exact qotal anywhere in complete Ppage scope. All3400sourcegroups independentlyreconstructed; joined/uncertain readings retained separately. Do not build the f83r interpretation on this rule or add hidden producers. IDEA1010 broaderlocal/serial models remain unresolved; no meaning or latest-antecedent confirmation. [Report](experiments/yolo/gdt1341_qotal_tal_page_reference/REPORT.md).
+
 ## 2026-10-11 — f83r reference contrast requires a genuinely used earlier result
 
 IDEA1010 local/serial accounts overlap: reset does not imply different persons, and unused carried state adds no observable consequence. Finite counterexamples and cached selected pointers verified; no native semantics tested. solkeedy20/21 stays inside P3; tchedy1/16/23 is not a simple scene-start marker; pairedchey retains610/1040limits. First specify a shared obligatory cross-boundary consumer and its value source, then attempt whole-page accounts. Explicit import/reintroduction remain rivals. No general equivalence or confirmed-word prerequisite. [Review](research_registry/proposals/production_origin_supply_20261003/F83R_LOCAL_SERIAL_OVERLAP_REVIEW_20261011.json).
