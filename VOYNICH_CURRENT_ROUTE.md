@@ -2,13 +2,13 @@
 Updated: 2026-10-11.
 
 ## Work
-Phase: workflow
+Phase: fixed_test
 Status: checkpoint
-Task: Select.
-Latest decision: 885 prior linked.
-Working files: 885 review.
-Assumptions: Old limits stand.
-Resume: No repeated885audit.
+Task: 1322 closed.
+Latest decision: 1322 formal PASS only.
+Working files: gdt1322.
+Assumptions: Fixed bank/prior.
+Resume: Fix bank/prior first.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicce2361f5e.
+Public0afbb1879.

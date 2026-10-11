@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1322 modular packet writer
+
+A complete invented whole-group-to-character rule now has a verified inverse and normalized spelling-choice likelihood. Toy key rankings reverse when choice mass is omitted. Source-free only: no native fit, language, key or meaning. A native attack remains unselected pending fixed bank/prior and bounded known-key recovery evidence. [Report](experiments/yolo/gdt1322_modular_packet_choice_likelihood/REPORT.md).
+
 ## 2026-10-10 — IDEA991 contextual recovery, concrete carrier stopped
 
 A fixed restricted source grammar can reconstruct omitted agreement from the written subject list. Its actual carrier permits only5group initials, whereas old1319contains20/21/21observed initial units. Conditional carrier exclusion only; no new native count, translation or general abbreviation rejection. [Assessment](research_registry/proposals/production_origin_supply_20261003/AGREEMENT_CARRIER_HEAD_ASSESSMENT_20261010.json).

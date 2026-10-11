@@ -1,0 +1,132 @@
+{
+  "status": "NORMALIZED_CHANNEL_AND_RANKING_COUNTEREXAMPLE",
+  "prototype27": {
+    "bank_entries": 506,
+    "covered_residues": 27,
+    "example_packets": [
+      [
+        1
+      ],
+      [
+        6,
+        21
+      ],
+      [
+        5,
+        21
+      ]
+    ],
+    "source": "a z",
+    "positive_sum28_residue1": [
+      [
+        13,
+        15
+      ],
+      [
+        15,
+        13
+      ]
+    ],
+    "rejected_invalid_cases": [
+      "gcd_one_but_missing_bank_classes",
+      "invalid_packet_(22,)",
+      "invalid_packet_(0, 0, 0)",
+      "outside_source_domain"
+    ]
+  },
+  "toy3": {
+    "K1": {
+      "classes": {
+        "0": [
+          "b",
+          "bb",
+          "bbb"
+        ],
+        "1": [
+          "a"
+        ],
+        "2": [
+          "aa"
+        ]
+      },
+      "class_weights": {
+        "0": 3,
+        "1": 1,
+        "2": 1
+      },
+      "b_source_prior": [
+        3,
+        5
+      ],
+      "b_cipher_likelihood": [
+        1,
+        5
+      ],
+      "normalized_sequence_mass": {
+        "1": [
+          1,
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1
+        ]
+      },
+      "iid_pooling_each_pair": [
+        1,
+        25
+      ]
+    },
+    "K2": {
+      "classes": {
+        "0": [
+          "bbb",
+          "a",
+          "aa"
+        ],
+        "1": [
+          "b"
+        ],
+        "2": [
+          "bb"
+        ]
+      },
+      "class_weights": {
+        "0": 3,
+        "1": 1,
+        "2": 1
+      },
+      "b_source_prior": [
+        3,
+        10
+      ],
+      "b_cipher_likelihood": [
+        3,
+        10
+      ],
+      "normalized_sequence_mass": {
+        "1": [
+          1,
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1
+        ]
+      },
+      "iid_pooling_each_pair": [
+        1,
+        25
+      ]
+    }
+  },
+  "ceiling": "Source-free probability and inverse check only; no native fit or unknown-key recovery."
+}

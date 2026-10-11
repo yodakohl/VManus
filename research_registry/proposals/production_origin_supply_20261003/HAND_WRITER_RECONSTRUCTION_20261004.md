@@ -10437,3 +10437,7 @@ Die [Vorprüfung](AGREEMENT_CARRIER_HEAD_ASSESSMENT_20261010.json) stoppt seinen
 ### IDEA885: vorhandene Auswahlgrenze mit der Karte verbunden (11. Oktober 2026)
 
 Die bislang unbewertete Registerkarte hatte die [bereits vorhandene Prüfung vom6.Oktober](SOURCE_SEAM885_NATIVE_PRIOR_LIMIT_20261006.json) nicht als aktuelle Bewertung verknüpft. Die [nachgetragene Bewertung](SOURCE_SEAM885_ROUTING_REVIEW_20261011.json) erhält deren ursprüngliche Entscheidung: keine neue Auswahl; vorausgesetzte Identitäten alter Renderer sind keine unabhängige Begründung eines Quellenwechsels. Kein neuer Manuskriptbefund, kein wiederholter Fehlstellentest und keine allgemeine Widerlegung von Kompilation. Der Rohentwurf bleibt unverändert.
+
+## 2026-10-11 — GDT1322 modular packet writer
+
+A complete invented whole-group-to-character rule now has a verified inverse and normalized spelling-choice likelihood. Toy key rankings reverse when choice mass is omitted. Source-free only: no native fit, language, key or meaning. A native attack remains unselected pending fixed bank/prior and bounded known-key recovery evidence. [Report](experiments/yolo/gdt1322_modular_packet_choice_likelihood/REPORT.md).

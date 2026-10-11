@@ -1,0 +1,45 @@
+{
+  "title": "RAW UNREVIEWED: whole-group modular letter sums with a paid fixed homophone bank",
+  "summary": "Complete invented source-character channel: fixed weights on22drawings sum modulo27 within each output group. A frozen finite bank with positive choice weights supplies every source character; the writer samples matching spellings with replacement. The reader recovers lowercase a-z and SPACE exactly. This is not a native key, word meaning, historical claim or statistical fit.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_NATIVE_SELECTED",
+    "source_domain": "Finite strings over lowercase a-z and ASCII SPACE, including repeated/leading/trailing spaces and the empty string. Other characters are rejected, not normalized. SPACE=0 and a..z=1..26. Message boundaries are external finite-message boundaries; no additional source formatting is claimed.",
+    "inventory": "Exactly22 abstract drawings G0..G21; no assignment to Voynich glyphs is chosen. Each is one output unit.",
+    "key": "One fixed weight0..26 per drawing; repeated weights allowed. A fixed finite ordered bankB of distinct nonempty strings over those drawings, each with positive integer weightq, is part of the paid public writing apparatus. The bank and q cannot vary by source occurrence or candidate key during a comparison.",
+    "coverage": "For each c=0..26, Z_K(c)=sum of q(w) for bank strings with sum_K(w)=c mod27 must be positive. Otherwise the parameter set is not a complete writer. gcd27andallweights=1 is necessary, not sufficient for a finitebank.",
+    "writer": "For each source character c in order, draw one word independently with replacement from matching bank entries, proportional to q. A physical bag containing q(w)copies or a precomputed cumulative table defines the choice. Write one group. The finite bank and integer weights are explicitly paid, not a free per-token mapping.",
+    "layout": "Separate consecutive groups by one visible SPACE. Greedily wrap whole groups at W=max(80,longest bankword)unit/spacecells. No group splitting. LF is physical layout only, ignored by the reader. The empty source produces empty output.",
+    "reader": "Split at physical spaces/LF; reject any group outside the fixed bank. Sum its glyph weights modulo27 and emit the one corresponding source character. Do not treat physical gaps as plaintext spaces. Decode every group in its original order. No key search is part of this reader.",
+    "inverse": "Every emitted group lies in its source-residue class, so reading any permitted stochastic output returns the exact source character stream. Anagrams always decode alike. Reordering groups does not preserve messages in general.",
+    "choice_likelihood": "For a separately fixed source-message distribution, P_K(w_1..w_n)=P_source(D_K(w_1)..D_K(w_n))*product_i[q(w_i)/Z_K(D_K(w_i))]. Omitting the class-normalizers can change key rankings.",
+    "limits": [
+      "Bank structure must independently pay for directed word shapes and morphology-like families; a decoder alone does not explain their production.",
+      "An arbitrary large learned bank is a real table/description cost. No free codebook compression or medieval memory claim.",
+      "No word-frequency, q/o, endings, length or held prediction fit has been shown.",
+      "Whole-character code, not one sourceword per written group. No old sourceword-frequency exclusion is silently imported or erased.",
+      "No native numerical values, phonetics or meanings assigned.",
+      "Existing empirical pooling identity remains: if source classes and free within-class probabilities are both fitted to one observed joint, the marginal is the oldQ."
+    ],
+    "predecessors": [
+      {
+        "id": "GDT1232",
+        "difference": "Strict positive unmodded Abjad sums; METHOD explicitly forbids modulo. No retry of its fixed alphabet."
+      },
+      {
+        "id": "GDT1258",
+        "difference": "Value-one singleton necessity uses strict positive ordinary sums; not automatically valid modulo."
+      },
+      {
+        "id": "GDT1286",
+        "difference": "One common paragraph completion value, unlike varying character residues in each group."
+      },
+      {
+        "id": "GDT1272",
+        "difference": "Order-sensitive omitted-source-suffix checksum plus wordbook, not additive visible whole-group character."
+      }
+    ],
+    "current_selection": "Only source-free GDT1322 prototype/likelihood check. No native data, source corpus, language choice or decoder search.",
+    "native_selection_gate": "Before any target scoring, specify the complete bank/choice estimation and its training scope, a fixed independent source-language prior, a candidate-key search and adequate known-key recovery controls. Passing the tiny prototype does not meet this gate."
+  }
+}
