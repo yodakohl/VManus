@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1328 e/i run lengths under geometric elongation
+
+All6reader/family cases reject independent memoryless run elongation even with arbitrary exact-page/collapsed-source-word/slot continuation probability: normalized dispersion -.4000 to-.4667, conditional two-sided p=.0005 each; all capacity/effect/leaf gates pass. Runs are more even than this null; no meaning, true unit, safe collapse or general optional-run rejection. Length-neutral strict-panel admission is assumed; geometry/serial/transcription effects remain alternatives. Original-source and conditional-sampling validation PASS. [Report](experiments/yolo/gdt1328_geometric_run_elongation/REPORT.md).
+
 ## 2026-10-11 — GDT1327 small-forward-step word wheel
 
 Complete reversible source-character wheel fails its fixed native binding: reciprocal distinct whole-word transitions require M<=54, while first qualifying pages have59 IT2a,191 RF1b and80 ZL3b distinct forms. Unique word states, forward steps1..27 and repeat-only nulls are essential premises; page-specific banks and line anchors do not rescue it. All source windows and75 small-ring cases independently checked. No general stateful cipher exclusion or meaning. [Report](experiments/yolo/gdt1327_forward_word_wheel/REPORT.md).

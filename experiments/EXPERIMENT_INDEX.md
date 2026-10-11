@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1326**
-- Experiment-associated tracked files: **26,123** (2.3 GiB)
-- Structured GDT337+ experiments: **991**
+- Experiments indexed: **1327**
+- Experiment-associated tracked files: **26,136** (2.3 GiB)
+- Structured GDT337+ experiments: **992**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1328 | GDT1328 | `GEOMETRIC_ELONGATION_REJECTED_ALL_CASES` | [report](../experiments/yolo/gdt1328_geometric_run_elongation/REPORT.md) | 13 | 2.1 MiB | 7 | STRUCTURED_YOLO |
 | GDT1327 | GDT1327 | `FORWARD_WORD_WHEEL_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1327_forward_word_wheel/REPORT.md) | 13 | 101.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT1326 | gdt1326_reset_prefix_gap_rule | `RESET_PREFIX_GAP_RULE_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md) | 13 | 937.9 KiB | 7 | STRUCTURED_YOLO |
 | GDT1325 | gdt1325_held_base_yd_context_choice | `NO_COMMON_HELD_BASE_CHOICE_TRANSFER` | [report](../experiments/yolo/gdt1325_held_base_yd_context_choice/REPORT.md) | 23 | 325.3 KiB | 8 | STRUCTURED_YOLO |

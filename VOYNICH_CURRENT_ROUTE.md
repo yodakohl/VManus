@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: 1327 closed.
-Latest decision: 1327 FAIL.
-Working files: gdt1327.
-Assumptions: Word wheel;steps1..27.
-Resume: Different complete mechanism.
+Task: 1328 closed.
+Latest decision: e/i runs underdispersed.
+Working files: gdt1328.
+Assumptions: Length-neutral strict selection.
+Resume: Keep non-geometric run obligation.
 Running: none.
 
 ## Structural baseline
@@ -17,8 +17,8 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 1308/9whole gain;1316halves ALL+/newFAIL;1320word-choice+.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
-1310aliases;1311gap open;1314cfh fits.
-1317unseenFAIL not mechanism rejection.
+1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
+1317unseenFAIL≠mechanism rejection.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
 No default Latin/phonetics;1058k/t open.
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
@@ -32,7 +32,7 @@ GDT327/GDT336: historical; no access.
 1262: nontrivial prefix26 min1 group miss; no error diagnosed.
 1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224exceptions16–21;1223unstable;1225pool≠strata.
 1171:no context gain;1172:rota86/62.1173:arithmetic only;source old.
-1175:29root stopped;CoReMA partial.
+1175:29root stopped.
 f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
@@ -71,4 +71,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publiccefce1007.
+Publica90323496.
