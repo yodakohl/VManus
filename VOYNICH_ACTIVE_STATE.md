@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1332 exact paired-source bound is not discrepancy-robust
+
+Frozen999relaxed carrier:46–66unparsed groups permit16–18% forcedequal amongparsable rather than79–81% atzeroresidual. Globalrelaxedminimum7–8% costs343–477failures. Keep allresiduals; no copyingerror, actualkey, fullcarrier or source fit established.1331remains exact, not a robusthistorical exclusion. [Report](experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md).
+
 ## 2026-10-11 — GDT1331 paired-source carrier content cost
 
 FrozenIDEA999 singletonBOTH roles force identical source pairs for79.33–81.08% of retained groups; unique relaxed3head set cfh/cph/q in each reader. Necessary prefix compatibility only, no nativekey or wordmeaning. Without independent doubled-source evidence, no ordinary-prose decoding selected; no automaticcarrier repair. [Report](experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md).

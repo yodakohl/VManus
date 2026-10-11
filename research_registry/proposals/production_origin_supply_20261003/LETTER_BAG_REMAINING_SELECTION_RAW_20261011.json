@@ -1,0 +1,101 @@
+{
+  "title": "RAW UNREVIEWED: a written letter bag supplies the changing alphabet for a following order-selection word",
+  "summary": "Complete invented hand writer, with no historical or native-fit claim. Each source word becomes two visible groups: its alphabetically sorted letter bag including repetitions, followed by one selection rank per original letter among the distinct letters still present in that bag. Removing one occurrence after each choice reconstructs the original spelling exactly. The two fields share22abstract drawings and use role supplied by their fixed order; no output word bank or large role-prefix table is stored.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+    "mechanism": "Transmit the exact unordered inventory first, then pay all ordering information through successive choices from the remaining distinct-letter list. Equal order groups can mean different words because their fully written bag groups supply different alphabets.",
+    "unit": "One source word yields exactly two consecutive output groups, BAG then ORDER. A complete output paragraph has an even group count and starts with BAG. There is no hidden phase choice or exception for a short word.",
+    "contrast": "Not a wordbook rank, branch-trie rank, move-to-front alphabet, freely sorted text, one-to-one source-word cipher, checksum or repair of999. The current word's complete multiset is transmitted; its permutation is recovered from a second explicit field without an arbitrary dictionary.",
+    "prediction": "Every ORDER group ends in d0, because the final remaining source letter is chosen from a one-type alphabet. For each paired BAG/ORDER group with working lengths LB,LR, LR<=LB<=2LR. These are necessary fixed-contract obligations, not observed manuscript claims. The full two-group pair uniquely identifies its source word; either field alone may have collisions.",
+    "scope": "Invented source-only notation. No native sign values, meanings, key, source corpus, score, historical attestation, physical paragraph ownership or observed fit. Source and native tests are not executed or selected by this proposal.",
+    "source_domain": "Each paragraph is empty or consists of nonempty lowercase ASCII a-z words separated by exactly one SPACE, with no leading/trailing spaces. Paragraphs are separated by LF, including consecutive/trailing LF. The empty input maps to empty output. Uppercase, punctuation, digits, accents, tabs and other characters are outside the contract and are rejected, not silently normalized. No unpriced escape branch exists.",
+    "alphabet_and_code": {
+      "drawings": "Exactly22abstract drawings d0..d21. Their numeric labels here are metanotation, not native symbols or written decimal fields.",
+      "bag_letter_code": "Let t=0..25 be the lowercase alphabetic index. If t<21, write d_t. Otherwise write d21 then d_(t-21). Thus a..u use one drawing and v..z use d21,d0 through d21,d4. Every other d21 tail is invalid in BAG. This is one frozen26-entry prefix table.",
+      "order_choice_code": "Before a choice, let D be the number of DISTINCT letters with positive remaining count. For D<=22, allowed ranks r=0..D-1 each write one drawing d_r. For D>22, ranks r<21 write d_r, while ranks21..D-1 write d21 then d_(r-21). Thus only when the known remaining alphabet has23..26types is d21 a prefix. The reader knows D from the previously decoded BAG and prior removals; no extra mode control is needed.",
+      "context_cost": "The BAG field is fully written and cannot be replaced by a fitted or guessed inventory. ORDER decoding retains up to26letter counts and their fixed alphabetic order. The role transition is the visible gap plus the paragraph-anchored BAG/ORDER alternation.",
+      "not_one_global_free_code": "The same d21 drawing is a two-drawing head in BAG, but can be a complete rank21 choice when the remaining alphabet has22types. Hence the whole physical stream is not claimed to be a single context-free26-entry letter code. This is a specified paid context change, not an unspecified escape."
+    },
+    "writer": [
+      "For each original source word w, sort all its letters alphabetically, preserving their multiplicities. Encode that entire sorted sequence as one BAG group with the fixed letter code.",
+      "Keep the same bag as26counts. Visit the source letters in their original order. List the DISTINCT letters whose count is positive in alphabetic order; write the zero-based position of the current letter using the current-D choice code. Remove exactly one occurrence, deleting a letter type from the list only when its count becomes zero.",
+      "Concatenate these choice codes as the ORDER group. Do not omit the final forced choices, introduce optional shortcuts, combine several source words, or alter the alphabetic order.",
+      "Write one ordinary gap between every output group. Copy each source LF as one output LF. No arbitrary physical wrapping or reset is permitted. Long paragraphs need enough line width; there is no claimed manuscript layout fit."
+    ],
+    "reader": [
+      "Split at LF and ordinary single gaps. Require an even number of groups on every nonempty line; odd groups are BAG and even groups ORDER. Empty lines reconstruct empty source paragraphs.",
+      "Prefix-decode the BAG into lowercase letters and require nonempty alphabetical order. Count all letters, including repetitions.",
+      "Read ORDER sequentially with the code determined by the current number D of positive letter counts. Require a legal rank below D, append that ranked distinct letter to the reconstructed word, and subtract one occurrence.",
+      "The bag must become empty exactly at the group end: an incomplete choice, out-of-range rank, early end, or extra suffix rejects the record. Restore one source SPACE between recovered words and every LF.",
+      "Re-encoding gives the identical BAG and ORDER groups. No dictionary, expected plaintext, language model, native value or source-word boundary outside the paid two-field structure is used."
+    ],
+    "hand_examples": [
+      {
+        "source": "salt",
+        "sorted_bag": "alst",
+        "bag_drawings": [0, 11, 18, 19],
+        "order_drawings": [2, 0, 0, 0],
+        "readback": "From[a,l,s,t] choose index2=s; then index0=a, index0=l, index0=t."
+      },
+      {
+        "source": "slat",
+        "sorted_bag": "alst",
+        "bag_drawings": [0, 11, 18, 19],
+        "order_drawings": [2, 1, 0, 0],
+        "readback": "The same explicit bag but a different second choice changes salt to slat. This is a source-only spelling contrast, not a native word meaning."
+      },
+      {
+        "source": "tall",
+        "sorted_bag": "allt",
+        "bag_drawings": [0, 11, 11, 19],
+        "order_drawings": [2, 0, 0, 0],
+        "readback": "The ORDER group equals salt's, but the written bag differs. Choose t from[a,l,t], then a, then l twice; the last l remains in the one-type alphabet until both copies are consumed."
+      },
+      {
+        "source": "z",
+        "sorted_bag": "z",
+        "bag_drawings": [21, 4],
+        "order_drawings": [0],
+        "readback": "The final rank is actually written. One source letter still has two output groups, with unequal physical lengths allowed."
+      },
+      {
+        "source": "zyxwvutsrqponmlkjihgfedcba",
+        "sorted_bag": "abcdefghijklmnopqrstuvwxyz",
+        "first_order_choices": "Initially D26, choose rank25 via d21,d4. Then D25 rank24 via d21,d3; D24 rank23 via d21,d2; D23 rank22 via d21,d1. At D22 rank21 is the SINGLE drawing d21. Continue one drawing per choice down to d0.",
+        "purpose": "Shows that the mode is determined from the paid remaining inventory, not a hidden interpretation of the same drawing. This is a hand-reasoned alphabet example, not a test corpus."
+      }
+    ],
+    "proof_and_costs": [
+      "The decoded BAG gives every initial count. At every ORDER step the legal rank selects exactly one letter, and its count update uniquely determines the next alphabet and code. Induction reconstructs exactly w. Sorted BAG is canonical and the rank choices are canonical, so different source words cannot have the same full two-group encoding.",
+      "A word of n letters costs2n..4nworking drawings and one interfield gap, plus the gaps between records. The apparatus is26ordered source letters/counts, the small letter/rank code and the grouping convention. No net compression or natural frequency fit is claimed.",
+      "Let hB count source letters v..z. BAG length LB=n+hB. ORDER gets an extra drawing only if D>22 and the chosen rank>=21. Such a letter has at least21distinct alphabetically smaller remaining letters, so its absolute source index is>=21 and it is one of v..z. Each extra ORDER drawing therefore corresponds to a separate source occurrence counted by hB. Hence LR=n+hR with0<=hR<=hB<=n, proving LR<=LB<=2LR.",
+      "Immediately before the last source letter is consumed, exactly one distinct letter remains. Its rank is0 and its code is the singleton d0. Thus every ORDER group ends in the same drawing under every global renaming. This strong vulnerability is disclosed before any native access; no optional final omission or phase reset is permitted to evade it.",
+      "Anagrams have identical BAG groups, but need not share ORDER groups. Non-anagrams may share ORDER groups. Exact repeated source words repeat both groups; adjacent source-word repetitions can therefore yield a two-group period. No universal source-word/group frequency identity is asserted for individual fields; deterministic injectivity preserves frequencies of the complete BAG/ORDER pairs.",
+      "Sorting alone loses source order; the second field pays for it explicitly. This is not an assertion that ordinal choices are optimal compression, or that word parts are morphemes. Similarity of source words can alter their bag and many later ranks; only the explicitly derived consequences are promised."
+    ],
+    "cheap_decisive_consequences": "Once complete paragraph ownership, unchanged22working units and one group per field are fixed, every paragraph must have an even number of groups, every even group must end in the same globally chosen drawing, and each odd/even pair must satisfy LR<=LB<=2LR. Any violation rejects this exact carrier/framing without meanings or a source vocabulary. Passing leaves only necessary capacity. No count, field-phase search, key selection, source encoding or native test was performed here; no automatic repair is proposed.",
+    "known_native_carrier_countercase_disclosed_before_retention": {
+      "primary": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md",
+      "reading_scope": "Only the existing Markdown primary was read. No HITS.json, WITNESS_LINES.json, native cache, image or new count was opened.",
+      "reported_premises": "The primary records chol/chol/chol at f47r.7 starting group4 and ytaiin/ytaiin/ytaiin at f86v3.3 starting group2, each in all three alternate readers with definite internal and exterior boundaries. These are old observations, not a new producer discovery or independent confirmation.",
+      "source_free_bridge": "Every three consecutive groups under unchanged BAG/ORDER alternation include an ORDER group, independently of their starting phase. If the three whole groups are the identical X, the common X must therefore end in d0. Both retained repeated forms would have to terminate in the same one drawing, while their fixed working-unit endings are respectively l and n. A global bijection cannot identify these two distinct endings.",
+      "decision_limit": "Thus the fixed22working-unit/whole-group/continuous-within-line carrier is already conditionally incompatible with these old witnesses. It is not a new test-ready native candidate. The abstract source writer and exact inverse are retained as a distinct raw construction, not as manuscript progress. Unknown actual atomization or alternative writing systems are not refuted; no altered ending, phase, hidden reset, omitted choice or other repair is added."
+    },
+    "predecessors_and_preserved_stops": [
+      "Current route read; targeted registry searches anagram/multiset/remaining letters and route-check used for bounded navigation. Empty lexical search results do not prove broad novelty.",
+      "IDEA958 card and GDT1229 REPORT: branch ranks use a frozen2411-word source trie; the fixed Deot implementation fails H1/H2. This proposal has no wordbook and transmits the current word inventory instead. It does not rerun or repair that instance.",
+      "IDEA939 and GDT1206 METHOD: move-to-front preserves a full26letter list across source words, with state determined by previous usage. Here letters are removed only when the paid current-word multiplicity is exhausted; each word starts with its explicitly transmitted bag. There is no inherited alphabet state or old source-screen rerun.",
+      "IDEA929 and GDT1321: disjoint fixed class blocks concern a complete group, with1321excluding nontrivial FULL partitions. BAG and ORDER here are two separate fields whose drawing inventories overlap. This does not reopen the old field-class model.",
+      "GDT1256 REPORT: arbitrary within-word permutations plus a one-letter/one-sign map fail for one fixed Deot witness. This writer transmits a second selection field and a paid context-dependent rank code; it is not an alternative permutation of that same one-group output or a new source offered to repair1256.",
+      "IDEA999: jointly aligning two source words is a separate fresh RAW. This proposal transmits one source word through its inventory and order; it has no paired-word LCS, LEFT/RIGHT/BOTH roles, or78-entry column table.999is frozen unchanged.",
+      "No historic novelty, target compatibility, independent native observation or general rejection of old families follows from this bounded proposal. Existing primary failures remain."
+    ],
+    "work_record": {
+      "bounded_block_started_utc": "2026-10-11 07:21:20 UTC",
+      "maximum_minutes": 20,
+      "scope": "Source-free proof review of999followed by a distinct raw design, registry/explicit Markdown predecessor checks and hand examples. No native/source corpus files, images, implementation, empirical counts or shared root metadata edits.",
+      "timing_qualification": "The full contract file was first written at07:28:24UTC. Before its registry addition, root communicated the separate1331relaxed-carrier outcome for999. That outcome was not independently inspected and does not validate this different writer. No blinding or pre-1331 registration is claimed;999was not altered."
+    }
+  }
+}

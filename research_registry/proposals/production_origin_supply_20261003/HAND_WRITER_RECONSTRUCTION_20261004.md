@@ -10509,3 +10509,7 @@ User explicitly requests at least five hours. Root clock start06:54:21UTC; earli
 ## 2026-10-11 — paired-source carrier bound completed
 
 GDT1331 finds only cfh/cph/q as relaxed3head set; singletonBOTH obligations force79.33–81.08% equal source pairs. Independent source joins and backward-DP validation PASS. No source meaning or ordinary-prose fit selected; carrier not repaired. See experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md. Five-hour block remains active until at least11:54:21UTC.
+
+## 2026-10-11 — paired-carrier sensitivity closes
+
+GDT1332shows the79–81% exact bound is sensitive:46–66unexplained groups lower it to16–18% amongparsable; global relaxedminimum7–8% costs343–477. No residual is erased or diagnosed. Source reconstruction remains unselected. Original1331counts already occur as1236singletoncoverage; new consequence is candidate-specific source equality. Five-hour research block continues. See experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md.
