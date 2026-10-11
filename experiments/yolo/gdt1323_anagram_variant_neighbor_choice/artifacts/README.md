@@ -1,0 +1,1 @@
+Reader PANEL files contain original IDs, pool membership and exact mobile-edge expectations. NULL_COUNTS arrays are empty because capacity failed. RESULT retains descriptive counts only; VALIDATION verifies extraction and the stop.

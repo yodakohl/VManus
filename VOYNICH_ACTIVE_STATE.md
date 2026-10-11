@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1323 key-free anagram choice capacity
+
+Same-unit-bag variants necessarily decode identically under1322; within-page exchanges preserve every decoded position and spelling-weight product. Its fixed neighboring-endpoint test has only24/40/38mobile edges in ZL/IT/RF against100required: all NO_CAPACITY, zero permutations. Independent validator confirms46,836original edges and102reader-specific mobile expectations. No support/refutation of modular decoding;1322formal result remains, native bank/key binding unresolved. [Report](experiments/yolo/gdt1323_anagram_variant_neighbor_choice/REPORT.md). No automatic metric or pooling repair.
+
 ## 2026-10-11 — GDT1322 modular packet writer
 
 A complete invented whole-group-to-character rule now has a verified inverse and normalized spelling-choice likelihood. Toy key rankings reverse when choice mass is omitted. Source-free only: no native fit, language, key or meaning. A native attack remains unselected pending fixed bank/prior and bounded known-key recovery evidence. [Report](experiments/yolo/gdt1322_modular_packet_choice_likelihood/REPORT.md).
