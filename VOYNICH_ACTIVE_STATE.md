@@ -1,3 +1,7 @@
+## 2026-10-11 — three broad models share a concrete f83r authoring context
+
+User-selected combinations now have explicit content contracts: immutable base procedures plus changes (IDEA1009), local image arguments plus statements (1010), and a shared parameterized curriculum (1011). All original f83r groups retained separately by reader; root inspected all ZL prose blocks and captions, and P1 in all readings. Existing four-scene ownership supplies possible arguments, not action names or person continuity. Source-only scope examples and provenance pass; no complete native reading, glyph writer, statistical fit or word meaning. Next authoring must derive a written consumer distinguishing local versus serial reference; no arbitrary whole-word completion. [Comparison](research_registry/proposals/production_origin_supply_20261003/THREE_BIG_MODELS_TRIAL_20261011.json).
+
 ## 2026-10-11 — GDT1340 canonical positive word ranks excluded
 
 New word-level MTF does not inherit the static rank-to-word diversity bound. Its canonical positive-binary head rule nevertheless fails every key on unchanged STRICT plus old1314EDGES: IT/ZL singleton n edges, RF strictm, and oldmol preserve the contradictions. STRICT-only dictionary minima4095IT/8191ZL do not rescue fullmodel. Same head corollary applies to static RAW993. Fixed unit/complete-group premises; no general MTF or numeral ban. [Report](experiments/yolo/gdt1340_word_recency_rank_capacity/REPORT.md).
