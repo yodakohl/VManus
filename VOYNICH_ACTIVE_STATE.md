@@ -1,3 +1,7 @@
+## 2026-10-11 — restore the intended exploratory phase for the three big models
+
+Own recent wording had overpromoted a discriminating consumer from an efficient checkpoint to an authoring prerequisite. Coherent whole-passage exploration is permitted without confirmed seeds or an already independent discriminator; full word-profile/prior support and explicit unknowns remain mandatory. Fixed comparisons and semantic preference still require distinct consequences. IDEA1011 source links corrected from unrelated GDT905/906 to IDEA000905/906. Existing Theophilus I.1/I.4/I.5 source now supplies an explicit shared-knowledge/two-application example; it does not imply a fresh preparation on every mention or a native reading. All old failures remain. [Correction](research_registry/proposals/production_origin_supply_20261003/THREE_MODELS_EXPLORATION_PHASE_CORRECTION_20261011.json).
+
 ## 2026-10-11 — GDT1341 specific f83r reference candidate fails transfer
 
 The explicit qotal→chey tal occurrence-pointer hypothesis conditionally bridges P1/P2 on f83r, but strict consumers on oldf75v/f104v have no exact qotal anywhere in complete Ppage scope. All3400sourcegroups independentlyreconstructed; joined/uncertain readings retained separately. Do not build the f83r interpretation on this rule or add hidden producers. IDEA1010 broaderlocal/serial models remain unresolved; no meaning or latest-antecedent confirmation. [Report](experiments/yolo/gdt1341_qotal_tal_page_reference/REPORT.md).
