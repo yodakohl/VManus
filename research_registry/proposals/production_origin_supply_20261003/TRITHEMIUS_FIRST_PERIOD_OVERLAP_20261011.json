@@ -1,0 +1,47 @@
+{
+  "status": "FIRST_PERIOD_NO_ADJACENT_REPEAT_WITH_REAL_POSITION_DEPENDENCE",
+  "decision_note": {
+    "question": "Can any allowed ordinary traversal of the first ten BookIcolumns produce adjacent repeated surface words when its prescribed null phrases and multiword cells are retained?",
+    "predecessors": "925first4columns are complete but5\u201310only selectedcells; source first-period mismatch remains. The generic repeat-intersection note is not a historical-table count.",
+    "smallest_work": "Complete the existing first-period table from the three cached source scans35\u201337, keep uncertainty/normalization explicit, compare neighboring full cells and enumerate local surface-word runs through the actual ten-column program. No wholebook or native text.",
+    "outcomes": "A repeat witness would show that literal repetition need not contradict this historical module. Verified absence would restrict only this bounded first period, not other periods/restarts or Voynich. Ambiguous cells keep relevant comparisons unscorable.",
+    "budget": "03:33\u201304:05UTC11October2026 inclusive collation, finite check, validation and publication. Stop at first-period result; no fullbook scan or native key search."
+  },
+  "table": "research_registry/proposals/production_origin_supply_20261003/trithemius_overlap_20261011/TABLE.json",
+  "result": "research_registry/proposals/production_origin_supply_20261003/trithemius_overlap_20261011/RESULT.json",
+  "validation": "research_registry/proposals/production_origin_supply_20261003/trithemius_overlap_20261011/VALIDATION.json",
+  "source_scope": {
+    "book": "Trithemius Polygraphia I, ordinary first complete ten-column cover period only",
+    "cells": 240,
+    "old_cells_inherited": 96,
+    "new_cells_read_by_two_source_reviewers": 144,
+    "source_scans": "Existing public scans0033\u20130037; ruleIII/IVonClavis0020. No new source download or Voynich data.",
+    "program": "Columns1..8, one whole nullphrase(cum omnibus OR cum uniuersis), column9, nullphrase(suis in), column10, null(amen). No skipped cells, arbitrary reset, cyclic4\u21921, transition10\u219211or10\u21921.",
+    "word_tokenization": "Five two-word cells in column10: g,h,k,z,w. Keep one payload character per whole cell. Readable Latin whitespace/tokenization, not measured printed gap widths."
+  },
+  "findings": [
+    "All nine adjacent full-column intersections are empty in each declared reading/normalization case.",
+    "Whole-cell vitam occurs at4z and7a, image-confirmed. A global cell-string-to-letter inverse is therefore false even in this small actual table.",
+    "Table6a omnibus carries source a; omnibus in the prescribed after8nullphrase cum omnibus carries no source letter. This distinguishes physical words from payload-bearing cells.",
+    "Including all24choices percolumn, mandatory null alternatives and five multiword entries, no ordinary first-period traversal yields an adjacent equal word pair or triple. A traversal emits15or16surface words for10payload cells.",
+    "The results agree for both8l spellings, both uncertain null-u/v spellings and literal-casefold versus explicit v\u2192ucomparison:8sensitivity cases."
+  ],
+  "source_critical_notes": [
+    "8l preferred immarcessibilem; immarcescibilem retained as a reading alternative, not silently modernized.",
+    "Second reader flagged the after8nullphrase spelling. Initial inherited universis was revised to preferred uniuersis with universis retained as an uncertainty case. Pre-reviewTABLEandRESULTare preserved; the final exhaustive run includes both, with no change in repeat conclusion.",
+    "Earlier author/table discrepancies at columns6,7,10remain. The author example is not used as error-free gold and is not emended by this table completion.",
+    "Source review is informed, not blind. First4columns mostly inherit the earlier manual collation;4z was additionally inspected for the vitamwitness."
+  ],
+  "verification": {
+    "primary": "Finite tail-of-length2state traversal through the13nonempty modules; keep first witness for any run.",
+    "independent": "Enumerate all local choices over1\u20133consecutive modules. Every word run of length<=3spans at most3nonempty modules, so this independently covers every possible pair/triple.",
+    "status": "PASS",
+    "scope": "Computational equality/run coverage under disclosed manual transcription; not independent palaeographic truth."
+  },
+  "decision": "This bounded first-period source module has no adjacent-repeat capacity. Do not extend the result to the wholebook, otherperiods, null/restart rules outside this program, BookIII/IVor Voynich. No native phase alignment, historical connection, cipher key or translated word follows. Further source expansion is not automatically selected.",
+  "reproduce": {
+    "run": "python research_registry/proposals/production_origin_supply_20261003/trithemius_overlap_20261011/run.py",
+    "validate": "python research_registry/proposals/production_origin_supply_20261003/trithemius_overlap_20261011/validate.py",
+    "input_hashes": "research_registry/proposals/production_origin_supply_20261003/trithemius_overlap_20261011/INPUTS.json"
+  }
+}

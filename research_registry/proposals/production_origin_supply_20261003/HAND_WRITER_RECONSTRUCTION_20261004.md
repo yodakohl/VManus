@@ -10461,3 +10461,7 @@ Primary1518ClavisIII/IVdistinction manually verified: BookIVuses the second lett
 ## 2026-10-11 — advancing cover-word columns: repeat obligation
 
 For an explicitly fixed one-packet-per-step column clock, an rfold packet repetition requires membership in rconsecutive column inventories; source letters need not repeat. A complete3column countermodel emits W0/W0/W0 for abstract0/1/2 and passes1023finite roundtrips. This is a source-free scope check, not a new manuscript observation or reconstruction of historical tables.857fixed disjoint-pool exclusion,925source discrepancies/null/reset limits and994short-group limit remain. [Note](research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json). No native rerun or decoder selected.
+
+## 2026-10-11 — actual first-period table intersections
+
+BookIcolumns1–10are now collated240cells;144new cells read by root and a second source reviewer. Exact whole-cell vitam occurs4z/7a with different payload letters;6aomnibus also occurs inside a later nullphrase. All9adjacent cell intersections and all adjacent equal surface-word pairs/triples are empty for the ordinary first-period program, including supplied nulls and5multiword cells, across8reading/normalization cases. Independent local-window verification PASS. No wholebook/native conclusion, no first-period author-example repair. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_OVERLAP_20261011.json).

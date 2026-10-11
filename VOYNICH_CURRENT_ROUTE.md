@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: Column scope.
-Latest decision: Need overlap binding.
+Task: First10columns.
+Latest decision: No adjacent repeat.
 Working files: IDEA925.
-Assumptions: Fixed clock.
-Resume: Bind actual tables first.
+Assumptions: First period only.
+Resume: New construction.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public3b731bf43.
+Public289c43b2d.

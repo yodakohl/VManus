@@ -1,0 +1,73 @@
+{
+  "record_id": "IDEA000925",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root complete first-period collation and tail-state traversal; second source reader144cells; independent local-window validator",
+  "assessment_basis": "actual_first_ten_columns_nulls_multiword_cells_and_overlap",
+  "reason": "First10BookIcolumns now collated240cells including144new image-reviewed cells. Actual4z/7a sharevitam;6aomnibus versus after8null separates payload and filler. All9adjacent whole-cell intersections and all permitted adjacent-word pair/triple repeats are empty in8declared reading/normalization cases. Old author-example discrepancy remains; no wholebook or native conclusion.",
+  "blockers": [
+    {
+      "code": "source_example_not_error_free_gold",
+      "detail": "No full first-period recovery or source emendation. Discrepancy cause unestablished; cell6reading and cell7abbreviation qualify claims.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json"
+      ]
+    },
+    {
+      "code": "full_channel_and_native_binding_missing",
+      "detail": "One table entry need not be one orthographic word; supplied nulls/restarts and native representation must be bound before any native test.1518doesnotestablishVoynichprovenance.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json"
+      ]
+    },
+    {
+      "code": "column_repeat_test_requires_bound_inventories",
+      "detail": "The ordinary first10column period is now bound and checked, including nulls and multiword cells. Other periods, restart transitions and native alignment remain unbound; no wholebook rejection.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json",
+        "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_OVERLAP_20261011.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "complete_source_bound_channel",
+        "change": "new_binding",
+        "detail": "Independently justified complete key, parsing and source-critical handling plus native representation before target scoring; no arbitrary corrections or resets.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treat earlierCAUEprefix as fullpassagevalidation",
+      "Silently replace celis with celestibus",
+      "Infer printererror as established cause",
+      "Assume every cell is one written word",
+      "Declare a Voynichdecipherment",
+      "Transfer857disjoint-pool exclusion to any advancing-column table",
+      "Use a constructed countermodel as historical-table evidence",
+      "Extend first-period no-repeat result to all historical tables or Voynich",
+      "Treat cell4z and7a as a global word-to-letter key",
+      "Repair earlier author example using this source completion"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT857",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json"
+      ]
+    },
+    {
+      "target": "IDEA000994",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json"
+      ]
+    }
+  ]
+}

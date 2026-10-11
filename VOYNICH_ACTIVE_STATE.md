@@ -1,3 +1,7 @@
+## 2026-10-11 — actual first-period table intersections
+
+BookIcolumns1–10are now collated240cells;144new cells read by root and a second source reviewer. Exact whole-cell vitam occurs4z/7a with different payload letters;6aomnibus also occurs inside a later nullphrase. All9adjacent cell intersections and all adjacent equal surface-word pairs/triples are empty for the ordinary first-period program, including supplied nulls and5multiword cells, across8reading/normalization cases. Independent local-window verification PASS. No wholebook/native conclusion, no first-period author-example repair. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_OVERLAP_20261011.json).
+
 ## 2026-10-11 — IDEA994 historical invented-word payload rule
 
 Primary1518ClavisIII/IVdistinction manually verified: BookIVuses the second letter of each invented word; experienced writers may compose without the book. All13author words yield cauehuncuirum. Tight busarat|uimalo is supported by separate busarat/vimalo table entries; u/v normalization and visible author plaintext disclosed. Seven public-domain scans and integrity/extraction PASS retained. Historical comparator only, no native fit: direct second-working-unit binding faces old1299one-unit groups. No exception/position repair. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIXED_POSITION_ASSESSMENT_20261011.json). Earlier925BookIresults unchanged.
