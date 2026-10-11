@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1327",
+  "slug": "forward_word_wheel",
+  "title": "Reciprocal whole-word transitions exclude positive steps1..27 on a unique word wheel",
+  "question": "Does reciprocal whole-word adjacency on a page with more than54forms exclude every bank ordering?",
+  "status": "FORWARD_WORD_WHEEL_EXCLUDED_ALL_READINGS",
+  "created": "2026-10-11",
+  "updated": "2026-10-11",
+  "dependencies": [
+    "GDT1301",
+    "GDT1217",
+    "GDT1319",
+    "GDT1233",
+    "GDT915"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "claim_ceiling": "Only unique whole-word states and positive bounded steps1..27 with repeat nulls; no general stateful cipher exclusion or meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1327_forward_word_wheel/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1327_forward_word_wheel/src/validate.py"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/PAIRS.json.gz",
+      "sha256": "ad40adb40591fe013a75a79fd3e263304eeb7cbedb85394e1f870dc24e3c9025",
+      "role": "previously independently validated strict original adjacency"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/METHOD.md",
+      "sha256": "9dcb267d7d6d1d1d80ad2738e82023b7ff66c93ed9317af83f7173e85dd47432",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/PREREGISTRATION.md",
+      "sha256": "9dcb267d7d6d1d1d80ad2738e82023b7ff66c93ed9317af83f7173e85dd47432",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/README.md",
+      "sha256": "d91aa4481b2963f96a07ff0a8a8f84e9a06271f0c2b5d017fcaad7321461263a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md",
+      "sha256": "4ee39ed2d55be8c58e8affc1242c7550ffbc1ec2c83410d4a7b1564595195794",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/artifacts/PAGES.json",
+      "sha256": "d2f983ae8c6a9f54ea28d389c40ed8e3bfb13fdc5d41fe6c4eb6d1bff23aadf5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/artifacts/README.md",
+      "sha256": "afb21266206629ed0151f283e127ade5fc10d2a0cb482df50e3c809e3b628486",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/artifacts/RESULT.json",
+      "sha256": "885618be142662cc7aa8ed6293d746aeecd8b1f72e78c7717be9ba9b627e57fe",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/artifacts/VALIDATION.json",
+      "sha256": "71f242754feae3161a2151fe3a70ce0f441b457ae082b8281bae0a1875ae56f0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/artifacts/WITNESSES.json",
+      "sha256": "8d0c1cd8ecc2f89e2154722a84dd7d5965d62dc820625f630f93ffdfbc605714",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/src/REGISTRATION_LOCK.json",
+      "sha256": "198da970766d1166c32753041ead0e3b4ab1bd1d541c116058b9e2d7a3f0af0c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/src/run.py",
+      "sha256": "e586aeb2487009560dceb6f6c627778c8fc7df88a6f861f3dc5fd77809395146",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1327_forward_word_wheel/src/validate.py",
+      "sha256": "33d8565c15eaa95b7452cfbdb5e77652a8616583dae7164106ba49e3d090533a",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1327_forward_word_wheel/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": "Compact page counts and exact necessary-bound witnesses."
+  }
+}

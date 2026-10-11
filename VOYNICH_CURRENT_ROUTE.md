@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: 1326 closed.
-Latest decision: 1326 FAIL.
-Working files: gdt1326.
-Assumptions: Prefix-only gaps.
-Resume: New mechanism.
+Task: 1327 closed.
+Latest decision: 1327 FAIL.
+Working files: gdt1327.
+Assumptions: Word wheel;steps1..27.
+Resume: Different complete mechanism.
 Running: none.
 
 ## Structural baseline
@@ -16,7 +16,7 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole gain;1316halves ALL+/newFAIL;1320word-choice+.
 852:same-line join/split differs;meaning open.
-No proven parser/alphabet;1321blocksFAIL;1326gapFAIL.
+No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
 1310aliases;1311gap open;1314cfh fits.
 1317unseenFAIL not mechanism rejection.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
@@ -43,8 +43,7 @@ GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness re
 GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
 GDT616 failed; later diagnostic PASS does not rescue it.
 f9v:1064 Jacea/Viola polysemy;621 second owner unbound.
-IDEA237 untested/not preferred; all30 programs first-passed, P09 closed.
-Old opening/closing test negative;1309review.
+IDEA237 untested;30 programs first-passed;P09 closed.
 
 ## Access and operating boundaries
 f84 and f84r remain sealed. <!-- f84r is sealed -->
@@ -72,4 +71,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public118b51df9.
+Publiccefce1007.

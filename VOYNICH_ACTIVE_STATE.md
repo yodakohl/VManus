@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1327 small-forward-step word wheel
+
+Complete reversible source-character wheel fails its fixed native binding: reciprocal distinct whole-word transitions require M<=54, while first qualifying pages have59 IT2a,191 RF1b and80 ZL3b distinct forms. Unique word states, forward steps1..27 and repeat-only nulls are essential premises; page-specific banks and line anchors do not rescue it. All source windows and75 small-ring cases independently checked. No general stateful cipher exclusion or meaning. [Report](experiments/yolo/gdt1327_forward_word_wheel/REPORT.md).
+
 ## 2026-10-11 — GDT1326 reset prefix-only gap formatter
 
 Fixed ol/oldysame-page counterpair selected identically in allreadings: f75r.12G006 ol→cheey and.43G003oldy→qokain. A deterministic page-specific prefix-only formatter with identical reset after eachgap must stop and notstop at(o,l). Excluded under strict22unit/gap and continuing-line-stream premises;1576occurrence/follower joins independently verified. No general spacing, semantic wordhood or complexity inference; lookahead/carried context outside, not selected. [Report](experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md).

@@ -1,0 +1,59 @@
+{
+  "record_id": "IDEA000995",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root original-source-window validator; bounded source-free ring proof review",
+  "assessment_basis": "reciprocal_distances_sum_to_bank_size",
+  "reason": "Every reading has a same-page reciprocal distinct whole-word pair and more than54forms. Positive steps1..27 force M<=54, whereas unique bank forms force M>=V>54.",
+  "blockers": [
+    {
+      "code": "reciprocal_bank_capacity_contradiction",
+      "detail": "Fixed page bank with unique positions, original same-line adjacency and repeat-only nulls.",
+      "evidence": [
+        "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "changed_binding_or_complete_mechanism",
+        "change": "new_design",
+        "detail": "Independent changed binding or genuinely different complete writer with own falsifier; no automatic ring search or internal resets.",
+        "evidence": [
+          "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More ring-order search",
+      "Unused bank entries",
+      "Exact repeat nulls",
+      "Treat rejection as all stateful ciphers"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1301",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1217",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1319",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md"
+      ]
+    }
+  ]
+}
