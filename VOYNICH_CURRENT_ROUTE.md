@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 993 bounded.
-Latest decision: At most30/31/22ranks.
-Working files: IDEA993.
-Assumptions: Canonical binary;22units.
-Resume: Other writer.
+Task: 994 checked.
+Latest decision: Source only.
+Working files: IDEA994.
+Assumptions: Source-only comparator.
+Resume: New bound construction.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public532aead27.
+Publicdf30257e3.

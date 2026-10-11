@@ -1,3 +1,7 @@
+## 2026-10-11 — IDEA994 historical invented-word payload rule
+
+Primary1518ClavisIII/IVdistinction manually verified: BookIVuses the second letter of each invented word; experienced writers may compose without the book. All13author words yield cauehuncuirum. Tight busarat|uimalo is supported by separate busarat/vimalo table entries; u/v normalization and visible author plaintext disclosed. Seven public-domain scans and integrity/extraction PASS retained. Historical comparator only, no native fit: direct second-working-unit binding faces old1299one-unit groups. No exception/position repair. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIXED_POSITION_ASSESSMENT_20261011.json). Earlier925BookIresults unchanged.
+
 ## 2026-10-11 — IDEA993 canonical binary wordbook ranks
 
 Complete invented absolute word-rank writer retained; preimplementation corollary combines1319necessary head witnesses with1312old projection counts. At most30/31/22distinct source words could occur at the19,332/22,528/19,321retained strict ZL/IT/RFpositions. Upper bounds only, not attainable keys, dictionary sizes or whole-manuscript vocabulary. No new census or source-book comparison. Independent report-table check PASS. This candidate is not selected for native wordbook fitting; other radices/leadingzero policies are not automatic repairs. [Assessment](research_registry/proposals/production_origin_supply_20261003/BINARY_WORD_RANK_BOUND_20261011.json).
