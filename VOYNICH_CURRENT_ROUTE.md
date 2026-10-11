@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: 1329 closed.
-Latest decision: Paired-run NO_CAPACITY.
-Working files: gdt1329.
-Assumptions: Same-page exact skeleton.
-Resume: Different complete mechanism.
+Task: IDEA997 closed.
+Latest decision: Long; not selected.
+Working files: first_hit_word_20261011.
+Assumptions: Uniform22increments;mod27.
+Resume: Complete alternative; no reruns.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publiccece481a3.
+Publicebbd7d821.

@@ -10485,3 +10485,7 @@ All6reader/family cases reject independent memoryless run elongation even with a
 ## 2026-10-11 — GDT1329 matched two-run capacity
 
 Same-page/exact-collapsed-form words with exactly2 e/i runs and variation in both slots supply only7/5/6cells,30/20/27occurrences and4/2/4physical leaves IT/RF/ZL. All20/100/10nominal gates fail; actual statistic mobility could only reduce capacity. Zero native dependence scores/permutations; no independence, coordination or meaning conclusion.1328single-slot result remains. [Report](experiments/yolo/gdt1329_paired_run_capacity/REPORT.md).
+
+## 2026-10-11 — IDEA997 source-free first-hit word writer
+
+A complete uniform22increment/mod27writer stops at the first nonempty intended character residue and reads by group sum, without a whole-output bank. Exact expected group length is25.64317535–27for every source target; at-most1/22conditional stop hazard independently gives>=22. Short valid realizations remain possible. Source inverse and rational recurrence checks PASS; fixed uniform writer not selected for a native fit. This is a construction-cost result, not a new manuscript finding or generic first-hit exclusion. [Assessment](research_registry/proposals/production_origin_supply_20261003/FIRST_HIT_WORD_ASSESSMENT_20261011.json).

@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_SOURCE_FREE_PREIMPLEMENTATION_SCREEN",
+  "budget": "15minutes from05:45UTC11October including validation/publication; no native census or decoder.",
+  "source": "Every finite string over SPACE and lowercase a-z, indexed0..26 in that order. Reject all other input; empty source has no output.",
+  "alphabet": "22distinct abstract drawings U1..U22 with paid bijection to numerical increments1..22 modulo27. No values assigned to actual manuscript signs.",
+  "writer": "For each source character c reset accumulator0. Independently draw uniformly with replacement from22drawings; append drawing, add increment modulo27. Stop at FIRST NONEMPTY hit of c. Separate output groups by one SPACE. Source SPACE is an encoded character c=0, not this separator. Logical finite messages only: line breaks may occur only at group boundaries; no measured physical page/width model claimed.",
+  "reader": "For each nonempty group accumulate the fixed increments. Its final residue gives the source character. Reject if any proper NONEMPTY prefix already has that final residue; empty prefix is never an early hit. Read groups in order; restore exact source string.",
+  "termination": "From every current state each desired residue is reachable within at most2draws with probability at least22^-2. For difference1..22useonecard;0use5+22;23..26use(d-22)+22. Early hit is still success. Tail bounded by(1-22^-2)^floor(t/2); thus finite almost surely with finite expectation.",
+  "paid_cost": "22numerical values/bijection,27source symbols and accumulator; no output-word bank. Exact source character selects stopping target. Random choice mechanism remains an invented stipulation, not historical evidence.",
+  "question": "Does removing the output bank by uniform first-hit generation produce short groups as a typical outcome?",
+  "bound": "At every surviving history at most one of22equiprobable next drawings hits the fixed target. Conditional hazard<=1/22, so P(T>k)>=(21/22)^k and E[T]>=22 for every target. This does not say each output length is>=22.",
+  "selection_decision": "If bound is verified, do not select this fixed writer as an economical short-word generator. Exact mean computation is source-free confirmation of its cost, not a native goodness-of-fit test. Short valid examples do not change the stochastic law. No target-conditioned choice, weighted cards or early-stop repair follows.",
+  "predecessors": {
+    "GDT1322": "Selects whole packets from a paid finite bank using modular sum. Here online first-hit generates unbounded groups; order affects admissibility. No1322native key claim.",
+    "GDT1287": "Common natural endpoint for every word before reset. Here endpoints vary with source character; original exclusion stays.",
+    "GDT1326": "Prefix-only formatter without access to intended source boundary/target. Here writer knows target, so prefix-only exclusion is not imported.",
+    "GDT1300": "Complete source-bit word generator, but fixed statistics fail; no repair of its tables.",
+    "GDT1327": "Whole-word bank states with bounded source-character steps, different output level."
+  },
+  "scope": "No native text/image/source language, reserve, f84/f84r/f116v or word meaning. Not a general first-hit/cipher exclusion; bounded navigation is not exhaustive novelty.",
+  "checks": "Exact26-state hitting-time solve, independent rational recurrence verification with finite-termination uniqueness, all output paths oflength1..3,27constructive targets, empty and source-SPACE cases. No manuscript measurement."
+}
