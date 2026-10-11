@@ -1,0 +1,59 @@
+{
+  "record_id": "GDT1335",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root independent exact emission-polynomial/source-histogram checker; prior bounded mathematical review",
+  "assessment_basis": "unknown_free_spelling_weight_profile_and_exact_bag_conditioning",
+  "reason": "Unknownq can be correctly profiled; knownIIDprior gives constant\u2212N\u00b7KL, while exactbagconditioning isIIDkeyflat. Markovhistogramnormalizer remains keydependent. No recovery/native search justification.",
+  "blockers": [
+    {
+      "code": "bank_source_law_and_recovery_unbound",
+      "detail": "Freewordweights cost|B|\u2212mparameters; unseen support gives boundarysuprema; profileisnot normalizedpredictiveprobability.",
+      "evidence": [
+        "experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independently_fixed_complete_inference_contract",
+        "change": "new_design",
+        "detail": "Fixedbank/sourceprior and predictive/recovery design with a decision-changing falsifier; do not fit sourcepi or treat profile as calibratedreading.",
+        "evidence": [
+          "experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Use source-onlyLMscore as conditioned probability",
+      "Fitpi along withq and claim identification",
+      "Drop unobserved bankwords",
+      "Treat tinyexample as fullscale recovery"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1322",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1324",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md"
+      ]
+    },
+    {
+      "target": "IDEA000992",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md"
+      ]
+    }
+  ]
+}

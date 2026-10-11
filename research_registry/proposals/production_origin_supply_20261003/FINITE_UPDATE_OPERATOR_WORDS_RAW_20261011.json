@@ -1,0 +1,75 @@
+{
+  "title": "RAW UNREVIEWED: finite operator words compose two named mark updates into one fully readable function",
+  "summary": "A deliberately small semantic word-formation module. Two explicitly distinguished binary mark fields A/B each admit KEEP, SET, CLEAR or TOGGLE. Six learned logical morphemes I,A,B,S,C,T construct exactly16canonical operator words without assigning16independent whole-word values. The reader recovers the complete state transformation on all four inputs. This is not a full message writer, native glyph assignment, historical attestation or statistical fit; its22-drawing physical realization is open.",
+  "scope": "method",
+  "design": {
+    "status": "RAW_UNREVIEWED_FINITE_SEMANTIC_COMPONENT_PHYSICAL_CARRIER_UNBOUND_NOT_SELECTED",
+    "mechanism": "A feature stem names A or B; its suffix S,C or T says set that mark, clear it, or toggle it. An omitted feature component explicitly means KEEP for that feature. Nonempty components occur in the fixed A-before-B order inside ONE word. I is the whole word for keeping both fields.",
+    "unit": "One word denotes an uninstantiated typed operator f:{0,1}^2->{0,1}^2 with independent coordinate functions. It is neither a factual assertion nor an instruction addressed to a secretly omitted person/object.",
+    "contrast": "Finite semantic composition inside words, not a new alphabet cipher, topic header, field-frame sequence, unknown wordbook, query-fit count or rendering-choice optimizer. Similar words share taught operation parts because their complete source functions share components.",
+    "prediction": "The16words have16distinct full four-input functions. Composition order can matter for the same field: AS then AT equals AC, whereas AT then AS equals AS. Operations on A and B commute. A single observed input/output transition generally cannot identify the word's full function.",
+    "meaning_space": {
+      "state": "A and B are two explicitly labeled checkmark fields. Each is either unmarked0or marked1. They are source-teaching fields, not observed manuscript properties, source phonemes, anatomical states or cipher-memory states.",
+      "one_field_functions": {
+        "KEEP": [0, 1],
+        "SET": [1, 1],
+        "CLEAR": [0, 0],
+        "TOGGLE": [1, 0]
+      },
+      "table_convention": "Each listed pair gives the output at input0and input1. A source operator is the ordered pair(f_A,f_B)of these four possibilities; its action on(a,b)is(f_A(a),f_B(b)).",
+      "exact_source_information": "The complete endpoint function for EVERY possible input is the message. The actual current marks, a named physical target, actor, action duration, effort, intermediate states, original wording and number of primitive actions are not part of this source value. They cannot be silently dropped from a richer instruction and then called recovered.",
+      "source_equivalence": "Two descriptions are equivalent here exactly when they give the same full function on all four inputs. This deliberately identifies some different operation sequences; it does NOT claim those sequences have the same physical history or cost.",
+      "outside_domain": "Coordinate-coupled transformations such as swapping A and B, conditionals depending on the other field, propositions/prohibitions, quantities, named applied commands and temporal process descriptions are rejected or require a separate explicitly paid surrounding language. No such larger language is supplied here."
+    },
+    "intraword_grammar": {
+      "morphemes": "I denotes full identity. A/B identify the two source fields. S/C/T are SET/CLEAR/TOGGLE. All six uppercase characters are logical teaching labels, not six native drawings or values.",
+      "canonical_forms": "I | A[SCT] | B[SCT] | A[SCT]B[SCT]. No internal spaces or extra control word. No repeated feature stem, other order, unattached suffix, or I with another component is canonical.",
+      "inventory_count": "1identity word +3A-only words +3B-only words +9two-component words =16. This finite family is not proposed as the complete manuscript vocabulary.",
+      "defaults": "A missing A component means KEEP(A), and a missing B component means KEEP(B). This is a fixed taught semantic default, not missing information inferred from a desired answer. The identity word I prevents an empty word from standing for the full identity operator.",
+      "physical_limit": "No actual stroke shapes,22-working-unit encoding, correspondence with transcription units, word lengths or source-text frequencies are specified. The module gives semantic morphemes and their composition. A physical writer and an applied-message grammar would still have to be paid; no concealed role signs or arbitrary native values fill those interfaces."
+    },
+    "writer_and_reader": {
+      "writer": "Given(f_A,f_B), emit the A component with S,C or T unless f_Ais KEEP; then do the same for B. If neither component was emitted, write I. This requires the four taught one-field truth tables, not a16-entry whole-word lookup.",
+      "reader": "Parse the frozen grammar. Begin with KEEP on both fields; the A/Bcomponent replaces that field's function by its taught suffix value. Return the resulting FULL four-input function, not a guessed current result or an applied instruction.",
+      "inverse": "A one-field function is uniquely determined by its outputs at0and1, and all four taught pairs are distinct. Therefore the writer and reader are inverse on the16source functions. Execution of SET/CLEAR loses the previous state, but decoding the written operator does not lose its meaning; execution reversibility and reading reversibility are different questions."
+    },
+    "composition_rule": {
+      "order": "For words u then v, the combined function is decode(v)afterdecode(u), separately on each field. Encode that complete result by the same canonical writer.",
+      "small_update_law": "A later SET makes the combined coordinate SET regardless of its old function. A later CLEAR similarly makes CLEAR. A later TOGGLE exchanges KEEP with TOGGLE and exchanges SET with CLEAR. A later KEEP changes nothing.",
+      "no_trace_claim": "A supplied primitive-operation expression may be evaluated by these laws as a way of naming its endpoint function. The output word does not retain its original token sequence, count or time order beyond what that function preserves. If those are source content, this module is not an adequate writer.",
+      "not_free_concatenation": "Concatenating the printed words is not generally a canonical printed word. Composition is followed by semantic normalization. ASAT is a noncanonical description that evaluates to AC; this is not an assertion that the letters ASAT literally equal AC in a native script."
+    },
+    "source_only_hand_contrasts": [
+      {"word": "ASBT", "meaning": "Set A to1and toggle B.", "four_input_table": ["00->11", "01->10", "10->11", "11->10"]},
+      {"words": ["AS", "AT"], "in_this_order": "AC", "reverse_order": "AS", "reason": "Toggle after set clears; set after toggle sets. Direction affects the semantic function."},
+      {"words": ["AS", "BT"], "both_orders": "ASBT", "reason": "The two components affect different declared fields and commute."},
+      {"word_twice": "AT", "combined_word": "I", "reason": "Two toggles undo each other at the function level; action-count preservation is explicitly outside this source domain."},
+      {"word_twice": "AS", "combined_word": "AS", "reason": "SET is idempotent; no native repeated word is assigned this property."},
+      {"observed_transition_only": "00->10", "compatible_distinct_words": ["AS", "ASBC", "AT", "ATBC"], "lesson": "One endpoint observation leaves four different full functions compatible. Source truth-table coverage is a teaching definition, not native semantic identification."}
+    ],
+    "cost_and_information_limits": [
+      "The fixed apparatus contains two distinguished feature stems, three update suffixes, one identity word, four one-field truth tables and the fixed composition order. There are no independently chosen whole-word meanings or per-word exceptions.",
+      "The component is readable without an actual current state, because it denotes a function on all states. Applying it to a named object would require an overt application/name convention; no topic, participant or header is assumed for free.",
+      "The16meaningful words could have any externally supplied source frequencies. This construction neither predicts those frequencies nor generates a claimed manuscript-like distribution. Directed semantic composition and canonical surface order are not measurements of Voynich morphology.",
+      "The operation model has only two declared mark fields. These are not additional hidden cipher states introduced after a failed entropy or port-model test. No source-letter substitution, word-frequency repair or arbitrary native e/i interpretation is present.",
+      "A fully specified finite teaching table can demonstrate unambiguous compositional meaning but does not identify a manuscript family. Without independently grounded source effects or an actual semantic counterpart, no new prototype, decoder or corpus score is warranted."
+    ],
+    "predecessor_review": [
+      "Current route read; bounded searches dihedral/rotation reflection/operation composition/truth table/toggle/idempotent and route-check used for navigation, not proof of exhaustive novelty. A rotation/reflection alternative was considered but not retained.",
+      "IDEA951's authored source-only contract already distinguishes property, GOAL, prohibition and action sequences. This module does not claim these distinctions are new. It instead freezes a finite endpoint-function meaning space and a unique intraword normal form, with trace loss explicit rather than retaining an arbitrary action tree or quoted open predicate.",
+      "IDEA079already separates idempotent repetition from cumulative effects and requires a real matched source-state response. The AS/AT examples are not native evidence for it and do not supply its missing operational binding.",
+      "GDT1201METHOD Decision before implementation section was read. Its aliases expand to the identical ordered primitive-source sequence across parses. Here distinct primitive descriptions may normalize to one endpoint function, so the preserved source information is explicitly different.1201positive and its later fixed-source/neighbor stops remain.",
+      "IDEA362card and GDT980REPORT scope section were read. Truth of an account or use of all atoms can leave scene information undetermined. This module returns a complete source-defined function, but observing one result still fails to select that function; the concrete four-way ambiguity is retained above. No new scene or native nomination repairs980.",
+      "IDEA942's failed fixed finite tuple rendering and1002/1003's profile/trail observation serializers remain separate. The current component encodes no context frame, name list, observation multiset or actor carry; its limited input type is an operator value only.",
+      "GDT1334port-model and1335nuisance-weight work are not inputs to this semantic algebra. No failed physical carrier is altered. A later22drawing realization is not implied by the six teaching labels."
+    ],
+    "prospective_falsifier_and_decision": "Only after independently binding a candidate source operation family would the complete four-state input/output table test this particular separable-function contract: an A-output depending on input B, or vice versa, is outside it; two words claimed to encode the same full function must normalize identically. Native word resemblance, a single picture/result, atom coverage or one successful toy readback cannot provide that binding. Retain only as a finite compositional semantic module; no experiment or physical writer is selected.",
+    "work_record": {
+      "conservative_inclusive_start_utc": "2026-10-11 09:04:14 UTC",
+      "later_route_receipt_utc": "2026-10-11 09:06:39 UTC",
+      "maximum_minutes": 15,
+      "timing_note": "The conservative interval includes the preceding requested1335proof persistence as well as this source-only idea work; no waiting or parallel duration is added.",
+      "activity": "Source-only finite semantic design, bounded cards, authored951contract and targeted1201/980Markdown sections. No native payload, image, source corpus, empirical count, implementation, carrier fit or root-file mutation."
+    }
+  }
+}

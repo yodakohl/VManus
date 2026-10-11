@@ -10521,3 +10521,7 @@ GDT1332shows the79–81% exact bound is sensitive:46–66unexplained groups lowe
 ## 2026-10-11 — compact two-port writer capacity completed
 
 GDT1334uses source-free pairrefinement/run decomposition fixedbeforedata to checkall231pairs perreader withoutlargeCEGIS.666literal contradictions +324portUNSAT exclude nontrivialaliases underatomic22/equalcost/canonical2portcontract. Independentoriginalsource/Z3checksPASS; postresultn/qcores give96exactrunwitnesses, no errorradius. Concrete chon/oqaiin contradiction recordedwithoutmeanings. No port/cost/segmentationrepair; five-hourblockstillactive. See experiments/yolo/gdt1334_canonical_two_port_alias_capacity/REPORT.md.
+
+## 2026-10-11 — modular nuisance likelihood scope
+
+1335confirms unknownfreeqprofiling separately fromwordbagconditioning; the latter needskey-dependent histogramnormalization andisIIDflat. Small exactsourcefreecheck, no keyrecovery or nativebank/sourcebinding; no large decoderselected.1322/24preserved. See experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md. Five-hourblockcontinues.

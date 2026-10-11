@@ -1,0 +1,60 @@
+{
+  "title": "Source-free proof review: unknown homophone weights, profile likelihood and conditioning on the output bag",
+  "status": "MATHEMATICAL_REVIEW_NO_NATIVE_RESULT_NO_KEY_RECOVERY",
+  "contract": {
+    "bank": "One fixed finite bank B of distinct nonempty output words. A candidate key K supplies a deterministic surjective decoder D_K:B->{0,...,m-1}; m=27in the full declared channel, but the proofs hold for any finite m.",
+    "source": "An independently fixed normalized source law P_source on complete sequences of the specified length N and declared boundary/reset convention. It may be IID or non-IID. The bank and source law are not reselected from favorable key outcomes.",
+    "emissions": "One unknown positive weight q(w)per bank word. Given source value c, independently emit w in B_c with probability q(w)/Z_K(c), where Z_K(c)=sum_{v in B_c}q(v). The weights are unrestricted positive nuisance parameters, not a known frozen q and not a lower-dimensional shape model.",
+    "observed_statistics": "For an ordered observed output w_1,...,w_N, let n_w be each word count, c_i=D_K(w_i), and n_c=sum_{D_K(w)=c}n_w. No actual data counts enter this note."
+  },
+  "profile_derivation": {
+    "joint_likelihood": "P_source(c_1,...,c_N) times product_w(q(w)/Z_K(D_K(w)))^n_w.",
+    "emission_reparameterization": "For fixed K, any collection of positive normalized within-class emissions e_c(w)can be realized by q(w)=a_c*e_c(w)with arbitrary positive a_c. Thus profiling q is exactly independent multinomial profiling within each decoded class.",
+    "interior_solution": "If every bank word is observed, n_w>0, then e_hat(w)=n_w/n_c is an interior maximum. Its exact ordered-sequence log likelihood is logP_source(c_1,...,c_N)+sum_w n_w*log(n_w/n_{D_K(w)}). No multinomial factor belongs in this likelihood for one ordered output sequence.",
+    "parameters": "The identifiable emission dimension is sum_c(|B_c|-1)=|B|-m. If q is normalized globally, its |B|-1dimensions include m-1unidentified class-mass scales. If q is unnormalized, mpositive class scales are unidentified. Different bodies/classes are not assumed to share equal emission weights.",
+    "one_common_q_model": "Estimating a different nuisance maximizer for each candidate K is ordinary profiling of the same globally parameterized unknown-q family. It does not justify fitting weights that the original experiment declared known and fixed. It also does not permit choosing a new bank or source prior per key."
+  },
+  "iid_identity": {
+    "assumption": "The normalized source law is IID with known pi_c>0. Let f_K(c)=n_c/N.",
+    "identity": "logL_profile(K)=sum_w n_w*log(n_w/N)-N*KL(f_K||pi).",
+    "consequence": "The first term is independent of K, but the second generally is not. Uniform IID pi favors higher decoded empirical entropy in the profile score; it is not generally pooling-flat. Source-label symmetries of the fixed law remain possible.",
+    "pooling_limit": "If pi is also separately fitted as f_K, the KL term vanishes for every key and the familiar empirical IID pooling identity returns. This is a changed source-prior contract. Equal single-character marginals alone do not remove non-IID ordering information."
+  },
+  "support_and_attainment": [
+    "Use0log0=0and omit zero-count word terms. An unobserved decoded class contributes no emission log term and leaves its emission distribution unestimated.",
+    "If an observed class contains an unobserved bank word, its multinomial optimum assigns that word weight0. Under strictly positive q the displayed empirical expression is then ordinarily a SUPREMUM approached at the boundary, not an attained maximum. Classes wholly unobserved may retain any positive emissions. Observing every bank word is sufficient, but not necessary, for attainment.",
+    "A positivity floor, pseudocount, prior or finite-dimensional weight law changes the optimization. Under a constrained shape/length model for q, the free-emission expression is only an upper bound unless that model attains all relevant class distributions.",
+    "Bank coverage/surjectivity is a condition on the full fixed bank, not just the observed vocabulary. Dropping unseen bank words or renormalizing the source law to visited classes changes the declared model.",
+    "The all-bank-words-observed assumption concerns the realized sample for this algebra. A design that filters samples by coverage or other events needs its own sampling/conditioning account; it is not supplied by silently redefining the bank.",
+    "If the source law assigns probability0to the decoded sequence, the joint likelihood is0. A source histogram of probability0cannot be rescued through undefined conditional0/0."
+  ],
+  "bag_conditioning": {
+    "distinct_output_orders": "Fix the complete output bag n=(n_w). The emission factor product_w e_K(w)^n_w is identical for every distinct output ordering in that bag and cancels from its conditional distribution.",
+    "multiplicity": "For any source sequence with histogram(n_c), exactly A_K(n)=product_c(n_c!)/product_w(n_w!)distinct output sequences with bag n decode to it. This number does not depend on source order but generally depends on K.",
+    "normalizer": "Sum_{v with output bag n}P_source(D_K(v))=A_K(n)*P_source(Histogram=(n_c)).",
+    "conditional_likelihood": "P_K(w_1,...,w_N | n)=P_source(c_1,...,c_N)/[A_K(n)*P_source(Histogram=(n_c))], when the denominator is positive.",
+    "log_form": "logP_source(c_1,...,c_N)-logP_source(Histogram=(n_c))-sum_c log(n_c!)+sum_w log(n_w!).",
+    "iid_limit": "For every fixed IID pi with positive probability for the bag, this simplifies to product_w(n_w!)/N!: uniform over the distinct output orderings, independent of K and pi. Therefore bag-conditioned inference deliberately loses the IID frequency information that remains in the unconditional profile likelihood.",
+    "markov_limit": "A fixed Markov or other non-IID source law may retain ordering information, but its key-dependent histogram probability and the combinatorial factor must still be included. A raw language score is not the normalized cross-key conditional likelihood. Within a fixed key, or among keys with exactly the same relevant histogram and normalizer, those factors can be constant; this does not extend automatically to all keys.",
+    "computational_limit": "The exact source-histogram probability may be expensive to compute at large alphabet/length. No full-scale dynamic program, approximation, decoder or native key search is licensed by the identity."
+  },
+  "scope_and_prior_distinctions": [
+    "GDT1322REPORT uses fixed bank AND fixed q. Its class-mass correction and ranking counterexample remain correct. Unknown-q profiling is a separately declared nuisance model, not a correction to that experiment.",
+    "GDT1324REPORT evaluates exact recovery with known fixed spelling weights and two fixed source laws. Its8-key toy probabilities, symmetry limits and prior-dependent recovery results are not recomputed or superseded here. Giving the scorer less apparatus knowledge cannot erase an existing indistinguishability example.",
+    "The profile maximum is an in-sample score, not a normalized predictive law obtained by treating its data-dependent fitted probabilities as externally known. Sparse-support held-out prediction needs a prospectively fixed smoothing/prior method; the unsmoothed supremum gives new bank words probability0.",
+    "A fixed independent source prior, bank/segmentation/sampling contract, and large discrete key search remain substantive commitments. The |B|-m free emissions also do not explain directed word construction; shapes are still bank apparatus. No mathematical formula here demonstrates native feasibility or recovery.",
+    "Bounded registry/route-check searches and exact1322/1324primaries did not supply an executed unknown-q profiling counterpart. This is a scoped retrieval observation, not a historical novelty theorem or a claim that profile likelihood is new statistics."
+  ],
+  "primary_pointers": [
+    "experiments/yolo/gdt1322_modular_packet_choice_likelihood/REPORT.md",
+    "experiments/yolo/gdt1324_modular_exact_key_recovery/REPORT.md",
+    "IDEA000992"
+  ],
+  "work_record": {
+    "review_started_utc": "2026-10-11 08:38:53 UTC",
+    "review_completed_utc": "2026-10-11 08:46:13 UTC",
+    "active_elapsed": "7minutes20seconds; no waiting padding.",
+    "persistence": "This file records the already delivered derivation afterward at root's request for the small source-free1335check. No1335results were opened and no native or source corpus data were inspected.",
+    "access": "Current route, bounded registry navigation, controls topic and exact source-free1322/1324Markdown primaries only; no images, native payloads, empirical computation, code execution or new corpus."
+  }
+}
