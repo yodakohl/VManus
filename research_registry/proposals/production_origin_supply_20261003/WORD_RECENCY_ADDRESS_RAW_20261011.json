@@ -1,0 +1,59 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source_status": "NEW_PROPOSAL",
+  "work_scope": "Source-free proposal retention only. No native cache, image, source corpus, semantic profile or new experiment opened. No native word meaning or historical attestation. The bounded navigation is not an exhaustive novelty proof.",
+  "title": "RAW UNREVIEWED: whole-word recency addresses in a moving wordbook with binary drawing aliases",
+  "summary": "A fixed exact-token wordbook is reordered after every decoded word; canonical positive binary encodes its current position. Unlike letter-MTF, one whole group is one changing word address. Unlike absolute word ranks, one repeated address can cycle through several different words. The source book, alias law and native key remain absent; no statistical fit is claimed.",
+  "design": {
+    "mechanism": "Word-level move-to-front with one canonical positive binary address per preserved source token; a fixed surjective drawing-to-bit map permits optional drawing aliases.",
+    "unit": "One complete source token, one visible group, one wordbook update.",
+    "contrast": "Static absolute word ranks (IDEA993) versus a changing list of exact complete source tokens; letter-level move-to-front (IDEA939/GDT1206) versus whole-word ranks.",
+    "prediction": "Repeated rank r cycles exactly r list members; r=1 repeats the last source token, r=2 alternates two. After a source token was last selected, its next rank is one plus the number of DISTINCT other source tokens used since then. These equalities are exact within each declared reset scope.",
+    "source_domain": "A finite public ordered list D of distinct exact tokens. Messages consist only of members of D. A token may include punctuation if included exactly; there is no stripping, unknown-token escape or implicit growing dictionary. Reset at each supplied complete source paragraph to exactly D.",
+    "writer": [
+      "Find the current 1-based rank r of the next source token in the list.",
+      "Write the canonical binary representation of r (leading bit 1, no zero padding), replacing each bit by any drawing in its fixed nonempty alias class among the existing 22 working units.",
+      "Put one visible gap between source tokens. Move the selected token to the front, keeping every other list member in its relative order.",
+      "End paragraph at its supplied boundary; no hidden mid-paragraph reset. A concrete choice law for aliases remains unbound and must be paid before native statistical claims."
+    ],
+    "reader": [
+      "Parse whole native working units before decoding alias bits. Each visible group is one positive canonical binary integer r. Reject leading zero or r greater than len(D).",
+      "Output the current list member at r, then move it to the front. This yields a unique exact source sequence given D and the bit key, despite graphical aliases."
+    ],
+    "source_only_example": "With D=[A,B,C], source B C B C produces ranks 2 3 2 2. Starting from any list, r r r at r=2 means the second, first, second members of the original list, not three equal source tokens. A/B/C are synthetic token names, not native translations.",
+    "known_obligations": [
+      "The old binary head constraint remains unchanged: only the previously retained necessary zero sets are possible on the same panel. No new leading-zero or radix repair.",
+      "The existing bound of at most 30/31/22 distinct retained binary addresses does NOT by itself bound distinct decoded source words for this moving list. It also does not demonstrate broad content capacity: recurrence sequences and accessible ranks constrain it.",
+      "The 22 drawings still require an explanatory alias law. Optional free alias selection is a missing component, not a fit to q/o, final y, runs, directed parts or whole-word residuals.",
+      "A large manually reordered wordbook may be impractical. No medieval use of binary recency addresses is asserted.",
+      "The old form-conditioned root-recency nonconfirmation is not rerun and does not become evidence for this exact word-level algorithm."
+    ],
+    "first_falsifier": "Only after one independently fixed exact-token source and reset contract is selected, encode its word-rank stream before choosing drawings. Compare the full rank-recurrence and group-length consequences against the allowed bit projections, retaining all cases. No native wordbook fit or corpus sweep is authorized by this raw card.",
+    "selection_note": "This is a changed information contract, not a rescue of the failed letter-MTF source screen or static binary word-rank candidate. Primary closure must be reconsidered explicitly if selected.",
+    "first_use_and_capacity": "Every token, including its first occurrence, is encoded through its current entry in the same public D. There is no NEW token or literal branch. D may have any finite N; this is a parametric finite-wordbook family, not an unbounded online vocabulary encoder. The size/order/storage of D are paid assumptions. A fixed native key and observed rank stream constrain the accessible entries; arbitrary unused entries cannot be called evidence of capacity."
+  },
+  "predecessor_review": [
+    {
+      "id": "IDEA000939 / GDT1206",
+      "primary": "experiments/yolo/gdt1206_mtf_source_frequency/REPORT.md",
+      "retained": "Letter-level source frequency failure remains. Changing the unit to exact whole tokens changes equality invariants; source, reset and human-cost obligations must be newly fixed."
+    },
+    {
+      "id": "IDEA000993",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/BINARY_WORD_RANK_BOUND_20261011.json",
+      "retained": "Same canonical bit/head constraints retained. Static rank-to-word injection is removed, so the former distinct-word conclusion does not transfer automatically; necessary key constraints still do."
+    },
+    {
+      "id": "GDT1330",
+      "primary": "experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md",
+      "retained": "Previous written whole word is not the whole state; the ordered wordbook is an explicitly costly extra state. The old small-command bound remains valid."
+    },
+    {
+      "id": "IDEA000987 / GDT1301",
+      "primary": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md",
+      "retained": "The fixed modular difference writer on all four sources has zero AAA capacity. Recency rank is a different update than fixed modular differences, so AAA means a rank-dependent cycle rather than a modular arithmetic progression. No source counts are reused as success."
+    }
+  ],
+  "duplicate_screen": "Both bounded proposal duplicate screens returned no same_declared_design. Closer939/993/987 and1206/1301/1330 primaries were checked; lexical candidates are not an exhaustive novelty proof. Closed root-recency family remains nonconfirming; its referenced results/il005 primary is not present at that path and must be resolved before any related empirical selection."
+}

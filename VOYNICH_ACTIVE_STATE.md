@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1340 canonical positive word ranks excluded
+
+New word-level MTF does not inherit the static rank-to-word diversity bound. Its canonical positive-binary head rule nevertheless fails every key on unchanged STRICT plus old1314EDGES: IT/ZL singleton n edges, RF strictm, and oldmol preserve the contradictions. STRICT-only dictionary minima4095IT/8191ZL do not rescue fullmodel. Same head corollary applies to static RAW993. Fixed unit/complete-group premises; no general MTF or numeral ban. [Report](experiments/yolo/gdt1340_word_recency_rank_capacity/REPORT.md).
+
 ## 2026-10-11 — GDT1339 ambiguous-stream reference instance fails
 
 A new variable-width, ambiguous stream with one encoded source-space sign was checked against a fixed 5896-type medical reference union. Every marker requires a source word of at least29 letters somewhere; inventory maximum17. All20markers fail in IT/ZL, even allowing repeated spaces. Original groups and all local candidate sets independently validated. This does not reject the unbounded construction, all ambiguous streams or any whole language; no decoder repair or meaning selected. The separate prior-closure audit found no new error in its selected cases, not universal correctness. [Report](experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md).

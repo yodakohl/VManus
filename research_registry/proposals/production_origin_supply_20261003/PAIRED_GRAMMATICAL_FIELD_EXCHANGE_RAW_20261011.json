@@ -1,0 +1,63 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source_status": "NEW_PROPOSAL",
+  "work_scope": "Source-free proposal retention only. No native cache, image, source corpus, semantic profile or new experiment opened. No native word meaning or historical attestation. The bounded navigation is not an exhaustive novelty proof.",
+  "title": "RAW UNREVIEWED: pairwise exchange of complete inflection fields while lexical stems stay in order",
+  "summary": "A hypothetical structured source supplies every token as an exact stem plus an explicitly transmitted grammatical field. Within paragraph-started pairs the writer swaps the two complete fields, keeping stems in place; the same swap recovers the source. This carries two real per-token inputs rather than one shared feature bit. Native segmentation, actual grammar and a complete glyph table are unbound; not selected.",
+  "design": {
+    "mechanism": "An involutive transposition of the entire independently parsed grammatical field between consecutive source tokens, paired from each supplied paragraph start.",
+    "unit": "Two source lexical records (stem, feature) form two written groups (stem1, feature2), (stem2, feature1).",
+    "contrast": "Single-character boundary shift GDT1203 and fixed disjoint letter-pair exchange GDT1303 versus exchange of complete grammatical fields with unchanged stem order; fixed shared-bit input GDT1276 versus independently supplied feature values for both tokens.",
+    "prediction": "Under an independently fixed stem/field parse, re-exchanging fields at the declared parity must restore every source token and complete source grammar. All lexical stem counts/order and all field counts are conserved. Every paired source (S,A),(T,B) creates written (S,B),(T,A); the transformed sequence must satisfy prospectively specified source lexical/morphological restrictions. No post-result pair-phase change.",
+    "source_domain": "A finite lexicon of exact stems and finite feature inventory with an explicit source spelling/rendering function; permitted complete records and paragraph grammar must be fixed independently of the target. Empty feature is a real inventory member, not deletion of inconvenient signs. Exact orthographic recovery is only within that declared structured source domain.",
+    "writer": [
+      "Choose a fixed injective stem code over a subset of the 22 existing working units and a fixed injective feature code over a disjoint subset. All stem codes are nonempty; feature codes may include one empty string. Their disjoint alphabets make the seam readable without a new glyph.",
+      "Pair source records (1,2),(3,4),... from the paragraph start. Write code(stem1)+code(feature2), then code(stem2)+code(feature1).",
+      "Leave an unpaired final source record unchanged. Preserve one group per record and preserve paragraph boundaries. No secret padding or wrap to the paragraph beginning."
+    ],
+    "reader": [
+      "Split each group at the transition from the stem alphabet to the feature alphabet; reject return to stem symbols or an absent codebook entry.",
+      "Decode stems and transmitted fields. Apply the same fixed adjacent pair exchange to the fields; leave an odd final record unchanged.",
+      "Use the fixed source rendering function to recover every exact source token and the fixed grammar to accept or reject the full paragraph."
+    ],
+    "source_only_example": "Synthetic records (ROOT_A,F1),(ROOT_B,F2),(ROOT_C,F3) yield written (ROOT_A,F2),(ROOT_B,F1),(ROOT_C,F3); exchanging again returns the complete input. These are abstract source labels, not assignments to any Voynich form.",
+    "known_obligations": [
+      "The disjoint-alphabet seam is a substantive strong hypothesis; empty features allow apparent singleton groups but no arbitrary per-occurrence split.",
+      "Many native forms recur at multiple positions; parity is supplied by authentic complete paragraph order and is not inferred afresh to make examples fit. RF paragraph flags may be unscorable under1073; no default false flags.",
+      "Known GDT1276 four occupied pair cells cannot be explained with only one shared binary input. This construction carries two source feature inputs explicitly, so all four are allowed; it does not claim either input or meaning is observed.",
+      "The model may be immediately excluded by known form order under every disjoint unit partition. No broad implementation should precede that cheap existing-evidence review.",
+      "Swapping tails is not itself an explanation of their distributions. The independently supplied source grammar must predict whole passages and retained counterexamples; returning correct toy records proves only the involution."
+    ],
+    "first_falsifier": "First source-free/old-evidence review of whether any nontrivial fixed disjoint stem/feature unit partition is compatible with complete retained forms. If already excluded by an old theorem, mark this exact construction accordingly without another experiment. Only a surviving partition with independently motivated source morphology could justify fixed full-paragraph grammatical testing.",
+    "selection_note": "Low-priority raw alternative. No independent source morphology or reason for the scribal swap is currently supplied; no source corpus, reader or marker is selected. This is not a GDT1339 encoded-space/minim repair."
+  },
+  "predecessor_review": [
+    {
+      "id": "GDT1203",
+      "primary": "experiments/yolo/gdt1203_shifted_word_boundaries/REPORT.md",
+      "retained": "Fixed right-by-one source-character shift and source-frequency failure remain. This proposal changes source-level fields and uses involutive pairing, not a new shift amount/tolerance."
+    },
+    {
+      "id": "GDT1303",
+      "primary": "experiments/yolo/gdt1303_paired_coordinate_exchange/REPORT.md",
+      "retained": "Fixed two-letter/two-unit tables with preserved lengths remain excluded on the fixed source. Complete variable-length grammatical fields are different inputs; no source-capacity success follows."
+    },
+    {
+      "id": "GDT1276",
+      "primary": "experiments/yolo/gdt1276_fixed_pair_binary_state_bound/REPORT.md",
+      "retained": "Single common-bit contract remains false. Two separately transmitted source feature values are explicitly additional content, not hidden third state."
+    },
+    {
+      "id": "GDT1315",
+      "primary": "experiments/yolo/gdt1315_binary_local_renderer_capacity/REPORT.md",
+      "retained": "No implication for its fixed source-character triple/whole-form renderer; that failure remains."
+    },
+    {
+      "id": "GDT1326",
+      "primary": "experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md",
+      "retained": "Writer knows independently specified lexical and grammatical record boundaries, so is not reset prefix-only formatting. The known ol/oldy conflict remains for that formatter."
+    }
+  ],
+  "duplicate_screen": "Bounded proposal duplicate screen returned no same_declared_design;988/1303,1203,1276/1315 and1326 were read. This does not prove exhaustive novelty. The disjoint split is a strong outstanding native feasibility obligation and may already be constrained by old head/short-form evidence."
+}

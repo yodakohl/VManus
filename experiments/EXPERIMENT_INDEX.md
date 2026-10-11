@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1338**
-- Experiment-associated tracked files: **26,288** (2.4 GiB)
-- Structured GDT337+ experiments: **1003**
+- Experiments indexed: **1339**
+- Experiment-associated tracked files: **26,299** (2.4 GiB)
+- Structured GDT337+ experiments: **1004**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1340 | gdt1340_word_recency_rank_capacity | `CANONICAL_POSITIVE_RANK_EXCLUDED_ALL_EXPANDED_READINGS` | [report](../experiments/yolo/gdt1340_word_recency_rank_capacity/REPORT.md) | 11 | 51.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1339 | gdt1339_minim_stream_word_vocabulary | `FIXED_REFERENCE_VOCABULARY_EXCLUDED_ALL_MARKERS` | [report](../experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md) | 15 | 948.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT1338 | gdt1338_port_known_edge_countercases | `EXPANDED_SUBSET_RADIUS_AT_LEAST_TWO_ALL_READINGS` | [report](../experiments/yolo/gdt1338_port_known_edge_countercases/REPORT.md) | 13 | 51.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1337 | gdt1337_same_entry_writer_equivalence_correction | `EXPLANATION_SCOPE_CORRECTED` | [report](../experiments/yolo/gdt1337_two_port_single_discrepancy/artifacts/EXPLANATION_CORRECTION_20261011.json) | 16 | 115.6 KiB | 6 | STRUCTURED_YOLO |
