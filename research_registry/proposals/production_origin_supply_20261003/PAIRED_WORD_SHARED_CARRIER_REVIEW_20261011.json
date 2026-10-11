@@ -1,0 +1,59 @@
+{
+  "record_id": "GDT1331",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root independent raw-source/backward-DP validator; bounded source-free proof review",
+  "assessment_basis": "exhaustive_relaxed_three_head_carrier_and_BOTH_only_obligation",
+  "reason": "Unique relaxed head set cfh/cph/q in every reader forces identical source pairs for79.33–81.08% of retained groups under frozenIDEA999; not sufficient native compatibility or a general paired-word rejection.",
+  "blockers": [
+    {
+      "code": "forced_redundant_source_without_binding",
+      "detail": "No independently justified source with this many identical adjacent pairs; full carrier and LCS constraints not tested.",
+      "evidence": [
+        "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_source_or_changed_contract",
+        "change": "new_design",
+        "detail": "Independent redundant-source evidence or genuinely different predeclared writer; no retrospective role-table repair.",
+        "evidence": [
+          "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treat relaxed head set as an actual key",
+      "Pool readers",
+      "Call identical source obligation a manuscript translation",
+      "Change singleton roles after seeing result"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA000999",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1248",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1234",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md"
+      ]
+    }
+  ]
+}

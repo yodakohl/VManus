@@ -2,14 +2,14 @@
 Updated: 2026-10-11.
 
 ## Work
-Phase: fixed_test
+Phase: exploration
 Status: checkpoint
-Task: 944 routing corrected.
-Latest decision: Existing1210stop linked.
-Working files: 944 review.
-Assumptions: Scoped subcase.
-Resume: No unchanged942carrier work.
-Running: none.
+Task: 5h until11:54:21UTC.
+Latest decision: 1331equal pairs>=79%.
+Working files: gdt1331.
+Assumptions: fixed999;no meanings.
+Resume: publish1331;review new RAW.
+Running: root;bounded producer.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
@@ -21,9 +21,8 @@ No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
 No default Latin/phonetics;1058k/t open.
-Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
-transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
-reversible rendering are not confirmed meanings or sentence boundaries.
+Adjacency transfers across Currier/section/hand; extra direction only Currier.
+915known r/l transfer;916new pairsFAIL. Formal roles/reversibility≠meanings/sentence boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
 1076no follower capacity;1099one reprise. No meanings. Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
@@ -70,4 +69,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicdec924d8b.
+Publicbdb53b025.

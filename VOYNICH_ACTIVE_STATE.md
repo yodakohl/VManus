@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1331 paired-source carrier content cost
+
+FrozenIDEA999 singletonBOTH roles force identical source pairs for79.33–81.08% of retained groups; unique relaxed3head set cfh/cph/q in each reader. Necessary prefix compatibility only, no nativekey or wordmeaning. Without independent doubled-source evidence, no ordinary-prose decoding selected; no automaticcarrier repair. [Report](experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md).
+
 ## 2026-10-11 — IDEA998 ordinary alphabet sourced, boundary counter retained
 
 0481explicitlycounts23transposedplusordinaryalphabet=24; last2columnsareadditionalexamples. Ordinary-FIRSTplacementisnotexplicit. Thatcandidateyieldshunc ca->hxpf gfwitholdliteralcolumns,butafter24lettersfirstaversae->uwouldcontradictprinted e atposition25. Thus6letterprefixagreementdoesnotrecoverfullschedule. Threeboundednewhistoricalpages/twoinformedreaders; no nativeclockfit orfurtherautomaticscans. Old120pairs/r-sdeparturesretained. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_BOOK5_START_ASSESSMENT_20261011.json).

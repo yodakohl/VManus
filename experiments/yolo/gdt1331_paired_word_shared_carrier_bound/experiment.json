@@ -1,0 +1,142 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Necessary relaxed carrier bound only; no actual key, native source words, historical use or general paired-word exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1331_paired_word_shared_carrier_bound/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1331_paired_word_shared_carrier_bound/src/validate.py"
+  },
+  "created": "2026-10-11",
+  "dependencies": [
+    "GDT1248",
+    "GDT1234",
+    "GDT1233",
+    "GDT915"
+  ],
+  "experiment_id": "GDT1331",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PAIRED_WORD_SHARED_COLUMNS_RAW_20261011.json",
+      "sha256": "0447f31cd82a93db433d8c641d83568725a36cd3f16a8b7805e8db3127ebcc3d",
+      "role": "frozen source-only writer contract"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/METHOD.md",
+      "sha256": "25cdb8fac966914d6d2e2b84181d02228a79c5fc714bd09d9529961c28b9fdc7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/PREREGISTRATION.md",
+      "sha256": "25cdb8fac966914d6d2e2b84181d02228a79c5fc714bd09d9529961c28b9fdc7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/README.md",
+      "sha256": "8477f56020808063b644d5c5db2ceeac3eb5565826fdb756f5ac6031b7eb599d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/REPORT.md",
+      "sha256": "c689469a75822d15cfec5c370ba861a7fe5e6608cb8c0e89386e5644eba3fdde",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/artifacts/HEAD_SETS.json",
+      "sha256": "7aedecc1ce9356f9fb2dbb5dee8d417c05e1a05f613c8be898fa7a69148c5362",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/artifacts/MINIMUM_HEAD_FREE_TYPES.json",
+      "sha256": "125f5eb720129c9b3bf212663164869074167d7ea11425643aa0dfb2f21e95b6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/artifacts/README.md",
+      "sha256": "61807c88e68dcba16cc7dc7d284b7a125078edacf47864f89a5876c13bc5a04b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/artifacts/RESULT.json",
+      "sha256": "9a8d187f114858de961c950ddf287ddad952dc888b7cc34dc80ead06d3345742",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/artifacts/VALIDATION.json",
+      "sha256": "f25d16779b080a99e5b73422fb1effd6502da041d0c372517c91568f30feeffb",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/src/REGISTRATION_LOCK.json",
+      "sha256": "f78282b2c01d7064f43078b613d84fa403e747d26e360173854e46cf5b1d483a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/src/run.py",
+      "sha256": "0cb8c0a1b4a9bf7d8a14d8f1ba38c9ba6209d89b2a2ed1b4ffc998d609cd8720",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/src/validate.py",
+      "sha256": "057cf7e5bb0685c8ebb5f655c2048a7bd2e98b2024a71477c0e83a12b1648c70",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "What minimum identical-source-pair fraction follows from the frozen19BOTH-singleton/3head carrier under all global22unit bijections?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "paired_word_shared_carrier_bound",
+  "status": "SAME_SOURCE_PAIR_LOWER_BOUND_ONLY",
+  "title": "Paired-word shared carrier forces identical source pairs",
+  "updated": "2026-10-11",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1331_paired_word_shared_carrier_bound/artifacts/VALIDATION.json"
+  }
+}
