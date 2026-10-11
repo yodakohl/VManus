@@ -1,0 +1,67 @@
+{
+  "record_id": "GDT1326",
+  "scope": "structural",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root original-source-window validator; bounded source-free prefix proof review",
+  "assessment_basis": "same_page_nonterminal_prefix_vs_whole_extension",
+  "reason": "Fixed ol/oldypair found onf75r.12G006and.43G003in all3readings, each with original strict follower. Same reset prefix requires both stop and continue. Excludes only deterministic prefix-only outer-gap formatter under stated unit/group/stream premises.",
+  "blockers": [
+    {
+      "code": "same_prefix_conflicting_stop",
+      "detail": "No lookahead, previous-group/context/geometry input or varying reset state. Any amount of same-prefix memory leaves contradiction. Shortword is not a final flush under continuing same-line stream premise.",
+      "evidence": [
+        "experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_changed_binding_or_different_input_contract",
+        "change": "new_design",
+        "detail": "Independently supported different unit/gap/stream binding or genuinely different complete mechanism with its own falsifier. No automatic memory expansion or hidden reset.",
+        "evidence": [
+          "experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More states reading the same reset prefix",
+      "Treat short internal word as hidden messageend without evidence",
+      "Call this proof of semantic word boundaries",
+      "Apply to1234innerlettercodes",
+      "Assume lookahead was tested"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1234",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1248",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1196",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1203",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md"
+      ]
+    }
+  ]
+}

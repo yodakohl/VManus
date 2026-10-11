@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1326 reset prefix-only gap formatter
+
+Fixed ol/oldysame-page counterpair selected identically in allreadings: f75r.12G006 ol→cheey and.43G003oldy→qokain. A deterministic page-specific prefix-only formatter with identical reset after eachgap must stop and notstop at(o,l). Excluded under strict22unit/gap and continuing-line-stream premises;1576occurrence/follower joins independently verified. No general spacing, semantic wordhood or complexity inference; lookahead/carried context outside, not selected. [Report](experiments/yolo/gdt1326_reset_prefix_gap_rule/REPORT.md).
+
 ## 2026-10-11 — GDT1325 By/Bdychoice on excluded bases and leaves
 
 Capacity adequate, all3readings NOT_CONFIRMED: AUC ZL.463316 IT.573847 RF.501143; fixed conditionalp .7555/.1155/.502. TRAINodd-leaf/basehash0, TESTeven-leaf/basehash1; matched same-base/page ranking uses only invariant external endpoint units. ITpositive mean retained but permutationgate fails. Independent source/rational/pairwise check PASS. No y/dygrammar, meaning or free normalization is licensed; no automatic predictor repair. [Report](experiments/yolo/gdt1325_held_base_yd_context_choice/REPORT.md).
