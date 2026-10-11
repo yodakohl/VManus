@@ -1,0 +1,32 @@
+{
+  "status": "SOURCE_FREE_NECESSARY_TERMINAL_PROOF_NO_NATIVE_COUNT",
+  "record_id": "IDEA001012",
+  "raw": "research_registry/proposals/production_origin_supply_20261003/DEFAULT_VOWEL_DOUBLING_WRITER_RAW_20261011.json",
+  "raw_sha256": "859ff953099af888b2d1f0090ae51a41a48441e7269ccb80d84a288e6d25053a",
+  "hypothesis": "Exact registered writer; one complete source word per complete observed working-unit group; fixed bijective17consonant/5vowel mapping; no hidden END, clipping, omissions or postword decoration.",
+  "implication": "Every source word ending with a consonant C produces an output group whose final two COMPLETE working units are equal to key(C).",
+  "proof": [
+    "At sourcewordend a consonant has no following vowel. The mandatory encoder otherwise-branch emits key(C),key(C).",
+    "No subsequent source token is present, so those two units are exactly the output tail. The key is bijective but its value is irrelevant to equality.",
+    "Consequently the number of consonant-final source words is at most the number of corresponding output groups with equal final units. One-unit output groups cannot be consonant-final under this writer."
+  ],
+  "converse_counterexample": {
+    "source": [
+      "C1",
+      "V1",
+      "C1",
+      "V1"
+    ],
+    "output": [
+      "c1",
+      "c1"
+    ],
+    "source_final_class": "vowel",
+    "conclusion": "A doubled native ending does not establish a source coda or assign any native sound."
+  },
+  "population_condition": "For a frozen population of N complete emitted words, CODA_COUNT<=FINAL_DOUBLE_COUNT and CODA_SHARE<=FINAL_DOUBLE_COUNT/N. Do not replace the matching population with another sample or call an excluded/uncertain group non-double. Report exact eligible denominator and every exclusion.",
+  "optional_tighter_bound": "If all22native units are fixed and counted, actual coda-double tails use only the17unit images of consonants. Maximizing the sum of final-double counts over17units would sharpen a necessary ceiling. The unconditional bound requires no such optimization; no source alphabet or key is selected.",
+  "interpretation": "A low ceiling would impose a source coda-frequency obligation, not refute this arbitrary-source family or every human language. To reject a particular source hypothesis its tokenization/normalization and whole-word correspondence must be independently fixed.",
+  "old_scope_retained": "GDT1202 already bars the unchanged four fixed sourceword projections under one-form-per-word frequency conditions. This conditional native terminal obligation neither rescues those sources nor restarts their encoder tests.",
+  "work": "Root nominated the terminal implication before any newnativecensus. Producer checked only the exact rule and source-only counterexample; no source/native payload opened, noexperimentrun, no registeredrawbytesmodified."
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1341**
-- Experiment-associated tracked files: **26,330** (2.4 GiB)
-- Structured GDT337+ experiments: **1006**
+- Experiments indexed: **1342**
+- Experiment-associated tracked files: **26,345** (2.4 GiB)
+- Structured GDT337+ experiments: **1007**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1343 | GDT1343_default_vowel_terminal_capacity | `CONDITIONAL_TERMINAL_CODA_CAPACITY_BOUND` | [report](../experiments/yolo/gdt1343_default_vowel_terminal_capacity/REPORT.md) | 15 | 371.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT1342 | GDT1342_qoky_written_predecessor | `FIXED_PAGE_RULE_CONTRADICTED_ALL_READINGS` | [report](../experiments/yolo/gdt1342_qoky_written_predecessor/REPORT.md) | 16 | 1.5 MiB | 8 | STRUCTURED_YOLO |
 | GDT1341 | gdt1341_qotal_tal_page_reference | `FIXED_PAGE_RULE_CONTRADICTED_ALL_READINGS` | [report](../experiments/yolo/gdt1341_qotal_tal_page_reference/REPORT.md) | 15 | 85.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT1340 | gdt1340_word_recency_rank_capacity | `CANONICAL_POSITIVE_RANK_EXCLUDED_ALL_EXPANDED_READINGS` | [report](../experiments/yolo/gdt1340_word_recency_rank_capacity/REPORT.md) | 11 | 51.4 KiB | 6 | STRUCTURED_YOLO |

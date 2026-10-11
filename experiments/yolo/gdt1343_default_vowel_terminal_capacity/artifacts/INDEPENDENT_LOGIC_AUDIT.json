@@ -1,0 +1,35 @@
+{
+  "status": "NO_LOGICAL_FALSE_EXCLUSION_FOUND_IN_BOUNDED_REVIEW",
+  "reviewer": "separate closure_error_audit agent",
+  "scope": "Manual theorem, preregistration and implementation review. No native census replay, raw TSV query, source-corpus or phoneme-key fit; no native result counts consulted.",
+  "inspected_source_sha256": {
+    "experiments/yolo/gdt1343_default_vowel_terminal_capacity/PREREGISTRATION.md": "81ce563ad70b1dd1f0735dc6dbbf8018182f804e9f7986fcd6a279d924417adf",
+    "experiments/yolo/gdt1343_default_vowel_terminal_capacity/src/run.py": "2597277a25424b1c1e31cb07a1a40a9e1eecca56ff5322e5fffd3f296a1cb8e9",
+    "experiments/yolo/gdt1343_default_vowel_terminal_capacity/src/validate.py": "eeb342841b809f977b3c54f3f5df73899f16f6f4f62f34909fd9400180aa2168",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/src/run.py": "b1d1a89cae5a8603d4ded535860eefbfa1eff62b7b1b712f831fb75e37fd6150",
+    "experiments/yolo/gdt1342_qoky_written_predecessor/src/validate.py": "ba728d27a1483f23497c9fb4be1a78007d6d71bf58367470e3a900f83e826f38",
+    "research_registry/proposals/production_origin_supply_20261003/DEFAULT_VOWEL_DOUBLING_WRITER_RAW_20261011.json": "859ff953099af888b2d1f0090ae51a41a48441e7269ccb80d84a288e6d25053a"
+  },
+  "proof_checks": [
+    "For a source-word-final consonant C, no following vowel exists, so the final forward step is the bare-C branch emitting cc. Earlier steps cannot remove these final two units.",
+    "The implication is only source-final-C => equal final output units. C A C A under inherent vowel A also emits cc and ends in a vowel, so the converse fails.",
+    "For one fixed key only 17 working units may be consonant bodies. Summing the 17 largest strict terminal-double counts is a valid generous maximum over all such subsets. The complement formula D minus the five smallest counts is identical.",
+    "M/N bounds the consonant-final fraction only among strict complete groups under the fixed one-source-word/one-output-group and working-unit contract.",
+    "(M+U)/(N+U) is conservative if every excluded stored raw group is one source word: at most M strict words and at most all U excluded words can be consonant-final. The unknown groups need not be jointly realizable, so this is an upper bound rather than an achievable fit. Different actual source-word counts invalidate this extended denominator."
+  ],
+  "implementation_checks": [
+    "Primary tokenizer takes complete longest working units; validator independently matches fixed full units and rejects any unmatched raw content. The specified inventory has no alternate complete segmentation from its shorter s branch because h is not a standalone unit.",
+    "Double classification compares the last two complete working units, not the last two ASCII characters; one-unit groups are not counted.",
+    "Both seam and parse failures are excluded from strict N and retained in U with separate reason counts. No uncertain form is normalized or silently dropped from total accounting.",
+    "GDT1342 source-builder code filters kind P after a selector-first guarded query; its source validator reconstructs that complete P projection. GDT1343 reuses the pinned SOURCE bytes and validator checks the 179-selector allowlist and sealed-page exclusions.",
+    "Primary checks unique input IDs; validator compares every saved classification and all witness records and uses the independent complement form of the 17-body arithmetic.",
+    "No source-language threshold, specific consonant/vowel key or positive model-fit decision is inferred by the scripts."
+  ],
+  "actual_objections": [],
+  "limits": [
+    "This review does not independently recollate original manuscript pixels or prove transcription, word boundaries or phonetic units.",
+    "The frozen validator checks the stored converse fixture but does not independently reconstruct the entire source-free encoding enumeration; the terminal theorem was reviewed directly here.",
+    "No claim that a low capacity excludes a language or all default-vowel constructions is justified. It constrains only the declared doubling rule and source-word/group binding.",
+    "No assertion here that the separately running census or executable validator has completed."
+  ]
+}
