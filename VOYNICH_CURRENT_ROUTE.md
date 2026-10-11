@@ -3,12 +3,12 @@ Updated: 2026-10-11.
 
 ## Work
 Phase: exploration
-Status: checkpoint
-Task: 5h done; translation open.
-Latest decision: 1338oldmol blocks extension.
-Working files: 1338;HAND_WRITER.
-Assumptions: 0meanings;no nativewriter.
-Resume: native-informed RAW review;no testchosen.
+Status: parked
+Task: translation; meaning gap.
+Latest decision: impasse after3no-progress turns.
+Working files: HAND_WRITER;1129/1137.
+Assumptions: 0meanings;goal unachieved.
+Resume: new source/key with discriminator.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public8cd86850d.
+Public76104f19c.
