@@ -1,0 +1,83 @@
+{
+  "status": "COLUMN_REPEAT_OBLIGATION_NOT_POOL_EXCLUSION",
+  "decision_note": {
+    "question": "Can the old repeated-codeword obstruction be applied to successive whole-cover-word columns?",
+    "smallest_work": "A direct set-membership proof and one complete source-free countermodel; reuse old primary decisions, no manuscript or new historical scan.",
+    "consequence": "Retain a concrete column-overlap obligation instead of falsely importing the disjoint-pool exclusion. This does not bind actual source tables or open native scoring.",
+    "budget": "03:25\u201303:35UTC11October2026 for proof, small independent check, documentation and publication; preceding bounded selection read existing sources only."
+  },
+  "hypothetical_contract": [
+    "A fixed finite cyclic sequence of columns C_j, known starting phase, advances once per encoded source character.",
+    "Each column maps each source character injectively to one complete visible packet. Tables may share packet spellings across columns.",
+    "One emitted packet per step, no nulls/skips/resets within the window. These are hypothetical local premises, not asserted as the fullBookIhistorical rule."
+  ],
+  "necessary_condition": {
+    "formula": "A repeated whole packet w for r steps requires w in intersection(C_(j+t) for t=0..r-1), with indices modulo the fixed period.",
+    "unknown_phase": "If the start phase is unknown, at least one phase j must satisfy the entire intersection. Do not fit a different arbitrary phase per token.",
+    "consequence": "Pairwise-disjoint consecutive column inventories cannot produce even ww; a triple needs one packet shared by three consecutive phase positions. Phase values can repeat if the period is1or2.",
+    "not_implied": "The rdecoded source characters need not be equal: the same packet can encode different characters in different columns."
+  },
+  "countermodel": {
+    "source_alphabet": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "visible_packets": [
+      "W0",
+      "W1",
+      "W2",
+      "W3"
+    ],
+    "columns_source_to_packet": [
+      [
+        "W0",
+        "W1",
+        "W2",
+        "W3"
+      ],
+      [
+        "W1",
+        "W0",
+        "W2",
+        "W3"
+      ],
+      [
+        "W1",
+        "W2",
+        "W0",
+        "W3"
+      ]
+    ],
+    "source_domain": "All finite strings over four abstract source symbols; the supplied initial phase and finite message framing are shared. This is a mathematical countermodel, not a historical or Voynich writer.",
+    "writer": "For source position i, emit the table entry for that source symbol in column(initial_phase+i)mod3. Separate whole packets visibly.",
+    "reader": "At each position invert that column. Every column is bijective, so the complete source is recovered.",
+    "witness_source": [
+      0,
+      1,
+      2
+    ],
+    "witness_initial_phase": 0,
+    "witness_output": [
+      "W0",
+      "W0",
+      "W0"
+    ]
+  },
+  "source_distinctions": [
+    "GDT857uses disjoint fixed plaintext pools with each member drawn once before refill. That contract is unchanged and its native contradiction stands.",
+    "A global per-message-character column clock differs from per-plaintext-unit pool exhaustion; the countermodel violates857fixed-pool premises, not857logic.",
+    "BookI925has supplied null phrases, permitted restarts and some multiword table entries. Its physical word positions cannot be equated automatically with single column advances. Its printed first-period discrepancy remains.",
+    "The separately read BookIIIinstruction advances through successive alphabets and BookIVhas a direct in-word letter rule. Do not transfer BookInulls into BookIIIor impose a column clock on BookIVwithout source evidence.",
+    "The countermodel is not a transcription or reconstruction of actual Trithemius tables. No claim that their required intersections are populated or empty."
+  ],
+  "decision": "Before a repetition test on a concrete table-clock channel, bind actual complete column inventories, packet boundaries and advance/reset conventions, then check the stated intersection condition. Do not count native triples again or run a periodic decoder from this note. This is a method-scope result, not new manuscript evidence or an unchanged missing-input census.",
+  "primary_hashes": {
+    "experiments/yolo/gdt857_cyclic_inventory_triple_bound/METHOD.md": "0e7157553d8744bcf4eb5e32885318f33abdaf8fab400171f1d7619a03405a1e",
+    "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md": "05af605f6a2088821e93d0181ac2ee4402d48650ad0543c0bce5045895195c80",
+    "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_SOURCE_COLLATION_20261010.json": "3a8b803fa207c1cefe51c4a57d0f488cdc90ef990822f78dffab6ca8ddd390de",
+    "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json": "1464cbbad5b064b31adf154e78a2f65f341c1e73ad86a8c6b83c43e2415ff747",
+    "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIXED_POSITION_ASSESSMENT_20261011.json": "688ca759cf3b59e5d679218e821252b5be6836c701fcccce73ad2030a41134f9"
+  }
+}

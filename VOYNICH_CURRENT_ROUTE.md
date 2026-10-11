@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 994 checked.
-Latest decision: Source only.
-Working files: IDEA994.
-Assumptions: Source-only comparator.
-Resume: New bound construction.
+Task: Column scope.
+Latest decision: Need overlap binding.
+Working files: IDEA925.
+Assumptions: Fixed clock.
+Resume: Bind actual tables first.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicdf30257e3.
+Public3b731bf43.

@@ -10457,3 +10457,7 @@ Complete invented absolute word-rank writer retained; preimplementation corollar
 ## 2026-10-11 — IDEA994 historical invented-word payload rule
 
 Primary1518ClavisIII/IVdistinction manually verified: BookIVuses the second letter of each invented word; experienced writers may compose without the book. All13author words yield cauehuncuirum. Tight busarat|uimalo is supported by separate busarat/vimalo table entries; u/v normalization and visible author plaintext disclosed. Seven public-domain scans and integrity/extraction PASS retained. Historical comparator only, no native fit: direct second-working-unit binding faces old1299one-unit groups. No exception/position repair. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIXED_POSITION_ASSESSMENT_20261011.json). Earlier925BookIresults unchanged.
+
+## 2026-10-11 — advancing cover-word columns: repeat obligation
+
+For an explicitly fixed one-packet-per-step column clock, an rfold packet repetition requires membership in rconsecutive column inventories; source letters need not repeat. A complete3column countermodel emits W0/W0/W0 for abstract0/1/2 and passes1023finite roundtrips. This is a source-free scope check, not a new manuscript observation or reconstruction of historical tables.857fixed disjoint-pool exclusion,925source discrepancies/null/reset limits and994short-group limit remain. [Note](research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json). No native rerun or decoder selected.

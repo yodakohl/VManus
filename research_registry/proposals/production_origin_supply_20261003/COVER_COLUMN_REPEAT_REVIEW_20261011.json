@@ -1,0 +1,69 @@
+{
+  "record_id": "IDEA000925",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root scoped primary-contract comparison and complete finite countermodel",
+  "assessment_basis": "retained_source_limits_plus_distinct_column_repeat_obligation",
+  "reason": "All previous historical positives and first-period discrepancies retained. For a separately fixed one-packet-per-column clock, a repeated packet must belong to consecutive column intersections but can decode to distinct letters. A complete3column countermodel verifies this;857disjoint-pool failure does not exclude such clocks. No actual table-overlap census or native scoring.",
+  "blockers": [
+    {
+      "code": "source_example_not_error_free_gold",
+      "detail": "No full first-period recovery or source emendation. Discrepancy cause unestablished; cell6reading and cell7abbreviation qualify claims.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json"
+      ]
+    },
+    {
+      "code": "full_channel_and_native_binding_missing",
+      "detail": "One table entry need not be one orthographic word; supplied nulls/restarts and native representation must be bound before any native test.1518doesnotestablishVoynichprovenance.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json"
+      ]
+    },
+    {
+      "code": "column_repeat_test_requires_bound_inventories",
+      "detail": "Need actual column inventories, packet units and phase/reset contract; cannot infer disjointness or identical plaintext from repeated output alone. BookI/III/IVrules remain distinct.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "complete_source_bound_channel",
+        "change": "new_binding",
+        "detail": "Independently justified complete key, parsing and source-critical handling plus native representation before target scoring; no arbitrary corrections or resets.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_20261010.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treat earlierCAUEprefix as fullpassagevalidation",
+      "Silently replace celis with celestibus",
+      "Infer printererror as established cause",
+      "Assume every cell is one written word",
+      "Declare a Voynichdecipherment",
+      "Transfer857disjoint-pool exclusion to any advancing-column table",
+      "Use a constructed countermodel as historical-table evidence"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT857",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json"
+      ]
+    },
+    {
+      "target": "IDEA000994",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/COVER_COLUMN_REPEAT_SCOPE_20261011.json"
+      ]
+    }
+  ]
+}
