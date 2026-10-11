@@ -1,0 +1,1 @@
+EVENTS retains eligible groups and deterministic split; MODEL exact rational fitted probabilities; HELD matched cells, rational scores and ranks; NULL exact integer aggregate scores with denominators in RESULT. VALIDATION checks source and numerical fidelity.

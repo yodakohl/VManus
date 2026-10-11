@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1325 By/Bdychoice on excluded bases and leaves
+
+Capacity adequate, all3readings NOT_CONFIRMED: AUC ZL.463316 IT.573847 RF.501143; fixed conditionalp .7555/.1155/.502. TRAINodd-leaf/basehash0, TESTeven-leaf/basehash1; matched same-base/page ranking uses only invariant external endpoint units. ITpositive mean retained but permutationgate fails. Independent source/rational/pairwise check PASS. No y/dygrammar, meaning or free normalization is licensed; no automatic predictor repair. [Report](experiments/yolo/gdt1325_held_base_yd_context_choice/REPORT.md).
+
 ## 2026-10-11 — actual first-period table intersections
 
 BookIcolumns1–10are now collated240cells;144new cells read by root and a second source reviewer. Exact whole-cell vitam occurs4z/7a with different payload letters;6aomnibus also occurs inside a later nullphrase. All9adjacent cell intersections and all adjacent equal surface-word pairs/triples are empty for the ordinary first-period program, including supplied nulls and5multiword cells, across8reading/normalization cases. Independent local-window verification PASS. No wholebook/native conclusion, no first-period author-example repair. [Assessment](research_registry/proposals/production_origin_supply_20261003/TRITHEMIUS_FIRST_PERIOD_OVERLAP_20261011.json).

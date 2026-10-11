@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1323**
-- Experiment-associated tracked files: **26,074** (2.3 GiB)
-- Structured GDT337+ experiments: **988**
+- Experiments indexed: **1324**
+- Experiment-associated tracked files: **26,097** (2.3 GiB)
+- Structured GDT337+ experiments: **989**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1325 | gdt1325_held_base_yd_context_choice | `NO_COMMON_HELD_BASE_CHOICE_TRANSFER` | [report](../experiments/yolo/gdt1325_held_base_yd_context_choice/REPORT.md) | 23 | 325.3 KiB | 8 | STRUCTURED_YOLO |
 | GDT1324 | gdt1324_modular_exact_key_recovery | `TOY_DISTINGUISHABILITY_WITH_PRIOR_DEPENDENT_RECOVERY_LIMITS` | [report](../experiments/yolo/gdt1324_modular_exact_key_recovery/REPORT.md) | 12 | 89.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT1323 | gdt1323_anagram_variant_neighbor_choice | `ANAGRAM_CHOICE_CAPACITY_STOP_ALL_READINGS` | [report](../experiments/yolo/gdt1323_anagram_variant_neighbor_choice/REPORT.md) | 17 | 597.5 KiB | 6 | STRUCTURED_YOLO |
 | GDT1322 | gdt1322_modular_packet_choice_likelihood | `NORMALIZED_CHANNEL_AND_RANKING_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt1322_modular_packet_choice_likelihood/REPORT.md) | 14 | 160.7 KiB | 5 | STRUCTURED_YOLO |

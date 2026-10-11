@@ -2,13 +2,13 @@
 Updated: 2026-10-11.
 
 ## Work
-Phase: exploration
+Phase: fixed_test
 Status: checkpoint
-Task: First10columns.
-Latest decision: No adjacent repeat.
-Working files: IDEA925.
-Assumptions: First period only.
-Resume: New construction.
+Task: 1325 closed.
+Latest decision: Transfer unconfirmed.
+Working files: gdt1325.
+Assumptions: Formal tags only.
+Resume: New mechanism.
 Running: none.
 
 ## Structural baseline
@@ -19,7 +19,7 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 No proven parser/alphabet;1321blocksFAIL.
 1310aliases;1311gap open;1314cfh fits.
 1317unseenFAIL not mechanism rejection.
-1318edit transfer FAIL;1319active I/O constant.
+1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
 No default Latin/phonetics;1058k/t open.
 Adjacency transfers across Currier/section/hand; extra direction only across Currier. Known r/l families
 transfer, new stem-pair grammar does not (GDT915/916). Formal roles and
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public289c43b2d.
+Publicf379012bf.
