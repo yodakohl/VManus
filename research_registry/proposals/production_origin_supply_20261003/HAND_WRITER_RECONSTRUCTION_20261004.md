@@ -10525,3 +10525,21 @@ GDT1334uses source-free pairrefinement/run decomposition fixedbeforedata to chec
 ## 2026-10-11 — modular nuisance likelihood scope
 
 1335confirms unknownfreeqprofiling separately fromwordbagconditioning; the latter needskey-dependent histogramnormalization andisIIDflat. Small exactsourcefreecheck, no keyrecovery or nativebank/sourcebinding; no large decoderselected.1322/24preserved. See experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md. Five-hourblockcontinues.
+
+## 2026-10-11 — user challenges repeated directions
+
+The user explicitly challenged whether the continuing work repeats known ideas.
+Root retrieved IDEA975 and its actual AMBIGUITY_SET_MINIM_MANUAL_REVIEW_20261007.json,
+not merely search hits. The newly announced minim-return has no demonstrated
+new native binding or discriminating consequence and is NOT selected or executed.
+1333 supplied a specific immediate-flank residual comparison;1334 tested a new
+canonical cost rule within the existing allography family;1335 was a source-free
+likelihood clarification, not a manuscript discovery. Technical differences alone
+are insufficient to prioritize another experiment. The next selection must state
+which genuinely open research decision changes, using existing primary/review
+tools; no new tracker or unchanged missing-input audit. Original five-hour request
+remains active; the user's question did not cancel it.
+
+## 2026-10-11 — native-informed echo nomination stops cheaply
+
+GDT1336 finds0inner-run opportunities under1005strictTTdynomination; all4/4/3candidates are familiar ololdy/dydydy. No copytest or relaxedtail follows. This is an opportunity check, not decipherment. User clarified the earlier repetition remark was a question, not an instruction; continuation remains authorized. Producer now works from native structural positives rather than another toy key. See experiments/yolo/gdt1336_echo_run_nomination/REPORT.md.

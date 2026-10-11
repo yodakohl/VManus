@@ -5,11 +5,11 @@ Updated: 2026-10-11.
 Phase: exploration
 Status: checkpoint
 Task: 5h until11:54:21UTC.
-Latest decision: 1335profile!=conditional.
-Working files: gdt1335.
-Assumptions: fixed bank/source law.
-Resume: publish1335;selection review.
-Running: root.
+Latest decision: 1336 no inner-run cases.
+Working files: HAND_WRITER;1336.
+Assumptions: exact failure!=robust ban.
+Resume: assess1334 sensitivity value.
+Running: root;bounded producer.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
@@ -69,4 +69,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publica5f10688f.
+Public2c5ba77da.
