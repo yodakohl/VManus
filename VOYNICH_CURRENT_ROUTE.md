@@ -5,11 +5,11 @@ Updated: 2026-10-11.
 Phase: exploration
 Status: checkpoint
 Task: 5h until11:54:21UTC.
-Latest decision: 1332 global claim corrected.
-Working files: 1332erratum;1334proof.
-Assumptions: exact failure!=robust ban.
-Resume: publishcorrection;1334sensitivity.
-Running: root;bounded producer.
+Latest decision: 1337radius1;21bodies only.
+Working files: 1337;HAND_WRITER.
+Assumptions: aman retained;qmnotglobal.
+Resume: publish;native binding selection.
+Running: root.
 
 ## Structural baseline
 Spaces: hierarchy; parts build unseen forms. Composition is directed;
@@ -69,4 +69,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public8ceda4aee.
+Publiccc542cfe5.

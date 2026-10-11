@@ -10547,3 +10547,7 @@ GDT1336 finds0inner-run opportunities under1005strictTTdynomination; all4/4/3can
 ## 2026-10-11 — GDT1332 global-minimum wording corrected
 
 The earlier dossier sentence calling7–8%global is WRONG. Original stored enumeration/table give a/o/y:IT633/12299,RF687/11102,ZL493/10254with10229/8219/9078residuals. a/e/o7–8% is instead bestatfixed10%budget, using477/417/343residuals. No count, frontier or protocolchanged; previous assessedreviewpreserved andappend-onlycorrection added. Source-free1334robustness planning paused to publishthisfix. See experiments/yolo/gdt1332_paired_carrier_residual_frontier/ERRATUM_20261011.md.
+
+## 2026-10-11 — exact two-port sensitivity completed
+
+1337radius1allreadings, onlyamanf111v.33; m/qcommon,RFextra cfh/m,cph/m. Completeone-residualgraphstar => everyactivepartition21bodies; maxminority<1%. Original1334exactfailurepreserved, noerrordiagnosis. PostresultprofilesqL/mPblockunchangedglobalqmextension. Fullsource/Z3/backward-DP526candidatechecksand12portwitnessesvalidated. No2+errorsearchor decoderselected. See experiments/yolo/gdt1337_two_port_single_discrepancy/REPORT.md.

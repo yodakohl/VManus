@@ -1,3 +1,6 @@
+## 2026-10-11 — GDT1337 exact allography exclusion is one-occurrence fragile
+
+The unchanged1334family has radius1in everyreading: only aman f111v.33 remains unexplained. Common m/q witnesses; RFalso cfh/m,cph/m. Complete star graph implies exactly21observedbodyclasses for any nontrivial one-residual writer; maxminoritysupport<1%. Noerror/meaning/physicalaliasidentified. Existing standaloneqlabel/mprose prevents unchangedglobalq/mextension. [Report](experiments/yolo/gdt1337_two_port_single_discrepancy/REPORT.md).
 ## 2026-10-11 — GDT1334 canonical two-port aliases excluded
 
 Fixed atomic22-unit minimum-join writer: all nontrivial observed alias partitions excluded by pairrefinement;666literal pair conflicts and324remainingportcases UNSAT. No native SAT writer, phonemes, image binding or general handwriting rejection. Source-only1001keeps its missingphysicalcarrier; no extra ports/costs selected. [Report](experiments/yolo/gdt1334_canonical_two_port_alias_capacity/REPORT.md).

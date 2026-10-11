@@ -1,0 +1,60 @@
+{
+  "title": "Source-free review: exact one-whole-group discrepancy radius for the unchanged1334port writer",
+  "status": "PREIMPLEMENTATION_PROOF_AND_SCOPE_NO_NEW_COUNTS_NO_RAW_IDEA",
+  "question": "Does any unchanged canonical two-port writer accept every original strict group except at most one occurrence, while BOTHmembers of at least one observed alias pair still occur among accepted groups? The single-occurrence question measures exact fragility, not a proposed acceptable error rate or corrected text.",
+  "unchanged_model": "Use1334's fixed22units, global entry/exit bits, at most one glyph per body/port pair, one body per unit, unchanged word boundaries, additive adjacent mismatch cost, free outer word edges and fixed portcode lexicographic tie. No new ports, costs, contexts, aliases, units or correction operation are fitted. A discrepant group remains stored unchanged but contributes no correctness constraint to that hypothetical writer.",
+  "word_level_weighting": {
+    "determinism": "With no page/position inputs, identical complete unit strings are accepted or rejected together by any fixed writer. A word TYPE with foccurrences therefore costs fwhole-group discrepancies if it fails, irrespective of how many of its centers or runs fail.",
+    "hapax_necessity": "A solution with at most one discrepant occurrence can differ only on a whole TYPE occurring exactly once in this SAME1334panel. Deleting one occurrence of a repeated type leaves its identical constraints active and cannot cure its failure. Do not substitute broader word-profile counts for these panel frequencies.",
+    "group_not_clause": "Removing a candidate whole group removes ALL constraints it supplies, not just a convenient failed center/run. A deduplicated clause disappears only if its ENTIREsupport in remaining groups disappears. Shared clauses must stay.",
+    "no_neighbor_splicing": "This word-local rule has no cross-word state. Marking one group discrepant does not join its neighbors, alter other words' BOS/EOSor create new within-word contexts."
+  },
+  "refinement_after_discrepancy": {
+    "premise": "Suppose a larger body partition is canonical on an accepted subset with at most one residual, and some body has two distinct glyphs x/y actually present in that accepted subset.",
+    "proof": "Keep x/y together and make every other glyph a singleton body, retaining all ports and the same tie order. For every accepted word, the permitted rendering set shrinks while retaining its observed rendering. Its old canonical optimum remains canonical. The refined writer may accept additional words but cannot lose an old accepted word. Both x/y remain observed among accepted groups.",
+    "consequence": "Existence of ANY genuinely used nontrivial partition with discrepancy<=1implies an accepted-both-variants single-pair witness with discrepancy<=1. Exhausting all231pairs and12distinct ordered pair-port assignments is therefore sufficient for a negative conclusion over that family.",
+    "positive_limit": "A SATsingle pair is not a joint solution for several pairs. Refinement changes the hypothetical source-body alphabet, so this is an existence argument, not preservation of a known translation."
+  },
+  "phase_a_visible_context_filter": {
+    "sets": "For each observed literal flank context f=(left,right), including word edges, let X_f be the set of whole word types having an x-centered occurrence in f, and Y_f the analogous set for y. Retain every support, not only the first saved witness. Only contexts with both sides nonempty impose this conflict.",
+    "single_deletion_condition": "Deleting one hapax h resolves a particular shared-flank conflict only if X_f is contained in{h}OR Y_f is contained in{h}. Thus its candidate set is the hapaxes satisfying that condition; intersect these candidate sets across ALLshared-flank conflicts. Each individual context permits at most two such types. Empty intersection proves no<=1solution for this pair, independently of ports.",
+    "self_conflict": "If one hapax word contains both x- and y-centered copies of the same context, deleting that word can remove both sides. This case must not be confused with two separately required deletions.",
+    "coverage": "Pairs rejected by1334PhaseA cannot simply be excluded again: their contradiction may depend on precisely one removable hapax. Pairs with no shared-flank conflict impose no candidate restriction from this phase and require a run-CNFfilter.",
+    "shortcut_lower_bound": "Two whole-word-disjoint necessary conflict witnesses already give discrepancy>=2. A witness requiring deletion of a repeated word type also cannot be cured at one occurrence. These are lower bounds, not a full minimum error calculation."
+  },
+  "unsat_core_filter_and_exact_check": {
+    "core_logic": "For a pair/port branch known UNSAT, removing at most one group must break every valid UNSATcore. One core therefore restricts candidates; further cores can intersect that candidate set. Inclusion-minimal cores are not minimum-discrepancy certificates.",
+    "deduplicated_clause_version": "For a DATAclause C, let S_C be its full NONEMPTYset of supporting word types. A hapax h can remove C only when S_C={h}. For a chosen UNSATcoreU, candidate deletions are the union of these removable hapax supports over data clauses C in U. A candidate outside this union cannot remove any core data clause and cannot repair the branch. Fixed port assignments and other structural axioms are immutable, never removable empty-support clauses. Using all hapax supports without the sole-support condition is only a looser filter; exact deletion must still retain shared clauses and structural axioms.",
+    "group_assumption_version": "If a solver instead returns a core of activated WORD-group assumptions, the removable hapaxes must lie in that group core. This is also a sound necessary filter, but does not dispense with complete clause-provenance handling when a word is removed.",
+    "empty_candidates": "No candidate hapax in the necessary intersection/union gives a valid<=1UNSATconclusion for the branch. Missing or incomplete support metadata does not justify that conclusion.",
+    "exact_test": "For every remaining hapax candidate h, rebuild or deactivate constraints exactly as if only hwere unscored, retaining every data clause with any other supporting type and every structural axiom. Run the unchanged pair/port2SATfeasibility check. PhaseA-derived candidates still need this exact full run check, since the visible-flank condition is only necessary.",
+    "activity_filter": "Before accepting a witness require at least one accepted group containing x and at least one containing y. If removing h eliminates all occurrences of one member, the result is a dead alternative/identity-like witness and is NOTa solution to the stated used-alias question.",
+    "forward_validation": "For any candidate SATport assignment, run the unchanged canonical full-word verifier on EVERYoriginal unique group and weight failure by original occurrence count. This checks actual discrepancy<=1and verifies both accepted variants.1334's existing zero-residual exclusion supplies the lower bound1; a validated one-residual used-alias witness would therefore establish the exact minimum1for that reader.",
+    "negative_and_timeout": "All pairs/port branches/candidate removals must be covered by sound filters or exact checks for a no<=1conclusion. Timeouts, unexplored candidates or absent support provenance remain UNKNOWN. No generic MaxSATor larger discrepancy frontier is required for this bounded question."
+  },
+  "why_the_activity_condition_matters": {
+    "trivial_upper_construction": "Without accepted-both-variants, choose x=LOW/LOW and y=HIGH/LOW, with every other glyph's exitLOW. At every occurrence of their common body, xbeats yor ties with the smaller code, including a free word start. Every word avoiding yis canonical, while every y-bearing word fails. This gives a superficial upper bound by the groups containing y, but uses yNEVERin accepted output. It does not exhibit genuine allographic use.",
+    "reporting": "For each real witness retain the accepted groups containing x, containing y, their overlap/union and their leaf supports. Report min(Nx_accept,Ny_accept)/N_original as a descriptive minority-spelling mass, not fraction translated or explained. The prospective screen can classify ALLfeasible pair/hapax cases and report the exact maximum of that quantity at discrepancy1, rather than stopping at the first fragile witness. This does not declare an acceptable error percentage.",
+    "complete_one_residual_maximum": "After1334's zero-discrepancy exclusion, a validated model satisfying every word except candidate h must actually fail h; otherwise it would contradict the old complete result. Accepted Nx and Ny are consequently their original group-occurrence counts minus the0/1indicator that hcontains the respective glyph. For a fixed(pair,h), minority activity is therefore independent of the chosen satisfying port assignment. All12port branches still matter for deciding feasibility, but one validated SATwitness establishes that branch; the maximum is over every feasible pair/hcase after all sound candidate filters. Retain all ties. Do not extend to2+discrepancies or infer that compatible pairs compose.",
+    "partition_limit": "Small activity of every single-pair witness does not automatically bound the aggregate activity of a larger multi-alias partition: refinement can discard other active classes. Do not call a per-pair statistic a universal explained-text bound. Conversely no valid active pair at<=1does exclude every active nontrivial partition at<=1by the refinement proof."
+  },
+  "scientific_decision": [
+    "A validated one-occurrence witness would show that the exact1334exclusion has radius1, conditional on the same data and model premises. It does not diagnose that occurrence as an error, authorize deletion, make a port interpretation physical, or produce a meaning.",
+    "If all<=1candidates fail, the minimum discrepancy is at least2under this used-alias contract. This is only a small robustness increment; it does not establish tolerance to any independently realistic noise process or justify an automatic higher-budget search.",
+    "If only very rarely used pairs survive at1, retain that restriction separately from the exact radius. A nearly identity-like exceptional pair is not an account of broad productive word construction.",
+    "All original groups,1334failure and any discrepancy witnesses remain. No fitted exception budget is promoted to an error model and no failed writer is repaired."
+  ],
+  "reviewed_sources": [
+    "VOYNICH_CURRENT_ROUTE.md",
+    "experiments/yolo/gdt1334_canonical_two_port_alias_capacity/METHOD.md",
+    "experiments/yolo/gdt1334_canonical_two_port_alias_capacity/REPORT.md",
+    "experiments/yolo/gdt1262_prefix26_exception_radius/REPORT.md",
+    "experiments/yolo/gdt1332_paired_carrier_residual_frontier/REPORT.md"
+  ],
+  "exposure_and_timing": {
+    "started_utc": "2026-10-11 10:31:55 UTC",
+    "scope": "Source-free reasoning from the explicitly permitted existing primary reports, which include published native illustrations and aggregate results. No new native cache, image, payload, program execution or count was accessed. This is not independent blinded empirical validation.",
+    "separate_report_issue": "The1332report read exposed a mismatch between its global-minimum table and prose. The reviewer reported the textual inconsistency without opening payloads; root independently confirmed and is correcting its scope. This note does not recalculate1332or use a corrected empirical outcome as a new1334input.",
+    "persistence": "Written at root's request before any newly selected one-residual computation. No RAWcard, ledger, route edit, error allowance or experiment is created by this note."
+  }
+}

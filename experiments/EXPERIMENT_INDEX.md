@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1335**
-- Experiment-associated tracked files: **26,244** (2.4 GiB)
-- Structured GDT337+ experiments: **1000**
+- Experiments indexed: **1336**
+- Experiment-associated tracked files: **26,259** (2.4 GiB)
+- Structured GDT337+ experiments: **1001**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1337 | gdt1337_two_port_single_discrepancy | `EXACT_USED_ALIAS_RADIUS_ONE_ALL_READINGS` | [report](../experiments/yolo/gdt1337_two_port_single_discrepancy/REPORT.md) | 15 | 112.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1336 | gdt1336_echo_run_nomination | `NO_HOMOLOGOUS_INNER_RUN_OPPORTUNITY` | [report](../experiments/yolo/gdt1336_echo_run_nomination/REPORT.md) | 12 | 30.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1335 | gdt1335_modular_unknown_emission_profile | `PROFILE_AND_BAG_CONDITIONING_DISTINCT` | [report](../experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md) | 12 | 169.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1334 | gdt1334_canonical_two_port_alias_capacity | `NONTRIVIAL_TWO_PORT_ALIAS_FAMILY_EXCLUDED` | [report](../experiments/yolo/gdt1334_canonical_two_port_alias_capacity/REPORT.md) | 18 | 211.7 KiB | 6 | STRUCTURED_YOLO |
