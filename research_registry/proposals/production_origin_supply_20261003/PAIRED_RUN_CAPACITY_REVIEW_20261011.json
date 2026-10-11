@@ -1,0 +1,80 @@
+{
+  "record_id": "GDT1329",
+  "scope": "structural",
+  "verdict": "inconclusive",
+  "reviewer": "root independent original-source cell validator",
+  "assessment_basis": "necessary_matched_two_slot_capacity; late predecessor review disclosed in report",
+  "reason": "Only7/5/6eligible cells with30/20/27occurrences on4/2/4leaves IT/RF/ZL; all three20/100/10nominal gates fail. No dependence score/permutation performed.1328geometric failure unchanged.",
+  "blockers": [
+    {
+      "code": "matched_two_run_capacity_shortfall",
+      "detail": "Exact page/fullcollapsedword, exactly2e/i runs, n>=3and both marginal lengths vary. Upper bound on statistic-mobile cells, not evidence of independence.",
+      "evidence": [
+        "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "id": "independent_matched_data_or_different_contract",
+        "change": "new_design",
+        "detail": "Independent added observations creating matched variation, or a genuinely different justified discriminating contract. No automatic pooling or relaxed thresholds.",
+        "evidence": [
+          "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Count1328single-slot cells as two-slot evidence",
+      "Pool readers/pages",
+      "Treat no capacity as independence",
+      "Reduce thresholds after observing counts"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT160",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1320",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1328",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT849",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT854",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1254",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

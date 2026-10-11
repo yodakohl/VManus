@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1329",
+  "slug": "paired_run_capacity",
+  "title": "Same-page exact-skeleton capacity for joint e/i run choice",
+  "question": "Are there enough repeated same-page exact skeletons with two varying internal run slots for a controlled joint-choice comparison?",
+  "status": "PAIRED_RUN_CAPACITY_STOP_ALL_READINGS",
+  "created": "2026-10-11",
+  "updated": "2026-10-11",
+  "dependencies": [
+    "GDT160",
+    "GDT1320",
+    "GDT1328",
+    "GDT1233",
+    "GDT915",
+    "GDT849",
+    "GDT854",
+    "GDT1254"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "claim_ceiling": "Nominal capacity upper bound only; no independence, dependence, source meaning or run collapse permission.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1329_paired_run_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1329_paired_run_capacity/src/validate.py"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/METHOD.md",
+      "sha256": "51da20781ae1a84f498f350b0abaa563f95377f0bbaffae71cafb10f1e4e9b80",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/PREREGISTRATION.md",
+      "sha256": "51da20781ae1a84f498f350b0abaa563f95377f0bbaffae71cafb10f1e4e9b80",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/README.md",
+      "sha256": "0eda17ae4a6796b2669c2f5ca8686ee786d301cde129307aef17ffd78131fe4c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/REPORT.md",
+      "sha256": "63b7b4df4fbeae86e0f537aba30fec8dfed0377ee5d00c76dafb47a6cf03a6c8",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/artifacts/CELLS.json",
+      "sha256": "a7bbb08a3a652f4f65f06ec53c6f4f3bb6ad327455c17850a40c74bf4f861f26",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/artifacts/README.md",
+      "sha256": "436f068c7bef270752c7ed9aecd4a5eca7f18d2062dee6c3a233fafd60b38178",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/artifacts/RESULT.json",
+      "sha256": "5721257cd58d0bd1cb55bd75248b5af9b59da0d40e6fcc180a5f44afaeea136e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/artifacts/VALIDATION.json",
+      "sha256": "1fce1cb6833243a2d3d29d78bffc1823a0d41f3b6aca414ed572cc2bb4a5e30d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/src/REGISTRATION_LOCK.json",
+      "sha256": "bc825687295214206bed66d2e2946b54b6d9077cf6093f627116ec2303a10f1f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/src/run.py",
+      "sha256": "15be21d95cf94c538d02a2326ac88548157ca7c462c75c19713bc00ed9e268d7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1329_paired_run_capacity/src/validate.py",
+      "sha256": "a775b7c0385307cdca5d025e01034e1ef22750d4df2ba00475f5de5ab935884c",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1329_paired_run_capacity/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": "Small exact eligible-cell certificates only."
+  }
+}

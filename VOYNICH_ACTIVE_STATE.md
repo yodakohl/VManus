@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1329 matched two-run capacity
+
+Same-page/exact-collapsed-form words with exactly2 e/i runs and variation in both slots supply only7/5/6cells,30/20/27occurrences and4/2/4physical leaves IT/RF/ZL. All20/100/10nominal gates fail; actual statistic mobility could only reduce capacity. Zero native dependence scores/permutations; no independence, coordination or meaning conclusion.1328single-slot result remains. [Report](experiments/yolo/gdt1329_paired_run_capacity/REPORT.md).
+
 ## 2026-10-11 — GDT1328 e/i run lengths under geometric elongation
 
 All6reader/family cases reject independent memoryless run elongation even with arbitrary exact-page/collapsed-source-word/slot continuation probability: normalized dispersion -.4000 to-.4667, conditional two-sided p=.0005 each; all capacity/effect/leaf gates pass. Runs are more even than this null; no meaning, true unit, safe collapse or general optional-run rejection. Length-neutral strict-panel admission is assumed; geometry/serial/transcription effects remain alternatives. Original-source and conditional-sampling validation PASS. [Report](experiments/yolo/gdt1328_geometric_run_elongation/REPORT.md).
