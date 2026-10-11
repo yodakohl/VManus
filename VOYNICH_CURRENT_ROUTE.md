@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: 1323 stopped.
-Latest decision: 1323 NO_CAPACITY.
-Working files: gdt1323.
-Assumptions: Fixed q,22units.
-Resume: Distinct writer/test.
+Task: 1324 closed.
+Latest decision: Toy only.
+Working files: gdt1324.
+Assumptions: Known bank/prior.
+Resume: Bind bank/prior; no attack.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public7def24591.
+Publicdd1ba9792.

@@ -1,0 +1,1 @@
+RESULT stores exact rational recovery curves and output-law classes. CONFUSION contains conditional true-key-by-predicted-key probabilities. VALIDATION independently verifies full likelihood digests and metrics.

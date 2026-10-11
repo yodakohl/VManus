@@ -1,0 +1,97 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Compact exact rational control results and reproducible likelihood-table digests only.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Finite source-free oracle-channel calculation only; no native key recovery, language selection, 22-drawing scaling or realistic control adequacy.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1324_modular_exact_key_recovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1324_modular_exact_key_recovery/src/validate.py"
+  },
+  "created": "2026-10-11",
+  "dependencies": [
+    "GDT1322",
+    "GDT1323",
+    "GDT602",
+    "GDT604"
+  ],
+  "experiment_id": "GDT1324",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1322_modular_packet_choice_likelihood/src/FIXTURE.json",
+      "sha256": "b138403a78acc7ae2bb34d5550daf4033ae805d58194c6bd248dd71cdaacf12b",
+      "role": "unchanged source-free bank and asymmetric source law"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/METHOD.md",
+      "sha256": "1d6962eb32aa337b05bc1912530c760016782bc9640ff3de5e77bcb3f4ebbd6d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/PREREGISTRATION.md",
+      "sha256": "1d6962eb32aa337b05bc1912530c760016782bc9640ff3de5e77bcb3f4ebbd6d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/README.md",
+      "sha256": "6033f4f1537404f6039e8d3fc9f6de32eb0365b049fffb6395d9396e9efc5fe2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/REPORT.md",
+      "sha256": "443b591a8d139d1bc427e3ba21181e2ff64090a7d047e50f5e69ea935b15fbd0",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/artifacts/CONFUSION.json",
+      "sha256": "f0107ab4f60d6f4652e0ab6baf8be25b77b1b9e489a6c4893b02a6215b1dce7e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/artifacts/README.md",
+      "sha256": "8f8c20880c7c49b82e4227541b73ba592ace52b6885e748498924876f2c2b52a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/artifacts/RESULT.json",
+      "sha256": "fd900c9b55425c85684e3af007d385e93e3f37a50c71b20ecf352cbdefa8964f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/artifacts/VALIDATION.json",
+      "sha256": "3264b54c43d8ca1bc1b80cd93b1671a3e5c7ed04bfd0600a10706930cfeff426",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/src/REGISTRATION_LOCK.json",
+      "sha256": "cc5983272f439017c8a6ac3420b67aef9dde20fa93a111e73dae9c59185a820e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/src/run.py",
+      "sha256": "ca482ce58f9f9fb36ed13d0c120089fdc1ce54946bd925c5a9fc9ada12d72b02",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1324_modular_exact_key_recovery/src/validate.py",
+      "sha256": "fb763bd54f55cd7778d9abd18f9db8a398d18b39bd473b7c894551bdc04e84b8",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Which toy modular keys are distribution-identifiable under two fixed source laws, and what is exact short-message ML recovery?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "modular_exact_key_recovery",
+  "status": "TOY_DISTINGUISHABILITY_WITH_PRIOR_DEPENDENT_RECOVERY_LIMITS",
+  "title": "Exact key-recovery limits in the fixed modular packet toy channel",
+  "updated": "2026-10-11",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1324_modular_exact_key_recovery/artifacts/VALIDATION.json"
+  }
+}

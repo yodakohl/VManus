@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1324 exact toy recovery and source-law ambiguity
+
+Unchanged1322bank, all8keys and all outputs through6groups: fixed asymmetric source law gives72.718734% exact-key and78.599929% exact-whole-source ML accuracy at6; uniformIID leaves3lawclasses and at most3/8exact-key accuracy at any length. Independent rational validator PASS. Source-free oracle control only; no native/full22drawing recovery gate met.1322unlabeled-partition wording qualified;1323capacity stop retained. [Report](experiments/yolo/gdt1324_modular_exact_key_recovery/REPORT.md). No automatic native attack or larger control.
+
 ## 2026-10-11 — GDT1323 key-free anagram choice capacity
 
 Same-unit-bag variants necessarily decode identically under1322; within-page exchanges preserve every decoded position and spelling-weight product. Its fixed neighboring-endpoint test has only24/40/38mobile edges in ZL/IT/RF against100required: all NO_CAPACITY, zero permutations. Independent validator confirms46,836original edges and102reader-specific mobile expectations. No support/refutation of modular decoding;1322formal result remains, native bank/key binding unresolved. [Report](experiments/yolo/gdt1323_anagram_variant_neighbor_choice/REPORT.md). No automatic metric or pooling repair.
