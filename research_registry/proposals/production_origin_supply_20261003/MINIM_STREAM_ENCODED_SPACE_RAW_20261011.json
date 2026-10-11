@@ -1,0 +1,82 @@
+{
+  "title": "RAW UNREVIEWED: an ambiguous two-style minim stream with one explicitly encoded source-space sign",
+  "summary": "An invented source-stream writing relation uses the23-letter alphabet without J/U/W. I,N,M,V become homogeneous runs of one chosen e or i working unit of widths1,2,3,2; the other19letters and SPACE use the remaining20units bijectively. The set-valued reader discards physical layout gaps but reconstructs source spaces from one fixed literal unit, retaining every ambiguous letter decomposition. Adjacent space signs are impossible; source-word fragments have a key-independent minimum letter count. No word-length cap, natural-language lexicon, native values, historical attestation or explanatory layout law is supplied.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NATIVE_FORMAT_UNBOUND",
+  "source_status": "NEW_PROPOSAL",
+  "design": {
+    "purpose": "A concrete ambiguity-aware stream-channel hypothesis with a paid source-word boundary, distinct from complete-visible-group letter codes or one-source-word/one-visible-group spelling. It is not a claim that any actual Voynich word means anything.",
+    "source_domain": {
+      "alphabet": "ABCDEFGHIKLMNOPQRSTVXYZ",
+      "alphabet_size": 23,
+      "messages": "A nonempty finite sequence of nonempty words over exactly this alphabet, joined by exactly one source SPACE. No leading/trailing SPACE and no empty source words.",
+      "normalization_limit": "The source domain is already restricted. No existing source text is silently uppercased, stripped of punctuation, transliterated or rewritten here. J/U/W, digits, punctuation, case distinctions and source paragraph marks are outside this exact domain. No escape branch exists. A future normalization contract would need to declare and retain its losses independently.",
+      "language_limit": "This is a23-letter orthographic alphabet convention, not a supplied Latin lexicon or grammar. Arbitrary nonempty strings are legal words. There is NO maximum word length and no ban on repeated source words or repeated source letters."
+    },
+    "working_inventory": {
+      "units": ["a", "o", "e", "i", "n", "d", "q", "y", "s", "r", "l", "m", "k", "t", "p", "f", "ch", "sh", "ckh", "cth", "cph", "cfh"],
+      "run_styles": ["e", "i"],
+      "literal_source_roles": ["A", "B", "C", "D", "E", "F", "G", "H", "K", "L", "O", "P", "Q", "R", "S", "T", "X", "Y", "Z", "SPACE"],
+      "literal_key": "One globally fixed bijection from these20roles to the20working units other than e/i. Its SPACE image h is therefore one of exactly20candidate units, never e or i. No literal value is chosen for a native unit in this proposal.",
+      "run_weights": {"I": 1, "N": 2, "M": 3, "V": 2},
+      "entry_cost": "20literal entries plus8labeled letter/style alternatives. N and V share both length2 alternatives, so there are26distinct written code strings. The22working drawings are not a22-entry uniquely decodable letter table."
+    },
+    "writer": [
+      "Reject a source outside the declared domain; do not normalize it occurrence by occurrence.",
+      "Write each ordinary literal letter through the fixed20-role table. Write every source SPACE as the same h unit.",
+      "For each individual occurrence of I,N,M,V, choose either e style or i style and write exactly the specified number1,2,3,2of that one unit. A single source letter may not mix styles. Consecutive same-style runs concatenate without a hidden separator.",
+      "Preserve source order. There are no nulls, state changes, hidden separators, padding or resets that add/remove source characters.",
+      "Physical visible spaces and line breaks may be inserted BETWEEN complete working units as layout; they carry no source information. No physical grouping distribution or choice rule is supplied, and no source-word/visible-group correspondence is claimed. This unbound formatter is a substantive missing native explanatory component."
+    ],
+    "reader": [
+      "Recognize the22complete working units first, respecting existing unit boundaries. Remove only display gaps/line breaks between units. In a transcription implementation, flatten already parsed unit lists; do not erase raw EVA ASCII gaps and retokenize, which could manufacture ch/sh/other compound units.",
+      "Under one fixed literal key, decode every non-e/i unit directly. In particular h restores source SPACE rather than a displayed gap.",
+      "For each maximal homogeneous e run or i run of length r, enumerate every ordered composition of r into1,2,3. Replace1byI,3byM, and each2independently by eitherN orV. A source letter cannot cross an e/i style change or a literal unit.",
+      "Combine all run choices with the literal letters and exact source spaces. For a COMPLETE message require the declared nonempty-word/single-space grammar. Return every compatible normalized source spelling; do not select a reading by an unspecified language model or expected meaning.",
+      "For a clipped admitted snippet, allow its ends inside source words or minim-letter runs. Treat only observed h units as exact source-space positions. Do not falsely require the snippet itself to begin/end at a source-word or codeword boundary."
+    ],
+    "inverse_scope": {
+      "guarantee": "Every message actually emitted by this writing relation belongs to the returned finite preimage set for the complete observed stream.",
+      "not_guaranteed": "The original message is generally NOT uniquely recovered. For example ee can encode N, V or II; eee can encode M, IN, IV, NI, VI or III. These are real source-spelling distinctions, not alternative names for one meaning. No claim of exact source meaning recovery is made.",
+      "completeness": "Every enumerated run decomposition can be rendered back using the style of that run; literal units and source spaces are exact under the key. Thus the returned set is precisely the compatible source spellings under the declared channel, not a list chosen to contain a favored answer.",
+      "complexity": "Direct human reading uses run lengths and a20-row literal table. The number of candidate spellings can grow exponentially with run length and number of runs. A practical linguistic disambiguator remains absent and would require independently supplied grammar/lexicon."
+    },
+    "source_only_examples": [
+      {"source": "I N", "stream_description": "e, h, i, i", "point": "The h unit reconstructs the source word boundary; inserting or removing DISPLAY gaps does not alter it. The second word remains ambiguous between N,V andII."},
+      {"source": "MINIMVM", "stream_description": "Fifteen e units if all seven letters use e style, because3+1+2+1+3+2+3=15.", "point": "No run cap, literal-name exception or later escape is introduced. Other per-letter style choices are permitted but must keep each letter homogeneous."},
+      {"stream_description": "four consecutive e units", "minimum_source_letters": 2, "point": "MI or IM attain the lower bound; a single source letter cannot emit4units."},
+      {"stream_description": "e i e", "minimum_source_letters": 3, "point": "Style changes force separate letters. Applying ceil(total minim units/3) across different styles would be wrong."}
+    ],
+    "necessary_consequences": {
+      "space_exclusion": "For a candidate h, observed adjacent hh inside one genuinely continuous unit snippet is impossible: it would be two consecutive source spaces with no nonempty source word between. A displayed gap between the two units does not rescue it. An unobserved/uncertain interval must break the snippet rather than be deleted.",
+      "word_length_bound": "Remove observed h separators. For each resulting nonempty segment S, let L_h(S) be the number of units in S outside e/i, plus the sum of ceil(r/3) over every maximal homogeneous e-run and i-run in S. Then every compatible complete source word containing that segment has at least L_h(S) letters.",
+      "proof": "Each literal unit in S consumes one source letter. Each minim source letter emits at most3same-style units; covering an r-unit homogeneous run requires at leastceil(r/3)letters. Letters cannot cross a literal or style boundary. The contributions therefore add. If a snippet clips an endpoint letter, its observed portion still has length at most3; clipping cannot lower the bound on the containing full source word.",
+      "aggregation": "For each surviving h, the strongest reported word-length lower bound over the fixed snippets is B_h=max_S L_h(S). The family-wide unavoidable bound is min_h B_h over ALL surviving h. Display all candidates rather than choosing a convenient marker. If no h survives the hard hh constraint, the family fails on that fixed continuity scope.",
+      "empty_edges": "An empty leading/trailing segment of a clipped snippet is not an empty source word and adds no positive bound. An internal empty segment between hh is forbidden. Leading/trailing h only contradicts a complete-message boundary if that boundary is independently established.",
+      "no_unregistered_gate": "There is no30-letter or other source-word-length cutoff in this base family. A large B_h is an explicit cost, not a Latin/cipher/language exclusion. A future independently fixed source word inventory or maximum-length contract may make the bound decisive; none is selected, normalized or counted here."
+    },
+    "known_limits": [
+      "Actual physical identity and segmentation of the22working units, especially e/i, remain hypotheses. No image or new transcription evidence is supplied.",
+      "All native printed group/line breaks are ignored only under this declared stream hypothesis. Their known structural information is not explained by calling them layout.",
+      "The minim style-choice law is not given probabilistically; no native run-frequency or whole-form fit follows. This is not the failed1328independent geometric continuation model.",
+      "Old AAA and daldy/group-edge observations remain facts.975's bounded-language AAA contradiction and930's fixed-three-cell grouping contradiction do not transfer automatically when visible gaps carry no source-word/cell-count meaning; those failed contracts are not modified.",
+      "No native words receive meanings; none of the returned candidate spellings is adopted as a reading. No source corpus or native score/test has been run for this proposal."
+    ]
+  },
+  "predecessor_review": [
+    {"id": "IDEA000975", "primary": "research_registry/proposals/production_origin_supply_20261003/AMBIGUITY_SET_MINIM_WRITER_RAW_20261007.json", "review": "research_registry/proposals/production_origin_supply_20261003/AMBIGUITY_SET_MINIM_MANUAL_REVIEW_20261007.json", "difference": "Same familiar1/2/3minim ambiguity principle, not claimed new.975has a16-word source lexicon, explicit clause grammar, exact-name codes, PERIOD and marked continuations around visible logical word groups. Here open23-letter words use a globally encoded SPACE, with two homogeneous styles and no exact-name/period/continuation repair. The different necessary consequence is marker adjacency plus source-word-length cost in a continuous stream."},
+    {"id": "IDEA000930", "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_THREE_CELL_GROUPS_RAW_20261004.json", "difference": "Encoded source spaces and discarded display gaps are already known.930requires exactly three source cells per nonfinal output group, with sixheads/tallies. The present proposal imposes no visible-group cell count and uses actual unresolved minim ambiguity;930's original short-group failure remains."},
+    {"id": "GDT1253", "primary": "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md", "difference": "1253forbids a source adjacency to obtain a UNIQUE greedy inverse while retaining visible word boundaries. Here N/V/IIcollisions deliberately remain. No source grammar selects the intended spelling, and every native surface is not claimed diagnostically explained."},
+    {"id": "GDT1267", "primaries": ["experiments/yolo/gdt1267_general_ud_two_sided_closure/METHOD.md", "experiments/yolo/gdt1267_general_ud_two_sided_closure/REPORT.md"], "difference": "Its freeUD and complete-visible-group/source-word premises are both absent. Its fixed-source fourth-power exclusion remains correct and is not rerun or rescued."},
+    {"id": "GDT1269", "primaries": ["experiments/yolo/gdt1269_space_free_pair_table_capacity/METHOD.md", "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md"], "difference": "1269alreadydiscards visible gaps and handles clipped phase, but has at most32length2entries and at mostONEsingleton. This channel has20literal singleton roles, plus ambiguous length1/2/3homogeneous codes. No pair-table repair or imported success follows."}
+  ],
+  "retention_decision": "Retain one genuinely distinct combination as RAW_UNREVIEWED, not a native writer or selected experiment. The first possible small decision concerns all20SPACE candidates under one prospectively fixed continuous scope; native selection and any later source-length gate belong to root.",
+  "work_record": {
+    "started_utc": "2026-10-11 12:24:53 UTC",
+    "draft_and_duplicate_screen_utc": "2026-10-11 12:29:44 UTC",
+    "duplicate_screen": "Bounded ideas duplicates returned972/937/974/958/1005and no same_declared_design match; these are navigation candidates, not a proof of exhaustive novelty. The closer975/930and1253/1267/1269contracts were separately read as detailed above.",
+    "mode": "Source-free constructive/proof review with previously published primary examples and source-only teaching contracts; no newly queried native data or claimed source blindness to historical evidence.",
+    "reads": "Current route, composition topic, bounded registry cards/searches/followups,1253REPORT,1267METHOD/REPORT,1269METHOD/REPORT,930source-rule fields,975source-rule fields/manual review. The old975teaching words are explicitly synthetic, not reused native glosses.",
+    "not_done": "No native/cache/image access, corpus count, scientific program, decoder, experiment, ledger, route update or publication. No new normalization of a historical source."
+  }
+}

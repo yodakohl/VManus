@@ -1,0 +1,52 @@
+{
+  "record_id": "GDT1339",
+  "scope": "structural",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root independent direct alignment and original-source reconstruction; separate agent logic review",
+  "assessment_basis": "All 20 source-space markers per reader, fixed reference union and predeclared S/R contracts",
+  "reason": "5896 reference types have maximum length17; every marker forces a segment of at least29 source letters in each reading. All S/R markers excluded. Candidate-word sets are a necessary relaxation only, not meanings. Clipped edges not dictionary-tested. No broad language or ambiguous-stream exclusion.",
+  "blockers": [
+    {
+      "code": "fixed_vocabulary_word_length",
+      "detail": "Minimum over markers of maximum required word length29 exceeds fixed vocabulary maximum17; lower bound holds for clipped fragments too.",
+      "evidence": [
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md",
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/RESULT.json",
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independently motivated source/writing contract and a distinct predeclared consequence retaining these counterexamples.",
+        "evidence": [
+          "experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Append words after seeing native failures",
+      "Treat local candidate words as translations",
+      "Switch marker to NULL or alter minim widths automatically"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA001006",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1269",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/PREREGISTRATION.md"
+      ]
+    }
+  ]
+}

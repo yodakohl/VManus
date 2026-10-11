@@ -1,0 +1,58 @@
+{
+  "title": "Source-free proof review of the fixed minim-stream reference-vocabulary filter",
+  "status": "PRE_ENUMERATION_PROOF_REVIEW_NO_SOURCE_OR_TARGET_COUNT",
+  "date": "2026-10-11",
+  "work_record": {
+    "started_utc": "2026-10-11 12:33:31 UTC",
+    "basis": "Parent's prospective contract and the previously frozen IDEA001006 construction, with current route read. No SOURCE_TEXTS, native packet, result, image, corpus or scientific program was opened or run for this review.",
+    "timing": "Written as the source-free preselection review before the proposed root registration/enumeration. This file is not an experiment result, new RAW card, ledger entry or native reading."
+  },
+  "reference_scope": {
+    "input": "The fixed old1177books b4/w1/bs1/gr1 supply a reference vocabulary only, not a claimed actual source document, source distribution or entire language.",
+    "projection": "First require each ORIGINAL stored token to match nonempty ASCII [A-Za-z]+ exactly; then uppercase, replace J by I, U by V and W by VV. Do not use Unicode isalpha, uppercase-before-admission, punctuation stripping or token splitting. For example a non-ASCII character that uppercases to ASCII must still be rejected by the original-token gate.",
+    "retention": "Report excluded-token classes/counts and normalization collisions separately. Union and deduplicate admitted projected words for the reference set; do not treat omitted tokens as if a complete book had been encoded. Distinct original words may normalize identically.",
+    "length_cap": "Compute maximum reference word length AFTER projection. This is a declared reference-vocabulary bound, not a general maximum length for Latin or IDEA001006. An empty admitted reference set requires an explicit input/support stop, not an invented maximum zero."
+  },
+  "stream_and_boundaries": {
+    "units_first": "Parse original complete groups into the unchanged22units, then concatenate their unit lists only within the prospectively declared continuous1259snippets. Do not delete ASCII gaps and retokenize into new compound units. Missing or uncertain content must not be silently bridged.",
+    "marker": "For each of all20units h outside e/i, h is the sole literal source-SPACE image; all other19literal source letters biject to the19remaining non-e/i/h units.",
+    "primary": "Adjacent hh contradicts the frozen single-source-SPACE grammar. Preserve this primary decision separately.",
+    "relaxation": "The prespecified secondary grammar permits positive SPACE runs between nonempty words. It is a different, more generous contract; hh is retained as multiple source spaces, not treated as an empty word or silently removed from the primary. Check every nonempty segment bounded by h units, equivalently between successive h-runs. Empty segments inside a SPACE run are not word candidates.",
+    "complete_spans": "Only a nonempty span with observed h on both sides is a complete source word for dictionary matching. At most the outermost nonempty segments are clipped fragments. Leading/trailing h in a clipped snippet is not automatically a source-document boundary violation.",
+    "outer_fragments": "For clipped outer segments use only the established lower bound: non-e/i unit count plus sum ceil(r/3) over homogeneous e/i runs. This must not exceed the maximum admitted reference word length. It remains necessary even when an endpoint is inside a minim letter. Do not require an exact dictionary word for a clipped segment."
+  },
+  "local_signature": {
+    "source_literal_sequence": "Delete I,N,M,V from a candidate reference word while preserving the remaining letter order. Record its canonical equality pattern, e.g. ABA ->0,1,0.",
+    "source_slots": "Record all k+1 intervening minim blocks around k literal letters, INCLUDING zero-width internal slots and both endpoint slots. A block's width is the sum of the fixed1,2,3,2weights for I,N,M,V.",
+    "target_signature": "For a complete target span remove e/i while retaining every other unit in order. Record its literal equality pattern and the lengths of all k+1 e/i blocks around those units, including zeros.",
+    "bucket": "The equality pattern and full slot-width vector must agree. This also fixes the number and order of literal positions. A sum over all minim positions without slot placement is insufficient."
+  },
+  "exact_local_filter_proof": [
+    "Necessity: literal source letters each emit exactly one non-e/i/h unit; all minim letters emit only e or i. Therefore their ordered literal positions align uniquely, as do their intervening minim blocks.",
+    "A bijection preserves both equalities and inequalities of literal letters. Consequently their canonical equality patterns must match exactly.",
+    "Sufficiency of the literal test for ONE word: equality-pattern agreement defines a well-defined injective partial assignment between the19literal letters and19available literal units. Every such partial injection extends to a complete bijection by matching the unused letters and units arbitrarily.",
+    "Within each aligned minim block, the ordered source letters have known widths. Their cumulative widths give a unique subdivision of the target block for THAT candidate spelling. Matching only total width is necessary but not sufficient.",
+    "Require each candidate letter's target subblock to consist entirely of e or entirely of i. If it does, that letter can choose precisely that style. Choices are independent by letter occurrence under the unchanged family, so no further style compatibility is required.",
+    "Conversely, any legal rendering necessarily has those homogeneous subblocks. Thus signature equality plus the color/subblock check is EXACT for existence of some word-local literal bijection and allowed per-letter styles. It produces no false exclusion for a true member of the declared reference vocabulary and model.",
+    "N and V remain genuinely ambiguous and weight2can also be supplied by two I letters. Keep every compatible reference spelling rather than selecting a favored meaning."
+  ],
+  "global_inference_and_limits": [
+    "If even one complete span has no compatible reference word under this generous local test, no shared global literal key can render that span from the fixed reference vocabulary. Reject that marker for this reference contract.",
+    "If all marker candidates fail, the fixed reference-vocabulary/channel conjunction is excluded on the fixed continuity scope. This does not exclude the unbounded base family, another independently specified vocabulary, a language or all ambiguous scripts.",
+    "If every checked span has at least one candidate, that is necessary capacity only. Different words may require incompatible literal bijections; no common key, source sequence, grammar or intended meaning has been established.",
+    "A marker with no complete observed spans has supplied no exact dictionary test. State that explicitly; its outer-fragment bound is only coarse capacity.",
+    "Reference words may be reused independently for the necessary filter. No word-frequency or source-order preservation is being asserted or tested. The reference union is not automatically an encoding of any of the four complete books.",
+    "Do not infer the most convenient candidate marker, a surviving native letter value, or a source-language preference. All20markers and both prospectively specified spacing contracts must retain separate outcomes."
+  ],
+  "small_source_free_fixtures": [
+    {"case": "True ambiguity", "reference": ["N", "V", "II"], "target": "ee", "expected": "All three match locally; no unique source recovery."},
+    {"case": "Color failure despite matching total width", "reference": ["N"], "target": "ei", "expected": "Reject: the one width2letter would mix styles. With reference II, the same target must pass."},
+    {"case": "Both directions of injectivity", "reference": ["AB"], "target_description": "two identical literal units", "expected": "Reject. Conversely AA against two different literal units also rejects."},
+    {"case": "Slot placement", "reference": ["AI"], "target_description": "e followed by one literal unit", "expected": "Reject even though literal count and total minim width agree; the before/after slot widths differ."},
+    {"case": "Local passes need not compose", "reference": ["A", "AI"], "target_description": "Two complete spans: literal u; then a DIFFERENT literal v followed by e. Both u/v are non-e/i/h.", "expected": "First span forces A->u, second forces A->v. Each locally passes, but no global literal bijection satisfies both."},
+    {"case": "Endpoint clipping", "source": "M or MM rendered in e style", "expected": "A one/two-unit clip of M has lower bound1; a four-unit contiguous clip of MM has lower bound2. Do not demand a complete reference code for a clipped fragment."},
+    {"case": "SPACE-run distinction", "target_description": "h h inside a continuous snippet", "expected": "Primary contradiction. Secondary permits a SPACE run and skips empty inter-h segments without treating them as source words or erasing the primary failure."},
+    {"case": "Source admission", "tokens": ["I", "J", "U", "W", "a-b", "123", "non-ASCII-letter-token"], "expected": "I/Jnormalize toI, UtoV, WtoVV; reject the last three as whole reference tokens rather than stripping their unsupported characters."}
+  ],
+  "review_verdict": "SOUND_NECESSARY_SCREEN_WITH_EXACT_LOCAL_FILTER; no new native result, common-key claim or full-source codec follows. No additional test or model beyond the prospective contract is proposed."
+}

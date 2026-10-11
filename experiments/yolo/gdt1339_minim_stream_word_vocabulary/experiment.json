@@ -1,0 +1,143 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed vocabulary and declared 23-letter/SPACE writer only; not all ambiguous codes or languages, no shared-key recovery or word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1339_minim_stream_word_vocabulary/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1339_minim_stream_word_vocabulary/src/validate.py"
+  },
+  "created": "2026-10-11",
+  "dependencies": [
+    "GDT1177",
+    "GDT1259",
+    "GDT1253",
+    "GDT1267",
+    "GDT1269"
+  ],
+  "experiment_id": "GDT1339",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "frozen source or source-free proof",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/CERTIFICATES.json",
+      "role": "frozen source or source-free proof",
+      "sha256": "e2be0d12afbeb3efbb40f3a9a9ccc6ede89da99b586148991d1f20f2b26d836b"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/VALIDATION.json",
+      "role": "frozen source or source-free proof",
+      "sha256": "94ae83c2e46e97c78e96f2206882b65b12f1d8168ceec86d41ce9eb6fc251415"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/src/SPEC.json",
+      "role": "frozen source or source-free proof",
+      "sha256": "2d806468e19f1da3f6defe6ac908c1d6c83879841f207f2c99e8c4b19f85deb5"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/MINIM_STREAM_ENCODED_SPACE_RAW_20261011.json",
+      "role": "frozen source or source-free proof",
+      "sha256": "853a4d243aa5a49d8fc05397242785b38892890879a50da657489eda292e2faf"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/MINIM_STREAM_VOCABULARY_FILTER_PROOF_20261011.json",
+      "role": "frozen source or source-free proof",
+      "sha256": "1004b27441e49b2e82b76c0ad6cb584c52d5127cadf56c104dbb82f1bf2bf65d"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "guarded provenance recollation; inherited GDT1259 source pin",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "0f1dd899bcd821801c2067b0ee66afb38eff5b3e658bf94b161ad0893ee48e04"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "0f1dd899bcd821801c2067b0ee66afb38eff5b3e658bf94b161ad0893ee48e04"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "286c22fdfc8411e717034419ea5442c74315a0c50e1656e9178305dd292ca0a1"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md",
+      "role": "primary_report",
+      "sha256": "9736e4e2cec8e97961ddb0999fdb2a7b43acb66bc89f50ea537de653bf649f5c"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/CASES.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "39332eece09b2988723e134630149120709026ec0c930ee623577f3a556c66f1"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/GUARD_RECEIPT.json",
+      "role": "reproducibility artifact",
+      "sha256": "3ab85692a98cf7f2a235a0553d3c41a96ae11efc536646fa5c5d6ea448dfaa99"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "61162e0f52f51a732eaa72028065d1409057c3c2463ef66a37f632acc427fe1b"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/REFERENCE_VOCABULARY.json",
+      "role": "reproducibility artifact",
+      "sha256": "1134da2cac01070a6f0b7faa07683e3f278c965f12e244691c3f5f979150405f"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "891deb596dd89b8fed2dc69a43dc7929d72cdfc3149f1579b0a978a633b086a1"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/STREAMS.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "e266f435030bbc0ce1166132ca067e589f4e5356be3d6457517f6ccba63a7703"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "d9fd0bd028d5ca4f01c1473cb7a8a6ddb9c3958c07cb841b53553696345b93c6"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "a372ae93c62bb40068c19f660627cc96f6f43b4a3fcb8b3d79dd0b05cd1dc599"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "45264789c37d7055a3c6e974290714c317b13e168dc9da4c0d6659416231d08e"
+    },
+    {
+      "path": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "b9faba0cb5cdbd2208a0231f725b97a167b7e96e48c4ad09ba3f3c80f97130d6"
+    }
+  ],
+  "question": "Can any fixed source-space sign satisfy even word-local compatibility with the predeclared reference inventory?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "minim_stream_word_vocabulary",
+  "status": "FIXED_REFERENCE_VOCABULARY_EXCLUDED_ALL_MARKERS",
+  "title": "Ambiguous minim stream with an encoded source-space sign",
+  "updated": "2026-10-11",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

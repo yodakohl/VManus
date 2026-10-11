@@ -3,12 +3,12 @@ Updated: 2026-10-11.
 
 ## Work
 Phase: exploration
-Status: parked
-Task: translation; meaning gap.
-Latest decision: impasse after3no-progress turns.
-Working files: HAND_WRITER;1129/1137.
-Assumptions: 0meanings;goal unachieved.
-Resume: new source/key with discriminator.
+Status: checkpoint
+Task: audit + stream test closed.
+Latest decision: 1339fixed vocabFAIL.
+Working files: GDT1339/report;RAW1006.
+Assumptions: no meanings;29>17 local.
+Resume: new binding before retest.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public76104f19c.
+Public5eb6645c6.

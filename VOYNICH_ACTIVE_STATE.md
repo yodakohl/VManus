@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1339 ambiguous-stream reference instance fails
+
+A new variable-width, ambiguous stream with one encoded source-space sign was checked against a fixed 5896-type medical reference union. Every marker requires a source word of at least29 letters somewhere; inventory maximum17. All20markers fail in IT/ZL, even allowing repeated spaces. Original groups and all local candidate sets independently validated. This does not reject the unbounded construction, all ambiguous streams or any whole language; no decoder repair or meaning selected. The separate prior-closure audit found no new error in its selected cases, not universal correctness. [Report](experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md).
+
 ## 2026-10-11 — GDT1338 old edge case blocks the prose extension
 
 Old mol f17r.10has the same BOS/o context as strict q-,cfh-,cph-initial witnesses and contradicts every1337remainingpair. All22units have>=2STRICTgroup supports; completeclassificationforcesamanasfirstresidual. Thus strictplusfixedoldedgeforms need>=2discrepancies, notnecessarily2.1337strict radius1stayscorrect. No2+search, newports orerrorcorrection. [Report](experiments/yolo/gdt1338_port_known_edge_countercases/REPORT.md).

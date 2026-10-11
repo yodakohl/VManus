@@ -1,0 +1,45 @@
+{
+  "record_id": "IDEA001006",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root independent direct alignment and original-source reconstruction; separate agent logic review",
+  "assessment_basis": "Source-free construction review plus fixed-vocabulary GDT1339 failure",
+  "reason": "A coherent ambiguous source-stream relation, not a native reading: no identified key, meanings or explanation of display layout. The GDT1339 fixed-reference instance fails all markers; the unbounded raw family is not thereby refuted. No full decoder or reference expansion selected.",
+  "blockers": [
+    {
+      "code": "fixed_vocabulary_word_length",
+      "detail": "Minimum over markers of maximum required word length29 exceeds fixed vocabulary maximum17; lower bound holds for clipped fragments too.",
+      "evidence": [
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md",
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/RESULT.json",
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independently motivated source/writing contract and a distinct predeclared consequence retaining these counterexamples.",
+        "evidence": [
+          "experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Append words after seeing native failures",
+      "Treat local candidate words as translations",
+      "Switch marker to NULL or alter minim widths automatically"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1339",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1339_minim_stream_word_vocabulary/REPORT.md"
+      ]
+    }
+  ]
+}
