@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: phase corrected.
-Latest decision: exploration not gated.
-Working files: IDEA1009-1011;PHASE_CORRECTION.
-Assumptions: no arbitrary glosses.
-Resume: profile-grounded whole drafts.
+Task: f83r content drafts written.
+Latest decision: scaffolds;0wordvalues.
+Working files: IDEA1009-1011;WHOLE_DRAFT.
+Assumptions: RFvariant;qokyuntested.
+Resume: ground construction choices.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicedcf6f4bb.
+Public979c4f846.
