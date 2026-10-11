@@ -1,3 +1,7 @@
+## 2026-10-11 — GDT1330 deterministic whole-word successor bound
+
+If the previous exact written whole word is the entire state, global nonself successor maxima require201/160/160source commands IT/RF/ZL; a global27command writer is excluded even with exactecho nulls. Page-specific maxima21/16/18do not exclude27but identify no writer. BroadIDEA237remains unselected; no alphabet, meaning or all-stateful-code rejection. Original-window validation checks61,181groups and46,836pairs. [Report](experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md).
+
 ## 2026-10-11 — IDEA997 source-free first-hit word writer
 
 A complete uniform22increment/mod27writer stops at the first nonempty intended character residue and reads by group sum, without a whole-output bank. Exact expected group length is25.64317535–27for every source target; at-most1/22conditional stop hazard independently gives>=22. Short valid realizations remain possible. Source inverse and rational recurrence checks PASS; fixed uniform writer not selected for a native fit. This is a construction-cost result, not a new manuscript finding or generic first-hit exclusion. [Assessment](research_registry/proposals/production_origin_supply_20261003/FIRST_HIT_WORD_ASSESSMENT_20261011.json).

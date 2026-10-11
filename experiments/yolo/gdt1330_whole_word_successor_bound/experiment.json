@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT1330",
+  "slug": "whole_word_successor_bound",
+  "title": "Whole-word outdegree bounds deterministic message-command inventory",
+  "question": "How many commands are required when the previous written whole word is the entire deterministic state, globally or perpage?",
+  "status": "READER_SPECIFIC_SUCCESSOR_BOUNDS",
+  "created": "2026-10-11",
+  "updated": "2026-10-11",
+  "dependencies": [
+    "GDT1327",
+    "GDT1319",
+    "GDT1270",
+    "GDT1233",
+    "GDT915"
+  ],
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "claim_ceiling": "Necessary conditional command counts only: globalK27excluded, page-specificK27not excluded; no actual writer, alphabet, source message or general differential-code rejection.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1330_whole_word_successor_bound/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1330_whole_word_successor_bound/src/validate.py"
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+      "role": "existing guarded strict words, source provenance or allowlist"
+    },
+    {
+      "path": "experiments/yolo/gdt1319_cross_word_endpoint_state/artifacts/PAIRS.json.gz",
+      "sha256": "ad40adb40591fe013a75a79fd3e263304eeb7cbedb85394e1f870dc24e3c9025",
+      "role": "previously independently validated strict original adjacency"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/METHOD.md",
+      "sha256": "da0c98a0fc6a4259630bc51d6b9230fc8c8de11b7d8b4f44ae51701c1cfc7f73",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/PREREGISTRATION.md",
+      "sha256": "da0c98a0fc6a4259630bc51d6b9230fc8c8de11b7d8b4f44ae51701c1cfc7f73",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/README.md",
+      "sha256": "ddf6c26399eb8effe1685c8963254b975d0f7a8a5e2c89da53755e7f04c2bf76",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md",
+      "sha256": "aab8c7008737400beeb2622dea741db9c80a5691a7c8309471032c20203dc6b2",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/artifacts/DEGREES.json",
+      "sha256": "28a43d8fb49ab43082ebe377c407221136ab594703cd68b0364268131261fd45",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/artifacts/README.md",
+      "sha256": "8374d1c15bd4f8bb0b837a43db4045fab15c96a1ca19fb661798661c1043a721",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/artifacts/RESULT.json",
+      "sha256": "d3897ed477861fdb92d19c3726271b3d311651188d57cb3089fc345678d3a777",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/artifacts/VALIDATION.json",
+      "sha256": "6de555658f23e575f1f88f237c20270976531099ce817cab3cd941023829cd5b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/artifacts/WITNESSES.json",
+      "sha256": "daa61406a6ecce7c99bf022557eda2fa0b733f7cf90f9c3c7f4c20b31f73f481",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/src/REGISTRATION_LOCK.json",
+      "sha256": "badd7f884fbb9d0b6957f11983a45e1d2705952228f77d53850a3296fa2e1d08",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/src/run.py",
+      "sha256": "3432b0d15d4754b39fb4cc7916b309744e215cb4a7bc90f09df8fe652bb7f573",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1330_whole_word_successor_bound/src/validate.py",
+      "sha256": "35e3cab600d070877e808c4a7ddf28c53b656fe104285a019c6e38c0df18c8bf",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1330_whole_word_successor_bound/artifacts/VALIDATION.json"
+  },
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": "Complete compact degree tables and maximizer successor certificates."
+  }
+}

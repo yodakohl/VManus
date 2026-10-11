@@ -4,11 +4,11 @@ Updated: 2026-10-11.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: IDEA997 closed.
-Latest decision: Long; not selected.
-Working files: first_hit_word_20261011.
-Assumptions: Uniform22increments;mod27.
-Resume: Complete alternative; no reruns.
+Task: 1330 closed.
+Latest decision: Global27FAIL;page unexcluded.
+Working files: gdt1330.
+Assumptions: Last whole word only.
+Resume: No degree-only writer fit.
 Running: none.
 
 ## Structural baseline
@@ -70,4 +70,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicebbd7d821.
+Publicbbf1f0275.

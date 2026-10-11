@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1328**
-- Experiment-associated tracked files: **26,148** (2.3 GiB)
-- Structured GDT337+ experiments: **993**
+- Experiments indexed: **1329**
+- Experiment-associated tracked files: **26,161** (2.3 GiB)
+- Structured GDT337+ experiments: **994**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1330 | GDT1330 | `READER_SPECIFIC_SUCCESSOR_BOUNDS` | [report](../experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md) | 13 | 5.1 MiB | 6 | STRUCTURED_YOLO |
 | GDT1329 | GDT1329 | `PAIRED_RUN_CAPACITY_STOP_ALL_READINGS` | [report](../experiments/yolo/gdt1329_paired_run_capacity/REPORT.md) | 12 | 47.9 KiB | 9 | STRUCTURED_YOLO |
 | GDT1328 | GDT1328 | `GEOMETRIC_ELONGATION_REJECTED_ALL_CASES` | [report](../experiments/yolo/gdt1328_geometric_run_elongation/REPORT.md) | 13 | 2.1 MiB | 7 | STRUCTURED_YOLO |
 | GDT1327 | GDT1327 | `FORWARD_WORD_WHEEL_EXCLUDED_ALL_READINGS` | [report](../experiments/yolo/gdt1327_forward_word_wheel/REPORT.md) | 13 | 101.1 KiB | 6 | STRUCTURED_YOLO |
