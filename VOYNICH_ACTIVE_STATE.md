@@ -1,3 +1,7 @@
+## 2026-10-12 — Source-chain selection and existing constructive code retained
+
+IDEA399 distinguishes coordination, serial attribution and shared continuation in its owned source, but supplies no full native writer/target. Curated not_tested; no toy graph test selected. Existing1353conditional singleton parsing fixes63.34–65.44%ofFULLgroups;1354supplies reader-specific pair-tail covering codes. These are old positive formal results, not sounds or translations, and source objections remain. Added them to the compact resume to prevent rediscovery. [Review](research_registry/proposals/production_origin_supply_20261003/ISNAD_SELECTION_AND_POSITIVE_CODE_RECALL_20261012.json).
+
 ## 2026-10-12 — Cennini source and failed writers distinguished in idea retrieval
 
 IDEA439 now retains its source-level uncertainty separately from1005failed FULL/DELTAwriters. IDEA481 already proposes a different shared-contact consequence; it remains not_tested with explicit missing target/writer bindings. Later raw references supply no complete test. No new native finding, general source exclusion or selected experiment. [Review](research_registry/proposals/production_origin_supply_20261003/CENNINI_SOURCE_WRITER_SCOPE_REVIEW_20261012.json).

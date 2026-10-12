@@ -4,28 +4,29 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: source.
-Latest decision: no new test.
-Working files: 439/481review.
-Assumptions: no nativebinding.
-Resume: review IDEA399.
+Task: code.
+Latest decision: 399no test.
+Working files: 1353/54.
+Assumptions: freeUD≠sounds.
+Resume: new writer/falsifier.
 Running: none.
 
 ## Structural baseline
-Spaces: hierarchy; parts build unseen forms. Composition is directed;
+Spaces hierarchical; productive directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole gain;1316halves ALL+/newFAIL;1320word-choice+.
 852:same-line join/split differs;meaning open.
-No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
+No proven parser/alphabet;1321/1326/1327FAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP.
 1358cyclic/bag types retain97/82-83%.
+1353freeUD:63–65%FULLparses fixed;1354paircode covers≠sounds.
 1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
 No default Latin/phonetics;1058k/t open;1350FAIL.
-Adjacency transfers across Currier/section/hand; extra direction only Currier.
+Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles/reversibility≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
 1076no follower capacity;1099one reprise;Confirmed English lexemes: **0**
@@ -74,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public69ea3c8bd.
+Public4fde590d9.
