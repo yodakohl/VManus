@@ -2,13 +2,13 @@
 Updated: 2026-10-12.
 
 ## Work
-Phase: fixed_test
-Status: complete
-Task: phoneme controls.
-Latest decision: 1347recovery+; originFAIL.
-Working files: GDT1347.
-Assumptions: known phone units only.
-Resume: lookup GDT1347.
+Phase: exploration
+Status: checkpoint
+Task: graphic units.
+Latest decision: 1348template STOP.
+Working files: GDT1348.
+Assumptions: graphics are not letters.
+Resume: review IDEA1024.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publiced7149796.
+Publicd43f84728.

@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1348 native graphic comparison retains a template stop
+
+Threefixedembedded k/t-labeled drawings inoneoldf83rparagraph have locallycompatible lowbridge-like motifs. Theplannedcrossedtest remainsunscorable: oldsmallA-crops clipfreekupperconstruction andlackcompletefreet. FullerreferencevisibilityinplannedBviewisexploratoryonly, notaretroactivepass. OneinformedAIobserver;accounting/hashchronologyPASSdoesnotverifyperception. No linguisticunits,readingorder,sounds orwordmeaning;1320/1333expansionsand996oldgapjudgmentsremainconditional. [Report and exact source views](experiments/yolo/gdt1348_graphic_component_check/REPORT.md).
+
 ## 2026-10-12 — GDT1347 recovers phoneme classes but fails origin specificity
 
 Pinned officialCMUdict phone labels provide a positive control: all39binary phone assignments and57561heldtokens correct from masked phone sequences. Both fixed/variable reversible address-value sources also yield100%role recovery andpass the same alternationtransfergate; shuffledwordbags fail. Keep sensitiveclass detection separate fromphoneticorigin. Counts ofvowel nuclei followclass recovery anddo not identify syllableboundaries. No native test/meaning follows;1346spellingfailure andoldQ20P001failure remain. Sourceacquisition onlyfromofficialCMUdict;no publicVoynichapproachsearch. [Report](experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md).
