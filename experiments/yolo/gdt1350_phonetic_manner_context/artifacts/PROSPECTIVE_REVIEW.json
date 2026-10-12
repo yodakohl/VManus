@@ -1,0 +1,34 @@
+{
+  "status": "PROSPECTIVE_REVIEW_PASS_NO_MATERIAL_BLOCKER",
+  "reviewer": "fresh_writer_proposals",
+  "date": "2026-10-12",
+  "outcomes_seen": false,
+  "coverage": "Read protocol and both scripts only. No source records, result scores, native target or execution.",
+  "checks": {
+    "self_exclusion": "Each TEST target selects only TRAIN profiles v!=u. Target label does not affect distance or nearest-prototype selection; supplied prototype categories name predictions.",
+    "normalization": "Additive0.5 per39cells, each side normalized separately. Equal-side square-root distance differs from standard weighted Hellinger only by a global positive constant, leaving rankings unchanged.",
+    "permutation_coupling": "One permuted phone-to-category table is shared by target truth and neighbor prototype labels. Nearest links remain fixed. Category sizes preserved; plus-one4097denominator correct.",
+    "gates": "All4capacity conjunction, CMU macro>=.4, type>=.5, permutationtail<=.01, and CMU macro−each negative>=.15 are consistent in protocol, runner and validator.",
+    "HH": "Singleton aspirate lacks another same-category prototype and is an unavoidable miss; included in macro and type denominators.",
+    "independent_validator": "Rebuilds counts with triplets, rational smoothing formula, scalar math.fsum distances, labels, all4096permutations/corpus and fixed conjunction without importing runner.",
+    "taxonomy_scope": "24nonvowel membership and seven named prototype labels are supplied independent metadata; this is supervised leave-target-label-out transfer, not discovery of phonetic classes on unknown units."
+  },
+  "minor_issue": {
+    "description": "Protocol promises a cyclic known-neighbor permutation-count toy; validator currently contains fixed cyclic score examples but no full toy permutation enumeration.",
+    "action": "Parent notified before execution: add tiny fixture or narrow protocol wording before lock. No scripts changed by reviewer.",
+    "resolution": "Before lock/outcomes, root added exhaustive6permutations of a,a,b on the fixed3cycle with exact macro1/4, and documented supplied coarse membership. Reviewer inspected the addition; resolved."
+  },
+  "numerical_caution": "NumPy versus math.fsum may differ in last-bit distance ranking near exact ties. Current exact neighbor agreement is a useful check; do not loosen it after outcomes without a documented implementation correction.",
+  "claim_limits": [
+    "CMU dictionary and fixed procedural/shuffled controls only, not universal phonetic-origin identification.",
+    "All symbol identities already appear in TRAIN; excluding their own prototype is not a completely unseen-symbol task.",
+    "TEST contexts estimate target profiles; no token-level native decoder or native sound assignments.",
+    "Independently given manner labels may correlate with distributional context without identifying a manuscript language.",
+    "No estimator repair selected prospectively if the fixed gate fails."
+  ],
+  "snapshot_hashes": {
+    "experiments/yolo/gdt1350_phonetic_manner_context/PREREGISTRATION.md": "29929c1842d8b2552b77dcbe539fceb550b85a37d4b8f569093bce32f7994556",
+    "experiments/yolo/gdt1350_phonetic_manner_context/src/run.py": "97381d93180d6941b820fb902c2ad2eee9d57916b726ab04dc02cc095212a3ec",
+    "experiments/yolo/gdt1350_phonetic_manner_context/src/validate.py": "43369784b878167befb770cd6b23b77c97d7d7ad1b3e233b0c0e5ef08ea4a187"
+  }
+}

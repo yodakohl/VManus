@@ -1,0 +1,28 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "primary_hashes": {
+    "experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md": "c058160ad28455230e1f5e32f0364d4e2cfac84cfe10898d7bb2586b2cba202c",
+    "experiments/yolo/gdt1347_phoneme_role_calibration/source/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+    "experiments/yolo/gdt1279_strict_inner_symbol_prediction/REPORT.md": "852bc1c1139aba318610d079cb0122141d69d1b5a92431cf882f063e0acaca74",
+    "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23"
+  },
+  "work_limits": "No native meanings, sounds, sources, reserve, target data, source scoring or decoder. Root owns selection; retain1347specificity failure and all original decisions.",
+  "novelty_review": "Live route/control topic;1347report/followups,1279/1285 priors, bounded manner/allomorph/phoneme-boundary searches and route/duplicate checks. No identical contrast located; not exhaustive novelty proof.",
+  "title": "RAW: independently annotated manner classes predict held-phone contexts beyond binary C/V",
+  "summary": "Use official CMU phone-type metadata to test transfer among stop/fricative/nasal/liquid/etc categories, withholding each predecessor phone identity from its training context table. Unlike1279 exact-ID advantage, this asks whether an independently supplied articulatory taxonomy predicts contexts of another phone. Procedural controls retain scope limits.",
+  "contract": {
+    "source": "Reuse unchanged1347 CMU TRAIN/TEST phone records and official phones metadata. Reuse both procedural packets; no new dictionary or native data.",
+    "prediction": "For each of24nonvowel phones p, exclude all training transitions whose predecessor is p. Fit next-phone distributions pooled by the independently specified manner of the predecessor, and compare with pooling all nonvowels. Score fixed TEST transitions after p at strictly inner positions. No exact-p parameter can predict p because it was withheld from training contexts.",
+    "estimator_obligation": "Root must freeze smoothing, context conditioning, event weights and gate before scoring; no automatic order/position extension. Keep same target support for both models. This is a RAW contract, not a completed preregistration.",
+    "singletons": "The aspirate category contains only HH. Leave-one-phone-out has no same-manner exemplar there, so use explicit baseline fallback and report zero-information capacity; do not omit this category after scoring.",
+    "discriminatory_control": "Compare official category table with fixed size-preserving random permutations of manner labels inside the24nonvowels, with number/seeds frozen before scoring. Apply same size vector to the24address-role symbols in each procedural source. Its fifteen values supply the other coarse class. These artificial sublabels have no articulatory interpretation.",
+    "claim": "A positive official-taxonomy advantage on CMU but not procedural sources would show transfer associated with independently supplied articulatory labels in this control. It is not unsupervised recovery of named sounds, morphology or a general origin classifier. It differs from merely finding that exact identity improves over binary labels.",
+    "limits": [
+      "Only one modern dictionary; manner categories need not form perfectly homogeneous contextual classes.",
+      "A nonphonetic renderer with structured subroles can mimic this result; current procedural negatives do not cover every such system.",
+      "Native use would need an independently justified unit and category binding, not label-fitting until success.",
+      "A failed estimator does not disprove phonetic categories or higher-order phonology."
+    ]
+  }
+}

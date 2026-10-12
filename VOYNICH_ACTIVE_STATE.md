@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1350 partial manner transfer misses fixed phonetic control gate
+
+The self-excluded nearest-context classifier transfers official manner labels for13/24CMU consonants (macro67/168);5/6stops and5/8fricatives correct. Independent label association is limited: macro<.4, strict-procedural gap22/168<.15, shuffled DH19TESTevents<20. No post-result repair; all categories including singletonHH retained. Original1347binary sensitivity and origin failure remain,1279native residual is not repeated,1348unit stop remains. This uses supplied phone units/coarse classes/prototype labels; no Voynich sounds or meanings. Independent validatorPASS does not change researchFAIL. [Report](experiments/yolo/gdt1350_phonetic_manner_context/REPORT.md).
+
 ## 2026-10-12 — GDT1349 measures nested and circular field capacity
 
 With the existing 22 working units and complete internal groups, fixed disjoint nested fields have exact maxima IT2a6/RF1b6/ZL3b7; circular single-interval fields have maximum4 in each. Both families survive below their limits. One forced core holds most signs; at most19.67%/5.43%/22.59% of FULL groups can use multiple classes. Recurrent two-leaf panels allow13/15/14 nested and8/9/9 circular classes: rare-form sensitivity is explicit, not a transcription repair. Independent closure/cut enumeration/exact-cover validation passes after a preserved order-only checker correction. No sounds, meanings or identified writer; old1321/1263/1345 decisions remain. [Report](experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md).

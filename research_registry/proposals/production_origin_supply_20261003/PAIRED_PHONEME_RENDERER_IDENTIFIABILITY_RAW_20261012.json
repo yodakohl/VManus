@@ -1,0 +1,28 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "primary_hashes": {
+    "experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md": "c058160ad28455230e1f5e32f0364d4e2cfac84cfe10898d7bb2586b2cba202c",
+    "experiments/yolo/gdt1347_phoneme_role_calibration/source/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+    "experiments/yolo/gdt1279_strict_inner_symbol_prediction/REPORT.md": "852bc1c1139aba318610d079cb0122141d69d1b5a92431cf882f063e0acaca74",
+    "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23"
+  },
+  "work_limits": "No native meanings, sounds, sources, reserve, target data, source scoring or decoder. Root owns selection; retain1347specificity failure and all original decisions.",
+  "novelty_review": "Live route/control topic;1347report/followups,1279/1285 priors, bounded manner/allomorph/phoneme-boundary searches and route/duplicate checks. No identical contrast located; not exhaustive novelty proof.",
+  "title": "RAW: paired phone-token versus reversible two-sign rendering tests class identifiability under changed atomic units",
+  "summary": "Render the exact same1347phone words either as opaque atomic phones or as fixed pairs of distinct left/right drawing symbols. Both channels preserve content and word boundaries. Compare recovered binary labels with true inherited phone C/V and renderer phase. This isolates a representation issue, not phonetic-origin specificity.",
+  "contract": {
+    "source": "Unchanged1347 CMU selectedTRAIN/TEST phone sequences and official independent vowel labels. No source words or phones changed.",
+    "encoder": "For each phone p create two distinct output symbols L_p,R_p; emit L_p thenR_p. All78 symbols are distinct. Word boundaries retained; disjoint left/right sets make parsing into adjacent pairs unique. Inverse checks matching p on both halves and recovers the exact original phones. Opaque symbol names hide L/R and p.",
+    "independent_truths": "Each emitted half inherits its source phone vowel/nonvowel label; separately each has a known renderer left/right role. Neither label enters training. A cut can agree with either to different degrees.",
+    "smallest_check": "Before a larger optimizer, calculate unchanged signed-cut scores for inheritedC/V and phase partitions on the same rendered TRAIN. A strict phase advantage disproves exact optimum identification with inheritedC/V on this representation. The mathematical78vertex objective is valid without extending the old22vertex executable; no global optimum claim required.",
+    "paired_scope": "Keep identical underlying lexeme split, words, order and content. State endpoint handling explicitly: trimming rendered endpoints differs from trimming whole source phones. Root must freeze this before scoring, retain the distinction and avoid attributing an endpoint convention effect solely to phonology.",
+    "positive_interpretation": "Demonstrates or fails to demonstrate representation dependence of this class objective under a known reversible channel. It cannot reject phonetic origin: source is known phonetic in both arms.",
+    "limits": [
+      "This is an intentionally transparent control renderer, not a historically attested Voynich system or a proposed alphabet.",
+      "Two halves per phone change sign inventory and length; the causal intervention includes those changes and cannot isolate only one factor.",
+      "Do not launch a segmentation decoder or relabel native components from this control.",
+      "GDT605 learned recurrent units are not independently identified phones; its original failure and later followups remain."
+    ]
+  }
+}

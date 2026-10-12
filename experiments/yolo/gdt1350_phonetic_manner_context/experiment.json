@@ -1,0 +1,116 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One known-phone source with supplied units, coarse classes and prototype labels. Partial manner association; joint gate fails, no native sounds or meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1350_phonetic_manner_context/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1350_phonetic_manner_context/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1347",
+    "GDT1279",
+    "GDT1348"
+  ],
+  "experiment_id": "GDT1350",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/PACKET.json.gz",
+      "role": "fixed source packet, independent metadata or raw proposal",
+      "sha256": "5cd3b28143b80d08781eed830751add135bb4893ae5825ecbe01523af8e4b7d8"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/source/cmudict.phones",
+      "role": "fixed source packet, independent metadata or raw proposal",
+      "sha256": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/INDEPENDENT_MANNER_TRANSFER_RAW_20261012.json",
+      "role": "fixed source packet, independent metadata or raw proposal",
+      "sha256": "9e8b462efea1853731ae25bc4bf295d2e293716cd328c565f7f33b57c431171d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "29929c1842d8b2552b77dcbe539fceb550b85a37d4b8f569093bce32f7994556"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "29929c1842d8b2552b77dcbe539fceb550b85a37d4b8f569093bce32f7994556"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "e38e010f70f2d2eae706672de5d26e5a4b4a2b107b0b18e4bee9bfaa43b150b9"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/REPORT.md",
+      "role": "primary_report",
+      "sha256": "095398e8b9b2325cb7c5181dc3b22e6325e3835c03f35a0a4f4512cd39fa916d"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/artifacts/PROSPECTIVE_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "4c91725d6e3c6c7d074532e3c586cc0d7fa6a05b6ca03e931a3a7c78a0cda63c"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "006774862a30e80d1eaf1d128f8ef5faffba79a5dd2fe3d32edf1391d410dc5b"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "6a9e4155bbbeb9d004058227d231910149054b2f15297d9ecc2cb5bf6dd2196f"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/artifacts/RESULT_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "3b50df67b58fb71d16fe7c2799add5f60f057518e31f996f04423bd4d3564aa7"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "4e1cc2ed8e82db515db8fc85b1f5c1005d6d5ba22f8618fe83d5c73b1d6e7448"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/artifacts/WORK_CHECKPOINT.json",
+      "role": "reproducibility artifact",
+      "sha256": "16cc9f761b22efe932d9b9b17bfcb58dca39afbf4adcc4ec840666ed9a6cd488"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "d1d66b290d3d244f64457cdace05ae1734d1c31bf2cc6042acfd91764ec32748"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "97381d93180d6941b820fb902c2ad2eee9d57916b726ab04dc02cc095212a3ec"
+    },
+    {
+      "path": "experiments/yolo/gdt1350_phonetic_manner_context/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "43369784b878167befb770cd6b23b77c97d7d7ad1b3e233b0c0e5ef08ea4a187"
+    }
+  ],
+  "question": "Does fixed leave-target-label-out context similarity transfer independently annotated phonetic subclasses and separate the same procedural/shuffled controls?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "phonetic_manner_context",
+  "status": "MANNER_TRANSFER_JOINT_GATE_FAIL",
+  "title": "Independent phone manner transfer from neighbor profiles",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1350_phonetic_manner_context/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}
