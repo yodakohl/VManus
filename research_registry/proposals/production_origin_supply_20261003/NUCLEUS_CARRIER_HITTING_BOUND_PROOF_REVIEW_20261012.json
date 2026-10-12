@@ -1,0 +1,120 @@
+{
+  "status": "SUPPORTED_CONDITIONAL_CARRIER_BOUND_WITH_EXPLICIT_UNIT_ALIGNMENT",
+  "date": "2026-10-12",
+  "reviewer": "branch_claims independent source-free proof audit",
+  "candidate": "IDEA001042",
+  "evidence_sha256": {
+    "research_registry/proposals/production_origin_supply_20261003/NUCLEUS_CARRIER_HITTING_BOUND_RAW_20261012.json": "a96ad54f8053163cf2800edab7130dcdefeee678cd10b01ddcf8b7eb70b2a3f5",
+    "experiments/yolo/gdt1355_fixed_null_erasure_capacity/REPORT.md": "aedd008c8e43cf24c0b62cae0453514bcb4123c7cc91cb82698c1ba372297614",
+    "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md": "c4b3c8121bc96d9df3e96dcea4aa6ca77bee3981c5fcb27a1b6dafe7a7180be4"
+  },
+  "no_new_native_count": true,
+  "proof": {
+    "assumptions": [
+      "Sigma is exactly the inherited22working-unit alphabet. Each w is a nonempty retained complete group over Sigma.",
+      "C is one fixed finite inventory of K nonempty carrier strings over Sigma. Entire carrier occurrences align with the stipulated working-unit boundaries.",
+      "Every retained group contains at least one intact complete carrier from C; no claim of nucleus identity is inferred from this combinatorial premise."
+    ],
+    "argument": [
+      "Select one working unit r(c) from each nonempty carrier c. Because c occurs inside a group only as complete working units, every group contains at least one of these selected units.",
+      "The distinct representative set R intersects every group and has cardinality at most K, regardless of shared codeforms, nonunique decoding, arbitrary code lengths or the placement of other source material.",
+      "Complementation identifies hitting sets with feasible fixed null-type sets: tau(W)=22-max_feasible_null_types. Thus K>=tau(W). Token-mass maxima are irrelevant to this cardinality proof."
+    ],
+    "verdict": "VALID_NECESSARY_CONDITION",
+    "no_converse": "Having at least tau carriers does not establish actual source nuclei, a phonology, historical code, complete spelling rule or source fit."
+  },
+  "checked_primary_arithmetic": {
+    "FULL": {
+      "IT2a": {
+        "max_null_types": 9,
+        "tau": 13
+      },
+      "RF1b": {
+        "max_null_types": 8,
+        "tau": 14
+      },
+      "ZL3b": {
+        "max_null_types": 11,
+        "tau": 11
+      }
+    },
+    "GE2": {
+      "IT2a": {
+        "max_null_types": 13,
+        "tau": 9
+      },
+      "RF1b": {
+        "max_null_types": 13,
+        "tau": 9
+      },
+      "ZL3b": {
+        "max_null_types": 13,
+        "tau": 9
+      }
+    },
+    "source": "1355 REPORT exact capacity table, last TYPE column; original validation inherited, not independently rerun here.",
+    "sensitivity": "GE2 selects forms on at least two physical leaves; repeats do not add constraints to the set-cover proof. It is sensitivity, not holdout or correction of rare forms."
+  },
+  "mandatory_cautions": [
+    {
+      "case": "Code boundary inside a working unit",
+      "consequence": "If a hypothesized carrier is an ASCII fragment or drawn component inside working ch/ckh/etc, selecting one22-alphabet unit from that carrier is undefined. If two source codes fuse across a working-unit boundary, a carrier may no longer survive intact. The present proof does not cover those representations.",
+      "required_wording": "Nonempty working-unit strings with unit-aligned intact occurrences, not arbitrary physical pen-stroke/ASCII substrings."
+    },
+    {
+      "case": "Phonological word versus written group",
+      "consequence": "The contract requires a nucleus carrier in every retained written group, not merely every spoken/prosodic word. Separately written clitics, abbreviations, nonlexical labels, consonant-only written forms or multi-group phonological words can break that premise. No regrouping or exception is inferred."
+    },
+    {
+      "case": "Syllabic consonants and diphthongs",
+      "consequence": "Nucleus categories must follow an independently fixed language-stage analysis including any independently syllabic consonants. Vowel letters, vowel qualities, phonemes, long/short distinctions, diphthong sequences and nucleus categories are not interchangeable counting units."
+    },
+    {
+      "case": "Allography or contextual spelling",
+      "consequence": "K counts distinct complete written carriers across all categories and contexts. If category j has at most a_j whole carrier variants, sum_j a_j>=tau is necessary; a small phoneme count with multiple spellings is not excluded by a phoneme-count comparison. Category-sharing of identical carrier forms cannot improve coverage."
+    },
+    {
+      "case": "Omitted or implicit vowels",
+      "consequence": "If all nuclei of some group can be unwritten/implicit, the required nonempty-carrier premise fails. Abjad/abugida/contextual CV or syllabic systems cannot be rejected by comparing only a familiar vowel inventory."
+    },
+    {
+      "case": "Type-level constraints",
+      "consequence": "Observed wholeform types constrain support coverage. This is not a syllable census, phonotactic reconstruction, assignment of any sign as a vowel, or estimate of actual nucleus frequency."
+    },
+    {
+      "case": "Arbitrary covering constructions",
+      "consequence": "GDT1253 provides universally covering grammar-restricted code constructions and warns that parseability alone cannot select language. Likewise a hitting set or enough carriers is only a necessary capacity condition, not positive phonetic evidence."
+    }
+  ],
+  "recommended_decision": "Root may retain a conditional exclusion of <=8 fixed distinct intact unit-aligned always-present carrier forms on each GE2 panel, and the stronger FULL lower bounds. Require independent evidence for each language-specific nucleus inventory, spelling-variant bound and group/word alignment before any named-language conclusion. No vowel-subset solver or new native census needed for this implication.",
+  "dangerous_inferences_rejected": [
+    "Voynich has at least9vowels.",
+    "Every language with at most8vowel phonemes is excluded.",
+    "A minimum hitting set identifies written vowels.",
+    "Long codeforms or nonUDambiguity by themselves evade the representative bound when unit-aligned coverage still holds.",
+    "Every nonempty complete manuscript group is a complete phonological word."
+  ],
+  "publication_qualification": "The proposed raw text should explicitly add same22working-unit alignment before presenting the broad arbitrary-length carrier exclusion; this review does not adopt any source language or native sound values.",
+  "shared_unit_family_addendum": {
+    "status": "VALID_CONDITIONAL_EXTENSION",
+    "new_native_count": false,
+    "raw_proposal_changed": false,
+    "premises": [
+      "Every retained group contains a complete unit-aligned carrier, as in the original lemma.",
+      "All permitted carriers are covered by B fixed nonempty families. In each family b, the intersection of working-unit support sets of ALL its carrier forms is nonempty. Number of variants per family may be arbitrarily large.",
+      "Common units are fixed globally for the family, not chosen separately per group or after observing which variant occurred."
+    ],
+    "proof": "Choose r_b in the support intersection of family b. Any group containing a carrier from that family contains r_b. The set of all chosen r_b is a whole-group hitting set with at most B elements. Therefore B>=tau(W). A partition is sufficient but not necessary; a cover by such families suffices.",
+    "consequences": [
+      "For exact unit-string length doubling c(v_long)=c(v)c(v), each long form retains every unit of c(v), so short and long variants have a shared representative. Doubling cannot rescue at most8such base-carrier families on GE2.",
+      "Adding a length, stress or other marker while preserving at least one fixed complete base working unit in every variant likewise leaves that family covered by one representative.",
+      "An infinite inventory of variants is no escape if it still has at most8families with the stipulated common-unit property."
+    ],
+    "limits": [
+      "Grouping spellings by a phoneme name does not establish a common written unit. Genuine base-replacing allography, zero carriers, unit-splitting or fusion that removes the shared working unit falls outside this extension.",
+      "The bound counts carrier families with proved support intersections, not vowel qualities, phonemes, morae, syllables or linguistic categories automatically.",
+      "No conclusion about a named language or its historical orthography follows without independent inventory and spelling evidence.",
+      "Original primary hashes and raw proposal remain unchanged."
+    ]
+  }
+}

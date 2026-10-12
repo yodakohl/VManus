@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: source.
-Latest decision: 1041parked.
-Working files: 1041review.
-Assumptions: no sourcekey.
-Resume: new source contract.
+Task: nuclei.
+Latest decision: 1042>=9.
+Working files: 1042review.
+Assumptions: whole nucleus.
+Resume: nucleus exceptions.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicbd83d6fb2.
+Public30681800e.

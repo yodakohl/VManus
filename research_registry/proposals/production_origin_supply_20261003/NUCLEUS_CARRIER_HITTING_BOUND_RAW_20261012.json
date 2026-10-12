@@ -1,0 +1,56 @@
+{
+  "title": "RAW: arbitrary nonempty nucleus-code inventories inherit exact whole-word hitting-set lower bounds",
+  "summary": "Source-free corollary of existing1355, not a new native census. If every complete source word emits at least one intact nonempty member of a fixed inventory of K written nucleus carriers inside its own output group, selecting one working sign from each carrier gives a whole-group hitting set of size at most K. Existing exact bounds therefore require K>=13/14/11 on FULL IT/RF/ZL and K>=9 on every GE2 panel. Carrier strings may be long, collide, and lack unique decoding; representatives are not identified vowels.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_DERIVED_APPLICATION_NOT_SELECTED",
+  "design": {
+    "mechanism": "A fully vowel-writing alphabetic channel gives each independently defined syllabic-nucleus source segment one fixed nonempty written string, or a bounded finite collection of such strings. Every complete source word contains a nucleus and preserves one such whole carrier as a contiguous substring inside its corresponding written group. This is a necessary-condition class, not a new full writer.",
+    "unit": "Use exactly the inherited1355 strict22-working-unit complete-group panels, separately FULL and wholeforms present on at least two physical leaves (GE2), with readers separate. No unit or word-boundary claim is promoted.",
+    "contrast": "Unlike old singleton-only source-vowel lower bounds, use all existing wholeword support constraints and recurrent sensitivity. Unlike treating1264classes as C/V, infer no sign-level phonetic class. Unlike a raw-vowel-cover equivalence claim, use only a one-way representative lemma that remains sound for multigraph codes.",
+    "proof": [
+      "Let W be retained nonempty written groups and tau(W) the minimum cardinality of a sign set intersecting every group.",
+      "Let C be a fixed collection of K nonempty carrier strings. Assume each w contains at least one entire c in C. Select one sign r(c) appearing in each c.",
+      "R={r(c):c in C} intersects every w and |R|<=K, so K>=tau(W). No substring boundary recovery, prefix/suffix freedom or unique decoding is needed.",
+      "In1355 an erased set N is feasible exactly if Sigma\\N intersects every word. Since |Sigma|=22, tau(W)=22-max_feasible|N|. Use TYPE maxima, not token-mass maxima.",
+      "If each independent source nucleus category has exactly one fixed nonempty written carrier, its category count must be at least tau. With at most a_j alternative carriers for category j, sum_j a_j>=tau is necessary. Multiple categories may share carriers, which cannot improve the bound."
+    ],
+    "inherited_arithmetic": {
+      "FULL": {
+        "IT2a": {
+          "max_null_types": 9,
+          "min_carrier_count": 13
+        },
+        "RF1b": {
+          "max_null_types": 8,
+          "min_carrier_count": 14
+        },
+        "ZL3b": {
+          "max_null_types": 11,
+          "min_carrier_count": 11
+        }
+      },
+      "GE2": {
+        "IT2a": 9,
+        "RF1b": 9,
+        "ZL3b": 9
+      }
+    },
+    "smallest_decision": "Independently verify this source-free implication and the existing1355 TYPE maxima. If accepted, no native vowel-subset or cluster solver is needed to exclude a <=8-carrier always-written-nucleus contract even on GE2. Only after separately sourcing a language stage and exact phonological/spelling convention may its nucleus inventory be compared. No language is selected or excluded by name here.",
+    "scope_limits": [
+      "Not a recovered vowel partition. A chosen representative may also occur in consonant spellings; raw signs in R are not vowel sounds.",
+      "Abjads with omitted vowels, context-dependent abugida/CV spellings, null nucleus codes, cross-group carrier placement, abbreviations or nonlexical complete groups may violate the premise. They are not excluded.",
+      "A syllabary normally has many nucleus-containing syllable carriers; vowel phoneme count cannot replace that carrier count.",
+      "Fully phonetic source categories must include every independently syllabic segment, including syllabic consonants where permitted. Vowel letters, phonemes, long/short contrasts and diphthong analyses cannot be interchanged opportunistically.",
+      "Nonempty consonant codes are not needed for the representative proof. Nulling other material is allowed if at least one protected complete nucleus carrier remains inside each whole group.",
+      "A compatible carrier count is only non-exclusion, not a word reading, source-language probability or historical script identification.",
+      "FULL rare-form sensitivity remains;GE2 is an old sensitivity population, not holdout. Reader agreement is not independent replication."
+    ],
+    "prior_review": "Live route/composition; bounded nucleus/vowelless/whole-word route and duplicate searches; singleton-vowel obligation read;1355primary and zero indexedfollowups checked; targeted dossiersearch found generic hitting-set/null bound but no documented multigraph nucleus-carrier corollary. No exhaustive novelty claim.",
+    "old_obligation_retained": "Old singleton-only bound IT12/RF14/ZL10 remains valid under its premises. Present FULL adds only1 inIT/ZL and no RF increase; broader carrier proof and GE2>=9 are the substantive stated application.",
+    "access": "No new native rows, source corpus, image, phoneme assignment, experiment, classifier or decoder. Existing report arithmetic only."
+  },
+  "primary_hashes": {
+    "experiments/yolo/gdt1355_fixed_null_erasure_capacity/REPORT.md": "aedd008c8e43cf24c0b62cae0453514bcb4123c7cc91cb82698c1ba372297614",
+    "research_registry/proposals/production_origin_supply_20261003/SINGLETON_SOURCE_VOWEL_OBLIGATION_20261007.json": "92acdfb54789b657d302c64b4fd3dd6e33d319defefaf9f14188f4dbc9e0d6ef"
+  }
+}

@@ -1,3 +1,7 @@
+## 2026-10-12 — Fixed nucleus-carrier families require at least nine forms
+
+New1042corollary: choose one working unit from each fixed nonempty nucleus code; these units must hit every complete written word.1355TYPEbounds therefore require13/14/11carriers onFULLIT/RF/ZL,9onallGE2. Long/nonUDcodes and common-base length variants do not evade this conditionalbound. Independentproofandhash-boundarithmeticPASS. This counts writtenforms, notidentifiedvowels; modernSpanish5/Italian7fixedcarrierconjunctions fail, no general languageban. [Application](research_registry/proposals/production_origin_supply_20261003/NUCLEUS_CARRIER_LANGUAGE_APPLICATION_20261012.json).
+
 ## 2026-10-12 — Neutralization source fitting parked
 
 1041retains1361paircapacity and1362literalcore, but no independently justified source/segment binding was selected. ExistingASJP40wordlistsarenotlanguageinventoriesorfulltext;CMU39doesnotsupplya22categoryprojection. No newtest,languageexclusionorlexicalvalue. Do not rerun these counts or repeat the same missing-input audit; require a new source/content contract or suitable evidence. [Decision](research_registry/proposals/production_origin_supply_20261003/NEUTRALIZATION_SOURCE_SELECTION_STOP_20261012.json).
