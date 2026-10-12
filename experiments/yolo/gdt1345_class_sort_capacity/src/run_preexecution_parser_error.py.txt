@@ -1,0 +1,78 @@
+from pathlib import Path
+from collections import defaultdict
+import gzip, hashlib, json, re
+B=Path(__file__).resolve().parents[1]; R=B.parents[2]
+SIGNS=sorted(['a','o','e','i','n','d','q','y','s','r','l','m','k','t','p','f','ch','sh','ckh','cth','cph','cfh'])
+SOURCE='experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/SOURCE.json.gz'
+CLASS='experiments/yolo/gdt1343_default_vowel_terminal_capacity/artifacts/CLASSIFICATION.json.gz'
+def save(name,obj):(B/'artifacts'/name).write_text(json.dumps(obj,indent=2,sort_keys=True)+'\n')
+def tokens(raw):
+    out=[]
+    while raw:
+        choices=[s for s in SIGNS if raw.startswith(s)]
+        assert len(choices)==1,(raw,choices)
+        s=choices[0];out.append(s);raw=raw[len(s):]
+    return out
+
+def clique(adj):
+    best=[]
+    def expand(chosen,candidates):
+        nonlocal best
+        if len(chosen)>len(best):best=chosen[:]
+        while candidates:
+            if len(chosen)+len(candidates)<=len(best):return
+            v=candidates.pop(0)
+            expand(chosen+[v],[u for u in candidates if u in adj[v]])
+    expand([],sorted(adj,key=lambda v:(-len(adj[v]),v)))
+    return sorted(best)
+
+def topo(members,edges):
+    left=set(members);out=[]
+    while left:
+        ready=sorted(v for v in left if not any((u,v) in edges for u in left))
+        if not ready:return None
+        v=ready[0];out.append(v);left.remove(v)
+    return out
+
+def panel(rows):
+    edges={}
+    for r in rows:
+        ts=tokens(r['raw']); seen=set()
+        for i,u in enumerate(ts):
+            for j in range(i+1,len(ts)):
+                v=ts[j]
+                if u==v or (u,v) in seen:continue
+                seen.add((u,v))
+                if (u,v) not in edges:edges[u,v]={'tokens':0,'types':set(),'leaves':set(),'witness':{'source':r,'positions':[i,j]}}
+                e=edges[u,v];e['tokens']+=1;e['types'].add(r['raw']);e['leaves'].add(re.match(r'f\d+',r['page']).group())
+    active=sorted({s for r in rows for s in tokens(r['raw'])})
+    adj={u:{v for v in active if (u,v) in edges and (v,u) in edges} for u in active}
+    lower=clique(adj);classes=[]
+    for v in sorted(active,key=lambda u:(-len(adj[u]),u)):
+        for c in classes:
+            if topo(c+[v],edges) is not None:c.append(v);break
+        else:classes.append([v])
+    orders=[topo(c,edges) for c in classes]
+    for r in rows:
+        ts=tokens(r['raw'])
+        for order in orders:
+            rank={s:i for i,s in enumerate(order)};seq=[rank[s] for s in ts if s in rank]
+            assert seq==sorted(seq)
+    evidence=[]
+    for (u,v),e in sorted(edges.items()):
+        evidence.append({'before':u,'after':v,'tokens':e['tokens'],'types':len(e['types']),'physical_leaves':len(e['leaves']),'witness':e['witness']})
+    return {'groups':len(rows),'types':len({r['raw'] for r in rows}),'active_units':active,'directed_edges':len(edges),'conflict_edges':sum(map(len,adj.values()))//2,'clique':lower,'class_lower_bound':len(lower),'class_upper_bound':len(orders),'exact_minimum':len(lower) if len(lower)==len(orders) else None,'orders':orders,'edge_evidence':evidence}
+
+def main():
+    for p,h in json.loads((B/'src/REGISTRATION_LOCK.json').read_text())['hashes'].items():assert hashlib.sha256((R/p).read_bytes()).hexdigest()==h,p
+    source=json.loads(gzip.decompress((R/SOURCE).read_bytes()));cs={r[0]:r[1] for r in json.loads(gzip.decompress((R/CLASS).read_bytes()))}
+    result={}
+    for ed in ['ZL3b','IT2a','RF1b']:
+        rows=[r for r in source if r['edition']==ed and cs[r['id']]=='STRICT']
+        leaves=defaultdict(set)
+        for r in rows:leaves[r['raw']].add(re.match(r'f\d+',r['page']).group())
+        for name,rr in [('ALL_STRICT',rows),('TWO_PHYSICAL_LEAVES',[r for r in rows if len(leaves[r['raw']])>=2])]:
+            result[ed+'_'+name]=panel(rr)
+    save('RESULT.json',result)
+    print(json.dumps({k:{a:v for a,v in d.items() if a not in ['edge_evidence','orders','active_units']} for k,d in result.items()},indent=2))
+if __name__=='__main__':main()

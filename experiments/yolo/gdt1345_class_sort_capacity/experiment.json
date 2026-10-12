@@ -1,0 +1,123 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact output-order class minimum conditional on22workingunits and strict whole groups; no actual classes, phonetics, source language, historical writer or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1345_class_sort_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1345_class_sort_capacity/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1263",
+    "GDT1321",
+    "GDT1342",
+    "GDT1343",
+    "GDT1344"
+  ],
+  "experiment_id": "GDT1345",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1342_qoky_written_predecessor/artifacts/SOURCE.json.gz",
+      "role": "frozen exposed source or proposal",
+      "sha256": "947cfef82ee3192771e0e6719dd50f6b5db20bfda03d8050f1d547444f72f755"
+    },
+    {
+      "path": "experiments/yolo/gdt1343_default_vowel_terminal_capacity/artifacts/CLASSIFICATION.json.gz",
+      "role": "frozen exposed source or proposal",
+      "sha256": "4c55521a700c49b4733fe5a6f5d6bf8921147edfd5052c1326c52ff239c9e40e"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "frozen exposed source or proposal",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CLASS_SORT_EXCLUSION_ENVELOPE_20261012.json",
+      "role": "frozen exposed source or proposal",
+      "sha256": "ef7bd16bc89042178bea8ac580092c9731ebf4e78a12ceb02d143c1f6e10ac05"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "aac12a45e594c42fb6648f66e1492e345394f9454aa0475fe48a75154ef6e4f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "aac12a45e594c42fb6648f66e1492e345394f9454aa0475fe48a75154ef6e4f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "5cbb8dd1ac01518ea25faa457a196ef12c89279c488aee17e6e9f6c070137738"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/REPORT.md",
+      "role": "primary_report",
+      "sha256": "05e3fd11981455f8c268f45a0b51243f2f8848666c292d824705e1a94c103b3e"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/artifacts/PEER_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "ae5a78d20080ababd99d0c642b6374e337b188c0b2965bee7a18b4882f1df41c"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "3068250a05b99248f76c74605fd27db6563eed7fc325d4a06533c5a83f796338"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "3405e45932604e8e184c79ca80f35048f6f54d5d86bf5649ca1a02b95f7ace31"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "3bd95df231e642d7b4a92eb276687bd68992dc25ae6973d285b1ad38478a431c"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/src/REGISTRATION_LOCK_INITIAL.json",
+      "role": "reproducibility artifact",
+      "sha256": "f29f0ee06eae4d775ec8fae7f98fabbbb4f8689a1dd6ece0cfcebed5c407b2c2"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "85c1abf179c318d6fbc345c189aef46e1f03395c25f2f5be855452a84830d6dd"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/src/run_preexecution_parser_error.py.txt",
+      "role": "reproducibility artifact",
+      "sha256": "4aab28673c042de6c84a2c5b468b3baf7e7d507ce8acc59920c3119bcfd170c6"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "69ee74498bb83f7a599ef015ceda2b300e92df2a2257e9cb42783ae03446b6bf"
+    }
+  ],
+  "question": "How many fixed strictly sorted sign classes are necessary for all retained whole groups, independently of key and source language?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "class_sort_capacity",
+  "status": "ALL_FIXED_WITHIN_CLASS_SORTERS_BELOW_CAPACITY_EXCLUDED",
+  "title": "Exact class capacity for every fixed within-class sorter",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1345_class_sort_capacity/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

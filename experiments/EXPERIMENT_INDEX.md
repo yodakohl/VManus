@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1343**
-- Experiment-associated tracked files: **26,360** (2.4 GiB)
-- Structured GDT337+ experiments: **1008**
+- Experiments indexed: **1344**
+- Experiment-associated tracked files: **26,374** (2.4 GiB)
+- Structured GDT337+ experiments: **1009**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1345 | gdt1345_class_sort_capacity | `FIXED_SORT_CLASS_ENVELOPE` | [report](../experiments/yolo/gdt1345_class_sort_capacity/REPORT.md) | 14 | 1.3 MiB | 6 | STRUCTURED_YOLO |
 | GDT1344 | GDT1344_two_class_sort_triangle | `TWO_CLASS_SORT_CONTRADICTED_ALL_READINGS` | [report](../experiments/yolo/gdt1344_two_class_sort_triangle/REPORT.md) | 15 | 93.7 KiB | 7 | STRUCTURED_YOLO |
 | GDT1343 | GDT1343_default_vowel_terminal_capacity | `CONDITIONAL_TERMINAL_CODA_CAPACITY_BOUND` | [report](../experiments/yolo/gdt1343_default_vowel_terminal_capacity/REPORT.md) | 15 | 371.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT1342 | GDT1342_qoky_written_predecessor | `FIXED_PAGE_RULE_CONTRADICTED_ALL_READINGS` | [report](../experiments/yolo/gdt1342_qoky_written_predecessor/REPORT.md) | 16 | 1.5 MiB | 8 | STRUCTURED_YOLO |

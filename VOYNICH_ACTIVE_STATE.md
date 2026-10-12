@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1345 excludes small within-class sorters together
+
+Source/key-independent pair-order conflicts and matching constructive partitions give exact class minima14/15/15for all strict ZL/IT/RF groups,10/10/11for whole forms on at least two physical leaves. Thus every fixed strict within-class sorter with at most9classes fails the recurrent panels separately. Conditional22-unit/group representation; no actual native classes or historical mechanism. GDT1344two-class failure remains. No automatic larger-class repair and no translated word. [Report](experiments/yolo/gdt1345_class_sort_capacity/REPORT.md).
+
 ## 2026-10-12 — eight-agent cross-branch evidence audit and condensed memory
 
 All8available subagents reviewed complementary branch/history, structural, closure, lexical, binding, registry and priority scopes. All8inventoried Gitrefs are ancestral/equal to publicmain; selected reports and substantive scientific additions in5extra reflogcommits are retained. No lost translation or newnativebinding found; this is not a scientific rerun of all historical experiments. Seven canonical IDEAIDs shadowed by HISTaliases are now accessible;54registry-family tests pass. GDT1245's already published native-representation caution is preserved in a fresh append-only review. The brief and `context topic Gesamtbild` condense positives, specific failures, unknowns and meaning limits. Zero confirmed lexemes. [Synthesis](research_registry/proposals/production_origin_supply_20261003/BRANCH_AUDIT_SUMMARY_20261012.json).

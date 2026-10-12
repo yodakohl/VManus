@@ -2,13 +2,13 @@
 Updated: 2026-10-12.
 
 ## Work
-Phase: workflow
-Status: checkpoint
-Task: eight-agent branch audit.
-Latest decision: 7 ID lookups fixed.
-Working files: BRANCH_AUDIT_SUMMARY_20261012.
-Assumptions: scoped audit;old stops retained.
-Resume: context topic Gesamtbild.
+Phase: fixed_test
+Status: complete
+Task: sorter exclusion.
+Latest decision: 1345 min10classes.
+Working files: GDT1345.
+Assumptions: 22units/groups/orders.
+Resume: review IDEA1016 proof.
 Running: none.
 
 ## Structural baseline
@@ -17,6 +17,7 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 1308/9whole gain;1316halves ALL+/newFAIL;1320word-choice+.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
+1345sort min14/15/15full;10/10/11recurrent.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
@@ -70,4 +71,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publice1942cea2.
+Public38d1d06e0.
