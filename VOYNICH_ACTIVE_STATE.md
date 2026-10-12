@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1355 bounds fixed null erasure and qualifies nullable-entry escape
+
+Fixed global sign deletion with nonempty residual in every group permits at most31.905/14.014/28.909%ofFULLunit occurrences (IT/RF/ZL); GE2maxima43.843/40.727/44.332%remainbelowhalf. Maxnulltypes9/8/11FULL and13eachGE2are different objectives, not pooledwithmassmaxima. No actualnullset selected; rareRFpremises matter. Separately, RFwholek/e/s keep their parsed-entry expansions nonempty and preserve oldXU4Yfive-source exclusion evenifotherentriesnullable. That corollary is not a numericbound on entrynulls or a languageban. [Report](experiments/yolo/gdt1355_fixed_null_erasure_capacity/REPORT.md).
+
 ## 2026-10-12 — GDT1354 explicit pair-tail countercode settles singleton i
 
 FixedH={i,n}IT andH={i}RF/ZL suffix codes uniquely cover every61181strict group, without singletoni. Actualusedtables31/29/27entries affect4359/3897/3716groups withpairs. This completes1353FULLsingletonintersection at17/18/16forced entries; no newforcedsign. Source-informed selection is disclosed. ITjointi/nomission is verified, not jointomissionofalloptional signs. No sourcevalues, phonetics, historical fit orminimumalphabet. Existingkeeees/fixed-source exclusions remain and1353originalpartialresult stayshistorical. [Report](experiments/yolo/gdt1354_minim_pair_omission_code/REPORT.md).

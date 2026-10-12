@@ -1,0 +1,3 @@
+# GDT1355
+
+See [REPORT.md](REPORT.md) for exact fixed-sign erasure envelopes and the separately scoped RF nullable-entry corollary. [PREREGISTRATION.md](PREREGISTRATION.md) freezes both contracts. From the repository root run `python experiments/yolo/gdt1355_fixed_null_erasure_capacity/src/run.py`, then `python experiments/yolo/gdt1355_fixed_null_erasure_capacity/src/validate.py`. `PYTHONDONTWRITEBYTECODE=1 python experiments/yolo/gdt1355_fixed_null_erasure_capacity/src/controls.py` replays source-free fixtures. Python and NumPy required. No null sign, phonetic value or word meaning identified.
