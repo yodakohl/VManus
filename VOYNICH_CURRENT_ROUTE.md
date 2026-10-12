@@ -2,13 +2,13 @@
 Updated: 2026-10-12.
 
 ## Work
-Phase: exploration
+Phase: fixed_test
 Status: checkpoint
-Task: f57 graphic units.
-Latest decision: 1352units unresolved.
-Working files: GDT1352.
-Assumptions: no sound values.
-Resume: review GDT892 followups.
+Task: joint code units.
+Latest decision: 1353i unresolved.
+Working files: GDT1353.
+Assumptions: fixed freeUD.
+Resume: review unresolved i.
 Running: none.
 
 ## Structural baseline
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicca54d7298.
+Public0adee0750.

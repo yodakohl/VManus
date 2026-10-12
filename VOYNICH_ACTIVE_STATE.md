@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1353 conditional unit obligations beyond the old short-code result
+
+Arbitrary-size freelyUD fixed word codes force17/18/16singletons on IT/RF/ZL FULL panels, leavingi unresolved; all other unforced signs have explicit individual covering countercodes. GE2classifications are exact13/13/12. New versus1235+1267union: f/f,p/f,p; additionally fixed whole groups168/536/543, not all63–65%coverage newly discovered. p has recurrent proofs; f does not remain forced inGE2. Countercodes may differ per omitted sign; no joint omission, minimum alphabet, sound or meaning.1267oldbridge/draft and prior failures preserved. [Report](experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md).
+
 ## 2026-10-12 — GDT1352 spaced f57v forms do not establish an alphabet
 
 One original-resolution view of the complete second annulus under a new prospectively registered image-only scope shows many spaced graphic constructions. Uniform authorial item delimiters and an independent exact census remain unresolved;17positions are not17types orphonemes. The old184fourfold sequence and withdrawn meanings,1169pathstop and1348unit limit remain. No text-selector expansion, transcription, parser, sound or meaning. Source bytes match1169; accountingPASS does not validate perception. Future joint writing/segmentation hypotheses may remain explicit assumptions rather than requiring certainty from pictures alone. [Report](experiments/yolo/gdt1352_f57_repeated_sign_boundaries/REPORT.md); [scope](docs/57v-signs.md).

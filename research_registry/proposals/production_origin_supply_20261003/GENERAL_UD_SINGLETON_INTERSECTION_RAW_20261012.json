@@ -1,0 +1,35 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "title": "RAW: exact singleton obligations for arbitrary freely UD word codes via two-sided quotient proofs and explicit avoidance codes",
+  "summary": "Compute only sound finite common-left/right quotient obligations on existing1233complete words, then test simple prefix/suffix countercodes separately for each nonderived singleton. If every remaining sign has a covering freelyUD countercode omitting it, identify the exact forced-singleton intersection. No full closure completeness, joint omission or codebook minimum claimed.",
+  "contract": {
+    "source": "Existing1233strict complete-word cache, FULL and whole forms on at least2physical leaves, each reader separately. Root freezes source hash and exact panel formation; no newquery/image/reserve. Recurrent diagnostic never replaces FULL.",
+    "code_assumptions": "One fixed codebook of nonempty strings over the inherited working-unit alphabet. Arbitrary finite size permitted. Freely uniquely decodable under unrestricted codeword concatenation. Every retained complete group lies inC*. No source language, phoneme count, value map or prefix/suffix assumption.",
+    "inference": "Initialize U to all retained wholeword strings. Repeatedly insert nonempty y when x,xy,yz,z all lie inU. Generated y is a substring of an existing string, so the closure is finite. Store acyclic proof parents back to original source wholewords; do not use arbitrary one-sided cancellation.",
+    "soundness": "Let code-entry parses of x,xy,yz,z be A,B,D,C respectively. The equality x(yz)=(xy)z and freeUD imply A D=B C. The codeword lists A andB are prefix-comparable. B cannot be a proper prefix ofA because the nonempty rendered string xy is longer thanx. Hence B=A E and E rendersy. A one-working-unit y must itself be a code entry because codewords are nonempty.",
+    "negative_certificate": "For each active singleton h not derived, if h never begins a wholeword, factor all words into maximal a h^k blocks with a!=h. The finite set of used blocks is suffix-free, covers every word and omits singletonh. If h never ends a word, dually factor into h^k a blocks, yielding a prefix-free code. Verify direct coverage, nonempty entries, absence ofh and prefix/suffix freedom independently.",
+    "nonexact_outcome": "If a nonderived h has neither simple boundary-absence certificate, mark its singleton obligation UNRESOLVED. No largercode search or automatic constructor expansion. The sound forced subset remains valid.",
+    "exact_outcome": "If every active nonderived singleton has a valid countercode, the derived singleton set equals the intersection of singleton entries across ALL admissible covering freelyUD codebooks. This establishes exactly that projection, not completeness of U for arbitrarystrings.",
+    "separate_countercodes": "Countercodes may differ by omitted sign. Never infer one code omits all nonforced signs, or infer a smallest table. Optional jointconstruction requires its own explicitly valid single countercode; not assumed here.",
+    "robustness": "Report FULL and≥2physical-leaf panels without pooling readers. Source-bound rare premises remain assumptions, not errors or independent confirmations.",
+    "budget": "Root to predeclare bounded implementation/validation/publication window; no decoder or codebook optimization. This proposal executes no data."
+  },
+  "prior_distinctions": [
+    "1267already proves the four-premise inference and oldK/E/S consequences. Its full closure draft existed but was explicitly not executed; preserve its bytes and decisions.",
+    "1235short-word necessary bounds are retained; this asks a different exact singleton-intersection projection without a codebook size cap.",
+    "1248prefix tables remain concrete freelyUD countermodels; do not claim every22singleton is forced merely because boundaries are unknown."
+  ],
+  "novelty_review": "Live route/composition context,1267primary/followups,1235lookup/followups and bounded quotient-closure search reviewed. Old source-free draft is not newnative evidence; broad native closure not previously executed according to1267report.",
+  "limits": [
+    "No phoneme or grapheme identification; inherited working units and complete-group boundaries remain conditional.",
+    "Grammar-restricted nonUD, empty expansions, contextual codebooks, overlapping strokes and changedword boundaries are outside.",
+    "No source-language rejection or current K/E/Sfixed-source reopening.",
+    "A formal code countermodel does not establish a plausible historical writer or translation."
+  ],
+  "primary_hashes": {
+    "experiments/yolo/gdt1267_general_ud_two_sided_closure/REPORT.md": "1d58d89c12e170a2dcc9fcc0cc68d21b3cbd78efc44db78bbf684e8521e868ce",
+    "experiments/yolo/gdt1235_ud_short_word_capacity/REPORT.md": "da197feb8cba1b3de70a3812b3f5d42fe44d846e4c6d8f609433b2b5b75b3b28",
+    "experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md": "f5c527cc8b5e1b550834d07006e21a13c0aa7c7f2169c2f576fab86cf1fec1cd"
+  }
+}

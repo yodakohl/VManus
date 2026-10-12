@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1351**
-- Experiment-associated tracked files: **26,501** (2.4 GiB)
-- Structured GDT337+ experiments: **1016**
+- Experiments indexed: **1352**
+- Experiment-associated tracked files: **26,524** (2.4 GiB)
+- Structured GDT337+ experiments: **1017**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1353 | gdt1353_general_ud_forced_units | `CONDITIONAL_FREE_UD_SINGLETON_CLASSIFICATION` | [report](../experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md) | 23 | 697.5 KiB | 8 | STRUCTURED_YOLO |
 | GDT1352 | gdt1352_f57_repeated_sign_boundaries | `SPACED_GRAPHIC_FORMS_UNIT_BOUNDARIES_UNRESOLVED` | [report](../experiments/yolo/gdt1352_f57_repeated_sign_boundaries/REPORT.md) | 18 | 2.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT1351 | gdt1351_paired_phone_phase_identifiability | `PAIRED_PHONE_CLASSES_SUBOPTIMAL_PHASE_OPTIMUM` | [report](../experiments/yolo/gdt1351_paired_phone_phase_identifiability/REPORT.md) | 15 | 874.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT1350 | gdt1350_phonetic_manner_context | `MANNER_TRANSFER_JOINT_GATE_FAIL` | [report](../experiments/yolo/gdt1350_phonetic_manner_context/REPORT.md) | 14 | 2.2 MiB | 3 | STRUCTURED_YOLO |

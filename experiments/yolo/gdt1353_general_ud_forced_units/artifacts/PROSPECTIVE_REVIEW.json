@@ -1,0 +1,37 @@
+{
+  "status": "PROSPECTIVE_REVIEW_PASS_NO_MATERIAL_BLOCKER",
+  "reviewer": "fresh_writer_proposals",
+  "date": "2026-10-12",
+  "native_data_or_scores_seen": false,
+  "coverage": "Protocol and both scripts, plus prior source-free proofs. No cache, certificates, outcomes or program execution.",
+  "logic_checks": [
+    "Closure starts from complete wholeword strings and empty; each common residual has two sound left/right parent pairs from the previous round. Index additions occur only after each round, so proof DAG remains acyclic.",
+    "Every derived string is a substring of an initial word. The explicit node bound and finite universe prevent unbounded semantic search. Partial closure is never reported exact.",
+    "GeneralUD obligation proof does not assume one-sided cancellation or prefix freedom. Nonempty codewords force a one-unit codeword-product to be a singletonentry.",
+    "Each omission construction has appropriate endpoint absence, nonempty codes, prefix/suffix freedom and complete source coverage. It contains every already-forced singleton and omits its target.",
+    "Validator independently parses raw working units and rebuilds FULL/GE2word supports; complete closures compared against an independently computed fixed point.",
+    "Validator verifies all proof parents, source roots, countercode shapes, freeUD via residuals, and exactlyone dynamic-program parse of each whole type; usage counts and activity rebuilt.",
+    "The forced set is exact only when closurecomplete and every nonderived target has an omission certificate. Per-target countercodes do not imply joint omission or codebook-size optimality.",
+    "A complete group made only of forcedsingletons has an all-singleton parse and hence no competing longer parse under freeUD. Its activity is conditional segmentation, not phoneme/meaning evidence.",
+    "Named fixtures cover false one-sided cancellation, nonUD collision, nonbifix UD, and unresolved ab/ba. Exhaustive short binary endpoint-compatible examples exercise both omission directions."
+  ],
+  "resource_note": {
+    "issue": "The30second check is at each round start, not inside a potentially long round. Current code implements a soft round-boundary cutoff rather than strict30second walltime.",
+    "requested_resolution": "Before lock, either state the precise soft-budget semantics or add within-round checking that discards incomplete newround additions. No scientific gate or countercode search expansion needed.",
+    "node_cap": "The200000check precedes adding a batch; completed nodes remain sound on stop.",
+    "resolution": "Resolved before lock: protocol explicitly defines30second soft cutoff at round boundaries with possible single-round overrun; total35minute work budget unchanged."
+  },
+  "claim_limits": [
+    "No actual linguistic alphabet, phoneme identity, source language or word meaning.",
+    "Existing22working units, completegroup boundaries and freeUD assumption remain conditional. Grammar-restricted ambiguity, empty codes, context-dependent forms and changedatoms outside.",
+    "GE2sensitivity neither repairs rareFULLpremises nor creates independent confirmation.",
+    "Old1267K/E/Sbridge and unexecuted draft preserved; closure rule not newly invented here."
+  ],
+  "snapshot_hashes": {
+    "experiments/yolo/gdt1353_general_ud_forced_units/PREREGISTRATION.md": "a722d63fae13878fd9d5e75c5a5a84b412c989b488fd92b443021fd34d871de6",
+    "experiments/yolo/gdt1353_general_ud_forced_units/src/run.py": "612e348f7080c00fa85e9902d6500ab7284439ac74246fcd671acaa9076e582e",
+    "experiments/yolo/gdt1353_general_ud_forced_units/src/validate.py": "4bfacb81b9f7d997243407e2eca0d99a877694265c6ba7e22db927fd86ab2c30",
+    "experiments/yolo/gdt1353_general_ud_forced_units/artifacts/PRETARGET_CONTROLS.json": "982df2c4c432024481eee45398350d6bccb2e598cc58d5ea5f6a5b6c17079816"
+  },
+  "pretarget_controls": "Read retained source-free PRETARGET_CONTROLS.json PASS; no native computation reviewed."
+}

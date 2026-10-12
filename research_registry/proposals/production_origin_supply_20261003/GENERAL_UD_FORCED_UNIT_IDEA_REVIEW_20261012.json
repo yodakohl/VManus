@@ -1,0 +1,97 @@
+{
+  "record_id": "IDEA001029",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root finite proof/countercode test with independent validator and source-free peer",
+  "assessment_basis": "Unchanged1233whole groups; finite two-sided quotient proofs, explicit individual prefix/suffix omission tables, independent DP and UD checks; FULL/GE2readers separate.",
+  "reason": "FULLforcesIT17/RF18/ZL16singletons, i unresolved; GE2exact13/13/12singleton intersections. Actual addition over1235+1267union is f/f,p/f,p, with168/536/543additional fully singleton-parsed groups. No source sound/meaning assigned.",
+  "blockers": [
+    {
+      "code": "working_units_whole_words_and_free_ud_assumed",
+      "detail": "One nonempty fixed spelling per entry; all entry sequences uniquely decodable; no internal splitting of workingunits, crossing spaces, contextual spellings or grammatical disambiguation.",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md",
+        "experiments/yolo/gdt1353_general_ud_forced_units/artifacts/RESULT.json",
+        "experiments/yolo/gdt1353_general_ud_forced_units/artifacts/VALIDATION.json"
+      ]
+    },
+    {
+      "code": "full_i_singleton_status_unresolved",
+      "detail": "AllFULLclosures complete under the fixed rule but no proof or admitted omission certificate fori. Do not callcompleteclosure completefreehull.",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+      ]
+    },
+    {
+      "code": "countercodes_are_per_sign_not_joint",
+      "detail": "Different omitted signs may require different codebooks. No minimal alphabet, historical writer or joint optional segmentation.",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+      ]
+    },
+    {
+      "code": "rare_form_sensitivity_retained",
+      "detail": "FULLselectednewproofsuseone-leafparents; f drops outunderGE2, while p has recurrent proof. Do not repair or pool readers.",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md",
+        "experiments/yolo/gdt1353_general_ud_forced_units/artifacts/PRIOR_COMPARISON.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A genuinely different bounded consequence or explicit omission construction for unresolved cases, or independently changed unit/whole-word binding; retain all current constraints.",
+        "evidence": [
+          "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More iterations of alreadycompletefiniteclosure",
+      "Calling sourceentrylabels actualphonemes",
+      "Combining individually valid omission tables into one without proof",
+      "Removing rareforms fromFULLafteroutcomes",
+      "Counting known eobligation again as new"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1235",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1267",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1248",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1351",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1353",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md"
+      ]
+    }
+  ]
+}

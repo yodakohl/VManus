@@ -1,0 +1,3 @@
+# GDT1353
+
+See [REPORT.md](REPORT.md) for conditional singleton obligations, exact recurrent-panel classifications and the remaining FULL i uncertainty. [PREREGISTRATION.md](PREREGISTRATION.md) fixes the contract. From the repository root run `python experiments/yolo/gdt1353_general_ud_forced_units/src/run.py`, then `python experiments/yolo/gdt1353_general_ud_forced_units/src/validate.py`. `python experiments/yolo/gdt1353_general_ud_forced_units/src/compare_prior.py` regenerates separately labeled post-result novelty accounting. Python standard library only. No sound values or historical alphabet established.
