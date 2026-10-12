@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1363 limits the strength of the nucleus exclusion
+
+WithK5fixedrepresentatives,minimumuncoveredFULLgroupsare222/251/178IT/RF/ZL(0.92–1.30%); independently minimizedtypecounts37/34/28. K7groupbounds0.145–0.207%. Exact48objectivewitnessesindependentlyvalidated. These smallnecessaryexceptionbounds arenotsufficientphoneticrepairsoractualomissionrates.1042zeroexceptiontheoremstillholds,butdoesnotrequirewidespreadvowelomissionoridentifyanabjad. [Report](experiments/yolo/gdt1363_nucleus_omission_envelope/REPORT.md).
+
 ## 2026-10-12 — Fixed nucleus-carrier families require at least nine forms
 
 New1042corollary: choose one working unit from each fixed nonempty nucleus code; these units must hit every complete written word.1355TYPEbounds therefore require13/14/11carriers onFULLIT/RF/ZL,9onallGE2. Long/nonUDcodes and common-base length variants do not evade this conditionalbound. Independentproofandhash-boundarithmeticPASS. This counts writtenforms, notidentifiedvowels; modernSpanish5/Italian7fixedcarrierconjunctions fail, no general languageban. [Application](research_registry/proposals/production_origin_supply_20261003/NUCLEUS_CARRIER_LANGUAGE_APPLICATION_20261012.json).

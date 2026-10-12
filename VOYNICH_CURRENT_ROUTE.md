@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: nuclei.
-Latest decision: 1042>=9.
-Working files: 1042review.
-Assumptions: whole nucleus.
-Resume: nucleus exceptions.
+Task: sources.
+Latest decision: 1363bound.
+Working files: GDT1363.
+Assumptions: fixedcarrier.
+Resume: source exceptions.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public30681800e.
+Public8757c6ab4.
