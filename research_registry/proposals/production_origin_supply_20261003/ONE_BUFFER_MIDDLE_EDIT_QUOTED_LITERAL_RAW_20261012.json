@@ -1,0 +1,101 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_COMPLETE_SYNTHETIC_RULE",
+  "title": "RAW: one-buffer middle replacement with paid coordinates, escaped literals and preserved suffix",
+  "summary": "A complete invented writer keeps only the previous decoded word. It either writes the next word literally with escape doubling, or gives a paid common-prefix length, deletion length and replacement middle while retaining the old suffix. Use the edit only when strictly shorter. This supplies an explicit source reader and distinguishes new literal payload; no source language or native value is assigned.",
+  "origin": "Root requested a complete source-bearing synthetic rule rather than another missing-input audit. The producer described middle replacement before any new native carrier calculation; root then proposed a source-free escape-run necessary test. No native outcome is known or used to modify this RAW.",
+  "alphabet": {
+    "source": "Exactly22abstract characters a,b,...,u plus #. Names are teaching labels, not Latin, phonemes or Voynich assignments. Any nonempty finite word is permitted; no external dictionary. Unsupported sourcecharacters are outside this declared domain, never silently normalized.",
+    "written": "The same22abstract marks. E=# is the escape mark. A=a is the edit opcode; b/c are binary0/1 and d terminates a number. These5roles are distinct. Other marks remain ordinary literals. No native workingunit has been assigned one of these roles.",
+    "boundaries": "One nonempty written group per nonempty sourceword, spaces preserve those boundaries. A message is a sequence of records, each a finite sequence of words; explicit record boundaries reset the previousword to empty. A physical Voynich line is not assumed to be such a record."
+  },
+  "complete_rule": {
+    "literal": "L(w) replaces EVERY source# by ## and leaves all other sourcecharacters unchanged. Its inverse requires every maximal #run to have even length and halves it.",
+    "numbers": "B(n),n>=0, is canonical ordinary base2 with b=0,c=1, followed by terminator d. Zero is bd; positive numbers begin c and have no leading b. No numeric lengthcap. These are operator arguments, not native number meanings.",
+    "state": "Keep exactly the previous decoded sourceword v, initially empty. This is an unbounded word buffer, a real memory cost, not a whole-word dictionary or hidden free state.",
+    "canonical_edit": "For desired nonempty w, let p be longest common prefix length of v,w. Then let q be longest common suffix length subject to q<=min(len(v)-p,len(w)-p), preventing overlap with retainedprefix. Let delete=len(v)-p-q and middle=w[p:len(w)-q]. Candidate D(v,w)=#a B(p) B(delete) L(middle).",
+    "choice": "Write D(v,w) iff its number of outputmarks is STRICTLY smaller than len(L(w)); otherwise write L(w). Ties use literal. The first word is necessarily literal because v is empty and editoverhead cannot save. After either branch replace buffer by w. No optional homophones or post-hoc exception.",
+    "reader": "If group begins#a, read exactly2canonical binarynumbers terminatedbyd, then decode remaining escapedliteral middle. Require0<=p<=len(v),0<=delete<=len(v)-p. Set w=v[:p]+middle+v[p+delete:]. Require wnonempty and recomputed canonical encoder output equals the group; otherwise reject as outsidefixedwriter. If group does not begin#a, decode whole group throughL inverse, require nonempty and same canonical re-encoding equality. Updatebuffer onlyafteracceptance.",
+    "why_modes_unambiguous": "A literal sourceword beginning# starts## in writing, never#a. Nonleading #characters are doubled. Thus the mode check does not confiscate sourcewords or silently reinterpret their initial letters. Empty insertedmiddle is legal; empty sourceword isnot.",
+    "distinctions": "No sourceletters or common suffix are discarded: retainedprefix and suffix come from the paidbufferpositions, replacement middle is literal. This is source text preservation, not a free assumed paraphrase or glossary."
+  },
+  "synthetic_example": {
+    "source_record": [
+      "abcdefghijkl",
+      "abcpghijkl",
+      "abcpghijkl"
+    ],
+    "written_record": [
+      "abcdefghijkl",
+      "#accdccdp",
+      "#acbcbdbd"
+    ],
+    "second_step": {
+      "previous": "abcdefghijkl",
+      "prefix_length": 3,
+      "deleted_length": 3,
+      "retained_suffix": "ghijkl",
+      "replacement": "p",
+      "numbers": "B(3)=ccd, B(3)=ccd",
+      "result": "abcpghijkl",
+      "literal_length": 10,
+      "edit_length": 9
+    },
+    "third_step": {
+      "previous": "abcpghijkl",
+      "prefix_length": 10,
+      "deleted_length": 0,
+      "replacement": "",
+      "numbers": "B(10)=cbcbd; B(0)=bd.",
+      "edit": "#acbcbdbd",
+      "literal_length": 10,
+      "edit_length": 9
+    },
+    "scope": "A hand-derived example of the complete rule, not executed source control or Voynich transcription. Sourceletters are abstract payload."
+  },
+  "necessary_carrier_condition": {
+    "claim": "For every complete written group not beginning E, every maximal E-run has even length.",
+    "proof": "All editgroups begin E,A. A non-E-initial group must therefore be literal. L replaces each maximal sourceErun oflengthr by a writtenrunoflength2r. There is no deletion, contextallography or within-group alternate escape rule.",
+    "generous_screen": "A source-free native screen may allow ALL E-initialgroups without checkingtheirsyntax, and test only oddE-runs in non-E-initialwholegroups for every potentialE assignment. If no E survives, this fixed carrier is excluded under the inherited workingunit/wholegroup conventions; survival is not full parse or writer fit.",
+    "not_1293": "Unlike a dedicated initial-only marker, E may occur medially/finally as doubled escaped literal.1293alone does not reject this carrier. Its old exclusion remains for its originalrole.",
+    "stops": "A failed fixedEcarrier is not repaired by changingescape multiplicity, movingheader, addingexceptions or choosinganother alphabet. A survivor would still face fullsyntax/canonicalcost/state checks and existing source constraints."
+  },
+  "predecessor_review": [
+    {
+      "id": "IDEA000927",
+      "primary": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA927_RESULT_20261005.json",
+      "difference": "Capped2/3/4prefixheader and mandatoryrewrite rule areclosed. Here a whole suffix can survive a paid middle deletion, arbitrary coordinatesarewritten, and strict totalcost selects literal/edit. No claim927hasbeenrescued orwasgeneralall-edit exclusion."
+    },
+    {
+      "id": "GDT1268",
+      "primary": "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md",
+      "difference": "Previouswholeword buffer is shared, but1268usesfixedper-column arithmeticdifference, preservesgroup length andfailsitsfixedsourceH2screen. Current variablelengthliteral/editlaw is different; oldresultretained."
+    },
+    {
+      "id": "GDT001 STOP_DIFFERENTIAL_RECORDS",
+      "primary": "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md",
+      "difference": "1268primary explicitly documents older cost-basedKEEP/SUB/DEL/INSline/page recordcodes. This RAWdoesNOTclaim firstedit-scriptidea. Its noveltycandidate is the fullyfixed two-ended single-replacement/escape carrier and its newnecessaryodd-run test, not genericdifferentialwriting."
+    },
+    {
+      "id": "GDT1202",
+      "primary": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "difference": "Atmost2globalformsperexactsourceword cannot be assumed: editcoordinates/payload varywithpreviousword. This doesnot claimstatisticalfit orlicense rereadingfailedsources."
+    }
+  ],
+  "novelty_review": "Bounded front-coding/backspace/edit-script/prefix-compression searches,927review and1268primary, earlier1293primaryresult scope. Foundrelatedprior differential/prefix models anddisclosedthem; no exhaustiveoriginalityclaim. No newnativepayload/image/corpus was used.",
+  "limits": [
+    "No actualnativeletter/sound/wordvalue or source-language priority.",
+    "Binary counting, remembering fullpreviousword and longestprefix/suffix comparison are real humancomplexity costs; not claimedhistoricallyattested or naturallyfast.",
+    "No sourcefrequency,length,run orwhole-formfit demonstrated.",
+    "Reversibility doesnot byitself privilegephonetic overnonphonetic content.",
+    "No currentcontrolcorpus selected solelytoobtainPASS.",
+    "This is a retained RAWsynthetic construction, not a selected historical reading."
+  ],
+  "primary_hashes": {
+    "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md": "8dbfa5e727eeb1c5c81b8c8ac2c497b090be5a0fd2ff2bb5a1ee2a5974754f6c",
+    "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_IDEA927_RESULT_20261005.json": "6a52ec78a615357352090ec46ab37b56cf8820452070fa84eae666f22d781f73",
+    "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_PREFIX_C4_RAW_20261004.json": "8522a9b3649a0c8ce0eb93b52fd1a921459f33c6c45cac95acbe610ecc13a5e1",
+    "experiments/yolo/gdt1293_prefix_only_marker_capacity/REPORT.md": "fb6b40ea0807030e4e33bfffe9048633f6845b49270475c7071389a78bd42255",
+    "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410"
+  }
+}

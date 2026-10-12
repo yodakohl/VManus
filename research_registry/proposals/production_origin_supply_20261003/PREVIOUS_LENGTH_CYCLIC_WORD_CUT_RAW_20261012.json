@@ -1,0 +1,88 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_COMPLETE_SYNTHETIC_RULE",
+  "title": "RAW: previous-word length selects a reversible cyclic cut inside the next word",
+  "summary": "A marker-free, noncompressing contextual writer cyclically rotates each source word by the preceding word length modulo its own length, then applies one fixed symbol bijection. The reader observes both needed lengths and reverses the cut. Source text distinctions are preserved without editing, references or a wordbook. No native fit or historical attestation claimed.",
+  "complete_rule": {
+    "source_domain": "Any finite sequence of records, each a finite list of nonempty words over exactly22abstract source units. Teaching examples use a..v; those are arbitrary labels, not a chosen language. Unsupported sourceunits are outside the declared domain, never normalized or assigned native meanings.",
+    "codebook": "One fixed bijection sigma between these22sourceunits and22writtenunits. No initial control sign, escape, hidden header, deletion, insertion or special endpoint form.",
+    "state": "One integer m, the length of the previous source word. Set m=0 at an explicitly supplied record boundary. Actual Voynich lines/paragraphs are not identified with resets by this proposal.",
+    "encoder": "For nonempty current word w of lengthn, set s=m mod n. Emit sigma(w[s:]+w[:s]) as one written group, preserve the word separator, then set m=n. At s=0 emit the unrotated word. The word is copied once, starting at the s+1st source position and wrapping once.",
+    "reader": "Know m from the preceding OUTPUTgroup length, or0at the same supplied record start. Apply sigma inverse to current output y oflengthn, set s=m mod n, and rightrotate bys: w=y[n-s:]+y[:n-s] when s>0, otherwisew=y. Set m=n. Thus the reader never needs an unobserved lexical identity to choose the cut.",
+    "inverse_proof": "Length is unchanged, so encoder andreader maintain identicalm. Leftrotation bys andrightrotation bys are inversepermutations; sigma is bijective. Inductionoverwords recovers exactsource sequence andboundaries.",
+    "human_cost": "Count current and previousword lengths and copyfromonecycliccut. Onewordlookahead/buffer to knowcurrentlength andoneinteger memory are real costs; not claimednaturallyfast or medievallyattested. No learnedfullwordtable."
+  },
+  "synthetic_example": {
+    "sigma": "identity for illustration only",
+    "source_record": [
+      "abcd",
+      "efghi",
+      "abcd"
+    ],
+    "previous_lengths": [
+      0,
+      4,
+      5
+    ],
+    "shifts": [
+      0,
+      4,
+      1
+    ],
+    "written_record": [
+      "abcd",
+      "iefgh",
+      "bcda"
+    ],
+    "readback": [
+      "abcd",
+      "efghi",
+      "abcd"
+    ],
+    "meaning": "The same literal sourceword abcd has two context-selected printedforms here, but no sourceword is paraphrased or merged."
+  },
+  "distinguishing_predictions": {
+    "exact_length": "Every wordlength and fullword-lengthsequence unchanged. Existing source-length failure applies unchanged tothiswriter onthatfixedsource.",
+    "cyclic_invariants": "Each word retains its full symbolmultiplicity profile and cyclic adjacency multiset. Its cyclic-rotation equivalence class is unchanged up to the globalbijection. Thus a fixed sourcecollection with incompatible multiplicity or cyclic-wordclass counts cannot be repaired by this cuttingrule.",
+    "observable_context": "Cut selection depends ONLY on previouswrittenwordlength and currentwordlength. It doesnotuse priorglyph identity, higherstate, sourcewordname or unobservedparagraphcontent. Samecurrent sourceword andsamepreviouslengthmodn mustproduceexactlythesameoutput.",
+    "reset": "An explicit recordstart is unrotated apartfromsigma. Reset identification must be independentlydeclared before anynative/sourcetest; no selectiveline resets afterfailure.",
+    "not_two_alias_cap": "A sourceword oflengthn can have up to its number ofdistinctcyclicrotations acrosscontexts, not automatically atmosttwo. This doesnot prove adequate diversity orconcentration."
+  },
+  "smallest_deciding_check": "No experiment selected. Beforeanykeyorwriterfit, a separately motivated fixedsourcecontract can face exactword-length and withinwordmultiplicity/cyclic-class invariants. OldGDT1256already excludes thefixedDeot projection evenunderarbitrarywithinwordpermutations, so doNOTrerun orreinterpretthat source asopen. A newnative-onlyphoneticdetector isnot licensed bythisRAW.",
+  "predecessors": [
+    {
+      "id": "GDT1256",
+      "primary": "experiments/yolo/gdt1256_word_permutation_multiplicity/REPORT.md",
+      "relation": "Contains thiswriter as a permutation specialcase for its exactDeot/one-letterbinding andrarekeeeeswitness. That oldconditionalexclusion isretained. No newsource is selectedtofindPASS."
+    },
+    {
+      "id": "GDT1268",
+      "primary": "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md",
+      "relation": "Keeps an entirepreviousword andsubtracts alignedsourcelettervalues. Thiswriter usesonlypreviouslength andmoves positions; no letterarithmetics orsame-column difference. Itsoldfixedsourcefailureunchanged."
+    },
+    {
+      "id": "GDT1327",
+      "primary": "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md",
+      "relation": "Rotates a bankofwholecodewords withsmallpositive steps. Here the circleisinsidecurrentword andrequiresnowordbank. Oldbankorderingbound doesnotapplyautomatically."
+    },
+    {
+      "id": "GDT1202",
+      "primary": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "relation": "Atmosttwo-global-spellings boundnot automaticallythepresentfamily; cyclicorbit-sizebound andunchangedmultiplicities remain. No sourcefrequencyfit claimed."
+    }
+  ],
+  "novelty_review": "Readlive routeandcomposition; bounded wordrotation/previouswordlength search, cyclicrotation routecheck andselectedprimaryreports. Relatedtranspositionfamiliesacknowledged; noexactprevious-length cut rule found inboundedreview. Classicaltransposition itself isnot claimednew.",
+  "limits": [
+    "No Voynich unit,wordmeaning,source language,phoneme orreadingdirection assigned.",
+    "Preservingtextisnotproof ofnative statisticalfit orhistoricalplausibility.",
+    "Freewordgroupsandfixed22unitone-to-one alphabet arestrongassumptions.",
+    "Shortwordandpower/multiplicityconstraintsremain; no nulls/extraaliases/changedsourceprojectionadded torescuefailures.",
+    "Raw retained withoutnewsource acquisition, nativepayloador1357outcomes."
+  ],
+  "primary_hashes": {
+    "experiments/yolo/gdt1256_word_permutation_multiplicity/REPORT.md": "d99c479bd218fd3a986241b69d61e4bcd20b10d10fbf25cefd1d152799299136",
+    "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md": "8dbfa5e727eeb1c5c81b8c8ac2c497b090be5a0fd2ff2bb5a1ee2a5974754f6c",
+    "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md": "4ee39ed2d55be8c58e8affc1242c7550ffbc1ec2c83410d4a7b1564595195794",
+    "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410"
+  }
+}

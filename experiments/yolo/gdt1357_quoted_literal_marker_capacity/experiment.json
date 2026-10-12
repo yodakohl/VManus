@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Necessary fixed one-prefix-marker and doubled literal spelling only; supplied units/wholegroups, FULLvsGE2separate. No general compression, language or meaning exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1357_quoted_literal_marker_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1357_quoted_literal_marker_capacity/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1233",
+    "GDT1293",
+    "GDT1274",
+    "GDT1268"
+  ],
+  "experiment_id": "GDT1357",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "fixed source, writer proposal or prospective proof review",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "fixed source, writer proposal or prospective proof review",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/ONE_BUFFER_MIDDLE_EDIT_QUOTED_LITERAL_RAW_20261012.json",
+      "role": "fixed source, writer proposal or prospective proof review",
+      "sha256": "1a84bdf1e9d62d278eb16ba10a329243420d32417bbdd917be51ec7bf961065b"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/QUOTED_LITERAL_MARKER_PROSPECTIVE_REVIEW_20261012.json",
+      "role": "fixed source, writer proposal or prospective proof review",
+      "sha256": "d79ec2bf365ae0654ff4daa0ffc2c9f24ca1b4215797e1df212a11b8486c44fa"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "d58cb77c147c0004cd34aef3b20c4a725367745b325c49bfbb78b44173aa30f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "d58cb77c147c0004cd34aef3b20c4a725367745b325c49bfbb78b44173aa30f0"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "29efaecb8c415ff9d37b2a900accea7465a937df06333f5cfc65187d2c31e1ab"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/REPORT.md",
+      "role": "primary_report",
+      "sha256": "0104a416c580d3a23042f0a049a519de9d1dba2f1acebfad72576214d87cc03c"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/artifacts/CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "3de212da90161f3fcb3fe67d617bc814e27198f3d68ddde14313c58513833d37"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "c92b43c10b7820889ccb78e22159b2cf07640502b7503f23ab60f8f78fca2723"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "ff34d3ceb1bfc4fb21448631d9b6d75c4093001a13e3bce24f207e2a4c4949d1"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "83ea21ef88f6cc1453a710e3a811517e6aff9764193898621038d777a6c28df9"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/artifacts/VALIDATOR_CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "69633ad43e5c8932c9fc9e0459285275ecfd91fc25cbe6213b943814d303e72a"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/artifacts/VIOLATIONS.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "4a9cd76e5252ec244ff9a56f5623cb2de7444350070ba08b685b44d46e69458d"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "fd132e5b218f98f4896a87018371999485e16e41b20d5c24a91141f9e84458d0"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "f82f2f89963f997c0c02f207bfc0fa3844a000ce4c368e64ffaa8d5d977bad2f"
+    },
+    {
+      "path": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "c66bc50cf8cefff7ca5d742fdbce51f4bdab011911d997cab7bf42ee308e57c7"
+    }
+  ],
+  "question": "Does any working sign support arbitrary marker-initial modes and even self-quotation runs in every non-marker-initial whole group?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "quoted_literal_marker_capacity",
+  "status": "ALL_FULL_MARKERS_EXCLUDED__RECURRENT_Q_VACUOUS",
+  "title": "One shared prefix marker with doubled literal quotation",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

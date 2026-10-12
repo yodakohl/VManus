@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1357 quoted literals do not rescue one prefix marker
+
+The new one-buffer middle-edit writer fails its necessarycarrier: no22-unitE choice permits allFULLgroups when nonEinitialliterals mustdouble everyE. GE2onlyqsurvives,butzero suchliteralqopportunities make thatpassvacuous. qviolations18/18/16IT/RF/ZL are singletonforms across16/15/16leaves;rare-sensitive exactrestriction, no errorjudgment. This extends1293toallowquotedinternalmarkers;it doesnotexcludeallcompression/phonetics. All61181groups and351582paneltype/keycases independentlyimplementedreplayPASS. No fullbufferdecoder selected. [Report](experiments/yolo/gdt1357_quoted_literal_marker_capacity/REPORT.md).
+
 ## 2026-10-12 — After1356: no duplicated phonetic experiment selected
 
 Reviewed existing contextual alphabets, CV writers, vowel-boundary grouping and neighbor-conditioned variants. No new construction selected; no new manuscript/control finding or broader exclusion. Similarwrittenforms need not have the same sourceword:1204doesnotforce remotecontext orhiddenstate ifchey/chedycarrydifferentcontent. No specificsound/morpheme/meaningassigned. Next selection requires a complete source-bearing writer and a genuinely different prediction, preserving all original scoped failures. [Decision](research_registry/proposals/production_origin_supply_20261003/AFTER_1356_SELECTION_DECISION_20261012.json).

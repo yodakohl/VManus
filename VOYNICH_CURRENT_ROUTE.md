@@ -2,13 +2,13 @@
 Updated: 2026-10-12.
 
 ## Work
-Phase: exploration
+Phase: fixed_test
 Status: checkpoint
-Task: writer selection.
-Latest decision: no candidate.
-Working files: AFTER_1356_SELECTION_DECISION_20261012.json
-Assumptions: identity open.
-Resume: review writer proposals.
+Task: quoted marker capacity.
+Latest decision: 1357FULLnone.
+Working files: GDT1357.
+Assumptions: fixed units/quote.
+Resume: novelty-review IDEA001034.
 Running: none.
 
 ## Structural baseline
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicad270e08f.
+Public41925ac38.
