@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1356 repeated ordered passes remain constrained
+
+One strict global sign rank with contiguous nondecreasing restarts needs at least4passes and admits5on each FULLpanel; exactminimum stays[4,5]. Recurrent IT/RFminimumexact3,ZL[2,3]. FULLlowerwitness chkaidararal occurs once onleaf115 in eachreading; shared evidence,notindependentreplication. All61181groups and15981paneltype-rankcases independentlychecked. DiagnosticUNSATdoesnotraiseanalyticlowerbounds. No sourcevalues,syllables,originalboundaries orphoneticorigin; no furtheroptimizerselected. [Report](experiments/yolo/gdt1356_ordered_pass_capacity/REPORT.md).
+
 ## 2026-10-12 — GDT1355 bounds fixed null erasure and qualifies nullable-entry escape
 
 Fixed global sign deletion with nonempty residual in every group permits at most31.905/14.014/28.909%ofFULLunit occurrences (IT/RF/ZL); GE2maxima43.843/40.727/44.332%remainbelowhalf. Maxnulltypes9/8/11FULL and13eachGE2are different objectives, not pooledwithmassmaxima. No actualnullset selected; rareRFpremises matter. Separately, RFwholek/e/s keep their parsed-entry expansions nonempty and preserve oldXU4Yfive-source exclusion evenifotherentriesnullable. That corollary is not a numericbound on entrynulls or a languageban. [Report](experiments/yolo/gdt1355_fixed_null_erasure_capacity/REPORT.md).

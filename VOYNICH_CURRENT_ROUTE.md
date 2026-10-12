@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: fixed null capacity.
-Latest decision: 1355null mass<half.
-Working files: GDT1355.
-Assumptions: nonempty groups.
-Resume: review contextual writers.
+Task: ordered passes.
+Latest decision: 1356FULL[4,5].
+Working files: GDT1356.
+Assumptions: fixed units/rank.
+Resume: review source-bearing writers.
 Running: none.
 
 ## Structural baseline
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public2b582c256.
+Public9632cf16f.

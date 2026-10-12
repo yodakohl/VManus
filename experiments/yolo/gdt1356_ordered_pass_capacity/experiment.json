@@ -1,0 +1,113 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Global strict rank and supplied whole groups/working units only. Analytic lower bounds and replayed upper witnesses, no phonetic values or original field boundaries.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1356_ordered_pass_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1356_ordered_pass_capacity/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1233",
+    "GDT1263",
+    "GDT1321",
+    "GDT1345",
+    "GDT1349"
+  ],
+  "experiment_id": "GDT1356",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "fixed source or prospectively registered proposal",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "fixed source or prospectively registered proposal",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/STRICT_RANK_CONTIGUOUS_PASS_CAPACITY_RAW_20261012.json",
+      "role": "fixed source or prospectively registered proposal",
+      "sha256": "42126fdf35fac44310bf1ccf077ee5fa6eb46eeee1c156fc54c2a0c0e5dc8abe"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "23e9729dff31930fab5c399b97938ad2381f0d4aca5c42b91f7f021d67974ef2"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "23e9729dff31930fab5c399b97938ad2381f0d4aca5c42b91f7f021d67974ef2"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "a4423afed9ad63d0279329bb262b15f8ba54f6eeccabf4bdcabc77be2a9277d6"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/REPORT.md",
+      "role": "primary_report",
+      "sha256": "7fff99c024ee2fd19198b82bca79677222046d6c0033e40cc01db6bc876eeca1"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "057c5dfea22fc70cd89282335343a5bca83c9e8e97d893e2e89a83e006c4bba9"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "20325f96ac98d185fac9b5c3918faa554a65187e40ab0c4b9470be6e4b7ac9f2"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "4b70ab534d4ad5e021b1d1c6c44223152f672f4c78dc12007abc1166f662e8fa"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "25b7a070c55bafc1fbf1dcc2a5bc88bcd7439e0047e0e806059209cee64d5286"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/VALIDATOR_CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "a8c9d72c7d212ce7bfbf4ff034e18b3e0c013eccbe7a354aab75db2ebbb8555e"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "4e9fc3233b63e66eb6c3f76ccca2ad682b55634103d8c48e78d6b3382135327d"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "342bb33f743806dda0a6aedfe712d1cfafae162a466afa78ff1be0090f60e69e"
+    },
+    {
+      "path": "experiments/yolo/gdt1356_ordered_pass_capacity/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "0e85c4aae65462edc57400ef3c114616f82018d2fce0957822c922f2138053c0"
+    }
+  ],
+  "question": "How many contiguous nondecreasing passes are required under one strict global working-sign order?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "ordered_pass_capacity",
+  "status": "CERTIFIED_ORDERED_PASS_INTERVALS",
+  "title": "Strict global rank with repeated contiguous passes",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

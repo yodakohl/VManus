@@ -1,0 +1,146 @@
+{
+  "status": "RESULT_CLAIM_REVIEW_PASS_WITH_EXPLICIT_INTERVAL_AND_RARITY_LIMITS",
+  "date": "2026-10-12",
+  "reviewer": "fresh_writer_proposals",
+  "primary_runner_read_or_imported": false,
+  "coverage": "Inspected RESULTand independentVALIDATION produced by reviewer-authored validator, against source-free proofs and frozen protocol. Did not rerun native experiment or timedsolver, readprimaryrunner, altercode oraccessnewnative data. REPORT not part ofthisreview; rootwritingit.",
+  "allowed_claims": {
+    "FULL": "Allthree readerpanels:4<=K*<=5. Atmost3passesareexcluded underfixedstrictglobalrank/wholewordpremises. Fivepassessuffice through explicitreplayedorders. Exactminimum5 isNOTcertified.",
+    "GE2_IT_RF": "ExactK*=3in IT2aandRF1b: independentclosedwalklower3 andmatchingreplayedupper3.",
+    "GE2_ZL": "2<=K*<=3only. A two-passZLrecurrent writer is not excluded by the accepted lowercertificate, regardless solverUNSATdiagnostic.",
+    "reader_scope": "Differentordersmaywitness differentpanels/readers; no singleuniversalorder orindependentmanuscripts claimed."
+  },
+  "witness_review": {
+    "FULL": {
+      "word": "chkaidararal",
+      "working_units": [
+        "ch",
+        "k",
+        "a",
+        "i",
+        "d",
+        "a",
+        "r",
+        "a",
+        "r",
+        "a",
+        "l"
+      ],
+      "intervals": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "count_per_reader": 1,
+      "physical_leaf": 115,
+      "proof": "Eachintervalstarts/ends a andvisitsanotherunit. Theiradjacent-edge setsare disjoint evenwhentouchingatendpoint. Thus≥3descents and≥4passes foranyrank.",
+      "limit": "Same rarewhole across3alternative readings,not3independentobservations. Noimageconfirmation. Fullbound is notdemonstratedrare-formrobust."
+    },
+    "GE2_IT_RF": {
+      "word": "dydydy",
+      "intervals": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "count_per_reader": 2,
+      "physical_leaves": [
+        14,
+        43
+      ],
+      "proof": "Twoedge-disjointnonconstantreturns force2descents/3passes; repeatedonesamewordtypeacrosstwoleaves meetsfixedGE2scope."
+    },
+    "GE2_ZL": {
+      "word": "alaiin",
+      "intervals": [
+        [
+          0,
+          2
+        ]
+      ],
+      "count": 3,
+      "physical_leaves": [
+        39,
+        58,
+        112
+      ],
+      "proof": "Oneclosedwalksupports lower2only."
+    }
+  },
+  "solver_handling": "RecordedUNSATatK4FULL andK2ZLGE2doesnotraiseanalyticL. SATmodel is onlyupperwitness afterallwordreplay. No native optimizedmean, soundkey or solver-completenessclaim.",
+  "other_checks": [
+    "Closedwalk,reversepairandall-typeaggregatebounds useadjacentedges,not1345arbitraryprecedencepairs.",
+    "Histograms and maximumworddescentsegments concernretainedrank,notallranks oruniquesourcepartboundaries.",
+    "Reversingwordsandrankpreservescapacity; readingdirectionnotidentified.",
+    "Validatorreports61181originalgroups and15981whole-type rankchecks; verificationvolume isnot newindependentmanuscriptevidence.",
+    "No sourceorsemanticroute reopened;1263/1345/1321/1349differentcontracts remain."
+  ],
+  "validation_summary": {
+    "status": "PASS",
+    "original_source_groups": 61181,
+    "whole_type_rank_checks": 15981,
+    "closed_walk_witnesses": 14,
+    "source_free_controls": {
+      "three_type_collections": 220,
+      "word_order_checks": 6552
+    }
+  },
+  "panel_intervals": {
+    "IT2a_FULL": {
+      "L": 4,
+      "U": 5,
+      "exact": false
+    },
+    "IT2a_GE2": {
+      "L": 3,
+      "U": 3,
+      "exact": true
+    },
+    "RF1b_FULL": {
+      "L": 4,
+      "U": 5,
+      "exact": false
+    },
+    "RF1b_GE2": {
+      "L": 3,
+      "U": 3,
+      "exact": true
+    },
+    "ZL3b_FULL": {
+      "L": 4,
+      "U": 5,
+      "exact": false
+    },
+    "ZL3b_GE2": {
+      "L": 2,
+      "U": 3,
+      "exact": false
+    }
+  },
+  "limits": [
+    "Supplied22workingunits/completegroups andglobalstrictrankremainassumptions.",
+    "No meanings,syllables,phoneticunits,actualalphabetminimum orhistoricalwriter.",
+    "CompatiblehigherKisformalcapacitynottranslation.",
+    "GE2sensitivitiesneitherrepairFULLnorjustifydiscardingrareforms."
+  ],
+  "hashes": {
+    "experiments/yolo/gdt1356_ordered_pass_capacity/PREREGISTRATION.md": "23e9729dff31930fab5c399b97938ad2381f0d4aca5c42b91f7f021d67974ef2",
+    "experiments/yolo/gdt1356_ordered_pass_capacity/METHOD.md": "23e9729dff31930fab5c399b97938ad2381f0d4aca5c42b91f7f021d67974ef2",
+    "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/RESULT.json": "4b70ab534d4ad5e021b1d1c6c44223152f672f4c78dc12007abc1166f662e8fa",
+    "experiments/yolo/gdt1356_ordered_pass_capacity/artifacts/VALIDATION.json": "25b7a070c55bafc1fbf1dcc2a5bc88bcd7439e0047e0e806059209cee64d5286"
+  }
+}

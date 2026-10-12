@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1354**
-- Experiment-associated tracked files: **26,565** (2.4 GiB)
-- Structured GDT337+ experiments: **1019**
+- Experiments indexed: **1355**
+- Experiment-associated tracked files: **26,578** (2.4 GiB)
+- Structured GDT337+ experiments: **1020**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1356 | gdt1356_ordered_pass_capacity | `CERTIFIED_ORDERED_PASS_INTERVALS` | [report](../experiments/yolo/gdt1356_ordered_pass_capacity/REPORT.md) | 13 | 173.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT1355 | gdt1355_fixed_null_erasure_capacity | `EXACT_FIXED_NULL_ERASURE_ENVELOPES` | [report](../experiments/yolo/gdt1355_fixed_null_erasure_capacity/REPORT.md) | 23 | 459.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT1354 | gdt1354_minim_pair_omission_code | `ALL_FIXED_I_OMISSION_CODES_COVER` | [report](../experiments/yolo/gdt1354_minim_pair_omission_code/REPORT.md) | 18 | 1.1 MiB | 6 | STRUCTURED_YOLO |
 | GDT1353 | gdt1353_general_ud_forced_units | `CONDITIONAL_FREE_UD_SINGLETON_CLASSIFICATION` | [report](../experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md) | 23 | 697.5 KiB | 8 | STRUCTURED_YOLO |

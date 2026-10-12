@@ -1,0 +1,42 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "title": "RAW: fixed strict-rank whole-word pass capacity with analytic lower certificates and bounded upper witnesses",
+  "summary": "One global strict order on22working signs; each completeword can restart that order at contiguous pass boundaries. Minimal passes under a rank equal1plusadjacentdescents. Certify a source-independent minimaxlowerbound with cycles, reversewholepairs and aggregateddirectedadjacencies; obtain upperbounds onlyfromexplicitranks. Distinct frompreviousorderedclass,withinclasssort,nonreturningandnested/circularmodels.",
+  "contract": {
+    "source": "Existing1233strict whole Pgroups; FULL and wholetypeson≥2physicalleaves perreader separately. No newnativequery,image,sourcecorpus orreserve. Workingunits andgroupboundaries remainconditional.",
+    "model": "A single strict totalrank of22workingunits is fixedforallwords in a panel. Within eachpass signsare nondecreasing, with repeatedequals allowed. Classes are not merged; signs mayreturn inlaterpasses. Each word is divided into atmostKcontiguouspasses, withno extra outputdelimiterassumed.",
+    "objective": "For rankrho, passes_rho(w)=1+sum_j1[rho(w_j)>rho(w_(j+1))]. Everydescentrequiresa cut; cuttingexactlyatdescentsmakesallpiecesnondecreasing. TargetK*=min_rho max_w passes_rho(w). Adjacentunequals only, notarbitraryprecedencepairs.",
+    "lower_closed_walks": "A contiguousinterval beginningandendingatthe sameunit andvisiting≥2distinctunits mustcontain≥1descent under every strict rank. For eachword maximize a collectionofsuchintervals withdisjointEDGEsets. Iftherearerintervals,K*≥r+1. They maytouchatendvertices,butnoedgeindexmaybereused. Providecompleteword+intervalindices; constantloopsnotcounted. Intervalpackingmay be solvedexactlybyunweightedintervalscheduling, independentofrank.",
+    "lower_reverse_pair": "For anyrequiredwholew whose exactreversal isalsoarequiredwhole, d_rho(w)+d_rho(reversew)=m(w), where mcountsadjacentunequalunits. ThereforeK*≥1+ceil(m/2). Include self-reversingw withsameidentityscope; no doubledindependentobservationclaim.",
+    "lower_aggregate": "Over ALLdistinctwholetype strings ofthepanel, letTbetypecount andN_ab countsadjacentorderedtransitionsincludingmultiplicityinsideeachtype. Everyrank chooseswhichdirection ofeachunorderedpairdescends, so sum_w d_rho(w)≥sum_{a<b}min(N_ab,N_ba). ConsequentlyK*≥1+ceil(summin/T). Ignorea=a edges. This is a lowerbound, not equality or a corpusprobability.",
+    "certified_L": "L=max(1,allthreeanalyticallycertifiedbounds). K1failurealreadyimpliedbyold1263; no newcreditforthat.",
+    "upper_search": "Start with alphabeticalrankfallback and replayeveryword foractualmaximumU. RootfreezesZ3budgetandseeds beforeattempts atK=L,L+1,L+2 only; aSATtotalrank givesanexplicitupperwitnessafterfullreplay. UNSAT/UNKNOWN neverraise thecertifiedlowerboundinthiscontract. Stopafterthefixedattempts; no automaticlargerKsearchorotheroptimizer.",
+    "exactness": "Report exactK*onlywhenareplayedupperUequalsanalyticL. Otherwise retaincertifiedinterval[L,U]. SATmodelmayactuallyachievefewerpasses thanitsquerybound; replaydeterminesU.",
+    "output": "Perpanel retaincounts,threeboundsandtheirsourcecertificates,rankwitness,perwordpassdistribution,achievedU,solverstatus/budgets andexactversusintervaldecision. No rank values calledletters/sounds.",
+    "inverse_limit": "Descentcutsdefinecanonicalminimumsegmentationunderagivenrank. Additionalcutsatnondecreasingstepsareunobserved, so arbitrarysourcepassboundariesnotrecovered. No contentbearingfullwriteror sourceinverseclaimed.",
+    "invariances": "Reversingallwordsandthetotalrankpreservespasscounts; thiscannotchoosephysicalreadingdirection."
+  },
+  "predecessors": {
+    "GDT1263": "Fixedweakclassranks foronewholemonotoneword; itsallmergedresultdoesnotboundK>1strict passes.",
+    "GDT1345": "StrictsortingINSIDEclasseswitharbitraryinterleaving; itsnonadjacentprecedencecliquesarenotdescentcounts.",
+    "GDT1321": "Oneblockperclasswithfreeclassorder; permitsdifferentordersacrosswords butforbidsreturns.",
+    "GDT1349": "Nested/circularoccurrenceclassesallowdifferentwithinclassorders andhaveotherconstraints; oldclassmaximanotpassminima.",
+    "HIST:1dd184c04bb8f154": "Unreviewedhistoricalsixsemantic-slot microcycles overstatements aredifferentfromthisglobal22signwordrank. No inheritedmeaningsused."
+  },
+  "novelty_review": "Boundeddescents/monotonepasses searches,route-check,duplicatequery,1263/1345followups andknown1321/1349primarycontracts. Noexactminimaxpassenvelopefound; notanexhaustivenoveltyproof.",
+  "limits": [
+    "No sourcephonemes,syllables,morphemes,wordmeaning,alphabetminimum orhistoricalfit.",
+    "RareFULLformsretained;GE2sensitivitydoesnotrepairthem orpoolreaders.",
+    "A smallcompatibleKis onlyformalcapacity; arbitrarywords alwaysadmitenoughsingle-signpasses.",
+    "No newscoreclaimforwordstructuredness.",
+    "No largeunboundedorderingoptimization."
+  ],
+  "primary_hashes": {
+    "experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md": "f328bb69a13fb2d0bd3ff657d9b2c3cc3b6d05a54f1dbff53015ad77deb5551a",
+    "experiments/yolo/gdt1345_class_sort_capacity/REPORT.md": "05e3fd11981455f8c268f45a0b51243f2f8848666c292d824705e1a94c103b3e",
+    "experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md": "99995e9e85b5fce7df0275e8e3f53bada274d9b14979a8669a78e362f07882e6",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md": "3b67472ebf26907e3e5d381968941d13c114301309369f7d453fb194ad378e57"
+  },
+  "work_limits": "ProducerregistersRAW/proofs only; rootownsanynative calculation andscientificselection."
+}
