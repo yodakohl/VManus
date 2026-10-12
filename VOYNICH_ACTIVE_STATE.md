@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1352 spaced f57v forms do not establish an alphabet
+
+One original-resolution view of the complete second annulus under a new prospectively registered image-only scope shows many spaced graphic constructions. Uniform authorial item delimiters and an independent exact census remain unresolved;17positions are not17types orphonemes. The old184fourfold sequence and withdrawn meanings,1169pathstop and1348unit limit remain. No text-selector expansion, transcription, parser, sound or meaning. Source bytes match1169; accountingPASS does not validate perception. Future joint writing/segmentation hypotheses may remain explicit assumptions rather than requiring certainty from pictures alone. [Report](experiments/yolo/gdt1352_f57_repeated_sign_boundaries/REPORT.md); [scope](docs/57v-signs.md).
+
 ## 2026-10-12 — GDT1351 exact representation counterexample for binary phonetics
 
 The same16,384CMU phone words rendered as distinct left/right halves have a unique optimal phase cut under the1264/1347criterion, in both endpoint conventions and both splits. Any inherited phone-class cut scores<=0perword; phase scores>0. All78units form one adjacency component; aggregate rounding cannot alter the optimum. Known paired inverse preserves every source; no new optimizer. This establishes a limitation of the measurement under changed units, not a Voynich pair code or phonetic-language exclusion.1347sensitivity/origin failure,1350manner failure and1348unit stop remain. [Report](experiments/yolo/gdt1351_paired_phone_phase_identifiability/REPORT.md).

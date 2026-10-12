@@ -2,13 +2,13 @@
 Updated: 2026-10-12.
 
 ## Work
-Phase: fixed_test
+Phase: exploration
 Status: checkpoint
-Task: paired phonetics.
-Latest decision: phase optimum.
-Working files: GDT1351.
-Assumptions: control only.
-Resume: unit evidence review.
+Task: f57 graphic units.
+Latest decision: 1352units unresolved.
+Working files: GDT1352.
+Assumptions: no sound values.
+Resume: review GDT892 followups.
 Running: none.
 
 ## Structural baseline
@@ -53,7 +53,7 @@ f116v not admitted. Reserves closed until near-complete
 plausible reading. Prior exposure is not confirmation.
 179 cached selectors; grants separate; F historical. f1r margins only;
 f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
-[f57layout](docs/VOYNICH_DATA_SCOPE_20261004_F57V_LAYOUT.md);
+[f57scopes](docs/57v-signs.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
 [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md);
 [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md);
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public645e73cb4.
+Publicca54d7298.
