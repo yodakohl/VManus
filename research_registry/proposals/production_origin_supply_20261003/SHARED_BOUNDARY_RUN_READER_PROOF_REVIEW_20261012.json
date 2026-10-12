@@ -1,0 +1,43 @@
+{
+  "status": "SOURCE_FREE_EXACT_READER_AND_VISIBLE_CONSEQUENCE_PROOF_PASS",
+  "date": "2026-10-12",
+  "reviewer": "fresh_writer_proposals",
+  "raw_idea": "IDEA001035",
+  "source_or_native_counts_read": false,
+  "claim": "The unchanged finite set-valued reader is exact. It generally has exponentially many candidate source records; this is specified ambiguity, not a unique decipherment.",
+  "notation": "Y is a written leftword after undoing the fixed bijection. V is one candidate reconstructed rightword. c=first(V), R=initialc-run(V)>=1. Every possible leftsource isY+c^j for0<=j<=R.",
+  "closed_form_inverse": {
+    "forced_case": "If |Y|>=2 andlast(Y)=c, ONLYj=R is valid.",
+    "branch_case": "Otherwise EVERYj=0..R is valid.",
+    "proof": "In the forcedcase letq=terminalc-run(Y)>=1. Forj<R, both q+j and |Y|+j-1 exceedj, as doesR, so mandatoryremovedcount=min(q+j,R,|Y|+j-1)>j: Ycannotresult. Atj=R theminimum isR. If Yendsnotc, appendedrun haslengthj and deletionexactlyj; if|Y|=1,the protectivecap isj. These exhaustcases."
+  },
+  "visible_terminal_consequence": {
+    "condition": "For observedadjacent Y,Z with |Y|>=2 andlast(Y)=first(Z)=c.",
+    "conclusion": "Every source reading has leftterminalc-run exactlyterminalrun(Y)+R forits chosennextwordcandidate, hence at leastterminalrun(Y)+initialrun(Z). At least a doubleterminalsymbol ismandatory. Sourceleftwordlength is at least |Y|+initialrun(Z).",
+    "limits": "InitialrunofthereconstructednextwordmaybelargerthanvisibleZrun. Length-one leftwordsareessentialexceptions. No actualphonemeidentified; useonlywithinexplicitone-to-oneunitcontract andknownrecordadjacency."
+  },
+  "global_ambiguity": {
+    "definition": "B counts observedwithin-recordboundaries satisfying |Y_left|=1 OR last(Y_left)!=first(Y_right).",
+    "lower_bound": "Atleast2^B distinct complete source preimages. Exactlyone preimage iffB=0.",
+    "proof": "Sourcewordfirstcharacters are preserved, so forced-versus-branchingclassification depends onlyonwrittenwords, notchosenrightcandidate. Eachbranchstep hasR+1>=2distinctleftwords for everyrightreading; othersteps haveexactlyone. Right-to-leftconstruction cannotmerge distinctcomplete sourcewordsequences. Terminalword isexact, givinginduction.",
+    "not_entropy": "B lowerboundslog2 ofreadingset cardinality, NOT Shannonentropy ordecodingerror withouta sourceprior. A fixedindependentlanguage/grammar mayprunereadings; no suchbinding usedhere."
+  },
+  "surjectivity_limit": "Everywrittenrecord hasatleastone reading: j=R alwaysworks at everyreverse step. Successfulunconstraineddecoding is thereforetautological andcannotbe a nativefit test.",
+  "source_free_checks": {
+    "status": "PASS",
+    "local_cases": 900,
+    "short_record_cases": 258,
+    "script": "research_registry/proposals/production_origin_supply_20261003/SHARED_BOUNDARY_RUN_PROOF_CONTROLS_20261012.py",
+    "role": "Finite arithmeticchecks supplement the generalproof; no corpus, nativecount or statisticaltest."
+  },
+  "retained_limits": [
+    "Old1202alias assumptions mustbechecked ratherthantransferred automatically; here possiblevariantcountdepends onterminalrunlength.",
+    "Old1240interiorfourthpowerobstruction remainsforliteral sourcecorrespondence; terminalextension cannotremovean observedinternalrun.",
+    "No sound, meaning, source language, historicalattestation or preferrednative segmentation inferred.",
+    "No additionalRAWforced duringthissource-freeaudit."
+  ],
+  "hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/SHARED_BOUNDARY_RUN_SET_READER_RAW_20261012.json": "64ee9149bf0650af43eea0ba7a55a85d7b41c946250f54de2f9151d4a92f5325",
+    "research_registry/proposals/production_origin_supply_20261003/SHARED_BOUNDARY_RUN_PROOF_CONTROLS_20261012.py": "dc83e21dd78d9162d8c141eb6e6924068ef8898c9d84d2a4faa062846552d9a6"
+  }
+}

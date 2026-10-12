@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1359 terminal-run variants remain below the old source screen
+
+The enlarged run-dependent free-label family permitsmorethan2formswhereendrunsallowthem,butone-characterwordsremainfixed. Fourprofiles yieldmax1747/1868/1675/1742types andminTop101724/1612/1730/1867;all24old1174/1202directionsfail. No nativecensus ornewlanguageconclusion.1035exactsetreaderisvalid;>=2^Bpreimagesisconditionalcardinality,notentropy. Unknownsourcecase remainsinconclusive;old1240literalobstructionretained. Route1224notationclarifiedas16–21groups,notpercentage;originalroutehadno%. [Report](experiments/yolo/gdt1359_terminal_run_variant_capacity/REPORT.md).
+
 ## 2026-10-12 — GDT1358 word-order variants retain most native type distinctions
 
 FULLcyclicquotients retain96.9–97.6%ofrawtypes; arbitrarymultisetquotients81.6–83.3%. Underfixedbasewritingperexactsourcetoken, all24four-profile/reader/family comparisons violatecoarseningbounds. D1116–1665of8000is a necessarywholegroupreplacementlowerbound, notactualerrors oroptimalrepair. New1233FIRST8000panelsdifferfrom1174; no inheritedtolerance ormatched-tokenconfirmation.1034source-unspecifiedremainsinconclusive;old1256Deotcaseand1323capacitystopstand. No decoder, sourcewordidentity ormeaning. [Report](experiments/yolo/gdt1358_word_permutation_orbit_envelope/REPORT.md).

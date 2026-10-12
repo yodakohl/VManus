@@ -2,13 +2,13 @@
 Updated: 2026-10-12.
 
 ## Work
-Phase: fixed_test
+Phase: exploration
 Status: checkpoint
-Task: orbit frequencies.
-Latest decision: 1358fixed4FAIL.
-Working files: GDT1358.
-Assumptions: fixed word-bag.
-Resume: review IDEA001035.
+Task: writer selection.
+Latest decision: 1359sourceFAIL.
+Working files: GDT1359.
+Assumptions: profiles.
+Resume: select next writer.
 Running: none.
 
 ## Structural baseline
@@ -34,7 +34,7 @@ GDT327/GDT336: historical; no access.
 ## Decisions to retain
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
-1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224exceptions16–21;1223unstable;1225pool≠strata.
+1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
 1171:no context gain;1172:rota86/62.1173:arithmetic only;source old.
 f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clockSTOP.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
@@ -74,4 +74,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicd8e535776.
+Publiceb562f6f6.

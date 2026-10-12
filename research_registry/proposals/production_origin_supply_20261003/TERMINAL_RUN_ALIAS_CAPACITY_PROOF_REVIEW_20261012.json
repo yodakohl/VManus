@@ -1,0 +1,36 @@
+{
+  "status": "SOURCE_FREE_PROOF_REVIEW_PASS_NO_NATIVE_OR_SOURCE_VARIANT_COUNTS",
+  "date": "2026-10-12",
+  "reviewer": "fresh_writer_proposals",
+  "reviewed_plan": "Parent1359 source-only capacity envelope: unchanged1177fourfirst8000wordprofiles, old1174native summaries/1202limits; per-source-word spelling budget derived from1035terminalrun. No newtarget census orsourceword-to-native assignments.",
+  "derivation": {
+    "word_budget": "For nonempty sourcewordw oflengthL withterminalrun t,1035removes d between0andmin(t,L−1). Therefore atmost a(w)=1+min(t,L−1) wholeoutputs. Equal sourcewords share thissame finite potential outputset; choice can dependonneighbor.",
+    "generous_enlargement": "Allow those a(w) outputs to be arbitrary distinct strings, any occurrenceallocation policy, and disjointlabelsets across different sourcewords. Drop physicalshape, neighborfeasibility, lastwordliteral andcanonicaldeletion requirements. This contains1035underits sourceunit/oneword-onegroup premises but is a genuinelybroader labelfamily.",
+    "type_maximum": "Frequencyf gives atmostmin(f,a) occupiedspellingcells. Withdisjointword-specific labels sum min(f,a) isattainable asmaximumtypes in this relaxation.",
+    "balanced_mass": "Write f=a*q+r,0<=r<a. Balancedallocation hasr cellsq+1 anda−r cellsq. Ignorezeros onlyafterformingallocation. IntegerRobin-Hood transfers between same-word cells differingby≥2 cannot increase anyglobal sumoflargestKcells. Iterating eachblock yieldsbalancedallocation, simultaneouslyminimizing EVERYTopK amongalloweddisjoint allocations.",
+    "global_concatenation": "Balancing each sourceword block remains a majorization decrease afterconcatenation withallotherwordcells. Thus minimizeTop10 bysorting thecombinedbalancedpositivecell counts andsumming itslargest10, withzeropadding ifneeded.",
+    "collisions": "Merging aliases across different sourcewords coarsens the countvector: positive typecountcannotincrease and everyTopKmasscannotdecrease. Therefore collisions cannot improve either required direction.",
+    "attainment_limit": "Maximumtypes andminimumTopK areattained simultaneously bydisjointbalancedallocation in the generouslabel model. This doesnot make those labels a practicalhumanwriter, recoverablephoneticcode orfit toothernative statistics."
+  },
+  "edge_cases": [
+    "L=1 impliesa=1 evenwhent=1, because1035protectsthefirstcharacter. Do not assign2aliasesautomatically tosingle-character sourcewords.",
+    "Ifa>f,balancinggivesf ones andotherzeros; maximumnonemptytypes=f.",
+    "Pure-runword t=Lhasa=L,notL+1.",
+    "Exactsource tokenization, punctuation and Unicodecharacter convention must remain thedeclaredold1177projection; no postresult normalization.",
+    "Ignoring finalwordandactualneighborcaps only enlarges thefamily, so itsfailurewouldremainnecessary for1035onthatfixedsource."
+  ],
+  "prior_scope": [
+    "1202globaltwoaliaslimit cannot simplybeimported because t>1 canallowmorethan2variants. The newbudgetcounts thoseexceptions explicitly.",
+    "1035literalcase alreadyretains1240fivefixedsourceinternalfourthpower obstruction; do not claim this as a newlytested literal rescue/failure.",
+    "Newarbitrarywhole-spelling labels canescape letter-run constraints, so their frequency-capacity bound is a different and broader result.",
+    "Use old1174/1202native summariesandlimits onlyasdeclared; do notmix with1358newFIRST8000targetcounts ortheirnotolerancecomparison.",
+    "No corpus orlanguageban, actualwordmeaning, errorrate, significance ornewnativeobservation.",
+    "1035exactsetreader andits2^Bambiguitytheoremremainseparate,unchanged results."
+  ],
+  "work_limits": "Proofonly. No sourcevariant counts, nativepayload, sourceacquisition, codefit or newcontrolsrun bythisreviewer. Rootowns1359protocol/implementation.",
+  "primary_hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/SHARED_BOUNDARY_RUN_SET_READER_RAW_20261012.json": "64ee9149bf0650af43eea0ba7a55a85d7b41c946250f54de2f9151d4a92f5325",
+    "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410",
+    "experiments/yolo/gdt1240_prefix_expansion_fourth_power/REPORT.md": "8f1d55a5628d86874ba282b0571703019c4d5bc073593529c062e56313fd5017"
+  }
+}

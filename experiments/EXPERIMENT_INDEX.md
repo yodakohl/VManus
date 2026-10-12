@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1357**
-- Experiment-associated tracked files: **26,607** (2.4 GiB)
-- Structured GDT337+ experiments: **1022**
+- Experiments indexed: **1358**
+- Experiment-associated tracked files: **26,621** (2.4 GiB)
+- Structured GDT337+ experiments: **1023**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1359 | gdt1359_terminal_run_variant_capacity | `TERMINAL_RUN_VARIANT_CAPACITY_EXCLUDED` | [report](../experiments/yolo/gdt1359_terminal_run_variant_capacity/REPORT.md) | 14 | 850.1 KiB | 5 | STRUCTURED_YOLO |
 | GDT1358 | gdt1358_word_permutation_orbit_envelope | `ALL_FIXED_PROFILE_ORBIT_ENVELOPES_EXCLUDED` | [report](../experiments/yolo/gdt1358_word_permutation_orbit_envelope/REPORT.md) | 15 | 1.7 MiB | 6 | STRUCTURED_YOLO |
 | GDT1357 | gdt1357_quoted_literal_marker_capacity | `ALL_FULL_MARKERS_EXCLUDED__RECURRENT_Q_VACUOUS` | [report](../experiments/yolo/gdt1357_quoted_literal_marker_capacity/REPORT.md) | 14 | 1.9 MiB | 5 | STRUCTURED_YOLO |
 | GDT1356 | gdt1356_ordered_pass_capacity | `CERTIFIED_ORDERED_PASS_INTERVALS` | [report](../experiments/yolo/gdt1356_ordered_pass_capacity/REPORT.md) | 13 | 173.0 KiB | 6 | STRUCTURED_YOLO |
