@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: phonetic classes.
-Latest decision: 1350jointFAIL.
-Working files: GDT1350.
-Assumptions: known units.
-Resume: review IDEA1027.
+Task: paired phonetics.
+Latest decision: phase optimum.
+Working files: GDT1351.
+Assumptions: control only.
+Resume: unit evidence review.
 Running: none.
 
 ## Structural baseline
@@ -23,7 +23,7 @@ No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
-No default Latin/phonetics;1058k/t open.
+No default Latin/phonetics;1058k/t open;1350FAIL.
 Adjacency transfers across Currier/section/hand; extra direction only Currier.
 915r/lknown+;916newFAIL;roles/reversibility≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publica74949446.
+Public645e73cb4.

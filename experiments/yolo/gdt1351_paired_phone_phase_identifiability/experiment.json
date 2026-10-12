@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Constructed78sign reversible source control, exact objective and both endpoint conventions; no Voynich units, sound key, word meanings or phonetic-origin exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1351_paired_phone_phase_identifiability/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1351_paired_phone_phase_identifiability/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1347",
+    "GDT1348",
+    "GDT1350",
+    "GDT1269"
+  ],
+  "experiment_id": "GDT1351",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/PACKET.json.gz",
+      "role": "fixed control source, prior score or raw proposal",
+      "sha256": "5cd3b28143b80d08781eed830751add135bb4893ae5825ecbe01523af8e4b7d8"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/RESULT.json",
+      "role": "fixed control source, prior score or raw proposal",
+      "sha256": "c5b6cbc86293f2529ec590b7063053d8ba1513adc7b46210b2676fa5919da5af"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PAIRED_PHONEME_RENDERER_IDENTIFIABILITY_RAW_20261012.json",
+      "role": "fixed control source, prior score or raw proposal",
+      "sha256": "d0ff78a7cd037893376836395b5d8c14cf84d67ca023f6738805cd2929d8f43f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "fd9c4dd71a229366cebca60e362c895d766a7de0ea8ecba303498d88feafbbaf"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "fd9c4dd71a229366cebca60e362c895d766a7de0ea8ecba303498d88feafbbaf"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "c8cd3f51dc5edfcc9d5147728951ce8de8243f49839a293ea80bc133d0f58283"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/REPORT.md",
+      "role": "primary_report",
+      "sha256": "529cf09fc5d5ca0b4b3afffc784f637330f5c708c481027fe7c2581c3f914eab"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/EVENTS.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "cc9cd53d928df89b8eefab1fca1fd893485d4d34515b06e2f87a96ebe72f7813"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/PROSPECTIVE_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "8810f4ce9e2d1d96520826a00c4785528fb3a1168a1049e20ea7e5145e6a2ef2"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "3a6b38c254f968528bbb417233595c3ecb1eb74ee2946db0d84d915b99ef3666"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "39b1922022ca0aea0453b46b8b909ef880438e51df0f2a29166a5c4f4bffd573"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/RESULT_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "79f457eff80fceb2aa82cc32774d72980ba1a2b3b5505acc440b019b6907ca29"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "9eda636b296841556777122494dbd4d0ac4cd7982ae8f43bc17e5e61c6cc35c4"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/WORK_CHECKPOINT.json",
+      "role": "reproducibility artifact",
+      "sha256": "e0f941562e54553493b85e629654f453c155119c926673904491f61789341355"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "4267b24b87c9602063978c72f4e4e0f08fa95f057b40c38533f36e2d49e950ab"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "cba88d7fd81df64bd5c8622b1b17c3ad1b3424ce937643d544c9966dc01a02d1"
+    },
+    {
+      "path": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "ca46a84a8a3e007d47e762d71cef74d4362bfa69f2667ab1b9cad9f9ced80249"
+    }
+  ],
+  "question": "Does a reversible two-component rendering of unchanged phonetic words force the binary alternation objective to prefer phase over every inherited phone partition?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "paired_phone_phase_identifiability",
+  "status": "PAIRED_PHONE_CLASSES_STRICTLY_SUBOPTIMAL__PHASE_GLOBAL_OPTIMUM",
+  "title": "Paired phone rendering makes phase the unique class optimum",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1351_paired_phone_phase_identifiability/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

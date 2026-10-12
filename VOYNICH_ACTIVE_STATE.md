@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1351 exact representation counterexample for binary phonetics
+
+The same16,384CMU phone words rendered as distinct left/right halves have a unique optimal phase cut under the1264/1347criterion, in both endpoint conventions and both splits. Any inherited phone-class cut scores<=0perword; phase scores>0. All78units form one adjacency component; aggregate rounding cannot alter the optimum. Known paired inverse preserves every source; no new optimizer. This establishes a limitation of the measurement under changed units, not a Voynich pair code or phonetic-language exclusion.1347sensitivity/origin failure,1350manner failure and1348unit stop remain. [Report](experiments/yolo/gdt1351_paired_phone_phase_identifiability/REPORT.md).
+
 ## 2026-10-12 — GDT1350 partial manner transfer misses fixed phonetic control gate
 
 The self-excluded nearest-context classifier transfers official manner labels for13/24CMU consonants (macro67/168);5/6stops and5/8fricatives correct. Independent label association is limited: macro<.4, strict-procedural gap22/168<.15, shuffled DH19TESTevents<20. No post-result repair; all categories including singletonHH retained. Original1347binary sensitivity and origin failure remain,1279native residual is not repeated,1348unit stop remains. This uses supplied phone units/coarse classes/prototype labels; no Voynich sounds or meanings. Independent validatorPASS does not change researchFAIL. [Report](experiments/yolo/gdt1350_phonetic_manner_context/REPORT.md).
