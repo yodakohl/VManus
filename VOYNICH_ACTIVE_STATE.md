@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1358 word-order variants retain most native type distinctions
+
+FULLcyclicquotients retain96.9–97.6%ofrawtypes; arbitrarymultisetquotients81.6–83.3%. Underfixedbasewritingperexactsourcetoken, all24four-profile/reader/family comparisons violatecoarseningbounds. D1116–1665of8000is a necessarywholegroupreplacementlowerbound, notactualerrors oroptimalrepair. New1233FIRST8000panelsdifferfrom1174; no inheritedtolerance ormatched-tokenconfirmation.1034source-unspecifiedremainsinconclusive;old1256Deotcaseand1323capacitystopstand. No decoder, sourcewordidentity ormeaning. [Report](experiments/yolo/gdt1358_word_permutation_orbit_envelope/REPORT.md).
+
 ## 2026-10-12 — GDT1357 quoted literals do not rescue one prefix marker
 
 The new one-buffer middle-edit writer fails its necessarycarrier: no22-unitE choice permits allFULLgroups when nonEinitialliterals mustdouble everyE. GE2onlyqsurvives,butzero suchliteralqopportunities make thatpassvacuous. qviolations18/18/16IT/RF/ZL are singletonforms across16/15/16leaves;rare-sensitive exactrestriction, no errorjudgment. This extends1293toallowquotedinternalmarkers;it doesnotexcludeallcompression/phonetics. All61181groups and351582paneltype/keycases independentlyimplementedreplayPASS. No fullbufferdecoder selected. [Report](experiments/yolo/gdt1357_quoted_literal_marker_capacity/REPORT.md).

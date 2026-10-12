@@ -1,0 +1,138 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Native fixed-base word orbit counts and exact four-profile coarsening/replacement LOWER bounds only; not language identification, actual manuscript error rates, optimal repairs or sufficient fit.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1358_word_permutation_orbit_envelope/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1358_word_permutation_orbit_envelope/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1233",
+    "GDT1177",
+    "GDT1202",
+    "GDT1256",
+    "GDT1323"
+  ],
+  "experiment_id": "GDT1358",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "fixed source, proposal or pre-native proof review",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "fixed source, proposal or pre-native proof review",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "fixed source, proposal or pre-native proof review",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/WORD_PERMUTATION_ORBIT_ENVELOPE_RAW_20261012.json",
+      "role": "fixed source, proposal or pre-native proof review",
+      "sha256": "f75a8e9f249e8b6f69d7064e0c67fd39660d82d6a53c15fe5fca7f6c58bc2f0d"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PREVIOUS_LENGTH_CYCLIC_WORD_CUT_RAW_20261012.json",
+      "role": "fixed source, proposal or pre-native proof review",
+      "sha256": "cb089fe1fd24c4186769843cff3247f125c1e9907deed3fde5ac8b10543efa0c"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/WORD_ORBIT_COARSENING_PROOF_REVIEW_20261012.json",
+      "role": "fixed source, proposal or pre-native proof review",
+      "sha256": "f7cee82bf3d6e4d4c17e37e9b843d7a49604baa39b656ba744ba643a63a980ba"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "83c180d686ae10c4d58d7d4c03bce75b69dd85c8a55a04f533a8880e85434d6d"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "83c180d686ae10c4d58d7d4c03bce75b69dd85c8a55a04f533a8880e85434d6d"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "6983b214b70bd4e3ae9e8d9569256b3f8284178180208d8492e29191d7f1b32f"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/REPORT.md",
+      "role": "primary_report",
+      "sha256": "8bbdeac96c58f8a7bde39c31cf53780fabb30c477445d4fefd778509e0456186"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "23e7aca97378375f9e2be660a7b8e206cc77849ab0d25a281b7839d1b7255b70"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/ORBIT_TABLES.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "59784e4566c950366f311d1a0aec2b47a77801bc2a850742327f1fbc562dd4ff"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "083394944b581d4829484c4044d5e214835c4fbfc9fd900cae59ac5bf44d56f4"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "ac924f85547167c60730f6b7845d30e01aebb0bc085b05b9608402057b97ec7f"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/SOURCE_PROFILES.json",
+      "role": "reproducibility artifact",
+      "sha256": "2c5105e075946b70d638d42b8ff77fcda2b20ae0961ec855c6c4288e690e50be"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "0abb2e8438f74d779fab037ac131354bcd2f10d254727e9dee664de4dee92d53"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/VALIDATOR_CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "ddc98b8da38e5b333c25aebc4d551e3272eab5448e8f6ed451dd1fe71ea099a6"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "7a9de9d06239b38dcbad603394f0498d8ad890754df3368dd1705c94367af0c0"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "dddd90a69253132631c9dfac6a00ecbcfeec1e3f9b4ba887702dc65fbbbb3453"
+    },
+    {
+      "path": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "e74e6a4f43249ab004aaee2d2cd9f4438740ce97caef3cd6a34647a2fe1d4ede"
+    }
+  ],
+  "question": "What native orbit-frequency bounds survive arbitrary within-word ordering, and can four fixed source profiles satisfy their necessary coarsening inequalities?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "word_permutation_orbit_envelope",
+  "status": "ALL_FIXED_PROFILE_ORBIT_ENVELOPES_EXCLUDED",
+  "title": "Word permutation orbit-frequency envelopes",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1358_word_permutation_orbit_envelope/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

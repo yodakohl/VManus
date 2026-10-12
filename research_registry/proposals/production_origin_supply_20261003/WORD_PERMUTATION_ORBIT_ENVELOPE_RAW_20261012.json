@@ -1,0 +1,17 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SCORED",
+  "title": "RAW: orbit-frequency bounds for any fixed whole-word spelling followed by arbitrary reordering",
+  "summary": "Generalize1034beforekey fitting. Each exactsourceword hasonefixednonemptybasecodeword over22workingunits; eachoccurrence mayrotate or arbitrarilypermute it. Quotient observedwholegroups bycyclicrotation orfullmultiset. Sourcewordfrequencies mustcoarsen into orbitfrequencies, irrespectiveof alphabet or contextualcut. ComparefixedsameNprofiles; no translation orsourceidentity.",
+  "contract": {
+    "panels": "Unchanged1233strictgroups perreader. FULLnative-onlyquotientcounts plus first8000rowsincacheorder, not1174nativepanel andnotanindependentholdout.",
+    "source_profiles": "Existing1177SOURCE_TEXTS first8000exactstoredwords perbook b4,w1,bs1,gr1, unchangedpunctuation/case/normalization; noneisidentifiedasVoynichoriginal.",
+    "families": "Each sourceword getsonefixedbasewriting. Everyoccurrence freelycyclicallyrotates it, ormoregenerously permutesallunits. Multiple sourceidentities mayshareanorbit. No occurrence-varyingunitmultiset, contextualaliasalphabet, changedwordboundaries oraddition/deletion.",
+    "necessary_bounds": "Nativeorbitcount<=sourcewordtypecount. For eachk, nativeorbitTopK>=sourcewordTopK. Zero-padcounts; equalNmandatory.",
+    "replacement_bound": "D=max(0,nativeOrbitTypes-sourceTypes,max_k(sourceTopK-nativeOrbitTopK)). AtleastDtargetwholegroupreplacements neededbefore anydistributioncoarseningcouldhold. Max,not sum. One replacement changes distinctclassesby<=1andeachTopKsumby<=1. Onlylowerbound, notoptimal/sufficient, statisticalpvalue orobservederrorrate.",
+    "decision": "If violated, do notfit thissource/base-spelling/reorderingconjunction. Ifnotviolated, retainnecessarycapacityonly. Current1034withoutsource remainsunidentified, notuniversallyrejected.",
+    "predecessors": "1256oldDeot(4,1,1)letterprofileexclusion alreadycontains1034forthatsource;1202limits2wholealiases;1323anagram-neighborpermutationteststoppedforcapacity. Newcheckusesglobalorbitfrequencymajorizationwithunlimitedorderingaliases, notthoseoldfalsifiers.",
+    "limits": "No initialclassimprovementisphoneticproof; no nativeanagramclasscalledoneword/synonym. No languageban, newcorpus, means, nativeimage, rawTSV orreserve."
+  },
+  "novelty_review": "Livecomposition,1034,1256followups/primary,1202primary/followups,1323primary,IP036andboundedanagram/multiplicity/majorizationnavigation. No exactexecutionfoundinthisboundedreview; notanexhaustiveoriginalityclaim."
+}

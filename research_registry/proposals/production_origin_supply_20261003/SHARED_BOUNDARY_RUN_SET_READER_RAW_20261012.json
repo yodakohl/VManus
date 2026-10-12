@@ -1,0 +1,107 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_COMPLETE_SET_VALUED_WRITER",
+  "title": "RAW: shared boundary-run shorthand with an exact finite set-valued reader",
+  "summary": "An invented marker-free writing rule shortens a left word when its final run repeats the next sourceword initial run. The right initial run supplies the missing character identity. It preserves all nonterminal material and nonempty group boundaries, but intentionally leaves bounded terminal-run ambiguity. An exact right-to-left reader enumerates only the genuine source preimages; no meaning is filled from a story.",
+  "domain": {
+    "source": "Ordered records of nonempty words over22abstract source symbols; no language chosen. Fixed global bijection sigma to22written working units. Words and explicit record boundaries retained. Source symbols may be spoken segments or other content units; neither interpretation assumed.",
+    "no_controls": "No initial marker, escape, quote command, edit header, dictionary address or added sign. The encoder changes only a repeated final run already represented at the nextword beginning.",
+    "exposure": "No native counts, images, new corpora or IDEA1034results were inspected to design this rule."
+  },
+  "complete_encoder": {
+    "last_word": "Write sigma(lastsourceword) unchanged. A one-word record is literal.",
+    "other_words": "For original adjacent sourcewords U,V, letc=last(U). Ifc!=first(V), writeU unchanged. Otherwise lett be the maximal terminalc-run length inU andr the maximal initialc-run length inV. Removeexactly d=min(t,r,len(U)-1)terminalcharacters fromU, then applysigma. All decisions use ORIGINAL sourcewords, not alreadycontracted outputs.",
+    "nonempty": "The len(U)-1 cap preserves at least the firstsourcecharacter in everywrittenword. Sourcewordcount, order, separators and everyinitialcharacter survive.",
+    "information_preserved": "No interior character is replaced or guessed. Only part of an identical boundaryrun may be omitted. Ambiguity is real and explicitly specified, not claimed reversible as a function."
+  },
+  "exact_set_valued_reader": {
+    "initialization": "Undo sigma for eachwrittenwordY. Start from the exact finalsourceword U_N=Y_N.",
+    "step": "For each existing candidate right-hand sourcewordV, letc=first(V), R=its maximalinitialc-runlength. Candidate leftwords are ONLY U=Y+c^j forintegersj=0..R. Keep preciselythose U forwhich the fixedencoderstep(U,V) returnsY. Continue right-to-left for eachcandidate; retainallcompletecandidate source records.",
+    "proof": "Every omittedcharacter must equalthe originalnextword firstcharacter, and the numberomitted cannot exceedits initialrunR. Thus everytruepreimage isenumerated. Re-encodingeachlocalpair removesinvalidcandidates. Since outputfirstcharactersarepreserved andrightwordcandidateisexplicit, backwardinduction yields exactlythe full preimage set. Everyrecord hasfinitecandidate set, although itcan grow exponentially; no hiddenlexiconor likelihoodselectsone reading.",
+    "candidate_nonemptiness": "Y is nonempty andcandidateUextendsit, so no empty sourceword occurs. Missingpubliclanguage/grammarinformation remainsambiguity ratherthaninventedtranslation."
+  },
+  "synthetic_examples": [
+    {
+      "source": [
+        "abbb",
+        "bbca"
+      ],
+      "written": [
+        "ab",
+        "bbca"
+      ],
+      "decode": "Rightword bbca has initialb-run2. Candidatesab,abb,abbb: onlyabbbre-encodesas ab, so thisexampleisunique."
+    },
+    {
+      "written": [
+        "a",
+        "bbca"
+      ],
+      "complete_source_readings": [
+        [
+          "a",
+          "bbca"
+        ],
+        [
+          "ab",
+          "bbca"
+        ],
+        [
+          "abb",
+          "bbca"
+        ]
+      ],
+      "explanation": "Allthreeleftwordswritea underthenextinitialbb; nochoiceisprivileged."
+    },
+    {
+      "source": [
+        "abbb",
+        "bbcc",
+        "ccda"
+      ],
+      "written": [
+        "ab",
+        "bb",
+        "ccda"
+      ],
+      "note": "Middleworduses originalnextinitialcc andlosescc; its ownoriginalinitialbb remainsavailable for the leftword. Reader mustnot use shortenedmiddlelengthas if itwereoriginal."
+    }
+  ],
+  "necessary_consequences_and_limits": {
+    "preserved_prefix": "Every sourceword is an extension of the decodedwrittenword by0or morecopies ofthe nextsourcewordfirstsymbol; finalrecordword unchanged. This is a restrictive specified deletionrelation, not arbitraryabbreviation.",
+    "length_bound": "At most originalnextinitialrunlength and at most |U|-1characters erasedat eachboundary. Sourceandwrittenwordcounts remain equal.",
+    "no_native_only_fit": "The rule admits at least one sourcepreimage for anynonemptywrittenrecord, so mere successfulbackwardenumeration would be tautological and NOT a nativefit. A useful testmust fix independent source/grammar/phoneticconstraints before selectingreadings. No suchtestselected here.",
+    "old_obstruction": "Underliteralone-unit source correspondence, an existinginternalfourfoldrunwithnonemptyflanks inkeeees survives insideevery reconstructedsourceword; thisrule onlyappends aterminalrun whenreading. The old1240fivefixedsourceabsence isnotrescued. No newsourceis chosen toobtainPASS.",
+    "alias_scope": "Unlike a fixedsingle-character deletion, fullrunlengthshortening maygive morethan2forms ofone sourceword; nevertheless sourcewords withterminalrun≤1have atmost2. Do not invoke or dismiss1202withoutits exactfullwordalias andsourceprojection premises.",
+    "human_cost": "One-wordlookahead andrun counting; readermaintains a finite setofalternatives. Couldbe burdensome withoutan independentlyknownlanguage; notclaimedhistoricallyattested.",
+    "not_phonetic_evidence": "Callingtheoperation shared-run shorthanddoesnot makeit an attested soundlaw orassign consonants/vowels toVoynich."
+  },
+  "predecessors": [
+    {
+      "id": "GDT1077/1078",
+      "primary": [
+        "experiments/yolo/gdt1077_terminal_rl_next_initial_class/REPORT.md",
+        "experiments/yolo/gdt1078_terminal_rl_same_folio_control/REPORT.md"
+      ],
+      "difference": "Theytestwrittenr/lcontextassociation, withsamefoliofollowupgatefailure. No fixedsourceboundary-run deletionor complete inversewasimplemented there. Theirresults do notprovide soundbindings forthisrule."
+    },
+    {
+      "id": "GDT1183",
+      "primary": "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md",
+      "difference": "Learned initialfragment contraction,paidE/Cboundaries andsource-trainedbanks differfromthiscontextualterminalrunomission withset-valuedinverse. No oldscreenrescued."
+    },
+    {
+      "id": "IDEA864/971",
+      "difference": "Ending-preserving lexicalcontraction/context-complement proposals are related abbreviationthemes, butthisrulehas no externallexicon, learnedmeaningcards ordisambiguating supplements. Their missingdesignstatus isnotchanged."
+    }
+  ],
+  "novelty_review": "Route read; boundedhaplology/elision/boundary-contraction searches androutecheck,1077/1078/1183primaryreview. Noidentical fullrun boundary rulelocated; notfirsthistorical-elisionclaim or exhaustiveoriginalityaudit.",
+  "primary_hashes": {
+    "experiments/yolo/gdt1077_terminal_rl_next_initial_class/REPORT.md": "c148c5d668bc15943b875af3d7fd58846001d14de72c221aa71818cd11a8f8c1",
+    "experiments/yolo/gdt1078_terminal_rl_same_folio_control/REPORT.md": "62a9927e50429f8261260d03a62636cc39e7d0b40e55768e5af2f67793c7e317",
+    "experiments/yolo/gdt1183_initial_prefix_contraction/REPORT.md": "4d1227646ce39fa21f824b0908c00102cdc1a443ed296b69d17f3992c01014fc",
+    "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410",
+    "experiments/yolo/gdt1240_prefix_expansion_fourth_power/REPORT.md": "8f1d55a5628d86874ba282b0571703019c4d5bc073593529c062e56313fd5017"
+  },
+  "work_limits": "RAWonly. No nativeexperiment, phoneme/word assignment, sourcescore, reservationaccess or automaticdecoder."
+}

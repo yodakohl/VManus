@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: quoted marker capacity.
-Latest decision: 1357FULLnone.
-Working files: GDT1357.
-Assumptions: fixed units/quote.
-Resume: novelty-review IDEA001034.
+Task: orbit frequencies.
+Latest decision: 1358fixed4FAIL.
+Working files: GDT1358.
+Assumptions: fixed word-bag.
+Resume: review IDEA001035.
 Running: none.
 
 ## Structural baseline
@@ -19,6 +19,7 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP.
+1358cyclic/bag types retain97/82-83%.
 1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
@@ -73,4 +74,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public41925ac38.
+Publicd8e535776.
