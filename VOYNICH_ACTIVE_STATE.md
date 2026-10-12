@@ -1,3 +1,7 @@
+## 2026-10-12 — eight-agent broad exclusion consequences
+
+Four conditional scope consequences adopted from existing certificates: IDEA1016allnilpotent paragraph actions (and precise maximal-normal class); IDEA1021glyph-level cyclic pools force9singleton units; IDEA1020fixeddelimiter reset cannotrestore variablefirst-unit entryvalues; IDEA1019whole-word proof needsinjectivity only, genuinely enlarging infinite-state scope. No newnativecensus or meaning. Existing table/activity duplicates and sorted-block consolidation were not credited as new. Root and publication-checkout proof replay agree; unit/boundary assumptions and explicit countermodels remain. Two raw candidates1017/1018await selection. A code-review search incident is recorded as exposure only, without payload. [Scope, evidence and eight roles](research_registry/proposals/production_origin_supply_20261003/BROAD_EXCLUSION_PASS_20261012.json).
+
 ## 2026-10-12 — GDT1345 excludes small within-class sorters together
 
 Source/key-independent pair-order conflicts and matching constructive partitions give exact class minima14/15/15for all strict ZL/IT/RF groups,10/10/11for whole forms on at least two physical leaves. Thus every fixed strict within-class sorter with at most9classes fails the recurrent panels separately. Conditional22-unit/group representation; no actual native classes or historical mechanism. GDT1344two-class failure remains. No automatic larger-class repair and no translated word. [Report](experiments/yolo/gdt1345_class_sort_capacity/REPORT.md).

@@ -1,0 +1,80 @@
+{
+  "status": "INDEPENDENT_ALGEBRA_REVIEW_PASS_CONDITIONAL_EXTENSION",
+  "date": "2026-10-12",
+  "budget_minutes": 5,
+  "claim": "GDT1287 extends from fixed bijections to fixed unit maps injective on the common forward-reachable set; all 22 unit maps still fix the common start.",
+  "definitions": {
+    "R": "R={T_w(s): w any finite string over all 22 working units, including empty}. This is common to all maps and closed under every unit map; it is not merely the finitely sampled manuscript paths.",
+    "unit_maps": "Each fixed T_a is defined on R, maps R into R and is injective there. No surjectivity or inverse map required.",
+    "composition": "Reading left to right, T_uv = T_v composed with T_u. Hence T_uv(s)=T_v(T_u(s)).",
+    "word_requirement": "All inherited eligible whole forms carry the same start s to one natural endpoint t before any external reset."
+  },
+  "proof_steps": [
+    {
+      "step": "square",
+      "argument": "For whole u=ol and uu=olol, T_u(s)=t and T_u(T_u(s))=t. Thus T_u(s)=T_u(t). Both s,t belong to R; T_u is injective on R as a finite composition of injections R→R, so s=t."
+    },
+    {
+      "step": "left quotient",
+      "argument": "If u and uv fix s, then T_v(s)=T_v(T_u(s))=T_uv(s)=s. This step needs no cancellation or injectivity."
+    },
+    {
+      "step": "right quotient",
+      "argument": "If u and vu fix s, then T_u(T_v(s))=T_vu(s)=s=T_u(s). Both T_v(s) and s are in R. Injectivity of T_u on R gives T_v(s)=s."
+    },
+    {
+      "step": "induction",
+      "argument": "Each inherited chain is composed solely of seed whole forms and one of these exact prefix/suffix concatenations; no inverse-word node is needed. All 22 target unit actions therefore fix s. Every forward string fixes s and R={s}."
+    }
+  ],
+  "certificate_recheck": {
+    "ZL3b": {
+      "chain_nodes_replayed": 39,
+      "derived_concatenations": 12,
+      "single_unit_targets": 22,
+      "whole_ol_olol_sources_present": true
+    },
+    "IT2a": {
+      "chain_nodes_replayed": 36,
+      "derived_concatenations": 11,
+      "single_unit_targets": 22,
+      "whole_ol_olol_sources_present": true
+    },
+    "RF1b": {
+      "chain_nodes_replayed": 35,
+      "derived_concatenations": 8,
+      "single_unit_targets": 22,
+      "whole_ol_olol_sources_present": true
+    }
+  },
+  "constant_map_counterexample": {
+    "maps": "On {0,1}, set every T_a(0)=T_a(1)=1.",
+    "start_and_end": "s=0,t=1; every nonempty whole group reaches t, including ol and olol.",
+    "why_outside": "R={0,1}; all maps are noninjective there. This preserves the old noninjective escape and shows that omitting injectivity would invalidate the conclusion."
+  },
+  "scope_and_novelty": {
+    "prior": "1287 REPORT/METHOD/PREREGISTRATION formulate bijections explicitly; their proof uses inverse language but their actual certificate contains positive-string quotient equations only. No explicit injective-on-forward-orbit corollary was found in this bounded check.",
+    "gain": "Surjectivity and global injectivity outside the reachable set are unnecessary. Infinite injective but nonsurjective maps are admitted by the enlarged hypothesis class (e.g. successor on nonnegative integers), though they cannot satisfy this whole-word certificate nontrivially.",
+    "finite_limit": "On a finite common forward-reachable set an injective self-map is already bijective; there is no genuinely larger finite reachable action class. Do not advertise this as a new finite-machine exclusion.",
+    "unchanged": "All native boundaries, 22-unit segmentation, strict source panel, rare certificates, common start and common natural endpoint remain assumptions. Not a general stateful writer or decoder exclusion; no meanings."
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/artifacts/PROOFS.json",
+      "sha256": "05030c96654efa499f90d61c603bce319c6dfbcfa95b49fff6f5885afa62c8c0"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/REPORT.md",
+      "sha256": "4a53bf38e43e925ffc858d14209417283580446a436f6b9b7a1c3f3921481c14"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/METHOD.md",
+      "sha256": "9ecf0003fca87d8068c82209566adc7380975cf02aaff74e8ece090e71fbfd67"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/src/validate.py",
+      "sha256": "50896cdb0068fcc502f10373d5917463240a612bf6e43fd4bb2af7070840451a"
+    }
+  ],
+  "work": "Independent action-order proof and saved positive-chain equation replay only. No new source data or source occurrence reconstruction; old source fidelity retained. No registry, ledger or route mutation."
+}

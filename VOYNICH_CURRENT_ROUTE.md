@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: fixed_test
 Status: complete
-Task: sorter exclusion.
-Latest decision: 1345 min10classes.
-Working files: GDT1345.
-Assumptions: 22units/groups/orders.
-Resume: review IDEA1016 proof.
+Task: exclusions.
+Latest decision: 4 corollaries.
+Working files: BROAD_EXCLUSION_PASS.
+Assumptions: fixed units/boundaries.
+Resume: screen IDEA1018.
 Running: none.
 
 ## Structural baseline
@@ -18,14 +18,15 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
+1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
 No default Latin/phonetics;1058k/t open.
 Adjacency transfers across Currier/section/hand; extra direction only Currier.
-915known r/l transfer;916new pairsFAIL. Formal roles/reversibility≠meanings/sentence boundaries.
+915r/lknown+;916newFAIL;roles/reversibility≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076no follower capacity;1099one reprise. No meanings. Confirmed English lexemes: **0**
+1076no follower capacity;1099one reprise;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 
 ## Decisions to retain
@@ -71,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public38d1d06e0.
+Publicf964c8e9b.

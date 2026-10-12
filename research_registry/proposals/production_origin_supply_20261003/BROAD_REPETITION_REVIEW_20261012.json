@@ -1,0 +1,497 @@
+{
+  "status": "NEW_CONDITIONAL_THEOREM_BRIDGE_PENDING_ROOT_REVIEW",
+  "date": "2026-10-12",
+  "purpose": "Source-independent restrictions on cyclic alias mechanisms using only previously published repetition certificates; no meanings or new native census.",
+  "decision_note": {
+    "unknown": "GDT857/1297 constrain whole-group codeword pools. They explicitly leave finer codewords outside their contract. Do the same old exact triples constrain fixed pools of individual working units without selecting a source text?",
+    "decision_changed_if_valid": "Exclude all-nonsingleton working-unit pool writers; any surviving writer under this contract must have at least nine named working-unit singleton pools.",
+    "smallest_test": "Algebraic interval bound plus fixed five GDT857 triple-form certificates, counted in declared existing working units. No whole-corpus fit or decoder.",
+    "budget_minutes_including_review": 20,
+    "no_capacity_distinction": "This gives an explicit contradiction to all-nonsingleton pools, not failure to find a partition. Broader homophony remains unconstrained."
+  },
+  "contract": {
+    "atoms": "Declared working units; ch and sh are single units in the two relevant forms. These are analytical units, not confirmed historical letters.",
+    "pools": "Global fixed disjoint finite sets of distinct visible units. Every emitted unit is one unmodified visible draw from its unique pool.",
+    "cycle": "Each pool uses every member exactly once per cycle, in arbitrary order, before refill. Each pool can begin at any phase and outputs of other pools may interleave.",
+    "scope": "No pool reset, hidden/skipped draw, duplicate visible aliases, spelling error or event deletion inside any selected three-block span. Resets outside each span do not affect the proof. Written separators do not reset the relevant pools.",
+    "not_required": "No source alphabet names, source language, whole-group=word assumption, shared phase across loci, statistical null, or fixed order within cycles."
+  },
+  "proof": {
+    "interval_bound": "For two members x,y of one pool, complete cycles contribute zero to count(x)-count(y). An arbitrary clipped interval contains at most one partial cycle at each end, each contributing at most one in magnitude. Therefore absolute count difference is at most2. Other pools do not change either count.",
+    "triple_lemma": "On the complete unit sequence W W W, the difference is3*(count_W(x)-count_W(y)). Since the inner difference is integral and the absolute total is at most2, members of one pool must have identical counts in W.",
+    "joint_lemma": "Apply the same necessary equality to all five old repeated-block forms. Any shared pool lies inside one count-signature equivalence class. A unit absent from all five has allzero signature and cannot join any positive-signature class.",
+    "singleton_consequence": "A signature class containing only one observed unit forces that unit to have a singleton pool, even if unseen visible units are allowed.",
+    "not_sufficiency": "Equal signatures are necessary, not a general sufficient cycle test. The two surviving multi-unit classes happen to admit the exhibited alternating projection on this small certificate set only."
+  },
+  "block_order": [
+    "sheol",
+    "okaiin",
+    "chol",
+    "ytaiin",
+    "qokedy"
+  ],
+  "declared_block_units": {
+    "sheol": [
+      "sh",
+      "e",
+      "o",
+      "l"
+    ],
+    "okaiin": [
+      "o",
+      "k",
+      "a",
+      "i",
+      "i",
+      "n"
+    ],
+    "chol": [
+      "ch",
+      "o",
+      "l"
+    ],
+    "ytaiin": [
+      "y",
+      "t",
+      "a",
+      "i",
+      "i",
+      "n"
+    ],
+    "qokedy": [
+      "q",
+      "o",
+      "k",
+      "e",
+      "d",
+      "y"
+    ]
+  },
+  "signature_classes": [
+    {
+      "members": [
+        "a",
+        "n"
+      ],
+      "counts": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "members": [
+        "ch"
+      ],
+      "counts": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "members": [
+        "d",
+        "q"
+      ],
+      "counts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "members": [
+        "e"
+      ],
+      "counts": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "members": [
+        "i"
+      ],
+      "counts": [
+        0,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "members": [
+        "k"
+      ],
+      "counts": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "members": [
+        "l"
+      ],
+      "counts": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "members": [
+        "o"
+      ],
+      "counts": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "members": [
+        "sh"
+      ],
+      "counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "members": [
+        "t"
+      ],
+      "counts": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "members": [
+        "y"
+      ],
+      "counts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "derived_constraints": {
+    "present_units": 13,
+    "distinct_positive_signatures": 11,
+    "forced_singleton_units": [
+      "ch",
+      "e",
+      "i",
+      "k",
+      "l",
+      "o",
+      "sh",
+      "t",
+      "y"
+    ],
+    "only_possible_nonsingleton_subsets_among_these_units": [
+      [
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "q"
+      ]
+    ],
+    "minimum_pools_touching_certificate_units": 11,
+    "limited_feasibility_witness": "On these five triples only, pools{a,n} and{d,q} project as alternating an/an/an and qd/qd/qd; the other nine units are singleton. Thus11 is attainable for this certificate set, not a whole-manuscript minimum or fitted global model.",
+    "exclusion": "Every working-unit cycling-alias writer satisfying the stated contract and requiring all pools to have at least two members is impossible for these retained transcription witnesses.",
+    "remaining_working_units": "The other nine units of the inherited22-unit inventory do not occur in these five forms and remain unclassified among themselves. They cannot join a nonzero signature pool under the contract. No count of actual source letters or original alphabet is inferred."
+  },
+  "old_certificate_checks": {
+    "selected_reader_records": 15,
+    "physical_loci": 5,
+    "reader_order": [
+      "ZL3b",
+      "IT2a",
+      "RF1b"
+    ],
+    "reader_independence": "Alternate readings of one manuscript, never independent replications.",
+    "records": [
+      {
+        "edition": "ZL3b",
+        "locus": "f104v.27",
+        "start_index": "3",
+        "raw": "sheol",
+        "source_ids": [
+          "ZL3b|f104v.27|G003",
+          "ZL3b|f104v.27|G004",
+          "ZL3b|f104v.27|G005"
+        ]
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f40r.9",
+        "start_index": "6",
+        "raw": "okaiin",
+        "source_ids": [
+          "ZL3b|f40r.9|G006",
+          "ZL3b|f40r.9|G007",
+          "ZL3b|f40r.9|G008"
+        ]
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f47r.7",
+        "start_index": "4",
+        "raw": "chol",
+        "source_ids": [
+          "ZL3b|f47r.7|G004",
+          "ZL3b|f47r.7|G005",
+          "ZL3b|f47r.7|G006"
+        ]
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f79v.19",
+        "start_index": "5",
+        "raw": "qokedy",
+        "source_ids": [
+          "ZL3b|f79v.19|G005",
+          "ZL3b|f79v.19|G006",
+          "ZL3b|f79v.19|G007"
+        ]
+      },
+      {
+        "edition": "ZL3b",
+        "locus": "f86v3.3",
+        "start_index": "2",
+        "raw": "ytaiin",
+        "source_ids": [
+          "ZL3b|f86v3.3|G002",
+          "ZL3b|f86v3.3|G003",
+          "ZL3b|f86v3.3|G004"
+        ]
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f104v.27",
+        "start_index": "3",
+        "raw": "sheol",
+        "source_ids": [
+          "IT2a|f104v.27|G003",
+          "IT2a|f104v.27|G004",
+          "IT2a|f104v.27|G005"
+        ]
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f40r.9",
+        "start_index": "6",
+        "raw": "okaiin",
+        "source_ids": [
+          "IT2a|f40r.9|G006",
+          "IT2a|f40r.9|G007",
+          "IT2a|f40r.9|G008"
+        ]
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f47r.7",
+        "start_index": "4",
+        "raw": "chol",
+        "source_ids": [
+          "IT2a|f47r.7|G004",
+          "IT2a|f47r.7|G005",
+          "IT2a|f47r.7|G006"
+        ]
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f79v.19",
+        "start_index": "5",
+        "raw": "qokedy",
+        "source_ids": [
+          "IT2a|f79v.19|G005",
+          "IT2a|f79v.19|G006",
+          "IT2a|f79v.19|G007"
+        ]
+      },
+      {
+        "edition": "IT2a",
+        "locus": "f86v3.3",
+        "start_index": "2",
+        "raw": "ytaiin",
+        "source_ids": [
+          "IT2a|f86v3.3|G002",
+          "IT2a|f86v3.3|G003",
+          "IT2a|f86v3.3|G004"
+        ]
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f104v.27",
+        "start_index": "3",
+        "raw": "sheol",
+        "source_ids": [
+          "RF1b|f104v.27|G003",
+          "RF1b|f104v.27|G004",
+          "RF1b|f104v.27|G005"
+        ]
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f40r.9",
+        "start_index": "6",
+        "raw": "okaiin",
+        "source_ids": [
+          "RF1b|f40r.9|G006",
+          "RF1b|f40r.9|G007",
+          "RF1b|f40r.9|G008"
+        ]
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f47r.7",
+        "start_index": "4",
+        "raw": "chol",
+        "source_ids": [
+          "RF1b|f47r.7|G004",
+          "RF1b|f47r.7|G005",
+          "RF1b|f47r.7|G006"
+        ]
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f79v.19",
+        "start_index": "6",
+        "raw": "qokedy",
+        "source_ids": [
+          "RF1b|f79v.19|G006",
+          "RF1b|f79v.19|G007",
+          "RF1b|f79v.19|G008"
+        ]
+      },
+      {
+        "edition": "RF1b",
+        "locus": "f86v3.3",
+        "start_index": "2",
+        "raw": "ytaiin",
+        "source_ids": [
+          "RF1b|f86v3.3|G002",
+          "RF1b|f86v3.3|G003",
+          "RF1b|f86v3.3|G004"
+        ]
+      }
+    ],
+    "checks": "All fifteen old records contain three identical raw strings, consecutive indices and definite separators on both sides of each group. No new source rows opened.",
+    "qokedy_coordinate_warning": "f79v.19 starts atG005 inZL/IT andG006 inRF. These are separate reader certificates, not an exact same-index intersection.",
+    "image_limit": "1302 provides informed coarse image support only for f40r.9. No independent native letter segmentation or image verification of all five sites is claimed."
+  },
+  "predecessor_distinctions": [
+    {
+      "id": "GDT857/GDT1297",
+      "retained": "Whole-group pool exclusions and singleton constraints stay unchanged.",
+      "new": "Here the pool members are individual working units. W^3 gives equality of unit multiplicities and joint signatures, not whole-word singleton identity."
+    },
+    {
+      "id": "GDT1207",
+      "retained": "Two-alias tick source tests fail on fixed sources; unknown uniquely decodable carriers remain outside a native refutation.",
+      "new": "This contract explicitly makes each working unit one alias draw; arbitrary pool size and arbitrary cycle order are allowed. It does not refute arbitrary variable-length carriers."
+    },
+    {
+      "id": "GDT1202",
+      "retained": "Four source-specific whole-word two-alias bounds do not exclude natural languages generally.",
+      "new": "No source-word inventory or frequency ceiling enters this bridge."
+    },
+    {
+      "id": "GDT1296",
+      "retained": "A5% activity requirement excludes the fixed common-use harmony model, not all harmony.",
+      "new": "No activity threshold or phonetic interpretation is used."
+    },
+    {
+      "id": "GDT1303/IDEA001014",
+      "retained": "Pair-table and pair-weave repeated-output constraints exclude only the fixed Deot projection, not unknown languages.",
+      "new": "The present contradiction is a native output condition on the alias mechanism, with no source corpus."
+    }
+  ],
+  "novelty_screen": {
+    "commands": [
+      "./vmanus-exp route-check cyclic glyph pool repeated block multiplicity singleton",
+      "./vmanus-work ideas search cyclic",
+      "./vmanus-work ideas search singleton",
+      "./vmanus-work lookup GDT857 --offset 4 --limit 4"
+    ],
+    "qualification": "Bounded navigation and relevant primary review found no identical working-unit signature bridge; this is not proof that no prose-only predecessor exists."
+  },
+  "sources": [
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md",
+      "sha256": "05af605f6a2088821e93d0181ac2ee4402d48650ad0543c0bce5045895195c80"
+    },
+    {
+      "path": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/artifacts/HITS.json",
+      "sha256": "ca6d42f40df636d1c97cbfbe6097d715ceb401e1fc87ddd885f0afb2ecb5d562"
+    },
+    {
+      "path": "experiments/yolo/gdt1297_cyclic_pool_pair_range/REPORT.md",
+      "sha256": "2185372d987ac8c09a0f0e14b13fcf8f3d36f3cde0ad41e328ba8fd6d82e11b2"
+    },
+    {
+      "path": "experiments/yolo/gdt1298_f103r_repeat_source_review/REPORT.md",
+      "sha256": "befccdb624b87a51894fbcc7bad988a99c3b95c759b01ee6d6ffc665a5215e9b"
+    },
+    {
+      "path": "experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md",
+      "sha256": "f60815fceae83d39dac2f37fc5bf06947c03a741488945c0b8d8b2f6b01cce68"
+    },
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "sha256": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410"
+    },
+    {
+      "path": "experiments/yolo/gdt1207_letter_alias_parity_frequency/REPORT.md",
+      "sha256": "9cd9f4115f55d53b4373e4b9afad83ab67ee93adb083e4d29fd038a3a516f3a8"
+    },
+    {
+      "path": "experiments/yolo/gdt1296_categorical_harmony_capacity/REPORT.md",
+      "sha256": "22f866d6c8a8ef2875eb10f4cdf95cd846d336d82072f9767ae88f6c25cb1aed"
+    },
+    {
+      "path": "experiments/yolo/gdt1303_paired_coordinate_exchange/REPORT.md",
+      "sha256": "913729974c80224c0695aeb5e14356979af00851c8588ae26a9f1dcf840c15ad"
+    }
+  ],
+  "next_action": "Root independent proof/scope review before scientific adoption or new experiment. No full native census, automatic reset repair, source selection, meanings, or newGDT has been initiated.",
+  "validation": {
+    "command": "python research_registry/proposals/production_origin_supply_20261003/BROAD_REPETITION_VALIDATE_20261012.py",
+    "path": "research_registry/proposals/production_origin_supply_20261003/BROAD_REPETITION_VALIDATE_20261012.py",
+    "sha256": "71ac21d41a114f4dd7eec7320257c36b729d29db4da976954cee87aeb270fd64",
+    "scope": "Separate source/signature arithmetic checker by same audit agent, not independently authored validator. Root replay and independent logical review pending.",
+    "last_run": "PASS on15 old certificates,13 units,11 positive signatures,9 singletons;12104 finite interval sanity checks."
+  }
+}

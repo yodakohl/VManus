@@ -1,0 +1,112 @@
+{
+  "schema": "broad-code-capacity-review-v1",
+  "date": "2026-10-12",
+  "status": "NO_GENUINELY_NEW_BROAD_EXCLUSION_SELECTED",
+  "role": "Targeted source/key-independent code-capacity audit; existing proof scopes retained.",
+  "read_primaries": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/REPORT.md",
+      "sha256": "59cbb0c8b6c8044f136c75e010ee157e1f3f65f856e5309d5ea9c33d974fdeb3"
+    },
+    {
+      "path": "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md",
+      "sha256": "ad1c8097a28a17bfefe89f4c960235cd08f419b254ba1f2f631bbc10c8274500"
+    },
+    {
+      "path": "experiments/yolo/gdt1235_ud_short_word_capacity/REPORT.md",
+      "sha256": "da197feb8cba1b3de70a3812b3f5d42fe44d846e4c6d8f609433b2b5b75b3b28"
+    },
+    {
+      "path": "experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md",
+      "sha256": "f5c527cc8b5e1b550834d07006e21a13c0aa7c7f2169c2f576fab86cf1fec1cd"
+    },
+    {
+      "path": "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md",
+      "sha256": "c4b3c8121bc96d9df3e96dcea4aa6ca77bee3981c5fcb27a1b6dafe7a7180be4"
+    },
+    {
+      "path": "experiments/yolo/gdt1267_general_ud_two_sided_closure/REPORT.md",
+      "sha256": "1d58d89c12e170a2dcc9fcc0cc68d21b3cbd78efc44db78bbf684e8521e868ce"
+    },
+    {
+      "path": "experiments/yolo/gdt1269_space_free_pair_table_capacity/REPORT.md",
+      "sha256": "515caa144e960321a4fde542365c2fafc7ae4d96805ef9bb8cf3e7434c55d8aa"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PREFIX_CODE_LE31_ACTIVITY_COROLLARY_20261007.json",
+      "sha256": "7f6f67d4d99a2155c9ac28da7a2148f232891f4d56bb50d1d8d006c816851281"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/GENERAL_UD_TWO_SIDED_RESIDUAL_PROOF_REVIEW_20261007.json",
+      "sha256": "16414a51cac4783e71019f8e64b9489fbb3dba5dab2d53c70402921989d965ca"
+    }
+  ],
+  "retrieval": {
+    "baseline": "VOYNICH_CURRENT_ROUTE.md read; composition topic read after unknown code topic.",
+    "followups": [
+      "GDT1269 first four followup cards",
+      "GDT1233 first four followup cards",
+      "GDT1235 first twelve followup cards",
+      "GDT1267 all four indexed followup cards",
+      "GDT1241 first eight followup cards"
+    ],
+    "registry_cards": [
+      "IDEA000963",
+      "HIST:543b8c88ac2f9e60"
+    ],
+    "limit": "Bounded navigation, not exhaustive registry or all-followup review."
+  },
+  "retained_broad_constraints": [
+    {
+      "class": "Distinct-initial fixed nonempty expansions, word-preserving, 22 heads",
+      "result": "GDT1233 forces every used spelling to one working unit; arbitrary fixed tail lengths excluded, direct substitution retained."
+    },
+    {
+      "class": "Arbitrary finite prefix-free nonempty table, whole groups preserved",
+      "result": "GDT1234 forces 19 singleton signs and at least27 entries if nontrivial; GDT1248 constructs27-entry covers. No all-prefix-code rejection."
+    },
+    {
+      "class": "Freely uniquely decodable arbitrary finite nonempty table",
+      "result": "GDT1267 forces k/e/s from old whole-word bridges and excludes its same five fixed source populations under nonempty literal expansion. It does not establish the prefix-only27 bound for general UD."
+    },
+    {
+      "class": "Fixed pair tables, arbitrary visible spacing, unknown snippet phases, zero or one permitted singleton control",
+      "result": "GDT1269 necessary70/72 pair counts exclude <=32 entries, and the existing later consequence already excludes <=64. Neither count is exact optimum or a source alphabet size."
+    }
+  ],
+  "candidate_novelty_checks": [
+    {
+      "proposal": "Extend arbitrary-prefix-code activity restriction beyond the minimum27 tables using forced singleton signs and old head counts.",
+      "decision": "DUPLICATE_NOT_NEW",
+      "reason": "HIST:543b8c88ac2f9e60 already curates the stronger exact forced-singleton-only group counts18265/22528 IT,15587/19321 RF,15336/19332 ZL. The separately read <=31 activity corollary also already bounds every such small table below0.7% active groups. Do not publish a weaker union bound as new progress."
+    },
+    {
+      "proposal": "Run full general-UD two-sided residual closure or solve codebook sizes23..26.",
+      "decision": "NOT_SELECTED",
+      "reason": "Full residual closure was drafted but not executed in1267; its content-bearing k/e/s consequence was already proved directly. IDEA963 explicitly requires a changed research decision. Resolving remaining cardinality alone would leave the five source exclusions unchanged; no independently motivated writer or new falsifier was supplied here."
+    },
+    {
+      "proposal": "Translate70/72 pair bound into another source-unit or table-state cap.",
+      "decision": "NOT_SELECTED",
+      "reason": "Without a separately justified construction this merely repackages the old necessary count, including the already recorded <=64 consequence."
+    }
+  ],
+  "countermodels_that_limit_blanket_exclusion": [
+    "The22 singleton identity table covers any text over those working units; source-free coverage cannot reject every fixed table.",
+    "GDT1248 explicitly gives nontrivial27-entry prefix-free covers of the retained panel.",
+    "GDT1253 gives a23-entry grammar-restricted code covering every possible visible string; bare form coverage cannot discriminate that broad family."
+  ],
+  "research_decision": "No new empirical experiment, larger solver or decoder selected. Retain the exact exclusions and pursue a construction with independently specified content-bearing consequences rather than another unrestricted coverage problem.",
+  "limits": [
+    "No new word meanings, native counts, manuscript data admission or source-language rejection.",
+    "No raw mixed TSV, image or reserve intentionally opened. A broad content search unintentionally returned a reserved-file line; root was promptly notified, content was excluded from reasoning and is not reproduced here. Subsequent searches used exact primary paths.",
+    "Alternate transcriptions remain readings of one manuscript; working-unit and whole-group assumptions retained.",
+    "This is an audit with no new exclusion, not proof that no future useful code-capacity argument exists."
+  ],
+  "accidental_search_exposure": {
+    "filename": "HUMAN_BRANCH_RANK958_EXPECTED_SEALED_20261006.json",
+    "query_pattern": "activity|99%|80%|79%|cfh.*cph.*q|q.*cfh.*cph",
+    "scope": "Broad content search within the existing production_origin_supply dossier, JSON and Markdown filename globs; per-file match limit2.",
+    "handling": "A matching line was returned unintentionally. Contents were not used for inference and are not reproduced. Root notified promptly. This is exposure, not admission or confirmation; no further broad content search."
+  }
+}

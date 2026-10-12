@@ -1,0 +1,66 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "source_status": "NEW_PROPOSAL",
+  "work_limits": "Source-free proposal and targeted prior review only. No native payload/count, image, mixed TSV, source corpus, word meaning or experiment. Root owns selection/assessment. Existing22-unit and complete-group assumptions remain conditional.",
+  "title": "RAW UNREVIEWED: all-class circular nonreturning field capacity with arbitrary within-word cut",
+  "summary": "Permit every whole group to be a rotation of a sequence of disjoint sign-class fields, each class occurring in at most one circular block. Unlike1321linear blocks, the first and last pieces may belong to one field. Circular cut constraints and admissible-set partitions can bound every possible class count without assuming class order, source language or word meanings.",
+  "design": {
+    "mechanism": "One fixed partition of working units into disjoint nonempty field classes; in each whole group, each used class occupies one circular interval. Both field order and cut position may differ by group. Internal symbol order inside fields is unrestricted.",
+    "unit": "Each complete written group is considered cyclic only for this structural hypothesis; no circular manuscript reading direction or physical source identity is asserted.",
+    "exact_condition": "For wordw oflengthn and candidate classC, count cyclic exits E_C(w)=sum_i 1[w_i inC and w_(i+1 mod n) notinC]. Require E_C(w)<=1. A one-class word has zero exits.",
+    "binary_cut_equivalence": [
+      "For a proper nonempty subsetC, the total binary membership changes around a word equal2*E_C(w). Thus C is an admissible class iff every whole group has at most2cyclic changes for C versusits complement.",
+      "If a valid nontrivial K-class partition exists, isolate ANY one of its classes and merge all other classes into its complement. On a circle the complement of one interval is one interval, so a valid nontrivial binary partition exists. This special coarsening fact does not hold for arbitrary linear no-return partitions.",
+      "Conversely a valid binary partition is already a nontrivial partition. Therefore absence of ANY admissible nontrivial binary cut excludes everyK>=2in this circular family.",
+      "For a full capacity envelope, every block in any validpartition must be an admissible subsetC. Conversely any setpartition into admissible subsets satisfies the per-class circular condition. Maximizing the number of disjoint admissible subsets covering all active signs gives the exact maximumK, if independently certified. Otherwise report only justified bounds."
+    ],
+    "smallest_adequate_check": "Freeze existing strict complete groups perreader; enumerate nonemptyproper subsets up to complement symmetry and reject any with a witnessed word having4or more cyclic class changes. Do not run an unbounded partition search if binary-cut results already settle the chosen decision. If maximumKis pursued, freeze a budget and provide independently replayable lower partition and upper cover certificate; do not call one surviving cut a wholewriter.",
+    "source_only_examples": [
+      {
+        "word": "ABA",
+        "partition": "A versusB",
+        "result": "Allowed circularly: the twoAends join across the word cut. It was forbidden by linear no-return1321."
+      },
+      {
+        "word": "ABAB",
+        "partition": "A versusB",
+        "result": "Fourcyclicchanges, impossible unless A/B are merged."
+      },
+      {
+        "word": "ABAC",
+        "partition": "three distinctclasses",
+        "result": "A has two circularblocks and is invalid. Looking only for an ABAB two-class subsequence would miss this; exact per-class exits must be checked."
+      }
+    ],
+    "content_and_inverse_limit": "This is a necessary record-field architecture, not a complete message writer. A field that straddles the cut is rejoined endfragment+startfragment when anotherclass locatesits boundaries. A word consisting of oneclass alone does not reveal its original within-field cyclic phase. Full reading needs a paid source framing rule; no lossless inverse is claimed by capacity.",
+    "limits": [
+      "Not a changed decision for1321 or1345. No sorting ofletters withinclass and no globally fixed class order assumed.",
+      "Ordinary morphology with overlapping sign inventories, repeated field visits on the circle, class changes byword or altered glyph/group boundaries is outside.",
+      "A validcut/partition doesnot identify native fields, meaning, circular source text, or a practical writer."
+    ]
+  },
+  "predecessors": [
+    {
+      "id": "GDT1321",
+      "primary": "experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md",
+      "difference": "Linear no-return requires first/lastsameclass toabsorbthemiddle. Circularintervals allowtheirjointhroughcut; ABA distinguishes the contracts. Oldlinear1class result is not transferred."
+    },
+    {
+      "id": "GDT1263",
+      "primary": "experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md",
+      "difference": "Fixedweak class sorting through a linear word is different. The present class order is arbitrary perword and internal letters are unsorted."
+    },
+    {
+      "id": "GDT1345/IDEA001015",
+      "primary": "experiments/yolo/gdt1345_class_sort_capacity/REPORT.md",
+      "difference": "Fixed strict order WITHIN eachclass with arbitrary interleaving is different. Here interleaving is bounded toonecircularinterval but internalorder unrestricted. Neitheroldclique noroldmerge certificate suppliesthis result."
+    }
+  ],
+  "novelty_review": "Bounded circular/nonreturning/rotation searches andduplicates,1321/1263primaries andfollowups,1345currentcontract reviewed. No same fixed circular-interval class contract found. No new data inspected.",
+  "primary_hashes": {
+    "experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md": "99995e9e85b5fce7df0275e8e3f53bada274d9b14979a8669a78e362f07882e6",
+    "experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md": "f328bb69a13fb2d0bd3ff657d9b2c3cc3b6d05a54f1dbff53015ad77deb5551a",
+    "experiments/yolo/gdt1345_class_sort_capacity/REPORT.md": "05e3fd11981455f8c268f45a0b51243f2f8848666c292d824705e1a94c103b3e"
+  }
+}

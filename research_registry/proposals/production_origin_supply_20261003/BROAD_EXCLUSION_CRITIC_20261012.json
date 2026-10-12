@@ -1,0 +1,369 @@
+{
+  "schema": "broad_exclusion_scope_critic_v1",
+  "date": "2026-10-12",
+  "status": "CONDITIONAL_PROOF_SCOPE_SUPPORTED_NO_NATIVE_REOPENING",
+  "review_target": [
+    "GDT1286",
+    "IDEA001016",
+    "GDT1345"
+  ],
+  "review_type": "Independent mathematical scope criticism using explicit finite toy constructions; no new native data or result, and no replay of native certificates in this review.",
+  "sources": [
+    {
+      "path": "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+      "sha256": "41ecb280e2724b7b71a2cd394880c99d2993661ab64f5efff05d81df0f1b9f46"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/REPORT.md",
+      "sha256": "05e3fd11981455f8c268f45a0b51243f2f8848666c292d824705e1a94c103b3e"
+    },
+    {
+      "path": "experiments/yolo/gdt1287_whole_word_reversible_closure/REPORT.md",
+      "sha256": "4a53bf38e43e925ffc858d14209417283580446a436f6b9b7a1c3f3921481c14"
+    },
+    {
+      "path": "experiments/yolo/gdt903_universal_reversible_line_action/REPORT.md",
+      "sha256": "44156d363a940fd4035092eed06f89d8e253feed1f4d008f5c557f6745f0b57d"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_NILPOTENT_ACTION_EXCLUSION_RAW_20261012.json",
+      "sha256": "244f98b475a055f11ea964a2248e20ba7652dedf2754863c8381127779ea0918"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PARAGRAPH_STATE_SCOPE_RESULT_20261009.json",
+      "sha256": "99d7828598edc3a94a4da0c133e9673745a131c1ab65485974613ccc6ea287cc"
+    }
+  ],
+  "proof_review": {
+    "idea1016": "No gap found in the stated theorem. Finite generation ensures a proper stabilizer lies in a maximal proper subgroup. If each maximal subgroup is normal, its quotient is cyclic of prime order and supplies a nonzero abelian quotient killing the stabilizer, contradicted by C A = I. The finite upper central series normalizer argument covers infinite nilpotent groups too.",
+    "essential_distinction": "A paragraph fixes one starting point; it need not be the identity permutation on all states. Replacing the ordinary stabilizer by a normal closure would impose an extra condition.",
+    "gdt1345": "Pairwise opposite-order witnesses give a clique lower bound only; the report also supplies matching feasible partitions, so its exact minima have an upper-bound ingredient. No logical reason found to discard the fixed visible-unit result.",
+    "native_evidence_limit": "The inherited C A = I and sorter certificates were not independently rerun here. Root must bind any accepted corollary to their existing checks."
+  },
+  "counterexamples": [
+    {
+      "id": "E1",
+      "plausible_overclaim": "All reversible paragraph state machines, all solvable groups, all systems of involution moves, or all prime-sized state spaces are excluded.",
+      "construction": {
+        "words": [
+          "AA",
+          "B",
+          "BB",
+          "ABABA"
+        ],
+        "states": [
+          0,
+          1,
+          2
+        ],
+        "A": [
+          1,
+          0,
+          2
+        ],
+        "B": [
+          0,
+          2,
+          1
+        ],
+        "start": 0,
+        "common_end": 0,
+        "traces": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            2,
+            1,
+            0
+          ]
+        ],
+        "augmented_count_rows": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            0,
+            2,
+            -1
+          ],
+          [
+            3,
+            2,
+            -1
+          ]
+        ],
+        "integer_left_inverse": [
+          [
+            -1,
+            2,
+            -2,
+            1
+          ],
+          [
+            0,
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            -2,
+            1,
+            0
+          ]
+        ]
+      },
+      "argument": "The displayed left inverse gives I3. Each primitive move has order 2, but together they generate solvable nonnilpotent S3. The orbit has prime cardinality 3, while the group has order 6. Its order-2 start stabilizer is maximal but not normal. Every paragraph returns naturally to 0 and intermediate states move.",
+      "escape": "Generated group lacks the maximal-subgroups-normal premise. It is not a counterexample to IDEA1016.",
+      "novelty": "Existing scope fixture restated to block precise overclaims; not new discovery or native fit."
+    },
+    {
+      "id": "E2",
+      "plausible_overclaim": "Abelian or nilpotent memory is impossible anywhere during paragraph writing.",
+      "construction": {
+        "words": [
+          "A",
+          "B",
+          "AA"
+        ],
+        "count_rows": [
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "row_determinant": 1,
+        "states": [
+          0,
+          1
+        ],
+        "A": "toggle",
+        "B": "identity",
+        "start": 0,
+        "natural_ends": [
+          1,
+          0,
+          0
+        ]
+      },
+      "argument": "These augmented rows have determinant 1, yet a nontrivial C2 counter runs perfectly well when natural endpoints may vary. A boundary instruction RESET maps both endpoints to 0 if desired. The printed A/B sequence itself remains available and is not erased by resetting memory.",
+      "escape": "Common natural endpoint was dropped; external reset is not paragraph completion by fixed sign actions.",
+      "limit": "Not a plaintext encoder, native-fit model, or reason to rerun the old fixed-endpoint test."
+    },
+    {
+      "id": "E3",
+      "plausible_overclaim": "Any finite-state rule reaching a common paragraph endpoint is excluded.",
+      "construction": {
+        "words": [
+          "A",
+          "B",
+          "AA"
+        ],
+        "states": [
+          0,
+          1
+        ],
+        "A": [
+          1,
+          1
+        ],
+        "B": [
+          1,
+          1
+        ],
+        "start": 0,
+        "common_end": 1
+      },
+      "argument": "The same determinant-1 count rows from E2 coexist with nontrivial start-to-end movement under constant noninvertible maps. Every nonempty word ends at 1.",
+      "escape": "Reversibility is essential. This trivial recognizer also shows that satisfying the endpoint condition need not explain the writing or preserve a message.",
+      "limit": "No evidence for a native noninvertible encoding."
+    },
+    {
+      "id": "E4",
+      "plausible_overclaim": "Sorting with fewer than ten underlying sign types/tracks is impossible regardless of representation.",
+      "construction": {
+        "hidden_types": [
+          "a1",
+          "b",
+          "a2"
+        ],
+        "one_class_order": "a1 < b < a2",
+        "visible_projection": {
+          "a1": "a",
+          "a2": "a",
+          "b": "b"
+        },
+        "hidden_outputs": [
+          [
+            "a1",
+            "b"
+          ],
+          [
+            "b",
+            "a2"
+          ],
+          [
+            "a1",
+            "b",
+            "a2"
+          ]
+        ],
+        "visible_outputs": [
+          "ab",
+          "ba",
+          "aba"
+        ]
+      },
+      "argument": "All hidden outputs are sorted in one fixed strict class; their visible projections contain both a-before-b and b-before-a. The visible conflict graph forces a and b into separate classes only when each visible sign has one globally fixed identity/membership.",
+      "escape": "Many-to-one observation of distinct hidden roles, not a bijective relabeling. If arbitrary duplicates are allowed, any finite inventory can be encoded by position-indexed types, so the broad repair becomes vacuous without an independent capacity or observation constraint.",
+      "limit": "No claim these hidden roles exist in Voynich; does not overturn the exact 22-working-unit sorter bound."
+    },
+    {
+      "id": "E5",
+      "plausible_overclaim": "GDT1345 excludes sorted components inside a written group.",
+      "construction": {
+        "visible_group": "aba",
+        "underlying_components": [
+          "ab",
+          "a"
+        ],
+        "fixed_order": "a < b"
+      },
+      "argument": "Both components are sorted in one class, but their concatenation has opposite a/b orders. A within-group restart at the component boundary defeats the whole-group conflict inference without changing glyph identities.",
+      "escape": "Complete visible groups cease to be the single sorting domain. An unconstrained split into singletons permits every text, so merely adding latent boundaries supplies no explanatory model.",
+      "limit": "No actual native component boundary is identified and no arbitrary repair is adopted."
+    },
+    {
+      "id": "E6",
+      "plausible_overclaim": "Fixed order sorting with any treatment of ties is excluded.",
+      "construction": {
+        "signs": [
+          "a",
+          "b"
+        ],
+        "rank": {
+          "a": 0,
+          "b": 0
+        },
+        "stable_sort_inputs": [
+          "ab",
+          "ba"
+        ],
+        "stable_sort_outputs": [
+          "ab",
+          "ba"
+        ]
+      },
+      "argument": "A fixed weak-rank stable sort preserves both orders inside a tie. The strict-order graph cannot separate them. Making every rank equal reproduces any input and has no explanatory power.",
+      "escape": "Strict order versus weak ties; the original report explicitly excludes ties from its claim.",
+      "limit": "Not a useful candidate by itself; GDT1345 remains correct."
+    },
+    {
+      "id": "E7",
+      "plausible_overclaim": "Full-rank additive paragraph counts reject position-sensitive checks or balancing.",
+      "construction": {
+        "paragraphs": [
+          "AA",
+          "AAA",
+          "BB",
+          "BBB"
+        ],
+        "count_rows": [
+          [
+            2,
+            0,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ],
+          [
+            0,
+            2,
+            -1
+          ],
+          [
+            0,
+            3,
+            -1
+          ]
+        ],
+        "position_rule": "Add +1 at first position, -1 at last position, and 0 at interior positions, in an integer counter."
+      },
+      "argument": "Row2-row1=(1,0,0), row4-row3=(0,1,0), and row1-2*(row2-row1)=(0,0,-1), so the augmented lattice is all Z3. Nonetheless every listed paragraph has a nontrivial excursion and total zero under the position-dependent rule.",
+      "escape": "A sign no longer carries one fixed contribution independently of position. Knowledge of the final position is an extra control input, not discovered from glyphs.",
+      "limit": "This cheap construction warns against turning a sufficient invariant obstruction into a ban on all checksums; it does not explain Voynich."
+    }
+  ],
+  "dominant_assumptions": [
+    {
+      "priority": 1,
+      "assumption": "One action or sort identity per fixed working unit",
+      "effect": "Changing the key bijectively cannot help; splitting an observed sign into hidden contextual roles can. Such splitting requires independent support or a complexity restriction."
+    },
+    {
+      "priority": 2,
+      "assumption": "The chosen paragraph or whole written group is exactly the completion/sorting domain",
+      "effect": "Resetting inside groups or permitting arbitrary paragraph endpoint changes invalidates the proof premises; free boundary insertion makes the alternatives empty explanations."
+    },
+    {
+      "priority": 3,
+      "assumption": "Natural endpoint before reset and reversible fixed action",
+      "effect": "Simple two-state counterexamples survive when either premise is removed. These are not subtle numerical loopholes."
+    },
+    {
+      "priority": 4,
+      "assumption": "Generated action group belongs to the declared class",
+      "effect": "Nilpotence is a condition on the group generated by all moves, not on each move, state count, or intuitive mechanical simplicity."
+    },
+    {
+      "priority": 5,
+      "assumption": "Zero exceptions and exact observed source labels",
+      "effect": "Rare-form or transcription-error tolerances are not inferred by these theorems. Recurrent sorter panels strengthen source robustness but do not establish physical alphabets."
+    }
+  ],
+  "retained_decisions": [
+    "GDT1286 all-abelian fixed paragraph completion exclusion remains intact.",
+    "GDT1345 exact sort-class minima remain intact under its stated representation.",
+    "GDT1287 unrestricted reversible whole-word natural completion is a separate result with its own complete-group premises.",
+    "GDT903 already provides nontrivial unrestricted reversible LINE compatibility on different boundaries and units; it cannot be promoted to paragraph fit."
+  ],
+  "unjustified_closure_found": "No new unjustified closure in the reviewed primary statements. The proposed nilpotent extension is conditional and avoids the displayed countermodels. Broad user-facing labels must retain common natural endpoint, fixed unit action, and generated-group premises.",
+  "recommended_condensed_wording": "We can exclude whole families of fixed self-completing counters and low-class strict sorters on the declared transcription. We cannot exclude simple stateful writing or meaningful content generally. The counterexamples show exactly which additional assumptions would be needed.",
+  "no_reopening": "Counterexamples establish limits of logical implication. They are not new Voynich proposals, evidence for repairs, or authorization to repeat failed experiments."
+}

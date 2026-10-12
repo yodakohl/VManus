@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-12",
+  "status": "LOGICAL_CONSOLIDATION_NO_NEW_NATIVE_EXCLUSION",
+  "task": "Find broad valid restrictions on fixed disjoint roles, monotone stages and contiguous blocks, without repeating the class-count experiment.",
+  "decision_note": {
+    "unknown": "Whether combining the already proved restrictions yields an exclusion not already implied by them, or merely a simpler certificate.",
+    "smallest_adequate_review": "Read four primary reports, later dependency cards and the earlier daldy monotone-value review; derive a source-free intersection theorem.",
+    "outcome_changes": "A nonredundant extension would require a separately fixed proposal; an immediate consequence should be retained as an explanation and should not trigger another experiment.",
+    "budget_minutes": 20,
+    "decision": "Immediate consequence only; no new experiment or decoder."
+  },
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md",
+      "sha256": "f328bb69a13fb2d0bd3ff657d9b2c3cc3b6d05a54f1dbff53015ad77deb5551a"
+    },
+    {
+      "path": "experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md",
+      "sha256": "99995e9e85b5fce7df0275e8e3f53bada274d9b14979a8669a78e362f07882e6"
+    },
+    {
+      "path": "experiments/yolo/gdt1344_two_class_sort_triangle/REPORT.md",
+      "sha256": "507cae7fbd80b78993c7cc201bbee4c138d0d29d04da5bb5f9b7eb151ad63b70"
+    },
+    {
+      "path": "experiments/yolo/gdt1345_class_sort_capacity/REPORT.md",
+      "sha256": "05e3fd11981455f8c268f45a0b51243f2f8848666c292d824705e1a94c103b3e"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/SORTED_TWO_FORM_ADDITIVE_ROOT_REVIEW_20261006.json",
+      "sha256": "999ab7bd77794a6d3d5f1062ae2dbbb18b2e4a21cdb69b6d8517084fcdadd027"
+    }
+  ],
+  "retained_architectures": [
+    {
+      "id": "GDT1263",
+      "rule": "Every sign has one fixed weak class rank; every whole is globally nondecreasing in those ranks.",
+      "strongest_existing_conclusion": "Full old panel forces all22 signs to one rank. Two-leaf recurrent subset forces19 core signs equal and allows q before core and n/m after.",
+      "not_implied": "No rejection of overlapping emitted alphabets, revisited stages, context-dependent roles or ordinary morphology."
+    },
+    {
+      "id": "GDT1321",
+      "rule": "Every sign belongs to exactly one fixed role; each role occupies at most one contiguous run in each complete group. Block order may vary by word.",
+      "strongest_existing_conclusion": "Full old panel forces one role for all22 signs; recurrent subset has the same19-core plus q,n,m envelope.",
+      "not_implied": "One role may still carry arbitrary ordered content. This does not rule out arbitrary lexical structure or stages sharing signs."
+    },
+    {
+      "id": "GDT1344/GDT1345",
+      "rule": "Fixed disjoint classes may interleave arbitrarily, but each class subsequence must be nondecreasing in a fixed order that strictly distinguishes different signs.",
+      "strongest_existing_conclusion": "daldy and olaiin already require three classes. Later exact minima14/15/15 full and10/10/11 recurrent remain as published, not recalculated here.",
+      "not_implied": "These minima concern this sorting condition only, not alphabet size, universal number of writing rules, cognitive complexity or language."
+    }
+  ],
+  "intersection_theorem": {
+    "name": "A return to a distinct sign excludes every one-visit sorted-role architecture.",
+    "precise_contract": [
+      "Each output sign has exactly one role within a word. A globally fixed role map is sufficient but stronger than this proof needs.",
+      "Each role occupies one contiguous block, with arbitrary number of roles and arbitrary block order.",
+      "Inside a block, distinct output signs have distinct order ranks and the emitted sequence is monotone. Repeated identical signs are allowed. The order may even vary by word or block without avoiding this theorem."
+    ],
+    "statement": "If one whole group contains A ... B ... A with A distinct from B, no architecture satisfying all three conditions can emit it, for any number of roles.",
+    "proof": [
+      "Both A occurrences have the same role. Contiguity forces the intervening B to share that role.",
+      "A monotone block would require rank(A)<=rank(B)<=rank(A), or the reversed inequalities. Therefore ranks are equal.",
+      "The distinct-sign order forbids rank(A)=rank(B). Contradiction."
+    ],
+    "minimal_obstruction": "ABA is the shortest possible repeated-return obstruction: length3 and two distinct signs. The manuscript witness is the subsequence d-a-d at zero-based positions0,1,3 of the already certified complete daldy.",
+    "source_binding": {
+      "whole": "daldy",
+      "locus": "f45r.10",
+      "group": "G006",
+      "prior_report": "GDT1344",
+      "strict_occurrences_ZL_IT_RF": [
+        15,
+        15,
+        5
+      ],
+      "boundary": "These are the prior strict-panel counts, not a new count or the broader word-profile totals. All readings concern the same manuscript."
+    },
+    "exact_converse_for_unrestricted_role_count": "A collection is representable by some such architecture if and only if no word has an interrupted repeated sign. Necessity is above. For sufficiency assign each distinct sign its own role globally; all its occurrences then form one contiguous run per word, and each singleton-sign block is trivially sorted.",
+    "scope_gain": "This removes the one-role degeneracy left by a no-return rule alone, without any class-count bound. It also remains impossible when block order and within-block sign order vary per word.",
+    "novelty_status": "An elementary consequence of existing constraints, not an independent new manuscript finding. The weaker no-return family and the fixed sorter families already have published closures; do not present this as another discovery or rerun them.",
+    "minimal_escape_disjunction": "A model covering the retained witness must relax at least one premise: allow revisiting a role, allow unsorted internal content/equal-rank distinct signs, allow the same sign in multiple roles, or change the inherited unit/group account with evidence. This disjunction neither chooses a repair nor proves any particular historical mechanism."
+  },
+  "why_further_generalization_is_invalid": [
+    "Disjoint roles without contiguity permit ABA by assigning A and B different roles and revisiting A.",
+    "Contiguous roles without sorted interior permit ABA in one ordinary unsorted field.",
+    "With overlapping role inventories, the two A occurrences may occur in different roles; the proof no longer applies.",
+    "Weakly monotone role ranks may tie A and B, so the strict-sign-order contradiction cannot be imported into1263.",
+    "Global reversal and bijective renaming preserve the ABA obstruction, but context-dependent regrouping is not a bijective renaming.",
+    "Ordinary morphology commonly reuses letters in different morphemes and does not require sorted interiors; it is outside this exclusion.",
+    "Combining independently constrained analytical parsers does not establish their physical reality."
+  ],
+  "validation": {
+    "kind": "Short source-free necessity/sufficiency proof plus existing source-bound witness; no new empirical census.",
+    "source_hashes": "All cited bytes hashed at review.",
+    "limits": "No numerical revalidation of prior experiments, no new image or physical sign adjudication, no semantic inference."
+  },
+  "access": "Reports and the existing review only; no raw transcription, sealed/reserve text,327/336 body, new corpus or meanings.",
+  "publication_status": "Agent artifact for root review; no shared registry or git mutation."
+}

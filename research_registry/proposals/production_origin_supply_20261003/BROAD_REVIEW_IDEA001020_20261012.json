@@ -1,0 +1,45 @@
+{
+  "record_id": "IDEA001020",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root with independent bounded-agent proof and scope checks",
+  "assessment_basis": "1319allows identity passage; arbitrary fixed deterministic reset also leaves all active first-unit entry values constant. A fixed reset chosen solely by lastunit has same consequence.",
+  "reason": "Eine feste Zustandsänderung am Leerzeichen rettet den geprüften variablen Eintrittskanal nicht. Noninjective reset may retain distinct exits in one fibre. Hidden or word-body state and inactive markers remain outside. Elementary reparameterization, not new native evidence.",
+  "blockers": [
+    {
+      "code": "conditional_units_and_mechanism_only",
+      "detail": "Whole entry and exit values fixed respectively by first and last working unit. Same old strict within-line seams; no occurrence-varying extra reset command.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/BROAD_BOUNDARY_REVIEW_20261012.json",
+        "research_registry/proposals/production_origin_supply_20261003/BROAD_EXCLUSION_ROOT_VALIDATION_20261012.json",
+        "research_registry/proposals/production_origin_supply_20261003/BROAD_EXCLUSION_PASS_20261012.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "An independently justified different unit, boundary or mechanism contract must retain existing counterexamples; this does not reopen old failures.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/BROAD_BOUNDARY_REVIEW_20261012.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More keys or state counts inside the same excluded class",
+      "Treating a countermodel outside the contract as native support",
+      "Calling the capacity result a word meaning"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1319",
+      "type": "related_to",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/BROAD_EXCLUSION_PASS_20261012.json"
+      ]
+    }
+  ]
+}
