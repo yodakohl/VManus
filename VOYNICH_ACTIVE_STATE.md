@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1354 explicit pair-tail countercode settles singleton i
+
+FixedH={i,n}IT andH={i}RF/ZL suffix codes uniquely cover every61181strict group, without singletoni. Actualusedtables31/29/27entries affect4359/3897/3716groups withpairs. This completes1353FULLsingletonintersection at17/18/16forced entries; no newforcedsign. Source-informed selection is disclosed. ITjointi/nomission is verified, not jointomissionofalloptional signs. No sourcevalues, phonetics, historical fit orminimumalphabet. Existingkeeees/fixed-source exclusions remain and1353originalpartialresult stayshistorical. [Report](experiments/yolo/gdt1354_minim_pair_omission_code/REPORT.md).
+
 ## 2026-10-12 — GDT1353 conditional unit obligations beyond the old short-code result
 
 Arbitrary-size freelyUD fixed word codes force17/18/16singletons on IT/RF/ZL FULL panels, leavingi unresolved; all other unforced signs have explicit individual covering countercodes. GE2classifications are exact13/13/12. New versus1235+1267union: f/f,p/f,p; additionally fixed whole groups168/536/543, not all63–65%coverage newly discovered. p has recurrent proofs; f does not remain forced inGE2. Countercodes may differ per omitted sign; no joint omission, minimum alphabet, sound or meaning.1267oldbridge/draft and prior failures preserved. [Report](experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md).

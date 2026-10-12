@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: fixed_test
 Status: checkpoint
-Task: joint code units.
-Latest decision: 1353i unresolved.
-Working files: GDT1353.
+Task: i omission code.
+Latest decision: 1354i not forced.
+Working files: GDT1354.
 Assumptions: fixed freeUD.
-Resume: review unresolved i.
+Resume: review GDT1240 followups.
 Running: none.
 
 ## Structural baseline
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public0adee0750.
+Public5b6ca8e91.

@@ -1,0 +1,44 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "title": "RAW: fixed suffix-free pair-tail countercodes omit unresolved i with reader-specific H sets",
+  "summary": "Source-informed explicit countercode family C=(Sigma minus H) singleton entries plus all two-unit strings ending inH. FixH={i,n}forIT2a andH={i}forRF1b/ZL3b based on already-inspected1353root metadata. Suffix freedom is immediate; exact coverage iff every complete word has an even initialH-run. If validated, omission ofi completes1353FULLsingleton intersections without globalcode search.",
+  "fixed_plan": {
+    "alphabet": "Unchanged22working-unit alphabet and each reader own1353FULLwholeword panel. No rawmixedTSV/image/newnative acquisition by producer.",
+    "H_by_reader": {
+      "IT2a": [
+        "i",
+        "n"
+      ],
+      "RF1b": [
+        "i"
+      ],
+      "ZL3b": [
+        "i"
+      ]
+    },
+    "selection_disclosure": "Root inspected existing1353certificate roots before selecting theseHsets. Root reports RF/ZL initiali-runs even; ITinitialin/iiin/iiincheom/iir/iirchal become even underH={i,n}, and1353alreadycertifies noITword beginsn. This is source-informed fitting of an existence witness, NOT a held prediction. Producer did not independently count these metadata.",
+    "codebook": "C_H = {a : a in Sigma outsideH} union {a b : a inSigma,b inH}. Every entry nonempty; omit singleton for EVERYh inH. Full template sizes43forHsize1 and64forHsize2. Restricting to actually used entries preservesUD and coverage if tracked; resulting sizes are not minima.",
+    "suffix_free_proof": "No singleton can be a suffix of a two-unit entry: singleton ends outsideH, pair ends insideH. Distinct pairs have same length and cannot properly contain one another as suffix. Thus code is suffix-free and freelyUD for all entry sequences.",
+    "coverage_proof": "Right-to-left: when lastunit is outsideH it must be its singleton; when insideH it must end a two-unit entry and consumes the preceding unit. Every maximal internalH-run is paired internally ifeven, or consumes the preceding outside unit ifodd. The initialH-run has no precedingoutsideunit, so succeeds iff its length is even. PureHwords are the same parity case; zero initialHlength is allowed.",
+    "inverse": "Unique right-to-left suffix parsing recovers code-entry sequence in forward order. No actual source values assigned to entries.",
+    "smallest_test": "Under a new root preregistration, check exact initialHparity for every unchangedFULLwholeword, construct all template entries or usedsubset, verify suffix freedom and independently count unique parses. Retain failures rather than choose anotherHset. No optimizer, sourcewordsounds or newrunrules.",
+    "success": "If the fixed code covers a readerFULLpanel, singletoni is certified NOTforced there. Combined with1353existing forced proofs and per-sign countercodes, this yields exact singleton intersection for thatFULLpanel. ITalso has explicit jointi/n omission through this singlecode.",
+    "failure": "Coverage failure rejects this particular countercode only. Keepi unresolved; no newHselection,largerd,exceptions or code search automatically.",
+    "joint_omission_scope": "Jointi/n claim is allowed only forIT if this actualsinglecode validates; RFhasforcedn and usesH={i}only. No jointomission ofothernonforcedsigns follows."
+  },
+  "priors_and_limits": [
+    "1353rule completion did not settlei; its originalFULLpartialdecision remains as history. This is a distinct constructive countercertificate, not another quotient inference.",
+    "Earlier individualcountercodes did not authorize jointomission; the newITtable pays and verifies it directly.",
+    "1353GE2exact intersections remain separate and unchanged.",
+    "No phoneme,glyphalphabet,meaning,language,historicalwriter,minimumtable or predictivefit inferred.",
+    "Samewholegroup andworkingunit assumptions persist; nativeletter identity remains unestablished."
+  ],
+  "novelty_review": "Bounded unaryparity/synchronizing-code searches and unaryresidue suffix/prefix route+duplicate screen found no identical registered countercode; nearest1234/1241/1248 and1353are different bounds/constructors. The current fixedHplan follows root-owned endpoint metadata and must disclose that selection.",
+  "primary_hashes": {
+    "experiments/yolo/gdt1353_general_ud_forced_units/REPORT.md": "50cf87e98213d97a596c0bffbc80bdae5c803ce70b6fa9031c009db4c9dc5647",
+    "experiments/yolo/gdt1353_general_ud_forced_units/artifacts/RESULT.json": "55f71f529240bfaed8a0f2ff33864f48ad4dc535a4c34484d7d92112841eccc8",
+    "research_registry/proposals/production_origin_supply_20261003/GENERAL_UD_SINGLETON_INTERSECTION_RAW_20261012.json": "12c5a56b71dfeb76cef1ac65cee311bbcb121c68305194e4f2117dc8952291fd"
+  },
+  "work_limits": "No native calculation, image, newsource, reserve, lexicalassignment, decoder or rootroute/ledger edits."
+}
