@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1362 fixes the neutralization family literal core
+
+Under1041,73.16–73.75%ofstrictgroups remain unchanged beforetheunknownbijection forEVERYsurvivingpairandalloweddisjointsubset. Exactsinglepairinversecountsincludeuniquechangedcases;maximum6isnotamultipair/keybound. daldy/qokedyareintherigidcore,withoutmeanings. IndependentDPvalidationPASS. Future1041sourcebindingmustexplainthissameglobalkeycore;parentinconclusive. [Report](experiments/yolo/gdt1362_neutralization_literal_core/REPORT.md).
+
 ## 2026-10-12 — GDT1361 contextual neutralization retains limited pair capacity
 
 The complete ambiguous1041writer simultaneously maps originalNT→TT. Its exact output condition permitsNTonlybeforeanotherT. Of462orderedpairs,45/48/46IT/RF/ZLsurviveallstrictgroupsandhaveTT;42/33/37haveTTon≥2leaves. Mostactivepairs have novisibleNT;compatibility isnotactualassimilationorphonetics. Independent validator and resultreviewPASS.1041remainsinconclusive; no key/source/meaning selected. [Report](experiments/yolo/gdt1361_nasal_assimilation_capacity/REPORT.md).

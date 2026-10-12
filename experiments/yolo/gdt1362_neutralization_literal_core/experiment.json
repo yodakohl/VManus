@@ -1,0 +1,121 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional1041inversecardinality/literalcoreunderunknownbijection;no phonemes,plaintext,sourcefit,actualassimilation or statistical evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1362_neutralization_literal_core/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1362_neutralization_literal_core/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1361",
+    "GDT1233",
+    "GDT1353"
+  ],
+  "experiment_id": "GDT1362",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "fixed cache, scope or prior result",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "fixed cache, scope or prior result",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1361_nasal_assimilation_capacity/artifacts/RESULT.json",
+      "role": "fixed cache, scope or prior result",
+      "sha256": "8d3e63f4bb877470e0e08c457ef5f7e44c98594d056404a34e8ae7f328e729c6"
+    },
+    {
+      "path": "experiments/yolo/gdt1361_nasal_assimilation_capacity/experiment.json",
+      "role": "fixed cache, scope or prior result",
+      "sha256": "6f6962f28385a7b1513fdd0196d763e120cefd10d954cd5c187d06b8b89e3bcd"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "5553648afde4fbd8f31943c6ca8ba90dc9aa5cd5589740cbb4f0258c5474ff16"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "5553648afde4fbd8f31943c6ca8ba90dc9aa5cd5589740cbb4f0258c5474ff16"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "8e13c8963822bc152b889a8e4fd13eb22ae6f10a07901c887cadd1a399250d5f"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/REPORT.md",
+      "role": "primary_report",
+      "sha256": "23d45196add4cc2a139e0d500a92cde168e11625adb856dfdfa11e104a476a46"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/artifacts/CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "1c621379ac6a7d095d1c8a91572dce609fb9e8df4e76b162555fd47f32f04cbc"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/artifacts/PROSPECTIVE_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "7348a32dea267fd0a8ee6b98dded07dbd6efa4179906d2bad5f0c1f08f614654"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "5939dc83d5662c92e658200a8083b7a9d050037c441475cae46ee6a844d07462"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "40cba48ee33fc182bbc3ea971aa8eee9c382f916089233d5780ad1a88aedd01b"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/artifacts/RESULT_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "30ed575744d61a65d0bfd75cd051b4e5b3af3a0cbbe2072ccd1bf40e046280ff"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "6e64f706f7ceac4b98870dc32a3920f160f55978586919199b27fd89f70f1b87"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "a6f1d2243f33dc269873e8b25201eed8a40b33a2d186f2a3ffb2a173cd4fef89"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "ae5b2103264c1c4562db48501f29ecddf01531ad9f6bef2c1e239ca2f823b390"
+    },
+    {
+      "path": "experiments/yolo/gdt1362_neutralization_literal_core/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "ca846b14c72b7f1f2ff73a9f3de6da441aeac283ba70a5e97bdb36cd143c5f28"
+    }
+  ],
+  "question": "How many source preimages and which invariant literal wholewords remain under every surviving1361pair?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "neutralization_literal_core",
+  "status": "MAJORITY_LITERAL_CORE_REQUIRED",
+  "title": "Neutralization exact inverse and literal core",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1362_neutralization_literal_core/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

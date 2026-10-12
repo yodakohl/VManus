@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1360**
-- Experiment-associated tracked files: **26,648** (2.4 GiB)
-- Structured GDT337+ experiments: **1025**
+- Experiments indexed: **1361**
+- Experiment-associated tracked files: **26,662** (2.4 GiB)
+- Structured GDT337+ experiments: **1026**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1362 | gdt1362_neutralization_literal_core | `MAJORITY_LITERAL_CORE_REQUIRED` | [report](../experiments/yolo/gdt1362_neutralization_literal_core/REPORT.md) | 14 | 1.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT1361 | gdt1361_nasal_assimilation_capacity | `PAIR_CAPACITY_RETAINED_NOT_PHONETIC_EVIDENCE` | [report](../experiments/yolo/gdt1361_nasal_assimilation_capacity/REPORT.md) | 14 | 830.1 KiB | 5 | STRUCTURED_YOLO |
 | GDT1360 | gdt1360_typed_roster_repeat_obstruction | `ROSTER_WORD_REALIZATION_CONTRADICTED` | [report](../experiments/yolo/gdt1360_typed_roster_repeat_obstruction/REPORT.md) | 13 | 49.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT1359 | gdt1359_terminal_run_variant_capacity | `TERMINAL_RUN_VARIANT_CAPACITY_EXCLUDED` | [report](../experiments/yolo/gdt1359_terminal_run_variant_capacity/REPORT.md) | 14 | 850.1 KiB | 5 | STRUCTURED_YOLO |

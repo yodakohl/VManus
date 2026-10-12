@@ -5,10 +5,10 @@ Updated: 2026-10-12.
 Phase: exploration
 Status: checkpoint
 Task: 1041source.
-Latest decision: 1361capacity.
-Working files: GDT1361.
-Assumptions: NT→TT;wholeword.
-Resume: source binding.
+Latest decision: 1362core73%.
+Working files: GDT1362.
+Assumptions: fixed1041key.
+Resume: bind literal core.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicb437daa0c.
+Public54f05069d.
