@@ -2,13 +2,13 @@
 Updated: 2026-10-12.
 
 ## Work
-Phase: fixed_test
+Phase: exploration
 Status: checkpoint
-Task: ordered passes.
-Latest decision: 1356FULL[4,5].
-Working files: GDT1356.
-Assumptions: fixed units/rank.
-Resume: review source-bearing writers.
+Task: writer selection.
+Latest decision: no candidate.
+Working files: AFTER_1356_SELECTION_DECISION_20261012.json
+Assumptions: identity open.
+Resume: review writer proposals.
 Running: none.
 
 ## Structural baseline
@@ -70,7 +70,7 @@ New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE
 No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context topic Gesamtbild`.
 `context check`.
-Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
+`ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public9632cf16f.
+Publicad270e08f.

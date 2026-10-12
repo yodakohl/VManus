@@ -1,3 +1,7 @@
+## 2026-10-12 — After1356: no duplicated phonetic experiment selected
+
+Reviewed existing contextual alphabets, CV writers, vowel-boundary grouping and neighbor-conditioned variants. No new construction selected; no new manuscript/control finding or broader exclusion. Similarwrittenforms need not have the same sourceword:1204doesnotforce remotecontext orhiddenstate ifchey/chedycarrydifferentcontent. No specificsound/morpheme/meaningassigned. Next selection requires a complete source-bearing writer and a genuinely different prediction, preserving all original scoped failures. [Decision](research_registry/proposals/production_origin_supply_20261003/AFTER_1356_SELECTION_DECISION_20261012.json).
+
 ## 2026-10-12 — GDT1356 repeated ordered passes remain constrained
 
 One strict global sign rank with contiguous nondecreasing restarts needs at least4passes and admits5on each FULLpanel; exactminimum stays[4,5]. Recurrent IT/RFminimumexact3,ZL[2,3]. FULLlowerwitness chkaidararal occurs once onleaf115 in eachreading; shared evidence,notindependentreplication. All61181groups and15981paneltype-rankcases independentlychecked. DiagnosticUNSATdoesnotraiseanalyticlowerbounds. No sourcevalues,syllables,originalboundaries orphoneticorigin; no furtheroptimizerselected. [Report](experiments/yolo/gdt1356_ordered_pass_capacity/REPORT.md).
