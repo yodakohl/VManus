@@ -1,3 +1,7 @@
+## 2026-10-12 — Neutralization source fitting parked
+
+1041retains1361paircapacity and1362literalcore, but no independently justified source/segment binding was selected. ExistingASJP40wordlistsarenotlanguageinventoriesorfulltext;CMU39doesnotsupplya22categoryprojection. No newtest,languageexclusionorlexicalvalue. Do not rerun these counts or repeat the same missing-input audit; require a new source/content contract or suitable evidence. [Decision](research_registry/proposals/production_origin_supply_20261003/NEUTRALIZATION_SOURCE_SELECTION_STOP_20261012.json).
+
 ## 2026-10-12 — GDT1362 fixes the neutralization family literal core
 
 Under1041,73.16–73.75%ofstrictgroups remain unchanged beforetheunknownbijection forEVERYsurvivingpairandalloweddisjointsubset. Exactsinglepairinversecountsincludeuniquechangedcases;maximum6isnotamultipair/keybound. daldy/qokedyareintherigidcore,withoutmeanings. IndependentDPvalidationPASS. Future1041sourcebindingmustexplainthissameglobalkeycore;parentinconclusive. [Report](experiments/yolo/gdt1362_neutralization_literal_core/REPORT.md).

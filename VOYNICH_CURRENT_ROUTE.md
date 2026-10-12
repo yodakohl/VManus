@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1041source.
-Latest decision: 1362core73%.
-Working files: GDT1362.
-Assumptions: fixed1041key.
-Resume: bind literal core.
+Task: source.
+Latest decision: 1041parked.
+Working files: 1041review.
+Assumptions: no sourcekey.
+Resume: new source contract.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public54f05069d.
+Publicbd83d6fb2.
