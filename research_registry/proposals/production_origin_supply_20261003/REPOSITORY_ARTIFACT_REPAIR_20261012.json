@@ -1,0 +1,518 @@
+{
+  "status": "VALIDATED_ADMINISTRATIVE_REPAIR",
+  "date": "2026-10-12",
+  "decision_note": {
+    "unknown": "Which failures are manifest bookkeeping versus missing or changed scientific evidence?",
+    "decision": "Remove demonstrably non-scientific bytecode requirements; bind already published unbound files without asserting historical precommitment. Missing or changed evidence stays failed until exact restoration or substantive review.",
+    "smallest_test": "Compare public/local bytes, verify every removed bytecode has separately hash-bound Python source, preserve all remaining manifest fields, then rerun unchanged preflight.",
+    "budget_minutes": 30,
+    "start_utc": "2026-10-12T08:18:42.763386+00:00"
+  },
+  "baseline": {
+    "public_preflight_failures": 83,
+    "registry_freshness_failures": 7
+  },
+  "scope": "Maintenance only. No native access, decoder, semantic assignment, altered historical result or new empirical experiment.",
+  "excluded_from_this_repair": "Do not replace historical hashes with current bytes to silence mismatches. Do not regenerate or publish bytecode. Unrestored sources and stale scientific reviews remain explicit.",
+  "changes": [
+    {
+      "manifest": "experiments/yolo/gdt1168_interval_unknown_completion/experiment.json",
+      "before_sha256": "9c65d33630602d1b8c31a73183caece9f19c9cfbb525ec651f16fd45a9280643",
+      "after_sha256": "e20dc3f31edeefaaa352107d3d1b78509c01dafedd8df35dab423bef4edd108e",
+      "removed_bytecode_outputs": [],
+      "added_current_inventory_bindings": [
+        {
+          "path": "experiments/yolo/gdt1168_interval_unknown_completion/src/run.py",
+          "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        },
+        {
+          "path": "experiments/yolo/gdt1168_interval_unknown_completion/src/validate.py",
+          "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        }
+      ],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt362_remaining_complete_array/experiment.json",
+      "before_sha256": "3fd3151a23b1fb89c2352a700d59d90a2e2c8130b8534069d9836f7d449aa4e3",
+      "after_sha256": "38e127a13031a3b7fd4328094ba321eaade80503a5e59600072b4c664c19431f",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/freeze.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "3eb7882efb234e1c0cae67e062cf8da8968143a9f50a6fa7fddefa67cd03cc4b"
+        },
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/freeze_correction.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "0dcea962e351ff0bfb0b80b5b402a7c3096d1b7756ef52f4ab0232e434506658"
+        },
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/freeze_visual.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "2c92ff85bcc351b2ccc0f9226efc306d3d6e8e1657db2588412e3fe9e60053cb"
+        },
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/run.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "798f495117879e48e9b5e0100ab8fd0a9e31bce8c3f728f20177d3d2d3dd7e95"
+        },
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/validate.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "3f6252b598fbfe37747b82a607bead381a9752f843d0551876dc4858af2d7e67"
+        },
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/validate_correction.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "fd53b4cbe997f3390b8752eef051fcce48ac9245a8a6e52f6a078f6080a6c260"
+        },
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/validate_freeze.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "081cadfb005f9b2a339c7869942eb2c3398e0254020cb4ed340b55d399f9815d"
+        },
+        {
+          "path": "experiments/yolo/gdt362_remaining_complete_array/src/__pycache__/validate_visual.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "bc7394fafde0278cc431f9a331fb324a431ef04d60cc97b63867c50bf73c7412"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt363_leaf_margin_formal_atlas/experiment.json",
+      "before_sha256": "35ec8ec57c5f84b95dbeafce73f5431e623d07a9da45d024913b917a06cff9b3",
+      "after_sha256": "d10cad7eb2c06b870d887483941c65e38ff79a7e392168ab9fcd325e542104f1",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt363_leaf_margin_formal_atlas/src/__pycache__/run.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "5fc72db72cf227a38d7efdb00607cd90b185646bf75c80f224d04e4b6fac575a"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt370_grounding_acquisition_power/experiment.json",
+      "before_sha256": "afd8908038a563539f9a2fc9cc977f6c415cff68bfe3b5d799aef304c66f97ae",
+      "after_sha256": "5246d189ef93b58598f6149a1dacbae843759cc5db877cb87fffea7901d6f32b",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt370_grounding_acquisition_power/src/__pycache__/run.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "a765152849976a1559cf5478c28283286481ae68c37091f50121272be2d3308f"
+        },
+        {
+          "path": "experiments/yolo/gdt370_grounding_acquisition_power/src/__pycache__/validate.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "32ac2aeab09c58fb80077d18c3dd6d834fe40774d57587c287d88c8fd7fa7335"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt371_validation_capacity_extension/experiment.json",
+      "before_sha256": "ac1d88a16719501feae9500ba17cfeb11893ac05b39ecc8320fe2025ef124312",
+      "after_sha256": "19a59b6607f4220b090ccaf84a0a812be4efa1ef03918b652283e5d2f20b1c08",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt371_validation_capacity_extension/src/__pycache__/run.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "173c3fa7664df7705f72e3d48bdfd69b965e4c15739e8b5532114a30c16495d3"
+        },
+        {
+          "path": "experiments/yolo/gdt371_validation_capacity_extension/src/__pycache__/validate.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "b8f315e07661faca54fdb1fca731f50c8c51178b7f2fab7657ac163ebf060e71"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt372_external_prespecification_capacity/experiment.json",
+      "before_sha256": "960e0987230df686dfe17a4ea6e00e71a181383a096a55d38b20b3253aa8381a",
+      "after_sha256": "b026b0f6dd443f3fa664d92dcd004d21399354b3d39998b2f825e5372958f23f",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt372_external_prespecification_capacity/src/__pycache__/run.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "3cd9c12e8d471609f034c8c7bbed49f84fdecc1e08aab91c30849bff6b1a030d"
+        },
+        {
+          "path": "experiments/yolo/gdt372_external_prespecification_capacity/src/__pycache__/validate.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "95a642bd29062c300891d4f72beafcdc602a6059114189ce19569e961891e7f5"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt376_corema_hidden_function_oracle/experiment.json",
+      "before_sha256": "5f76dbdc15c0e8b98351ef314f0a753bb8def06a18679cd9c939c4b81d6c2acd",
+      "after_sha256": "20731c4764f19ea424cc6ce02337f2dd47c84a13082df949de16fdac2b5d9bfb",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/__pycache__/freeze.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "885ed7108ce81a194b3b12dc6929862659f9d73e3f26744a1282e45df2453958"
+        },
+        {
+          "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/__pycache__/run.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "07c34ea38bb48bc758a9507a8a19e9d5c1074964ad62ad247520df46ff768134"
+        },
+        {
+          "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/__pycache__/validate.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "ab5b19f738e21818a5b615d3c23215438f132481c67e1ae753ec7a9ed3ad1431"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt377_local_head_signature_transfer/experiment.json",
+      "before_sha256": "528580c6c9f8827e882f0590d7a89ef2b507a0971730e1e31e44df1f0c4f9bf5",
+      "after_sha256": "dcc460b404e0a8e69e5b9b01312815776d0587a144da70b98ee8e95d1dcce301",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt377_local_head_signature_transfer/src/__pycache__/freeze.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "50304c19f4d911736c558fc8f10310e8674d15cb7c4dd1fd6c2e9d9784e0d5f5"
+        },
+        {
+          "path": "experiments/yolo/gdt377_local_head_signature_transfer/src/__pycache__/run.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "673500cb9cc235334c2bb8d4f79b378b9278a9d875f6481f50c3d59b9904d448"
+        },
+        {
+          "path": "experiments/yolo/gdt377_local_head_signature_transfer/src/__pycache__/validate.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "100f45ede1286a7db96c6eaec81c0adc648df986a947d62eb742ce51500f7bbb"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt378_cross_corpus_construction_transfer/experiment.json",
+      "before_sha256": "e27af8b5f1f5506a0afcb6f0a11871a17a166b899f7ea8d0bbd0ea249c0672c7",
+      "after_sha256": "c91ac9daa27783ce53f09904d110867465ee19d3bdc90ac585bc338d45ba1336",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/diagnose_identity_only_null.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "2812b7bea391d5bf7c2a2973f5ce9dbef5e6742acfe53e64bb2660a54510b2f3"
+        },
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/finalize_gdt378.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "b870f865ce556467d14ab8c71e19cd99100499930726e5634cf7e3ca547bf759"
+        },
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/freeze_transfer_signatures.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "75d44e75d33f0cd8024f32bcff93a7404d316a1b7587473dd22ec483ad56edc7"
+        },
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/freeze_voynich_target.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "aac5e67fcc584715eaa898219b916e9de66390225d8bd8ef6a5fc5ab0bc7802b"
+        },
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/run_comparator.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "e3c2eb9875e53034b1b24ba5395a653b4a8d579fb038028e12fedd23e830a997"
+        },
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/run_voynich_target.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "775cb30b8cdc67851a8d7f3414e92e6b673c92d88cb14f6a2c14710201317797"
+        },
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/validate_comparator.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "5ad44847930a717cb31668e8bd340cd8d49abdf3330c1afa96eb223ed85a6424"
+        },
+        {
+          "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/validate_voynich_target.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "4e6b27c3a72b181a1bebed1a2193927e9146cb5f3cdfc30ab243fa373e27331c"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt381_relational_topology_transfer/experiment.json",
+      "before_sha256": "ca67a3cf75cb4daadab19612a1f52b79c63a6d2a94fb85b99ab57c93d5f30575",
+      "after_sha256": "586fe02d9e41ea4bd30a9cde1d1cc571431a2ebf8a27bc8592556a131eed1d51",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt381_relational_topology_transfer/src/__pycache__/run_comparator.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "fb50513b9f6d0a4cc3b8ca597a995e757281a95388da1f66eae7b083e5e88625"
+        },
+        {
+          "path": "experiments/yolo/gdt381_relational_topology_transfer/src/__pycache__/run_target.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "d785401a3f62d94614cd2cc5dc8be8112f982505bbeee91fe0f091a5a0113261"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt382_voynichification_methodology_audit/experiment.json",
+      "before_sha256": "6b745c09dc239922feede0c348a0ad63e71cb4cb58193daa53a138d0c6e7d3d0",
+      "after_sha256": "4f5e5e45b4d8fa31c48c634c6f8d5eea93cd213ff6757b88c04672d9be23b425",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/finalize_gdt382.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "6bbcea898752e46c68fdab4a1c19c9ac0716afa6df60759d01657bf4a7b2dc73"
+        },
+        {
+          "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/freeze_gdt382.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "391e74480348af99bba8f7da7a0a1c71df542a05b05ee74d291caa0162b4d992"
+        },
+        {
+          "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/run_gdt382.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "02e78cf7fb31bd1e970fc041ac51c435faae3b3f47a709440f7127d7976f6d21"
+        },
+        {
+          "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/validate_gdt382.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "d50e5d8aab6d2d28df45ddfc23d9b488e79012cf4e39b7aef7df63c4988e6de9"
+        },
+        {
+          "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/validate_gdt382_freeze.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "17898d0d01b1eb858117b71abd46fc2e8423973cc3978dfa3258f37b499e8a12"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt383_repaired_local_role_transfer/experiment.json",
+      "before_sha256": "4eae781bb097ac364e273ffa3c9a198c027f75e82d45d242e7c9f59333e40f1b",
+      "after_sha256": "f6e66db7be3892a412eaa759be468d75c65c7365d92e4c6a72a347cf3f5cddf9",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/finalize_stage_a.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "1ddd77bf2a1b0f202ca01682afe300960dc555dbe6c85e43fd5090d1bebcc45f"
+        },
+        {
+          "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/freeze_stage_a.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "fc585a8180f3705e04585dbe1c9c513d35e37673658ff6601a0e9b0e1cefca61"
+        },
+        {
+          "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/run_stage_a.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "e53386aaf97c9107d5cfb596a08abe273e8d6ce3a5416b78cdf5b7f9b04c81d3"
+        },
+        {
+          "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/validate_stage_a.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "edd5de5e395f75a722fc9b08a3dae1687a4135f0336ecede92eb25193b41f460"
+        },
+        {
+          "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/validate_stage_a_freeze.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "cfe10d16ea65293c0594f5aa0d0b4c47051e32835be3e53ac0778d79c311b099"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt384_role_specific_relational_consequence/experiment.json",
+      "before_sha256": "e0fbd92630f9e4209f93697fa607ea2fabebe0dcb124a076f12125508db1837c",
+      "after_sha256": "849c618acc4800bb530d8b3771309361457c8bdf3e814a15d5457bde5a64c9af",
+      "removed_bytecode_outputs": [
+        {
+          "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/build_relational_oracle.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "27f5b91c3623285f74ed4ee6480a85e9503037cfd4127f67b4224548ce4561b1"
+        },
+        {
+          "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/finalize_stage_a.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "d1e20d60be62391277141baf579057289e3ca429e7572e769ec92d0ab7ee51c6"
+        },
+        {
+          "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/freeze_stage_a.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "11cef5ea8345351e7ec229a0a36a0b2c1e28b24f74923b70c0362aac8262f130"
+        },
+        {
+          "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/run_priority_coordinator.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "8b42c7269851c1a6b18b3bde951e75c2f271d4222a5b7a07242cf1bc7fa3899c"
+        },
+        {
+          "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/validate_stage_a.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "3aea58ee68e58526cbba110820719c9eda012bff64666dbf440b2578b6945fbf"
+        },
+        {
+          "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/validate_stage_a_freeze.cpython-312.pyc",
+          "role": "retained published experiment file",
+          "sha256": "14fb0199014170832f2735ce5fedab3cb641186bd950551e6de8a904bc5b8126"
+        }
+      ],
+      "added_current_inventory_bindings": [],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    },
+    {
+      "manifest": "experiments/yolo/gdt600_complete_object_surface_grammar/experiment.json",
+      "before_sha256": "b43df9fcd0c8f72010fcdb57548da50a5add5318d46306aa76e23f3f59add084",
+      "after_sha256": "e76708db3653bb2f83365af3670636b919e90e0e4810e82e55f07be163f3677e",
+      "removed_bytecode_outputs": [],
+      "added_current_inventory_bindings": [
+        {
+          "path": "experiments/yolo/gdt600_complete_object_surface_grammar/METHOD.md",
+          "sha256": "c39636cfc36a518ca031b7be3313ebcfc64d338b22ee9b36a977fc45a5f3f763",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        },
+        {
+          "path": "experiments/yolo/gdt600_complete_object_surface_grammar/PREREGISTRATION.md",
+          "sha256": "073f4f7e04e19d51588bf951dcefae213e8ce5035be55ce56a1aa80134c11590",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        },
+        {
+          "path": "experiments/yolo/gdt600_complete_object_surface_grammar/README.md",
+          "sha256": "09083af651df384cc2dcd8138680d2e8a6629ae3e80b995068ca1763ce3ed07a",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        },
+        {
+          "path": "experiments/yolo/gdt600_complete_object_surface_grammar/REPORT.md",
+          "sha256": "313b5677cc09b28e0f3421f7c62218f06e7f6e289d152a88d20ae709ac7e3512",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        },
+        {
+          "path": "experiments/yolo/gdt600_complete_object_surface_grammar/src/model.py",
+          "sha256": "11dea4c2433e80372c9c3be858c5924208ec6d30b5d482bde69bfc9b9049a839",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        },
+        {
+          "path": "experiments/yolo/gdt600_complete_object_surface_grammar/src/run.py",
+          "sha256": "dd6aca6c0f0bb3f21fdc4ea602b0af8d66702a1b6962943a274b8f6cd580e39b",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        },
+        {
+          "path": "experiments/yolo/gdt600_complete_object_surface_grammar/src/validate.py",
+          "sha256": "f2690fb74c8e2af105b53fb928a6e7bab76d3563c77f50ae4973065bf45eef62",
+          "role": "Administrative inventory of already published bytes on 2026-10-12; not evidence of historical preregistration or scientific validity"
+        }
+      ],
+      "unchanged": "All inputs, scientific output hashes, status, commands, question, claim ceiling and validation fields preserved."
+    }
+  ],
+  "removed_bytecode_count": 47,
+  "added_inventory_bindings": 9,
+  "exact_historical_restorations": [
+    {
+      "manifest": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/experiment.json",
+      "original_path": "research_registry/proposals/laufenberg_f85r2_20260926/EXTERNAL_SOURCES.md",
+      "restored_path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/source_history/EXTERNAL_SOURCES.md",
+      "historical_commit": "1c0d53301d795e1838b6f0b965af1b967a5ad0d0",
+      "unchanged_expected_sha256": "8850050d7ee0b0e6967b038220ea871ee163d3267856da0c4131eee1c0d3deaf",
+      "manifest_before_sha256": "6bcfb24184c3a3208da1ec80be7e79c4f11ec709b427fda1ebe16367235a7b3c",
+      "manifest_after_sha256": "9141755e083a9ad00423f305747934e9f5edb2554d0d9d65ae661fd87a2ce40f",
+      "scope": "Restore exact registered historical document; current evolving document and experiment code untouched. No experiment source code refers to either document path."
+    },
+    {
+      "manifest": "experiments/yolo/gdt1043_f85r2_native_attribute_binding/experiment.json",
+      "original_path": "research_registry/proposals/laufenberg_f85r2_20260926/EXTERNAL_SOURCES.md",
+      "restored_path": "experiments/yolo/gdt1042_f85r2_source_program_surface_census/source_history/EXTERNAL_SOURCES.md",
+      "historical_commit": "1c0d53301d795e1838b6f0b965af1b967a5ad0d0",
+      "unchanged_expected_sha256": "8850050d7ee0b0e6967b038220ea871ee163d3267856da0c4131eee1c0d3deaf",
+      "manifest_before_sha256": "92cd2e84caa010cd160f904459567c463e61612849debb3b45809fd1cfa3ac68",
+      "manifest_after_sha256": "2fd647ed59f11319f68fdb42e138c0a2be734d3a2bff3f1782623be09eafd3fb",
+      "scope": "Restore exact registered historical document; current evolving document and experiment code untouched. No experiment source code refers to either document path."
+    },
+    {
+      "manifest": "experiments/yolo/gdt1133_caption_product_shared_components/experiment.json",
+      "original_path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_SEMANTIC_NEXT_BIG_PICTURE.md",
+      "restored_path": "experiments/yolo/gdt1133_caption_product_shared_components/source_history/GD_SEMANTIC_NEXT_BIG_PICTURE.md",
+      "historical_commit": "6a713d2fbeab891d3ca85d2dd813efaeb2ceb265",
+      "unchanged_expected_sha256": "b91d131f4d60f6bbb009d5949dc12a4a49856e2bc8d55bce07efe4441fc723e0",
+      "manifest_before_sha256": "8108502a64103a323c53ffc5c39be26532016248c6e0121af7390e09da476b0a",
+      "manifest_after_sha256": "22fa708b2c3ba2f13560032c93661aaae6d47143cf709e365b9c6cb25d2047db",
+      "scope": "Restore exact registered historical document; current evolving document and experiment code untouched. No experiment source code refers to either document path."
+    }
+  ],
+  "source_recovery_inventory": {
+    "unique_missing_files": 18,
+    "all_local_files_match_registered_sha256": true,
+    "missing_reference_count": 24,
+    "publication_status": "Not copied to public tree: verify source redistribution and private metadata first. Exact bytes are recoverable locally; no evidence loss asserted.",
+    "categories": "Public manuscript source images/crops, recipe XML, Latin treebank and historical source PDF."
+  },
+  "scope_limits": [
+    "Administrative binding of GDT600 files does not adopt its historical lexical assignments or establish its result.",
+    "GDT1168 remains NOT_SELECTED_NOT_EXECUTED; its two stubs were not run.",
+    "All scientific statuses and existing output/input hashes preserved. Three document paths now point to exact historical snapshots.",
+    "Remaining 7 stale reviews require evidence review, not silent rebinding."
+  ],
+  "validation": {
+    "public_preflight_before": 83,
+    "public_preflight_after": 24,
+    "removed_errors": 59,
+    "new_errors": 0,
+    "remaining_preflight": [
+      "FAIL experiments/yolo/gdt1060_f18r8_okaldy_visual_boundary/experiment.json: missing input: research_registry/work_batches/ten_hours_20260915/paired_root_cache/f18r.jpg",
+      "FAIL experiments/yolo/gdt1176_natural_text_word_partition/experiment.json: missing input: .gdt176/corema/b4.recipes.xml",
+      "FAIL experiments/yolo/gdt1176_natural_text_word_partition/experiment.json: missing input: .gdt176/corema/w1.recipes.xml",
+      "FAIL experiments/yolo/gdt1177_preposition_binding_transfer/experiment.json: missing input: .gdt176/corema/b4.recipes.xml",
+      "FAIL experiments/yolo/gdt1177_preposition_binding_transfer/experiment.json: missing input: .gdt176/corema/w1.recipes.xml",
+      "FAIL experiments/yolo/gdt1177_preposition_binding_transfer/experiment.json: missing input: .gdt176/corema/bs1.recipes.xml",
+      "FAIL experiments/yolo/gdt1177_preposition_binding_transfer/experiment.json: missing input: .gdt176/corema/gr1.recipes.xml",
+      "FAIL experiments/yolo/gdt1205_f108v_y_dy_native_pair/experiment.json: missing output: experiments/yolo/gdt1205_f108v_y_dy_native_pair/runtime/f108v_original.jpg",
+      "FAIL experiments/yolo/gdt1205_f108v_y_dy_native_pair/experiment.json: missing output: experiments/yolo/gdt1205_f108v_y_dy_native_pair/runtime/row_35.jpg",
+      "FAIL experiments/yolo/gdt1205_f108v_y_dy_native_pair/experiment.json: missing output: experiments/yolo/gdt1205_f108v_y_dy_native_pair/runtime/row_52.jpg",
+      "FAIL experiments/yolo/gdt1208_f45r_repeated_dal_body/experiment.json: missing output: experiments/yolo/gdt1208_f45r_repeated_dal_body/runtime/f45r_original.jpg",
+      "FAIL experiments/yolo/gdt1208_f45r_repeated_dal_body/experiment.json: missing output: experiments/yolo/gdt1208_f45r_repeated_dal_body/runtime/row_10.jpg",
+      "FAIL experiments/yolo/gdt1221_grammatical_source_groups/experiment.json: missing input: .gdt001/repos/latin_ittb/la_ittb-ud-train.conllu",
+      "FAIL experiments/yolo/gdt1222_lemma_inflection_source_screen/experiment.json: missing input: .gdt001/repos/latin_ittb/la_ittb-ud-train.conllu",
+      "FAIL experiments/yolo/gdt1231_additive_abjad_packet_bound/experiment.json: missing input: research_registry/proposals/production_origin_supply_20261003/QALQASHANDI_1916_IX_SOURCE_PAGES_20261006.pdf",
+      "FAIL experiments/yolo/gdt1232_injective_abjad_packet_bound/experiment.json: missing input: research_registry/proposals/production_origin_supply_20261003/QALQASHANDI_1916_IX_SOURCE_PAGES_20261006.pdf",
+      "FAIL experiments/yolo/gdt1242_f21v_four_body_source/experiment.json: missing output: experiments/yolo/gdt1242_f21v_four_body_source/runtime/f21v_lines2_4.jpg",
+      "FAIL experiments/yolo/gdt1242_f21v_four_body_source/experiment.json: missing output: experiments/yolo/gdt1242_f21v_four_body_source/runtime/f21v_original.jpg",
+      "FAIL experiments/yolo/gdt1243_f45r_mandatory_grapheme_gaps/experiment.json: missing input: experiments/yolo/gdt1208_f45r_repeated_dal_body/runtime/row_10.jpg",
+      "FAIL experiments/yolo/gdt1244_f21v_arch_body_gaps/experiment.json: missing input: experiments/yolo/gdt1242_f21v_four_body_source/runtime/f21v_lines2_4.jpg",
+      "FAIL experiments/yolo/gdt1251_f76v_cheol_seam_view/experiment.json: missing output: experiments/yolo/gdt1251_f76v_cheol_seam_view/runtime/f76v28_region.jpg",
+      "FAIL experiments/yolo/gdt1251_f76v_cheol_seam_view/experiment.json: missing output: experiments/yolo/gdt1251_f76v_cheol_seam_view/runtime/f76v_full.jpg",
+      "FAIL experiments/yolo/gdt1252_f76v_corrected_seam_localization/experiment.json: missing output: experiments/yolo/gdt1252_f76v_corrected_seam_localization/runtime/f76v28_corrected.jpg",
+      "FAIL experiments/yolo/gdt1273_f100r_upper_link_scope/experiment.json: missing input: experiments/yolo/gdt861_extended_entity_native_comparison/runtime/1006248.jpg"
+    ],
+    "registry_flags_before": 7,
+    "registry_flags_after": 7,
+    "unchanged_registry_flags": [
+      "GDT1284: review_basis_changed_or_unbound",
+      "GDT1285: review_basis_changed_or_unbound",
+      "GDT1286: review_basis_changed_or_unbound",
+      "GDT1288: review_basis_changed_or_unbound",
+      "GDT1289: review_basis_changed_or_unbound",
+      "GDT1290: review_basis_changed_or_unbound",
+      "HIST:2a6e75e41e854a83: evidence_changed_or_unbound:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md"
+    ],
+    "scientific_execution": "None. All original experiment statuses and claims unchanged."
+  },
+  "checkpoint_utc": "2026-10-12T08:22:14.572063+00:00",
+  "elapsed_minutes_before_publication": 3.53
+}

@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1348**
-- Experiment-associated tracked files: **26,452** (2.4 GiB)
+- Experiment-associated tracked files: **26,454** (2.4 GiB)
 - Structured GDT337+ experiments: **1013**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -201,7 +201,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1171 | GDT1171_open_vocabulary_context_recovery | `NO_USEFUL_OPEN_CONTEXT_RECOVERY` | [report](../experiments/yolo/gdt1171_open_vocabulary_context_recovery/REPORT.md) | 38 | 6.8 MiB | 6 | STRUCTURED_YOLO |
 | GDT1170 | GDT1170_repetition_context_neutral_copy | `NO_RETAINED_CONTEXT_SIGNAL` | [report](../experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md) | 20 | 8.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT1169 | GDT1169_f57_annular_continuation_layout | `NO_EXPLICIT_PATH_FOUR_TANGENTIAL_CASES_UNBOUND` | [report](../experiments/yolo/gdt1169_f57_annular_continuation_layout/REPORT.md) | 13 | 33.9 KiB | 4 | STRUCTURED_YOLO |
-| GDT1168 | GDT1168_interval_unknown_completion_preparation | `NOT_SELECTED_NOT_EXECUTED` | [report](../experiments/yolo/gdt1168_interval_unknown_completion/REPORT.md) | 9 | 14.7 KiB | 2 | STRUCTURED_YOLO |
+| GDT1168 | GDT1168_interval_unknown_completion_preparation | `NOT_SELECTED_NOT_EXECUTED` | [report](../experiments/yolo/gdt1168_interval_unknown_completion/REPORT.md) | 9 | 15.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT1167 | gdt1167_target_bin_label_clarification | `ORIGINAL_NUMERAL_PRIOR_WEAKENED` | [report](../experiments/yolo/gdt1167_historical_grade_prior/REPORT.md) | 17 | 468.5 KiB | 5 | STRUCTURED_YOLO |
 | GDT1166 | gdt1166_natural_shared_sign_candidate_control | `FAIL_SOURCE_CANDIDATE_CONTROL` | [report](../experiments/yolo/gdt1166_natural_shared_sign_candidate_control/REPORT.md) | 47 | 21.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT1165 | GDT1165_q_visual_combination_transfer | `NUMERICAL_FIT_FAIL` | [report](../experiments/yolo/gdt1165_q_visual_combination_transfer/REPORT.md) | 31 | 824.9 KiB | 8 | STRUCTURED_YOLO |
@@ -236,7 +236,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1136 | GDT1136 | `FULL_ASSIGNMENT_PARTIAL_ACCOUNT_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1136_apparatus_state_whole_account/REPORT.md) | 29 | 5.8 MiB | 4 | STRUCTURED_YOLO |
 | GDT1135 | GDT1135 | `REPLICATION_WITH_EXPLICIT_CONTACT_UNCERTAINTY_NO_NEW_BINDING` | [report](../experiments/yolo/gdt1135_f81v_native_contour_topology/REPORT.md) | 23 | 86.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1134 | GDT1134 | `LIVE_COUNTERACCOUNT_MARK_READS_UNLICENSED_DEPENDENCY_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1134_paired_posting_reciprocal_consumers/REPORT.md) | 34 | 614.7 KiB | 5 | STRUCTURED_YOLO |
-| GDT1133 | GDT1133 | `PARTIAL_COMPONENT_REUSE_FOUR_DEAD_REFERENCES_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1133_caption_product_shared_components/REPORT.md) | 35 | 3.4 MiB | 6 | STRUCTURED_YOLO |
+| GDT1133 | GDT1133 | `PARTIAL_COMPONENT_REUSE_FOUR_DEAD_REFERENCES_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1133_caption_product_shared_components/REPORT.md) | 36 | 3.5 MiB | 6 | STRUCTURED_YOLO |
 | GDT1132 | GDT1132 | `LIVE_PERSON_CONSUMERS_ROOT_PAYLOAD_BYPASS_NO_POLICY_SELECTION` | [report](../experiments/yolo/gdt1132_seed_material_agent_derivation/REPORT.md) | 28 | 4.0 MiB | 5 | STRUCTURED_YOLO |
 | GDT1131 | GDT1131 | `COMPLETE_IT_C0_DUAL_MECHANISM_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1131_opposed_wind_survivor_succession/REPORT.md) | 56 | 5.7 MiB | 10 | STRUCTURED_YOLO |
 | GDT1130 | GDT1130 | `PARTIAL_WORLD_PREDICATION_FRAGMENT_EXACT_STATIC_CONTINUATION_CONTRADICTED_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1130_shared_profile_current_trend_reading/REPORT.md) | 34 | 4.7 MiB | 9 | STRUCTURED_YOLO |
@@ -327,7 +327,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT1045 | GDT1045 | `FIXED_FAMILY_TYPE_AND_BINDING_CAPACITY_ONLY` | [report](../experiments/yolo/gdt1045_f85_fixed_recipient_incorporation/REPORT.md) | 15 | 117.4 KiB | 1 | STRUCTURED_YOLO |
 | GDT1044 | GDT1044 | `AMBIGUITY_RETAINED_SEED_READER_SPECIFIC` | [report](../experiments/yolo/gdt1044_f85r2_quantifier_seed_native_audit/REPORT.md) | 20 | 57.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT1043 | GDT1043 | `PROVISIONAL_COMPOSITE_ICONOGRAPHIC_LEAD_NO_MEANING_BINDING` | [report](../experiments/yolo/gdt1043_f85r2_native_attribute_binding/REPORT.md) | 26 | 66.4 KiB | 2 | STRUCTURED_YOLO |
-| GDT1042 | GDT1042 | `COMPLETE_DESCRIPTIVE_CENSUS_NO_MEANING_BINDING` | [report](../experiments/yolo/gdt1042_f85r2_source_program_surface_census/REPORT.md) | 19 | 240.7 KiB | 2 | STRUCTURED_YOLO |
+| GDT1042 | GDT1042 | `COMPLETE_DESCRIPTIVE_CENSUS_NO_MEANING_BINDING` | [report](../experiments/yolo/gdt1042_f85r2_source_program_surface_census/REPORT.md) | 20 | 256.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1041 | GDT1041 | `STOP_UNCHANGED_MUSIC91_EXTENSION_CAPACITY` | [report](../experiments/yolo/gdt1041_music91_complete_lexical_capacity/REPORT.md) | 18 | 3.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT1040 | GDT1040 | `REFUTED_FIXED_PREFIX_VALENCY` | [report](../experiments/yolo/gdt1040_loan_frozen_valency_whole_grammar/REPORT.md) | 22 | 233.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT1039 | GDT1039 | `SUPPORTED_CONDITIONAL_REFERENCE_INTERACTION` | [report](../experiments/yolo/gdt1039_hour_day_reference_composition/REPORT.md) | 18 | 2.1 MiB | 3 | STRUCTURED_YOLO |
@@ -986,9 +986,9 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT386 | GDT386_independent_relation_edge_capacity | `NO_INDEPENDENT_TARGET_RELATION_EDGE_AVAILABLE` | [report](../experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md) | 13 | 35.5 KiB | 18 | STRUCTURED_YOLO |
 | GDT385 | GDT385_corema_parent_link_current | `COMPARATOR_PARENT_LINK_INSTRUMENT_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt385_corema_parent_link_consequence/REPORT.md) | 22 | 3.0 MiB | 4 | STRUCTURED_YOLO |
 | GDT384 | GDT384_role_specific_relation_priority | `PRIORITY_RELATION_UNIDENTIFIABLE_SOURCE_OVERLAP_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt384_role_specific_relational_consequence/REPORT.md) | 24 | 1.3 MiB | 6 | STRUCTURED_YOLO |
-| GDT383 | GDT383_repaired_local_role_stage_a | `STAGE_A_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt383_repaired_local_role_transfer/REPORT.md) | 20 | 208.1 KiB | 3 | STRUCTURED_YOLO |
+| GDT383 | GDT383_repaired_local_role_stage_a | `STAGE_A_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt383_repaired_local_role_transfer/REPORT.md) | 20 | 206.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT382 | GDT382_voynichification_methodology_audit | `PIPELINE_RECOVERS_COMPOSITE_FUNCTION_BUT_JOINT_MAPPING_AND_OVERCONTROL_FAIL` | [report](../experiments/yolo/gdt382_voynichification_methodology_audit/REPORT.md) | 21 | 6.8 MiB | 2 | STRUCTURED_YOLO |
-| GDT381 | GDT381_target_definition_overlap_audit | `COMPARATOR_TOPOLOGY_SUPPORTED_TARGET_TRANSFER_UNIDENTIFIABLE_DEFINITION_OVERLAP` | [report](../experiments/yolo/gdt381_relational_topology_transfer/REPORT.md) | 44 | 644.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT381 | GDT381_target_definition_overlap_audit | `COMPARATOR_TOPOLOGY_SUPPORTED_TARGET_TRANSFER_UNIDENTIFIABLE_DEFINITION_OVERLAP` | [report](../experiments/yolo/gdt381_relational_topology_transfer/REPORT.md) | 44 | 643.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT380 | GDT380_identity_free_functional_operator_transfer | `NO_IDENTITY_FREE_SIGNATURE_PASSED_COMPARATOR_GATE` | [report](../experiments/yolo/gdt380_identity_free_functional_transfer/REPORT.md) | 25 | 8.7 MiB | 3 | STRUCTURED_YOLO |
 | GDT379 | GDT379_F1_orthogonal_behavior | `NO_STABLE_JOINTLY_ADJUSTED_ORTHOGONAL_CONSEQUENCE` | [report](../experiments/yolo/gdt379_f1_orthogonal_behavior/REPORT.md) | 31 | 927.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT378 | GDT378_identity_only_null_diagnostic | `ONE_LINKED_POSTHOC_OPAQUE_FORMAL_LEAD_NONPROMOTING` | [report](../experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_diagnostic_result.json) | 51 | 14.0 MiB | 4 | STRUCTURED_YOLO |
@@ -997,17 +997,17 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT375 | GDT375_comparator_derived_functional_roadmap | `COMPARATOR_DERIVED_FUNCTIONAL_FAMILIES_REGISTERED_BEFORE_ORACLE_EVALUATION` | [report](../experiments/yolo/gdt375_comparator_derived_functional_roadmap/REPORT.md) | 11 | 44.6 KiB | 8 | STRUCTURED_YOLO |
 | GDT374 | GDT374_common_functional_operator_discovery | `NO_PROMOTABLE_FUNCTIONAL_OPERATOR_FOUND` | [report](../experiments/yolo/gdt374_common_functional_operator_discovery/REPORT.md) | 20 | 2.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT373 | GDT373_functional_operator_roadmap | `FUNCTIONAL_OPERATOR_HYPOTHESES_REGISTERED_BEFORE_SEARCH` | [report](../experiments/yolo/gdt373_functional_operator_roadmap/REPORT.md) | 14 | 46.8 KiB | 37 | STRUCTURED_YOLO |
-| GDT372 | GDT372_external_prespecification_capacity | `SEARCH_FREEDOM_CAPACITY_CALIBRATED` | [report](../experiments/yolo/gdt372_external_prespecification_capacity/REPORT.md) | 13 | 147.6 KiB | 1 | STRUCTURED_YOLO |
-| GDT371 | GDT371_validation_capacity_extension | `NO_TESTED_DESIGN_REACHES_EXTENDED_GATE` | [report](../experiments/yolo/gdt371_validation_capacity_extension/REPORT.md) | 12 | 140.3 KiB | 1 | STRUCTURED_YOLO |
-| GDT370 | GDT370_grounding_acquisition_power | `NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE` | [report](../experiments/yolo/gdt370_grounding_acquisition_power/REPORT.md) | 13 | 55.0 KiB | 2 | STRUCTURED_YOLO |
+| GDT372 | GDT372_external_prespecification_capacity | `SEARCH_FREEDOM_CAPACITY_CALIBRATED` | [report](../experiments/yolo/gdt372_external_prespecification_capacity/REPORT.md) | 13 | 147.1 KiB | 1 | STRUCTURED_YOLO |
+| GDT371 | GDT371_validation_capacity_extension | `NO_TESTED_DESIGN_REACHES_EXTENDED_GATE` | [report](../experiments/yolo/gdt371_validation_capacity_extension/REPORT.md) | 12 | 139.8 KiB | 1 | STRUCTURED_YOLO |
+| GDT370 | GDT370_grounding_acquisition_power | `NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE` | [report](../experiments/yolo/gdt370_grounding_acquisition_power/REPORT.md) | 13 | 54.5 KiB | 2 | STRUCTURED_YOLO |
 | GDT369 | GDT369_order_preserving_geometry_null | `GDT368_ASSOCIATION_NOT_UNUSUAL_UNDER_ORDER_MATCHED_NULL` | [report](../experiments/yolo/gdt369_order_preserving_geometry_null/REPORT.md) | 12 | 27.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT368 | GDT368_quantitative_component_geometry | `ADJUSTED_ASSOCIATION_DIRECTIONALLY_UNSTABLE` | [report](../experiments/yolo/gdt368_quantitative_component_geometry/REPORT.md) | 26 | 115.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT367 | GDT367_joint_cell_visual_acquisition | `NEW_AXES_INSUFFICIENT_FOR_JOINT_FORMAL_SEARCH` | [report](../experiments/yolo/gdt367_joint_cell_visual_acquisition/REPORT.md) | 14 | 46.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT366 | GDT366_matched_reproductive_delta | `MATCHED_DELTA_NOT_ALIGNED` | [report](../experiments/yolo/gdt366_matched_reproductive_delta/REPORT.md) | 12 | 31.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT365 | GDT365_distributed_visual_formal_signal | `DISTRIBUTED_SIGNAL_LOCAL_OR_UNSTABLE` | [report](../experiments/yolo/gdt365_distributed_visual_formal_signal/REPORT.md) | 14 | 65.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT364 | GDT364_reproductive_structure_joint_atlas | `POSTEXPOSURE_JOINT_ATLAS_COMPLETE_NO_ADJUSTED_SIGNAL` | [report](../experiments/yolo/gdt364_reproductive_structure_joint_atlas/REPORT.md) | 14 | 205.4 KiB | 1 | STRUCTURED_YOLO |
-| GDT363 | GDT363_leaf_margin_formal_atlas | `EXPLORATORY_ATLAS_COMPLETE_NO_ADJUSTED_SIGNAL` | [report](../experiments/yolo/gdt363_leaf_margin_formal_atlas/REPORT.md) | 15 | 335.7 KiB | 0 | STRUCTURED_YOLO |
-| GDT362 | GDT362_remaining_complete_array | `FROZEN_DIRECTION_CONTRADICTED` | [report](../experiments/yolo/gdt362_remaining_complete_array/REPORT.md) | 25 | 67.1 KiB | 2 | STRUCTURED_YOLO |
+| GDT363 | GDT363_leaf_margin_formal_atlas | `EXPLORATORY_ATLAS_COMPLETE_NO_ADJUSTED_SIGNAL` | [report](../experiments/yolo/gdt363_leaf_margin_formal_atlas/REPORT.md) | 15 | 335.5 KiB | 0 | STRUCTURED_YOLO |
+| GDT362 | GDT362_remaining_complete_array | `FROZEN_DIRECTION_CONTRADICTED` | [report](../experiments/yolo/gdt362_remaining_complete_array/REPORT.md) | 25 | 65.1 KiB | 2 | STRUCTURED_YOLO |
 | GDT361 | GDT361_AQ_contact_prospective | `FROZEN_DIRECTION_SUPPORTED_EXPLORATORILY` | [report](../experiments/yolo/gdt361_aq_contact_prospective/REPORT.md) | 22 | 60.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT360 | GDT360_existing_annotation_joint_grounding | `EXPLORATORY_SINGLE_CHANNEL_LEADS_ONLY` | [report](../experiments/yolo/gdt360_existing_annotation_joint_grounding/REPORT.md) | 16 | 4.1 MiB | 4 | STRUCTURED_YOLO |
 | GDT359 | GDT359_shirakatsi_bolorak_category | `BOLORAK_CATEGORY_BROADENED_NO_FIGURE_KEY` | [report](../experiments/yolo/gdt359_shirakatsi_bolorak_category/REPORT.md) | 16 | 44.8 KiB | 1 | STRUCTURED_YOLO |

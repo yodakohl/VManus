@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: field capacity.
-Latest decision: 1349circle4;1348STOP.
-Working files: GDT1349.
-Assumptions: fixed fields.
-Resume: screen payload rules.
+Task: artifact repair.
+Latest decision: 59fixes;1348STOP.
+Working files: repair dossier.
+Assumptions: claims unchanged.
+Resume: source audit.
 Running: none.
 
 ## Structural baseline
@@ -73,4 +73,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public8eb25c8ab.
+Public6597bcaca.
