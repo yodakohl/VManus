@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: fixed_test
 Status: complete
-Task: exclusions.
-Latest decision: 4 corollaries.
-Working files: BROAD_EXCLUSION_PASS.
-Assumptions: fixed units/boundaries.
-Resume: screen IDEA1018.
+Task: class control.
+Latest decision: 1346orthographic FAIL.
+Working files: GDT1346.
+Assumptions: spelling,not phonemes.
+Resume: lookup GDT1346.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicf964c8e9b.
+Public9bc58a319.

@@ -1,0 +1,129 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Source spelling-class calibration only; not historical phoneme ground truth, approximate recovery failure, native sound classes or general phonetic writing exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1346_orthographic_class_calibration/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1346_orthographic_class_calibration/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1177",
+    "GDT1227",
+    "GDT1264",
+    "GDT1265",
+    "GDT1278",
+    "GDT1279"
+  ],
+  "experiment_id": "GDT1346",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "role": "existing exposed source or fixed objective/proposal",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/src/run.py",
+      "role": "existing exposed source or fixed objective/proposal",
+      "sha256": "7f1b6accaff8dabd6528b86b74e8523db103ac2caf779ddbbcf04612dbad31f3"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/ORTHOGRAPHIC_CLASS_OBJECTIVE_CALIBRATION_RAW_20261012.json",
+      "role": "existing exposed source or fixed objective/proposal",
+      "sha256": "4bd5cdc0a3b1b01955c002b0645e9ca947310e4e7a8db05b372c6da9744098ea"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "9ef19d8bef8fe781909bb5507895546ef5de0ed53812c74b41b072a6a73222ca"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "9ef19d8bef8fe781909bb5507895546ef5de0ed53812c74b41b072a6a73222ca"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "61b3346a85f8c0145bc63c33e18c6a8bcf4216be491efae74632f0c422a93889"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md",
+      "role": "primary_report",
+      "sha256": "a619fe6fe6ee95c725800ae4f8cda51e3602798a3ef5c9fed859f640cef49217"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/PEER_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "1c9e29cf93667258778d791c97fc4a5dae91101d67076627a31eb84f7a8a250c"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/POSTRESULT_EXAMPLE.json",
+      "role": "reproducibility artifact",
+      "sha256": "f1ed89574357acd1e481d7415c1dd8336ea496f073196540875ffc7614e6d1f9"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "0aa1097fe3187c87e5da92a6a137c68e673efebbadab7a74216f583f33af2b1b"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/SOURCE_ACCOUNT.json",
+      "role": "reproducibility artifact",
+      "sha256": "8d4c9e04f9b8557c8ab351127388c6bd45cc04612f97e422444c3fef6ab6880e"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "34556f137530a760cb2f84bfcefe34c0417b5b6e306ff948b35e09623bd50497"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/WORK_CHECKPOINT.json",
+      "role": "reproducibility artifact",
+      "sha256": "a262077a6370bbe532994116b24eaf62ef85ff6376eb8a6bcb3afbb791e78d06"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "a3491a651235dd6a7052bb972878f78bc37610136c5d7129cef4c73a7860a414"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/src/example.py",
+      "role": "reproducibility artifact",
+      "sha256": "0b80831dfaf10586582003813c32cdc98f0211c9bcee1d467823ad9a1da7e53c"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "205fa22c98148ef680d87db370985f5fd29f591a5d09e0d74fac0865d5548634"
+    },
+    {
+      "path": "experiments/yolo/gdt1346_orthographic_class_calibration/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "415d79687c9c19aae163b9c420728131fa85eef408ed8ab9f54af737a988678a"
+    }
+  ],
+  "question": "Does the unchanged1264signed-cut objective prefer either fixed vowel-letter convention on four oldsourcebooks, or does one letterflip strictly improve it?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "orthographic_class_calibration",
+  "status": "EXACT_ORTHOGRAPHIC_RECOVERY_COUNTEREXAMPLES_ALL_SOURCES",
+  "title": "One-flip counterexamples to exact vowel-letter recovery by alternation",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

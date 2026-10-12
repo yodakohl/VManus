@@ -1,0 +1,46 @@
+{
+  "record_id": "IDEA001022",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root source-objective and independent per-word score check",
+  "assessment_basis": "Four unchanged old sourcebooks, both fixed spelling conventions, all192single-letter flips; c andh improve everycase under exact and quantized objectives.",
+  "reason": "Reference AEIOU/AEIOUYpartitions cannot globallymaximize1264objective in anycontrolbook. This blocks an exact source-spelling recovery interpretation of that objective, not approximate recovery or phonetic writing. Native1264/65positives,1278failure and1279increment remain.",
+  "blockers": [
+    {
+      "code": "orthographic_control_not_phonetic_annotation",
+      "detail": "Whole ASCII words and endpoint trimming only; historical pronunciation, digraphs and contextual v/u/i/j/y are not annotated. No native sound or meaning binding.",
+      "evidence": [
+        "experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md",
+        "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/RESULT.json",
+        "experiments/yolo/gdt1346_orthographic_class_calibration/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independently justified native units/sound account or genuinely different predeclared predictor; retain currentcontrolcounterexamples.",
+        "evidence": [
+          "experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More optimization of the same cut objective",
+      "Changing spelling labels after seeingflips",
+      "Calling binaryalternation proof ofvowels",
+      "Retuning1278against its exposed test leaves"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1346",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "title": "RAW UNREVIEWED: one-letter flip certificates audit whether the alternation objective even prefers predefined source vowel-letter classes",
+  "summary": "Source-only calibration of the unchanged1264 signed-cut objective on already-owned1177 normalized source words. A single strictly improving letter-class flip disproves that a predefined orthographic vowel partition is its optimum. No complete optimizer or native test is needed. Explicitly not a phonetic classifier or native vowel assignment.",
+  "design": {
+    "question": "Before treating learned native alternation classes as possible sound classes, does their objective prefer even a predefined orthographic vowel-letter partition in known source writing?",
+    "inputs": "The four complete normalized source collections b4,w1,bs1,gr1 already retained by1177, ORIGINAL word boundaries before its P4 grouping. Exact cache field, word projection and source hashes must be frozen by root before execution; no new source acquisition or favorable-book substitution.",
+    "scope": "Orthographic benchmark only. AEIOU and AEIOUY are two explicit source-letter conventions, both reported for every source; neither is asserted to be a historical phoneme partition. No pronunciation dictionary is available in this proposal. Normalization may conflate historical vowel/consonant uses.",
+    "fixed_statistic": "Use1264 exact trimmed-interior eligibility and signed-cut alternation excess over its own exact interior bag. Compare BOTH the exact rational aggregate and the1264 pair-weight quantization at10^-6, with exact original rounding convention frozen. A strict witness for the selected quantized optimizer requires positive quantized change; a rational-only gain is reported separately and does not refute the quantized optimum. No thresholds or position bins change.",
+    "certificate": "For each of the two predefined partitions, evaluate the objective and every one-letter membership flip that leaves both observed classes nonempty. A strictly higher score is a finite witness that the predefined partition is NOT a global maximizer. Report every improving flip, exact rational difference and source coverage. No maximum search is necessary for this negative claim.",
+    "no_witness": "No improving single flip establishes local optimality only. It neither establishes global optimality nor exact recovery; do not expand automatically to a large optimizer or use this as native phonetic evidence.",
+    "discrimination": "Failure has real discriminatory force against interpreting THIS maximum-alternation objective as an exact detector of THIS predefined source spelling class. It does not disprove approximate class resemblance, source phonology or every other detector. Success supplies no distinction from nonphonetic alternating fields.",
+    "countermodel": "A writer can emit the same finite observed strings from whole-word lookup entries without computing sounds. Therefore every statistic of these unchanged strings is identical. This observational equivalence is not evidence that the manuscript used lookup; it prevents a positive structure-only result being labeled proof of phonetics.",
+    "decision_changes": [
+      "An improving flip would justify keeping1264 explicitly structural without using its class names as a sound detector for the tested spelling benchmark.",
+      "No improving flip leaves source-control adequacy open; it does not authorize native C/V assignments or a more complex decoder."
+    ],
+    "budget": "If selected, root should cap source provenance, objective reconstruction, independent difference checking and report at20minutes. No decoder, new corpora or generalized control framework.",
+    "validation": "Independent direct per-word exact excess calculation must reproduce each reported sign and total difference, separately from signed-cut arithmetic. A witness is sufficient; optimizer accuracy is not at issue.",
+    "source_projection": "1177 inherits1176: NFC, lowercase, whitespace split after omitting note elements and excluding whole uncertain recipes. It does NOT strip punctuation or project to ASCII. For this RAW control accept only complete original words matching [a-z]+; retain complete exclusion totals, do not strip characters or silently call punctuation consonants. Then trim one endpoint at each side and require interior length>=3, as1264. This selects a source spelling subset, not all spoken words.",
+    "source_benchmarks": "AEIOU always and AEIOUY when y is active; both reported, never choose whichever looks more favorable. These are spelling conventions, not independently observed historical sound classes."
+  },
+  "prior_distinctions": [
+    "1264/1265 establish native structural associations, not recovery of source letters.",
+    "1278 failure and1279 exact-identity gain remain; this is not retuning either predictor.",
+    "1285 fixed estimator nonconfirmation remains; no change in context order or smoothing.",
+    "1177 source grouping failure remains; original source words are reused solely as controls, not as a surviving native writer.",
+    "892 source grammar capacity stop is distinct and remains; this test needs no sentence grammar/lexicon coverage."
+  ],
+  "novelty_check": "Bounded ideas searches for phonetic, vowel, syllabic, syllable, nucleus and harmony; route-check and duplicate navigation; relevant primaries/followups reviewed. No identical source-objective one-flip calibration found in this bounded pass. Not an exhaustive novelty proof.",
+  "limits": [
+    "No new native payload, counts, reserve, meaning, sound mapping or corpus.",
+    "Source normalization is not independent phonetic annotation.",
+    "Do not call AEIOU or AEIOUY the correct sound classes.",
+    "Cannot establish a universal phonetic/nonphonetic discriminator."
+  ],
+  "primary_hashes": {
+    "experiments/yolo/gdt1264_interior_binary_alternation/REPORT.md": "d6887e32b10db533aaf9bed92dd4e3f3630cbafcdf9f3328eed6d9b46f850545",
+    "experiments/yolo/gdt1265_paired_interior_position_control/REPORT.md": "5a48bdcafac3fdf16de3244640492422e354a73768a4e71f8f634f52c866af86",
+    "experiments/yolo/gdt1278_binary_order_prediction/REPORT.md": "b07b48616794652d5da4c77b55f912f621fcf778a94f8054f8649a0df3e61ebd",
+    "experiments/yolo/gdt1279_strict_inner_symbol_prediction/REPORT.md": "852bc1c1139aba318610d079cb0122141d69d1b5a92431cf882f063e0acaca74",
+    "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23",
+    "experiments/yolo/gdt1177_preposition_binding_transfer/REPORT.md": "ebf3a7438690fea750f05240a6db1d58139c6b94174c04370c62f4cc33a437d3",
+    "experiments/yolo/gdt892_joint_abugida_paradigm_reconstruction/REPORT.md": "26cd4f1a434702e4aacb0a4074177a75ea92878fa5739cda9a036fcd04a47e0d"
+  },
+  "source_artifact_hashes": {
+    "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e",
+    "experiments/yolo/gdt1177_preposition_binding_transfer/src/SPEC.json": "4765a28e9c8e99ffba366671670f1c9e36f3187dee5ee4d28b5ec0eb5f23e2c6",
+    "experiments/yolo/gdt1177_preposition_binding_transfer/src/run.py": "593db3ac4256a8680c5dd221b0eb0ce35c86eca9fa7d11737f59e6cd2cfa5395",
+    "experiments/yolo/gdt1176_natural_text_word_partition/src/run.py": "a32d96948f2bd7bf121505951d9c500ea7f20c4fa1a2f3b00b5ca8b4f410e74a"
+  }
+}
