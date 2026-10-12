@@ -1,3 +1,7 @@
+## 2026-10-12 — Cennini source and failed writers distinguished in idea retrieval
+
+IDEA439 now retains its source-level uncertainty separately from1005failed FULL/DELTAwriters. IDEA481 already proposes a different shared-contact consequence; it remains not_tested with explicit missing target/writer bindings. Later raw references supply no complete test. No new native finding, general source exclusion or selected experiment. [Review](research_registry/proposals/production_origin_supply_20261003/CENNINI_SOURCE_WRITER_SCOPE_REVIEW_20261012.json).
+
 ## 2026-10-12 — Roster field alternative stopped before implementation
 
 Splitting1038members into NAME/COUNT permitsXX at a LINK target/member seam but notXXX under global typed-word decoding within one canonical document. The old1302triple stops this additional carrier; physical line identity does not prove document scope. Separate logic review agrees. No new corpus finding or general field-code exclusion;1038 remains inconclusive. Producer discarded an already covered reciprocal-bookkeeping proposal. [Selection](research_registry/proposals/production_origin_supply_20261003/ROSTER_FIELD_SELECTION_20261012.json).

@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: content rules.
-Latest decision: fieldXXXfail.
-Working files: 1038 review.
-Assumptions: global code/doc.
-Resume: source-led rule.
+Task: source.
+Latest decision: no new test.
+Working files: 439/481review.
+Assumptions: no nativebinding.
+Resume: review IDEA399.
 Running: none.
 
 ## Structural baseline
@@ -74,4 +74,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicbadbe2dee.
+Public69ea3c8bd.
