@@ -1,3 +1,7 @@
+## 2026-10-12 — Roster field alternative stopped before implementation
+
+Splitting1038members into NAME/COUNT permitsXX at a LINK target/member seam but notXXX under global typed-word decoding within one canonical document. The old1302triple stops this additional carrier; physical line identity does not prove document scope. Separate logic review agrees. No new corpus finding or general field-code exclusion;1038 remains inconclusive. Producer discarded an already covered reciprocal-bookkeeping proposal. [Selection](research_registry/proposals/production_origin_supply_20261003/ROSTER_FIELD_SELECTION_20261012.json).
+
 ## 2026-10-12 — GDT1360 separates typed-record realizations using an old repeat
 
 Canonical1038hasnoadjacentequaltypedgroups;oneword/groupwithglobalworddecodingthereforecannotemitoldqokeedy-doubletswithinONEcanonicaldocument. Documentidentityisassumed,notprovedbyspaces. Disjointoptionalspellingsdonothelp; invisibleDOCresets/contextualhomographsoutside.1039equalphasegroupsarecompatiblewithXX,butnotnativeZeitevidence. Threeoldreaderrecords/twophysicalsitesreplayedPASS;nonewrepeatcensusorwordmeaning.1038/1039remaininconclusivewithoutphysical/contentbindings. [Report](experiments/yolo/gdt1360_typed_roster_repeat_obstruction/REPORT.md).

@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: content groups.
-Latest decision: 1360wordFAIL.
-Working files: GDT1360.
-Assumptions: word/group;one doc.
-Resume: group/word binding.
+Task: content rules.
+Latest decision: fieldXXXfail.
+Working files: 1038 review.
+Assumptions: global code/doc.
+Resume: source-led rule.
 Running: none.
 
 ## Structural baseline
@@ -74,4 +74,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicc64a3be73.
+Publicbadbe2dee.
