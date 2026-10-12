@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-11.
+Updated: 2026-10-12.
 
 ## Work
-Phase: exploration
+Phase: workflow
 Status: checkpoint
-Task: pair-weave source preflight.
-Latest decision: fixed Deot case excluded.
-Working files: IDEA1014;DEOT_PREFLIGHT.
-Assumptions: no general language ban.
-Resume: shortlist other RAW;no Deot rerun.
+Task: eight-agent branch audit.
+Latest decision: 7 ID lookups fixed.
+Working files: BRANCH_AUDIT_SUMMARY_20261012.
+Assumptions: scoped audit;old stops retained.
+Resume: context topic Gesamtbild.
 Running: none.
 
 ## Structural baseline
@@ -41,7 +41,7 @@ W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted
 GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
 GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
 GDT616 failed; later diagnostic PASS does not rescue it.
-f9v:1064 Jacea/Viola polysemy;621 second owner unbound.
+f9v:1064 Jacea/Viola;IDEA621 owner unbound.
 IDEA237 untested;30 programs first-passed;P09 closed.
 
 ## Access and operating boundaries
@@ -65,9 +65,9 @@ New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE
 
 ## Retrieval
 No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
-`context topic Wortzusammensetzung`: bounded baseline.
+`context topic Gesamtbild`; then relevant topic.
 `context check`.
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicec70e6b74.
+Publice1942cea2.

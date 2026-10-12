@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-12",
+  "kind": "existing_integrity_debt_classification",
+  "scope": "Only existing check --all log messages inspected; no failing input, image, restricted body, source archive or experiment artifact opened. No fixes, reruns or new access. Local machine paths deliberately omitted.",
+  "evidence": {
+    "publication": {
+      "command": "./vmanus-exp check --all",
+      "log_sha256": "9787b52f26c2e9a1acb53e0cc425da911ef97b63b03eae463e40b669723e733a",
+      "failure_lines": 83
+    },
+    "working": {
+      "command": "./vmanus-exp check --all",
+      "log_sha256": "1646920dc1e39f6e51cf31be22f70cb23c0719b47abbdd03f3f0e6cc67ae7f34",
+      "failure_lines": 24
+    }
+  },
+  "counts": {
+    "publication": {
+      "bound_input_hash_mismatch": {
+        "failure_lines": 3,
+        "affected_manifest_experiments": [
+          "GDT1042",
+          "GDT1043",
+          "GDT1133"
+        ],
+        "lines_per_manifest": {
+          "GDT1042": 1,
+          "GDT1043": 1,
+          "GDT1133": 1
+        }
+      },
+      "missing_declared_inputs": {
+        "failure_lines": 14,
+        "affected_manifest_experiments": [
+          "GDT1060",
+          "GDT1176",
+          "GDT1177",
+          "GDT1221",
+          "GDT1222",
+          "GDT1231",
+          "GDT1232",
+          "GDT1243",
+          "GDT1244",
+          "GDT1273"
+        ],
+        "lines_per_manifest": {
+          "GDT1060": 1,
+          "GDT1176": 2,
+          "GDT1177": 4,
+          "GDT1221": 1,
+          "GDT1222": 1,
+          "GDT1231": 1,
+          "GDT1232": 1,
+          "GDT1243": 1,
+          "GDT1244": 1,
+          "GDT1273": 1
+        }
+      },
+      "unbound_reproducibility_files": {
+        "failure_lines": 9,
+        "affected_manifest_experiments": [
+          "GDT1168",
+          "GDT600"
+        ],
+        "lines_per_manifest": {
+          "GDT1168": 2,
+          "GDT600": 7
+        }
+      },
+      "missing_image_outputs": {
+        "failure_lines": 10,
+        "affected_manifest_experiments": [
+          "GDT1205",
+          "GDT1208",
+          "GDT1242",
+          "GDT1251",
+          "GDT1252"
+        ],
+        "lines_per_manifest": {
+          "GDT1205": 3,
+          "GDT1208": 2,
+          "GDT1242": 2,
+          "GDT1251": 2,
+          "GDT1252": 1
+        }
+      },
+      "missing_bytecode_outputs": {
+        "failure_lines": 47,
+        "affected_manifest_experiments": [
+          "GDT362",
+          "GDT363",
+          "GDT370",
+          "GDT371",
+          "GDT372",
+          "GDT376",
+          "GDT377",
+          "GDT378",
+          "GDT381",
+          "GDT382",
+          "GDT383",
+          "GDT384"
+        ],
+        "lines_per_manifest": {
+          "GDT362": 8,
+          "GDT363": 1,
+          "GDT370": 2,
+          "GDT371": 2,
+          "GDT372": 2,
+          "GDT376": 3,
+          "GDT377": 3,
+          "GDT378": 8,
+          "GDT381": 2,
+          "GDT382": 5,
+          "GDT383": 5,
+          "GDT384": 6
+        }
+      }
+    },
+    "working": {
+      "structured_layout": {
+        "failure_lines": 4,
+        "affected_manifest_experiments": [
+          "GDT1167",
+          "GDT1245"
+        ],
+        "lines_per_manifest": {
+          "GDT1167": 2,
+          "GDT1245": 2
+        }
+      },
+      "bound_input_hash_mismatch": {
+        "failure_lines": 3,
+        "affected_manifest_experiments": [
+          "GDT1042",
+          "GDT1043",
+          "GDT1133"
+        ],
+        "lines_per_manifest": {
+          "GDT1042": 1,
+          "GDT1043": 1,
+          "GDT1133": 1
+        }
+      },
+      "large_artifact_justification": {
+        "failure_lines": 3,
+        "affected_manifest_experiments": [
+          "GDT1126",
+          "GDT1127",
+          "GDT953"
+        ],
+        "lines_per_manifest": {
+          "GDT1126": 1,
+          "GDT1127": 1,
+          "GDT953": 1
+        }
+      },
+      "unbound_reproducibility_files": {
+        "failure_lines": 9,
+        "affected_manifest_experiments": [
+          "GDT1168",
+          "GDT600"
+        ],
+        "lines_per_manifest": {
+          "GDT1168": 2,
+          "GDT600": 7
+        }
+      },
+      "manifest_schema_and_validation_binding": {
+        "failure_lines": 5,
+        "affected_manifest_experiments": [
+          "GDT1170"
+        ],
+        "lines_per_manifest": {
+          "GDT1170": 5
+        }
+      }
+    }
+  },
+  "overlap": {
+    "exact_shared_failure_lines": 12,
+    "publication_only_failure_lines": 71,
+    "working_only_failure_lines": 12
+  },
+  "interpretation": [
+    "Publication has 83 failure lines: 47 missing generated Python bytecode outputs, 14 missing declared inputs, 10 missing image outputs, 9 unbound reproducibility files and 3 bound-input hash mismatches. These are line counts, not 83 independent scientific errors.",
+    "The 14 missing-input declarations are six CoReMA XML declarations (GDT1176/1177), two Latin ITTB CoNLL-U declarations (GDT1221/1222), two historical-source PDF declarations (GDT1231/1232), and four image/crop declarations (GDT1060/1243/1244/1273). A shared physical input can be declared by more than one experiment.",
+    "Missing runtime images affect GDT1205/1208/1242/1251/1252; downstream missing crop inputs are separately reported at GDT1243/1244. Logs do not establish whether absence is intentional publication filtering, license restriction, access restriction or accidental omission.",
+    "Missing generated bytecode is manifest/output-accounting debt, not by itself missing scientific source code. Do not publish interpreter caches merely to silence the checker; any manifest correction requires preserving old provenance and the registered scientific contract.",
+    "GDT1042/1043/1133 bind source-summary documentation whose current hash differs. Hash mismatch alone neither proves corrupted science nor justifies rebinding. Current and originally bound claim-bearing passages need targeted comparison.",
+    "Working tree has 24 failure lines: 9 unbound reproducibility files, 3 hash mismatches, 4 layout messages, 3 large-artifact-justification messages and 5 schema/binding messages. The GDT1170 aggregate schema report and four expanded diagnostics describe overlapping problems, not five independent experiments. GDT1167 layout appears twice; GDT1245 has two layout paths.",
+    "The shown FAIL lines contain no explicit credential leak or staged-tree privacy rejection. That is not an all-files privacy audit. Large-artifact justification and absent public inputs must not be treated as permission to publish private, licensed, sealed or unadmitted material.",
+    "Branch ancestry, transferred reports and the canonical-ID retrieval fix do not establish that every historical experiment is reproducible from the public checkout. The public manifest integrity check remains failing with the listed baseline debt."
+  ],
+  "safe_next_actions": [
+    "Preserve baseline and compare exact failure sets after audit publication.",
+    "If remediation is commissioned, separate missing public reproduction assets from stale documentation bindings, manifest schema/layout defects and generated cache declarations; inspect only admitted metadata first.",
+    "Never fix these by copying the entire private worktree, rebinding all hashes, publishing caches or opening restricted manuscript bodies.",
+    "Keep these engineering findings separate from translation progress and original scientific pass/fail decisions."
+  ]
+}

@@ -5,6 +5,22 @@ ideas, research families, attempts and historical events separate. Record counts
 are **not** counts of independent meaning hypotheses. Importing an old PASS or
 FAIL does not endorse its scientific interpretation.
 
+## Delegated evidence review
+
+For the cross-branch review requested on12October2026, the user authorized
+all eight available subagents. Root coordinates and integrates this review.
+Divide the work into branch/history inventory, branch claim changes,
+positive structure, failure/capacity/invalid-test review, lexical evidence,
+source/image binding, registry integrity, and priorities/condensation. Keep each
+assignment bounded and each artifact separately owned; preserve any experimental
+blinding. Root checks disagreements and the exact publication tree. Several agents
+reading the same evidence do not create independent manuscript confirmation.
+
+The first consolidated review is linked from `context topic Gesamtbild` and the
+existing research brief. Its coverage limits and dated source hashes matter.
+Canonical record IDs take priority over historical aliases in registry lookup;
+ordinary ambiguous aliases still require disambiguation. Old records are retained.
+
 ## Mandatory entry before scientific selection
 
 Start with the sole live resume point, [the current route](../VOYNICH_CURRENT_ROUTE.md).

@@ -1,0 +1,345 @@
+{
+  "date": "2026-10-12",
+  "kind": "bounded_registry_and_retrieval_audit",
+  "scientific_status": "NO_NEW_MANUSCRIPT_FINDING_OR_WORD_MEANING",
+  "scope": {
+    "working_tree": "active research worktree",
+    "publication_tree": "clean publication checkout at e1942cea2",
+    "branches": "Ref-level live-guide existence checked for all seven distinct listed local/remote branch refs; branch semantic histories are other agents’ scope. No raw manuscript source read.",
+    "read_policy": "Live route first; bounded existing show/reviews/lookup/context commands and selected metadata fields. No registry/history dump or sealed body access.",
+    "mutations": "After root authorization: this report, tools/research_registry.py and tests/test_research_registry.py only. No registry data, legacy report, guide or route changed."
+  },
+  "checks": {
+    "working_ideas_check": {
+      "status": "FAIL",
+      "errors": [
+        "GDT1284: review_basis_changed_or_unbound",
+        "GDT1285: review_basis_changed_or_unbound",
+        "GDT1286: review_basis_changed_or_unbound",
+        "GDT1288: review_basis_changed_or_unbound",
+        "GDT1289: review_basis_changed_or_unbound",
+        "GDT1290: review_basis_changed_or_unbound",
+        "HIST:2a6e75e41e854a83: evidence_changed_or_unbound:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md"
+      ],
+      "records": 7910,
+      "coverage": "schema, identities, relation consistency, source/review freshness; not semantic truth"
+    },
+    "publication_ideas_check": {
+      "status": "FAIL",
+      "errors": [
+        "GDT1245: review_basis_changed_or_unbound",
+        "GDT1284: review_basis_changed_or_unbound",
+        "GDT1285: review_basis_changed_or_unbound",
+        "GDT1286: review_basis_changed_or_unbound",
+        "GDT1288: review_basis_changed_or_unbound",
+        "GDT1289: review_basis_changed_or_unbound",
+        "GDT1290: review_basis_changed_or_unbound",
+        "HIST:2a6e75e41e854a83: evidence_changed_or_unbound:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md"
+      ],
+      "records": 7910,
+      "coverage": "schema, identities, relation consistency, source/review freshness; not semantic truth"
+    },
+    "working_context_check": {
+      "status": "PASS",
+      "scope": "live documentation format, block selectors and byte limits only",
+      "start_bytes": 4095,
+      "max_start_bytes": 4096,
+      "topic_count": 15,
+      "largest_topic_bytes": 5841,
+      "max_topic_bytes": 6000,
+      "manuscript_data_read": false,
+      "scientific_validation": false
+    }
+  },
+  "findings": [
+    {
+      "priority": "actionable_retrieval_bug",
+      "claim": "Seven canonical authored IDEA IDs are blocked by aliases from independent HIST ledger records.",
+      "collisions": {
+        "IDEA000473": [
+          "HIST:1a07e559bc0b58e9"
+        ],
+        "IDEA000819": [
+          "HIST:6b48c5ba6b29ce4a"
+        ],
+        "IDEA000844": [
+          "HIST:6e719fc7ca5e9412"
+        ],
+        "IDEA000847": [
+          "HIST:a82bab28c0bd8b91"
+        ],
+        "IDEA000852": [
+          "HIST:bd7061ea4e513750"
+        ],
+        "IDEA000433": [
+          "HIST:e8e4c3de093cc979"
+        ],
+        "IDEA000474": [
+          "HIST:fc00af613b29c86a"
+        ]
+      },
+      "reproduction": "vmanus-work ideas show IDEA000844 exits 2 with ambiguous alias; all seven listed IDs reproduced the same failure.",
+      "cause": "tools/research_registry.py _get queries aliases first and rejects multiple distinct IDs without prioritizing exact canonical record.",
+      "source_sha256": "cfa0b5f26f3fdd0958202e4589cc87c5699011739600bb077db206f19a2ee340",
+      "recommended_fix": "Check exact canonical record ID first, then retain existing alias ambiguity behavior. Preserve HIST records, aliases, reviews and provenance; no merging. Add regression for exact canonical versus conflicting alias and genuinely ambiguous noncanonical alias. This is outside hash-bound legacy scientific executables."
+    },
+    {
+      "priority": "publication_reconciliation",
+      "id": "GDT1245",
+      "claim": "Curated in working tree but stale in publication tree; prior eight-versus-seven error-count difference is real existing checkout drift.",
+      "review_file": "research_registry/proposals/production_origin_supply_20261003/REVIEW_REBIND_1245_20261007.json",
+      "review_file_sha256": "cab1f5bfec735af4891793a0776a1b9bd00bf40357aed963e5707ce87ec191b0",
+      "same_file_publication": true,
+      "action": "Review existing correction and current index pointer in publication checkout, then apply its existing review through ideas review. Do not copy full private curation history. Preserve 264 scorable failures, 269 unresolved and inconclusive overall judgment."
+    },
+    {
+      "priority": "bounded_review_reconciliation",
+      "reviews": [
+        {
+          "id": "GDT1284",
+          "error": "review_basis_changed_or_unbound",
+          "bound_basis": "54257ba620a7b0d20c18520db1828865592d9ecb41f938fa75bbbf7679dc895c",
+          "current_basis": "9495c9d94233d6155731b2c858b966e96705368338c4fbc5d17e7d3d6e2847c9",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md",
+              "bound_sha256": "29de038dbe4d5a6221a42346fb0de48a97392475520946cd2043dbd94d387ca3",
+              "current_sha256": "29de038dbe4d5a6221a42346fb0de48a97392475520946cd2043dbd94d387ca3"
+            }
+          ],
+          "preserved_decision": "Capacity adequate; all reader means positive, but primary9/18positive leaves fails frozen two-thirds consistency. No absence-of-association claim.",
+          "primary_read": "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md",
+          "assessment": "All bound evidence bytes unchanged and primary report agrees with preserved scoped decision. The exact historical imported-field difference causing basis mismatch was not recovered. Do not auto-rebind solely from hashes; compare current question, primary pointer, scope and decision, then append attributed review."
+        },
+        {
+          "id": "GDT1285",
+          "error": "review_basis_changed_or_unbound",
+          "bound_basis": "183d2c1cc1ddf69ccf418ab6ac355628e8b23380c0b210d18ed87c463c6420ce",
+          "current_basis": "0fd8ea4908861e7502d1c98a0c0932d4c65337dc0baaba6e0d114b5a80fd3dd8",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md",
+              "bound_sha256": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23",
+              "current_sha256": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23"
+            }
+          ],
+          "preserved_decision": "Fixed M2 loses to M1 at strictlyinner targets:ZL ALL0/46positive, newinteriors2/45. Capacity adequate. This does not prove one-unit sufficiency or no higher-order information.",
+          "primary_read": "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md",
+          "assessment": "All bound evidence bytes unchanged and primary report agrees with preserved scoped decision. The exact historical imported-field difference causing basis mismatch was not recovered. Do not auto-rebind solely from hashes; compare current question, primary pointer, scope and decision, then append attributed review."
+        },
+        {
+          "id": "GDT1286",
+          "error": "review_basis_changed_or_unbound",
+          "bound_basis": "2c2a2f842786fd006788ff19feb529924ab28918eaad5bb4675f336bdc042506",
+          "current_basis": "ba905f4defb08aaffdaeacf6c0d85568902baee30aa0c9d766b621008eade047",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+              "bound_sha256": "41ecb280e2724b7b71a2cd394880c99d2993661ab64f5efff05d81df0f1b9f46",
+              "current_sha256": "41ecb280e2724b7b71a2cd394880c99d2993661ab64f5efff05d81df0f1b9f46"
+            },
+            {
+              "path": "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/VALIDATION.json",
+              "bound_sha256": "40dd5c06cb3e71e8231f131af27bba0c7143d0322942c42cbd4b4414f497d250",
+              "current_sha256": "40dd5c06cb3e71e8231f131af27bba0c7143d0322942c42cbd4b4414f497d250"
+            }
+          ],
+          "preserved_decision": "Both reader augmented count lattices are Z^23,index1. No nonzero fixed additive common paragraph total in any abelian group. Different boundary/unit contract from882; strengthens1259integer-only ceiling.",
+          "primary_read": "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+          "assessment": "All bound evidence bytes unchanged and primary report agrees with preserved scoped decision. The exact historical imported-field difference causing basis mismatch was not recovered. Do not auto-rebind solely from hashes; compare current question, primary pointer, scope and decision, then append attributed review."
+        },
+        {
+          "id": "GDT1288",
+          "error": "review_basis_changed_or_unbound",
+          "bound_basis": "628f80de748c5fc0a63337d69fcca751385b4be288838606bb0781004bb2bbce",
+          "current_basis": "f217debaff81e332740a5562e31cf936c1bdd0d2ba2ce8174a4e9c66b5cb2793",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md",
+              "bound_sha256": "60a5f41d457072e641d69f9b7e45f76931b34c94a27bc80fe20e41066f269005",
+              "current_sha256": "60a5f41d457072e641d69f9b7e45f76931b34c94a27bc80fe20e41066f269005"
+            },
+            {
+              "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_OVERLAPPING_ABSOLUTE_BANKS_RAW_20261009.json",
+              "bound_sha256": "411f72a238421091aa113f73fbd9ed00f198475b15b4cf27de1705deffaf59c7",
+              "current_sha256": "411f72a238421091aa113f73fbd9ed00f198475b15b4cf27de1705deffaf59c7"
+            }
+          ],
+          "preserved_decision": "The fixed overlap, home-bank and recipe-reset history fails all4source type limits before glyph fitting; continuation-free one-group-per-source-token scope. FullRAW982physical VVcontinuations not scored.",
+          "primary_read": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md",
+          "assessment": "All bound evidence bytes unchanged and primary report agrees with preserved scoped decision. The exact historical imported-field difference causing basis mismatch was not recovered. Do not auto-rebind solely from hashes; compare current question, primary pointer, scope and decision, then append attributed review."
+        },
+        {
+          "id": "GDT1289",
+          "error": "review_basis_changed_or_unbound",
+          "bound_basis": "87b62a25e2b2bcac50e3e8114af82acdcbf5fad3faf95003bca4975ee2ea9dcf",
+          "current_basis": "93e480f9ba703100cb10d5873e97bb76c814ee517843d89a71a78e89d514bc1b",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt1289_overlapping_bank_native_syntax/REPORT.md",
+              "bound_sha256": "3ecd9a914290840addf9adb3edb0b8432c93ec4dc4e0a5c4d5fc6b1ea4254a99",
+              "current_sha256": "3ecd9a914290840addf9adb3edb0b8432c93ec4dc4e0a5c4d5fc6b1ea4254a99"
+            },
+            {
+              "path": "experiments/yolo/gdt1289_overlapping_bank_native_syntax/artifacts/VALIDATION.json",
+              "bound_sha256": "b21c186b3d3fcf588d71576aaf3f8f5acb86299b12942041f983434fb01a4b38",
+              "current_sha256": "b21c186b3d3fcf588d71576aaf3f8f5acb86299b12942041f983434fb01a4b38"
+            }
+          ],
+          "preserved_decision": "19interior word endings exhaust19payload roles; q/cph/cfhforcedselectors. Fixed oldqoqo anddoublet witnesses eachreject all6roles. FullRAW982paidTT/VVrules retained; no source-language assumption.",
+          "primary_read": "experiments/yolo/gdt1289_overlapping_bank_native_syntax/REPORT.md",
+          "assessment": "All bound evidence bytes unchanged and primary report agrees with preserved scoped decision. The exact historical imported-field difference causing basis mismatch was not recovered. Do not auto-rebind solely from hashes; compare current question, primary pointer, scope and decision, then append attributed review."
+        },
+        {
+          "id": "GDT1290",
+          "error": "review_basis_changed_or_unbound",
+          "bound_basis": "30674189fa7f71af99cd6d18781af4a196ec649cb63d45c42d0c647558b3b53c",
+          "current_basis": "580e40c7376433d4df1aacb750451faad437a6a4cc1eda993a728f2ff9671c27",
+          "evidence": [
+            {
+              "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md",
+              "bound_sha256": "e48bbead8cf24d5dcbb99161b55d686a51a815d16e5a2d4fce4b8654588e3dca",
+              "current_sha256": "e48bbead8cf24d5dcbb99161b55d686a51a815d16e5a2d4fce4b8654588e3dca"
+            },
+            {
+              "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md",
+              "bound_sha256": "741a526e30df20021808afd67911147bb27ca5da0dd7d9a61bba7423c231ed02",
+              "current_sha256": "741a526e30df20021808afd67911147bb27ca5da0dd7d9a61bba7423c231ed02"
+            }
+          ],
+          "preserved_decision": "None of3primarysources passesboth pooledbands;Latin typecount2357alreadyfits,Italian3210/Greek3072exceedtypebands. Exactnative-spike profile not matched; no universal extra-spelling requirement or language verdict.",
+          "primary_read": "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md",
+          "assessment": "All bound evidence bytes unchanged and primary report agrees with preserved scoped decision. The exact historical imported-field difference causing basis mismatch was not recovered. Do not auto-rebind solely from hashes; compare current question, primary pointer, scope and decision, then append attributed review."
+        }
+      ]
+    },
+    {
+      "priority": "append_only_dossier_hash_drift",
+      "id": "HIST:2a6e75e41e854a83",
+      "path": "research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md",
+      "bound_sha256": "6184d714bd42bc8f20018415478f2fbed857c712c8649f162e2034c62d309096",
+      "working_sha256": "f257595685f3b07c68c7f1aec16c5e117d6579c0191c0110dac7b2cee34f0390",
+      "publication_sha256": "68810de13e26d23c3cb447e18330b7842942194e1716393047b145e65e0a710d",
+      "proof": "The complete old bound bytes exactly equal the first 9785 lines in each checkout; hashing this prefix reproduces the bound SHA256. Claim-bearing state-scope section is lines 9729–9784 and is therefore unchanged.",
+      "decision": "Fixed reversible two-state and finite-p-group common-endpoint obstruction retained; toy S3 counterexample is not native fit. Group order is not state count.",
+      "action": "After targeted assessment, append same scoped review separately in each checkout binding its own current dossier bytes. Never copy the entire working dossier merely to equalize hashes."
+    },
+    {
+      "priority": "known_dependency_coverage_limit",
+      "blank_dependency_ids": [
+        "GDT001",
+        "GDT179",
+        "GDT231",
+        "GDT232",
+        "GDT233",
+        "GDT237",
+        "GDT257",
+        "GDT337",
+        "GDT363",
+        "GDT399",
+        "GDT869",
+        "GDT921",
+        "GDT1067"
+      ],
+      "unresolved_non_earlier_edges": [
+        "GDT005 -> GDT006",
+        "GDT064 -> GDT065",
+        "GDT373 -> GDT374",
+        "GDT771 -> GDT772"
+      ],
+      "assessment": "These are disclosed by lookup, not demonstrated missing followups or false closures. Do not invent dependencies or treat absence as unexecuted work. Targeted primary review is required when selecting affected routes."
+    },
+    {
+      "priority": "context_capacity",
+      "claim": "Live route passes but is 4095 bytes against 4096 and 73 lines against 80.",
+      "action": "Compress existing eight work fields when integrating audit; do not append another resume file. Context validation checks formatting/retrieval only."
+    },
+    {
+      "priority": "guidance_and_identity",
+      "claim": "Working and publication research_registry/README.md are byte-identical. Their route files differ only in published-commit tail (working e1942cea2, publication ec70e6b74), not scientific instructions. main and gdt001 historical refs lack live guide/route; gdt002, publication and origin/main carry them.",
+      "guide_sha256": "5374725a8a6087051b79daeaf0ae242eec069cf2388a54948f3d85201c832514",
+      "warning": "Use current live guide when interpreting historical branches. IDEA000905/906 are mnemonic-history ideas; GDT905/906 are separate CV experiments. Bare 905 and shortened IDEA905 do not resolve; use padded canonical IDs."
+    }
+  ],
+  "knowledge_compression_recommendation": "Retain one compact result per fixed contract: supported observation, original failed/capacity/invalid outcome, unit and access assumptions, changed-input requirement, and primary plus later followup pointers. Put audit reconciliation in existing dossier and reviews; use current route only for live task. Do not let broad family labels or a validator PASS replace scientific scope.",
+  "limitations": [
+    "No all-branch scientific completeness claim.",
+    "Metadata freshness repair is not a new translation or evidence that a closed model works.",
+    "Six basis mismatches have unchanged primary evidence, but the exact historical metadata diff was not established in this bounded pass."
+  ],
+  "implementation": {
+    "status": "IMPLEMENTED_AND_VERIFIED_WORKING_TREE",
+    "files": {
+      "tools/research_registry.py": "556212c70acde2353a565a97b1785a7b781bd511aac80fcc482afc9695378faa",
+      "tests/test_research_registry.py": "f2dbd3ca19aaa08d8f57c8b6aa73cd6736ff12275c4c58272d3fa522fe0e35fb"
+    },
+    "change": "Case-insensitive exact canonical ID lookup precedes alias lookup. Both case-colliding canonical IDs remain ambiguous as before; no arbitrary winner. The ID schema permits ASCII only, so SQLite NOCASE matches prior casefold behavior for canonical IDs.",
+    "synthetic_tests": {
+      "command": "python -m unittest tests.test_research_registry",
+      "tests": 29,
+      "status": "PASS",
+      "covered": [
+        "canonical versus HIST alias",
+        "case-insensitive canonical IDs",
+        "both records retained",
+        "source registry bytes untouched",
+        "noncanonical ambiguous alias still rejects",
+        "unknown and prefixes still reject",
+        "two case-colliding canonical IDs remain ambiguous"
+      ]
+    },
+    "live_replay": [
+      {
+        "id": "IDEA000433",
+        "before_exit": 2,
+        "before_error": "ambiguous alias",
+        "after_exit": 0,
+        "after_returned_id": "IDEA000433"
+      },
+      {
+        "id": "IDEA000473",
+        "before_exit": 2,
+        "before_error": "ambiguous alias",
+        "after_exit": 0,
+        "after_returned_id": "IDEA000473"
+      },
+      {
+        "id": "IDEA000474",
+        "before_exit": 2,
+        "before_error": "ambiguous alias",
+        "after_exit": 0,
+        "after_returned_id": "IDEA000474"
+      },
+      {
+        "id": "IDEA000819",
+        "before_exit": 2,
+        "before_error": "ambiguous alias",
+        "after_exit": 0,
+        "after_returned_id": "IDEA000819"
+      },
+      {
+        "id": "IDEA000844",
+        "before_exit": 2,
+        "before_error": "ambiguous alias",
+        "after_exit": 0,
+        "after_returned_id": "IDEA000844"
+      },
+      {
+        "id": "IDEA000847",
+        "before_exit": 2,
+        "before_error": "ambiguous alias",
+        "after_exit": 0,
+        "after_returned_id": "IDEA000847"
+      },
+      {
+        "id": "IDEA000852",
+        "before_exit": 2,
+        "before_error": "ambiguous alias",
+        "after_exit": 0,
+        "after_returned_id": "IDEA000852"
+      }
+    ],
+    "scientific_effect": "Previously blocked knowledge retrieval restored; no meaning, scientific decision, review freshness or source evidence changed."
+  },
+  "publication_wording_note": "One slash-separated bank/reset description was rewritten as prose because the privacy scanner treated it as a machine path. The original phrase described the algorithm, not a filesystem location; scientific meaning and primary hashes are unchanged."
+}

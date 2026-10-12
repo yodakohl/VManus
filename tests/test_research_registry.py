@@ -52,6 +52,32 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual({x['id'] for x in registry.search(self.root, 'shared')['results']},
                          {'IP001', 'IP002'})
 
+    def test_canonical_id_wins_history_alias_without_merging_records(self):
+        self.snapshot([
+            record('IDEA000844', aliases=['SHARED_ALIAS']),
+            record('HIST:example', kind='history',
+                   aliases=['IDEA000844', 'shared_alias']),
+        ])
+        source = self.root / registry.DIRECTORY / 'imported.jsonl'
+        before = source.read_bytes()
+        for identifier in ('IDEA000844', 'idea000844', 'Idea000844'):
+            self.assertEqual(registry.show(self.root, identifier)['id'], 'IDEA000844')
+        self.assertEqual(registry.show(self.root, 'hist:EXAMPLE')['id'], 'HIST:example')
+        with self.assertRaisesRegex(ValueError, 'ambiguous alias'):
+            registry.show(self.root, 'shared_ALIAS')
+        for identifier in ('IDEA00084', 'UNKNOWN'):
+            with self.assertRaisesRegex(ValueError, 'unknown record'):
+                registry.show(self.root, identifier)
+        self.assertEqual(source.read_bytes(), before)
+        self.assertEqual({x['id'] for x in registry.search(self.root, 'shared')['results']},
+                         {'IDEA000844', 'HIST:example'})
+
+    def test_case_colliding_canonical_ids_remain_ambiguous(self):
+        self.snapshot([record('IP001'), record('ip001')])
+        for identifier in ('IP001', 'ip001', 'Ip001'):
+            with self.assertRaisesRegex(ValueError, 'ambiguous alias'):
+                registry.show(self.root, identifier)
+
     def test_show_exposes_incoming_history_without_changing_parent_decision(self):
         self.snapshot([
             record('IP001', aliases=['PARENT_ALIAS'], verdict='untested',

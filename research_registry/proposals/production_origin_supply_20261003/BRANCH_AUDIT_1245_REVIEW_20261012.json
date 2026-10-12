@@ -1,0 +1,66 @@
+{
+  "assessment_basis": "Read current effective GDT1245 review, original primary REPORT.md, published artifacts/GDT1245_CLAIM_PRIORITY_CORRECTION_20261006.json, and REVIEW_REBIND_1245_20261007.json. Restore the already published native-representation caution omitted from the latest blocker list while preserving its inconclusive verdict, existing blockers, reopening conditions and relations. No rerun, new manuscript finding, changed result or reopened route.",
+  "blockers": [
+    {
+      "code": "scorable_local_contradictions",
+      "detail": "None of the264scorable windows has three unique ordered internal cues under2/1/2widths.",
+      "evidence": [
+        "experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md"
+      ]
+    },
+    {
+      "code": "unresolved_capacity",
+      "detail": "269windows have uncertain base/cue spelling or boundaries;RFhas no own paragraph capacity.",
+      "evidence": [
+        "experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md"
+      ]
+    },
+    {
+      "code": "unbound_native_representation",
+      "detail": "The historical example does not independently bind native paragraph, same-page layout or word/group rendering; it crosses catalogued folios 003v/004r. This is a retained assumption limit, not a newly failed experiment.",
+      "evidence": [
+        "experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md",
+        "experiments/yolo/gdt1245_internal_start_cue_capacity/artifacts/GDT1245_CLAIM_PRIORITY_CORRECTION_20261006.json"
+      ]
+    }
+  ],
+  "reason": "All 264 scorable alternate-reading windows fail; 269 remain unresolved, 13 have gaps and 3 are too short. This does not refute the entire uncertain implementation or text retrieval generally. The historical source crosses two catalogued folios; same-selector four-paragraph layout, 2/1/2 native-group widths, distinct cue spellings and unchanged contextual spelling are added native-representation assumptions. Correct computation and all unresolved cases retained; no translated word, repair or rerun.",
+  "record_id": "GDT1245",
+  "relations": [
+    {
+      "evidence": [
+        "experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md"
+      ],
+      "target": "IDEA000901",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md"
+      ],
+      "target": "GDT954",
+      "type": "related_to"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independently justified changed source/group/layout contract with a genuinely different observable consequence, retaining all old failures; or separately informative evidence resolving the fixed uncertain cells.",
+        "evidence": [
+          "experiments/yolo/gdt1245_internal_start_cue_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Repeat the same census",
+      "Relax widths or aliases after the result",
+      "Treat unknown windows as absence",
+      "Promote a single repeated word as a retrieval instruction"
+    ],
+    "policy": "conditional"
+  },
+  "reviewer": "branch_claims_20261012; proposed append-only scope preservation for root review",
+  "scope": "method",
+  "verdict": "inconclusive"
+}

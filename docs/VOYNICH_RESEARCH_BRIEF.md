@@ -1,6 +1,6 @@
 # Verbindlicher Wissenseinstieg
 
-Stand: 14. September 2026. Vor einer wissenschaftlichen Auswahl die relevante
+Stand: 12. Oktober 2026. Vor einer wissenschaftlichen Auswahl die relevante
 Zeile über `./vmanus-work context topic THEMA` lesen, dann ihre Primärbelege.
 Der verpflichtende allgemeine Strukturstand steht bereits in der Route;
 dieses Dokument muss beim Wiedereinstieg nicht vollständig geladen werden.
@@ -15,6 +15,13 @@ Sie erhält positive Form-/Transferbefunde und verknüpft ihre Grenzen.
 GDT616s ursprünglicher Vertrag bleibt gescheitert; alte HOT/END-Karten
 enthalten übernommene Bedeutungsannahmen. W96s f2v-Zweig und W97s Generationenvertrag bleiben
 geparkt beziehungsweise gestoppt. Nur die relevante Tabellenzeile vertiefen.
+
+## Verdichteter Stand nach der Branchprüfung
+
+- **Branchprüfung:** Acht Agenten haben die vorhandene Arbeit aufgeteilt geprüft. Alle acht inventarisierten Git-Verweise (einschließlich origin/HEAD) liegen in der Geschichte des öffentlichen Hauptzweigs. Fünf zusätzliche Reflog-Versionen enthalten in den geprüften Berichten, Ideen und Reviews keinen verlorenen wissenschaftlichen Befund. Das ist keine erneute wissenschaftliche Prüfung aller Versuche und deckt abgelaufene oder nicht mehr erreichbare Historie nicht ab. [Gesamtprüfung und Teilberichte](../research_registry/proposals/production_origin_supply_20261003/BRANCH_AUDIT_SUMMARY_20261012.json).
+- **Wissensstand:** Gerichtete Teilkombinationen, zusätzliche Information vollständiger Formen und bestimmte Nachbarschafts-/Positionsbeziehungen sind belastbar innerhalb ihrer geprüften Bereiche. Auch begrenzte Bild-, Abstands- und Quellenbeobachtungen bleiben erhalten. Noch kein Lautalphabet, vollständiger Parser, Quelltext oder übersetztes Wort ist bestätigt. Die Wiedergewinnung vorgegebener Kontrolltexte und vollständig ausgefüllte Arbeitslesungen ändern diesen Bedeutungsstand nicht.
+- **Entscheidungsarten:** Ein fester Ausschluss, eine ergebnislose Suche, fehlende Prüfkapazität und ein ungültiger Test sind verschiedene Befunde. GDT616s späterer Diagnose-PASS rettet den ursprünglichen Fehlschlag nicht; GDT1097 enthält weiterhin ungelöste Fälle; GDT1165 war numerisch ungültig; W93 hatte keine vergleichbaren Benennungen. GDT1316 behält sowohl seinen Gesamtgewinn als auch das gescheiterte Kriterium für neue Wörter. Daraus folgt kein allgemeines Verbot zusammengesetzter Wörter.
+- **Weiterarbeit:** Die Prüfung begründet keinen neuen großen Decoderlauf. Neue Lesungshypothesen bleiben erlaubt, müssen aber Wortprofile, tatsächliche Schrift-/Bildbelege und bekannte Gegenfälle berücksichtigen. Vorrang hat eine konkrete zusätzliche Inhalts- oder Schreibregel mit einer unterscheidenden Folge. Sieben durch historische Aliasnamen verdeckte kanonische Ideen-IDs sind wieder erreichbar; vorhandene Entscheidungen wurden dabei nicht zusammengelegt oder aufgehoben. Veraltete Prüfbindungen bleiben sichtbar, bis sie inhaltlich nachgeprüft sind. Branch-Vollständigkeit ist keine vollständige öffentliche Reproduzierbarkeit: 83 ältere Prüffehler bleiben dokumentiert, darunter 47 fehlende generierte Bytecode-Dateien sowie fehlende Eingaben und Bilder.
 
 ## Was eine neue Lesung bereits berücksichtigen muss
 

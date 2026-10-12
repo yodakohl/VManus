@@ -1,0 +1,176 @@
+{
+  "status": "BOUNDED_PRIMARY_EVIDENCE_CONSOLIDATION_NO_NEW_EXPERIMENT",
+  "date": "2026-10-12",
+  "role": "historical source and native image/text binding audit",
+  "checkout_base_commit": "4b71dc5c283cf57d21364cacb643ca9c49a9052e",
+  "coverage": {
+    "research_families": [
+      "historical herbals and source transcriptions",
+      "f9v named-owner capacity",
+      "repeated and neighbouring herbal heads",
+      "f83r complete content scaffolds and naming test",
+      "f45r/f103r/f40r scoped source checks"
+    ],
+    "branch_scope": "Current authoritative working-tree files only. This contribution does not claim every Git branch was examined; root must combine it with branch inventory and divergence audit.",
+    "work_kind": "Read-only retrieval and this single consolidation artifact. No new pixel access, raw text projection, lexical proposal, test, registry review, ledger or git mutation.",
+    "retrieval": "Live route first; pictures/data topics; bounded lookups and followup cards; primary reports and IDEA000621 card. GDT621 and IDEA000621 explicitly separated.",
+    "limits": "No source acquisition or new image inference. Forbidden target scopes untouched. Existing validator descriptions were read, not rerun. Current working-tree hashes bind the actual evidence; checkout commit alone does not assert these files are committed."
+  },
+  "constraints": [
+    {
+      "id": "B01",
+      "kind": "historical_source_binding",
+      "retained_claim": "GDT621 binds five manually checked Latin entry openings to five later opened Clm locator labels. Its post-checkpoint correction preserves original bytes and supplies actual classification, plant-part, quality/degree and authority distinctions.",
+      "cannot_infer": "This is a historical source-to-source correspondence, not a Voynich binding. The old proposed next step is not a fresh plan; later research exists. Isolated twelve-token readings had substantive errors, so reliable semantic source use requires full sentence context.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt621_manual_source_double_reading/FINAL_RESULT.md",
+          "sha256": "54a8a18181bf236db7c367b2afbbc14c68169d41963a53294f1dd34d12c40e93"
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "kind": "historical_source_binding",
+      "retained_claim": "The owned Theophilus I.1–9 text explicitly names simple membrina as base in I.4 and I.5 despite intervening differently named preparations; written additions and applications differ.",
+      "cannot_infer": "Knowledge/specification reuse does not establish repeated physical execution, same batch, fresh batch, actual outcome, oral teaching or a Voynich word. The 1847 edition projection was not a new manuscript collation; these facts already existed in IDEA390. No new discovery claimed.",
+      "evidence": [
+        {
+          "path": "research_registry/proposals/production_origin_supply_20261003/THEOPHILUS_SHARED_LESSON_EXPANSION_20261011.json",
+          "sha256": "7cd8f49e4f7d52df9b63f5229ac6f0418a40e50b56278e770e6bf32b56acd420"
+        },
+        {
+          "path": "research_registry/work_batches/ten_hours_20260915/THEOPHILUS_I1_I9_SOURCE_CONTENT.json",
+          "sha256": "1b65a924686633322bc7be73fa8723d97a04174361b062ae892502c28fe248bb"
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "kind": "historical_name_correction",
+      "retained_claim": "GDT1064 corrects the overly broad claim that bare Jacea is incompatible with a pansy-like picture: the 1485 Gart printed yacea beside such a plant; the explicitly specified knapweed expansion remains visually incompatible with f9v.",
+      "cannot_infer": "No decoded fochor, species-level identification or public cipher validation follows. The sense was selected after f9v exposure. Later source usage is not evidence of the Voynich writer’s vocabulary; parchment date does not directly date inscription.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt1064_f9v_jacea_historical_synonym/REPORT.md",
+          "sha256": "c167bb43dc80416b65e9436e51f6e5d0f52d29f80ff235f172e9b2d497ee24a6"
+        },
+        {
+          "path": "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md",
+          "sha256": "bb6c0d79e576ab1417f085bf7080c6065eaaa435c8302d3cfe0ac8c97b8abd60"
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "kind": "bounded_native_owner_capacity",
+      "retained_claim": "IDEA000621—not GDT621—has no second Viola-like owner in its fixed fourteen-image two-trait screen; exact fochor was already unique in the admitted text scope. Its repeat-name comparison is therefore untested for capacity.",
+      "cannot_infer": "No global no-Viola, no-name, or all-image exclusion. Five historical witness searches returned mixed outcomes, including inaccessible or unlocated entries, not a universal historical absence. Name versus opaque entry address is unresolved; no lexical assignment adopted.",
+      "evidence": [
+        {
+          "path": "research_registry/decisions/f9v_jacea_full_entry_capacity_20260928.md",
+          "sha256": "bb6c0d79e576ab1417f085bf7080c6065eaaa435c8302d3cfe0ac8c97b8abd60"
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "kind": "native_image_text_descriptive_alignment",
+      "retained_claim": "GDT1088 retains two specific-organ overlaps among six exact repeated-head pairs versus two among thirty different-head pairs in its fixed nine-page table. This is a real local descriptive alignment, with observer disagreement on kooiin lower structures explicitly retained.",
+      "cannot_infer": "No significance or taxon binding; pchor organ overlap fails across all three members, tshor retains boundary/medial counterexamples, kooiin organ result is unresolved. The nine pages and organ vocabulary are selected and historically exposed. No organ gloss adopted.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt1088_repeated_head_visual_owner_audit/REPORT.md",
+          "sha256": "68bc3394ce612a7e23eb27ab79b980b38ab8d6dec7cd44724f46c63181ac9b06"
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "kind": "native_image_text_fixed_inconclusive",
+      "retained_claim": "GDT1089 word-blind organ inventories give two of fourteen new target pairs versus one of fourteen controls definite YES; three target and two control pairs are undecidable. The registered positive and negative rules were both unmet.",
+      "cannot_infer": "Do not turn descriptive excess or validator PASS into a successful semantic test. Repeated hubs, controls and forms are not independent trials; pchor/pchar shared architecture fails at two other physical pairs. No component receives a meaning.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt1089_head_edit1_organ_blind_holdfolio/REPORT.md",
+          "sha256": "d902a3cd693b03d6578d1db35a35be7aa73f2bcdff3ee37b120ba483cb886ba9"
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "kind": "native_layout_ownership_and_open_content_models",
+      "retained_claim": "The f83r existing map binds P1/P2/P3 to three separate panels and P4/P5 plus Q1/Q2 to the lower coupled panel. IDEA1009–1011 drafts preserve whole records and captions but have zero justified lexical values. W93 tested no comparable new definition among its fixed thirteen names, despite their presence elsewhere in the added text.",
+      "cannot_infer": "Panel ownership does not identify people, actions, simultaneous figures, objects, quantities or temporal carry. K(A)/K(B) is proposed syntax only; RF has {ch'}edy where ZL/IT have shedy. W93 NO_CAPACITY is not naming refutation. The older draft’s qoky-unexecuted correction was subsequently superseded for that exact proposed page rule by GDT1342 failure; whole content models remain open.",
+      "evidence": [
+        {
+          "path": "research_registry/proposals/f83r_music_picture_binding_20260922/REPORT.md",
+          "sha256": "6a6d37d134efbf903d90ffab4a97f193516a4031411f106d15a5814482847699"
+        },
+        {
+          "path": "research_registry/proposals/production_origin_supply_20261003/F83R_WHOLE_DRAFT_ROOT_ASSESSMENT_20261011.json",
+          "sha256": "a60fdd21c836e13321e2b248ca03751493dddb1e5df9169ed49238d3d388d5f4"
+        },
+        {
+          "path": "research_registry/proposals/translation_programs_20260912/work/W93/REPORT.md",
+          "sha256": "f76d4bd762b3c5b3b463a4af5f3b09758a8c5c8dcaaccb5fd418678cc886444d"
+        },
+        {
+          "path": "experiments/yolo/gdt1342_qoky_written_predecessor/REPORT.md",
+          "sha256": "cad1e70e24e236e2330fb736b1b547f18ebe0d44a1abe9180b3d6fc3c5d69753"
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "kind": "native_local_shape_and_gap_support",
+      "retained_claim": "GDT1208 supports a compatible recurring drawn beginning in f45r.10 daldy/dalor/dal with different endings and external clearances. GDT1243 separately reports clear white separation at all ten preregistered internal working-shape seams.",
+      "cannot_infer": "One informed observer and one physical line, not independent alphabet confirmation. Neither result selects dal|dy over da|ldy, identifies a morpheme, proves pen order, or assigns phonemes. The ten seams do not establish a universal gap rule; the literal vowel proposal still owes a complete source account.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt1208_f45r_repeated_dal_body/REPORT.md",
+          "sha256": "0a8eab5bb7ad50aa41e6d094142ee369c49603e4861f910ec7fe4ef233c1ff86"
+        },
+        {
+          "path": "experiments/yolo/gdt1243_f45r_mandatory_grapheme_gaps/REPORT.md",
+          "sha256": "1a289a3076b9d8b3653945451ddce1410c686dfe57821db123fe73ec1abaa015"
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "kind": "native_local_repetition_partly_supported",
+      "retained_claim": "GDT1298 supports compatible major drawn structures for six qokeey groups at f103r.46/.53, and the separately spaced qokeey chedy qokeey qokeey pattern on .53 at coarse shape level.",
+      "cannot_infer": "The .46 chorol/shedy clearance remains unresolved, so the complete uninterrupted-run premise is not image-verified. Keep ZL uncertain gap and IT/RF definite gap distinct. No exact graphemic identity, word meaning or independent validation of GDT1297 follows.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt1298_f103r_repeat_source_review/REPORT.md",
+          "sha256": "befccdb624b87a51894fbcc7bad988a99c3b95c759b01ee6d6ffc665a5215e9b"
+        },
+        {
+          "path": "docs/103r.md",
+          "sha256": "74300be8d266b34d60a22cfe8920daace0c228bdd5d91ece3b6c26d5aeea8d9e"
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "kind": "native_local_repetition_and_gaps_supported",
+      "retained_claim": "GDT1302 supports three separately spaced similarly built groups at f40r.9 G006–008, retained as okaiin okaiin okaiin by all readers. The triple lies entirely after an earlier drawing interruption, not across it.",
+      "cannot_infer": "One informed local image observation, not three manuscripts or independent palaeography. The following group differs by reader. No codeword meaning, universal triple identity or full writing mechanism follows.",
+      "evidence": [
+        {
+          "path": "experiments/yolo/gdt1302_f40r_triple_source_review/REPORT.md",
+          "sha256": "f60815fceae83d39dac2f37fc5bf06947c03a741488945c0b8d8b2f6b01cce68"
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "positive_knowledge": "There are genuine source-to-source historical bindings, bounded native visual recurrences, layout ownership and small descriptive form/image correspondences. These should not be erased by the zero-translation conclusion.",
+    "meaning_boundary": "None of the ten cards supplies an independently established native lexical meaning. Historical named recipes constrain what a proposed content mechanism must preserve; they do not allocate that content to native forms.",
+    "phase_boundary": "Exploratory coherent readings remain allowed before confirmed seed words. Profiles and retained counterexamples must justify each adopted lexical hypothesis; independent discrimination gates fixed semantic preference, not exploratory authoring.",
+    "no_repetition": "Do not repeat the fourteen-image owner search, W93 zero-comparable-definition scan, or local informed pixel checks unchanged. Reuse the exact known constraints in any genuinely new complete hypothesis.",
+    "current_material_correction": "The f83r root assessment predates GDT1342: its then-unexecuted qoky rule now has a fixed page-rule failure. This is ordinary chronological succession, not retroactive falsity or a new audit discovery."
+  }
+}

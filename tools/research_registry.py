@@ -424,6 +424,16 @@ def _card(record):
 
 
 def _get(connection, identifier):
+    # A history record can legitimately use an authored record's ID as an
+    # alias. Keep both records, but let the canonical identity remain reachable.
+    # IDs are ASCII; NOCASE preserves the existing case-insensitive lookup.
+    canonical = connection.execute(
+        'SELECT payload FROM records WHERE id=? COLLATE NOCASE',
+        (identifier,)).fetchall()
+    if len(canonical) == 1:
+        return json.loads(canonical[0]['payload'])
+    if len(canonical) > 1:
+        raise ValueError('ambiguous alias: ' + identifier)
     rows = connection.execute('SELECT DISTINCT id FROM aliases WHERE alias=?',
                               (identifier.casefold(),)).fetchall()
     if len(rows) != 1:

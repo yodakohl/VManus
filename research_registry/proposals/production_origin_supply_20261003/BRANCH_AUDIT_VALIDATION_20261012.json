@@ -1,0 +1,63 @@
+{
+  "status": "PASS_WITH_EXPLICIT_PREEXISTING_DEBT",
+  "unit_test_command": "python -m unittest discover -s tests -p 'test_research_registry*.py'",
+  "unit_tests": 54,
+  "unit_test_exit": 0,
+  "canonical_live_ids": [
+    "IDEA000433",
+    "IDEA000473",
+    "IDEA000474",
+    "IDEA000819",
+    "IDEA000844",
+    "IDEA000847",
+    "IDEA000852"
+  ],
+  "GDT1245": "inconclusive with native-representation blocker retained",
+  "context_check": {
+    "status": "PASS",
+    "scope": "live documentation format, block selectors and byte limits only",
+    "start_bytes": 4070,
+    "max_start_bytes": 4096,
+    "topic_count": 16,
+    "largest_topic_bytes": 5841,
+    "max_topic_bytes": 6000,
+    "manuscript_data_read": false,
+    "scientific_validation": false
+  },
+  "auditor_artifact_hashes_verified": 8,
+  "reflog_addition_counts_source": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/BRANCH_AUDIT_CLAIMS_20261012.json",
+    "field": "third_pass_record_preservation"
+  },
+  "legacy_preflight_comparison": [
+    {
+      "checkout": "working",
+      "unchanged_failure_lines": 24,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "checkout": "publication",
+      "unchanged_failure_lines": 83,
+      "added": 0,
+      "removed": 0
+    }
+  ],
+  "registry_flags_removed": [
+    "GDT1245: review_basis_changed_or_unbound"
+  ],
+  "registry_flags_remaining": [
+    "GDT1284: review_basis_changed_or_unbound",
+    "GDT1285: review_basis_changed_or_unbound",
+    "GDT1286: review_basis_changed_or_unbound",
+    "GDT1288: review_basis_changed_or_unbound",
+    "GDT1289: review_basis_changed_or_unbound",
+    "GDT1290: review_basis_changed_or_unbound",
+    "HIST:2a6e75e41e854a83: evidence_changed_or_unbound:research_registry/proposals/production_origin_supply_20261003/HAND_WRITER_RECONSTRUCTION_20261004.md"
+  ],
+  "scope": "Validates retrieval implementation, artifact identity and documented integration. No historical scientific rerun or translated word.",
+  "tested_files": {
+    "tools/research_registry.py": "556212c70acde2353a565a97b1785a7b781bd511aac80fcc482afc9695378faa",
+    "tests/test_research_registry.py": "f2dbd3ca19aaa08d8f57c8b6aa73cd6736ff12275c4c58272d3fa522fe0e35fb"
+  }
+}

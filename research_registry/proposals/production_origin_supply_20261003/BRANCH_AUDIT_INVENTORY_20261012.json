@@ -1,0 +1,289 @@
+{
+  "schema": "branch-audit-inventory-v1",
+  "date": "2026-10-12",
+  "role": "Read-only branch, ancestry, reflog and research-path inventory; no semantic reassessment.",
+  "public_tip": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+  "refs": [
+    {
+      "ref": "refs/heads/main",
+      "sha": "f68381e519ee4f739f8003f1354d49691fab2db2",
+      "public_only_commits": 3777,
+      "ref_only_commits": 0,
+      "merge_base": "f68381e519ee4f739f8003f1354d49691fab2db2",
+      "relation": "ancestor"
+    },
+    {
+      "ref": "refs/heads/publication/20261009-research",
+      "sha": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "public_only_commits": 0,
+      "ref_only_commits": 0,
+      "merge_base": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "relation": "equal"
+    },
+    {
+      "ref": "refs/heads/yolo/gdt001-global-decipherment",
+      "sha": "c7874a932a3842b4a8eaee9dfa534c1f5291bdc5",
+      "public_only_commits": 3749,
+      "ref_only_commits": 0,
+      "merge_base": "c7874a932a3842b4a8eaee9dfa534c1f5291bdc5",
+      "relation": "ancestor"
+    },
+    {
+      "ref": "refs/heads/yolo/gdt002-visual-grammar-constraints",
+      "sha": "4b71dc5c283cf57d21364cacb643ca9c49a9052e",
+      "public_only_commits": 82,
+      "ref_only_commits": 0,
+      "merge_base": "4b71dc5c283cf57d21364cacb643ca9c49a9052e",
+      "relation": "ancestor"
+    },
+    {
+      "ref": "refs/remotes/origin/HEAD",
+      "sha": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "public_only_commits": 0,
+      "ref_only_commits": 0,
+      "merge_base": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "relation": "equal"
+    },
+    {
+      "ref": "refs/remotes/origin/main",
+      "sha": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "public_only_commits": 0,
+      "ref_only_commits": 0,
+      "merge_base": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "relation": "equal"
+    },
+    {
+      "ref": "refs/remotes/origin/yolo/gdt001-global-decipherment",
+      "sha": "c7874a932a3842b4a8eaee9dfa534c1f5291bdc5",
+      "public_only_commits": 3749,
+      "ref_only_commits": 0,
+      "merge_base": "c7874a932a3842b4a8eaee9dfa534c1f5291bdc5",
+      "relation": "ancestor"
+    },
+    {
+      "ref": "refs/remotes/origin/yolo/gdt002-visual-grammar-constraints",
+      "sha": "5ec581941859184f55a11abe6e28977de161f3a6",
+      "public_only_commits": 737,
+      "ref_only_commits": 0,
+      "merge_base": "5ec581941859184f55a11abe6e28977de161f3a6",
+      "relation": "ancestor"
+    }
+  ],
+  "named_ref_conclusion": "Every inventoried named local or remote ref is equal to or an ancestor of public main; zero named-ref-exclusive commits. This does not prove all historic claims remain valid.",
+  "worktrees": [
+    {
+      "role": "original research working tree",
+      "head": "4b71dc5c283cf57d21364cacb643ca9c49a9052e",
+      "branch": "refs/heads/yolo/gdt002-visual-grammar-constraints"
+    },
+    {
+      "role": "publication worktree",
+      "head": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "branch": "refs/heads/publication/20261009-research"
+    }
+  ],
+  "named_ref_deltas": [
+    {
+      "ref": "refs/heads/main",
+      "total_changed_paths": 49173,
+      "deleted_scientific_paths": 0,
+      "modified_report_or_decision_pointers": [
+        "M\texperiments/semantic_assumptions/results/col001_plain_colour_annotation_capacity_report.md"
+      ]
+    },
+    {
+      "ref": "refs/heads/yolo/gdt001-global-decipherment",
+      "total_changed_paths": 48777,
+      "deleted_scientific_paths": 0,
+      "modified_report_or_decision_pointers": [
+        "M\texperiments/semantic_assumptions/results/col001_plain_colour_annotation_capacity_report.md"
+      ]
+    },
+    {
+      "ref": "refs/heads/yolo/gdt002-visual-grammar-constraints",
+      "total_changed_paths": 4353,
+      "deleted_scientific_paths": 0,
+      "modified_report_or_decision_pointers": []
+    },
+    {
+      "ref": "refs/remotes/origin/yolo/gdt002-visual-grammar-constraints",
+      "total_changed_paths": 11393,
+      "deleted_scientific_paths": 0,
+      "modified_report_or_decision_pointers": [
+        "M\texperiments/semantic_assumptions/results/col001_plain_colour_annotation_capacity_report.md",
+        "M\texperiments/yolo/gdt957_f66r_complete_geomantic_margin/REPORT.md",
+        "M\tresearch_registry/decisions/workflow_review_20260914.md"
+      ]
+    }
+  ],
+  "reflog": {
+    "unique_commit_ids": 1166,
+    "nonancestor_commit_ids": 5,
+    "commits": [
+      {
+        "sha": "239da909ea9602d350cd4ee689ded3e5063a061e",
+        "subject": "Record FP partial layer-visibility hypothesis and incomplete review",
+        "added_paths": 17,
+        "added_paths_identical_at_public_tip": 15,
+        "different_added_paths": [
+          {
+            "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FP_CANDIDATE_TABLE.tsv",
+            "status": "changed_blob",
+            "historic_blob": "2a8340ddb396298fd7f551ddd6dd71159987cd44",
+            "public_blob": "7ee59750e31e0a0b17f0e43baac5915c971934ca"
+          },
+          {
+            "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/FP_VALIDATE_ACCOUNTING.py",
+            "status": "changed_blob",
+            "historic_blob": "c68fe5a10e2490081487c48cf61196b726111d33",
+            "public_blob": "e628b50d5f80105a37acf30d043123741e3373f3"
+          }
+        ],
+        "scope": "Only added paths compared here; changes to existing registry and status files require claim audit."
+      },
+      {
+        "sha": "ac0177aee872341db99b5ff3207750d40b0279ee",
+        "subject": "Record f81v shared-enclosure semantic capacity stop",
+        "added_paths": 3,
+        "added_paths_identical_at_public_tip": 3,
+        "different_added_paths": [],
+        "scope": "Only added paths compared here; changes to existing registry and status files require claim audit."
+      },
+      {
+        "sha": "b856081af5a7133a7b90b36d33fd5e61b4ff4d02",
+        "subject": "Compare W81 powder liquid readings against all fixed quality bindings",
+        "added_paths": 11,
+        "added_paths_identical_at_public_tip": 8,
+        "different_added_paths": [
+          {
+            "path": "research_registry/proposals/translation_programs_20260912/work/W81/HASHES.json",
+            "status": "changed_blob",
+            "historic_blob": "8feb79252ede7d452b96543511b6a2889c1f3861",
+            "public_blob": "0527f273fce3627ccd5ffa57c7cf3f1da9d80152"
+          },
+          {
+            "path": "research_registry/proposals/translation_programs_20260912/work/W81/SOURCE_HASHES.json",
+            "status": "changed_blob",
+            "historic_blob": "2cfa85e212b8670281265b7f52d94b8987d505d4",
+            "public_blob": "10582541360ee88b558e7f49280f4b8b1fe576d5"
+          },
+          {
+            "path": "research_registry/proposals/translation_programs_20260912/work/W81/run.py",
+            "status": "changed_blob",
+            "historic_blob": "885edabd86165de15e9e933a9346cb3c6a3dd5c9",
+            "public_blob": "8ca005e1fa81c81df2a98360b01ef7d4e6293bd6"
+          }
+        ],
+        "scope": "Only added paths compared here; changes to existing registry and status files require claim audit."
+      },
+      {
+        "sha": "cb29fc9d6592b51a9527a00123379b6ef042f4f5",
+        "subject": "Document GDT949 paired readings and the missing semantic discriminator",
+        "added_paths": 27,
+        "added_paths_identical_at_public_tip": 22,
+        "different_added_paths": [
+          {
+            "path": "experiments/yolo/gdt949_phrase_readings_observable_consequences/artifacts/READINGS.md",
+            "status": "changed_blob",
+            "historic_blob": "f327acbeee6efcada1b0faf7804f53afecd45be1",
+            "public_blob": "502ef6335b4d44751211d3db634f97c82351619c"
+          },
+          {
+            "path": "experiments/yolo/gdt949_phrase_readings_observable_consequences/artifacts/SOURCE_PACKET.md",
+            "status": "changed_blob",
+            "historic_blob": "e04c954542db7f8b8ca2e0aa7f1ce6dc8d9e7eec",
+            "public_blob": "ff7086f5919764cc08b9d28d83a4eed924d57738"
+          },
+          {
+            "path": "experiments/yolo/gdt949_phrase_readings_observable_consequences/experiment.json",
+            "status": "changed_blob",
+            "historic_blob": "6cc7d7ddc8f51f7c1cc17ccc15019dc249630e9f",
+            "public_blob": "b05930c9c9718896b6c918861481cede222a3643"
+          },
+          {
+            "path": "experiments/yolo/gdt949_phrase_readings_observable_consequences/src/extract.py",
+            "status": "changed_blob",
+            "historic_blob": "bc75434872e0a9a080e23b5f09468a248a3846d8",
+            "public_blob": "b07dbe2b93ac705ae203d4618c110d9304b8bab6"
+          },
+          {
+            "path": "experiments/yolo/gdt949_phrase_readings_observable_consequences/src/run.py",
+            "status": "changed_blob",
+            "historic_blob": "266aec2b0691e32c8ec5879cb6223f1cf6223d1f",
+            "public_blob": "2567193a1db0659ca8ed806322f6cce488f934d5"
+          }
+        ],
+        "scope": "Only added paths compared here; changes to existing registry and status files require claim audit."
+      },
+      {
+        "sha": "ed2d740e551a9d7d3affc5b03c3b5e3ad31d3e28",
+        "subject": "Record f69r wind polarity non-identifiability",
+        "added_paths": 13,
+        "added_paths_identical_at_public_tip": 13,
+        "different_added_paths": [],
+        "scope": "Only added paths compared here; changes to existing registry and status files require claim audit."
+      }
+    ],
+    "conclusion": "Five accessible reflog commits are outside current public ancestry. Every path they added exists at public tip; selected blobs differ and require semantic/provenance review, not automatic restoration."
+  },
+  "uncommitted_research_metadata": {
+    "changed_or_untracked_paths": 5263,
+    "status_counts": {
+      " M": 29,
+      "??": 5234
+    },
+    "paths_absent_public_tip": 914,
+    "report_decision_review_md_json_candidates_absent_public_tip": [],
+    "scope": "Filename metadata only. Absent public paths can be private caches, temporary artifacts or unpublished work; no admission or publication conclusion follows. Counts are a concurrent-working-tree snapshot and may change."
+  },
+  "reproduce_metadata_commands": [
+    "git for-each-ref --format=\"%(refname) %(objectname)\" refs/heads refs/remotes",
+    "git rev-list --left-right --count refs/remotes/origin/main...REF",
+    "git merge-base refs/remotes/origin/main REF",
+    "git reflog --all --format=%H",
+    "git merge-base --is-ancestor SHA refs/remotes/origin/main",
+    "git diff-tree --no-commit-id --diff-filter=A --name-only -r SHA",
+    "git rev-parse SHA:PATH",
+    "git diff --name-status REF refs/remotes/origin/main",
+    "git status --porcelain=v1 -z --untracked-files=all"
+  ],
+  "limits": [
+    "No fetch performed by this agent; remote-tracking state may be refreshed by root.",
+    "No sealed or restricted manuscript bodies read; raw text, TSV and image source contents not opened.",
+    "No unreachable-object scan beyond reflog: expired reflogs, deleted branches absent all reflogs, missing remote refs and absent objects are outside coverage.",
+    "No audit of every commit or every report claim: branch ancestry and blob existence are evidence coverage metadata, not correctness.",
+    "No private/unrelated paths or machine-specific worktree locations included.",
+    "No restoration, checkout, merge or registry change performed."
+  ],
+  "uncommitted_second_pass": {
+    "scope": "Metadata-only extension to catch legacy names and non-Markdown decision artifacts. No candidate file content read.",
+    "paths_absent_public_tip": 921,
+    "filename_heuristic_categories": {
+      "runtime_directory_artifacts_including_code": 365,
+      "cache_directory_payloads": 467,
+      "other_artifact_or_source_payload": 15,
+      "other_code": 1,
+      "image_or_document_payloads": 62,
+      "current_audit_outputs": 7,
+      "potential_scientific_primary_filename": 2,
+      "sealed_designation_not_inspected": 2
+    },
+    "preexisting_absent_paths_excluding_current_audit": 914,
+    "scientific_primary_candidates": [
+      "research_registry/proposals/production_origin_supply_20261003/GDT1245_CLAIM_PRIORITY_CORRECTION_20261006.json",
+      "research_registry/proposals/production_origin_supply_20261003/GDT1245_CLAIM_PRIORITY_REVIEW_20261006.json"
+    ],
+    "classification_caveat": "Directory and extension heuristics are not a content audit or privacy clearance. Runtime artifacts may contain analytical code; cache/source payloads may matter scientifically but are not independently assessed conclusions. Sealed-designated files remain excluded.",
+    "first_pass_correction": "The exact uppercase REPORT.md/DECISION.md/REVIEW.json search found no candidates; this did not establish absence of unpublished scientific decision files. Broader filename screening found two claim-priority JSONs."
+  },
+  "remote_ref_verification_reported_by_root": {
+    "source": "Root agent message; this agent did not independently contact remote.",
+    "method": "git ls-remote --heads",
+    "result": "All three live origin heads match the inventoried remote-tracking refs.",
+    "heads": {
+      "main": "e1942cea2b38f3d4b39dc4148643a96b312e64d5",
+      "yolo/gdt001-global-decipherment": "c7874a932a3842b4a8eaee9dfa534c1f5291bdc5",
+      "yolo/gdt002-visual-grammar-constraints": "5ec581941859184f55a11abe6e28977de161f3a6"
+    }
+  }
+}
