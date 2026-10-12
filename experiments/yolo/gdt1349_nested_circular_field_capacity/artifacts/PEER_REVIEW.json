@@ -1,0 +1,203 @@
+{
+  "status": "BOUNDED_PEER_REVIEW_NO_MATERIAL_MATHEMATICAL_OR_RUNNER_ERROR_FOUND",
+  "date": "2026-10-12",
+  "reviewer": "fresh_writer_proposals",
+  "coverage": "Read protocol, runner, both cut enumerators, original validator and exact correction diff; inspected result summaries and first/last saved merge witnesses per panel. No original image access, new native census or experiment rerun. This is a code/proof/scope review, not perceptual validation.",
+  "mathematical_review": [
+    "ABAB subsequence requires current classes to merge in every valid coarsening. The terminal closure is valid and finer than every valid partition, yielding exact maximum nested classes.",
+    "Circular single-interval partitions imply noncrossing. Thus every circular class is a union of closure atoms; complementary binary-cut enumeration is complete.",
+    "Primary cyclic-change test and separate cyclic-exit test are equivalent. Admissible cut sides plus full set are exactly candidate circular classes; disjoint exact cover yields maximum class count.",
+    "Source first-seen unique-type reduction changes witness order but not constraints. Frequency is retained for activity accounting.",
+    "Maximum multi-class word activity under finest partition bounds all valid coarsenings. Nesting counts and depth under finest are descriptive only, not analogous global upper bounds."
+  ],
+  "witness_spot_checks": [
+    {
+      "panel": "IT2a_FULL",
+      "id": "IT2a|f3r.5|G002",
+      "form": "chololy",
+      "positions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "observed_units": [
+        "o",
+        "l",
+        "o",
+        "l"
+      ],
+      "interpretation": "Direct two-class alternating witness; pair listing l/o may be opposite encounter order."
+    },
+    {
+      "panel": "ZL3b_FULL",
+      "id": "ZL3b|f111v.11|G010",
+      "form": "shedaitain",
+      "positions": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "observed_units": [
+        "sh",
+        "i",
+        "t",
+        "i"
+      ],
+      "interpretation": "The first and third literal units differ but belong to the already merged current core class; witness must use current classes, not require identical raw glyphs."
+    },
+    {
+      "panel": "IT2a_PHYSICAL_LEAVES_GE2",
+      "id": "IT2a|f80r.38|G007",
+      "form": "totol",
+      "positions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "observed_units": [
+        "t",
+        "o",
+        "t",
+        "o"
+      ],
+      "interpretation": "Recurrent panel final merger uses retained multi-leaf whole-form population; not a new independent image check."
+    },
+    {
+      "panel": "RF1b_PHYSICAL_LEAVES_GE2",
+      "id": "RF1b|f2r.11|G004",
+      "form": "dalor",
+      "positions": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "observed_units": [
+        "d",
+        "a",
+        "l",
+        "r"
+      ],
+      "interpretation": "Alternation is between two existing multi-unit blocks. Literal four distinct units can supply a valid current-class merger."
+    }
+  ],
+  "validator_correction": "The sole diff sorts the two saved/current class sets before equality. Primary records lexical pair order while an ABAB witness can begin with either member. Source identity, increasing positions, alternating membership, merge replay and terminal partition checks remain unchanged. Correct implementation repair, no scientific criterion change.",
+  "independent_validation_at_review": {
+    "necessary_merge_steps": 71,
+    "panels": {
+      "IT2a_FULL": {
+        "circular_max": 4,
+        "circular_upper_certificate": "independent_exact_cover_UNSAT_for_one_more_class",
+        "nested_max": 6,
+        "nested_proof": "PASS",
+        "valid_cuts": 13
+      },
+      "IT2a_PHYSICAL_LEAVES_GE2": {
+        "circular_max": 8,
+        "circular_upper_certificate": "independent_exact_cover_UNSAT_for_one_more_class",
+        "nested_max": 13,
+        "nested_proof": "PASS",
+        "valid_cuts": 303
+      },
+      "RF1b_FULL": {
+        "circular_max": 4,
+        "circular_upper_certificate": "independent_exact_cover_UNSAT_for_one_more_class",
+        "nested_max": 6,
+        "nested_proof": "PASS",
+        "valid_cuts": 17
+      },
+      "RF1b_PHYSICAL_LEAVES_GE2": {
+        "circular_max": 9,
+        "circular_upper_certificate": "independent_exact_cover_UNSAT_for_one_more_class",
+        "nested_max": 15,
+        "nested_proof": "PASS",
+        "valid_cuts": 439
+      },
+      "ZL3b_FULL": {
+        "circular_max": 4,
+        "circular_upper_certificate": "independent_exact_cover_UNSAT_for_one_more_class",
+        "nested_max": 7,
+        "nested_proof": "PASS",
+        "valid_cuts": 19
+      },
+      "ZL3b_PHYSICAL_LEAVES_GE2": {
+        "circular_max": 9,
+        "circular_upper_certificate": "independent_exact_cover_UNSAT_for_one_more_class",
+        "nested_max": 14,
+        "nested_proof": "PASS",
+        "valid_cuts": 431
+      }
+    },
+    "scope": "Exact conditional field capacities; no native alphabet, historical field values, phonetic classes or semantic confirmation.",
+    "source_free_word_fixtures": 1092,
+    "source_groups_reparsed": 61181,
+    "status": "PASS"
+  },
+  "panel_summary": {
+    "IT2a_FULL": {
+      "groups": 22528,
+      "nested_maximum": 6,
+      "circular_maximum_as_reported": 4,
+      "multi_class_group_upper_bound": 4432,
+      "binary_cut_mixed_group_maximum": 3893
+    },
+    "IT2a_PHYSICAL_LEAVES_GE2": {
+      "groups": 19687,
+      "nested_maximum": 13,
+      "circular_maximum_as_reported": 8,
+      "multi_class_group_upper_bound": 11165,
+      "binary_cut_mixed_group_maximum": 7295
+    },
+    "RF1b_FULL": {
+      "groups": 19321,
+      "nested_maximum": 6,
+      "circular_maximum_as_reported": 4,
+      "multi_class_group_upper_bound": 1050,
+      "binary_cut_mixed_group_maximum": 758
+    },
+    "RF1b_PHYSICAL_LEAVES_GE2": {
+      "groups": 16786,
+      "nested_maximum": 15,
+      "circular_maximum_as_reported": 9,
+      "multi_class_group_upper_bound": 12270,
+      "binary_cut_mixed_group_maximum": 8640
+    },
+    "ZL3b_FULL": {
+      "groups": 19332,
+      "nested_maximum": 7,
+      "circular_maximum_as_reported": 4,
+      "multi_class_group_upper_bound": 4367,
+      "binary_cut_mixed_group_maximum": 3915
+    },
+    "ZL3b_PHYSICAL_LEAVES_GE2": {
+      "groups": 16865,
+      "nested_maximum": 14,
+      "circular_maximum_as_reported": 9,
+      "multi_class_group_upper_bound": 11241,
+      "binary_cut_mixed_group_maximum": 9082
+    }
+  },
+  "scope_limits": [
+    "All exact claims inherit22working units and old strict whole-group conventions; not physical alphabet or historical field identification.",
+    "Full nested capacities6/6/7 and circular4 differ strongly from recurrent13/15/14 and8/9/9 respectively in IT/RF/ZL order. Full exclusions are not established robust to removing rare forms. Recurrent sensitivity is not a repair or license to discard errors.",
+    "Full partitions retain large16/17-unit core blocks and several singleton blocks. Compatibility need not explain productive distinctions inside the core; surviving rare signs are not recovered field names.",
+    "Distinct readers are alternatives of one manuscript; their agreement is not independent replication.",
+    "Finest depth2 is not a universal no-deeper-nesting theorem. ABC can become ABA under a valid coarsening, creating nesting absent from the finest representation.",
+    "Binary mixed-group maximum is not asserted to equal maximum mixed activity of an arbitrary multi-class circular partition.",
+    "No new source language, word meaning, phoneme or image confirmation."
+  ],
+  "hashes": {
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/PREREGISTRATION.md": "fde3028d8174038e2a24123aad20175442821c6bbf1ee44b83041ba99c59d95a",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/src/run.py": "be837324612ac456f89cb70d26b1f5fdc8e9d8e730b46972641adaa97dc18e37",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/src/cuts.cpp": "176d85961ddf8687a3c7604f02cad3dafc053fcc025c740d7b35357e7ecc03cb",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/src/verify_cuts.cpp": "1e2fec281ecb7613795d1759e75837e3bed38a5bd98b986e1793d8faea7d790b",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/src/validate.py": "dadf772f56d50f7dffcb861712785faaf1b071f49ef451606b9f78c97a74e39c",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/src/validate_corrected.py": "11ebbfa39a52aac8b952dd3bdfa688f969fd765470a33f6230b1fc4b6437e3ab",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/artifacts/RESULT.json": "e613cb05d20b649432c39972ffaf65614cab37077bd59b2771a2622bc37f7ef0",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/artifacts/VALIDATOR_CORRECTION.json": "87c861a0b62163c9598e84624979dc247263e27cd1b5d9004d1fc324972b6490",
+    "experiments/yolo/gdt1349_nested_circular_field_capacity/artifacts/VALIDATION.json": "4e3347376ded0d0f3595d5bf3d536a50a24330ed24592819c75123ec4c36e06e"
+  }
+}

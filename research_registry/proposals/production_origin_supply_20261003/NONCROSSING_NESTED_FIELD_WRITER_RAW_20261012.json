@@ -1,0 +1,33 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "title": "RAW: reversible nested field records with noncrossing sign-class occurrences",
+  "summary": "Fixed disjoint unit inventories identify reusable field classes. Within one record each class labels at most one node of an ordered forest; a node emits its literal payload with child forests inserted only between consecutive payload units. This allows parent returns but forbids alternating A B A B positions for distinct classes. A necessary forced-merge closure may determine exact maximum class capacity without source values.",
+  "design": {
+    "source": "An ordered forest of field nodes. Each node has a nonempty ordered payload string over its own class inventory. Each gap between consecutive payload units can contain an ordered child forest. No child before the first or after the last payload unit. Each class labels at most one node in a complete record. Node roles and payload values are stipulated source types, not Voynich translations.",
+    "encoder": "Recursively emit first payload unit, then for each gap its child forest followed by the next payload unit. Concatenate root encodings in source order; one complete emitted group represents one complete forest record. No invisible marker, source-word equivalence or phonetics claimed.",
+    "inverse": "Map each unit to its fixed class. For each used class collect all positions and its first/last interval. If there are no interleaved four positions A B A B with A!=B, class intervals form a laminar family: disjoint or strictly nested. Parent is the minimal containing interval; disjoint intervals are ordered siblings. Read payload units in their original order; assign each immediate child to its containing gap between consecutive parent occurrences. This reconstructs the stipulated source uniquely. Singleton nodes cannot have children.",
+    "shape_condition": "No i<j<k<l with class(w_i)=class(w_k)=A, class(w_j)=class(w_l)=B, A!=B. An exact occurrence-partition condition, not merely a first/last interval check: A B A B A has nested outer intervals but violates the four-position condition.",
+    "capacity_proof": "Start each active unit as a separate class. Whenever a retained whole group exhibits alternating positions of two current classes, merge them. Every valid final partition must merge those two current classes: their witnessed alternating positions persist under any coarsening that keeps them distinct. Iterate until no violation; the final partition satisfies the condition and is finer than every valid partition. Thus its class count is the exact maximum under this contract. Every merge needs source-bound positions if selected; no native census performed here.",
+    "coarsening_caution": "Arbitrary additional merging is not safe: A B C B is noncrossing, but merging A/C gives A B A B. The forced closure proves a finest valid partition; it does not make every coarser partition valid.",
+    "distinction_from_circular": "A B A C A is a legal parent-A record with children B and C, but class A occupies two cyclic blocks, so it fails1018 for three distinct classes. The nested architecture has no arbitrary cyclic cut.",
+    "known_constraints": "Existing olol requires o and l to share a class here, but does not alone reject the family. The old1214/1216 fixed grammar results are not imported as general nested-record exclusions. Existing word-boundary and22working-unit premises remain conditional.",
+    "smallest_test": "If root selects later, use an existing scope-fixed cache per reader. Replay necessary merges and verify final noncrossing condition, with source-free finite partition fixtures. Report class activity, not just surviving singleton classes. No source fitting or decoder.",
+    "limits": [
+      "Global disjoint field inventories and one node per class per record are strong assumptions; ordinary repeated-label trees and overlapping alphabets are outside.",
+      "Capacity does not establish tree semantics, native fields or linguistic units.",
+      "No language source or record content has been independently bound.",
+      "A one-class result leaves arbitrary payload information but eliminates multi-field representation under the fixed code."
+    ]
+  },
+  "prior_review": "Live composition,1018,1321/1263/1345 primaries/followups; bounded noncrossing/nested-field/stack searches, route-check and targeted primary search. No identical occurrence-partition writer located. IDEA69 is generic inside-out semantic evaluation, not this fixed reversible carrier. No exhaustive novelty guarantee.",
+  "primary_hashes": {
+    "experiments/yolo/gdt1321_nonreturning_word_blocks/REPORT.md": "99995e9e85b5fce7df0275e8e3f53bada274d9b14979a8669a78e362f07882e6",
+    "experiments/yolo/gdt1263_ordered_symbol_class_capacity/REPORT.md": "f328bb69a13fb2d0bd3ff657d9b2c3cc3b6d05a54f1dbff53015ad77deb5551a",
+    "experiments/yolo/gdt1345_class_sort_capacity/REPORT.md": "05e3fd11981455f8c268f45a0b51243f2f8848666c292d824705e1a94c103b3e",
+    "experiments/yolo/gdt1214_short_square_fixed_grammar/REPORT.md": "ce7a7a4d8407fba565a94403756faf44d50b49975dabf7d32730a6078ed15c33",
+    "experiments/yolo/gdt1216_iterated_head_nominal_argument/REPORT.md": "718f58a457d02c556113eb94249d611feedb77dc581f5de46bed49b9e7aec971",
+    "research_registry/proposals/production_origin_supply_20261003/CIRCULAR_FIELD_BLOCK_CAPACITY_RAW_20261012.json": "51c89ed5cc02b83177ebc321b36814a8a547a0c3105b81aba942d93f9ec88dd1"
+  },
+  "work_limits": "No native payload, new image, corpus, lexical or sound assignment, test execution or route/ledger edits."
+}

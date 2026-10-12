@@ -1,0 +1,57 @@
+{
+  "record_id": "IDEA001025",
+  "scope": "structural",
+  "verdict": "supported_limited",
+  "reviewer": "root with bounded mathematical peer and independent executable validation",
+  "assessment_basis": "Frozen GDT1233 strict groups; forced noncrossing merge closure, exhaustive circular cuts and independent exact-cover upper bounds.",
+  "reason": "Exact conditional capacities measured: FULL nested IT6/RF6/ZL7 and circular4 each; GE2 nested13/15/14 and circular8/9/9. This supports only capacity results, not historical writer identity. Both families retain nontrivial partitions.",
+  "blockers": [
+    {
+      "code": "units_boundaries_and_field_values_unbound",
+      "detail": "22 working units and whole groups assumed; large core unconstrained, no semantic field values. Rare-form sensitivity retained.",
+      "evidence": [
+        "experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independently justified unit/boundary change or a genuinely different fixed payload falsifier after predecessor review.",
+        "evidence": [
+          "experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Removing rare forms without evidence of error",
+      "Calling four possible classes four recovered meanings",
+      "Repeating the same closure or cut census"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1349",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "IDEA001018",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1321",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

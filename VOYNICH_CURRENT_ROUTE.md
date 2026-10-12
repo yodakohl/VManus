@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: graphic units.
-Latest decision: 1348template STOP.
-Working files: GDT1348.
-Assumptions: graphics are not letters.
-Resume: review IDEA1024.
+Task: field capacity.
+Latest decision: 1349circle4;1348STOP.
+Working files: GDT1349.
+Assumptions: fixed fields.
+Resume: screen payload rules.
 Running: none.
 
 ## Structural baseline
@@ -18,6 +18,7 @@ Spaces: hierarchy; parts build unseen forms. Composition is directed;
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet;1321blocksFAIL;1326gapFAIL;1327wheelFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
+1349nested6/6/7;circle4;rare-sensitive.
 1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
@@ -61,15 +62,15 @@ f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DAT
 [words](docs/VOYNICH_DATA_SCOPE_20261005_WORD_EXTREMES.md);
 [76v](docs/VOYNICH_DATA_SCOPE_20261007_F76V_SEAM_CORRECTION.md).
 ZL3b/IT2a/RF1b: alternate readings, one manuscript; keep raw entities/spaces.
-Mixed TSVs: selector-first `vmanus-exp query-tsv`; partial grants require
+Mixed TSVs: `vmanus-exp query-tsv`; partial grants require
 `--selector locus` and explicit `--allow`. 28Sep f68r2/f69r overreach: exposure only.
 New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
 No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
-`context topic Gesamtbild`; then relevant topic.
+`context topic Gesamtbild`; then topic.
 `context check`.
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicd43f84728.
+Public8eb25c8ab.

@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1349 measures nested and circular field capacity
+
+With the existing 22 working units and complete internal groups, fixed disjoint nested fields have exact maxima IT2a6/RF1b6/ZL3b7; circular single-interval fields have maximum4 in each. Both families survive below their limits. One forced core holds most signs; at most19.67%/5.43%/22.59% of FULL groups can use multiple classes. Recurrent two-leaf panels allow13/15/14 nested and8/9/9 circular classes: rare-form sensitivity is explicit, not a transcription repair. Independent closure/cut enumeration/exact-cover validation passes after a preserved order-only checker correction. No sounds, meanings or identified writer; old1321/1263/1345 decisions remain. [Report](experiments/yolo/gdt1349_nested_circular_field_capacity/REPORT.md).
+
 ## 2026-10-12 — GDT1348 native graphic comparison retains a template stop
 
 Threefixedembedded k/t-labeled drawings inoneoldf83rparagraph have locallycompatible lowbridge-like motifs. Theplannedcrossedtest remainsunscorable: oldsmallA-crops clipfreekupperconstruction andlackcompletefreet. FullerreferencevisibilityinplannedBviewisexploratoryonly, notaretroactivepass. OneinformedAIobserver;accounting/hashchronologyPASSdoesnotverifyperception. No linguisticunits,readingorder,sounds orwordmeaning;1320/1333expansionsand996oldgapjudgmentsremainconditional. [Report and exact source views](experiments/yolo/gdt1348_graphic_component_check/REPORT.md).

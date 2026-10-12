@@ -1,0 +1,8 @@
+{
+  "status": "VALIDATOR_PAIR_ORDER_CORRECTION",
+  "original_preserved": "src/validate.py",
+  "corrected": "src/validate_corrected.py",
+  "reason": "Primary stores the two merged classes in lexical root order; witness positions may encounter the other class first (BABA). Original validator incorrectly required encounter order. Compare the unordered pair; retain all source, positions, current-membership and closure checks. No scientific criterion or native result changed.",
+  "example": "First IT2a witness chololy encounters o then l, but certificate lists l then o.",
+  "corrected_sha256": "11ebbfa39a52aac8b952dd3bdfa688f969fd765470a33f6230b1fc4b6437e3ab"
+}
