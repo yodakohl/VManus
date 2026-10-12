@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: fixed_test
 Status: complete
-Task: class control.
-Latest decision: 1346orthographic FAIL.
-Working files: GDT1346.
-Assumptions: spelling,not phonemes.
-Resume: lookup GDT1346.
+Task: phoneme controls.
+Latest decision: 1347recovery+; originFAIL.
+Working files: GDT1347.
+Assumptions: known phone units only.
+Resume: lookup GDT1347.
 Running: none.
 
 ## Structural baseline
@@ -72,4 +72,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 Select: `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public9bc58a319.
+Publiced7149796.

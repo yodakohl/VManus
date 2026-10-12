@@ -1,0 +1,53 @@
+{
+  "record_id": "IDEA001023",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root fixed control suite with independent arithmetic and agent scope review",
+  "assessment_basis": "Pinned official39phone CMUinventory,8192TRAIN/8192TESTunique sequences; same masked learner and gate applied to two reversible procedural controls and shufflednull.",
+  "reason": "Known binary class assignments for all39phones fully recovered and applied correctly to57561TESTtokens; both nonphonetic procedural role systems also fully recovered and pass the structural gate. Shuffle fails. Retain class-recovery sensitivity but reject interpreting this gate as specific evidence of phonetic origin. No native application.",
+  "blockers": [
+    {
+      "code": "phonetic_origin_specificity_failure",
+      "detail": "Fixed and variable address/value records pass the same structural transfer gate without phonetic generation. More positive alternation is not a sound value.",
+      "evidence": [
+        "experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md",
+        "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/RESULT.json",
+        "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/VALIDATION.json"
+      ]
+    },
+    {
+      "code": "known_units_single_dictionary_control_only",
+      "detail": "OfficialmodernEnglish dictionarylabels andword/phoneboundaries supplied; no universalphonology, independent syllableboundarylabels ornativebinding.",
+      "evidence": [
+        "experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "Independently motivated distinguishing prediction retaining both negativecontrols and originalstops; no fitted extra feature after thisoutcome.",
+        "evidence": [
+          "experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Calling the two learned nativeclassesvowels/consonants",
+      "Discarding procedural positives or inventing a new threshold afterscores",
+      "Treating held nucleus counts as independent ofphone classification",
+      "Claiming globalmaximality from64localstarts"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1347",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md"
+      ]
+    }
+  ]
+}

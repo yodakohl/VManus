@@ -1,0 +1,69 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_ROOT_SELECTING_GDT1347",
+  "title": "RAW: independently labeled phoneme recovery versus reversible nonphonetic register-record controls",
+  "summary": "Calibrate one fixed opaque-symbol class learner against official pronunciation classes and two reversible register/value procedural sources, with within-record shuffle controls. Separate known-class recovery from alternation-based phonetic-origin claims; no native data or sound assignments.",
+  "positive": {
+    "status": "RAW_NOT_REGISTERED_ROOT_SELECTS",
+    "contract": "A pinned independently classified pronunciation dataset, such as the official dictionary root is considering, tests recovery of its independently labeled C/V segments after opaque relabeling. Existing ASJP can serve only if independent segment labels and capacity are adequate.",
+    "smallest_exact_question": "Does the unchanged signed-cut objective admit a one-phone flip improving on true supplied C/V? A witness excludes exact optimum identification without a full optimizer.",
+    "approximate_question": "Approximate class recovery needs an actual frozen estimator plus comparison to independent truth; a one-flip certificate cannot answer it. Report balanced type-class recovery and frequency-weighted recovery separately, with uncertainty or rare-class limitations.",
+    "leakage_rules": [
+      "Split by base lexeme, keeping alternative pronunciations together.",
+      "Predeclare canonical pronunciation or total per-lexeme weight1; do not multiply variants unnoticed.",
+      "Stress stripping only via official phone inventory; unknown symbols remain errors/unscorable, not guessed classes.",
+      "Fix orientation from training truth or explicitly use a complement-invariant score; do not choose orientation per held subset."
+    ],
+    "limits": "Modern dictionary pronunciation is not medieval source language, running speech or evidence of Voynich phonemes. No syllable boundaries inferred from dictionary phones alone."
+  },
+  "negative": {
+    "status": "RAW_NOT_REGISTERED_ROOT_SELECTS",
+    "purpose": "Measure specificity of the same structural positive criterion against actual nonphonetic content-bearing records, not merely shuffled characters.",
+    "control_A": {
+      "construction": "Three ordered SET(register,value) instructions serialize as R V R V R V using disjoint opaque inventories for register IDs and literal values. Exactly decode every instruction pair; overwrite order retained in message. Inventories and dataset choices fixed before outcomes.",
+      "analytic_prediction": "After removal of the two endpoints, V R V R has3 crossings and bag expectation2, so excess per edge1/3. Identities and repetitions do not alter role pattern.",
+      "scope": "This is a proof that alternation alone can be positive for nonphonetic instructions; not proof that the learned maximum uniquely identifies these roles on every finite sample."
+    },
+    "control_B": {
+      "construction": "Three ordered assignments; each address is a path of1or2 address symbols, each value a1or2-digit sequence from a disjoint value alphabet. Field lengths independently equiprobable, fixed before any score. Role changes delimit fields; global opaque bijection hides symbol names.",
+      "content": "Ordered path and value digit sequences decode exactly; no phonetics. Register paths and value integers are source-defined, not manuscript meanings.",
+      "sampling": "Root must freeze inventories, leading-zero convention or treat value as literal digit sequence, seed, train/test record counts and weighting before generation. Do not tune runs or select favorable seeds after a phoneme result.",
+      "purpose": "Avoid a negative suite containing only perfectly alternating records; evaluate the same test on a nonphonetic grammar with within-role runs."
+    },
+    "reporting": "A negative structural positive is a false positive only for an explicitly claimed phonetic-origin decision rule. High recovery of procedural roles is correct role recovery, not a phoneme mistake by itself. Never equate label recovery on known positive data with generic phonetic-origin discrimination."
+  },
+  "source_update": "Root selects a pinned official CMU pronunciation dictionary plus its independent phone-type metadata. ASJP remains an owned small-source alternative audited separately. No source acquisition by this producer.",
+  "selection_contract": {
+    "learner": "A fixed39-symbol multistart signed-maxcut learner, using the1264 mathematical objective. Root freezes starts, seed, tie-breaking, rounding and stopping before data scoring. This is a bounded optimizer, not a proof of global optimum.",
+    "positive_size": "Root proposes8192training and8192test unique phoneme sequences. Stress removed under official symbols. Keep base lexemes and identical phoneme sequences out of opposing sets; exact partition construction must be frozen before evaluation.",
+    "labels": "Official independent C/V classes remain hidden from training optimization. Complement orientation learned using TRAIN truth only, or fixed complement-invariant accuracy explicitly reported.",
+    "negative_sources": "Strict three-pair records and variable1/2-symbol field records, using disjoint opaque register/value inventories totaling39symbols. Each complete record preserves and decodes every instruction, not just terminal register state.",
+    "null": "Shuffle within each retained record with independently frozen seeds; preserve its symbol bag and length. This is a weak baseline in addition to, not instead of, the procedural negative controls.",
+    "endpoints": "Known class accuracy on positive controls and known role recovery on procedural controls are distinct from the same held alternation-effect criterion applied to both. Report all cases. A procedural role-recovery success is not by itself a false-positive phonetic classification; that term applies only to an explicit origin criterion.",
+    "independent_check": "Validate dictionary phone normalization, source splits, opaque maps, complete procedural inverse, same score objective, truth comparisons and test no-refit. Negative semantic roles are synthetic source definitions, never native meanings."
+  },
+  "identifiability_limit": "A whole-word lookup mechanism can produce identical strings and thus identical output statistics without sound computations. Controls can establish sensitivity/specificity against fixed mechanisms, never every possible nonphonetic writer.",
+  "predecessors": {
+    "GDT1346": "Orthographic benchmark nonoptimality is retained; new independently supplied phone classes address its explicit annotation limit, not repair native1264/1278.",
+    "Q20P001": "Owned ASJP audit and failed language-specific mapping are retained; no Q20 target reopened.",
+    "GDT1218": "Closed≤64 whole-word name alternation is distinct from these nonnative symbol-level control records.",
+    "GDT1264_1265_1278_1279_1285": "Structural positives, predictive failures and exact-identity gains retain their original scopes."
+  },
+  "checks": "Bounded live-route/control-topic, pronunciation/phoneme search, source audit, route/duplicate checks in PHONEME_CONTROL_SUPPLY_20261012.json; not an exhaustive novelty claim.",
+  "primary_hashes": {
+    "Q20P001_EXTERNAL_PHONOTACTIC_SOURCE_AUDIT.md": "ccadb60bd57e2e41b14f6d9176c9294384097ce56c74028596b18f7ddba744d3",
+    "Q20P001_PHONEME_MAPPING_REPORT.md": "f447dd7e710e0801656dc6fb6e4fa998ad9d1738a5a1c2088d76034175a6b875",
+    "Q20P001_PHONEME_MAPPING_METHOD.md": "a41562c35542e0c7faa093d2855185f3022a0adedd9a59f3eae9fa8d6fe1a605",
+    "q20p001_source_provenance.json": "031eaeeec25cdf2bd53fac5b8790526075e9f3a06d0e857447dea3cf8e392f01",
+    "q20p001_asjp_v21_core40.tsv": "5e983ffedefd5ddafef5f72bef67380493e0a8e820b5c44d11a7926ea605ee0d",
+    "q20p001_language_manifest.tsv": "0ebcb2c3e3a10ffcb3a720cbff558bf26db8a99ca998537a36447980971249bf",
+    "experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md": "a619fe6fe6ee95c725800ae4f8cda51e3602798a3ef5c9fed859f640cef49217",
+    "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md": "c1239ca14ec06159d07c68ab67cb4aeb84549099a4cfe35fcdaa3d2f3ee94ffb"
+  },
+  "work_limits": [
+    "No native input, phoneme assignments to Voynich, meaning or decoder.",
+    "No source-score calculation by producer.",
+    "Modern dictionary results do not identify manuscript language or medieval pronunciation.",
+    "Root must preregister actual selection, gates and implementation budget before evaluation."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-12",
+  "reviewer": "fresh_writer_proposals",
+  "status": "BOUNDED_READ_ONLY_PEER_REVIEW_NO_MATERIAL_ERROR_FOUND",
+  "coverage": "Prospective preregistration review followed by postresult runner/validator and compact RESULT/VALIDATION review. No experiment rerun, new source acquisition or native access. REPORT was not yet available for this review.",
+  "findings": [
+    "Independent official labels do not enter cut_weights or optimize. Training uses numeric sequences and their counts; truth enters only post-fit orientation and evaluation. Root has access to truth, so this is programmatic masking, not human blinding.",
+    "One unstressed sequence per retained base plus global phoneme-sequence dedup and hash split prevents both variant and homophone cross-split leakage. Equal sequence weighting is not running-speech frequency.",
+    "Objective and ties-even pair quantization match1264 mathematical signed cut. Fixed64start bounded heuristic yields candidate local optima; equality with gold score does not prove global optimality.",
+    "Both procedural generators use disjoint39symbol role inventories; variable-width fields preserve literal digits including leading zeros. Grouping contiguous roles reconstructs every source field; this is a content-bearing negative, not merely shuffled noise.",
+    "CMU and both procedural sources pass class recovery and transfer, while shuffle fails both. Therefore sensitivity to independent phone classes is demonstrated here, but the structural transfer criterion lacks specificity against the two registered procedural sources.",
+    "100percent held nucleus-count accuracy is a consequence of perfect phone classification, not an independent syllable boundary or semantic discovery.",
+    "Unknown-training symbols count as errors in token and full-record counts; orientation ties retain original labeling. Optimizer-limit flags are checked without demanding local optimality of capped runs."
+  ],
+  "checked_results": {
+    "CMU": {
+      "active_classes_correct": "39/39 up to training-fixed orientation",
+      "held_tokens_correct": "57561/57561",
+      "held_counts_correct": "8192/8192",
+      "mean_excess": 0.19361746624382722,
+      "positive_blocks": 32
+    },
+    "PROCEDURAL_STRICT": {
+      "held_tokens_correct": "49152/49152",
+      "held_counts_correct": "8192/8192",
+      "mean_excess": 0.3333333333333333,
+      "positive_blocks": 32
+    },
+    "PROCEDURAL_VARIABLE": {
+      "held_tokens_correct": "73695/73695",
+      "held_counts_correct": "8192/8192",
+      "mean_excess": 0.10179197086850963,
+      "positive_blocks": 32
+    },
+    "SHUFFLED": {
+      "balanced_type_accuracy": 0.55,
+      "held_tokens_correct": "29115/57561",
+      "held_counts_correct": "1119/8192",
+      "mean_excess": 0.0008825204930355753,
+      "positive_blocks": 16
+    }
+  },
+  "validator_scope_cautions": [
+    "Independent validator reconstructs source selection and checks generated procedural inverse/uniqueness, but does not replay procedural random-seed generation.",
+    "It checks64final scores and allowed one-vertex local optima per corpus, but does not independently replay the64seeded starts and coordinate trajectories.",
+    "These limitations do not contradict its stated final-state validation scope. Do not describe it as full independent generator/optimizer execution."
+  ],
+  "claim_ceiling": [
+    "A modern English pronunciation control, not a medieval sound witness.",
+    "Positive sensitivity does not identify native vowels, a source language, phoneme boundaries or any word meaning.",
+    "Procedural false positive is relative to interpreting the registered structural gate as phonetic origin, not an error in recovering procedural roles.",
+    "No inference that all phonetic classifiers must fail; no global specificity guarantee possible against arbitrary observationally equivalent writers."
+  ],
+  "hashes": {
+    "experiments/yolo/gdt1347_phoneme_role_calibration/PREREGISTRATION.md": "90863c84e849b5233e6099766e39a94adf75458ac3b114309450059e6b6f044b",
+    "experiments/yolo/gdt1347_phoneme_role_calibration/src/run.py": "60140adc1eedf92deffa4e88c7ac790c2201f3063271cdfca9e9bed88e0ea46c",
+    "experiments/yolo/gdt1347_phoneme_role_calibration/src/validate.py": "985375a5766729a4d78ef2357ac1d4a90646733c203c3f755e6e8d7e56b437ea",
+    "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/RESULT.json": "c5b6cbc86293f2529ec590b7063053d8ba1513adc7b46210b2676fa5919da5af",
+    "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/VALIDATION.json": "bf9e598204b897d18f2fdebed57f9a43e07b64d7653a0bea8dbc608eba54a6e2"
+  }
+}

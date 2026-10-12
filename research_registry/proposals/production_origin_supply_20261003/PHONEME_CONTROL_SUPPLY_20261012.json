@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-12",
+  "status": "BOUNDED_PRODUCER_SOURCE_AUDIT_AND_RAW_CONTROL_CONTRASTS_NO_EXECUTION",
+  "owned_source": {
+    "name": "ASJP v21 CLDF/CLTS external Q20P001 comparator",
+    "paths": [
+      "Q20P001_EXTERNAL_PHONOTACTIC_SOURCE_AUDIT.md",
+      "Q20P001_PHONEME_MAPPING_REPORT.md",
+      "Q20P001_PHONEME_MAPPING_METHOD.md",
+      "q20p001_source_provenance.json",
+      "q20p001_asjp_v21_core40.tsv",
+      "q20p001_language_manifest.tsv"
+    ],
+    "pinned_upstream_commit": "012795349540ba0dabfdcf2be16f2e77622f62d6",
+    "capacity": "Twelve source lists,39–40 isolated basic-vocabulary forms each; reported18–35 token inventories. These are report metadata, not a new census.",
+    "limits": [
+      "Modern/special-purpose basic vocabulary, not representative running text or medieval pronunciation.",
+      "No independently supplied binary segment classification was identified in the bounded audit; use source/CLTS feature metadata, not improvised IPA classifications.",
+      "Original Q20P001 native fit failed Kartvelian specificity. No native Q20 payload or target data was reopened.",
+      "Existing corpus is owned and pinned; a claim that no pronunciation data exist would be false."
+    ]
+  },
+  "proposed_positive_contrast": {
+    "status": "RAW_NOT_REGISTERED_ROOT_SELECTS",
+    "contract": "A pinned independently classified pronunciation dataset, such as the official dictionary root is considering, tests recovery of its independently labeled C/V segments after opaque relabeling. Existing ASJP can serve only if independent segment labels and capacity are adequate.",
+    "smallest_exact_question": "Does the unchanged signed-cut objective admit a one-phone flip improving on true supplied C/V? A witness excludes exact optimum identification without a full optimizer.",
+    "approximate_question": "Approximate class recovery needs an actual frozen estimator plus comparison to independent truth; a one-flip certificate cannot answer it. Report balanced type-class recovery and frequency-weighted recovery separately, with uncertainty or rare-class limitations.",
+    "leakage_rules": [
+      "Split by base lexeme, keeping alternative pronunciations together.",
+      "Predeclare canonical pronunciation or total per-lexeme weight1; do not multiply variants unnoticed.",
+      "Stress stripping only via official phone inventory; unknown symbols remain errors/unscorable, not guessed classes.",
+      "Fix orientation from training truth or explicitly use a complement-invariant score; do not choose orientation per held subset."
+    ],
+    "limits": "Modern dictionary pronunciation is not medieval source language, running speech or evidence of Voynich phonemes. No syllable boundaries inferred from dictionary phones alone."
+  },
+  "proposed_negative_contrast": {
+    "status": "RAW_NOT_REGISTERED_ROOT_SELECTS",
+    "purpose": "Measure specificity of the same structural positive criterion against actual nonphonetic content-bearing records, not merely shuffled characters.",
+    "control_A": {
+      "construction": "Three ordered SET(register,value) instructions serialize as R V R V R V using disjoint opaque inventories for register IDs and literal values. Exactly decode every instruction pair; overwrite order retained in message. Inventories and dataset choices fixed before outcomes.",
+      "analytic_prediction": "After removal of the two endpoints, V R V R has3 crossings and bag expectation2, so excess per edge1/3. Identities and repetitions do not alter role pattern.",
+      "scope": "This is a proof that alternation alone can be positive for nonphonetic instructions; not proof that the learned maximum uniquely identifies these roles on every finite sample."
+    },
+    "control_B": {
+      "construction": "Three ordered assignments; each address is a path of1or2 address symbols, each value a1or2-digit sequence from a disjoint value alphabet. Field lengths independently equiprobable, fixed before any score. Role changes delimit fields; global opaque bijection hides symbol names.",
+      "content": "Ordered path and value digit sequences decode exactly; no phonetics. Register paths and value integers are source-defined, not manuscript meanings.",
+      "sampling": "Root must freeze inventories, leading-zero convention or treat value as literal digit sequence, seed, train/test record counts and weighting before generation. Do not tune runs or select favorable seeds after a phoneme result.",
+      "purpose": "Avoid a negative suite containing only perfectly alternating records; evaluate the same test on a nonphonetic grammar with within-role runs."
+    },
+    "reporting": "A negative structural positive is a false positive only for an explicitly claimed phonetic-origin decision rule. High recovery of procedural roles is correct role recovery, not a phoneme mistake by itself. Never equate label recovery on known positive data with generic phonetic-origin discrimination."
+  },
+  "identifiability_limit": "A whole-word lookup mechanism can produce identical strings and thus identical output statistics without sound computations. Controls can establish sensitivity/specificity against fixed mechanisms, never every possible nonphonetic writer.",
+  "prior_checks": "Read live route/controls topic,1346 primary, owned Q20P001 audit/method/report, bounded pronunciation/phoneme searches and file inventory, route/duplicate screen;1218 primary/followups inspected.1218 concerns≤64 whole-word alternating name forms; these are nonnative procedural symbol controls, not a reopening. No exhaustive novelty claim.",
+  "work_limits": [
+    "No new web source acquired.",
+    "No native data, mixed TSV payload, new source counts, sound/word assignments or decoder.",
+    "Root owns experiment selection, source acquisition and final registration.",
+    "One ideas add performed in root-authorized exclusive mutation window; no ledger/route/index/curation edits."
+  ],
+  "hashes": {
+    "Q20P001_EXTERNAL_PHONOTACTIC_SOURCE_AUDIT.md": "ccadb60bd57e2e41b14f6d9176c9294384097ce56c74028596b18f7ddba744d3",
+    "Q20P001_PHONEME_MAPPING_REPORT.md": "f447dd7e710e0801656dc6fb6e4fa998ad9d1738a5a1c2088d76034175a6b875",
+    "Q20P001_PHONEME_MAPPING_METHOD.md": "a41562c35542e0c7faa093d2855185f3022a0adedd9a59f3eae9fa8d6fe1a605",
+    "q20p001_source_provenance.json": "031eaeeec25cdf2bd53fac5b8790526075e9f3a06d0e857447dea3cf8e392f01",
+    "q20p001_asjp_v21_core40.tsv": "5e983ffedefd5ddafef5f72bef67380493e0a8e820b5c44d11a7926ea605ee0d",
+    "q20p001_language_manifest.tsv": "0ebcb2c3e3a10ffcb3a720cbff558bf26db8a99ca998537a36447980971249bf",
+    "experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md": "a619fe6fe6ee95c725800ae4f8cda51e3602798a3ef5c9fed859f640cef49217",
+    "experiments/yolo/gdt1218_alternating_small_class_capacity/REPORT.md": "c1239ca14ec06159d07c68ab67cb4aeb84549099a4cfe35fcdaa3d2f3ee94ffb"
+  },
+  "registration_update": {
+    "id": "IDEA001023",
+    "path": "research_registry/proposals/production_origin_supply_20261003/PHONEME_PROCEDURAL_CLASS_CALIBRATION_RAW_20261012.json",
+    "sha256": "855466d186c2c898ef27462548d297f82225626ed3a13af81d85e68752cd28f6",
+    "status": "UNTESTED_PROPOSAL; root selects GDT1347",
+    "source": "Root chooses independently labeled official CMU dictionary; owned ASJP audit retained."
+  }
+}

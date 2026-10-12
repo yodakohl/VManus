@@ -1,0 +1,150 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Compressed complete source/control packets and per-record scores retained for deterministic reproduction; dictionary redistribution follows retained upstreamlicense. No native or private data.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One contemporary pronunciation dictionary and fixed procedural controls only; class recovery is not phonetic-origin identification, syllable segmentation or Voynich sound binding.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1347_phoneme_role_calibration/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1347_phoneme_role_calibration/src/validate.py"
+  },
+  "created": "2026-10-12",
+  "dependencies": [
+    "GDT1264",
+    "GDT1346"
+  ],
+  "experiment_id": "GDT1347",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/source/LICENSE",
+      "role": "pinned official pronunciation source or fixedmethod/proposal",
+      "sha256": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/source/README",
+      "role": "pinned official pronunciation source or fixedmethod/proposal",
+      "sha256": "00c34e7564f1f6a68de02e12c123d801471da92bc3091f7d89b605f238bf8554"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/source/cmudict.dict",
+      "role": "pinned official pronunciation source or fixedmethod/proposal",
+      "sha256": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/source/cmudict.phones",
+      "role": "pinned official pronunciation source or fixedmethod/proposal",
+      "sha256": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PHONEME_PROCEDURAL_CLASS_CALIBRATION_RAW_20261012.json",
+      "role": "pinned official pronunciation source or fixedmethod/proposal",
+      "sha256": "855466d186c2c898ef27462548d297f82225626ed3a13af81d85e68752cd28f6"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/src/run.py",
+      "role": "pinned official pronunciation source or fixedmethod/proposal",
+      "sha256": "7f1b6accaff8dabd6528b86b74e8523db103ac2caf779ddbbcf04612dbad31f3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "90863c84e849b5233e6099766e39a94adf75458ac3b114309450059e6b6f044b"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "90863c84e849b5233e6099766e39a94adf75458ac3b114309450059e6b6f044b"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "b1b79e0ac63539853ca039c15d18ffcc66da7bb5d19634f2573a24672a51d7fa"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md",
+      "role": "primary_report",
+      "sha256": "c058160ad28455230e1f5e32f0364d4e2cfac84cfe10898d7bb2586b2cba202c"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/PACKET.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "5cd3b28143b80d08781eed830751add135bb4893ae5825ecbe01523af8e4b7d8"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/PEER_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "27b3c6b7c8a98e1c35b81cddc2756a6f620c79d3163b34193a700e421ab7ef39"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/PROSPECTIVE_PEER_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "4cbcf0d93691d3c0ba7ad1364bcb538ca88af44752b57c0cee99569d7947374a"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "c5b6cbc86293f2529ec590b7063053d8ba1513adc7b46210b2676fa5919da5af"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/SOURCE_ACCOUNT.json",
+      "role": "reproducibility artifact",
+      "sha256": "2c1771973821293c45fcdff3c17b0a3bc0506875bcd3f7afba52f59d75e1f070"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/SOURCE_PROVENANCE.json",
+      "role": "reproducibility artifact",
+      "sha256": "aeac6c7bd653596ad927d73ee0df9c2db4e96f59a73fb0822fae61347bb259f7"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/TEST_EVENTS.json.gz",
+      "role": "reproducibility artifact",
+      "sha256": "be974c5e2068443b3d4fb4bc8244b69c1342c84489792bd237e23777f61a5df1"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "bf9e598204b897d18f2fdebed57f9a43e07b64d7653a0bea8dbc608eba54a6e2"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/WORK_CHECKPOINT.json",
+      "role": "reproducibility artifact",
+      "sha256": "6e620b84a4f10e872dbbd94f2e2beac0aa61163f0092d2e4df7528a5e60d0009"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "624421bf7fbf18c51cc134bbc3d2863ee54a0db223db50769a76f18348efa62a"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "60140adc1eedf92deffa4e88c7ac790c2201f3063271cdfca9e9bed88e0ea46c"
+    },
+    {
+      "path": "experiments/yolo/gdt1347_phoneme_role_calibration/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "985375a5766729a4d78ef2357ac1d4a90646733c203c3f755e6e8d7e56b437ea"
+    }
+  ],
+  "question": "Can a fixed opaque binary learner recover official phone classes and distinguish their structural transfer from two reversible nonphonetic controls?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "phoneme_role_calibration",
+  "status": "PHONE_CLASS_RECOVERY_PASS__ORIGIN_SPECIFICITY_FAIL",
+  "title": "Known phoneme classes recovered but procedural origin not distinguished",
+  "updated": "2026-10-12",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1347_phoneme_role_calibration/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

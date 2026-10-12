@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1345**
-- Experiment-associated tracked files: **26,390** (2.4 GiB)
-- Structured GDT337+ experiments: **1010**
+- Experiments indexed: **1346**
+- Experiment-associated tracked files: **26,412** (2.4 GiB)
+- Structured GDT337+ experiments: **1011**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1347 | gdt1347_phoneme_role_calibration | `PHONE_RECOVERY_PASS_ORIGIN_SPECIFICITY_FAIL` | [report](../experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md) | 22 | 9.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT1346 | gdt1346_orthographic_class_calibration | `CONTROL_EXACT_RECOVERY_COUNTEREXAMPLES` | [report](../experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md) | 16 | 566.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT1345 | gdt1345_class_sort_capacity | `FIXED_SORT_CLASS_ENVELOPE` | [report](../experiments/yolo/gdt1345_class_sort_capacity/REPORT.md) | 14 | 1.3 MiB | 6 | STRUCTURED_YOLO |
 | GDT1344 | GDT1344_two_class_sort_triangle | `TWO_CLASS_SORT_CONTRADICTED_ALL_READINGS` | [report](../experiments/yolo/gdt1344_two_class_sort_triangle/REPORT.md) | 15 | 93.7 KiB | 7 | STRUCTURED_YOLO |

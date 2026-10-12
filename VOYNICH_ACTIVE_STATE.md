@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1347 recovers phoneme classes but fails origin specificity
+
+Pinned officialCMUdict phone labels provide a positive control: all39binary phone assignments and57561heldtokens correct from masked phone sequences. Both fixed/variable reversible address-value sources also yield100%role recovery andpass the same alternationtransfergate; shuffledwordbags fail. Keep sensitiveclass detection separate fromphoneticorigin. Counts ofvowel nuclei followclass recovery anddo not identify syllableboundaries. No native test/meaning follows;1346spellingfailure andoldQ20P001failure remain. Sourceacquisition onlyfromofficialCMUdict;no publicVoynichapproachsearch. [Report](experiments/yolo/gdt1347_phoneme_role_calibration/REPORT.md).
+
 ## 2026-10-12 — GDT1346 source control blocks a direct vowel-class reading
 
 The unchanged1264alternation objective prefers single-letter modifications over both predefined AEIOU/AEIOUYspelling partitions in all four old sourcebooks. Addingc orh improves everycase;192flips independently verified by per-word arithmetic. This is exact orthographic recovery failure, not a phonetic-language exclusion or newnative evidence. The old fixed1264classes also conflict with fullywritten-nucleus interpretations in both orientations through existing a/d/o/r/s/ysingletons; no newcensus. Keep1264/65structure,1278nonconfirmation and1279exactidentityincrement. No native vowels, source language or meaning chosen; noautomaticrepair. [Report](experiments/yolo/gdt1346_orthographic_class_calibration/REPORT.md).
