@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: writer selection.
-Latest decision: 1359sourceFAIL.
-Working files: GDT1359.
-Assumptions: profiles.
-Resume: select next writer.
+Task: content groups.
+Latest decision: 1360wordFAIL.
+Working files: GDT1360.
+Assumptions: word/group;one doc.
+Resume: group/word binding.
 Running: none.
 
 ## Structural baseline
@@ -74,4 +74,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publiceb562f6f6.
+Publicc64a3be73.

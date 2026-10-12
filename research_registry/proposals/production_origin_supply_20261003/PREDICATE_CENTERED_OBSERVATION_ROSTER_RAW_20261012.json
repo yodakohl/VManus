@@ -1,0 +1,61 @@
+{
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_SEMANTIC_GROUP_WRITER_COMPLETE_NATIVE_CARRIER_UNBOUND",
+  "work_limits": "No native word or sign value, source language, corpus fitting, native data/image or test. Hand examples demonstrate specified content distribution only, not manuscript progress.",
+  "notation_cost": "Logical groups are visible typed records with explicit argument fields, exact quoted identifiers and canonical rational/integer notation. Constructor tags, field boundaries, literal names and numerical lengths are paid requirements, not invisible supplied native cues. No actual22sign carrier, compression ratio or historical plausibility is claimed.",
+  "source_literals": "Identifiers are nonempty exact Unicode scalar strings with JSON quoting. No spelling normalization or guessed synonymy. Rational quantities are reduced nonnegative p/d, d>0; units exact quoted identifiers. Literal keywords remain quoted data, not syntax.",
+  "primary_hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/DISTRIBUTIVE_OBSERVATION_PROFILES_RAW_20261011.json": "2326026b5ba60582012c61e61be0c43dcd7636520043d275e830d5d5c6bd25d5",
+    "research_registry/proposals/production_origin_supply_20261003/OBSERVATION_TRAIL_TOPIC_WRITER_RAW_20261011.json": "0d40ce5640844536934f7d24671d2929835975d5e7054e22d07d5eae6185def4",
+    "experiments/yolo/gdt1210_two_group_content_frequency/REPORT.md": "1012b1e96f95858b2ed6cdc09998092f03129650f6a789df3ed53f52410015e8",
+    "experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md": "8b0dde4d16ca69b142cac02b5568df4895af917842f3c780935af6b193573ee1"
+  },
+  "review": "Live route/workflow, IDEA1002/1003source domains and writer/reader contracts,1210/1257primary limits and followups; bounded predicate-roster and phase-duration searches/duplicates. No identical complete contract found; no exhaustive novelty or first-ever notation claim.",
+  "title": "RAW: predicate-centered signed rosters distribute one explicit fact pattern over named subjects",
+  "summary": "Transpose the declared1002observation register into predicate/argument rosters. A HEADgroup carries predicate,polarity and non-subject arguments; MEMBERgroups carry exact subject and observation multiplicity. A separate declared-domain list preserves empty subjects. Reader carries one currenthead; no trail subject transfer or grouping by identicalcompleteprofiles.",
+  "domain": {
+    "meaning_object": "Exactly1002frame map c→(D_c,F_c): finite declared subjectset and multiset of signed DRY,INTACT,MASS(q,unit),LINK(target) ground observations. Emptyframes, empty-profile subjects, opposedpolarity claims and multiplicity retained. Original prose/temporalorder is outside this multiset domain.",
+    "head_key": "Remove only subject fromeach atom; retain predicate, sign and everyremainingargument. LINKtarget always exactNAME(y), including source selflinks; no SELFnormalization or rebindable name. A and B linking toA mayshareoneHEAD(LINK,+,NAME(A)).",
+    "polarity": "Negative asserts negationofthat exact observation, not missinginformation; contraryclaims coexist withoutcancellation."
+  },
+  "writer": [
+    "Sort contextIDs byUTF8bytes and emitFRAME(context) for each, includingemptyframes.",
+    "EmitSUBJECT(name) for EVERY declaredsubject in sortedname order before anyHEAD. This pays zero-observation subjects and distinguishes externalLINKtargets fromobserved subjects.",
+    "Groupall observationoccurrences by exactheadkey. Sortkeys by predicate DRY/INTACT/MASS/LINK, sign minus/plus, thencanonical argument serialization. EmitoneHEAD(key) pernonemptyroster.",
+    "For eachhead emitMEMBER(subject,multiplicity) in sortedsubjectorder, countpositive. Same subjectmayappear underseveralheads; oneMEMBERpersubject/head.",
+    "A nextFRAME or endofdocument closes thecurrentframe; no hidden line-reset or obligatoryfive-control-window rule is introduced. Logicaltypedrecord boundaries remainexplicit."
+  ],
+  "reader": [
+    "FRAMEsets currentcontext and empties the declaredsubject list. SUBJECTadds an exactdeclaredsubject; require no duplicates and no lateSUBJECTafterHEAD.",
+    "HEADsets the only carried observationtemplate. MEMBER(x,k) emitsk copies ofthat signedgroundatomwithsubjectx. Requirexdeclared,positivek andnonemptyHEADroster.",
+    "LINKtargets are literalnames: they neitherchange currenthead norimplicitlydeclare subjects. Selflinkidentity is preserved whenmembername equalstarget.",
+    "At nextFRAME/EOF reconstructD,F exactly and verifycanonicalordering/grouping; rejectduplicateHEADs or repeatedMEMBERcells. EmptyFRAMEanddeclaredempty subjects survive."
+  ],
+  "state_cost": "Reader needs currentcontext and currenthead plus normal parser phase; literalheadargumentsmay be long and theirstorage ispaid. Declaredsubject/outputregister grows withinput andis not freefinite-state memory. Writer sorting needs the suppliedfinite observationtable.",
+  "groups_carry": {
+    "FRAME": "Only exactcontext scope.",
+    "SUBJECT": "Declaredobject identity, evenwithnoobservations.",
+    "HEAD": "Sharedpredicate,polarity,quantity/unit or target identity.",
+    "MEMBER": "Whichdeclaredsubject and howmany copies ofthe currentfact. No propertywholewordvalue assigned."
+  },
+  "example": {
+    "source": "D={A,B,C}; +DRY(A),+DRY(B),-INTACT(B)twice,+LINK(A,A),+LINK(B,A). C hasno observations.",
+    "groups": [
+      "FRAME(\"inspection\")",
+      "SUBJECT(\"A\")",
+      "SUBJECT(\"B\")",
+      "SUBJECT(\"C\")",
+      "HEAD(DRY,+)",
+      "MEMBER(\"A\",1)",
+      "MEMBER(\"B\",1)",
+      "HEAD(INTACT,-)",
+      "MEMBER(\"B\",2)",
+      "HEAD(LINK,+,NAME(\"A\"))",
+      "MEMBER(\"A\",1)",
+      "MEMBER(\"B\",1)"
+    ],
+    "note": "The last roster preserves both a selflinkA→A and an external-subject linkB→A without changing the shared literal target. C remains declaredempty."
+  },
+  "distinction_and_test": "1002shares completeprofiles andnames eachsubject inexactlyoneprofileblock; here one subject mayrecur under manydifferentheads andpartialprofileoverlap isshared.1003follows relationtargets asnextsubjects; here aLINKtarget never changes membershipscope. Once source/head/memberbindingexists, a single HEAD with mixednon-subjectarguments or repeatedsamecontext/headblock violatescanonicalwriter. No currentnativebinding or experiment selected.",
+  "retained_stops": "1210fixed two-tuple source frequency failure and1257finite mandatorycontrol window exclusion remain. This doesnot testtheir oldsourceagain orclaim newphysicalcarrier evadesallconstraints; framing/nativeformcost unbound."
+}

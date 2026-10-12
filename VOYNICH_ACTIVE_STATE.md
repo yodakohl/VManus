@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1360 separates typed-record realizations using an old repeat
+
+Canonical1038hasnoadjacentequaltypedgroups;oneword/groupwithglobalworddecodingthereforecannotemitoldqokeedy-doubletswithinONEcanonicaldocument. Documentidentityisassumed,notprovedbyspaces. Disjointoptionalspellingsdonothelp; invisibleDOCresets/contextualhomographsoutside.1039equalphasegroupsarecompatiblewithXX,butnotnativeZeitevidence. Threeoldreaderrecords/twophysicalsitesreplayedPASS;nonewrepeatcensusorwordmeaning.1038/1039remaininconclusivewithoutphysical/contentbindings. [Report](experiments/yolo/gdt1360_typed_roster_repeat_obstruction/REPORT.md).
+
 ## 2026-10-12 — GDT1359 terminal-run variants remain below the old source screen
 
 The enlarged run-dependent free-label family permitsmorethan2formswhereendrunsallowthem,butone-characterwordsremainfixed. Fourprofiles yieldmax1747/1868/1675/1742types andminTop101724/1612/1730/1867;all24old1174/1202directionsfail. No nativecensus ornewlanguageconclusion.1035exactsetreaderisvalid;>=2^Bpreimagesisconditionalcardinality,notentropy. Unknownsourcecase remainsinconclusive;old1240literalobstructionretained. Route1224notationclarifiedas16–21groups,notpercentage;originalroutehadno%. [Report](experiments/yolo/gdt1359_terminal_run_variant_capacity/REPORT.md).
