@@ -4,11 +4,11 @@ Updated: 2026-10-12.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: code.
-Latest decision: 399no test.
-Working files: 1353/54.
-Assumptions: freeUD≠sounds.
-Resume: new writer/falsifier.
+Task: 1041source.
+Latest decision: 1361capacity.
+Working files: GDT1361.
+Assumptions: NT→TT;wholeword.
+Resume: source binding.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public4fde590d9.
+Publicb437daa0c.

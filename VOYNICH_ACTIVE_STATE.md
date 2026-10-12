@@ -1,3 +1,7 @@
+## 2026-10-12 — GDT1361 contextual neutralization retains limited pair capacity
+
+The complete ambiguous1041writer simultaneously maps originalNT→TT. Its exact output condition permitsNTonlybeforeanotherT. Of462orderedpairs,45/48/46IT/RF/ZLsurviveallstrictgroupsandhaveTT;42/33/37haveTTon≥2leaves. Mostactivepairs have novisibleNT;compatibility isnotactualassimilationorphonetics. Independent validator and resultreviewPASS.1041remainsinconclusive; no key/source/meaning selected. [Report](experiments/yolo/gdt1361_nasal_assimilation_capacity/REPORT.md).
+
 ## 2026-10-12 — Source-chain selection and existing constructive code retained
 
 IDEA399 distinguishes coordination, serial attribution and shared continuation in its owned source, but supplies no full native writer/target. Curated not_tested; no toy graph test selected. Existing1353conditional singleton parsing fixes63.34–65.44%ofFULLgroups;1354supplies reader-specific pair-tail covering codes. These are old positive formal results, not sounds or translations, and source objections remain. Added them to the compact resume to prevent rediscovery. [Review](research_registry/proposals/production_origin_supply_20261003/ISNAD_SELECTION_AND_POSITIVE_CODE_RECALL_20261012.json).
