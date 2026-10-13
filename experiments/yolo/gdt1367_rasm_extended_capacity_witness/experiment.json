@@ -1,0 +1,126 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Formal full20 GE2 coverage only; arbitrary source strings and at least16!equivalent tables. No language, historical source, recovered key, FULL repair or general19-class minimum.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1367_rasm_extended_capacity_witness/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1367_rasm_extended_capacity_witness/src/validate.py"
+  },
+  "created": "2026-10-13",
+  "dependencies": [
+    "GDT1365",
+    "GDT1366",
+    "GDT1253"
+  ],
+  "experiment_id": "GDT1367",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/METHOD.md",
+      "sha256": "be0908697708dc03615c569ec21d04875dca125acc1f50c949a4915fbc31e1bd",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md",
+      "sha256": "621304beeb48439c7a22527ed88807e3f5fd51025bc9f46f4e304b1e17d38bb9",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/RESULT.json",
+      "sha256": "534fc939b2b534c98d602a635fb4bc575141daf3dab73ccac1becda20e35cb7a",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/SOURCE_CHECK.json",
+      "sha256": "3cf23dbc0643d81d2808fae8c57f130101f8d74c2703a596586fe264437f6ec3",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/fetch_source.py",
+      "sha256": "af117df480442f874d5e11807d9b31e16ce016f2f3aa76ee41d298255c6cb30f",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md",
+      "sha256": "a3e17a060273840ed619a68df04091d8a2eb252f7b9beef646df74f9b754bc88",
+      "role": "frozen input or prior"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/METHOD.md",
+      "sha256": "0ec49f1d9040e11999cfb9eb4020bbee49eb49c88c30124bafdd2f129ece6111",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/PREREGISTRATION.md",
+      "sha256": "0ec49f1d9040e11999cfb9eb4020bbee49eb49c88c30124bafdd2f129ece6111",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/README.md",
+      "sha256": "7a540afedcc87675f161996194e2f81afc2445462bad04b8e5808e1bf7693282",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/REPORT.md",
+      "sha256": "9084e2a74a9e53e8348df22bace3c8890f395ba5fe3467fc302b758dcb42d843",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/artifacts/PROOF_REVIEW.json",
+      "sha256": "57ebe15e42ed4d53a4db99fe8a38f120dbc62396db1f167faeb68e902fe56722",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/artifacts/README.md",
+      "sha256": "61cc6f943da90b85b0191c5a5131ed19b1ce69edbd05031d54bc3cc2a7e99b9e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/artifacts/RESULT.json",
+      "sha256": "58815f0cd62f1a674893af88849aaf26aca404c2afa8375cd23a0dad91174cdd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/artifacts/RESULT_REVIEW.json",
+      "sha256": "d98f03fbfbd987384686008edf4bd738a40f247ef2601c1a158699077ae1c504",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/artifacts/VALIDATION.json",
+      "sha256": "51de9ff5957a719fb7f18968631f0f1e1027cbd49d63c07c6c769082d5f92f8e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/src/REGISTRATION_LOCK.json",
+      "sha256": "0abcf45216617dfa90b56fe4f33304d47d2ad4e67843bcfe7a5cf42bcbc44e1c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/src/run.py",
+      "sha256": "e716464db5f1ee4d5f568ffc6adf8d2cb571d6509e8b9f9da9cf10ac044cc267",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/src/validate.py",
+      "sha256": "6c690718f3582488bb2db69eefd87210d94cef5b26488ce7f169ee7b329b719d",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can the full20 technical rasm channel formally cover every recurrent form through one fixed renderer, and does that capacity select any key?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "rasm_extended_capacity_witness",
+  "status": "EXTENDED_RASM_CONSTRUCTIVE_CAPACITY",
+  "title": "Constructive capacity of the extended rasm channel",
+  "updated": "2026-10-13",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1367_rasm_extended_capacity_witness/artifacts/VALIDATION.json"
+  }
+}

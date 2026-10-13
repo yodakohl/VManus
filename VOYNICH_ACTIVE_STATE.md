@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1367 fixes the extended rasm capacity limit
+
+The full20 software channel constructively covers all oldGE2forms:16ordinary classes (including O) plus terminalQ/N provide exact preimages, even with one forward direction.4914synthetic roundtrips and48representative contexts independently pass. At least16!ordinary mappings cover equally, so coverage does not select a key or natural language. No new native census. Original1365FULL and1366restrictedGE2failures remain;19available extension classes are not a general minimum. Stop coverage-only fitting pending independent source binding. [Report](experiments/yolo/gdt1367_rasm_extended_capacity_witness/REPORT.md).
+
 ## 2026-10-13 — GDT1366 closes recurrent mixed-direction rasm capacity
 
 For the restricted18 fixed renderer,18 observed characters force a bijection and the three nonmiddle characters m/n/q must jointly be terminal-only images. GE2 contains 714/692/709 violating groups (IT/RF/ZL) with at least two such occurrences. Arbitrary per-word reversal and additional cuts cannot rescue this model. Independent proof and full witness validation pass. Original1365 FULL failures stand; this argument does not cover full20 GE2 or reject Arabic/abjads generally. [Report](experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md).

@@ -1,0 +1,39 @@
+{
+  "title": "RAW: bounded source-word fragmentation forces nucleus-carrier coverage of consecutive group windows",
+  "summary": "A source-independent necessary consequence relaxes1042whole-word spacing: source words may occupy1..Bconsecutive visible groups, while every source word retains a member of one fixed nonempty nucleus-carrier inventory. Every2B-1group window then contains a whole source word and must hit a representative of that inventory. B=2 means three-group windows. No native evaluation or phonetic partition supplied.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "design": {
+    "mechanism": "A scribe divides a complete source word into at mostB nonempty written fragments separated by visible spaces. A source word is not merged with another inside one group, the order is unchanged, and source-word blocks partition the group sequence. All written fragments of every word together contain at least one complete fixed nucleus carrier. B is declared before looking for exceptions; no cap is inferred from a desired fit.",
+    "source_information": "This specifies a necessary writing architecture, not a complete language encoder. The source has explicit word boundaries and a retained syllabic nucleus; the physical split choices are additional writer choices. If split boundaries are not otherwise marked, the reader returns all word partitions into1..Bgroups that satisfy the independently supplied source grammar/code. No unique source segmentation is claimed.",
+    "paid_framing": "Visible spaces delimit fragments. Source-word boundaries are latent, not supplied as free side information. An actual complete record has explicit start/end; any future internal-window test need not identify record edges. All groups in a tested window must be genuinely consecutive with no filtered omissions.",
+    "proof": [
+      "Any consecutive2B-1groups contain at least one complete source-word block. Otherwise the window consists of at most two proper boundary fragments, each containing at mostB-1groups, totaling at most2B-2.",
+      "Choose one working-unit representative from each nonempty fixed nucleus carrier. The full source-word block inside the window contains a carrier and hence one representative somewhere in the union of its groups.",
+      "Therefore the unions of signs in all2B-1group windows have a hitting set of size no greater than the number of distinct carrier strings. A larger certified minimum excludes the chosen(B,K)architecture without selecting phonemes or a language.",
+      "A carrier may cross an artificial fragment gap: its representative still occurs somewhere inside the complete source-word block. No freeUD, one-sign-per-phoneme, or identification of written vowels is assumed."
+    ],
+    "smallest_future_test": "Prospectively fixB=2 and an already admitted consecutive-group packet; use ONLY three-group windows with exact consecutive indices/seams. Seek a lower certificate against a predeclared carrier budgetK. Do not remove rare words or join across unknown gaps. Root must select scope and cost before any run. No experiment or data run requested by this raw card.",
+    "non_sufficiency": "Window coverage is only necessary. ForB=2, a fully framed hit-pattern0,1,0,0,1,0hits every three-group window but cannot be partitioned into length<=2blocks each containing a hit. Each of the two hit groups can cover at most one zero group, whereas four zero groups are present. Do not call a surviving window cover a valid writer.",
+    "optional_exact_reader_condition": "Given an independently fixed representative set on a fully framed record, a purely structural necessary partition can be checked by dp[0]=true; dp[i]=OR(dp[j] AND block[j:i]containsahit) over1<=i-j<=B. Passing supplies only a representative-hit partition, not a carrier parse or source reading. This is an unselected alternative, not authorization for an all-key optimizer.",
+    "differences_from_priors": [
+      "1042and1363use single written groups as whole source words; this card alters the boundary contract explicitly and uses consecutive windows instead of recomputing the same whole-group bound. Their original outcomes stay unchanged.",
+      "1257tests five entire CONTROL WORDS hitting every four-group window for the fixed976clause grammar. Here hits are individual representatives of arbitrary-length nucleus codes and the window length follows from bounded source-word fragmentation, not clause arity. No1257source lines selected retrospectively for a favorable result.",
+      "1196tests six fixed vowel-run source segmentations with E/C flags and small predecessor states against four fixed books. Its failures remain; this card supplies no new source book, fragment distribution or revised marker grammar."
+    ],
+    "scope_limits": [
+      "No universal bound on syllable count or written fragments per natural word is asserted. Unbounded fragmentation escapes the selectedBcontract.",
+      "Groups spanning portions of multiple source words, unencoded nuclei, context-dependent unlimited carrier families, uncertain transcription units or missing visible groups may change the premises.",
+      "A representative is not a vowel sign. A hit is not proof that the entire code occurs or that any phoneme is written.",
+      "No source-language preference, native values, numeral/word meanings, statistical fit or independent confirmation.",
+      "Not an automatic repair of rasm1365/1366 or of a previous failed serializer."
+    ],
+    "retrieval": "Live route/composition retained; bounded spacing/prefix-sharing and nucleus-fragment duplicate/route searches;1257primary/followups and1196primary read; no identical bounded-fragment representative lemma found in this bounded screen.",
+    "access": "No native counts, raw TSV, images, external sources, reserve or source-corpus run. RAW supply only."
+  },
+  "primary_hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/NUCLEUS_CARRIER_HITTING_BOUND_RAW_20261012.json": "a96ad54f8053163cf2800edab7130dcdefeee678cd10b01ddcf8b7eb70b2a3f5",
+    "experiments/yolo/gdt1257_mandatory_control_window_capacity/REPORT.md": "8b0dde4d16ca69b142cac02b5568df4895af917842f3c780935af6b193573ee1",
+    "experiments/yolo/gdt1196_vowel_boundary_capacity/REPORT.md": "ec47f9e77180a2c98aa59470b0e145965632f8f87d6f805979175ce420fb9bd5"
+  }
+}

@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: rasm.
-Latest decision: GE2FAIL.
-Working files: GDT1366.
-Assumptions: fixed chars.
-Resume: changed binding only.
+Task: capacity.
+Latest decision: GE2cover.
+Working files: GDT1367.
+Assumptions: no source.
+Resume: review IDEA1046.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicf716ff2ab.
+Publicb1468f251.
