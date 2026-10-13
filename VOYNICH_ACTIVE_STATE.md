@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1364 shows nucleus-bound unit sensitivity
+
+FixedRAW_CHARrefinement of the samewords gives18characters andFULLhittingminima11/13/10IT/RF/ZL;GE2all8instead of9under22workingunits. The recurrent≤8exclusion isnotrepresentation-independent. FULLstillneeds10–13;GE2doesnotrepairit. All48exceptionoptimaand6hittingwitnesses independentlyvalidated. No truealphabet,soundorvowelmap identified. [Report](experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/REPORT.md).
+
 ## 2026-10-12 — GDT1363 limits the strength of the nucleus exclusion
 
 WithK5fixedrepresentatives,minimumuncoveredFULLgroupsare222/251/178IT/RF/ZL(0.92–1.30%); independently minimizedtypecounts37/34/28. K7groupbounds0.145–0.207%. Exact48objectivewitnessesindependentlyvalidated. These smallnecessaryexceptionbounds arenotsufficientphoneticrepairsoractualomissionrates.1042zeroexceptiontheoremstillholds,butdoesnotrequirewidespreadvowelomissionoridentifyanabjad. [Report](experiments/yolo/gdt1363_nucleus_omission_envelope/REPORT.md).

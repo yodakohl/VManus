@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1362**
-- Experiment-associated tracked files: **26,676** (2.4 GiB)
-- Structured GDT337+ experiments: **1027**
+- Experiments indexed: **1363**
+- Experiment-associated tracked files: **26,690** (2.4 GiB)
+- Structured GDT337+ experiments: **1028**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1364 | gdt1364_raw_character_nucleus_sensitivity | `RAW_CHARACTER_NUCLEUS_SENSITIVITY` | [report](../experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/REPORT.md) | 14 | 512.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT1363 | gdt1363_nucleus_omission_envelope | `EXACT_MINIMUM_NUCLEUS_OMISSION_ENVELOPE` | [report](../experiments/yolo/gdt1363_nucleus_omission_envelope/REPORT.md) | 14 | 558.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1362 | gdt1362_neutralization_literal_core | `MAJORITY_LITERAL_CORE_REQUIRED` | [report](../experiments/yolo/gdt1362_neutralization_literal_core/REPORT.md) | 14 | 1.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT1361 | gdt1361_nasal_assimilation_capacity | `PAIR_CAPACITY_RETAINED_NOT_PHONETIC_EVIDENCE` | [report](../experiments/yolo/gdt1361_nasal_assimilation_capacity/REPORT.md) | 14 | 830.1 KiB | 5 | STRUCTURED_YOLO |

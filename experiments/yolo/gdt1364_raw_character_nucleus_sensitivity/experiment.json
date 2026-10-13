@@ -1,0 +1,141 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Two fixedtranscription representations only; no actualglyphunits,phonemes,vowels,abjads,sourcefit,meaning or GE2repair ofFULL.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/src/validate.py"
+  },
+  "created": "2026-10-13",
+  "dependencies": [
+    "GDT1363",
+    "GDT1355",
+    "GDT1233"
+  ],
+  "experiment_id": "GDT1364",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt1355_fixed_null_erasure_capacity/artifacts/RESULT.json",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "176c8b907858ed769f422e8f2e82fb1ad703c846ae5b6098acca92ae11fb995a"
+    },
+    {
+      "path": "experiments/yolo/gdt1355_fixed_null_erasure_capacity/experiment.json",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "3eb8dd1e60736625d73812fa9800682e741e3b6a846eeded28b67c8c18897261"
+    },
+    {
+      "path": "experiments/yolo/gdt1363_nucleus_omission_envelope/artifacts/RESULT.json",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "07d597a9a2a820e565d51549d31cf44dd617e963c1032488757426cc56d4dc8f"
+    },
+    {
+      "path": "experiments/yolo/gdt1363_nucleus_omission_envelope/experiment.json",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "9e262fccf7b82dc4d3c77dee6b0459f0dfc056e97551820628a55e365f45bf26"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RAW_CHARACTER_NUCLEUS_SENSITIVITY_RAW_20261013.json",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "f879ab34c1cc1cc55073f75c291579723a8701ba320d709fabe8763dc5371205"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/NUCLEUS_CARRIER_HITTING_BOUND_PROOF_REVIEW_20261012.json",
+      "role": "fixed source, scope, prior or proposal",
+      "sha256": "e004d76ee8e5092ed023db11f0373e7de2b18c52c014fff954b0da4ebc990175"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/METHOD.md",
+      "role": "reproducibility artifact",
+      "sha256": "2b2c65fa54e3806230e4768fdab1efc74cd4a8e58ffd88cf08286d31a414096f"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/PREREGISTRATION.md",
+      "role": "reproducibility artifact",
+      "sha256": "2b2c65fa54e3806230e4768fdab1efc74cd4a8e58ffd88cf08286d31a414096f"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "420f9a7c17166c1fb34a691446be824e0eb6df8f7a271a9544ea1785e40f173a"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/REPORT.md",
+      "role": "primary_report",
+      "sha256": "3e9225c9f439b0d5bb6ef3e9846db8e17b50c3ffe688d2b5e60b5c9f2d89a851"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/artifacts/CONTROLS.json",
+      "role": "reproducibility artifact",
+      "sha256": "abfce03615620f22df8668a7a4bec9edd1a8eb0353e16361d55c39d9e0c5b9c5"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/artifacts/PROSPECTIVE_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "f1c4f5af6bd2dd06fe1c91e680066b853dc0daa7b5316875999c4e6ae04053b8"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/artifacts/README.md",
+      "role": "reproducibility artifact",
+      "sha256": "23feb404cb77f2953d9bd1264c1a9763fc60f3574e65c979d8eabc37eed40079"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/artifacts/RESULT.json",
+      "role": "reproducibility artifact",
+      "sha256": "7fad0a33fc57c7ed87050ed279c045dcf83dd5b0d96f529822e40ddcb0cbc0af"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/artifacts/RESULT_REVIEW.json",
+      "role": "reproducibility artifact",
+      "sha256": "d5424183423486836a9172dd1524b5ed1956cf5f7b02b95ee0fc07486db03fc3"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/artifacts/VALIDATION.json",
+      "role": "reproducibility artifact",
+      "sha256": "b00d7a64226d7a391f6b480833ff6e225d37598ca5f1a43f7a960e5c6d2daf03"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/src/REGISTRATION_LOCK.json",
+      "role": "reproducibility artifact",
+      "sha256": "089ba549f36b4a196b8033275053c74e2b038529ba093fe39d831491f7e7c49f"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/src/run.py",
+      "role": "reproducibility artifact",
+      "sha256": "f254c77aab6711befea38b8de19a5bfe230303c506d54ccd5b6da0d5648c6adb"
+    },
+    {
+      "path": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/src/validate.py",
+      "role": "reproducibility artifact",
+      "sha256": "aadc01295dee55dbeda65e931d959592624415beceb08ac4f998ef3c1faaded4"
+    }
+  ],
+  "question": "Does the nucleus-carrier hitting and exception bound survive a fixed raw-character refinement on the identical words?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "raw_character_nucleus_sensitivity",
+  "status": "RAW_CHARACTER_NUCLEUS_SENSITIVITY",
+  "title": "Raw-character nucleus bound sensitivity",
+  "updated": "2026-10-13",
+  "validation": {
+    "artifact": "experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

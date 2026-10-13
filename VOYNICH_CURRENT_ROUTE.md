@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-12.
+Updated: 2026-10-13.
 
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: sources.
-Latest decision: 1363bound.
-Working files: GDT1363.
-Assumptions: fixedcarrier.
-Resume: source exceptions.
+Task: unit scope.
+Latest decision: rawGE2=8.
+Working files: GDT1364.
+Assumptions: raw≠glyphs.
+Resume: source+unit binding.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public8757c6ab4.
+Publicc1a479a78.

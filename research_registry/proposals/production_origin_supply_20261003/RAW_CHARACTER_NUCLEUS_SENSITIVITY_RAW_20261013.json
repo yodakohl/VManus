@@ -1,0 +1,15 @@
+{
+  "title":"RAW: fixed raw-character refinement tests nucleus-bound dependence on working units",
+  "scope":"method",
+  "status":"RAW_UNREVIEWED_UNSCORED",
+  "summary":"Keep every1233word occurrence, reader and FULL/GE2selection fixed; split the exact raw EVA string into individual characters instead of22workingunits. Compute minimum wholeword hitting size and K3/5/7/8missed-group/type envelopes; compare certified1355/1363results without treating ASCII as true glyphs.",
+  "design":{
+    "question":"Does the <=8fixed-carrier zero-exception exclusion survive this particular finer representation, and how does its exception cost change?",
+    "mechanism":"Representation refinement only. A code that starts inside ch cannot inherit a22unit-aligned bound, but may be character-aligned under this alternative. Neither segmentation is an identified phonetic alphabet.",
+    "prediction":"Refinement cannot increase minimum hitting size or misses at fixedK: one rawcharacter may be selected from each oldrepresentativeunit, preserving all oldwordhits with atmostKnewrepresentatives.",
+    "decision":"If rawtau<=8, withdraw any inference that the earlier <=8carrier exclusion survives this finer representation. Ifrawtau>8 retainonly two-representation robustness, never allphysicalglyph boundaries. No sound, vowel or source meaning.",
+    "prior":"1042explicitunaligned-codecaution;1355TYPEbounds;1363exceptionenvelopes. Boundedroute/ideas searches and primary reviewfoundnoexactrawcharversion, notexhaustivenovelty.",
+    "budget":"25minutes inclusivepreparation,primary/independentvalidationandpublication; no newcorpus,image,decoder or languagefit."
+  },
+  "relations":[{"target":"IDEA001042","type":"related_to"},{"target":"GDT1363","type":"related_to"}]
+}
