@@ -4,17 +4,17 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: overlap.
-Latest decision: literalFAIL.
-Working files: GDT1370.
-Assumptions: raw strings.
-Resume: new rule review.
+Task: prediction.
+Latest decision: gain split.
+Working files: GDT1371.
+Assumptions: no meanings.
+Resume: review IDEA1047.
 Running: none.
 
 ## Structural baseline
 Spaces hierarchical; productive directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
-1308/9whole gain;1316halves ALL+/newFAIL;1320word-choice+.
+1308/9whole+;1316ALL+/newFAIL;1320word+;1333resid<=0.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet;1321/1326/1327FAIL.
 1345sort min14/15/15full;10/10/11recurrent.
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public32bb61796.
+Public42d1a9df7.

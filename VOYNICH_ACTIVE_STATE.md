@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1371 separates familiar-form allocation from identity prediction
+
+Big-picture review retains directed composition, wholeform frequency gain and context effects without interpreting them as identified morphology or memory (1333limits1320). Exact frozen1316score decomposition assigns93.27–97.01percentofALLgain toknown/unseen category probability. ConditionalUNSEENidentity gains+.128219/.111883/.150775IT/RF/ZL despite rawloss; KNOWNconditionalgainsnegative. ALLbinaryscorealsoimproves, so UNSEENmassloss alone isnot miscalibration. Original1316FAIL/noretuningstand. Independent rational check of23496events/52cellsPASS. IDEA1047is a newUNREVIEWEDtemporalspelling-memory proposal, not a selected mechanism. [Report](experiments/yolo/gdt1371_frozen_novelty_score_decomposition/REPORT.md).
+
 ## 2026-10-13 — GDT1370 closes the literal overlap variant without choosing a cut
 
 IP078uniformliteral records AB/BC require a nonempty proper suffix/prefix overlap. The alreadyexposed f100r.14G005/G006 qoteold/qokeol pair has none, and reversed-record orientation also fails. IT/ZLagreeatonephysicalsite; RFfixedrows are missing/unscored. Independent allcut proof and900binarypair controls plus source replayPASS. This is a retrospective deduction, not a new native observation. Mixeddirections, contextualrecoding and independentlyjustifiedreset scopes remain outside; no generalcopying/languageban. [Report](experiments/yolo/gdt1370_literal_overlap_counterexample/REPORT.md).

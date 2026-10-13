@@ -1,0 +1,142 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Post-result frozen-probability accounting only; original1316FAIL unchanged. No newgate, calibration proof fromUNSEENalone, retunedwriter, temporal memory, language or meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1371_frozen_novelty_score_decomposition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1371_frozen_novelty_score_decomposition/src/validate.py"
+  },
+  "created": "2026-10-13",
+  "dependencies": [
+    "GDT1308",
+    "GDT1316",
+    "GDT1317",
+    "GDT1333"
+  ],
+  "experiment_id": "GDT1371",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL.json",
+      "sha256": "36297201b1c2998226d876bb032cfe2fdc640e28aec31973d06bea240604d5bb",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md",
+      "sha256": "fef018adc91944be62f8267194ec8760b579d7373f3e2021846f4cacd67b2ce7",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/EVENTS.json.gz",
+      "sha256": "14804a3321917e31d747d81a122d50648ab0cde1065c186c2feaac372c52d96a",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/MODEL_H.json",
+      "sha256": "b2717c8bf788db54e5776c952b526b6962d824c3ccc0ec909e18a1d44c3d62ee",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/RESULT.json",
+      "sha256": "fb66bac0a1e98c90b7a2e9f3cb12742532e7bbd06700236a75442c23605062f2",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1317_unseen_score_oracle_counterexample/REPORT.md",
+      "sha256": "02a78412711f4c07d13e3cfafa9fb4e31c392f6d27d4c71d653adbacf246c330",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/BIG_PICTURE_NEXT_DECISION_20261013.json",
+      "sha256": "a56c85732f7f28bd47dae4aba6062315939ef6ca6d6eeeaa0dd8c2c03b4ed410",
+      "role": "frozen input or prior"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/METHOD.md",
+      "sha256": "02a4114be36c799ae1babce506034d704751d7bf83157dc29a87ca4482b617ab",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/PREREGISTRATION.md",
+      "sha256": "02a4114be36c799ae1babce506034d704751d7bf83157dc29a87ca4482b617ab",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/README.md",
+      "sha256": "386db80ca87079a0d82fb1df6663c90802107bcf2d01fee032004658b5b01c0b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/REPORT.md",
+      "sha256": "0cb9d903f79dc6e60ae2941e03fa53454f2c235b2824f18497a2ca4bc6e91b4f",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/CELLS.json",
+      "sha256": "7ad5bac44e66b79e895084b4bb0286a3f28e80fc1f6359565bc98404f94e79c2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/PROOF_REVIEW.json",
+      "sha256": "610c2028ef5735cc6093e8d302e5905e0327722fe791134e0aea410a3262ecbe",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/README.md",
+      "sha256": "c04b516209db07daf3671ae9fff1e059cfbb343e33813ad809d2bccadf43ad6c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/RESULT.json",
+      "sha256": "112ae9371ad765e23226956e6793647aa82b2562b3806d7767f8fc879c9c9d95",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/RESULT_REVIEW.json",
+      "sha256": "753e783b80ab79c94891228dc4730141b4aada5f80b50d7246b350a2e48d692d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/SCORES.json.gz",
+      "sha256": "4529218e5b7c4198bafcee3b01b6d3617095d26d08c50cebfb691fe829bb2f50",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/VALIDATION.json",
+      "sha256": "b8a2434bff54d48aecc6ee6214a858194720d4f09251c64b9998de904f0ff24b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/src/REGISTRATION_LOCK.json",
+      "sha256": "e9ce4e0b813249d32335ab417f880059094bdc78f4d19004d2a39c27123a19ea",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/src/run.py",
+      "sha256": "3b9612bb109ee4776753cf7f8376e09b31a31658290a0994bd7a19168da4af4d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/src/validate.py",
+      "sha256": "b2ea2fbf20e290de11c039a56eb93ff0520b6a3f02cbe7c65b00ae734feecceb",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "How much of the unchanged half-model score difference is known/unseen probability allocation versus conditional identity quality?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "frozen_novelty_score_decomposition",
+  "status": "FROZEN_NOVELTY_SCORE_ACCOUNTING",
+  "title": "Frozen known/unseen category and identity score decomposition",
+  "updated": "2026-10-13",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/artifacts/VALIDATION.json"
+  }
+}

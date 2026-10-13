@@ -1,0 +1,109 @@
+{
+  "status": "FINAL_FROZEN_ACCOUNTING_REPORT_SCOPE_PASS",
+  "reviewer": "branch_claims independent rational-validator author",
+  "scope": "Frozen independent rational reconstruction executed afterlock, then bounded REPORT versus CELLS/RESULT/VALIDATION review only. No new model,gate ordata.",
+  "hashes": {
+    "REPORT.md": "0cb9d903f79dc6e60ae2941e03fa53454f2c235b2824f18497a2ca4bc6e91b4f",
+    "artifacts/RESULT.json": "112ae9371ad765e23226956e6793647aa82b2562b3806d7767f8fc879c9c9d95",
+    "artifacts/CELLS.json": "7ad5bac44e66b79e895084b4bb0286a3f28e80fc1f6359565bc98404f94e79c2",
+    "artifacts/SCORES.json.gz": "4529218e5b7c4198bafcee3b01b6d3617095d26d08c50cebfb691fe829bb2f50",
+    "artifacts/VALIDATION.json": "b8a2434bff54d48aecc6ee6214a858194720d4f09251c64b9998de904f0ff24b"
+  },
+  "verified_summary": {
+    "IT2a": {
+      "ALL_category_share_percent": 93.27184006387361,
+      "UNSEEN_conditional_positive_leaves": 34,
+      "cohorts": {
+        "ALL": {
+          "words": 8623,
+          "leaves": 46,
+          "raw_equal_leaf": 0.13811076009704132,
+          "category_equal_leaf": 0.12881844726871255,
+          "conditional_equal_leaf": 0.009292312828328793
+        },
+        "GLOBAL_KNOWN": {
+          "words": 6767,
+          "leaves": 46,
+          "raw_equal_leaf": 0.27963057184662515,
+          "category_equal_leaf": 0.31441846986833555,
+          "conditional_equal_leaf": -0.03478789802171041
+        },
+        "GLOBAL_UNSEEN": {
+          "words": 1856,
+          "leaves": 46,
+          "raw_equal_leaf": -0.25662148037423316,
+          "category_equal_leaf": -0.3848406118379619,
+          "conditional_equal_leaf": 0.1282191314637287
+        }
+      }
+    },
+    "RF1b": {
+      "ALL_category_share_percent": 97.00768217510762,
+      "UNSEEN_conditional_positive_leaves": 34,
+      "cohorts": {
+        "ALL": {
+          "words": 7245,
+          "leaves": 46,
+          "raw_equal_leaf": 0.1599880077861497,
+          "category_equal_leaf": 0.15520065811147452,
+          "conditional_equal_leaf": 0.0047873496746751185
+        },
+        "GLOBAL_KNOWN": {
+          "words": 5605,
+          "leaves": 46,
+          "raw_equal_leaf": 0.31690763614727474,
+          "category_equal_leaf": 0.35904759237279277,
+          "conditional_equal_leaf": -0.04213995622551802
+        },
+        "GLOBAL_UNSEEN": {
+          "words": 1640,
+          "leaves": 46,
+          "raw_equal_leaf": -0.2778273398311261,
+          "category_equal_leaf": -0.38971050916823224,
+          "conditional_equal_leaf": 0.11188316933710615
+        }
+      }
+    },
+    "ZL3b": {
+      "ALL_category_share_percent": 96.08206236061451,
+      "UNSEEN_conditional_positive_leaves": 36,
+      "cohorts": {
+        "ALL": {
+          "words": 7628,
+          "leaves": 46,
+          "raw_equal_leaf": 0.16281060312190151,
+          "category_equal_leaf": 0.156431785221278,
+          "conditional_equal_leaf": 0.006378817900623495
+        },
+        "GLOBAL_KNOWN": {
+          "words": 6036,
+          "leaves": 46,
+          "raw_equal_leaf": 0.3103415295000183,
+          "category_equal_leaf": 0.3550812881902408,
+          "conditional_equal_leaf": -0.044739758690222516
+        },
+        "GLOBAL_UNSEEN": {
+          "words": 1592,
+          "leaves": 46,
+          "raw_equal_leaf": -0.24510984021170537,
+          "category_equal_leaf": -0.3958852876535429,
+          "conditional_equal_leaf": 0.1507754474418376
+        }
+      }
+    }
+  },
+  "clamps": [],
+  "claim_checks": [
+    "All9reported equal-leafdecomposition rows,23496event counts,52cells,46leavespercohort andzero clamp metadata agree.",
+    "ALLcategoryshares93.27/97.01/96.08% andUNSEENconditionalpositiveleaves34/34/36agree; sharesuseidenticalALLweights andnotpositive-onlymass.",
+    "GlobalTRAINseen union acrossCurrier andlength-conditioned22unit universe retained. MissingTRAINcellsuseM=P,Hundefined; thosefallbacks haveequal ratherthanstrictlylowerUmass.",
+    "UNSEENrawnegative andconditionalpositive bothretained; thisisnot a newproductivePASS or evidencefor actualsourcewords/morphemes.",
+    "ALLbinaryknown/unseen score improves, so report correctlyrejects inferring overall too little novelty or miscalibration fromnegativeUNSEENcategoryterm alone.",
+    "KNOWNconditional negativity is stated under the explicitlydefined equal-leafmetric; separatelyretainedtokenmeans neednotshareallsigns.",
+    "Old1316FAIL,no-retuning,gates,unseenHzerocases andalloriginalweights retained.",
+    "1333qualification of1320wordmemoryinference and1367arbitrarycoverage caution accurately retained.",
+    "IDEA1047is explicitlyuntested/unselected futureproposal, not aninput, outcome, temporal-memoryfinding or scientificallyauthorizednexttest."
+  ],
+  "issues": [],
+  "recommendation": "Report ispublication-ready as a descriptivefrozen logscoredecomposition with unchanged originalscientificdecision."
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1369**
-- Experiment-associated tracked files: **26,774** (2.4 GiB)
-- Structured GDT337+ experiments: **1034**
+- Experiments indexed: **1370**
+- Experiment-associated tracked files: **26,789** (2.4 GiB)
+- Structured GDT337+ experiments: **1035**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1371 | gdt1371_frozen_novelty_score_decomposition | `FROZEN_NOVELTY_SCORE_ACCOUNTING` | [report](../experiments/yolo/gdt1371_frozen_novelty_score_decomposition/REPORT.md) | 15 | 557.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT1370 | gdt1370_literal_overlap_counterexample | `LITERAL_OVERLAP_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt1370_literal_overlap_counterexample/REPORT.md) | 13 | 35.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT1369 | gdt1369_open_edge_fragment_partition | `OPEN_EDGE_FRAGMENT_PARTITION` | [report](../experiments/yolo/gdt1369_open_edge_fragment_partition/REPORT.md) | 14 | 5.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT1368 | gdt1368_fragment_window_nucleus_capacity | `FRAGMENT_WINDOW_NUCLEUS_CAPACITY` | [report](../experiments/yolo/gdt1368_fragment_window_nucleus_capacity/REPORT.md) | 14 | 1.5 MiB | 5 | STRUCTURED_YOLO |
