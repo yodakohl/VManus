@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: prediction.
-Latest decision: gain split.
-Working files: GDT1371.
-Assumptions: no meanings.
-Resume: review IDEA1047.
+Task: memory.
+Latest decision: no capacity.
+Working files: GDT1372.
+Assumptions: single fusion.
+Resume: new prediction.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public42d1a9df7.
+Public314470f16.

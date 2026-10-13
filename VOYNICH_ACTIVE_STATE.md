@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1372 stops the current lexical-memory test before scoring
+
+Each of24reader/singlefusion/orientation cases has zero switch-mobile episodes when first/lastchoice andfusedtotal are fixed. Retainedsame-key histories haveonly2or3visits; lowering the100remote-edge/10leafgate cannotcreatevariability. Singlefusionbindings were reconstructed instead of silentlyusing1320fourfusionwordkeys. Independent transducer/extremum validationPASS. No persistence statistic, p-value ornative memorytest;1047is notrefuted. Need new independently justified completehistories anddrift/selection controls; no automaticpagepooling orendpoint/keychanges. [Report](experiments/yolo/gdt1372_lexical_memory_episode_capacity/REPORT.md).
+
 ## 2026-10-13 — GDT1371 separates familiar-form allocation from identity prediction
 
 Big-picture review retains directed composition, wholeform frequency gain and context effects without interpreting them as identified morphology or memory (1333limits1320). Exact frozen1316score decomposition assigns93.27–97.01percentofALLgain toknown/unseen category probability. ConditionalUNSEENidentity gains+.128219/.111883/.150775IT/RF/ZL despite rawloss; KNOWNconditionalgainsnegative. ALLbinaryscorealsoimproves, so UNSEENmassloss alone isnot miscalibration. Original1316FAIL/noretuningstand. Independent rational check of23496events/52cellsPASS. IDEA1047is a newUNREVIEWEDtemporalspelling-memory proposal, not a selected mechanism. [Report](experiments/yolo/gdt1371_frozen_novelty_score_decomposition/REPORT.md).
