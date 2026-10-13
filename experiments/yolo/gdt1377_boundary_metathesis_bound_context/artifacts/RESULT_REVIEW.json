@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "reviewer": "branch_claims, independent prospective logic and final scope reviewer",
+  "scope": "Read final METHOD/REPORT/CONTEXT/RESULT/VALIDATION after explicit resultsignal. Source-file hashes checked without extracting additional payload. No source changes or new experiment.",
+  "hashes": {
+    "METHOD.md": "aac041fe430374c4b5b3f4feabc850dc740f05d3ee08b740832ff7946103ca43",
+    "REPORT.md": "adbd4c718e299abef07e094a68f9002ae1a680ee043c0dcdd346a6e9cfab6f3e",
+    "artifacts/CONTEXT.json": "871686420bc6c7823648e6900a2627f86d65d7f3e12d29d39d54c538ee4db9f6",
+    "artifacts/RESULT.json": "e328c170ef35c1977532b13de7dac52f1fe76bbc2ba3b1a0f2bd9404ada90b36",
+    "artifacts/VALIDATION.json": "7318678cf64cf6d4795acff5f54678984ae7b8338ef4fea4d05d4b721d293027"
+  },
+  "verified_result": {
+    "readers": [
+      "IT2a",
+      "RF1b",
+      "ZL3b"
+    ],
+    "site": "f18v.8 G001\u2013G003",
+    "raw_groups": [
+      "tolol",
+      "sh",
+      "cphoy"
+    ],
+    "parsed_groups": [
+      [
+        "t",
+        "o",
+        "l",
+        "o",
+        "l"
+      ],
+      [
+        "sh"
+      ],
+      [
+        "cph",
+        "o",
+        "y"
+      ]
+    ],
+    "failed_gates": [],
+    "fixed_key": {
+      "A": "sh",
+      "B": "cph"
+    },
+    "final_unit": "l",
+    "decision": "FIXED_KEY_EXCLUDED_AT_BOUND_CONTEXT"
+  },
+  "logic": [
+    "G002singleton A followed by nonsingleton B-initial G003 permits only left-neighbor rescue.",
+    "G001ends l rather than B=cph, so no observed cph|sh inverse seam exists. More remote outside context cannot change this obligation; the actual five-unit G001 also insulates its final unit from an earlier boundary swap.",
+    "Direct padded canonical-inverse/forward check changes middle output to tolol/cph/shoy rather than target. This is a failed formal reconstruction, not a proposed plaintext.",
+    "LINE_START before G001 is neither a failed source gate nor a rule reset; both relevant shared seams are definite."
+  ],
+  "scope_checks": [
+    "One physical site with separate alternate readings, not three replications.",
+    "Old1376open-context census remains correct and byte-frozen; added bound context closes only this parameter pair.",
+    "The old ZL identity-compatible survivors are not claimed globally valid or actually used. No general metathesis, phonetics or language rejection.",
+    "Sourceword/visiblegroup,22working-unit,mandatory-single-pass and transcription premises remain explicit. No lexical value assigned.",
+    "No new image or raw TSV query; context selected from existing admitted metadata-indexed915caches, with source hashes verified.",
+    "Next IDEA126 passage is retrieval only, not selection, new evidence or decoder permission; corrected1173 reference supplies no astronomical-register class exclusion."
+  ],
+  "limits": "This final review does not independently reconstruct tool-call chronology or certify total wall-clock/publication duration; prospective lock and validator receipts are separate provenance evidence.",
+  "issues": [],
+  "recommendation": "Final report and result are publication-ready within the fixed-key bound-context scope."
+}

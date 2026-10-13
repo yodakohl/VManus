@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: boundary rule.
-Latest decision: local only.
-Working files: GDT1376.
+Task: source.
+Latest decision: sh/cph fails.
+Working files: GDT1377.
 Assumptions: fixed22units.
-Resume: f18v.8 G001 context.
+Resume: IDEA126 prior review.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public978d72da3.
+Public8f6b8573a.

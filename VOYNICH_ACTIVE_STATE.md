@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1377 binds the missing neighbor and excludes sh/cph
+
+The prospectively fixed f18v.8 groups1–3 are `tolol sh cphoy` in allthree alternate readings. Both sharedspaces are definite and allgroups have a unique full22unitparse. Terminal l cannot rescue the sh|cph obligation; independent padded inverse/forward check confirms the fixedkey failure. Original1376openrun counts remain valid under their oldscope; no allkeycensus, generalmetathesis ban or meaning. Stop this capacity branch without new discriminating sourcebinding. Next navigation is IDEA126 primary/followup review, not a selected arithmetic decoder. [Report](experiments/yolo/gdt1377_boundary_metathesis_bound_context/REPORT.md).
+
 ## 2026-10-13 — GDT1376 gives exact local boundary-swap capacity, not a key
 
 A linear positive-OR imagelemma handles singletonexceptions: reverseALLvisibleBA andforwardcheck aftergenerousBB/AAoutsidepads. All462ordered22unitkeys testedseparatelyperreader;189/181/180excludedIT/RF/ZL,273/281/282survive locally.268/276/281survivors permitidentitysource; frequentBAdoesnotproveactualswap. Independentdirectinversechecksallkey/run cases. The onlyZLrequired-change survivor sh,cph is shared atf18v.8G002sh/G003cphoy andreliesonunknownleftcontext; G001 remainsunread inthispass andis theconcrete nextinput. No globalplaintext, actualalphabet, language ormeaning;1374interiorstructuremustbe inherited. [Report](experiments/yolo/gdt1376_boundary_metathesis_image_capacity/REPORT.md).
