@@ -1,0 +1,100 @@
+{
+  "status": "FINAL_CONDITIONAL_RESIDUAL_REPORT_SCOPE_PASS",
+  "reviewer": "branch_claims; independentproof/claim reviewer,separatefromprimaryandnumericvalidator",
+  "scope": "Bounded REPORT/RESULT/POOLS/VALIDATION andlinkedselection-review comparison afterindependentDPvalidationPASS. No newnative test, model/codeedit orrefit.",
+  "hashes": {
+    "REPORT.md": "50727c177e0c5cab32f543e5b5f6291b09113b58644f5256539d86de9abe7990",
+    "artifacts/RESULT.json": "6a677b0f803c021ad17ec57294185c25320fd7d595dd2e17d14fbabccf2664d1",
+    "artifacts/POOLS.json.gz": "c08237c959e4cae75b5a175efde9d659936103e1456ef611f0222c5a3bc7112e",
+    "artifacts/VALIDATION.json": "a2f784c9888552bfae4d9e2254a17998fcec0e269673a8fba1384591c51e071d"
+  },
+  "verified_summary": {
+    "IT2a": {
+      "all_computable_leaves": 33,
+      "all_computable_mean_gain": 0.019730026258182397,
+      "all_computable_words": 648,
+      "computable_pools": 179,
+      "excluded_large_pools": 33,
+      "mean_gain": 0.018784086252699915,
+      "original_mobile_pools": 212,
+      "p_or_null": 0.005,
+      "positive_leaves": 18,
+      "primary_leaves": 31,
+      "primary_words": 601,
+      "residual_mobile_pools": 158,
+      "status": "NO_RETAINED_CONDITIONAL_WHOLE_GAIN",
+      "excluded_large_words": 378,
+      "residual_immobile_pools": 21,
+      "null_draw_mean": -0.09136643182800086,
+      "null_range": [
+        -0.2107147035767305,
+        0.011563470331801506
+      ],
+      "maximum_exact_reference_mean_R_numerical": 1.7763568394002505e-15
+    },
+    "RF1b": {
+      "all_computable_leaves": 34,
+      "all_computable_mean_gain": 0.01436396785704346,
+      "all_computable_words": 579,
+      "computable_pools": 162,
+      "excluded_large_pools": 17,
+      "mean_gain": 0.014710429109469063,
+      "original_mobile_pools": 179,
+      "p_or_null": 0.025,
+      "positive_leaves": 16,
+      "primary_leaves": 33,
+      "primary_words": 542,
+      "residual_mobile_pools": 145,
+      "status": "NO_RETAINED_CONDITIONAL_WHOLE_GAIN",
+      "excluded_large_words": 192,
+      "residual_immobile_pools": 17,
+      "null_draw_mean": -0.08934100764830602,
+      "null_range": [
+        -0.2793305800562692,
+        0.03085253825654041
+      ],
+      "maximum_exact_reference_mean_R_numerical": 1.308894513242289e-15
+    },
+    "ZL3b": {
+      "all_computable_leaves": 33,
+      "all_computable_mean_gain": 0.012085512298951938,
+      "all_computable_words": 603,
+      "computable_pools": 170,
+      "excluded_large_pools": 24,
+      "mean_gain": 0.007728845088981709,
+      "original_mobile_pools": 194,
+      "p_or_null": 0.015,
+      "positive_leaves": 19,
+      "primary_leaves": 32,
+      "primary_words": 564,
+      "residual_mobile_pools": 153,
+      "status": "NO_RETAINED_CONDITIONAL_WHOLE_GAIN",
+      "excluded_large_words": 261,
+      "residual_immobile_pools": 17,
+      "null_draw_mean": -0.11524075922174502,
+      "null_range": [
+        -0.3099014124231736,
+        0.012600359899617351
+      ],
+      "maximum_exact_reference_mean_R_numerical": 7.130534874765651e-15
+    }
+  },
+  "failed_gate_account": {
+    "IT2a": "Positive mean>=.01 andp.005pass;18/31positiveleavesfails2/3.",
+    "RF1b": "Positive mean>=.01;16/33leavesfails, p.025fails.05/3.",
+    "ZL3b": "Positive mean.007729below.01;19/32leavesfails, p.015passes.05/3."
+  },
+  "claim_checks": [
+    "PositiveaveragesandIT/ZLconditionalreference departures retaineddespiteallfailedjointdecisions; no falseabsence-of-information claim.",
+    "Bothpartitionfunctionsrequired andpresent; reference E_P R=-KL(P_cond||M_cond), with residualpositivevalues<8e-15limitedtonumericalroundoff.",
+    "Validated1308/1279countagreementandfullword-versusINNERfactorcancellation upheld; reportedmax5.329e-15matchesvalidator. No missingedgeconstraint falselyclaimed.",
+    "Alltables,nullmeans/ranges,N>8pool/wordexclusions anddescriptiveallcomputablemeans agreewithartifacts.",
+    "StrictsubsetoriginalC-mobile,N<=8,residualT-mobileclearlyreported; C-immobileorlargepools notadjudicated.",
+    "1375nats/wordand1374nats/crossedge/differentpopulations cannotproducepercentageexplained; reportexplicitlyprohibitsit.",
+    "Failuredoesnotprove localmodel sufficiency; frozenM1isnotallfirst-ordermechanisms,andwholeformQdoesnotidentifymentallexicon orlinguisticword.",
+    "Selectionreview correctly distinguishes uniquelydecodableworkingparserfromprefixfree(s/sh), andpossiblejointselectionbiasfromdemonstratednativeartifact.",
+    "Old1374positive and1308gains preservedunderoriginalcontracts; no Ncap,mixture,gatethresholdorpoolretuning authorized."
+  ],
+  "issues": [],
+  "recommendation": "Publication-ready withunevenpositive residual andfailedconsistencycriterion preservedtogether; no broadlocal-sufficiency orlinguistic inference."
+}

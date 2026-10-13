@@ -1,0 +1,58 @@
+{
+  "status": "SOURCE_FREE_UNSELECTED_WEIGHTED_PARTNER_DESIGN",
+  "new_native_counts": false,
+  "question": "Does fixed whole-form weighting retain a conditional pairing advantage after accounting for the frozen local transition law and the complete two-stream inventories?",
+  "mechanism_scope": "One fitted position-aware first-order spelling law versus its already frozen whole-frequency mixture. Not every local mechanism versus a true lexicon.",
+  "null_law": {
+    "weights": "W_ij is the product of frozen local probabilities for ALL cross-class transitions in the reconstructed word, including first-to-second and penultimate-to-last edges. Pool mask, endpoints, page and Currier remain unchanged.",
+    "assignment": "P(pi)=product_i W_i,pi(i) / permanent(W).",
+    "cancellation_proof": "Each same-class adjacency belongs entirely to one complete stream and retains its fixed positions; its total log contribution over all carriers is unchanged under partner reassignment. The first-unit factor also cancels because endpoints are fixed. Thus the cross-class-only product induces the full local-word conditional assignment law.",
+    "model_binding": "If using1279weights and1308MIX/M1score, explicitly verify agreement of their fixed local transition tables on the declared domain before selection. Simpler coherent alternative is to use the frozen1308M1 full-word probabilities for both weights and residual denominator; that is a named prospective choice, not a post-result repair."
+  },
+  "score": {
+    "recommended": "Additive log(frozen1308MIX(w)/frozen1308M1(w)) over reconstructed paired words; both positive on all strings. Compare observed against exact weighted expectation.",
+    "alternative_not_second_primary": "The conditional model log-likelihood ratio is sum(log MIX/M1) minus log(Z_MIX/Z_M1), with both permanent normalizers. This is a normalized probability comparison rather than an unnormalized whole-form bonus. Select one endpoint prospectively.",
+    "avoid": "H alone can assign zero; do not add smoothing or weights after seeing scores. No novel-word-only outcome filter."
+  },
+  "exact_computation": {
+    "compressed_state": "Collapse identical donor S1 strings into J types with remaining counts b_j; retain ordered carrier rows. Define Z(t,b)=sum_j b_j W_tj Z(t+1,b-e_j), Z(N,0)=1. The b_j factor preserves labelled occurrence multiplicities.",
+    "mean": "Alongside Z, propagate M(t,b)=sum_j b_j W_tj [M(next)+r_tj Z(next)]. M/Z is the exact conditional expectation of the additive residual score. Variance can be propagated similarly.",
+    "sampling_if_needed": "Draw donor type with probability b_j W_tj Z(next)/Z(t,b), decrement and recurse. This samples the complete weighted conditional law directly; no MCMC mixing assumption.",
+    "cost": "Up to product_j(b_j+1) count states, with reachable-layer pruning; duplicate streams may make this small but native feasibility is UNCHECKED. Exact enumeration means complete finite summation; floating/log-domain arithmetic still needs numerical tolerance and independent higher-precision checks.",
+    "preflight": "Before any native score inspect only a locked computational-capacity census of duplicate stream counts. Fix a total-state/time ceiling in advance. If exceeded, stop; do not silently discard inconvenient pools or replace the law with MCMC."
+  },
+  "research_outcomes": {
+    "positive": "Fixed local transition compatibility does not account for the selected conditional whole-form preference. Retain a nonlocal or latent word-selection contribution; no causal lexicon, linguistic morphology or meanings inferred.",
+    "nonconfirmation": "No residual lead under this frozen component and exact conditional law. Does not prove local sufficiency, erase1308unconditionalgain or undo1374coupling.",
+    "capacity_failure": "This exact-law comparison is computationally unexecuted, not scientifically negative. No automatic approximate null."
+  },
+  "predecessors": {
+    "GDT1374": "Uniform independence contrast is already positive; this is a prospective stronger local-law reference, not revised1374significance.",
+    "GDT1308": "Already demonstrates unconditional whole-frequency predictive gain against fixed M1 and fitted synthetic controls. New contribution must specifically be conditional on complete stream inventories and masks.",
+    "GDT1280": "Its per-word bigram-preserving order alternative lacked required capacity. This different sample space exchanges partners and weights local probabilities; it does not preserve per-word bigram counts or reopen1280.",
+    "GDT1333": "Different expanded-primitive fusion choice. No word/siteincrement there is not a general no-whole-information result.",
+    "GDT1371": "Category allocation can dominate gains; conditional pairing gain still need not identify literal memorization."
+  },
+  "decision_budget": "At most10minutes source-free definition/capacity decision; do not launch a large permanent solver until a locked state-count census establishes feasibility. A selected implementation needs its own inclusive validation/publication budget.",
+  "claim_limits": [
+    "Plug-in frozen probabilities can be miscalibrated. Rejection concerns their specified conditional law, not all local writing.",
+    "Native target data already exposed; this is selected after1374positive, not independent confirmation.",
+    "No new meanings, class labels, corpus, images, reserve or source alphabet."
+  ],
+  "input_hashes": {
+    "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md": "f06f73b41eee9874b49bf992008b9e446a169c5b9bf65eabad2759c3c3c80822",
+    "experiments/yolo/gdt1280_word_bigram_order_capacity/REPORT.md": "b29e5b3ec55e520631ecaf7b4ec9276a3b92b7047f21f6024bedc2bef3130f14",
+    "experiments/yolo/gdt1333_fusion_flank_residual_choice/REPORT.md": "f509ee9a98b8f453b0c8b23e02baf3730b538d2047bc64ae0a57a95ee0b4ecfe"
+  },
+  "append_only_corrections": [
+    {
+      "utc": "2026-10-13T06:51:37.467006+00:00",
+      "prior_file_sha256": "e9a819396612aa256df31d0e52c78d50ba2ca1ef86cd3ebaf7bdb230b4274434",
+      "status": "CORRECTION_INNER_AND_FULL_WEIGHTS_EQUIVALENT_UNDER_FIXED_ENDPOINTS",
+      "original_retained": "The original wording recommending ALL cross-class edges remains above as historical proposal text. My accompanying message incorrectly called INNER insufficient.",
+      "correction": "With the1374 exact first and last units fixed within each full-mask pool, each omitted edge factor depends on only one stream, giving a row-only or column-only matrix term. Every assignment uses every row and column once, so these factors cancel. The existing INNER-score weights and full local-word probabilities induce exactly the same conditional assignment distribution when their transition tables agree.",
+      "proof": "For first-to-second transition, first is a pool constant and second belongs wholly to S0_i or S1_j. For penultimate-to-last, last is constant and penultimate belongs wholly to one stream. First-unit and same-class transitions also depend on a single stream. Thus logPij-Cinnerij=a_i+b_j+constant; all permutation totals differ only by a constant.",
+      "consequence": "Full-word M1 remains a coherent implementation choice and provides a cancellation check; it does not fix an error in1374INNERscore."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "status": "CONDITIONAL_FINDING_RETAINED_SELECTION_AND_REPRESENTATION_CEILING",
+  "date": "2026-10-13",
+  "reviewer": "independent_anchor_review",
+  "budget_minutes": 6,
+  "scope": "Protocol/source-code/frozen-model review and source-free finite controls only. No new native counts, images, source acquisition, word meanings, or hypothesis selection.",
+  "question": "Can the GDT1374 partner excess be forced by the strict parser, fixed endpoints, mobile-pool selection or an unmodelled acquisition channel?",
+  "conclusion": "No algebraic parser/endpoint/mobile-selection inevitability found. The observed conditional excess is valid within its declared represented population and exchangeability assumption. A nonfactorizing selection channel can produce the same excess from independent pre-selection streams; this remains a logical rival, not an established explanation of the manuscript.",
+  "checks": [
+    {
+      "name": "unit_code",
+      "result": "The22unit alphabet is uniquely decoded under the supplied regex. It is NOT prefix-free: s prefixes sh. However no codeword starts with h, so that prefix relation cannot create alternative concatenations. Codes beginning c are ch/ckh/cth/cph/cfh, with distinct second characters and no standalone c; all other cases are fixed single letters except sh. Greedy decoding therefore recovers any complete sequence.",
+      "finite_supplement": {
+        "synthetic_lengths": [
+          1,
+          2,
+          3
+        ],
+        "cases": [
+          22,
+          484,
+          10648
+        ],
+        "failures": [
+          0,
+          0,
+          0
+        ]
+      },
+      "claim_ceiling": "This proves representation closure, not that22units are native glyphs. Splitting compounds under another representation could change masks, model conditioning and measured effect."
+    },
+    {
+      "name": "fixed_mask_and_endpoints",
+      "result": "Given a fixed mask, each endpoint is a constraint on exactly one stream. Fixing them therefore factorizes across streams. All exchanges retain them and cannot create a parser-illegal unit word. n>=4 and an inner cross-class edge depend on the mask, not the pairing."
+    },
+    {
+      "name": "unclassified_m",
+      "result": "Exclusion of any word with m is an intersection of per-stream no-m conditions. Recombining retained streams does not introduce m. This exclusion is not itself a coupled accept/reject condition at the represented-stream level."
+    },
+    {
+      "name": "mobile_pool_selection",
+      "result": "Score mobility is a property of the entire assignment orbit. Relabelling the observed partner permutation does not change whether assignment totals vary. Selecting mobile pools can enlarge the effect scale relative to all pools but does not itself choose positive observed excess. Report already preserves the separate all-pool denominator."
+    },
+    {
+      "name": "GDT1306_comparison",
+      "result": "1306 concerns survival after later BPE merges and demonstrated cohort-dependent endpoint profiles.1374 does not perform that later merge-survival operation: it uses unchanged22unit words and complete streams. Thus1306 is a warning about representation, not a demonstration that1374 is an artefact. Frozen training labels and scorer can inherit stable acquisition/representation structure; no native alphabet or phonetic class follows."
+    }
+  ],
+  "source_free_selection_counterexample": {
+    "design": "Use fixed mask [1,0,1,0], first q and last y. Independently choose U uniformly from a,o and V uniformly from d,k. Candidate word is qUVy. The four equiprobable outputs are qady,qaky,qody,qoky. All are legal under the actual unit regex and frozen labels.",
+    "nonfactorizing_selection": "A hypothetical readability/admission flag retains only (U,V)=(a,d) or(o,k). Conditional on being retained, streams are perfectly coupled although they were independent before selection.",
+    "streams": "Retained S0 are [a,y],[o,y]; S1 are [q,d],[q,k]. Same mask, endpoint, lengths and unit inventories as the swaps.",
+    "frozen_synthetic_scorer": "At inner i=2, give context previous=a nine d counts and previous=o nine k counts; all other22alphabet next counts zero. With alpha=.5 the preferred probability is9.5/20=.475, swapped probability.5/20=.025. This scorer is synthetic and could be learned from an independently selected training set under the same observation channel.",
+    "observed_identity_total": "2*ln(.475)",
+    "swapped_total": "2*ln(.025)",
+    "exact_uniform_assignment_mean": "ln(.475)+ln(.025)",
+    "excess_nats_per_edge": 1.4722194895832201,
+    "interpretation": "This is a selection-only existence proof, not a native frequency assertion or evidence that the actual definite-space/readability labels use this criterion. All four invented outputs have equal pre-selection probability. No word meanings assigned."
+  },
+  "exchangeability_limit": "Conditioning on a common page, Currier, mask and endpoints does not make individual positions exchangeable. Hidden local context can alter both stream distributions, and an acquisition label can depend jointly on both. Such alternatives are outside the rejected within-pool independent/exchangeable pairing law.",
+  "recommended_claim": "Observed represented stream partners have better frozen local join scores than uniform exchanges in the retained pools. A mechanism must explain that conditional pattern, but its explanation may lie in local spelling compatibility, omitted context or observation selection rather than intentional two-stream assembly. Existing report already states most of this ceiling; no numeric result reversal is justified.",
+  "not_recommended": "Do not launch an unchanged gap/wordhood audit or declare GDT1374 an artefact without an independently specified native selection mechanism. Do not treat this source-free possibility as a rescue of the rejected post-selection uniform-pairing null.",
+  "sources": [
+    {
+      "path": "experiments/yolo/gdt1374_class_stream_partner_exchange/METHOD.md",
+      "sha256": "d572c7da27f1970d7e54eb4350bd3d31c32fc52e3eedd8a5e795234549531814"
+    },
+    {
+      "path": "experiments/yolo/gdt1374_class_stream_partner_exchange/REPORT.md",
+      "sha256": "8fb79586a2c0dfa139897b0ac10c3513445f08e07a761a659cfa560d9dfe7a08"
+    },
+    {
+      "path": "experiments/yolo/gdt1374_class_stream_partner_exchange/src/run.py",
+      "sha256": "f483f78aa81ce4d197c825db9ca7cb31f6f8b0e58da846ccc2f47c2090e9b108"
+    },
+    {
+      "path": "experiments/yolo/gdt1306_common_stage_merge_survival/REPORT.md",
+      "sha256": "9aa9cde0748157f19952211083fdf7d38d048d6ec032c1d2cdd9198f3a82f7f9"
+    },
+    {
+      "path": "experiments/yolo/gdt1264_interior_binary_alternation/artifacts/TRAIN.json",
+      "sha256": "e81f3b68d1a3d7b9ea7705f56cf722eee64934ea79509b71229e208fca3a96e8"
+    },
+    {
+      "path": "experiments/yolo/gdt1279_strict_inner_symbol_prediction/artifacts/MODEL.json",
+      "sha256": "b49739247d1e4104814d57e96e6c2ddf25b6f5a8ac7890d1d15f94f9fdf6beb8"
+    }
+  ]
+}
