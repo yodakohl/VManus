@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: text.
-Latest decision: 888partial.
-Working files: TABLE888.
-Assumptions: source-only.
-Resume: Find text parallel.
+Task: CV.
+Latest decision: 1053raw.
+Working files: IDEA1053.
+Assumptions: 6C/3V unbound.
+Resume: New source evidence.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public5de5c4ab8.
+Public7ec283752.

@@ -1,0 +1,105 @@
+{
+  "title": "RAW: greedy CV syllabary with a bare-consonant prefix forbids redundant split vowel spellings",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED_ON_MANUSCRIPT. Complete invented phonemic writer uses18CV signs,3isolated-vowel signs and1bare-consonant prefix. Greedy CV fusion gives a canonical inverse obligation beyond ordinary27-entry prefix-code coverage: no bare-consonant code may be followed by an isolated-vowel sign in the same word. All signs remain abstract; no Voynich sound or meaning assignment.",
+  "scope": "method",
+  "design": {
+    "source": "Finite document of nonempty phoneme strings over C={p,t,k,m,n,s}, V={a,i,u}; spaces preserve source word boundaries. These nine labels are hypothetical sounds in a deliberately tiny teaching inventory, not an attested historical language or a plausible inventory established by fitting. No stress, tone, long-vowel distinction, other consonant or diacritic is silently omitted. A source with additional distinctions is outside this exact model.",
+    "physical_alphabet": "22distinct abstract written signs: one for each of18CV combinations, three separate Va,Vi,Vu signs and one H. Names such as pa or Va denote ONEsign each. One globally fixed bijection to a candidate22unit drawing inventory is an unassigned key; no extra glyph, implicit control or native assignment is provided.",
+    "writer": [
+      "Scan each source word left to right. If current phoneme is a consonant followed immediately by a vowel, write their one CVsign and advance two phonemes.",
+      "If current phoneme is a consonant not followed by a vowel, write H then its Ca sign and advance one phoneme. Ca here is merely a reusable explicit consonant selector; no a sound is emitted in this two-sign branch.",
+      "If current phoneme is a vowel, write its isolated Vsign and advance one phoneme.",
+      "Preserve each source word space. No choice, context lexicon, hidden mode, additional pass, null sign or reset."
+    ],
+    "reader": "Scan written signs. Any non-H sign has its fixed CV or V value. H consumes the following sign, which must be one of the six Ca signs, and emits that consonant alone. Reject terminal H or any other H follower. Re-encode the recovered phoneme word and require exact equality to enforce canonical CV fusion. Document word boundaries are retained.",
+    "proof": "The21singleton codes and six H+Ca codes form a prefix-free27entry alphabet. Decoding is unique. The only extra canonicality restriction is that a decoded bare-C token may not be immediately followed by a Vtoken: those phonemes would have been greedily fused. Every other adjacent token pattern is already the greedy decomposition.",
+    "falsifier": "For any frozen global key, require ordinary prefix parse and absence of H F V anywhere within one complete written group, where F is one of the six Ca signs and V one of three isolated-vowel signs. A single retained occurrence of such a three-sign sequence contradicts that key even if ordinary prefix-code coverage succeeds. Also retain no terminal/standalone H and no H follower outside the sixCa set. Source inventory and actual key are still unbound; no native census selected.",
+    "examples": {
+      "patak": [
+        "pa",
+        "ta",
+        "H",
+        "ka"
+      ],
+      "paak": [
+        "pa",
+        "Va",
+        "H",
+        "ka"
+      ],
+      "p": [
+        "H",
+        "pa"
+      ],
+      "pa": [
+        "pa"
+      ],
+      "pai": [
+        "pa",
+        "Vi"
+      ],
+      "pta": [
+        "H",
+        "pa",
+        "ta"
+      ]
+    },
+    "paid_cost": "Learner memorizes21syllabic/vowel signs and one H rule; consonant clusters and word-final consonants cost two signs each. Reader needs one sign of lookahead. All source phonemes are recovered, including hiatus and repeated vowels. No whole-word dictionary.",
+    "predecessor_constraints": {
+      "GDT1248": "Already proves ordinary27entry coverage for cfh/cph heads with sixfollowers. That old coverage is NOTnew evidence for this proposal. q needs11/12followers in that construction and cannot serve this exact sixfollowerH. Many other heads are excluded by1234obligations; all need review before selection. The cfh/cph tables affect fewerthan0.7percentofstrictgroups, hence any such binding would force bareconsonant-containing sourcewords to be comparably rare on that panel.",
+      "GDT1364": "Three source vowel qualities are NOTthree fixed written vowel carriers: each quality has sixdifferent CVsigns plus its isolatedsign. Twenty-one vowel-bearing signs are available. Thus the3/5carrier exclusion doesnot directlyapply. This neither assigns vowels nor claims nativecoverage.",
+      "GDT1357": "Its even-run literal quoting condition is not this model. H is not a source phoneme and is never quoted as a literalH; internalHintroduces a bareconsonant. Do not use survival of anothermarker test as success.",
+      "IDEA954": "That fixed learned semantic language and its qo grammaticalcontrols remain rejected. This proposal has no control functions, relational grammar, nominal arguments or quoted names; it writes arbitrary strings from a fixed phoneme inventory. It is not a repair of those controls.",
+      "IDEA1012": "That ambiguous default-vowel/doubling law is different. Here separate CVsyllables and prefixbareC codes give exact phonemic recovery; bareC followedV is prohibitedcanonically.",
+      "GDT1181_and1219": "1181learned merged fragments with fourstatecounter;1219has126source-trained defaults. Neither is adopted or rerun.",
+      "frequency": "The writer is deterministic and injective on complete source phoneme words, hence exact word identity frequencies are preserved. It cannot rescue the original failed fixed source/type-frequency comparisons by changing the sign key. Phonemic mergers or alternative boundaries would require a different independently justified source projection, not free exceptions."
+    },
+    "status_and_limits": "A source-free complete writer, NOTan established phonetic interpretation. No identified historical source has this sixconsonant/threevowel inventory. Its severe inventory and bareconsonant-rarity obligations may make it useless; do not expand theinventory after failure. No nativekey, statisticalfit, semanticinterpretation or translation.",
+    "checks": {
+      "status": "PASS_SOURCE_FREE_ONLY",
+      "phoneme_words_including_empty": 7381,
+      "output_sequences_including_empty": 11155,
+      "examples": {
+        "patak": [
+          "pa",
+          "ta",
+          "H",
+          "ka"
+        ],
+        "paak": [
+          "pa",
+          "Va",
+          "H",
+          "ka"
+        ],
+        "p": [
+          "H",
+          "pa"
+        ],
+        "pa": [
+          "pa"
+        ],
+        "pai": [
+          "pa",
+          "Vi"
+        ],
+        "pta": [
+          "H",
+          "pa",
+          "ta"
+        ]
+      },
+      "noncanonical_same_decoding": {
+        "H_pa_Va": "pa",
+        "canonical": [
+          "pa"
+        ]
+      }
+    },
+    "control_source": "research_registry/proposals/production_origin_supply_20261003/CV_BARE_CONSONANT_CANONICAL_CONTROL_20261013.py",
+    "control_sha256": "646e6b4a1dc7e78faa02b06a2c6a894d9a07c1dea18fa9e783236ad6881f48bb",
+    "novelty_review": "Live route; bounded syllabary/coda/defaultvowel searches and duplicates;1248primary+followups;1364primary;954curatedexactfailures;1012retainedscope;1181/1219methods;1357earlierprimaryread. No identical fullwriter found in bounded navigation, not exhaustive novelty. The only proposed new consequence is canonical phoneme-packing, not freecodecoverage.",
+    "access": "No new nativepayload, image, sourcecorpus, historical acquisition or word meaning. Only sourcefree enumerations.",
+    "translation_decision_note": "A native canonicality failure would exclude this exact invented sixC/threeV writer only. A pass would leave unassigned phonemes and language, so it would not by itself advance a reading. Therefore no native triple census is recommended now: first an independently justified actual source phoneme/word contract must make this exact inventory and sparse bare-consonant use relevant. With such a source, failure would stop its decoder and survival would only authorize a separately fixed source-word fit; without it both outcomes leave translation status unchanged. The current deliverable is the full RAW algorithm and its distinct falsifier, not an executed or selected experiment."
+  }
+}
