@@ -1,3 +1,7 @@
+## 2026-10-13 — IDEA1050 source found, but no discriminating writer comparison
+
+IsidoreV25.17 explicitlynames D-to-R inexpandedprecadium/precarium; completeonlineparagraphand1472printreviewed separately, preservingaditur/additur andunresolvedfinal-m expansion. Firstheadwordis adefinition, notclearindependentordinaryuse. Literaleditrelations survivealphabetrenaming. A broaddualchannelmodel containsanysharedwriter bysettingitswordcodeequalto thatwriter, soequalforms cannotchoosebetweenthem. No nativeeditcensus, keyorwordmeaning. Nextdecidewhether completefrozenwriterscanmake differentpredictions; noaddedmarkermerelytomakeawinner. [Decision](research_registry/proposals/production_origin_supply_20261003/WORD_EXPLANATION_SELECTION_20261013.json).
+
 ## 2026-10-13 — GDT1378 closes the strict nine-field calendar writer
 
 A complete inventedwriter fromtheboundcalendar source predictsF8=5:14:42:39 underinjective decimaldigits+separatorinto22units. All162ZL/372IT/114RFstrict complete9groupPlines failits necessary10unitlength; no equalitypattern decision orarithmeticfitreached.350/159/402unscorable linesremainunknown. Independent source/pairwisevalidationPASS. Thehistoricalsource remainsvalid; no generalcalendar/numericexclusion, noformatrepair. PipelinedIDEA1050 literalwordexplanation is RAW/INCOMPLETE, nextforprimary/source review, notselectedornativetested. [Report](experiments/yolo/gdt1378_calendar_fixed_epoch_field/REPORT.md).

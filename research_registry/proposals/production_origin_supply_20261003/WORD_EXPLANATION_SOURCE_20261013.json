@@ -1,0 +1,109 @@
+{
+  "status": "SOURCE_ONLY_EXPLICIT_LETTER_SUBSTITUTION_PARTIAL_USE_MENTION_BINDING",
+  "idea": "IDEA001050",
+  "date": "2026-10-13",
+  "reviewer": "translation_path_review",
+  "primary_passage": {
+    "author": "Isidore of Seville",
+    "work": "Etymologiae",
+    "reference": "V.25.17, De rebus",
+    "domain": "Legal terminology within an encyclopedia; no herb or medical identification claimed",
+    "edition_url": "https://www.thelatinlibrary.com/isidore/5.shtml",
+    "complete_paragraph_transcription": "Precarium est dum prece creditor rogatus permittit debitorem in possessione fundi sibi obligati demorari, et ex eo fructus capere. Et dictum precarium quia prece aditur, quasi precadium, R pro D littera commutata.",
+    "transcription_status": "Complete paragraph from online Latin transcription, not a diplomatic transcription of the1472 print. Modern punctuation and capitalization retained.",
+    "named_letters": [
+      "R",
+      "D"
+    ],
+    "explicit_operation_clause": "R pro D littera commutata",
+    "literal_expanded_operation": {
+      "source": "precadium",
+      "replace": "d",
+      "with": "r",
+      "one_based_position": 6,
+      "result": "precarium"
+    },
+    "interpretation": "The text explicitly names R replacing D. This is not merely an edit operation guessed from two similar words. Its folk-etymological account is not asserted to be correct linguistic history.",
+    "occurrence_roles": [
+      {
+        "form": "Precarium",
+        "location": "First word of first sentence",
+        "role": "Defined legal headword in a denotational explanation. This is still a definition, not unambiguous ordinary narrative use."
+      },
+      {
+        "form": "precarium",
+        "location": "Second sentence after Et dictum",
+        "role": "Explicit metalinguistic name mention"
+      },
+      {
+        "form": "precadium",
+        "location": "After quasi",
+        "role": "Explicit hypothetical etymological operand, not asserted independently attested ordinary vocabulary"
+      },
+      {
+        "form": "R",
+        "location": "After precadium",
+        "role": "Explicit one-letter name"
+      },
+      {
+        "form": "D",
+        "location": "After pro",
+        "role": "Explicit one-letter name"
+      }
+    ]
+  },
+  "printed_primary_witness": {
+    "institution": "Badische Landesbibliothek Karlsruhe",
+    "catalog_title": "Etymologiae; Liber quintus de auctoribus legum",
+    "catalog_imprint": "Augsburg,1472",
+    "urn": "urn:nbn:de:bsz:31-128502quua",
+    "pdf_url": "https://digital.blb-karlsruhe.de/download/pdf/5930082.pdf",
+    "pdf_page_one_based": 9,
+    "pdf_page_zero_based": 8,
+    "location": "Lower-middle paragraph beginning Precarium; complete paragraph occupies four print lines and ends before Mutuum",
+    "pdf_sha256": "ada3e2d04547fef9c8178f7af940f64f282c97523087898d239f6d702933177d",
+    "inspection": "PDF downloaded and page9 rendered and manually viewed; do not use noisy OCR as exact printed letters.",
+    "visually_observed_variants": [
+      "Print reads prece additur, while selected online transcription reads prece aditur.",
+      "The operand at the end of the line appears as precadiu with final-m abbreviation or omission; it is not visibly a fully spelled precadium. The presence and exact extent of its abbreviation bar need a separate close diplomatic reading.",
+      "The following line visibly names r pro d littera commutata."
+    ],
+    "no_silent_expansion": "precadiu[m] is an editorial expansion convention, not a claim that all nine expanded letters are nine printed glyphs. Full online paragraph and printed evidence remain separate."
+  },
+  "other_transmitted_reading": {
+    "url": "https://la.wikisource.org/wiki/Etymologiae_(Isidorus)",
+    "reference": "V.25.17, Migne-derived text, column207D",
+    "observed_search_excerpt": "Et dictum precarium, quia prece additur, quasi prece adium, r pro d littera commutata.",
+    "inspection_level": "Indexed primary-text excerpt, not independently checked page image; not adopted as a second exact experiment text.",
+    "consequence": "prece adium cannot silently be collapsed into precadium: spacing and the extra e affect the literal string relation. Do not pool editorial/transmitted versions."
+  },
+  "source_only_literal_checks": {
+    "expanded_lengths": [
+      9,
+      9
+    ],
+    "hamming_distance": 1,
+    "changed_position": 6,
+    "preexisting_r_position": 2,
+    "input_equality_pattern": "ABCDEFGHI",
+    "output_equality_pattern": "ABCDEBFGH",
+    "warning": "Patterns are separately canonically relabeled strings; the actual common-letter alignment is precad-ium versus precar-ium. No Voynich spelling or symbol value assigned."
+  },
+  "candidate_and_rival": {
+    "candidate": "A single shared spelling channel for complete ordinary prose, quoted operands and letter mentions. Under a fixed injective letterwise channel, replacing encodedD by encodedR at the specified position must turn encodedprecadium into encodedprecarium; the encodedR must also equal position2. The defined headword and later mention must share their lexical spelling under a declared case convention.",
+    "rival": "An ordinary lexical codebook plus a separate quotation/letter channel can preserve the stated semantic explanation while allowing the ordinary headword representation to differ from its quoted spelling. A loose etymological paraphrase likewise need not preserve the exact literal operand relation.",
+    "discriminating_consequence": "Only a separately fixed complete writer and source-to-target alignment makes the cross-channel equality predictive. Finding a pair of one-edit native forms alone cannot choose the candidate over the rival.",
+    "scope_limit": "This paragraph provides explicit operation, operands, letter names and a repeated defined headword. It does NOT yet provide a clearly nonmetalinguistic use of that word in a separate ordinary sentence or episode. The strongest IDEA1050 use-versus-mention binding is therefore incomplete."
+  },
+  "access_and_review": {
+    "route_read": true,
+    "idea_card_read": "IDEA001050",
+    "bounded_source_search": "Primary Isidore texts; herb chapter17 did not supply a verified explicit named-letter edit in the bounded search. Grammar examples1.35 supply edits but not clearly separate ordinary use. Candidate5.25.17 retained without forcing an herbal match.",
+    "targeted_prior_lookup": "Bounded ideas search precarium precadium returned no card; targeted proposal-file text search also returned no match. This is navigation only, not a claim of absent related research.",
+    "native_payload_read": false,
+    "word_meanings_assigned": false,
+    "public_voynich_approaches_searched": false,
+    "source_novelty_not_established": true
+  },
+  "decision": "Retain complete primary passage and unresolved spelling/use-mention limits as source evidence. Do not select a native mapping, quote-only hit, lexical meaning or full writer from this source-only result."
+}
