@@ -1,0 +1,237 @@
+{
+  "status": "SOURCE_ONLY_PRIMARY_WORKED_EXAMPLE_NO_NATIVE_ASSIGNMENT",
+  "idea": "IDEA000126",
+  "reviewer": "translation_path_review",
+  "date": "2026-10-13",
+  "source": {
+    "title": "Tabulae astronomicae Alphonsinae",
+    "catalog_author": "Johannes Danck de Saxonia",
+    "catalog_imprint": "Venedig, 1483-07-04",
+    "library": "Bayerische Staatsbibliothek",
+    "identifier": "bsb00060314; BSB-Ink T-6; GW 1257; 4 Inc.c.a. 380#Beibd.1",
+    "catalog_metadata_url": "https://daten.digitale-sammlungen.de/bsb00060314/image_3",
+    "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "pages": [
+      {
+        "image": 3,
+        "signature": "a2r",
+        "role": "Opening sexagesimal place definitions and chronological arithmetic rule",
+        "url": "https://daten.digitale-sammlungen.de/0006/bsb00060314/images/bsb00060314_00003.jpg",
+        "sha256": "43950bda41b2161372aa9bb5a44db2a523cecd05230d657ed9db064bae0b6abb"
+      },
+      {
+        "image": 4,
+        "signature": "a2v",
+        "role": "Worked chronological example begins in lower paragraph",
+        "url": "https://daten.digitale-sammlungen.de/0006/bsb00060314/images/bsb00060314_00004.jpg",
+        "sha256": "d00d2e8596331fe8c7b5de544169a92b201ccec7ad3b99480efba663169c56c4"
+      },
+      {
+        "image": 5,
+        "signature": "a3r",
+        "role": "Chronological example completion at top; era conversion in following canon",
+        "url": "https://daten.digitale-sammlungen.de/0006/bsb00060314/images/bsb00060314_00005.jpg",
+        "sha256": "41a37ffcab4e78f49f167b8e4d415d3ebf6f50d10bbf1b67bc101d20b2e85290"
+      }
+    ]
+  },
+  "access": {
+    "preferred_loc_url": "https://www.loc.gov/item/2021667703/",
+    "preferred_loc_result": "HTTP403 both web and direct JSON access; no payload obtained",
+    "fallback": "Public BSB digitization of printed primary edition; images3-5 directly downloaded and manually viewed",
+    "external_search_scope": "Historical astronomical source material only; no public Voynich approaches",
+    "native_data_access": "None",
+    "targeted_prior_check": "Existing IDEA126 proposal read; bounded Alphonsine/canon/sexagesimal registry search; literal bsb00060314 search in proposal/docs/experiment Markdown and JSON found no match. This is not proof of comprehensive historical novelty."
+  },
+  "notation": {
+    "normalized_vector_order": [
+      "fourths",
+      "thirds",
+      "seconds",
+      "primes"
+    ],
+    "whole_day_place_values": [
+      216000,
+      3600,
+      60,
+      1
+    ],
+    "warning": "These are whole-day sexagesimal orders, not hours/minutes/seconds of a fractional day. Leading zero components below are editorially supplied, not always printed."
+  },
+  "manual_reading": {
+    "input_description": "Second day of July,1326 completed years plus6 months plus2 days; next canon explicitly refers to incomplete year1327.",
+    "components": [
+      {
+        "input": "1000 completed years",
+        "image": 4,
+        "printed_orders": {
+          "fourths": 1,
+          "thirds": 41,
+          "seconds": 27,
+          "primes": 30
+        },
+        "normalized_vector": [
+          1,
+          41,
+          27,
+          30
+        ]
+      },
+      {
+        "input": "300 completed years",
+        "image": 4,
+        "printed_orders": {
+          "thirds": 30,
+          "seconds": 26,
+          "primes": 15
+        },
+        "normalized_vector": [
+          0,
+          30,
+          26,
+          15
+        ]
+      },
+      {
+        "input": "20 completed years",
+        "image": 5,
+        "printed_orders": {
+          "thirds": 2,
+          "seconds": 1,
+          "primes": 45
+        },
+        "normalized_vector": [
+          0,
+          2,
+          1,
+          45
+        ]
+      },
+      {
+        "input": "6 completed years",
+        "image": 5,
+        "printed_orders": {
+          "seconds": 36,
+          "primes": 31
+        },
+        "normalized_vector": [
+          0,
+          0,
+          36,
+          31
+        ]
+      },
+      {
+        "input": "6 completed months through June",
+        "image": 5,
+        "printed_orders": {
+          "seconds": 3,
+          "primes": 1
+        },
+        "normalized_vector": [
+          0,
+          0,
+          3,
+          1
+        ]
+      },
+      {
+        "input": "2 days",
+        "image": 5,
+        "printed_orders": {
+          "primes": 2
+        },
+        "normalized_vector": [
+          0,
+          0,
+          0,
+          2
+        ]
+      }
+    ],
+    "printed_total_in_following_canon": [
+      2,
+      14,
+      35,
+      4
+    ],
+    "printed_diluvium_to_christi_era_offset": [
+      5,
+      14,
+      42,
+      39
+    ],
+    "printed_total_after_adding_era_offset": [
+      7,
+      29,
+      17,
+      43
+    ],
+    "transcription_status": "One manual visual reading by delegated reviewer; root independent image reading requested. Abbreviation expansion and normalized vectors are editorial representation."
+  },
+  "independent_arithmetic_reconstruction": {
+    "method": "Direct integer arithmetic in short shell Python snippet; no fitted constants, decoder or corpus created",
+    "component_days": [
+      365250,
+      109575,
+      7305,
+      2191,
+      181,
+      2
+    ],
+    "sum_days": 484504,
+    "sum_base60": [
+      2,
+      14,
+      35,
+      4
+    ],
+    "era_offset_days": 1132959,
+    "combined_days": 1617463,
+    "combined_base60": [
+      7,
+      29,
+      17,
+      43
+    ],
+    "day_sum_carry_trace": {
+      "raw_column_sums": [
+        1,
+        73,
+        93,
+        124
+      ],
+      "normalized": [
+        2,
+        14,
+        35,
+        4
+      ]
+    },
+    "era_addition_carry_trace": {
+      "raw_column_sums": [
+        7,
+        28,
+        77,
+        43
+      ],
+      "normalized": [
+        7,
+        29,
+        17,
+        43
+      ]
+    },
+    "printed_vs_reconstructed": "Inputs, ordered numerical components and both totals are manually read primary facts. Decimal equivalents, leading zeros, explicit carry traces and machine equality checks are our reconstruction, not additional printed historical fields."
+  },
+  "chronology_and_limits": [
+    "Use the source completed-year convention:1326 complete years, not1327 complete years.2July1327 is modern shorthand for its explicit incomplete-year1327 example.",
+    "The opening rule uses365days per completed year plus the integer quarter-year count, and distinguishes bissextile month rows. This is not modern Gregorian conversion.",
+    "484504 is the source era day tally, not a asserted Julian Day Number; do not import a day-zero convention or real flood date.",
+    "The preserved edition is1483. Its worked1327 example does not by itself date this copy or prove every textual detail was available earlier.",
+    "This establishes an actual complete chronological/era-conversion worked computation within astronomical canons. It is not yet a full planetary-longitude calculation with complete tables, interpolation, epoch and rounding.",
+    "The numeric example appears in explanatory prose, not an established compact field-only execution ledger; target serialization remains an independent hypothesis.",
+    "No eligible Voynich record, source-to-target correspondence, numeric symbol key, word meaning, historical dependence or translation is supplied."
+  ],
+  "research_consequence": "IDEA126 now has a concrete primary arithmetic example suitable for a bounded source-only protocol discussion; it does not authorize a native decoder or overturn any earlier astronomical route decision."
+}

@@ -1,3 +1,7 @@
+## 2026-10-13 — IDEA126 gains a complete historical calendar example
+
+BSB1483 Alphonsinecanons a2v–a3r explicitly supply six chronologicaladdends, their total2,14,35,4 inwhole-daybase60, anderaoffset5,14,42,39 giving7,29,17,43. Rootanddelegatemanualreadings agree; integer/columncarry replayPASS. This is actual sourceevidence, not aVoynichfinding orfullplanetarymodel. The old969/972/973/974/992 writingfailures remain. A historicallyattested compactfieldorder is not required for explicitexploratory authorship; anyinventedwriter mustbefullydeclared andkeptseparatefromsourcefacts. Next draftonecalendarwritingcontract before nativeframes, retainingwordprofile requirements. [Decision](research_registry/proposals/production_origin_supply_20261003/ARITHMETIC126_SELECTION_20261013.json).
+
 ## 2026-10-13 — GDT1377 binds the missing neighbor and excludes sh/cph
 
 The prospectively fixed f18v.8 groups1–3 are `tolol sh cphoy` in allthree alternate readings. Both sharedspaces are definite and allgroups have a unique full22unitparse. Terminal l cannot rescue the sh|cph obligation; independent padded inverse/forward check confirms the fixedkey failure. Original1376openrun counts remain valid under their oldscope; no allkeycensus, generalmetathesis ban or meaning. Stop this capacity branch without new discriminating sourcebinding. Next navigation is IDEA126 primary/followup review, not a selected arithmetic decoder. [Report](experiments/yolo/gdt1377_boundary_metathesis_bound_context/REPORT.md).
