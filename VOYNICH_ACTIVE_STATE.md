@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1369 retains four under open-edge partition consistency
+
+On the same1368triples reconstructed into3267/3071/3069runs (IT/RF/ZL), exact local1/2group representative-partition minimum remains4. AllK4window survivors pass; K5retains86/78/93, rejecting oneZLset at f50r.5 through00100. One unknownoutsidefragment peredge is permitted, so no lineframing is invented. Independent matching validator checks allcandidates andwitnesspartitions. These are not completecarriers, phonetics or oneglobalsourceword partition. Stop further count/partition elaboration pending independent sourceword/carrier evidence. [Report](experiments/yolo/gdt1369_open_edge_fragment_partition/REPORT.md).
+
 ## 2026-10-13 — GDT1368 limits nucleus exclusion under fragmented words
 
 If a sourceword spans at most two visible groups and retains a fixed nonempty carrier, every true triple must hit a carrier representative. Retained1233triples have exact RAW_CHARminimum4 in everyreader (14700/9724/10693windows IT/RF/ZL), canonical a/c/o/y; all816three-character alternatives have explicit misses. K5is notexcluded bythis necessarytest. No actual vowels, carrierparse, consistent partition or coverage of omittedwindows; no direct matchedsample comparison with oldwholewordminima. Independent fullcertificate validationPASS. [Report](experiments/yolo/gdt1368_fragment_window_nucleus_capacity/REPORT.md).

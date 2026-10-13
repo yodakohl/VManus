@@ -1,0 +1,28 @@
+{
+  "status": "PROSPECTIVE_OPEN_EDGE_PROOF_VALIDATOR_FROZEN",
+  "utc": "2026-10-13T04:43:34.074151+00:00",
+  "validator_sha256": "0195b5a247fb28b050c5c9d3794e11c75cd141bfe8316791b6633577d8e7d34f",
+  "method_sha256": "54d7413655b8554bf85993c6dc3f209a80cb605a1ce7948e58ff8bc138d29362",
+  "independence": "No1369primaryrunner/results read or imported. No newnative runs/candidate decisions computed by reviewer before freeze. Oldwindow alphabet reused, not recomputed from retainedrununion.",
+  "proof": [
+    "Restrict anytrueB2sourcewordpartition to anobservedrun. At mostone insidegroup at each edge can belong to a sourceword crossing thatedge. Every fullycontained block has length1or2andmustcontainahit. This yields thedeclared necessaryopen-edge condition without treatingline/gap edges as sourcewordboundaries.",
+    "Every unhitgroup must pair with an adjacenthitgroup, except an endpointunhitmay pair with a virtualoutsidehit. Eachhit canserve onlyone unhit. A matching coveringallunhits is equivalent to a legalpartition: matched realedges formdisjoint2blocks; unmatchedhits become1blocks; externalmatchedzeros are omittededgefragments.",
+    "Triplehits arenot sufficient:00100hits eachtriple butonehitcanaccommodate atmostonezero plus twofreeedgezeros, fewerthanthefourzeros. Noopen-edgepartitionexists.",
+    "Canonical edges/backtrackingchoose onlyone deterministicvalid witness and carrynohistoricalwordboundaryclaim. Independentlocalpartitions canrequire mutuallyincompatible outsidepartners, so survivingeveryrun isnot a globalpartition or actualcarrierparse."
+  ],
+  "source_free_controls": {
+    "binary_patterns_lengths_3_to_12": 8184,
+    "matching_equals_exhaustive_blocks_and_canonical": true,
+    "counterexample": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "partition_implies_triple_hits": true
+  },
+  "validation_plan": "Verifylock; reconstructunique oldrows andmaximalruns withfullscope/ID/unit/seamchecks; regenerateeverytripleexactly; percharwindowbitsets enumerateK4/5prefilter; independentmatching evaluatesallcandidatefirstfailures; separate recursiveprefixwitness rebuilds specifiedcanonicaledge/singletonpreference. ComparefullRUNS andRESULT.",
+  "retained_stops": "1368minimum4 remains; no<=3rerun, no>=6search, no newsource/phonetickey. This strengthens a previouslynecessarywindowcondition, not a failedmodelrepair.",
+  "scope": "Only previouslyretained windows/runs, RAW_CHARrepresentative hits, sameindividualreaders. No actualnuclei, carrierforms, sourcewords, globaledgeidentity or independentconfirmation."
+}
