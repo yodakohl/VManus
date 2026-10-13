@@ -1,0 +1,30 @@
+{
+  "status": "PROSPECTIVE_FIXED_CACHE_ORDER_PROOF_VALIDATOR_FROZEN",
+  "utc": "2026-10-13T05:59:19.985588+00:00",
+  "validator_sha256": "e63882d65cc2c3d8efc646c69a93ff9381d907b8e37f7e0ef00b65a2945b795b",
+  "method_sha256": "aad0d43b95dc1c501630e85c5677a413b4a278b7795808589a9da040c40f84f8",
+  "independence": "No1373primaryrunner orresults read/imported; no newnativecache/permutation score computedbeforefreeze. Prior frozenmodel/event/source schemas known. Source-free controls only.",
+  "controls": {
+    "normalized_fixed_mixture": true,
+    "empty_and_gap_reset_fallback": true,
+    "no_current_future_word": true,
+    "all_four_groups_not_four_length_matches": true,
+    "length_conditioning": true,
+    "bag_preserved_base_changed_cache_gain": true
+  },
+  "proof": [
+    "EmpiricalC over same-length words in previousfouractualgroups sums to1when available; convex7/8P+1/8C is normalized overoriginal22^length domain. Emptycache usesPexactly. Current/futurewords excluded; shortgroups consume distance slots.",
+    "Permutations within fixedrun,length preserve currentwordlengthsequence and Currier. Everymovedword retains its frozen P for thatsamecell. Hence multiset/sumofbaselinelogprobabilities remains unchanged, while re-evaluatedcache may change.",
+    "Alloldheldtargets andtheir leafdenominators retained. Singleton/shortsource runs are included ratherthanlimiting to1369triples; gaps andphysical-locusboundaries terminatecontext.",
+    "Conditionalreference fixesrunbags andslotlengths, notallbigram counts. Excess would establish order-sensitiveprediction relative tothisreference only, not copying orhistoricalmemory. Gainwithoutdetectedexcess doesnotproveinventorysufficiency.",
+    "Capacity,mobility,materialgain andpvalue conditions areseparate andpredeclared. .05/3isapplied toseparatereaderresults withoutclaiming independentmanuscripts orsearch-widecalibration."
+  ],
+  "validator_plan": "RebuildFULLstrict/evenleafruns andalloldheldIDs/Currier/length/wordprobability associations; use rollingdeque andper-lengthCounters, notprimarylast4list. Replayobservedscores and199freshsame-seed occurrence-indexpermutations percapablecase, recomputingcompletecaches. Verifybaselinelogsum,originaleventorder,per-leafmeans,nullscoresandstatuses1e-10.",
+  "floating_comparison": "Primaryper-leaf += andindependent math.fsum maydifferatroundoff; p/status calculatedfromsavedprimaryscores onlyafterallareindependentlymatchedwithin1e-10. Anyobserved/null pair within1e-10isexplicitlyreportedforreview, notsilentlyassignedanapproximatecomparison.",
+  "predecessor_scope": "GDT001paidMRU/literaldescription-length STOP,IL005between-line rootrecencyclosure,1170doublet-context findings remain; fixedstrongbaseline+conditionalorderingfalsifier isdifferentone-shotcomparison, notgeneralrediscoveryofrecency.",
+  "limits": [
+    "Alltargetdata alreadyexposed; no newreservedconfirmation.",
+    "SuppliedCurrier/lengthandstrictgrouptranscriptionarenotidentifiedlanguage/sourcewordclaims.",
+    "No postresultweight,horizon,pool,baselineorcohortadjustment; statisticalsuccesswouldnotbe a decoder ormeaning."
+  ]
+}

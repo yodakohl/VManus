@@ -1,0 +1,143 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed predictiveincrement only, all3negativeandno positiveorderexcess. No generalrecency/copying/memory/language rejection, inventorysufficiency orposthocanti-copyclaim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1373_frozen_whole_cache_order_increment/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1373_frozen_whole_cache_order_increment/src/validate.py"
+  },
+  "created": "2026-10-13",
+  "dependencies": [
+    "GDT001",
+    "GDT1316",
+    "GDT1371",
+    "GDT1233",
+    "GDT1170"
+  ],
+  "experiment_id": "GDT1373",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/run_il005_conditional_root_recency.py",
+      "sha256": "e5c889bbfac15a1daff50e88a2592c731e5231215fe1e416cd31a4c099c51184",
+      "role": "frozen input or primary predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/REPORT.md",
+      "sha256": "2c81bef089e2351b7cfc73644f600441d5447301c540a3a5f068f856d645daf7",
+      "role": "frozen input or primary predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "frozen input or primary predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md",
+      "sha256": "fef018adc91944be62f8267194ec8760b579d7373f3e2021846f4cacd67b2ce7",
+      "role": "frozen input or primary predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt1316_fixed_half_form_prediction/artifacts/EVENTS.json.gz",
+      "sha256": "14804a3321917e31d747d81a122d50648ab0cde1065c186c2feaac372c52d96a",
+      "role": "frozen input or primary predecessor"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "frozen input or primary predecessor"
+    },
+    {
+      "path": "gdt001_exact_copy_cache_results.json",
+      "sha256": "7675f0386aaa92e7879b3fd354051ce66e8525f12f73c9c4dd1d33c8d7a6c02e",
+      "role": "frozen input or primary predecessor"
+    },
+    {
+      "path": "run_gdt001_exact_copy_cache.py",
+      "sha256": "fa755319dcdaf977150b5bfea80c02107b866940f679c0463ac1df60ed46b17b",
+      "role": "frozen input or primary predecessor"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/METHOD.md",
+      "sha256": "aad0d43b95dc1c501630e85c5677a413b4a278b7795808589a9da040c40f84f8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/PREREGISTRATION.md",
+      "sha256": "aad0d43b95dc1c501630e85c5677a413b4a278b7795808589a9da040c40f84f8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/README.md",
+      "sha256": "ce9f188d7479803a02980a1850b0c74dd1a96ee42a78053850d340fdef725526",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/REPORT.md",
+      "sha256": "d3d2f22e778a73fa5b46311445753fb4b0cc29c77df012cc7a30441ad20c0a04",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/artifacts/PROOF_REVIEW.json",
+      "sha256": "da12fb1734ae655da9c2a9971f059dc22d6fd769f6d2d8230bea019424d3336c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/artifacts/README.md",
+      "sha256": "ed181f176008383c8029ebc8c83bbe511881dfdcf7c6c1116a688241eb6fd5af",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/artifacts/RESULT.json",
+      "sha256": "b58fad17eb77cf8758f8c385daaeec3d3510f79711bf93773f83d616c463dfd5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/artifacts/RESULT_REVIEW.json",
+      "sha256": "c29514a6281b74b5c3efcd466073b1bdecc6a005160722cbb3d973f9fa9d3d88",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/artifacts/SCORES.json.gz",
+      "sha256": "0b39adf5004773b2050f582df3958ff05f87cd11a3ba398e46f892447a95a8ac",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/artifacts/VALIDATION.json",
+      "sha256": "60e332840f7228628d3147ebfada6d1e9b526caea5d1c041fe0af161529091f8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/src/REGISTRATION_LOCK.json",
+      "sha256": "250ff4e9a78fa77acc34065ab7d55c17e6d452f353b8d22ec5c0da7b0241034b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/src/run.py",
+      "sha256": "99fe675b5f2fbe7571f393b49880eeebdc6ba88b737a57c187370fb4bb8b4092",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/src/validate.py",
+      "sha256": "e63882d65cc2c3d8efc646c69a93ff9381d907b8e37f7e0ef00b65a2945b795b",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Does a fixed recent whole-form probability component improve all oldheld predictions and exceed local-inventory-preserving order controls?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "frozen_whole_cache_order_increment",
+  "status": "NO_RETAINED_CACHE_GAIN",
+  "title": "Fixed whole-form cache increment beyond frozen prediction",
+  "updated": "2026-10-13",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1373_frozen_whole_cache_order_increment/artifacts/VALIDATION.json"
+  }
+}

@@ -1,0 +1,5 @@
+# Artifacts
+
+SCORES retains alloldheldevents, exactcacheopportunities andnormalizedprobabilities.
+RESULT retains allleafgains andall199conditionalnullmeans percapablecase.
+PROOF_REVIEW/VALIDATION distinguish predictiveaccounting fromscribalmechanisms.

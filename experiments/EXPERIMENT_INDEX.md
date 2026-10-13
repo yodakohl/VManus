@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1371**
-- Experiment-associated tracked files: **26,803** (2.4 GiB)
-- Structured GDT337+ experiments: **1036**
+- Experiments indexed: **1372**
+- Experiment-associated tracked files: **26,817** (2.4 GiB)
+- Structured GDT337+ experiments: **1037**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1373 | gdt1373_frozen_whole_cache_order_increment | `NO_RETAINED_CACHE_GAIN` | [report](../experiments/yolo/gdt1373_frozen_whole_cache_order_increment/REPORT.md) | 14 | 501.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT1372 | gdt1372_lexical_memory_episode_capacity | `NO_CAPACITY_SINGLE_FUSION_MEMORY` | [report](../experiments/yolo/gdt1372_lexical_memory_episode_capacity/REPORT.md) | 14 | 58.9 KiB | 7 | STRUCTURED_YOLO |
 | GDT1371 | gdt1371_frozen_novelty_score_decomposition | `FROZEN_NOVELTY_SCORE_ACCOUNTING` | [report](../experiments/yolo/gdt1371_frozen_novelty_score_decomposition/REPORT.md) | 15 | 557.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT1370 | gdt1370_literal_overlap_counterexample | `LITERAL_OVERLAP_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt1370_literal_overlap_counterexample/REPORT.md) | 13 | 35.7 KiB | 5 | STRUCTURED_YOLO |

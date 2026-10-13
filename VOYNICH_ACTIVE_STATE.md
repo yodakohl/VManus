@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1373 finds no extra value from the fixed recent-whole cache
+
+A fixed1/8empiricaldistribution fromtheprevious4consecutivegroups ofmatchinglength slightlyworsens frozen1316onALL23496heldevents: equal-leafgains-.006011/-.006145/-.002133IT/RF/ZL, positiveleaves16/10/18of46. Same-run/lengthwordinventorypermutations yieldupperp.995/.930/.910, withadequatemobility. Independentrollingcounts validateall597nullmeans. Stopthiscomponentwithoutweight/windowrepair; no generalrecencyban, localinventorysufficiency oranti-copyingclaim. OlderGDT001MRUcodec failure remains distinct. [Report](experiments/yolo/gdt1373_frozen_whole_cache_order_increment/REPORT.md).
+
 ## 2026-10-13 — GDT1372 stops the current lexical-memory test before scoring
 
 Each of24reader/singlefusion/orientation cases has zero switch-mobile episodes when first/lastchoice andfusedtotal are fixed. Retainedsame-key histories haveonly2or3visits; lowering the100remote-edge/10leafgate cannotcreatevariability. Singlefusionbindings were reconstructed instead of silentlyusing1320fourfusionwordkeys. Independent transducer/extremum validationPASS. No persistence statistic, p-value ornative memorytest;1047is notrefuted. Need new independently justified completehistories anddrift/selection controls; no automaticpagepooling orendpoint/keychanges. [Report](experiments/yolo/gdt1372_lexical_memory_episode_capacity/REPORT.md).
