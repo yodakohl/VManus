@@ -1,0 +1,32 @@
+{
+  "status": "PROSPECTIVE_BOUNDED_FRAGMENT_PROOF_AND_VALIDATOR_FROZEN",
+  "utc": "2026-10-13T04:33:12.887503+00:00",
+  "validator_sha256": "553c853038368579278fac27d6cf23e41076f932ee44cba5c7ed937178e28ff3",
+  "method_sha256": "0540596c603093931607eafa270ebdf314d9aba4df9255f7109cd0a783cc2b42",
+  "independence": "No1368primaryrunner/results read or imported. No newnativewindowcensus or scores before freeze. Source-free controls executed only.",
+  "proof": [
+    "A consecutive2B-1group window lacking a complete sourceword block can contain only a proper suffix and proper prefix of at mosttwo blocks, each\u2264B-1groups: contradiction. B2thereforeforces a whole sourceword within anytrueconsecutive triple.",
+    "No source-record start/end alignment is required for that local containment. The stream must genuinely partition into1..Bnonemptygroups per sourceword, without groups combiningdifferent sourcewords.",
+    "Each complete sourceword preserves at leastone fixed nonemptycarrier. Choose one character from each carrier; unionofcharactersin thewindow contains one representative, so allwindows need a common hitset ofsize\u2264K.",
+    "If carrier crosses artificialgaps, the characterrepresentative stilllies in one fragment after gapsdeleted. RAW_CHARidentity acrosssplits is explicit; older22working-unit boundaries cannot be assumed stable acrossach cut.",
+    "ForK5an exacthittingminimum>5excludes thisconjunction onretainedwindows. A minimum\u22645doesnot supplywholecarrier parses, consistentlatentpartition, validphonologicalwords or a sourcewriter."
+  ],
+  "eligibility_review": "Sameedition and(page,locus), consecutiveintegerindicesi/i+1/i+2, allcachedrowsPwithbothdefiniteseams; noacrossfilteredholes, lines, pages orGE2filter. Retainedwindow subsetonly: a counterexample isnecessary, a passdoesnotcover omittedwindows orcodex.",
+  "source_free_controls": {
+    "missing_index": true,
+    "wrong_locus": true,
+    "overlapping_windows": true,
+    "split_working_unit_RAW_support": true,
+    "hitting_not_sufficient_for_framed_partition": true,
+    "B2_containment_cases": 712,
+    "upper_and_lower_hitting_controls": true
+  },
+  "prior_distinction": "1257wholecontrolwords/fourgroupwindows and1196fixedsourcevowelrun/frequency models remain unchanged.1042carrier proof reused under explicitlychanged sourceword/groupboundary contract; no oldbound rescinded.",
+  "validator_plan": "Registrationhashcheck; independentoldcache/source-ID/unit/scopecheck; rebuildlexicographicwindows andRAWsupport; percharwindowbitsets enumerate0..5covers,tiecounts,firsttuple; allsets at tau-1or5supply exactfirstmiss certificates; comparefullorderedWINDOWS andRESULT.",
+  "scope_limits": [
+    "B=2ispredeclared modelcap, notnatural-language syllablelaw or inferredfragmentcount.",
+    "Nucleuspresence, finitecarrierinventory andintactcharacterrealization areassumptions, notinferredvalues.",
+    "Non-sufficiency fixture010010 requiresfullyframedrecord todeny anypartition; thisdoesnotaddframingrequirements tolocalwindowtheorem.",
+    "No meanings, actualvowels, nativecountsbeforefreeze, newrawTSV,images orsources."
+  ]
+}

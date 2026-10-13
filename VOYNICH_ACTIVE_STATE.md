@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1368 limits nucleus exclusion under fragmented words
+
+If a sourceword spans at most two visible groups and retains a fixed nonempty carrier, every true triple must hit a carrier representative. Retained1233triples have exact RAW_CHARminimum4 in everyreader (14700/9724/10693windows IT/RF/ZL), canonical a/c/o/y; all816three-character alternatives have explicit misses. K5is notexcluded bythis necessarytest. No actual vowels, carrierparse, consistent partition or coverage of omittedwindows; no direct matchedsample comparison with oldwholewordminima. Independent fullcertificate validationPASS. [Report](experiments/yolo/gdt1368_fragment_window_nucleus_capacity/REPORT.md).
+
 ## 2026-10-13 — GDT1367 fixes the extended rasm capacity limit
 
 The full20 software channel constructively covers all oldGE2forms:16ordinary classes (including O) plus terminalQ/N provide exact preimages, even with one forward direction.4914synthetic roundtrips and48representative contexts independently pass. At least16!ordinary mappings cover equally, so coverage does not select a key or natural language. No new native census. Original1365FULL and1366restrictedGE2failures remain;19available extension classes are not a general minimum. Stop coverage-only fitting pending independent source binding. [Report](experiments/yolo/gdt1367_rasm_extended_capacity_witness/REPORT.md).

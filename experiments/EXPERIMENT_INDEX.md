@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1366**
-- Experiment-associated tracked files: **26,733** (2.4 GiB)
-- Structured GDT337+ experiments: **1031**
+- Experiments indexed: **1367**
+- Experiment-associated tracked files: **26,747** (2.4 GiB)
+- Structured GDT337+ experiments: **1032**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1368 | gdt1368_fragment_window_nucleus_capacity | `FRAGMENT_WINDOW_NUCLEUS_CAPACITY` | [report](../experiments/yolo/gdt1368_fragment_window_nucleus_capacity/REPORT.md) | 14 | 1.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT1367 | gdt1367_rasm_extended_capacity_witness | `EXTENDED_RASM_CONSTRUCTIVE_CAPACITY` | [report](../experiments/yolo/gdt1367_rasm_extended_capacity_witness/REPORT.md) | 13 | 43.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT1366 | gdt1366_rasm_terminal_joint_capacity | `RESTRICTED_RASM_JOINT_GE2_EXCLUDED` | [report](../experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md) | 13 | 1.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT1365 | gdt1365_rasm_nonfinal_capacity | `FIXED_RASM_RENDERING_EXCLUDED_FULL` | [report](../experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md) | 17 | 249.0 KiB | 3 | STRUCTURED_YOLO |
