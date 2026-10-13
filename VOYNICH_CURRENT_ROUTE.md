@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: bounds.
-Latest decision: 4cert;2open.
-Working files: GDT1380.
-Assumptions: new scope.
-Resume: Plan residual bound.
+Task: model scope.
+Latest decision: 6cert.
+Working files: GDT1381.
+Assumptions: same1380scope.
+Resume: Assess194contract.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public159fb07db.
+Public3be898a73.

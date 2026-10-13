@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1381 closes all six fixed IT cost comparisons
+
+The singledeclaredwithin-rowinjectionbound reservesallcontextimages andpinsmatchingnextsymbols. Onunchanged1380ITdata/costs/KT, Latin/Frenchlower margins become+5366.398698/+5673.145698bits;552rowsmonotoneandindependentlyreproduced. Togetherwith4retained1380certificates, everyglobalinjectivekeylosesintheexact6packfamily. No furtherkeysearch/tighteningforthiscontract. ZL/RF1380alphabetcapacity resultsunchanged; no194homophony,genericlanguageban,old193fullscopeprooforwordmeaning. Anyassessmentof194mustbeaseparatedesign, nottransferthisbound. [Report](experiments/yolo/gdt1381_consonantal_row_consistent_bound/REPORT.md).
+
 ## 2026-10-13 — GDT1380 obtains four all-key cost certificates on a new projection
 
 CompleteadmittedP-loci, perreader012/189stripping andlicenselearning giveNEW_PAGE_HOST, notoldconsensus. IT21states: certifiedcontextrelaxation lower margins+10404Czech,+3520German,+6654Hungarian,+3600Italianbits overmatchedKT;Latin-79.185/French-425.187remaininconclusive. ZL24/RF23ASCIIstatesalreadyexceed21-targetinjection, notnativephonemecounts. IndependentDecimal80/1656rowreplay andsixsourcepackcountrebuildPASS. No successfulkey,194homophonycoverage,languagebanorretroactive193fullscopeproof. Stopcurrentbound; separatelydecideanystrongerunresolved-casecertificate beforeimplementation. [Report](experiments/yolo/gdt1380_consonantal_context_cost_bound/REPORT.md).

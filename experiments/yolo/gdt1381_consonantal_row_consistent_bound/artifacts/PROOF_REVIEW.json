@@ -1,0 +1,56 @@
+{
+  "status": "PASS_PROSPECTIVE_ROW_CONSISTENCY_PROOF",
+  "reviewed_utc": "2026-10-13T14:15:59.353784+00:00",
+  "new_native_results_read": false,
+  "new_programs_read": false,
+  "proof": [
+    {
+      "claim": "Exact row consistency",
+      "argument": "Let A be the set of distinct ordinary source symbols in the two history positions. Enumerate injections A into21consonants; repeated context symbols share one image, different symbols get distinct images, SPACE/BOS stay fixed. For every successor x in A, charge its frequency once at that assigned target; reserve all images of A even when x has zero successor count. Remaining positive successor symbols inject into unreserved targets, with descending frequencies paired to ascending costs. This minimizes the whole row for that context map."
+    },
+    {
+      "claim": "Extension and soundness",
+      "argument": "The local map covers a subset of the global active alphabet, whose size is at most21. Any still-unassigned symbols can inject into remaining targets. Every global key supplies one allowed local map; independently minimizing each row only removes cross-row consistency. Thus row minimum is no greater than any globally valid row cost."
+    },
+    {
+      "claim": "Monotonicity",
+      "argument": "Each new row solution is admissible for1380relaxation. Using identical lower cost ticks and row counts gives old_lower<=new_lower exactly. Repeated symbols, anchored successors and reserved zero-successor anchors are constraints restored, not changed objective parameters. Enforce rowwise monotonicity in validation, not merely aggregate monotonicity."
+    },
+    {
+      "claim": "Paid finite-union interpretation",
+      "argument": "Unchanged KTupper, keylower and six-language selectorlower remain. Selecting the two unresolved packs does not justify reducing selector cost tolog2(2). Positive new margin certifies each fixed comparison; combine with frozen four old certificates only. Nonpositive values are inconclusive and no locally minimizing maps establish a consistent global key."
+    }
+  ],
+  "reconsider_readfacts": {
+    "record": "IDEA001052",
+    "read_with": "vmanus-work ideas show IDEA001052",
+    "reviewed_gate": "new_design: separately justified and prospectively validated stronger certificate or new writer question for unresolved cases, decision-changing outcomes, bounded budget, no automatic tightening chain.",
+    "assessment": "The mathematical new-design requirement is substantively supported by the strict feasible-set restriction, known1380relaxation, unchanged model/data/objective and explicit25minute one-extension contract. It is not justified merely by a matching change-type label. Source-free implementation controls and frozen independent validator remain required before native execution.",
+    "retained_blocker": "The new projection/fixed-cost-model scope is not removed; two unresolved outcomes have not yet been observed or superseded.",
+    "not_claimed": "No registry mutation or automatic reopening approval; no better key, language selection,194homophony result or old193full-input certificate."
+  },
+  "selection_review": "A known prospective strengthening of1052, not a new writer or independent manuscript sample. Bounded prior search found no executed identical certificate; no exhaustive novelty assertion. Explicit stop after this extension, irrespective of outcome.",
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt1381_consonantal_row_consistent_bound/METHOD.md",
+      "sha256": "cd896d59d4ebd2adfddbabb5ccbf3c6ccc958cc0e7369d6e311dab0da7535b67"
+    },
+    {
+      "path": "experiments/yolo/gdt1381_consonantal_row_consistent_bound/PREREGISTRATION.md",
+      "sha256": "cd896d59d4ebd2adfddbabb5ccbf3c6ccc958cc0e7369d6e311dab0da7535b67"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/METHOD.md",
+      "sha256": "da15385e306567d3af0d38a85578b5e7ffa3ff9a71792b19eb7a2cf4ec3397b2"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/REPORT.md",
+      "sha256": "d77a193400e1d438afa9f8f93a96a733623c5b2377097657babe9be3bd18a32f"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CONSONANTAL_CONTEXT_BOUND_RAW_20261013.json",
+      "sha256": "14964799f82bf52b29378c2e6bfe59adc8d3d020fc57cac15a3223c1286d2fd9"
+    }
+  ],
+  "requested_changes": []
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1379**
-- Experiment-associated tracked files: **26,932** (2.4 GiB)
-- Structured GDT337+ experiments: **1044**
+- Experiments indexed: **1380**
+- Experiment-associated tracked files: **26,947** (2.4 GiB)
+- Structured GDT337+ experiments: **1045**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1381 | gdt1381_consonantal_row_consistent_bound | `ALL_SIX_FIXED_PACK_COSTS_CERTIFIED` | [report](../experiments/yolo/gdt1381_consonantal_row_consistent_bound/REPORT.md) | 15 | 189.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1380 | gdt1380_consonantal_context_cost_bound | `PARTIAL_CERTIFIED_CONTEXT_COST_EXCLUSIONS` | [report](../experiments/yolo/gdt1380_consonantal_context_cost_bound/REPORT.md) | 20 | 689.3 KiB | 6 | STRUCTURED_YOLO |
 | GDT1379 | gdt1379_pivot_suffix_conditional_pairing | `NO_RETAINED_PIVOT_PARTNER_EXCESS` | [report](../experiments/yolo/gdt1379_pivot_suffix_conditional_pairing/REPORT.md) | 16 | 1.2 MiB | 8 | STRUCTURED_YOLO |
 | GDT1378 | gdt1378_calendar_fixed_epoch_field | `NO_FIXED_EPOCH_FIELD_CANDIDATE` | [report](../experiments/yolo/gdt1378_calendar_fixed_epoch_field/REPORT.md) | 16 | 611.2 KiB | 6 | STRUCTURED_YOLO |
