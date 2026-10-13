@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1370 closes the literal overlap variant without choosing a cut
+
+IP078uniformliteral records AB/BC require a nonempty proper suffix/prefix overlap. The alreadyexposed f100r.14G005/G006 qoteold/qokeol pair has none, and reversed-record orientation also fails. IT/ZLagreeatonephysicalsite; RFfixedrows are missing/unscored. Independent allcut proof and900binarypair controls plus source replayPASS. This is a retrospective deduction, not a new native observation. Mixeddirections, contextualrecoding and independentlyjustifiedreset scopes remain outside; no generalcopying/languageban. [Report](experiments/yolo/gdt1370_literal_overlap_counterexample/REPORT.md).
+
 ## 2026-10-13 — Boundary-based carrier extension parked
 
 A narrow primary review of existing physical gap/join cases does not supply a complete linguistic-word or fixed phonetic-carrier binding for1369. Positive spacing observations remain; historical display meanings are not reused. No new manuscript finding or exclusion. Do not repeat this unchanged audit or another localpartition count. An independently specified writer may still be tested without confirmed translations, but requires concrete changed evidence and a different predicted consequence. [Selection decision](research_registry/proposals/production_origin_supply_20261003/BOUNDARY_BINDING_SELECTION_STOP_20261013.json).

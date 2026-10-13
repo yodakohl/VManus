@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: word binding.
-Latest decision: no binding.
-Working files: IDEA1046.
-Assumptions: gaps≠words.
-Resume: new evidence only.
+Task: overlap.
+Latest decision: literalFAIL.
+Working files: GDT1370.
+Assumptions: raw strings.
+Resume: new rule review.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public4759aef40.
+Public32bb61796.
