@@ -1,0 +1,43 @@
+{
+  "record_id": "IDEA001045",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root with independent branch_claims source and native validation",
+  "assessment_basis": "GDT1365 frozen source-position capacity test",
+  "reason": "FULL has 18 strict-middle characters in every reader, exceeding restricted15 and extended17. GE2 restricted uniform directions still fail with16nonfinal/17noninitial; restricted mixed and extended GE2 are capacity-only, not fit. FULL extended failure depends on rare forms.",
+  "blockers": [
+    {
+      "code": "fixed_rendering_contradicted",
+      "detail": "One fixed RAW_CHAR per source class, mergers allowed, preserved source boundaries plus optional splits. Variable renderings and removed boundaries outside this test.",
+      "evidence": [
+        "experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independent historically justified rendering or boundary contract with a different preregistered consequence.",
+        "evidence": [
+          "experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Choose aliases retrospectively",
+      "Treat GE2 capacity as a fitted source",
+      "Generalize to all Arabic or consonant scripts"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1365",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

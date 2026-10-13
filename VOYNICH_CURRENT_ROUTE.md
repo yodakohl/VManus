@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: unit scope.
-Latest decision: rawGE2=8.
-Working files: GDT1364.
-Assumptions: raw≠glyphs.
-Resume: source+unit binding.
+Task: rasm.
+Latest decision: 1365FAIL.
+Working files: GDT1365.
+Assumptions: fixed chars.
+Resume: review end classes.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publicc1a479a78.
+Publicb5d7e139e.

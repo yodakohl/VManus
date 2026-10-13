@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1365 excludes the fixed rasm renderer
+
+An independently checked public software channel has15 restricted or17 extended nonfinal classes. Every FULL reader has18 strict-middle RAW_CHARs, excluding the fixed one-character renderer even with word reversal and additional splits. Restricted uniform directions also fail on GE2; other GE2 counts are capacity-only. Extended FULL exclusion is rare-sensitive. This is a modern technical channel, not historical Arabic binding or a general abjad exclusion. No word meaning assigned. [Report](experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md).
+
 ## 2026-10-13 — GDT1364 shows nucleus-bound unit sensitivity
 
 FixedRAW_CHARrefinement of the samewords gives18characters andFULLhittingminima11/13/10IT/RF/ZL;GE2all8instead of9under22workingunits. The recurrent≤8exclusion isnotrepresentation-independent. FULLstillneeds10–13;GE2doesnotrepairit. All48exceptionoptimaand6hittingwitnesses independentlyvalidated. No truealphabet,soundorvowelmap identified. [Report](experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/REPORT.md).

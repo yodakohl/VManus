@@ -1,0 +1,31 @@
+{
+  "status": "PROSPECTIVE_INDEPENDENT_POSITION_LOGIC_FROZEN",
+  "utc": "2026-10-13T03:37:23.002857+00:00",
+  "validator_sha256": "83d2dcaffe06acc41db6762cc0f19f6c7962b2c6cd4ad3bac7d684f18964aad1",
+  "source_checker_sha256": "8aecd03bbb8ea000d7dbf4bc5c5d9f8184887806e3f376c4028e1d12c32b005c",
+  "independence": "No1365primaryrunner/result read or imported. Counting schema supplied by root before freeze; no native position census run by reviewer before freeze.",
+  "source_only_result": {
+    "restricted_synthetic_words": 22764,
+    "restricted_total_classes": 18,
+    "restricted_nonfinal_classes": 15,
+    "full_inventory_probes": 1071,
+    "full_total_classes": 20,
+    "full_nonfinal_classes": 17
+  },
+  "native_counting_fixtures": {
+    "synthetic_position_cases": 4,
+    "singleton_has_no_nonfinal_noninitial_middle": true,
+    "strict_middle_excludes_both_ends": true,
+    "multiple_events_pergroup": true
+  },
+  "proof_review": {
+    "forward": "Q/N/Y are only final in each cleaned token before block splitting. A fixed function from outputclasses to singlecharacters, even many-to-one, cannot increase distinct nonfinalcharacter count beyond15restricted or17full. All-character count is at most18or20. No assumption requires Q/N/Yto occur.",
+    "reverse": "Reversing every word moves possible Q/N/Yto initial position; noninitial classes have the same15/17bound.",
+    "mixed_direction": "Even allowing each word either direction, Q/N/Yimages must lie at an endpoint, so strict middle positions exclude them and retain15/17bound. This is a generous necessary envelope, not optimized wordorientations or evidence of reversal.",
+    "splitting": "Splitting a converted word into smaller pieces cannot move an original endpoint into the strict interior or make a forward terminal character nonfinal within its piece; analogous for reverse. Permitting splits therefore does not invalidate the relevant ceilings. Merging sourcewords or variablelength/class-dependent spelling variants is outside.",
+    "rendering_premise": "Exactly one fixed nonempty output character per rasmclass; any actualmap remains unbound. Multiple nativevariants or expanded signs would be different models."
+  },
+  "scope": "Both FULL and GE2same1233cachedgroup populations; RAW_CHARonly, readerseparate, fullreaderalphabetretained. Independent sourceid/allowlist/unit reconstruction, then direct events/firstwitnesses at everyposition; no phonetic or historical inference.",
+  "source_limit": "Full20is the softwareUnicodeinventory includingnon-Arabicextensions J/O, not an asserted medievalArabic20classalphabet. Modern technicalprojection not historicalwitnessvalidation. No resource orQuranindex API called.",
+  "decision_limit": "A ceiling contradiction rejects only this declared rendering/boundaryfamily. Capacity-only is not fit, words, language evidence or decoder authorization."
+}

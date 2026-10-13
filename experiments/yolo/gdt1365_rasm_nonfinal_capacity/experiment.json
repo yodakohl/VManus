@@ -1,0 +1,140 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed RAW_CHAR rendering and preserved source boundaries only. FULL exclusions are rare-sensitive; GE2 restricted uniform directions fail, other GE2 tests are capacity-only. No general Arabic or abjad exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/validate.py"
+  },
+  "created": "2026-10-13",
+  "dependencies": [
+    "GDT1233",
+    "GDT1364"
+  ],
+  "experiment_id": "GDT1365",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "frozen input or source contract"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "frozen input or source contract"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RASM_ARCH_INDEPENDENT_SOURCE_REVIEW_20261013.json",
+      "sha256": "67bb0737aa1f0cafd2d70873add47bc1fe277a34fa862527d14053f2eb9e3203",
+      "role": "frozen input or source contract"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RASM_ARCH_SOURCE_SELECTION_20261013.json",
+      "sha256": "1d9b0b0f22a559103c02ee2f4df85714ed759a9a20787e9154b7513da335f87a",
+      "role": "frozen input or source contract"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RASM_CONSTANT_RENDERING_RAW_20261013.json",
+      "sha256": "1716e733aa9f5ce83e3ad542663691d6f186e9bc0628b2a1354e59f3cc4e9402",
+      "role": "frozen input or source contract"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/METHOD.md",
+      "sha256": "be0908697708dc03615c569ec21d04875dca125acc1f50c949a4915fbc31e1bd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/PREREGISTRATION.md",
+      "sha256": "be0908697708dc03615c569ec21d04875dca125acc1f50c949a4915fbc31e1bd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/README.md",
+      "sha256": "8dc4e970ea5a8d96377751328c0258fb14b7431f13ab75ef16c0c149fc0ba8ca",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md",
+      "sha256": "621304beeb48439c7a22527ed88807e3f5fd51025bc9f46f4e304b1e17d38bb9",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/PROSPECTIVE_REVIEW.json",
+      "sha256": "280dce2b8948ee9a9708802b8a2d801428c8de6f3062bf03ff34c1c5c081be4e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/RASM_ARCH_LICENSE.txt",
+      "sha256": "fb92312fd87a1dee0919efd837278e528aecf366cc4e09ff64c53c9d104bc9ae",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/README.md",
+      "sha256": "fae29433ab96e700e4673e143887f79d76d109422afb8fe648265721ec409274",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/RESULT.json",
+      "sha256": "534fc939b2b534c98d602a635fb4bc575141daf3dab73ccac1becda20e35cb7a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/RESULT_REVIEW.json",
+      "sha256": "d3b50b7877cb2459ca1236d7ac0b4b970cad3f2d3072f00744d9d699d93e8668",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/SOURCE_CHECK.json",
+      "sha256": "3cf23dbc0643d81d2808fae8c57f130101f8d74c2703a596586fe264437f6ec3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/VALIDATION.json",
+      "sha256": "bdf2ba20b31af6092f50c7594b1b9107d5a5ff5c993a0ae296747275a4953667",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/REGISTRATION_LOCK.json",
+      "sha256": "bd9e7b3291fa390cd5f7b439f13184c0b2b88101608d513a75f573f4d35b5593",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/fetch_source.py",
+      "sha256": "af117df480442f874d5e11807d9b31e16ce016f2f3aa76ee41d298255c6cb30f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/run.py",
+      "sha256": "b459b7ffeb153550cd65b171d360ed46a38ef05e9ecb07a94fe45952ccc23b7d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/source_check.py",
+      "sha256": "8aecd03bbb8ea000d7dbf4bc5c5d9f8184887806e3f376c4028e1d12c32b005c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/src/validate.py",
+      "sha256": "83d2dcaffe06acc41db6762cc0f19f6c7962b2c6cd4ad3bac7d684f18964aad1",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can fixed single-character renderings of the independently specified rasm channel cover native character positions?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "rasm_nonfinal_capacity",
+  "status": "FIXED_RASM_RENDERING_EXCLUDED_FULL",
+  "title": "Fixed rasm rendering nonfinal capacity",
+  "updated": "2026-10-13",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/VALIDATION.json"
+  }
+}

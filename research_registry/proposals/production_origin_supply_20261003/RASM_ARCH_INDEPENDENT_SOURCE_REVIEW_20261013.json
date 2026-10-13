@@ -1,0 +1,323 @@
+{
+  "status": "RESTRICTED_TECHNICAL_CHANNEL_CONFIRMED_NOT_HISTORICAL_BINDING",
+  "date": "2026-10-13",
+  "reviewer": "branch_claims independent static and synthetic audit",
+  "pin": "32646fe6e76f581128bb4ac465b4c606ac88cd13",
+  "source_base": "https://github.com/kabikaj/rasm_arch/blob/32646fe6e76f581128bb4ac465b4c606ac88cd13/",
+  "source_hashes": {
+    "rasm_arch/rasm_arch.py": "dcbeeb69253c6a467276c267e3f26871cc427f5e9c1698ae573bf876a6c416cd",
+    "rasm_arch/util.py": "befeced908b7e7d9fb3c9a6c5add3dd5b72aecf48ddf9fd5facdf2c042f177a0",
+    "rasm_arch/__init__.py": "29d23d75612198ff1206aaba0105c61c5d72aa61848a840764e9a3936343c623",
+    "README.md": "b67ee57002cc52a15f4c244a47271584ab5d775c4e2ab07e3c1cb069bfdd4566",
+    "LICENSE": "fb92312fd87a1dee0919efd837278e528aecf366cc4e09ff64c53c9d104bc9ae"
+  },
+  "input_scope": "Public MIT code, util, README, LICENSE only. No rasm_arch_data or edition corpus fetched/read. Imported code for explicit synthetic strings only; importlib.resources files entrypoint monkeypatched to reject resource access. No index/tuple API invoked.",
+  "complete_restricted_channel": {
+    "input": "Finite list of nonempty words over28specified ordinary Arabic base letters; no vowel marks, hamza variants, ligatures, presentation forms or punctuation within a word.",
+    "options": {
+      "dispatch": "io.TextIOBase (synthetic io.StringIO)",
+      "paleo": false,
+      "blocks": false,
+      "uniq": false,
+      "norm_clusters": false,
+      "unstable_alif": false,
+      "sep_blocks": false
+    },
+    "bare_channel": "Use Latin rasm field only. Returned original-token field is an input sidechannel, not evidence of reversible rasm. Arabic rasm field is a deterministic rendering of the same output classes.",
+    "mapping": "Nonfinal: A=ا; B=ب ت ث ن ي; G=ج ح خ; D=د ذ; R=ر ز; S=س ش; C=ص ض; T=ط ظ; E=ع غ; F=ف ق; K=ك; L=ل; M=م; H=ه; W=و. At last position only, ق→Q, ن→N, ي→Y instead.",
+    "length": "Exactly one output class per source base letter; token boundaries preserved on restricted separated-word domain.",
+    "output_classes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "W",
+      "Y"
+    ],
+    "inverse": "For a fixed output word, choose independently from the positional preimage class at each position. Q/N/Y allowed only final, where they uniquely select ق/ن/ي in this restricted alphabet. Bnonfinal has5letters but Bfinal3; Fnonfinal2but Ffinal1. Other collisions remain. Finite exact ambiguity is supplied; no unique language-context recovery proven."
+  },
+  "pipeline_findings": [
+    {
+      "code": "_tokenise lines957–971",
+      "finding": "Splits whitespace, listed punctuation and Arabic question/comma/semicolon; optional CLUSTERS mapping occurs before tokenization. It is not a full diplomatic tokenization or universal Unicode normalization."
+    },
+    {
+      "code": "_clean lines974–988",
+      "finding": "Drops everything outside DATA.CHAR, including standalonehamza, vowel marks, tatweel and unsupported symbols. Docstring says empty clean tokens disappear, but implementation yields them with empty rasm. Unstable-alif option deletes a specific fatha+alif pattern before cleaning and changes the original field too."
+    },
+    {
+      "code": "_to_rasm lines990–1006",
+      "finding": "End-anchored QNY rewrite applies to the complete cleaned token BEFORE general mapping and A/R/D/Wblock-separating spaces. Thus terminal classes concern cleaned word end, not arbitrary joining-block ends."
+    },
+    {
+      "code": "TextIO dispatch lines1122,1197–1229",
+      "finding": "Bare default path is _tokenise→_clean→_to_rasm. Normalized doubled tanwin and PALEOmapping belong to separate paleo path; do not silently import its features or claims. Default sep_blocks=False removes inserted block spaces without changing input word boundaries."
+    },
+    {
+      "code": "Hamza and ligatures",
+      "finding": "Standaloneءis dropped; أإآcollapseA, ؤtoW, ئtoYfinally/Binternally. Default norm_clusters=Falsecan drop a lam-alif presentation ligature entirely; norm_clusters=Trueexpands it before processing. These are technical option differences, not historical orthographic facts."
+    },
+    {
+      "code": "Joining blocks",
+      "finding": "A/R/D/Wcreate within-word blocks after terminal classification. In synthetic قاق→FAQ, نان→BAN, ياي→BAY, first block remains FA/BA/BA; only actual whole-tokenfinal positions yieldQ/N/Y. blocks=Truechanges output granularity, not a license to equate joining blocks with written words."
+    }
+  ],
+  "synthetic_validation": {
+    "source_only_synthetic_checks": {
+      "restricted_base_letters": "ابتثجحخدذرزسشصضطظعغفقكلمنهوي",
+      "exhaustive_source_words_lengths": [
+        1,
+        2,
+        3
+      ],
+      "words_checked": 22764,
+      "position_rule_matches_manual_table": true,
+      "length_preserved": true,
+      "QNY_only_word_final": true,
+      "output_inventory": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "K",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "W",
+        "Y"
+      ],
+      "resource_access_disabled": true
+    },
+    "pitfall_samples": {
+      "قاق": [
+        [
+          "قاق",
+          "FAQ",
+          "ڡاٯ"
+        ]
+      ],
+      "نان": [
+        [
+          "نان",
+          "BAN",
+          "ٮاں"
+        ]
+      ],
+      "ياي": [
+        [
+          "ياي",
+          "BAY",
+          "ٮای"
+        ]
+      ],
+      "قاب": [
+        [
+          "قاب",
+          "FAB",
+          "ڡاٮ"
+        ]
+      ],
+      "ناب": [
+        [
+          "ناب",
+          "BAB",
+          "ٮاٮ"
+        ]
+      ],
+      "ياب": [
+        [
+          "ياب",
+          "BAB",
+          "ٮاٮ"
+        ]
+      ],
+      "ء": [
+        [
+          "ء",
+          "",
+          ""
+        ]
+      ],
+      "َ": [
+        [
+          "َ",
+          "",
+          ""
+        ]
+      ],
+      "أ": [
+        [
+          "أ",
+          "A",
+          "ا"
+        ]
+      ],
+      "إ": [
+        [
+          "إ",
+          "A",
+          "ا"
+        ]
+      ],
+      "آ": [
+        [
+          "آ",
+          "A",
+          "ا"
+        ]
+      ],
+      "ؤ": [
+        [
+          "ؤ",
+          "W",
+          "و"
+        ]
+      ],
+      "ئ": [
+        [
+          "ئ",
+          "Y",
+          "ی"
+        ]
+      ],
+      "بءن": [
+        [
+          "بءن",
+          "BN",
+          "ٮں"
+        ]
+      ],
+      "ب،ن": [
+        [
+          "ب",
+          "B",
+          "ٮ"
+        ],
+        [
+          "ن",
+          "N",
+          "ں"
+        ]
+      ],
+      "ب☃ن": [
+        [
+          "ب☃ن",
+          "BN",
+          "ٮں"
+        ]
+      ],
+      "ﻻ": [
+        [
+          "ﻻ",
+          "",
+          ""
+        ]
+      ]
+    },
+    "cluster_option": {
+      "norm_false": [
+        [
+          "ﻻ",
+          "",
+          ""
+        ]
+      ],
+      "norm_true": [
+        [
+          "لا",
+          "LA",
+          "لا"
+        ]
+      ]
+    },
+    "synthetic_block_samples": {
+      "قاق": [
+        [
+          "قاق",
+          [
+            [
+              "قا",
+              "FA",
+              "ڡا"
+            ],
+            [
+              "ق",
+              "Q",
+              "ٯ"
+            ]
+          ]
+        ]
+      ],
+      "نان": [
+        [
+          "نان",
+          [
+            [
+              "نا",
+              "BA",
+              "ٮا"
+            ],
+            [
+              "ن",
+              "N",
+              "ں"
+            ]
+          ]
+        ]
+      ],
+      "ياي": [
+        [
+          "ياي",
+          [
+            [
+              "يا",
+              "BA",
+              "ٮا"
+            ],
+            [
+              "ي",
+              "Y",
+              "ی"
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "new_testable_consequence": {
+    "conditional_rule": "Under a separately declared one-output-class/one-whole-native-unit bijection with preserved sourceword boundaries, images of Q/N/Y cannot occur in native word interiors. There are at most18distinct emitted classes in the restricted source domain, and source/output lengths match.",
+    "required_nonvacuity": "Do not force all3terminal classes to appear unless the chosen independent source population actually emits them. Unused classes may remain absent. Do not silently identify18classes with a22unit native alphabet or invent extra variants.",
+    "not_selected": "No native mapping, pair score, source corpus or native test selected by this review."
+  },
+  "comparison_with_fedeli": {
+    "positive_change": "The pinned software does supply an independently authored, complete finite positional projection on the explicitly restricted28letterdomain, unlike the earlier partial XML metadata lacking a complete ambiguity table.",
+    "retained_limit": "It does not reconstruct Fedeli manuscript glyphs or editorial interventions; it is modern technical software, not proof that a medieval witness used this exact normalization. No medical source, Voynich source language or manuscript linkage is supplied."
+  },
+  "pitfalls": [
+    "GeneralUnicodeinput permits arbitrary deleted material and emptyoutputs; restricted finite-inverse result cannot be transferred to that unrestricteddomain.",
+    "Returned original input token must not be used as inverse recovery evidence.",
+    "Block inventory, wholeword inventory, baseletter inventory and actual phoneme inventory are different objects.",
+    "No actual sounds, words, chronology or language preference established."
+  ],
+  "recommendation": "Retain as bounded modern technical source input with explicit options/domain and wordfinal-invariant. Preserve prior historical/source failures. A later native application must separately declare class-to-script rendering and word-boundary binding before scoring."
+}
