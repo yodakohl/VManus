@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1376 gives exact local boundary-swap capacity, not a key
+
+A linear positive-OR imagelemma handles singletonexceptions: reverseALLvisibleBA andforwardcheck aftergenerousBB/AAoutsidepads. All462ordered22unitkeys testedseparatelyperreader;189/181/180excludedIT/RF/ZL,273/281/282survive locally.268/276/281survivors permitidentitysource; frequentBAdoesnotproveactualswap. Independentdirectinversechecksallkey/run cases. The onlyZLrequired-change survivor sh,cph is shared atf18v.8G002sh/G003cphoy andreliesonunknownleftcontext; G001 remainsunread inthispass andis theconcrete nextinput. No globalplaintext, actualalphabet, language ormeaning;1374interiorstructuremustbe inherited. [Report](experiments/yolo/gdt1376_boundary_metathesis_image_capacity/REPORT.md).
+
 ## 2026-10-13 — GDT1375 retains uneven whole-form residuals without a joint lead
 
 Weightedpartnerlaw usesfullfrozenlocalprobabilities; fixedends make1374INNERweights equivalent afternormalization, verifiedbytableagreement/cancellation. Frozen1308MIX_Q conditionalgain ispositiveonaverage (+.018784/.014710/.007729IT/RF/ZL) butfailsleafconsistency18/31,16/33,19/32; RFp.025andZLmean.007729alsomissgates. IT/ZLconditionalp.005/.015retained. Independent subsetDP checks511computablepools and597draws. OnlyoldC-mobile,N<=8,T-mobileprimary;no local-sufficiencyprooforpercentageof1374explained.1374positive stands. Separateselectionauditfindsparsernotautomaticcause,butjointadmissioncanbealogicalconfound. [Report](experiments/yolo/gdt1375_local_weighted_partner_residual/REPORT.md).

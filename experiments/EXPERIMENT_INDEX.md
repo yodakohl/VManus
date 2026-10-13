@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1374**
-- Experiment-associated tracked files: **26,847** (2.4 GiB)
-- Structured GDT337+ experiments: **1039**
+- Experiments indexed: **1375**
+- Experiment-associated tracked files: **26,862** (2.4 GiB)
+- Structured GDT337+ experiments: **1040**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1376 | gdt1376_boundary_metathesis_image_capacity | `BOUNDARY_METATHESIS_IMAGE_CAPACITY` | [report](../experiments/yolo/gdt1376_boundary_metathesis_image_capacity/REPORT.md) | 15 | 1.4 MiB | 7 | STRUCTURED_YOLO |
 | GDT1375 | gdt1375_local_weighted_partner_residual | `NO_RETAINED_CONDITIONAL_WHOLE_GAIN` | [report](../experiments/yolo/gdt1375_local_weighted_partner_residual/REPORT.md) | 15 | 165.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT1374 | gdt1374_class_stream_partner_exchange | `CONDITIONAL_PARTNER_COUPLING` | [report](../experiments/yolo/gdt1374_class_stream_partner_exchange/REPORT.md) | 15 | 919.6 KiB | 7 | STRUCTURED_YOLO |
 | GDT1373 | gdt1373_frozen_whole_cache_order_increment | `NO_RETAINED_CACHE_GAIN` | [report](../experiments/yolo/gdt1373_frozen_whole_cache_order_increment/REPORT.md) | 14 | 501.9 KiB | 6 | STRUCTURED_YOLO |

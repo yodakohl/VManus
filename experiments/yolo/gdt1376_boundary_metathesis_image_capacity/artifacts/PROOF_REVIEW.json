@@ -1,0 +1,64 @@
+{
+  "status": "SOURCE_FREE_CLOSED_AND_OPEN_IMAGE_CHARACTERIZATION_PROVED",
+  "utc": "2026-10-13T10:48:06.120018+00:00",
+  "reviewer": "branch_claims, independent source-free proof review",
+  "raw_proposal_sha256": "99db840046b2ea95af4b1a1b88d8a76d2510d117a5b84176442020ba637bac0d",
+  "scope": "Fixed distinct units A,B; one simultaneous original-source A|B\u2192B|A swap rule; finite lists of nonempty words. No native counts, code execution or actual source reconstruction performed by this review.",
+  "closed_stream_theorem": {
+    "statement": "An output stream has a preimage iff each observed A|B seam has an adjacent observed B|A seam connected through the appropriate singleton word.",
+    "source_swaps_disjoint": "A shared position would have to be both B on the right side of one marked seam and A on the left side of another. A!=B forbids this. Adjacent seams can share a nonsingleton word, but not the same position.",
+    "inverse_variables": "Every actual source swap leaves a visible B|A at that same seam. Select any subset of observed B|A seams to invert. These inverse swaps also have disjoint positions.",
+    "monotonicity": "At a seam not selected for inversion, a neighboring inverse swap can only change its LEFT endpoint A\u2192B through a singleton left word, or its RIGHT endpoint B\u2192A through a singleton right word. Either change destroys A|B rather than creating it.",
+    "clauses": "Each observed A|B seam therefore requires at least one linked neighboring B|A variable to be selected. A selected B|A becomes exactly a marked source A|B. All constraints are positive OR clauses.",
+    "canonical_witness": "Selecting ALL visible B|A variables satisfies every satisfiable clause. Invert them simultaneously, then forward-encode the entire candidate to recover the original output exactly.",
+    "complexity": "Membership and one preimage are linear scans. Enumerating all preimages may still be exponential; no unique inverse or intended source is claimed."
+  },
+  "open_run_padding_theorem": {
+    "pads": {
+      "left": [
+        "B",
+        "B"
+      ],
+      "right": [
+        "A",
+        "A"
+      ]
+    },
+    "important_distinction": "Both artificial pad WORDS have length TWO. Only a first or last word of the OBSERVED RUN may be a singleton for an external rescue.",
+    "left_boundary": "The left pad ends in B, so its seam with the run cannot be A|B. It is B|A exactly when the first run word begins in A. Inverting that seam affects the first INTERNAL seam only if the first run word is singleton A.",
+    "right_boundary": "The right pad begins in A, so its seam with the run cannot be A|B. It is B|A exactly when the last run word ends in B. Inverting that seam affects the last INTERNAL seam only if the last run word is singleton B.",
+    "equivalence": "Closed membership of [BB]+run+[AA] is equivalent to every internal A|B seam having an observed singleton-linked B|A neighbor, or the relevant first/last-run singleton rescue. The padding creates no new unsupported A|B requirement.",
+    "construction": "Apply the closed canonical inverse to the PADDED output and verify its complete forward roundtrip. This is an existential local completion; stripping pads afterward does not license treating run boundaries as closed document boundaries.",
+    "limits": [
+      "Pads are not observed manuscript words or identified actual outside context.",
+      "Pad seams and their swaps must not count as native B|A opportunities or actual metathesis evidence.",
+      "Different retained runs can require incompatible actual outside contexts. Passing all local runs does not establish a global manuscript preimage, source language or meaningful message.",
+      "Actual known document boundaries would be stricter than open padding; no such boundary is inferred here."
+    ]
+  },
+  "retained_local_consequence": "With both adjacent output words nonsingleton, neither endpoint can receive a neighboring rescue, so A|B is impossible. The stronger characterization retains the singleton exception A|A|B\u2192A|B|A.",
+  "interpretive_limits": [
+    "All statements are conditional on the fixed working-unit alphabet, preserved word boundaries, one original-source pass and a single ordered pair.",
+    "B|A is a possible reverse site, not proof that its actual source was A|B.",
+    "Source interiors and lengths stay unchanged, but nonsingleton words beginning B and ending A can have up to four context-dependent edge spellings; old two-alias bounds do not automatically transfer.",
+    "This formal image test assigns no phonemes, meanings, language, historical practice or actual manuscript source."
+  ],
+  "protocol_review_status": "At initial directory inspection METHOD.md was still a template. This receipt approves only the explicitly written mathematical model and padding theorem, not an unread final census protocol or implementation.",
+  "completed_protocol_receipt": {
+    "utc": "2026-10-13T10:50:27.326687+00:00",
+    "status": "FINAL_PROTOCOL_MATCHES_REVIEWED_IMAGE_THEOREMS",
+    "method_sha256": "f0cdd5bcb99d60a5207caf1eb01df691fd5134ba91d9ab467e487a6d9d74e313",
+    "checks": [
+      "All462ordered distinct pairs remain fixed over22working units, with readers separate and no activity-based key selection.",
+      "All strict consecutive runs, including singleton words and one-group runs, preserve original indices and stop at gaps/lines. No closed-document assumption is inserted.",
+      "The explicit left/right singleton rescue tests are exactly those supplied by BB/run/AA padding and the positive-OR characterization.",
+      "Allnativecount denominators exclude pad seams. BAopportunities mean possible reverse sites only, not actual source swaps.",
+      "ABcount0 permits an identity preimage on the unextended run; ABcount>0 implies some source change only conditional on that key. The canonical all-BAinverse may differ even when an identity preimage also exists.",
+      "Independent forward reconstruction of each padded canonical preimage supplies a different membership implementation; internal-source digests are reproducibility witnesses, not decoded words or unique readings.",
+      "Survival remains local existential capacity; potentially incompatible actual outsidecontexts across runs and missing source language remain explicit.",
+      "Budget35minutes and no post-outcome rules, multiple passes, source fitting or meanings retained."
+    ],
+    "access": "Protocol only inspected; no new native counts, source queries, primary/validator code or results read.",
+    "scope_history": "The initial template caveat above is retained as an accurate record; this appended receipt now covers the completed METHOD."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "DISTINCT_NECESSARY_BOUNDARY_SCREEN_ONLY_NO_INTERIOR_EXPLANATION",
+  "idea": "IDEA001048",
+  "reviewer": "positive_constraints_review agent",
+  "new_native_counts": false,
+  "duplicate_review": {
+    "IDEA1041_GDT1361_1362": "Changes an original within-word N before T to T; global unit counts change, wholeword output condition NT requires following T.1048 instead swaps unequal units across a fixed source space, preserving global counts and interiors. No old pair result transfers.",
+    "IDEA1008": "Swaps entire grammatical fields under a disjoint stem/field carrier;1321corollary excludes its nontrivial observed carrier.1048has no disjoint field classes or stem-then-field structure, so that exclusion does not apply.",
+    "IDEA1014": "Invertible full-word-pair weave changes interiors and has a source-square obligation.1048is a noninjective conditional boundary normalization with unchanged interiors; automatic inversion or oldweave sourcefailures do not decide it.",
+    "GDT1203": "Moves source gaps, pays END and fails a fixed-source frequency condition.1048retains every source gap and group length, swaps units rather than relocating boundaries; does not rescue or rerun1203."
+  },
+  "positive_structure_limit": {
+    "exact": "For every word of length>=3, each strict interior unit is identical to its source counterpart before the global bijection. For length>=4 every strict INNER edge scored by1374is unchanged. Singleton neighboring swaps never change an interior position.",
+    "consequence": "1048cannot introduce the actual within-word interior sequences or relations by its own operation. They must already occur in the source or arise through source selection. It is an edge-context mechanism candidate, not a demonstrated explanation of1374coupling.",
+    "nuance": "Endpoint changes can move occurrences among endpoint/mask-conditioned pools. Thus unchanged interiors do not prove the numerical1374conditional statistic invariant under encoding. Avoid that stronger unsupported claim."
+  },
+  "smallest_test": {
+    "question": "Which of the462distinct ordered22-unit(A,B)keys are contradicted by an observed A|B boundary between two groups of length>=2?",
+    "input": "One frozen existing strict cache; same-reader, same-locus, consecutive source_group_index pairs with definite shared separator. Never connect missing groups, line fragments, pages or reader alternatives.",
+    "invariant_proof": "In nonsingleton neighboring words, the left last and right first units can be modified only by their shared boundary. Any original A|B swaps to B|A, while every other shared boundary stays unchanged. No other swap can create A|B there.",
+    "outputs": "All462keys, exact violating boundary counts, leaf counts and first complete paired witnesses; survivors separate from those with visible B|A change-opportunity. Keep singleton boundary exclusions explicit.",
+    "all_fail": "Excludes this exact mandatory once-simultaneous boundary law under fixed units/sourceword grouping.",
+    "some_survive": "Necessary capacity only, not full-document image membership, historical support, probability, language or meaning. Visible B|A does not prove an actual swap; it also has unchanged sources.",
+    "no_active_opportunity": "Such a key supplies no visible change opportunity on the inspected nonsingleton-boundary panel, not proof of absence elsewhere or around singletons.",
+    "budget_minutes_including_review_validation_publication": 25
+  },
+  "priority_and_stop": "This screen can cheaply constrain one genuine new edge writer. Its scientific value is exclusion/capacity, not a new coupled-interior mechanism. Do not expand to inverse decoders, multiple pair rules, optionality, or fixed-source reruns if survivors remain without independently selected source evidence. No claim of exhaustive historical novelty.",
+  "scope_limits": [
+    "Declared22working units and sourceword=visiblegroup remain premises.",
+    "The formal writer acts across lines; retained same-line pairs are a valid partial necessary panel, not a new line-reset assumption.",
+    "Wholeword frequency can change with neighbors, so deterministic wordwise type bounds cannot be imported unchanged.",
+    "Length and global unit inventory are preserved; source-specific contradictions based on these invariants remain whenever the exact source/projection premises match.",
+    "No word meanings assigned."
+  ],
+  "input_hashes": {
+    "research_registry/proposals/production_origin_supply_20261003/BOUNDARY_PAIR_METATHESIS_RAW_20261013.json": "99db840046b2ea95af4b1a1b88d8a76d2510d117a5b84176442020ba637bac0d",
+    "experiments/yolo/gdt1361_nasal_assimilation_capacity/REPORT.md": "61e30749fe33677497cfe26151905a5d9fa20f69418860909afa3014c2809138",
+    "experiments/yolo/gdt1362_neutralization_literal_core/REPORT.md": "23d45196add4cc2a139e0d500a92cde168e11625adb856dfdfa11e104a476a46",
+    "research_registry/proposals/production_origin_supply_20261003/RECENCY_AND_FIELD_EXCHANGE_SELECTION_REVIEW_20261011.json": "f21cee4db9340c9068ff5d27ad1204d6f516719f11c389fa7ef6974d47c180c1",
+    "research_registry/proposals/production_origin_supply_20261003/PAIR_WEAVE_HAND_ASSESSMENT_20261011.json": "4fa89963a1088df812b994ddb9a20e39332442248797b102efb0674584f3ee44",
+    "experiments/yolo/gdt1203_shifted_word_boundaries/REPORT.md": "b47d908809248ba6a428e28cf20478ffc7395f46bb57b37d5734f022d2d76e7a"
+  }
+}
