@@ -1,0 +1,46 @@
+{
+  "title": "RAW: simultaneous boundary-pair metathesis preserves interiors while word edges depend on their neighbor",
+  "summary": "Complete invented hand transducer: choose distinct abstract units A,B and normalize only original A SPACE B to B SPACE A, once simultaneously. All word interiors, lengths, order and global unit counts remain. Reader returns every exact inverse candidate rather than guessing the intended source. A source-independent forbidden boundary applies between two nonsingleton words; singleton-generated exceptions are explicit.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "design": {
+    "mechanism": "A scribe carries one final unit to the following initial position while writing the following initial unit first, only for one taught ordered pair. This is an invented boundary-writing convention, not an attested sound change, Arabic practice, corrected transcription or semantic claim.",
+    "source_domain": "A document is a finite ordered list of nonempty words over22 abstract units. Empty documents are permitted. A andB are distinct units chosen once. One fixed bijection maps the22units to the22working signs. Source document and word boundaries are explicit and preserved; line wrapping is not a reset. No source language, actual phoneme inventory or word values selected.",
+    "writer": [
+      "On the ORIGINAL source document, mark each boundary whose preceding word ends inA and following word begins inB.",
+      "Swap precisely those two boundary-adjacent units; retain the space between their positions. Apply the marked swaps simultaneously once, never to a newly created A|B. All other units stay fixed.",
+      "Marked swaps cannot share a unit: overlap would require a one-unit source word to be bothA andB. Thus A!=B makes the rule well-defined even on chains of singleton words. Apply the fixed output bijection last."
+    ],
+    "reader": "Invert the output bijection. Enumerate subsets of its B|A boundaries, reverse each selected pair, then retain exactly those candidate source documents whose forward encoding equals the entire output. Reversed pairs also cannot share units. At most2^m candidates for m visible B|A boundaries; no hidden dictionary or preferred language selects a winner. AB andBA at a boundary genuinely collide.",
+    "state_cost": "Two globally taught unit identities and one fixed22-unit table. The writer requires one-symbol lookahead across the next boundary, plus the pending final unit; no wordbook, lexical cache, counter or hidden reset. Reader candidate count can grow exponentially; systematic ambiguity is admitted, not labeled successful unique decoding.",
+    "examples": [
+      "XA | BY -> XB | AY",
+      "XB | AY -> XB | AY (genuine ambiguity)",
+      "A | A | B -> A | B | A (shows that A|B is NOT globally absent)",
+      "Within-word AB remains AB."
+    ],
+    "necessary_consequence": "Between two adjacent output groups each of length>=2, A|B cannot occur. Their respective last/first positions are affected only by their mutual boundary, so an original A|B is converted and no neighboring swap can create it. Singleton groups invalidate this shortcut and must remain in the full contract. One exact forbidden eligible boundary excludes that proposed(A,B)key; a surviving pair is merely capacity.",
+    "other_exact_invariants": [
+      "Each source/output word has identical length. Every within-word position other than the first/last is unchanged before the bijection.",
+      "The full document unit multiset is unchanged. Per-word unit multisets need NOT be unchanged, unlike within-word permutation writers.",
+      "Repeated source words may have different edge spellings in different actual neighboring contexts, while their ordered interior remains identical. This supplies a defined contextual mechanism; no statistical fit or source-word identity is inferred from similar native forms."
+    ],
+    "smallest_decision_changing_check": "Before any source decoder, inspect only an independently selected already-admitted complete adjacency packet for candidate ordered boundary pairs under both word-length premises. If every global(A,B)pair has a witnessed forbidden boundary, this exact family is excluded. Otherwise retain only capacity and require a separately fixed source/context comparison; do not count inverse coverage as a decipherment result. No packet, threshold, run or new native query selected here.",
+    "relation_to_positive_structure": "A defined directed local operation generates reusable edge contrasts while retaining source word interiors and their lexical identity distribution. It can express context-dependent whole-form choice. This is a mechanism offered for review, not a demonstrated explanation of composition or whole-word predictive residuals.",
+    "prior_differences": [
+      "1041changes an internal N beforeT toT and loses the global source unit multiset; this rule moves two unequal units across an existing source space and retains that multiset.1041/1361/1362scope remains unchanged.",
+      "1014interleaves complete paired words and uses their lengths as split information;1008swaps separately supplied inflection fields. Neither is this local conditional boundary normalization. Their prior failures/obligations remain.",
+      "1370literal overlap,943equal-letter liaison and1203boundary shifts are not repaired: there is no deletion, copied overlap, inserted seam or relocated source gap here.",
+      "GDT1318boundary-edit predictive failure does not establish this pair rule; the source-free necessary consequence is not a retuned edit predictor.",
+      "Existing fixed-source internal repeated-unit obstructions remain relevant because interiors are unchanged. No fixedDeot/fourbook rerun or claimed rescue of source type/length failures."
+    ],
+    "known_limits": [
+      "Purely phonetic interpretation is optional and unbound; this cannot identify metathesis in a real language.",
+      "Native working units may not be actual letters; true source words may not equal written groups. Those are explicit family premises, not resolved facts.",
+      "Optional application, more pair rules, multiple passes or hidden resets would change the registered rule and must not be installed after a failure.",
+      "The free source vocabulary is not a language explanation. A compatible boundary pair would not establish source plausibility, grammar or meaning."
+    ],
+    "review": "Live route and bounded method/word-exchange/metathesis searches and duplicates;1014primary PAIR_WEAVE_HAND_ASSESSMENT read;1041own full contract and1008assessed scope retained. No same complete cross-space normalization found in bounded review; no exhaustive novelty claim.",
+    "access": "No native counts, new corpus, image, word meanings, experiment or publication."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "INDEPENDENT_VALIDATOR_FROZEN_BEFORE_NATIVE_EXECUTION",
+  "utc": "2026-10-13T06:26:34.273561+00:00",
+  "author": "positive_constraints_review agent",
+  "primary_source_or_results_inspected": false,
+  "native_data_execution": false,
+  "controls": {
+    "enumerated_matrices": 4,
+    "weave_permutations": 6,
+    "checks": [
+      "exact uniform assignment mean",
+      "rectangle versus exhaustive mobility",
+      "within-stream order",
+      "fixed endpoints",
+      "aggregate position margins",
+      "label-swap symmetry"
+    ],
+    "status": "PASS"
+  },
+  "hashes": {
+    "experiments/yolo/gdt1374_class_stream_partner_exchange/src/validate.py": "e4334baa15af2a74846e1013086d3c53de4cee7131378c02729bc8b819ae8c6a",
+    "experiments/yolo/gdt1374_class_stream_partner_exchange/METHOD.md": "d572c7da27f1970d7e54eb4350bd3d31c32fc52e3eedd8a5e795234549531814"
+  },
+  "clarifications": [
+    "per_leaf observed/expected/excess are nats per edge",
+    "unit position margins are aggregate within pool",
+    "p_or_null remains null when capacity or realized null mobility fails"
+  ]
+}

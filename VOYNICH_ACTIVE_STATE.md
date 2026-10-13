@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1374 retains conditional partner coupling
+
+Fouragentreviews nominated the dual of1265: fix page/Currier/fullclassmask/exactouterunits andallorderedclassstreams, exchangeonlypartners. Frozen1279strict-innercrossclass scores favoractualpairings: mobilepoolexcess+.159409/.149285/.154199IT/RF/ZL,27/33,30/34,26/33positiveleaves,p.005each. Allscorable46leafdiagnosticexcessisabout.010. Independent source/matrix/597permutation validationPASS. This rejects thedeclaredpoolexchangeabilitylaw; localjoincompatibility orhiddenconditioning canexplainit, no wordwide/phonetic/meaning inference. Resume1333shorthand correctedtoPRIMARYnegative; oldfull-heldpositiveHBvalues remain. IDEA1048metathesis remainsrawuntested. [Report](experiments/yolo/gdt1374_class_stream_partner_exchange/REPORT.md).
+
 ## 2026-10-13 — GDT1373 finds no extra value from the fixed recent-whole cache
 
 A fixed1/8empiricaldistribution fromtheprevious4consecutivegroups ofmatchinglength slightlyworsens frozen1316onALL23496heldevents: equal-leafgains-.006011/-.006145/-.002133IT/RF/ZL, positiveleaves16/10/18of46. Same-run/lengthwordinventorypermutations yieldupperp.995/.930/.910, withadequatemobility. Independentrollingcounts validateall597nullmeans. Stopthiscomponentwithoutweight/windowrepair; no generalrecencyban, localinventorysufficiency oranti-copyingclaim. OlderGDT001MRUcodec failure remains distinct. [Report](experiments/yolo/gdt1373_frozen_whole_cache_order_increment/REPORT.md).
