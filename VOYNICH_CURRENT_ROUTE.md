@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: fragments.
-Latest decision: openB2=4.
-Working files: GDT1369.
-Assumptions: raw carriers.
-Resume: bind carriers.
+Task: word binding.
+Latest decision: no binding.
+Working files: IDEA1046.
+Assumptions: gaps≠words.
+Resume: new evidence only.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public819a2b9fe.
+Public4759aef40.

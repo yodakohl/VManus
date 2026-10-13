@@ -1,3 +1,7 @@
+## 2026-10-13 — Boundary-based carrier extension parked
+
+A narrow primary review of existing physical gap/join cases does not supply a complete linguistic-word or fixed phonetic-carrier binding for1369. Positive spacing observations remain; historical display meanings are not reused. No new manuscript finding or exclusion. Do not repeat this unchanged audit or another localpartition count. An independently specified writer may still be tested without confirmed translations, but requires concrete changed evidence and a different predicted consequence. [Selection decision](research_registry/proposals/production_origin_supply_20261003/BOUNDARY_BINDING_SELECTION_STOP_20261013.json).
+
 ## 2026-10-13 — GDT1369 retains four under open-edge partition consistency
 
 On the same1368triples reconstructed into3267/3071/3069runs (IT/RF/ZL), exact local1/2group representative-partition minimum remains4. AllK4window survivors pass; K5retains86/78/93, rejecting oneZLset at f50r.5 through00100. One unknownoutsidefragment peredge is permitted, so no lineframing is invented. Independent matching validator checks allcandidates andwitnesspartitions. These are not completecarriers, phonetics or oneglobalsourceword partition. Stop further count/partition elaboration pending independent sourceword/carrier evidence. [Report](experiments/yolo/gdt1369_open_edge_fragment_partition/REPORT.md).
