@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: scope.
-Latest decision: local.
-Working files: 193/4 audit.
-Assumptions: no global bound.
-Resume: Bind1052input.
+Task: bounds.
+Latest decision: 4cert;2open.
+Working files: GDT1380.
+Assumptions: new scope.
+Resume: Plan residual bound.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public429edd1a8.
+Public159fb07db.

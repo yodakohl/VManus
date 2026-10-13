@@ -1,0 +1,67 @@
+{
+  "status": "PASS_PROSPECTIVE_PROOF_AND_PREREGISTRATION_SCOPE",
+  "reviewed_utc": "2026-10-13T13:39:48.465486+00:00",
+  "native_payload_read": false,
+  "source_pack_payload_read": false,
+  "new_primary_program_read": false,
+  "proof": [
+    {
+      "claim": "Contextwise lower bound",
+      "argument": "Every legal global injection restricts to an allowed context assignment and an injective next-symbol assignment in each native row. Dropping context equality, context/output agreement and cross-row agreement enlarges the feasible set. Independent row minima therefore sum to a lower bound for every globally consistent key. SPACE and BOS must remain fixed typed symbols; ordinary rows never map to them."
+    },
+    {
+      "claim": "Exact inner assignment",
+      "argument": "For fixed target context, cost is frequency_x times target_cost_t. Nonnegative frequencies descending paired with the lowest distinct target costs ascending minimize the rectangular injection sum by rearrangement; unused consonants receive zero-frequency rows. Add SPACE separately. Sorting conservatively rounded lower ticks and minimizing them remains a valid lower bound even if rounding changes the selected minimizer."
+    },
+    {
+      "claim": "Certified log enclosure",
+      "argument": "Construct integer inputs exactly. At precision60, correctly rounded Decimal.ln(integer) lies between its adjacent representable values; handle ln1=0 exactly. Positive ln2 endpoints and directed subtraction/division give bounds for ln(D)-ln(N) divided by ln2. Taking max(0,lower_difference) is sound for D>=N. Directed conversion to2^-32ticks and all later integer arithmetic preserve bounds. This assumes the documented Decimal correctly-rounded ln primitive, not an arbitrary host libm float."
+    },
+    {
+      "claim": "KT comparison",
+      "argument": "For each native history, sequential Dirichlet-half probability has numerator product_x product_j(2j+1), denominator product_j(2j+K). Context totals suffice since within-context products commute. Histories reset by locus; counts do not reset. Upper cost uses upper log denominator-product minus lower log numerator-product. All events, including SPACE, use the same stream and K=m+1. BOS is history only; no EOS added."
+    },
+    {
+      "claim": "Paid comparison",
+      "argument": "Key log2(P(21,m)) and selector log2(6) lower bounds may be added. Identical common overhead cancels. A strictly positive integer lower margin over KT upper certifies no key beats that baseline in this fixed family. Finite-union claim requires every pack. Nonpositive bounds do not produce a key, certify model success or prove a useful tight approximation."
+    },
+    {
+      "claim": "New input and legacy limits",
+      "argument": "Per-reader admitted complete-locus selection and new independently learned o/ot licensing yield a NEW projection, not the old193input. Checked189preparse/license order agrees with METHOD. Raw ASCII outputs are not22working units. m>21 means empty injection family, not a numerical bound; zeroevents remain separate. No old-score certification or194homophonic extension is allowed."
+    }
+  ],
+  "scope_checks": [
+    "Source-only proof audit, no new counts or interval scores inspected.",
+    "Current-scope subset cannot inherit old193KT totals or learned parser unchanged.",
+    "Legacy local numerical failures and corrected non-global scope retained.",
+    "No source language, phoneme, lexical meaning, full model rescue, threshold repair or automatic tightening follows."
+  ],
+  "implementation_validation_still_required": [
+    "Check exact host reproduction and model integer counts/normalization.",
+    "Check directed arithmetic implementation at declared precision; no ordinary rounded division before interval formation.",
+    "Independent validator must check all row minima and KT bounds from same new stream before claim adoption."
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/METHOD.md",
+      "sha256": "da15385e306567d3af0d38a85578b5e7ffa3ff9a71792b19eb7a2cf4ec3397b2"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/PREREGISTRATION.md",
+      "sha256": "da15385e306567d3af0d38a85578b5e7ffa3ff9a71792b19eb7a2cf4ec3397b2"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CONSONANTAL_CONTEXT_BOUND_RAW_20261013.json",
+      "sha256": "14964799f82bf52b29378c2e6bfe59adc8d3d020fc57cac15a3223c1286d2fd9"
+    },
+    {
+      "path": "run_gdt189_compiler_stripped_language.py",
+      "sha256": "ec5df2047c1bad474617952f51ae9d48c997da8cc74cc1c88a70966a0344de45"
+    },
+    {
+      "path": "run_gdt193_compiler_stripped_consonantal.py",
+      "sha256": "d647f5bbdab2b4f9c3f2d40b740f5886bca000457281c5906059db69d2c4f3da"
+    }
+  ],
+  "requested_changes": []
+}

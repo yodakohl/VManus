@@ -1,0 +1,69 @@
+{
+  "status": "PASS_INDEPENDENT_EXTERNAL_MODEL_REPLAY",
+  "utc": "2026-10-13T13:54:04.106414+00:00",
+  "stage": "Post-result auxiliary verification; sourcemodel inputs fixed before native1380run. This author had seen native result summary before this replay.",
+  "native_data_read": false,
+  "pack_payload_published": false,
+  "new_corpus_or_normalization": false,
+  "method": "Independent character-level vowel/empty-word removal and batch trigram counting with twoBOS per originalnonemptyline. No primary/old193imports; all6preparedbytehashes and every integer modelcount reproduced.",
+  "controls": [
+    "Empty strippedwords create no spuriousseparator",
+    "Whitespacecollapsed only between retainedwords",
+    "BOSreset eachoriginalnonemptyline"
+  ],
+  "packs": {
+    "latin": {
+      "prepared_sha256": "64cce481ba4fa74ddd71f60ebb2dd1292b394a920fc1281063183f0df5b719aa",
+      "bytes": 1361527,
+      "nonempty_stripped_lines": 9023,
+      "events": 830100,
+      "contexts": 308,
+      "all_counts_equal": true
+    },
+    "medieval_czech": {
+      "prepared_sha256": "52376f5bce8991112b665fe63440b6659a53427c4c85b65ae0713fb37f83a685",
+      "bytes": 4629228,
+      "nonempty_stripped_lines": 18,
+      "events": 3063618,
+      "contexts": 448,
+      "all_counts_equal": true
+    },
+    "middle_french": {
+      "prepared_sha256": "8b849ac3f8b590c9ac070fc3694edf2c5de35898e216ccd6318e0f06ca513f01",
+      "bytes": 556525,
+      "nonempty_stripped_lines": 5968,
+      "events": 351622,
+      "contexts": 395,
+      "all_counts_equal": true
+    },
+    "middle_high_german": {
+      "prepared_sha256": "3ba25894f4f55d55b4f292c6352802886c29cacb7f425a709f2d94a73457d20b",
+      "bytes": 12023106,
+      "nonempty_stripped_lines": 57459,
+      "events": 8243776,
+      "contexts": 490,
+      "all_counts_equal": true
+    },
+    "old_hungarian": {
+      "prepared_sha256": "4b8b8b28ccd4e9a6db4c802aafaa101491ca1bdea318dddd1978396b39351989",
+      "bytes": 854638,
+      "nonempty_stripped_lines": 26653,
+      "events": 527938,
+      "contexts": 427,
+      "all_counts_equal": true
+    },
+    "old_italian_tuscan": {
+      "prepared_sha256": "b5f719981934b0f65b3aba2edede7a52501d8e14c310ece68e4de038c0ff1d50",
+      "bytes": 504392,
+      "nonempty_stripped_lines": 3419,
+      "events": 305532,
+      "contexts": 288,
+      "all_counts_equal": true
+    }
+  },
+  "input_hashes": {
+    "gdt001_language_pack_manifest.json": "e30ebb62e5020e448e1184e70c9b8282af02b10e25016ec28ce7fa72c777a37c",
+    "experiments/yolo/gdt1380_consonantal_context_cost_bound/artifacts/MODEL_COUNTS.json.gz": "e272ffbae07ae382e2879acfef68164e1502b7417f9fa3e1e87e1763093d05eb"
+  },
+  "validator_sha256": "b021ec56058c8e48b03c4824a2fd299f5f8242ba351d2970d13e055ddc945ba5"
+}
