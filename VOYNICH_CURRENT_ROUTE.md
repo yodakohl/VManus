@@ -3,11 +3,11 @@ Updated: 2026-10-13.
 
 ## Work
 Phase: exploration
-Status: checkpoint
-Task: CV.
-Latest decision: 1053raw.
+Status: parked
+Task: reading.
+Latest decision: no binding.
 Working files: IDEA1053.
-Assumptions: 6C/3V unbound.
+Assumptions: unbound.
 Resume: New source evidence.
 Running: none.
 
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public7ec283752.
+Publice3bba16e1.
