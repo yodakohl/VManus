@@ -1,3 +1,16 @@
+## 2026-10-13 — IDEA888 source column partially read; no native model selected
+
+Actual image inspection accounts for all13 Nux indie rubric bands in Latin6977
+f6r: six limited readings retained, seven exact values unread/disputed. Two image
+readers did not consult the comparator first; root and producer did. Disagreements
+and a reduced-resolution first-pass correction remain explicit. The agreed harm
+cell is tarde descendit; rechecked9333 institutional prose adds de stomacho.
+A per-cell literal heading-deletion/reorder account cannot create those words;
+semantic addition/loss, direct copying and a complete source compiler are not
+proved. No claimed multum omission or benefit difference. No native data or word
+assignment. Stop unchanged AI rereading; this branch needs reliable independent
+transcription and a native discriminator before selection. [Result](research_registry/proposals/production_origin_supply_20261003/TABLE888_COLUMN_RESULT_20261013.md).
+
 ## 2026-10-13 — GDT1382 leaves the homophonic family open
 
 A prospective lower bound allows different signs to share a consonant while

@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: writer.
-Latest decision: 1382open.
-Working files: GDT1382.
-Assumptions: 1380scope.
-Resume: Review971/1012/1025.
+Task: text.
+Latest decision: 888partial.
+Working files: TABLE888.
+Assumptions: source-only.
+Resume: Find text parallel.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public6c89fcd92.
+Public5de5c4ab8.
