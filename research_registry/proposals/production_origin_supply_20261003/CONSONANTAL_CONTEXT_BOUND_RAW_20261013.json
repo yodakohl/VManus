@@ -1,0 +1,74 @@
+{
+  "title": "RAW method: rigorous contextwise assignment lower bound for a globally injective consonantal language code",
+  "summary": "SOURCE_FREE_METHOD_NOT_EXECUTED. Replace the three local-search upper bounds of193with an optimistic lower bound: independently minimize every native order2context over legal target contexts and injective next-symbol assignments, dropping cross-context consistency. If the conservatively rounded bound plus declared code costs exceeds matchedKT on the exact same newly admitted representation, no global injective key can win that fixed comparison. Old193input contains outside-scope rows and its learned parser cannot simply be filtered; no oldfull-scope certification or194homophony exclusion is claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_EXECUTED",
+  "owner": "Root authorized method registration only; no native execution or data admission",
+  "scientific_question": "Can a computable relaxation certify that EVERY globally injective one-sign/one-consonant key loses to the matched anonymous KT code on one fixed admissible representation and one frozen external LM family?",
+  "correction_to_prior_claim": "The inspected193/194procedures perform three local descents; their locally optimal candidates are upper bounds on the attainable minimum, not global lower bounds. This proposal does not erase the recorded local numerical outcomes or retrospectively supply an absent certificate.",
+  "data_scope_gate": {
+    "root_reported_metadata_only_audit": {
+      "old193input_rows": 15360,
+      "currently_allowed_rows": 15120,
+      "outside_current_scope_rows": 240
+    },
+    "binding_status": "These counts are root-reported metadata/hash audit facts, not a new payload inspection by this proposal author.",
+    "parser_issue": "The old compiler/parser is corpus-learned. Filtering its raw training scope can change the representation, symbol inventory, line events and context counts. Do not reuse an old compiled sequence or total as though removing240rows merely subtracts independent scores.",
+    "before_any_execution": "Freeze one explicitly allowed source selector list, guarded extraction contract and independently reproducible representation-construction rule. If the existing rule is reestimated on admitted rows, name the result a NEW scoped representation. No source vocabulary/model/threshold choice after its outcome.",
+    "matched_baseline": "Compute context counts, active inventory, reset boundaries, event total and anonymous KT baseline on exactly that same newly frozen representation. Never compare its bound with the old full-scope KT total.",
+    "claim_limit": "A result on the new admitted representation does not certify the original193/194fullinput. Historical exposure does not grant renewed access. No scope enlargement, f84/f84r,f116v,f1rbody or reserve use is authorized here.",
+    "stop": "If legal source binding or deterministic representation reproduction cannot be supplied, STOP_BEFORE_NATIVE_BOUND; do not repeat an unchanged missing-input audit."
+  },
+  "frozen_model_family": {
+    "orientation": "Forward order of each fixed physical line, as in193. No within-word or line reversal is included. Any later orientation family needs prospective enumeration and minimum over its separate lower bounds.",
+    "letter_key": "m active ordinary source signs map injectively into the fixed21consonants bcdfghjklmnpqrstvwxyz. If m>21, that exact injective family is empty; do not add target letters. Active source labels are computational states, not sounds.",
+    "space": "SourceSPACE=25 is always targetSPACE=26 and is not optimized as an ordinary sign. Ordinary source signs cannot map to SPACE or BOS.",
+    "bos": "TargetBOS=27 is history only. Initialize history(BOS,BOS) at every physical line; do not reset at each word. Native context-building uses a distinct typed BOS sentinel, never confounding it with sourceSPACE25.",
+    "events": "Score every represented ordinary sign and SPACE occurrence once. No BOS output event and no invented EOS event. Wordspaces update the order2history normally.",
+    "target_costs": "Freeze the same declared consonant-stripped external pack construction and order2conditional costs c(a,b,t)=-log2P(t|a,b), with its specified smoothing and normalization over21consonants plusSPACE. Do not optimize LM parameters, corpora or stripping conventions after the bound.",
+    "cost_contract": "For a new general m-sign scope, a prospectively declared uniform injective-key code costs log2(21!/(21-m)!). At m=20 this equals193log2(21!). Add fixed language selector and any common code overhead. If reproducing a differently declared legacy cost exactly, retain its actual fixed cost instead; the native registration must choose one contract BEFORE counts. Zero or another proved lower bound on key costs is safe but must not be reported as an exact paid code.",
+    "language_family": "Report one bound per frozen pack. To reject the finite union use the minimum paid bound across packs. Do not sum unrelated pack costs or choose a favorable orientation after seeing results."
+  },
+  "mathematical_bound": {
+    "counts": "n_c(x) counts output events x following typed native order2context c=(u,v), under the exact line reset rule.",
+    "target_context_domain": "For each ordinary native context position allow every one of21target consonants; sourceSPACE permits only26 and BOS only27. The Cartesian product is a relaxation: equal ordinary native context signs may be allowed different target values, and different signs may coincide here. Retaining valid equality/inequality constraints can strengthen the bound but is not required.",
+    "row_domain": "Within a row, independently assign distinct observed ordinary next-symbol types to distinct target consonants. SPACE has fixed26. Drop agreement between these assignments and the chosen context letters, and drop all agreement with other context rows.",
+    "formula": "B_c=min_(a,b in D_c) min_injective f_c [n_c(SPACE)*c(a,b,SPACE)+sum_(ordinary x) n_c(x)*c(a,b,f_c(x))]. Then L(g)>=sum_c B_c for every legal global injective key g.",
+    "proof": "For any global key, its target context and next-symbol map are feasible in EACH relaxed row. Hence each row minimum is no greater than that globalkey row contribution. Sum these inequalities. Constraints were only removed, so inconsistent rowwise mappings make the bound more optimistic, never invalidate it.",
+    "closed_form_inner_minimum": "For a fixed targetcontext, sort its21ordinary target costs ascending and the positive ordinary next-symbol counts descending. Pair largest counts with smallest distinct costs; add fixed SPACEcost. This is the exact injective minimum because the matrix entries are frequency_x times cost_target. No heuristic assignment search is needed.",
+    "equality_warning": "Dropping equality means allowing MORE assignments, not requiring unequal targets for two occurrences of the same source symbol. Accidentally imposing a contrary equality pattern can exclude the true key and invalidate a lower bound.",
+    "certificate": "For every observed native context retain allowed targetcontext choices, selected minimizing context, ordered count vector, ordered target-cost vector and exact/conservative row contribution. An independent validator reproduces every finite minimum and total."
+  },
+  "homophony_194_boundary": {
+    "not_covered": "194allows many native signs to share one target consonant. The injective row minimum is NOT a lower bound for that larger family and must not be transferred.",
+    "valid_separate_relaxation": "If a separately registered194bound is pursued, drop row injectivity too: independently choose the cheapest target for each ordinary next-symbol, keeping SPACE/BOSfixed. Drop the nonnegative ambiguity payload or replace it by a separately proved lower bound; retain the actual declared homophonic key-code lower bound.",
+    "simple_counterexample": "Two distinct next-symbol types of count1 and target costs0,100 cost100 under injectivity but0under allowed merger. Using100as a194lower bound is invalid.",
+    "execution_scope": "Only the injective193-style method is nominated here. No194run, homophonic model fit or automatically strengthened ambiguity penalty is selected."
+  },
+  "numerical_rigor": {
+    "requirement": "Use lower enclosures for LM/key/selector contributions and an upper enclosure for the matchedKTtotal. Certify failure only when paid_LB_lower-KT_upper is strictly positive after an explicitly documented rounding/error allowance.",
+    "log_costs": "Prefer reproducible target integer counts with certified log2interval evaluation. Sorting/minimizing lower endpoints remains a valid optimistic bound even if the identity of the numerical minimizer changes. Do not substitute a heuristic candidate score for a proved row minimum.",
+    "legacy_float_alternative": "If stored finite floating costs define the audited objective, distinguish the exact weighted sum of those values from sequential floating accumulation and bound the latter error conservatively. A rounded positive printed difference is not a certificate.",
+    "uncertain_margin": "If the sign is within the numerical envelope, report NUMERICALLY_UNRESOLVED, not an exclusion; no silent precision or threshold reinterpretation."
+  },
+  "smallest_decision_changing_test": {
+    "first": "Source-free proof review and tiny exhaustive controls only, then admissible representation/LM binding. No new optimizer, decoder, language corpus or large infrastructure.",
+    "native_step_if_separately_selected": "One forward context census, finite targetcontext row minima, summed certificate and same-cohort KT comparison per frozen pack. Existing local candidate scores may be retained as upper bounds only when scored on the SAME new cohort under the SAME cost convention.",
+    "positive_margin": "CERTIFIED_NO_INJECTIVE_KEY_BEATS_MATCHED_KT for that scope/representation/pack contract. This can justify stopping globalkey search there. It is a code-length comparison, not rejection of a language, phonetics or consonantal writing generally.",
+    "nonpositive_margin": "BOUND_INCONCLUSIVE. The relaxation may be too generous; it proves neither a good key nor that the old local search missed one. Do not automatically tighten it by an expanding chain of solvers.",
+    "scope_or_numeric_failure": "No native scientific decision; retain a precise preparation/verification limit.",
+    "proposed_inclusive_execution_budget_minutes": 25
+  },
+  "source_free_validation_plan": [
+    "On tiny synthetic line streams and2-4letter alphabets, exhaust EVERY legal global injection and compare its true total against the contextwise bound.",
+    "Compare sorted inner assignments with exhaustive injective assignments, including ties, SPACEevents and count-zero target letters.",
+    "Exercise repeated source context symbols, repeated context/next symbols, BOS/BOS and BOS/letter rows, consecutiveSPACEcontexts and line resets; no EOS or word-reset substitution.",
+    "Check that removing equality constraints never raises the exact optimum; include a deliberately invalid opposite inequality fixture.",
+    "Exhibit the homophonic0versusinjective100counterexample to prevent193-to194scope leakage.",
+    "Use exact rational toy costs or certified intervals; validate conservative sum/margin arithmetic and independently reproduce any future native row certificates without calling the primary minimizer."
+  ],
+  "prior_relation": "193/194local-search results motivate the method correction.1230/1255are different fixed-source entropy exclusions, not proofs for these representation-to-target-LM objectives. No oldfailedmodel is claimed rescued and no oldglobalclosure certified by subset.",
+  "native_payload_read_for_this_proposal": false,
+  "new_native_code_or_queries": false,
+  "word_meanings_assigned": false
+}

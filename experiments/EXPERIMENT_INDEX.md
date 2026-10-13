@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1378**
-- Experiment-associated tracked files: **26,910** (2.4 GiB)
+- Experiment-associated tracked files: **26,912** (2.4 GiB)
 - Structured GDT337+ experiments: **1043**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -1204,8 +1204,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT197 | GDT197_f77_decoder_global_competition | `TERMINAL_Y_SEQUENCE_SIGNAL_NOT_UNIQUE_OT_AXIS_NOT_SELECTED` | [report](../GDT197_F77_DECODER_GLOBAL_COMPETITION_REPORT.md) | 10 | 47.1 KiB | 5 | LEGACY_ROOT |
 | GDT196 | GDT196_f77_structural_interlinear | `STRICT_STRUCTURAL_INTERLINEAR_PARTIAL_LABEL_KEY_NOT_BRIDGED` | [report](../GDT196_F77_STRUCTURAL_INTERLINEAR_REPORT.md) | 9 | 42.5 KiB | 5 | LEGACY_ROOT |
 | GDT195 | GDT195_f77_readable_homolog_audit | `ALCHEMICAL_SOURCE_FAMILY_PLAUSIBLE_EXACT_F77_HOMOLOG_NOT_FOUND` | [report](../GDT195_F77_READABLE_HOMOLOG_REPORT.md) | 12 | 33.3 KiB | 2 | LEGACY_ROOT |
-| GDT194 | GDT194_consonantal_homophony | `CONSONANTAL_HOMOPHONY_FALSIFIED` | [report](../GDT194_CONSONANTAL_HOMOPHONY_REPORT.md) | 9 | 27.9 KiB | 5 | LEGACY_ROOT |
-| GDT193 | GDT193_compiler_stripped_consonantal | `COMPILER_STRIPPED_CONSONANTAL_FALSIFIED` | [report](../GDT193_COMPILER_STRIPPED_CONSONANTAL_REPORT.md) | 9 | 29.0 KiB | 3 | LEGACY_ROOT |
+| GDT194 | GDT194_consonantal_homophony | `CONSONANTAL_HOMOPHONY_FALSIFIED` | [report](../GDT194_CONSONANTAL_HOMOPHONY_REPORT.md) | 10 | 30.5 KiB | 5 | LEGACY_ROOT |
+| GDT193 | GDT193_compiler_stripped_consonantal | `COMPILER_STRIPPED_CONSONANTAL_FALSIFIED` | [report](../GDT193_COMPILER_STRIPPED_CONSONANTAL_REPORT.md) | 10 | 31.6 KiB | 3 | LEGACY_ROOT |
 | GDT192 | GDT192_compiler_stripped_expansion | `COMPILER_STRIPPED_EXPANSION_FALSIFIED` | [report](../GDT192_COMPILER_STRIPPED_EXPANSION_REPORT.md) | 10 | 33.0 KiB | 3 | LEGACY_ROOT |
 | GDT191 | GDT191_context_keyed_word_codebook | `CONTEXT_KEYED_WORD_NOMENCLATOR_FALSIFIED` | [report](../GDT191_CONTEXT_KEYED_WORD_CODEBOOK_REPORT.md) | 10 | 65.8 KiB | 3 | LEGACY_ROOT |
 | GDT190 | GDT190_compiler_stripped_word_codebook | `COMPILER_STRIPPED_WORD_NOMENCLATOR_FALSIFIED` | [report](../GDT190_COMPILER_STRIPPED_WORD_CODEBOOK_REPORT.md) | 10 | 69.6 KiB | 3 | LEGACY_ROOT |

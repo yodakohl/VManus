@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: construction.
-Latest decision: no joint lead.
-Working files: GDT1379.
-Assumptions: fixed22units.
-Resume: Model1198/1294cases.
+Task: scope.
+Latest decision: local.
+Working files: 193/4 audit.
+Assumptions: no global bound.
+Resume: Bind1052input.
 Running: none.
 
 ## Structural baseline
@@ -25,7 +25,7 @@ No proven parser/alphabet;1321/1326/1327FAIL.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
-No default Latin/phonetics;1058k/t open;1350FAIL.
+No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
 Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles/reversibility≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public974e2dedc.
+Public429edd1a8.
