@@ -1,3 +1,22 @@
+## 2026-10-13 — GDT1382 leaves the homophonic family open
+
+A prospective lower bound allows different signs to share a consonant while
+preserving same-sign identity inside every context/next-event row. With unchanged
+1380 reader-separated inputs and six fixed models, all18 paid lower margins are
+negative (range approximately −114190 to −24800bits). All4404 row certificates,
+three matched KT intervals and full cost accounting independently reproduce.
+This is an inconclusive relaxation, not an achieved key or favored language.
+The six1381 injective certificates remain intact and cannot be transferred.
+Stop this bound branch without automatic solver/reverse-channel extensions.
+The report retains a manually entered registration timestamp error separately
+from the pre-execution hash freeze and successful numerical replay.
+
+Next: review already retained writer ideas971 (disambiguating supplements),1012
+(inherent vowel with doubling suppression),1025 (nested fields), including their
+primaries and later decisions before selecting anything. Each still needs an
+explicit source/selection or content rule; none is a newly selected experiment.
+No new word meaning or reserve admission. [Report](experiments/yolo/gdt1382_consonantal_homophonic_row_bound/REPORT.md).
+
 ## 2026-10-13 — GDT1381 closes all six fixed IT cost comparisons
 
 The singledeclaredwithin-rowinjectionbound reservesallcontextimages andpinsmatchingnextsymbols. Onunchanged1380ITdata/costs/KT, Latin/Frenchlower margins become+5366.398698/+5673.145698bits;552rowsmonotoneandindependentlyreproduced. Togetherwith4retained1380certificates, everyglobalinjectivekeylosesintheexact6packfamily. No furtherkeysearch/tighteningforthiscontract. ZL/RF1380alphabetcapacity resultsunchanged; no194homophony,genericlanguageban,old193fullscopeprooforwordmeaning. Anyassessmentof194mustbeaseparatedesign, nottransferthisbound. [Report](experiments/yolo/gdt1381_consonantal_row_consistent_bound/REPORT.md).

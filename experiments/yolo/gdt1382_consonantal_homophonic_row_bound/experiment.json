@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed1380separate-readerNEW_PAGE_HOST/sixLM many-to-one cost family; no generic language or phonetic exclusion, globalkey or wordmeaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1382_consonantal_homophonic_row_bound/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1382_consonantal_homophonic_row_bound/src/validate.py"
+  },
+  "created": "2026-10-13",
+  "dependencies": [
+    "GDT1380",
+    "GDT1381",
+    "GDT194",
+    "GDT1322"
+  ],
+  "experiment_id": "GDT1382",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/src/run.py",
+      "sha256": "fe939b2a5ff62990ac9c7b135e72dec6d221a5e38e74fda5a84867a29cefe0e3",
+      "role": "frozen prior arithmetic or aggregate input"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/src/validate.py",
+      "sha256": "88956b1e39c6b5377fb6ad81815df568f34031729de3a23400f9ef48638a0176",
+      "role": "frozen prior arithmetic or aggregate input"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/artifacts/CORPUS.json.gz",
+      "sha256": "07d2e865c5828aa7bb093999b02772a7debe0d3f8eebe0de8119a3aec3e36ad0",
+      "role": "frozen prior arithmetic or aggregate input"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/artifacts/MODEL_COUNTS.json.gz",
+      "sha256": "e272ffbae07ae382e2879acfef68164e1502b7417f9fa3e1e87e1763093d05eb",
+      "role": "frozen prior arithmetic or aggregate input"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/artifacts/RESULT.json",
+      "sha256": "750e54f43b9af5183d3516f787ac40f7a83678dd9035341c265dfc4276a2c5ae",
+      "role": "frozen prior arithmetic or aggregate input"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/METHOD.md",
+      "sha256": "da15385e306567d3af0d38a85578b5e7ffa3ff9a71792b19eb7a2cf4ec3397b2",
+      "role": "frozen prior arithmetic or aggregate input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/METHOD.md",
+      "sha256": "6acd7f370b743de6dcec17b8d182f05208f526ef73aa5da1aecfe56fb24ab4cd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/PREREGISTRATION.md",
+      "sha256": "6acd7f370b743de6dcec17b8d182f05208f526ef73aa5da1aecfe56fb24ab4cd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/README.md",
+      "sha256": "9d8ea7af4aab07f9d7fde23a8328898e9b9b37884ac89db524832b155ae7ccdf",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/REPORT.md",
+      "sha256": "d6afe16a2d5bee600dbbc0122cb90087b4e66a6b567a47da4bfdae94df575323",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/CONTROLS.json",
+      "sha256": "d33226df188ea7a290d622387264c4692d3594668dadfcdcdc8e6fff9f44f64e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/PROOF_REVIEW.json",
+      "sha256": "cdd8f73b918caccaf958846417644275c50bdc858bbb8b1552704809d907f76a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/PROSPECTIVE_VALIDATOR.json",
+      "sha256": "0e90c9b045f5fff3ac65d2180105e66d923c8cbc9379f4166c4d1a242a437f0e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/README.md",
+      "sha256": "41f48a22a95187984a72b94127058f5371fa377f4a578318ec80aab9ef339629",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/RESULT.json",
+      "sha256": "a49bdfe16c908dd6da5cd64df0a6c867546f4f936fc4bea3f7530338f1219a88",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/RESULT_REVIEW.json",
+      "sha256": "6a3ab628631a061c7c159032e7c07ebbeedc4c551da2da8bf84fe7b990e3354b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/VALIDATION.json",
+      "sha256": "089c7c928294f7ff2c9eb1e4cca0005ad9d013498579b79e59086a3dd1bd799c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/src/REGISTRATION_LOCK.json",
+      "sha256": "06e9bf4f9a6d2536d5bc0a5d4d8d1d387adb61ac904369fb543431f6a058315c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/src/run.py",
+      "sha256": "f138d3feec2709acb1a55781288c5d76972567ffe835a7485dcb5fae96895010",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/src/validate.py",
+      "sha256": "175baf7be59b3dde8ec99014e130b58c9e2c3a6374be38a0a0fe106fe5a01700",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Does within-row same-sign identity certify fixed many-to-one consonantal costs when reverse cost is optimistically free?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "consonantal_homophonic_row_bound",
+  "status": "ALL_18_HOMOPHONIC_BOUNDS_INCONCLUSIVE",
+  "title": "Local sign identity gives no homophonic cost exclusion",
+  "updated": "2026-10-13",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/artifacts/VALIDATION.json"
+  }
+}

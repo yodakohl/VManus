@@ -1,0 +1,70 @@
+{
+  "status": "PASS_PROSPECTIVE_PROOF_CONTRACT_AND_PRIMARY_CODE_REVIEW",
+  "reviewed_utc": "2026-10-13T14:45:11.993390+00:00",
+  "native_execution": false,
+  "new_native_payload_read": false,
+  "source_pack_payload_read": false,
+  "mathematical_review": [
+    "All global many-to-one maps are feasible in each local row; context assignments use replacement, repeated source signs share their image and distinct signs may collide.",
+    "Anchored next-sign costs use their context image once per source count. Unanchored counts can all use the cheapest target, including context targets. No reserved targets or injectivity requirements remain.",
+    "Independent row minima drop cross-row consistency and cannot exceed any global forward cost. Dropping reverseKT is legitimate since an integrated categorical probability is at most1 and thus its negative log is nonnegative; singleton reverseclasses cost0.",
+    "Adding mlog2(21) andlog2(6) lower bounds matches the declared many-to-one map family and six-source selector. Other nonnegative reversecodes retain the inequality only under identical forward/key costs.",
+    "No21-source-state capacity restriction survives for homophony; KT must be recomputed on each frozen reader withK=m+1. Old injective bounds are not transferred."
+  ],
+  "primary_code_review": [
+    "bound() enumerates product(alphabet,repeat=len(distinct_context_anchors)); partial dictionary collapses repeated source positions but permits distinct keys sharing targets.",
+    "free excludes SPACE/BOS and anchored source symbols; cheapest ordinarycost includes every consonant. SPACEcharged separately atindex21; no BOS event is generated.",
+    "main() verifies all locked hashes before data reads; --controls-only exits before helper import or native/model reads.",
+    "main() computes readerwiseKT even when m>21, checks ITexactly against1380, and calculates keyinterval as m times certifiedlog2(21)interval. All18reader/pack comparisons retained.",
+    "Imported1380helper defines functions only at import; its mainguard prevents corpus reconstruction. Reviewed Decimal60logs/ticks directed enclosure and exact powers-of-two branch; all later sums/minima integer.",
+    "Existing immutable contexts encode line-reset history with globally accumulatedKTcounts; helperkt uses the corresponding exchangeable per-context product formula."
+  ],
+  "executed_source_free_controls": {
+    "command": "python3 experiments/yolo/gdt1382_consonantal_homophonic_row_bound/src/run.py --controls-only",
+    "status": "PASS",
+    "local_global_maps_checked": 1920,
+    "global_multicontext_maps": 8,
+    "more_source_than_target": true,
+    "same_symbol_identity_strict_improvement": 10,
+    "distinct_context_collision_and_successor_reuse": true,
+    "SPACE_BOS": true,
+    "zero_successor_anchor_case": "Included via context(a,b), counts{c:5}, without reserving targetslots."
+  },
+  "limits": [
+    "No native/model payload or costs inspected and no global bound run.",
+    "No claim that this optimistic bound is strong enough to decide any native comparison.",
+    "This reviewer inspected the primary and old helper; separate independent validator remains responsible for blind reconstruction, all row certificates, intervals and metadata.",
+    "Old194full-input results remain local-search failures, not retrospectively certified; newprojection/fixedpack/code-cost scope retained."
+  ],
+  "requested_changes": [],
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/METHOD.md",
+      "sha256": "6acd7f370b743de6dcec17b8d182f05208f526ef73aa5da1aecfe56fb24ab4cd"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/src/run.py",
+      "sha256": "f138d3feec2709acb1a55781288c5d76972567ffe835a7485dcb5fae96895010"
+    },
+    {
+      "path": "experiments/yolo/gdt1380_consonantal_context_cost_bound/src/run.py",
+      "sha256": "fe939b2a5ff62990ac9c7b135e72dec6d221a5e38e74fda5a84867a29cefe0e3"
+    },
+    {
+      "path": "GDT194_CONSONANTAL_HOMOPHONY_METHOD.md",
+      "sha256": "60282c5d70314cab48ed4e4b141e697e5f8719c25d8c0002f7cb011b2e433165"
+    },
+    {
+      "path": "run_gdt194_consonantal_homophony.py",
+      "sha256": "d4db8f4dcdd80c89cf831ea101bf9903f6ada91d4c1f8680588e24c82a52b547"
+    },
+    {
+      "path": "gdt001_core.py",
+      "sha256": "a2a1be24480145c7fbbe457c58d205548ff74693b54859dde9aa78edb060e041"
+    },
+    {
+      "path": "experiments/yolo/gdt1382_consonantal_homophonic_row_bound/PREREGISTRATION.md",
+      "sha256": "6acd7f370b743de6dcec17b8d182f05208f526ef73aa5da1aecfe56fb24ab4cd"
+    }
+  ]
+}
