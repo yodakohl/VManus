@@ -1,0 +1,54 @@
+{
+  "status": "PASS_PROSPECTIVE_SOURCE_FREE_PROOF_AND_SCOPE",
+  "reviewed_utc": "2026-10-13T12:33:27.401070+00:00",
+  "native_results_read": false,
+  "primary_program_read": false,
+  "contract": "1379 complete METHOD and PREREGISTRATION, replacing previously observed TODO template; RAW1051 source-free mechanism.",
+  "proof": [
+    {
+      "claim": "Position-dependent first-order invariance",
+      "argument": "With common n and k, every prefix-internal edge remains in its row at the same position. Every suffix-internal edge remains in its donor column at the same position. The only cross-cut edge starts at the common pivot, so its (position,previous,next) identity also travels intact with its donor. Initial factors stay row-fixed and end factors column-fixed. Consequently any positive position/context-dependent last-unit transition law has logP_ij=a_i+b_j; every complete permutation has the same summed log likelihood. This holds for the entire declared table family, not merely fitted1308."
+    },
+    {
+      "claim": "Uniform conditional assignment",
+      "argument": "Under the explicitly assumed exchangeable factorized prefix/suffix law, conditioning on both occurrence bags fixes products of all row and column factors. Every labelled donor permutation has equal weight. Duplicate strings must retain labelled multiplicity; distinct output worlds need not be equiprobable. Hidden occurrence-specific context, joint admission, topic mixture or temporal dependence can invalidate this stochastic null; local algebra alone does not certify their absence."
+    },
+    {
+      "claim": "H component versus MIX_H",
+      "argument": "Unmixed1316H has prefix factor times pivot-conditioned suffix factor within the fixed Currier/length/pivot pool, where retained margins have positive support. No conditional distribution is inferred for zero-support margins. The mixture of two factorized components need not factorize: .41,.09,.09,.41 cell masses give unequal diagonal/off-diagonal products. Thus no inference of failure of MIX_H or of necessary lexical memory follows."
+    },
+    {
+      "claim": "Mean and score mobility",
+      "argument": "Every labelled suffix column lands in each row with probability1/N, hence E(sum S_i,pi(i))=sum_ij S_ij/N. All anchored rectangles zero iff S is a row-plus-column matrix, which makes every assignment sum constant. A nonzero rectangle extends to two permutations differing by a two-row swap, giving score mobility. The stated1e-12 threshold is operational floating-point mobility, not an exact symbolic assertion."
+    },
+    {
+      "claim": "Selection and leaf weighting",
+      "argument": "Pool membership, matrices, mobile selection and denominators depend on fixed bags/context and frozen TRAIN models, not which suffix was observed with which prefix. Page-conditioned pools belong to one physical leaf, so equal-leaf aggregation and its denominators stay fixed in every null world. Retain all negative/zero leaf contributions. The old held split is exposed and does not supply fresh independent confirmation."
+    },
+    {
+      "claim": "Association rather than predictive gain",
+      "argument": "S=log(MIX_Q/P) is a fixed association score. O-E compares an assignment to its uniform conditional expectation; it is not a normalized conditional log-likelihood ratio and needs no permanent normalizer. Its numeric value cannot be treated as1375 gain or fraction explained. A positive rejects the specified conditional factorization under its assumptions; it does not identify actual halves, source words, phonetics, semantics or a scribal memory mechanism."
+    }
+  ],
+  "checks_of_protocol": [
+    "Fixed midpoint, all22units, no H support filtering, all original held words accounted for.",
+    "Capacity/mobility/effect/leaf consistency/tail gates declared before new counts; no original1375 or1280 gate superseded.",
+    "IL026 primary unavailability and retained old root/shell power stop explicitly qualified.",
+    "Independent validator and source-free controls still required; this proof review does not certify implementation, native capacity, numerical matrices or forthcoming results."
+  ],
+  "evidence": [
+    {
+      "path": "experiments/yolo/gdt1379_pivot_suffix_conditional_pairing/METHOD.md",
+      "sha256": "4207eabcba5a624c809598ad73e79c14ace5e1405d4ecc29ebf47a7468e91e21"
+    },
+    {
+      "path": "experiments/yolo/gdt1379_pivot_suffix_conditional_pairing/PREREGISTRATION.md",
+      "sha256": "4207eabcba5a624c809598ad73e79c14ace5e1405d4ecc29ebf47a7468e91e21"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/PIVOT_CONDITIONAL_SUFFIX_RAW_20261013.json",
+      "sha256": "c291c54b43490fd67bcf0913efe5064219af8f87a5cd9b62262c99cfc9b2a22f"
+    }
+  ],
+  "requested_changes": []
+}

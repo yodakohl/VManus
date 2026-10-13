@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1377**
-- Experiment-associated tracked files: **26,894** (2.4 GiB)
-- Structured GDT337+ experiments: **1042**
+- Experiments indexed: **1378**
+- Experiment-associated tracked files: **26,910** (2.4 GiB)
+- Structured GDT337+ experiments: **1043**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1379 | gdt1379_pivot_suffix_conditional_pairing | `NO_RETAINED_PIVOT_PARTNER_EXCESS` | [report](../experiments/yolo/gdt1379_pivot_suffix_conditional_pairing/REPORT.md) | 16 | 1.2 MiB | 8 | STRUCTURED_YOLO |
 | GDT1378 | gdt1378_calendar_fixed_epoch_field | `NO_FIXED_EPOCH_FIELD_CANDIDATE` | [report](../experiments/yolo/gdt1378_calendar_fixed_epoch_field/REPORT.md) | 16 | 611.2 KiB | 6 | STRUCTURED_YOLO |
 | GDT1377 | gdt1377_boundary_metathesis_bound_context | `FIXED_KEY_EXCLUDED_AT_BOUND_CONTEXT` | [report](../experiments/yolo/gdt1377_boundary_metathesis_bound_context/REPORT.md) | 16 | 46.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT1376 | gdt1376_boundary_metathesis_image_capacity | `BOUNDARY_METATHESIS_IMAGE_CAPACITY` | [report](../experiments/yolo/gdt1376_boundary_metathesis_image_capacity/REPORT.md) | 15 | 1.4 MiB | 7 | STRUCTURED_YOLO |

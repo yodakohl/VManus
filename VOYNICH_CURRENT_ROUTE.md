@@ -4,11 +4,11 @@ Updated: 2026-10-13.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1050.
-Latest decision: rival overlaps.
-Working files: IDEA1050 review.
-Assumptions: no key.
-Resume: Decide writer contrast.
+Task: construction.
+Latest decision: no joint lead.
+Working files: GDT1379.
+Assumptions: fixed22units.
+Resume: Model1198/1294cases.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public1e35364c1.
+Public974e2dedc.

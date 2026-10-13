@@ -1,0 +1,100 @@
+{
+  "title": "RAW UNREGISTERED: same-pivot suffix exchange tests whether complete prefixes and suffixes retain partner dependence beyond every observable one-step transition table",
+  "status": "RAW_UNREVIEWED_NOT_REGISTERED_NOT_SELECTED_NOT_TESTED",
+  "scope": "structural",
+  "owner": "Root owns registration/selection; positive_constraints_review drafted source-free mathematics",
+  "mechanism": {
+    "human_simple_hypothesis": "At a declared checkpoint in a word, the writer can choose the remaining complete tail knowing only the checkpoint sign and the fixed pool context, without remembering the exact earlier prefix. This is an observable-state independence hypothesis, not proof of a actual scribal checkpoint or linguistic boundary.",
+    "null_factorization": "Within one pool, p(L,R|context)=a(L|context)*b(R|context), with positive support on the retained prefix and suffix margins. Prefixes include the shared pivot sign; suffixes start immediately after it. Separate word occurrences are exchangeable under this law. No word-specific hidden topic/state, time drift, or joint readability selection is implicitly allowed.",
+    "alternative": "The actual left/right pairing receives extra weight not factorizing into independent prefix and suffix terms. This could reflect lexical construction, latent mixture membership, unobserved context or other selection; it does not uniquely identify memory or meaning."
+  },
+  "fixed_scope": {
+    "sources": [
+      "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "experiments/yolo/gdt1308_whole_form_prediction/artifacts/EVENTS.json.gz",
+      "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL.json",
+      "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv"
+    ],
+    "rows": "Exactly old1308held even-physical-leaf words n>=4, rejoined by reader/id to1233raw rows and old1308Currier metadata. No newly admitted words, source query or training. Every unit including m remains legal. Historically exposed data, not a new holdout.",
+    "readers": "ZL3b primary; IT2a/RF1b separately reported sensitivities of one manuscript. No pooled counts or votes.",
+    "cut": "For unit length n, k=floor(n/2), L=w[:k], R=w[k:], pivot=L[-1]. The midpoint is fixed to reuse an explicit existing convention, not selected as a native morpheme boundary. No alternate-cut search.",
+    "pool_key": [
+      "exact source page",
+      "Currier",
+      "unit length n",
+      "exact first unit",
+      "exact last unit",
+      "exact pivot unit at position k-1"
+    ],
+    "pool_order": "Lexicographic key order; within pool original1233cache order. Keep repeated occurrences separately.",
+    "operation": "Keep each L_i fixed and uniformly permute complete R_j occurrence strings among rows. Every reconstructed word is L_i+R_j. Source group boundaries and word count are retained."
+  },
+  "exact_invariance_proof": {
+    "position_edges": "Every edge before the cut stays with its original prefix. Every edge strictly after the cut stays with its original suffix at the same absolute ordinal. The cut edge is pivot -> first(R_j); the pivot is identical for every carrier, so it too stays equivalent to the donor original edge. Therefore the aggregate count of EVERY(position,previousunit,nextunit) triple is exactly unchanged within the pool. First-unit counts and fixed last units are also retained.",
+    "arbitrary_Markov1": "Let P(w)=P0(w0|c,n,page)*product_i T_i(w_i|w_(i-1),c,n,page), allowing arbitrary position/length/page-specific transition tables. The total product over all reassigned words is unchanged because its complete sufficient statistics are unchanged. Equivalently P(L_i R_j)=a_i b_j and every permutation has product(product_i a_i)(product_j b_j). Tables need not equal frozen1279/1308 estimates. If observed margins have positive mass, recombination introduces no new unseen local transition under these contexts.",
+    "conditional_law": "After conditioning on both occurrence bags and the fixed pool context, every labelled donor permutation is equally likely under the factorized null. Duplicate strings retain labelled multiplicity; no estimated Markov probabilities or MCMC are needed for the reference.",
+    "what_is_not_preserved": "Each individual word may acquire different bigram counts, full class mask, identity and lexical frequency. The theorem preserves their aggregate position-specific edge counts, not GDT1280individual-word invariants.",
+    "H_vs_mixture": "The un-mixed1316H has H(L,R)=P_H(L|Currier,n)*P_H(R|Currier,n,pivot), so it factorizes on these pools where its margins have positive support. This does NOT imply that MIX_H=(M1+H)/2 factorizes: a mixture of two products is generally not a product. The experiment neither uses an H>0filter nor scores/refits H. FrozenHzero-support cases must not be silently claimed to have a defined Hconditional distribution.",
+    "mixture_counterexample": "Two equally weighted independent binary joint laws with marginal probabilities(0.9,0.9) and(0.1,0.1) yield mixture cell masses0.41,0.09,0.09,0.41. Pairing products0.41^2 and0.09^2 differ. Thus a latent per-word component can create coupling without an explicit learned whole-word lexicon."
+  },
+  "fixed_score": {
+    "name": "Unchanged1308MIX_Q versus M1 log-ratio, used only as an association score",
+    "models": "P is frozen1308position-aware M1. Q is its frozen exact whole-form TRAIN frequency within Currier/length. M=(P+Q)/2 if the TRAINcell is nonempty, otherwise M=P. No new fit, smoothing, mixture tuning, Hscore or novel-only filter.",
+    "matrix": "For every pair i,j compute S_ij=log(M(L_i R_j)/P(L_i R_j)) using stable arithmetic. P and M are positive on all strings. The sum of logP is constant over assignments by the theorem; this score therefore tests complete-form weighting after retaining every declared local transition factor.",
+    "expectation": "Observed O=sum_i S_ii. Exact uniform expectation E=sum_i(sum_j S_ij/N). A pool is score-mobile iff an anchored rectangle S_ij+S_00-S_i0-S_0j differs from0by more than1e-12; save first row-major witness.",
+    "interpretation": "O-E is an excess score in nats, not the normalized conditional predictive loglikelihood gain of1375. Do NOT call it a translation probability or subtract it from1375as a share explained. No permanent normalizer is required for this declared association endpoint."
+  },
+  "aggregation_and_provisional_fixed_gates": {
+    "frozen_before_native_review": "The following are proposed pre-data requirements, not estimated from new pool counts. If branch duplicate review changes the scientific contract, record a new prospective version before any payload/capacity inspection.",
+    "primary": "All score-mobile pools; leaf denominator is total word occurrences in those pools. Sum pool(O-E) within each physical leaf, divide by its fixed word denominator, then average all informative leaves equally, retaining negative/zero leaves.",
+    "capacity": "At least100word occurrences and10physical leaves. If unmet, NO_CAPACITY and stop without changing cut, endpoints or pool keys.",
+    "effect": "Mean excess>=0.01nats per word and at least two-thirds of primary leaves positive.",
+    "reference": "If capable,199uniform labelled suffix permutations per reader with Python Random seed20261013 reset for each reader. Traverse mobile pools in fixed order, reconstruct assignments and scores. Upper p=(1+#null>=observed-1e-12)/200; require p<=0.05/3. If all199aggregate scores constant within1e-12, NO_SCORE_MOBILITY.",
+    "descriptive": "Retain every pool and all eligible oldheld words in an accounting table; descriptive all-pool means may be shown but cannot replace the primary gate. No half-known/novel or positive-only secondary success cohort."
+  },
+  "research_outcomes": {
+    "positive": "Reject the declared exchangeable prefix/tail factorization within this exposed scope; every observable last-unit-only Markov1table in the declared context family shares that law. Require some additional latent or nonlocal condition for those pairings. No general language or historical writer identified.",
+    "adequate_nonconfirmation": "No retained excess under this fixed score/reference; do not infer conditional independence or first-order sufficiency. Stop this fixed contrast without alternative cut/model/smoothing.",
+    "capacity_failure": "This exact contrast cannot be scored adequately. Do not widen pools, drop endpoints or lower thresholds after seeing counts."
+  },
+  "predecessor_distinctions": {
+    "GDT1279": "Positive exact previous-unit INNER prediction motivates retaining local structure, but does not test sufficiency.",
+    "GDT1308": "Whole-form mixture gains unconditionally; frozen models are reused solely to score a new factor-preserving conditional sample space, without a new estimator.",
+    "GDT1316_GDT1371": "Original predictive ALL+UNSEENgate failed and remains failed; gain allocation accounting is not a reopened success. This proposal is a genuinely different conditional-independence falsifier, not midpoint/weight repair. Its broader generating-family claim should be explicitly reviewed through the existing reconsider process.",
+    "GDT1280": "Per-word bigram ordering alternatives lacked the required new-word capacity. Here different complete words exchange suffixes while aggregate position-specific edges are fixed; no oldthreshold or sealed bucket is reused.",
+    "GDT1246": "Tested exact duplicated literal halves in dy-final forms with a fixed conditional reference and had immobile observed repeats. Current endpoint is fixed whole-form weighting under a separator-state theorem, not another repeat ending or half-equality rule.",
+    "GDT1374": "Exchanged interleaved class streams and intentionally changed cross-class local factors; this proposal preserves all local factors by construction and requires no learned class partition.",
+    "GDT1375": "Its weighted fixed-table partner test failed its original joint gate, which remains unchanged. Current null is uniform under an entire factorized family because a different sufficient-statistic-preserving operation is used. This is not a replacement score on1375pools, a relaxedNcap, or an alternative successgate for1375.",
+    "IL026": "Registered closed family PAIRWISE_PRESERVING_HIGHER_ORDER_LINE_ASSEMBLY concerns root/shell line assembly and failed synthetic power. Its referenced primary file was absent in this agent checkout. Root/branch must inspect recovered primary and establish a genuinely different invariant before selection; no absence or reopening approval asserted."
+  },
+  "prospective_validation": [
+    "Enumerate small full prefix/suffix assignments under arbitrary asymmetric rational position-dependent transition tables; verify every total likelihood and every positional edge multiset is identical.",
+    "Check repeated suffix multiplicities, endpoint/length preservation and exact uniform score mean. Include constant row/column matrices and a genuine interaction matrix.",
+    "Confirm source-free MIX_H counterexample; do not transfer component factorization to a mixture.",
+    "Independent validator reconstructs metadata, all words/pairs, oldmodel probabilities, first mobility witnesses and all reference scores without primary imports."
+  ],
+  "budget_minutes_including_prior_review_implementation_validation_publication": 35,
+  "stops_and_limits": [
+    "No native payload or new capacity counts were opened for this proposal.",
+    "Exact working units, word boundaries, supplied lengths and exchangeability are assumptions, not deciphered facts.",
+    "Page/topic or physical-position effects not encoded by the pool can induce association. A latent whole-word model mixture is another explicit rival to literal word-memory claims.",
+    "No source language, phonetic class, word meaning, historical source text, new image, reserve, f84/f84r,f116v or f1rbody admission.",
+    "Do not register or execute until the requested branch duplicate/prior review is complete."
+  ],
+  "input_report_hashes": {
+    "experiments/yolo/gdt1279_strict_inner_symbol_prediction/REPORT.md": "852bc1c1139aba318610d079cb0122141d69d1b5a92431cf882f063e0acaca74",
+    "experiments/yolo/gdt1280_word_bigram_order_capacity/REPORT.md": "b29e5b3ec55e520631ecaf7b4ec9276a3b92b7047f21f6024bedc2bef3130f14",
+    "experiments/yolo/gdt1308_whole_form_prediction/REPORT.md": "f06f73b41eee9874b49bf992008b9e446a169c5b9bf65eabad2759c3c3c80822",
+    "experiments/yolo/gdt1316_fixed_half_form_prediction/REPORT.md": "fef018adc91944be62f8267194ec8760b579d7373f3e2021846f4cacd67b2ce7",
+    "experiments/yolo/gdt1371_frozen_novelty_score_decomposition/REPORT.md": "0cb9d903f79dc6e60ae2941e03fa53454f2c235b2824f18497a2ca4bc6e91b4f",
+    "experiments/yolo/gdt1374_class_stream_partner_exchange/REPORT.md": "8fb79586a2c0dfa139897b0ac10c3513445f08e07a761a659cfa560d9dfe7a08",
+    "experiments/yolo/gdt1375_local_weighted_partner_residual/REPORT.md": "50727c177e0c5cab32f543e5b5f6291b09113b58644f5256539d86de9abe7990",
+    "experiments/yolo/gdt1246_repeated_half_conditional_pairing/REPORT.md": "421b4d76cef289a2fafb48f51a3bc7a8ab9022ae026f23f0d2bdc8bd7875ddd1"
+  },
+  "branch_review_update": {
+    "source": "Root communicated completed branch review,2026-10-13",
+    "finding": "No exact duplicate found in inspected1246/1280/1375primaries. IL026primary was absent also from checked originmain/reachable paths; inherited line-level root/shell power stop remains. Bounded review is not exhaustive novelty proof.",
+    "selection_ownership": "Root may select/register this distinct within-word parameter-free conditional test; proposal author has not registered or opened native data."
+  },
+  "summary": "RAW prospective proposal: exchange complete suffixes at one fixed midpoint between prefixes with identical pivot, page, length and ends. Every position-dependent observable Markov1 likelihood is invariant. Frozen whole-form score tests pairing without fitted null weights; no native data or word meaning yet."
+}

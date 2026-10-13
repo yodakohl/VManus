@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1379 finds no retained pivot-conditioned partner excess
+
+Same-pivot midpointsuffixexchange preservesallaggregate position-specificadjacentpairs, givinguniformreferenceunderanydeclaredobservableMarkov1table. Capacitypasses inallreadings;215ZL/252IT/150RFprimarywords on17/17/15leaves. ZL/ITmeansnegative,p.54/.58;RF+.06456and10/15positivebutp.05fails.05/3. Independent98188cell/597worldverificationPASS. NoM1sufficiency, wholeforminformationbanor1375rescue;1308/1374positivesremain.1050parkedbecausetheforcedatomicwidthcontrastsupplywasunmotivated. Returntoretained1198/1294manualconstructioncasesfornewwriterhypotheses, notanotherunchangedcontextaudit. [Report](experiments/yolo/gdt1379_pivot_suffix_conditional_pairing/REPORT.md).
+
 ## 2026-10-13 — IDEA1050 source found, but no discriminating writer comparison
 
 IsidoreV25.17 explicitlynames D-to-R inexpandedprecadium/precarium; completeonlineparagraphand1472printreviewed separately, preservingaditur/additur andunresolvedfinal-m expansion. Firstheadwordis adefinition, notclearindependentordinaryuse. Literaleditrelations survivealphabetrenaming. A broaddualchannelmodel containsanysharedwriter bysettingitswordcodeequalto thatwriter, soequalforms cannotchoosebetweenthem. No nativeeditcensus, keyorwordmeaning. Nextdecidewhether completefrozenwriterscanmake differentpredictions; noaddedmarkermerelytomakeawinner. [Decision](research_registry/proposals/production_origin_supply_20261003/WORD_EXPLANATION_SELECTION_20261013.json).
