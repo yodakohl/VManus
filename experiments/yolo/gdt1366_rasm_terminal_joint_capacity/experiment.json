@@ -1,0 +1,125 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Restricted18 fixed RAW_CHAR renderer with preserved source boundaries only; GE2 sensitivity on exposed data, not a holdout. No full20, Arabic or general abjad rejection.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1366_rasm_terminal_joint_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1366_rasm_terminal_joint_capacity/src/validate.py"
+  },
+  "created": "2026-10-13",
+  "dependencies": [
+    "GDT1365",
+    "GDT1233"
+  ],
+  "experiment_id": "GDT1366",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/METHOD.md",
+      "sha256": "be0908697708dc03615c569ec21d04875dca125acc1f50c949a4915fbc31e1bd",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md",
+      "sha256": "621304beeb48439c7a22527ed88807e3f5fd51025bc9f46f4e304b1e17d38bb9",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/RESULT.json",
+      "sha256": "534fc939b2b534c98d602a635fb4bc575141daf3dab73ccac1becda20e35cb7a",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt1365_rasm_nonfinal_capacity/artifacts/SOURCE_CHECK.json",
+      "sha256": "3cf23dbc0643d81d2808fae8c57f130101f8d74c2703a596586fe264437f6ec3",
+      "role": "frozen input or prior"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "frozen input or prior"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/METHOD.md",
+      "sha256": "97c2395f916ffa5808429b73d332ee0462eff800b774566ebaa212bf1b026bb7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/PREREGISTRATION.md",
+      "sha256": "97c2395f916ffa5808429b73d332ee0462eff800b774566ebaa212bf1b026bb7",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/README.md",
+      "sha256": "6edb5f14824164aac7b97fa6246ab2333b98c43d77ae62ad6c0a7089857534db",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md",
+      "sha256": "a3e17a060273840ed619a68df04091d8a2eb252f7b9beef646df74f9b754bc88",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/artifacts/PROOF_REVIEW.json",
+      "sha256": "852805fcd6c56be6670809e350c431d7aaec2bb43cd1fff9e25f5160ddd117ec",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/artifacts/README.md",
+      "sha256": "6a4b1ae3c30ed3b4fbfe6347774b8589b7b4a04118dea61e3baeaa7165e8c17b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/artifacts/RESULT.json",
+      "sha256": "c9413d7f095a953206c2b3245d7368a2216f19cdaf97aca18d868b99ee4a6014",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/artifacts/RESULT_REVIEW.json",
+      "sha256": "549988b78b73fbf4b0b034a6869bd3f880f25ab1b6289af9250bb4bf911857a8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/artifacts/VALIDATION.json",
+      "sha256": "65a435d986aad3317ae867b3dba02348c8a17f594f6e4f1e84afa6b06c1f87ec",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/src/REGISTRATION_LOCK.json",
+      "sha256": "5b32982d988d042b3a6ecb02ea18e083bff2daeb5d9354e8dd5add6c9350c921",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/src/run.py",
+      "sha256": "34385ad618ea7aad7cc8287a17403fcfd9c7fedca202c6d45fc3f5ed6fd09c64",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/src/validate.py",
+      "sha256": "336c026b4c445e868fb7845fd9c2290654855de07d3efc318d3ea55132318c87",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Does the restricted18 fixed renderer also fail recurrent forms under arbitrary whole-word reversal because forced terminal classes cooccur?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "rasm_terminal_joint_capacity",
+  "status": "RESTRICTED_RASM_JOINT_GE2_EXCLUDED",
+  "title": "Joint terminal capacity of restricted rasm rendering",
+  "updated": "2026-10-13",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/artifacts/VALIDATION.json"
+  }
+}

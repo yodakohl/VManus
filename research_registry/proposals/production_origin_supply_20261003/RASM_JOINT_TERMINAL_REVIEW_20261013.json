@@ -1,0 +1,51 @@
+{
+  "record_id": "IDEA001045",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root with independent branch_claims proof and native validator",
+  "assessment_basis": "GDT1365 FULL failure retained; GDT1366 stronger joint test of GE2 restricted mixed-direction necessary-capacity survivor",
+  "reason": "18observed characters force restricted18 bijection;15middle characters force m/n/q as terminal-only images jointly. Recurrent groups contain multiple such occurrences, impossible under any per-word reversal and optional additional cuts. FULL is not reopened. Full20 GE2 is outside this bijection argument.",
+  "blockers": [
+    {
+      "code": "fixed_rendering_contradicted",
+      "detail": "Restricted18 fails even on recurrent forms with arbitrary source-word direction. FULL both tables fail as before, extended FULL remains rare-sensitive.",
+      "evidence": [
+        "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md",
+        "experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independent historically justified rendering or boundary contract with a different preregistered consequence.",
+        "evidence": [
+          "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Choose aliases retrospectively",
+      "Transfer the18-class bijection to20classes",
+      "Generalize to all Arabic or consonant scripts"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1365",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1366",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md"
+      ]
+    }
+  ]
+}

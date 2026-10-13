@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1364**
-- Experiment-associated tracked files: **26,707** (2.4 GiB)
-- Structured GDT337+ experiments: **1029**
+- Experiments indexed: **1365**
+- Experiment-associated tracked files: **26,720** (2.4 GiB)
+- Structured GDT337+ experiments: **1030**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1366 | gdt1366_rasm_terminal_joint_capacity | `RESTRICTED_RASM_JOINT_GE2_EXCLUDED` | [report](../experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md) | 13 | 1.3 MiB | 3 | STRUCTURED_YOLO |
 | GDT1365 | gdt1365_rasm_nonfinal_capacity | `FIXED_RASM_RENDERING_EXCLUDED_FULL` | [report](../experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md) | 17 | 249.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1364 | gdt1364_raw_character_nucleus_sensitivity | `RAW_CHARACTER_NUCLEUS_SENSITIVITY` | [report](../experiments/yolo/gdt1364_raw_character_nucleus_sensitivity/REPORT.md) | 14 | 512.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT1363 | gdt1363_nucleus_omission_envelope | `EXACT_MINIMUM_NUCLEUS_OMISSION_ENVELOPE` | [report](../experiments/yolo/gdt1363_nucleus_omission_envelope/REPORT.md) | 14 | 558.6 KiB | 3 | STRUCTURED_YOLO |

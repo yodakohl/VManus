@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1366 closes recurrent mixed-direction rasm capacity
+
+For the restricted18 fixed renderer,18 observed characters force a bijection and the three nonmiddle characters m/n/q must jointly be terminal-only images. GE2 contains 714/692/709 violating groups (IT/RF/ZL) with at least two such occurrences. Arbitrary per-word reversal and additional cuts cannot rescue this model. Independent proof and full witness validation pass. Original1365 FULL failures stand; this argument does not cover full20 GE2 or reject Arabic/abjads generally. [Report](experiments/yolo/gdt1366_rasm_terminal_joint_capacity/REPORT.md).
+
 ## 2026-10-13 — GDT1365 excludes the fixed rasm renderer
 
 An independently checked public software channel has15 restricted or17 extended nonfinal classes. Every FULL reader has18 strict-middle RAW_CHARs, excluding the fixed one-character renderer even with word reversal and additional splits. Restricted uniform directions also fail on GE2; other GE2 counts are capacity-only. Extended FULL exclusion is rare-sensitive. This is a modern technical channel, not historical Arabic binding or a general abjad exclusion. No word meaning assigned. [Report](experiments/yolo/gdt1365_rasm_nonfinal_capacity/REPORT.md).
