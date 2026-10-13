@@ -1,3 +1,7 @@
+## 2026-10-13 — GDT1378 closes the strict nine-field calendar writer
+
+A complete inventedwriter fromtheboundcalendar source predictsF8=5:14:42:39 underinjective decimaldigits+separatorinto22units. All162ZL/372IT/114RFstrict complete9groupPlines failits necessary10unitlength; no equalitypattern decision orarithmeticfitreached.350/159/402unscorable linesremainunknown. Independent source/pairwisevalidationPASS. Thehistoricalsource remainsvalid; no generalcalendar/numericexclusion, noformatrepair. PipelinedIDEA1050 literalwordexplanation is RAW/INCOMPLETE, nextforprimary/source review, notselectedornativetested. [Report](experiments/yolo/gdt1378_calendar_fixed_epoch_field/REPORT.md).
+
 ## 2026-10-13 — IDEA126 gains a complete historical calendar example
 
 BSB1483 Alphonsinecanons a2v–a3r explicitly supply six chronologicaladdends, their total2,14,35,4 inwhole-daybase60, anderaoffset5,14,42,39 giving7,29,17,43. Rootanddelegatemanualreadings agree; integer/columncarry replayPASS. This is actual sourceevidence, not aVoynichfinding orfullplanetarymodel. The old969/972/973/974/992 writingfailures remain. A historicallyattested compactfieldorder is not required for explicitexploratory authorship; anyinventedwriter mustbefullydeclared andkeptseparatefromsourcefacts. Next draftonecalendarwritingcontract before nativeframes, retainingwordprofile requirements. [Decision](research_registry/proposals/production_origin_supply_20261003/ARITHMETIC126_SELECTION_20261013.json).
