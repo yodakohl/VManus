@@ -1,3 +1,18 @@
+## 2026-10-14 — User-directed whole-passage reading draft
+
+IDEA1055 now records an actual seven-line IT2a f25v working reading as material
+processing, with all57groups explicitly linked to tentative values or eight
+unassigned lexical contents. Word profiles and claim-bearing predecessors were
+retrieved by the eight-agent team; this does not establish the chosen German
+glosses. Repeated cho is proposed as binary combination, qokcho as cooking,
+dshey as checking; daiin is a general partitive reference to topicT. A single
+material-patient default and named-result updates address concrete grammatical
+links. DAR=again lacked a prior stirring event; version0.2 instead hypothesizes
+now globally, with version0.1's problem preserved. This is development, not a
+repaired fixed test or ready reserve reading. Exact portion reference, full
+valencies/scopes, morphology and transfer to further admitted text remain open.
+No new statistical test, source/image intake or confirmed lexeme. [Draft](research_registry/proposals/production_origin_supply_20261003/F25V_PORTION_WORKING_READING_20261014.json).
+
 ## 2026-10-14 — GDT1383 completes the fixed CV role classification
 
 Eight-agent review found the previous1053 source-first nonselection too strict
