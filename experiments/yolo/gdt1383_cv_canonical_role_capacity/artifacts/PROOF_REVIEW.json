@@ -1,0 +1,39 @@
+{
+  "status": "PROSPECTIVE_PROOF_AND_PRIMARY_CONTRACT_REVIEW_PASS",
+  "reviewer": "separate closure_error_audit agent",
+  "phase": "Before GDT1383 registration lock and native evaluation; no native cache or result inspected for this review.",
+  "inspected_sha256": {
+    "experiments/yolo/gdt1383_cv_canonical_role_capacity/METHOD.md": "ffcf191eec287030c6b06ac01c85367f6a27bd93b3f68fe3df46b545c05725e9",
+    "experiments/yolo/gdt1383_cv_canonical_role_capacity/src/run.py": "29bddc6485bf31f51fb61e2cd7e9d30f17828ea219de7b76cca583c4b15c02a5",
+    "research_registry/proposals/production_origin_supply_20261003/GREEDY_CV_BARE_CONSONANT_WRITER_RAW_20261013.json": "08d88ff463c474ce6913162c0d48fd3e6c3e4c54b0bcd100e0aac192f05a9b4a",
+    "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md": "ad1c8097a28a17bfefe89f4c960235cd08f419b254ba1f2f631bbc10c8274500",
+    "experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md": "f5c527cc8b5e1b550834d07006e21a13c0aa7c7f2169c2f576fab86cf1fec1cd"
+  },
+  "inherited_candidate_reduction": [
+    "On the unchanged GDT1233 panel, GDT1234 proves nineteen units must be singleton entries in any compatible prefix-free table. They cannot be the nonsingleton H in this writer.",
+    "The remaining possible H units are cfh,cph,q. The inherited q branch needs eleven or twelve followers, exceeding the six Ca selectors.",
+    "GDT1248 gives complete prefix parsing for cfh and cph with exactly the stated six observed followers each. Because all six occur and only six Ca signs exist, the follower set is fixed, not a tunable subset.",
+    "This reduction inherits exact working units, complete group boundaries, rare premises and original strict-panel scope. It does not establish coverage of line-edge groups or all manuscript tokens."
+  ],
+  "canonicality_proof": {
+    "necessity": "An HF token decodes to a bare consonant. If the next token is an isolated vowel, the recovered source has CV and greedy forward encoding produces its one CV sign instead of HF,V. Hence V must avoid every actual immediate successor after HF.",
+    "token_boundary_detail": "After a valid complete HF pair, the next raw unit begins the next token. If it is H it begins another bare-consonant token and is not an isolated vowel; if in F it is a CV singleton and likewise not an isolated vowel. Including these in T before subtracting H and F is harmless.",
+    "sufficiency": "Assign F bijectively to the six Ca signs, a disjoint three-set V to the isolated vowels, and the remaining twelve singleton signs to the Ci/Cu slots. CV and isolated-V token expansions preserve greedy encoding. A bare-C token is re-encoded as HF whenever followed by a consonant-bearing token or word end; the only offending successor would be an isolated-V token, excluded by T. Therefore prefix-decoding followed by greedy re-encoding returns each complete group exactly.",
+    "role_sets": "For each fixed H, the exact role solutions are all three-element subsets of U minus H,F,T. The statement concerns this frozen writer and panel, not ordinary prefix coverage alone.",
+    "detailed_labelings": "For each surviving role set, 6!*3!*12! assignments exist: choose the six consonant labels on F, assign the three isolated vowel labels, then bijectively assign the remaining twelve signs to the distinct remaining CV slots. These assignments are not recovered native sounds and need not all be merely label renamings."
+  },
+  "primary_code_review": [
+    "inspect advances by two after H, asserts nonterminal H and allowed follower, and records only successors within the same group.",
+    "Successive HF tokens and final HF tokens are handled without creating false HFV events. Separate groups cannot generate a cross-boundary forbidden successor.",
+    "The run checks actual follower usage equals F, and groups/types/active-group accounting agrees with the inherited GDT1248 result.",
+    "Eligibility pool and combinations implement the stated exact condition; all candidates are retained, with no selected preferred vowel set.",
+    "Reader panels are iterated separately and forbidden-page guards retained. Source provenance still requires the intended hash lock and independent validator."
+  ],
+  "actual_objections": [],
+  "decision_scope": [
+    "The test can exclude this exact complete coding law or classify compatible structural roles without an identified source language. No arbitrary word meaning is needed.",
+    "Survival is not phonetic identification, native usage, historical plausibility, statistical fit or a translation; fewer than0.7percent bare-consonant activity and fixed-source repeat/frequency obligations remain.",
+    "GDT1382 remains inconclusive for its separate homophonic bound. No GDT1350 result is used or changed by this review.",
+    "This review covers the method and primary implementation only. It does not claim that the independent validator or native execution has run or passed."
+  ]
+}

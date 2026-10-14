@@ -1,0 +1,54 @@
+{
+  "status": "SCOPE_REVIEW_PASS_NO_MEANING_SELECTION",
+  "reviewer": "discriminating_test_review agent",
+  "phase": "Post-result report and saved-artifact review; no experiment rerun",
+  "input_sha256": {
+    "experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md": "2d53013f163c8dfdb7e9b79533a4e80bcc570bb6cd6b719469fef365d7ac0bb9",
+    "experiments/yolo/gdt1383_cv_canonical_role_capacity/PREREGISTRATION.md": "ffcf191eec287030c6b06ac01c85367f6a27bd93b3f68fe3df46b545c05725e9",
+    "experiments/yolo/gdt1383_cv_canonical_role_capacity/artifacts/RESULT.json": "c715c180aa5ff61ed451dda943b8f0a241ee260e483d819750d963bb0d011e0b",
+    "experiments/yolo/gdt1383_cv_canonical_role_capacity/artifacts/VALIDATION.json": "16f993117fbdd293d5cfb7491b39e648ff1291143a12a33d3a292212ba0f35f4"
+  },
+  "checks": {
+    "all_six_cases_multiple": [
+      {
+        "reader": "IT2a",
+        "head": "cfh",
+        "surviving_role_classes": 220
+      },
+      {
+        "reader": "IT2a",
+        "head": "cph",
+        "surviving_role_classes": 56
+      },
+      {
+        "reader": "RF1b",
+        "head": "cfh",
+        "surviving_role_classes": 165
+      },
+      {
+        "reader": "RF1b",
+        "head": "cph",
+        "surviving_role_classes": 35
+      },
+      {
+        "reader": "ZL3b",
+        "head": "cfh",
+        "surviving_role_classes": 165
+      },
+      {
+        "reader": "ZL3b",
+        "head": "cph",
+        "surviving_role_classes": 84
+      }
+    ],
+    "full_triple_lists_match_eligible_pool_combinations": true,
+    "labelings_per_fixed_H_F_V_class": 2069286912000,
+    "labeling_derivation": "Six fixed F signs permute over six Ca values (6!); three isolated V signs permute over three vowel values (3!); the remaining twelve signs permute over twelve Ci/Cu values (12!). These are detailed keys, not distinct languages or independent support.",
+    "e_obligation": "e belongs to both inherited F sets, so an ordinary singleton e has a Ca value in this model. The existing keeees witness therefore requires four identical CV syllables internally, with nonempty material on both sides. This is a conditional consequence of old source/form certificates, not new native data or a new source-language exclusion.",
+    "old_activity": "The report correctly labels <0.7percent H-containing group activity as inherited. HF, rather than H alone, is the complete bare-consonant code; each H occurrence signals that branch."
+  },
+  "scientific_interpretation": "Canonical role constraints survive, substantially non-uniquely. Their class sets are mathematical coverage results under the fixed22units and group/source-word contract. No phonetic identity, language, text meaning, actual authorial mechanism, frequency fit or historical usefulness has been established.",
+  "stop": "The registered classification is complete. Publish the conditional result and stop this experiment. No automatic detailed phoneme-table enumeration, language scan, decoder, relaxed inventory, altered segmentation or rare-word deletion. A later genuinely different source-grounded proposal remains possible under its own stated assumptions; this is not a ban on exploratory hypotheses.",
+  "validation_limit": "Reviewed the saved independent validator outcome and artifact arithmetic; did not rederive inherited1234closure, rerun native analysis, or independently identify ink/meanings.",
+  "primary_changes": "None"
+}

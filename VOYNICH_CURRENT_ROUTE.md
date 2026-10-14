@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-13.
+Updated: 2026-10-14.
 
 ## Work
 Phase: exploration
-Status: parked
-Task: reading.
-Latest decision: no binding.
-Working files: IDEA1053.
-Assumptions: unbound.
-Resume: New source evidence.
+Status: checkpoint
+Task: writer.
+Latest decision: 1383many.
+Working files: GDT1383.
+Assumptions: 1233scope.
+Resume: Review raw pipeline.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publice3bba16e1.
+Public2a9e47c3e.

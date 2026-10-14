@@ -1,0 +1,99 @@
+{
+  "status": "SOURCE_FREE_COMPLETE_CANONICALITY_REDUCTION_NO_NATIVE_RUN",
+  "date": "2026-10-14",
+  "idea": "IDEA001053",
+  "sources": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/GREEDY_CV_BARE_CONSONANT_WRITER_RAW_20261013.json",
+      "sha256": "08d88ff463c474ce6913162c0d48fd3e6c3e4c54b0bcd100e0aac192f05a9b4a"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CV_BARE_CONSONANT_CANONICAL_CONTROL_20261013.py",
+      "sha256": "646e6b4a1dc7e78faa02b06a2c6a894d9a07c1dea18fa9e783236ad6881f48bb"
+    },
+    {
+      "path": "experiments/yolo/gdt1234_prefix_quotient_code_capacity/REPORT.md",
+      "sha256": "ad1c8097a28a17bfefe89f4c960235cd08f419b254ba1f2f631bbc10c8274500"
+    },
+    {
+      "path": "experiments/yolo/gdt1248_prefix_bound_attainment/REPORT.md",
+      "sha256": "f5c527cc8b5e1b550834d07006e21a13c0aa7c7f2169c2f576fab86cf1fec1cd"
+    }
+  ],
+  "scope": "Exact stated six-consonant/three-vowel, 22-sign, word-preserving greedy writer on the unchanged GDT1233 panel. No word or sound values assigned, no native payload read, no computation run on native data.",
+  "key_definition": {
+    "H": "One of 22 signs; bare-consonant prefix, not itself a source phoneme.",
+    "F": "Six distinct non-H signs representing the Ca syllables and also serving as consonant selectors after H.",
+    "V": "Three distinct non-H signs, disjoint from F, representing isolated vowels.",
+    "remaining": "The other 12 signs represent the six Ci and six Cu syllables bijectively."
+  },
+  "complete_fixed_key_theorem": {
+    "statement": "A nonempty written word is in the canonical image of the writer iff every H has a following sign in F and no within-word contiguous triple H f v occurs with f in F and v in V.",
+    "necessity": "The bare-C branch emits precisely H followed by a Ca selector. Greedy source scanning never emits bare C immediately before an isolated vowel, because that source C,V pair would have emitted a single CV sign.",
+    "sufficiency": "Parse H+F as a bare-C token and every other sign as one V or CV token. H cannot be in F, so parsing is forced. Every bare-C token is followed either by word end or a token starting with C; otherwise the forbidden triple occurs. Every singleton CV token already contains exactly the greedy C,V pair. Isolated V tokens start with a vowel and are written singly. Thus re-encoding the decoded source reproduces each token and the entire word exactly. No longer-range condition or phoneme-label equality is needed.",
+    "boundary_detail": "Forbidden triples are tested within each complete group only. An H,F code at word end followed by a vowel at the next word is legal. H may never be consumed as a selector since H is disjoint from F.",
+    "language_detail": "Sufficiency concerns arbitrary strings over the specified nine abstract phonemes, not membership in any historical language or source vocabulary."
+  },
+  "head_exhaustion": {
+    "statement": "On the full unchanged 1233 panel the only possible H values are cfh and cph, separately in each reading.",
+    "proof": [
+      "The 21 singleton codes plus six H,F codes form a prefix-free codebook. Every native word must belong to its free concatenation language, even though canonical source packing restricts which concatenations the writer emits. Hence the GDT1234 necessary quotient obligations apply.",
+      "Nineteen fixed units are forced singleton code entries, so none can be H. The only remaining candidates are cfh, cph and q. All units occur, so H cannot be inactive.",
+      "The q head requires 11 or 12 distinct followers under the original quotient obligations, exceeding six. Each cfh/cph head requires six distinct second signs. There are exactly six selector slots, so their sets are forced, not subsets to be optimized.",
+      "GDT1248 constructs and verifies exact two-sign codes for precisely those sets over the complete panel. This establishes ordinary parsing, not the new canonicality condition."
+    ],
+    "forced_followers": {
+      "cfh": [
+        "a",
+        "d",
+        "e",
+        "o",
+        "s",
+        "y"
+      ],
+      "cph": [
+        "a",
+        "d",
+        "e",
+        "k",
+        "o",
+        "y"
+      ]
+    },
+    "limits": "This exhaustiveness inherits all original exact unit, whole-group and rare-form assumptions. It is not exhaustive after changing eligibility, allowing errors, or changing physical units."
+  },
+  "complete_unknown_key_reduction": {
+    "definitions": [
+      "S is the fixed 22-unit inventory.",
+      "For a candidate H and its forced F, let R=S minus ({H} union F), of size 15.",
+      "T_H is the set of signs occupying the position immediately after an H,F code inside any retained word; no symbol is added at end of word.",
+      "U_H=R minus T_H."
+    ],
+    "all_structural_keys": "Exactly all three-element subsets V of U_H. A head has any canonical key iff |U_H| >= 3. The number of structural role assignments is binomial(|U_H|,3), at most 455 for each head, at most 910 total per reading.",
+    "all_sound_keys": "For each surviving H,F,V assignment there are 6! times 3! times 12! label bijections: assign six Ca signs to consonants, assign isolated signs to the three vowels, and assign the remaining signs to the twelve Ci/Cu pairs. Every such bijection has identical native canonicality status. This is a key-count factor, not recovered phonemes or independent evidence.",
+    "no_missing_constraint": "Any additional restriction involving which Ca sign belongs to which consonant, which isolated sign is Va, or which remaining sign is Ci/Cu must come from a source/phonology contract, not this source-free canonicality test."
+  },
+  "smallest_exhaustive_algorithm": [
+    "Bind the unchanged1233/1248 sources and exact 22-unit tokenization. Keep each reading separate.",
+    "Traverse every complete unit sequence once per candidate head. Check ordinary parsing and collect one source-bound triple witness for each sign in T_H intersect R; optionally count all occurrences and leaves without treating them as independent confirmations.",
+    "Compute U_H by bitset subtraction. No permutation solver, phonetic search, source corpus or key optimizer is needed.",
+    "Enumerate the at most455 triples V from U_H to publish the complete survivor list, or represent it exactly as all size-three subsets with its binomial cardinality.",
+    "A failed head needs at least13 distinct R signs excluded by actual triples, leaving at most2. An exclusion certificate can retain one exact complete-group witness for each of those13 signs. Preserve all source identities and boundaries.",
+    "Independently replay the source words with a token-state machine and compare every role-mask decision. For selected formal representatives, explicit decode then greedy re-encode supplies an additional implementation check; this does not assign supported sounds."
+  ],
+  "complexity": "O(total retained units) collection plus at most910 role masks per reading, or only bitsets when explicit key listing is unnecessary. The inherited head/follower proof obviates scanning22! keys.",
+  "additional_source_free_obligations": {
+    "per_word_counts": "For a written word of n working units, b occurrences of H, and v occurrences of isolated-V signs outside H,F pairs: decoded vowel phonemes = n-2b; decoded consonant phonemes = n-b-v; decoded total phonemes = 2n-3b-v. F and V are disjoint, so no isolated-V sign is hidden inside a bare pair.",
+    "bare_consonant_equivalence": "A decoded source word contains any consonant cluster or final consonant iff its writing contains H. This uses the exact greedy source contract, not a language generalization.",
+    "frequency": "The deterministic writer is injective on full phoneme words, so exact word equality/frequency is preserved. Sign keys cannot repair an incompatible fixed source word-frequency distribution."
+  },
+  "code_audit": {
+    "within_declared_domain": "The existing encode, decode and direct_legal functions implement the stated fixed symbolic inventory and token canonicality. No within-contract discrepancy found by inspection.",
+    "control_ceiling": "The saved controls test phoneme words only up to length4 and written sequences only up to length3. Those finite tests alone are not an arbitrary-length proof; the token argument above supplies that proof.",
+    "domain_note": "direct_legal assumes its inputs belong to S; it does not itself reject arbitrary unknown non-H strings. Its existing exhaustive output loop supplies only S, so this is not a demonstrated control failure. Any new parser must enforce the22-unit input domain.",
+    "execution": "No existing source-free control or native calculation was rerun in this audit."
+  },
+  "decision_note": "The proposal’s claim that no source-free native test is useful solely because source language is unbound is too restrictive. Failure would close this exact writer for every sign key; survival would establish only formal canonical compatibility and quantify a remaining key class. These are distinct structural decisions even though neither supplies a translated word. A compact conditional test is possible without lexical guesses; source matching should remain a separate later question.",
+  "retained_predecessors": "GDT1234/1248 original outcomes and the failures of fixed source writers remain unchanged. Followup cards were checked; broader free-UD countercodes and different gap or carrier tests do not replace this prefix-free CV contract.",
+  "publication_limit": "Root owns scientific selection, native execution, any registry update and publication. This artifact records proof and audit only."
+}

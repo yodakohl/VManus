@@ -1,3 +1,17 @@
+## 2026-10-14 — GDT1383 completes the fixed CV role classification
+
+Eight-agent review found the previous1053 source-first nonselection too strict
+for a finite structural falsifier. Its raw note remains unchanged; a new protocol
+checks the complete canonical writer, not just1248prefix coverage. Isolated-vowel
+role triples remaining for cfh/cph are IT220/56, RF165/35, ZL165/84. All2730 masks
+and10795330 whole-form phoneme roundtrips independently reproduce. Each role set
+still permits6!*3!*12! detailed tables; no sounds, historical language or meaning.
+Old keeees/frequency and sparse bare-consonant obligations remain; e is a forced
+Ca selector in this exact class, so keeees entails four repeated identical CV
+syllables. No native/image/source admission changed. No automatic decoder or
+source fitting; next inspect the separate raw pipeline before selecting any
+new mechanism. [Report](experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md).
+
 ## 2026-10-13 — IDEA888 source column partially read; no native model selected
 
 Actual image inspection accounts for all13 Nux indie rubric bands in Latin6977

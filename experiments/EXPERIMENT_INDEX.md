@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1381**
-- Experiment-associated tracked files: **26,962** (2.4 GiB)
-- Structured GDT337+ experiments: **1046**
+- Experiments indexed: **1382**
+- Experiment-associated tracked files: **26,977** (2.4 GiB)
+- Structured GDT337+ experiments: **1047**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1383 | gdt1383_cv_canonical_role_capacity | `MULTIPLE_CANONICAL_ROLE_CLASSES_ALL_CASES` | [report](../experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md) | 15 | 118.3 KiB | 5 | STRUCTURED_YOLO |
 | GDT1382 | gdt1382_consonantal_homophonic_row_bound | `ALL_18_HOMOPHONIC_BOUNDS_INCONCLUSIVE` | [report](../experiments/yolo/gdt1382_consonantal_homophonic_row_bound/REPORT.md) | 15 | 1.1 MiB | 4 | STRUCTURED_YOLO |
 | GDT1381 | gdt1381_consonantal_row_consistent_bound | `ALL_SIX_FIXED_PACK_COSTS_CERTIFIED` | [report](../experiments/yolo/gdt1381_consonantal_row_consistent_bound/REPORT.md) | 15 | 189.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1380 | gdt1380_consonantal_context_cost_bound | `PARTIAL_CERTIFIED_CONTEXT_COST_EXCLUSIONS` | [report](../experiments/yolo/gdt1380_consonantal_context_cost_bound/REPORT.md) | 20 | 689.3 KiB | 6 | STRUCTURED_YOLO |
