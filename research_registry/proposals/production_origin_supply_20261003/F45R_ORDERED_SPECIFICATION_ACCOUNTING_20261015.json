@@ -1,0 +1,133 @@
+{
+  "status": "PASS_INDEPENDENT_Q1_ACCOUNTING_NOT_MEANING",
+  "method": "Source-flag paragraphs; event grouping only from frozen R1 trace; occurrence-list reprise search; independent graph components. No builder import or execution.",
+  "input_sha256": {
+    "research_registry/proposals/production_origin_supply_20261003/F45R_ORDERED_SPECIFICATION_PROPOSAL_20261015.json": "182a4f2057898b7968d23facd088b11f95fb3e0721720e18e883c47547438f71",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_ORDERED_SPECIFICATION_BUILD_20261015.py": "dd9bfb1805be7a38a5bb867e5986ab951b38a9f90b3edbb924c9fa05b7a3fac5",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_ORDERED_SPECIFICATION_DERIVATION_20261015.json": "1ae558bb103c72ae3e68e8b0f493f9f795d5ea7592e523bada51d82fbfd37535",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_WHOLE_PAGE_SOURCE_20261015.json": "6a18c2cd5d16555d8e8f41365f14fc8839747db8fabc4a4b1306024f767e498c",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_RECORD_SYNTHESIS_DERIVATION_20261015.json": "4fa2588f724052ded767bd4425e7dea4a8e5829566abccfaf12cc7dc635f04fe"
+  },
+  "validator_sha256": "6acad3ff3fad3b750251b7fec7813c7d1fd8c9c850203ddcf52e80fb9f5f3c13",
+  "derived_summary": {
+    "raw_groups": 86,
+    "paragraph_groups": [
+      33,
+      21,
+      32
+    ],
+    "ordered_entries": [
+      27,
+      17,
+      17
+    ],
+    "total_ordered_entries": 61,
+    "field_mentions": 15,
+    "functional_fields": 9,
+    "explicit_reprises": 4,
+    "unknown_description_types": 66,
+    "reference_ambiguities": [],
+    "competing_anchor_identities": [],
+    "group_roles": {
+      "ordinary_entry": 61,
+      "free_field": 10,
+      "free_marker": 10,
+      "bound_field": 5
+    }
+  },
+  "anchor_occurrences": [
+    {
+      "id": "P2.event05",
+      "descriptor": "opchal",
+      "source_ids": [
+        "IT2a|f45r.5|G005"
+      ],
+      "anchor_position": "P1.S007",
+      "anchor_source_id": "IT2a|f45r.1|G007"
+    },
+    {
+      "id": "P3.event18",
+      "descriptor": "dal",
+      "source_ids": [
+        "IT2a|f45r.10|G006"
+      ],
+      "anchor_position": "P2.S011",
+      "anchor_source_id": "IT2a|f45r.6|G007"
+    },
+    {
+      "id": "P3.event19",
+      "descriptor": "dal",
+      "source_ids": [
+        "IT2a|f45r.10|G007"
+      ],
+      "anchor_position": "P2.S011",
+      "anchor_source_id": "IT2a|f45r.6|G007"
+    },
+    {
+      "id": "P3.event26",
+      "descriptor": "dal",
+      "source_ids": [
+        "IT2a|f45r.11|G005"
+      ],
+      "anchor_position": "P2.S011",
+      "anchor_source_id": "IT2a|f45r.6|G007"
+    }
+  ],
+  "retained_repeated_positions": {
+    "chol": [
+      {
+        "position": "P1.S013",
+        "source_id": "IT2a|f45r.2|G006"
+      },
+      {
+        "position": "P1.S014",
+        "source_id": "IT2a|f45r.2|G007"
+      }
+    ],
+    "ykeol": [
+      {
+        "position": "P1.S025",
+        "source_id": "IT2a|f45r.4|G003"
+      },
+      {
+        "position": "P1.S026",
+        "source_id": "IT2a|f45r.4|G004"
+      }
+    ],
+    "okaiin": [
+      {
+        "position": "P3.S007",
+        "source_id": "IT2a|f45r.10|G001"
+      },
+      {
+        "position": "P3.S015",
+        "source_id": "IT2a|f45r.11|G002"
+      }
+    ]
+  },
+  "dal_entry_constraint": {
+    "entry": "P2.S011",
+    "source_id": "IT2a|f45r.6|G007",
+    "descriptors": [
+      "dal",
+      "dor",
+      "kol",
+      "otydal"
+    ],
+    "field_values": [
+      "P3.field.daiin",
+      "P3.field.dy",
+      "P3.field.or"
+    ]
+  },
+  "checked_limits": [
+    "All86rawgroup IDs/spellings/order preserved exactly once; own IT paragraph flags give33/21/32.",
+    "Ordinary positions are27/17/17; consumed field hosts are not duplicated as ordinary entries.",
+    "Lookup uses earlier completed ordinary occurrences only. Multiple same-word occurrences in one paragraph are not collapsed into one candidate.",
+    "Only R1 token grouping is inherited, not any paragraph-subject equality or inferred property.",
+    "KOL/DOR/OTYDAL constrain the one referenced DAL entry, not all P2 positions or one whole-paragraph subject.",
+    "Functional slots belong to records; separate semantic positions do not assert unequal real-world referents.",
+    "This verifies the authored bookkeeping, not nominality, lexical values, actual reference, semantic order or translation."
+  ],
+  "changes": "Only this existing-dossier validator and its accounting report are written."
+}

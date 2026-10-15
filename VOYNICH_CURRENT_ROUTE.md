@@ -4,11 +4,11 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: f45r synthesis
-Latest decision: 86bound;0glosses
-Working files: IDEA001059
-Assumptions: record/reprise
-Resume: joint x2;repeat debt
+Task: f45r Q1
+Latest decision: 61positions;0glosses
+Working files: IDEA001060
+Assumptions: order/reprise
+Resume: joint content;field order
 Running: none
 
 ## Structural baseline
@@ -76,4 +76,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public0c55d7222.
+Publicc1e17d40a.

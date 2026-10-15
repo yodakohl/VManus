@@ -1,3 +1,31 @@
+## 2026-10-15 — IDEA1060 Q1: ordered f45r entries, occurrence-bound reprises
+
+The same86IT groups now have a complete alternative reading: Q1 describes
+three ordered specifications with27/17/17ordinary positions,15field mentions,
+9functional slots and4reprises. OPCHAL(.1G007) and DAL(.6G007) are earlier
+individual entry referents, not whole paragraph subjects. KOL,DOR and opaque
+OTYDAL jointly constrain only thatDALentry. Different semantic positions do
+not assert different real objects, amounts, actions or times.
+
+This makes CHOL/YKEOL doublets and the separated OKAIIN sites two positions
+under one new semantic-order assumption. A unique previous occurrence is now
+required; multiple matches within one paragraph stay ambiguous. Independent
+accounting reproduced the full alignment and reference graph. No meanings or
+actual order/reprise function were confirmed; alternate readers remain separate.
+
+R1 remains a frozen conditional alternative. Analytical review shows that
+several deletions/permutations preserve its final assertions. Q1 changes the
+ordinary-position semantics but still does not explain field-assertion order
+or final DALDAIIN placement. No general R1 refutation or Q1 empirical preference.
+965portions,1039phases and877membership are prior distinct models, not reopened.
+
+Continue the SAME joint passage: motivate ordered contents/shared field values
+and a remaining reference/field-order consequence before choosing any gloss.
+Preserve1047/global stops; no unrelated test chain or reserves from coverage.
+Evidence: [full Q1](research_registry/proposals/production_origin_supply_20261003/F45R_ORDERED_SPECIFICATION_20261015.md);
+[Q1 review](research_registry/proposals/production_origin_supply_20261003/F45R_ORDERED_SPECIFICATION_REVIEW_20261015.json);
+[R1 limit](research_registry/proposals/production_origin_supply_20261003/F45R_R1_CONSTRUCTION_LIMITS_20261015.json).
+
 ## 2026-10-15 — IDEA1059: whole f45r reconstruction, meanings unassigned
 
 The user requested synthesis of an actual longer passage. R1 now explicitly

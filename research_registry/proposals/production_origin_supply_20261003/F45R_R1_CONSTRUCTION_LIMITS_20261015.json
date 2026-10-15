@@ -1,0 +1,53 @@
+{
+  "status": "ANALYTIC_LIMIT_OF_R1_NOT_GLOBAL_REJECTION",
+  "scope": "Immutable R1 final positive-description constraints only; no new corpus or source correction",
+  "reviewers": [
+    "closure_error_audit",
+    "root"
+  ],
+  "r1": "F45R_RECORD_SYNTHESIS_RULES_20261015.json",
+  "cases": [
+    {
+      "hypothetical_change": "Delete one CHOL from f45r.2 pair",
+      "r1_final_constraints": "unchanged; one CHOL(x1) assertion remains",
+      "source_trace": "changed"
+    },
+    {
+      "hypothetical_change": "Delete one YKEOL from f45r.4 pair",
+      "r1_final_constraints": "unchanged; one YKEOL(x1) assertion remains",
+      "source_trace": "changed"
+    },
+    {
+      "hypothetical_change": "Duplicate ordinary DAL in paragraph2",
+      "r1_final_constraints": "unchanged; lookup candidates are paragraphs, not occurrences",
+      "source_trace": "changed"
+    },
+    {
+      "hypothetical_change": "Exchange DALDY and DALOR in paragraph3",
+      "r1_final_constraints": "unchanged; same functional fields and prior anchor",
+      "source_trace": "changed"
+    },
+    {
+      "hypothetical_change": "Move final DALDAIIN to start of paragraph3",
+      "r1_final_constraints": "unchanged; DAIIN anchor is known earlier in reading but final conditions agree",
+      "source_trace": "changed"
+    },
+    {
+      "hypothetical_change": "Exchange paragraphs2and3",
+      "r1_final_constraints": "changed: original paragraph3 no longer has a previous ordinary DAL anchor",
+      "source_trace": "changed"
+    },
+    {
+      "hypothetical_change": "Remove ordinary DAL from paragraph2",
+      "r1_final_constraints": "changed: paragraph3 DAL field references lose the forced previous-paragraph identity",
+      "source_trace": "changed"
+    },
+    {
+      "hypothetical_change": "Remove ordinary DAL from paragraph3",
+      "r1_final_constraints": "only DAL(x3) is removed; previous paragraph2 anchor survives",
+      "source_trace": "changed"
+    }
+  ],
+  "decision": "Keep R1 conditional and frozen. Its source trace preserves order and repetitions, but final claims often do not distinguish them; final placement is not a decoded closure function. Q1 is a separate authored alternative, not a scientific refutation or repair of R1.",
+  "q1_remaining_limit": "Ordered ordinary positions become content in Q1 by assumption; field-assertion reordering and final DALDAIIN remain unresolved. No word meaning follows."
+}
