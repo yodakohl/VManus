@@ -4,11 +4,11 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 132group reading
-Latest decision: local relations;0glosses
+Task: content constructor
+Latest decision: content missing;0glosses
 Working files: IDEA000095
-Assumptions: marker/reprise
-Resume: relation content
+Assumptions: content unbound
+Resume: bind DAIIN function
 Running: none
 
 ## Structural baseline
@@ -76,4 +76,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public0605a7007.
+Publicf051f4dd1.
