@@ -1,3 +1,34 @@
+## 2026-10-15 — IDEA1057: H2 resolves two written nominal heads
+
+H2 uses one rule for cheol daiin or / qotaiin and cheol daiin qokar:
+the immediately following licensed nominal head supplies referent w for the
+pending U governor. Every marker in the packet retains Role_s(w)=z. The first
+case gives two slots with the same cheol dependent z; the second gives only
+DAIIN. No w=z follows, no missing OR slot is filled, and the output is a
+nominal expression rather than a full assertion. QT/QK nominal types and
+rightward binding are explicit new assumptions, not word meanings.
+
+A fitted predicate rival would require different whole-form valencies and a
+same-participant two-slot qotaiin assertion. Its compulsory immediate marker
+run is absent in retained f77r.10, f105v.3 and f106r.9 contexts. This does not
+refute all verbs. IDEA819 only refuted its old of-basin modifier under its
+fixed assumed types; it does not forbid qokar as a governor.930/1140 supply
+no inherited value. Profiles remain broad, reader-separated and prose-only.
+
+All106 IT groups of f24r.1-19 and the complete f102v1.13-14 paragraph remain
+visible; the H2 f24 core has four groups. RF has no own paragraph flags for
+the cross-line scope; this was not borrowed from IT/ZL. Independent review
+matched36 snapshots,11 source hashes and the stored descriptive profiles.
+
+Retain the local construction; do not expand head classes for coverage.
+The next content obligation is precise: two roles of one written qotaiin head
+must be able to target the same cheol referent. An evidence-grounded relation
+or written identity contrast must distinguish that from nested relations;
+no new meaning or unchanged missing-input audit is selected. The existing raw
+idea buffer remains ample; no novelty was claimed for the reviewed435 lead.
+Evidence: [binding](research_registry/proposals/production_origin_supply_20261003/CHEOL_WRITTEN_HEAD_BINDING_20261015.json);
+[review](research_registry/proposals/production_origin_supply_20261003/CHEOL_WRITTEN_HEAD_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA1057: fixed cheol predicate realization and nominal rival
 
 UG1 holds a binary cheol relation fixed and requires two immediately preceding
