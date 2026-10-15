@@ -1,3 +1,35 @@
+## 2026-10-15 — IDEA1057: finite OR realization across group boundaries
+
+H2-B keeps Role_or(right head)=left dependent while the analytical OR component
+is grouped with either side. Only old proposed DAL+OR and new finite OR+AIIN /
+OR+AIN entries are licensed. Actual dalor cheol on f45r.10 and cheol oraiin on
+f106r.31 receive the same operator direction. IT f85r1.11 adds dalor aiin, while
+ZL/RF read dolor aiin; no a/o normalization. Separate occurrence referents do
+not establish a transitivity triangle.
+
+The old759 bridges motivate the boundary question, not its answer. f76r.47 has
+IT oraiin and RF or aiin; ZL has [o:a]r and an uncertain seam. f107v.42 has IT
+orain and RF or ain, with an uncertain ZL seam. Its preceding line ends lkain;
+line-initial is not paragraph-initial. RF lacks own paragraph flags. No image
+or true word boundary was selected. Accepting variants with one binding is a
+model assumption; a rival may instead choose one reading. Prefix-marking A and
+choosing preceding N as governor reverses the edge; symmetry or coincident
+referents can still make both directions semantically equivalent.
+
+U's equal dependents in cheol daiin or remain stipulated, not observed. The
+written-endpoint R comparison explicitly specializes its original general
+relations to functional role graphs. One-marker cheol daiin qokar cannot
+separate those candidates.1047's positive host inventory was not U's mixed
+marker set; original countercases and all earlier model limits remain.
+
+The known dalor dy / paiin continuation f39v.11-12 stays unresolved; paiin
+receives no new head type. Source/profile audits passed with reader prose
+qualified. No meaning, historical direction or global parser is selected.
+Next bounded scope question: existing ORAR and repeated-OR forms, retaining
+548/555/1140 predecessor decisions and no winner from mere parseability.
+Evidence: [construction](research_registry/proposals/production_origin_supply_20261003/OR_BOUNDARY_BINDING_CONSTRUCTION_20261015.json);
+[review](research_registry/proposals/production_origin_supply_20261003/OR_BOUNDARY_BINDING_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA1057: H2 resolves two written nominal heads
 
 H2 uses one rule for cheol daiin or / qotaiin and cheol daiin qokar:
