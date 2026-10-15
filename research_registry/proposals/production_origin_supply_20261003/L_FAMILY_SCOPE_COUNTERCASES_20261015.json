@@ -1,0 +1,827 @@
+{
+  "title": "Manual L-family scope comparison: two fixed directional bindings meet retained counterexamples",
+  "created_utc": "2026-10-15T06:16:34.553078+00:00",
+  "idea": "IDEA001056",
+  "status": "B2_RIGHT_AND_B3_LEFT_CONTRACTS_CONTRADICTED",
+  "phase": "Exploratory construction on already exposed, admitted contexts. No blind test, new native census, parser or semantic selection.",
+  "question": "Can a shared L expression type resolve the old B cheol-chol ambiguity, with one compulsory direction of explicit argument binding?",
+  "predecessor": "research_registry/proposals/production_origin_supply_20261003/L_FAMILY_ARGUMENT_BINDING_DRAFT_20261015.json",
+  "preservation": "R0, A and B bytes and their failures/ambiguity remain unchanged. B2 and B3 are separately declared developmental constructions, not repairs of completed tests.",
+  "CORE13": [
+    "ch",
+    "cth",
+    "k",
+    "kch",
+    "ok",
+    "ot",
+    "pch",
+    "qok",
+    "qot",
+    "sh",
+    "t",
+    "tch",
+    "yt"
+  ],
+  "common_contract": {
+    "forms": "Only exact whole Xol and Xeol with X in CORE13. No stripping initial y; ysheol and qotchol remain outside this inventory. No DY interpretation or universal e meaning.",
+    "type": "Every F_X:E->E. A safe non-L whole group supplies an opaque E expression. These are unasserted expressions, not truth-valued propositions; this is an explicit change from the older P_X notation.",
+    "topic": "The entire first raw paragraph group declares a fixed T and is consumed only in that position. It does not also enter the body. Unknown later groups never update T. This is an unproved positional hypothesis, not an identified subject or name.",
+    "base": "Xol contributes the complete E expression F_X(T).",
+    "boundaries": "Own-reader marked paragraphs are hard scope boundaries. Definite within-paragraph physical wraps are transparent. Uncertain groups/gaps or drawing interruptions must not be skipped to obtain an argument; affected binding remains open.",
+    "repetition": "No idempotence, commutativity, deletion or intensity value is assumed. A paragraph yields an ordered expression sequence, not a recovered sentence or one forced tree."
+  },
+  "B2": {
+    "rule": "Prefix/right recursion: Xeol consumes the next complete expression and yields F_X(that expression). Expanded_X Expr is itself an Expr.",
+    "local_consequence": "IT f24r.18 cheol chol becomes one nested F_ch(F_ch(T24)); following daiin, the second chol and s remain separate. T24 is porory from paragraph line1, not line18 y.",
+    "counterexample": {
+      "reader": "IT2a",
+      "locus": "f102v1.24",
+      "raw_text": "ysaiin ckhey qoor cheol",
+      "target": "IT2a|f102v1.24|G004",
+      "paragraph_end": "1",
+      "outcome": "UNBOUND_RIGHT_ARGUMENT"
+    },
+    "reason": "The last cheol has no following written expression within the declared paragraph. No topic fallback or crossing the end was supplied.",
+    "reader_sensitivity": "ZL has the same whole line, definite inner gaps and its own paragraph_end=1. RF flags are not borrowed."
+  },
+  "B3": {
+    "rule": "Postfix/left recursion: an Atom or Base appends one E expression. Xeol consumes only the immediately preceding complete body expression and replaces it by F_X(that expression). It cannot use the consumed topic position.",
+    "development_basis": "Designed after seeing the B2 end counterexample; its fitting that same end is not independent confirmation. Applied globally, not chosen left or right per occurrence.",
+    "counterexample": {
+      "reader": "IT2a",
+      "locus": "f103r.18",
+      "raw_prefix": [
+        "polchedy",
+        "qokeol",
+        "okain"
+      ],
+      "target": "IT2a|f103r.18|G002",
+      "paragraph_start": "1",
+      "outcome": "UNBOUND_LEFT_ARGUMENT"
+    },
+    "reason": "After polchedy is consumed as T, no body expression exists for qokeol. qok is in CORE13. All relevant groups and inner gaps are definite.",
+    "reader_sensitivity": "Existing GDT1259 ZL certificate0 independently preserves the same three raw groups with own paragraph_start=1. Later line segmentation differs: ZL oteeylshedy versus IT oteey lshedy. No full-line equality or independent manuscript replication is claimed."
+  },
+  "manual_operand_comparison": [
+    {
+      "locus": "f21r.8",
+      "form": "cheol",
+      "B2": "F_ch(a_ocphal)",
+      "B3": "F_ch(a_otor)"
+    },
+    {
+      "locus": "f21r.11",
+      "form": "yteol",
+      "B2": "F_yt(a_shody)",
+      "B3": "F_yt(a_shey)"
+    },
+    {
+      "locus": "f24r.1",
+      "form": "cheol",
+      "B2": "F_ch(a_daiin)",
+      "B3": "F_ch(a_she)"
+    },
+    {
+      "locus": "f24r.8",
+      "form": "qokeol",
+      "B2": "F_qok(a_odaiin), from next physical line in same paragraph",
+      "B3": "F_qok(a_daiin)"
+    },
+    {
+      "locus": "f24r.18",
+      "form": "cheol",
+      "B2": "F_ch(F_ch(T24))",
+      "B3": "F_ch(a_y); following chol remains a separate F_ch(T24)"
+    },
+    {
+      "locus": "f104v.27",
+      "raw_prefix": "pchoror shor sheol sheol sheol qokchedy",
+      "B2": "After topic pchoror: a_shor; F_sh(F_sh(F_sh(a_qokchedy)))",
+      "B3": "After topic pchoror: F_sh(F_sh(F_sh(a_shor))); a_qokchedy"
+    }
+  ],
+  "spelling_rival": "If expanded and base spell the same self-contained F_X(T), cheol chol supplies two occurrences rather than one nested expression. Triple sheol supplies three occurrences, not necessarily three actions or greater intensity. This rival is not confirmed by B2/B3 failures; actual F values and expression multiplicity remain unknown.",
+  "prior_constraints": [
+    "GDT808/865: paragraph/form context predicts L variation more strongly than immediate neighbours. This motivates a supra-local condition but does not identify a first-word topic or LEFT/RIGHT operand.",
+    "GDT868: raw whole-group fidelity does not imply complete context-feature fidelity. Readers and uncertain boundaries remain separate.",
+    "GDT1216 rejected its nominal-argument contract. The new common E->E type is different and cannot rescue that old result.",
+    "GDT1201 transparent rechunking preserves a fixed primitive sequence and effects; it does not license deletion, arbitrary semantics or native recursion.",
+    "IDEA583 already explored explicit/default context under guessed values. No first-discovery claim or inherited values.",
+    "GDT937 postfix chey block conditions and GDT947 failed olshedy/olshey overt coreference are different contracts. Bounded prior review found no exact old B3, not an exhaustive novelty proof.",
+    "GDT915 known-phrase r/l co-variation and GDT608 whole-form residual information are not explained by successful B3 bracketing.",
+    "GDT949 considered number and preparation-state whole-form readings. Known mixed pairs reject number plus universal immediate attributive attachment, not number alone; the less restrictive state rival does not thereby win.",
+    "GDT981 forward state carry fails ol chor -> ol chol on f17v. Its reverse direction fits four physical sequences but only one is direction-discriminating; the cheo/cho and oka/ota families had no usable repeated sequence. Unread groups were not licensed as invisible state updates.",
+    "GDT981 proposed f75v.39 followup was already executed in982, with further983/985 continuations. Do not nominate it as new.",
+    "GDT1276 excludes its fixed ordered stem-pair input plus exactly one binary initial state: observed families include at least three ending cells. This does not exclude models with additional explicit inputs or all grammatical state."
+  ],
+  "decision": "Stop B2 and B3 as stated. Do not add silent left/right switching, topic fallback, double-use of the topic group, or paragraph exceptions. The failures reject the specific conjunctions of obligatory binding, topic consumption and marked scope, not every argument structure, ellipsis or meaning of e. Original B remains incomplete; no viable whole reading has been selected.",
+  "next_decision": "Any continuation must explain form choice using retained whole-context evidence, with a materially different construction rather than an operand rescue. Review already executed GDT949/981/982/1276 before reusing number, state or phrase-agreement suggestions. No large parser or new word glossary commissioned.",
+  "validation": "Root and independent closure_error_audit checked both IT source witnesses and the manual missing-operand consequences. closure_statistics located the already printed1259 counterexample. Two other agents independently applied the five operand changes. Snapshot extraction asserted exact forms, own flags and required definite boundaries. This validates transcription and conditional reasoning, not a meaning.",
+  "manual_reproduction": "Read the source snapshots with their own flags. For B2 start at the last cheol of f102v1.24 and seek a right expression without crossing paragraph_end. For B3 consume polchedy as the stipulated topic of f103r.18 and seek a prior body expression at qokeol. In each case the required set is empty. No corpus scan or parser is needed.",
+  "sources": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    },
+    {
+      "path": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/CERTIFICATES.json",
+      "sha256": "e2be0d12afbeb3efbb40f3a9a9ccc6ede89da99b586148991d1f20f2b26d836b"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/L_FAMILY_ARGUMENT_BINDING_DRAFT_20261015.json",
+      "sha256": "1bb1b70a933a3ec27ce4d415ea173bf8299597459697588bcbb289a117553b4a"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "B",
+        "edition": "IT2a",
+        "hand": "3",
+        "kind": "P",
+        "locus": "f103r.18",
+        "page": "f103r",
+        "paragraph_end": "0",
+        "paragraph_start": "1",
+        "section": "S",
+        "source_group_count": "10",
+        "source_row_index": "4150"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f103r.18|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "polchedy",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "qokeol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "okain",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "checthy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "oteey",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G006",
+          "source_group_index": "6",
+          "ivtff_group_raw": "lshedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G007",
+          "source_group_index": "7",
+          "ivtff_group_raw": "okain",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G008",
+          "source_group_index": "8",
+          "ivtff_group_raw": "qokain",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G009",
+          "source_group_index": "9",
+          "ivtff_group_raw": "qokalshedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f103r.18|G010",
+          "source_group_index": "10",
+          "ivtff_group_raw": "oteys",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "A",
+        "edition": "IT2a",
+        "hand": "1",
+        "kind": "P",
+        "locus": "f21r.11",
+        "page": "f21r",
+        "paragraph_end": "0",
+        "paragraph_start": "0",
+        "section": "H",
+        "source_group_count": "9",
+        "source_row_index": "495"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f21r.11|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "shol",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "chol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "shol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "tchol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "chcthy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G006",
+          "source_group_index": "6",
+          "ivtff_group_raw": "otyky",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G007",
+          "source_group_index": "7",
+          "ivtff_group_raw": "shey",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G008",
+          "source_group_index": "8",
+          "ivtff_group_raw": "yteol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.11|G009",
+          "source_group_index": "9",
+          "ivtff_group_raw": "shody",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "A",
+        "edition": "IT2a",
+        "hand": "1",
+        "kind": "P",
+        "locus": "f21r.8",
+        "page": "f21r",
+        "paragraph_end": "0",
+        "paragraph_start": "1",
+        "section": "H",
+        "source_group_count": "7",
+        "source_row_index": "492"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f21r.8|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "fchokshy",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.8|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "otor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.8|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "cheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.8|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "ocphal",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.8|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "opcheas",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.8|G006",
+          "source_group_index": "6",
+          "ivtff_group_raw": "cthodaiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f21r.8|G007",
+          "source_group_index": "7",
+          "ivtff_group_raw": "oty",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "A",
+        "edition": "IT2a",
+        "hand": "1",
+        "kind": "P",
+        "locus": "f102v1.24",
+        "page": "f102v1",
+        "paragraph_end": "1",
+        "paragraph_start": "0",
+        "section": "P",
+        "source_group_count": "4",
+        "source_row_index": "4132"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f102v1.24|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "ysaiin",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f102v1.24|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "ckhey",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f102v1.24|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "qoor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f102v1.24|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "cheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "B",
+        "edition": "IT2a",
+        "hand": "3",
+        "kind": "P",
+        "locus": "f104v.27",
+        "page": "f104v",
+        "paragraph_end": "0",
+        "paragraph_start": "1",
+        "section": "S",
+        "source_group_count": "13",
+        "source_row_index": "4304"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f104v.27|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "pchoror",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "shor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "sheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "sheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "sheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G006",
+          "source_group_index": "6",
+          "ivtff_group_raw": "qokchedy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G007",
+          "source_group_index": "7",
+          "ivtff_group_raw": "chdor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G008",
+          "source_group_index": "8",
+          "ivtff_group_raw": "sho",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G009",
+          "source_group_index": "9",
+          "ivtff_group_raw": "r",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G010",
+          "source_group_index": "10",
+          "ivtff_group_raw": "aiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G011",
+          "source_group_index": "11",
+          "ivtff_group_raw": "chpchs",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G012",
+          "source_group_index": "12",
+          "ivtff_group_raw": "aiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f104v.27|G013",
+          "source_group_index": "13",
+          "ivtff_group_raw": "al",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "metadata": {
+        "code": "@P0",
+        "currier": "A",
+        "edition": "IT2a",
+        "hand": "1",
+        "kind": "P",
+        "locus": "f24r.1",
+        "page": "f24r",
+        "paragraph_end": "0",
+        "paragraph_start": "1",
+        "section": "H",
+        "source_group_count": "7",
+        "source_row_index": "557"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f24r.1|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "porory",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.1|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "chor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.1|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "opchar",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.1|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "she",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.1|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "cheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.1|G006",
+          "source_group_index": "6",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.1|G007",
+          "source_group_index": "7",
+          "ivtff_group_raw": "or",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "A",
+        "edition": "IT2a",
+        "hand": "1",
+        "kind": "P",
+        "locus": "f24r.18",
+        "page": "f24r",
+        "paragraph_end": "0",
+        "paragraph_start": "0",
+        "section": "H",
+        "source_group_count": "6",
+        "source_row_index": "574"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f24r.18|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "y",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.18|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "cheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.18|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "chol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.18|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.18|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "chol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.18|G006",
+          "source_group_index": "6",
+          "ivtff_group_raw": "s",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "A",
+        "edition": "IT2a",
+        "hand": "1",
+        "kind": "P",
+        "locus": "f24r.8",
+        "page": "f24r",
+        "paragraph_end": "0",
+        "paragraph_start": "0",
+        "section": "H",
+        "source_group_count": "6",
+        "source_row_index": "564"
+      },
+      "groups": [
+        {
+          "source_group_id": "IT2a|f24r.8|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "ychor",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.8|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "s",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.8|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "om",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.8|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "qoear",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.8|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f24r.8|G006",
+          "source_group_index": "6",
+          "ivtff_group_raw": "qokeol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    },
+    {
+      "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "metadata": {
+        "code": "+P0",
+        "currier": "A",
+        "edition": "ZL3b",
+        "hand": "1",
+        "kind": "P",
+        "locus": "f102v1.24",
+        "page": "f102v1",
+        "paragraph_end": "1",
+        "paragraph_start": "0",
+        "section": "P",
+        "source_group_count": "4",
+        "source_row_index": "4300"
+      },
+      "groups": [
+        {
+          "source_group_id": "ZL3b|f102v1.24|G001",
+          "source_group_index": "1",
+          "ivtff_group_raw": "ysaiin",
+          "left_separator": "LINE_START",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "ZL3b|f102v1.24|G002",
+          "source_group_index": "2",
+          "ivtff_group_raw": "ckhey",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "ZL3b|f102v1.24|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "qoor",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "ZL3b|f102v1.24|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "cheol",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "LINE_END"
+        }
+      ]
+    }
+  ],
+  "ZL_retained_certificate_prefix": {
+    "source": "experiments/yolo/gdt1259_paragraph_integer_balance/artifacts/CERTIFICATES.json",
+    "locator": "ZL3b[0].raw_groups[0:3]",
+    "groups": [
+      {
+        "edition": "ZL3b",
+        "page": "f103r",
+        "locus": "f103r.18",
+        "kind": "P",
+        "source_row_index": "4318",
+        "source_group_index": "1",
+        "source_group_count": "9",
+        "paragraph_start": "1",
+        "paragraph_end": "0",
+        "left_separator": "LINE_START",
+        "right_separator": "DEFINITE_SPACE",
+        "ivtff_group_raw": "polchedy"
+      },
+      {
+        "edition": "ZL3b",
+        "page": "f103r",
+        "locus": "f103r.18",
+        "kind": "P",
+        "source_row_index": "4318",
+        "source_group_index": "2",
+        "source_group_count": "9",
+        "paragraph_start": "1",
+        "paragraph_end": "0",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE",
+        "ivtff_group_raw": "qokeol"
+      },
+      {
+        "edition": "ZL3b",
+        "page": "f103r",
+        "locus": "f103r.18",
+        "kind": "P",
+        "source_row_index": "4318",
+        "source_group_index": "3",
+        "source_group_count": "9",
+        "paragraph_start": "1",
+        "paragraph_end": "0",
+        "left_separator": "DEFINITE_SPACE",
+        "right_separator": "DEFINITE_SPACE",
+        "ivtff_group_raw": "okain"
+      }
+    ]
+  },
+  "claim_ceiling": "Conditional grammar counterexamples on existing transcription metadata, not verified authorial syntax. No translation, confirmed lexical meaning, overall language exclusion, new source/image admission, sealed or reserved confirmation."
+}

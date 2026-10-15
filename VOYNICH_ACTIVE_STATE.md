@@ -1,3 +1,31 @@
+## 2026-10-15 — IDEA1056: both fixed directional extensions fail
+
+B2 gives every L expression one common E type and permits right recursion:
+cheol chol becomes a nested expression. It nevertheless fails at IT f102v1.24,
+where the paragraph ends ysaiin ckhey qoor cheol without a right argument.
+The separately declared B3 uses left recursion everywhere. It fails at the
+marked IT f103r.18 opening polchedy qokeol okain: once polchedy is consumed only
+as topic, qokeol has no previous body expression. Existing ZL witnesses agree;
+readers remain alternatives and paragraph flags are transcription metadata.
+These are failures of the stated binding/topic/scope combinations, not all
+ellipsis or any particular meaning of e. R0/A failures and B ambiguity remain.
+No silent topic reuse, direction switching or boundary exception repairs them.
+Successful local bracketing had not explained808/865 form choice or915 phrase
+co-variation. No parser, new corpus test, word meaning or reserve use.
+Before another construction, retain949 mixed-pair limits,981 state-carry failure,
+already executed982 followup, and1276 fixed-input/one-bit capacity exclusion.
+[Manual contracts, exact contexts and decision](research_registry/proposals/production_origin_supply_20261003/L_FAMILY_SCOPE_COUNTERCASES_20261015.json).
+The pipeline recovered an existing alternative in IDEA45/203: collective versus
+distributive predication. A raw L-specific development would keep the same
+unknown predicate P_X and one participant group G: Xol as P_X(G), Xeol as
+P_X applied to each member separately. This does not consume an extra neighbour.
+Group identity, membership and orientation are unbound; singleton cases cannot
+distinguish it. This is unselected, not a new discovery or recovered meaning.
+Next review the later evidence behind the [45 source](research_registry/proposals/ih_distributive_collective.json)
+and [203 source](research_registry/proposals/translation_programs_20260912/successors/collective_vs_distributive_action_scope.json),
+including their already assumed lists and result identities, before selection.
+
+
 ## 2026-10-15 — IDEA1056: actual L-family argument alternatives
 
 R0 cannot bind the first ITcheol onf21r.8 before its required declaration.

@@ -4,11 +4,11 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: L.
-Latest decision: 1056partial.
+Task: L scope.
+Latest decision: B2/B3 fail.
 Working files: IDEA1056.
-Assumptions: topic unbound.
-Resume: Read cheol chol.
+Assumptions: T unbound.
+Resume: Review45/203.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Publice211154b5.
+Public2e70f716a.
