@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: shared construction
-Latest decision: R771 local only
-Working files: IDEA000771
-Assumptions: meanings unbound
-Resume: shared rule review
+Task: CV vowel bounds
+Latest decision: 755 unbound
+Working files: IDEA001053
+Assumptions: fixed CV writer
+Resume: register vowel bound
 Running: agents;>=08:58Z
 
 ## Structural baseline
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicb5bbe7d53.
+Public022c0b9eb.
