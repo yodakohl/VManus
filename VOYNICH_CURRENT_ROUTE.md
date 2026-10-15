@@ -5,10 +5,10 @@ Updated: 2026-10-15.
 Phase: exploration
 Status: checkpoint
 Task: dal.
-Latest decision: F1/N1 open.
+Latest decision: N2 fail/UG open.
 Working files: IDEA1057.
-Assumptions: roles open.
-Resume: N1 dy daiin.
+Assumptions: meaning open.
+Resume: UG other cheol.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public5a91f487c.
+Publicbeb940f19.

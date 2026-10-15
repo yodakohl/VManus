@@ -1,3 +1,33 @@
+## 2026-10-15 — IDEA1057: marker composition and a written relation head
+
+N2 permits one role per nominal record, agrees on repeated identical markers,
+and explicitly distinguishes the three role IDs. It conflicts at kchy dy daiin
+on f11r.4 and reversed schey daiin dy in IT f56r.17 under its same-head/no-reset
+contract. This is no general marker-class exclusion. The reverse is not literal
+daiin in ZL/RF; f14v.6 is whole dydydy in IT/RF, uncertain dy~dy~dy in ZL.
+Old556/557 DY-atom closure counts do not translate the raw free dy word.
+
+Two new alternatives were actually applied to the complete f45r paragraph:
+U keeps one participant and governor per marker chain while adding role-slot
+equalities; R forms ordered nominal relation chains. R variables need not be
+different individuals, and U's unbound governors are not invented events.
+Both retain the old10 conditional positions and22 residual groups.
+
+A further explicitly local U-G construction binds consecutive daldy dalor to
+the written cheol at f45r.10G008. Its dy/or markers select two slots of that
+proposed relation head: D(x),D(y),C_cheol(x,y). Neither identity nor difference
+of x/y is assumed. The following bare dal remains outside the local closure.
+This adds one conditional syntactic role:11 positions,21 residual. It is not
+an English verb, physical event or complete reading, and not universal cheol
+valency. f21r.8 andf102v1.24 do not match the present two-marked-left-argument
+surface contract; no resegmentation or missing arguments repair them.
+
+Original F1/N1 and all older failures remain. Next develop one fixed realization
+for the retained other cheol contexts while preserving content/roles, not a
+fresh valency at each occurrence. No new corpus test, parser or reserve use.
+[Contracts, exact source lines and complete conditional applications](research_registry/proposals/production_origin_supply_20261003/DAL_MARKER_SEQUENCE_DRAFT_20261015.json).
+
+
 ## 2026-10-15 — IDEA1057: two actual DAL constructions on f45r.8–11
 
 F1 opens a D-task at otydal daiin, taking the next whole daiin as an
