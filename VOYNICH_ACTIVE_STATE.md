@@ -1,3 +1,32 @@
+## 2026-10-15 — IDEA45: a concrete group-scope projection, no chosen reading
+
+C1 keeps one hypothetical participant group and evaluation context throughout
+an own-marked paragraph. Xol asserts an unknown property of the whole group;
+Xeol asserts it of every member. A globally reversed orientation is retained.
+Two complete IT paragraphs f21r.8–12 and f32v.7–11 preserve all78 raw groups:
+2 assumed headers,10 L assertions,66 uninterpreted groups. These are conditional
+scope assignments, not translated words. On IT f21r both orientations require
+the ch property of the group and every member; repetition positions differ.
+Other-reader cheol/sheol and header splits prevent pooling this consequence.
+The f32v group link crosses drawing interruptions under an explicit assumption.
+Its final ol sho chy is still unread. No unspoken product link is inserted.
+
+The useful limitation is exact: with unassigned predicates and only positive
+assertions, making every predicate true satisfies both orientations, even for
+plural groups. More such consistency checks cannot select the scope. This does
+not reject a future complete reading. A shared nontrivial content relation is
+needed next; it may be hypothetical but must apply consistently, not be added
+only to force a preferred outcome. No new relation is selected in this pass.
+
+Prior sources correct two temptations: S05 sho lists were stipulated, and
+collective/distributive scope alone determines neither event nor output count.
+W13 already declined203s missing-product comparison.948 already supplied the
+f32v.10–11 product story explicitly as an added identity; it is not a new task.
+The45 assertion draft is distinct from203s still unexecuted full event model.
+B2/B3 failures remain. No parser, new corpus census, word value or reserve use.
+[Full aligned draft, assumptions and source checks](research_registry/proposals/production_origin_supply_20261003/L_FAMILY_GROUP_SCOPE_DRAFT_20261015.json).
+
+
 ## 2026-10-15 — IDEA1056: both fixed directional extensions fail
 
 B2 gives every L expression one common E type and permits right recursion:
