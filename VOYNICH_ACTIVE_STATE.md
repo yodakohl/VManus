@@ -1,3 +1,30 @@
+## 2026-10-15 — Q2 continued through complete f89r1.6–10
+
+Same Q2 rules, additional complete already-exposed IT paragraph:46groups,
+37ordinary positions,5DAIINdescriptions and4free markers. Only DALDAIIN(.7G007)
+finds an explicit prior ordinary anchor, DAL(.7G004). QOKECHY,OIIIN,QOKEEY and
+CKHHY then describe that same referent solely through the assumed single
+DAIIN value per paragraph. Later ordinary DAL(.7G009/.10G007) does not retarget
+an old reference. All five descriptions must jointly fit a content reading.
+
+Only7exact f45r rawtypes recur at14/46positions;31newwhole types cover32positions
+and remain unassigned. No inherited material/portion/action gloss was justified
+by the profile/primary review. Nearby DAL at both DALDAIIN sites was already
+known; this is a full-paragraph continuation, not another discovery/count/test.
+
+All local free-marker seams are definite. Three drawing interruptions remain;
+shared field identity across them is an unbound semantic scope assumption.
+ZL/RF47groups and their annotations stay separate fromIT46. Independent source,
+reverse-grouping and reference accounting passes, not meaning confirmation.
+Original f45r Q2/R1/Q1 and all prior failed/global routes remain unchanged.
+
+Next develop the SAME joint reading around DAIIN scope: one value must satisfy
+five different descriptions here and the f45r uses. No further alias reshuffling,
+new free glosses or reserve opening from symbolic completeness. A changed
+per-occurrence field scope would be a different model, not an unchanged reading.
+Evidence: [whole paragraph](research_registry/proposals/production_origin_supply_20261003/F89R1_Q2_CONTINUATION_20261015.md);
+[review](research_registry/proposals/production_origin_supply_20261003/F89R1_Q2_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA1061 Q2: ordinary DAL refresh changes one later anchor
 
 The same complete86IT groups now have an explicit alternative reference rule:

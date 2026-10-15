@@ -4,11 +4,11 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: f45r Q2
-Latest decision: last DAL anchor;0glosses
+Task: f89r1 Q2
+Latest decision: 5DAIIN claims;0glosses
 Working files: IDEA001061
-Assumptions: last ordinary/fields
-Resume: joint DAL content
+Assumptions: shared DAIIN value
+Resume: DAIIN scope/content
 Running: none
 
 ## Structural baseline
@@ -76,4 +76,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicd3d785e98.
+Public0e90a5f1d.
