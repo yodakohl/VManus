@@ -1,3 +1,30 @@
+## 2026-10-15 — Stop the C1 pointwise-constraint selection strategy
+
+The C1 ambiguity persists beyond the all-true example. Any uniform pointwise
+Boolean condition on the unknown predicates, including contrariety or
+implication, preserves equal satisfiability of the two positive orientations.
+Copy one old member vector to the new group and the old group vector to every
+new member. This changes unbound interpretations; it does not equate truth in
+one fixed world or permit changing an independently fixed meaning. Singleton
+cases coincide. Shared participant identities, cross-set relations, negative
+assertions, events and the unread text are outside the argument.
+The robust shol chol shol sequence already makes strict same-argument ch/sh
+contrariety fail in both orientations. No new opposites are assigned.
+Two independent reviewers checked the general argument. No native test or
+meaning followed. C1 remains an unselected hypothesis; this selection strategy
+is parked without another counter/opposition table or parser.
+
+The dal-family retrieval is explicitly old work: the entire f45r context and
+two daldaiin locations were read on8October, then their local background was
+assessed. Do not count the present retrieval as a new pattern discovery.
+The working IT paragraph f45r.8–11 includes whole otydal, daldy, dalor, dal and
+daldaiin; RF has an entity-bearing otydal alternative. No common individual or
+meaning follows. Next draft an actual shared-content construction for this
+complete paragraph, preserving prior1198/1200/1201/1204/1208/788 limits and
+all unknowns. No particular new construction is selected yet.
+[Decision, proof limits and retained context](research_registry/proposals/production_origin_supply_20261003/L_SCOPE_SHARED_CONTRAST_DECISION_20261015.json).
+
+
 ## 2026-10-15 — IDEA45: a concrete group-scope projection, no chosen reading
 
 C1 keeps one hypothetical participant group and evaluation context throughout

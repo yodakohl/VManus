@@ -1,0 +1,162 @@
+{
+  "title": "Shared predicate constraints do not orient the current group/member projection",
+  "created_utc": "2026-10-15T07:13:49.580380+00:00",
+  "status": "STOP_POINTWISE_CONSISTENCY_SELECTION_C1_REMAINS_OPEN",
+  "idea": "IDEA000045",
+  "work_type": "Manual selection correction; no new native experiment, corpus count, decoder or mathematical software.",
+  "question": "Can a shared contrary, implication or other uniform predicate law select C1 versus its globally reversed L orientation?",
+  "answer": "No, under the current positive-only projection with unassigned predicate extensions and no independent group/member facts. The two orientations are equisatisfiable even after any uniform pointwise Boolean constraint.",
+  "definitions": {
+    "C_X": "P_X(G,kappa)",
+    "D_X": "For every g in nonempty G, P_X({g},kappa)",
+    "Phi": "The same condition on the full predicate truth vector at each nonempty argument S. It is independent of S identity/cardinality and does not relate different argument sets.",
+    "scope": "Positive C_X/D_X requirements only. Predicate contents, participant groups and evaluation contexts remain unbound as in the recorded C1 projection."
+  },
+  "manual_argument": [
+    "For a singleton group, C_X and D_X coincide.",
+    "For a plural group in any satisfying interpretation, choose one old member a.",
+    "Give the new whole-group argument G the old full predicate vector on {a}. Give every new singleton argument {g} the old full predicate vector on G.",
+    "Every old positive D requirement holds at a, hence becomes a new positive C requirement. Every old positive C requirement is copied to every singleton, hence becomes a new positive D requirement.",
+    "Both copied vectors already satisfy the identical pointwise Phi. Other unmentioned arguments can retain allowed vectors. The same construction works in the opposite direction.",
+    "Separate paragraphs can be handled this way only while their group/member/context identities remain independently free; disjoint groups or contexts may then be chosen. The proof does not silently break a previously fixed shared identity."
+  ],
+  "essential_ceiling": "This constructs another permitted interpretation of the unassigned predicate symbols. It is equal satisfiability, not equal truth in one fixed world and not permission to change an already bound lexical meaning or observed fact. It does not select any meaning or exclude collective/distributive language.",
+  "excluded_from_argument": [
+    "Relations between group and member arguments",
+    "Cardinality-sensitive or identity-sensitive content laws",
+    "Fixed individual observations or referent overlaps",
+    "Negative distributive assertions",
+    "Events, ordered changes, results or frequencies",
+    "The currently unread remainder of either paragraph"
+  ],
+  "exact_manual_examples": [
+    {
+      "source": "IT/ZL/RF f21r.11",
+      "text": "shol chol shol tchol",
+      "conditional_consequence": "ch, sh and tch share the base mode. Any pair declared strictly contrary on the same argument conflicts in both orientations. Repetition does not add a new member or time."
+    },
+    {
+      "source": "IT f21r.8 plus .11/.12",
+      "text": "cheol ... chol ... chol",
+      "conditional_consequence": "ch already has both C and D requirements in both orientations. An everywhere contrary sh/tch/yt cannot select a direction. The corresponding early word is sheol in ZL/RF; the same-carrier claim is reader-specific."
+    },
+    {
+      "source": "IT/ZL/RF f32v.10",
+      "text": "keol ... chol ... cthol",
+      "conditional_consequence": "k is expanded while ch/cth are base. A pointwise contrary k/ch or k/cth allows both mixed-scope orientations for a plural group. ch/cth contrariety conflicts in both."
+    }
+  ],
+  "prior_evidence_account": [
+    "W96/WE008 already restricted the old contradiction to assumed same bearer, unchanged context, inherited property values and fixed attachment. It was not a general false closure to reverse.",
+    "631/632 support formal ch/sh alternatives over shared CTH remainders, not semantic opposition.872/873 do not supply a selected persistent/complement operator.1058 and1106 do not supply a global k/t thermal polarity.",
+    "1116 tested its fixed NEG family and later-positive requirement;1117/1118 are executed continuations. No general dal negation value is inherited.",
+    "921 privation,866 dual scope and953 state/change constructions were already worked through.951/953 already contain assertion and make-true/change variants; renaming them is not a new idea. The953 physical ry countercase remains.",
+    "A source-free event/result composition proposal could posit A_kch=A_ch after A_k and a corresponding result inclusion. This is an unselected design, not established semantic segmentation. Plugging a mere same-argument inclusion back into C1 would still fall under the symmetry above."
+  ],
+  "dal_context_retrieval": {
+    "status": "RETRIEVED_EXISTING_WORK_NOT_A_NEW_DISCOVERY",
+    "primary": "NATIVE_FAMILY_MANUAL_REVIEW_20261008.json already read the complete f45r page and the other exact daldaiin locus. DALDAIIN_LOCAL_BACKGROUND_RESULT_20261008.json already assessed the selected local background.",
+    "complete_IT_paragraph": [
+      "tchol cthy qodaiin cthy dain cthey otydal daiin m",
+      "dor or chain dain ykolody ytaiin qotchol kol dy",
+      "okaiin shar yky oky kair daldy dalor cheol dal",
+      "l okaiin okcho laldan daldaiin"
+    ],
+    "loci": [
+      "f45r.8",
+      "f45r.9",
+      "f45r.10",
+      "f45r.11"
+    ],
+    "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+    "flags": "IT and ZL own paragraph_start at .8 and paragraph_end at .11; RF flags are unset. The .10 line alone is not a paragraph or complete decoded sentence.",
+    "retained_obligation": "Account for exact whole otydal, daldy, dalor, dal and daldaiin together if hypothesizing common content. Do not pool their embedded dal substrings with standalone dal or assert that all denote one individual.",
+    "reader_caveats": "RF .8 has @221;tydal, not exact otydal; other annotated differences remain. All three preserve the nine exact .10 groups and final daldaiin. Three readings are not three independent witnesses.",
+    "prior_limits": "The two prior-dal/daldaiin contexts and their background were already inspected. No directional anaphora/copying or shared semantic identity was established. No rerun of counts, photos, joining or background windows is selected.",
+    "form_profile_account": {
+      "order": [
+        "ZL3b",
+        "IT2a",
+        "RF1b"
+      ],
+      "dal": [
+        191,
+        201,
+        158
+      ],
+      "daly": [
+        23,
+        25,
+        21
+      ],
+      "daldy": [
+        17,
+        16,
+        8
+      ],
+      "dalor": [
+        7,
+        8,
+        6
+      ],
+      "otydal": [
+        1,
+        1,
+        0
+      ],
+      "daldaiin": [
+        2,
+        2,
+        2
+      ]
+    },
+    "profile_limits": "dal is broadly distributed; daldy occurs in prose and labels and has no physical-line-initial profile occurrence; dalor is medial prose in the exposed scope. These are not identified parts of speech.1198 has no shared exact two-sided frame among dal/daly/daldy.1200 repeated bases and1201 transparent grouping do not establish morpheme meanings;788 retains limited component transfer.",
+    "new_semantic_assignments": []
+  },
+  "decision": "Park C1 orientation selection by positive-assertion consistency plus uniform pointwise semantic constraints. Retain C1 and both orientations as unselected hypotheses, not refuted language classes. Do not run more such constraints as experiments.",
+  "next_work": "Develop one actual shared-content construction on the already retained complete f45r.8-11 paragraph, accounting jointly for the five dal-bearing whole forms and all residual text. A new proposal must state its content relation and argument roles before applying it; merely rediscovering the family, adding a guessed result reference, or renaming953 is not that work. No particular semantic construction has been selected in this pass.",
+  "review": "Eight bounded agents reviewed independent predecessor, source, profile, semantic and construction questions. closure_error_audit and discriminating_test_review independently checked the general satisfiability argument and its limits. No source-free derivation is counted as a manuscript discovery.",
+  "sources": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/L_FAMILY_GROUP_SCOPE_DRAFT_20261015.json",
+      "sha256": "2c82b35f2dc61f14bcd981f0d8e544a52a2ef249ad931b1eb45b5cccdd6c2a50"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/NATIVE_FAMILY_MANUAL_REVIEW_20261008.json",
+      "sha256": "528969f1a00968d7ca12ce7254b42b368f5d9be5885965097b210aa22e48088d"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/DALDAIIN_LOCAL_BACKGROUND_RESULT_20261008.json",
+      "sha256": "db85366458038d76d0cf2671ef63698419e125b4cc11390a65ddccc255d1f625"
+    },
+    {
+      "path": "experiments/yolo/gdt1198_daldy_exact_contexts/REPORT.md",
+      "sha256": "431d80a7e9be173a4827f09e28efc7d622263cf20e96e019833eccf362d821c0"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/REPORT.md",
+      "sha256": "6ad6743055d8d61daf9cb9767a75facd128e9b04298d2b9c8f84afc14e3d903b"
+    },
+    {
+      "path": "experiments/yolo/gdt1208_f45r_repeated_dal_body/REPORT.md",
+      "sha256": "0a8eab5bb7ad50aa41e6d094142ee369c49603e4861f910ec7fe4ef233c1ff86"
+    },
+    {
+      "path": "experiments/yolo/gdt788_dal_remainder_cross_family_transfer/REPORT.md",
+      "sha256": "3ceba95e7d7e78c2e705dcfa132eb46abb815cd091436aa89d7d30b4a4b7cd1b"
+    },
+    {
+      "path": "research_registry/proposals/translation_programs_20260912/work/W96/REPORT.md",
+      "sha256": "26396cb1922382004380fbbbaacbd785b7d65ee087d3de4c5f28790672840d24"
+    },
+    {
+      "path": "experiments/yolo/gdt1116_joint_state_recipient_chain/REPORT.md",
+      "sha256": "512c39b5a5dd153a5d32e083fda0f2b571bde20557384151fb4a1a187c1d5174"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    }
+  ],
+  "access": "Existing admitted exposed caches and primary reports only; no new image, raw mixed TSV extraction, public-solution search or reserved/sealed material."
+}
