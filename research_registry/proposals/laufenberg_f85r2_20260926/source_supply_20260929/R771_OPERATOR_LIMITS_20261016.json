@@ -1,0 +1,129 @@
+{
+  "status": "KNOWN_COUNTEREXAMPLE_PREVENTS_UNCHANGED_GLOBAL_R771_EXPORT",
+  "method": "Manual local rule derivation from pre-existing exposed source and frozen parser; no new experiment or corpus run. Source ids and inner flags checked only.",
+  "sources": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RESERVE80_REPEAT_SOURCE_20261015.json",
+      "sha256": "60819932009c33e7104b82a18fe6971ac936ce6f9cc72ef87c73558e2b23bd50"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_WITNESS_PLAN_20261016.json",
+      "sha256": "1c1ce236df4ff9c324e15916592ffcf304e014f7413947f3a8b14c5a7bbc6a99"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_WITNESS_BUILD_20261016.py",
+      "sha256": "e33988e91f94354adaf431c5df8cb357bc441682469aa05b93a75e79495e88bf"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_TRANSFER_PLAN_20261016.json",
+      "sha256": "1e988396ed0f4e6cf15f64c88eb940bb6a5585a7a9598d9087270a14fe12939b"
+    },
+    {
+      "path": "experiments/yolo/gdt1047_bare_value_left_host/REPORT.md",
+      "sha256": "42901a717a45d19b1d101c2a2368d085b498b011ccdd8b7add395e770785067d"
+    }
+  ],
+  "cases": [
+    {
+      "reader": "IT2a",
+      "source_groups": [
+        {
+          "source_group_id": "IT2a|f115r.17|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "qotchy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f115r.17|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "IT2a|f115r.17|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        }
+      ],
+      "both_phase_derivation": "QOTCHY is Class; consume G003+G004 as C DAIIN. G005 is an exact remaining operator and yields ORPHAN_DAIIN. Neither phase has a split pair here.",
+      "semantic_consequence": "The unchanged parser cannot be an exceptionless grammar of these source readings. This does not reject all Class descriptions or all DAIIN meanings."
+    },
+    {
+      "reader": "ZL3b",
+      "source_groups": [
+        {
+          "source_group_id": "ZL3b|f115r.17|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "qotchy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "ZL3b|f115r.17|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "ZL3b|f115r.17|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        }
+      ],
+      "both_phase_derivation": "QOTCHY is Class; consume G003+G004 as C DAIIN. G005 is an exact remaining operator and yields ORPHAN_DAIIN. Neither phase has a split pair here.",
+      "semantic_consequence": "The unchanged parser cannot be an exceptionless grammar of these source readings. This does not reject all Class descriptions or all DAIIN meanings."
+    },
+    {
+      "reader": "RF1b",
+      "source_groups": [
+        {
+          "source_group_id": "RF1b|f115r.17|G003",
+          "source_group_index": "3",
+          "ivtff_group_raw": "qotchy",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "RF1b|f115r.17|G004",
+          "source_group_index": "4",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        },
+        {
+          "source_group_id": "RF1b|f115r.17|G005",
+          "source_group_index": "5",
+          "ivtff_group_raw": "daiin",
+          "left_separator": "DEFINITE_SPACE",
+          "right_separator": "DEFINITE_SPACE"
+        }
+      ],
+      "both_phase_derivation": "QOTCHY is Class; consume G003+G004 as C DAIIN. G005 is an exact remaining operator and yields ORPHAN_DAIIN. Neither phase has a split pair here.",
+      "semantic_consequence": "The unchanged parser cannot be an exceptionless grammar of these source readings. This does not reject all Class descriptions or all DAIIN meanings."
+    }
+  ],
+  "other_known_limits": [
+    {
+      "source_group_id": "IT2a|f28v.6|G001",
+      "raw": "daiin",
+      "old_source": "GDT1047 REPORT and RUNS.json",
+      "condition": "Start of its marked complete two-group paragraph; both phases immediately orphan. ZL paragraph flags differ."
+    },
+    {
+      "source_group_id": "IT2a|f58v.30|G001",
+      "raw": "daiin",
+      "old_source": "GDT1047 REPORT and RUNS.json",
+      "condition": "Start of its marked paragraph30–33; both phases immediately orphan. ZL paragraph flags differ."
+    }
+  ],
+  "scope": "One doublet locus in three alternative readers, not six independent failures. Initial cases depend on IT paragraph flags; internal doublet does not. Full R771 source paragraphs and GDT1386 successes remain intact.",
+  "historical_correction": "Earlier transfer plan already said GDT1047 and known DAIIN doublets limit universal export. This makes the exact R771 orphan derivation explicit; it is not newly discovered manuscript evidence or a concealed prior failure.",
+  "decision": "Do not extend unchanged R771 as a general manuscript grammar or rerun a transfer to rediscover this known failure. A different explicit repeated/initial operator construction would need a new scientific reason, not a local rescue."
+}

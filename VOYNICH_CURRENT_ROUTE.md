@@ -3,13 +3,13 @@ Updated: 2026-10-16.
 
 ## Work
 Phase: exploration
-Status: checkpoint
-Task: R771 reference
-Latest decision: 1386 fits; unbound
-Working files: GDT1386
-Assumptions: Class unbound
-Resume: compare final olchedy
-Running: none
+Status: active
+Task: shared construction
+Latest decision: R771 local only
+Working files: IDEA000771
+Assumptions: meanings unbound
+Resume: shared rule review
+Running: agents;>=08:58Z
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -33,7 +33,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 GDT327/GDT336: historical; no access.
 
 ## Decisions
-R_TOKENFAIL;CountSpecpark.
+R771globalFAIL;R_TOKENFAIL;CountSpecpark.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -50,7 +50,7 @@ GDT616 failed; later diagnostic PASS does not rescue it.
 f9v:1064 Jacea/Viola;IDEA621 owner unbound.
 IDEA237 untested;30 programs first-passed;P09 closed.
 
-## Access boundaries
+## Access
 f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v unadmitted;reserves closed until near-complete reading.
 Prior exposure is not confirmation.
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public99ae396ea.
+Publicb5bbe7d53.

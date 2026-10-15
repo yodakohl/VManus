@@ -1,3 +1,29 @@
+## 2026-10-16 — R771 reference comparison complete; global operator limit explicit
+
+Final OLCHEDY as REF45 would join the .45 AP existential and final OTAR
+existential into one common-witness requirement, preserving every other
+frame/body. This genuinely strengthens the whole IT/ZL reading, but native
+identity and antecedent choice remain unbound. TOL at46 is universal, not an
+individual to recall; IT47 supplies a competing AP-qualified existential.
+RF annotated final form licenses no AP/reference. No new word meaning.
+
+The unchanged parser also necessarily orphans the second DAIIN atf115r.17G005
+in all3readers/bothphases. This follows from the already retained definite
+QOTCHY DAIIN DAIIN source, independently of R_TOKEN's semantic failure.
+GDT1047's IT initialDAIIN adds scope-bound limits. Old transferplan already
+warned about these; no new empirical experiment or universal-family exclusion.
+The complete local f75v account and GDT1386 compatibility remain unchanged.
+
+Do not rerun that known failure or build a free reference resolver. Root now
+reviews genuinely different shared constructions that make order/repetition
+substantive, using retained structure and known countercases. Inventory,
+free serial functions, relation-union and scale relabelings were already tried.
+User's minimum10hour run began22:58:57UTC15October, horizon08:58:57UTC16October;
+this first bounded comparison is a checkpoint within it, not its completion.
+Evidence: [account](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_REFERENCE_ACCOUNT_20261016.md);
+[limits](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_OPERATOR_LIMITS_20261016.json);
+[review](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_REFERENCE_REVIEW_20261016.json).
+
 ## 2026-10-16 — GDT1386 fixed R771 transfer: formal compatibility only
 
 The unchanged model accepts all120IT/122ZL/121RF groups of f75r.32-46 in
