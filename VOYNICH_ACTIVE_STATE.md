@@ -1,3 +1,17 @@
+## 2026-10-15 — IDEA1056: actual L-family argument alternatives
+
+R0 cannot bind the first ITcheol onf21r.8 before its required declaration.
+The exact ITopening is fchokshy otor cheol; the other-reader display is not IT.
+Two explicitly new exploratory variants set first whole group as topicT:
+A leaves five baseforms unlicensed; B gives cheol->ocphal,yteol->shody and
+five basebindings toT. All41groups remain, most content unparsed. The known
+f24r.18cheol chol meets B's unhandled L-argument case; no complete reading.
+An initial manual error is corrected: chor is absent from809's fixed headpool,
+so final chor chol daiin never licensed A/R0. No retroactive head addition.
+This differs from429's property-change idea;038/583/933 old failures remain.
+Next read the possible nested L-expression and its spelling-variation rival;
+no automatic parser, statistics, Englishglosses or reserve use. [Draft](research_registry/proposals/production_origin_supply_20261003/L_FAMILY_ARGUMENT_BINDING_DRAFT_20261015.json).
+
 ## 2026-10-15 — Use retained structure before choosing content
 
 The user correctly rejected1055's arbitrary recipe values. The source profiles
