@@ -1,3 +1,31 @@
+## 2026-10-15 — IDEA157 CountSpec: defined quantity function, no numeral selected
+
+One concrete DAIIN content hypothesis is now authored across the same132ITgroups:
+CountSpec(X,G,c) requires a given finite nonempty groupG, member-levelKind_X,
+and cardinality|G|=one shared unknown positiveintegerc. It replaces the formerly
+uninterpreted DAIIN relation at10constructions/17rawgroups;115otherrawgroups
+remain structurally preserved and semantically open. Other4markerrelations
+remain unknown. The uniform nominal finite-group lift is an extra type premise.
+
+All5old source-anchor choices remain,including2CountSpecDALanchors. The counted
+DALgroups on the two pages must be equinumerous,not identical. f45's olderDAL
+used byDY/OR receives no count merely from those markers. Group variables may
+coincide/overlap; no5cunion total,per-headunits,word/strokecount ormemberrepair.
+Membership/individuation must be supplied before count evaluation.
+
+No native membership or actual cardinality is bound; everypositivec remains
+possible. Formal sizes2/3 only demonstrate the fixed function and overlap limits.
+Independent accounting passes,no native truth test. Existing words review says
+NO_TESTABLE_PREDICTIONS/NOT_READY_FOR_PREFERENCE/NO_AUTOMATIC_MEANING_PREFERENCE.
+This is a concrete proposed quantitative meaning,not a confirmed translation.
+
+OriginalP14/W94distinct-ratiofailure,W95head/unitdebt,W96parkedf2v and1167I-IV
+weakening remain. No number assigned toDAIN/DAIR;1047universalpostfix limits
+persist. Next bind actual group members or independently differing sizes under
+stable source ownership,not newaliases/c-values or unowned image counts.
+Evidence: [whole quantitative draft](research_registry/proposals/production_origin_supply_20261003/CARDINAL157_READING_20261015.md);
+[review](research_registry/proposals/production_origin_supply_20261003/CARDINAL157_REVIEW_20261015.json).
+
 ## 2026-10-15 — content checkpoint: structural coverage is not a supplied message
 
 The current132group IDEA95 representation retains real conditional grouping,
