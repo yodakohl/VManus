@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-15.
+Updated: 2026-10-16.
 
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: EXEC1062
-Latest decision: EXEC open
-Working files: IDEA001062
-Assumptions: unknown effects
-Resume: draft 771 continuation
+Task: R771
+Latest decision: whole; unselected
+Working files: IDEA000771
+Assumptions: Class unbound
+Resume: register f75r32-46
 Running: none
 
 ## Structural baseline
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public4508e17d8.
+Public5d7be0acb.

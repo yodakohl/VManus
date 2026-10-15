@@ -1,0 +1,148 @@
+{
+  "status": "EXPLORATORY_WHOLE_PARAGRAPH_SCOPED_CLASS_READING_NO_MEANING_SELECTION",
+  "idea": "IDEA000771",
+  "created_utc": "2026-10-15T22:17:56.841142+00:00",
+  "local_date": "2026-10-16",
+  "question": "Can one fixed scoped construction consume the qualified classes at every later use while keeping the complete paragraph and reader/bracketing differences?",
+  "sources": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R_COMPLETE_UNITS.json",
+      "sha256": "170f37a192b4915bdd8ffcbcb180137ebd3ca213fbb2d37ca72160815fddb817"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R_LOCAL_ACCOUNTING.json",
+      "sha256": "2edbfd98400a7b040c855e76d1719e5293413b95f2b7b34eb61dabb74c6e21fd"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R_REVIEW.md",
+      "sha256": "50679cbe829fafeec8545ec5fa61411e63d291162886ce7ab9dabccf223ff670"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R_POST_EXPOSURE_EXTENSION.md",
+      "sha256": "628cff9637dc5cbf0f0d563e691cd831d0e25b0d48f8ad4815db16015fcfdaf1"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R_01_PREDICATION_RESTRICTION.json",
+      "sha256": "2157f9209fe6f948a21a9a572655df1bfb9e929cbab1c958563296d6a4a3f6fc"
+    }
+  ],
+  "scope": {
+    "text": "Existing f75v.43-49 only; IT77 and ZL75 source-flagged complete paragraphs; RF73 corresponding window lacks paragraph flags. No new data,image,corpus census or reserved material.",
+    "cases": "POST primary and PRE alternative phrase phase for each of3readers; these are informed model variants on one physical paragraph,not6independent tests.",
+    "exposure": "Entire source and semantic opportunities already seen. Plan precedes program implementation,not source exposure."
+  },
+  "semantics": {
+    "domain": "One unknown nonempty entity domain; no identified person,substance,quantity or physical process.",
+    "class_type": "Class is a unary predicate on entities. Unknown unclassified exact-whole forms all supply N_w of this same type, globally constant per whole string. This is ONE broad new semantic type assumption,not per-neighbor casts or confirmed POS. Different predicates may have identical extensions.",
+    "primitive_classes": {
+      "ol": [
+        "A"
+      ],
+      "qol": [
+        "B"
+      ],
+      "chedy": [
+        "P"
+      ],
+      "shedy": [
+        "Q"
+      ]
+    },
+    "finite_joined_classes": {
+      "olchedy": [
+        "A",
+        "P"
+      ],
+      "qolchedy": [
+        "B",
+        "P"
+      ],
+      "olshedy": [
+        "A",
+        "Q"
+      ]
+    },
+    "forbidden_class_relations": "Do not assume A/B unequal, P/Q opposite, disjointness, subset, material identity, or nonemptiness solely from class formation. No general q/ol/dy segmentation. Marked wholes and qolsheol stay opaque exact N_w.",
+    "qokar": "QOKAR C opens a frame EXISTS x [C(x) AND Body(x)]. C must be the immediately following complete class-valued raw group. It binds the variable used by subsequent ordinary predicates until the next QOKAR or TOL, or the selected endpoint. It is not the old unary EXISTS(C) that already closed its proposition.",
+    "tol": "TOL C opens ALL x [C(x) IMPLIES Body(x)]. This binds a variable,not an existential witness. Same immediate-right-class and endpoint rule as QOKAR. No left operand/infix interpretation.",
+    "frame_order": "Every new QOKAR/TOL closes the preceding top-level frame; frames are conjoined,not nested. Bound variables never escape. Same names of variables do not assert different physical entities.",
+    "initial_frame": "Before the first explicit binder, one paid implicit EXISTS frame with TOP restriction; the first raw whole and subsequent ordinary classes predicate about that variable. This creates no named translated object.",
+    "ordinary_predication": "A class-valued whole in a frame body contributes C(current variable). This is an explicit shared nominal-predication construction. Joined compounds retain Class type; application to the bound variable supplies the proposition. The word alone does not assert existence.",
+    "local_split_POST": [
+      [
+        "ol",
+        "chedy"
+      ],
+      [
+        "qol",
+        "chedy"
+      ],
+      [
+        "ol",
+        "shedy"
+      ]
+    ],
+    "local_split_PRE": [
+      [
+        "chedy",
+        "ol"
+      ],
+      [
+        "chedy",
+        "qol"
+      ],
+      [
+        "shedy",
+        "ol"
+      ]
+    ],
+    "local_split_meaning": "Each licensed definitely separated pair contributes a closed local EXISTS z [base(z) AND property(z)] inside the CURRENT frame body. It does not change the active variable and does not require z=current. A local EXISTS inside ALL remains under its implication; do not lift it unconditionally.",
+    "daiin": "C DAIIN contributes explicit C(current variable), consuming its head once. It changes neither frame nor variable. In this contract its truth conditions equal ordinary C predication; the presence/absence of the explicit marker is an admitted unexplained distinction. No global DAIIN membership translation selected.",
+    "parse_priority": [
+      "Recognize QOKAR/TOL + immediate class expression, rejecting missing/operator-valued argument.",
+      "Recognize exactly the finite local split pairs for the chosen phase with definite inner seam.",
+      "Recognize class C + exact DAIIN with definite inner seam.",
+      "Apply the remaining complete class-valued whole to the current variable. An orphan operator is an error,not a class fallback."
+    ],
+    "special_forms": "Only exact QOKAR/TOL/DAIIN have operator status; QOTAR and literal entity/correction forms remain unknown predicates. No k/t normalization. Whitespace flags and source annotations preserved; uncertain seams are not strengthened."
+  },
+  "manual_expected_consequences": {
+    "POST_IT": "Five frames: initialEXISTS; QOKAR(AP); TOL(AP); QOKAR(AQ) at47; QOKAR(N_otar) at48. The final OLCHEDY predicates AP of the final existential variable.",
+    "POST_ZL_RF": "Four frames; literal QOTAR at47 is not a binder. OLSHEDY remains inside TOL(AP), giving AP subset Q under the authored grammar. IT does not force that subset.",
+    "split_existence": "OL SHEDY is a local EXISTS(AQ) inside TOL in all3POST cases. Earlier QOKAR(AP) makes AP nonempty,so the whole reading entails AQ nonempty without confusing witness identities.",
+    "tail": "IT QOL SHEOL OLCHEDY contributes B,N_sheol,AP to final variable. ZL QOLSHEOL remains one opaque predicate,thenAP. RF has opaque QOLSHEOL and marked OLCH... and receives no finalAP by normalization.",
+    "phase_rival": "PRE is an entire fixed alternative grammar,not case-by-case phase repair. Its OL SHEDY is ordinary A and Q predication in the TOL body. Preserve its actual full-paragraph consequences even if different.",
+    "repetition": "All repeated predicates/source slots remain. Duplicate membership can be truth-conditionally redundant; no semantic multiplier,edit deletion or canonical-writing claim."
+  },
+  "toy_models": {
+    "purpose": "Demonstrate conditional satisfiability and genuine logical differences with complete finite predicate interpretations. Never native meanings or measured worlds.",
+    "UNIVERSAL": "Domain{a,b}; A=B=P=Q=domain; all opaque predicates=domain.",
+    "SELECTIVE_Q": "Domain{a,b}; A=B=P=domain,Q={b}; all opaque predicates=domain. Expected POST_IT true,POST_ZL/RF false; verify PRE separately without declaring source preference.",
+    "RF_TAIL": "Domain{a,b}; A=Q={b},P=B=domain; N_otar={a}; all other opaque predicates=domain. Tests that RF final marked form cannot inherit AP; no native referent identities.",
+    "EMPTY_AP": "Domain{a,b}; A=empty; all other primitives/opaque predicates=domain. Earlier existential AP blocks prevent vacuity from validating the complete reading."
+  },
+  "assumptions": [
+    "Uniform unary-Class interpretation for every unclassified whole,including OTAR/DAL; no per-occurrence retagging.",
+    "Three concrete proposed operator functions plus one shared body/scope rule; profile account remains required.",
+    "Implicit initial existential frame.",
+    "POST grouping is not proved by spaces; PRE remains a whole-rule rival.",
+    "An RF window endpoint is imposed for exploratory comparison,not inferred from RF flags.",
+    "No word meaning,independent state observation or empirical winner is supplied by finite logical models.",
+    "Static paragraph conjunction; no temporal/property erasure or physical process execution."
+  ],
+  "retained_stops": [
+    "R771 old EXISTS-only option and second-property extension already existed; this adds bound-body use,not new discovery of those options.",
+    "GDT850 qokain-exclusive join rule failed;851 competingphase retained;853 capacity stop;1056 no overt repair not meaningful-spacing proof.",
+    "IDEA819 fixed of-basin adjacent-head model remains failed; its old roles/glosses are not input facts.",
+    "GDT685 cold-state defaults and654fraction defaults remain historical; neither is selected or globally disproved by this local alternative.",
+    "1047 universal DAIIN host failure, R_TOKEN failure, CountSpecpark and EXEC1062 effect gap retained.",
+    "No general syllogistic proof-register claim or IDEA127 reopening."
+  ],
+  "decision_note": {
+    "known": "Actual recurring qualified whole forms, explicit later right contexts and known reader/phase differences. Old771 lacks a fixed complete continuation,not data or already executed full-body test.",
+    "unknown": "Whether this uniform quantifier/predication interpretation is intended; unknown predicate meanings and sentence scopes remain large freedoms.",
+    "smallest_work": "One bounded full-paragraph constructor/typed formula trace, explicit semantic word account, two fixed phrase phases with all reader bytes retained, four small illustrative predicate models and independent source/logic validation. No general decoder,corpus expansion or further counting.",
+    "decision_by_outcome": "If every source group participates consistently, retain a complete conditional model reading and exact scope/type costs,not a translation. A mismatched scope or dropped class is a construction failure to preserve,not patch per occurrence. Distinct toy truth values only establish that the authored constraints have content.",
+    "budget": "55minutes inclusive from2026-10-15 21:58UTC through retrieval,authoring,validation andpublication; no automatic wider model search."
+  }
+}

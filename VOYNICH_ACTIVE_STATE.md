@@ -1,3 +1,34 @@
+## 2026-10-16 — IDEA771 complete conditional class reading, no selected meanings
+
+All77IT/75ZL/73RF groups of f75v.43-49 now have one fixed scoped interpretation
+per reader/phase. QOKAR C opens EXISTS x[C(x) AND Body]; TOL C opens
+ALL x[C(x) IMPLIES Body]. The next binder closes the old top-level frame.
+Three finite split pairs yield localEXISTS insideBody without replacing x;
+joinedAP/BP/AQ stay Class-valued. Ordinary C predicates currentx, andC DAIIN
+does likewise with explicitmarker. InitialEXISTS and uniform unaryClass typing
+for all unclassified wholes are paid assumptions,not independent evidence.
+
+The qualified class is actually reused by quantifiers and final predication.
+ITPOST has5frames,ZL/RF4: at47QOKAR creates a newexistential inIT;QOTAR inZL/RF
+staysunknown and leavesOLSHEDY inALL(AP),forcingAP subsetQ. POSTITdoesnot
+force thatsubset; fixedPRE forcesit inall3. Reader/phase distinctions remain.
+RFmarkedtail isopaque andRFhasno ownparagraphend. All225originalreadergroups
+remain;450modelpositions are two uses,not new evidence.4toyworlds show logical
+differences,not native truth. Independent source/scope/evaluatorPASS;0words.
+
+The constructive continuation is now explicit; the original semantic
+reopening requirement is not evidentially cleared. UnknownClass predicates
+IT42/ZL43/RF47,scopechoice and3operatorfunctions remain. Repeatedpredication
+andDAIINpresence are truth-conditionally redundant here. Alloldstops retained.
+
+Next exact prospective target:f75r.32-46,ownZL/IT paragraphbounds,RFwindow;
+metadata only inspected now, full target payload not displayed/interpreted in this unit.
+Register required separate experiment/manifest before fixed6case transfer;
+no scope/wordtype repair after result, no new decoder or semanticconfirmation.
+Evidence:[complete conditional reading](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_WITNESS_REPORT_20261016.md);
+[review](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_WITNESS_REVIEW_20261016.json);
+[next scope](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/R771_TRANSFER_PLAN_20261016.json).
+
 ## 2026-10-15 — IDEA1062: one serial execution rule, effects still unknown
 
 A new explicit selector/application split covers X D D, X D Y D and only
