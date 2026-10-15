@@ -4,15 +4,15 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: OR
-Latest decision: orig?; AR diag
-Working files: GDT1385
-Assumptions: roles open
-Resume: content shortlist
+Task: f45r synthesis
+Latest decision: 86bound;0glosses
+Working files: IDEA001059
+Assumptions: record/reprise
+Resume: joint x2;repeat debt
 Running: none
 
 ## Structural baseline
-Spaces hierarchical; productive directed parts;
+Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole+;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
 852:same-line join/split differs;meaning open.
@@ -51,9 +51,9 @@ IDEA237 untested;30 programs first-passed;P09 closed.
 
 ## Access and operating boundaries
 f84 and f84r remain sealed. <!-- f84r is sealed -->
-f116v not admitted. Reserves closed until near-complete
-plausible reading. Prior exposure is not confirmation.
-179 cached selectors; grants separate; F historical. f1r margins only;
+f116v unadmitted;reserves closed until near-complete reading.
+Prior exposure is not confirmation.
+179cached selectors;grants separate;F historical;f1r margins only;
 f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57scopes](docs/57v-signs.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
@@ -65,9 +65,9 @@ f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DAT
 [76v](docs/VOYNICH_DATA_SCOPE_20261007_F76V_SEAM_CORRECTION.md).
 [exposed76r5](docs/76r5.md).
 ZL3b/IT2a/RF1b: alternate readings, one manuscript; keep raw entities/spaces.
-Mixed TSVs: `vmanus-exp query-tsv`; partial grants require
+Mixed TSV: `vmanus-exp query-tsv`;partial grants:
 `--selector locus` and explicit `--allow`. 28Sep f68r2/f69r overreach: exposure only.
-New relations require `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
+New relations: `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
 No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
@@ -76,4 +76,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public36e7a9ed3.
+Public0c55d7222.

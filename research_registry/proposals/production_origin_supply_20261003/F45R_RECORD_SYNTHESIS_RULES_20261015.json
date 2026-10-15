@@ -1,0 +1,71 @@
+{
+  "version": "R1",
+  "created_utc": "2026-10-15T18:24:46.612907+00:00",
+  "phase": "Exploratory whole-passage authorship, not a new experiment or prediction",
+  "source": "research_registry/proposals/production_origin_supply_20261003/F45R_WHOLE_PAGE_SOURCE_20261015.json",
+  "source_sha256": "6a18c2cd5d16555d8e8f41365f14fc8839747db8fabc4a4b1306024f767e498c",
+  "primary_reader": "IT2a",
+  "free_markers": [
+    "cthy",
+    "cthey",
+    "daiin",
+    "dy",
+    "or"
+  ],
+  "bound_forms": {
+    "opchaldy": {
+      "descriptor": "opchal",
+      "role": "dy"
+    },
+    "daldy": {
+      "descriptor": "dal",
+      "role": "dy"
+    },
+    "dalor": {
+      "descriptor": "dal",
+      "role": "or"
+    },
+    "daldaiin": {
+      "descriptor": "dal",
+      "role": "daiin"
+    },
+    "doldaiin": {
+      "descriptor": "dol",
+      "role": "daiin"
+    }
+  },
+  "ontology": {
+    "record": "One textual record R_p per source-marked paragraph. Records are distinct source objects.",
+    "subject": "Each R_p has a described referent x_p. Distinct paragraph IDs do not assert distinct physical entities.",
+    "description": "Every non-marker, non-licensed-bound whole contributes one untranslated unary description N_w. Same whole means same predicate everywhere in this draft.",
+    "field": "A functional slot belongs to the textual record: Field_s(R_p)=entity. It is NOT defined as a functional property of the described entity x_p; identifying two subjects does not merge their records or fields."
+  },
+  "composition": [
+    "Read each paragraph in numeric source order, preserving raw groups and physical line breaks. All scoped IT inner seams are definite. A physical line ending does not close a paragraph.",
+    "A plain description is held until its immediate follower is known. If a maximal consecutive run of free markers follows, the description applies only to the field value(s), not also to x_p. All markers in that run share the argument. Preserve repeated marks.",
+    "If no free marker follows, the description applies to x_p. Its written occurrence stays in the ordered trace even when the same predicate occurs twice.",
+    "A licensed bound form contributes its declared descriptor to its declared field, exactly as the corresponding explicit descriptor+marker. No other form is split.",
+    "Every occurrence of a role in a paragraph refers to the same functional field value. Gather all its description constraints and any explicit anchor; later occurrences may resolve an earlier open variable.",
+    "For each field-argument descriptor, search ONLY ordinary subject descriptions explicitly written in earlier completed paragraphs of this page. One matching paragraph licenses a backward binding to its subject. Zero matches leaves an unanchored field variable; more than one paragraph is an unresolved reference ambiguity. Repeated hits within one paragraph count as one candidate.",
+    "Only exact whole/base descriptors from the finite inventory match. No substring matching, current-paragraph matching, inferred-property matching or expansion of rare forms is allowed.",
+    "When a later argument anchors an already used field variable, earlier descriptions of that variable now constrain the same previous subject. Earlier source assertions remain immutable. Conflicting later content would remain a real obligation, not be repaired by a new instance.",
+    "Fields may be coreferential through explicit bindings; differently named unanchored variables are not asserted unequal. If one field acquires incompatible previous-record anchors, record the extra identity obligation rather than silently choose one."
+  ],
+  "opaque_examples": [
+    "otydal",
+    "pykydal",
+    "laldan",
+    "ykolody",
+    "ytchody",
+    "qotchol",
+    "qokol",
+    "m",
+    "l"
+  ],
+  "opaque_limit": "OTYDAL remains a whole predicate, not OTY+DAL. The local OTYDAL-and-DAL requirement follows from the common DAIIN field, not universal morphological entailment.",
+  "model_choice": "This uniform paragraph-governor hypothesis replaces H2 next-word governance for this draft. Do not mix in F1 tasks, R nesting, P2 endpoint marking or a first-word-topic rule. Old models and failures remain unchanged.",
+  "scope_limit": "Only complete f45r IT2a86 groups, three own-marked paragraphs. Alternate readers remain exact source evidence, not pooled validation.1047 paragraph-initial DAIIN cases remain limits of universal postfix export.",
+  "truth_limit": "Positive unknown descriptions can be jointly satisfiable without being correct. Structural completeness is not translated-word coverage or evidence for every description type. Reprise by a generic descriptor is a hypothesis, not an observed entity identity.",
+  "budget_note": "User-requested constructive synthesis. One complete-page authoring pass plus source/rule checks and publication, roughly60 minutes including preparation. No new corpus probe, decoder, control series or reserve test.",
+  "finite_doldaiin_note": "One additional finite authoring license: DOL+DAIIN, kept distinct from DAL. Same-site ZL f45r.5 writes dol ~ daiin with an uncertain seam; IT/RF have whole doldaiin. This motivates, but does not prove, the split. It adds the local requirement DOL and OKCHAR on the same P2 DAIIN value. No general ending rule follows. This authoring revision occurred before assessment, not as repair of a fixed test."
+}

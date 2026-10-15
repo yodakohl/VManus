@@ -1,3 +1,28 @@
+## 2026-10-15 — IDEA1059: whole f45r reconstruction, meanings unassigned
+
+The user requested synthesis of an actual longer passage. R1 now explicitly
+organizes all86 IT2a groups on f45r, three complete paragraphs33/21/32, using
+one paragraph-record grammar. Unknown descriptions remain whole except five
+finite bound forms. Four authored reprises link P2 toP1 through OPCHAL and
+P3 toP2 through DAL. Consequently P2subject must also satisfy KOL,DOR and
+opaque OTYDAL. DOL is distinct fromDAL. Record fields are not subject properties.
+
+These are conditional joint constraints, not observed referent identities.
+The ordinary-description default, paragraph binder, single-valued fields and
+unique-prior-record reprise are substantial new assumptions. Positive unknown
+predicates allow easy consistency; repeated CHOL/YKEOL/OKAIIN adds no condition
+and remains unexplained. Independent accounting preserves all86 positions,
+61ordinary/15field descriptions,9slots and4reprises. It validates bookkeeping,
+not the historical grammar. Alternate readers remain separate; GDT1047 global
+postfix counterexamples and prior H2/F1/R/P2 results remain unchanged.
+
+Continue this same whole-passage reading: develop the common x2 content and
+account for repetitions/reference versus new instance before selecting meanings.
+Concrete content still needs exact-form profiles and prior evidence. Do not
+return to a chain of unrelated microtests or open reserves for mere coverage.
+Evidence: [full reconstruction](research_registry/proposals/production_origin_supply_20261003/F45R_WHOLE_PASSAGE_RECONSTRUCTION_20261015.md);
+[assessment](research_registry/proposals/production_origin_supply_20261003/F45R_RECORD_SYNTHESIS_REVIEW_20261015.json).
+
 ## 2026-10-15 — GDT1385: original source check unresolved, guided AR compatibility
 
 The admitted native f76r image was inspected in a separate disclosed source
