@@ -1,3 +1,28 @@
+## 2026-10-16 — GDT1386 fixed R771 transfer: formal compatibility only
+
+The unchanged model accepts all120IT/122ZL/121RF groups of f75r.32-46 in
+both POST/PRE, with zero parser errors; independent reconstruction PASS.
+IT/ZL own paragraph flags, RF corresponding window. Same physical folio75
+as development f75v, historically exposed, no independent confirmation.
+New opaque predicates47/50/58; reused positions62/59/47. Exact TOL/DAIIN
+are absent, QOKAR2/0/1; only POST-IT uses one local split pair.
+
+IT has3frames, ZL1, RF2. ZL predicates all122groups of one assumed object;
+IT final body has85terms. Repeated qokeedy/qokedy in .38 adds no truth
+condition under this model. These expose already-known underconstraint;
+they do not prove manuscript redundancy or refute every property grammar.
+All6cases compatible is not a semantic-gate PASS; confirmed words remain0.
+
+Stop automatic paragraph-fit expansion. Next bounded synthesis: compare
+final olchedy as class predication versus reference in the complete f75v
+account; explicitly identify any added identity obligation and actual written
+restriction. Review IDEA842 against the already executed IDEA895 first.
+No recipe/batch meanings, generic USE, silent Class-to-instance cast or
+unrestricted interpreter expansion. If no restriction exists, retain the
+alternatives; do not rerun the unchanged missing-input audit.
+Evidence: [GDT1386 report](experiments/yolo/gdt1386_r771_f75r_fixed_transfer/REPORT.md);
+[assessment](experiments/yolo/gdt1386_r771_f75r_fixed_transfer/artifacts/RESULT_REVIEW.json).
+
 ## 2026-10-16 — IDEA771 complete conditional class reading, no selected meanings
 
 All77IT/75ZL/73RF groups of f75v.43-49 now have one fixed scoped interpretation

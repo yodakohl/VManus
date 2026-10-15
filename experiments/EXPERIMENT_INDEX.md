@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1384**
-- Experiment-associated tracked files: **27,017** (2.4 GiB)
-- Structured GDT337+ experiments: **1049**
+- Experiments indexed: **1385**
+- Experiment-associated tracked files: **27,032** (2.4 GiB)
+- Structured GDT337+ experiments: **1050**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1386 | gdt1386_r771_f75r_fixed_transfer | `ALL_CASES_FORMALLY_COMPATIBLE_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1386_r771_f75r_fixed_transfer/REPORT.md) | 15 | 720.3 KiB | 4 | STRUCTURED_YOLO |
 | GDT1385 | GDT1385_guided_source_diagnostic | `UNRESOLVED_PRIMARY_WITH_GUIDED_AR_DIAGNOSTIC` | [report](../experiments/yolo/gdt1385_f76r_exposed_or_source_check/REPORT.md) | 25 | 2.5 MiB | 3 | STRUCTURED_YOLO |
 | GDT1384 | GDT1384_or_endpoint_mark_capacity | `NO_CAP_VIOLATION_IN_FIXED_SAME_LINE_SCOPE` | [report](../experiments/yolo/gdt1384_or_endpoint_mark_capacity/REPORT.md) | 15 | 114.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT1383 | gdt1383_cv_canonical_role_capacity | `MULTIPLE_CANONICAL_ROLE_CLASSES_ALL_CASES` | [report](../experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md) | 15 | 118.3 KiB | 5 | STRUCTURED_YOLO |
