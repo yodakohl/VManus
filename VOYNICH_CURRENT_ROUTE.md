@@ -5,10 +5,10 @@ Updated: 2026-10-15.
 Phase: exploration
 Status: checkpoint
 Task: dal.
-Latest decision: scope test stop.
-Working files: IDEA45.
-Assumptions: meaning open.
-Resume: Draft f45r.8-11.
+Latest decision: F1/N1 open.
+Working files: IDEA1057.
+Assumptions: roles open.
+Resume: N1 dy daiin.
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public9597cf77d.
+Public5a91f487c.

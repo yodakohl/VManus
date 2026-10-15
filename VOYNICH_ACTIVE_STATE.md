@@ -1,3 +1,31 @@
+## 2026-10-15 — IDEA1057: two actual DAL constructions on f45r.8–11
+
+F1 opens a D-task at otydal daiin, taking the next whole daiin as an
+uninterpreted argument descriptor. It binds daldy to the target condition,
+dalor to the associated procedure, bare dal to a request, and daldaiin to an
+explicit-descriptor request under the same local frame. All roles and identity
+are hypotheses. Two requests are neither two executions nor a word for again;
+the target condition is not an asserted achieved state. Six positions receive
+these roles;26 of32 groups remain unread, including cheol and all of line9.
+
+N1 instead treats D as a nominal description. Its three free/bound role pairs
+are otydal daiin/daldaiin, dor or/dalor, and kol dy/daldy. The exact preceding
+hosts and common nominal-to-role types are specified. Roles are tags, not
+English translations. Ten positions are conditionally analysed,22 remain open.
+Finite internal licenses are explicit; productive parsing of dor, qodaiin and
+ykolody remains unresolved. No stacking or case overwrite is silently supplied.
+1047 still prevents a universal paragraph-local left-host rule for daiin inIT.
+
+Both constructions preserve every raw group, repeated whole and own paragraph
+flag. RF's entity-bearing initial form and free or are not normalized; matching
+spelling does not multiply evidence or prove referent identity. No winner,
+complete reading, translated word, statistical run or reserve use.
+Next work out N1's treatment of already documented adjacent markers, including
+dy daiin and dor or, after checking prior free-DY scope work. No new census or
+automatic stacking repair; F1 remains a separate rival, not a source of patches.
+[Full aligned drafts, profiles and source checks](research_registry/proposals/production_origin_supply_20261003/DAL_TASK_AND_NOMINAL_DRAFT_20261015.json).
+
+
 ## 2026-10-15 — Stop the C1 pointwise-constraint selection strategy
 
 The C1 ambiguity persists beyond the all-true example. Any uniform pointwise
