@@ -1,0 +1,109 @@
+{
+  "status": "PASS_INDEPENDENT_Q2_ACCOUNTING_NOT_MEANING",
+  "method": "Exact source sequence and own paragraph flags; frozen Q1 event grouping only; independent strict-earlier occurrence queries per field; graph-component equality reconstruction. No builder import or execution.",
+  "input_sha256": {
+    "research_registry/proposals/production_origin_supply_20261003/F45R_LATEST_MENTION_PROPOSAL_20261015.json": "17689e02606c0f763b799b5c8980c80af4c1b996e0aa02be9952add747b2918d",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_LATEST_MENTION_BUILD_20261015.py": "519be8f406132aad771e5c38433a7d64b7c1e72c284bb4bce066a04eb08e565e",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_LATEST_MENTION_DERIVATION_20261015.json": "fde7c6f4864c0bde5dc317f89063dcbbea6eca77912af857489a2d6ab69d0bbc",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_ORDERED_SPECIFICATION_DERIVATION_20261015.json": "1ae558bb103c72ae3e68e8b0f493f9f795d5ea7592e523bada51d82fbfd37535",
+    "research_registry/proposals/production_origin_supply_20261003/F45R_WHOLE_PAGE_SOURCE_20261015.json": "6a18c2cd5d16555d8e8f41365f14fc8839747db8fabc4a4b1306024f767e498c"
+  },
+  "validator_sha256": "61c6d3b513ef339b87f4bd1a9c8f1df166e7d0cd9c2048621539b953620c1243",
+  "derived_summary": {
+    "raw_groups": 86,
+    "ordered_entries": [
+      27,
+      17,
+      17
+    ],
+    "ordinary_positions": 61,
+    "field_mentions": 15,
+    "functional_fields": 9,
+    "explicit_reprises": 4,
+    "changed_anchor_events": [
+      {
+        "event": "P3.event26",
+        "source_ids": [
+          "IT2a|f45r.11|G005"
+        ],
+        "q1": "P2.S011",
+        "q2": "P3.S013"
+      }
+    ],
+    "competing_anchor_identities": []
+  },
+  "source_paragraph_groups": [
+    33,
+    21,
+    32
+  ],
+  "anchor_occurrences": [
+    {
+      "event": "P2.event05",
+      "descriptor": "opchal",
+      "source_ids": [
+        "IT2a|f45r.5|G005"
+      ],
+      "anchor_position": "P1.S007",
+      "anchor_source_id": "IT2a|f45r.1|G007"
+    },
+    {
+      "event": "P3.event18",
+      "descriptor": "dal",
+      "source_ids": [
+        "IT2a|f45r.10|G006"
+      ],
+      "anchor_position": "P2.S011",
+      "anchor_source_id": "IT2a|f45r.6|G007"
+    },
+    {
+      "event": "P3.event19",
+      "descriptor": "dal",
+      "source_ids": [
+        "IT2a|f45r.10|G007"
+      ],
+      "anchor_position": "P2.S011",
+      "anchor_source_id": "IT2a|f45r.6|G007"
+    },
+    {
+      "event": "P3.event26",
+      "descriptor": "dal",
+      "source_ids": [
+        "IT2a|f45r.11|G005"
+      ],
+      "anchor_position": "P3.S013",
+      "anchor_source_id": "IT2a|f45r.10|G009"
+    }
+  ],
+  "dal_referent_constraints": {
+    "P2.S011.referent": [
+      "dal",
+      "dor",
+      "kol"
+    ],
+    "P3.S013.referent": [
+      "dal",
+      "otydal"
+    ]
+  },
+  "earlier_dain_field": {
+    "event": "P3.event03",
+    "source_ids": [
+      "IT2a|f45r.8|G005",
+      "IT2a|f45r.8|G006"
+    ],
+    "prior_candidates": [],
+    "resolved_referent": "P3.field.cthey",
+    "later_dain_position": "P3.S003",
+    "later_dain_used_as_anchor": false
+  },
+  "limits": [
+    "Every86rawgroup preserved exactly once/order; all15field events independently reconstructed. Four actual source anchors; only finalDALDAIIN changes fromQ1.",
+    "Only earlier ordinary exact occurrences are candidates. Field mentions, prior resolutions, inferred properties and future ordinary occurrences cannot refresh the lookup.",
+    "Functional fields can resolve earlier open variables; this is not retrospective source-anchor selection. DAINCTHEY remains unanchored despite later ordinaryDAIN.",
+    "Old DAL carriesKOL/DOR; new DAL carriesOTYDAL. Neither these two source positions nor different canonical node names assert unequal real objects.",
+    "Q1 grouping/positions are reused, but noQ1referent equalities inherited. Record fields remain distinct from described objects.",
+    "Bookkeeping of an exposed authored alternative only, not confirmation, word meaning, nominality, source-language fit or historical superiority."
+  ],
+  "changes": "Only this validator and its compact accounting report are written; source/proposal/builders/derivations unchanged."
+}

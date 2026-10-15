@@ -1,0 +1,50 @@
+{
+  "title": "Whole f45r Q2: latest ordinary mention changes the final DAL reference",
+  "summary": "EXPLORATORY SAME-PASSAGE ALTERNATIVE. Keep Q1 grouping, ordered entries and functional paragraph fields. Resolve each field descriptor to the latest earlier ordinary exact occurrence on this page, including the current paragraph. DALDY/DALOR then refer to f45r.6G007, while final DALDAIIN refers to f45r.10G009. No meanings assigned.",
+  "scope": "semantic",
+  "design": {
+    "version": "Q2",
+    "phase": "exploratory reconstruction after target inspection, not a fixed prediction",
+    "q1_source": "F45R_ORDERED_SPECIFICATION_DERIVATION_20261015.json",
+    "q1_source_sha256": "1ae558bb103c72ae3e68e8b0f493f9f795d5ea7592e523bada51d82fbfd37535",
+    "source": "F45R_WHOLE_PAGE_SOURCE_20261015.json",
+    "source_sha256": "6a18c2cd5d16555d8e8f41365f14fc8839747db8fabc4a4b1306024f767e498c",
+    "retained": "All86raw groups,61ordered positions27/17/17,15field descriptions,5free markers,5finite compounds,one field value per marker/paragraph. Whole descriptions remain untranslated. Use only Q1 grouping and ordinary position definitions, never its identities.",
+    "types": {
+      "position": "One ordered specification position per ordinary occurrence. Distinct positions are part of the proposed content, not merely saved source addresses.",
+      "referent": "Each position has a referent; two positions may denote the same real entity. No physical distinctness, portion, action or time asserted.",
+      "description": "The same unknown predicate N_w constrains both ordinary referents and field arguments.",
+      "field": "Single value per marker per textual paragraph record, not per described object."
+    },
+    "reference_rule": [
+      "Read all events in written source order on this page. An ordinary entry introduces a position and referent described by its exact whole form; it becomes the latest eligible mention of that descriptor.",
+      "At a field event, only earlier ordinary entries with exactly the same descriptor are candidates. Current-paragraph ordinary entries are allowed. Select the most recent source position; with none, retain an unanchored argument.",
+      "A field occurrence or successful reprise does not update the latest-ordinary table. Embedded substrings, inferred properties and future occurrences never enter the search.",
+      "Fix the chosen source anchor at the field event. Do not later recompute it when a new ordinary occurrence arrives.",
+      "Unify descriptions/anchors of the same functional paragraph field. This may resolve an earlier open variable after a later explicit anchor. It does not retrospectively choose an anchor for an earlier event.",
+      "If two explicit anchors constrain one field, retain their referent equality obligation; do not silently discard one. Distinct source positions do not establish distinct physical referents."
+    ],
+    "changed_from_q1": [
+      "allow earlier ordinary occurrences in the current paragraph",
+      "choose last eligible occurrence rather than requiring a single candidate"
+    ],
+    "predicted_authored_consequence": "Of four reprises only final DALDAIIN changes anchor: KOL and DOR constrain the older DAL(.6G007), opaque OTYDAL the later DAL(.10G009). DAIN(.9G004) cannot retroactively anchor DAIN CTHEY(.8).",
+    "order_limit": "Moving DALDAIIN across the later ordinary DAL can change its target. Moving it only within the later interval, or swapping DALDY/DALOR before that DAL, need not. Exact paragraph-final position is not explained.",
+    "meaning_limit": "Chosen after seeing this sequence; no independent prediction, word value, physical process, object inequality or empirical superiority. Positive unknown descriptors remain flexible. Q1/R1 are frozen separate alternatives.",
+    "decision_note": {
+      "written_utc": "2026-10-15T19:17:12.088785+00:00",
+      "known": "Stable exact OPCHAL/DAL occurrences, source order, finite free/bound hypothesis and full Q1 accounting. Q1 excludes current-paragraph candidates and leaves final DALDAIIN placement inert.",
+      "unknown": "Whether a human writer intended ordinary mentions to refresh reference while field forms reuse it. The actual late DAL permits a concrete order-dependent consequence, not merely another arbitrary dictionary.",
+      "predecessors": [
+        "GDT1039 typed recency includes fetch refresh/consumption/publication, not adopted",
+        "W29/IDEA226 nearest material identity remained unselected without later check",
+        "GDT1137 latest-compatible rival survived under supplied meanings",
+        "GDT947 fixed same-paragraph core obligation failed",
+        "GDT1047 universal postfix limit retained"
+      ],
+      "decision_by_outcome": "Retain a coherent actual86group change with explicit narrower order obligation if it derives uniformly; otherwise preserve the conflict without local repairs. Neither outcome selects meanings or opens reserves.",
+      "smallest_work": "One ordered sweep of the existing Q1 grouping; full human-readable passage and independent anchor/field audit. No new corpus census, decoder or GDT.",
+      "wall_time_budget": "45minutes including preceding retrieval, drafting, validation and publication. No expansion beyond this same-passage reconstruction."
+    }
+  }
+}

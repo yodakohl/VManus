@@ -1,3 +1,29 @@
+## 2026-10-15 — IDEA1061 Q2: ordinary DAL refresh changes one later anchor
+
+The same complete86IT groups now have an explicit alternative reference rule:
+each field descriptor selects its latest earlier ordinary exact occurrence on
+the page, including the current paragraph. Only ordinary mentions update this
+search; earlier selections are never recomputed. Q1 grouping,61ordered entries,
+15field descriptions and9functional paragraph slots remain unchanged.
+
+Exactly one of4reprises changes: DALDY/DALOR keep DAL(.6G007), but final
+DALDAIIN(.11G005) selects the later ordinary DAL(.10G009). Thus KOL/DOR constrain
+the earlier mention referent; opaque OTYDAL the later. DAIN CTHEY remains
+unanchored despite later ordinary DAIN. Independent strict-prefix accounting
+reproduces all86positions and the reference graph; no meaning confirmation.
+
+This gives a conditional effect of crossing the second DAL occurrence, not an
+explanation of exact final position. The rule was authored after inspecting
+that sequence. Different written anchors need not denote different real things.
+Q2 relaxes Q1's common KOL/DOR/OTYDAL identity; increased compatibility is not
+model selection. R1/Q1,947/1047limits,1039policy costs andW29nonselection remain.
+
+Continue the same whole passage with a justified shared content account for
+older-DAL KOL/DOR versus later-DAL OTYDAL. Do not merely permute aliases or add
+free glosses; concrete values need profiles and prior evidence. Reserves closed.
+Evidence: [whole Q2](research_registry/proposals/production_origin_supply_20261003/F45R_LATEST_MENTION_20261015.md);
+[assessment](research_registry/proposals/production_origin_supply_20261003/F45R_LATEST_MENTION_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA1060 Q1: ordered f45r entries, occurrence-bound reprises
 
 The same86IT groups now have a complete alternative reading: Q1 describes
