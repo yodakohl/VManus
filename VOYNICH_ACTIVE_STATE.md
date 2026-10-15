@@ -1,3 +1,35 @@
+## 2026-10-15 — IDEA1057: fixed cheol predicate realization and nominal rival
+
+UG1 holds a binary cheol relation fixed and requires two immediately preceding
+complete groups: a bare/default-DY or explicit DY argument, then an OR argument.
+It fits daldy dalor, fchokshy otor and ckhey qoor conditionally, but fails before
+cheol preceded by she, y or qkol. At f24r.18 the two available predecessors are
+oky,y across a clear within-paragraph wrap: absent OR, not missing left text,
+is the decisive mismatch. No broad run or per-occurrence valency repair follows.
+This does not exclude every predicate construction or the local U-G pattern.
+
+The separately authored H construction keeps every exact cheol nominal C(z),
+with optional contiguous licensed DY/OR modifiers. One functional marker rule
+Role_s(governor)=dependent is shared with U: a left modifier uses written cheol
+as governor; a following free marker makes the whole C referent a dependent of
+an outer governor that is still pending. C being eligible in both positions is
+an explicit type assumption. cheol daiin or and cheol daiin are conditionally
+composed; cheol chol daiin does not permit skipping chol. Uncertain seams,
+drawing interruptions and own-reader paragraph boundaries remain guards.
+
+This does not select H: optional modifiers are permissive, nominal relation
+reification may encode the same situation as the predicate, and all content
+remains unassigned. The full f45 paragraph still has11 conditional positions
+and21 residual groups. chol/sheol family relations are unresolved. Original
+F1/N1/N2, U-G, B2/B3, C1 and1047 limits remain. The20 selected source lines and
+six IT targets were independently checked; reader differences are retained.
+
+Next: inspect qotaiin and qokar as unassigned possible continuations after the
+written cheol daiin expressions, using profiles and claim-bearing predecessors
+before proposing a fixed outer binding. They are not already governors.
+Evidence: [comparison](research_registry/proposals/production_origin_supply_20261003/CHEOL_PREDICATE_NOMINAL_COMPARISON_20261015.json);
+[review](research_registry/proposals/production_origin_supply_20261003/CHEOL_PREDICATE_NOMINAL_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA1057: marker composition and a written relation head
 
 N2 permits one role per nominal record, agrees on repeated identical markers,
