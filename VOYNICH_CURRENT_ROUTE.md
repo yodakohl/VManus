@@ -4,11 +4,11 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: content synthesis
-Latest decision: CountSpec parked
-Working files: IDEA000157
-Assumptions: no bound count
-Resume: review IDEA365/568
+Task: Reserve80
+Latest decision: R_TOKEN fails; R80 open
+Working files: IDEA000080
+Assumptions: identity/use open
+Resume: explain double DAIIN
 Running: none
 
 ## Structural baseline
@@ -76,4 +76,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publica06f2fd70.
+Public1209f5dad.

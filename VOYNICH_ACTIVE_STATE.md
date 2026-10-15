@@ -1,3 +1,32 @@
+## 2026-10-15 — IDEA80 reservation draft; tokenwise extension rejected
+
+One explained operation now applies conditionally at the10existing DAIIN
+constructions on the132group f45r/f89r1 scaffold: Reserve requires an available
+resource and commits it to a distinct use. Rival EnsureCommitted can restate
+the SAME commitment. Different variables/names do not identify different
+resources; initial availability and event identity remain unknown. All5old
+hypothetical anchors retained; only10operationarguments receive resource type.
+115othergroups remain unread. Of8consecutive-operation intervals,7are UNKNOWN;
+only the direct oiiin daiin qokeey daiin span supports conditional state
+composition. R requires distinct resources there if both commitments succeed;
+this is not a native observation or lexical preference. No count or inventory.
+
+A separately declared R_TOKEN extension assigns a distinct commitment to each
+DAIIN token in one shared-argument marker run. Completef115r.17 in all3readers
+contains qotchy daiin daiin with definite seams. AVAILABLE fails second use;
+COMMITTED fails first. Reject only that conjunction. R80's one-operation-per-
+construction reading remains open; it has not explained doubled spelling.
+No silent new portions, resets or general action-word ban. OldcanonicalSET
+writer exclusion unchanged; I here may restate, it is not that writer.
+
+Next author one common event/argument realization for doubled markers,
+adjacent separate X-DAIIN constructions and finite bound forms before expansion.
+Keep original124end-inventory requirements, CountSpecpark,1047andW94/95/96.
+No new images,reserves or translated words. Source/semantic scenario validators
+PASS; words review stillNOT_READY_FOR_PREFERENCE.
+Evidence: [full conditional passage and exact failure scope](research_registry/proposals/production_origin_supply_20261003/RESERVE80_READING_20261015.md);
+[assessed decision](research_registry/proposals/production_origin_supply_20261003/RESERVE80_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA157: three complete labels do not bind a count
 
 The all-three exact-profile DAIIN label intake preserves nine whole reader

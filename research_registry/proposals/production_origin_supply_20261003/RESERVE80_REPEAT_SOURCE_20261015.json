@@ -1,0 +1,411 @@
+{
+  "schema": "reserve80-repeat-source-v1",
+  "locus": "f115r.17",
+  "contract": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/RESERVE80_REPEAT_CONTRACT_20261015.json",
+    "sha256": "089c71ce55b9104f728d78ceec403d66168df38aee484464ade6ea8453c32a8b"
+  },
+  "extractor": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/RESERVE80_REPEAT_EXTRACT_20261015.py",
+    "sha256": "7b3791aefe610f1e761e5eeb17dea1808680591efce543595be493d353e3f806"
+  },
+  "rule_source": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/F45R_RECORD_SYNTHESIS_RULES_20261015.json",
+    "sha256": "bf1709caefc05fd6732c4bd07accb8a826ea51a3a7a8f1e3787b8ceb6a9d59a8",
+    "locator": "composition[1]: All markers in that run share the argument. Preserve repeated marks."
+  },
+  "sources": [
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+      "sha256": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json",
+      "sha256": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+      "sha256": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json",
+      "sha256": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c"
+    }
+  ],
+  "readers": {
+    "IT2a": {
+      "status": "PRESENT",
+      "records": [
+        {
+          "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+          "group_columns": [
+            "source_group_id",
+            "source_group_index",
+            "ivtff_group_raw",
+            "left_separator",
+            "right_separator"
+          ],
+          "line": {
+            "groups": [
+              [
+                "IT2a|f115r.17|G001",
+                "1",
+                "qol",
+                "LINE_START",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G002",
+                "2",
+                "cheey",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G003",
+                "3",
+                "qotchy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G004",
+                "4",
+                "daiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G005",
+                "5",
+                "daiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G006",
+                "6",
+                "cheocthy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G007",
+                "7",
+                "dolkeedy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G008",
+                "8",
+                "qotaiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G009",
+                "9",
+                "chol",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G010",
+                "10",
+                "oteeedchey",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "IT2a|f115r.17|G011",
+                "11",
+                "okeedain",
+                "DEFINITE_SPACE",
+                "LINE_END"
+              ]
+            ],
+            "metadata": {
+              "code": "+P0",
+              "currier": "B",
+              "edition": "IT2a",
+              "hand": "@",
+              "kind": "P",
+              "locus": "f115r.17",
+              "page": "f115r",
+              "paragraph_end": "0",
+              "paragraph_start": "0",
+              "section": "S",
+              "source_group_count": "11",
+              "source_row_index": "5092"
+            }
+          }
+        }
+      ],
+      "source_conditions": {
+        "own_kind_P": true,
+        "complete_line_group_indices": true,
+        "selected_indices_present": true,
+        "G003_whole_nonmarker_nonbound": true,
+        "G004_G005_exact_daiin": true,
+        "G003_G004_definite": true,
+        "G004_G005_definite": true
+      },
+      "all_source_conditions_hold": true
+    },
+    "ZL3b": {
+      "status": "PRESENT",
+      "records": [
+        {
+          "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json",
+          "group_columns": [
+            "source_group_id",
+            "source_group_index",
+            "ivtff_group_raw",
+            "left_separator",
+            "right_separator"
+          ],
+          "line": {
+            "groups": [
+              [
+                "ZL3b|f115r.17|G001",
+                "1",
+                "qol",
+                "LINE_START",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G002",
+                "2",
+                "cheey",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G003",
+                "3",
+                "qotchy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G004",
+                "4",
+                "daiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G005",
+                "5",
+                "daiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G006",
+                "6",
+                "cheocthy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G007",
+                "7",
+                "dolkeedy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G008",
+                "8",
+                "qotaiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G009",
+                "9",
+                "chol",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G010",
+                "10",
+                "oteeedchey",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "ZL3b|f115r.17|G011",
+                "11",
+                "okeedain",
+                "DEFINITE_SPACE",
+                "LINE_END"
+              ]
+            ],
+            "metadata": {
+              "code": "+P0",
+              "currier": "B",
+              "edition": "ZL3b",
+              "hand": "@",
+              "kind": "P",
+              "locus": "f115r.17",
+              "page": "f115r",
+              "paragraph_end": "0",
+              "paragraph_start": "0",
+              "section": "S",
+              "source_group_count": "11",
+              "source_row_index": "5261"
+            }
+          }
+        }
+      ],
+      "source_conditions": {
+        "own_kind_P": true,
+        "complete_line_group_indices": true,
+        "selected_indices_present": true,
+        "G003_whole_nonmarker_nonbound": true,
+        "G004_G005_exact_daiin": true,
+        "G003_G004_definite": true,
+        "G004_G005_definite": true
+      },
+      "all_source_conditions_hold": true
+    },
+    "RF1b": {
+      "status": "PRESENT",
+      "records": [
+        {
+          "source": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json",
+          "group_columns": [
+            "source_group_id",
+            "source_group_index",
+            "ivtff_group_raw",
+            "left_separator",
+            "right_separator"
+          ],
+          "line": {
+            "groups": [
+              [
+                "RF1b|f115r.17|G001",
+                "1",
+                "qol",
+                "LINE_START",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G002",
+                "2",
+                "cheey",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G003",
+                "3",
+                "qotchy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G004",
+                "4",
+                "daiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G005",
+                "5",
+                "daiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G006",
+                "6",
+                "cheocthy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G007",
+                "7",
+                "dolkeedy",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G008",
+                "8",
+                "qotaiin",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G009",
+                "9",
+                "chol",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G010",
+                "10",
+                "oteeedchey",
+                "DEFINITE_SPACE",
+                "DEFINITE_SPACE"
+              ],
+              [
+                "RF1b|f115r.17|G011",
+                "11",
+                "okeedain",
+                "DEFINITE_SPACE",
+                "LINE_END"
+              ]
+            ],
+            "metadata": {
+              "code": "+P0",
+              "currier": "B",
+              "edition": "RF1b",
+              "hand": "@",
+              "kind": "P",
+              "locus": "f115r.17",
+              "page": "f115r",
+              "paragraph_end": "0",
+              "paragraph_start": "0",
+              "section": "S",
+              "source_group_count": "11",
+              "source_row_index": "5261"
+            }
+          }
+        }
+      ],
+      "source_conditions": {
+        "own_kind_P": true,
+        "complete_line_group_indices": true,
+        "selected_indices_present": true,
+        "G003_whole_nonmarker_nonbound": true,
+        "G004_G005_exact_daiin": true,
+        "G003_G004_definite": true,
+        "G004_G005_definite": true
+      },
+      "all_source_conditions_hold": true
+    }
+  },
+  "limits": [
+    "Original line arrays, columns, raw groups, separators and metadata retained unchanged.",
+    "Only the fixed locus selected; no resampling or other source payload output.",
+    "Source-condition checks only: no noun meaning, resource identity, commitment event or semantic result established.",
+    "Alternate readings are not independent confirmation; existing exposed data."
+  ]
+}

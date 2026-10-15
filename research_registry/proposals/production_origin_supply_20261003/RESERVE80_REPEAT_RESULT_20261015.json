@@ -1,0 +1,72 @@
+{
+  "status": "R_TOKEN_CONDITIONAL_CONJUNCTION_CONTRADICTED",
+  "source_validation": "PASS",
+  "source_packet_sha256": "60819932009c33e7104b82a18fe6971ac936ce6f9cc72ef87c73558e2b23bd50",
+  "validator_sha256": "deb7c949bf9d78ac95b8c02a0cc2c59961adb9ff7a665292345ee28ea30553d8",
+  "source_files": 6,
+  "complete_lines": [
+    {
+      "reader": "IT2a",
+      "head_id": "IT2a|f115r.17|G003",
+      "run_ids": [
+        "IT2a|f115r.17|G004",
+        "IT2a|f115r.17|G005"
+      ],
+      "full_record_equal": true,
+      "maximal_marker_run": true
+    },
+    {
+      "reader": "ZL3b",
+      "head_id": "ZL3b|f115r.17|G003",
+      "run_ids": [
+        "ZL3b|f115r.17|G004",
+        "ZL3b|f115r.17|G005"
+      ],
+      "full_record_equal": true,
+      "maximal_marker_run": true
+    },
+    {
+      "reader": "RF1b",
+      "head_id": "RF1b|f115r.17|G003",
+      "run_ids": [
+        "RF1b|f115r.17|G004",
+        "RF1b|f115r.17|G005"
+      ],
+      "full_record_equal": true,
+      "maximal_marker_run": true
+    }
+  ],
+  "state_cases": [
+    {
+      "initial": "AVAILABLE",
+      "trace": [
+        {
+          "commitment": 1,
+          "outcome": "SUCCESS_NOW_COMMITTED"
+        },
+        {
+          "commitment": 2,
+          "outcome": "INVALID_ALREADY_COMMITTED"
+        }
+      ],
+      "complete_run_valid": false
+    },
+    {
+      "initial": "COMMITTED",
+      "trace": [
+        {
+          "commitment": 1,
+          "outcome": "INVALID_ALREADY_COMMITTED"
+        }
+      ],
+      "complete_run_valid": false
+    }
+  ],
+  "scope": "Exact fixed whole-line replay and conditional same-argument, two-distinct-commitment logic. No physical resource identity, noun or marker meaning established.",
+  "preserved": [
+    "Original R80 per-construction model is not refuted.",
+    "No general resource, imperative, numeral or cipher exclusion.",
+    "Idempotent restatement is not selected; no canonical delta/SET writer is rescued.",
+    "Alternate readers concern one manuscript; no new image, corpus census, raw TSV query or fresh confirmation."
+  ]
+}
