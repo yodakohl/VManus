@@ -1,3 +1,19 @@
+## 2026-10-15 — Use retained structure before choosing content
+
+The user correctly rejected1055's arbitrary recipe values. The source profiles
+had been retrieved but barely constrained which German words were chosen.
+The43-entry glossary is preserved as a historical hypothesis; it is no longer
+the active dictionary to extend. This is unsupported interpretation, not a
+refutation of every processing text. Existing positive evidence is the basis:
+915coupled phrase endings (with mixed cases and916new-pair failure retained),
+787/845repeated form grids,608ordered parts plus wholeform information, and
+282/286/318context effects. dchor/cthor/chor motivates a construction hypothesis,
+but cthor is not simply t+chor and the old parser treated these differently.
+Six complete IT contexts for cthor/cthol and cheor/cheol phrase pairs were read
+from existing915caches. No new census, native admission, meaning or reserve use.
+Next develop one whole-context family reading, keeping grammatical, content and
+scribal alternatives explicit; no fresh per-word recipe story. [Correction](research_registry/proposals/production_origin_supply_20261003/F25V_PORTION_EVIDENCE_CORRECTION_20261015.json).
+
 ## 2026-10-14 — User-directed whole-passage reading draft
 
 IDEA1055 now records an actual seven-line IT2a f25v working reading as material
