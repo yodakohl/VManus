@@ -1,3 +1,28 @@
+## 2026-10-16 — GDT1387: exact all-key majority-vowel requirement
+
+Every surviving1053/1383 key forces one anonymous vowel V0 to exceed half
+of all decoded vowels on the selected GDT1233 occurrence population.
+IT cfh53.53–60.40%, cph58.91–62.89%; RF cfh52.13–58.82%, cph57.49–61.59%;
+ZL cfh53.65–60.30%, cph59.32–63.57%. These are exact attainable key ranges
+(rounded here), not confidence intervals or language-wide frequencies.
+
+Only old1248code_usage and1383eligible pools were projected. Every singleton
+code contributes one vowel; HF contributes none. V=N−2H, V0=D+n_isolatedV0;
+min/max eligible sign counts give all-key endpoints. Original N−2H identity
+was known; the optimized concentration is new. Independent aggregate decoding
+of all4350vowel-role assignments confirms the arithmetic, not phonetics.
+No Markov assumption, rawsource, new admission, soundtable or language chosen.
+
+The conditional6C/3V, strict22units/group=word, sparsebareC, fourfold identicalCV
+and identity-frequency obligations remain. Do not compare an unmatched whole
+language frequency or automatically enumerate soundkeys. Next inspect proposed
+source contracts jointly against these actual obligations, preserving source
+scope and failed old projections; no extra control model solely to fill time.
+Ten-hour user request remains outstanding through at least08:58:57UTC16October;
+this result is a bounded checkpoint, not elapsed-time completion.
+Evidence: [GDT1387](experiments/yolo/gdt1387_cv_default_vowel_concentration/REPORT.md);
+[review](experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/RESULT_REVIEW.json).
+
 ## 2026-10-16 — R755 authoring stop; no native prevention/restoration binding
 
 The complete f75v43–49 source remains77IT/75ZL/73RF groups. A shared

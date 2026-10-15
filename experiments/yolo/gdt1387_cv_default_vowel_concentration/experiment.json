@@ -1,0 +1,131 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional exact concentration intervals on the inherited selected source words only; no Markov law, language exclusion, sound values, whole-manuscript distribution or meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1387_cv_default_vowel_concentration/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1387_cv_default_vowel_concentration/src/validate.py"
+  },
+  "created": "2026-10-16",
+  "dependencies": [
+    "GDT1248",
+    "GDT1383",
+    "GDT1233"
+  ],
+  "experiment_id": "GDT1387",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1248_prefix_bound_attainment/artifacts/RESULT.json",
+      "sha256": "c22f653554c98fdb2c40701491071ec26402e3158644f830358fc9119308e41f",
+      "role": "immutable model or aggregate count input"
+    },
+    {
+      "path": "experiments/yolo/gdt1383_cv_canonical_role_capacity/artifacts/RESULT.json",
+      "sha256": "c715c180aa5ff61ed451dda943b8f0a241ee260e483d819750d963bb0d011e0b",
+      "role": "immutable model or aggregate count input"
+    },
+    {
+      "path": "experiments/yolo/gdt1248_prefix_bound_attainment/METHOD.md",
+      "sha256": "2f120a7fa490f943fc274be3a0d27cd94bd060403981887b2883b0571a212480",
+      "role": "immutable model or aggregate count input"
+    },
+    {
+      "path": "experiments/yolo/gdt1383_cv_canonical_role_capacity/METHOD.md",
+      "sha256": "ffcf191eec287030c6b06ac01c85367f6a27bd93b3f68fe3df46b545c05725e9",
+      "role": "immutable model or aggregate count input"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/METHOD.md",
+      "sha256": "cc60404edc1ec66ac96fa1ec49ccb480e1539b2a5b1226a3aa2230928513d2a6",
+      "role": "immutable model or aggregate count input"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/CODE_LOCK.json",
+      "sha256": "dc445f5b7da184fe7401cccecc8f5894c2afe92af6f69a90df257d6dfe22bc6f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/METHOD.md",
+      "sha256": "10c8084c069e086404e52566b45575c0f5df13fb5db40d1b64fe7618b54a9eeb",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/PREREGISTRATION.md",
+      "sha256": "10c8084c069e086404e52566b45575c0f5df13fb5db40d1b64fe7618b54a9eeb",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/README.md",
+      "sha256": "ef216c6448482d368fe3d90d553754349b9b72872f9aef4f68c43a57e79ef4b6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/REPORT.md",
+      "sha256": "25ca6c450d2a73fc28102c493f2c5354d6d4869fb3090b08fdbd6ea1a6421c3c",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/IDEA1053_REVIEW.json",
+      "sha256": "4288d6abd7b1938c559048f1df03d02e496e6ffc335e477843dbbfaa3e0a0a5c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/INPUT_COUNTS.json",
+      "sha256": "ab012f49a75c2a12ba2e45dfb67a368a17db600e60779d2cefebefb93f91532b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/README.md",
+      "sha256": "113fad9d0e804353bc948de6682a4dda6a0eae8c5975a7e0d5f212e7896743ff",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/RESULT.json",
+      "sha256": "69bc6fb6bbd76223b019b5a90bc595c70b80cc9edf735ab87fcd7c7e89e52a79",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/RESULT_REVIEW.json",
+      "sha256": "be4f493815e0506b9e54dc777e361c29ef1eb1baa7a254ddb79173f972063583",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/VALIDATION.json",
+      "sha256": "fe0d58bf789bc215e7253b7bc423a2f16f3afd30c0f12ec16b8530f5e395825a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/src/SPEC.json",
+      "sha256": "e019185fa7f15cbe0e700070889b6684a97cd5156553e59d9c7f6a379bfb7373",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/src/run.py",
+      "sha256": "89ff70044064162f3d66abce3471d52b280bb61e96e35f00641e305b655a8a48",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1387_cv_default_vowel_concentration/src/validate.py",
+      "sha256": "6915b7be9c99a1e87923008a2f39e0615c66a824bd79942049c4a24ed77742b5",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "What exact anonymous default-vowel share is forced across every surviving1053/1383 key on the already counted fixed source population?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cv_default_vowel_concentration",
+  "status": "EXACT_DEFAULT_VOWEL_BOUNDS",
+  "title": "Exact all-key default-vowel concentration for the canonical CV writer",
+  "updated": "2026-10-16",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/VALIDATION.json"
+  }
+}

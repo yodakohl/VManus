@@ -3,13 +3,13 @@ Updated: 2026-10-16.
 
 ## Work
 Phase: exploration
-Status: active
-Task: CV vowel bounds
-Latest decision: 755 unbound
-Working files: IDEA001053
-Assumptions: fixed CV writer
-Resume: register vowel bound
-Running: agents;>=08:58Z
+Status: checkpoint
+Task: CV source
+Latest decision: 1387 V0majority
+Working files: GDT1387
+Assumptions: selected words
+Resume: source contract review
+Running: none
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -20,7 +20,7 @@ No proven parser/alphabet;1321/1326/1327FAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP.
 1358cyclic/bag types retain97/82-83%.
-1353freeUD63–65%FULLparses;1354paircode≠sounds.
+1353freeUD63–65%FULLparses;1354paircode≠sounds;1387V0>1/2.
 1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public022c0b9eb.
+Publicb2be6798f.

@@ -1,0 +1,78 @@
+{
+  "experiment_id": "GDT1387",
+  "phase": "FIXED_DERIVED_CONSEQUENCE_OF_EXISTING_MODEL",
+  "created_utc": "2026-10-15T23:38:20.137364+00:00",
+  "counts_source": "experiments/yolo/gdt1248_prefix_bound_attainment/artifacts/RESULT.json",
+  "roles_source": "experiments/yolo/gdt1383_cv_canonical_role_capacity/artifacts/RESULT.json",
+  "pins": [
+    {
+      "path": "experiments/yolo/gdt1248_prefix_bound_attainment/artifacts/RESULT.json",
+      "sha256": "c22f653554c98fdb2c40701491071ec26402e3158644f830358fc9119308e41f"
+    },
+    {
+      "path": "experiments/yolo/gdt1383_cv_canonical_role_capacity/artifacts/RESULT.json",
+      "sha256": "c715c180aa5ff61ed451dda943b8f0a241ee260e483d819750d963bb0d011e0b"
+    },
+    {
+      "path": "experiments/yolo/gdt1248_prefix_bound_attainment/METHOD.md",
+      "sha256": "2f120a7fa490f943fc274be3a0d27cd94bd060403981887b2883b0571a212480"
+    },
+    {
+      "path": "experiments/yolo/gdt1383_cv_canonical_role_capacity/METHOD.md",
+      "sha256": "ffcf191eec287030c6b06ac01c85367f6a27bd93b3f68fe3df46b545c05725e9"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/METHOD.md",
+      "sha256": "cc60404edc1ec66ac96fa1ec49ccb480e1539b2a5b1226a3aa2230928513d2a6"
+    }
+  ],
+  "heads": [
+    "cfh",
+    "cph"
+  ],
+  "readers": [
+    "IT2a",
+    "RF1b",
+    "ZL3b"
+  ],
+  "case_order": "Use roles_source cases order; exactly six reader/head cases.",
+  "scope": "Every occurrence in the fixed GDT1233 eligible P/strict-space/literal/unique22unit population as already counted by GDT1248. GDT1233 is an experiment identifier, not a count of1,233words. No raw GROUPS traversal or new native data.",
+  "model": "Exact IDEA1053/GDT1383 writer: six singletonF selectors each encode distinctC plus same anonymous vowelV0; three eligible singleton signs encode the three isolated vowels; twelve others encode C_iV1/C_iV2; HF is a bareC. No new phonotactic or Markov assumption.",
+  "equations": {
+    "N": "sum(len(code.units)*code.occurrences)",
+    "H": "sum(code.occurrences for length2 HFcodes)",
+    "total_vowels": "sum(singletoncode occurrences)=N-2H",
+    "fixed_V0": "sum(F singletoncode occurrences)=sumRawF-H",
+    "V0_for_isolated_sign_s": "fixed_V0+singleton_usage[s]",
+    "minimum": "min over every eligible sign s of V0_for_isolated_sign_s",
+    "maximum": "max over every eligible sign s of V0_for_isolated_sign_s"
+  },
+  "source_key_coverage": "1383 allows every3subset of each eligible pool. Everyeligible sign can be the isolatedV0, so min/max are attained. Other12!assignments cannot affectV0. Unused allowed signs have count0 and are retained.",
+  "outputs": [
+    "Exactly six rational lower/upper shares, integer numerator/denominator and all attaining isolatedV0 signs.",
+    "Explicit attaining Vtriple for each extreme, chosen deterministically from all compatibletriples.",
+    "All singleton counts, inherited group/type/activity metadata, prefix occurrence count and glyph-unit total.",
+    "Boolean forced_strict_majority = 2*minimum > total_vowels; no posterior numerical cutoff."
+  ],
+  "decision": "A forced majority imposes that source obligation on every key for that case; otherwise report the weaker exact bound. Any candidate matching source population must have maximum vowel frequency at least the lower bound. No language identified or universally excluded.",
+  "prohibitions": [
+    "No phoneme table enumeration, preferredkey or source-language fit.",
+    "No Markov condition, sourceword replacement, rareform removal, new grouping, corpusquery, vowelphonevalue or translation.",
+    "No rhyme claim or word-final analysis; aggregate counts do not contain endpoints.",
+    "No extrapolation from selectedsourcewords to entiremanuscript or wholelanguage; code-dependent/position/source eligibility matters."
+  ],
+  "validation": "Independent checker must not import primary. Exhaust every retained Vtriple and all6 anonymousisolated-vowel permutations, decode aggregate code usages with a complete arbitrary companionCVassignment and tally V0/totalvowels; show extrema coincide and every witness is canonical. Logical proof covers remaining12!permutations.",
+  "lock": "Root writes CODE_LOCK.json before first derived concentration run, pinning scripts/spec/method andimmutableinputs. Prior source counts are public/exposed, not blind.",
+  "decision_note": {
+    "known": "SharedF-vowel and fullcountedcodeusage; canonicaleligiblepools; sparsebareC/fourfoldCV/sourcewordfrequency obligations remain. The N-2H identity itself is already known.",
+    "unknown": "Exact key-independent default-vowel concentration interval, including isolatedV choice.",
+    "smallest": "Six arithmetic projections from existingcounts, independently checked by finite role assignments; no newdecoder or controlcorpus.",
+    "research_change": "Add a numerical source-concentration requirement without an arbitrary extra sourceMarkovlaw; future matched-source proposals must meet it. No fullkeysearch follows.",
+    "budget": "35minutes total from23:30UTC15October through00:05UTC16October for priorreview,registration,implementation,validation andpublication; checkpoint within user10hourrun."
+  },
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN",
+    "f116v": "UNADMITTED"
+  }
+}

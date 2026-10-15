@@ -1,0 +1,102 @@
+{
+  "record_id": "IDEA001053",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "reviewer": "root exact-bound selection and proof; discriminating_test_review primary aggregate derivation; closure_statistics independent complete vowel-role decoder",
+  "assessment_basis": "Original1383canonicalclassification retained; GDT1387 adds exact all-key default-vowel concentration from already counted same source population, no new source or Markov model.",
+  "reason": "GDT1383 retains all canonical role classes and their original limitations. GDT1387 now derives exact V0 proportions across every compatible key; every case forces a unique majority vowel among decoded vowels, with lowerbounds52.13–59.32% depending reader/head. This is a conditional source obligation on the selected word population, not a sound or language identification.",
+  "blockers": [
+    {
+      "code": "role_classes_not_sound_key",
+      "detail": "Every surviving H/F/V class retains6!*3!*12! detailed tables; no selected native phoneme mapping or word meaning.",
+      "evidence": [
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md",
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/artifacts/RESULT.json"
+      ]
+    },
+    {
+      "code": "conditional_units_and_source_contract",
+      "detail": "Working22units, exact wholeword boundaries, tiny6C/3V source and rarebareC requirement remain assumptions; old fourfold-repeat and fixed-source frequency failures retained.",
+      "evidence": [
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/METHOD.md",
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md"
+      ]
+    },
+    {
+      "code": "forced_default_vowel_majority_on_selected_source_words",
+      "detail": "All six cases require majority V0. Any source comparison must meet its own exact interval and the original sixC/threeV, sparsebareC, fourfoldCV and wordidentity conditions; whole-language averages from unmatched samples are insufficient.",
+      "evidence": [
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/REPORT.md",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/METHOD.md",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/src/SPEC.json",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/RESULT.json",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "An independently specified matching source-word population and phoneme contract must address exact majority-vowel intervals,6C/3V, rarebareC, fourfold identicalCV and identity frequencies before sound-key/source comparison. A genuinely new writer would be a different hypothesis.",
+        "evidence": [
+          "experiments/yolo/gdt1387_cv_default_vowel_concentration/REPORT.md",
+          "experiments/yolo/gdt1387_cv_default_vowel_concentration/METHOD.md",
+          "experiments/yolo/gdt1387_cv_default_vowel_concentration/src/SPEC.json",
+          "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/RESULT.json",
+          "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/VALIDATION.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Treating fractions as whole-language frequencies",
+      "Comparing an unmatched corpusaverage",
+      "Selecting real vowel a from the anonymousV0 label",
+      "Rerunning the same arithmetic",
+      "Automatic trillions-of-tables decoder or addedfirst-orderMarkovsource",
+      "Using transcriptalternatives as independent confirmations"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1383",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1248",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1234",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1267",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1383_cv_canonical_role_capacity/REPORT.md"
+      ]
+    },
+    {
+      "target": "GDT1387",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/REPORT.md",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/METHOD.md",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/src/SPEC.json",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/RESULT.json",
+        "experiments/yolo/gdt1387_cv_default_vowel_concentration/artifacts/VALIDATION.json"
+      ]
+    }
+  ]
+}
