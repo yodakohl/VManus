@@ -1,3 +1,32 @@
+## 2026-10-15 — IDEA95: common constructions with identity left open
+
+Both existing complete IT readings now have one joint explicit representation:
+132groups,98ordinary positions,20local constructions; same5assumed source-anchor
+sites on4ordinary occurrences. One fixed unidentified relation per marker,
+shared argument only within a local construction; repeating a marker across
+constructions adds no automatic identity. Different variables assert no inequality.
+
+This realizes existingIDEA95 for explanatory drafting; its original held
+value/operation identity discriminator remains unexecuted.53remains without
+an identity-selecting design;55isitsduplicate;286remainsrelatedrawhistory.
+GDT764/765parallelism andW95/W96 do not independently justify the addedQ2
+functional-field identity. No parkedf2v reopening or inheritedgloss promotion.
+
+Q2 remains unchanged and unrefuted as a stronger comparison. It adds7identity
+groups represented by10equality links. Thus KOL/DOR need not describe olderDAL,
+OTYDAL need not describe laterDAL, and the five f89DAIIN arguments need not
+all describe oneDAL. DALDY/DALOR still choose the same olderDAL through the
+retained explicit reference rule. All5anchor choices remain hypothetical.
+
+Use open identities in the understandable joint draft; justify any additional
+identity with content instead of marker repetition. Less restrictive agreement
+is not historical model preference. Marker roles,ordered content,paragraph
+context,finite splits,recency,reader differences and1047limits remain open.
+No meanings or reserve access; source-bound independent accounting only.
+Evidence: [joint reading](research_registry/proposals/production_origin_supply_20261003/LOCAL_RELATION95_READING_20261015.md);
+[IDEA95 review](research_registry/proposals/production_origin_supply_20261003/LOCAL_RELATION95_REVIEW_20261015.json);
+[Q2 clarification](research_registry/proposals/production_origin_supply_20261003/Q2_FUNCTIONAL_SCOPE_REVIEW_20261015.json).
+
 ## 2026-10-15 — Q2 continued through complete f89r1.6–10
 
 Same Q2 rules, additional complete already-exposed IT paragraph:46groups,
