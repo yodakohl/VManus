@@ -1,0 +1,43 @@
+{
+  "title": "P2: at most one OR mark per endpoint of a written nominal link",
+  "summary": "NEW UNSELECTED WRITING HYPOTHESIS. A relation may carry one endpoint mark or two matching endpoint marks, but never three without another written head. Finite DALOR/ORAR/ORAIIN/ORAIN realization; no OR meaning and no unrestricted OROR decomposition.",
+  "scope": "structural",
+  "design": {
+    "created_utc": "2026-10-15T17:01:55.783308+00:00",
+    "parent": "IDEA001057 H2-B",
+    "contract": "experiments/yolo/gdt1384_or_endpoint_mark_capacity/PREREGISTRATION.md",
+    "model": "Each OR link has two written nominal endpoints and preserves Role_or(right)=left. Each endpoint may carry at most one OR realization; at least one is written. One free OR can be detached from either endpoint; two free OR occurrences mark left then right. Every occurrence is preserved in the source trace. No implicit intermediate head, marker homonym or reset inside an uninterrupted run.",
+    "finite_expansion": {
+      "or": [
+        "OR"
+      ],
+      "dalor": [
+        "DAL",
+        "OR"
+      ],
+      "orar": [
+        "OR",
+        "AR"
+      ],
+      "oraiin": [
+        "OR",
+        "AIIN"
+      ],
+      "orain": [
+        "OR",
+        "AIN"
+      ]
+    },
+    "scope_limit": "All other wholes, including dor and oror, remain unsplit. AR nominality and ORAR splitting are new hypotheses. Unknown words cannot be silently nominated as successful parsed heads.",
+    "motivation": "dalor orar has one bound mark on each side under the candidate. qokchy orar or chkarol contains written AR between the two marks, so it would be two links if outside types are licensed. Endpoint ownership is not independently observed; capped repetition is an observational rival.",
+    "falsifier": "At least three consecutive licensed OR components joined only through definite spaces within one admitted prose line contradict the no-hidden-head two-endpoint contract. A missing violation only retains this necessary capacity, not P2 semantics.",
+    "known_countercases": "f55v.9 ORs are separated by a drawing; ZL f85r2.2 and f104r.28 have uncertain seams before AIIN. Whole OROR is a singleton label at f102v2.3 and is not transparently split. No automatic label/grammar repair.",
+    "predecessors": "Original U can duplicate a condition arbitrarily; functional R composes repeated roles.548/555 are raw function proposals;1140 paid topic/reference grammar;1337 concerns drawn ports. P2 adds a cap of two and endpoint ownership, not a new content gloss.",
+    "decision_note": {
+      "unknown": "Does the fixed exposed corpus already contain a safe same-line OR triple after these five finite expansions?",
+      "outcome_changes": "Any violation rejects this exact P2 realization without repairs. No violation retains a narrowly limited candidate; do not choose endpoint agreement over bounded repetition or begin a larger parser.",
+      "smallest_test": "Single necessary-pattern census from six existing915JSON caches; independent validator and explicit synthetic controls. words review supports one-neighbour rules, not finite component run lengths; profiles were retrieved without a new lexical assignment.",
+      "budget": "40 minutes total from approximately16:49UTC including retrieval, implementation, independent validation and publication; no automatic repairs or new corpus. At budget checkpoint report and reassess."
+    }
+  }
+}

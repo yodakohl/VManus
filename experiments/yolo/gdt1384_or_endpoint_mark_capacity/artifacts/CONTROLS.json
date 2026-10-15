@@ -1,0 +1,203 @@
+{
+  "experiment_id": "GDT1384",
+  "cases": [
+    {
+      "name": "two_bound_endpoints",
+      "raw_groups": [
+        "dalor",
+        "orar"
+      ],
+      "seams": [
+        "DEFINITE_SPACE"
+      ],
+      "expected_run_lengths": [
+        2
+      ],
+      "actual_run_lengths": [
+        2
+      ],
+      "pass": true
+    },
+    {
+      "name": "three_mixed_marks",
+      "raw_groups": [
+        "dalor",
+        "or",
+        "oraiin"
+      ],
+      "seams": [
+        "DEFINITE_SPACE",
+        "DEFINITE_SPACE"
+      ],
+      "expected_run_lengths": [
+        3
+      ],
+      "actual_run_lengths": [
+        3
+      ],
+      "pass": true
+    },
+    {
+      "name": "three_free_marks",
+      "raw_groups": [
+        "or",
+        "or",
+        "or"
+      ],
+      "seams": [
+        "DEFINITE_SPACE",
+        "DEFINITE_SPACE"
+      ],
+      "expected_run_lengths": [
+        3
+      ],
+      "actual_run_lengths": [
+        3
+      ],
+      "pass": true
+    },
+    {
+      "name": "written_ar_breaks_run",
+      "raw_groups": [
+        "orar",
+        "or"
+      ],
+      "seams": [
+        "DEFINITE_SPACE"
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "name": "two_written_links",
+      "raw_groups": [
+        "dal",
+        "or",
+        "ar",
+        "or",
+        "aiin"
+      ],
+      "seams": [
+        "DEFINITE_SPACE",
+        "DEFINITE_SPACE",
+        "DEFINITE_SPACE",
+        "DEFINITE_SPACE"
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "name": "drawing_break",
+      "raw_groups": [
+        "or",
+        "or"
+      ],
+      "seams": [
+        "DRAWING_INTERRUPTION"
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "name": "uncertain_break",
+      "raw_groups": [
+        "or",
+        "or"
+      ],
+      "seams": [
+        "UNCERTAIN_SMALL_SPACE"
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "name": "physical_line_break",
+      "raw_groups": [
+        "or",
+        "or"
+      ],
+      "seams": [
+        "LINE_END"
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "name": "dor_is_not_split",
+      "raw_groups": [
+        "dor",
+        "or"
+      ],
+      "seams": [
+        "DEFINITE_SPACE"
+      ],
+      "expected_run_lengths": [
+        1
+      ],
+      "actual_run_lengths": [
+        1
+      ],
+      "pass": true
+    },
+    {
+      "name": "oror_is_not_split",
+      "raw_groups": [
+        "oror"
+      ],
+      "seams": [],
+      "expected_run_lengths": [],
+      "actual_run_lengths": [],
+      "pass": true
+    },
+    {
+      "name": "single_bound_mark",
+      "raw_groups": [
+        "oraiin"
+      ],
+      "seams": [],
+      "expected_run_lengths": [
+        1
+      ],
+      "actual_run_lengths": [
+        1
+      ],
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

@@ -4,11 +4,11 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: H2-B
-Latest decision: OR join draft
-Working files: IDEA1057
-Assumptions: roles unassigned
-Resume: ORAR/repeated OR
+Task: P2
+Latest decision: cap2/gap open
+Working files: GDT1384
+Assumptions: OR roles open
+Resume: f76r.5 source scope
 Running: none.
 
 ## Structural baseline
@@ -75,4 +75,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md): phases and closure.
-Public1d0d483b9.
+Public88f348acc.

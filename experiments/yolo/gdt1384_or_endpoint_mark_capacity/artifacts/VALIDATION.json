@@ -1,0 +1,181 @@
+{
+  "checks": 248547,
+  "completed_stages": [
+    "Independent controls and recorded runner controls",
+    "Six source hashes, exact full-line intake and regex streak reconstruction",
+    "Every count, maximal streak, source witness and decision agrees"
+  ],
+  "contract_sha256": "8434dc52cd1b6cb242e5bbece57734d9ffc337d294da348e9f1af6a0c3672485",
+  "experiment_id": "GDT1384",
+  "method": "Regex maximal streaks on per-line component tapes with explicit two-sided separator barriers and parallel provenance positions.",
+  "necessary_capacity_status": "NO_CAP_VIOLATION_IN_FIXED_SAME_LINE_SCOPE",
+  "qualification": "Independent source and necessary-capacity reconstruction only; no word meaning, endpoint ownership, or full grammar validation.",
+  "readers": {
+    "IT2a": {
+      "max_run": 2,
+      "or_components": 369,
+      "prose_lines": 3767,
+      "raw_groups": 31433,
+      "run_lengths": {
+        "1": 361,
+        "2": 4
+      },
+      "violating_runs": 0
+    },
+    "RF1b": {
+      "max_run": 2,
+      "or_components": 348,
+      "prose_lines": 3768,
+      "raw_groups": 31504,
+      "run_lengths": {
+        "1": 338,
+        "2": 5
+      },
+      "violating_runs": 0
+    },
+    "ZL3b": {
+      "max_run": 2,
+      "or_components": 365,
+      "prose_lines": 3768,
+      "raw_groups": 31918,
+      "run_lengths": {
+        "1": 355,
+        "2": 5
+      },
+      "violating_runs": 0
+    }
+  },
+  "source_free_controls": [
+    {
+      "actual_run_lengths": [
+        2
+      ],
+      "expected_run_lengths": [
+        2
+      ],
+      "name": "paired_endpoints"
+    },
+    {
+      "actual_run_lengths": [
+        3
+      ],
+      "expected_run_lengths": [
+        3
+      ],
+      "name": "three_components"
+    },
+    {
+      "actual_run_lengths": [
+        3
+      ],
+      "expected_run_lengths": [
+        3
+      ],
+      "name": "three_free"
+    },
+    {
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "name": "ar_breaks"
+    },
+    {
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "name": "drawing_breaks"
+    },
+    {
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "name": "uncertainty_breaks"
+    },
+    {
+      "actual_run_lengths": [
+        1
+      ],
+      "expected_run_lengths": [
+        1
+      ],
+      "name": "dor_opaque"
+    },
+    {
+      "actual_run_lengths": [],
+      "expected_run_lengths": [],
+      "name": "oror_opaque"
+    },
+    {
+      "actual_run_lengths": [
+        2,
+        2
+      ],
+      "expected_run_lengths": [
+        2,
+        2
+      ],
+      "name": "two_marked_links"
+    },
+    {
+      "actual_run_lengths": [
+        1
+      ],
+      "expected_run_lengths": [
+        1
+      ],
+      "name": "ain_is_not_aiin"
+    },
+    {
+      "actual_run_lengths": [],
+      "expected_run_lengths": [],
+      "name": "exact_raw_only"
+    },
+    {
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "name": "one_sided_left_separator"
+    },
+    {
+      "actual_run_lengths": [
+        1,
+        1
+      ],
+      "expected_run_lengths": [
+        1,
+        1
+      ],
+      "name": "one_sided_right_separator"
+    }
+  ],
+  "source_hashes": {
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_RF1b.json": "90662e53898c7b59d1bfc724e9d49fe8af6acf714fbb99a45262cbe594bf270a",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_ZL3b.json": "53223239734cbe655ba7f296a81d70924955bb746beb52e08035e1c4d651f6a2",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_RF1b.json": "ccace49eb471825f70afff673cf8bcb60ec9a41fbb8eb96dfbef1f2fef1ec99c",
+    "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_ZL3b.json": "7ab2cafe31d50b4013682c9b73d867bd36bae9a0a4addc0de509be7be48e44c0"
+  },
+  "status": "PASS",
+  "validator_sha256": "c2a9b31335e869633fa226d77e7ed2e1ece74720d1fabb5b5e7c195164ff93e5"
+}

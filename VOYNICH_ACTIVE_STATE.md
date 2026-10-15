@@ -1,3 +1,30 @@
+## 2026-10-15 — GDT1384 / IDEA1058: two endpoint marks, source-dependent capacity
+
+P2 is a new unselected writer: at most one OR mark per written endpoint of
+one relation. It preserves H2-B direction; bounded repetition remains an
+equivalent observational account. The five fixed expansions are or, dalor,
+orar, oraiin and orain. Other wholes, especially dor and oror, stay unsplit.
+The ORAR split and nominal AR type are explicit hypotheses.
+
+A preregistered, hash-locked necessary check of all admitted915 prose found
+maximum2 across definite within-line seams: IT/ZL/RF singles361/355/338 and
+doubles4/5/5. No cross-line or uncertain-seam scan. An independently written
+regex/tape validator reproduced sources, all cases and control decisions.
+This neither selects endpoint marking nor translates a word or a paragraph.
+
+Manual inspection exposes the crucial qualification: f76r.5 is ZL or~or or,
+IT orar or, RF or ar or. ZL has a literal triple, divided by the fixed test's
+uncertain-seam rule. Accepting its continuity would contradict P2; the other
+readings introduce AR between the marks. Retain source dependence explicitly.
+Unknown heads stay untyped; oror remains a standalone label in all readers.
+
+No image was inspected.791 admits the page, but864 explicitly excludes the
+TGC001 f76r.5|C004 ink target. Next resolve the target overlap and applicable
+source scope before any separate native check. The original1384 no-image
+contract, earlier U/R and H2 limits, and reserved-data boundaries remain.
+Evidence: [report](experiments/yolo/gdt1384_or_endpoint_mark_capacity/REPORT.md);
+[candidate](research_registry/proposals/production_origin_supply_20261003/OR_TWO_ENDPOINT_PROPOSAL_20261015.json).
+
 ## 2026-10-15 — IDEA1057: finite OR realization across group boundaries
 
 H2-B keeps Role_or(right head)=left dependent while the analytical OR component
