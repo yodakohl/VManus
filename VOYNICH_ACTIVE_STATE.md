@@ -1,3 +1,24 @@
+## 2026-10-15 — IDEA157: three complete labels do not bind a count
+
+The all-three exact-profile DAIIN label intake preserves nine whole reader
+records. f66r.82 has no exact DAIIN in IT; f82v.3 is initial DAIIN plus OTY in
+IT/RF or fused DAIINOTY in ZL; f89v1.24 is IT OPAL DAIIN versus fused ZL/RF.
+None is a one-word exact DAIIN caption. L metadata is not semantic ownership.
+The existing admitted f66r lower crop shows no clear caption-to-member-set
+link; GDT223 TOP excludes f82v.3; no exact f89v1.24 owner was established.
+No new image scope, group count, numeral selection or numerical refutation.
+
+Park this unchanged CountSpec binding route until concrete new membership
+binding or a genuinely different content consequence. Original ten assertions
+remain conditional; zero native counts, every positive c possible. W94/95/96,
+1047 and1167 remain. Independent projection PASS covers all9source records,
+not image semantics. The broader whole-passage synthesis continues: review
+existing IDEA365/568 operations and retained counterexamples before selecting
+another content realization; no old gloss or new symbolic wrapper is licensed.
+
+Evidence: [complete caption and owner review](research_registry/proposals/production_origin_supply_20261003/COUNT_LABEL_BINDING_20261015.md);
+[assessed decision](research_registry/proposals/production_origin_supply_20261003/COUNT_LABEL_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA157 CountSpec: defined quantity function, no numeral selected
 
 One concrete DAIIN content hypothesis is now authored across the same132ITgroups:
