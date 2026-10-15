@@ -1,3 +1,30 @@
+## 2026-10-15 — IDEA1062: one serial execution rule, effects still unknown
+
+A new explicit selector/application split covers X D D, X D Y D and only
+finite daldaiin/doldaiin fusion. X selects unknown partial F_X:S->S; every
+DAIIN applies it and forwards output to the next directly adjacent application.
+143sourcegroups retained,11constructions12applications,20contributinggroups,
+123unexecutedgroups,10localchain inputs and2conditionalserial links. No inferred
+state continuity across unread text. Same head fixes modeled F; different heads
+may alias. Two calls do not imply two effects; partial functions can fail.
+
+All5oldQ2anchor sites are INACTIVE_PROVENANCE_ONLY in this alternative; current
+function choice no longer uses their recency. This gives up old semantic duties,
+not an observed improvement. R_TOKEN and1047 remain failed; CountSpec stays
+parked. Serial-vs-reset, idempotence, involution and partial-exhaustion examples
+are synthetic only. Independent source/type/link audit PASS, words review
+NOT_READY_FOR_PREFERENCE. No translated word or actual state response.
+
+The framework is retained but its concrete-effect checkpoint remains unmet.
+Do not add another executor layer or repeat its accounting. Next author the
+missing shared continuation in existing IDEA771 f75v.43-49; original R review
+and post-exposure second-property extension were read. Existing qokar/qotar,
+alternate phrase direction, qokar otar and tol olchedy obligations remain; do
+not offer that old extension or EXISTS option as newly executed/selected.
+
+Evidence: [full source-aligned construction and limits](research_registry/proposals/production_origin_supply_20261003/EXEC_SERIAL_READING_20261015.md);
+[assessed decision](research_registry/proposals/production_origin_supply_20261003/EXEC_SERIAL_REVIEW_20261015.json).
+
 ## 2026-10-15 — IDEA80 reservation draft; tokenwise extension rejected
 
 One explained operation now applies conditionally at the10existing DAIIN

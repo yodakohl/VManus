@@ -4,11 +4,11 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: Reserve80
-Latest decision: R_TOKEN fails; R80 open
-Working files: IDEA000080
-Assumptions: identity/use open
-Resume: explain double DAIIN
+Task: EXEC1062
+Latest decision: EXEC open
+Working files: IDEA001062
+Assumptions: unknown effects
+Resume: draft 771 continuation
 Running: none
 
 ## Structural baseline
@@ -33,6 +33,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 GDT327/GDT336: historical; no access.
 
 ## Decisions to retain
+R_TOKENFAIL;CountSpecpark.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -76,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public1209f5dad.
+Public4508e17d8.
