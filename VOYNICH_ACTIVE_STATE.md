@@ -1,3 +1,32 @@
+## 2026-10-15 — GDT1385: original source check unresolved, guided AR compatibility
+
+The admitted native f76r image was inspected in a separate disclosed source
+check. Scope was prospectively interpreted under791 page admission; C004/B013
+is exactly the old excluded target. TGC001 fresh-panel ineligibility and864's
+fixed target contract remain unchanged. No special new user grant or restored
+blindness was claimed; the bounded current interpretation is docs/76r5.md.
+
+A localized the middle body as A-like; B1 could not localize, so original
+RESULT remains UNRESOLVED. One separately registered guided diagnostic gave
+B the source-row mapping: f76r.4 is marginal L s, hence .5 fourth main prose
+line. B2 then localized and judged A_LIKE without seeing A ratings. Both seams
+remain unresolved in A/B2. B2 is the same observer with a shared locator,
+not another independent observation. Original records and decisions are intact.
+
+This locally favors the AR-containing branch: under the hypothetical ORAR
+expansion, joined orar or and separated or ar or both contain intervening AR.
+The unresolved left seam does not distinguish P2 streak count within that
+branch. ZL's potential OR triple is weakened, not disproved or normalized.
+GDT1384 strict source results are unchanged; P2 remains unselected against
+bounded repetition. No translated word, canonical glyph or full reading follows.
+
+Stop further seam refinement in this work unit: it would not supply the missing
+content/controller distinction. Next selection should shortlist an existing
+content-bearing proposal with a genuinely different observable consequence,
+using synthesis/registry/primary checks; do not enlarge P2 by extra noun types.
+Evidence: [report](experiments/yolo/gdt1385_f76r_exposed_or_source_check/REPORT.md);
+[P2 review](research_registry/proposals/production_origin_supply_20261003/OR_NATIVE_SOURCE_REVIEW_20261015.json).
+
 ## 2026-10-15 — GDT1384 / IDEA1058: two endpoint marks, source-dependent capacity
 
 P2 is a new unselected writer: at most one OR mark per written endpoint of

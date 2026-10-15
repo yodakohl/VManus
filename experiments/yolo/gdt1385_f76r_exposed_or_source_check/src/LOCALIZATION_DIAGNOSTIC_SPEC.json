@@ -1,0 +1,44 @@
+{
+  "registered_utc": "2026-10-15T17:39:33.124155+00:00",
+  "phase": "ONE_POST_RESULT_GUIDED_LOCALIZATION_DIAGNOSTIC",
+  "reason": "B1 could not securely localize the target. Existing source metadata confirms f76r.4 is a marginal L record s, so f76r.5 is fourth main prose line, not fifth. This specific source-row/image-line clarification is new to the observer instruction.",
+  "original_result": "artifacts/RESULT.json remains UNRESOLVED and byte-frozen; B1 remains unchanged. This diagnostic must never replace the original registered decision.",
+  "image_sha256": "39d264ab4e6fbb9cad1de45b7efedb6f4b9cb497cb587214926fcbaf6590ec68",
+  "target": "f76r.5|C004 and B013/B015",
+  "locator_only": "Count the three main prose lines below the ornate top initial. The next main line lies beside a short left-margin mark. It starts qokedy, then the disputed qokchy/qokeey group. The target is the middle of three short round-body/r-like components immediately after those first two groups and before the chkarol/chkorol then otey context. qokal/chdam occur toward the right end. Confirm the entire local alignment yourself; do not accept the locator solely on authority.",
+  "withheld": "A middle/body/seam ratings and record contents remain hidden from B2. Only source-row mapping and a locator are supplied.",
+  "limits": "Exactly one additional unchanged full-image view by B. No crop, enhancement, OCR, alternate source or alternate target. No new observer counted; B2 depends on root localization. Preserve UNKNOWN if alignment or ink remains unclear.",
+  "schema": [
+    "observer",
+    "observed_utc",
+    "image_sha256",
+    "localized",
+    "location_note",
+    "middle_body",
+    "middle_observation",
+    "left_seam",
+    "right_seam",
+    "spacing_observation",
+    "limits"
+  ],
+  "category_sets": {
+    "middle_body": [
+      "A_LIKE",
+      "O_LIKE",
+      "UNRESOLVED"
+    ],
+    "left_seam": [
+      "SPACE_LIKE",
+      "INTERNAL_LIKE",
+      "UNRESOLVED"
+    ],
+    "right_seam": [
+      "SPACE_LIKE",
+      "INTERNAL_LIKE",
+      "UNRESOLVED"
+    ]
+  },
+  "output": "artifacts/NATIVE_B2_GUIDED.json",
+  "comparison_rule": "Compare A with B2 by the same exact-agreement/localization rule as original SPEC, but store only in DIAGNOSTIC_RESULT.json. Do not alter RESULT.json, A, B1 or SPEC. This is not an independent blinded result.",
+  "stop": "After this one diagnostic, no additional localization repair or target view in this work block."
+}

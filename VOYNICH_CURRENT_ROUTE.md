@@ -4,12 +4,12 @@ Updated: 2026-10-15.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: P2
-Latest decision: cap2/gap open
-Working files: GDT1384
-Assumptions: OR roles open
-Resume: f76r.5 source scope
-Running: none.
+Task: OR
+Latest decision: orig?; AR diag
+Working files: GDT1385
+Assumptions: roles open
+Resume: content shortlist
+Running: none
 
 ## Structural baseline
 Spaces hierarchical; productive directed parts;
@@ -63,6 +63,7 @@ f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DAT
 [45r](docs/VOYNICH_DATA_SCOPE_20261006_F45R_GAPS.md);[21v](docs/VOYNICH_DATA_SCOPE_20261006_F21V_GAPS.md);
 [words](docs/VOYNICH_DATA_SCOPE_20261005_WORD_EXTREMES.md);
 [76v](docs/VOYNICH_DATA_SCOPE_20261007_F76V_SEAM_CORRECTION.md).
+[exposed76r5](docs/76r5.md).
 ZL3b/IT2a/RF1b: alternate readings, one manuscript; keep raw entities/spaces.
 Mixed TSVs: `vmanus-exp query-tsv`; partial grants require
 `--selector locus` and explicit `--allow`. 28Sep f68r2/f69r overreach: exposure only.
@@ -74,5 +75,5 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context check`.
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
-[Guide](research_registry/README.md): phases and closure.
-Public88f348acc.
+[Guide](research_registry/README.md).
+Public36e7a9ed3.

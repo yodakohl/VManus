@@ -1,0 +1,58 @@
+{
+  "changes": "Only this new DIAGNOSTIC_REVIEW.json written. Frozen programs, observations and primary result unchanged.",
+  "chronology": {
+    "A_observed_utc": "2026-10-15T17:35:22.658962+00:00",
+    "A_sealed_utc": "2026-10-15T17:35:22.659208+00:00",
+    "B1_observed_utc": "2026-10-15T17:33:16.475244+00:00",
+    "B2_observed_utc": "2026-10-15T17:40:49.812452+00:00",
+    "diagnostic_registered_utc": "2026-10-15T17:39:33.124155+00:00",
+    "finding": "Recorded chronology places diagnostic registration after original observations and before B2. The combination/categories/target remain unchanged. Code-lock documentation correctly states its lock was after original observations.",
+    "limits": "Self-reported timestamps and source documents do not independently verify wall-clock view timing, hidden communications, actual A-rating withholding, or the number of image views. B1 observation time preceding A seal does not itself violate A-before-root-receives-B.",
+    "spec_registered_utc": "2026-10-15T17:30:58.121719+00:00"
+  },
+  "diagnostic_combination": {
+    "combined": {
+      "left_seam": "UNRESOLVED",
+      "middle_body": "A_LIKE",
+      "right_seam": "UNRESOLVED"
+    },
+    "finding": "A and B2 both localized and agree A_LIKE. Each seam remains UNRESOLVED because B2 did not classify it. Under the fixed rule the AR-containing branch receives local compatibility only, without P2 confirmation.",
+    "p2_consequence": "AR_BRANCH_SUPPORTED_NOT_P2_CONFIRMED",
+    "status": "LOCAL_AR_COMPATIBILITY"
+  },
+  "experiment_id": "GDT1385",
+  "independence_and_scope": [
+    "B2 is the same observer after root localization guidance, not a third observer or independent localization. Both reports concern the same exposed photograph.",
+    "No image was displayed or visually examined by this reviewer; checking stored image hashes is not visual adjudication.",
+    "The diagnostic must remain separately reported and cannot supersede primary UNRESOLVED or modify1384.",
+    "The documented scope interpretation is a root policy decision; this audit neither approves authority nor reopens TGC001/GDT864.",
+    "Stop after the one declared diagnostic. No further localization repair follows from this bookkeeping PASS."
+  ],
+  "input_sha256": {
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/A_SEAL.json": "a486ada795f34c52b607272a4965dbd102d2ff909086695a3b77448f357e4463",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/DIAGNOSTIC_RESULT.json": "b1453e72612881d97daf23a779d44047ba0d95f1d3475256f12f98f24145dc48",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/LOCALIZATION_SOURCE_LINES.json": "87d89098a539d678067bf0f282e3d0826f006887104cc36b9c5e86353d0cd019",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/NATIVE_A.json": "06b81330a79e81cd81d42038964f50ddacaa308134519707eeb1067682f88fc1",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/NATIVE_B.json": "765d68c26a1366ad5c2c815945749fa3ed1ba62fcb4dde4c4f85fb1168496dc7",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/NATIVE_B2_GUIDED.json": "27aeb91b00a8f46b799a2a0da0200cadf1c42aeb875a385fe8c79c32364f46ea",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/RESULT.json": "cd1024df44d8aec6683e26caac73b15a06aa64f42bde1c3500fb36678f50f61b",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/VALIDATION.json": "45103b91a222eac8c91e11e3acd2e546435b51cb0407a6afcabb89dcb396171f",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/src/CODE_LOCK.json": "eb382edc8dcb4edb11359a2f79f854a298c3f6b71a59a5e6110e42368b37a0a3",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/src/LOCALIZATION_DIAGNOSTIC_SPEC.json": "bd2a725ea2f8a0f85a160c9d1d2350eaefc8325998dfa789a4945d513c907f73",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/src/REGISTRATION_LOCK.json": "49eafe1f9437aa85038f973ea3e3a3ac533e097fbaf2ceb76d9935a3c5b93afe",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/src/SPEC.json": "1c34960d43f398b216cf281a33edb963f83a3ce574e54506c6162907d47a35ad",
+    "experiments/yolo/gdt1385_f76r_exposed_or_source_check/src/diagnostic.py": "f919cec9bd2258459f9bba8085874088a5f3d24522610ea92b983554b677569c"
+  },
+  "localization_source": {
+    "ceiling": "Metadata supports the prose-row counting clarification; this audit does not identify the row or disputed body in the photograph.",
+    "finding": "All eighteen stored source rows match their hash-bound915caches exactly. In each reading f76r.1,2,3 are P, f76r.4 is L with whole s, and f76r.5 is the fourth P row in this recorded sequence."
+  },
+  "primary_preservation": {
+    "evidence": "Current primary result hash equals original VALIDATION result pin and diagnostic original-result pin. A/B1 current bytes equal primary RESULT and VALIDATION pins; A also equals its earlier seal. Original SPEC/METHOD/code/image pins match their locks.",
+    "limits": "These are consistency checks against retained hash receipts, not an externally timestamped archive proof.",
+    "result_sha256": "cd1024df44d8aec6683e26caac73b15a06aa64f42bde1c3500fb36678f50f61b",
+    "status": "UNRESOLVED"
+  },
+  "reviewer": "discriminating_test_review",
+  "status": "PASS_SCOPED_DIAGNOSTIC_PROPAGATION_AUDIT"
+}

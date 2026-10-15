@@ -1,0 +1,51 @@
+{
+  "experiment_id": "GDT1385",
+  "registered_utc": "2026-10-15T17:30:58.121719+00:00",
+  "target": "f76r.5|C004 and B013/B015",
+  "image": {
+    "path": "experiments/yolo/gdt1385_f76r_exposed_or_source_check/artifacts/f76r_native.jpg",
+    "sha256": "39d264ab4e6fbb9cad1de45b7efedb6f4b9cb497cb587214926fcbaf6590ec68",
+    "width": 2793,
+    "height": 3769,
+    "bytes": 2495259,
+    "url": "https://collections.library.yale.edu/iiif/2/1006210/full/full/0/default.jpg"
+  },
+  "ratings": {
+    "middle_body": [
+      "A_LIKE",
+      "O_LIKE",
+      "UNRESOLVED"
+    ],
+    "left_seam": [
+      "SPACE_LIKE",
+      "INTERNAL_LIKE",
+      "UNRESOLVED"
+    ],
+    "right_seam": [
+      "SPACE_LIKE",
+      "INTERNAL_LIKE",
+      "UNRESOLVED"
+    ]
+  },
+  "required_fields": [
+    "observer",
+    "observed_utc",
+    "image_sha256",
+    "localized",
+    "location_note",
+    "middle_body",
+    "middle_observation",
+    "left_seam",
+    "right_seam",
+    "spacing_observation",
+    "limits"
+  ],
+  "nominal_interpretation": "None; source-aware morphology/spacing comparison only. No English meaning.",
+  "decision": "If both localized and same non-UNRESOLVED category, retain that category; otherwise UNRESOLVED, separately for each field.",
+  "cap_consequence": "A_LIKE locally supports the AR-containing source branch regardless of left join/split. O_LIKE plus both seams SPACE_LIKE supports the raw three-OR reading that would contradict P2 under its fixed spelling assumptions. Other combinations remain unresolved for that consequence. GDT1384 stays unchanged.",
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "scope_decision_sha256": "2e987be0121e7be03fa0be470fed753db81e7632f6c762aaf4db54718285b299"
+}

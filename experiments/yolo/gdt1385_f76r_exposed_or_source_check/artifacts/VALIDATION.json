@@ -1,0 +1,214 @@
+{
+  "a_seal_sha256": "a486ada795f34c52b607272a4965dbd102d2ff909086695a3b77448f357e4463",
+  "checks": 166,
+  "combined": {
+    "left_seam": "UNRESOLVED",
+    "middle_body": "UNRESOLVED",
+    "right_seam": "UNRESOLVED"
+  },
+  "completed_stages": [
+    "Seven named synthetic decisions and complete field-level truth tables",
+    "Source image hash/bytes/dimensions and scope-document binding, without display",
+    "Two record schemas, same-image pins and recorded A seal chronology",
+    "Independent category/status/P2 consequence and provenance reconstruction"
+  ],
+  "experiment_id": "GDT1385",
+  "image_dimensions": [
+    2793,
+    3769
+  ],
+  "observation_status": "UNRESOLVED",
+  "p2_consequence": "UNRESOLVED",
+  "qualification": "Metadata, source bytes, declared schemas, seal and mechanical decision only. No approval of scope interpretation and no verification of visual alignment, observer authority, actual blinding, palaeographic truth or word meaning.",
+  "record_sha256": {
+    "NATIVE_A.json": "06b81330a79e81cd81d42038964f50ddacaa308134519707eeb1067682f88fc1",
+    "NATIVE_B.json": "765d68c26a1366ad5c2c815945749fa3ed1ba62fcb4dde4c4f85fb1168496dc7"
+  },
+  "result_sha256": "cd1024df44d8aec6683e26caac73b15a06aa64f42bde1c3500fb36678f50f61b",
+  "spec_sha256": "1c34960d43f398b216cf281a33edb963f83a3ce574e54506c6162907d47a35ad",
+  "status": "PASS",
+  "synthetic_controls": [
+    {
+      "actual_p2_consequence": "AR_BRANCH_SUPPORTED_NOT_P2_CONFIRMED",
+      "actual_status": "LOCAL_AR_COMPATIBILITY",
+      "combined": {
+        "left_seam": "INTERNAL_LIKE",
+        "middle_body": "A_LIKE",
+        "right_seam": "INTERNAL_LIKE"
+      },
+      "expected_p2_consequence": "AR_BRANCH_SUPPORTED_NOT_P2_CONFIRMED",
+      "expected_status": "LOCAL_AR_COMPATIBILITY",
+      "inputs": [
+        {
+          "left_seam": "INTERNAL_LIKE",
+          "localized": true,
+          "middle_body": "A_LIKE",
+          "right_seam": "INTERNAL_LIKE"
+        },
+        {
+          "left_seam": "INTERNAL_LIKE",
+          "localized": true,
+          "middle_body": "A_LIKE",
+          "right_seam": "INTERNAL_LIKE"
+        }
+      ],
+      "name": "ar_despite_internal_seams"
+    },
+    {
+      "actual_p2_consequence": "CONDITIONAL_THREE_OR_COUNTERCASE",
+      "actual_status": "LOCAL_OR_COMPATIBILITY",
+      "combined": {
+        "left_seam": "SPACE_LIKE",
+        "middle_body": "O_LIKE",
+        "right_seam": "SPACE_LIKE"
+      },
+      "expected_p2_consequence": "CONDITIONAL_THREE_OR_COUNTERCASE",
+      "expected_status": "LOCAL_OR_COMPATIBILITY",
+      "inputs": [
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        },
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        }
+      ],
+      "name": "or_two_spaces"
+    },
+    {
+      "actual_p2_consequence": "UNRESOLVED",
+      "actual_status": "LOCAL_OR_COMPATIBILITY",
+      "combined": {
+        "left_seam": "INTERNAL_LIKE",
+        "middle_body": "O_LIKE",
+        "right_seam": "SPACE_LIKE"
+      },
+      "expected_p2_consequence": "UNRESOLVED",
+      "expected_status": "LOCAL_OR_COMPATIBILITY",
+      "inputs": [
+        {
+          "left_seam": "INTERNAL_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        },
+        {
+          "left_seam": "INTERNAL_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        }
+      ],
+      "name": "or_internal_left"
+    },
+    {
+      "actual_p2_consequence": "UNRESOLVED",
+      "actual_status": "LOCAL_OR_COMPATIBILITY",
+      "combined": {
+        "left_seam": "SPACE_LIKE",
+        "middle_body": "O_LIKE",
+        "right_seam": "UNRESOLVED"
+      },
+      "expected_p2_consequence": "UNRESOLVED",
+      "expected_status": "LOCAL_OR_COMPATIBILITY",
+      "inputs": [
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        },
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "UNRESOLVED"
+        }
+      ],
+      "name": "or_uncertain_right"
+    },
+    {
+      "actual_p2_consequence": "UNRESOLVED",
+      "actual_status": "UNRESOLVED",
+      "combined": {
+        "left_seam": "SPACE_LIKE",
+        "middle_body": "UNRESOLVED",
+        "right_seam": "SPACE_LIKE"
+      },
+      "expected_p2_consequence": "UNRESOLVED",
+      "expected_status": "UNRESOLVED",
+      "inputs": [
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        },
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "A_LIKE",
+          "right_seam": "SPACE_LIKE"
+        }
+      ],
+      "name": "body_disagreement"
+    },
+    {
+      "actual_p2_consequence": "UNRESOLVED",
+      "actual_status": "UNRESOLVED",
+      "combined": {
+        "left_seam": "UNRESOLVED",
+        "middle_body": "UNRESOLVED",
+        "right_seam": "UNRESOLVED"
+      },
+      "expected_p2_consequence": "UNRESOLVED",
+      "expected_status": "UNRESOLVED",
+      "inputs": [
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        },
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": false,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        }
+      ],
+      "name": "missing_localization"
+    },
+    {
+      "actual_p2_consequence": "UNRESOLVED",
+      "actual_status": "UNRESOLVED",
+      "combined": {
+        "left_seam": "SPACE_LIKE",
+        "middle_body": "UNRESOLVED",
+        "right_seam": "SPACE_LIKE"
+      },
+      "expected_p2_consequence": "UNRESOLVED",
+      "expected_status": "UNRESOLVED",
+      "inputs": [
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "O_LIKE",
+          "right_seam": "SPACE_LIKE"
+        },
+        {
+          "left_seam": "SPACE_LIKE",
+          "localized": true,
+          "middle_body": "UNRESOLVED",
+          "right_seam": "SPACE_LIKE"
+        }
+      ],
+      "name": "explicit_body_unknown"
+    }
+  ]
+}
