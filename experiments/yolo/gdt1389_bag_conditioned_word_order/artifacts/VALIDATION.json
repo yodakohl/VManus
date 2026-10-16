@@ -1,0 +1,45 @@
+{
+  "bags": 7144,
+  "events": 23496,
+  "limits": [
+    "Conditional fixed-model accounting only, not language or word meaning.",
+    "No per-bag omission; independent limits two million visited count/last states per bag and900seconds overall.",
+    "All original leaf denominators retained; model normalization uses all permutations, not only observed words."
+  ],
+  "lock_sha256": "609771856a4fe80ab32d7b3200e7752aa15b7d1e014c2fb6fc146ec7c73b308e",
+  "method": "Forward used-count/lastsign DP with per-layer scaling; explicit all-permutation controls; full independent occurrence null replay; no primary imports.",
+  "readers": [
+    {
+      "all_leaves": 46,
+      "all_words": 7628,
+      "joint_gate": false,
+      "mean_conditional_gain": -0.04253064861604,
+      "mobile_leaves": 46,
+      "mobile_words": 6025,
+      "reader": "ZL3b",
+      "reported_status": "NO_RETAINED_CONDITIONAL_ORDER_GAIN"
+    },
+    {
+      "all_leaves": 46,
+      "all_words": 8623,
+      "joint_gate": false,
+      "mean_conditional_gain": -0.03947080523030763,
+      "mobile_leaves": 46,
+      "mobile_words": 6792,
+      "reader": "IT2a",
+      "reported_status": "NO_RETAINED_CONDITIONAL_ORDER_GAIN"
+    },
+    {
+      "all_leaves": 46,
+      "all_words": 7245,
+      "joint_gate": false,
+      "mean_conditional_gain": -0.037632619498804906,
+      "mobile_leaves": 46,
+      "mobile_words": 5599,
+      "reader": "RF1b",
+      "reported_status": "NO_RETAINED_CONDITIONAL_ORDER_GAIN"
+    }
+  ],
+  "result_sha256": "c7624927a224949f598d2c575dd113fb0653b31d6ba57bac5ef3b52b586d42c6",
+  "status": "PASS_SOURCE_BAG_MASS_AND_CONDITIONAL_ACCOUNTING"
+}

@@ -4,17 +4,17 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: cumulative passage
-Latest decision: 1064 unbound
-Working files: IDEA1064
-Assumptions: K/b unknown
-Resume: bind choice law
-Running: publication
+Task: bag order
+Latest decision: 1389 nolead
+Working files: GDT1389
+Assumptions: no key
+Resume: inventory choice
+Running: none
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
-1308/9whole+;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
+1308/9whole+;1389bag+/order−;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
 852:same-line join/split differs;meaning open.
 No proven parser/alphabet;1321/1326/1327FAIL.
 1345sort min14/15/15full;10/10/11recurrent.
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicc75dbf285.
+Publicc587c97d7.

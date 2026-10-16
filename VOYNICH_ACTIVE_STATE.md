@@ -1,3 +1,31 @@
+## 2026-10-16 — GDT1389 separates inventory weighting from word order
+
+All23496old1308heldevents/7144reader-Currier-bagcases retained. Exact
+full-supportbagconditioning givesMIXordergains ZL−.042531,IT−.039471,
+RF−.037633nats/word. Capacityadequateinall46leaves;only11/11/15positive.
+Originalpositivegainsremain:bagmass+.129881/+.110091/+.125365 plusorderloss.
+Conditionalupperp=.005inallreaders:observedlessnegative thanall199Pdraws,
+butnotpositivepredictivegain. Failedjointgateunchanged;noM1sufficiencyclaim.
+
+Anadditiveresidue keyor1064sourcecannotalterthe within-bagP-orderlaw under
+fixedfullsupportM1/independentchoice/invariantselection. Hardbankfilters,
+othergrammarsororder-dependentchoiceareoutside. Length/Currier supplied.
+Thisisnewfixedconditionalprediction,notnewsource orlexicalmeaning.
+IndependentforwardDP verifiesallbags/events and597references. Old1308,
+1309,1374positivesand1323/1375/1379failuresretained.
+
+Oldillustrationsallretained:daiin-orderPgivenbag99.82–99.98percent;
+daldypositiveordergainbutonly1–3heldoccurrencespercell. Thesearemodel
+probabilities,notwordtranslations. Selectinginventoryandorderingitmust
+bedistinguished;nocausal claimthatscribefirstselectedabag.
+
+Noautomaticmixture/higherorderrepair ordecoderfollows. C1064stilllacks
+anindependentlyboundcompleteword-choicelaw,sourceandkey. Nextselection
+mustaddressinventoryselection/contentwithoutturningthe oldwhole-form
+positiveinto freeEnglishglosses. Ten-hour requestremainsoutstanding.
+Evidence: [report](experiments/yolo/gdt1389_bag_conditioned_word_order/REPORT.md);
+[review](experiments/yolo/gdt1389_bag_conditioned_word_order/artifacts/RESULT_REVIEW.json).
+
 ## 2026-10-16 — IDEA1064 cumulative state equations cover both source passages
 
 The complete parameterizedwriter uses22fixed modularweights,oneglobalb,

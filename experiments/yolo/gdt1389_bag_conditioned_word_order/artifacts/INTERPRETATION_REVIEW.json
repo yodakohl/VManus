@@ -1,0 +1,62 @@
+{
+  "status": "INTERPRETATION_AGREES_WITH_FIXED_RESULT_AND_LIMITS",
+  "experiment_id": "GDT1389",
+  "review_type": "Post-result independent claim/scope review; not another implementation validation or blinded analysis",
+  "inputs": {
+    "experiments/yolo/gdt1389_bag_conditioned_word_order/artifacts/RESULT.json": "c7624927a224949f598d2c575dd113fb0653b31d6ba57bac5ef3b52b586d42c6",
+    "experiments/yolo/gdt1389_bag_conditioned_word_order/artifacts/VALIDATION.json": "f4ce7cd7aeaa17786931f2d029e1c56fdb72cb4226b7aabb138b9a8914671f34"
+  },
+  "independent_validation_status": "PASS_SOURCE_BAG_MASS_AND_CONDITIONAL_ACCOUNTING",
+  "reader_summary": {
+    "IT2a": {
+      "words": 8623,
+      "leaves": 46,
+      "positive_leaves": 11,
+      "mean_raw_gain": 0.07061995118091881,
+      "mean_bag_gain": 0.11009075641122645,
+      "mean_conditional_gain": -0.03947080523030763,
+      "mean_null": -0.06563837953032028,
+      "max_null": -0.044400859244917344,
+      "p_or_null": 0.005,
+      "capacity": true,
+      "status": "NO_RETAINED_CONDITIONAL_ORDER_GAIN"
+    },
+    "RF1b": {
+      "words": 7245,
+      "leaves": 46,
+      "positive_leaves": 15,
+      "mean_raw_gain": 0.08773249170800511,
+      "mean_bag_gain": 0.12536511120681,
+      "mean_conditional_gain": -0.03763261949880488,
+      "mean_null": -0.06828099899755975,
+      "max_null": -0.04991419343508803,
+      "p_or_null": 0.005,
+      "capacity": true,
+      "status": "NO_RETAINED_CONDITIONAL_ORDER_GAIN"
+    },
+    "ZL3b": {
+      "words": 7628,
+      "leaves": 46,
+      "positive_leaves": 11,
+      "mean_raw_gain": 0.08734996925769185,
+      "mean_bag_gain": 0.12988061787373187,
+      "mean_conditional_gain": -0.04253064861604,
+      "mean_null": -0.06618881907704804,
+      "max_null": -0.049483707104417574,
+      "p_or_null": 0.005,
+      "capacity": true,
+      "status": "NO_RETAINED_CONDITIONAL_ORDER_GAIN"
+    }
+  },
+  "inferences": [
+    "All three fixed conditional MIX-vs-M1 predictive gains are negative, with adequate capacity on46leaves each; no joint whole-form order lead is retained.",
+    "The exact signed decomposition is raw gain = bag-mass gain + conditional order gain. The positive aggregate raw gain is accounted for by a larger positive bag component offset by a negative order component. This is score accounting, not a causal decomposition of writing.",
+    "Observed conditional gains exceed every one of the199 fixed-P reference draws in each reader; the reported upper-tail Monte Carlo value0.005 remains a conditional reference departure even though MIX predicts worse than M1 on average.",
+    "A negative conditional log-likelihood ratio is compatible with a small reference tail: under P its expectation is minus KL(P_cond||MIX_cond). Being less negative than reference draws does not imply positive predictive gain.",
+    "Neither result proves M1 sufficient, word order irrelevant, lack of whole-form information, or a recovered source/code. Alternative transcriptions are not independent manuscripts.",
+    "The conditional reference departure is not a deterministic all-key contradiction. The failed predictive conjunction does not erase that departure or certify every modular-key/M1 channel as adequate.",
+    "Earlier directed-composition, exact-whole predictive gains, and1374conditional pairing findings remain within their original scopes. No free-order or bag-only writing model is established."
+  ],
+  "stop": "Retain the registered no-lead decision and the conditional-reference departure together. Do not retune mixture weight, choose positive leaves/readers, add a new source, or initiate an automatic followup.",
+  "human_summary": "The tested whole-form weighting helps allocate probability to the right collections of signs, but its fixed addition makes the order prediction within those collections worse on average. The observed orders still differ from the fixed M1 reference in this score; their construction remains unresolved."
+}

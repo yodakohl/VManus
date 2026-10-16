@@ -1,0 +1,137 @@
+{
+  "experiment_id": "GDT1389",
+  "selected_utc": "2026-10-16T01:50:56.338116+00:00",
+  "phase": "FIXED_EXPOSED_CONDITIONAL_PREDICTION",
+  "preparation_start_utc": "2026-10-16T01:40:00Z",
+  "inclusive_deadline_utc": "2026-10-16T02:55:00Z",
+  "budget_minutes": 75,
+  "readers": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "model": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL.json",
+  "model_lock": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL_LOCK.json",
+  "events": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/EVENTS.json.gz",
+  "parent_result": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/RESULT.json",
+  "base_law": "Unchanged1308P=M1, alpha0.5over22outputs, conditionalonCurrier andfullworking-unitlength; unitposition andpreviousunitpredictnextunit. Unknowncontexts uniform. Fullsupportall22^n unitstrings, no additional finitebank/wordfilter.",
+  "rival": "Unchanged1308M=(P+Q)/2 withQexactTRAINwordfrequencyin(C,n); emptyTRAINcellusesM=P. No refit,adjustedweight,smoothing orsourcechoice.",
+  "conditioning": "Onebag is thecomplete22unit multiplicityvector ofoneheldword, withsameCurrier/n. P_B sumsPoverALLdistinctpermutations in fullsupport; Q_B sumsallTRAINwholeQmass inthatbag. Fixallwordbags,metadataandpositions; notonlyattestedvariantstrings, no chosenends/pivot/bigrams.",
+  "score": "R(w)=log1p(Q(w)/P(w))-log1p(Q_B/P_B), includingQ_B0=>R0. Originalrawgain=bagmassgain+R. Bagmassgain=log(M_B/P_B) witholdemptycellfallback. ConditionMIXAFTERmixing; not50:50mixtureofseparatelyconditionedmodels.",
+  "normalizer_algorithm": "Primary backwardremaining-multiset/previous-sign DP withposition=n-sumremaining, optional sharedcachewithin(C,n). Repeated units indistinguishable: chooseeachremaining sign once, no multiplicityfactor. Independentforwardused-count/last-sign DP. No sampled/permutationcaps.",
+  "reference": "Conditionalindependent P-orderdrawsatalloriginalheldpositionsgivenbags. The finiteTRAIN-Qsupportwordj has massP_j/P_B andR_j. Allotherorderings combinedatresidualmass1-sum_jP_j/P_B withR0=-log1p(Q_B/P_B). This categoricalscorelaw isexactforfixedP/Q/Bag; floatingevaluationdisclosed. No source-languageormodularkeyselected.",
+  "randomization": {
+    "draws": 199,
+    "seed_base": 1389000,
+    "reader_seed_stride": 1000,
+    "algorithm": "Python random.Random reset once per reader in SPEC order. For each of199 replicates, consume one uniform for EVERY original reader event in original EVENTS order, including immobile events. Categories are positive-Q TRAIN words in lexicographic full-unit-tuple order, followed by the residual-Q-zero category even when its mass is zero. Primary uses bisect_right of cumulative masses, capped at1 for numerical roundoff, with final cumulative value1; independent replay uses separate inverse-CDF calculation.",
+    "p_rule": "(1+count(null_gain >= observed_gain-1e-12))/200",
+    "corrected_threshold": 0.016666666666666666
+  },
+  "primary": {
+    "population": "ALLoriginal23496heldevents,all46physicalleavesperreader; preserveoriginalequal-leafweights andallnegative/zero contributions. No outcome-subsetselection.",
+    "aggregation": "MeanRwithin eachphysicalleaf, thenequalmeanofalloriginalleaves.",
+    "minimum_gain_nats_per_word": 0.01,
+    "positive_leaf_fraction_minimum": "2/3",
+    "capacity_mobile_occurrences": 100,
+    "capacity_mobile_physical_leaves": 10,
+    "mobility": "ConditionalRvarianceunderP|bag >1e-12; usedonlyforcapacity. ALLrowsremaininprimarydenominator.",
+    "reader_decision": "Capacity +mean>=.01 +3*positive_leaves>=2*all_leaves +conditionalupperp<=.05/3. ZLprimary;IT/RFsensitivity. Jointretainedlead requiresallthree. Preserveeachresult.",
+    "secondary": "Exactfrozenrawgain decomposition intobagmassandconditionalorder, withsameweights. No percentageexplained, newpredictororgate. OptionalALLQpositive/Qzero counts aredescriptiveonly; nochoiceofbettercohort."
+  },
+  "numeric": {
+    "probability_tolerance": 1e-10,
+    "score_absolute_tolerance": 1e-09,
+    "variance_roundoff_clip": 1e-12,
+    "conditional_expected_R_max_tolerance": 1e-10,
+    "policy": "Normalization,negativeprobabilityorfiniteprecisionfailure beyondtol stopsclaim; do notsilentlyrepairoutcome. Tinyresidualmassroundoffmayclipwithindeclaredtol andmustberecorded."
+  },
+  "execution": {
+    "max_workers": 16,
+    "primary_normalizer_wall_seconds": 720,
+    "primary_max_states_per_cell": 2000000,
+    "independent_normalizer_wall_seconds": 900,
+    "independent_max_states_per_bag": 2000000,
+    "partial_scope_policy": "Anyunfinishedrequirednormalizer givesCOMPUTATIONAL_STOP; nodroppinglongwords/bags orcomplete-readerclaimonpartialcoverage. No automaticbudgetextension orfallbackapproximation."
+  },
+  "mechanism_scope": "Anyadditivewholepacketstate h(w) is invariantunderpermutation. For direct992or cumulative1064source, fixingallbags fixesstates andthereforesourcecharacters, assumingframinginvariant. Sourceprobability andstateZfactors cancel. The necessaryconditionalorderlaw isP(.|bag) ifshapechoicehasexactfullsupportM1weights undergivenC/n. Arbitraryfinitebankrestrictions,history-dependentvariantchoice,hiddenorder-sensitiveformat/masks andothergrammarparameters aredifferentcontracts,notexcluded.",
+  "assumptions": [
+    "The22workingunits andoriginalwordboundariesarefixedanalysisunits,notprovednativealphabet/sourcewords.",
+    "Allinputsarehistoricallyexposed;oldodd-leafTRAIN/even-leafEVALsplitretained,notnewreserveconfirmation.",
+    "Readeralternativesarenotindependentreproductions.",
+    "Admission/readability/transcription/framingmustbeinvariantunderthecomparisonordersforagenerativecancellationinterpretation; jointselectioncouldinduceunmodeledbias.",
+    "M1knowsCurrierandlength. Neitherlengthdistribution,nativeplaintext,morphology,semantics norhistoricalusabilityisidentified.",
+    "StatisticalreferenceunderfixedfittedP isnotlogicalzero-probabilityexclusion,notuniversalrejectionofallM1parameterizations,notprojectwidepvalue."
+  ],
+  "decision_note": {
+    "positive_basis": "1308wholeformgain,1309broadcontribution,1374directedpartnercoupling retained. C1064requiresa paidwordchoicelaw ratherthanfreebank.",
+    "strongest_predecessors": "1323heldvariantcountsandtestedneighbor-echo(capacitystop);1375weightedclassstreampairingjointgatefailed;1379pivotexchangejointgatefailed;1280preservedextraends/bigrams(capacitystop). These donotfixeachcompleteindividualwordbagwhiletestingvariantprobabilities.1300completecodec/fairbitfailuresnotrerun.",
+    "unknown": "DoesfrozenQstillimproveheldorderpredictionafterexactwithin-wordbagconditioning, where noadditiveresidue key/sourcecanalterP-orderodds?",
+    "outcomes": "Jointretainedgain closes thisfrozenfullsupportM1 choice-lawcandidate forcurrentmodelreference; do notaddQ/higherorderto rescue. Nojointgain leavesnecessaryorderconditionunresolved/nonconfirming, notM1sufficiencyorvalidkey. Capacity/computationalfailure changesnochoice-lawtruthclaim.",
+    "smallest_test": "FrozenP/MIX, completeexistingheldevents, exactmultisetnormalizers and199fixedconditionalscore draws. No training,newcorpus,keysearch,decodingornewglobalexperimentframework.",
+    "budget": "75minutes01:40–02:55UTC includingpriorreview,implementation,controls,fullaccounting,independentvalidationandpublication; computationbudgetsspecified,stopratherthanexpand."
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL.json",
+      "sha256": "36297201b1c2998226d876bb032cfe2fdc640e28aec31973d06bea240604d5bb"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL_LOCK.json",
+      "sha256": "b971d278ed51c818addd7045bd686d2d9323df63361e1ec75aa4add72ec5ec82"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/EVENTS.json.gz",
+      "sha256": "55bc1add546cebd4136bfd6f83d6d18dcde2999f96ed871cb38c350f8639cd86"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/RESULT.json",
+      "sha256": "62ef7728e374b53cff103f068e2b0d5558db50d114951be95fbb5886d31e7cc1"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/METHOD.md",
+      "sha256": "f3eb375c049227949234b76cc24f9ddad5d60d92f2416961c1e4bbe8396f0eea"
+    },
+    {
+      "path": "experiments/yolo/gdt1323_anagram_variant_neighbor_choice/REPORT.md",
+      "sha256": "8dde91ca2c5256d705cf08acdc2cbeab3ff33928a62924a49b1a6adc3c383271"
+    },
+    {
+      "path": "experiments/yolo/gdt1375_local_weighted_partner_residual/REPORT.md",
+      "sha256": "50727c177e0c5cab32f543e5b5f6291b09113b58644f5256539d86de9abe7990"
+    },
+    {
+      "path": "experiments/yolo/gdt1379_pivot_suffix_conditional_pairing/REPORT.md",
+      "sha256": "92bcd4bd6f41129cb4b17c238b546f917c1be260c03974d6240333cc4ad1a04d"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CUMULATIVE_MODULAR_PACKET_WRITER_RAW_20261016.json",
+      "sha256": "f1790965275d7a4269aeed50f25c0602fb6813499aa899db84694c977d1b30aa"
+    }
+  ],
+  "access": "Onlyfrozen1308models/guardedderivedevents andnamedprimaries. No rawmixedTSV,newimage/page/sourcecorpus, f84/f84r/f116v/f1rbody,327/336body orreserves. Word-internalprediction,notnewsemanticrelationpacket."
+}

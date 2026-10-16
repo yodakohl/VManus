@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1387**
-- Experiment-associated tracked files: **27,074** (2.4 GiB)
-- Structured GDT337+ experiments: **1052**
+- Experiments indexed: **1388**
+- Experiment-associated tracked files: **27,096** (2.4 GiB)
+- Structured GDT337+ experiments: **1053**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1389 | gdt1389_bag_conditioned_word_order | `NO_RETAINED_CONDITIONAL_ORDER_GAIN` | [report](../experiments/yolo/gdt1389_bag_conditioned_word_order/REPORT.md) | 22 | 1.9 MiB | 8 | STRUCTURED_YOLO |
 | GDT1388 | gdt1388_posthoc_latin_alignment_certificate | `IT_FIXED_LATIN_INVENTORY_ANALYTICALLY_EXCLUDED` | [report](../experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_VALIDATION.json) | 27 | 330.3 KiB | 8 | STRUCTURED_YOLO |
 | GDT1387 | gdt1387_cv_default_vowel_concentration | `EXACT_DEFAULT_VOWEL_BOUNDS` | [report](../experiments/yolo/gdt1387_cv_default_vowel_concentration/REPORT.md) | 15 | 132.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT1386 | gdt1386_r771_f75r_fixed_transfer | `ALL_CASES_FORMALLY_COMPATIBLE_NO_MEANING_SELECTION` | [report](../experiments/yolo/gdt1386_r771_f75r_fixed_transfer/REPORT.md) | 15 | 720.3 KiB | 4 | STRUCTURED_YOLO |

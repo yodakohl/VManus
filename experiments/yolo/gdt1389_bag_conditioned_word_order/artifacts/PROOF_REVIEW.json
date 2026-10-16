@@ -1,0 +1,68 @@
+{
+  "experiment_id": "GDT1389",
+  "status": "RECONCILED_CORRECTION_RESOLVED",
+  "reviewed_basis": "Final src/SPEC.json, PREREGISTRATION.md and METHOD.md reread before lock and before native execution. The prospective unseen-penalty prose correction is resolved in both documents. SPEC now explicitly fixes reader/event/category order and inverse-CDF handling. No native payload or experiment execution inspected.",
+  "native_evaluation_by_reviewer": false,
+  "definitions": {
+    "P": "Frozen positive1308 position-aware M1 probability on distinct whole working-unit strings, conditional on supplied Currier C and length n.",
+    "Q": "Frozen empirical TRAIN whole-form distribution in the same C,n cell, when that cell is nonempty.",
+    "B": "One exact working-unit multiset, including multiplicities. Its support consists of distinct strings with exactly that multiset, each counted once.",
+    "P_B": "sum P(w) over distinct strings w in B.",
+    "Q_B": "sum Q(w) over distinct strings w in B.",
+    "MIX": "(P+Q)/2 in a nonempty TRAIN cell; P unchanged in an empty TRAIN cell."
+  },
+  "channel_cancellation_proof": [
+    "Fix every position's complete unit multiset and supplied metadata. Additive h(w) modulo27 is then fixed at every position under any one key. In the cumulative1064 model the whole state trajectory, decoded differences and source message are fixed too, including the declared initial-state and offset rules.",
+    "A fixed source law may be non-IID or otherwise dependent: its value is unchanged by these reorderings because the decoded message is unchanged. The state-class normalizers Z are likewise unchanged. If source probability is zero, the conditioning event is impossible under that key; no 0/0 conditional law is claimed.",
+    "Under conditionally independent spelling choices q_C(w)=L_C(n)P_C,n(w), the length factors cancel because every bag fixes n. Summing the product over all independently allowed distinct within-bag orderings factorizes. Thus the normalized conditional law is the product over positions of P_C,n(w_i)/P_C,n(B_i). This does not predict length, bag composition or source message probabilities.",
+    "The same result holds for the1322 direct packet channel, because fixed bags fix every decoded character. It concerns this particular fixed spelling law, not every possible bank or every first-order mechanism."
+  ],
+  "essential_nonautomatic_conditions": [
+    "Spelling choices must obey the declared independent fixed-P law conditional on the relevant state and supplied metadata. Extra neighbor-order dependence, copied spelling choices or hidden order-dependent states are outside this proof.",
+    "Framing and retained-sample selection must be invariant under the considered within-bag reorderings, or their effects must be conditioned/modelled explicitly. Arbitrary order-sensitive framing does not cancel. Fixed length-based physical wrapping can cancel; a first-unit-dependent wrapper need not.",
+    "The exact support of q must be the declared P support. An arbitrary finite bank excluding otherwise possible anagrams adds a support indicator and changes P_B. No free bank truncation may be hidden while normalizing over all22-unit anagrams.",
+    "Reader, physical-leaf split, Currier, length, trained parameters and eligibility are held as stated in the fixed comparison. Conditioning on native masks is an explicit scientific assumption, not proved by algebra.",
+    "Separate readers are alternatives, not independent replication. Source-induced global state dependence is removed only through the full bag-conditioning argument; original unconditional word choices are not asserted IID."
+  ],
+  "mixture_ratio_proof": [
+    "Conditioning the mixture gives MIX(w|B)=(P(w)+Q(w))/(P_B+Q_B). The factors1/2 cancel. It is generally NOT the50:50mixture of P(w|B) and Q(w|B); the conditional mixture weight is Q_B/(P_B+Q_B).",
+    "For P(w)>0, R(w)=log[MIX(w|B)/P(w|B)]=log(1+Q(w)/P(w))-log(1+Q_B/P_B).",
+    "Under w drawn from P(.|B), E[R]=-KL(P(.|B) || MIX(.|B)) <=0. Equality holds exactly when the two conditional distributions agree on the positive P support. Individual observed gains may be positive; no deterministic violation follows from a finite positive empirical sum.",
+    "For every distinct Q-supported word in the bag, retain mass P(w)/P_B and its exact R. All remaining words have Q(w)=0, share R0=-log(1+Q_B/P_B), and may be collapsed into one residual outcome of mass1-sum_{Q(w)>0,w in B}P(w)/P_B. The residual mass is not1-Q_B.",
+    "If Q_B=0 in a nonempty cell, conditioning makes MIX exactly P on that bag and R=0 everywhere. If the TRAIN cell itself is empty, the declared MIX=P fallback likewise gives R=0; no invented Q normalization or log2penalty applies.",
+    "Repeated working units create repeated permutations of positions, not additional distinct strings. Every string enters P_B once. A dynamic program over remaining multiplicities must not multiply a transition by the remaining count unless compensating consistently for labeled-copy overcounting."
+  ],
+  "validation_obligations": [
+    "Verify P_B by independent distinct-string enumeration on small multisets with repeats, including all-identical units; P_B is positive and at most1.",
+    "Verify Q_B from distinct supported whole forms with their full empirical probability mass; repeated TRAIN occurrences contribute through probabilities rather than duplicate strings in the bag support.",
+    "Check conditioned-mixture normalization, empty-cell fallback, Q_B=0, positive residual mass and residual-zero fixtures separately.",
+    "Check E_P[R]<=0 and the KL identity on finite source-free examples; a normalized score does not establish the native null or its selection assumptions.",
+    "If frozen fitted-null simulations are used, retain the declared inference scope and all outcomes; no distribution-free significance or universal stochastic-model impossibility follows solely from beating those controls."
+  ],
+  "claim_ceiling": "A retained predictive gain supports a missing whole-form order component relative to this frozen conditional P and the declared controls/selection assumptions. Under the explicit channel premises it challenges that necessary conditional spelling law independently of key/source values. It is not a logical impossibility of every probabilistic M1 model, a recovered mechanism, an unconditional length fit, native phonetics, or a translated word.",
+  "predecessor_scope": "GDT1323's different anagram-neighbor statistic and capacity failure remain unchanged. GDT1308's unconditional-within-C,n mixture gain is not the present bag-conditioned result. Other1374/1375/1379 contracts must retain their own decisions; this proof does not claim novelty or reopen them without their primary review.",
+  "final_protocol_hashes": {
+    "src/SPEC.json": "637a7cff892c13353cdec813ceadb08ed260d8735bd20b872ee470f469555d25",
+    "PREREGISTRATION.md": "4f0ab971992624c37ebee4a63484bc6c18d0f2c529d98bc68b9f62f610b2fd8d",
+    "METHOD.md": "1e57480596c282d4992702649d4878fab07e0d7518885ea19699b23bbe283df5"
+  },
+  "final_alignment": [
+    "Full22^n support and no arbitrary bank filter explicit. Framing/selection invariance and unknown source/meaning scope explicit.",
+    "All original held positions and leaves remain in primary aggregation. Score mobility is capacity only, not a change of denominator.",
+    "Each reader has199fixed conditional reference draws and one unchanged per-reader decision; no selection of favorable readers. Same conditional law under fixed fitted P is not a project-wide or distribution-free claim.",
+    "Post-mixture conditioning, exact distinct-string bag normalizers, finite Q-support plus residual score distribution and empty-cell fallback agree with proof.",
+    "Computational stops cannot become partial-population passes; reference-array finite sampling is distinct from exact categorical score probabilities.",
+    "Deterministic simulation order explicitly fixed: one uniform per original event including immobile events; lexicographic positive-Q support then residual; numerical roundoff policy retained. This changes no conditional law or scientific threshold."
+  ],
+  "resolved_correction_history": [
+    {
+      "location": "PREREGISTRATION paragraph beginning Under the conditional M1 law; check parallel METHOD wording",
+      "text": "The original unconditioned unseen penalty remains in the bag-mass component.",
+      "issue": "For Q(w)=0 but Q_B>0, conditional order score is negative and part of the old-log2penalty remains there. Only Q_B=0 assigns the entire penalty to bag mass.",
+      "replacement": "The original raw gain is decomposed into bag-mass and conditional-order contributions. For an unseen word with Q(w)=0, R=-log(1+Q_B/P_B), and bag-mass gain=log((1+Q_B/P_B)/2); their sum remains -log2 in a nonempty TRAIN cell. If Q_B=0 the conditional-order contribution is zero.",
+      "formula_status": "SPEC formulas are already correct; request concerns prose, not changing scientific rule.",
+      "status": "RESOLVED_BEFORE_LOCK",
+      "resolution": "Both documents now state the two-component decomposition, the Q_B=0 special case and the empty-TRAIN fallback. Scientific formulas unchanged."
+    }
+  ]
+}
