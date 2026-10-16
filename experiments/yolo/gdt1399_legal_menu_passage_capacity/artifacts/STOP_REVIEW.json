@@ -1,0 +1,45 @@
+{
+  "decision": "Preserve the benchmark stop; no native fitting, larger solver or model exclusion follows.",
+  "experiment": "GDT1399",
+  "fixture": {
+    "all_states_exactly_verified": true,
+    "distinct_ranks": 22,
+    "identity_key_bijection": true,
+    "known_satisfiability": "SAT_BY_EXPLICIT_WITNESS",
+    "steps": 42
+  },
+  "independent_definition_checks": {
+    "invalid_rank_slots": 1120,
+    "legal_transitions": 1652,
+    "solver_used": false,
+    "state_rank_pairs": 2772,
+    "states": 126
+  },
+  "independent_native_validator": "PRESERVED_NOT_EXECUTED_ON_NATIVE_INPUT",
+  "interpretation": "A concrete legal42-step path exists; UNKNOWN under the search budget is a computational stop, not evidence that the source model is inconsistent.",
+  "limits": [
+    "No native worksheet, transcription cache or physical-source payload was opened.",
+    "This receipt does not turn the failed required benchmark into a PASS.",
+    "The stop record is post-benchmark provenance, not a prospective registration lock."
+  ],
+  "native_evaluation": "NOT_RUN",
+  "original_benchmark_reclassified": false,
+  "original_benchmark_rerun": false,
+  "original_benchmark_status": "UNKNOWN_TIMEOUT_REQUIRED_SAT_NOT_REACHED",
+  "pins": {
+    "METHOD.md": "9d9463125e1b0cb93464b50adae4ab6dd4ff9946ba8bef2662a25a013dcec34c",
+    "artifacts/CAPACITY_STOP.json": "6d020336716053ae919e86acac43fef060f3df53a7ef9427e523cc5535f34c22",
+    "artifacts/CONTROL_FAILURE.json": "23387b55cdb74fc89f7997369937f1089c29df40592d66c12d7c846c223d3b2c",
+    "artifacts/FIXTURE.json": "0051cb48d27ff462f02aa116835ebb06ff3016281e8f613e4f68638f3c1b2338",
+    "src/SPEC.json": "181b65fa7cd41a442d520f2f2295367b42c99c74a004c53e93bd17493bfa2528",
+    "src/run.py": "ab1150a5f704ca6e83b1623320e51071c9d9ac8c542a70cc32c2ddda057252c1",
+    "src/validate.py": "1b5f3fb72794019b998bb8b7008db7df40659ca76c0c04a8581b9bf6036e1468",
+    "src/validate_stop.py": "2dd4907d69a9a877d46e2ad15078af3f74b78531992435bc4d62cf919eaa569c"
+  },
+  "prior_native_validator_source_free_controls": {
+    "fixed_16_16_SAT_and_16_18_UNSAT": true,
+    "provenance": "Earlier tool execution of src/validate.py --controls; not rerun by this stop audit.",
+    "status": "PASS_RECORDED_BEFORE_STOP"
+  },
+  "status": "SOURCE_FREE_STOP_RECORD_AND_WITNESS_VERIFIED"
+}

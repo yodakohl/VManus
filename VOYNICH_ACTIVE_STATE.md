@@ -1,3 +1,32 @@
+## 2026-10-16 — GDT1399 stops before native fitting; IDEA1054 remains open
+
+Bounded selection checked older complete writers and their later primaries.
+975is a limited invented ambiguity language, not a nativefullwriter;999already
+has1331/1332followups. Original1054is genuinely outside1391's closed1065stable
+completion contract and1398's fixedletter-code contract. The proposed contrast
+was one global22unit rank key over the full77original ITf75v43–49groups versus
+3independently refitted group-order shuffles, with inventory carried across all
+words/lines and one prospectively hypothesized paragraph/program reset.
+
+The prerequisite source-free unknown-key42step fullalphabet benchmark timed out
+at its fixed10seconds. No native/control case, fitted key, native validation or
+source reading was executed. A saved explicit identity-key path proves the
+artificial fixture is satisfiable; the runtime failure is not a source-model
+contradiction. All2772finite transition slots and the saved full path are checked
+independently. Stop audit isolated replay is byte-exact; the original failed
+required benchmark remains UNKNOWN, not a rescuedPASS. Native validation is
+BLOCKED, not passed. Post-benchmark RETENTION_LOCK is not preregistration.
+[Report](experiments/yolo/gdt1399_legal_menu_passage_capacity/REPORT.md).
+
+Retain1054as inconclusive/unbound with computational debt. Do not mark it closed,
+rerun a larger unchanged solver, repair its menu/reset/controlbudget or interpret
+a generic accepted instruction trace as meaning. A fresh selection needs a
+cheaper distinguishing consequence or independent binding, with the original
+stop preserved. No new manuscript finding or translation arises in1399.
+1398's conditional singleton-code finding and all previous failures remain.
+Confirmed English lexemes: **0**. No running native job; earlier ten-hour request
+still unfulfilled. Next: bounded selection, not automatic decoder repair.
+
 ## 2026-10-16 — GDT1398 fixes the longer branch of the singleton-logogram writer
 
 IDEA1070 is formally invertible: all one-letter source words are mandatory
