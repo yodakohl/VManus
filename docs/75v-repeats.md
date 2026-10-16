@@ -1,0 +1,7 @@
+# GDT1411 — additional graphic identity use of owned f75v
+
+Registered16October2026 before any new view. Continuing user authorization for exploratory manual manuscript work licenses this narrow additional use of the already-owned Yale1006209 image, following the existing label-owner and GDT1392 same-page scope precedents. It adds no new image key, selector, quota or reserve. Previous full-page exposure is disclosed and is not fresh admission or blinding.
+
+Use only the unchanged full/full photograph, SHA256 654edf15a65d1a2bb0d7bb4995f8f6fba1625d5eed847c9b6969d1c44e385a23,2868×3735. One original-resolution whole-page view per observer, for localization and qualitative graphic-sequence comparison at these fixed locations only: f75v.43G013; .44G002/G005/G006/G007/G008/G009; .46G004/G005. The five registered comparisons are in GDT1411 SPEC. The adjacent .46G004/G005 separator is also assessed. No fixed transcription is supplied as a visual conclusion. Record similar/different/unresolved and explicit uncertainty, not exact phonemic atomicity. Do not expand to other text, figures or image questions.
+
+No OCR, crop, enhancement, rotation, image generation, alternative image or rereading loop. No English word meaning, source content, diagram ownership or scoring edge follows. No independent physical sample or blind-observer claim. f84/f84r, f116v, f1rbody, oppositeleaf and all reserves remain closed. The image was cached earlier; checking its bytes and dimensions is not a new semantic inspection.

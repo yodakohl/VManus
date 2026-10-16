@@ -4,18 +4,18 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: source
-Latest decision: 1410F
-Working files: GDT1410
+Task: synth
+Latest decision: 1411P
+Working files: GDT1411
 Assumptions: unglossed
-Resume: lookup1410
+Resume: lookup1411
 Running: 10h
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole+;1389bag+/order−;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
-852:same-line join/split differs;meaning open.
+852:gapdiff;1411:3pairs+/2?;meaning open.
 Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicc705d74ad.
+Public1e1e0d404.

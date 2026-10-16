@@ -21,6 +21,7 @@ frühere Einzelverträge bleiben unverändert.
 
 | Zulassung | Vertrag |
 |---|---|
+| GDT1411: existing f75v, five fixed repeated-form comparisons only | [Additional graphic scope](75v-repeats.md) |
 | GDT1352: f57v second annulus, graphic item boundaries only | [Prospective scope](57v-signs.md) |
 | GDT1311: candidate1006252, f102v2.21/.33run comparison only | [Prospective scope](102v2-runs.md) |
 | GDT1298: f103r.46/.53 repetition premises | [Prospective scope](103r.md) |
