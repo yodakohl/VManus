@@ -1,3 +1,16 @@
+## 2026-10-16 — source-only trie diagnostic finds a different lexical message
+
+The alreadyfrozen independent1408trie returnsSATon the same136unitcontrol
+within unchangedbounds, but gives123sourcewords/114singletons ratherthan the
+planted32wordlist. The unspaced plaintext itselfdiffers. Direct independent
+fullkey/wordbreak/readbackreview and byteexactdiagnosticreplayconfirm2witnesses.
+This is lexicalcapacity, not originalmessageidentification or native evidence.
+Original1408controlstop remainsUNKNOWN; nativegateCLOSED andno nativefit.
+[Diagnostic, assumptions and decision](experiments/yolo/gdt1408_latent_boundary_shared_key/artifacts/POSTSTOP_TRIE_REPORT.json).
+Nextcontentwork needs a constraint distinguishing complete messages; no larger
+wordbook-onlydecoder or posthocwordlengthrepair. AllnativewordmeaningsUNASSIGNED.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — GDT1408 latent-boundary key search stops before native fit
 
 The fixed search hits its5000000candidatecheck cap on a known-satisfiable
