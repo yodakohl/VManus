@@ -5,10 +5,10 @@ Updated: 2026-10-16.
 Phase: exploration
 Status: active
 Task: source
-Latest decision: 1396 DIAG
-Working files: IDEA1069
+Latest decision: 1397 WFAIL
+Working files: IDEA1070
 Assumptions: no meanings
-Resume: source review
+Resume: review 1070
 Running: none
 
 ## Structural baseline
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public9307dc24b.
+Public3981fdb14.

@@ -1,0 +1,95 @@
+{
+  "title": "RAW UNREVIEWED: a closed wordbook reserves all singleton words inside one whole-group logogram table",
+  "summary": "Root-supplied complete mixed word/letter writer. A closed independent wordbook has C actual one-character words, with C<22. A fixed table of at most22words contains all C plus up to22-C longer words. Table words always emit one drawing; every other word emits its ordinary characterwise22-drawing image. Group length distinguishes the two branches, so no unary quotation is required. No native word value, selected source, statistical fit or repair of1069/1397 is claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "ownership": "Root supplied the closed-domain mechanism; bounded_idea_supply reviewed scope, exact inverse and bounded predecessors, then authored this RAW only.",
+  "design": {
+    "fixed_parameters": {
+      "source_alphabet": "A fixed alphabet Sigma of exactly22characters and a fixed bijection pi from Sigma to22visible drawings G. Word and paragraph separators are outside Sigma. No extra source characters, punctuation, case normalization or silent omissions are supplied.",
+      "wordbook": "One independently fixed nonempty finite vocabulary W contained in Sigma+. The permitted source domain is arbitrary finite sequences of words in W with explicit paragraph structure. W is CLOSED: a newly encountered name or spelling outside W is rejected.",
+      "singleton_words": "S1={w in W: length(w)=1}; C=|S1|. The intended nontrivial class has C<22. This is the vocabulary's complete set of admitted singleton words, not merely singleton words encountered in one sampled message.",
+      "logogram_words": "Fix T subset W, require S1 subset T and |T|<=22. Therefore at most22-C additional words of length>=2 may be included. They may be unary words such as AA; no nonunary restriction is needed in this different closed contract.",
+      "logogram_table": "Fix an injection tau:T->G. tau is a whole-word map; it need not agree with pi on singleton source words. Its entire spelling list and drawing assignments are paid shared apparatus. pi is the same fixed literal map throughout every longer output group."
+    },
+    "writer": [
+      "For a source word w in T, emit the one-drawing whole group tau(w), compulsorily.",
+      "For w in W outside T, emit pi(w) character by character. Such a source word necessarily has length>=2, because all admitted one-character words belong to T.",
+      "Preserve exactly one visible group per source word, their order and paragraph boundaries. Physical line wraps may occur only between groups and are layout, not implicit source resets. There is no context state, stochastic spelling choice, deletion, null, quotation or escape branch.",
+      "Reject words outside W. Empty whole message maps to empty writing; source words and source paragraphs are nonempty."
+    ],
+    "reader": [
+      "For a complete group g of length1, require g in tau(T) and return tau inverse(g). An unused singleton drawing is invalid as a whole group even though it remains an ordinary letter inside longer groups.",
+      "For a complete group u of length>=2, invert pi to obtain w. Require w in W outside T. This is a literal branch, including every permitted repeated-letter string not in T.",
+      "Re-encode under the same parameters and require exact equality. This makes fully spelling a compulsory table word noncanonical, rather than admitting a second source spelling by accident.",
+      "Restore the exact original source-word sequence and paragraph structure. Source spaces are not erased or reconstructed by a guessed linguistic rule."
+    ],
+    "inverse_proof": "The table branch is injective and produces exactly one drawing. The literal branch is injective because pi is a bijection and all its legal inputs have length>=2. The output length classes are disjoint. They exhaust W because every admitted singleton word is in T. Thus every legal source has a unique exact inverse and the writer is a deterministic injection per whole source word. No quotation is needed for AA or another longer unary source word: if outside T it remains length>=2, hence cannot be mistaken for a singleton logogram.",
+    "small_complete_example": {
+      "Sigma_and_pi": "Use the22abstract source characters A through V and identically labeled abstract drawings for pi; this is a teaching instance, not a native assignment.",
+      "W": ["A", "B", "AA", "AB", "AC", "BA", "CAB"],
+      "T_and_tau": {"A": "C", "B": "D", "CAB": "A"},
+      "source_and_output": [
+        {"source": "A", "output": "C"},
+        {"source": "B", "output": "D"},
+        {"source": "CAB", "output": "A"},
+        {"source": "AA", "output": "AA"},
+        {"source": "AB", "output": "AB"},
+        {"source": "AC", "output": "AC"},
+        {"source": "BA", "output": "BA"}
+      ],
+      "contrast": "Whole A reads CAB, but AA reads the two-character source word AA. No copy is subtracted. The same visible C reads source A alone, but remains letter C when embedded in a legal longer literal. The spelled-out whole CAB is rejected as noncanonical because CAB is a compulsory table word.",
+      "closed_domain_cost": "A new source word C is not admitted. Allowing it would change W and require reconsidering its mandatory table ownership; it is not silently read as a literal C."
+    },
+    "apparatus_and_usage_cost": [
+      "Pay the exact closed vocabulary W, all22literal correspondences and up to22complete logogram correspondences. W membership can be represented by an ordinary dictionary, but its scope is not free or target-defined.",
+      "Every admitted one-character source word consumes one table slot whether or not it appears in a particular message. If all22one-character words are admitted, no slot remains for a longer word under this contract.",
+      "A fixed source's realized saving is the sum over table-word occurrences of length(w)-1. Singleton source words save zero characters even if their whole-group spelling differs from pi.",
+      "A future source assessment must report which table words actually occur, their usage and the full literal coverage. Unused table entries cannot count as explanatory success. There is no automatic rule choosing T by target fit and no chosen source vocabulary in this RAW.",
+      "The mechanism is hand-usable with a short whole-word table and an ordinary letter alphabet. Historical use of this exact convention, its complete source coverage and native correspondence remain unestablished."
+    ],
+    "necessary_consequences_and_limits": [
+      "One source word produces exactly one deterministic output word and different source words have different outputs. Therefore the whole exact word-frequency multiset, type count, repeated-word patterns and source word count are preserved. Existing fixed-source equality/frequency failures are not repaired.",
+      "Every output group of length>=2 is strictly literal under one common22-letter bijection. The table cannot rescue an unsupported longer whole form, remove an internal fourfold, add an alias or alter a long word's boundaries.",
+      "The inherited strict-interior-fourfold obligation of974/1240 consequently remains for their fixed old source populations and original working-unit/group premises: a long output with that literal repetition still needs a source word containing it. A singleton table cannot manufacture the missing longer source spelling.",
+      "An exact output XXX requires the same source word three times. A single repeated drawing inside a longer group remains a repeated source character, except that the entire source word might instead belong to T and then could not legally be written long.",
+      "Whole-group logogram roles are distinct from letter roles inside longer words. A sign occurring internally is therefore not by itself incompatible with serving as a singleton logogram; no dedicated prefix-only or suffix-only control sign is proposed.",
+      "No singleton glyph is identified as a particular source word. The proposal does not change1069, combine its deletion rule with this table, or repair any1396/1397source-envelope outcome. In particular a longer unsupported output remains unsupported."
+    ],
+    "bounded_predecessor_check": [
+      {
+        "id": "IDEA000974",
+        "primary": "research_registry/proposals/production_origin_supply_20261003/WHOLE_GROUP_ABBREVIATION_UNARY_QUOTE_RAW_20261007.json",
+        "read_scope": "design public_parameters,writer,reader,inverse_proof,observable_consequences_and_limits; current card and later reviewed stops",
+        "distinction": "974 explicitly admits EVERY nonempty Sigma word, including every single letter, and reserves shortcuts for NONUNARY longer words. It therefore retains every reserved unary source word by one extra written copy. The present independently closed W instead puts all actual one-letter words in T and leaves every other unary word literal unless that whole word is itself in T. It is not a re-reading or alteration of974's rule. Mixed word/letter spelling is old; the limited new contract is this closed-domain unquoted allocation."
+      },
+      {
+        "id": "GDT1357",
+        "primary": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/REPORT.md",
+        "distinction": "Previously read exact prefix-marker/even-literal-quotation contract remains excluded. This RAW has no prefix marker or doubled literal role and does not modify1033."
+      },
+      {
+        "id": "GDT1178/GDT1179",
+        "primary": ["experiments/yolo/gdt1178_short_word_grouping/REPORT.md", "experiments/yolo/gdt1179_complete_natural_source_writers/REPORT.md"],
+        "distinction": "1178 joins short source words under fixed L2/L3 rules.1179includes a503-entry paid whole-word table with literal fallback and fixed short-word pairing. These exact grouped/carrier/source contracts are different and remain failed; their reversible source controls are not manuscript evidence."
+      },
+      {
+        "id": "GDT1202/1233/1267",
+        "distinction": "The fixed-source frequency consequences remain because this writer is a one-word deterministic injection. The source-unit/code assumptions of ordinary concatenation theorems are not automatically a global whole-group logogram law; nevertheless the entire multi-character branch here is unchanged literal spelling, with its source obligations retained."
+      }
+    ],
+    "novelty_scope": "Bounded route/topic, card/search/duplicates and exact named primaries found974as the nearest complete mechanism. No exact already-retained closed-W allocation with compulsory ownership of all admitted singleton words was found. This is not an exhaustive historical novelty claim, and no experiment or native selection follows."
+  },
+  "relations": [
+    {"target": "IDEA000974", "type": "related_to"},
+    {"target": "GDT1178", "type": "related_to"},
+    {"target": "GDT1179", "type": "related_to"},
+    {"target": "GDT1357", "type": "related_to"},
+    {"target": "GDT1202", "type": "related_to"}
+  ],
+  "work_record": {
+    "started_utc": "2026-10-16 11:49:41 UTC",
+    "authored_utc": "2026-10-16 11:51 UTC onward",
+    "scope": "Root supplied the contract. Source-free design/proof with bounded prior material only; no new native/source query, corpus count, current1397output, image, code implementation, selection, route edit or publication. The initial route said1397running and card navigation disclosed prior1396scope. After this file was authored and before registry add, root messaged that1397closed its fixedW and passed public replay; no contract change used that result. This is not a blind hypothesis claim."
+  }
+}

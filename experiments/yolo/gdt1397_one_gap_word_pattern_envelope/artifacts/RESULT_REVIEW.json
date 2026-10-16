@@ -1,0 +1,161 @@
+{
+  "experiment_id": "GDT1397",
+  "status": "PASS_FINAL_RESULT_SCOPE_REVIEW",
+  "scientific_status": "FIXED_W_ONE_GAP_ENVELOPE_EXCLUDED_ALL_READERS",
+  "review_scope": "Read primary and independently validated result artifacts only; no additional source/native enumeration, witness search, experiment or image view.",
+  "source_summary": {
+    "wordbook_types": 2411,
+    "tokens": 6288,
+    "sections": 71,
+    "alphabet_size": 22,
+    "max_word_length": 12,
+    "wordbook_sha256": "4bfd47e7861d1411ffbf703b33d9e4488e2c51a7930901abf86be31d550ba3fd",
+    "modes": {
+      "FWD": {
+        "patterns": 262,
+        "lengths": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "BIDIR": {
+        "patterns": 362,
+        "lengths": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    }
+  },
+  "primary_BIDIR_summary": {
+    "IT2a": {
+      "ALL": {
+        "unsupported_types": 637,
+        "unsupported_occurrences": 1016,
+        "length_failure_types": 0,
+        "pattern_failure_types": 637,
+        "status": "EXCLUDED",
+        "unsupported_physical_leaves": 85
+      },
+      "GE2": {
+        "unsupported_types": 115,
+        "unsupported_occurrences": 494,
+        "length_failure_types": 0,
+        "pattern_failure_types": 115,
+        "status": "EXCLUDED",
+        "unsupported_physical_leaves": 69
+      }
+    },
+    "RF1b": {
+      "ALL": {
+        "unsupported_types": 594,
+        "unsupported_occurrences": 911,
+        "length_failure_types": 1,
+        "pattern_failure_types": 593,
+        "status": "EXCLUDED",
+        "unsupported_physical_leaves": 82
+      },
+      "GE2": {
+        "unsupported_types": 96,
+        "unsupported_occurrences": 413,
+        "length_failure_types": 0,
+        "pattern_failure_types": 96,
+        "status": "EXCLUDED",
+        "unsupported_physical_leaves": 69
+      }
+    },
+    "ZL3b": {
+      "ALL": {
+        "unsupported_types": 574,
+        "unsupported_occurrences": 913,
+        "length_failure_types": 1,
+        "pattern_failure_types": 573,
+        "status": "EXCLUDED",
+        "unsupported_physical_leaves": 81
+      },
+      "GE2": {
+        "unsupported_types": 107,
+        "unsupported_occurrences": 446,
+        "length_failure_types": 0,
+        "pattern_failure_types": 107,
+        "status": "EXCLUDED",
+        "unsupported_physical_leaves": 67
+      }
+    }
+  },
+  "whole_passage": {
+    "source": "Already exposed original IT2a f75v43-49worksheet groups, without hypothetical expansions.",
+    "original_groups": 77,
+    "scorable_groups": 77,
+    "unsupported_groups": 1,
+    "witness": {
+      "original": [
+        "IT2a|f75v.48|G005",
+        "5",
+        "ycheedy",
+        "DEFINITE_SPACE",
+        "DEFINITE_SPACE"
+      ],
+      "page": "f75v",
+      "locus": "f75v.48",
+      "units": [
+        "y",
+        "ch",
+        "e",
+        "e",
+        "d",
+        "y"
+      ],
+      "pattern": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        0
+      ],
+      "status": {
+        "FWD": "PATTERN_UNSUPPORTED",
+        "BIDIR": "PATTERN_UNSUPPORTED"
+      }
+    },
+    "claim": "Under fixedW, literal/single-interior-deletion,22-unit bijection and complete-sourceword/group premises, the full77-group passage cannot be generated even with per-word orientation and per-word independent relabeling. No common-key search is necessary.",
+    "limits": "This is one exposed physical passage, not independent confirmation. Complete line-edge groups are an extra assumption. The other76supported groups have only separate relaxed witnesses, not translations or a coherent source reading."
+  },
+  "interpretation": [
+    "All three readerALLenvelopes fail, and theirGE2sensitivity tiers also fail. GE2means recurrence within a reader, not independent physical observation or proof of paleographic correctness.",
+    "ITfailures are equality-pattern failures, not length-only failures. RFandZLeach retain oneALLlength-only failure; theirGE2failures are pattern failures. Distinguish these mechanisms rather than calling every failure new positional structure.",
+    "BIDIRis a more generous wordwise superset than the original forward common-key writer. Its failure therefore excludes this fixedWinstance, not1069with every possibleW, Hebrew generally, all contractions or meaningful manuscript content.",
+    "No formal source-word/gap/direction witness is a native lexical assignment. Per-word support does not bind actual letters or any source sentence.",
+    "GDT1396s12!*10!ITbijections remain exactly the mappings satisfying its singleton constraint alone. None can be a complete writer for the currently tested fixedWscope once this stronger necessary envelope fails. The old arithmetic is not false or overwritten; it is no longer a viable complete-source lead.",
+    "GDT1396original frozen-validator failure and its separate metadata-normalization diagnostic remain unchanged;1397PASSdoes not retrospectively convert that original failure intoPASS."
+  ],
+  "necessary_corrections": [],
+  "decision": "Stop this fixedW/one-gap application before keyfitting or endpointsolver; no dictionary expansion, added deletion gap, skipped witness or alternate source is selected as repair.",
+  "hashes": {
+    "PREREGISTRATION.md": "e79e6e7d655241a8595ba617d094fa773965b8560a10213fdc88097694751db5",
+    "src/SPEC.json": "c2cd2efbc4f5dd47c4c1c36b76d91cc7c37eef5344122d251481fca02c1cf99f",
+    "artifacts/RESULT.json": "e9773d6a478ca702f1cb7648f4d0234115d289994036b699704a946498cd6291",
+    "artifacts/VALIDATION.json": "0504d9851ff4d8c9bf5e899571419e59299a809a8582bd2c6316d64d9aae8d65"
+  }
+}

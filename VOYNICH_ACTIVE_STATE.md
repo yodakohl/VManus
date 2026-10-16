@@ -1,3 +1,31 @@
+## 2026-10-16 — GDT1397 closes the fixed one-gap wordbook instance
+
+Allwordwise FWDand generous BIDIRenvelopes fail ALLand GE2in all3readers.
+Even with a separate alphabet and direction perword, fixed Wmisses IT637/ZL574/
+RF594forms; recurrent failures115/107/96on69/67/69physical leaves. AllITfailures
+are equality-pattern failures; RF/ZLeach also have one rare length13failure.
+The362BIDIRpatterns come from every literal and one-interior-gap variant of
+all2411unchanged sourcewords. Unique-expansion/frequency constraints were relaxed.
+
+All77original ITf75v43–49groups parse; ycheedy f75v48G005 alone lacks the pattern
+A B C C D Aeven under BIDIR. Thus no complete fixedW/1069reading of that passage
+exists under declaredwholegroup/22unit premises. Other76words have individual
+capacity only, not one coherent key. Independent source/native/wholepassage
+validation and clean-public byte replay pass. No image/reserve/meaning added.
+[Report](experiments/yolo/gdt1397_one_gap_word_pattern_envelope/REPORT.md).
+
+1396's singleton-only factor646646and counts remain true, and its original
+validator failure/diagnostic unchanged. But none of those keys is a complete
+fixed-Wwriter after1397. Do not treat necessary-key count as a viable sourcelead,
+patchWor appendrun/gap repairs. General1069remains formally valid and unbound;
+no Hebrew/general-language/abbreviation exclusion follows from one control W.
+
+Pipeline1070is RAWUNREVIEWED: a paid closed-Wtable handles whole-group singleton
+wordlogograms, other words stay literal. It inherits wholewordfrequency and
+literal-interior obligations; it is not a1397repair or selected test. Next review
+must retain974/1357/1178/1202scopes and their later decisions. Confirmed English
+lexemes remain0; the ten-hour request remains unfulfilled.
+
 ## 2026-10-16 — GDT1396: inner deletion remains unselected
 
 1069has a valid invented inverse with a fixed wordbook, literal priority and
