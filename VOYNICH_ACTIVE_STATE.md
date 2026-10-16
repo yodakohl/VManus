@@ -1,3 +1,35 @@
+## 2026-10-16 — GDT1401 closes a prefix-faithful single-update address family
+
+New RAW1072 supplies a complete source-only subdivision/coalescence language.
+Its literal20exclusive-initial carrier already conflicts with1293and is not
+repaired. A genuinely different necessary source-semantic test was selected:
+one whole word performs one local frontier update; same-root prefix extension
+adds at least one path edge per extra working unit; no hidden update intervenes.
+After splitUonly its immediate children are active; after mergeUonlyUis active.
+A descendant>=2edges belowUcan therefore never be updated immediately next,
+independently of initial frontier, root count or particular glyph/address table.
+
+Old1200already documents definite adjacent cho/chodyf42r11,okal/okaldyf58v10,
+or/ordyf39r4,sheo/sheodyf88v16. All12reader/site cases were rebound unchanged
+through original complete source-line rows, definite gaps, consecutive original
+ordinals and exact22unit parsings. Each extension is[d,y], so it violates that
+family's positive-step address law. These are4physical sites/3alternate readings,
+not12independentreplications or new corpus discoveries. Selected old1326ol/oldy
+are NOTadjacent and were not used. Independent proof/source validator and exact
+isolated replayPASS. [Report](experiments/yolo/gdt1401_prefix_address_update_obstruction/REPORT.md).
+
+Close this conditional prefix-address/single-update combination. No real native
+address, source object, word/gloss, genus or diagram was assigned. General hierarchy,
+other names, compound operations and1072as a source construction remain unbound;
+no macro, ignored suffix, hidden ancestor step or carrier repair follows. This
+is a new logical consequence from old evidence, not a newly translated passage.
+IP080's old full-WORDarity exclusion was retrieved before a proposed ending-arity
+solver and prevented duplicate work; no arity code/count was run.
+
+Next: a different complete rule with independent distinguishing content, retaining
+all these scoped stops. Do not repeat1072's unchanged missing-binding audit.
+Confirmed English lexemes: **0**. No running work; ten-hour request unfulfilled.
+
 ## 2026-10-16 — Evidence synthesis, six fresh review bindings, and RAW1071 scope
 
 Root and an independent bounded audit reread the six stale1284/85/86/88/89/90

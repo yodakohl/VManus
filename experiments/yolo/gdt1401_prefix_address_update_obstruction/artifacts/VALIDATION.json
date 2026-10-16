@@ -1,0 +1,57 @@
+{
+  "experiment": "GDT1401",
+  "general_argument": [
+    "After SPLIT(U), the only active leaves below U are its immediate children; a distance>=2descendant and its children are inactive.",
+    "After MERGE(U), U is the active leaf and all proper descendants are inactive.",
+    "Therefore no one-update trace contains U immediately followed by a distance>=2descendant, under the declared nonempty-child frontier rules.",
+    "The candidate positive-step prefix law turns each existing B/Bdy pair into that forbidden address relation; it is a hypothesis, not an inferred meaning."
+  ],
+  "implementation": "Independent complete source-line adjacency reconstruction and exact original-row comparison; dynamic22unit parsing; independently generated active-frontier controls. No primary import.",
+  "limits": [
+    "Post-observation logical application to named old witnesses; no statistical or blind-confirmation claim.",
+    "Finite controls illustrate the general local proof and do not prove it merely by sampling.",
+    "Wholewords,22working units, same-root prefix-faithful addresses and one explicit update perword are premises.",
+    "Immediate-child moves and repeated inverse updates remain legal; arbitrary hierarchy, nonprefix names and macros are not excluded.",
+    "No native addresses, glyph values, English word meanings or translated passage assigned."
+  ],
+  "original_source_line_pairs_verified": 12,
+  "physical_sites": 4,
+  "pins": {
+    "lock_sha256": "767f83847acdb7495e90d0b53f06171d5be1ae76a0675ceee6c0815ae4431822",
+    "old_pairs_sha256": "6876b9bb35063d39e2bd32f66ecf51ed62321fd6edefa62b5e868a061766bb6e",
+    "old_source_lines_sha256": "3c58d7323ad48f66fc037cbb2fe6863caf4b8560f2c019d5a3c2d17a57d357c4",
+    "result_sha256": "40ba51156f11ffa80b8627d0a67e77697ca7130b127c6ef9a631301bed340d35",
+    "validator_sha256": "bec1b0574985a718c163cf4bce1f376eacc3e0741d8969bf34cf9ed5f5860bdb"
+  },
+  "readers": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "scientific_status": "PREFIX_FAITHFUL_SINGLE_UPDATE_FAMILY_EXCLUDED",
+  "source_free_controls": {
+    "cases": [
+      {
+        "branching": 2,
+        "depth": 3,
+        "enabled_updates": 102,
+        "forbidden_descendant_checks": 104,
+        "frontiers": 26
+      },
+      {
+        "branching": 3,
+        "depth": 2,
+        "enabled_updates": 26,
+        "forbidden_descendant_checks": 18,
+        "frontiers": 9
+      }
+    ],
+    "empty_child_merge_forbidden": true,
+    "general_proof": "After split only immediate children are active below U; after merge only U is active there. A distance>=2descendant is neither active nor has active immediate children.",
+    "immediate_child_allowed": true,
+    "native_access": false,
+    "parent_child_child_parent_undo": true,
+    "status": "PASS_SOURCE_FREE_FRONTIER_CONTROLS"
+  },
+  "status": "PASS_INDEPENDENT_VALIDATION"
+}

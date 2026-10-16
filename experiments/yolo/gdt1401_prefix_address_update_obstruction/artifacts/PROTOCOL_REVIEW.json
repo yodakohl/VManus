@@ -1,0 +1,36 @@
+{
+  "experiment_id": "GDT1401",
+  "status": "PROSPECTIVE_METHOD_PROOF_AND_STATIC_CODE_ACCEPTED",
+  "review_scope": "Source-free METHOD,SPEC,selection plan and run.py review only. No native pair/source-line packet, cache, extracted result or execution inspected.",
+  "hashes": {
+    "experiments/yolo/gdt1401_prefix_address_update_obstruction/METHOD.md": "b46490c7b404dfc771a3ea47e7455c7853319d6ddfd0f15f84a8d25c547788e0",
+    "experiments/yolo/gdt1401_prefix_address_update_obstruction/src/SPEC.json": "0bf1a5b4e5f9d39018741742aa5c19e5369655a84e4b87cf3bbecbc6d206253a",
+    "experiments/yolo/gdt1401_prefix_address_update_obstruction/src/run.py": "7ec4d790d833ca07abeaf6e1072bcd4171dde5a85fd2aabbde5e68f3b8d4a00e",
+    "research_registry/proposals/production_origin_supply_20261003/PREFIX_ADDRESS_UPDATE_PLAN_20261016.json": "98744ca11d204ac8243d37ecf39f9b11bca5ae46aecc4ed21f03579763a8f08f"
+  },
+  "proof": [
+    "A valid active-leaf frontier is an antichain covering its roots. IfUis active beforeSPLIT, no proper descendant is active. AfterSPLIT, exactly the immediate children replaceUbelowthatroot. A descendantVofdistance>=2is neither active nor the parent of an all-active immediate child set.",
+    "IfMERGE(U)is legal, all immediate children ofUare active beforetheupdate; their proper descendants cannot be active. AfterMERGE, onlyUis active beneathU. Again neitherSPLIT(V)norMERGE(V)is legal for any proper descendantV.",
+    "These cases exhaust the permitted single update atU. Other roots and unrelated frontier leaves cannot change descendant legality. Arbitrary depth and local finite branching do not affect the proof.",
+    "The bridge from writtenB/BdytoU/Vrequires the explicitly assumed same-root prefix-faithful address map and at least one edge per appended working unit. It does not follow from resemblance alone. Under that bridge, the two appended units d,yforce distance>=2.",
+    "Parent followed by immediate child can be legal. The supplied parent,child,child,parent fixture returns to the initial frontier; no general ancestor/descendant or repetition ban follows."
+  ],
+  "static_checks": [
+    "toggle tests activeUfirst, otherwise all immediate children; under the maintained frontier invariant the cases cannot conflict. It transfers only those local frontier nodes and preserves others.",
+    "frontiers recursively builds valid complete finite binary/ternary frontiers. Finite fixture checks illustrate the general proof rather than prove arbitrary-depth validity by enumeration.",
+    "Primary selects only the four named old1200pairs per reader, requires unique match, same reader/page/locus, Pkind, consecutive original integer indices and definite shared gap. No replacement pair or nonadjacent1326example is used.",
+    "Unit parsing counts full22-unit segmentations and rejects zero/multiple parses. The required right tuple equals left tuple plus exactly d,y. Multi-character transcription labels are kept atomic.",
+    "Source row dictionaries and original index representation are preserved; int conversion is used only for adjacency arithmetic.",
+    "Primary extraction is frozen/hash-bound; independent validator must reconstruct rows from the old complete source lines rather than merely trust the selected pair table. That source verification is pending, not supplied by this review."
+  ],
+  "scope_limits": [
+    "One word is exactly one local frontier update, not a macro, read-only address, quoted target or multistep navigation that silently mutates ancestors. Removing this premise changes the tested family.",
+    "No update/reset is inserted at the definite interword gap. Program/frame uncertainty cannot rescue the exact conjunction by adding hidden actions after observing the pair.",
+    "The broader prefix property is an explicit necessary-contract relaxation, not an actual glyph assignment or a repaired1072carrier. The old1293exclusive-initial conflict remains.",
+    "Previously published named witnesses are known before lock; this is post-observation logical application, not blind prediction or a new native census. Twelve readercases concern four physicalsites, not twelve independent replications.",
+    "Source-provenance/proof failure must block exclusion. Software PASS cannot establish the native alphabet, intended words, historical operations or semantics.",
+    "No general hierarchical notation, source-state mechanism, English word meaning, genre or global decipherment-space exclusion is justified."
+  ],
+  "blocking_errors_found": false,
+  "decision": "No substantive flaw found in the theorem, declared bridge or inspected extraction logic. Proceed only with fixed witness verification and publication of the scoped implication; no solver or automatic repair."
+}

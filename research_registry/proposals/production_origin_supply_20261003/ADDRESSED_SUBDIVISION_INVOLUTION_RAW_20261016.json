@@ -1,0 +1,86 @@
+{
+  "title": "RAW UNREVIEWED: an addressed subdivision notebook omits only the split/merge verb fixed by the current partition",
+  "summary": "A complete invented content writer for refining and coarsening named regions. A word contains one root name followed by left/right half selectors. If its region is an active leaf, the word splits it; if exactly its two immediate children are active leaves, the same word merges them; otherwise it is illegal. The full preceding partition makes the omitted verb unique. Repeating a word twice restores the state and three times refines again. This is a new source-content contract with a known conditional failure of its literal22-sign teaching carrier, not a native reading or a repair of1400.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_SOURCE_WRITER_COMPLETE_KNOWN_LITERAL_CARRIER_CONFLICT",
+  "design": {
+    "human_domain": "A notebook records changes in the granularity of a plan: divide a named region into its equal left/right halves, or restore a region represented by its two intact halves. Coarsening a plan is not physically gluing cut material, replacing a consumed ingredient or manufacturing a fresh resource. This is an invented manual convention, not a historically attested Voynich activity.",
+    "source_objects": {
+      "roots": "Twenty permanently distinct source roots U0,...,U19. Each is its own abstract ordered unit interval. These are declared source names, not meanings assigned to any native words or pictures.",
+      "address": "An address is Ui followed by a finite string over the two role labels L,R. The empty path denotes the root; appending L/R selects the left/right half of the current addressed region. Every component has the same rule at every depth.",
+      "partition": "For each root maintain a finite complete prefix-free frontier of active addresses. Initially its frontier is the root alone. The frontier covers that entire root, without overlapping ancestor/descendant leaves.",
+      "source_message": "A finite ordered sequence of explicitly specified SPLIT(address) or MERGE(address) requests, required to be legal in that initial state. The exact request sequence and the final partitions are source content. No textual argument, hidden object, unsupported request or unspecified initial inventory is silently dropped. Empty sequence is allowed."
+    },
+    "single_shared_operation": {
+      "split": "If address w is an active leaf, remove w and add its two immediate children wL,wR. This is the only legal action at that address in this state.",
+      "merge": "Otherwise, if BOTH wL and wR themselves are active leaves, remove them and add w. Descendants beneath either child do not qualify. This is the only legal action at that address in this state.",
+      "illegal": "If neither condition holds, reject the word or source request. There is no nearest ancestor, implicit preliminary split, reset, fallback action or free new region.",
+      "uniqueness": "Prefix-free frontier invariance makes the split and merge cases mutually exclusive. Each legal action preserves a complete prefix-free frontier. Applying the same address again performs its inverse.",
+      "meaning": "The stable word meaning is the addressed region plus one uniform local partition toggle. Its explicit split/merge realization depends on the fully recovered prior plan. No independent arbitrary transformation F_word is assigned to each whole spelling."
+    },
+    "complete_teaching_writer": {
+      "alphabet": "Exactly22 abstract drawings: one for each of the20root names and two distinct path drawings L,R. Their labels are metalanguage, not EVA values, native r/l or any proposed alphabet binding.",
+      "forward": "Validate the explicit source request against the current partition. Write its address as one complete nonempty group: one root drawing followed by its ordered L/R path. Omit the source verb only because the current partition uniquely licenses it. Update the partition by the requested legal action.",
+      "framing": "One source request yields one visible word. Preserve word order. A paragraph is a complete independent plan with the initial20whole roots; start the same explicit initial state at each written paragraph boundary. Physical line wraps between words are layout only. No hidden resets within a paragraph.",
+      "reader": "Require one root drawing followed by zero or more L/R drawings in each word. Reconstruct its address, choose the unique legal split/merge branch from the current partition, output that explicit source request and update the frontier. Reject an illegal address use. Return all requests and the exact final frontier.",
+      "inverse": "Induction over the written words: both parties start with the same frontiers; the address has one parse and exactly the source action is legal there; after applying it the states agree. Therefore reading recovers every explicit source action, and rewriting recreates every word. This is a message-level inverse, not a context-free one-to-one map between individual action words and outputs.",
+      "literal_or_escape": "There are no arbitrary literal names, escapes, nulls or extra role symbols. Input outside the declared20-root binary-partition domain is rejected. The source-only division ratio1/2 is fixed by this invented domain and is not an asserted native numeral value."
+    },
+    "source_only_examples": [
+      {
+        "words": ["U0", "U0", "U0"],
+        "recovered_actions": ["SPLIT(U0)", "MERGE(U0)", "SPLIT(U0)"],
+        "final_U0_frontier": ["U0L", "U0R"],
+        "point": "All three written occurrences perform recorded steps. They are not decorative repeats and do not all mean a fresh identical resource use."
+      },
+      {
+        "words": ["U0", "U0L"],
+        "final_U0_frontier": ["U0LL", "U0LR", "U0R"],
+        "point": "U0L is illegal at the paragraph start, but legal after U0 has exposed that child. Position has a real content condition."
+      },
+      {
+        "words": ["U0", "U0L", "U0"],
+        "outcome": "Reject the third word: U0L is subdivided, so U0 does not have BOTH immediate children active as leaves. No invisible repair is permitted."
+      },
+      {
+        "words": ["U0", "U0L", "U0L", "U0"],
+        "final_U0_frontier": ["U0"],
+        "point": "The inner merge must be written before the outer merge. It cannot be inferred merely from a later short parent name."
+      }
+    ],
+    "long_message_content_obligations": [
+      "Words share a root exactly because they address regions inside the same named source object. Shared path prefixes mean common ancestors, and every additional suffix has the same left/right selection meaning.",
+      "An identical pair XX reverses itself at the source-plan level whenever its first step is legal. This does not claim all native doublets are reversals. An exact triple is legal and is not erased or made three disjoint inventory items.",
+      "Operations on different roots or disjoint active subtrees commute when both remain defined. An ancestor and its descendant can instead constrain each other's legality. These are fixed consequences of the source partition, not observed word-order laws.",
+      "Each region's endpoints and size follow from its address. The sum of leaf sizes for a root stays1. This is a source invariant, not an additive native-glyph claim or a proposed count/ratio translation.",
+      "The entire final diagrammatic partition can be drawn from the message, and all intermediate refinement/coarsening requests are recovered. Changing a reference can change legality or the final frontier even without assigning colors, material names or other lexical values."
+    ],
+    "costs_and_known_carrier_conflict": {
+      "source_apparatus": "Twenty fixed root identities, two ordered half selectors, the initial whole-root frontiers, explicit paragraph resets and the two mutually exclusive cases of one local operation. A reader must retain the current frontier; its size and address depths are real working-memory costs.",
+      "word_cost": "An address at depth d costs d+1drawings. There is no shortening, hidden coordinate, supplied final diagram or learned whole-word codebook. Repeated words can encode different explicit source verbs because state determines the split/merge choice.",
+      "known_failure_of_direct_carrier": "This exact literal22-sign teaching carrier has20root drawings that can occur ONLY at word start, and only two drawings can occur after the first position. Existing GDT1293already records noninitial occurrences for every working-unit candidate under its strict whole-group contract. Accordingly this literal carrier cannot be presented as a viable direct binding to those same22native units/groups. No new native count is needed or performed here. The source-level construction is retained as RAW with this limitation, not with a repaired carrier.",
+      "native_claim_limit": "No region, L/R role, root object, native word, physical diagram, word boundary or paragraph reset has been identified. No carrier redesign, added allographs, different state budget, trial corpus or empirical selection is proposed."
+    },
+    "bounded_predecessor_review": [
+      "Live route and composition topic read. Bounded searches/duplicates for dyadic partition, sibling split/merge, addressed subdivision and involution supplied no exact already-executed source writer. This is a limited novelty check, not historical discovery.",
+      "IDEA407already proposes split two branches then merge, and its unresolved complete target construction remains. The added rule here is a fully specified addressed binary frontier, a uniform involutive action whose omitted verb is recoverable, and complete source-message inversion; not a claim that splitting/merging is new.",
+      "IDEA1018/1025 and GDT1349 concern field-occurrence geometry inside observed words, not this growing explicit source partition. Their conditional capacities do not validate this source meaning or its carrier.",
+      "IDEA1062serial execution and1004finite update functions already distinguish operator meaning from an observed effect. Here the full source-state effect is defined for every legal address; no freely chosen F_word or invented matched native result is supplied.",
+      "R_TOKEN's shared-resource/distinct-use conjunction stays failed. This source domain changes the representation granularity of a plan, not resource consumption. Its inclusion of repeated words is only constructed compatibility.",
+      "IDEA1054/1065 and GDT1391/1399/1400 are not altered. No moving rank alphabet, container transfer, shortest stop, new solver or extra hidden state is introduced to rescue those contracts.",
+      "GDT1293exclusive-initial-role consequence is retained as a known direct-carrier conflict. No post-result escape or role reinterpretation is added."
+    ],
+    "claim_ceiling": "Complete invented source-content writer and inverse with22abstractdrawings, knowingly not a direct native carrier under the old unit/group premise. Human plausibility concerns a small subdivision notebook; no historical source or manuscript interpretation is established. Unreviewed RAW, not selected or tested."
+  },
+  "relations": [
+    {"target": "IDEA000407", "type": "related_to"},
+    {"target": "IDEA001004", "type": "related_to"},
+    {"target": "IDEA001062", "type": "related_to"},
+    {"target": "GDT1293", "type": "related_to"}
+  ],
+  "work_record": {
+    "started_utc": "2026-10-16 13:29:26 UTC",
+    "authored_utc": "2026-10-16 13:32 UTC onward",
+    "scope": "Creative source-only rule, live route/topic and bounded registry/duplicates. Existing1293role finding was already known and is disclosed, not freshly counted. No native data, images, new source, word-value assignment, implementation, test or Root-file mutation."
+  }
+}

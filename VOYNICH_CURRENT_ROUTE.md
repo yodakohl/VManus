@@ -4,9 +4,9 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: synthesis
-Latest decision: 1071 unbound
-Working files: IDEA1071
+Task: selection
+Latest decision: 1401 addrFAIL
+Working files: GDT1401
 Assumptions: no meanings
 Resume: shortlist
 Running: none
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public6255f438d.
+Publicdc4133991.
