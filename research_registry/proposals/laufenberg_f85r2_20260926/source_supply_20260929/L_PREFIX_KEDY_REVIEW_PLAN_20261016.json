@@ -1,0 +1,32 @@
+{
+  "idea": "IDEA001090",
+  "phase": "Manual plausibility review using existing profile occurrence retrieval; no decoder or new corpus",
+  "budget": {
+    "start_utc": "2026-10-16 18:55:00 UTC",
+    "deadline_utc": "2026-10-16 19:20:00 UTC",
+    "minutes": 25,
+    "includes": "Primary predecessors, profiles, literal occurrence review, source verification, registry and publication"
+  },
+  "question": "Do all exact sheckhy/lsheckhy occurrences obey the already published simple kedy-ending predecessor rule?",
+  "fixed_prediction": "With a definite consecutive same-line previous group ending literal kedy, write lsheckhy; otherwise write sheckhy. Unclear seams/absent previous groups are kept separate. Exact forms and readers remain separate; no vowel/run folding.",
+  "primary": "IT2a, all35bare+2prefixed exact known occurrences; ZL/RF diagnostics separate.",
+  "outcome_changes": "A single clear counterexample rejects the exact trigger before implementation. Full compatibility retains only a small writing-habit candidate; it does not establish shared meaning, morphology, phonetics or a historical allograph. No automatic trigger, window or mixture repairs.",
+  "predecessors_read": [
+    "GDT1204 full-neighbour By/Bdy failure",
+    "GDT1205 later native support for1204countercase",
+    "GDT929 full four-form context square/noLedge",
+    "GDT1318 fixed replacement sampler failure; not insertions",
+    "GDT1407 fixed indexed-return failure remains"
+  ],
+  "meaning_policy": "No English word meaning or established identity of the two whole forms. The rule itself is a raw hypothesis, not a supported lexical premise.",
+  "source_pins": [
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_PREFIX_KEDY_CONTEXT_RAW_20261016.json",
+      "sha256": "2b56a070ce52578548fcdfe7d5d4e475f086f766db4238b5368f12db64af6ddc"
+    },
+    {
+      "path": "tools/word_profiles.py",
+      "sha256": "1e9cb2017525e8ee3fd07b6a088e73b28b1e4fe4e7c9d17b83b892b94d0943c6"
+    }
+  ]
+}

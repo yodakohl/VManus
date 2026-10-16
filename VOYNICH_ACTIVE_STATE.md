@@ -1,3 +1,18 @@
+## 2026-10-16 — IDEA1090 simple predecessor trigger fails before implementation
+
+The same raw predecessor qokedy has lsheckhy onf75v46 and bare sheckhy onf108v38.
+All97existing exact-form rows verified against six915source snapshots: IT37eligible
+with1violation;ZL35total/34eligible with1violation;RF25eligible with1violation.
+These are alternate readings of one countercase. Hand/section differ; only the
+fixed previous-word-only trigger fails, not predecessor-plus-hand rules or all
+writing variants. No lemma identity or English meaning selected; no decoder built.
+[Manual review](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/L_PREFIX_KEDY_REVIEW_20261016.json).
+Raw1092 proposes the simple picture of a shared unknown base with role-changing
+prefixes, using literal kedy/lkedy/qokedy. It is unreviewed, not a selected grammar.
+Next: read its predecessors and develop one consistent construction in the full
+77group passage; retain repetitions/unknowns and prior1146/R771counterexamples.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — GDT1407 anonymous local return retained; fixed two-page rule fails
 
 The77-group f75v construction connects R(qokain), then R(qokedy), thenLR(qokain)
