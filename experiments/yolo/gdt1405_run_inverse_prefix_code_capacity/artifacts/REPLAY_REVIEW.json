@@ -1,0 +1,44 @@
+{
+  "allowed_conclusion": "If the new wrapper execution passes, describe exact parsed scientific-content and verified-binding replay, not byte-exact reproduction.",
+  "checks": [
+    "The temporary tree receives copies of the experiment and declared inputs; original scientific files are not rewritten by the wrapper.",
+    "The unchanged primary and independent validator execute in the temporary tree; their existing code/input/LOCK checks remain active.",
+    "All FAMILIES, RESULT and six CERT artifacts are compared as parsed JSON. Dictionary ordering is ignored, while list/array ordering remains significant.",
+    "Each original and fresh VALIDATION receipt first verifies its own validator, LOCK, source-envelope and output byte hashes.",
+    "Only explicit result/family/certificate output-reference pins are replaced by canonical JSON-content hashes; source/code/LOCK pins are not normalized.",
+    "The complete normalized receipts are compared, preserving decisions, bounds, witnesses and all other fields. Canonical output-content hashes also retain JSON scalar types.",
+    "Byte equality is reported separately rather than assumed or relabeled as success."
+  ],
+  "experiment_id": "GDT1405",
+  "limitations": [
+    "This wrapper was added after the byte replay failed and is an engineering reproduction check, not a new scientific test or a replacement original PASS.",
+    "Canonical comparison must not be used to edit or overwrite original locked certificates/results.",
+    "Dictionary ordering from legacy set iteration is a plausible cause of byte differences; the content comparison, rather than that explanation alone, determines whether scientific content agrees.",
+    "No meanings, alphabet identification, source compatibility upgrade or new native analysis follows."
+  ],
+  "pins": {
+    "byte_replay_attempt_sha256": "b20eb63b6d767bf0dec3bb393825dc4fed70e1df54708128881c1f6e7c4607ce",
+    "original_lock_sha256": "bd939bb40a5402be6906b1e82190c8b236fabe08b17745fe45b50503fc43d852",
+    "original_result_sha256": "88ada7f9ea6dc231d3ad937148880243219b15b2e550c939245b08f015834428",
+    "original_validation_sha256": "8149118371dc8cc24efb077dd8fddf6c1fd73feb166daa24fea50a5a326ee56a",
+    "replay_check_sha256": "4e693409ec91e853323dccc2e7209592f31adc1ff4d71202caa7fca5751178dc"
+  },
+  "reviewed_wrapper": "src/replay_check.py",
+  "reviewer_execution": "No replay rerun and no code edits; this is an independent source review of the new engineering wrapper.",
+  "status": "POST_RESULT_CONTENT_REPLAY_WRAPPER_SOURCE_REVIEW",
+  "unchanged_outcomes": {
+    "original_byte_flags": {
+      "CERT_IT2a_FULL.json.gz": false,
+      "CERT_IT2a_LEAF2.json.gz": false,
+      "CERT_RF1b_FULL.json.gz": false,
+      "CERT_RF1b_LEAF2.json.gz": false,
+      "CERT_ZL3b_FULL.json.gz": false,
+      "CERT_ZL3b_LEAF2.json.gz": false,
+      "FAMILIES.json.gz": true,
+      "RESULT.json": false,
+      "VALIDATION.json": false
+    },
+    "original_byte_replay_status": "FROZEN_BYTE_REPLAY_FAILED",
+    "original_scientific_validation": "PASS_INDEPENDENT_VALIDATION"
+  }
+}

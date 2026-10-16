@@ -1,3 +1,18 @@
+## 2026-10-16 — GDT1405 extends the fixed-W stop beyond singleton codes
+
+After hypothetical e/i-run inversion, complete prefix quotient proofs still give
+exact NONTRIVIAL table minima27FULL/23rawLEAF2; inherited cfh constructions attain
+both. Identity22singletons remains possible. These are not actual alphabet sizes.
+Predeclared cholols/dydydy force old missing8Wpatterns under ANYsize prefix table
+onFULLall3readers andLEAF2IT/RF. ZLLEAF2doesnotgetthebridge: cholols ch unforced,
+dydydy absent. No compatibility or newwitnesssearch fills that cell.
+[Report](experiments/yolo/gdt1405_run_inverse_prefix_code_capacity/REPORT.md).
+Independent source/panel/closure/allproof/uppertable/sourcebridge validationPASS.
+Frozenbyte-replayFAILEDbecauselegacydictserializationorder varies; failurekept.
+Post-resultreviewedCONTENT+bindingreplayPASS, nofrozencode/output/LOCKchanged.
+No word meanings, language/allograph acceptance, decoderor sourceexpansion.
+Current10hblock still14:50:35UTC16Oct–atleast00:50:35UTC17Oct, notcompleted.
+
 ## 2026-10-16 — GDT1404 closes the wordwise/common-key gap locally
 
 All77 original ITf75v.43–49groups individually matched all8unchanged wordbooks

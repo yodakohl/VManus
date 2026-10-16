@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1403**
-- Experiment-associated tracked files: **27,429** (2.4 GiB)
-- Structured GDT337+ experiments: **1068**
+- Experiments indexed: **1404**
+- Experiment-associated tracked files: **27,458** (2.4 GiB)
+- Structured GDT337+ experiments: **1069**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1405 | gdt1405_run_inverse_prefix_code_capacity | `EXACT_PREFIX_MIN27_FULL_MIN23_LEAF2_FIXED_W_BRIDGE_SCOPED` | [report](../experiments/yolo/gdt1405_run_inverse_prefix_code_capacity/REPORT.md) | 29 | 964.3 KiB | 9 | STRUCTURED_YOLO |
 | GDT1404 | gdt1404_run_allograph_shared_lexical_key | `ALL_EIGHT_LOCAL_SHARED_KEYS_EXCLUDED` | [report](../experiments/yolo/gdt1404_run_allograph_shared_lexical_key/REPORT.md) | 19 | 269.2 KiB | 8 | STRUCTURED_YOLO |
 | GDT1403 | gdt1403_run_allograph_word_pattern_envelope | `EIGHT_FIXED_WORD_ENVELOPES_FAIL_LOCAL77_CAPACITY_REMAINS` | [report](../experiments/yolo/gdt1403_run_allograph_word_pattern_envelope/REPORT.md) | 19 | 1.4 MiB | 8 | STRUCTURED_YOLO |
 | GDT1402 | gdt1402_graphic_component_frozen_templates | `STRICT_FROZEN_INSTANCE_TRANSFER_FAIL` | [report](../experiments/yolo/gdt1402_graphic_component_frozen_templates/REPORT.md) | 34 | 2.5 MiB | 5 | STRUCTURED_YOLO |
