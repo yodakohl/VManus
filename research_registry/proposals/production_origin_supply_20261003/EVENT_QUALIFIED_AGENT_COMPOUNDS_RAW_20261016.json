@@ -1,0 +1,58 @@
+{
+  "title": "RAW INCOMPLETE: open-lexicon patient-qualified agent compounds preserve an earlier actor across later sentences",
+  "summary": "An invented linguistic construction, not a closed machine vocabulary: a compound formed from a previously identified patient and a transitive verb names the unique previously written actor of that operation on that patient. The same actor can then receive new ordinary predicates or become a recipient in later sentences. Open ordinary nouns, names and verbs remain available. The semantic/reference module and a longer source passage are supplied; a general prose compiler, morphological spelling inventory and22-sign physical realization remain open. No native word values are assigned.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_INCOMPLETE_NOT_SELECTED_NOT_TESTED",
+  "design": {
+    "linguistic_rule": "For an identified patient x and a two-participant agentive verb lemma V, the definite compound X-V-er denotes the sole person in the set of agents of all earlier qualifying V-events whose patient is exactly x. Here X is a written expression already bound to that patient. The operation takes an event relation and returns one of its existing participants; it neither creates a new person nor denotes the event's product.",
+    "qualifying_antecedents": "Only earlier, actually asserted, completed affirmative events in the current source paragraph count. Quoted, denied, hypothetical, commanded or future actions do not establish a participant for this rule. Verb lemma and patient identity must both match. Physical line boundaries inside the paragraph do not reset the relation. No later event repairs an earlier unbound compound.",
+    "uniqueness": "If the agent set has exactly one member, use that same person as the compound's referent. Several matching events by the same person still give one member. With zero members the compound is unbound; with two or more different people it is ambiguous. Do not silently select the latest, nearest or most plausible agent.",
+    "open_lexicon": "Nouns, proper names, participant descriptions and agentive transitive verbs are ordinary source vocabulary, not a finite list of two nouns or three commands. Each admitted verb must have a supplied ordinary agent/patient analysis; each definite patient expression must already denote one individual or specified collection. The construction does not decide those lexical facts by spelling similarity. Adding a source verb extends the ordinary lexicon, not a separately learned meaning for every compound.",
+    "word_formation": "The teaching display uses patient-verb-er, for example linen-wash-er, wool-wash-er and linen-fold-er. The patient component fixes the affected participant, the verb preserves the same event relation, and -er uniformly selects the actor. These regularized hyphens make the source analysis visible; they are not claimed historical orthography or native morpheme boundaries. Natural inflection, stem changes and compounds that already have lexicalized instrument/profession senses need an explicit lexical/spelling convention before an automatic writer is complete.",
+    "longer_source_passage": [
+      "A length of linen and a bundle of wool lay on the bench. Peter washed the linen. Paul washed the wool.",
+      "The linen-wash-er laid the linen on the rack. The wool-wash-er spread the wool beside the rack.",
+      "The linen-wash-er folded the linen and handed the linen to the wool-wash-er.",
+      "The linen-fold-er then fetched a basket. The wool-wash-er put the linen in the basket."
+    ],
+    "worked_content_links": [
+      "All four displayed text segments form one source paragraph, with no reference reset between them. The opening introductions bind one linen patient and one wool patient; Peter and Paul are distinct named persons. No material word is silently reintroduced as a new object on each occurrence.",
+      "linen-wash-er denotes Peter and wool-wash-er denotes Paul from the two written washing events. The later laying/spreading clauses are new events with those same actors, not repetitions of washing.",
+      "The folding clause therefore has actorPeter and the same linen patient. The transfer's recipient wool-wash-er is Paul; its moved linen remains the earlier linen.",
+      "linen-fold-er also denotes Peter, now through a different already written event relation. It is not a new participant merely because the compound stem changed. Paul's later placement of the linen consumes the earlier transfer's same recipient and object, without assigning any native reading."
+    ],
+    "countercontexts": [
+      "If Peter washes the same linen a second time, linen-wash-er remains uniquely Peter. Two event occurrences do not force two people or disappear from the content record.",
+      "If a later affirmative clause states that Paul also washed that same linen, subsequent linen-wash-er is ambiguous between Peter and Paul. Earlier uses remain bound as they were; a reader must not retroactively revise them. The writer must then use an explicit name or a separately specified fuller relative phrase.",
+      "Peter washing the wool does not disambiguate linen-wash-er. Likewise 'Paul did not wash the linen' does not add Paul to its actor set.",
+      "A patient known only as a kind, such as unspecified linen somewhere, does not establish the exact object needed by the compound. The example's initial introductions are a real source cost."
+    ],
+    "writer_reader_scope": "A writer may use the compound only when its stated semantic and uniqueness conditions hold; a reader expands it to the same previously bound actor and preserves each new predication around it. This is a precise constructional reading rule, not yet a total deterministic compiler for arbitrary prose. Selection among several available true descriptions of one person, parsing ordinary open noun phrases, and exact morphological surface realization remain explicitly incomplete. No arbitrary choice policy is claimed to explain manuscript frequencies.",
+    "stable_content_consequence": "A new same-patient/same-verb event by a second actor destroys later uniqueness without changing the existing word parts. Repeating the event with the original actor does not. Also two different qualified agent compounds may refer to the same person when their earlier events share an actor. A model treating each compound as an unrelated noun or each occurrence as a fresh participant loses both constraints.",
+    "costs_and_physical_debt": [
+      "Pay ordinary source vocabulary, verb valencies, introduced participant identities, paragraph scope, event factuality and compound segmentation. Earlier agent/patient bindings must be written or supplied by the ordinary source reading; they are not free inferred target values.",
+      "No22-drawing encoder, escape convention, open-name spelling law or native word-boundary realization is supplied. The regularized source compounds are not a five-sign or17-sign teaching carrier claimed to fit22working units.",
+      "The existing1319initial/endpoint inventories and other known carrier counterexamples would be real constraints on a later physical proposal. They do not by themselves settle this linguistic construction, and no automatic alphabet or boundary repair is authorized.",
+      "Historical plausibility of event-bound agentive compounding is left unassessed. This is a newly stated controlled use of an ordinary-looking word-formation pattern, not a cited medieval attestation."
+    ],
+    "bounded_prior_review": [
+      "IDEA876 already constructs material/process products and retains1137local compatibility,1146binding failure and1147earlier-context limitations. This proposal returns an already written actor, not a manufactured product, and does not use later constructions to license earlier references.",
+      "IDEA851 already proposes reusing a prior-stage result. Here the later consumer is an ordinary clause whose subject or recipient is an earlier event participant; no new transformation result is inserted.",
+      "IDEA783 already proposes an event anaphor but lacks bound event identity. This rule explicitly states which event relations qualify and distinguishes the unique agent set from a free latest-event choice. No old source word values are imported.",
+      "952/991/1074/1084 concern number agreement or recovery of omitted forms. This construction keeps ordinary lexical content and derives a discourse-bound participant; it neither restores a number feature nor omits a subject pronoun.",
+      "Quick bounded searches and duplicates navigation found related event/participant constructions, but no identical open-lexicon patient-qualified unique-agent contract. This is not exhaustive novelty proof."
+    ],
+    "claim_ceiling": "RAW_INCOMPLETE only. The longer passage is a source-language example, not a Voynich recipe, translation or supported gloss. Native morphology, context and lexical meanings remain wholly unassigned; no test or source acquisition was performed."
+  },
+  "relations": [
+    {"type": "related_to", "target": "IDEA000876"},
+    {"type": "related_to", "target": "IDEA000851"},
+    {"type": "related_to", "target": "IDEA000783"},
+    {"type": "related_to", "target": "IDEA000952"}
+  ],
+  "work_record": {
+    "block_start_utc": "2026-10-16T18:18:12Z",
+    "access": "Required route and bounded registry search/show/duplicates only. No native payload, source corpus, images, current root outputs, code or tests. Route status was visible.",
+    "ownership": "Own new incomplete RAW proposal only; root retains review, selection and publication."
+  }
+}

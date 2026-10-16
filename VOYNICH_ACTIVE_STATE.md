@@ -1,3 +1,19 @@
+## 2026-10-16 — GDT1407 anonymous local return retained; fixed two-page rule fails
+
+The77-group f75v construction connects R(qokain), then R(qokedy), thenLR(qokain)
+with R=sheckhy/LR=lsheckhy and opaque argument labels. The actual earlier44record
+is returned despite the intervening different argument. The other exact target,
+f80v38LR(olky), has no licensed earlierR(olky) under the fixed immediate-right,
+same-pagePcontract. IT/ZL have an earlierR(qotain); RF has no exactRproducer there.
+No English values, native reference identity or general l-/anaphora/noun exclusion.
+All77groups remain literal,71contributions unknown. Independent/source/public
+six-output byte-replayPASS, no post-lock repair.
+[Report](experiments/yolo/gdt1407_sheckhy_argument_qualified_return/REPORT.md).
+Next raw idea1090 asks whether the two prefixed forms instead reflect a fixed
+left writing context; it is unreviewed, not selected or a lemma identity fact.
+Review its predecessors/counterexamples before a test. The exact1407failure stays.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — contextual homography example retained; no native compiler selected
 
 IDEA1084's fixed eight-clause source grammar is internally readable: the following
