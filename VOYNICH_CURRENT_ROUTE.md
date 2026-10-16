@@ -3,13 +3,13 @@ Updated: 2026-10-16.
 
 ## Work
 Phase: exploration
-Status: checkpoint
-Task: CV source
-Latest decision: 1387 V0majority
-Working files: GDT1387
-Assumptions: selected words
-Resume: source contract review
-Running: none
+Status: active
+Task: packet contract
+Latest decision: 1063 partial
+Working files: IDEA992/1063
+Assumptions: no key/source
+Resume: review 1322 chain
+Running: root+ideas
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicb2be6798f.
+Public7c63497b9.

@@ -1,3 +1,25 @@
+## 2026-10-16 — IDEA1063 shared e power law remains a partial construction
+
+The exact qok(e*)dy and qok(e*)y families share hypothetical F/G powers,
+with one global ZERO=n or ONE=n+1 convention. Complete previously exposed
+f75v43–49 and f75r32–46 source records preserve all588alternate-reader group
+positions:77candidate,511UNKNOWN,49localblocks,105unknownspans. IT alone
+has197groups/27candidatepositions. Readers are alternatives, notreplicates.
+IT/ZL f75r38 firstfivefamilywords yieldF8/F13; RF annotation leavesF2/F4.
+Independent validation checks source and conditional algebra only.
+
+The law is assumed, not discovered. F/G, state, participant and input remain
+unbound; unknown spans are not noops, block boundaries are not resets.
+Zero-e qoky has identity duty underZERO, unexplained despite broad frequency.
+No Englishmeaning, fullparagraphreading or offsetselection; confirmedwords0.
+Do not repeat this accounting or automatically extend the morphology.
+Next review992's complete packet→character contract against1322/1323/1324/
+1335 before any decoder: fixedbank, independent source law and calibrated
+search are required, but old word→word closures do not apply.
+Ten-hour work request remains outstanding through08:58:57UTC16October.
+Evidence: [account](research_registry/proposals/production_origin_supply_20261003/E1063_ACCOUNT_20261016.md);
+[review](research_registry/proposals/production_origin_supply_20261003/E1063_REVIEW_20261016.json).
+
 ## 2026-10-16 — GDT1387: exact all-key majority-vowel requirement
 
 Every surviving1053/1383 key forces one anonymous vowel V0 to exceed half
