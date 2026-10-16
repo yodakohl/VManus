@@ -1,3 +1,32 @@
+## 2026-10-16 — GDT1402: strict exemplar transfer fails; graphic families remain open
+
+A genuinely different packet tested two new fixed f83r sites against complete
+prior free low/high references. A separate fresh-task observer described and
+froze the references before receiving anonymous targets; expected transcript
+classes were withheld. The right upper loop inXconflicts with its frozenA cap.
+The other high assignments remain unresolved; both lower motifs are compatible.
+The registered code is FIXED_GRAPHIC_COMPOSITION_CONTRADICTED, scoped strictly
+to this instance-template rule. One free example does not define ordinary
+handwriting variation. No generic component/ligature/modifier rejection or
+22-to18alphabet correction follows. Original1348stillSTOP, not repaired.
+[Report](experiments/yolo/gdt1402_graphic_component_frozen_templates/REPORT.md).
+
+Independent accounting verifies all81exact group rows in9reader-lines, all6native
+pixel rectangles/ICCprofiles, frozen records and declared chronology. Isolated
+replay is byte-exact. This does not certify perception, actual localization or
+external viewing order; root/page historical exposure remains. No meanings.
+Stop this image test without expanding templates, crops, classifier or decoder.
+
+The independent pipeline retained one RAW1073: a fixed public follower grammar
+chooses the shortest uniquely readable literal prefix with whole-word priority.
+It supplies a complete invented writer/reader, not a native source/key or selected
+experiment. Its dictionary/grammar cost and old fixed-source prefix obstructions
+remain explicit. No source or native test was selected from the raw construction.
+
+Next: bounded evidence/novelty review of1073against its actual predecessors,
+retaining this image stop; no automatic decoder or corpus run. Confirmed English
+lexemes: **0**. No running work; earlier ten-hour request remains unfulfilled.
+
 ## 2026-10-16 — Historical abbreviation scope retained; no new decoder selected
 
 Primary reports GDT155/GDT157/GDT207 and the cached Cappelli evidence were read together, with

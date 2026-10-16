@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: select
-Latest decision: abbr open
-Working files: IDEA926
+Task: review
+Latest decision: 1402tplFAIL
+Working files: IDEA1073
 Assumptions: unglossed
-Resume: distinct rule
+Resume: 1073
 Running: none
 
 ## Structural baseline
@@ -18,7 +18,7 @@ Hierarchical spaces; directed parts;
 852:same-line join/split differs;meaning open.
 Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
-1349nested6/6/7;circle4;rare-sensitive;1348STOP.
+1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
 1358cyclic/bag types retain97/82-83%.
 1353freeUD63–65%FULLparses;1354paircode≠sounds;1387V0>1/2.
 1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
@@ -29,7 +29,7 @@ No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
 Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles/reversibility≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076followerSTOP;1099reprise1;Confirmed lexemes:**0**
+1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 
 ## Decisions
@@ -65,7 +65,7 @@ f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DAT
 [words](docs/VOYNICH_DATA_SCOPE_20261005_WORD_EXTREMES.md);
 [76v](docs/VOYNICH_DATA_SCOPE_20261007_F76V_SEAM_CORRECTION.md).
 [exposed76r5](docs/76r5.md).
-ZL3b/IT2a/RF1b: alternate readings, one manuscript; keep raw entities/spaces.
+ZL3b/IT2a/RF1b: one manuscript; retain raw entities/spaces.
 Mixed TSV: `vmanus-exp query-tsv`;partial grants:
 `--selector locus` and explicit `--allow`. 28Sep f68r2/f69r overreach: exposure only.
 New relations: `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public44626ae26.
+Public845bea9cd.

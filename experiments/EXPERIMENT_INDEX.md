@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1400**
-- Experiment-associated tracked files: **27,357** (2.4 GiB)
-- Structured GDT337+ experiments: **1065**
+- Experiments indexed: **1401**
+- Experiment-associated tracked files: **27,391** (2.4 GiB)
+- Structured GDT337+ experiments: **1066**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1402 | gdt1402_graphic_component_frozen_templates | `STRICT_FROZEN_INSTANCE_TRANSFER_FAIL` | [report](../experiments/yolo/gdt1402_graphic_component_frozen_templates/REPORT.md) | 34 | 2.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT1401 | gdt1401_prefix_address_update_obstruction | `PREFIX_FAITHFUL_SINGLE_UPDATE_FAMILY_EXCLUDED` | [report](../experiments/yolo/gdt1401_prefix_address_update_obstruction/REPORT.md) | 17 | 67.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1400 | gdt1400_legal_menu_forbidden_pair_capacity | `LOCAL_CAPACITY_REMAINS` | [report](../experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/REPORT.md) | 18 | 76.9 KiB | 3 | STRUCTURED_YOLO |
 | GDT1399 | gdt1399_legal_menu_passage_capacity | `SOURCE_FREE_BENCHMARK_TIMEOUT_NO_NATIVE_RUN` | [report](../experiments/yolo/gdt1399_legal_menu_passage_capacity/REPORT.md) | 18 | 60.0 KiB | 2 | STRUCTURED_YOLO |

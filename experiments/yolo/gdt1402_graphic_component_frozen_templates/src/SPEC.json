@@ -1,0 +1,39 @@
+{
+  "source_image": "experiments/yolo/gdt996_f83r_candidate_seam_consequences/artifacts/YALE_1006224_ORIGINAL.jpg",
+  "source_image_sha256": "dc353557586906cbe4210f503cc57af58599a3948517fb45b1d222760be96729",
+  "source_url": "https://collections.library.yale.edu/iiif/2/1006224/full/full/0/default.jpg",
+  "source_size": [
+    2753,
+    3745
+  ],
+  "source_packet": "experiments/yolo/gdt1402_graphic_component_frozen_templates/artifacts/SOURCE_PACKET.json",
+  "prototype_ids": {
+    "REF_LOW": "ZL3b|f83r.2|G002",
+    "REF_A": "ZL3b|f83r.2|G007",
+    "REF_B": "ZL3b|f83r.2|G003"
+  },
+  "target_ids": {
+    "TARGET_X": "ZL3b|f83r.8|G003",
+    "TARGET_Y": "ZL3b|f83r.5|G003"
+  },
+  "expected_high_template": {
+    "TARGET_X": "REF_A",
+    "TARGET_Y": "REF_B"
+  },
+  "selection": "On the previously exposed strict1233ZL cache: the first f83r ckh and first cth group. Free prototypes are the first ch,k,t occurrences on line2. Chosen before any pixels this block; no target may be replaced. This is source-guided exploratory selection, not a blind manuscript prediction.",
+  "old_target_ids_not_reused": [
+    "ZL3b|f83r.21|G009",
+    "ZL3b|f83r.23|G006",
+    "ZL3b|f83r.23|G007"
+  ],
+  "allowed_geometric_comparison": "Translation and uniform viewing scale only; ordinary curvature may vary but the frozen qualitative topology must remain. No rotation/reflection/aniso stretch, missing upper loop/stroke repair or inferred pen order.",
+  "overlap_allowance": "Only the low bridge/tall stem junction can share or interrupt ink; no disappearance of diagnostic upper features outside that zone. Missing/obscured feature gives UNSCORABLE, not a negative match.",
+  "reference_gate": "All3reference portions localized and fully visible; A and B have at least one frozen mutually discriminating upper feature. Freeze StageA before observer receives target file paths/images. Otherwise stop without StageB.",
+  "target_gate": "Each target must have the low motif and every defining feature of its expected high template; its wrong high template must have an explicit visible contradiction. Any missing/ambiguous localization or discriminating feature =>UNSCORABLE; visible incompatible features=>CONTRADICTED.",
+  "outcomes": [
+    "CROSSED_GRAPHIC_COMPATIBILITY_BOTH_TARGETS",
+    "FIXED_GRAPHIC_COMPOSITION_CONTRADICTED",
+    "REFERENCE_OR_TARGET_CAPACITY_STOP"
+  ],
+  "claim_ceiling": "One source-guided local graphic observation by an AI with transcript-to-target classes withheld in its task. Old whole-page exposure retained. No physical stroke order, letters vs ligature vs modifier choice, linguistic unit count, sounds, words, direction or translation."
+}

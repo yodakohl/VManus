@@ -1,0 +1,95 @@
+{
+  "title": "RAW UNREVIEWED: a public follower grammar makes the shortest readable word prefix context-owned",
+  "summary": "Complete invented shorthand with a closed wordbook and an independently fixed word-transition grammar. The previous fully decoded source word supplies the permitted next-word set. Write the shortest nonempty prefix that reads uniquely under full-candidate priority; a full word is always available. No special marker, new name exception or supplied answer per occurrence is needed. One shared literal22-character map carries prefixes, while context may change a word's spelling. No source language, native key or statistical fit is selected.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "design": {
+    "source_parameters": {
+      "alphabet": "Exactly22declared source characters Sigma with one fixed bijection pi to22abstract visible drawings. A..V are teaching names only. Unsupported original characters, case or punctuation cannot be silently normalized into this domain.",
+      "wordbook": "A nonempty finite closed set W of nonempty exact Sigma-words. The full spellings are shared apparatus, not meanings guessed for output groups.",
+      "grammar": "One independently fixed public follower set G(q) subset W for every q in W and for START, plus a set F subset W of legal paragraph-final words. G and F are fixed before any proposed source/target comparison; they are not supplied separately for each desired target answer.",
+      "source_messages": "Each nonempty paragraph is a path w1,...,wn with w1 in G(START), each w(i+1) in G(wi), and wn in F. The source is the exact ordered word sequence and paragraph structure. An empty document is allowed; empty paragraphs and words outside W are not.",
+      "context_memory": "The only changing context is the most recent fully decoded source word. Reset to START at each written paragraph boundary. Do not use the most recent abbreviated surface, an unencoded part-of-speech label, page identity, future answer or an invisible reset."
+    },
+    "local_reading_rule": {
+      "candidate_set": "At context q let C=G(q).",
+      "literal_priority": "For a nonempty received prefix p, if p itself belongs to C, decode it as that exact source word p.",
+      "unique_extension": "Otherwise let H={w in C: w starts with p}. Decode to the sole member if |H|=1; reject if H is empty or has several members.",
+      "prefix_of_another_word": "If BAT and BATE both belong to C, whole BAT means BAT. BATE cannot borrow that spelling: it must continue until a prefix decodes to BATE. Visible whole-group boundaries are already part of the contract, so no artificial end-of-stem drawing is needed."
+    },
+    "writer": [
+      "Validate the intended next source word w against C=G(q).",
+      "Inspect the nonempty prefixes of w in increasing length and choose the first p for which the fixed local reading rule returns w. Full w always succeeds by literal priority, so the writer terminates without an escape branch.",
+      "Emit pi(p) as exactly one complete visible group, then update q to the full source w. The shortened surface is not the next state.",
+      "Preserve word order and paragraph boundaries. Physical line wraps occur only between complete groups and carry no source content. At paragraph end require q in F."
+    ],
+    "reader": [
+      "Start at START. Invert pi on each complete visible group to obtain p, and apply the same local reading rule to C=G(q).",
+      "Check that p is the shortest nonempty prefix that would encode the returned word w at this q; otherwise reject a noncanonical longer spelling.",
+      "Append the full exact w to the recovered source and update q=w. At the written paragraph end require w in F and then reset for the next paragraph.",
+      "Reject an illegal prefix or failed final condition. No unknown word, convenient synonym, literal fallthrough outside W or later context is allowed to repair it."
+    ],
+    "inverse_proof": "For every legal w the full spelling belongs to C and therefore decodes to w. The mandatory shortest accepted prefix consequently exists. Its local decoding is single-valued by construction, so two distinct candidates cannot receive the same prefix in one context. Induction from START gives the exact source word at every position and identical successive contexts. Source word/paragraph counts are preserved, even though an output prefix can denote different source words in different publicly reconstructed contexts.",
+    "complete_small_example": {
+      "W": ["ADD", "ASK", "BAT", "BATE", "BEND", "CUT", "CURE", "DONE"],
+      "G": {
+        "START": ["ADD", "ASK"],
+        "ADD": ["BAT", "BATE", "BEND"],
+        "ASK": ["BEND", "CUT", "CURE"],
+        "BAT": ["ADD", "DONE"],
+        "BATE": ["ASK", "DONE"],
+        "BEND": ["ASK", "CUT", "DONE"],
+        "CUT": ["BAT", "BATE", "BEND"],
+        "CURE": ["DONE"],
+        "DONE": []
+      },
+      "F": ["DONE"],
+      "literal_map": "Identity on the abstract A..V teaching drawings; unused characters remain defined. No native mapping is implied.",
+      "source": "ADD BEND ASK BEND CUT BAT DONE",
+      "output": "AD BE A B C BAT D",
+      "context_difference": "BEND after ADD needs BE because BAT/BATE compete; BEND after ASK needs only B. This is one source word with different deterministic spellings, caused by one fixed public grammar.",
+      "full_word_priority": "After CUT, BAT and BATE are both allowed. BA is ambiguous, BAT is the complete BAT candidate, and BATE must remain BATE. Neither word needs a quote marker.",
+      "second_complete_source": "ASK CUT BATE ASK CURE DONE",
+      "second_output": "AS CUT BATE A CUR D",
+      "scope": "These are exact unglossed teaching strings and a deliberately invented finite grammar, not evidence that a real medieval language follows these transitions."
+    },
+    "paid_costs_and_human_operation": [
+      "Pay every source spelling in W, all allowed follower sets and final-word membership,22literal correspondences, one-word memory, literal priority and mandatory shortest-prefix choice. The grammar may have up to|W|^2edges; it is not a free source of plausible next words.",
+      "A human can consult a small public follower list and write enough initial letters to distinguish the intended continuation. A large general-language grammar could be impractical. No historical attestation or unbounded human prediction ability is claimed.",
+      "The grammar conveys shared admissibility information; it does not replace the source words or choose their meanings after observing output. If G is designed around the target, apparent decoding is uninformative.",
+      "Unlike a free whole-word code bank, no output spelling is independently chosen. Every spelling is the mandatory literal prefix determined by the same C rule. This is nevertheless a lexicon/grammar-heavy apparatus whose entire size must be charged.",
+      "There are no null words, extra controls, hidden final characters or literal exceptions. Even a single possible next word writes a nonempty first character."
+    ],
+    "different_prospective_consequences": [
+      "For one fixed source word, all possible spellings are prefixes of that same word and therefore pairwise prefix-comparable. The rule does not generate arbitrary internal suffix changes, synonyms or independently fitted whole variants.",
+      "If C1 subset C2 and w belongs to both, its shortest code under C1 cannot be longer than under C2. Any prefix that already decoded w under C2 still does so under C1. This compares defined candidate sets, not a guessed general predictability score.",
+      "The complete ordered stream of first source characters is preserved up to pi, and output word count is unchanged. Every long written group remains an exact source-word prefix.",
+      "The same previous SOURCE word and next SOURCE word always give the same output. The same visible previous abbreviation need not establish the same source context; do not import the1204same-visible-neighbor contradiction without its required identity bridge.",
+      "Whole-source-word frequencies need not be preserved: a word can shorten differently across contexts, and the same output prefix can decode differently in different contexts. No statistical improvement or source pass follows from that freedom.",
+      "A long output with a strict internal fourfold still requires that literal prefix in a source word. The old974/1240fixed-source obstruction is NOT repaired by contextual prefix shortening, and no replacement source is nominated here."
+    ],
+    "bounded_predecessor_review": [
+      "Route, variants topic, bounded ideas/duplicates and route-check read. Search is navigation, not an exhaustive novelty proof.",
+      "IDEA934uses globally distinguishing stem prefixes with an end marker and has retained interface/cost limits. This source word contract instead has declared follower sets, whole-group boundaries and full-candidate priority. It does not alter934or the failed1175interface.",
+      "IDEA983grows a record lexicon from previously written full words and uses a dedicated reference marker. Its1293carrier conflict remains. Here the grammar is fixed before writing, may license unseen words, and neither a growing cache nor a marker is present.",
+      "IDEA971already proposes contextual disambiguation, so that principle is not new. Its retained review says the original full skeleton remains one unit per source letter and no complete public context rule/carrier was supplied. The present exact previous-source-word grammar, literal-priority decoder and nonempty prefix stopping rule are the added complete contract, not a claimed native phonetic complement.",
+      "GDT1166REPORT validation/limits/decision and GDT1171REPORT decision/scope were read. Their source candidate pipeline and fixed order5context instrument remain failed; no new decoder, smoothing, vocabulary or source-control run is proposed. Those reports do not establish this separate deterministic author-side spelling mechanism.",
+      "IDEA1069is a context-independent one-interior-gap writer;1070is a compulsory singleton-word table. Their current fixed-source failures remain. Neither is changed or composed with this rule.",
+      "No r/l transfer result, new source corpus, native word profile or current experiment output is an input to this authoring. There is no concrete Voynich meaning assignment."
+    ],
+    "selection_limit": "RAW source construction only. No actual W/G/F, historical passage, native key, empirical model or semantic preference is selected beyond the tiny teaching example. Before any source comparison these parameters must be independent and fully frozen; before any native meaning, the normal profile/prior-evidence duties remain. No automatic source search or test is nominated."
+  },
+  "relations": [
+    {"target": "IDEA000934", "type": "related_to"},
+    {"target": "IDEA000971", "type": "related_to"},
+    {"target": "IDEA000983", "type": "related_to"},
+    {"target": "GDT1166", "type": "related_to"},
+    {"target": "GDT1171", "type": "related_to"},
+    {"target": "GDT1240", "type": "related_to"}
+  ],
+  "work_record": {
+    "started_utc": "2026-10-16 14:16:11 UTC",
+    "authored_utc": "2026-10-16 14:20 UTC onward",
+    "access": "Bounded creative source-only construction, route/topic/cards/duplicates and exact named prior-decision sections. No native data, images, new source, corpus count, implementation, test or Root-file change. Source words in the tiny example are illustrative strings, not proposed Voynich values."
+  }
+}
