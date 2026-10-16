@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1412**
-- Experiment-associated tracked files: **27,640** (2.4 GiB)
-- Structured GDT337+ experiments: **1077**
+- Experiments indexed: **1413**
+- Experiment-associated tracked files: **27,659** (2.4 GiB)
+- Structured GDT337+ experiments: **1078**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1414 | gdt1414_local_homophonic_run_key | `ALL_SIXTEEN_LOCAL_HOMOPHONIC_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1414_local_homophonic_run_key/REPORT.md) | 19 | 99.5 KiB | 6 | STRUCTURED_YOLO |
 | GDT1413 | gdt1413_coupled_tk_lhead_pivot_capacity | `FORMAL_BREADTH_MISSING` | [report](../experiments/yolo/gdt1413_coupled_tk_lhead_pivot_capacity/REPORT.md) | 21 | 77.3 KiB | 5 | STRUCTURED_YOLO |
 | GDT1412 | gdt1412_differential_global_repeat_letter_bound | `BETA_FILTER_NONEXCLUDING_ALL_FIXED_WORDSETS` | [report](../experiments/yolo/gdt1412_differential_global_repeat_letter_bound/REPORT.md) | 33 | 2.5 MiB | 8 | STRUCTURED_YOLO |
 | GDT1411 | gdt1411_f75v_repeated_form_visual_check | `QUALIFIED_REPEAT_SUPPORT_WITH_UNRESOLVED_BOUNDARIES` | [report](../experiments/yolo/gdt1411_f75v_repeated_form_visual_check/REPORT.md) | 22 | 2.3 MiB | 5 | STRUCTURED_YOLO |
