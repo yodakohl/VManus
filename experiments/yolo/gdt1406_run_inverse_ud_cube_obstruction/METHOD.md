@@ -1,0 +1,13 @@
+# GDT1406 — A whole-word cube is necessary without any prefix-code assumption
+
+Decision note RUN_INVERSE_UD_CUBE_PLAN_20261016.json fixes the40minuteinclusivebudget and the two separate contracts. Sources and five rawnativewitnessforms were chosen before any source-cube counts; nativepremises alreadyexposed in1405are notheldpredictions.
+
+PURE: Every original whole group, after hypothetical maximal e/i-run collapse, is a concatenation of fixed NONEMPTY WRITTEN blocks C. C is freely uniquely decodable for ALLentrysequences, with arbitrary size/length and no prefix/suffix requirement. Each entry has one fixed plaintextSTRING expansion; differententriesmayexpandthesame. Otherentriesmayexpandempty. But standalonewholegroups d/y force singletonCentries and their expansionsU/Vmustbothbenonempty becauseeverywholegroupisoneNONEMPTYwordfromtheunchangedW. The valid sixentryparse d,y,d,y,d,y is forcedbyfreeUD. Thus the ENTIREplaintextword is(UV)^3 withblocklength>=2, evenifU=V.
+
+MIXED is separate: All1-character-sourcewords are obligatorily singleBASEunitlogograms; allotherwords usefreelyUDnonemptywritten literal-character codes. A completeBASEword dy orydoflength2 cannotbealogogramandmustdecode>=2sourcecharacters. Exactlytwosingletonlettercodes arethereforeforced. The sametargetdydydy thenrequiresawholecube. Omittingmandatorylogogramsorallowingarbitrarywholewordprioritychangespremises. Thismixedproofdoesnotuseoneunitgroupsaslettercodes.
+
+Bothhypotheses inherit22workingunits/wholegroupwordalignment/runinverseassumptions. Entireunderlyingcodedsourcewordmustavoidadjacent e/eori/ibeforeexpansion, includingcodejoins. Capacityignoresunobservedlexiconproductionduties. Perwordnative/plaintextreversalpreservescubeness. Noactualwordvaluesorsourcekeysareassigned.
+
+UseFULL/rawLEAF2 beforecollapse, readersseparate. CheckONLYd,y,dy,yd,dydydy. MissingPUREorMIXEDpremises yieldNO_BRIDGE, notcompatibility. SourcepredicateisENTIREword B^3 with|B|>=2, notmerelyacubicSUBSTRING andnotnecessarilyprimitiveB. The primary tests fixed1403FWD equalitypatternkeys and verifiesrepresentativewordcertificates; no newcorpus. Independentvalidator reconstructsactual8Wfromold1177/1228/1290caches and originalnativegroupsfrom1233. No normalization, case/accent/punctuationchange or dictionaryexpansion. Anycubeprovidesnecessarycapacityonly, no reading.
+
+The old1267fourth-powerresult and1353/1398/1405decisionskeeporiginalscope. No broaderfreeUDcensus/solver, decoder, alphabetfit orqueryformsearch follows. NeutralprimaryHebrewwordpatterncontrolsarenotnativeglossesandarenotaddedtofixedW; anabsentwordinacontrolvocabularydoesnotbanalanguage.

@@ -1,3 +1,19 @@
+## 2026-10-16 — GDT1406 blocks the same8W across wider freeUD codes
+
+Direct d/y wholewords force singletonentries and positiveexpansionsU/V; dydydy
+must be(UV)^3underANYfreelyUDfixedblockcode, withoutprefixfreedom/sizecaps and
+withhomophonous/multicharexpansions/nullotherentriesallowed. The separateMIXED
+mandatoryone-characterlogogram contract getslettercodesfromwholeworddy/yd.
+All8unchangedWlack anywholecubeB3withblock>=2; FULLall3/LEAF2ITRFcontradictboth.
+ZLLEAF2lacks targetdydydy: NO_BRIDGE, notcompatibility. IndependentactualW/native
+reconstructionandbyteexactreplayPASS. No repair or newwitnesssearch.
+[Report](experiments/yolo/gdt1406_run_inverse_ud_cube_obstruction/REPORT.md).
+Source-onlyprimaryHebrewwordpatterns showfiniteWabsenceisnotalanguageban; no
+nativegloss/key andneitherwordaddedtoW. Late19celectronicwitnessnotprintcollated
+orattestedmedieval. [Source evidence](research_registry/proposals/production_origin_supply_20261003/SOURCE_WORD_PATTERN_CAPACITY_20261016.json).
+Next: manualconstructivecontentrule, notanotherfixed8Wdecoder. Confirmedwords0.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — GDT1405 extends the fixed-W stop beyond singleton codes
 
 After hypothetical e/i-run inversion, complete prefix quotient proofs still give
