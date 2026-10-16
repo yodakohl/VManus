@@ -1,3 +1,32 @@
+## 2026-10-16 — GDT1396: inner deletion remains unselected
+
+1069has a valid invented inverse with a fixed wordbook, literal priority and
+unique one-interior-gap expansions. The generous endpoint-retaining deletion
+family can produce one-unit groups only from one-character sourcewords.
+Using ALL2,411words of the old1228projection as W, arbitrary messages W*have
+capacity12types. The old native IT12/ZL10inventories survive, RF14ALLfails;
+GE2(8/7/10)andCOMMON6all survive. No jointWdomain or general1069exclusion.
+The12source forms are projected tokens, not12identified function words; the
+control vocabulary is not a nominated source or language.
+
+A post-count key bound gives IT12!*10!=1,738,201,006,080,000necessary keys,
+factor646646under this fixed W/ALLcontract. It depends on four one-occurrence
+ITtypes; GE2islooser. No letter values or sufficient reading are identified,
+and this is no reduction percentage for the general Voynich search space.
+
+Original frozen validatorFAILisretained: old witness indexint versus cached
+indexstring. A separately sealed one-field adapter confirms all unchanged
+counts/pages/witnesses and primary decisions. Fresh replay reproduces both the
+original failure and diagnostic; manifestvalidationstaysFAIL. No older failure
+isrescored, no native query/image/reserve or meaning added.
+[Report](experiments/yolo/gdt1396_inner_deletion_singleton_wordbook/REPORT.md).
+
+1069remains formally valid, source/key/content unbound. No contraction optimizer,
+endpoint solver, added vocabulary or same singleton recount is selected. Next
+source/content review must supply an independently grounded binding or a genuinely
+different consequential hypothesis. Confirmed English lexemes remain0; the
+ten-hour request remains unfulfilled.
+
 ## 2026-10-16 — GDT1395 leaves categorical run variants open
 
 Adequate witnessed capacity: IT333cells/1536occurrences/37physical leaves,

@@ -1,0 +1,57 @@
+{
+  "diagnostic_correction": {
+    "change": "Convert the old1233 decimal-string index to int solely in the expected old1227 witness dictionary.",
+    "claim": "Diagnostic correctness after explicit schema normalization; not a PASS for the original frozen validator.",
+    "field": "source_group_index",
+    "original_code_inputs_result_unchanged": true,
+    "original_status": "ORIGINAL_FROZEN_VALIDATOR_FAILED",
+    "replacement_from": "'source_group_index':group['source_group_index']",
+    "replacement_to": "'source_group_index':int(group['source_group_index'])",
+    "scientific_criteria_unchanged": true
+  },
+  "experiment_id": "GDT1396",
+  "implementation": "Independent Unicode wordbook reconstruction and exact occurrence indexing; dynamic working-unit segmentation; source-free exhaustive endpoint-retaining deletions under bijections; no primary imports.",
+  "limits": [
+    "Fixed W domain and literal endpoint retention only; no general1069exclusion.",
+    "W is a control vocabulary, not a nominated manuscript plaintext or source language.",
+    "Working units and strict group boundaries are inherited; readers are alternative transcriptions."
+  ],
+  "pins": {
+    "adapter_lock_sha256": "fb31f0097b4b6e6615af0662b1ee743d82260ca55cef387dd560b633db6d3256",
+    "executed_adapter_sha256": "90be65776d110629fe359bdbdce5769e83977a66bab2f0ce9da6eb8d8b3379d5",
+    "executed_transformed_validator_sha256": "6c9c5734777389fbf592ea6f7882de7573d99e61418aa36c288c4828e6083c11",
+    "lock_sha256": "8edd6265f085086908b0aafbd2aa33bd29695c53ea3a08958937de562454cb8f",
+    "original_frozen_validator_sha256": "f790af743b683e8093ae6b82126b8665d8d066920275ff48172e3a6e8abb2b6c",
+    "original_validation_failure_sha256": "6fd1c326dd832ef180fa0740e0b937b85d7337edc02e0737063af90449d56081",
+    "result_sha256": "eee5438dd87ccf0c8b63fa5f378541d0624a9f1cfd0ed295ba4cca302a4f7841",
+    "spec_sha256": "dabf1b6f959eec9ed7be239ff84c2ff7a1b605e2e54fcd71dd4ebf03f2ea32a2"
+  },
+  "readers": {
+    "IT2a": {
+      "all_counts_pages_and_original_witnesses_verified": true,
+      "singleton_tokens": 300,
+      "singleton_types": 12
+    },
+    "RF1b": {
+      "all_counts_pages_and_original_witnesses_verified": true,
+      "singleton_tokens": 422,
+      "singleton_types": 14
+    },
+    "ZL3b": {
+      "all_counts_pages_and_original_witnesses_verified": true,
+      "singleton_tokens": 252,
+      "singleton_types": 10
+    }
+  },
+  "scientific_status": "SOME_READERS_EXCLUDED",
+  "source_free_controls": {
+    "empirical_access": false,
+    "endpoint_deletion_bijection_cases": 14004,
+    "length1_length2_and_equal_endpoints_checked": true,
+    "long_word_single_letter_logogram_outside_contract": true,
+    "status": "PASS_SOURCE_FREE_CONTROLS"
+  },
+  "source_occurrences_verified": 70,
+  "source_single_word_types": 12,
+  "status": "PASS_DIAGNOSTIC_SCHEMA_NORMALIZATION"
+}

@@ -5,10 +5,10 @@ Updated: 2026-10-16.
 Phase: exploration
 Status: active
 Task: source
-Latest decision: 1395 NR
+Latest decision: 1396 DIAG
 Working files: IDEA1069
 Assumptions: no meanings
-Resume: review 1069
+Resume: source review
 Running: none
 
 ## Structural baseline
@@ -53,7 +53,7 @@ IDEA237 untested;30 programs first-passed;P09 closed.
 ## Access
 f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v unadmitted;reserves closed until near-complete reading.
-Prior exposure is not confirmation.
+Exposure is not confirmation.
 179cached selectors;grants separate;F historical;f1r margins only;
 f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57scopes](docs/57v-signs.md);
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publice9cb15bf3.
+Public9307dc24b.

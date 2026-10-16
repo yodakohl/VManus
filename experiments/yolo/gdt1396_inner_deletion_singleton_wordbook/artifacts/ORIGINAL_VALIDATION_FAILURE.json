@@ -1,0 +1,41 @@
+{
+  "claim": "No scientific exclusion is independently validated by this failure record.",
+  "diagnosis": {
+    "classification": "VALIDATOR_METADATA_TYPE_MISMATCH",
+    "example": {
+      "id": "IT2a|f89v1.19|G002",
+      "old1227_value": 2,
+      "old1233_value": "2",
+      "reader": "IT2a",
+      "unit": "a"
+    },
+    "field": "source_group_index",
+    "old1227_type": "integer",
+    "old1233_type": "decimal string",
+    "other_field_mismatches": 0,
+    "scientific_criteria_changed": false,
+    "stored_witnesses_compared": {
+      "IT2a": 12,
+      "RF1b": 14,
+      "ZL3b": 10
+    }
+  },
+  "experiment_id": "GDT1396",
+  "pins": {
+    "lock_sha256": "8edd6265f085086908b0aafbd2aa33bd29695c53ea3a08958937de562454cb8f",
+    "old1227_result_sha256": "64f4528f45a32e4f77bf65ab49e8ec6d57ce9cbca30670477277d9e57b644e23",
+    "old1233_groups_sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+    "original_validator_sha256": "f790af743b683e8093ae6b82126b8665d8d066920275ff48172e3a6e8abb2b6c",
+    "primary_result_sha256": "eee5438dd87ccf0c8b63fa5f378541d0624a9f1cfd0ed295ba4cca302a4f7841"
+  },
+  "proposed_correction": "A separately recorded sidecar validator may convert only group[source_group_index] to int when constructing expected witness. Preserve the original locked script, inputs, source alphabet, model, decision thresholds and RESULT bytes. The original validator remains failed; report any corrected validation separately.",
+  "recorded_utc": "2026-10-16T11:14:05.205097+00:00",
+  "reported_original_exception": {
+    "assertion": "assert witness==expected and group['units']==[unit]",
+    "line": 111,
+    "provenance": "Original failure reported by root; diagnosis uses targeted retained witness records, not a modified rerun.",
+    "script": "experiments/yolo/gdt1396_inner_deletion_singleton_wordbook/src/validate.py",
+    "type": "AssertionError"
+  },
+  "status": "ORIGINAL_FROZEN_VALIDATOR_FAILED"
+}

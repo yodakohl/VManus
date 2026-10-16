@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1394**
-- Experiment-associated tracked files: **27,240** (2.4 GiB)
-- Structured GDT337+ experiments: **1059**
+- Experiments indexed: **1395**
+- Experiment-associated tracked files: **27,262** (2.4 GiB)
+- Structured GDT337+ experiments: **1060**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1396 | gdt1396_inner_deletion_singleton_wordbook | `SOME_READERS_EXCLUDED_ORIGINAL_VALIDATOR_FAIL` | [report](../experiments/yolo/gdt1396_inner_deletion_singleton_wordbook/REPORT.md) | 22 | 83.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT1395 | gdt1395_single_run_context_choice | `NOT_REJECTED` | [report](../experiments/yolo/gdt1395_single_run_context_choice/REPORT.md) | 20 | 1.8 MiB | 6 | STRUCTURED_YOLO |
 | GDT1394 | gdt1394_independent_code_gap_capacity | `CAPACITY_STOP_NO_MODEL_EXCLUSION` | [report](../experiments/yolo/gdt1394_independent_code_gap_capacity/REPORT.md) | 18 | 1.4 MiB | 2 | STRUCTURED_YOLO |
 | GDT1393 | gdt1393_prefix_beam_capacity | `PREFIX_GATE_FAIL_NO_FULL_BEAM_ENGINE` | [report](../experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md) | 20 | 98.1 KiB | 2 | STRUCTURED_YOLO |

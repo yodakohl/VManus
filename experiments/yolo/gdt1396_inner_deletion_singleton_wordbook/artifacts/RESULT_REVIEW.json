@@ -1,0 +1,97 @@
+{
+  "experiment_id": "GDT1396",
+  "status": "PASS_CLOSURE_SCOPE_REVIEW_WITH_ORIGINAL_VALIDATOR_FAILURE_RETAINED",
+  "scientific_status": "SOME_READERS_EXCLUDED",
+  "source_single_word_types": 12,
+  "reader_tiers": {
+    "IT2a": {
+      "ALL": {
+        "types": 12,
+        "status": "NOT_EXCLUDED"
+      },
+      "GE2": {
+        "types": 8,
+        "status": "NOT_EXCLUDED"
+      },
+      "COMMON6": {
+        "types": 6,
+        "status": "NOT_EXCLUDED"
+      }
+    },
+    "RF1b": {
+      "ALL": {
+        "types": 14,
+        "status": "EXCLUDED"
+      },
+      "GE2": {
+        "types": 10,
+        "status": "NOT_EXCLUDED"
+      },
+      "COMMON6": {
+        "types": 6,
+        "status": "NOT_EXCLUDED"
+      }
+    },
+    "ZL3b": {
+      "ALL": {
+        "types": 10,
+        "status": "NOT_EXCLUDED"
+      },
+      "GE2": {
+        "types": 7,
+        "status": "NOT_EXCLUDED"
+      },
+      "COMMON6": {
+        "types": 6,
+        "status": "NOT_EXCLUDED"
+      }
+    }
+  },
+  "review_scope": "Read primary result, original validation failure, sealed schema adapter and separate diagnostic receipt. No source wordbook/native census or new source count accessed; no validator rerun.",
+  "findings": [
+    "Only RF1bALL14types exceed the fixedWcapacity12. IT2aALL12andZL3bALL10are not excluded. The primary all-reader domain-exclusion criterion is therefore not met.",
+    "EveryGE2andCOMMON6tier is not excluded. The RFALLcontradiction depends on retaining its rare singleton-type evidence and original source-unit/group readings. It is not a robust cross-reader contradiction.",
+    "Necessary cardinality compatibility does not identify a key or prove a full contraction writer for IT/ZL or the sensitivity tiers.",
+    "The fixed projection contains12singleton source-word types. That does not establish12ordinary function words in a language; citation/editorial and projection artifacts remain in the unchanged domain. No source inventory item receives a Voynich value.",
+    "No blanket1069, Hebrew, contraction or meaningful-content exclusion follows. The current testedWdomain plus exact endpoint/literal/whole-group assumptions are essential."
+  ],
+  "validation_history": [
+    "The frozen independent validator originally failed comparing an integer source_group_index to an equivalent decimal string. Original failure artifact and code remain intact.",
+    "The sealed adapter changes only that expected-witness field to int and emits VALIDATION_DIAGNOSTIC.json, never overwriting or claiming an original VALIDATION.json PASS. Static replacement and all adapter-lock hashes agree.",
+    "The diagnostic PASS confirms corrected schema correspondence and unchanged scientific result. It is not an original preregistered-validator PASS, a new scientific result, or a rescore under changed criteria."
+  ],
+  "necessary_corrections": [],
+  "decision": "Preserve mixed primary outcome and separate diagnostic validation; no endpoint solver, added vocabulary, dropped rare types or reader pooling as an automatic repair.",
+  "hashes": {
+    "artifacts/RESULT.json": "eee5438dd87ccf0c8b63fa5f378541d0624a9f1cfd0ed295ba4cca302a4f7841",
+    "artifacts/ORIGINAL_VALIDATION_FAILURE.json": "6fd1c326dd832ef180fa0740e0b937b85d7337edc02e0737063af90449d56081",
+    "src/validate.py": "f790af743b683e8093ae6b82126b8665d8d066920275ff48172e3a6e8abb2b6c",
+    "src/validate_schema_adapter.py": "90be65776d110629fe359bdbdce5769e83977a66bab2f0ce9da6eb8d8b3379d5",
+    "ADAPTER_LOCK.json": "fb31f0097b4b6e6615af0662b1ee743d82260ca55cef387dd560b633db6d3256",
+    "artifacts/VALIDATION_DIAGNOSTIC.json": "0d77226958a29d9da3c07b3037c6090316b4d4c07058d079d03d881d07f83409"
+  },
+  "postcount_necessary_key_capacity": {
+    "status": "POSTCOUNT_ALGEBRAIC_COROLLARY_NOT_PREREGISTERED_TEST",
+    "assumptions": "Fixed22source and22target identities, global bijection, source singleton set size12, inherited native singleton sets per reader. Only necessary singleton containment is imposed.",
+    "IT2a": {
+      "formula": "12! * 10!",
+      "keys_satisfying_only_singleton_condition": "1738201006080000",
+      "all_bijections_divided_by_this_count": 646646,
+      "reason": "Equal-sized12element source and target singleton sets force their exact image equality; bijections within that set and its complement are free."
+    },
+    "ZL3b": {
+      "formula": "P(12,10) * 12! = (12!/2!) * 12!",
+      "keys_satisfying_only_singleton_condition": "114721266401280000",
+      "reason": "Assign distinct preimages from the12source singletons to the10native singleton units, then map the remaining12source units bijectively to the remaining12target units."
+    },
+    "RF1b_ALL": {
+      "keys": 0,
+      "reason": "14distinct target singleton units cannot be images of only12source singleton words."
+    },
+    "limits": [
+      "These count all bijections satisfying ONLY the observed singleton necessary condition, not complete viable writers or identified mappings.",
+      "No individual letter values, actual source identity, global Voynich search-space reduction percentage, information gain or decipherment progress follows.",
+      "The algebra is derived after the source count and does not alter the primary mixed decision or original validator failure history."
+    ]
+  }
+}
