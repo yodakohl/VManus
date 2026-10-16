@@ -1,0 +1,77 @@
+{
+  "record_id": "GDT1393",
+  "scope": "method",
+  "verdict": "nonconfirming",
+  "reviewer": "root source/decision synthesis; independent full-sort validator and source-free scope reviewers",
+  "assessment_basis": "Necessary first-ten retention for exactly six fixed width65536 source-only forward beams on exposed1390controls.",
+  "reason": "Only2/12positiveprefixes retained in the six-beam union;10cannotbe recovered by this no-revisit algorithm. All18controls have unrestricted firstten modular characters. Fullengine notimplemented.",
+  "blockers": [
+    {
+      "code": "true_prefixes_pruned_before_cipher_constraints",
+      "detail": "Ten positive control prefixes leave every beam by position10. No final normalized scoring can restore them under the fixed algorithm.",
+      "evidence": [
+        "experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/PREREGISTRATION.md",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/COMPARISON.json",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/VALIDATION.json"
+      ]
+    },
+    {
+      "code": "no_native_application",
+      "detail": "Retrospective control-method gate only; neither writer/language exclusion nor recovery of the two surviving complete messages.",
+      "evidence": [
+        "experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/PREREGISTRATION.md",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/COMPARISON.json",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A genuinely different independently specified proposal score/traversal with a concrete recovery reason; preserve the original failed decisions and full-message controls.",
+        "evidence": [
+          "experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md",
+          "experiments/yolo/gdt1393_prefix_beam_capacity/PREREGISTRATION.md",
+          "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/COMPARISON.json",
+          "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/VALIDATION.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "Increase the same beam width automatically",
+      "Call the two retained prefixes recovered messages",
+      "Apply missing output prefixes as a language/writer exclusion",
+      "Treat public historical truth as a fresh blind sample"
+    ]
+  },
+  "relations": [
+    {
+      "target": "GDT1390",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "target": "IDEA001064",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "target": "GDT1324",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md",
+        "experiments/yolo/gdt1393_prefix_beam_capacity/PREREGISTRATION.md"
+      ]
+    }
+  ]
+}

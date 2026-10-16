@@ -1,0 +1,190 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact fixed-algorithm prefix exclusion on exposed controls only; no full decoder, native text, source language or writer exclusion, and no meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1393_prefix_beam_capacity/src/reproduce.py --output-dir .cache/replay1393",
+    "validate": "python3 experiments/yolo/gdt1393_prefix_beam_capacity/src/reproduce.py --output-dir .cache/validate1393"
+  },
+  "created": "2026-10-16",
+  "dependencies": [
+    "GDT1390",
+    "GDT1324"
+  ],
+  "experiment_id": "GDT1393",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/MODELS.json",
+      "sha256": "9c68e995759c314f7f134267b60a07726733833982fe26e66669b336737693a5",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/CASES.json",
+      "sha256": "6ce955864ed70b3a8c845983839bf227f57732310895c46f44b7b06f42f7ead0",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_latin.json.gz",
+      "sha256": "8a55af99ae64e893282c74e6a3864a72b8380445a15c6e8294782c2cfad88ebd",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_middle_high_german.json.gz",
+      "sha256": "b22048e2c59c6954b00f091ad68ca7e894600eef15ddb3278e495dd3c736cf36",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_middle_french.json.gz",
+      "sha256": "cf324df9c2400387ae0abd3e68151028df26cd3b00ca8394947226d7db672d95",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_old_italian_tuscan.json.gz",
+      "sha256": "aa1f937277f14ade21aec45050d1b4ed443ef24c0b7333f31faba4a0c93fbc44",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_medieval_czech.json.gz",
+      "sha256": "d6b0fb579ae563fc5afdd5730ad6d17bf1959ff32083c6643fa5df6a6ac5d733",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_old_hungarian.json.gz",
+      "sha256": "a2a7e78001f40c926d942e798a26e4d8c98afc0d861f61c62d2dafb1785c259e",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/C1064_PREFIX_RANK_DECISION_20261016.json",
+      "sha256": "ba180fd7a13290bb4b6db5236882cc7b6e0233eaaf8bf6d57199b6e791c025f8",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/C1064_PREFIX_RANK_DIAGNOSTIC_20261016.py",
+      "sha256": "7f4a6ebab87ac1667d775e5f469d7be8e27692e8984bec350109ad4f3e23e276",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/C1064_PREFIX_RANK_RESULT_20261016.json",
+      "sha256": "6e3f7b58b0a1db4a1169b4ea6a1a43e80d6982251b2b16f9a32e55599422a45b",
+      "role": "Frozen source model or preliminary control geometry"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/TRUTH.json",
+      "sha256": "792c08062fbe9b6458990f914b6ff12e0c2db63714bbf12444ee471e8418d2f5",
+      "role": "Previously public control truth; used only after output seal"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/CODE_LOCK.json",
+      "sha256": "a2850834ec935b7f67921de46f7f57e43808e7efc687e35e0363a0f1d3d675b0",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/METHOD.md",
+      "sha256": "f371aac0f3f7b6416e264ff99d80c3a44e34f0e8fa972845f5e56f628f152c18",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/PREREGISTRATION.md",
+      "sha256": "0f6dad8a00f2112ab64f5e06fe8701f43ea8b63f94817ed2a15f4b79b13d2748",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/README.md",
+      "sha256": "879f500adc75b2d7ad94e00d8312f4b9c0ba7f418960f9f96170ef4e078318c8",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md",
+      "sha256": "fa90bc49f1d6eb615a52131a28a63838436de10acce7f70558491ce1a60eb182",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/BEAMS.json",
+      "sha256": "4e0a9809b5de55f5ae00c667847acb111d287dcf8eddbd510426be9500be8bde",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/BEAMS_SEAL.json",
+      "sha256": "6cde71d2ebf80d5a0bc2f6cda7f2c4912a8461270ff022ca113fbe2f80b35d58",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/CLOSURE.json",
+      "sha256": "2602c2520effe33c01e645ec582809e8918329954e2ecc19bd21ab2fb2d90f12",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/COMPARISON.json",
+      "sha256": "eba8035e2a2c640254dfbdce2b46c8394d12a3edd8e2cb1c0d04aa92e76a143e",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/PROTOCOL_REVIEW.json",
+      "sha256": "5df84dc52e4a3d7f9db1f6f283f04f075a1331dac91deed510228c66b2fb1097",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/README.md",
+      "sha256": "374056c50d728d9cacd1438dde5892762de0a111fa13041d230474ab6e2bf48c",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/REPLAY_VALIDATION.json",
+      "sha256": "8850f6c683e17427702fba3f44fbeaa1c31647c846ddc18b0c37ad714378b82f",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/RESULT_REVIEW.json",
+      "sha256": "30fd4ddf12658be0cc5ed7c27c85831f4761f87b190f572b2ab3aa11cf692bb0",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/REVIEW.json",
+      "sha256": "188315af2093a857d6bfc44fa4c0642d8ed4f6ceded93d672592d404d22182fc",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/TRUTH_RELEASE_RECEIPT.json",
+      "sha256": "e47bac9b0b3b235059d71a88fd73477e92543afc8cb97f9d9e7569951d3f29f4",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/VALIDATION.json",
+      "sha256": "1b4764a82a517c5b32012eb56ab4fc5092727eed8087bf9601f533a49246c884",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/src/reproduce.py",
+      "sha256": "bb9dab75a80af974883499ff5131fb37cfcfd60714ad38f37e3532c78c8fbabf",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/src/run.py",
+      "sha256": "d80b870e63bdc5c3bb9e2a045355f6c236eb37679dd5eba96771c35fefbb4271",
+      "role": "Reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1393_prefix_beam_capacity/src/validate.py",
+      "sha256": "c5ae58e4e9f9de2eb47a1409fca3528a67454399b82879eda01ff6e9b865016b",
+      "role": "Reproducibility artifact"
+    }
+  ],
+  "question": "Do all twelve exposed positive controls retain their first ten characters in the union of six fixed width65536 source-only beams before modular constraints begin?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "prefix_beam_capacity",
+  "status": "PREFIX_GATE_FAIL_NO_FULL_BEAM_ENGINE",
+  "title": "Necessary source-prefix beam capacity before full cumulative recovery",
+  "updated": "2026-10-16",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1393_prefix_beam_capacity/artifacts/VALIDATION.json"
+  }
+}

@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: lexical
-Latest decision: 1392 spacing+
-Working files: GDT1392
+Task: writer
+Latest decision: 1393 fail
+Working files: GDT1393
 Assumptions: no meanings
-Resume: bind clause
+Resume: review1066
 Running: none
 
 ## Structural baseline
@@ -33,7 +33,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 GDT327/GDT336: historical; no access.
 
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390controlFAIL;CountSpecpark.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public86f0e4338.
+Publiccc14c4acc.

@@ -1,3 +1,26 @@
+## 2026-10-16 — GDT1393 stops a new decoder before full implementation
+
+The alternative forward source-character beam is genuinely different from1390's
+weight hillclimb, but fails its cheap necessary gate. All18oldcontrol matrices
+allow every first-ten prefix; exact constraints begin at positions11–21.
+The six fixed width65,536 source-only beams retain just2/12positive prefixes
+(both120-character cases) and0/6shuffled negatives. Ten correct starts cannot
+return under this no-revisit algorithm, so the complete decoder is not built.
+Independent full-sort reconstruction, all18comparisons and modular-prefix
+verification pass. Historical truth stays exposed; no native reading or
+language/writer exclusion follows, and the two surviving starts are not
+recovered messages. Original1390failure remains unchanged. No width repair.
+
+The phrase synthesis retained915's known-family coupling and916's failed
+new-pair transfer; it supplied no new whole-paragraph grammar. The proposed
+f9vreturn was recognized as the already documented630duplicate and withdrawn.
+No new word meanings were assigned. The ten-hour request remains unfulfilled.
+
+Next: review the newly supplied RAW1066last-word/shared-ending writer against
+972/1249/1202 and its paid gap grades;1392does not establish those gap classes.
+This is an unreviewed proposal, not a selected experiment or new writing finding.
+[Control decision](experiments/yolo/gdt1393_prefix_beam_capacity/REPORT.md).
+
 ## 2026-10-16 — Complete lexical worksheet and a second local spacing contrast
 
 The source-first worksheet retains all197 original IT groups from f75v43–49

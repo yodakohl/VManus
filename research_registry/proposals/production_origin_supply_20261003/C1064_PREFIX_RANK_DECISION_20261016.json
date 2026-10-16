@@ -1,0 +1,26 @@
+{
+  "status": "PROSPECTIVE_STRUCTURAL_CONTROL_DIAGNOSTIC_NO_DECODER_SELECTED",
+  "created_utc": "2026-10-16T08:48:22.478544+00:00",
+  "deadline_utc": "2026-10-16T09:03:22.478544+00:00",
+  "input": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/CASES.json",
+  "access": "Public anonymous control packet arrays only; no TRUTH, private seed, source association, recovery plaintext or native data.",
+  "question": "At which prefix positions do the cumulative22-weight-plus-offset equations constrain source characters, rather than leaving every next residue free?",
+  "contract": "For rowi use current22unitcountvector minus previousvector (initialzero), followedbyconstant1 for b, modulo27. Evaluate all18publiccontrols inoriginalorder. No sourceLM, key fitting or plaintext guesses.",
+  "outputs": [
+    "Rankmod3 after10,20,30,40positions and complete message.",
+    "For each prefix compute exact image cardinality over Z/27: extension image ratio is1,3,9or27. Ratio1 means currentcharacterdeterminedbycompatiblepreviouscharacters;3or9meanspartialconstraint;27 meansfullyfree. These are projected character freedoms, not number of recovered key parameters.",
+    "First dependent position; cumulative fullydetermined/partial/free positions at10/20/30/40andfull77/120.",
+    "Publicmetadata summaries by message length only, no true-language/positive-negative association."
+  ],
+  "decision_by_outcome": {
+    "early_constraints": "Many dependent or partial early positions make a bounded language-prefix proposal beam worth separate selection; full original normalized likelihood must still rescore final complete candidates. No recovery guarantee.",
+    "late_constraints": "Near23 initially free rows indicate severe prefix branching; do not select a plain small prefixbeam on full-rank evidence alone.",
+    "mixed": "Keep case-level variation; no favorable subset selection or change of controls."
+  },
+  "limits": [
+    "All27^23parameter vectors are allowed algebraically, including non-surjective keys. This is a necessary linear relaxation, not exact valid-key/source support or actual posterior ambiguity.",
+    "No sourceword or phoneme assignment; no source-prior change, newscorer, nativeattack or automatic larger computation.",
+    "Exact finite-ring rowmodule diagnostic; any timeout remains incomplete, not a failed writer."
+  ],
+  "work": "One small diagnostic script and result in existing dossier; root handles any material ledger/route integration."
+}

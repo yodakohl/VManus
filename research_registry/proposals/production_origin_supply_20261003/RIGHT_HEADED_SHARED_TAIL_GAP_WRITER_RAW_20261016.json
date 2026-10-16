@@ -1,0 +1,89 @@
+{
+  "title": "RAW: the final full word supplies one shared ending to earlier words within a visibly narrow-gap block",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED. A complete invented source-word transducer partitions a paragraph into maximal consecutive runs having the same final source unit. It keeps the final word full, removes exactly that final unit from earlier mixed-unit words, and retains unary words unchanged. Narrow gaps join members; wide gaps separate blocks. The reader finds the last full word, restores the shared ending and recovers every intended word boundary without a wordbook or dedicated control glyph. This is a derivative of972ending sharing and949gap grading, not a new discovery of those principles, a native spacing assignment, or a rescue of their fixed carriers.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "scope": "Complete finite paragraphs of nonempty source words over one fixed22-unit source alphabet. One output word per input word; order and paragraph boundaries retained. Two distinguishable gap grades carry explicit coding information. No native glyph, word or grammatical meaning is assigned.",
+    "mechanism": "Use the final ordinary full word of a maximal equal-ending run as a backward scope anchor. Earlier members omit one copy of that common final unit unless doing so would require special treatment of a unary word. No new header, closer, empty-member token, lexicon lookup or per-word spelling table is transmitted.",
+    "unit": "Whole source words are preserved as nonempty output groups. The chosen shared element is exactly ONE last source unit, not an inferred phoneme, inflection, morpheme, entire longest suffix or total e/i count.",
+    "contrast": "972puts a longest suffix in a separate opener and requires an empty-member code and closer. This writer instead uses the final retained full word, a fixed one-unit shortening, a uniform unary convention and two paid gap grades.949preserves full spellings while coding externally supplied emphasis; here gap grades and shortening are determined by source endings.",
+    "prediction": "Once gap grades are independently fixed, the last word of every narrow-gap block determines all previous restorations. Adjacent block-final words must end in different units, or the declared maximal-run writer would have merged the blocks. Changing a gap grade can change several restored words; it is not semantically free typography.",
+    "source_contract": {
+      "alphabet": "Exactly22 explicitly taught source units, illustratively named A through V, with a fixed bijection pi to22distinct abstract drawings. These labels are not English words, a native alphabet, or a proposed sound key. A different real source repertoire would require its own declared complete lossless input contract before use.",
+      "input": "A finite ordered list of nonempty paragraphs, each an ordered list of nonempty words over that alphabet. The completely empty message is allowed. Word and paragraph boundaries are source information. Original typographic spacing and original physical line wrapping are outside this structured input domain.",
+      "unsupported": "Characters outside the declared alphabet, empty words and empty paragraphs are rejected, never normalized or dropped. No open literal escape branch is hidden in the rule.",
+      "content": "The output preserves exact source-unit words, their order and paragraph divisions. It does not interpret or omit source statements, negation, names, arguments or quantities. Whether any real language/source is represented by these units remains unbound."
+    },
+    "writer": [
+      "For each source paragraph, partition its word sequence into the unique maximal consecutive runs with equal last unit t. A singleton run is allowed.",
+      "In each run, write its last source word in full.",
+      "For every earlier word w in that run: if every unit of w is t, keep w in full; otherwise remove exactly its last unit t and write the remaining nonempty prefix. No longer tail, alternate cut or saving threshold is chosen.",
+      "Place a narrow gap between words belonging to the same run and a wide gap between consecutive runs. Preserve paragraph divisions. Apply the same fixed pi to every remaining source unit.",
+      "No source word changes position or disappears. There is no independent phase/group-length input: maximal runs follow from the actual word endings."
+    ],
+    "reader": [
+      "Undo pi and divide each paragraph at its wide gaps. Narrow gaps preserve the separate word positions inside each block.",
+      "Take t to be the last unit of the final complete word of the block. Return that last word unchanged.",
+      "For each earlier output word u: if all its units are t, return u unchanged; otherwise return u followed by one t. Preserve the written word order.",
+      "Require the final units of adjacent blocks to differ. Canonically re-encode the reconstructed paragraph and require the same unit strings and gap grades. Invalid or unreadable gap grades are unresolved, not chosen for a preferred reconstruction."
+    ],
+    "inverse_proof": [
+      "Every source word in a run ends in t. A unary source word t^k stays t^k and the reader's unary branch returns it exactly, including k=1.",
+      "If a source word has some unit different from t, that unit remains after deleting its final t. Its nonempty output is therefore not unary t^k; the reader necessarily takes the append-t branch and restores the source word.",
+      "The final full word determines t independently of the shortened words. Each source/output group remains one nonempty word, so all intended word boundaries survive.",
+      "The unique maximal source runs have different ending units across adjacent blocks. The canonicality check excludes gratuitous splits between equal-ending blocks. Thus the complete paragraph is recovered exactly."
+    ],
+    "physical_gap_and_layout_contract": {
+      "gap_grades": "Use two genuinely distinguishable grades, taught as one blank cell versus three blank cells in a ruled/monospaced hand model. They are additional paid information, not two freely relabeled versions of every observed manuscript space.",
+      "paragraphs": "A blank line separates source paragraphs. The first line of a paragraph starts without continuation indentation.",
+      "line_wrap": "Wrap only between complete output words. When wrapping replaces a gap, write its grade explicitly as one-cell or three-cell indentation at the beginning of the continuation line. The reader reconstructs that exact gap grade. A single unindented line break inside a paragraph is invalid under this carrier.",
+      "long_words": "Never split a word silently. The formal channel permits any finite word; use adequate writing width or reject a separately imposed physical-width limit. No unpriced continuation glyph or hidden word boundary is supplied.",
+      "limits": "No fixed native gap-width thresholds, ruled cells, continuation indents, paragraph boundaries or physical22-unit identification are established. Space hierarchy alone does not prove the required binary channel."
+    },
+    "hand_examples": [
+      {"source_words":["MAL","NAL","TAL"],"output_blocks":[["MA","NA","TAL"]],"reading":"The last full word supplies L; MA and NA are mixed relative to L, so restore MAL,NAL,TAL."},
+      {"source_words":["AL","AAL","BAL","CEM"],"output_blocks":[["A","AA","BAL"],["CEM"]],"reading":"One wide gap separates the L block and the M singleton. No example word receives a native meaning."},
+      {"source_words":["L","LL","ALL","B"],"output_blocks":[["L","LL","ALL"],["B"]],"reading":"The earlier L and LL stay unchanged under the unary convention; no empty prefix or escape is needed."},
+      {"source_words":["AL","AL","AL"],"output_blocks":[["A","A","AL"]],"reading":"Every repeated source occurrence is retained. Earlier equal bodies restore the same word; the final full anchor is not another occurrence added by the code."},
+      {"source_words":["X"],"status":"Outside the illustrative A-through-V alphabet; do not silently normalize it or use it as a native example."}
+    ],
+    "whole_passage_consequences": [
+      "A fixed whole source word has at most two output spellings: itself and itself minus its last unit. Unary words have only one. This is a real restrictive cost, not a claimed solution to old source-frequency failures.",
+      "Identical output words in different blocks can restore different source words, because their last-word anchors may differ. This contextual ambiguity is resolved by written gap scope, not by choosing plausible meanings.",
+      "Word order and all repeats survive. A nonfinal shortened body may repeat arbitrarily often, so the writer does not impose the mandatory-ditto no-long-doublet condition. No observed repetition is thereby explained or assigned content.",
+      "Within one fixed block, every restored word ends in its anchor unit. Across a wide gap, the next block must have a different anchor unit. This is a prospective whole-paragraph constraint only after gap grades are bound independently.",
+      "If all gaps are allowed to be chosen freely as narrow, any paragraph has a trivial one-block decoding. Surface parseability without a paid gap classification therefore cannot select this mechanism."
+    ],
+    "costs_and_limitations": [
+      "Pay the22-unit bijection, two gap grades, continuation-indent convention, unary rule and one last-unit lookahead/scope rule. No word dictionary or learned full-word codebook is stored.",
+      "Writer lookahead needs the next word's ending to determine whether the current word is last in its run. The reader may first inspect the block's final word, then restore its earlier members; a long block is genuine lookahead/visual scanning cost.",
+      "Savings are one unit per nonfinal non-unary word, offset by wider gaps and reading effort. No net economy, native form distribution, writing speed or historical attestation is measured.",
+      "Matching final units may be accidental and need not represent grammatical agreement or shared meaning. The prefix is not thereby an identified native stem.",
+      "Under the original one-source-word/one-output-group comparison assumptions, GDT1202's at-most-two-spelling bound applies to any attempted unchanged four-source application, even if a separate fixed injective character expansion were supplied. This proposal does not rescue those source profiles and no such source is encoded here.",
+      "Changing source scope, alphabet, tail length, gap classification or unary handling after an outcome would define another contract. No such adaptation is selected."
+    ],
+    "predecessor_review": [
+      {"id":"IDEA000972","primary":"research_registry/proposals/production_origin_supply_20261003/COMMON_SUFFIX_BLOCK_WRITER_RAW_20261007.json","review":"Full source/writing/reading/cost sections read. Shared endings are old.972selects a longest suffix of length>=2 from the first pair and sends opener, member/empty codes and closer; the present one-unit backward anchor preserves one output word per source word and uses paid gap grades."},
+      {"id":"GDT1249","primary":"experiments/yolo/gdt1249_suffix_carrier_initial_capacity/REPORT.md","review":"The complete972reserved-sign carrier is contradicted under all its global renamings. This RAW does not change that result, its controls or codebook. It is a separate information channel using graded gaps, not a successful repair or mere new control spelling."},
+      {"id":"IDEA000949","review":"Registry card only: two visible gap grades encode supplied emphasis while words stay fully written. The current rule instead computes gap scope from source endings and shortens members. No novelty for having two gap grades is claimed; no unread authored primary is represented as reviewed."},
+      {"id":"IDEA001035 / GDT1359","primary":"experiments/yolo/gdt1359_terminal_run_variant_capacity/REPORT.md","review":"Curated card/followup limits read. That boundary-run rule uses the next word's INITIAL run and has a finite set-valued inverse. Here a final full word supplies exactly one common LAST unit over a maximal block, and the unary convention yields a unique inverse. Its fixed-source failures remain."},
+      {"id":"GDT1202","primary":"experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md","review":"Original necessary type/concentration exclusion on four fixed source populations retained, with its input and sampling assumptions. No new counts or source comparison."},
+      {"id":"GDT1326 / IDEA001065","review":"Known reset-prefix and action-termination contracts remain unchanged. This writer uses explicit forward word-ending lookahead and backward gap scope, not added resets or changed terminal states."}
+    ],
+    "novelty_scope": "Bounded route/topic/registry/duplicates and exact972/1249/1202primary review found the general common-ending idea already represented. The new contribution is this complete last-full-word, one-unit, unary-safe, two-gap-grade contract and its inverse. It is retained only as a derivative RAW, not a new discovery of suffix sharing or a selected native experiment.",
+    "work_record": {
+      "first_route_and_search_utc":"2026-10-16 08:46:00 UTC",
+      "mode":"Prior-informed constructive supply, no blind claim. The current route reports1392spacing support; no1392payload, image or model output was opened.",
+      "access":"Current route/topic, bounded idea cards/duplicates/followups, named972source contract and1249/1202reports. Existing copied old examples are not new data. No native query, corpus count, source acquisition, word meaning, fitted gap threshold, solver or experiment.",
+      "status":"RAW_UNREVIEWED, not selected, not fitted, no historical claim. Parent owns any subsequent review or publication."
+    }
+  },
+  "relations": [
+    {"type":"derived_from","target":"IDEA000972"},
+    {"type":"related_to","target":"IDEA000949"},
+    {"type":"distinct_from","target":"IDEA001035"},
+    {"type":"related_to","target":"GDT1249"},
+    {"type":"related_to","target":"GDT1202"}
+  ]
+}
