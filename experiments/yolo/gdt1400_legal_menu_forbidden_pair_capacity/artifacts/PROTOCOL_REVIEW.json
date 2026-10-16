@@ -1,0 +1,43 @@
+{
+  "experiment_id": "GDT1400",
+  "status": "PROSPECTIVE_METHOD_PROOF_AND_STATIC_CODE_ACCEPTED",
+  "review_scope": "Source-free METHOD,SPEC,selection plan and run.py inspection. No native source cache, graph counts, outcomes or runner execution read/performed.",
+  "hashes": {
+    "experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/METHOD.md": "03a7a73533a75b4dd4d48401e6b2446897fdf63f0763b868cd51cd838dc69669",
+    "experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/src/SPEC.json": "e120e3e1358ffd59f924d95f807c6eee4b25ce6ac32078147a2d5e53369f6a9b",
+    "experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/src/run.py": "a5d69d563d63f17b3462b7356b30f0229823943e45e44702090707e1ab89cb61",
+    "research_registry/proposals/production_origin_supply_20261003/LEGAL_MENU_FORBIDDEN_PAIR_PLAN_20261016.json": "f49bccc598a7628224cf41ae6eeed14a5c937358aae36ffd813625ba07396dd9"
+  },
+  "proof": [
+    "At total stock5, occupancy5forces counts(1,1,1,1,1). Legal ranks18/19are MOVEonlyatoccupancy5and endwith4occupiedcontainers.",
+    "Ranks16/17are legalonlyatoccupancy4or5. At4they areWAIT/ROTATEand preserveoccupancy4; at5they areMOVEand endat4. Thus every legalAaction endsat4.",
+    "EveryBrank18/19requiresoccupancy5, so all8ordered pairsAxBare impossible from every allowed starting countstate. Elapsed waiting is irrelevant to legality.",
+    "Under the fixed bijection, nativeBhas2distinct units and nativeAhas4distinct units withBsubsetA. Avoiding observed internal edges intoBrequiresAsubsetZ(B). Therefore suchAexists exactly whenBsubsetZ(B)and|Z(B)|>=4; its unordered extensions number choose(|Z|-2,2).",
+    "A compatible label placement can be extended combinatorially to a rank bijection, but this does not guarantee that the other menu constraints or any complete observed action trace are legal. Nonempty surviving capacity is necessary only."
+  ],
+  "static_code_checks": [
+    "cards includes every unordered pair from the complete22unit universe and retains absent units. It checksBsubsetZandthefour-unitthreshold beforecombinationcounting. Loops are correctly included as edges.",
+    "Edges come solely from zip(units,units[1:])within each old complete group. No word/line/filtered-hole transition is added.",
+    "FULLkeeps every supplied row. GE2uses whole-unit-tuples occurring on at least2physicalfolionumbers, not token counts or page sides.",
+    "Each edge frequency counts every adjacency occurrence. Stored witness is minimized by original sourceIDthenzero-based unitposition; source indexrepresentation is copied rather than normalized.",
+    "The source-free step function implements occupied-donor ranking,recipient exclusion,WAITandROTATEfor the inspected allowed rankdomain. The controls enumerate all relevant legalAcontinuations and compare B/Zagainst explicit four-subsets. Reviewer did not execute controls.",
+    "Primary decision checks allFULLreaderoutcomes. A favorableGE2panel cannot replaceFULL. Finite necessary A/Bplacements are not counted as complete viable keys."
+  ],
+  "scope": [
+    "Original1054remains unchanged.1399source-free benchmarkUNKNOWNand absence of native fitting are preserved; this is a distinct all-state invariant, not a solver repair or diagnosticPASS.",
+    "1391concerns1065mandatory stable word stopping, not the original supplied-phase1054writer; no terminalactionrestriction is introduced here.",
+    "The local obstruction is independent of external initial/program framing only because no reset,skip or null may occur BETWEENthetwoadjacentunitsinsideone retainedgroup. A changed within-group frame would be another model.",
+    "A failed globalbijection excludes this menu writer on the retained unit/group premises, not all resource semantics,stateful writing,language or meaningful content.",
+    "Three readers remain alternative transcriptions of one manuscript. GE2is premise sensitivity, not paleographic validation or independent confirmation.",
+    "Independent validator must reparse raw groups,verify source/panel identity and reconstructeveryedge/card. Static review doesnot certifythose empirical facts."
+  ],
+  "blocking_errors_found": false,
+  "decision": "Proceed only with the fixed small necessary capacity calculation and independent verification. If any placement survives,stop withoutSMTorfullpathfit. No meanings or native rankassignments adopted.",
+  "initial_review_hashes": {
+    "experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/METHOD.md": "03a7a73533a75b4dd4d48401e6b2446897fdf63f0763b868cd51cd838dc69669",
+    "experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/src/SPEC.json": "e120e3e1358ffd59f924d95f807c6eee4b25ce6ac32078147a2d5e53369f6a9b",
+    "experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/src/run.py": "a5d69d563d63f17b3462b7356b30f0229823943e45e44702090707e1ab89cb61",
+    "research_registry/proposals/production_origin_supply_20261003/LEGAL_MENU_FORBIDDEN_PAIR_PLAN_20261016.json": "f49bccc598a7628224cf41ae6eeed14a5c937358aae36ffd813625ba07396dd9"
+  },
+  "prelock_budget_note": "Method and selection plan now include reassessment from12:36UTC through13:04UTC,28minutes. No scientific rule changed. Root reports source-free controlsPASS; not independently executed by reviewer."
+}

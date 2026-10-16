@@ -1,3 +1,34 @@
+## 2026-10-16 — GDT1400 cheaply restricts original1054labels; no writer exclusion
+
+After1399's preserved source-free computational stop, a genuinely different
+all-state necessary consequence was selected and reviewed before native counting.
+Any rank16..19action ends with4occupied containers, while18/19require5. Thus the
+4by2rankblock A->Bis impossible at ANYinitialstock/programframe. NoSMT, changed
+menu, program reset, terminalcondition or repaired1399decoder is involved.
+
+For each231unorderednativeBpairs, Zcontainsall22unitswithnointernaledgetoeitherB.
+A4setcontainingBexistsiffBsubsetZand|Z|>=4. All original strict1233within-group
+adjacencies retained: no uncertain crossword/line edges or droppedrareforms.
+FULLsurviving Bsets: IT52/RF54/ZL59; associatedunorderedA/Bpatterns2177/2363/2584.
+GE2wholeforms on>=2physicalleaves: B102/104/104; patterns6863/7255/7498. Theseare
+necessary local label patterns, NOT complete keys, source traces, translated
+words or percentageofglobalVoynichsearchspace. No reader/model is excluded by
+this condition. Reader variants remain one manuscript; GE2is onlysensitivity.
+
+Independent validatorreconstructseveryrawparse,panel,edge/count/firstsourcewitness
+andall1386Bcards. Bothfrozenprograms'checks and freshbyte-exactreplayPASS. This
+is a successful smallcalculation with a limited scientific answer, unlike1399's
+runtimefailure; it does not turn that originalfailedbenchmarkintoPASS.
+[Report](experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/REPORT.md).
+
+Decision: retain the exact local restriction; stop this candidate's testing at
+the predeclared surviving-capacity result. No fullsolver, crosswordexpansion or
+morecontrols automaticallyfollow. Original1054stillneeds globaltrace andnative
+contentbinding;1399computationaldebt and1391's1065stable-stopfailureare retained.
+Next is bounded selection of a different distinguishable writing/content rule,
+not promotion of partial label patterns or another enlarged solver.
+Confirmed English lexemes: **0**. No running work; ten-hour request unfulfilled.
+
 ## 2026-10-16 — GDT1399 stops before native fitting; IDEA1054 remains open
 
 Bounded selection checked older complete writers and their later primaries.

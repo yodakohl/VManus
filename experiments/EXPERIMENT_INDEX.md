@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1398**
-- Experiment-associated tracked files: **27,322** (2.4 GiB)
-- Structured GDT337+ experiments: **1063**
+- Experiments indexed: **1399**
+- Experiment-associated tracked files: **27,340** (2.4 GiB)
+- Structured GDT337+ experiments: **1064**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1400 | gdt1400_legal_menu_forbidden_pair_capacity | `LOCAL_CAPACITY_REMAINS` | [report](../experiments/yolo/gdt1400_legal_menu_forbidden_pair_capacity/REPORT.md) | 18 | 76.9 KiB | 3 | STRUCTURED_YOLO |
 | GDT1399 | gdt1399_legal_menu_passage_capacity | `SOURCE_FREE_BENCHMARK_TIMEOUT_NO_NATIVE_RUN` | [report](../experiments/yolo/gdt1399_legal_menu_passage_capacity/REPORT.md) | 18 | 60.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT1398 | gdt1398_singleton_logogram_prefix_capacity | `NONTRIVIAL_PREFIX_CAP22_EXCLUDED_ALL_READERS` | [report](../experiments/yolo/gdt1398_singleton_logogram_prefix_capacity/REPORT.md) | 23 | 289.2 KiB | 7 | STRUCTURED_YOLO |
 | GDT1397 | gdt1397_one_gap_word_pattern_envelope | `FIXED_W_ONE_GAP_ENVELOPE_EXCLUDED_ALL_READERS` | [report](../experiments/yolo/gdt1397_one_gap_word_pattern_envelope/REPORT.md) | 19 | 862.6 KiB | 6 | STRUCTURED_YOLO |

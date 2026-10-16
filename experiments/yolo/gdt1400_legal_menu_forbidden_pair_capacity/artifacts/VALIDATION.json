@@ -1,0 +1,103 @@
+{
+  "cases": {
+    "IT2a_FULL": {
+      "B_sets_tested": 231,
+      "adjacent_slots": 79719,
+      "admissible_A_B_patterns": 2177,
+      "distinct_edges": 276,
+      "groups": 22528,
+      "panel": "FULL",
+      "reader": "IT2a",
+      "status": "LOCAL_BLOCK_CAPACITY_NOT_EXCLUDED",
+      "surviving_B_sets": 52,
+      "types": 4272
+    },
+    "IT2a_GE2": {
+      "B_sets_tested": 231,
+      "adjacent_slots": 65980,
+      "admissible_A_B_patterns": 6863,
+      "distinct_edges": 170,
+      "groups": 19687,
+      "panel": "GE2",
+      "reader": "IT2a",
+      "status": "LOCAL_BLOCK_CAPACITY_NOT_EXCLUDED",
+      "surviving_B_sets": 102,
+      "types": 1466
+    },
+    "RF1b_FULL": {
+      "B_sets_tested": 231,
+      "adjacent_slots": 67264,
+      "admissible_A_B_patterns": 2363,
+      "distinct_edges": 272,
+      "groups": 19321,
+      "panel": "FULL",
+      "reader": "RF1b",
+      "status": "LOCAL_BLOCK_CAPACITY_NOT_EXCLUDED",
+      "surviving_B_sets": 54,
+      "types": 3818
+    },
+    "RF1b_GE2": {
+      "B_sets_tested": 231,
+      "adjacent_slots": 54953,
+      "admissible_A_B_patterns": 7255,
+      "distinct_edges": 166,
+      "groups": 16786,
+      "panel": "GE2",
+      "reader": "RF1b",
+      "status": "LOCAL_BLOCK_CAPACITY_NOT_EXCLUDED",
+      "surviving_B_sets": 104,
+      "types": 1315
+    },
+    "ZL3b_FULL": {
+      "B_sets_tested": 231,
+      "adjacent_slots": 70400,
+      "admissible_A_B_patterns": 2584,
+      "distinct_edges": 258,
+      "groups": 19332,
+      "panel": "FULL",
+      "reader": "ZL3b",
+      "status": "LOCAL_BLOCK_CAPACITY_NOT_EXCLUDED",
+      "surviving_B_sets": 59,
+      "types": 3773
+    },
+    "ZL3b_GE2": {
+      "B_sets_tested": 231,
+      "adjacent_slots": 58334,
+      "admissible_A_B_patterns": 7498,
+      "distinct_edges": 163,
+      "groups": 16865,
+      "panel": "GE2",
+      "reader": "ZL3b",
+      "status": "LOCAL_BLOCK_CAPACITY_NOT_EXCLUDED",
+      "surviving_B_sets": 104,
+      "types": 1337
+    }
+  },
+  "experiment": "GDT1400",
+  "implementation": "Independent raw working-unit segmentation, physical-leaf filtering, positional edge census and exactB/Z/A extension enumeration; no primary import.",
+  "limits": [
+    "All-state necessary forbidden-block capacity only; surviving placements are not complete keys or legal source traces.",
+    "Within-group adjacency only; no cross-word or line edge was added.",
+    "GE2 is repeated physical-leaf support, not independent confirmation or permission to drop FULL countercases.",
+    "GDT1399 computational stop and its absent native test remain unchanged.",
+    "The fixed22-unit atomization, global rank bijection and no reset inside a group remain premises."
+  ],
+  "pins": {
+    "evidence_sha256": "b102d76d45e7fa5b567aaf3aa0e55313f003f9c7fcc34e24c6321bade66442cf",
+    "lock_sha256": "3bac40b206e318ce93b503019e51a16a2e206533f81618908a320634aa609c38",
+    "result_sha256": "51cd310ac1aa5478bf76424b7b8236d1fc6f71fa104826e5f049cf69737be56b",
+    "source_sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+    "validator_sha256": "a4e77fddf35877eb8228613138e80e3d32d103a78f754e90f001380d1c72bfc8"
+  },
+  "scientific_status": "LOCAL_CAPACITY_REMAINS",
+  "source_free_controls": {
+    "exhaustive_A_subset_graph_checks": 403,
+    "forbidden_second_rank_checks": 88,
+    "legal_first_block_transitions": 44,
+    "native_access": false,
+    "selfloops_absent_units_exact_four_Z_checked": true,
+    "states_checked": 126,
+    "status": "PASS_SOURCE_FREE_CONTROLS"
+  },
+  "status": "PASS_INDEPENDENT_VALIDATION"
+}

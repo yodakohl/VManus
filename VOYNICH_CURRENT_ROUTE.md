@@ -5,8 +5,8 @@ Updated: 2026-10-16.
 Phase: exploration
 Status: active
 Task: selection
-Latest decision: 1399 STOP
-Working files: GDT1399
+Latest decision: 1400 local
+Working files: GDT1400
 Assumptions: no meanings
 Resume: shortlist
 Running: none
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public962ad8283.
+Public5475d326f.
