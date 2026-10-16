@@ -1,0 +1,44 @@
+{
+  "artifacts": {
+    "NATIVE_PANEL.json": "{guard_sha256,cache_sha256,old_runs_sha256,readers:{edition:{retained_runs:[{original,working_units,source_rows}],unparsed_runs:[{original,reason,source_rows}],max_native_run,required_source_run,maximum_run_witnesses:[original]}}}",
+    "RESULT.json": "{experiment_id,status:COMPLETE_FIXED_WORDSTAR_REPEAT_BOUND,cases:[edition-major,pack-minor],word_meanings_assigned:0,claim_ceiling}",
+    "VOCABULARY_RUNS.json": "{packs:{name:{path,source_sha256,vocabulary_size,vocabulary_sha256,letters:{a..z:{max_run,longest_example}}}}}",
+    "case": "{edition,pack,max_native_run,required_source_run,beta_options:[SPACE,a..z; each{character,max_source_run,eligible,word_count,words_sha256,examples}],surviving_beta,decision:RUN_BOUND_CAPACITY_ONLY or FIXED_WORDSTAR_CONSTANT_DIAGONAL_EXCLUDED}"
+  },
+  "assumptions": [
+    "h(exact whole group) is context-independent at every qualifiedoccurrence; d(s,s)=oneglobal\u03b2.",
+    "Everyqualifiednativegroup emitsone sourcecharacter; no reset/droppedpacket/epsilon insidea retainedrun.",
+    "Source is words drawnfromone fixed completeinventory inanyorder, separatedbyexactlyone SPACE.",
+    "Useonly old1170longer-run panel anduniqueliteral22unitparse forC1064; Rmaxismaximum inthisretainedpanel, notanindependent wholemanuscriptcount.",
+    "The22workingunits/wholegroupboundaries remain stipulations, notphonetictruth.",
+    "Oldtriples\u2192bb and canonical\u03b2=SPACE exclusion alreadyknown inC1064; newquestionislongerruns andthecompletefixedW\u03b2filter.",
+    "Sixpacklabels coverfixeddatedgenres andlossyASCIIpreparation, notwholelanguages.",
+    "1390/1393searchfailures and1372capacitystop remainunchanged; arbitraryfullsupportsourcepriors areoutsidehardWmodel."
+  ],
+  "candidate_letters": " abcdefghijklmnopqrstuvwxyz",
+  "claim_ceiling": "Conditional constant-diagonal one-source-character per native group plus canonical closed word inventory only. No actual offset/phoneme/word meaning, source-language choice, complete key or cumulative1390-prior rejection.",
+  "editions": [
+    "IT2a",
+    "ZL3b",
+    "RF1b"
+  ],
+  "examples_per_letter": 3,
+  "experiment_id": "GDT1412",
+  "native_cache_path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARDED.tsv",
+  "native_guard_path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/GUARD.json",
+  "native_runs_path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/LONGER_RUNS.json",
+  "native_spec_path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/src/SPEC.json",
+  "native_validation_path": "experiments/yolo/gdt1170_repetition_context_neutral_copy/artifacts/VALIDATION.json",
+  "output_rule": "Forreaderretained R\u22653, necessary source character\u03b2mustnotbeSPACE andmust have\u03b2^(R\u22121)as acontiguoussubstring inatleastoneWword. All26letters+SPACE retainedasexplicitcases. No survivors meansonlythisfixedWconjunctioncontradicted; survivors notproof ofwriter/reading.",
+  "signs_path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/src/SPEC.json",
+  "source_directory": ".gdt001/language_packs",
+  "source_packs": [
+    "latin",
+    "middle_high_german",
+    "middle_french",
+    "old_italian_tuscan",
+    "medieval_czech",
+    "old_hungarian"
+  ],
+  "vocabulary_pins_path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/INPUT_MANIFEST.json"
+}

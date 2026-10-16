@@ -29317,3 +29317,9 @@ All77exact IT2a f75v.43–49 groups,52forms/25identityconstraints, have no77-let
 ## GDT1411 — visible repeat premises qualified (2026-10-16)
 
 Two informedAIviews ofthe sameownedoriginalf75v support3fixedgraphicpairs(P2/P3/P5);2completegroupboundaries remainunresolved(P1B/P4A). No cleardifference reported. P5adjacentrepeat hasSPACE_LIKEseam inbothviews, but exactsix-unitidentity/semanticwordboundaries remain assumptions.1410firstfourconstraints haveonly2jointvisualsupports/2unresolved; its fixedITartifactexclusion and1409 remainunchanged, notrescored/reopened. No newlexeme,sound,key or sourceidentity. Accounting/replayPASS_NOT_PERCEPTION; oneoriginalvieweach, noextraimagekey/reserve. Keepuncertaintieswithoutautomaticcrop/repair. [Report](experiments/yolo/gdt1411_f75v_repeated_form_visual_check/REPORT.md).
+
+## GDT1412 — differential repeat-letter filter nonexcluding (2026-10-16)
+
+Old1170longer-runpanel9IT/8ZL/7RFrowsalluniquelyparsedtriples; R=3addsnostrongerobligationthanC1064'sknownbb. Sixfixed1388WordStarinventoriesretain17/25/17/18/22/24βletters; all18reader/packcasesnonexcluded. Conditionalβenvelopeonly, nokeystart/meaning/source/languagepreference; SPACEexclusionundercanonicalgrammaralreadyknown. Independentfullnative/source reconstruction and5-artifactbyteReplayPASS; generalC1064and1390fullsupportpriors notrefuted. Stopunchangedrepeat-runfilterwithoutnewmotif/corpus/decoderrepair. [Report](experiments/yolo/gdt1412_differential_global_repeat_letter_bound/REPORT.md).
+
+Publication correction: exactderivedwordsets and postresultpublicnative/wordsetreplay are included; originalrawcachepins/code remain unchanged, fullrawreplay needs externalpreparedtexts. Scientificdecisionunchanged.

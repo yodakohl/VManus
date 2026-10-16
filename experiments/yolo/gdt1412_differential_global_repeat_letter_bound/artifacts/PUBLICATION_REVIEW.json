@@ -1,0 +1,30 @@
+{
+  "experiment_id": "GDT1412",
+  "status": "PASS_BOUNDED_PUBLICATION_EQUIVALENCE_REVIEW",
+  "access": "Static public-verifier and report/scope review, plus byte-hash checks. No raw-source extraction, native census or public verifier execution in this audit.",
+  "reviewed_hashes": {
+    "src/verify_public.py": "5df93f9a44a9a01d3ca6089d39e5c810eca9f7f634f533d57d99e51ad6f0b8cb",
+    "REPORT.md": "5feb0430caa4828f8d863ea9ff5b67f89b6f22226e8039f71afe5726d003fbb1",
+    "source/README.md": "9e57e9f814986329e65769757a6b88513b3b8ab787d0887c60e59c0227bf40a6",
+    "LOCK.json": "59d6045fb5a3cca8c808416634993fa763b93e7055313e993bb4ed3bfd8dc756",
+    "artifacts/PUBLIC_REPLAY.json": "005917b4ac2705073c72f439ec0976a884602cc3fb71960b137bf62caef2b7b8",
+    "experiment.json": "8938aa509a50df2b13c77153b31275143ab7013b2bc91568e4026ec5cd3ef127"
+  },
+  "checks": {
+    "all_19_nonraw_scientific_pins_unchanged": true,
+    "all_six_public_wordset_bytes_match_pre_result_GDT1388_wordset_hashes": true
+  },
+  "reasoning": [
+    "The scientific calculation uses only exact word-type sets, not source token order or frequencies. Publishing the byte-identical previously pinned sorted sets preserves that research object.",
+    "verify_public checks every nonraw scientific lock binding, reconstructs old native runs and the retained parse panel, computes per-letter maxima and all beta options, and compares all three scientific result artifacts.",
+    "The six absent raw-text hashes are checked against prior metadata, not claimed verified against absent raw files. Raw extraction validation remains the preserved original experiment, not the new public verifier.",
+    "Reusing frozen validator pure functions is disclosed and does not constitute a second independent implementation. The public path is post-result packaging, not a preregistered new scientific test.",
+    "The report explicitly preserves the original staged-tree failure, unchanged lock/programs/results and different public versus original raw-source replay prerequisites. Manifest command changes cannot retrospectively alter the scientific decision."
+  ],
+  "scope_limits": [
+    "This review does not attest new cold-replay execution or the staged-tree gate; those require their separate receipts.",
+    "Source README reports inherited provenance/license labels, including restricted and unspecified labels; this review is not a legal determination of redistribution permission.",
+    "No key, source identification, language exclusion or word meaning follows."
+  ],
+  "necessary_scientific_corrections": []
+}
