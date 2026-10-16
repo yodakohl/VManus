@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: content
-Latest decision: 1394 STOP
-Working files: GDT1394
+Task: source
+Latest decision: 1395 NR
+Working files: IDEA1069
 Assumptions: no meanings
-Resume: synthesis
+Resume: review 1069
 Running: none
 
 ## Structural baseline
@@ -22,7 +22,7 @@ Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
 1358cyclic/bag types retain97/82-83%.
 1353freeUD63–65%FULLparses;1354paircode≠sounds;1387V0>1/2.
 1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
-1310aliases;1311gap open;1314cfh fits;1328e/i geometricFAIL.
+1310aliases;1311gap open;1314cfh fits;1328e/i geomFAIL;1395iidNR.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
 No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public204f68117.
+Publice9cb15bf3.

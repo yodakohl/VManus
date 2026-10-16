@@ -1,0 +1,67 @@
+{
+  "experiment_id": "GDT1395",
+  "status": "FINAL_PROTOCOL_AND_STATIC_CODE_RECONCILED_BEFORE_NATIVE_EXECUTION",
+  "reviewed_plan": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/CATEGORICAL_RUN_CONTEXT_PLAN_20261016.json",
+    "sha256": "4cd0398144c6b76acf3ee73dbdc4be74f8d9d49eda8e15d4a0c146952b81eeae"
+  },
+  "access": "Source-free PLAN, finalized PREREGISTRATION/METHOD/SPEC and full run.py statically reviewed, including additional source-free controls before lock. Initial scaffold inspection was superseded by final code review. No native caches, counts, outcomes, data-driven eligibility or runner execution accessed by reviewer.",
+  "proof": [
+    "For fixed page, complete collapsed source word and slot, iid categorical length draws have probability product_l p_l^n_l. Conditional on the observed histogram every assignment of those labels to the fixed positions is equiprobable. Further source-invariant position strata preserve that property.",
+    "Collapse both e/i runs in both external neighbors before constructing features. All allowed target length changes then leave every neighbor feature unchanged, even when another selected occurrence is adjacent. Source neighbor words and source order may be arbitrary; the renderer must not depend on them beyond the fixed conditioning cell.",
+    "Centered one-hot labels have denominator trace(Z^T Z)=n-sum_l n_l^2/n, constant over the histogram-conditioned orbit. This denominator is positive for varying cells; singleton-label cells have no defined association ratio and require prior eligibility handling.",
+    "A full shuffle of occurrence labels samples the correct conditional law even when labels repeat: every distinct assignment has the same number of labeled-permutation representations.",
+    "A found single-swap score change proves nonconstant statistic on that cell orbit. Failure to find one is not a general proof of orbit constancy.",
+    "All predeclared varying n>=3candidate cells remain in observed and null aggregation. Mobility witnesses are solely a capacity gate. This avoids outcome-dependent selection of the scored population. The rejection event intersected with this gate cannot exceed the error rate of the fixed-statistic test; calibration conditional on passing that gate is not claimed."
+  ],
+  "required_final_checks": [
+    "Each left/right bigram feature space must retain side identity and a specified treatment for zero-size feature sets; normalization cannot divide by zero. Boundary sentinels, if used, must be fixed before native access.",
+    "Define aggregation, ties, finite-permutation p calculation and zero/null-mean handling for relative gain before outcome inspection. Do not silently describe this trace ratio as bounded by1; no such bound follows from row-normalized features alone.",
+    "Preserve all observed positive run lengths or explicitly predeclare a restricted length sample. Do not silently convert arbitrary categorical choices into only1/2after looking at outcomes.",
+    "Capacity must count distinct physical leaves rather than page sides and must precede null simulations. No widening after capacity failure.",
+    "Verify strict source IDs, original same-line neighbor adjacency, exact full collapsed body, exactly-one-target-run and unchanged line-position-stratum definition independently."
+  ],
+  "scope": [
+    "Independent categorical rendering is a new contract, not a rescue of1328geometric rendering.",
+    "A conditional context association can reject this independence law under selection assumptions without identifying semantic content, synonymy, a phoneme or any e/i collapse permission.",
+    "Fixed physical line scaffold and choice-invariant readability/selection masks remain substantive assumptions. Conditioning on coarse position does not itself prove them.",
+    "1170whole-word duplication,1329two-inner-run pairing,1323anagram echo,787semantic-remainder transfer and854/1254e-placement contracts retain their original outcomes.",
+    "Both reader results concern one manuscript; multiple testing correction is not independent replication or project-wide calibration."
+  ],
+  "root_preexecution_clarification": "Root confirmed all varying n>=3candidate strata remain in scoring; observed mobility-witness existence is used only as an additional capacity gate.",
+  "final_hashes": {
+    "PREREGISTRATION.md": "1ff16dd6ef3a2b4e5583623ee1c388aef8cce2665e6d6cd2c5c82aaecbfcb495",
+    "METHOD.md": "1ff16dd6ef3a2b4e5583623ee1c388aef8cce2665e6d6cd2c5c82aaecbfcb495",
+    "src/SPEC.json": "74921c205f97038fe41ea27dc2dc4105be08cf7a4bd7359d47042d71baa4057a",
+    "src/run.py": "26db5a967e0be0632192ea33e56a31d9b0fcddb1b87ed1f639a9c1552c51ea09"
+  },
+  "final_review": {
+    "blocking_errors_found": false,
+    "native_payload_or_outcomes_read": false,
+    "code_executed_by_reviewer": false,
+    "checks": [
+      "Both neighbor sides collapse every e/i run; selected target permutations cannot alter any retained feature.",
+      "BOS/EOS sentinel pairs make each side feature set nonempty. Side names are distinct; each side squared norm is1/2and combined norm1. The code does not falsely impose S<=1.",
+      "One-hot centering and denominator agree with trace formula; every selected cell has n>=3and at least2length categories. All observed positive lengths are retained.",
+      "All selected cells are added to prepared scoring data before mobility detection; witnessed subset affects capacity counts only. No unwitnessed-cell removal or null-population change occurs.",
+      "DISCOVERY and EVALUATION caches are joined for old source metadata, not treated as independent confirmation folds. Original IDs, raw strings, units, Pkind, strict boundaries and complete line counts are checked.",
+      "Target and neighbors require consecutive original indices on the same exact page/locus. No filtered-hole bridge. Third definition matches protocol.",
+      "Observed equal-cell-within-physical-leaf and equal-leaf weights match null weights, including unwitnessed strata. Physical leaf uses fNN.",
+      "Seed1395+reader_index, reader order IT2a/ZL3b, sorted cells/events, cell-outer and draw-inner RNG traversal, fresh index-list shuffle per draw all match protocol. Drawing the same replicate index independently in every cell gives the intended joint conditional product law.",
+      "Categorical permutations use original labels indexed by shuffled positions, preserving full multiplicities. NumPy batched score calculation matches the declared centered feature score.",
+      "Null-mean<=0 gives gainNoneand no rejection. Upper-tail tolerance, relative gain, two-thirds positive leaves and joint reader gate agree with SPEC. A failed capacity produces no permutations for that reader.",
+      "Boundary/eligibility choice-independence remains explicit; no meaning, synonymy, universal run collapse or historical source is identified."
+    ],
+    "remaining_limitations": [
+      "Review is static proof/code correspondence, not independent native reconstruction or floating interval proof.",
+      "The declared source-free controls were reported passed by root, not executed or certified by this reviewer. Independent validation remains required.",
+      "Single-swap search stops once a witness is found; absence after all swaps is only lack of this witness, not a global invariance proof."
+    ]
+  },
+  "final_decision": "No substantive correction required before lock. Preserve exact capacities, all-cell scoring and all original predecessor failures; no automatic expansion after outcomes.",
+  "prelock_controls_addendum": {
+    "review": "Static review of added feature-Gram, exact three-assignment orbit and batch/scalar fixtures; no execution by reviewer.",
+    "conclusion": "Expected Gram entries1for identical contexts and1/2for shared-right-only contexts follow side normalization. With labels1,1,2, observed score2/3and uniform-orbit mean1/3are consistent with centered Gram calculation. Batched one-hot centering uses the same histogram-fixed denominator as scalar scoring. No native algorithm or scientific criterion changed.",
+    "root_execution": "Root reports controls PASS; not independently rerun here."
+  }
+}

@@ -1,3 +1,29 @@
+## 2026-10-16 — GDT1395 leaves categorical run variants open
+
+Adequate witnessed capacity: IT333cells/1536occurrences/37physical leaves,
+ZL213/962/29. All337/216eligible varying cells remained in the score, including
+unwitnessed ones. The fixed combined external-neighbor feature test does not
+reject independent categorical run-length choices: conditionalupper.100/.708,
+relativegain+2.43%/-1.14%, positiveleafdirections23/37and14/29. Independent
+source/kernel/mobility/3998draw reconstruction and clean-public replay pass.
+
+This is not equality, e/i-collapse permission, a fitted human writer or a word
+meaning.1328's different geometric-law failure remains. Selection and fixed-line
+scaffold assumptions are explicit; raw neighbor spellings were collapsed before
+features, so adjacent target permutations cannot change those covariates.1394
+remains an unmodified physical-leaf capacity stop, not a class exclusion.
+
+Manual old-passage consequence: IF1068were true, f75r.38contains five identical
+symbolic sourcewords, then ldy. All five remain; no action count, same referent or
+repetition deletion follows. This shows a whole-content obligation still missing,
+not a new native finding. [Report](experiments/yolo/gdt1395_single_run_context_choice/REPORT.md).
+
+Next bounded review: RAW1069 unmarked one-gap contraction with literal priority,
+a fixed independent wordbook and unique expansion. It is not selected or tested;
+retain864/934/974/1357/1202stops and check their later decisions before adoption.
+No source/key or English meaning assigned. Confirmed English lexemes remain0;
+the ten-hour request remains unfulfilled.
+
 ## 2026-10-16 — GDT1394 cannot meet its physical-leaf gate
 
 The original23GDT1259 rank-certificate paragraphs cover only2physical leaves

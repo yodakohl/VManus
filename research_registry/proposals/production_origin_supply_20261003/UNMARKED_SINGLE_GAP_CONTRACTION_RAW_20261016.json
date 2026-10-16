@@ -1,0 +1,96 @@
+{
+  "title": "RAW UNREVIEWED: full-word priority and unique one-gap contractions share an ordinary literal alphabet",
+  "summary": "Complete parameterized hand convention for a fixed public wordbook: preserve each word's first and last source character, optionally delete exactly one nonempty contiguous interior interval, and admit the result only if it is not itself a full word and uniquely expands to one wordbook entry. Full spellings always remain legal. Uniform choice among distinct admissible forms gives more than two spellings for some source words without a dedicated abbreviation sign. No source book, glyph key, historical attestation or native fit is selected.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "design": {
+    "source": {
+      "alphabet": "One fixed alphabet Sigma of exactly22 abstract source characters, illustratively A through V. These are source-symbol labels, not a normalization of any actual language or proposed Voynich values. No extra case, punctuation or unsupported characters are silently admitted.",
+      "wordbook": "W is one nonempty finite public set of nonempty exact words over Sigma. It must be fixed independently of any target fitting. Its entire exact spelling inventory is paid apparatus. A particular historical or ordinary-language W has not been selected in this RAW.",
+      "messages": "A finite sequence of nonempty paragraphs, each an ordered nonempty sequence of words in W. The empty whole message is allowed. Word separation is one logical source space; paragraph boundaries are explicit source structure. Unsupported words, empty words and other source characters are rejected, not silently quoted or normalized."
+    },
+    "contraction_definition": {
+      "one_gap": "For w of length n>=3, choose zero-based indices1<=i<j<=n-1 and remove w[i:j]. The retained form v=w[:i]+w[j:] therefore keeps at least the first and the last character. No reordering, substitution, two separate deletion intervals or deletion of an endpoint is allowed.",
+      "candidate_set": "For v not in W, K(v) is the set of source words w in W for which v is such a proper one-gap contraction. Repeated deletion positions producing the same v from the same w do not make another candidate.",
+      "allowed_forms": "C(w)={w} union {v: v is a proper one-gap contraction of w, v is not in W, and K(v)={w}}. Thus literal priority excludes every abbreviation that would steal another exact source word's spelling. Full w is always in C(w), even when no shortening is safe.",
+      "whole_word_scope": "All comparisons concern complete source words and complete output groups. Substrings inside another output group do not invoke the wordbook or change modes."
+    },
+    "writer": {
+      "character_channel": "Freeze a bijection pi between Sigma and22 abstract visible drawings. Apply pi character by character after choosing a source spelling; no marker or special physical role is reserved.",
+      "choice_law": "For each occurrence of source word w, independently choose uniformly from the DISTINCT strings in C(w), including the full literal. This law is fixed prospectively and is not a free categorical table per word. It may be implemented by a precomputed numbered list of safe spellings. No shorter-always rule is imposed.",
+      "framing": "Write exactly one chosen spelling as one nonempty visible group per source word, preserve group order and source paragraph boundaries. Physical line wrapping is allowed only between complete groups and carries no additional message information. There are no internal resets, null groups, escape spellings or extra source-word joins."
+    },
+    "reader": [
+      "Invert pi on each complete output group to obtain v.",
+      "If v belongs to W, return that exact word v immediately. Do not also treat it as somebody else's abbreviation.",
+      "Otherwise compute K(v); return its sole member when its cardinality is1, and reject if it is empty or ambiguous.",
+      "Restore the original word sequence and paragraph structure. The omitted source characters are supplied only by the fixed wordbook, never by an inferred target meaning or a changed dictionary."
+    ],
+    "inverse_proof": "Literal outputs decode to themselves by priority. Every nonliteral output admitted by C(w) is outside W and has K(v)={w}, hence decodes exactly to w. Distinct source words have disjoint allowed-output sets. This proves complete exact message recovery on the declared finite-vocabulary source domain for every allowed choice sequence. The proof says nothing about whether a particular independently supplied natural-language vocabulary has useful contractions or matches the manuscript.",
+    "fixed_source_only_hand_example": {
+      "W": ["ABCDE", "ABFDE", "ACDE", "BED", "HIJKL"],
+      "unique_shortening": "ABCE deletes D from ABCDE, is not in W and has only that expansion, so it reads ABCDE.",
+      "literal_shadow": "ACDE is a full word in W. Although ABCDE could lose B to spell it, that abbreviation is forbidden; ACDE always reads ACDE.",
+      "ambiguous_shortening": "ABDE could arise by deleting C from ABCDE or F from ABFDE. It is outside W but has two expansions, so it is forbidden for both.",
+      "more_than_two_forms": "HIJKL has seven allowed forms: HIJKL,HJKL,HIKL,HIJL,HKL,HIL,HL. Every one keeps H/L and expands uniquely to HIJKL. These strings are unglossed teaching symbols, not a real source sample or a Voynich assignment.",
+      "small_words": "Any one- or two-character source word has only its full spelling, because there is no removable nonempty interior interval."
+    },
+    "human_and_apparatus_cost": [
+      "The writer and reader share the FULL independently supplied wordbook, not merely its frequent words. New proper names are outside the model until a different source contract is explicitly declared.",
+      "Safety can be precomputed as a table derived from W. That table may be large; it is not a free fitted output-word bank. A writer must know or consult which contracted spellings are safe, and the independent uniform selection rule is an invented teaching policy, not historical evidence.",
+      "There are22 literal drawings, one complete-word dictionary lookup rule, one contiguous-deletion rule, literal priority and one fixed choice policy. There is no hidden abbreviation marker, positional mode, omitted-length digit, checksum, dynamic previous-word cache or independent meaning for a shortened surface form.",
+      "Ordinary reading and abbreviation share the same alphabet. Medieval plausibility is limited to the hand-operable idea of lexical contraction; this exact unmarked uniqueness convention has not been historically established."
+    ],
+    "prospective_obligations": [
+      "Under every permitted spelling choice, source and output keep the same word count, word order and first/last character of EACH word. Therefore the ordered initial/final-character-pair stream is preserved up to pi, not merely its overall frequencies. A fixed source with incompatible endpoint-pair structure is excluded before contraction selection.",
+      "Identical output groups always decode to identical source words. In particular an exact output triple XXX requires three consecutive identical source words. No actual source population has been counted for this RAW.",
+      "Each output is either literal or has exactly one new adjacency created by removing one interval. Two unrelated interior stretches cannot be independently contracted in a single occurrence under this rule.",
+      "For a source word of length n, at most1+(n-2)(n-1)/2 distinct forms exist before uniqueness and literal-shadow exclusions; for n<=2 there is exactly one. GDT1202's at-most-two bound is consequently not a general bound on this different contract, but any fixed wordbook still pays its own finite capacity.",
+      "There is no claim that first/last units are phonemes, that native shortened forms have identified expansions, or that legal coverage determines a source. Choosing W to contain every observed surface would trivially make every group literal and would not explain anything."
+    ],
+    "closest_priors_and_retained_stops": [
+      {
+        "id": "IDEA000864",
+        "read": ["research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/GD_PIPELINE_RAW_ENDING_CONTRACTION_20261002.json: design hypothesis,finite_contract,known_counters,changed_falsifier", "research_registry/decisions/idea864_whole_lexical_design_20261002.md"],
+        "difference": "Interior contraction with retained carriers/endings is old.864 requests up to6 historically linked marked contraction families and grammar-sensitive expansion. The present invented source rule instead defines all one-gap contractions, has no marker, rejects every ambiguous expansion and pays a fixed W. It is not a solution or empirical reopening of864; historical source endings need not obey this new contract."
+      },
+      {
+        "id": "IDEA000934",
+        "difference": "934's shortest distinguishing prefixes and explicit end marker are a different lexical module. Its unmarked statement-interface collision and no-shortening result remain. Here complete output groups are retained and full-word priority is part of the initial contract; no such repair is applied to934."
+      },
+      {
+        "id": "IDEA000974",
+        "difference": "974 is a deterministic whole-word channel with special unary quotation. Its fixed-source frequency and interior-fourfold obligations remain. This writer can create a new adjacency through one interior deletion and allows a fixed derived set of several spellings, so974's literal-interior proof is not automatically this writer's proof. No old fixed source is claimed to pass."
+      },
+      {
+        "id": "GDT1357",
+        "read": "experiments/yolo/gdt1357_quoted_literal_marker_capacity/REPORT.md: Concrete writer and smallest adequate falsifier",
+        "difference": "1357 excludes a prefix marker whose literal uses double. This proposal reserves no marker and performs no quotation. It does not change IDEA1033 or its failure."
+      },
+      {
+        "id": "GDT1202",
+        "read": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md: Why another table does not help; scope and source assumption",
+        "difference": "The original two-spelling/four-fixed-source rejection is preserved. This new source-dependent allowed-set size can exceed two; that arithmetic distinction is not a native pass or permission to extend an old failed model."
+      },
+      {
+        "id": "GDT1183/GDT1272/IDEA000983",
+        "difference": "Initial-prefix contraction, omitted-suffix checksum and growing-record shortest-prefix references were checked through their cards/followup metadata. This writer has no omitted-length/checksum field, no paragraph-growing lexicon and no reference marker. Those earlier failures and unbound broader algorithms are not superseded."
+      }
+    ],
+    "selection_limit": "No source corpus, full W, native key, target record or experiment is selected. This is a complete parameterized construction plus a tiny fully specified hand vocabulary, not a decoder. A future fixed-source test would have to freeze W, all22source characters and the source distribution before any target-dependent abbreviation allocation; no new source hunt or automatic expansion of this rule is proposed.",
+    "novelty_limit": "The bounded search found existing ending-preserving contraction, shortest-prefix, quoted-word and dynamic-reference predecessors, not an exact already executed unmarked single-interior-gap rule with literal priority and all uniquely expanding forms. This is a limited contract distinction, not a claim to have invented contraction or exhaustively searched every historical source."
+  },
+  "relations": [
+    {"target": "IDEA000864", "type": "related_to"},
+    {"target": "IDEA000934", "type": "related_to"},
+    {"target": "IDEA000974", "type": "related_to"},
+    {"target": "IDEA000983", "type": "related_to"},
+    {"target": "GDT1357", "type": "related_to"},
+    {"target": "GDT1202", "type": "related_to"}
+  ],
+  "work_record": {
+    "started_utc": "2026-10-16 10:47:26 UTC",
+    "authored_utc": "2026-10-16 10:50 UTC onward",
+    "scope": "Route/topic, bounded registry and duplicates, exact named prior-report sections, source-only contract reasoning. No new native or source counts, images, current1068outputs, implementation or empirical test. Known native examples quoted in older primary sections were encountered as prior counterevidence only; no result-blind or new-meaning claim."
+  }
+}
