@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1390**
-- Experiment-associated tracked files: **27,162** (2.4 GiB)
-- Structured GDT337+ experiments: **1055**
+- Experiments indexed: **1391**
+- Experiment-associated tracked files: **27,182** (2.4 GiB)
+- Structured GDT337+ experiments: **1056**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1392 | gdt1392_f75v47_spacing_contrast | `LOCAL_SPACING_CONTRAST_SUPPORTED` | [report](../experiments/yolo/gdt1392_f75v47_spacing_contrast/REPORT.md) | 20 | 42.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT1391 | gdt1391_stable_word_stop_seam | `STABLE_STOP_CONTRACT_EXCLUDED` | [report](../experiments/yolo/gdt1391_stable_word_stop_seam/REPORT.md) | 20 | 884.1 KiB | 2 | STRUCTURED_YOLO |
 | GDT1390 | gdt1390_modular_cumulative_blind_control | `CONTROL_RECOVERY_FAIL_SEARCH_FAILURE` | [report](../experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md) | 46 | 4.5 MiB | 11 | STRUCTURED_YOLO |
 | GDT1389 | gdt1389_bag_conditioned_word_order | `NO_RETAINED_CONDITIONAL_ORDER_GAIN` | [report](../experiments/yolo/gdt1389_bag_conditioned_word_order/REPORT.md) | 22 | 1.9 MiB | 8 | STRUCTURED_YOLO |

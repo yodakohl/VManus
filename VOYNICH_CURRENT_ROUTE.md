@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: gap routes
-Latest decision: 1391 stopFAIL
-Working files: GDT1391
-Assumptions: fixed units
-Resume: 1196/1203
+Task: lexical
+Latest decision: 1392 spacing+
+Working files: GDT1392
+Assumptions: no meanings
+Resume: bind clause
 Running: none
 
 ## Structural baseline
@@ -16,7 +16,7 @@ Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole+;1389bag+/order−;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
 852:same-line join/split differs;meaning open.
-No proven parser/alphabet;1321/1326/1327FAIL.
+Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP.
 1358cyclic/bag types retain97/82-83%.
@@ -29,7 +29,7 @@ No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
 Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles/reversibility≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076no follower capacity;1099one reprise;Confirmed English lexemes: **0**
+1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 
 ## Decisions
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public138a55d19.
+Public86f0e4338.

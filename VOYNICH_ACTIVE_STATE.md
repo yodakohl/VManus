@@ -1,3 +1,26 @@
+## 2026-10-16 — Complete lexical worksheet and a second local spacing contrast
+
+The source-first worksheet retains all197 original IT groups from f75v43–49
+and f75r32–46. Only olchedy/qolchedy/olshedy receive optional two-part readings;
+five f75v occurrences yield82parts from77groups. f75r stays120/120 and has no
+joined example of the selected forms. All96form IDs remain unassigned; no
+Class, command, referent, grammatical consumer or English value is installed.
+Exact source/accounting verification passes. This is an inspectable alternative
+to R771, not a new selected lexical analysis or a successful transfer.
+
+GDT1392 separately views f75v.47 groups5/6 (ol shedy) and the corresponding
+location in group10 (olshedy). Root A and fresh B both see SPACE_LIKE versus
+INTERNAL_LIKE with local contrast. Same original owned image; B knew target
+group structure and prior route summary. No independent physical witness,
+measured width, meaning equality or line-end compression law follows.
+
+1326/1391 do not rule out source-chosen words;1390 remains a search failure.
+1320/1333 concern within-group glyph fusion, not lexical spaces. Further lexical
+work needs an actual content/attachment discriminator, not another unbound
+operator parser, more reshapings or a repeated abbreviation calibration.
+Evidence: [worksheet](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/LEXICAL_WORKSHEET_20261016.md);
+[visual report](experiments/yolo/gdt1392_f75v47_spacing_contrast/REPORT.md).
+
 ## 2026-10-16 — GDT1391 excludes one automatic word-boundary class
 
 The old same-line f75v.48 G006/G007 pair is saino / ol in all three alternative
