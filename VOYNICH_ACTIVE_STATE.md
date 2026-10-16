@@ -1,3 +1,17 @@
+## 2026-10-16 — GDT1408 latent-boundary key search stops before native fit
+
+The fixed search hits its5000000candidatecheck cap on a known-satisfiable
+32-word Deot control (136units,16active signs,612nodes). UNKNOWN, notUNSAT.
+All600smallprimaryoraclecases pass; independentreview verifies planted22key
+readback and3906ownsmallcases. RequiredunforcedSATgate staysCLOSED.
+No nativeinput/results were produced and no manuscriptmodel/language excluded.
+Originalrun/validator/spec remain locked; post-result stopverification/replay
+checks the refusal only, never a recoveredkey orpassed scientificgate.
+[Report](experiments/yolo/gdt1408_latent_boundary_shared_key/REPORT.md).
+Stopthisimplementation; noautomaticcap/source/decoderrepair. Any newroute needs
+an explicit changed design/capability and bounded decisionnote. Wordmeanings0.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — IDEA1095 two-phase word channel inherits the cube obstruction
 
 Fixed alternation between two atom-output alphabets makes dydydy emitB^3.

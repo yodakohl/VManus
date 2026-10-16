@@ -1,0 +1,38 @@
+{
+  "experiment_id": "GDT1408",
+  "generated_control": {
+    "active_signs": 16,
+    "checks": 5000001,
+    "encoded_units": 136,
+    "known_full_key_entries": 22,
+    "known_planted_witness_exists": true,
+    "nodes": 612,
+    "primary_reason": "candidate_checks_cap",
+    "primary_status": "UNKNOWN",
+    "source": "deot",
+    "source_word_count": 32
+  },
+  "interpretation": "The bounded implementation does not recover even its known-satisfiable erased-boundary control. UNKNOWN is not source/cipher incompatibility and cannot exclude the model. Do not run the native paragraph or raise limits after this result.",
+  "native_fit_run": false,
+  "native_word_meanings_assigned": 0,
+  "next_decision": "Stop this implementation under the fixed budget. No automatic newsolver, corpus, unit, homophony or budget repair. Any later route requires a new decision note and actual changed input/falsifier; old1404/1406/1095scopes remain.",
+  "original_gate": "CLOSED; generated unforcedSATrequired andnotachieved",
+  "original_scientific_code_changed_after_lock": false,
+  "pins": {
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/LOCK.json": "5294d74c265fa49b300d68d34026059b3c0db50d16547e54b2cd458893536bff"
+  },
+  "post_result_tools": "verify_stop.py and reproduce.py check/replicate the recorded stop only, not a passed original gate.",
+  "primary_control": {
+    "forced_cap_is_UNKNOWN": true,
+    "generated_status": "UNKNOWN",
+    "key_and_wordbreak_identification": "capacityonly; wordbooksequence not semanticreading",
+    "native_data_read": false,
+    "oracle_cases": 600,
+    "oracle_outcomes": {
+      "SAT": 306,
+      "UNSAT": 294
+    },
+    "status": "STOP_GENERATED_CONTROL_NOT_RECOVERED"
+  },
+  "status": "CAPACITY_STOP_GENERATED_CONTROL_UNKNOWN_NO_NATIVE_FIT"
+}

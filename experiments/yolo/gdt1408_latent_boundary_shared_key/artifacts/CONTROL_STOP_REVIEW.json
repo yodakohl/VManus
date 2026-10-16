@@ -1,0 +1,40 @@
+{
+  "status": "CONTROL_STOP_CONFIRMED_NO_NATIVE_TEST",
+  "reviewed_utc": "2026-10-16T20:29:37.832640+00:00",
+  "primary_generated_status": {
+    "checks": 5000001,
+    "nodes": 612,
+    "reason": "candidate_checks_cap",
+    "status": "UNKNOWN"
+  },
+  "verified": {
+    "primary_toy_cases_against_independent_key_and_wordbreak_oracle": 600,
+    "own_additional_sourcefree_exhaustive_comparisons": 3906,
+    "planted_complete_injective_key_values": 22,
+    "fixed_source_words": 32,
+    "encoded_working_units": 136,
+    "active_control_units": 16,
+    "exact_full_planted_readback": true,
+    "source_selection": "sorted distinct unchanged Deot W indices0..31",
+    "known_SAT_exists": true
+  },
+  "gate_execution": "The frozen --gate checker verified its source-free controls, all600 primary toy results, fixed source selection and planted full readback, then stopped at its mandatory primary generated-SAT assertion. This is the intended closed gate, not a native UNSAT result or an arithmetic failure.",
+  "independent_generated_search": "NOT_RUN; optional secondary search was unnecessary after the fixed primary failed and would not reopen its gate.",
+  "native_access": "No native projection or fitting ran; NATIVE_INPUT.json and RESULT.json absent. No forced PASS receipt written.",
+  "hashes": {
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/src/validate.py": "853cb734d3c0e5e6d0aeedb72a4c996a572bd009c12896f90e31622889aaf92d",
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/src/run.py": "d4a22e9fbe43b51e57502b5fbcc6f604f34b6912d12f1b3c3b66441ca40d847c",
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/src/SPEC.json": "22d56b386cd7cc7b8acb2650cd4fa2df8f175833cfc190232b6390dedff4d439",
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/LOCK.json": "5294d74c265fa49b300d68d34026059b3c0db50d16547e54b2cd458893536bff",
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/artifacts/TOY_CONTROLS.json": "55421678b0e1680444da97a81cfdc6c9d5ec38b1f4137edc0c35664fd4510dde",
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/artifacts/GENERATED_CONTROL.json": "bb2e1df02b4d7345b9a67118e6df6a6ae768925ad28004381135c63a44592fbe",
+    "experiments/yolo/gdt1408_latent_boundary_shared_key/artifacts/CONTROLS.json": "2f2fb8bf3e3ed144ac05c5841cf84eb32d56aee86ec1163b1e020d5fa5d39a87"
+  },
+  "lock_sha256": "5294d74c265fa49b300d68d34026059b3c0db50d16547e54b2cd458893536bff",
+  "limits": [
+    "The planted witness proves a solution exists for this artificial erased-gap control, not that the unknown-key solver found it.",
+    "Candidate-check-cap UNKNOWN is not UNSAT. It neither rejects the fixed writer nor any source language.",
+    "No limits, algorithms, source words, dictionary, raw e/i runs, or native assumptions changed; no further test selected."
+  ],
+  "native_fit_authorized": false
+}

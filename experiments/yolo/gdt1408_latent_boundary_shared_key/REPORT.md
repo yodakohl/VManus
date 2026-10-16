@@ -1,0 +1,13 @@
+# GDT1408 — generated control stops the latent-boundary key search
+
+**CAPACITY_STOP_GENERATED_CONTROL_UNKNOWN_NO_NATIVE_FIT.** The frozen exact search reached its5000000candidatecheck cap on the known-satisfiable32-word Deot control. Its status isUNKNOWN, notUNSAT. The native paragraph was not fitted, and no cipher, language or word meaning is excluded.
+
+The600small exhaustive key-and-wordbreak comparisons passed (306SAT/294UNSAT); a forced budget cap returnedUNKNOWN. The generated control has136working units and16active signs; its full22-entry planted injective key reproduces all32unchanged sourcewords. The search stopped after612nodes and5000001counted checks, so the required unforcedSATrecovery was not obtained. These are control/engineering findings, not manuscript progress or a new Voynich statistic.
+
+The original independent --gate command refuses this result at its mandatory generatedSATassertion. NoGATE_VALIDATION, NATIVE_INPUT, RESULT or nativeVALIDATION file is created. Source-independent review distinguishes an available planted witness from decoder recovery. All locked scientific files remain byte-unchanged. The post-result verify_stop.py and reproduce.py document and reproduce the refusal; their successful closure checks do not turn the failed original recovery gate intoPASS.
+
+The proposed target was all77original ITf75v43–49groups under one fixed injective22unit/source-codepoint key and completely latent sourceword boundaries. Raw e/i counts and every original group/seam/flag/repetition would have been retained. That target contract remains untested here. Fixed sourcewords are from the unchanged eight cached books/controls. SATlexical membership would not itself establish grammatical content or translation.
+
+The class is not a new discovery: the legacyGDT001latent-space search already scored proposed homophonic keys with exact Viterbi word-gap choices and lost its MDLscreen. GDT1408 instead preregistered an exact finite word-star/key search with explicit UNKNOWN caps, supplied22units and an injective key. The old losses and scope remain unchanged; this capacity stop does not prove the broader idea wrong. GDT1404s fixed-word/runinverse exclusions and1406/IDEA1095wholeword cube exclusions retain their original boundary assumptions.
+
+The scientific lock at20:27:34.551103UTC precedes primarycontrols and any nativefit. The inclusive20:21–21:06UTCbudget includes publication. Stop now; no automatic cap increase, control shortening, source replacement, homophonic expansion or alternate solver follows. No new rawsource/image/admission, reserved data, f84/f84r/f116v/f1rbody,327/336body, native relation score or concrete word values were accessed or assigned.

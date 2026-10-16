@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1406**
-- Experiment-associated tracked files: **27,499** (2.4 GiB)
-- Structured GDT337+ experiments: **1071**
+- Experiments indexed: **1407**
+- Experiment-associated tracked files: **27,519** (2.4 GiB)
+- Structured GDT337+ experiments: **1072**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1408 | gdt1408_latent_boundary_shared_key | `CAPACITY_STOP_GENERATED_CONTROL_UNKNOWN_NO_NATIVE_FIT` | [report](../experiments/yolo/gdt1408_latent_boundary_shared_key/REPORT.md) | 20 | 479.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT1407 | gdt1407_sheckhy_argument_qualified_return | `FIXED_OVERT_CONSTRUCTION_MISSING_ANCHOR` | [report](../experiments/yolo/gdt1407_sheckhy_argument_qualified_return/REPORT.md) | 21 | 516.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT1406 | gdt1406_inclusive_budget_overrun | `TIMING_CORRECTION_CLOSURE_ONLY` | [report](../experiments/yolo/gdt1406_run_inverse_ud_cube_obstruction/artifacts/WORK_CHECKPOINT.json) | 20 | 126.2 KiB | 10 | STRUCTURED_YOLO |
 | GDT1405 | gdt1405_run_inverse_prefix_code_capacity | `EXACT_PREFIX_MIN27_FULL_MIN23_LEAF2_FIXED_W_BRIDGE_SCOPED` | [report](../experiments/yolo/gdt1405_run_inverse_prefix_code_capacity/REPORT.md) | 29 | 964.3 KiB | 9 | STRUCTURED_YOLO |
