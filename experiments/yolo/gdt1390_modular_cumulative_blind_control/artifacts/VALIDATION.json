@@ -1,0 +1,475 @@
+{
+  "status": "PASS_SOURCE_FREE_INDEPENDENT_EXHAUSTIVE",
+  "checks": 5575,
+  "scope": "Small finite backward-DP, exhaustive sampler probabilities, inverse states and whole-message mixture; no recovery claim.",
+  "public_models": {
+    "status": "PASS_PUBLIC_MODELS_ONLY",
+    "training": {
+      "train_groups": 8273,
+      "all_length_context_rows": 624,
+      "selection": "IT2a Currier B odd physical leaves only; complete exact unit parse and definite outer spaces"
+    },
+    "long_table_rows_checked": 7680,
+    "source_tables": [
+      {
+        "language": "latin",
+        "training_characters": 1089220,
+        "table_sha256": "8a55af99ae64e893282c74e6a3864a72b8380445a15c6e8294782c2cfad88ebd",
+        "pack_sha256": "64cce481ba4fa74ddd71f60ebb2dd1292b394a920fc1281063183f0df5b719aa",
+        "maximum_log_probability_error": 0.0
+      },
+      {
+        "language": "middle_high_german",
+        "training_characters": 9618484,
+        "table_sha256": "b22048e2c59c6954b00f091ad68ca7e894600eef15ddb3278e495dd3c736cf36",
+        "pack_sha256": "3ba25894f4f55d55b4f292c6352802886c29cacb7f425a709f2d94a73457d20b",
+        "maximum_log_probability_error": 0.0
+      },
+      {
+        "language": "middle_french",
+        "training_characters": 445219,
+        "table_sha256": "cf324df9c2400387ae0abd3e68151028df26cd3b00ca8394947226d7db672d95",
+        "pack_sha256": "8b849ac3f8b590c9ac070fc3694edf2c5de35898e216ccd6318e0f06ca513f01",
+        "maximum_log_probability_error": 0.0
+      },
+      {
+        "language": "old_italian_tuscan",
+        "training_characters": 403512,
+        "table_sha256": "aa1f937277f14ade21aec45050d1b4ed443ef24c0b7333f31faba4a0c93fbc44",
+        "pack_sha256": "b5f719981934b0f65b3aba2edede7a52501d8e14c310ece68e4de038c0ff1d50",
+        "maximum_log_probability_error": 0.0
+      },
+      {
+        "language": "medieval_czech",
+        "training_characters": 3703381,
+        "table_sha256": "d6b0fb579ae563fc5afdd5730ad6d17bf1959ff32083c6643fa5df6a6ac5d733",
+        "pack_sha256": "52376f5bce8991112b665fe63440b6659a53427c4c85b65ae0713fb37f83a685",
+        "maximum_log_probability_error": 0.0
+      },
+      {
+        "language": "old_hungarian",
+        "training_characters": 683709,
+        "table_sha256": "a2a7e78001f40c926d942e798a26e4d8c98afc0d861f61c62d2dafb1785c259e",
+        "pack_sha256": "4b8b8b28ccd4e9a6db4c802aafaa101491ca1bdea318dddd1978396b39351989",
+        "maximum_log_probability_error": 0.0
+      }
+    ],
+    "truth_opened": false
+  },
+  "unblinded": {
+    "status": "PASS_SOURCE_AND_SCORE_VALIDATION_ONLY",
+    "replay": {
+      "status": "EXACT_RELEASED_SEED_REPLAY",
+      "cases": 18,
+      "independent_generator_imported": false,
+      "scope": "Reproduces source offsets, nonoverlap, keys, offsets, permutations, conditional spellings and anonymous ordering."
+    },
+    "cases": [
+      {
+        "id": "C00",
+        "kind": "POSITIVE",
+        "language": "middle_french",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 2,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -820.0707571723466,
+        "true_score": -701.1206090014483,
+        "score_difference": -118.95014817089827,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C01",
+        "kind": "POSITIVE",
+        "language": "middle_high_german",
+        "length": 120,
+        "exact_message": false,
+        "matching_characters": 5,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -1110.709798234629,
+        "true_score": -938.8705986680745,
+        "score_difference": -171.8391995665545,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C02",
+        "kind": "POSITIVE",
+        "language": "middle_high_german",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 5,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -742.3849037386034,
+        "true_score": -650.2806698203583,
+        "score_difference": -92.10423391824509,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C03",
+        "kind": "NEGATIVE",
+        "language": "old_italian_tuscan",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 3,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 22,
+          "unused_unit_indices": [
+            11
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -703.933720016506,
+        "true_score": -725.1527900534651,
+        "score_difference": 21.219070036959124,
+        "interpretation": "BETTER_WRONG_WINNER_MODEL_OR_FINITE_MESSAGE_AMBIGUITY"
+      },
+      {
+        "id": "C04",
+        "kind": "NEGATIVE",
+        "language": "latin",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 0,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 22,
+          "unused_unit_indices": [
+            20
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -668.3626398686678,
+        "true_score": -695.9323950329621,
+        "score_difference": 27.569755164294293,
+        "interpretation": "BETTER_WRONG_WINNER_MODEL_OR_FINITE_MESSAGE_AMBIGUITY"
+      },
+      {
+        "id": "C05",
+        "kind": "NEGATIVE",
+        "language": "medieval_czech",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 5,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 22,
+          "unused_unit_indices": [
+            19
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -624.6293046603839,
+        "true_score": -654.5024355299845,
+        "score_difference": 29.873130869600573,
+        "interpretation": "BETTER_WRONG_WINNER_MODEL_OR_FINITE_MESSAGE_AMBIGUITY"
+      },
+      {
+        "id": "C06",
+        "kind": "NEGATIVE",
+        "language": "middle_high_german",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 1,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 21,
+          "unused_unit_indices": [
+            15,
+            20
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -648.2863699917956,
+        "true_score": -677.0929369559954,
+        "score_difference": 28.80656696419976,
+        "interpretation": "BETTER_WRONG_WINNER_MODEL_OR_FINITE_MESSAGE_AMBIGUITY"
+      },
+      {
+        "id": "C07",
+        "kind": "POSITIVE",
+        "language": "middle_french",
+        "length": 120,
+        "exact_message": false,
+        "matching_characters": 5,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -980.5160755765603,
+        "true_score": -765.0957517942448,
+        "score_difference": -215.42032378231545,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C08",
+        "kind": "POSITIVE",
+        "language": "old_italian_tuscan",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 3,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 22,
+          "unused_unit_indices": [
+            21
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -709.9221188705565,
+        "true_score": -612.9867530704935,
+        "score_difference": -96.93536580006298,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C09",
+        "kind": "POSITIVE",
+        "language": "old_hungarian",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 1,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -751.6534821490335,
+        "true_score": -635.2289777468317,
+        "score_difference": -116.42450440220182,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C10",
+        "kind": "POSITIVE",
+        "language": "medieval_czech",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 6,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 22,
+          "unused_unit_indices": [
+            21
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -759.9229224209748,
+        "true_score": -643.0725042509454,
+        "score_difference": -116.85041817002946,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C11",
+        "kind": "POSITIVE",
+        "language": "old_italian_tuscan",
+        "length": 120,
+        "exact_message": false,
+        "matching_characters": 1,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -1019.7905138722099,
+        "true_score": -860.4275850198906,
+        "score_difference": -159.36292885231933,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C12",
+        "kind": "POSITIVE",
+        "language": "latin",
+        "length": 120,
+        "exact_message": false,
+        "matching_characters": 6,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -953.3480911909651,
+        "true_score": -743.9385241651739,
+        "score_difference": -209.40956702579115,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C13",
+        "kind": "POSITIVE",
+        "language": "medieval_czech",
+        "length": 120,
+        "exact_message": false,
+        "matching_characters": 3,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -1002.1801920222815,
+        "true_score": -864.3136103990146,
+        "score_difference": -137.86658162326694,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C14",
+        "kind": "NEGATIVE",
+        "language": "old_hungarian",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 4,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 22,
+          "unused_unit_indices": [
+            20
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -613.161652328165,
+        "true_score": -656.8314934939419,
+        "score_difference": 43.669841165776916,
+        "interpretation": "BETTER_WRONG_WINNER_MODEL_OR_FINITE_MESSAGE_AMBIGUITY"
+      },
+      {
+        "id": "C15",
+        "kind": "POSITIVE",
+        "language": "latin",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 1,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -711.807275370349,
+        "true_score": -620.5628029483327,
+        "score_difference": -91.24447242201632,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      },
+      {
+        "id": "C16",
+        "kind": "NEGATIVE",
+        "language": "middle_french",
+        "length": 77,
+        "exact_message": false,
+        "matching_characters": 1,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 23,
+          "unused_unit_indices": [],
+          "fixed_plaintext_unique_mod27_certified": true,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -747.4025392674698,
+        "true_score": -790.8411685609592,
+        "score_difference": 43.438629293489385,
+        "interpretation": "BETTER_WRONG_WINNER_MODEL_OR_FINITE_MESSAGE_AMBIGUITY"
+      },
+      {
+        "id": "C17",
+        "kind": "POSITIVE",
+        "language": "old_hungarian",
+        "length": 120,
+        "exact_message": false,
+        "matching_characters": 8,
+        "exact_effective_parameters": false,
+        "observed_message_equivalent_parameters": false,
+        "parameter_identifiability": {
+          "parameter_columns": 23,
+          "rank_mod3": 22,
+          "unused_unit_indices": [
+            21
+          ],
+          "fixed_plaintext_unique_mod27_certified": false,
+          "scope": "Full rank certifies parameter uniqueness only conditional on one fixed complete plaintext and initial state0. Deficiency reported without kernel cardinality or global recovery claim."
+        },
+        "winning_score": -989.4111058012136,
+        "true_score": -809.785009971698,
+        "score_difference": -179.62609582951563,
+        "interpretation": "SEARCH_FAILURE_LOWER_SCORE"
+      }
+    ],
+    "exact_positive_messages": 0,
+    "primary_recovery_gate": false,
+    "recovery_sha256": "7c215b9088560683d087995f3ab145fc20fa85c5ae62fbd24c28588097bdc1eb",
+    "truth_sha256": "792c08062fbe9b6458990f914b6ff12e0c2db63714bbf12444ee471e8418d2f5",
+    "limits": [
+      "Negative controls cannot establish readability.",
+      "Source likelihood alone is not recovery success.",
+      "Key equivalence is assessed only for observed message; no native pilot or translated word."
+    ]
+  },
+  "validator_sha256": "2255e86386cf6c5cc1584fcd0607fbe03b49c6101b5154593dea2913c344e10b"
+}

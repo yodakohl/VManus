@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: bag order
-Latest decision: 1389 nolead
-Working files: GDT1389
+Task: selection
+Latest decision: 1390 searchFAIL
+Working files: GDT1390
 Assumptions: no key
-Resume: inventory choice
+Resume: 1054 followups
 Running: none
 
 ## Structural baseline
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicc587c97d7.
+Public473aabd29.

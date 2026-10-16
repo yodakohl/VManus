@@ -1,3 +1,24 @@
+## 2026-10-16 — GDT1390 fails full-scale blind recovery
+
+The complete C1064 control fixes an all-length IT2a/B spelling law and six
+whole-message source priors. All 576 planned starts finished on 18 anonymous
+controls; generator truth was released only after output hashes were frozen.
+Positive recovery: 0/12 exact messages, 46/1182 matching characters. All twelve
+wrong winners score below their actual keys by 91.24–215.42 nats. This proves
+search failure for the fixed procedure, not rejection of the cumulative writer,
+source language or native mechanism. Six shuffled controls return higher-scoring
+wrong outputs; no readability claim follows.
+
+Independent source/model, exact seeded generation, normalization and score
+validation passes. Nine positives have full parameter rank modulo3 conditional
+on their fixed plaintext; this does not prove global plaintext identifiability.
+The 1390 search stops without native use or automatic search/model repairs.
+Older 1389 bag/order result, 1324 toy ambiguity, and 602/604 cautions remain.
+Next: review the existing IDEA1054 whole-passage action-menu writer and its
+later decisions before any new selection; no native action meaning is assigned.
+Ten-hour request remains outstanding; confirmed Voynich word meanings: zero.
+Evidence: [report](experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md).
+
 ## 2026-10-16 — GDT1389 separates inventory weighting from word order
 
 All23496old1308heldevents/7144reader-Currier-bagcases retained. Exact

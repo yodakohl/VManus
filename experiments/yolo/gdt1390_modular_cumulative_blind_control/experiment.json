@@ -1,0 +1,315 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Controlled recovery and search feasibility only; no native key, language identification, historical writer claim or word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1390_modular_cumulative_blind_control/src/reproduce.py --output experiments/yolo/gdt1390_modular_cumulative_blind_control/runtime/replay --seconds 600 --workers 32",
+    "validate": "python3 experiments/yolo/gdt1390_modular_cumulative_blind_control/src/validate.py --models experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/MODELS.json --cases experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/CASES.json --unblind experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/TRUTH.json --recovery experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RECOVERY.json --recovery-lock experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RECOVERY_LOCK.json"
+  },
+  "created": "2026-10-16",
+  "dependencies": [
+    "GDT1308",
+    "GDT1322",
+    "GDT1324",
+    "GDT1335",
+    "GDT1389",
+    "GDT602",
+    "GDT604"
+  ],
+  "experiment_id": "GDT1390",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL.json",
+      "sha256": "36297201b1c2998226d876bb032cfe2fdc640e28aec31973d06bea240604d5bb",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "experiments/yolo/gdt1308_whole_form_prediction/artifacts/MODEL_LOCK.json",
+      "sha256": "b971d278ed51c818addd7045bd686d2d9323df63361e1ec75aa4add72ec5ec82",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "gdt001_language_pack_manifest.json",
+      "sha256": "e30ebb62e5020e448e1184e70c9b8282af02b10e25016ec28ce7fa72c777a37c",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "prepare_gdt001_language_corpora.py",
+      "sha256": "1dfe8a0d8eb5f1c212330bf019d1bf685c2bea7f6dc967badde2966c2299bf4b",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/C1064_PLAN_20261016.json",
+      "sha256": "b1a6b9cbbb1993938eb7e87f24453a78ea8a240497c3e0450fba1912652c437c",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/C1064_ACCOUNT_20261016.md",
+      "sha256": "dc88c1799b8f70bf70603c4010047e1cd2f8c052ad597025e2ffbd55b87e5d89",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_DISCOVERY_IT2a.json",
+      "sha256": "ab7c8bd792365fc9dc1b3b8376f8453719a0003712aeb6caff1fbe211e2ba2fa",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    },
+    {
+      "path": "experiments/yolo/gdt915_terminal_lr_phrase_transfer/artifacts/SOURCE_EVALUATION_IT2a.json",
+      "sha256": "2c62ef9c6c1cec11fd0e0e383b85190705a6059439163509213df2bd56d0e8c9",
+      "role": "frozen predecessor, guarded cached source or source-pack preparation contract"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/.gitignore",
+      "sha256": "429a7ff8e3befe5ac528bb832881840115d63940883b125526b582eedcdcb7a9",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/METHOD.md",
+      "sha256": "bb081fbf9394bd3bf3f378bd8081d66e61a71e12528298a2d08995477f2e0ad5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md",
+      "sha256": "b32dd168c77cd12c02066db984c501b69f91b038474a455b5e5cfb761aeae522",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/README.md",
+      "sha256": "02f8ab7fc3947df72efc6eeb93e317a981ea1ee50219acdac373ea7451f814a3",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+      "sha256": "4ce4b6bf86f87796d347b4f0748795c65300b62314371df513a4e039a54547d5",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/BENCHMARK.json",
+      "sha256": "dacdd186c6925fe8629bf0b7900a1c0c4199b0701cdaac6555fa62d3452983bc",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/CASES.json",
+      "sha256": "6ce955864ed70b3a8c845983839bf227f57732310895c46f44b7b06f42f7ead0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/CLOSURE.json",
+      "sha256": "8797e8ec15d8a5ae760c0bac1eca576f9fc275cecbdcb737080e238df3959fee",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/ENGINE_REVIEW.json",
+      "sha256": "6df4db97d7f1c01e322cddf0da8507416b51bfb7f571b0dd6d2814368705a6b5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/ENGINE_VALIDATION.json",
+      "sha256": "94dd917748eda540f7fd463f7a2f5f943456be73ebd8c7ebf36474991d71d757",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/GO_RECORD.json",
+      "sha256": "4e2234c7a316328abbb197f199954c82c16b939716e8427ba73503671809cfe4",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/MODELS.json",
+      "sha256": "9c68e995759c314f7f134267b60a07726733833982fe26e66669b336737693a5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/MODEL_VALIDATION.json",
+      "sha256": "be4344b91728e8327c894774a6b49f92f01c9ea4e358196abc7414cca5ebf6a0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/PROTOCOL_REVIEW.json",
+      "sha256": "b2b519c2d15b5babb8b6bc81fec248eaa3cd9567e9394c06a88252b6e782f266",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/README.md",
+      "sha256": "ffb852f657f2bb8c15d3e9ff663efc89ec1a854ce100b02333a84d0c54419393",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RECOVERY.json",
+      "sha256": "7c215b9088560683d087995f3ab145fc20fa85c5ae62fbd24c28588097bdc1eb",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RECOVERY_INPUT_LOCK.json",
+      "sha256": "204c5d0a4db756636f33c77a20e170f1212b0c86f9b999cd0125e8b290543a59",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RECOVERY_LOCK.json",
+      "sha256": "94761e4fc7ac4351348f40bc18a547d7d8bbed9e3dc4ad07d6f1c7efab6d90f6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/REPLAY_VALIDATION.json",
+      "sha256": "de86dd9d8df6b8d03ed267912bb460eade05dac10f7ebeb02c87ea2f5becd2ea",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RESTARTS.json",
+      "sha256": "dada1322f6d961e1cbc192932d46fbbb4b71be73d1f9d60b0fd6ef0ef309b005",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RESULT.json",
+      "sha256": "34e04056f5c6c107cf71e8d7dbe31136e0f5e37fc8651031e2fde42b5ee07522",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RESULT_REVIEW.json",
+      "sha256": "d7e2b86fa030c253c4e3167b5a46cd4164bc1b0befe757ed37a567cd3d3d064f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/REVIEW.json",
+      "sha256": "a1b8dd6e01a64176d1dca9e6ec32b0cd76dc829e2c42cdf949e38d4eb608c220",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SHAPE.json.gz",
+      "sha256": "b7acccb3164dadd66f5fd2b45709ed2ec4272693a0ea681ff5b1934d1478d996",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SHAPE_VALIDATION.json",
+      "sha256": "3fc5c759e456b54dce7eb9a299ac1c17e1720bab2799e59e03df7ac7a35a285d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_ATTRIBUTIONS.json",
+      "sha256": "5572445156abbb87ad0226589d8170eb2c255f8db47a052bb284ea4455a365a4",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_latin.json.gz",
+      "sha256": "8a55af99ae64e893282c74e6a3864a72b8380445a15c6e8294782c2cfad88ebd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_medieval_czech.json.gz",
+      "sha256": "d6b0fb579ae563fc5afdd5730ad6d17bf1959ff32083c6643fa5df6a6ac5d733",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_middle_french.json.gz",
+      "sha256": "cf324df9c2400387ae0abd3e68151028df26cd3b00ca8394947226d7db672d95",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_middle_high_german.json.gz",
+      "sha256": "b22048e2c59c6954b00f091ad68ca7e894600eef15ddb3278e495dd3c736cf36",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_old_hungarian.json.gz",
+      "sha256": "a2a7e78001f40c926d942e798a26e4d8c98afc0d861f61c62d2dafb1785c259e",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/SOURCE_old_italian_tuscan.json.gz",
+      "sha256": "aa1f937277f14ade21aec45050d1b4ed443ef24c0b7333f31faba4a0c93fbc44",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/TRUTH.json",
+      "sha256": "792c08062fbe9b6458990f914b6ff12e0c2db63714bbf12444ee471e8418d2f5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/UNBLIND_RECEIPT.json",
+      "sha256": "79d3e236e1b3b531272e667fe514beee19f85d2c9ff5f2364daacd2c2a303350",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/VALIDATION.json",
+      "sha256": "ddd4300194b489fba3c15adcd98e41a1e59c617f6f7dcb34345e46426ca9110d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/VALIDATOR_CONTROLS.json",
+      "sha256": "f26abdd58360ba2637907205273449350b3d1c9b6a971da5d07a938ea0ad2e37",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/PROTOCOL_LOCK.json",
+      "sha256": "32f6f1f8682eb0b1316b5767527bdf839f8c02809c56424c372e42e620656ef8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/REGISTRATION_LOCK.json",
+      "sha256": "aa1c639d7e64085da27edbe6be28d5493a94dc652218ba05559037f630ee2d71",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/analyze.py",
+      "sha256": "6edd678e0e84e53cde79edbee982989bbfb1dc3ae722b10e545f0c0cf210d617",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/engine.cpp",
+      "sha256": "14aa03a2e25b07a738715c22ac65a5dc342e359d35a480e1232cd358761b11b0",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/generate.py",
+      "sha256": "8d8d8de7756224042c0aa22db2f1278911f8ff59659a3bb33de56d676d02a4d8",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/prepare.py",
+      "sha256": "e82b5198b4cd2e930c7972b96d8fce701bb2e50ead6a6f5b8c4bf47d15f4b864",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/reproduce.py",
+      "sha256": "787201b029a5a1650da8fddcfed788f437a6ab1d46c97fbfab431e00122b4efa",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/run.py",
+      "sha256": "0efb5f210fbf3821cd432f6ac6f02cd5a5e22b86ee3f916d4f8eec3568c4df1d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1390_modular_cumulative_blind_control/src/validate.py",
+      "sha256": "2255e86386cf6c5cc1584fcd0607fbe03b49c6101b5154593dea2913c344e10b",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Can a fixed normalized22-weight cumulative packet writer recover complete77/120-character hidden control messages without supplied keys or plaintext?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "modular_cumulative_blind_control",
+  "status": "CONTROL_RECOVERY_FAIL_SEARCH_FAILURE",
+  "title": "Full-scale blind recovery for a cumulative modular packet writer",
+  "updated": "2026-10-16",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/VALIDATION.json"
+  }
+}

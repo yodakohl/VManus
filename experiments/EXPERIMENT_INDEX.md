@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1388**
-- Experiment-associated tracked files: **27,096** (2.4 GiB)
-- Structured GDT337+ experiments: **1053**
+- Experiments indexed: **1389**
+- Experiment-associated tracked files: **27,142** (2.4 GiB)
+- Structured GDT337+ experiments: **1054**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1390 | gdt1390_modular_cumulative_blind_control | `CONTROL_RECOVERY_FAIL_SEARCH_FAILURE` | [report](../experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md) | 46 | 4.5 MiB | 11 | STRUCTURED_YOLO |
 | GDT1389 | gdt1389_bag_conditioned_word_order | `NO_RETAINED_CONDITIONAL_ORDER_GAIN` | [report](../experiments/yolo/gdt1389_bag_conditioned_word_order/REPORT.md) | 22 | 1.9 MiB | 8 | STRUCTURED_YOLO |
 | GDT1388 | gdt1388_posthoc_latin_alignment_certificate | `IT_FIXED_LATIN_INVENTORY_ANALYTICALLY_EXCLUDED` | [report](../experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_VALIDATION.json) | 27 | 330.3 KiB | 8 | STRUCTURED_YOLO |
 | GDT1387 | gdt1387_cv_default_vowel_concentration | `EXACT_DEFAULT_VOWEL_BOUNDS` | [report](../experiments/yolo/gdt1387_cv_default_vowel_concentration/REPORT.md) | 15 | 132.3 KiB | 3 | STRUCTURED_YOLO |

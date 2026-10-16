@@ -1,0 +1,50 @@
+{
+  "status": "ENGINE_AND_DRIVER_STATIC_REVIEW_PASS_WITH_RUNTIME_GO_RECHECK",
+  "review_utc": "2026-10-16T03:09:15Z",
+  "scope": "Independent static implementation review before control generation; no current CASES, secret keys, true plaintext or model payload read; no engine execution.",
+  "reviewed_hashes": {
+    "src/engine.cpp": "14aa03a2e25b07a738715c22ac65a5dc342e359d35a480e1232cd358761b11b0",
+    "PREREGISTRATION.md": "b32dd168c77cd12c02066db984c501b69f91b038474a455b5e5cfb761aeae522",
+    "src/run.py": "0efb5f210fbf3821cd432f6ac6f02cd5a5e22b86ee3f916d4f8eec3568c4df1d",
+    "src/REGISTRATION_LOCK.json": "aa1c639d7e64085da27edbe6be28d5493a94dc652218ba05559037f630ee2d71"
+  },
+  "engine_findings": [
+    "Residue DP tracks previous sign and accumulated residue; initial and position-dependent transition factors are included and length masses are summed.",
+    "Uniform shortcut is correct: its separate convolution advances at every length, including lengths whose M1 table is not uniform. Exact uniform flags inspect initial and every transition entry.",
+    "Invertible scale u permutes residue classes, so Z_uK(u*s)=Z_K(s). Orbit scans all18invertible scales and27offsets with one base normalizer.",
+    "Prefreeze canonical choice of the lexicographically smallest scale representative preserves the orbit and makes repeated scale-orbit evaluations numerically consistent. --score retains the supplied key.",
+    "Source likelihood is logsumexp of six complete-message log likelihoods minus log6. Order3 context offsets0/1/28/757 cover exactly20440histories.",
+    "Cumulative character decoding uses state differences with initial0 and centeringb. Shape probability is included; denominator is achieved STATE mass, not character mass.",
+    "Each start uses a uniform valid22weight key, seed1390000+1000*case+start, and256single-coordinate proposals; increment1..26 is uniform over other residues. Invalid proposals count against budget.",
+    "Temperature falls2.0to0.1 over proposal indices0..255; Metropolis accepts improvements or logU<difference/temperature. All evaluated proposals can update best-ever winner.",
+    "Score ties use lexicographic effective weights then b. Annealing proposals mutate the accepted base representative, while its objective is the maximum over its full orbit.",
+    "Engine has no hardcoded true key or plaintext and reads only model and anonymous packet binary paths explicitly supplied. Score/normalizer modes expose supplied candidates for later checking, not private files."
+  ],
+  "limits": [
+    "Static audit is not independent numerical validation. Planned forward/backward, degenerate-key and mixture fixtures remain required.",
+    "Exact normalizer means finite-sum DP evaluated in floating point, not exact rational arithmetic.",
+    "Post-unblinding better/worse true-key comparisons must not interpret rounding-scale score differences as substantive evidence."
+  ],
+  "driver_review": {
+    "status": "STATIC_REVIEW_PASS",
+    "findings": [
+      "Registration lock verifies frozen engine,driver,validator,models,shape andprotocol before benchmark/recover. Public model paths are separately hashchecked.",
+      "Binary writer matches engine layout:22signs,6source tables,20440contexts, length/initial/transition arrays andlittle-endian doubles.",
+      "Benchmark uses separate seed1390888 and120random packets; it does not read CASES. Engine benchmark uses100validkeys seed1390999 andcompleteorbit scoring.",
+      "Runtime extrapolation charges18*32*257maximum evaluations, doubles CPU/workers and startup, and reserves1200seconds before04:28UTC. Worker limit1..32 enforced.",
+      "Recovery explicitly reads only anonymous CASES. Generator source inspection confirms public CASES contains only id andunits, no source association, key, seed or plaintext. No current CASES or private file was opened by this reviewer.",
+      "Recovery schedules all576case/start combinations, each respecting absolute04:08UTC cutoff. Any failure or timeout yields computational-stop status andno selective winner set.",
+      "All32starts percase must finish with256proposals. Winner ordering is score descending,effective weights lexicographic,b ascending.",
+      "RECOVERY_INPUT_LOCK capturesCASEShash before starts; sourcehash checkedagain afterward. RESTARTS and RECOVERY hashes are frozen in RECOVERY_LOCK before truth release.",
+      "The optimizer never invokes the supplied-key --score mode; true-key comparison is outside blind recovery."
+    ],
+    "operational_condition": "Before root recovery GO, compare the saved twofold_cpu_extrapolation_seconds with the CURRENT seconds until04:08UTC. recover() checks saved benchmark PASS but does not repeat this elapsed-time comparison. The absolute timeout preserves the20minute reserve, but a stale PASS could otherwise start an infeasible full block. This can be checked externally without changing frozen code."
+  },
+  "control_generation_clearance": "No static engine/driver defect found. Independent numerical validation and root current-time runtime GO check still required. This review is not a recovery success.",
+  "initial_review_status": "ENGINE_CODE_REVIEW_PASS_DRIVER_PENDING",
+  "initial_driver_review": {
+    "status": "PENDING_IMPLEMENTATION",
+    "reason": "src/run.py remains the19-line NotImplementedError scaffold at this review; lock enforcement,18-case/32-start dispatch,runtime gate and output freeze cannot yet be approved."
+  },
+  "final_review_utc": "2026-10-16T03:12:52.981848+00:00"
+}

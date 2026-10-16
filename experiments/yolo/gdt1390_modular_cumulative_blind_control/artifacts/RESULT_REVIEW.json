@@ -1,0 +1,28 @@
+{
+  "experiment_id": "GDT1390",
+  "status": "PASS_FINAL_INTERPRETATION_REVIEW",
+  "review_type": "Post-unblinding independent scientific claim audit; no algorithm or model change and no search rerun.",
+  "canonical_result_status": "COMPLETE_SOURCE_RECOVERY_GATE_FAILED",
+  "report_interpretive_status": "CONTROL_RECOVERY_FAIL_SEARCH_FAILURE",
+  "findings": [
+    "All12positive controls fail exact-message recovery, and each returned candidate has lower complete likelihood than the admissible true key. This demonstrates missed better candidates for this bounded search, not exclusion of the writer or a language.",
+    "The six wrong negative winners score above their shuffled true sources. This does not establish readability, linguistic identification, global optimality or native discriminating power.",
+    "Report counts18/462and28/720positive character matches,14/462negative matches, and9positive full-rank matrices agree with both primary and independently recomputed case accounting.",
+    "Rank23mod3 provides an invertible23-column minor modulo27; with exact plaintext and s0fixed it certifies unique parameters. It does not establish unique plaintext or globally identifiable likelihood. The report retains this distinction.",
+    "The true key need not maximize the likelihood. Lower returned scores prove search inadequacy independently of whether an even better wrong key exists.",
+    "Original all12positive criterion failed; no changed threshold, chosen language, successful subset or native pilot is claimed.",
+    "Validation is correctly separate from scientific recovery. VALIDATION.json top-level status describes source-free checks, while its explicit unblinded section provides18-case source/score validation and retains the failed recovery gate."
+  ],
+  "scope_limits": [
+    "Review checked report interpretation and case arithmetic against frozen protocol/result/independent validation; it is not an independent replay of the entire optimizer.",
+    "Control messages are finite historical corpus fragments under a newly completed shape model, not representative statements about all language or all cumulative writers.",
+    "Ten-hour request remains outstanding; this bounded result is not time completion."
+  ],
+  "necessary_corrections": [],
+  "hashes": {
+    "PREREGISTRATION.md": "b32dd168c77cd12c02066db984c501b69f91b038474a455b5e5cfb761aeae522",
+    "REPORT.md": "4ce4b6bf86f87796d347b4f0748795c65300b62314371df513a4e039a54547d5",
+    "artifacts/RESULT.json": "34e04056f5c6c107cf71e8d7dbe31136e0f5e37fc8651031e2fde42b5ee07522",
+    "artifacts/VALIDATION.json": "ddd4300194b489fba3c15adcd98e41a1e59c617f6f7dcb34345e46426ca9110d"
+  }
+}

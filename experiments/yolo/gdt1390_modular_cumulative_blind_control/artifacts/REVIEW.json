@@ -1,0 +1,93 @@
+{
+  "record_id": "GDT1390",
+  "scope": "method",
+  "verdict": "nonconfirming",
+  "reviewer": "root scope synthesis; independent branch_inventory source and score validation; closure_error_audit final interpretation review",
+  "assessment_basis": "Complete blind control of one fixed 22-weight cumulative-packet search, not native evidence.",
+  "reason": "All 12 positive messages fail exact recovery; every wrong winner has lower likelihood than the true key. All 576 starts finished; no capacity or timeout substitute. Six shuffled negatives give higher-scoring wrong messages.",
+  "blockers": [
+    {
+      "code": "fixed_search_fails_full_message_recovery",
+      "detail": "0/12 exact positive sources, 46/1182 matching characters; 91.24\u2013215.42 nat deficit to the known true key. No native pilot.",
+      "evidence": [
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RESULT.json",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/VALIDATION.json"
+      ]
+    },
+    {
+      "code": "control_failure_not_writer_or_language_exclusion",
+      "detail": "The complete spelling model and six source priors are paid assumptions. A better known key proves search inadequacy; it does not establish the global optimum, historical origin or impossibility of another decoder.",
+      "evidence": [
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RESULT.json",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/VALIDATION.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_design",
+        "detail": "A genuinely different prospectively bounded recovery strategy with a decision-changing mechanism and new hidden control messages after selection; retain this failure and native source/choice assumptions.",
+        "evidence": [
+          "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+          "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md",
+          "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/RESULT.json",
+          "experiments/yolo/gdt1390_modular_cumulative_blind_control/artifacts/VALIDATION.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More restarts or steps of the unchanged search",
+      "Optimizing after looking at these released true keys",
+      "Applying failed outputs to native text",
+      "Treating a better source score as plaintext recovery"
+    ]
+  },
+  "relations": [
+    {
+      "target": "IDEA001064",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "target": "GDT1324",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "target": "GDT1389",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "target": "GDT602",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md"
+      ]
+    },
+    {
+      "target": "GDT604",
+      "type": "related_to",
+      "evidence": [
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/REPORT.md",
+        "experiments/yolo/gdt1390_modular_cumulative_blind_control/PREREGISTRATION.md"
+      ]
+    }
+  ]
+}
