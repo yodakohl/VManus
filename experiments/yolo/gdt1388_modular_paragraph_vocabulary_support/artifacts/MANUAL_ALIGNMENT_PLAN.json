@@ -1,0 +1,46 @@
+{
+  "experiment_id": "GDT1388",
+  "phase": "POSTHOC_ANALYTIC_ALIGNMENT_VALIDATION_NOT_REGISTERED_GLOBAL_TEST",
+  "created_utc": "2026-10-16T00:56:25.060348+00:00",
+  "reason": "Manually derived necessary consequences of the already fixed sourceword support. Validate8known localwordalignments; do not repair or rerun the timedoutwholeparagraphsolver.",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/SOURCE.json",
+      "sha256": "76ff4e72025f7367d9ded9b408cf94d7f26957f3468da6495cca0d98f5c84915"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/PREFILTER.json",
+      "sha256": "f0623756492fe1b5e1cfdc45139859cbf64bce82e2a97387f2c132e1e18b53e2"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/SPEC.json",
+      "sha256": "ce840de86727b8e97f13cad01cced4467092aa0530007899b8c7617257b6af11"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/RESULT.json",
+      "sha256": "42f39b9b7ebd50186e10d131f3f49eb20b642cdef0e71fa4a29dd6a3acf89f26"
+    }
+  ],
+  "scope": "IT2a/ZL3b only; all4Latinprefilter word/offset alignments, oneglobal22weight key constrainedonlyby alignedwholeword and immediateSPACEneighbors. Allotherparagraphpositions unconstrained inthischeck.",
+  "candidates": [
+    "deesse",
+    "piissimi",
+    "piissimo",
+    "preesse"
+  ],
+  "expected": {
+    "deesse": "SAT_LOCAL_ONLY",
+    "piissimi": "UNSAT_LOCAL",
+    "piissimo": "UNSAT_LOCAL",
+    "preesse": "UNSAT_LOCAL"
+  },
+  "manual_proofs": {
+    "preesse_IT": "A=e5,B=s19 ->glyph_e13; qokechdy=p16 minusglyph_e givesqokchdy3, butrequiredpreviouswordboundarySPACE0.",
+    "preesse_ZL": "Previoussourcegroupqokeedy repeatsA=e5 butmustbeSPACE0.",
+    "piissimi_piissimo_both": "Thegroupafterthecompleteword isqokeedy again; itmustSPACE0butA=i9.",
+    "deesse_IT": "qokechdySPACE0, glyph_e13 ->qokchdy14=n; precedingqokedy19=s. Previouswordmustend sn; thissuffixexistence NOTchecked.",
+    "deesse_ZL": "Thecorrespondingprecedinggroup isqokeedy5=e; previouswordmustend se. Same localdeesseword ispossible, notfullparagraphfit."
+  },
+  "budget": "Small validationappendix withinoriginal01:32inclusivecheckpoint; no additionalnativeexposure, sourcecensus, corpus,wordmeaning or solverextension.",
+  "decision": "Preserveoriginal16UNKNOWN and2UNSAT. LocalSAT cannot upgradeglobalUNKNOWN. Conditionalwordalignment restrictions are not selectedplaintext; no actualcharacterorwordmeaning claimed."
+}

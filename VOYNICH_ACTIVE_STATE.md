@@ -1,3 +1,28 @@
+## 2026-10-16 — GDT1388 complete paragraph support and analytic limits
+
+Allf75r32–46 groups retained:IT120/ZL122/RF121, with119/119/98unique22unit
+parses and1/3/23free opaquecharacterpositions. Sharedmod27weights, sixfixed
+historicalwholewordinventories, encodedSPACE, completeword messageframing.
+Registeredresult:2Tuscan UNSATcertificates,16solverUNKNOWN/timeouts.
+IT/ZLf75r38 AABBA cannotincludeSPACE; Tuscan12626typeshasno suchsubstring.
+Thislocalcertificate reachesanydeterministicwholepacket→singlecharwriter
+withthatinventory/spacingcontract, notjustmodular sums. RFdoesnotinherit.
+
+Posthocanalyticcheck preservesregisteredoutcomes: Latin's4localwordoptions
+reduce todeesse underbothreaders'neighbor/modularconstraints. ITthenrequires
+previouswordending sn; noneof9327typesdoes. ZLrequires se;58typesdo.
+Independentproofreview/finitecounts confirmITLatinexclusion, notZL/RF.
+Thus3of18specificconjunctionsexcluded;15remainunresolved. No wholemessage,
+key,phoneme ormeaning recovered. Localdeesse isconditional, notadoptedtext.
+No genericlanguageban; sixpacks overlap andaretinyrelative tolanguages.
+
+Stoplongersolverruns,dictionaryrepairs andnextsuffixsearch. Thebounded
+shared-weighttestiscomplete; integrate theseconstraints whenchoosinga
+newwhole-readingproposal, retaining992'sunpaidbank/layout requirements.
+Ten-hour request remainsoutstanding through08:58:57UTC16October.
+Evidence: [report](experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/REPORT.md);
+[review](experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/RESULT_REVIEW.json).
+
 ## 2026-10-16 — IDEA1063 shared e power law remains a partial construction
 
 The exact qok(e*)dy and qok(e*)y families share hypothetical F/G powers,

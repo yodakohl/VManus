@@ -1,0 +1,153 @@
+{
+  "experiment_id": "GDT1388",
+  "selected_utc": "2026-10-16T00:45:18.245399+00:00",
+  "phase": "FIXED_NECESSARY_SUPPORT_TEST",
+  "preparation_start_utc": "2026-10-16T00:42:00Z",
+  "inclusive_deadline_utc": "2026-10-16T01:32:00Z",
+  "inclusive_budget_minutes": 50,
+  "source": "experiments/yolo/gdt1386_r771_f75r_fixed_transfer/artifacts/SOURCE.json",
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "languages": [
+    "latin",
+    "middle_high_german",
+    "middle_french",
+    "old_italian_tuscan",
+    "medieval_czech",
+    "old_hungarian"
+  ],
+  "pack_manifest": "gdt001_language_pack_manifest.json",
+  "source_alphabet": "SPACE=0;a..z=1..26",
+  "native_scope": "All3reader units in the unchanged1386SOURCE: f75r32–46, IT120/ZL122/RF121groups. Each reader is separate. IT/ZL have own paragraph flags; RF is corresponding window, so its message framing is an extra assumption. All historically exposed on same physicalfolio; noholdout.",
+  "packet_contract": "Every retained rawgroup is exactly one complete outputpacket and one sourcecharacter, in original order including across physicalLF. Uncertain separators are retained but this test fixes the existinggroup segmentation; no deletion or split/merge. Unknownannotations are not repaired.",
+  "parser": "Exactlyone full segmentation of literal rawgroup into fixed22units. Uniqueparse gives countvector. Zero/multiple parses, entities and annotation syntax give one free sourcechar0..26 at original position. No canonicalization. Repeated opaque occurrences may differ: deliberately relaxed, not a proposeddecoder.",
+  "keys": "One global weight0..26 for each of22units within a reader/sourcecase; weights maycoincide. Aparsedgroup decodes to countvector dot weights mod27. Allgroups sharethekey; differentpackcases mayhave differentkeys.",
+  "source_support": "For eachlanguage separately, V is the full setof nonempty whitespace-delimited words of its exactpreparedfile, allwords assertedlowercaseASCII. Wholemessage is V(SPACE V)*: exactlyone encodedspace betweenwords, noleading/trailing/doublespaces, no language mixing. Sourcepack linebreaks are not assumedauthenticparagraphs; onlywordinventory used. Vwords longerthanN canbe omitted as mathematicallyirrelevant, nootherfilter.",
+  "relaxed_obligations": [
+    "Bankmembership of allobservedgroups is allowed; nofixed nativebank selected",
+    "Bankcoverage of all27sourceclasses omitted",
+    "Spellingchoice probabilities q andsourcewordprobabilities omitted: Boolean supportonly",
+    "Original80cell greedywrap and linegeometry omitted",
+    "Opaque/nonunique group characters independent evenwhen rawstringsrepeat"
+  ],
+  "decision": {
+    "SAT": "Only compatiblekey+fullinventorystream witness ofrelaxednecessaryconstraints; neither complete992writer, grammaticaltext, preferredlanguage, historicalkey norwordmeaning.",
+    "UNSAT": "Excludes thatreaderpacket/messageframing+fixedinventory+mod27sumconjunction, includingall22weights. Not alanguage-wide ormodularfamilyexclusion.",
+    "UNKNOWN": "Timeout, buildfailure, solverunknown orvalidationgap: noexclusion. No automaticdictionaryexpansion,solverrepair orlongerrun."
+  },
+  "execution": {
+    "cases": 18,
+    "max_workers": 6,
+    "model_build_seconds": 60,
+    "solver_seconds": 60,
+    "outer_case_seconds": 125,
+    "solver": "existing z3",
+    "native_before_registration_lock": false
+  },
+  "validation": "Independent source/parser/vocabulary checks, direct complete positivewitnesscheck and independent constraint encoding/replay fornegativeclaims. Same solverbackend must be disclosed; noformalproofkernelclaimed. Sourcefree smallfinite fixtures exhaustallkeys in smallmodulus andcompare both implementations before nativeexecution. UNKNOWN cannot beupgraded bytimeout.",
+  "known_countercases": [
+    "GDT001 freewholegroup LMattack yieldedcontrols-match andscaleinstability; do notrerunfreekey/selectedtopKattack. Thisqueryusesallpositionsandshared22modularweights withBoolean inventorysupport.",
+    "GDT604 LM-drivenpseudotext remains no reading; compatiblewordstrings cannotbe promoted.",
+    "1323anagramneighborNO_CAPACITY,1324toyprior-dependent recovery,1335likelihoodnormalization preserved; q notneeded onlyfornecessarysupport, notranking.",
+    "1339minimwriter different; itsfixedinventoryfailure doesnottransfer.",
+    "1382localhomophoniccostbound failed toexclude; all-keyglobalconstraints maystilltime out, nofuturetighteningpromised."
+  ],
+  "decision_note": {
+    "positive_basis": "Known wholeformidentity and nestedfamilies provide coupledmodular equations. Completeownedparagraph source alreadyexists. Sixindependenthistoricalprojectedtexts arealreadycached/hashverified; no newcorpus ordefaultLatin.",
+    "genuinely_unknown": "Whether anysingle22weight key mapsallretainedgroup positions intoonepredeclared fullwordinventory language, underexplicitclosedmessageframing. Noactualsourceword orkeyguessed.",
+    "outcome_changes": "CertifiedUNSAT removesoneconcrete wholeparagraphconstruction percase. SAT suppliesafullyaccountedcandidatecharacterstream forcriticalmanualinspection only. UNKNOWN parks thisboundedimplementation; no nominalfitclaim.",
+    "smallest_test": "Singlefixednativewindow, all3readers, all6fixedvocabularies, exactglobalconstraintmodel; omitunneededprobabilisticdecoder andbankfit.",
+    "budget": "50min inclusive00:42–01:32UTC preparation,implementation,sourcefreevalidation,18boundedcases,independentchecking,report andpublication. Checkpointinsideoutstanding10hrequest, notcompletion."
+  },
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1386_r771_f75r_fixed_transfer/artifacts/SOURCE.json",
+      "sha256": "76ff4e72025f7367d9ded9b408cf94d7f26957f3468da6495cca0d98f5c84915"
+    },
+    {
+      "path": "gdt001_language_pack_manifest.json",
+      "sha256": "e30ebb62e5020e448e1184e70c9b8282af02b10e25016ec28ce7fa72c777a37c"
+    },
+    {
+      "path": "prepare_gdt001_language_corpora.py",
+      "sha256": "1dfe8a0d8eb5f1c212330bf019d1bf685c2bea7f6dc967badde2966c2299bf4b"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/src/SPEC.json",
+      "sha256": "db6dde05a7f1a258de7e2a46872d1df52736a7d283970856924cf472e416acd9"
+    },
+    {
+      "path": ".gdt001/language_packs/latin.txt",
+      "sha256": "64cce481ba4fa74ddd71f60ebb2dd1292b394a920fc1281063183f0df5b719aa"
+    },
+    {
+      "path": ".gdt001/language_packs/middle_high_german.txt",
+      "sha256": "3ba25894f4f55d55b4f292c6352802886c29cacb7f425a709f2d94a73457d20b"
+    },
+    {
+      "path": ".gdt001/language_packs/middle_french.txt",
+      "sha256": "8b849ac3f8b590c9ac070fc3694edf2c5de35898e216ccd6318e0f06ca513f01"
+    },
+    {
+      "path": ".gdt001/language_packs/old_italian_tuscan.txt",
+      "sha256": "b5f719981934b0f65b3aba2edede7a52501d8e14c310ece68e4de038c0ff1d50"
+    },
+    {
+      "path": ".gdt001/language_packs/medieval_czech.txt",
+      "sha256": "52376f5bce8991112b665fe63440b6659a53427c4c85b65ae0713fb37f83a685"
+    },
+    {
+      "path": ".gdt001/language_packs/old_hungarian.txt",
+      "sha256": "4b8b8b28ccd4e9a6db4c802aafaa101491ca1bdea318dddd1978396b39351989"
+    }
+  ],
+  "access": "Only unchanged1386SOURCE andcachedexternalpacks. No rawmixedTSV, image, f84/f84r,f116v,f1rbody,327/336 or reserve.",
+  "fixed_support_prefilter": {
+    "source_locus": "f75r.38",
+    "readers": [
+      "IT2a",
+      "ZL3b"
+    ],
+    "group_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "raw": [
+      "qokeedy",
+      "qokeedy",
+      "qokedy",
+      "qokedy",
+      "qokeedy"
+    ],
+    "pattern": "AABBA; A and B allowed tocoincide",
+    "proof": "Exact parsedwholepacket identity forcescharsAABBA. Bothclasses haveadjacentduplicate, so neither canSPACE underfixednondoublespace sourcecontract. Thereforeall5chars mustoccurcontiguouslywithinoneVword.",
+    "test": "ScanallfullVwordsfor all5char substrings with positions0=1=4and2=3, includingallfiveequal. EmptysetcertifiesUNSAT for thatfixedreader/inventorywithoutsolver. Retaincountandallmatchingword/subsubstringwitnesses ifany, butnocharvalueorwordmeaningadopted. Survivorproceedstofullunchangedsolver.",
+    "reader_limit": "Assertliteralraw/uniqueparseanddefiniteseams forfixed5positionsinIT/ZL. RFannotatedforms remainopaque; donotapplythisfilterthere.",
+    "prospective_status": "Addedbeforeanysourcevocabularypatterncountornativesolverresult; paragraphpatternwasalreadyknownfromE1063,so notblindnativeselection. Noafterresultpatternorinventorychanges."
+  }
+}

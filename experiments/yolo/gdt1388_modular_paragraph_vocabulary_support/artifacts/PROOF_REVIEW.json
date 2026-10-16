@@ -1,0 +1,62 @@
+{
+  "experiment_id": "GDT1388",
+  "review_type": "PROSPECTIVE_INDEPENDENT_DELEGATED_CONTRACT_PROOF_AND_SCOPE",
+  "status": "FINAL_PROTOCOL_LOGICAL_SCOPE_RECONCILED_BEFORE_EXECUTION",
+  "reviewed_basis": "Final src/SPEC.json, METHOD.md and PREREGISTRATION.md read before any reviewer source-vocabulary scan or native solver execution. This is proof/scope review, not full code audit. Original delegated-contract review is extended by the prospective AABBA prefilter.",
+  "native_solver_run_by_reviewer": false,
+  "new_native_payload_read_by_reviewer": false,
+  "new_word_meanings_assigned": false,
+  "proof": [
+    "Fix one reader and one source inventory. For each uniquely parsed exact group i, let A_i count its 22 working units. Any actual writer key w in (Z/27Z)^22 necessarily gives source residue y_i = A_i dot w modulo27.",
+    "The same weight variables must be shared across every constrained group of the whole selected message. Repeated exact parseable groups automatically have the same decoded residue. No per-line, per-word or per-occurrence key is licensed.",
+    "Every stored group remains exactly one source character. Nonunique, opaque or unparseable groups may instead receive arbitrary source characters independently. This discards constraints and creates a superset of possible outputs; it does not establish that those groups actually have arbitrary meanings or are transcription errors.",
+    "For the declared closed-message source contract, the full decoded sequence must belong to D(SPACE D)*, where D is the fixed nonempty-word vocabulary of that pack. Exact full-string acceptance excludes leading, trailing and repeated spaces. Physical linefeeds are not source characters or message resets.",
+    "An actual writer satisfying this source contract yields a satisfying assignment to the modular equations and whole-string vocabulary constraint. Dropping bank membership, bank coverage, spelling-choice probabilities, surjectivity and wrapping constraints only enlarges the feasible set. Consequently proven UNSAT excludes the original stronger conjunction as well.",
+    "SAT establishes only a witness to this relaxed necessary condition. It need not admit the intended finite bank, surjectivity or spelling policy, reproduce other paragraphs, form a grammatical or meaningful source passage, or identify a historical language or key. UNKNOWN, timeout and solver failure establish neither SAT nor UNSAT."
+  ],
+  "framing_scope": {
+    "IT2a_ZL3b": "Own source-marked paragraphs exist, but treating each written paragraph as one complete plaintext message whose boundaries coincide with complete source words is still an additional model assumption, not a transcriber-proven semantic boundary.",
+    "RF1b": "The corresponding fixed window has no own paragraph flags. Its closed plaintext-message framing is an extra assumption. Do not borrow IT/ZL flags or describe RF UNSAT as an independently paragraph-grounded exclusion.",
+    "uncertain_seams": "Retaining one character per stored group despite uncertain native seams is the explicit packetization premise. Free character values relax unknown contents, not unknown packet count or group-boundary validity.",
+    "readers": "Eighteen cases are six source inventories times three alternative readings of one manuscript. They are not eighteen independent confirmations. Fixed source inventories may overlap and cannot be pooled into an unregistered union after failure."
+  },
+  "required_implementation_checks": [
+    "Pin the exact six vocabulary inventories, normalization, character numbering and exclusions before evaluation. In particular distinguish stored vocabulary strings from any source-language claim, and retain unknown/empty/unsupported-entry accounting rather than silently rewriting entries.",
+    "Require exactly one source alphabet character for every original group, including opaque groups. No dropped punctuation-like groups, empty-string choices or hidden SPACE from line breaks.",
+    "Use mathematically correct modular arithmetic with weights in0..26 and explicit fixed residue-to-character mapping. No bounded integer overflow and no accidental real-arithmetic replacement.",
+    "Use complete finite-regex acceptance, not substring matching. D must contain nonempty words without embedded SPACE under this contract; empty-word admission would alter the stated spacing rule.",
+    "Keep one shared 22-weight vector across the full case, but no unregistered cross-reader or cross-source sharing. Frame any returned model as a support witness, not a recovered native key.",
+    "Independently verify any SAT witness using exact integer sums and ordinary whole-word vocabulary membership. A solver UNSAT result must come from the correctly reconstructed complete formula; a resource limit or construction error is not a source contradiction."
+  ],
+  "predecessor_limits": [
+    "GDT1322 supplies normalized probabilistic-channel obligations for likelihood and key ranking. A Boolean support exclusion needs no source probability law and does not claim a likelihood or ranking; omitting bank/q is an explicit relaxation here.",
+    "GDT1324's full-scale recovery gap does not prohibit a necessary-condition UNSAT proof. Its toy recovery is not validation of the present source contract or solver.",
+    "GDT1335's nuisance-weight profiling concerns likelihood, not the existence of a full source string in a fixed vocabulary support language.",
+    "GDT1339 used a different ambiguous minim-stream writer; its fixed-vocabulary exclusion is not inherited as an outcome here. GDT1240 word-expansion and source-word identity exclusions do not transfer to one-native-group-per-source-character packetization."
+  ],
+  "report_wording": "UNSAT rejects only this fixed inventory, exact reader/working-unit packetization, modular decoder and closed-message framing conjunction. It is not a language-wide, cipher-wide, phonetic or semantic exclusion. SAT retains only relaxed support compatibility; no word meaning is confirmed.",
+  "decision": "Proceed with the single bounded necessary support comparison if finalized protocol retains these assumptions and outcome distinctions. No automatic dictionary expansion, framing repair, decoder fitting or next-corpus search follows.",
+  "reviewed_protocol_hashes": {
+    "src/SPEC.json": "ce840de86727b8e97f13cad01cced4467092aa0530007899b8c7617257b6af11",
+    "METHOD.md": "3ad2c5505b8e82e268b619cfc804d4246bd99dd2b54b2e31c8827a941192eb78",
+    "PREREGISTRATION.md": "03995993d3d8bf433483e46924e9912e31cba3293343b85e29b792ddb9220227"
+  },
+  "prefilter_review": {
+    "status": "VALID_NECESSARY_SUPPORT_SUBCONDITION",
+    "native_scope": "Only the five predeclared uniquely parsed exact IT2a/ZL3b f75r.38 groups with definite seams. Exact sequence and parsing must be verified from the pinned source by implementation/validator; reviewer has read protocol, not performed a new source extraction.",
+    "proof": [
+      "The exact first, second and fifth packets coincide, hence their decoded character is one common A. Third and fourth packets coincide, hence their decoded character is one common B. No premise requires A and B to differ.",
+      "If A were SPACE, the first two source characters would be adjacent spaces. If B were SPACE, the third and fourth would be adjacent spaces. Both contradict the fixed source language. Therefore all five characters are letters.",
+      "Five consecutive nonspace source characters lie within one source word under the fixed one-character-per-packet and SPACE-separated vocabulary contract. They must appear as a contiguous substring satisfying positions0=1=4 and2=3 in at least one fixed vocabulary word.",
+      "Exhaustive absence of that substring, including the all-five-equal case, implies UNSAT for the entire reader/inventory case. This is a source-support certificate and needs no solver or probability model. Presence is necessary only and does not select the substring, letters, key or source word.",
+      "The observation uses only identical-packet output consistency, so it is not specific evidence against modular arithmetic as opposed to every other deterministic one-packet/one-character decoder under the same source contract. It still validly excludes the tested modular subclass."
+    ],
+    "scope_limits": [
+      "No RF inheritance: annotated or opaque RF groups have deliberately free character values in this test.",
+      "Check all six complete inventories separately and preserve all eighteen case decisions. No retrospective inventory union, A-not-equal-B restriction, changed target pattern or source normalization.",
+      "Pattern nomination followed exposure to the native passage; only the inventory pattern counts and solver outcomes were not yet inspected. No blind native selection is claimed.",
+      "This local nonspace-substring obstruction does not need a claim that the manuscript paragraph is a sentence; the full solver nevertheless retains its separate complete-message framing assumption."
+    ]
+  },
+  "final_protocol_alignment": "No proof/scope conflict found. Vocabulary uses each exact prepared pack rather than the earlier illustrative1339 inventory; full words are retained except optional length>N removal, which cannot remove a feasible source word. Unknown/build/timeout remains nonexclusion; same-backend independent replay is disclosed and not a formal proof-kernel claim."
+}

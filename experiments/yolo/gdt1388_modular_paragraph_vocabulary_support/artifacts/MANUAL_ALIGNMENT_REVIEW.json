@@ -1,0 +1,118 @@
+{
+  "experiment_id": "GDT1388",
+  "status": "POSTHOC_LOCAL_CONSEQUENCES_NOT_REGISTERED_SOLVER_RESULT",
+  "review_method": "Independent manual modular arithmetic and exact alignment review. Only the existing SOURCE1386 lines37-39 in IT/ZL were inspected; no new corpus, vocabulary scan or solver execution.",
+  "source": {
+    "path": "experiments/yolo/gdt1386_r771_f75r_fixed_transfer/artifacts/SOURCE.json",
+    "sha256": "76ff4e72025f7367d9ded9b408cf94d7f26957f3468da6495cca0d98f5c84915"
+  },
+  "candidate_basis": "Already emitted PREFILTER reported Latin inventory candidates deesse, preesse, piissimi, piissimo. Candidate completeness and vocabulary counts are inherited from that artifact, not independently recounted in this manual review.",
+  "original_result_preserved": {
+    "UNKNOWN": 16,
+    "UNSAT": 2,
+    "note": "The original registered solver/prefilter decisions are not superseded or relabeled by these posthoc deductions."
+  },
+  "fixed_arithmetic": "SPACE=0,a..z=1..26. A is decoded qokeedy; B is decoded qokedy. Since their fixed22-unit count vectors differ by one e, weight_e=A-B modulo27. qokechdy minus qokchdy likewise equals weight_e. All values below are conditional on a candidate source-word alignment, not adopted native letter assignments.",
+  "source_alignment": {
+    "IT2a": {
+      "f75r.37_G004_G007": [
+        "qokedy",
+        "qokchdy",
+        "qokechdy",
+        "lol"
+      ],
+      "f75r.38_G001_G006": [
+        "qokeedy",
+        "qokeedy",
+        "qokedy",
+        "qokedy",
+        "qokeedy",
+        "ldy"
+      ],
+      "f75r.39_G001_G003": [
+        "yshedy",
+        "qokeedy",
+        "qokchdy"
+      ]
+    },
+    "ZL3b": {
+      "f75r.37_G004_G007": [
+        "qokedy",
+        "qokeedy",
+        "qokechdy",
+        "lol"
+      ],
+      "f75r.38_G001_G006": [
+        "qokeedy",
+        "qokeedy",
+        "qokedy",
+        "qokedy",
+        "qokeedy",
+        "ldy"
+      ],
+      "f75r.39_G001_G003": [
+        "yshedy",
+        "qokeedy",
+        "qokeedy"
+      ]
+    }
+  },
+  "cases": [
+    {
+      "reader": "IT2a",
+      "word": "preesse",
+      "verdict": "LOCAL_ALIGNMENT_CONTRADICTION",
+      "argument": "A=e=5,B=s=19 gives weight_e=13. Word starts at IT2a|f75r.37|G006=qokechdy=p=16, so IT2a|f75r.37|G005=qokchdy=3. The preceding packet must instead be SPACE0 because this is the full vocabulary word."
+    },
+    {
+      "reader": "ZL3b",
+      "word": "preesse",
+      "verdict": "LOCAL_ALIGNMENT_CONTRADICTION",
+      "argument": "Word starts at ZL3b|f75r.37|G006. Its preceding packet ZL3b|f75r.37|G005 is qokeedy=A=e=5, not the required SPACE0. Do not substitute the IT qokchdy reading."
+    },
+    {
+      "reader": "IT2a",
+      "word": "piissimi",
+      "verdict": "LOCAL_ALIGNMENT_CONTRADICTION",
+      "argument": "A=i=9,B=s=19. After the AABBA span, IT2a|f75r.38|G006 must be m and IT2a|f75r.39|G001 must be i. IT2a|f75r.39|G002 must then be SPACE0 but is qokeedy=A=9."
+    },
+    {
+      "reader": "ZL3b",
+      "word": "piissimi",
+      "verdict": "LOCAL_ALIGNMENT_CONTRADICTION",
+      "argument": "A=i=9,B=s=19. ZL3b|f75r.38|G006 must be m and ZL3b|f75r.39|G001 must be i. ZL3b|f75r.39|G002 must then be SPACE0 but is qokeedy=A=9."
+    },
+    {
+      "reader": "IT2a",
+      "word": "piissimo",
+      "verdict": "LOCAL_ALIGNMENT_CONTRADICTION",
+      "argument": "Same alignment as piissimi except IT2a|f75r.39|G001 must be o. IT2a|f75r.39|G002 is still qokeedy=A=i=9 rather than required SPACE0."
+    },
+    {
+      "reader": "ZL3b",
+      "word": "piissimo",
+      "verdict": "LOCAL_ALIGNMENT_CONTRADICTION",
+      "argument": "Same alignment as piissimi except ZL3b|f75r.39|G001 must be o. ZL3b|f75r.39|G002 is still qokeedy=A=i=9 rather than required SPACE0."
+    },
+    {
+      "reader": "IT2a",
+      "word": "deesse",
+      "verdict": "LOCAL_REQUIREMENTS_ONLY_NOT_FULL_COMPATIBILITY",
+      "argument": "Word starts at IT2a|f75r.37|G007=lol=d=4. Preceding IT2a|f75r.37|G006=qokechdy must be SPACE0. A=e=5,B=s=19 gives weight_e=13 and therefore IT2a|f75r.37|G005=qokchdy=14=n. IT2a|f75r.37|G004=qokedy=s. The previous source word must end sn. IT2a|f75r.38|G006=ldy must be the following SPACE."
+    },
+    {
+      "reader": "ZL3b",
+      "word": "deesse",
+      "verdict": "LOCAL_REQUIREMENTS_ONLY_NOT_FULL_COMPATIBILITY",
+      "argument": "Word starts at ZL3b|f75r.37|G007=lol=d=4; ZL3b|f75r.37|G006=qokechdy must be SPACE0. Preceding ZL3b|f75r.37|G004,G005 are qokedy,qokeedy, hence s,e. The previous source word must end se, not sn. ZL3b|f75r.38|G006=ldy must be the following SPACE."
+    }
+  ],
+  "limits": [
+    "No suffix-inventory scan was made: neither existence nor absence of sn/se-ending inventory words is claimed.",
+    "No complete deesse witness, native key or whole-paragraph feasibility is established. Other unchanged equations and vocabulary obligations still apply.",
+    "No RF inference: its annotated forms retain their frozen relaxed treatment.",
+    "Physical linefeeds are ignored only under the existing fixed packet/message contract.",
+    "No Voynich word meaning or actual letter assignment is adopted. Candidate Latin words are hypothetical source support elements.",
+    "Any subsequent eight-alignment diagnostic verifies already known manual consequences; it is not a fresh prediction or replacement of the registered eighteen-case result."
+  ]
+}

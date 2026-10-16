@@ -1,0 +1,221 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fixed finiteinventory plus wholepacket/messageframing necessarysupport only; no languagewideexclusion,keyidentification,completewriter orwordmeaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/validate.py"
+  },
+  "created": "2026-10-16",
+  "dependencies": [
+    "GDT001",
+    "GDT1233",
+    "GDT1322",
+    "GDT1323",
+    "GDT1324",
+    "GDT1335",
+    "GDT1339",
+    "GDT1386"
+  ],
+  "experiment_id": "GDT1388",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1386_r771_f75r_fixed_transfer/artifacts/SOURCE.json",
+      "sha256": "76ff4e72025f7367d9ded9b408cf94d7f26957f3468da6495cca0d98f5c84915",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": "gdt001_language_pack_manifest.json",
+      "sha256": "e30ebb62e5020e448e1184e70c9b8282af02b10e25016ec28ce7fa72c777a37c",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": "prepare_gdt001_language_corpora.py",
+      "sha256": "1dfe8a0d8eb5f1c212330bf019d1bf685c2bea7f6dc967badde2966c2299bf4b",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/src/SPEC.json",
+      "sha256": "db6dde05a7f1a258de7e2a46872d1df52736a7d283970856924cf472e416acd9",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": ".gdt001/language_packs/latin.txt",
+      "sha256": "64cce481ba4fa74ddd71f60ebb2dd1292b394a920fc1281063183f0df5b719aa",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": ".gdt001/language_packs/middle_high_german.txt",
+      "sha256": "3ba25894f4f55d55b4f292c6352802886c29cacb7f425a709f2d94a73457d20b",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": ".gdt001/language_packs/middle_french.txt",
+      "sha256": "8b849ac3f8b590c9ac070fc3694edf2c5de35898e216ccd6318e0f06ca513f01",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": ".gdt001/language_packs/old_italian_tuscan.txt",
+      "sha256": "b5f719981934b0f65b3aba2edede7a52501d8e14c310ece68e4de038c0ff1d50",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": ".gdt001/language_packs/medieval_czech.txt",
+      "sha256": "52376f5bce8991112b665fe63440b6659a53427c4c85b65ae0713fb37f83a685",
+      "role": "frozen source or specification"
+    },
+    {
+      "path": ".gdt001/language_packs/old_hungarian.txt",
+      "sha256": "4b8b8b28ccd4e9a6db4c802aafaa101491ca1bdea318dddd1978396b39351989",
+      "role": "frozen source or specification"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/METHOD.md",
+      "sha256": "3ad2c5505b8e82e268b619cfc804d4246bd99dd2b54b2e31c8827a941192eb78",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/PREREGISTRATION.md",
+      "sha256": "03995993d3d8bf433483e46924e9912e31cba3293343b85e29b792ddb9220227",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/README.md",
+      "sha256": "218a960b2a3a05e751fee0c62a4646781b28fad0e0b373099e6ec1c9f94d80f1",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/REPORT.md",
+      "sha256": "d65a3e34178010880c543236546d8fc608d607396368284cf4a2bc6e73fc7646",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/CONTROLS.json",
+      "sha256": "21ce56e97bed7184d09ea01aba18de3fb2c207d0a879c484c2c689e9647cdda6",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/INPUT_MANIFEST.json",
+      "sha256": "6aebc9812e7b41182e7818a65b6432ed70833e95d49a28b74808096aa21d1621",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_ALIGNMENT_PLAN.json",
+      "sha256": "c6fdba0a982799722f536e2232c07c78c0a48dfba62d34ee825557b7ff8b719c",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_ALIGNMENT_REVIEW.json",
+      "sha256": "f6c2cc8449f629e0013aa99a4af1f2612eee2127d5b1d063c792665dd06635c5",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_ALIGNMENT_VALIDATION.json",
+      "sha256": "1698f3e2fb844738a4dd2a415d103133de26e100e7235cb12d51f3fbaf4db3b2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_PLAN.json",
+      "sha256": "7b71c60550b19acba4641f9d348896c3b4eed729651ab7837d6efc9839bb4d0a",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_RESULT.json",
+      "sha256": "1eb9b0dfbfffcaf80b5e348cb80ee4ea31d6eff3bb54bd8c135bc1411be4b8dd",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_VALIDATION.json",
+      "sha256": "dd7ea8de6a0fee04051fa5cd88709923760f2588ef5588ba374ae0d050cc37b1",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/PREFILTER.json",
+      "sha256": "f0623756492fe1b5e1cfdc45139859cbf64bce82e2a97387f2c132e1e18b53e2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/PROOF_REVIEW.json",
+      "sha256": "798ed8f81ac6abaf26384256a262d50df9804fac2db7f08164df0b14ca467e84",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/README.md",
+      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/RESULT.json",
+      "sha256": "42f39b9b7ebd50186e10d131f3f49eb20b642cdef0e71fa4a29dd6a3acf89f26",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/RESULT_REVIEW.json",
+      "sha256": "ceb3aef2f703b14421eae899c15debc56acd53a78ae1db99add44211058d2f22",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/SOURCE.json",
+      "sha256": "76ff4e72025f7367d9ded9b408cf94d7f26957f3468da6495cca0d98f5c84915",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/VALIDATION.json",
+      "sha256": "6ee28b53b56dc28c880234e61ad44b819fe404f46daf35118e5a108a40f1df4f",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/VALIDATOR_CONTROLS.json",
+      "sha256": "1e99b8f6c7655a88b47d9cb32846ff4f070ceeeab716b24f0aaf5ceb9372352d",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/REGISTRATION_LOCK.json",
+      "sha256": "bf6f7ee80e9cb36cdaffbfdfc25a17fab0c596b42dcb7605f851a6df3a0f654b",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/SPEC.json",
+      "sha256": "ce840de86727b8e97f13cad01cced4467092aa0530007899b8c7617257b6af11",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/check_manual_alignment.py",
+      "sha256": "2aa46d1ed8eb2b46769887617f8d57492ddd521929cb0eee386c5cdca7642d12",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/check_manual_suffix.py",
+      "sha256": "10fc4279f8fcebc08985e1cf0ee070d354446dc1b37af709556575b65fbb5cfe",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/run.py",
+      "sha256": "850217e6184480e99f3b30f201a19a66748454541ec6e888726b92ced512e4f2",
+      "role": "reproducibility artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/validate.py",
+      "sha256": "d2133667e144a56160a60119a00b2073161450581c9555b42be55d08c17511cd",
+      "role": "reproducibility artifact"
+    }
+  ],
+  "question": "Whether anysingle22weight key mapsallretainedgroup positions intoonepredeclared fullwordinventory language, underexplicitclosedmessageframing. Noactualsourceword orkeyguessed.",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "modular_paragraph_vocabulary_support",
+  "status": "TUSCAN_SUPPORT_EXCLUDED_WITH_POSTHOC_IT_LATIN_CERTIFICATE",
+  "title": "Whole paragraph modular character vocabulary support",
+  "updated": "2026-10-16",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/VALIDATION.json"
+  }
+}

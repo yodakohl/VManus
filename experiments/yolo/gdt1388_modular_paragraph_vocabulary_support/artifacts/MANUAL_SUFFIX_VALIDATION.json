@@ -1,0 +1,102 @@
+{
+  "experiment_id": "GDT1388",
+  "status": "PASS",
+  "assessment": "POSTHOC_ANALYTIC_CERTIFICATE_NOT_REPLACEMENT_OF_REGISTERED_RESULT",
+  "independent_method": "External fixed Latin file hash checked; regex whitespace-token traversal, deduplicated tokens, final two characters compared individually. No primary code imported and no endswith used. Existing prefilter four-candidate completeness is inherited from its independent validation, not rescanned here; exact coverage by eight reviewed local alignments checked.",
+  "vocabulary_size": 9327,
+  "suffixes": {
+    "IT2a": {
+      "suffix": "sn",
+      "matching_types": 0,
+      "all_matching_types": []
+    },
+    "ZL3b": {
+      "suffix": "se",
+      "matching_types": 58,
+      "all_matching_types": [
+        "abbatisse",
+        "alfonse",
+        "alfuse",
+        "blarise",
+        "carfanianense",
+        "carfaniense",
+        "case",
+        "cese",
+        "conpellasse",
+        "contronense",
+        "dedisse",
+        "deesse",
+        "emise",
+        "emisse",
+        "ese",
+        "esse",
+        "firmasse",
+        "fortasse",
+        "fose",
+        "fosse",
+        "fuisse",
+        "gheriose",
+        "interesse",
+        "invase",
+        "ipse",
+        "lamarise",
+        "lignanise",
+        "locense",
+        "lucense",
+        "maritimense",
+        "mense",
+        "mese",
+        "misse",
+        "montise",
+        "murulise",
+        "novense",
+        "oblicasse",
+        "paternise",
+        "pistoriense",
+        "preesse",
+        "quaratianense",
+        "recepisse",
+        "recipisse",
+        "rosellense",
+        "se",
+        "sitarianise",
+        "siterianise",
+        "suanense",
+        "surbanise",
+        "titianise",
+        "tradedisse",
+        "tremisse",
+        "tricase",
+        "tullisse",
+        "venundasse",
+        "vindedisse",
+        "vise",
+        "vuamese"
+      ]
+    }
+  },
+  "conclusions": {
+    "IT2a_Latin": "All four permitted local word alignments excluded: three by prior local modular/identity contradictions, deesse because its required preceding-word suffix sn is absent. Hence the unchanged complete IT/Latin conjunction is analytically excluded posthoc.",
+    "ZL3b_Latin": "Remains UNKNOWN: 58 se-ending words satisfy only this necessary suffix condition, not a whole-message/key solution.",
+    "RF1b": "No inference from the IT/ZL literal pattern."
+  },
+  "original_registered_result": {
+    "UNKNOWN": 16,
+    "UNSAT": 2,
+    "unchanged_result_sha256": "42f39b9b7ebd50186e10d131f3f49eb20b642cdef0e71fa4a29dd6a3acf89f26"
+  },
+  "hashes": {
+    ".gdt001/language_packs/latin.txt": "64cce481ba4fa74ddd71f60ebb2dd1292b394a920fc1281063183f0df5b719aa",
+    "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_PLAN.json": "7b71c60550b19acba4641f9d348896c3b4eed729651ab7837d6efc9839bb4d0a",
+    "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_RESULT.json": "1eb9b0dfbfffcaf80b5e348cb80ee4ea31d6eff3bb54bd8c135bc1411be4b8dd",
+    "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_ALIGNMENT_REVIEW.json": "f6c2cc8449f629e0013aa99a4af1f2612eee2127d5b1d063c792665dd06635c5",
+    "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/PREFILTER.json": "f0623756492fe1b5e1cfdc45139859cbf64bce82e2a97387f2c132e1e18b53e2",
+    "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/src/check_manual_suffix.py": "10fc4279f8fcebc08985e1cf0ee070d354446dc1b37af709556575b65fbb5cfe"
+  },
+  "limits": [
+    "No additional source patterns or corpora inspected. No suffix scans beyond the two frozen suffixes.",
+    "No deesse identification, native letter value or word meaning adopted. All alignments are conditional source-support deductions.",
+    "Finite exact inventory and unchanged reader/group/mod27/message framing contract only; no general Latin or modular-writing exclusion.",
+    "Independent manual/algebraic and suffix accounting validation, not a rerun of the global solver."
+  ]
+}
