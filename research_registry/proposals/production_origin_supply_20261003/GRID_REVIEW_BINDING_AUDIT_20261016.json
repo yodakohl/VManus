@@ -1,0 +1,172 @@
+{
+  "status": "BOUNDED_SIX_RECORD_BINDING_AUDIT_NO_FALSE_CLOSURE_FOUND",
+  "scope": "Exactly GDT1284/1285/1286/1288/1289/1290; targeted current cards/reviews, fingerprint implementation, current primaries and relevant followups. No native data, experiment rerun or registry mutation.",
+  "cause": {
+    "executable": "tools/research_registry.py:record_fingerprint and _assemble",
+    "exact_trigger": "stored review.basis_sha256 differs from record_fingerprint(current imported base record) in all six; evidence_changed_or_unbound is absent and every bound evidence hash was directly rechecked equal.",
+    "what_is_not_the_cause": "Not the whole EXPERIMENT_INDEX.tsv file hash changing through appended experiments: sources is excluded from the fingerprint. Evidence-path bytes are also unchanged.",
+    "chronology": "The first published collection commit cb59d7ea9 already has exactly the same fingerprint-relevant base content and mismatch as today. No later incoming followup card or index append is needed to explain the current error.",
+    "historical_limit": "The exact prepublication base-record version used to produce the six stored basis hashes was not recovered in this bounded audit. Therefore the particular earlier field mutation/import transition is not asserted. A stale/unbound basis is proven; its complete local historical origin is not reconstructed."
+  },
+  "cases": [
+    {
+      "id": "GDT1284",
+      "stored_review_basis_sha256": "54257ba620a7b0d20c18520db1828865592d9ecb41f938fa75bbbf7679dc895c",
+      "current_base_record_fingerprint": "9495c9d94233d6155731b2c858b966e96705368338c4fbc5d17e7d3d6e2847c9",
+      "first_public_snapshot_fingerprint": "9495c9d94233d6155731b2c858b966e96705368338c4fbc5d17e7d3d6e2847c9",
+      "basis_mismatch_already_in_first_public_snapshot": true,
+      "evidence_hash_checks": [
+        {
+          "path": "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md",
+          "stored_sha256": "29de038dbe4d5a6221a42346fb0de48a97392475520946cd2043dbd94d387ca3",
+          "current_sha256": "29de038dbe4d5a6221a42346fb0de48a97392475520946cd2043dbd94d387ca3",
+          "matches": true
+        }
+      ],
+      "current_curated_verdict": "inconclusive",
+      "current_primary_decision": "NOT_CONFIRMED",
+      "primary": "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md",
+      "scientific_scope_review": "Positive means retained, but9/18ZLpositive leaves fail the frozen two-thirds gate; no absence-of-association or morphology rejection.",
+      "relevant_followups": "GDT1325 separately fails fixed held-base flank transfer; it does not erase positive means or establish context independence.",
+      "finding": "No concrete false scientific closure found in the audited primary/review scope. Stale binding concerns base-record identity; bound primary evidence bytes remain unchanged."
+    },
+    {
+      "id": "GDT1285",
+      "stored_review_basis_sha256": "183d2c1cc1ddf69ccf418ab6ac355628e8b23380c0b210d18ed87c463c6420ce",
+      "current_base_record_fingerprint": "0fd8ea4908861e7502d1c98a0c0932d4c65337dc0baaba6e0d114b5a80fd3dd8",
+      "first_public_snapshot_fingerprint": "0fd8ea4908861e7502d1c98a0c0932d4c65337dc0baaba6e0d114b5a80fd3dd8",
+      "basis_mismatch_already_in_first_public_snapshot": true,
+      "evidence_hash_checks": [
+        {
+          "path": "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md",
+          "stored_sha256": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23",
+          "current_sha256": "1bc2956b9054e8e7fe9be21da9cdbdf8d0169f092becb0f081fb147a23847f23",
+          "matches": true
+        }
+      ],
+      "current_curated_verdict": "nonconfirming",
+      "current_primary_decision": "NO_JOINT_TWO_UNIT_INCREMENT",
+      "primary": "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md",
+      "scientific_scope_review": "Fixed add0.5M2loses toM1; sparse conditioning retained. No proof of one-unit sufficiency or no higher-order information.",
+      "relevant_followups": "1308whole-form positive and1389bag/order decomposition are separately executed;1316aggregate gain/unseen failure and1317counterexample prohibit broader mechanism bans.",
+      "finding": "No concrete false scientific closure found in the audited primary/review scope. Stale binding concerns base-record identity; bound primary evidence bytes remain unchanged."
+    },
+    {
+      "id": "GDT1286",
+      "stored_review_basis_sha256": "2c2a2f842786fd006788ff19feb529924ab28918eaad5bb4675f336bdc042506",
+      "current_base_record_fingerprint": "ba905f4defb08aaffdaeacf6c0d85568902baee30aa0c9d766b621008eade047",
+      "first_public_snapshot_fingerprint": "ba905f4defb08aaffdaeacf6c0d85568902baee30aa0c9d766b621008eade047",
+      "basis_mismatch_already_in_first_public_snapshot": true,
+      "evidence_hash_checks": [
+        {
+          "path": "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+          "stored_sha256": "41ecb280e2724b7b71a2cd394880c99d2993661ab64f5efff05d81df0f1b9f46",
+          "current_sha256": "41ecb280e2724b7b71a2cd394880c99d2993661ab64f5efff05d81df0f1b9f46",
+          "matches": true
+        },
+        {
+          "path": "experiments/yolo/gdt1286_paragraph_additive_lattice/artifacts/VALIDATION.json",
+          "stored_sha256": "40dd5c06cb3e71e8231f131af27bba0c7143d0322942c42cbd4b4414f497d250",
+          "current_sha256": "40dd5c06cb3e71e8231f131af27bba0c7143d0322942c42cbd4b4414f497d250",
+          "matches": true
+        }
+      ],
+      "current_curated_verdict": "supported_limited",
+      "current_primary_decision": "BOTH_READERS_ALL_ABELIAN_PARAGRAPH_INVARIANTS_EXCLUDED",
+      "primary": "experiments/yolo/gdt1286_paragraph_additive_lattice/REPORT.md",
+      "scientific_scope_review": "Integer certificate C*A=I23 excludes nonzero fixed additive common paragraph totals in any abelian group on the declared1259population.",
+      "relevant_followups": "1287uses a different reversible whole-word common-completion contract;1322variable modular character packets lack the common-total premise. Neither repairs1286.",
+      "finding": "No concrete false scientific closure found in the audited primary/review scope. Stale binding concerns base-record identity; bound primary evidence bytes remain unchanged."
+    },
+    {
+      "id": "GDT1288",
+      "stored_review_basis_sha256": "628f80de748c5fc0a63337d69fcca751385b4be288838606bb0781004bb2bbce",
+      "current_base_record_fingerprint": "f217debaff81e332740a5562e31cf936c1bdd0d2ba2ce8174a4e9c66b5cb2793",
+      "first_public_snapshot_fingerprint": "f217debaff81e332740a5562e31cf936c1bdd0d2ba2ce8174a4e9c66b5cb2793",
+      "basis_mismatch_already_in_first_public_snapshot": true,
+      "evidence_hash_checks": [
+        {
+          "path": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md",
+          "stored_sha256": "60a5f41d457072e641d69f9b7e45f76931b34c94a27bc80fe20e41066f269005",
+          "current_sha256": "60a5f41d457072e641d69f9b7e45f76931b34c94a27bc80fe20e41066f269005",
+          "matches": true
+        },
+        {
+          "path": "research_registry/proposals/production_origin_supply_20261003/HUMAN_OVERLAPPING_ABSOLUTE_BANKS_RAW_20261009.json",
+          "stored_sha256": "411f72a238421091aa113f73fbd9ed00f198475b15b4cf27de1705deffaf59c7",
+          "current_sha256": "411f72a238421091aa113f73fbd9ed00f198475b15b4cf27de1705deffaf59c7",
+          "matches": true
+        }
+      ],
+      "current_curated_verdict": "refuted_specific_model",
+      "current_primary_decision": "FIXED_OVERLAPPING_BANK_CAPACITY_FAIL",
+      "primary": "experiments/yolo/gdt1288_overlapping_bank_frequency_capacity/REPORT.md",
+      "scientific_scope_review": "Fixed four-source entry-bank/sourceword capacity under one printed group per stored source token fails. Full paid physical continuations were explicitly outside this experiment.",
+      "relevant_followups": "1289later tests the full paid carrier by a distinct native syntax obstruction, not retroactive widening of1288.",
+      "finding": "No concrete false scientific closure found in the audited primary/review scope. Stale binding concerns base-record identity; bound primary evidence bytes remain unchanged."
+    },
+    {
+      "id": "GDT1289",
+      "stored_review_basis_sha256": "87b62a25e2b2bcac50e3e8114af82acdcbf5fad3faf95003bca4975ee2ea9dcf",
+      "current_base_record_fingerprint": "93e480f9ba703100cb10d5873e97bb76c814ee517843d89a71a78e89d514bc1b",
+      "first_public_snapshot_fingerprint": "93e480f9ba703100cb10d5873e97bb76c814ee517843d89a71a78e89d514bc1b",
+      "basis_mismatch_already_in_first_public_snapshot": true,
+      "evidence_hash_checks": [
+        {
+          "path": "experiments/yolo/gdt1289_overlapping_bank_native_syntax/REPORT.md",
+          "stored_sha256": "3ecd9a914290840addf9adb3edb0b8432c93ec4dc4e0a5c4d5fc6b1ea4254a99",
+          "current_sha256": "3ecd9a914290840addf9adb3edb0b8432c93ec4dc4e0a5c4d5fc6b1ea4254a99",
+          "matches": true
+        },
+        {
+          "path": "experiments/yolo/gdt1289_overlapping_bank_native_syntax/artifacts/VALIDATION.json",
+          "stored_sha256": "b21c186b3d3fcf588d71576aaf3f8f5acb86299b12942041f983434fb01a4b38",
+          "current_sha256": "b21c186b3d3fcf588d71576aaf3f8f5acb86299b12942041f983434fb01a4b38",
+          "matches": true
+        }
+      ],
+      "current_curated_verdict": "supported_limited",
+      "current_primary_decision": "ALL_READERS_EXACT_OVERLAP_CARRIER_SYNTAX_EXCLUDED",
+      "primary": "experiments/yolo/gdt1289_overlapping_bank_native_syntax/REPORT.md",
+      "scientific_scope_review": "Exact22-role RAW982carrier contradicted by inherited endpoints plus qoqo/doublets under disclosed rare boundary premises.",
+      "relevant_followups": "1291image review leaves ZL/RFchof boundary unresolved, not confirmed and not corrected.1293/1294and1357have separate marker contracts. No generic bank-writing ban.",
+      "finding": "No concrete false scientific closure found in the audited primary/review scope. Stale binding concerns base-record identity; bound primary evidence bytes remain unchanged."
+    },
+    {
+      "id": "GDT1290",
+      "stored_review_basis_sha256": "30674189fa7f71af99cd6d18781af4a196ec649cb63d45c42d0c647558b3b53c",
+      "current_base_record_fingerprint": "580e40c7376433d4df1aacb750451faad437a6a4cc1eda993a728f2ff9671c27",
+      "first_public_snapshot_fingerprint": "580e40c7376433d4df1aacb750451faad437a6a4cc1eda993a728f2ff9671c27",
+      "basis_mismatch_already_in_first_public_snapshot": true,
+      "evidence_hash_checks": [
+        {
+          "path": "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md",
+          "stored_sha256": "e48bbead8cf24d5dcbb99161b55d686a51a815d16e5a2d4fce4b8654588e3dca",
+          "current_sha256": "e48bbead8cf24d5dcbb99161b55d686a51a815d16e5a2d4fce4b8654588e3dca",
+          "matches": true
+        },
+        {
+          "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md",
+          "stored_sha256": "741a526e30df20021808afd67911147bb27ca5da0dd7d9a61bba7423c231ed02",
+          "current_sha256": "741a526e30df20021808afd67911147bb27ca5da0dd7d9a61bba7423c231ed02",
+          "matches": true
+        }
+      ],
+      "current_curated_verdict": "supported_limited",
+      "current_primary_decision": "NO_PRIMARY_REFERENCE_COMPATIBILITY",
+      "primary": "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md",
+      "scientific_scope_review": "Three fixed projected source samples fail the pooled two-band conjunction; Latin typecount passes and Italian/Greek have too many types. No universal demand for extra spellings.",
+      "relevant_followups": "1225nonportable pooled bands already explicitly retained. No indexed later followup found; that is not exhaustive absence proof.",
+      "finding": "No concrete false scientific closure found in the audited primary/review scope. Stale binding concerns base-record identity; bound primary evidence bytes remain unchanged."
+    }
+  ],
+  "append_only_reassessment": {
+    "scientifically_defensible": true,
+    "conditions": "Perform explicit existing ideas review revisions after reading current primary scopes; retain all original review rows, reference this audit, preserve decisions/positive caveats and relevant later outcomes, and let the existing review operation bind the current base record. No direct hash replacement or blanket bind_curations call.",
+    "research_decision_change": "Navigation/review currency is restored, not a scientific route reopened. No new rerun, broader exclusion, source acquisition, lexical meaning or relaxed gate is justified by metadata repair.",
+    "verdict_warning": "supported_limited on1286/1289denotes a supported limited necessary obstruction, not a successful writer.1290is a bounded source baseline. Do not mechanically rewrite these as global refutations.",
+    "not_a_whole_project_audit": "These findings do not certify all code or every historical conclusion."
+  },
+  "seventh_HAND_WRITER_error": "Not expanded: shared historical field-level cause was not fully recovered, so authorization condition for auditing the seventh record was not met.",
+  "mutations": "Only this bounded report file is written; original registry, metadata, evidence and publications unchanged."
+}

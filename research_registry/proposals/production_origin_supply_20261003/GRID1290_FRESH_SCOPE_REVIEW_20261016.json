@@ -1,0 +1,83 @@
+{
+  "assessment_basis": "fresh_current_card_and_unchanged_primary_scope_review",
+  "blockers": [
+    {
+      "code": "no_joint_pooled_profile_match",
+      "detail": "Allindividual metrics andprojection/source-span differences retained;secondaryprojectiondoesnotrescueprimary.",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ]
+    },
+    {
+      "code": "pooled_bands_not_universal",
+      "detail": "1225alreadyrejectsa realnativehandcategory;these source/genre/editorialprofilescannotbeusedasa universal hardwriterfilter.",
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md",
+        "experiments/yolo/gdt1225_stratified_frequency_self_control/REPORT.md"
+      ]
+    }
+  ],
+  "reason": "Fresh primary-scope review: no frozen three-source projection meets both pooled bands. Latin type count passes but top10fails; OldItalian/Greek primary type counts are too HIGH. These editorial projections/pooled engineering bands do not reject languages or every native stratum;1225limits remain. Renew stale base binding only; original scientific decision unchanged.",
+  "record_id": "GDT1290",
+  "relations": [
+    {
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ],
+      "target": "GDT003",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ],
+      "target": "GDT1202",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ],
+      "target": "GDT1223",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+      ],
+      "target": "GDT1225",
+      "type": "related_to"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "A separately justified comparison unit or independently motivated source, not source hunting, casefolding or retokenization to obtain a pass.",
+        "evidence": [
+          "experiments/yolo/gdt1290_historical_source_frequency_baseline/REPORT.md"
+        ],
+        "id": "independent_comparison_or_source_binding"
+      }
+    ],
+    "not_sufficient": [
+      "Adda fourthcorpusafteroutcome",
+      "Broadenbands",
+      "SelectFORMsensitivityasprimary",
+      "InferItalian/Greek/Latinfromtwocounts"
+    ],
+    "policy": "conditional"
+  },
+  "reviewer": "root fresh primary review; independent bounded binding/scope audit",
+  "scope": "method",
+  "verdict": "supported_limited",
+  "binding_review": {
+    "audit_path": "research_registry/proposals/production_origin_supply_20261003/GRID_REVIEW_BINDING_AUDIT_20261016.json",
+    "audit_sha256": "7bc9db14d6ac135ba86cd56eb3dd9ac9e26b67830d54e9d62b25b24da918d3f0",
+    "previous_basis_sha256": "30674189fa7f71af99cd6d18781af4a196ec649cb63d45c42d0c647558b3b53c",
+    "current_basis_at_audit": "580e40c7376433d4df1aacb750451faad437a6a4cc1eda993a728f2ff9671c27",
+    "primary_evidence_bytes_unchanged": true,
+    "original_verdict_blockers_reopen_relations_retained": true,
+    "historical_field_change": "not recovered; not asserted"
+  }
+}

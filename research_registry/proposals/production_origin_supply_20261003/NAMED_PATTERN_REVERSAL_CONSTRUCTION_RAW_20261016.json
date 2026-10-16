@@ -1,0 +1,97 @@
+{
+  "title": "RAW UNREVIEWED: named pattern recipes share literal parts and a reversal constructor across a complete output strip",
+  "summary": "A creative source-content construction for a hand pattern book: define immutable named strips from literal elementary marks and earlier strips, optionally viewed in reverse, then assemble a complete strip through written calls. A stem is an explicit earlier recipe name; one common suffix changes its orientation. The reader computes every full strip, not a free value for each compound. Reversal must obey R(XY)=R(Y)R(X). Complete logical writing/reading rules are supplied; a native22-drawing carrier and any manuscript interpretation are explicitly open.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_ABSTRACT_22_TEACHING_WRITER_NATIVE_CARRIER_OPEN",
+  "design": {
+    "purpose": "Model a simple human practice: reuse a previously drawn or written motif strip, turn that strip end-for-end, and join strips in a specified order. The source content is the exact elementary-mark sequence and its explicitly retained construction recipes. No Voynich passage is called ornamental, textile-related or a pattern book; no actual word or drawing is assigned this value.",
+    "source_domain": {
+      "palette": "Exactly three distinct elementary units a,b,c for the teaching domain. They may stand for three declared marks or colors in a real pattern book. Their identities are part of the source apparatus; no target glyph identity, color or physical figure supplies them here.",
+      "definition_phase": "A finite nonempty ordered list of definitions D1,...,DN. Definition Di is a nonempty ordered list of chunks. A chunk is a literal a/b/c or a reference to Dj with j<i, together with an orientation bit normal/reversed. Names are the explicit positive ordinals1..N; no name is redefined and no forward or nearest-compatible reference exists.",
+      "assembly_phase": "After all definitions, a finite nonempty ordered list of calls to defined names, each with its own normal/reversed bit. These calls append complete patterns to the resulting strip in the written order. No new definition appears after this phase starts. The empty whole document is separately allowed.",
+      "retained_information": "The message includes ALL definitions, their names, literal units, reference identities, orientations and assembly calls, including an unused definition if one was deliberately supplied. The reader returns this entire program and its computed final strip. It does not silently identify different source programs merely because their final strips happen to match."
+    },
+    "shared_content_rules": {
+      "literal": "A literal a/b/c expands to that one elementary unit.",
+      "reference": "A normal reference to name i expands to the complete stored value Vi. A reversed reference expands to R(Vi), the same units in opposite order. This is the value of the named immutable recipe, not the nearest physical copy or latest assembled result.",
+      "definition": "Vi is the ordered concatenation of the expanded chunks in Di.",
+      "assembly": "The final strip is the ordered concatenation of all expanded assembly calls. Repeating the same call twice appends two copies; it is not discarded as a synonym, decoration or duplicate data entry.",
+      "mandatory_equations": [
+        "R(R(X))=X.",
+        "R(XY)=R(Y)R(X), not generally R(X)R(Y).",
+        "Length(XY)=Length(X)+Length(Y), and Length(R(X))=Length(X).",
+        "Every later use of a named definition has its originally defined value, including uses through other named definitions. No independent whole-form values may override an expansion."
+      ],
+      "semantic_limits": "These are specifications of ordered patterns, not claims that physical ingredients can be copied without cost, that a physical action is reversible, or that two real objects are identical. Output-strip order and elementary-unit multiplicity are preserved. There is no music interpretation, freely chosen F_word, unknown opcode table or state simulation."
+    },
+    "complete_logical_writing_contract": {
+      "notation_warning": "The following notation is a complete human-readable source writing system. Its letters, digits and punctuation are PAID logical symbols, NOT alleged22Voynichdrawings. No native physical carrier is supplied or silently assumed.",
+      "definition_record": "Write `DEF n = chunk chunk ... ;`, with canonical decimal positive n. Literal chunks are a,b,c. A normal reference word is @n; its reversed form is @nR. Each source reference therefore has a reusable name stem and the SAME orientation suffix. There is exactly zero or one R suffix; arbitrary strings of R are not additional source cases.",
+      "assembly_record": "After the definitions write exactly one `OUT @n ... ;` record, whose reference words may likewise carry R. DEF,OUT,=,@,R,semicolon and decimal name syntax are distinguished logical tokens and must remain visible in this contract.",
+      "spacing": "Separate logical words by a single blank; punctuation can be attached as shown. Wrap physical lines only between these logical words. The semicolon ends a record; a line break does not. This proposal does NOT inherit1067's optional-gap law,1066's two gap grades or any claim that native joined/split groups are already equivalent.",
+      "literal_and_escape_policy": "There are no arbitrary quoted names, extra elementary units, controls disguised as literals or escape branches. Source inputs outside the finite-palette/acyclic-definition grammar are rejected. The empty document has empty output; a nonempty document must contain at least one definition and the OUT record.",
+      "forward_rule": "Print every source definition in order with its explicit name, chunks and orientation suffixes, then print the full assembly call list. This preserves exact construction content, rather than only the final artifact.",
+      "inverse_rule": "Parse the fixed record grammar; require sequential unique definition names, only previously defined referenced names, no empty definition, one final OUT and no later data. Recover the exact source program. Evaluate each definition in order, then OUT, by the shared expansion rules. Reject any bad reference, missing field or illicit suffix; do not infer an intended earlier object.",
+      "inverse_reason": "Literal units, references, orientations and record roles are syntactically disjoint. Every reference names one already completed immutable definition. Parsing is unique, evaluation is finite and deterministic, and printing the recovered program restores its canonical logical writing. Physical line wrapping is expressly outside the recovered source information."
+    },
+    "worked_complete_message": {
+      "writing": [
+        "DEF 1 = a b ;",
+        "DEF 2 = c @1 ;",
+        "DEF 3 = @1R @2 ;",
+        "OUT @3 @3R ;"
+      ],
+      "recovered_values": {"1": "ab", "2": "cab", "3": "bacab"},
+      "final_strip": "bacabbacab",
+      "derived_identity": "Value3 is R(ab) c ab, hence is palindromic and has the same value when called as @3R. This is derived from the written construction; no separate meaning is assigned to @3R.",
+      "noninterchangeable_reference": "Change only the second definition to `DEF 2 = @1 c ;`. Then value2 is abc, value3 is baabc, and @3R is cbaab. The final strip becomes baabccbaab. All labels and the assembly calls remain the same, but the altered order inside one reused definition changes the later content.",
+      "scope_counterexample": "For X=ab and Y=c, R(XY)=cba whereas R(X)R(Y)=bac. A reader that changes orientation of components without reversing their order returns a different pattern."
+    },
+    "connection_to_word_shape_and_long_content": [
+      "A name and its oriented compound share the same stem because they retrieve the same exact prior pattern; orientation is one common rule, not an independent lexical guess for every full form.",
+      "Long definitions can contain recurring names and compounds, while every use remains linked through the complete dependency graph. Repeated adjacent calls create actual repeated material in the final specification.",
+      "Positions have different duties: definition names introduce bindings; chunk references build those bindings; OUT references assemble the result. These duties are explicitly written and cannot be assigned retrospectively from a desired interpretation.",
+      "The elementary palette can remain uninterpreted while order, reference identity, multiplicity and reversal consequences are already definite. This supplies more content than merely tagging words as nominal/operator or storing independent opaque F_word values."
+    ],
+    "costs_open_modules_and_counters": [
+      "The apparatus pays three elementary-unit identities, ordinal reference names, two reference orientations, definition/assembly syntax and the complete stored definitions. A reader must retain earlier recipes. Expansion can grow exponentially in nesting depth; source size is not free human working memory or manufacturing effort.",
+      "A NATIVE22-drawing realization is UNSUPPLIED. The separately paid abstract22-sign teaching notation below is not a native assignment. Decimal digits and control marks cannot be smuggled in as extra native roles. There is no claim that the logical reference suffix is native r,l,y,dy or e, or that one native group equals one reference word.",
+      "No historical manuscript demonstrating this exact notation has been supplied. The manual operations of ordering, reusing and reversing a strip motivate an invented pattern-book domain; this is not historical attestation.",
+      "The contract does not identify a current passage, its source genre, record boundaries, basic units or final artifact. The existing native counterexamples and alternative readings therefore remain unmodified, not explained away.",
+      "GDT915known-pair covariation and916new-pair failure do not establish this orientation operation.1345sorting and1349field capacities neither provide a physical realization nor reject every shared-alphabet reference construction. Their exact premises remain.",
+      "No omitted body, unknown intervening word, hidden reset or free full-word exception may be inserted when eventually proposing a native realization. A contradiction of a fixed realization must not be answered by changing the source recipe or reference direction."
+    ],
+    "bounded_predecessor_review": [
+      "Route and composition topic read; bounded duplicates/search for mirror/reversal/named pattern/concatenation found no exact retained writer, but this is not an exhaustive novelty claim.",
+      "GDT1201METHOD/REPORT were already read in prior blocks: transparent aliases expand to the same primitive order. This proposal preserves that discipline and adds an explicitly interpreted reversal operation plus named acyclic definitions and a written assembly consumer. It does not claim transparent composition itself is new.",
+      "IDEA1009/1011 and390already own reusable procedure definitions and nonnearest references; those contracts were reviewed previously. Here the entire result is an exact finite elementary sequence derived by only concatenation/reversal, rather than a freely assigned recipe effect or an unspecified trial outcome. This does not resolve their missing native bindings or replace their sources.",
+      "IDEA895card's retained critique was read in prior blocks: a free USE operation on opaque references does not identify content. The present consumer returns the complete computed strip, and the worked local change propagates to that exact strip; it remains a source-only design, not an observed manuscript consumer.",
+      "The recent source-only1067OPTIONAL/DOUBLE list keeps finite trace alternatives, not one immutable named pattern under reversal. No1067gap policy,1068run distribution,1069contraction,1070logogram or1400state test is changed."
+    ],
+    "separate_abstract_22_sign_teaching_notation": {
+      "status": "Small explicit apparatus requested by root after the original content draft. It changes none of the source algebra, scopes or content examples. This is an abstract22-sign teaching realization, NOT a proposed native glyph table or a claim that native grouping follows it. The native physical realization remains open.",
+      "alphabet": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "a", "b", "c", "R", ":", ";"],
+      "roles": "Sixteen distinct hex digits0..9,A..F spell positive reference ordinals in canonical base16 with no leadingzero. Three separate drawings a,b,c spell elementary units. R is the orientation suffix. Colon and semicolon delimit records. Uppercase A/B/C and lowercase a/b/c are distinct drawings in this artificial alphabet, not assumed native case forms.",
+      "definition": "Write `h: chunk chunk ...;`, where h is the next canonical positive hexadecimal definition ordinal. A chunk is one lowercase literal or a positive hexadecimal earlier name with optional R. The colon follows the complete declaration name; the semicolon follows the last chunk.",
+      "assembly": "Write `: reference reference ...;` as the unique final OUT record. Its leading colon has no preceding name. It permits only defined hexadecimal references, optionally followed by R. No later records are legal.",
+      "seams": "Exactly one visible blank separates adjacent chunks within a record. Blanks are PAID field separators, not alphabet drawings or optional style. No blank may split an ordinal or detach R. Physical line wraps may replace a chunk separator; colon/semicolon still determine record roles. The first body chunk follows the colon with one blank. The semicolon attaches to the final chunk. Paragraph or page placement carries no extra interpretation.",
+      "example": ["1: a b;", "2: c 1;", "3: 1R 2;", ": 3 3R;"],
+      "inverse": "A nonempty hexadecimal head before colon introduces its next sequential name; an empty head is OUT. Body token classes are disjoint because literal drawings differ from hex digits and R is only a suffix. Enforce backward references and final OUT as in the original grammar. There are no quoted names, unstated punctuation characters or escapes. This recovers the same source program and its exact expanded strip.",
+      "cost_limit": "Every reference costs its full hexadecimal ordinal plus its optional R; every literal costs one unit; every record pays colon and semicolon and all listed blanks. Growing names, stored definitions and expanded pattern sizes remain real costs. This construction supplies no native frequencies, lengths, diagram ownership, handwritten font, historical attestation or empirical pass."
+    },
+    "one_distinguishing_consequence": "If a future independently declared spelling binds a whole compound to a reversed named pattern, the same reversal must exchange the order of EVERY constituent in that pattern, including constituents introduced elsewhere and later reused. Preserving constituent order while reversing only each leaf is generally wrong. Testing only an atomic or palindromic example cannot distinguish these contracts; the nonpalindromic construction above states the difference before any native selection.",
+    "claim_ceiling": "RAW creative content hypothesis, not selected, tested or native-confirmed. Complete logical writer, separate fully paid abstract22-sign teaching notation and exact source computation; native physical mapping and manuscript application explicitly open. No scientific experiment, corpus score or translation is proposed by this card."
+  },
+  "relations": [
+    {"target": "GDT1201", "type": "related_to"},
+    {"target": "IDEA000895", "type": "related_to"},
+    {"target": "IDEA001009", "type": "related_to"},
+    {"target": "IDEA001011", "type": "related_to"},
+    {"target": "IDEA001067", "type": "related_to"}
+  ],
+  "work_record": {
+    "started_utc": "2026-10-16 12:57:47 UTC",
+    "authored_utc": "2026-10-16 13:00 UTC onward",
+    "access": "Creative source-only design, live route/topic and bounded registry/duplicates. No native data, images, new historical source, corpus count, implementation, empirical test, meaning assignment or Root-file changes. Known structural/source decisions are prior constraints, not confirmation of this proposal."
+  }
+}

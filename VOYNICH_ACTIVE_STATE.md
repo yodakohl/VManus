@@ -1,3 +1,40 @@
+## 2026-10-16 — Evidence synthesis, six fresh review bindings, and RAW1071 scope
+
+Root and an independent bounded audit reread the six stale1284/85/86/88/89/90
+primary decisions. Their bound evidence bytes are unchanged. The stale base-card
+fingerprints already exist in the first public collection; the earlier exact
+field/import transition is not recovered and is not invented. Fresh append-only
+reviews retain original verdicts, blockers, relations and reopening conditions.
+This is memory maintenance, not new manuscript evidence or rescued experiments.
+The seventh HAND_WRITERreview mismatch remains outside this bounded action.
+[Audit](research_registry/proposals/production_origin_supply_20261003/GRID_REVIEW_BINDING_AUDIT_20261016.json).
+
+Scientific synthesis now explicitly retains1395not-rejected categoricalrunchoice,
+1398's narrow mixed-prefix contract,1399's source-free computational stop and
+1400's necessary-only label capacity.1290warns against assuming every source has
+too few wordtypes: Latin's fixed type count fits the old pooled band, while its
+top10concentration fails; other fixed sources have too many types. No language
+or genericcode preference follows. [Live brief](docs/VOYNICH_RESEARCH_BRIEF.md).
+
+Pipeline1071is a meaningful source-content construction: immutable named strips
+are composed and reversed, with R(XY)=R(Y)R(X), not independent whole-form values.
+Manual independent review confirms its examples/inverse and paid abstract22sign
+notation. Actual source genre, consumer and native carrier remain unbound; no
+native word value or script role is adopted. A hypothetical direct atomic clone
+of the WHOLE77group f75vprogram would start1:with length2, unlike the inherited
+first pokain length6. That unadopted clone failure does not reject the algebra.
+A proposed universal4unit group limit needs a record-separator premise absent
+from the RAW; do not silently add it or use it as native evidence.
+[Scope review](research_registry/proposals/production_origin_supply_20261003/NAMED_PATTERN_REVERSAL_SCOPE_REVIEW_20261016.json).
+
+Retain1071as formally supported limited source construction, not selected native
+reading or solved writing system. Do not repeatedly audit its unchanged missing
+binding, choose a glyph suffix forRor start a carrier repair. New independently
+owned constructor/consumer evidence would be needed to promote it. Next work is
+bounded selection of a genuinely distinguishable complete proposal. No new
+native experiment this pass. Confirmed English lexemes: **0**. No running work;
+previous ten-hour request remains unfulfilled.
+
 ## 2026-10-16 — GDT1400 cheaply restricts original1054labels; no writer exclusion
 
 After1399's preserved source-free computational stop, a genuinely different

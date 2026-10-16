@@ -1,0 +1,68 @@
+{
+  "assessment_basis": "fresh_current_card_and_unchanged_primary_scope_review",
+  "blockers": [
+    {
+      "code": "predictive_upgrade_failed",
+      "detail": "Joint descriptive prediction gate fails; sparse conditioning and fixed0.5smoothing limit interpretation.",
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ]
+    }
+  ],
+  "reason": "Fresh primary-scope review: the fixed additive0.5two-previous-unit estimator loses to its one-unit baseline in ALLand UNSEEN_INTERIOR. Sparse conditioning is retained; this is not first-order sufficiency or rejection of higher-order manuscript structure. No predictive repair selected. Renew stale base binding only; original scientific decision unchanged.",
+  "record_id": "GDT1285",
+  "relations": [
+    {
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ],
+      "target": "GDT1279",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ],
+      "target": "GDT1280",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+      ],
+      "target": "GDT003",
+      "type": "related_to"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Genuinely different bound construction or falsifier with a research decision beyond automatic higher-order or smoothing repair.",
+        "evidence": [
+          "experiments/yolo/gdt1285_inner_two_unit_memory/REPORT.md"
+        ],
+        "id": "independently_justified_new_decision"
+      }
+    ],
+    "not_sufficient": [
+      "Order3/4 escalation",
+      "Support filtering",
+      "Postresult smoothing repair",
+      "Treat model loss as memory proof"
+    ],
+    "policy": "conditional"
+  },
+  "reviewer": "root fresh primary review; independent bounded binding/scope audit",
+  "scope": "structural",
+  "verdict": "nonconfirming",
+  "binding_review": {
+    "audit_path": "research_registry/proposals/production_origin_supply_20261003/GRID_REVIEW_BINDING_AUDIT_20261016.json",
+    "audit_sha256": "7bc9db14d6ac135ba86cd56eb3dd9ac9e26b67830d54e9d62b25b24da918d3f0",
+    "previous_basis_sha256": "183d2c1cc1ddf69ccf418ab6ac355628e8b23380c0b210d18ed87c463c6420ce",
+    "current_basis_at_audit": "0fd8ea4908861e7502d1c98a0c0932d4c65337dc0baaba6e0d114b5a80fd3dd8",
+    "primary_evidence_bytes_unchanged": true,
+    "original_verdict_blockers_reopen_relations_retained": true,
+    "historical_field_change": "not recovered; not asserted"
+  }
+}

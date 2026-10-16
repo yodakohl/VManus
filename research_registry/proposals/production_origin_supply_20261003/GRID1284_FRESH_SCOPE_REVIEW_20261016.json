@@ -1,0 +1,60 @@
+{
+  "assessment_basis": "fresh_current_card_and_unchanged_primary_scope_review",
+  "blockers": [
+    {
+      "code": "frozen_consistency_gate_failed",
+      "detail": "ZL9/18 IT10/22 RF8/16; no reader rescue or dropping zero leaves.",
+      "evidence": [
+        "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+      ]
+    }
+  ],
+  "reason": "Fresh primary-scope review: capacity adequate and all means positive, yet frozen leaf consistency fails (ZL9/18, IT10/22, RF8/16). Preserve NOT_CONFIRMED; neither absence of association nor morphology rejection is established. No zero-leaf deletion or rerun. Renew stale base binding only; original scientific decision unchanged.",
+  "record_id": "GDT1284",
+  "relations": [
+    {
+      "evidence": [
+        "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+      ],
+      "target": "GDT318",
+      "type": "related_to"
+    },
+    {
+      "evidence": [
+        "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+      ],
+      "target": "GDT845",
+      "type": "related_to"
+    }
+  ],
+  "reopen": {
+    "all_of": [
+      {
+        "change": "new_binding",
+        "detail": "Independent construction evidence or genuinely different predeclared falsifier; no weaker matching repair.",
+        "evidence": [
+          "experiments/yolo/gdt1284_sender_d_next_q/REPORT.md"
+        ],
+        "id": "different_bound_falsifier"
+      }
+    ],
+    "not_sufficient": [
+      "Positive pooled or mean effect alone",
+      "Post-result exclusion of zero leaves",
+      "Repeated unchanged census"
+    ],
+    "policy": "conditional"
+  },
+  "reviewer": "root fresh primary review; independent bounded binding/scope audit",
+  "scope": "structural",
+  "verdict": "inconclusive",
+  "binding_review": {
+    "audit_path": "research_registry/proposals/production_origin_supply_20261003/GRID_REVIEW_BINDING_AUDIT_20261016.json",
+    "audit_sha256": "7bc9db14d6ac135ba86cd56eb3dd9ac9e26b67830d54e9d62b25b24da918d3f0",
+    "previous_basis_sha256": "54257ba620a7b0d20c18520db1828865592d9ecb41f938fa75bbbf7679dc895c",
+    "current_basis_at_audit": "9495c9d94233d6155731b2c858b966e96705368338c4fbc5d17e7d3d6e2847c9",
+    "primary_evidence_bytes_unchanged": true,
+    "original_verdict_blockers_reopen_relations_retained": true,
+    "historical_field_change": "not recovered; not asserted"
+  }
+}
