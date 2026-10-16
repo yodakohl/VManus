@@ -1,0 +1,57 @@
+{
+  "record": "IDEA001066",
+  "status": "PASS_MANUAL_PROOF_AND_SOURCE_PIN_REVIEW",
+  "review_sha256": "0ed6c24ac080e0f4a506f2b2d2a7fee3882f6aee78c7e9192a4e849333500cd4",
+  "input_pin_checks": [
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RIGHT_HEADED_SHARED_TAIL_GAP_WRITER_RAW_20261016.json",
+      "sha256": "95bbf2fe5a808230f23c08af48364d3083b07cb4a50de8e1e64c29e3fc2632fb",
+      "matches": true
+    },
+    {
+      "path": "archive_pre_reset_2026-08-06/semantic_assumptions/results/typology_neutral_structure_report.md",
+      "sha256": "f999037391017708045840544e9095a60cb685a711b4753e1282b72832177790",
+      "matches": true
+    },
+    {
+      "path": "experiments/yolo/gdt1392_f75v47_spacing_contrast/REPORT.md",
+      "sha256": "c323de37ffb713aaa17634c54f609a7d3c4f6a167ecbe40ff518c9776fa7d23c",
+      "matches": true
+    },
+    {
+      "path": "experiments/yolo/gdt1202_whole_word_two_alias_capacity/REPORT.md",
+      "sha256": "bea3d0c67faa14e74522c09492be56aa4ef62441eceee33f617898abfff8a410",
+      "matches": true
+    },
+    {
+      "path": "experiments/yolo/gdt1249_suffix_carrier_initial_capacity/REPORT.md",
+      "sha256": "dbb3ea5553ed97a40944522b99f6947908d72409a41d6abc8f2bc6ef983e04d6",
+      "matches": true
+    },
+    {
+      "path": "experiments/yolo/gdt907_line_seam_join_discovery/REPORT.md",
+      "sha256": "139cc6fd9720569e8a00afd88a88f622f34ab0a16cfe48d3c5692f6bc26896fe",
+      "matches": true
+    }
+  ],
+  "proof_findings": [
+    "Unary-safe inverse is valid on the declared finite22-unit source domain; the final full word supplies the tail and mixed words remain distinguishable from unary tail-only words after deletion.",
+    "The all-narrow interpretation establishes formal coverage only when gap grades are unconstrained. It does not bind native spacing.",
+    "For a terminal run of output words ending in the same unit t, suppose an internal gap were wide. Take the rightmost such wide gap. Its left block ends on t, and the final right block also ends on t. This violates maximal equal-ending runs. Hence every internal gap of that final run must be narrow. This does not require every equal-ending adjacency elsewhere to be narrow.",
+    "One nonempty output group is retained for every source word. Therefore one-group and two-group outputs cannot encode the same exact source-word sequence. This says nothing against different source-word sequences expressing equal meanings."
+  ],
+  "source_scope_findings": [
+    "The cited historical orthographic-hierarchy primary explicitly compares compatible visible spaces with internal joins; it does not supply the two interword width classes required by1066.",
+    "GDT1392 remains physical intergroup-versus-internal contrast, not narrow-versus-wide interword classification or confirmed lexical identity.",
+    "GDT907 retains uncertain continuation/hyphenation interpretation and supplies no one-cell/three-cell indentation code.",
+    "The suggested f45r.11 n/n ending is only a conditional target proposal. No image judgment, gap-grade assignment or new scope is asserted by this validation.",
+    "1249carrier rejection and1202fixed-source two-alias exclusion retain their original restricted contracts."
+  ],
+  "necessary_corrections": [],
+  "limits": [
+    "Compact manual logical/source-hash check only; no generic validation framework, native experiment, image access, corpus query, new source count or decoder run.",
+    "No native word meaning, actual gap grade or source-language identity adopted.",
+    "Original proposal and source bytes were not changed."
+  ],
+  "decision": "Retain the abstract exact inverse; native application remains unselected and the proposed immediate continuation withdrawn."
+}

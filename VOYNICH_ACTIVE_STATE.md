@@ -1,3 +1,27 @@
+## 2026-10-16 — IDEA1066 is not selected as a native reading
+
+Independent manual contract reviews retain its unary-safe invented inverse.
+With freely chosen gap grades every permitted paragraph can be encoded as one
+all-narrow block. The required binary interword/continuation channel is not
+supplied by the old space-versus-internal hierarchy or1392. After grades are
+fixed, consecutive block-final units must differ; a same-ending final run
+therefore forces narrow gaps. No new image or native gap classification ran.
+The f45r.11 candidate was not viewed under the narrow f45r.10image grant.
+
+The writer preserves source-word count. It therefore cannot yield one joined
+olshedy group versus two ol/shedy groups for the SAME exact source-word message.
+This does not refute the manuscript writer or semantic equivalence between
+differently worded messages. Our three worksheet identities remain unselected.
+No extra chunking stage or fitted gap threshold is added.1202's four fixed
+source-profile failures and1249's specific972carrier failure remain scoped.
+
+The proposed next step is withdrawn; no new experiment, decoded word or source
+language is selected. Next selection must state which structured CONTENT is
+preserved when one expression has different written groupings, and supply an
+unequal written consequence. Shortlist existing source-owned proposals before
+more decoder or image infrastructure. The ten-hour request remains unfulfilled.
+[Exact scope and source pins](research_registry/proposals/production_origin_supply_20261003/RIGHT_HEADED_SHARED_TAIL_SCOPE_REVIEW_20261016.json).
+
 ## 2026-10-16 — GDT1393 stops a new decoder before full implementation
 
 The alternative forward source-character beam is genuinely different from1390's
