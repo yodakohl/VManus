@@ -1,0 +1,102 @@
+{
+  "experiment_id": "GDT1403",
+  "readers": [
+    "IT2a",
+    "RF1b",
+    "ZL3b"
+  ],
+  "modes": [
+    "FWD",
+    "BIDIR"
+  ],
+  "primary_mode": "BIDIR",
+  "source_names": [
+    "b4",
+    "w1",
+    "bs1",
+    "gr1",
+    "deot",
+    "OLD_ITALIAN_UD_CONTROL",
+    "LATIN_PROIEL_CONTROL",
+    "ANCIENT_GREEK_PROIEL_CONTROL"
+  ],
+  "recipe_path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+  "deot_path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+  "other_path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+  "native_path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+  "worksheet_path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/LEXICAL_WORKSHEET_20261016.json",
+  "passage_unit": "f75v_IT2a",
+  "expected_passage_groups": 77,
+  "collapsed_native_units": [
+    "e",
+    "i"
+  ],
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "source_projection_policy": "Allstoredrecipe/deottokens, all3fixed1290PRIMARY8000samples. Sourcewords untouched Unicodecodepoints; no casefold, punctuation strip, accentfold or source-runcollapse. Vocabularies may containmorethan22sourcecharacters; wordwise renaming ignores the harder common-key/alphabet obstruction.",
+  "native_panels": {
+    "FULL": "All original strict1233whole rawforms, no pattern/outcome filters.",
+    "LEAF2": "Rawwholeforms attested on>=2distinct physicalleaves withinthatreader, BEFORE e/i collapse. Not merely2occurrences, and not pooledcollapsedclasssupport."
+  },
+  "source_first_witness": "Lexicographically sorted exact source word, FWD before REV when equal; per-pattern certificate only, never a lexicalassignment.",
+  "missing_reason": "LENGTH_UNSUPPORTED if no sourcewordpatternofthatlength exists; otherwise PATTERN_UNSUPPORTED.",
+  "output_tags": "Preserve exactunits, collapsedunits, whetherchanged, allrawformsourceoccurrencesandpages. Do notmerge alternate readers or treatpatternwitnesses as shared keys.",
+  "decision": "Per-source FULL exclusion iff eachreader has>=1BIDIRmissingform. Mixedreaders reportedindividually. LEAF2doesnotreplaceFULL. Full77passage usesalloriginalrawgroups, explicitUNPARSEABLEstop.",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/artifacts/GROUPS.json.gz",
+      "sha256": "ccbf478614fea62c992812c91cb2fd206c43384ea0062f80ec772566287222a4"
+    },
+    {
+      "path": "experiments/yolo/gdt1233_distinct_initial_fixed_expansion/src/SPEC.json",
+      "sha256": "db6dde05a7f1a258de7e2a46872d1df52736a7d283970856924cf472e416acd9"
+    },
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+      "sha256": "b7f83818c3a2447593c45aef6eaeba592b6dd63264e77235005c97e78824a31d"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+      "sha256": "b7e3d101c3c45ffab1200bb4ad9990d5e86841bec7a7c0cb415c553cf6583d73"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/LEXICAL_WORKSHEET_20261016.json",
+      "sha256": "e8e26dfa03f2ebbc7220475337688d552ea5ed756936338986efcec9ba16b922"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/CATEGORICAL_RUN_CONTEXT_PLAN_20261016.json",
+      "sha256": "4cd0398144c6b76acf3ee73dbdc4be74f8d9d49eda8e15d4a0c146952b81eeae"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/RUN_ALLOGRAPH_WORD_PATTERN_PLAN_20261016.json",
+      "sha256": "73ec304406daae928ef4277ea5533445403df5c1f160798fbfbda63181ed912c"
+    }
+  ],
+  "claim_ceiling": "Fixedeightwordbook/wholegroup/literal22unit-letter/runallograph necessary capacity only. No nativecollapseacceptance, language, sound, word meaning or wholepassage reading."
+}

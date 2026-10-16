@@ -1,3 +1,27 @@
+## 2026-10-16 — GDT1403 closes fixed vocabularies but retains77-position local capacity
+
+Under the proposed1068e/i-run inverse, all8old wordbook envelopes fail necessary
+FULLandraw-LEAF2patterncoverage in all3readers, even granting wordwise keys and
+orientation. Recurrence is the same RAWform on>=2physicalleaves beforecollapse.
+Every case includes failures unchanged by the operation; this cannot attribute
+the failure specifically to runallography. Eight controls are not eight languages
+or identified originals. No new normalization, corpus, image or meaning.
+
+All77original ITf75v.43–49groups are parseable and individually supported by EVERY
+source inBIDIR. The local pattern obstacle is absent under this changed writer,
+but source/grammar/commonkey is not supplied. Full-word counts and all provenance,
+negative cells and unresolved interpretation remain; no passagegroup was dropped.
+[Report](experiments/yolo/gdt1403_run_allograph_word_pattern_envelope/REPORT.md).
+Independent source/pattern/native-parser/LEAF2/full-passage validation and exact
+isolated replayPASS without repair.1395nonrejection and1328geometricfailure remain.
+
+Current ten-hour user block began2026-10-16T14:50:35Z and must continue until at
+least2026-10-17T00:50:35Z; this experiment is not completion. Its own inclusive
+45minute budget ends15:52:40UTC. Publication closes this small test only. Next
+selection must distinguish one shared key/content account from mere77/77wordwise
+capacity, while retaining fixed-Wfailures and unknownmeaning obligations. No
+automatic dictionary enlargement or decoder. Confirmed English lexemes: **0**.
+
 ## 2026-10-16 — IDEA1073 valid; arbitrary fitted wordbook cannot select a reading
 
 The complete invented context-prefix writer and both teaching messages check out.

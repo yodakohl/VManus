@@ -5,11 +5,11 @@ Updated: 2026-10-16.
 Phase: exploration
 Status: active
 Task: select
-Latest decision: I1073open
-Working files: IDEA1073
+Latest decision: 1403WFAIL
+Working files: GDT1403
 Assumptions: unglossed
-Resume: shortlist
-Running: none
+Resume: jointkey
+Running: 10h
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -33,7 +33,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 GDT327/GDT336: historical; no access.
 
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -44,9 +44,9 @@ f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clock
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
 W89 paused; W93 naming: NO_CAPACITY.
 W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
-GDT913 contradicts all18 frozen IT2a lexicons; original GDT888 non-uniqueness retained.
-GDT914/925/928 fixed edit/literal-parallel tests closed, not all compositional meaning.
-GDT616 failed; later diagnostic PASS does not rescue it.
+GDT913:all18frozen IT2a lexicons contradicted;GDT888nonunique retained.
+GDT914/925/928 fixed edit/literal-parallel closed;composition open.
+GDT616FAIL;later diagnosticPASS does not rescue it.
 f9v:1064 Jacea/Viola;IDEA621 owner unbound.
 IDEA237 untested;30 programs first-passed;P09 closed.
 
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public3c91a7f31.
+Public728ca852a.

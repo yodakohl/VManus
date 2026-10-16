@@ -1,0 +1,71 @@
+{
+  "experiment_id": "GDT1403",
+  "implementation": "Independent direct positional-equality classes, dynamic raw-unit parsing, adjacent-only native e/i suppression, exact source-codepoint envelopes, rawform leaf support and original passage reconstruction; no primary imports.",
+  "limits": [
+    "Fixed eight source-wordbook conjunctions only; not language, phonetic or general allograph exclusions.",
+    "Source codepoints remain untouched; run collapse is a native writer hypothesis, not accepted normalization.",
+    "Perword renaming and reversal do not supply a common key or a full passage reading.",
+    "LEAF2 is selected on raw forms beforecollapse; it is sensitivity rather than independent confirmation.",
+    "GDT1395nonrejection does not accept runallography; GDT1328geometric failure remains unchanged."
+  ],
+  "native_raw_type_counts": {
+    "IT2a": 4272,
+    "RF1b": 3818,
+    "ZL3b": 3773
+  },
+  "passage_original_groups": 77,
+  "passage_unparseable_ids": [],
+  "pins": {
+    "lock_sha256": "626546f9cfcd44b0cd2aea5aa0b82a0f85a7bed742e792638cc25bfaf2c570ac",
+    "native_support_sha256": "5d82e4603f1b92ed8a88f55b543090a63eba1767381729c09112612473a3dffb",
+    "result_sha256": "3b5ef126a21135aa90b91faa418fb1fcf26e9bb334555e8a43fe7a9029fe0242",
+    "source_envelopes_sha256": "b7282c659d6d87d342a5db18f111328b982c7b0a24dceff5fdb82f5770bbf27f",
+    "validator_sha256": "fbbe72a94a53fc063bdd2cdae310087f59a3a3d7aa320b4c85fa35ebcc834e78"
+  },
+  "scientific_status": "ALL_EIGHT_FIXED_WORD_ENVELOPES_EXCLUDED",
+  "source_count": 8,
+  "source_decisions": {
+    "ANCIENT_GREEK_PROIEL_CONTROL": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    },
+    "LATIN_PROIEL_CONTROL": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    },
+    "OLD_ITALIAN_UD_CONTROL": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    },
+    "b4": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    },
+    "bs1": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    },
+    "deot": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    },
+    "gr1": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    },
+    "w1": {
+      "all_readers_FULL_excluded": true,
+      "all_readers_LEAF2_excluded": true
+    }
+  },
+  "source_free_controls": {
+    "Unicode_case_accents_and_source_repeats_preserved": true,
+    "cases_checked": 1676,
+    "empirical_access": false,
+    "equality_pattern_iff_small_bijection": true,
+    "native_only_collapse": true,
+    "raw_leaf_support_precedes_collapse": true,
+    "status": "PASS_SOURCE_FREE_CONTROLS"
+  },
+  "status": "PASS_INDEPENDENT_VALIDATION"
+}
