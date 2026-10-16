@@ -1,0 +1,47 @@
+{
+  "experiment_id": "GDT1410",
+  "status": "PASS_BOUNDED_OUTCOME_SCOPE_AND_STATIC_CODE_REVIEW",
+  "access": "Read frozen protocol, lock, code and emitted results; verified pinned byte hashes and result summaries. No source-window scan or controls rerun. No report available for review.",
+  "reviewed_hashes": {
+    "LOCK.json": "e18705ced6b0d3bcb6db6e9cdbf4b04135098bd712c55a836500b4c202ad7f24",
+    "src/SPEC.json": "cc1155ea68c2b44b9fc89a1daefe150b8356549d94f18cd63cf68cc39f565419",
+    "PREREGISTRATION.md": "1342fd8e0dee604843f9b840cde35cdca0e233e21cff50d28ff4a2a708af09f6",
+    "src/CONTROL_CHRONOLOGY.json": "395b9395d5f35077f323891f39bfd5aa3f0b7a038112e60b4206b8993ce78ad8",
+    "src/run.py": "3f2e13234fbf6a593b62fd4ae1a7d56e32f9ebf44b0656e69b6d3f1c2d3447c1",
+    "src/validate.py": "57c0b5e6accfb3a7a622eabcfb766bc1c4097cd6748843f61976720a9ae840aa",
+    "artifacts/RESULT.json": "84d24b8fcf3a0ddcee7ca19ba933299bd6a3d8225cecbafc10a95e7a7067ee8a",
+    "artifacts/VALIDATION.json": "26e11259487c6143043dcb52148b9181c50752ecce349eddfd3dfe547d3910e8"
+  },
+  "lock": {
+    "all_15_pins_match": true,
+    "locked_utc": "2026-10-16T21:33:10.841669+00:00"
+  },
+  "result_checked": {
+    "cases": 140,
+    "surviving_cases": 0,
+    "native_groups": 77,
+    "distinct_forms": 52,
+    "repeat_constraints": 25,
+    "independent_validation": "PASS_INDEPENDENT_DIRECT_MAP_VALIDATION"
+  },
+  "algorithm_review": [
+    "Primary compares every recurrence against its first occurrence. These 25 comparisons enforce a single value for each of 52 exact whole forms without imposing different values for different forms.",
+    "All source starts admitting a complete 77-letter window are considered. Reverse uses 76-index for every position, equivalent to whole-message reversal, not local orientation choice.",
+    "Independent validator reconstructs a fresh one-way dictionary at each start and admits collisions; no injective reverse dictionary is used. Its first-failure counts agree with sequential filtering."
+  ],
+  "scientific_conclusion": "The complete selected IT passage cannot have a fixed context-independent one-normalized-letter-per-whole-group decoding into any of these fixed ALIM553 projection windows, in either declared direction. Source word boundaries may be anywhere because they have been erased; SPACE output from a group is not included in this letters-only contract.",
+  "chronology_review": {
+    "status": "TRANSPARENT_PRE_LOCK_AMENDMENT_RETAINED",
+    "facts_as_disclosed": "Independent validator development controls (11730 comparisons plus five named checks) were already run before the common lock; their success is not blind. PREREGISTRATION and CONTROL_CHRONOLOGY explicitly distinguish them from later primary registered controls and empirical runs. The frozen validator repeats them.",
+    "limit": "Disclosure is consistent with the frozen files and reported chronology. File hashes alone do not independently prove wall-clock absence of earlier empirical access; no stronger forensic claim is made."
+  },
+  "limits": [
+    "The 140 cases are two directions across 70 nested projections of one edition, not independent manuscript confirmations.",
+    "No book-wide, Latin-language, general whole-group cipher or meaning exclusion.",
+    "No word meaning or letter value is assigned; no writer or source identification is established.",
+    "GDT1409 tests a different unit-expansion conjunction and remains unchanged, as do the earlier GDT967/987 failures.",
+    "No automatic null, multiletter, contextual, omitted-group or alternate-source repair."
+  ],
+  "necessary_corrections": [],
+  "post_result_review_not_part_of_original_lock": true
+}

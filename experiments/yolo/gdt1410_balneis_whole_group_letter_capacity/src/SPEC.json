@@ -1,0 +1,52 @@
+{
+  "assumptions": [
+    "Each exact whole physical group emits exactly one normalized source letter.",
+    "One context-independent map is shared across all77groups; distinctgroups mayshare outputletters.",
+    "Physical gaps and linewraps emit no normalized sourceletters.",
+    "The complete77-group passage is contiguous in one declared projection, FWD or whole REVERSE; no skippedgroups/sourceletters.",
+    "No writing bank, primitive unit values, choice law or historicalattestation is selected.",
+    "Projections inherit exact1409source normalization/headers/bath joins;70nested views are not independent sources."
+  ],
+  "case_fields": {
+    "candidate_windows": "max(0,N-77+1)",
+    "characters": "int",
+    "decision": "EQUALITY_CAPACITY_ONLY or NO_FIXED_GROUP_LETTER_WINDOW",
+    "direction": "FWD or REVERSE",
+    "first_rejections": "list counts removed by each equality constraint",
+    "matches": "int",
+    "projection_id": "str",
+    "survivor_counts": "list [initial windows, after each comparison]",
+    "witnesses": "up to first3 {start,end,text,source_start_offset,source_last_offset}, zero-based normalizedoffsets; rawendoffset maycrossjoins"
+  },
+  "claim_ceiling": "Only fixed ALIM553 normalized literal contiguous source and constant whole-group to one-letter contract; necessary equality capacity, not complete writer/source identity/key/meaning/language judgment.",
+  "directions": [
+    "FWD",
+    "REVERSE"
+  ],
+  "experiment_id": "GDT1410",
+  "native_path": "experiments/yolo/gdt1409_balneis_literal_tandem_capacity/artifacts/NATIVE_REPEAT.json",
+  "projections_path": "experiments/yolo/gdt1409_balneis_literal_tandem_capacity/artifacts/PROJECTIONS.json",
+  "required_loci": [
+    "f75v.43",
+    "f75v.44",
+    "f75v.45",
+    "f75v.46",
+    "f75v.47",
+    "f75v.48",
+    "f75v.49"
+  ],
+  "required_native_edition": "IT2a",
+  "required_native_groups": 77,
+  "results_fields": {
+    "cases": "140 dictionaries, projection major, direction minor",
+    "claim_ceiling": "as above",
+    "distinct_native_forms": "int",
+    "equality_constraints": "list of zero-based [first,current] pairs in first occurrence order",
+    "experiment_id": "GDT1410",
+    "native_group_count": 77,
+    "status": "COMPLETE_FIXED_SOURCE_EQUALITY_CAPACITY",
+    "word_meanings_assigned": 0
+  },
+  "witness_limit_per_case": 3,
+  "worksheet_path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/LEXICAL_WORKSHEET_CONTEXT_20261016.json"
+}

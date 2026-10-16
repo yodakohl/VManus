@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1408**
-- Experiment-associated tracked files: **27,545** (2.4 GiB)
-- Structured GDT337+ experiments: **1073**
+- Experiments indexed: **1409**
+- Experiment-associated tracked files: **27,564** (2.4 GiB)
+- Structured GDT337+ experiments: **1074**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1410 | gdt1410_balneis_whole_group_letter_capacity | `FIXED_ALIM_WHOLE_GROUP_ONE_LETTER_CONTRADICTED` | [report](../experiments/yolo/gdt1410_balneis_whole_group_letter_capacity/REPORT.md) | 19 | 196.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT1409 | gdt1409_balneis_literal_tandem_capacity | `FIXED_ALIM_NONERASING_LITERAL_CODE_CONTRADICTED` | [report](../experiments/yolo/gdt1409_balneis_literal_tandem_capacity/REPORT.md) | 20 | 1.7 MiB | 3 | STRUCTURED_YOLO |
 | GDT1408 | gdt1408_latent_boundary_shared_key | `CAPACITY_STOP_GENERATED_CONTROL_UNKNOWN_NO_NATIVE_FIT` | [report](../experiments/yolo/gdt1408_latent_boundary_shared_key/REPORT.md) | 26 | 500.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT1407 | gdt1407_sheckhy_argument_qualified_return | `FIXED_OVERT_CONSTRUCTION_MISSING_ANCHOR` | [report](../experiments/yolo/gdt1407_sheckhy_argument_qualified_return/REPORT.md) | 21 | 516.2 KiB | 5 | STRUCTURED_YOLO |

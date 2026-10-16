@@ -5,10 +5,10 @@ Updated: 2026-10-16.
 Phase: exploration
 Status: active
 Task: source
-Latest decision: 1409F
-Working files: GDT1409
+Latest decision: 1410F
+Working files: GDT1410
 Assumptions: unglossed
-Resume: lookup1409
+Resume: lookup1410
 Running: 10h
 
 ## Structural baseline
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public09e577eb1.
+Publicc705d74ad.

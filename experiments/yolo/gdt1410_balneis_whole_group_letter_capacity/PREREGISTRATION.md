@@ -1,0 +1,11 @@
+# GDT1410 registration
+
+Exploration; source and paragraph were previously exposed. This is a fixed pre-execution necessary-capacity test, not reserved confirmation. Scientific source/code lock must precede primary registered control execution and all new source-window result counts. Controls must pass before the native/source scan. Independent source-free development checks are disclosed below; their already observed success is not a blind post-lock result.
+
+The complete contract, input paths, all70 inherited projections, all77native raw groups, FWD and whole REVERSE, one-way equalities, collision permission, witness limit and result fields are fixed in src/SPEC.json and METHOD.md. No tolerance, p-value, key scoring, language selection, null, changed projection or omitted group is allowed.
+
+Outcome: all140cases empty excludes the exact fixed-source constant whole-group one-letter conjunction. Any surviving case supplies local equality capacity only. Control or provenance failure supplies no manuscript inference. Do not change scientific code or inputs after results; corrections require separately preserved decisions.
+
+Inclusive preparation, predecessor review, implementation, controls, independent validation, reporting and publication budget:2026-10-16 21:26:23 to21:51:23UTC (25minutes). At deadline stop expansion and report actual state. This bounded phase is inside the ongoing ten-hour user request; it does not fulfill that request by itself. Meanings remain unassigned.
+
+Pre-lock chronology amendment: the independent validator author ran its own source-free development controls while implementing the validator, before the common lock:11730exhaustive comparisons and5named checks passed. This had already been reported to root when the common lock was prepared. The initial unfrozen draft had requested lock before all controls; this transparent pre-lock amendment distinguishes development checks from registered execution. No empirical projection/native input or source-window count was inspected by that author. The primary controls and every empirical run remain unexecuted at amendment time. The frozen validator repeats its controls during post-lock empirical validation. No blind claim is made for those independent source-free development outcomes.
