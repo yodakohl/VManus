@@ -1,0 +1,42 @@
+{
+  "experiment_id": "GDT1409",
+  "status": "PASS_BOUNDED_OUTCOME_SCOPE_REVIEW",
+  "review_kind": "Independent logical interpretation of emitted results; no source census rerun",
+  "reviewed_files": {
+    "METHOD.md": "712527736f22309ebe2bf38bb16ea0aa69886f39f660ac89ffa105066792d41f",
+    "artifacts/RESULT.json": "0ee5bbd8fed28d4fa19e7300d38e44b3c403a069e1fe2893d3e624d8e324d159",
+    "artifacts/VALIDATION.json": "d69fdfcad8e0a981841b5284d5c0ce5236989f81fcc7d3306f9a96b1bd63e5b1",
+    "artifacts/NATIVE_REPEAT.json": "a59530c67a3cc545e4e0581859c89e3a635ce6158156e62e5adea61343ca38fe",
+    "src/SELECTION_REVIEW.json": "23525d5c8eb13565509bd03afdb6a3b739c94b02c757fb143577e7c916adf91f"
+  },
+  "report_available_at_review": false,
+  "observed_result": {
+    "projections": 70,
+    "all_square_counts_zero": true,
+    "minimum_block_length": 6,
+    "independent_validator_status": "PASS_INDEPENDENT_VALIDATION"
+  },
+  "proof": [
+    "The exact retained IT2a f75v.46 G004/G005 pair is qokedy qokedy, with a definite intervening space. Under fixed concatenative H on the six assumed primitive units q,o,k,e,d,y, and separators contributing no normalized letters, the source contains B B with B=H(qokedy).",
+    "Nonerasing normalized unit outputs imply |B|>=6. Arbitrary output lengths, homophony and erased source word boundaries do not change this square consequence. Absence of every square of block length >=6 therefore contradicts this precise fixed-source conjunction."
+  ],
+  "null_only_corollary": {
+    "status": "VALID_NECESSARY_POST_RESULT_COROLLARY_NOT_MODEL_SELECTION",
+    "premises": "Change only nonerasing output to permit nulls; retain the same primitive segmentation, fixed concatenative H, exact repeat, source projection and zero-letter separators.",
+    "conclusion": "Any surviving assignment must have 0<=|H(qokedy)|<=5. The sum of the six nonnegative integer normalized output lengths is at most five, so at least one of q/o/k/e/d/y must have zero normalized letter output.",
+    "limits": [
+      "The null unit is unidentified; this is not evidence selecting a null model or a concrete word meaning.",
+      "This does not prove any assignment of lengths <=5 fits the source or the full passage.",
+      "B empty is not a positive source-square witness; it merely evades this necessary square obstruction. No new null-output decoder is authorized."
+    ]
+  },
+  "claim_limits": [
+    "The 70 cases are nested projections and two normalizations of one fixed ALIM553 edition, not 70 independent textual confirmations.",
+    "No general exclusion of De balneis, Latin, balneological content, other editions or paraphrases.",
+    "No image ownership, source identity, confirmed six-unit palaeographic segmentation or lexical interpretation follows.",
+    "Copy errors, context-dependent outputs, letter-bearing boundaries and changed source witnesses are outside the tested conjunction, not silently adopted repairs.",
+    "Original GDT967 and GDT987 failures and the bathing-image closure remain unchanged."
+  ],
+  "required_corrections": [],
+  "native_or_source_counts_rerun": false
+}

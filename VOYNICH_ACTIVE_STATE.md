@@ -1,3 +1,17 @@
+## 2026-10-16 — GDT1409 fixed ALIM literal-code hypothesis contradicted
+
+The exactITf75v46qokedydup requires BBwithperiod>=6under fixed6-unit nonerasing
+literalH andzerolettergaps. WholeALIM553,allcontent,32bathbodies/concatenation
+andbothpredeclaredletterfolds lackanysuchsquare. Independent origin/body/equalrun
+validation and byteexactisolatedreplayagree. All77originalgroups retained.
+This is onefixededition underpaidunits/expansion/sourcepremises, not aLatin,
+Balneis-contentorwordmeaningban. Null-onlyrelaxationwouldrequire >=1of6units
+withzeroletteroutput; none selected/nofittednullmodel.967/987remainunchanged.
+[Report](experiments/yolo/gdt1409_balneis_literal_tandem_capacity/REPORT.md).
+Stopthisliteralroute; no automaticnull/source/decoderrepair. Furthercontentwork
+needs an independentlyjustified rule. Confirmedwords0; no newadmission/reserve.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — source-only trie diagnostic finds a different lexical message
 
 The alreadyfrozen independent1408trie returnsSATon the same136unitcontrol
