@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: review
-Latest decision: 1402tplFAIL
+Task: select
+Latest decision: I1073open
 Working files: IDEA1073
 Assumptions: unglossed
-Resume: 1073
+Resume: shortlist
 Running: none
 
 ## Structural baseline
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public845bea9cd.
+Public3c91a7f31.

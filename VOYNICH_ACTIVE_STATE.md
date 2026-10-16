@@ -1,3 +1,30 @@
+## 2026-10-16 — IDEA1073 valid; arbitrary fitted wordbook cannot select a reading
+
+The complete invented context-prefix writer and both teaching messages check out.
+A new exact source-wordbook envelope determines whether each prefix could be the
+shortest code in SOME candidate subset; it does not realize those possibilities
+jointly under one grammar or passage. Separate source-only review checked the
+proof and examples. No native/source data were queried or recounted.
+
+The stronger selection warning is constructive: retain all strict output-word
+prefixes as candidates, extend each maximal outputword by one fixed character,
+and use that same constant wordbook as every context. Every desired finite group
+text is reproduced, with genuine mandatory shortening at its maximal types and
+exact recovery of the artificial source. The full target-adapted dictionary is
+paid but uninterpreted. Coverage, roundtrip AND actual shortening therefore do
+not select a Voynich reading. This does not refute independently specified W/G.
+[Proof and review](research_registry/proposals/production_origin_supply_20261003/PUBLIC_FOLLOWER_PREFIX_SCOPE_20261016.md).
+
+The five old literal-prefix source conjunctions remain contradicted by1240's
+retained fourfold obligation, with rare unit/wholegroup/editorial premises.
+No new census, corpus, fitted grammar, decoder or experiment was selected.
+934/971/983and1166/1171/1183/1184keep their exact original outcomes.1073is retained
+as formally supported limited, with no source language, native key or meaning.
+The independent pipeline added no duplicate876/952card. Next: bounded selection
+of a genuinely distinguishing source/content rule; do not repeat this unchanged
+review or fitW/Gto the target. Confirmed English lexemes: **0**. No running work;
+earlier ten-hour request remains unfulfilled.
+
 ## 2026-10-16 — GDT1402: strict exemplar transfer fails; graphic families remain open
 
 A genuinely different packet tested two new fixed f83r sites against complete
