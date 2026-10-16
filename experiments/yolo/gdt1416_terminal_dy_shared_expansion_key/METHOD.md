@@ -1,0 +1,13 @@
+# One word-end spelling rule, no proposed meaning
+
+Use the exact77 IT2a f75v.43–49 groups, unchanged8W and hypothetical e/i-run inverse from1404/1414. Ordinary working units have one fixed source codepoint each; arbitrary collisions are allowed. Only at a complete group's end, the literal final d,y pair is consumed jointly and expands to one global nonempty string T. No other macro, contextual value, null, prefix deletion, new word or boundary shift.
+
+This is a position-greedy reader: dydydy parses d,y,d,y,T, not T,T,T. Internal dy is not the macro. Thus1406's freelyUD/globalclosedW cube obstruction remains true for its original contract but does not exclude this different parse.1404/1414's fixed single-codepoint failures also remain unchanged. New T is a parsing label for two existing units, not an invented manuscript character or a word translation.
+
+Because standalone dy occurs in the local passage, T itself must be an entire word of W (or a word reversal in the generous BIDIR relaxation). Every other terminal-dy word must share exactly that ending. There is no separate T per word and no guessed concrete expansion. All lengths permitted by actual word candidates are exhausted; no arbitrary T-length cap. FWD and separately fixed per-word BIDIR are capacity modes, not historical grammar.
+
+Primary finite word-table joins include one shared string-valued T variable and all ordinary-letter values. The independent implementation uses ordinary Int-codepoints and a nonempty Z3 String in exact source-word disjunctions. Positive source gate precedes native search. Any cap is UNKNOWN; independently unconfirmed negatives stay unconfirmed. SAT must disclose key, T and all77 source words before any coherence or meaning review. Word membership alone is not syntax, translation or a complete human writer; choosing among native spelling alternatives remains unbound.
+
+Motivation is explicitly weak/exploratory:1198/1200/1208 give actual recurring written bodies and endings, not a proved source-string abbreviation;926 supplies a historical positional-abbreviation prior, not a native sign/value. No old Material/Heat/Closure gloss is reused. The DAL profiles and known countercases were read before selection; all native meanings remain unassigned.
+
+Control words are a cycle of21 mechanically chosen actual Deot wordtypes, not a coherent77-word original passage. Source generator, active ordinary d/y aliases, genuinely different T and e/i expansion are fully frozen in SPEC. Gate accepts ANY valid full77-word certificate, not the planted key or exact original words. No broader decipherment control is claimed.

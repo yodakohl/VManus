@@ -1,0 +1,73 @@
+{
+  "T_domain": "No guessed expansion. Nativewhole dy implies T iswholeWword orwholewordreverse inBIDIR. Candidate tables exhaust allsourcewordsprefixcharactersandremainingnonemptytail; no imposedTlengthcap.",
+  "candidate_checks_cap": 20000000,
+  "claim_ceiling": "Exploratory local77-group8W key capacity for position-greedy terminaldy expansion plus unchanged e/i inverse; no native morpheme, historicalsign, Englishmeaning/source/language identification or completehumanwriter. No inheritedglobalfreeUDrescue.",
+  "control": {
+    "alphabet": "first20Unicode-sorted fullsourcecharacters",
+    "body": "stripONEterminalT ifendsT, encodebodybycanonicalinverse with d/y aliases at odd(wordindex+charindex), exceptlasttwo positionsofnonTword remaincanonical. Append d,y ifsourcewordendsT. Expandordinary e/i by1+(wordindex+unitindex)%3.",
+    "gate_success": "ANYindependentlyverified fullkey/T supplying all77controlwords fromfixedW, not exactplantedword/key recovery.",
+    "ordinary_map": "20canonicalunits=signs excludingd,y. e/i mapto2mostfrequent positivebodychars withno adjacent repetitioninanybody, tiesUnicode; restmapremainingalphabetinUnicode/fixedunitorder. d/y alias2mostfrequentdistinctbodychars; ifd+y equalsT, reversepair.",
+    "requirements": "Tdiffersfromordinaryd+y; both ordinaryd/yactive somewhere outsideTAIL; actualTAILandnonTAILwords ande/i expansion; exactruninverse/wordreadback. Domainabsenceorcontrolcapstopsnative.",
+    "source": "deot",
+    "tail": "first eligiblewholeword sorted(length,Unicode), length>=2, with>=10other distinct eligibleWwordsendingit and>=10eligibleWwordsnotendingit",
+    "words": "repeat list [T]+first10otherT-endingW+first10nonT-endingW, each subgroup Unicode sorted, to77 positions"
+  },
+  "deot_path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+  "expected_passage_groups": 77,
+  "experiment_id": "GDT1416",
+  "independent_seconds_per_case": 30,
+  "macro_label": "@TAIL_dy",
+  "modes": [
+    "FWD",
+    "BIDIR"
+  ],
+  "nodes_cap": 100000,
+  "other_path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+  "passage_unit": "f75v_IT2a",
+  "recipe_path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+  "rule": "Afterfixed e/i-run inverse, consume literal finaltwo units d,y jointly asTAIL; anywhereelse d/y readordinary. Ordinary22units have arbitrarymany-to-one1-codepointvalues; TAIL hasONEglobalnonemptyfinite string.",
+  "seconds_per_case": 15,
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "source_names": [
+    "b4",
+    "w1",
+    "bs1",
+    "gr1",
+    "deot",
+    "OLD_ITALIAN_UD_CONTROL",
+    "LATIN_PROIEL_CONTROL",
+    "ANCIENT_GREEK_PROIEL_CONTROL"
+  ],
+  "stops": [
+    "1404/1414fixedkeynegativespreserved",
+    "1406freeUD/globalclosedWcubeFAILpreserved; thispositionalparseisNOTfreeUD",
+    "No prefix qo macro, initialp/ydeletion, nulls, newcorpus/normalization/wordboundaryrepair",
+    "No secondendmacro orcontextcase afteroutcome",
+    "Historical926finitepriornotnativevalue;1198/1200/1208onlyformalwrittenbasismotivation",
+    "No adoptednativewordmeaningsfromSATwordmembership; publishwhole77candidatefirst"
+  ],
+  "worksheet_path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/LEXICAL_WORKSHEET_20261016.json"
+}
