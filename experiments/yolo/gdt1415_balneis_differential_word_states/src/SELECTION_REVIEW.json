@@ -1,0 +1,37 @@
+{
+  "experiment_id": "GDT1415",
+  "status": "SELECT_ONE_BOUNDED_EXACT_KNOWN_SOURCE_CHECK",
+  "spec_sha256": "5089a213cad66130609184f168a6e0f6346280ab5262cdf0f1aa07858c46190e",
+  "stage": "Pre-result review; no native counts, source-window search or new data access.",
+  "proof": {
+    "indexing": "Native groups w1..w77 and corresponding source residues c1..c77; c_i=h(w_i)-h(w_(i-1))+b mod27, with separate free incoming state at i=1.",
+    "necessary": "For every i<j with w_i=w_j, summing c_(i+1)..c_j telescopes to (j-i)b modulo27.",
+    "sufficient": "Fix h(w1)=0. Assign h(wj)=sum(c_r for r=2..j)-(j-1)b. The interval equations make every occurrence of the same exact whole group agree. Set incoming=b-c1. Each transition then reproduces its source residue. Different whole groups may share a state.",
+    "scope": "Exact feasibility of arbitrary fixed whole-group states, not merely an optimistic bound for that family. It remains only necessary capacity for any narrower additive glyph-state writer.",
+    "arithmetic": "Enumerate all27 b residues; do not divide by interval length modulo27. The free incoming state leaves the first source character unrestricted by repeat equations."
+  },
+  "prior_distinctions": {
+    "GDT1323": "Anagram spelling-choice permutation capacity, not source-window interval sums.",
+    "GDT1388": "Static modular packet values and fixed lexical/SPACE constraints, not the present differential known-source contract.",
+    "GDT1410": "Static same-whole-group same-source-character equality; does not include differential output.",
+    "GDT1412": "Constant diagonal immediate-repeat run obligation; does not use every nonadjacent whole-group return interval.",
+    "GDT1390": "Failed unknown-source key-recovery control remains a search failure. No recovery repair is authorized here."
+  },
+  "scope": [
+    "Same original77 IT groups, exact raw whole identity, no injected word meanings or assumed working alphabet.",
+    "Same70 existing normalized ALIM553 source views, ASCII lowercase letters1..26, modulus27 and one global offset. Unsupported non-ASCII cases are unscored, not repaired or silently normalized.",
+    "Only complete77-character window reversal, not separate wordwise reversals.",
+    "No global source-book identification, language exclusion, generic cumulative-code exclusion or additive22-unit-key inference."
+  ],
+  "outcomes": {
+    "SAT": "Retain complete readable source-window and state certificate for explicit manual examination; state feasibility is not semantic identification or a complete human writing rule.",
+    "zero": "Exclude only the exact fixed-source/alphabet/differential-state conjunction on scored cases. Negative scientific value is narrow; unsupported cases remain unscored."
+  },
+  "stop": "One bounded pass within the stated30minute inclusive budget. No automatic alphabet, modulus, normalization, source or decoder changes; no automatic additive-key followup.",
+  "primary_reports": [
+    "experiments/yolo/gdt1323_anagram_variant_neighbor_choice/REPORT.md",
+    "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/artifacts/MANUAL_SUFFIX_VALIDATION.json",
+    "experiments/yolo/gdt1410_balneis_whole_group_letter_capacity/REPORT.md",
+    "experiments/yolo/gdt1412_differential_global_repeat_letter_bound/REPORT.md"
+  ]
+}

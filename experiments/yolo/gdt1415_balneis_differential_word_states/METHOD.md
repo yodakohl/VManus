@@ -1,0 +1,11 @@
+# Exact differential source-window test
+
+For successive native whole groups w_i, set source value c_i=h(w_i)-h(w_(i-1))+b modulo27. The map h is ANY fixed whole-word residue function, with collisions allowed. No working22-unit segmentation or additive key is assumed; all such additive h maps are a subset. The incoming state is free. Plaintext ASCII lowercase a..z has the usual values1..26. All27 offsets b are tried. No other alphabet convention, modulus or source is selected.
+
+For equal words at zero-based positions i<j, the exact condition is sum(c_(i+1)..c_j)=(j-i)b. These conditions are necessary AND sufficient: set h(w_0)=0, successively add c_j-b for j>=1, then choose incoming=b-c_0. Every repeat must receive its previous state. Distinct forms may collide. Do not divide by j-i modulo27; it can be noninvertible. The first source character is unrestricted because the incoming state is free.
+
+Apply this to all77 original IT2a f75v.43–49 groups and all70 unchanged normalized ALIM553 source views from1409. Test physical source windows of77 letters, forward and completely reversed. Reversal reverses the source chunk while native groups stay in original order. This is a generous capacity choice, not an inferred historical convention. Prefix sums and all27 offsets give exact exhaustive capacity. A projection with non-a..z characters is explicitly unsupported and cannot be excluded.
+
+The independently authored validator instead constructs h directly for every source window and offset, stopping at inconsistent repeats. Existing1409 extraction and provenance are inherited; no new source extraction or manuscript image is claimed.1409's/1410's literal-copy failures,1390/1393's unknown-source recovery/search stops and1412's weak repeat-letter filter remain unchanged. No failed generic decoder is repaired or retried.
+
+A positive gives an exact readable source window and a state certificate for manual examination, not a selected book, writer, key or meaning. Negative closes only this fixed-source/usualordinal/mod27/literalcontiguity/difference conjunction, not the book or differential ciphers generally. A word-state decoder still does not explain how a human chooses native spellings or how h could be computed simply. No automatic additive-state followup or source/alphabet grid is permitted.
