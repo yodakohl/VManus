@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: select
-Latest decision: 1084toy
-Working files: IDEA1084
+Task: sheckhy
+Latest decision: ctx52
+Working files: f75v
 Assumptions: unglossed
-Resume: raw1080
+Resume: plan-ref
 Running: 10h
 
 ## Structural baseline
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public251266191.
+Publicc6cfce1f8.
