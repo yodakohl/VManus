@@ -1,0 +1,46 @@
+{
+  "experiment_id": "GDT1394",
+  "status": "PROSPECTIVE_PROTOCOL_ACCEPTED_CORRECTION_RESOLVED",
+  "scope": "Read PREREGISTRATION.md, src/SPEC.json and src/run.py only. No native certificates, census, outcomes or source counts read; no runner or fixtures executed by reviewer.",
+  "hashes": {
+    "PREREGISTRATION.md": "beb442dda3833c587f763af89744396ac0375b6930e343af93fc2dcfc246f990",
+    "src/SPEC.json": "cc17d89661d1767fc0e843da416f05840c839c03d551c7d758cd979aca1761aa",
+    "src/run.py": "d876cdb0397bde39b6c002b6c8691e526f9eb539527cc5cdb5b58a04d568d208"
+  },
+  "proof_checks": [
+    "The broad carrier admits all21non-Psingletons and all21Px doubletons with x!=P. This includes the declared1067carrier and relaxes its source syntax. P at a complete-group end or followed by P cannot be decoded under this prefix code.",
+    "For a valid group, greedy prefix parsing gives unit length minus P count. This is code-token count, not glyph count, phoneme count or action count.",
+    "Independent cuts on allN-1complete-code boundaries, with common paragraph-specific p, condition to uniform positive compositions given N,M. Independence across paragraphs is separately assumed. Source program and length must not depend on later cut draws.",
+    "The implemented PMF matches the combinatorial derivation. N=M is deterministicX=M; M=1,N>1 is deterministicX=0. Impossible binomial choices are excluded. Integer numerator counts are asserted to sum to choose(N-1,M-1).",
+    "For lambda>=0, Pr(sumX<=Xobs)<=exp(lambdaXobs)product Eexp(-lambdaX). The code uses the correct sign and log-sum-exp. Minimization over the fixed finite grid remains a valid upper bound; it does not require an additional selection correction over lambda.",
+    "Variable-PMF capacity uses support size>1 and separate physical leaf count. Reader rejection requires every head either invalid or satisfying all shortfall gates; maximum valid-head log bound, not best-head evidence, is retained.",
+    "The original source syntax can only restrict candidate sources; relaxing it does not invalidate a necessary comparison because the cut law is content-independent. Selection and framing assumptions are still essential."
+  ],
+  "code_review_findings": [
+    "No blocking PMF, parsing or Chernoff-sign bug found by static review.",
+    "Invalid carriers return a first actual witness instead of being silently omitted. Capacity stops are not counted as exclusions.",
+    "Native projection is old certificate-bound and crosschecked against census metadata/counts; validator must independently verify source flags and fixed cohort integrity as specified.",
+    "All required input pins must be present in root LOCK.json, which the runner verifies before projection. This review did not inspect native inputs or confirm their contents."
+  ],
+  "caveats": [
+    "The1e-8log safety adjustment is a floating-point precaution, not a rigorous interval-arithmetic certificate by itself. Independent numeric reconstruction and exact small-CDF checks must be retained; discrepancies cannot be called manuscript failures.",
+    "Historical rank/eligibility selection preserving the conditional cut law is assumed rather than proven. The result is not project-wide significance or logical impossibility of stochastic generation.",
+    "Alternate reader outcomes are not independent confirmations. Working units, complete observed-group premise and own paragraph framing remain conditional.",
+    "The44-case correction is conservative; it does not turn selected historical data into a fresh sample."
+  ],
+  "decision": "Proceed with fixed verification if wording is clarified and lock/input validation completes. No new gloss, source hypothesis, general instruction-language ban or automatic decoder repair follows.",
+  "resolved_wording_request": {
+    "location": "PREREGISTRATION Dependencies and limits",
+    "old": "variable code lengths",
+    "replacement": "different or context-dependent code-length rules",
+    "reason": "The current tested carrier already has both one-unit and two-unit codewords. Unqualified exclusion of variable lengths misstates the tested class.",
+    "status": "CORRECTED_BEFORE_LOCK"
+  },
+  "final_protocol_hashes": {
+    "METHOD.md": "beb442dda3833c587f763af89744396ac0375b6930e343af93fc2dcfc246f990",
+    "PREREGISTRATION.md": "beb442dda3833c587f763af89744396ac0375b6930e343af93fc2dcfc246f990",
+    "src/SPEC.json": "cc17d89661d1767fc0e843da416f05840c839c03d551c7d758cd979aca1761aa",
+    "src/run.py": "d876cdb0397bde39b6c002b6c8691e526f9eb539527cc5cdb5b58a04d568d208"
+  },
+  "resolution": "Both protocol documents clarify different/context-dependent code-length rules and explicitly distinguish floating safety from a formal interval proof. No model, statistic or gate changed."
+}

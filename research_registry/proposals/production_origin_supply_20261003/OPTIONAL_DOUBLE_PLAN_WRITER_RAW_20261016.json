@@ -1,0 +1,109 @@
+{
+  "title": "RAW UNREVIEWED: optional and doubled instruction plans retain one expression under joined or split writing",
+  "summary": "A complete invented restricted content writer transmits an ordered list of unary instruction terms over 38 fixed elementary-step names. Two shared postfix constructors mean OPTIONAL and DOUBLE, with independent alternative choice on each execution. Their order has a concrete consequence: OPTIONAL then DOUBLE permits zero, one or two copies, whereas DOUBLE then OPTIONAL permits only zero or two. A fixed prefix-free 22-drawing teaching carrier recovers the exact term list after visible grouping is removed. No native drawing, word meaning, action, historical use or statistical fit is assigned.",
+  "scope": "semantic",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "design": {
+    "source_domain": {
+      "vocabulary": "Exactly 38 distinct elementary-step names A0 through A37, fixed for a document collection. They are uninterpreted instruction identities here, not Voynich translations. A later real application must supply each step's complete meaning and every required participant/argument in the fixed vocabulary; an unencoded changing argument is outside this source domain.",
+      "term_grammar": "E ::= Ai | OPTIONAL(E) | DOUBLE(E). A source paragraph is a nonempty ordered list [E1,...,Ek]. A document is a finite list of such paragraphs; the empty document is allowed. No binary constructor, quoted arbitrary name, omitted argument, implicit participant update or general prose source is claimed.",
+      "preserved_source": "The exact ordered list of unary syntax trees and elementary-step identities is recovered. Original natural-language orthography and original word spaces are not input and are not recovered. Different trees can denote the same permitted trace set; the reader nevertheless preserves their written source syntax."
+    },
+    "shared_content": {
+      "atomic": "L(Ai) is the singleton language containing the one-step trace Ai.",
+      "optional": "L(OPTIONAL(E)) = {epsilon} union L(E).",
+      "double": "L(DOUBLE(E)) = L(E) concatenated with L(E). Each execution may choose any alternative permitted by E. This is not diagonal copying of one previously selected trace.",
+      "paragraph": "The permitted paragraph traces are the ordered language product L(E1)...L(Ek). Empty traces are allowed by OPTIONAL, but no written source term or repetition is deleted from the recovered syntax.",
+      "limits": "These are intensional instruction plans, not an assertion that a plan was executed or that two invocations cause unequal physical states. No idempotence, invertibility, material resource consumption, duration or outcome fact is assumed for Ai."
+    },
+    "complete_teaching_carrier": {
+      "drawings": "Exactly 22 abstract distinguishable drawings: L0,...,L18, P, D, O. These names are metalanguage labels, not EVA values or proposed native bindings.",
+      "fixed_atomic_codes": "Ai maps to the one-drawing token Li for 0<=i<=18. A(19+i) maps to the two-drawing token P Li for 0<=i<=18. The literal two-drawing token is indivisible for display-gap insertion. P is not itself an instruction and is never followed by D, O or P within an atomic token.",
+      "operator_codes": "DOUBLE has the one-drawing token D. OPTIONAL has the one-drawing token O. Emit an atomic code followed by its unary operators from innermost to outermost. For example OPTIONAL(DOUBLE(A0)) emits L0 D O before optional display grouping.",
+      "source_list_boundary": "A new atomic token closes the preceding term and begins the next term. D and O replace the immediately current term with the respective wrapper. The current term starts empty at each source paragraph. A paragraph beginning with D/O is invalid; there is no fallback or implicit root.",
+      "visible_grouping": "At every boundary between complete emitted tokens, independently choose a visible single gap with probability one half or no gap with probability one half. Never cut inside P Li. Thus one identical source term can be written as one, two or more visible groups, and one visible group can contain several source terms. This frozen elementary grouping law is a teaching convention, not a manuscript spacing fit.",
+      "paragraph_and_layout": "Write a blank line between source paragraphs. Nonblank line wraps may occur only between visible groups and carry no source information; their physical placement is outside the proposed word-distribution model. The reader ignores these line wraps but not blank-line paragraph boundaries. No hidden message ends or internal paragraph resets are allowed.",
+      "escapes_and_out_of_domain": "There is no escape branch. Input outside the 38-name unary-plan grammar is rejected, rather than normalized, omitted or assigned another instruction after observing output. Empty source document maps to empty writing; empty source paragraphs are invalid."
+    },
+    "reader": [
+      "Separate paragraphs at blank lines, then remove display gaps and nonblank line wraps within each paragraph.",
+      "Read Li as Ai, and P Li as A(19+i); reject a final P or any P not followed by a payload Li. D and O are the separate control tokens.",
+      "Each atomic token starts a new term. Each D/O wraps the current term. Reject an operator without a preceding current term in that paragraph. End of paragraph closes the last term.",
+      "Return the full ordered term lists. Their finite permitted trace languages follow from the three shared semantic equations; actual instruction meanings are not inferred from the writing."
+    ],
+    "inverse_argument": "Atomic tokens and the two operator tokens are prefix-free: P is never a complete token, all P-starting tokens have exactly one payload tail, and D/O are outside payload. Each term has exactly one atomic leaf and a finite postfix operator chain, so the next atomic token uniquely begins the next term. Removing only admitted display gaps therefore leaves a uniquely tokenized and uniquely parsed source list. Forward writing of that list recreates exactly the same token stream; every original gap choice is permitted by the fixed positive grouping law.",
+    "worked_content_contrasts": [
+      {
+        "source": "[DOUBLE(OPTIONAL(A0))]",
+        "tokens": "L0 O D",
+        "permitted_traces": ["epsilon", "A0", "A0 A0"],
+        "same_source_spellings": ["L0OD", "L0 OD", "L0O D", "L0 O D"]
+      },
+      {
+        "source": "[OPTIONAL(DOUBLE(A0))]",
+        "tokens": "L0 D O",
+        "permitted_traces": ["epsilon", "A0 A0"],
+        "same_source_spellings": ["L0DO", "L0 DO", "L0D O", "L0 D O"]
+      },
+      {
+        "source": "[A0, OPTIONAL(DOUBLE(A0))]",
+        "tokens": "L0 L0 D O",
+        "permitted_traces": ["A0", "A0 A0 A0"],
+        "note": "The first repeated atomic occurrence remains an unconditional first step. It is not discarded as decoration or merged with the later optional term."
+      },
+      {
+        "source": "[A19, A0]",
+        "tokens": "P L0 | L0",
+        "same_source_spellings": ["PL0 L0", "PL0L0"],
+        "note": "The bar here marks a token seam for explanation only and is not an extra drawing. P and its payload L0 cannot receive an intervening display gap."
+      }
+    ],
+    "apparatus_cost": "38 elementary-step identities and their complete source definitions; 22 distinguishable drawings; the fixed 19-short/19-long atomic coding formula; two shared unary meanings; ordered-list parsing; paragraph framing; one independent one-half display-gap rule. No output whole-word bank, per-whole operator function, learned probability table or per-occurrence meaning is available. The primitive instruction vocabulary is a real finite-domain cost, not free access to arbitrary names or prose.",
+    "prospective_different_consequence": "After an independently proposed root/operator binding, B O D allows the single execution B whereas B D O forbids it. Joined versus split displays of either exact token stream must retain the same entire term list. Reversing O/D is therefore not a spelling variant in this contract. A case requiring diagonal replay of one branch chosen once would contradict DOUBLE as defined. No native binding or outcome is supplied or tested here."
+  },
+  "motivation_and_boundaries": {
+    "retained_positive_motivation": "GDT1200's B/By/Bdy/repeated-base families and GDT1201's transparent learned chunks motivate a shared constructor account rather than a separate independent meaning for every whole form. This proposal supplies one concrete content algebra with a real order difference and an explicitly paid spacing-independent inverse.",
+    "not_a_native_derivation": "B, D and O in the examples are abstract logical tokens. They are not assignments to dal, ol, ch, dy, y or any other manuscript form. The 38 atomic teaching codes do not already identify multi-unit native roots. Their finite inventory and all physical role assumptions must be retained if a later binding is attempted; no new codewords or carrier repair are authorized by this RAW.",
+    "whole_form_and_context": "Repeated formulae can become learned chunks without changing their expanded plan. This provides a possible source of repeated wholes and directional constructions, but predicts no fitted native whole-form frequencies, pair transfer, grammatical role, e/i run law or line layout. GDT608 whole-form residuals and GDT916/1325 nonconfirmations remain facts to account for, not validation of this plan grammar.",
+    "known_stops": [
+      "GDT1216 still excludes IDEA947's specific repeated-head grammar with compulsory nominal arguments. This writer has a different declared source domain and is not a repair or success for947.",
+      "IDEA1062 retains unbound state effects and local scope failures. Here no observed state transition or actual execution is claimed; shared operations constrain languages of possible traces instead.",
+      "IDEA1063's power-law binding remains unidentified. DOUBLE/OPTIONAL order is not e-run counting and supplies no native power value.",
+      "R_TOKEN, global R771 and IDEA1066 remain unchanged. No resource-per-token, universal class typing or last-tail rule is imported.",
+      "A complete abstract reader is not evidence of historical use, manuscript fit, natural-language recovery or a confirmed word meaning."
+    ]
+  },
+  "bounded_prior_review": {
+    "read_this_block": [
+      "VOYNICH_CURRENT_ROUTE.md",
+      "context topic composition",
+      "IDEA000914 registry card: recipe alternatives and ingredient scope already proposed, no complete writer in the card",
+      "IDEA000947 and GDT1215 followup navigation",
+      "experiments/yolo/gdt1216_iterated_head_nominal_argument/REPORT.md",
+      "IDEA001062 registry card and its retained review",
+      "IDEA001039 registry card and retained1360 scope"
+    ],
+    "already_read_previous_block": [
+      "experiments/yolo/gdt1201_transparent_chunk_confluence/METHOD.md",
+      "experiments/yolo/gdt1201_transparent_chunk_confluence/REPORT.md",
+      "experiments/yolo/gdt1253_grammar_restricted_code_attainment/REPORT.md"
+    ],
+    "search_scope": "Bounded ideas search and duplicates for optional/doubling/plan/trace/regular-expression and related cards; route-check for finite action language and choice. These are navigation checks, not an exhaustive novelty proof. IDEA914's original authored source was not retrieved, so no claim that its full unseen contract has been ruled out as a duplicate.",
+    "claimed_distinction": "The limited added contract is the exact postfix unary-list writer, the finite trace-language equations including independent choices in DOUBLE, and the complete 22-drawing code plus explicit display-gap law. It is not a new discovery that repetition or optional instructions can carry information."
+  },
+  "relations": [
+    {"target": "IDEA000914", "type": "related_to"},
+    {"target": "IDEA000947", "type": "related_to"},
+    {"target": "IDEA001062", "type": "related_to"},
+    {"target": "IDEA001063", "type": "related_to"},
+    {"target": "GDT1200", "type": "related_to"},
+    {"target": "GDT1201", "type": "related_to"},
+    {"target": "GDT1216", "type": "related_to"}
+  ],
+  "work_record": {
+    "started_utc": "2026-10-16 10:03:26 UTC",
+    "authored_utc": "2026-10-16 10:10 UTC onward",
+    "exposure": "Native-informed prior structural knowledge and the compact live route; no new manuscript cache, source corpus, image, control secret, count, experiment or word-meaning query in this block. The named1216 report includes an already exposed native example; its fixed failure is retained, no output fitting undertaken.",
+    "parent_separate_candidate": "After the unary-list proposal was sent, root separately proposed one whole-paragraph fixed-arity tree with an added SEQ operator. This RAW does not adopt that candidate, its single-tree boundary, its19-atom inventory or any future feasibility result. No such result was received before authoring."
+  }
+}

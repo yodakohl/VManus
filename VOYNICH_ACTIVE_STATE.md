@@ -1,3 +1,25 @@
+## 2026-10-16 — GDT1394 cannot meet its physical-leaf gate
+
+The original23GDT1259 rank-certificate paragraphs cover only2physical leaves
+in ZL3b and4in IT2a, below the fixed10. Eight/ten relaxed escape-code heads
+survive exact group shapes; every valid case stops for capacity. Their one-code
+word counts are only12–21%/4–7%of conditional independent-gap expectations,
+but these numerical shortfalls do not override the leaf gate. Scientific result
+NOT_REJECTED; no independent-gap class exclusion. Independent reconstruction
+of all46paragraphs/44cases and frozen replay pass. No new image or reserve.
+
+Root missed a cheap metadata capacity check before implementation. Preserve
+that error rather than lowering the gate or extending the cohort automatically.
+IDEA1067's invented instruction algebra remains coherent; native roles/content
+and all meanings remain unbound.1259also already implies the fixed-unit-arity
+single-tree paragraph corollary; this is an old-certificate consequence, not a
+new native census or broad grammar ban.1328within-word run failure is separate.
+
+Next: source/content synthesis; no new decoder or gap repair is selected. A new
+spacing comparison would require separately justified prospective coverage and
+selection assumptions. Confirmed English lexemes remain0. The ten-hour request
+remains unfulfilled. [Primary report](experiments/yolo/gdt1394_independent_code_gap_capacity/REPORT.md).
+
 ## 2026-10-16 — IDEA1066 is not selected as a native reading
 
 Independent manual contract reviews retain its unary-safe invented inverse.

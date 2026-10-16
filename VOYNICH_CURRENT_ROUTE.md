@@ -5,10 +5,10 @@ Updated: 2026-10-16.
 Phase: exploration
 Status: active
 Task: content
-Latest decision: 1066 park
-Working files: IDEA1066
+Latest decision: 1394 STOP
+Working files: GDT1394
 Assumptions: no meanings
-Resume: shortlist
+Resume: synthesis
 Running: none
 
 ## Structural baseline
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicd12d4fd53.
+Public204f68117.

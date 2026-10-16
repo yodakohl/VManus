@@ -1,0 +1,59 @@
+{
+  "experiment_id": "GDT1394",
+  "status": "PASS_CLOSURE_SCOPE_REVIEW",
+  "scientific_status": "NOT_REJECTED_CAPACITY_STOP_FOR_ALL_SHAPE_VALID_HEADS",
+  "review_type": "Post-unblinding read-only interpretation review of primary and independent-validation artifacts; no additional native counting, cohort search or code change.",
+  "reader_summary": {
+    "ZL3b": {
+      "case_status_counts": {
+        "CAPACITY_STOP": 8,
+        "INVALID_CARRIER": 14
+      },
+      "variable_paragraphs": 23,
+      "physical_leaves": [
+        2
+      ],
+      "descriptive_ratio_range": [
+        0.11936720884645709,
+        0.20887998728840484
+      ],
+      "descriptive_max_log_bound": -112.10659515294235
+    },
+    "IT2a": {
+      "case_status_counts": {
+        "CAPACITY_STOP": 10,
+        "INVALID_CARRIER": 12
+      },
+      "variable_paragraphs": 23,
+      "physical_leaves": [
+        4
+      ],
+      "descriptive_ratio_range": [
+        0.04063355586614978,
+        0.06837187855310752
+      ],
+      "descriptive_max_log_bound": -146.2977077392612
+    }
+  },
+  "findings": [
+    "The fixed criterion requires at least10physical leaves. Every valid head has23variable paragraph PMFs but only2ZL or4ITleaves, so every valid head is a capacity stop. The observed small ratios and Chernoff upper bounds do not replace this gate.",
+    "The14ZL/12ITinvalid-carrier cases retain their individual exact source-shape contradictions. They do not establish all-head rejection, because8ZL/10ITremaining heads are statistically unscored by the complete decision gate.",
+    "Independent validation PASS certifies source reconstruction, arithmetic and decision consistency. It does not establish successful rejection of the independent-gap law or a manuscript meaning.",
+    "The fixed-cohort conditional model and source/selection assumptions remain. No global native-gap exclusion, general instruction-language ban, realistic source identification or positive fit is supported.",
+    "NOT_REJECTED here means insufficient registered coverage, not compatibility proven or successful generation."
+  ],
+  "planning_error": "The root selection accepted23rank-certificate paragraphs without first checking their physical-leaf coverage. This coverage was available from existing metadata and should have been checked before implementation. Paragraph count was not a valid substitute for leaf count. The prospective reviewer also did not establish that capacity from source-free protocol inspection; that review supplied no capacity assurance.",
+  "required_closure": [
+    "Report the avoidable metadata-preflight omission explicitly.",
+    "Retain the original fixed gate and outcome; do not lower the10-leaf threshold, replace the cohort, append convenient leaves, pool readers or count23paragraphs as23independent leaves.",
+    "Treat all numeric shortfalls on surviving heads as descriptive under the failed capacity gate.",
+    "No automatic expanded-cohort test or decoder repair follows; any future contract needs an independently justified selection and separate prospective decision."
+  ],
+  "hashes": {
+    "PREREGISTRATION.md": "beb442dda3833c587f763af89744396ac0375b6930e343af93fc2dcfc246f990",
+    "src/SPEC.json": "cc17d89661d1767fc0e843da416f05840c839c03d551c7d758cd979aca1761aa",
+    "artifacts/RESULT.json": "34c86d95f9f772ea8415c5da46daa4789c5e2f3462716afd5bc4aa011fc77e1c",
+    "artifacts/VALIDATION.json": "599f109866c422bbc86e209c81604c1ceb69d2fa365d4bf839b19afda621e63d"
+  },
+  "confirmed_native_word_meanings": 0
+}
