@@ -1,3 +1,25 @@
+## 2026-10-16 — Historical abbreviation scope retained; no new decoder selected
+
+Primary reports GDT155/GDT157/GDT207 and the cached Cappelli evidence were read together, with
+an independent source-only review. GDT157 generates part of the historical German
+structural change; its 25 causal diagnostics are not 25 direct Voynich matches.
+GDT207's diplomatic relative gain coexists with a large remaining paid-cost gap
+and local-search limits. Neither experiment excludes contextual medieval Latin
+abbreviation generally. Cappelli's similar 9-like forms have distinct height,
+mark and context classes: a universal initial-con/final-us mapping is not the
+source rule. No native sign or word is identified with any of these classes.
+[Bounded synthesis](research_registry/proposals/production_origin_supply_20261003/ABBREVIATION_SCOPE_SELECTION_REVIEW_20261016.json).
+
+Root re-read the existing printed page 35 image, not a new manuscript witness.
+Its finite multiword licenses and IDEA926's old generalized inverse collision are
+both retained. No new complete mechanism or immediate native test emerged.
+The bounded producer also rejected its own GDT415/GDT840-like attribution sketch;
+no duplicate RAW, decoder, corpus or new experiment was created. This is a
+source-scope synthesis, not additional decipherment evidence or a reopened
+failed route. Next selection needs a genuinely distinguishing written rule;
+do not repeat this unchanged abbreviation audit or automatic decoder repair.
+Confirmed English lexemes: **0**. No running work; ten-hour request unfulfilled.
+
 ## 2026-10-16 — GDT1401 closes a prefix-faithful single-update address family
 
 New RAW1072 supplies a complete source-only subdivision/coalescence language.
