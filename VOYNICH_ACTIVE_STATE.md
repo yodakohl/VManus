@@ -1,3 +1,17 @@
+## 2026-10-16 — IDEA1095 two-phase word channel inherits the cube obstruction
+
+Fixed alternation between two atom-output alphabets makes dydydy emitB^3.
+With |B|>=2and onecomplete sourceword pergroup, the inherited1406eightWabsence
+excludes that conjunction; no newsource/nativecount or keysearch. FULLall3and
+LEAF2IT/RFbridges retained; ZLLEAF2targetabsent remainsNO_NATIVE_BRIDGE.
+The actualoldmapper also emitsSPACE: underretainedouterboundaries, remaining
+branches are threeidenticaloneletterwords ornoletters. No broadlegacyrejection.
+Arbitrarynulloutput canproduceaaa, outsideoldpredicate; boundaryfreegaps and
+periods3/4remainopen. Independentproof/source review andsourcefreefixturesagree.
+[Decision, assumptions and corrections](research_registry/proposals/production_origin_supply_20261003/PERIOD2_CUBE_COROLLARY_REPORT_20261016.json).
+No wordmeaning/sound/source selected. No automaticdecoder/period/corpus expansion.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — IDEA1092 whole-passage prefix construction remains incomplete
 
 Two explicit simple constructions retain all77originalITf75v43–49groups.

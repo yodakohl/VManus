@@ -1,0 +1,47 @@
+{
+  "status": "SOURCE_FREE_SPACE_BRANCH_CLASSIFICATION_ACCEPTED",
+  "parent_review": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/PERIOD_TWO_WORD_CUBE_SCOPE_REVIEW_20261016.json",
+    "sha256": "604181824e66e8f0ef4d49e7d19abe59f88e60a4038071f8ce2c563ce910baca"
+  },
+  "scope": "Addendum for the actual legacyperiod2single-character letter-or-SPACE output, retaining explicit plaintext spaces between native groups and word boundaries at message ends. No new source counts, native extraction, imported root code, fixtures or word assignments.",
+  "premises": [
+    "Each admitted atom emits exactly one character in a-zorSPACEand advances phase modulo2.",
+    "The complete dydydygroup emitsB^3with exactly two output characters inB. Either initial phase and whole-fragment reversal are allowed.",
+    "Every native group is bounded externally by the retained fixed plaintext separator or an actual source-message edge. Thus a nonspace run inside this group cannot join characters from the neighboring native group.",
+    "Any nonempty sourceword formed by whitespace tokenization must belong to one of the unchanged fixedWunder consideration. No assumption of exactly one sourceword per native group is made."
+  ],
+  "cases": [
+    {
+      "B": "two letters, possibly equal",
+      "fragment": "six letters with no internal spaces, exactlyB^3",
+      "whole_word_consequence": "Because of the external boundaries, this fragment is one complete sourceword. It violates the inherited1406absence of whole cubes with blocklength>=2in each fixedW. Equal letters produceaaaaaaand are included in the old nonprimitive-block test."
+    },
+    {
+      "B": "exactly oneSPACEand one letterx",
+      "fragments": [
+        "x SPACE x SPACE x SPACE",
+        "SPACE x SPACE x SPACE x"
+      ],
+      "whole_word_consequence": "Both tokenize as exactly three copies of the same one-letter sourcewordx. Leading/trailing or doubled boundary spaces do not change that tokenization. Membership therefore additionally requiresx inWas a singleton word; no such singleton test is made here."
+    },
+    {
+      "B": "twoSPACEcharacters",
+      "fragment": "sixSPACEcharacters",
+      "whole_word_consequence": "This group contributes no nonspace sourceword. Fixed neighboring separators may lengthen the space run; no word is created by it."
+    }
+  ],
+  "derived_obligation": "Conditional on the fixedWword-support requirement and retained source separators, at least one of the two phase-specific outputs used by this dydydyoccurrence must beSPACE. The occurrence then produces either three identical singleton words or no letters. This is an obligation, not a family exclusion or a preferred interpretation.",
+  "edge_and_direction_limits": [
+    "A group at a true source-message edge still has an external word boundary. A physical line edge is sufficient only when the particular legacy encoding treats it as a separate source sequence/message; it must not be promoted for arbitrary continuous boundary-free writing.",
+    "Extra spaces are preserved outputs here. Stripping is used only to describe whitespace tokenization, not as an unreported modification of the legacy likelihood or source canonicalization. A canonical-single-space source restriction would be an additional contract.",
+    "Reversal exchangesxSPACEandSPACExand preserves the three-singleton classification; two-letter reversal remains an entire cube.",
+    "If native group gaps are removed as in the boundary-free RESEARCH_RESETcandidate, a nonspaceB^3fragment may join outside letters into a larger sourceword. The inheritedwholeword-cube absence then supplies no such exclusion."
+  ],
+  "old_results_retained": [
+    "Original period2scope review remains byte-unchanged.",
+    "No new failure orPASSis assigned to the legacy search. Period3/4and arbitrary state updates are not covered.",
+    "No assertion that the eight vocabularies lack triple one-letterword sequences or that singletonwords have any native values.",
+    "No source scan, experiment or automatic repair follows from this classification."
+  ]
+}
