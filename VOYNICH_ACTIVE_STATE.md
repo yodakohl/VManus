@@ -1,3 +1,17 @@
+## 2026-10-16 — contextual homography example retained; no native compiler selected
+
+IDEA1084's fixed eight-clause source grammar is internally readable: the following
+predicate ending resolves an otherwise ambiguous noun whole. This is source-only
+teaching evidence, not an assigned Voynich noun, number or controller.1253's general
+possibility and952/991's source constructions remain predecessors;1222's different
+injective-word failure and915/916/949's agreement limits are unchanged.
+[Manual review](research_registry/proposals/production_origin_supply_20261003/AGREEMENT_RESOLVED_STEM_OVERLAP_REVIEW_20261016.json).
+No further inverse demonstrator or native solver follows. Constructive unknown-lexeme
+reading remains permitted; compatibility alone does not select meanings. The77-group
+f75v source and all words remain literal and unassigned. Next: select a concrete
+shared content construction; no automatic fixed8W code/corpus expansion.
+The10hblock remains active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; notcompleted.
+
 ## 2026-10-16 — GDT1406 blocks the same8W across wider freeUD codes
 
 Direct d/y wholewords force singletonentries and positiveexpansionsU/V; dydydy

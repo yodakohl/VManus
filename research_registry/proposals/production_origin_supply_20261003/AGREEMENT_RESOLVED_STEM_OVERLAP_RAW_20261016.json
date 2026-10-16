@@ -1,0 +1,70 @@
+{
+  "title": "RAW UNREVIEWED: verb agreement resolves a noun stem-plus-ending collision in a complete restricted clause compiler",
+  "summary": "A complete tiny invented grammar deliberately writes one noun form ambiguously. Two noun stems have codes alpha and alpha-alpha, and the same plural suffix alpha applies to both. The resulting two-alpha whole is singular lemmaB or plural lemmaA. An overt agreement ending on the following predicate decides the analysis. Every full source clause is recovered exactly although neither the stem table nor the isolated noun word has a freely unique decoding. No native glyph or word value is assigned.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED",
+  "design": {
+    "source_domain": {
+      "lemmas": "Exactly two taught source noun lemmas: A=clay vessel, B=metal vessel. These are invented teaching meanings only, never proposed Voynich meanings.",
+      "features": "Exactly two subject-number values, singular and plural, and two predicates, OPEN and CLOSED. A singular clause describes one vessel; a plural clause describes several vessels and applies the predicate to all of that described group. Plural preserves the source's at-least-two reading, not an exact count.",
+      "canonical_sources": "The eight canonical sentence types are one/several, clay/metal vessel(s), is/are, open/closed. For example 'one metal vessel is open' and 'several clay vessels are open'. Input is an ordered list of such complete clauses, with paragraph breaks. There are no names, objects, tense changes, negation, quotations, extra modifiers, omitted predicates or cross-clause pronouns. Original prose outside these templates is unsupported, not silently normalized.",
+      "reference_scope": "The described subject belongs to its own clause. Repeated noun lemmas across clauses do not assert the same physical vessel. No unwritten reference or topic update is used to disambiguate anything."
+    },
+    "five_drawing_table": {
+      "alphabet": "Five abstract drawings alpha,beta,gamma,sigma,pi, displayed below as α,β,γ,σ,π. These are teaching symbols, not selected working units.",
+      "noun_stems": "A -> α; B -> αα.",
+      "number_on_noun": "Singular appends nothing. Plural always appends exactly one α to either stem. Thus A.SG=α, A.PL=αα, B.SG=αα, B.PL=ααα. The collision is intentional and unchanged.",
+      "predicate_stems": "OPEN -> β; CLOSED -> γ.",
+      "agreement": "Append σ to the predicate stem for singular, π for plural. The number is the same source number already applied to the noun; it is not chosen independently."
+    },
+    "writer": [
+      "Parse the complete canonical source clause into(noun lemma, number, predicate). Reject any content outside the eight declared types.",
+      "Write the noun's fixed stem plus the one shared number rule. Write one visible space, then the predicate's fixed stem plus its matching agreement ending.",
+      "Write exactly one complete two-word clause per physical line. Newlines delimit clauses, blank lines preserve source paragraph boundaries, and no line is wrapped or joined. No additional punctuation, end sign or escape channel is used.",
+      "Apply these same choices on every clause. There is no source-dependent table fitting, optional spelling, hidden alternate ending or per-word exception."
+    ],
+    "reader": [
+      "Require exactly two complete words on each nonblank line. The second must be βσ,βπ,γσ orγπ; recover its predicate and number.",
+      "For singular, leave the first word unchanged. For plural, require a final α and remove exactly one α. The remainder must be exactly α orαα, recovering lemmaA orB respectively. An empty or three-alpha remainder is invalid.",
+      "Recover the same number feature for the noun and the canonical source is/are form from the predicate agreement. Generate the exact canonical source sentence. No guess among unrelated lemmas or unpriced context is used.",
+      "Preserve every line and paragraph break and re-encode to check exact equality. The reader does not discard a repeated clause or infer that two clauses share one object."
+    ],
+    "complete_examples": {
+      "same_noun_word": "αα βσ reads 'one metal vessel is open'; αα βπ reads 'several clay vessels are open'. The written noun whole αα is identical; the overt predicate number changes its unique licensed analysis.",
+      "other_forms": "α γσ reads 'one clay vessel is closed'; ααα γπ reads 'several metal vessels are closed'.",
+      "countercases": "α βπ is invalid: removing the required plural α leaves no noun stem. ααα βσ is invalid: three-alpha is not a singular stem. The reader may not repair the agreement ending or invent a third lemma.",
+      "isolated_fragment": "An isolated noun αα remains ambiguous. The protocol does not claim a reading before the complete agreement-bearing clause is available."
+    },
+    "why_the_free_code_premise_changes": [
+      "The putative stem codes{α,αα}are not freely uniquely decodable: αα is either oneBstem or twoAstems. The source grammar never permits an arbitrary sequence of noun stems inside the noun word; it permits exactly one stem and the one number suffix.",
+      "Even that licensed noun word is not individually injective: A.PL andB.SG collide. The full clause remains injective because the overt predicate ending determines whether the suffix must be removed.",
+      "This is therefore not an enlarged prefix/UD table or a fixed expansion of every isolated output whole. Its real information channel includes grammatical number in the second word. Omitting that agreement without replacement would destroy the complete inverse.",
+      "This formal example changes the relevant premise only for its stated source grammar. It supplies no escape from any registered result whose original fixed-expansion assumptions remain in force."
+    ],
+    "cost_and_limits": [
+      "Pay two noun meanings and their overlapping stems, two predicate meanings, one shared noun-number operation, two agreement endings and the exact two-word/one-line clause grammar. All eight source meanings are preserved; unrestricted natural language is not covered.",
+      "The five-drawing inventory and rigid clause lengths are teaching apparatus, not a proposed native carrier. No native alphabet, line, noun, predicate, number value or homograph has been identified.",
+      "The example is invented and historically unassessed. It does not assume Latin or assign any of its teaching words to a Voynich form.",
+      "There is no native statistical fit, no claim that grammar always resolves homography, and no permission to relax the source grammar or add more lemmas after an adverse result."
+    ],
+    "bounded_prior_review": [
+      "IDEA952 already proposes shared number agreement; its incomplete physical/source scope and1222fixed-source lemma+inflection failure remain. This is a small exact overlapping-stem compiler, not a new discovery of agreement or a reopening of1222.",
+      "IDEA991 omits recoverable verb agreement while keeping the subject fully written. IDEA1074 retains verb inflection and omits only a uniquely recoverable pronoun. Here both words remain, no pronoun is present, and the agreement resolves a deliberate lemma/ending collision within the noun whole.991's carrier failure is unchanged.",
+      "IDEA955 repeats an entire primitive noun stem to specify an exact count. This writer appends one fixed suffix for plural, does not encode an exact cardinality, and cannot infer a quantity from the number of alpha marks alone.",
+      "GDT1253 already demonstrates grammar-restricted code attainability. The present contract is not a new theorem that grammar can restrict codes; it retains this fully defined source-and-reader example where an overt agreement feature resolves an actual whole-word ambiguity.",
+      "Quick bounded search/show/duplicates navigation found the expected952/955/1074neighbors and no identical complete contract. No exhaustive novelty claim, new primary result or native experiment follows."
+    ]
+  },
+  "relations": [
+    {"type": "related_to", "target": "IDEA000952"},
+    {"type": "related_to", "target": "IDEA000991"},
+    {"type": "related_to", "target": "IDEA001074"},
+    {"type": "related_to", "target": "IDEA000955"},
+    {"type": "related_to", "target": "GDT1253"}
+  ],
+  "work_record": {
+    "block_start_utc": "2026-10-16T17:53:20Z",
+    "access": "Live route, composition topic and bounded registry navigation only. No native payload, new source, image, code execution, test or current root output. Compact1406status was visible in the required route.",
+    "ownership": "Own new RAW source contract only; root retains scientific selection, review and publication."
+  }
+}

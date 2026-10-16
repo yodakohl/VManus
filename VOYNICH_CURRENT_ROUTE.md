@@ -5,8 +5,8 @@ Updated: 2026-10-16.
 Phase: exploration
 Status: active
 Task: select
-Latest decision: 1406UD
-Working files: GDT1406
+Latest decision: 1084toy
+Working files: IDEA1084
 Assumptions: unglossed
 Resume: raw1080
 Running: 10h
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicd749fc535.
+Public251266191.
