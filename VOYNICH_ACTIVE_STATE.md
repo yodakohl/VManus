@@ -1,3 +1,18 @@
+## 2026-10-16 — GDT1404 closes the wordwise/common-key gap locally
+
+All77 original ITf75v.43–49groups individually matched all8unchanged wordbooks
+in1403. In1404 no SINGLE injective22working-unit/source-codepoint map satisfies
+the whole77 in any of8W, even with wordwise reversal; all16FWD/BIDIRcases are
+exhaustive UNSAT, independently confirmed by full-domain Z3. A known-generated
+77word Deot case passed direct independent verification BEFORE native work.
+Native values are not assigned. Nonminimal joint word-cores retain exact scope;
+they do not license deleting initialy or selecting another writer.
+[Report](experiments/yolo/gdt1404_run_allograph_shared_lexical_key/REPORT.md).
+No language, arbitrary categoricalallography, phonetics or openlexicon class is
+excluded. Stop these fixed conjunctions;1403globalfailures remain. No automatic
+new source vocabulary, decoder or grammar search. Confirmed English lexemes: **0**.
+The user's current10hblock remains active14:50:35UTC16Oct to at least00:50:35UTC17Oct.
+
 ## 2026-10-16 — GDT1403 closes fixed vocabularies but retains77-position local capacity
 
 Under the proposed1068e/i-run inverse, all8old wordbook envelopes fail necessary

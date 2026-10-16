@@ -1,0 +1,157 @@
+{
+  "experiment_id": "GDT1404",
+  "generated_control": {
+    "certificate": {
+      "arbitrary_extension_units": 0,
+      "full_key_size": 22,
+      "groups": 77,
+      "observed_key_units": 22,
+      "status": "SAT_CERTIFICATE_VERIFIED"
+    },
+    "independent_gate_status": "PASS",
+    "limits": "Known generated writer/control; finding any feasible shared key is sufficient. Neither planted-key recovery nor fresh blindness nor native validity is established.",
+    "source": "deot",
+    "window_start": 0,
+    "words": 77
+  },
+  "joint_consequence": "GDT1403allowed a separate injective spelling for each collapsed word and found all77positions individually supported. These same words cannot simultaneously use one shared injective map into any of the eight fixed wordbooks, even under perword BIDIR orientation. This is the additional joint constraint tested here.",
+  "native_accounting": {
+    "all_independent_cases_UNSAT": true,
+    "all_primary_cases_exhaustive_UNSAT": true,
+    "cases": [
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 5,
+        "primary_status": "UNSAT",
+        "source": "b4"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 4,
+        "primary_status": "UNSAT",
+        "source": "b4"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 3,
+        "primary_status": "UNSAT",
+        "source": "w1"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 3,
+        "primary_status": "UNSAT",
+        "source": "w1"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 4,
+        "primary_status": "UNSAT",
+        "source": "bs1"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 7,
+        "primary_status": "UNSAT",
+        "source": "bs1"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 4,
+        "primary_status": "UNSAT",
+        "source": "gr1"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 5,
+        "primary_status": "UNSAT",
+        "source": "gr1"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 6,
+        "primary_status": "UNSAT",
+        "source": "deot"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 8,
+        "primary_status": "UNSAT",
+        "source": "deot"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 2,
+        "primary_status": "UNSAT",
+        "source": "OLD_ITALIAN_UD_CONTROL"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 3,
+        "primary_status": "UNSAT",
+        "source": "OLD_ITALIAN_UD_CONTROL"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 4,
+        "primary_status": "UNSAT",
+        "source": "LATIN_PROIEL_CONTROL"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 12,
+        "primary_status": "UNSAT",
+        "source": "LATIN_PROIEL_CONTROL"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "FWD",
+        "nonminimal_core_word_constraints": 3,
+        "primary_status": "UNSAT",
+        "source": "ANCIENT_GREEK_PROIEL_CONTROL"
+      },
+      {
+        "independent_status": "UNSAT",
+        "mode": "BIDIR",
+        "nonminimal_core_word_constraints": 2,
+        "primary_status": "UNSAT",
+        "source": "ANCIENT_GREEK_PROIEL_CONTROL"
+      }
+    ],
+    "expanded_fields_unused": true,
+    "original_arrays_match_pinned_worksheet": true,
+    "original_groups": 77
+  },
+  "pins": {
+    "CONTROL.json": "a7a5a52bc27c7f6219f42ef7ed2716f1c7ead4e8f709d8ff30c94e6fb8b44211",
+    "GATE_VALIDATION.json": "d208a738bccb39b39c7557d69c12bfe07f0bff8a66e1f37a7c6a4753e5ea8807",
+    "RESULT.json": "7ceaca12b80be16af5da29275b5c7a8bc4ca7214613cb907da2f59e2e5eb28d9",
+    "VALIDATION.json": "dadfbbc51a5059e7025c2ab382cc75efeb9b21576dbe31477e5178eca8749c47"
+  },
+  "retained_limits": [
+    "Exact fixed finite vocabularies, unchanged source Unicode/tokenization, hypothetical native e/i-run collapse and one whole sourceword pernativegroup are premises.",
+    "The local77-group result does not reject the eight languages, all phonetic writing, different source vocabularies, morphology or general allography.",
+    "Eight full-manuscript wordbook failures from1403remain unchanged; this local test does not reopen them.",
+    "BIDIRpermits a different direction for each word, a generous relaxation rather than an identified historical convention.",
+    "No native key, source selection, grammatical interpretation, English word meaning or translated passage resulted.",
+    "Source-control success is engineering evidence for this generated instance, not a statistical recovery-rate estimate.",
+    "The primary algorithm and independent Z3 encoding differ; a reported unsat core is not an additional independent theorem kernel."
+  ],
+  "status": "INDEPENDENT_RESULT_SCOPE_REVIEW",
+  "unsat_core_limit": "Stored cores are nonminimal solver-selected subsets of collapsed-word constraints, with source-alphabet domains and full22unitDistinct permanently active. No smallest-core search or linguistic interpretation was performed.",
+  "validation": "Unchanged frozen independent validator and gate checker passed; all16primaryUNSAT results independently confirmed by finite lexical Z3 constraints. No repair or rerun by reviewer."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "NO_FATAL_STATIC_ISSUE_FOUND",
+  "review_scope": "Source-only algorithm/protocol review before native execution; no native or result inputs read. Not an execution validation.",
+  "primary_sha256": "d790a902bd1f616f3d060b96d254c65c74c7f23010434aa928cae24c1b3b7a82",
+  "checks": [
+    "Complete finite candidate tables; DFS no beam; exhaustion only UNSAT",
+    "Shared forward/reverse maps enforce global injection; full22extension capacity checked",
+    "Every resource cap UNKNOWN",
+    "Generated control restricted to exact e/i-collapse inverse domain",
+    "Any feasible controlkey sufficient; plantedkey not required",
+    "BIDIR lexical relaxation;1403globalexclusions retained"
+  ],
+  "correction": "Generationkey fixed publicly, not passed to solver; not a secret-key/blinded-recovery claim."
+}
