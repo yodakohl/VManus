@@ -4,11 +4,11 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: selection
-Latest decision: 1390 searchFAIL
-Working files: GDT1390
-Assumptions: no key
-Resume: 1054 followups
+Task: gap routes
+Latest decision: 1391 stopFAIL
+Working files: GDT1391
+Assumptions: fixed units
+Resume: 1196/1203
 Running: none
 
 ## Structural baseline
@@ -33,7 +33,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 GDT327/GDT336: historical; no access.
 
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;CountSpecpark.
+R771globalFAIL;R_TOKENFAIL;1390controlFAIL;CountSpecpark.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -71,10 +71,10 @@ Mixed TSV: `vmanus-exp query-tsv`;partial grants:
 New relations: `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
-No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
+Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `context topic Gesamtbild`.
 `context check`.
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public473aabd29.
+Public138a55d19.

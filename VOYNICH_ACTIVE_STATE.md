@@ -1,3 +1,24 @@
+## 2026-10-16 — GDT1391 excludes one automatic word-boundary class
+
+The old same-line f75v.48 G006/G007 pair is saino / ol in all three alternative
+readings, with definite spaces and unique working-unit parses. Under mandatory
+immediate stopping, T(s,x) => T(F(s,x),x), and no boundary state update, a word
+ending in x forces a next x-initial word to be a singleton. The pair contradicts
+that conjunction for any state size. This is a new conditional deduction from
+existing text, not new paleography or an independently held-out finding.
+
+New IDEA1065, MOVE* followed by WAIT/ROTATE with first-terminal word ends,
+preserves occupancy and satisfies stop stability. It also permits only10final
+ranks against GDT1319's inherited18/19/19 active end units. Independent source,
+all126inventory states and scope controls verify. Original1054's supplied
+phases, nonstable stops, real boundary updates and lookahead remain outside.
+No reset, extra state or source deletion is introduced to rescue1065.
+
+Next: inspect1196/1203 and their later decisions for source-word/group-boundary
+mechanisms before selecting another complete passage construction. No claimed
+word meaning or translation; the requested ten hours remain outstanding.
+Evidence: [report](experiments/yolo/gdt1391_stable_word_stop_seam/REPORT.md).
+
 ## 2026-10-16 — GDT1390 fails full-scale blind recovery
 
 The complete C1064 control fixes an all-length IT2a/B spelling law and six
