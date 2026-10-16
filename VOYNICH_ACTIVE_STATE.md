@@ -1,3 +1,37 @@
+## 2026-10-16 — GDT1398 fixes the longer branch of the singleton-logogram writer
+
+IDEA1070 is formally invertible: all one-letter source words are mandatory
+single-unit logograms, while longer outputs use letter spelling. Its unchanged
+Deot instance was already excluded by2411source types versus4272/3818/3773native
+types and1397's longer literal-pattern obstruction. No source rerun was needed.
+[Scope review](research_registry/proposals/production_origin_supply_20261003/CLOSED_WORDBOOK_SINGLETON_LOGOGRAM_SCOPE_REVIEW_20261016.json).
+
+1398 prospectively tests a different complete variable-prefix-letter extension,
+without reusing singleton native groups as letter premises. Any TWO-unit group
+must encode at leastTWOsource letters, so both units are singleton letter codes.
+FULL: direct short groups force21/20/20units in IT/RF/ZL; valid prefix quotients
+force the rest. All22working units are singleton codes in each reader, leaving
+no longer prefix letter code over that same22unit output alphabet. This is a
+conditional code consequence, not actual identified letters or sounds.
+
+GE2 requires recurrence on>=2physical leaves. It forces20singletons in each
+reader; remaining f/i compound heads require at least25entries (f25allreaders,
+i27IT/ZL/28RF). Thus the declared<=22nontrivial letter table fails even without
+one-leaf forms. This lower bound is not an attained25entry table. FULL andGE2
+remain separate; no rare-form deletion, holdout or independent reader replication.
+Independent frozen validator and fresh byte-exact replay pass unchanged.
+[Report](experiments/yolo/gdt1398_singleton_logogram_prefix_capacity/REPORT.md).
+
+Research decision: do not search variable<=22prefix letter tables as a rescue
+for1070under these unchanged premises. The singleton-word table plus literal
+letter branch remains structurally possible with an unspecifiedW, table and
+values; deterministic wholeword equality/frequency invariance remains. No fixed
+Deotrepair, new source corpus, larger alphabet, suffix/UDrepair or reserve opening
+follows automatically. General mixed writing, phonetics and languages remain
+unexcluded. Select another complete proposal only after bounded duplicate and
+primary-source review. Raw idea pipeline was checked this turn; no filler added.
+Confirmed English lexemes: **0**. Prior ten-hour requests remain unfulfilled.
+
 ## 2026-10-16 — GDT1397 closes the fixed one-gap wordbook instance
 
 Allwordwise FWDand generous BIDIRenvelopes fail ALLand GE2in all3readers.

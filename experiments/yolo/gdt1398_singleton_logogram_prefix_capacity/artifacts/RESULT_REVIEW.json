@@ -1,0 +1,70 @@
+{
+  "experiment": "GDT1398",
+  "interpretation": {
+    "FULL": "All22 visible units are forced singleton codes even though no native one-unit word was used as a letter seed. A prefix-free table containing those22 codes cannot contain any longer code over this same22-unit alphabet. This determines code lengths, not letter values.",
+    "GE2": "Forms occurring on at least2physical leaves independently force20 singleton codes. Remaining possible compound heads have direct lower bounds at least25 entries, above22. This is a necessary bound, not proof that any25-entry table exists.",
+    "limits": [
+      "Fixed strict cached working units and whole-group boundaries are premises, not new palaeographic findings.",
+      "All one-letter source words must belong to the compulsory singleton-logogram branch; otherwise the native length2 seed obligation would not follow.",
+      "Readers are alternate readings of one manuscript; GE2 is sensitivity, not held confirmation.",
+      "Non-prefix uniquely decodable codes, altered atomic units and changed word boundaries are outside the tested class.",
+      "No source alphabet values, language, word meanings or accepted source text were recovered.",
+      "GDT1234/1248 and the failed fixed-Deot IDEA1070 branch retain their original separate conclusions."
+    ],
+    "mixed_writer": "Singleton logograms plus a one-unit-per-source-letter branch remain structurally possible; the mixed mechanism itself is not excluded."
+  },
+  "observations": {
+    "IT2a_FULL": {
+      "decision": "ALL_USED_CODES_SINGLETON",
+      "forced_singletons": 22,
+      "heads": 22,
+      "unforced_head_bounds": {}
+    },
+    "IT2a_GE2": {
+      "decision": "EXCLUDED_AT_CAP22",
+      "forced_singletons": 20,
+      "heads": 22,
+      "unforced_head_bounds": {
+        "f": 25,
+        "i": 27
+      }
+    },
+    "RF1b_FULL": {
+      "decision": "ALL_USED_CODES_SINGLETON",
+      "forced_singletons": 22,
+      "heads": 22,
+      "unforced_head_bounds": {}
+    },
+    "RF1b_GE2": {
+      "decision": "EXCLUDED_AT_CAP22",
+      "forced_singletons": 20,
+      "heads": 22,
+      "unforced_head_bounds": {
+        "f": 25,
+        "i": 28
+      }
+    },
+    "ZL3b_FULL": {
+      "decision": "ALL_USED_CODES_SINGLETON",
+      "forced_singletons": 22,
+      "heads": 22,
+      "unforced_head_bounds": {}
+    },
+    "ZL3b_GE2": {
+      "decision": "EXCLUDED_AT_CAP22",
+      "forced_singletons": 20,
+      "heads": 22,
+      "unforced_head_bounds": {
+        "f": 25,
+        "i": 27
+      }
+    }
+  },
+  "pins": {
+    "RESULT.json": "0a221a719ccabdcd0d19739d6c82b75eae0966d4ff0209559aac024a84843567",
+    "VALIDATION.json": "2ca63fd51a72c2613fae21b4d2378c60945ac8ac3e245e03d19924a1e84f966b"
+  },
+  "retained_conclusion": "Freeing every native one-unit group as a possible logogram does not create capacity for a used compound prefix letter code with at most22 source letters under the fixed longer-word/working-unit premises.",
+  "status": "INDEPENDENT_RESULT_AND_SCOPE_REVIEW",
+  "validation": "Unchanged frozen independent validator completed all six cases without repair; seeds, earlier-parent chains, full closure sets and all counts/bounds agree."
+}

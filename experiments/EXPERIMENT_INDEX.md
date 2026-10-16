@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1396**
-- Experiment-associated tracked files: **27,281** (2.4 GiB)
-- Structured GDT337+ experiments: **1061**
+- Experiments indexed: **1397**
+- Experiment-associated tracked files: **27,304** (2.4 GiB)
+- Structured GDT337+ experiments: **1062**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1398 | gdt1398_singleton_logogram_prefix_capacity | `NONTRIVIAL_PREFIX_CAP22_EXCLUDED_ALL_READERS` | [report](../experiments/yolo/gdt1398_singleton_logogram_prefix_capacity/REPORT.md) | 23 | 289.2 KiB | 7 | STRUCTURED_YOLO |
 | GDT1397 | gdt1397_one_gap_word_pattern_envelope | `FIXED_W_ONE_GAP_ENVELOPE_EXCLUDED_ALL_READERS` | [report](../experiments/yolo/gdt1397_one_gap_word_pattern_envelope/REPORT.md) | 19 | 862.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT1396 | gdt1396_inner_deletion_singleton_wordbook | `SOME_READERS_EXCLUDED_ORIGINAL_VALIDATOR_FAIL` | [report](../experiments/yolo/gdt1396_inner_deletion_singleton_wordbook/REPORT.md) | 22 | 83.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT1395 | gdt1395_single_run_context_choice | `NOT_REJECTED` | [report](../experiments/yolo/gdt1395_single_run_context_choice/REPORT.md) | 20 | 1.8 MiB | 6 | STRUCTURED_YOLO |
