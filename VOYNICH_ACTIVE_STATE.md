@@ -1,3 +1,19 @@
+## 2026-10-16 — IDEA1092 whole-passage prefix construction remains incomplete
+
+Two explicit simple constructions retain all77originalITf75v43–49groups.
+V1 keeps each word separate (40unassigned tails); V2lets operator-onlyq/o/l
+prefixes wait for the next base (69terms,39tails,eightattachments,onecrossline).
+Independent manual/source review agrees; no pending prefix remains atparagraphend.
+This is representation fidelity, not evidence selecting the grammar. Allprefix
+functions, native identities and between-term content remain UNASSIGNED.
+The joined/split equalities inV2 are assumptions; V1remainsunselectedtoo.
+[Whole-passage construction](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/PREFIX_ROLE_OPEN_APPLICATION_DRAFT_20261016.md).
+[Decision and predecessors](research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/PREFIX_ROLE_PASSAGE_REVIEW_20261016.json).
+Next: select an evidence-accounted role/content contrast before more authoring;
+not another endpoint count, tree-coverage score or larger solver. No concrete
+word meanings adopted; earlier751/753/1146/R771and1215/1216decisions retained.
+Current10hblock active14:50:35UTC16Oct–atleast00:50:35UTC17Oct; goalbackendactive.
+
 ## 2026-10-16 — IDEA1090 simple predecessor trigger fails before implementation
 
 The same raw predecessor qokedy has lsheckhy onf75v46 and bare sheckhy onf108v38.

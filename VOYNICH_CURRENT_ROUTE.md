@@ -4,8 +4,8 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: review
-Latest decision: 1090F
+Task: role
+Latest decision: 1092U
 Working files: IDEA001092
 Assumptions: unglossed
 Resume: show1092
@@ -21,7 +21,7 @@ Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
 1358cyclic/bag types retain97/82-83%.
 1353freeUD63–65%FULLparses;1354paircode≠sounds;1387V0>1/2.
-1016fixed paragraph nilpotentFAIL;1021unitcycles9singletons.
+I1016fixed paragraph nilpotentFAIL;I1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geomFAIL;1395iidNR.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public1a44012a2.
+Public7884ac066.
