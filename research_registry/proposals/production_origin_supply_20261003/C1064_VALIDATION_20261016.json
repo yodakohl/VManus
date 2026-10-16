@@ -1,0 +1,88 @@
+{
+  "accounting": {
+    "known_zero_differences": 19,
+    "opaque_groups": 37,
+    "source_groups": 588,
+    "source_units": 6,
+    "unique_groups": 551
+  },
+  "code_lock_sha256": "b6224f98d45d2c86e1f583f0975e768a1916186f05a40aa64bb5b89f2315422b",
+  "derivation_sha256": "5f68ac985ac92d9bf38f405268fe2507f5667ffcb288c6011bfabf0f89fe6e83",
+  "implementation_lock_utc": "2026-10-16T01:24:45.609770+00:00",
+  "limits": [
+    "No key, plaintext, source language, probabilistic channel or word meaning identified.",
+    "b=0 is incompatible only with the future no-adjacent-source-spaces contract at retained exact triples; no exclusion of b!=0 or arbitrary messages.",
+    "RF windows have free incoming state, not independently marked paragraph resets."
+  ],
+  "method": "Independent complete-unit segmentation DP, sparse coefficient subtraction modulo27, explicit opaque-variable occurrence accounting and telescoping.",
+  "plan_sha256": "b1a6b9cbbb1993938eb7e87f24453a78ea8a240497c3e0450fba1912652c437c",
+  "retained_triple_records_checked": 18,
+  "status": "PASS_SOURCE_AND_SYMBOLIC_ACCOUNTING_ONLY",
+  "telescoping": [
+    {
+      "groups": 75,
+      "initial_kind": "RESET",
+      "remaining_state_coefficients_mod27": {
+        "w_ZL3b_1": 1,
+        "w_ZL3b_10": 1,
+        "w_ZL3b_16": 1,
+        "w_ZL3b_2": 1,
+        "w_ZL3b_5": 1,
+        "w_ZL3b_7": 1
+      },
+      "unit_id": "f75v_ZL3b"
+    },
+    {
+      "groups": 77,
+      "initial_kind": "RESET",
+      "remaining_state_coefficients_mod27": {
+        "w_IT2a_1": 1,
+        "w_IT2a_10": 1,
+        "w_IT2a_16": 1,
+        "w_IT2a_2": 1,
+        "w_IT2a_5": 1,
+        "w_IT2a_7": 1
+      },
+      "unit_id": "f75v_IT2a"
+    },
+    {
+      "groups": 73,
+      "initial_kind": "INCOMING",
+      "remaining_state_coefficients_mod27": {
+        "IN:f75v_RF1b": 26,
+        "u_f75v_RF1b_73": 1
+      },
+      "unit_id": "f75v_RF1b"
+    },
+    {
+      "groups": 120,
+      "initial_kind": "RESET",
+      "remaining_state_coefficients_mod27": {
+        "w_IT2a_1": 2,
+        "w_IT2a_10": 1,
+        "w_IT2a_9": 1
+      },
+      "unit_id": "f75r_IT2a"
+    },
+    {
+      "groups": 122,
+      "initial_kind": "RESET",
+      "remaining_state_coefficients_mod27": {
+        "u_f75r_ZL3b_122": 1
+      },
+      "unit_id": "f75r_ZL3b"
+    },
+    {
+      "groups": 121,
+      "initial_kind": "INCOMING",
+      "remaining_state_coefficients_mod27": {
+        "IN:f75r_RF1b": 26,
+        "w_RF1b_0": 1,
+        "w_RF1b_1": 1,
+        "w_RF1b_10": 1,
+        "w_RF1b_9": 1
+      },
+      "unit_id": "f75r_RF1b"
+    }
+  ]
+}

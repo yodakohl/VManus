@@ -4,12 +4,12 @@ Updated: 2026-10-16.
 ## Work
 Phase: exploration
 Status: active
-Task: passage synthesis
-Latest decision: 1388 bounded
-Working files: GDT1388
-Assumptions: 15 unresolved
-Resume: new reading proposal
-Running: none
+Task: cumulative passage
+Latest decision: 1064 unbound
+Working files: IDEA1064
+Assumptions: K/b unknown
+Resume: bind choice law
+Running: publication
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -77,4 +77,4 @@ No webapproach: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public993a4a9c3.
+Publicc75dbf285.

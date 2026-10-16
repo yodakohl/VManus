@@ -1,3 +1,30 @@
+## 2026-10-16 — IDEA1064 cumulative state equations cover both source passages
+
+The complete parameterizedwriter uses22fixed modularweights,oneglobalb,
+and a fixedweightedhomophonebank; it spells cumulativestate, notsourcechar.
+Reader c_i=h_i−h_(i−1)+b. Theprinciple isold237;1330'sdeterministicwholeform
+bounddoesnotapply tostochasticspelling.1388direct-characterresultsunchanged.
+
+Fullf75v43–49/f75r32–46 source retained:588alternate-readerpositions,
+551unique22parseoccurrences,37freshopaquestates,19knownzerodifferences.
+ITalone197positions/1opaque/7zero. Weightsandb sharedacrossbothunits perreader;
+RFwindows have2unknownincomingstates instead ofborrowedparagraphresets.
+Eachopaquestateaffectscurrentandnextsourcechar withoppositesign; noLFreset.
+Independent source/formula/telescoping validationPASS, notplaintextvalidation.
+
+IT/ZLf75r38 innerfourtransitions are b,b−E,b,b+E. Old857's18readertriple
+recordsrequirebb. ThusbSPACEfails ONLYwithaddednoadjacentsource-spaceand
+nointernalreset assumptions; arbitrary1064source permitsrepeatedspaces.
+No nativekey,bank,source language,lettervalue,wordmeaning orfrequencyfit.
+Directedwordforms remainpaidbankapparatus, notexplainedproduction.
+
+Stop unchangedprojection orautomaticdecoder/languagesearch. Next actual
+selection mustbind source/word-choice law or a differentfull-scopeconsequence;
+1300'soldwordgenerator and1308conditionalpredictor are notautomaticrepairs.
+Ten-hour request remainsoutstanding;thisisaboundedconstructioncheckpoint.
+Evidence: [account](research_registry/proposals/production_origin_supply_20261003/C1064_ACCOUNT_20261016.md);
+[review](research_registry/proposals/production_origin_supply_20261003/C1064_REVIEW_20261016.json).
+
 ## 2026-10-16 — GDT1388 complete paragraph support and analytic limits
 
 Allf75r32–46 groups retained:IT120/ZL122/RF121, with119/119/98unique22unit

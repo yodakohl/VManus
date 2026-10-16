@@ -1,0 +1,97 @@
+{
+  "title": "RAW: cumulative modulo27 states written by a fixed weighted homophone packet bank",
+  "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_FIT. A complete parameterized source-character writer combines IDEA237's differential reading direction with IDEA992's paid modular packet bank. Update s'=s+c-b modulo27, then choose a whole packet whose fixed glyph sum is s'. The reader takes successive packet-residue differences and adds the one global b. Every exact adjacent packet repeat therefore encodes that same source character b; AAA forces bb at its last two positions. No source language, native key, meanings, statistical fit or explained word-shape generation is claimed.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_NOT_SELECTED",
+  "design": {
+    "scope": "One explicitly framed complete source message over lowercase a-z and SPACE, one nonempty output packet per source character, one global alphabet-weight key, one global centering character b, fixed bank and fixed positive spelling weights. No resets inside a message.",
+    "mechanism": "State is the residue of the last emitted packet. Source character c selects the next residue by s'=s+c-b modulo27. The selected state is spelled by a conditionally independent weighted draw from its fixed bank class. Packet shapes and their frequencies are paid apparatus; no free raw-edit transition table is fitted.",
+    "unit": "A complete packet is a finite nonempty string over22 abstract drawings. Physical spaces or layout line breaks separate packets. Source SPACE is a character encoded by its own packet and is not a physical packet gap.",
+    "contrast": "IDEA992 spells each source character's residue directly. This writer spells a cumulative state and decodes differences. IDEA948/1217 instead outputs differences of consecutive decoded source units;995/1327 uses unique word-wheel positions, positive steps and repeat nulls;1301 uses source-word ranks. None is silently repaired or declared successful here.",
+    "prediction": "For every adjacent same packet W,W inside one uninterrupted message, the second packet decodes to global b. Any run of r identical packets forces b^(r-1), not necessarily b^r. Equal-residue but differently spelled packets have the same implication. No distinct-letter conclusion follows from different repeated packet types.",
+    "fixed_apparatus": {
+      "source_alphabet": "SPACE=0, a=1,...,z=26. The domain is all finite strings over these27characters, including the empty string and repeated SPACE. Uppercase, punctuation, tabs and source newlines are outside the domain; they are rejected, not silently stripped or normalized.",
+      "drawing_alphabet": "Exactly22 abstract drawing units. A native realization would require its own justified unit/group binding; EVA working units are not identified graphemes.",
+      "weights": "One fixed K=(k_g) over Z/27Z, one value per drawing. Values need not be distinct. h_K(w)=sum_g count_g(w)*k_g modulo27.",
+      "centering": "One b in Z/27Z is shared across the entire declared source scope. It is unknown for a future native hypothesis but never chosen per packet, repeated form, paragraph or page.",
+      "initial_state": "s0=0 is a public fixed convention at the beginning of every explicitly framed complete message. It is not estimated per message. The external finite-message boundary is part of the input contract; no native paragraph or physical line is automatically such a boundary.",
+      "bank": "A finite fixed set B of distinct nonempty22-unit strings, with one fixed positive weight q(w) for each member. Every residue must be covered: for each r there is w in B with h_K(w)=r. Bank and q are frozen independently before any key comparison; a candidate key lacking coverage is inadmissible. Gcd alone does not establish finite-bank coverage.",
+      "choice": "Z_K(r)=sum_{w in B:h_K(w)=r}q(w). At state r, draw w with probability q(w)/Z_K(r), with replacement. Repeated spellings are content-bearing packets, never nulls. Rational q permits an explicit weighted-ticket hand procedure; no randomness cost or bank table is claimed absent.",
+      "cost": "The full bank, all word spellings, all q weights,22 modular weights, b, the fixed initial-state convention and message framing are apparatus. Directed word formation, whole-word frequencies and historical usability are not explained by the modular accumulator."
+    },
+    "writer": [
+      "Reject a source character outside the fixed27-character domain. Begin the explicitly framed message with s=0.",
+      "For each source character c in order, set s=(s+c-b) mod27.",
+      "Draw one complete packet from B_s with the fixed normalized weights and write it.",
+      "Separate consecutive packets by physical gaps. Layout may wrap only between complete packets; a line break is not a state reset or source character.",
+      "Finish after the last source character. No END packet, padding, omitted source spaces or nulls are added. The empty source emits an empty packet stream."
+    ],
+    "reader": [
+      "Use the same explicitly framed message boundary, B, K and b. Start s=0.",
+      "For each complete packet w, reject it if it is not in B or contains an undeclared unit. Compute r=h_K(w).",
+      "Emit c=(r-s+b) mod27 under the fixed SPACE/a-z labeling, then replace s by r.",
+      "The writer used r=s_old+c-b, so this inverse returns c exactly at every step. Induction recovers the entire source string, including repeated spaces.",
+      "The random spelling choice need not be recovered or regenerated. Different positive-probability outputs may decode to the same exact source; each actual output has a unique source for the fixed apparatus.",
+      "For a clipped snippet with unknown incoming state, the first source character is unknown. All later complete adjacent transitions decode from their two packet residues. Do not silently initialize a clipped snippet or every physical line to zero."
+    ],
+    "likelihood": {
+      "condition": "Fix an independently normalized source law on length-N messages, or explicitly include a source length distribution. Condition on the same known finite-message framing and fixed apparatus. No native source law is supplied here.",
+      "formula": "For observed w1,...,wN, put s_i=h_K(w_i), s_0=0 and c_i=s_i-s_(i-1)+b mod27. P_{K,b}(w1:N)=P_source(c1:N)*product_i[q(w_i)/Z_K(s_i)]. Probability is0 for an unlisted packet or inadmissible apparatus.",
+      "normalization": "At each old state, c -> s+c-b is a bijection on27residues; each chosen state's spelling distribution sums to1. Summing all outputs conditional on any source string gives1, hence a normalized source law gives a normalized channel. The reader formula fixes the only source string compatible with a given output.",
+      "scope_warning": "The Z denominator is the emitted STATE class, not the newly decoded source-character class. A language-only score is still incomplete. The old1335 nuisance profile cannot be copied with source-character counts in place of state-class counts. No unknown-q profiling, native likelihood fit or recovery control is implemented here.",
+      "symmetry": "For fixed K/B/q and a uniform IID source law, changing b merely shifts all decoded character labels and leaves the likelihood unchanged. Thus an exact inverse does not identify b or a language. Other source-law symmetries may likewise preserve competing keys."
+    },
+    "source_free_consequences": [
+      "AA forces source b at the second position; AAA forces bb at the second and third. The first character depends on the preceding state or the explicit initial state.",
+      "The same global b applies to ALL exact repeat pairs, even when their packet words differ. Conversely a source b preserves state but may be spelled by a different homophone, so not every source b yields an identical visible pair.",
+      "For packets A,B,A, the two decoded inner characters are b+h(B)-h(A) and b+h(A)-h(B); their sum is2b mod27. A closed path of L state transitions has source-character sum L*b mod27.",
+      "An exact repeated packet block repeats its internal difference sequence. The first character of the first copy can depend on the external incoming state; do not claim an entire repeated source word without paying this boundary.",
+      "Changing one interior packet residue by t changes its decoded character by+t and the following decoded character by-t; all other characters are unchanged. This is an algebraic consequence, not a license to edit or correct a native packet.",
+      "Anagrams with identical22-unit multiplicities have equal h_K under every key. Replacing such a packet changes neither adjacent decoded character.1323's key-free anagram orbit argument and its actual capacity stop therefore remain relevant and unchanged.",
+      "The native packet count equals source CHARACTER count, not source word count. Physical packet gaps do not mark source word boundaries. Word-frequency invariants for one sourceword per outputword cannot be transferred without changing the contract."
+    ],
+    "old_witness_obligations": {
+      "triple_primary": "experiments/yolo/gdt857_cyclic_inventory_triple_bound/REPORT.md",
+      "already_published_shared_triples": [
+        "f104v.27 starting group3: sheol repeated three times",
+        "f40r.9 starting group6: okaiin repeated three times",
+        "f47r.7 starting group4: chol repeated three times",
+        "f86v3.3 starting group2: ytaiin repeated three times"
+      ],
+      "scope": "These are old report-bound alternative-reader witnesses, not a new count, new image review or independent replication. Under this new contract each uninterrupted triple would require the same source bb. It does not require four distinct doubled letters; b could be SPACE in the broad declared source domain.",
+      "return_path_primary": "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md",
+      "already_published_return_paths": "IT f102r1.10G006–008 has dol / doleodaiin / dol; ZL f102v2.23G002–004 has okey / shey / okey. These old ABA paths motivate only the stated2b relation. No new ABAB census or aligned plaintext claim is made.",
+      "continuity": "Repeat/return-path implications require no hidden source-message reset between the relevant packets. Definite physical seams do not independently establish that semantic framing. This raw forbids internal resets; a prospective native binding must state where its messages begin and end."
+    },
+    "predecessor_review": [
+      {"id": "IDEA000237", "primary": "research_registry/proposals/differential_reading_20260914/ASSESSMENT.md", "review": "Existing differential-state direction, not a new cipher principle. Registry assessment read; no free raw-edit decoder or language default adopted."},
+      {"id": "IDEA000992 / GDT1322", "primary": "experiments/yolo/gdt1322_modular_packet_choice_likelihood/REPORT.md", "review": "Paid modular homophone bank and normalized fixed-q likelihood retained. New source character is a difference of states, not the packet sum itself."},
+      {"id": "IDEA000948 / GDT1217", "primary": "experiments/yolo/gdt1217_circular_difference_source_screen/REPORT.md", "review": "Old writer outputs differences of consecutive decoded source units and preserves source-word gaps. Its fixed source/length failure is not repaired."},
+      {"id": "GDT1268", "primary": "experiments/yolo/gdt1268_previous_word_column_difference/REPORT.md", "review": "Registry-known previous decoded word-column difference, not this scalar cumulative packet state; fixed source failure retained. No output file reopened."},
+      {"id": "IDEA000987 / GDT1301", "primary": "experiments/yolo/gdt1301_wordbook_delta_triple_capacity/REPORT.md", "review": "Source-word-rank differences with an injective residue code, not source-character cumulative state plus homophonic packets. Its fixed source AAA failure remains."},
+      {"id": "IDEA000995 / GDT1327", "primary": "experiments/yolo/gdt1327_forward_word_wheel/REPORT.md", "review": "Unique whole-word positions, positive1..27steps and repeat nulls differ. The reciprocal bank-capacity exclusion remains under those premises."},
+      {"id": "GDT1330", "primary": "experiments/yolo/gdt1330_whole_word_successor_bound/REPORT.md", "review": "Its deterministic next-wholeword image bound does not apply to the explicitly paid stochastic spelling draws. This is a changed mechanism, not a repaired deterministic result."},
+      {"id": "GDT1238 / GDT1239", "primary": "experiments/yolo/gdt1238_written_feedback_run_bound/REPORT.md", "review": "Previous-written-glyph run obligations were already known. The old model concerns within-word unit outputs and a fixed source; here repetitions are whole packets in a source-character stream with one common unchanged-state character b."},
+      {"id": "GDT1323", "primary": "experiments/yolo/gdt1323_anagram_variant_neighbor_choice/REPORT.md", "review": "Same-multiset equivalence survives this cumulative construction; old endpoint-permutation capacity stop is not reopened."},
+      {"id": "GDT1335", "primary": "experiments/yolo/gdt1335_modular_unknown_emission_profile/REPORT.md", "review": "Fixed-bank nuisance and conditioning limitations remain; no automatic source-only score or unnormalized key search."}
+    ],
+    "novelty_limit": "Bounded route/card/duplicate and named-primary review did not locate this exact cumulative residue plus fixed weighted homophone-bank contract. It combines old differential and additive ideas and is not claimed historically or mathematically novel. Empty search metadata is not proof of absence.",
+    "selection_gate": "No experiment is selected. Before any native application, root must fix message/source scope, bank and its provenance, q, independent source law or finite vocabulary contract, and a bounded falsifier that can change a research decision. Native repeated-group obligations must be retained. No fresh source normalization, key-dependent bank, new nulls, hidden resets, arbitrary table enlargement or favorable source switch is automatic.",
+    "work_record": {
+      "started_utc": "2026-10-16 01:14:28 UTC",
+      "budget_minutes": 10,
+      "mode": "Prior-informed source-free mechanism review, with old native examples encountered only in named published primary reports. Not a blind proof claim.",
+      "access": "Current route, existing topic/card/duplicate/followup tools and named old reports. No new native cache, corpus/source counts, target solver, image, reserve, GDT1388 output, current1063 scaffold or metadata refresh.",
+      "status": "RAW_UNREVIEWED proposal only. No code, control experiment, actual bank/key, source language, translation or publication."
+    }
+  },
+  "relations": [
+    {"type": "derived_from", "target": "IDEA000237"},
+    {"type": "derived_from", "target": "IDEA000992"},
+    {"type": "distinct_from", "target": "IDEA000948"},
+    {"type": "distinct_from", "target": "IDEA000995"},
+    {"type": "related_to", "target": "GDT857"},
+    {"type": "related_to", "target": "GDT1323"},
+    {"type": "related_to", "target": "GDT1330"}
+  ]
+}
