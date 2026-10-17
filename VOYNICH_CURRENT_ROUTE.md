@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-10-17.
 ## Work
-Phase: fixed_test
-Status: active
+Phase: exploration
+Status: checkpoint
 Task: 1423
-Latest decision: qENDtest
+Latest decision: qENDfail
 Working files: gdt1423
 Assumptions: q-scope
-Resume: ends
-Running: root
+Resume: content
+Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.

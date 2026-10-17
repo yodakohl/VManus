@@ -1,5 +1,5 @@
-# GDT1423 — q scope paragraph closure
+# GDT1423 — q-case paragraph closure
 
-Status: `REGISTERED_UNSCORED`
+Status: `STRICT_GLOBAL_Q_SCOPE_CONTRADICTED`.
 
-See `METHOD.md` and `experiment.json`.
+See [REPORT.md](REPORT.md) for the exact global contract, all counterparagraphs, old local sketch, repeated-block phase correction and reproducibility. No word translation or general conditional-language exclusion.

@@ -113,6 +113,6 @@ def verify_result(result,blocks,rows):
     assert set(got)==set(expected) and len(blockids)==len(set(blockids))
     bad=sorted(ed for ed,v in expected_counts.items() if v['complete_q_end_blocks'])
     assert sorted(result['primary_falsified_editions'])==bad and result['translated_words']==0
-    assert 'status' in result and isinstance(result['status'],str)
+    assert result['status']==('STRICT_GLOBAL_Q_SCOPE_CONTRADICTED' if bad else 'NECESSARY_END_CAPACITY_ONLY')
 
 if __name__=='__main__':main()
