@@ -1,0 +1,57 @@
+{
+  "record_id": "GDT905",
+  "scope": "method",
+  "verdict": "inconclusive",
+  "reviewer": "root source/profile assessment; fresh blinded AI Latin reader",
+  "assessment_basis": "Retrospective linguistic plausibility review of the two unchanged dictionary-only outputs plus original905/later906 primary decisions; not a new experiment or proof of impossibility.",
+  "reason": "Both frozen strings contain legitimate forms and fragments; neither received a demonstrated full connected Latin reading. Keep905 original unresolved search status and906 later fixed-grammar exhaustive failure distinct. No word meanings adopted.",
+  "blockers": [
+    {
+      "code": "no_complete_connected_reading",
+      "detail": "Two local dictionary outputs, different keys, no complete syntax or global word-distribution account. Partial parse positives do not identify native meanings.",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/LATIN905_REPORT_20261017.json",
+        "research_registry/proposals/production_origin_supply_20261003/LATIN905_BLIND_READER_20261017.json",
+        "research_registry/proposals/production_origin_supply_20261003/LATIN905_WORD_PROFILES_20261017.json",
+        "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md",
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT906",
+      "evidence": [
+        "research_registry/proposals/production_origin_supply_20261003/LATIN905_REPORT_20261017.json",
+        "research_registry/proposals/production_origin_supply_20261003/LATIN905_BLIND_READER_20261017.json",
+        "research_registry/proposals/production_origin_supply_20261003/LATIN905_WORD_PROFILES_20261017.json",
+        "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md",
+        "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "conditional",
+    "all_of": [
+      {
+        "change": "new_data",
+        "detail": "A source-supported complete explicit syntactic account of an unchanged frozen string, then a separate native profile/key account before any meaning preference.",
+        "evidence": [
+          "research_registry/proposals/production_origin_supply_20261003/LATIN905_REPORT_20261017.json",
+          "research_registry/proposals/production_origin_supply_20261003/LATIN905_BLIND_READER_20261017.json",
+          "research_registry/proposals/production_origin_supply_20261003/LATIN905_WORD_PROFILES_20261017.json",
+          "experiments/yolo/gdt905_joint_cv_complete_passage_candidates/REPORT.md",
+          "experiments/yolo/gdt906_complete_cv_key_enumeration/REPORT.md"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "More isolated dictionary matches",
+      "Mixing the two keys",
+      "Changing letters or word boundaries",
+      "Calling a local guess provisional",
+      "Recasting the fixed906failure as a success"
+    ]
+  }
+}
