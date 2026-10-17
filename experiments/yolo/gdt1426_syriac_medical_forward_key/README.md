@@ -1,6 +1,6 @@
 # GDT1426 — one Syriac medical key on a whole paragraph
 
-Status: REGISTERED_UNSCORED.
+Status: DUAL_UNSAT_FIXED_SOURCE_CHANNEL. Both control engines pass; the fixed native reference graph fails even without a shared cross-word key. No Syriac-language exclusion or translated word. See REPORT.md.
 
 See METHOD.md, PREREGISTRATION.md and src/SPEC.json. The source is HUNAYNNET’s fixed Syriac Hippocratic Aphorisms edition, not an invented medical lexicon. Its strict edited subset is a reference wordgraph, not complete grammar or an identified source. Source XML and derived data retain the project CC BY-NC-SA4.0 license; see SOURCE_NOTICE.txt.
 

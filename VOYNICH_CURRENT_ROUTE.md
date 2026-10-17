@@ -3,11 +3,11 @@ Updated: 2026-10-17.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: EC4
-Latest decision: E/Copen
-Working files: ROLE*
-Assumptions: 2x2
-Resume: read ROLE_ENTITY_REPORT; select new binding
+Task: 1426
+Latest decision: G10FAIL
+Working files: gdt1426
+Assumptions: FWD
+Resume: lookup GDT1424; assess Syriac key
 Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -30,7 +30,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336:no access.
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF;1424C+/N?;1425capSTOP.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF;1424C+/N?;1425capSTOP;1426G10F.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicc7b4a65cf.
+Public7b24f45c3.
