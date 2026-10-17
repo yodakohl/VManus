@@ -1,14 +1,14 @@
 # Voynich current route
-Updated: 2026-10-16.
+Updated: 2026-10-17.
 
 ## Work
 Phase: exploration
 Status: active
 Task: synth
-Latest decision: 1416F
-Working files: GDT1416
+Latest decision: 1417F
+Working files: GDT1417
 Assumptions: unglossed
-Resume: lookup1416
+Resume: lookup1417
 Running: 10h
 
 ## Structural baseline
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public9adbf9895.
+Public5b7f5817a.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1415**
-- Experiment-associated tracked files: **27,703** (2.4 GiB)
-- Structured GDT337+ experiments: **1080**
+- Experiments indexed: **1416**
+- Experiment-associated tracked files: **27,722** (2.4 GiB)
+- Structured GDT337+ experiments: **1081**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1417 | gdt1417_unchanged_run_tail_core_capacity | `ALL_SIXTEEN_RUN_TAIL_ONLY_REPAIR_FAMILIES_EXCLUDED` | [report](../experiments/yolo/gdt1417_unchanged_run_tail_core_capacity/REPORT.md) | 19 | 83.8 KiB | 9 | STRUCTURED_YOLO |
 | GDT1416 | gdt1416_terminal_dy_shared_expansion_key | `ALL_SIXTEEN_LOCAL_TERMINAL_DY_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1416_terminal_dy_shared_expansion_key/REPORT.md) | 25 | 285.2 KiB | 8 | STRUCTURED_YOLO |
 | GDT1415 | gdt1415_balneis_differential_word_states | `FIXED_ALIM_DIFFERENTIAL_WORD_STATES_CONTRADICTED` | [report](../experiments/yolo/gdt1415_balneis_differential_word_states/REPORT.md) | 19 | 175.5 KiB | 8 | STRUCTURED_YOLO |
 | GDT1414 | gdt1414_local_homophonic_run_key | `ALL_SIXTEEN_LOCAL_HOMOPHONIC_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1414_local_homophonic_run_key/REPORT.md) | 19 | 99.5 KiB | 6 | STRUCTURED_YOLO |

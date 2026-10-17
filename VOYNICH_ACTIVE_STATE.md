@@ -29339,3 +29339,7 @@ All140unchangedALIMprojection/directioncaseshave0continuous77-letterwindows unde
 ## GDT1416 — terminal-dy rule and dy-only repairs stopped (2026-10-16)
 
 All16fixed8W/FWD+BIDIR77ITreadersfailwithoneglobalnonemptyword-enddyexpansion, arbitrarymany-to-oneordinarykey andunchangede/i inverse; independentStringSMTconfirms. ControlANY-keyreturns63/77originalwords,notplaintextrecovery. SeparatelyPOSTRESULT54non-dypositions/38forms alreadyUNSATwiththeother23positionsfree, certifiedbytwofrozen1414solversandindependentrawsubsetreconstruction. ThusnochangeONLYtody-endinggroupscanrepairthesefixedordinary-restcases. Original14LOCK/resultsretained; separate22-bindingdiagnosticLOCK. No generalabbreviation/ending/languageexclusionorwordmeaning;stopautomaticsecondmacro/null/prefix/sourcechain. [Report](experiments/yolo/gdt1416_terminal_dy_shared_expansion_key/REPORT.md).
+
+## GDT1417 — joint run/tail-only repair gate closed (2026-10-17)
+
+The46rawITpositions/32formswithnoee/iiandnotfinaldyalreadyfailall16fixed8W/modesunderordinarymany-to-one1codepointkey,withtheother31positionsfullyfree. Bothfrozen1414solversconfirm; independentrawDP/48positionpositivecontrol/4artifactbyteReplayPASS. Anychangeslimitedtofreedlong-runORdy-endgroupsinsufficient; no maximalrunreaderbuilt.1354singlei/npredecessorpairsand1339gaplessstreamnotcovered. No language/meaning/wholewriterclaim. Stopafterthisonegate, no smallercohort/newdictionary/decoderchain. [Report](experiments/yolo/gdt1417_unchanged_run_tail_core_capacity/REPORT.md).
