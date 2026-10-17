@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "original_words": [
+        "aa",
+        "bb"
+      ],
+      "groups": [
+        [
+          "a",
+          "o"
+        ],
+        [
+          "o",
+          "a"
+        ]
+      ],
+      "expected": "SAT",
+      "result": {
+        "status": "SAT",
+        "key": {
+          "": "a",
+          "": "o",
+          "": "o",
+          "": "a"
+        },
+        "source_words": [
+          "",
+          ""
+        ],
+        "directions": [
+          "FWD",
+          "FWD"
+        ],
+        "nodes": 3,
+        "checks": 10
+      }
+    },
+    {
+      "original_words": [
+        "aaa"
+      ],
+      "groups": [
+        [
+          "a",
+          "o",
+          "o"
+        ]
+      ],
+      "expected": "SAT",
+      "result": {
+        "status": "SAT",
+        "key": {
+          "": "a",
+          "": "o"
+        },
+        "source_words": [
+          ""
+        ],
+        "directions": [
+          "FWD"
+        ],
+        "nodes": 2,
+        "checks": 2
+      }
+    },
+    {
+      "original_words": [
+        "aaa"
+      ],
+      "groups": [
+        [
+          "a",
+          "o",
+          "e"
+        ]
+      ],
+      "expected": "UNSAT",
+      "result": {
+        "status": "UNSAT",
+        "reason": "EMPTY_WORD_ROW_TABLE",
+        "nodes": 0,
+        "checks": 1,
+        "units": [
+          "a",
+          "o",
+          "e"
+        ]
+      }
+    },
+    {
+      "original_words": [
+        "abc"
+      ],
+      "groups": [
+        [
+          "a",
+          "o",
+          "o"
+        ]
+      ],
+      "expected": "SAT",
+      "result": {
+        "status": "SAT",
+        "key": {
+          "": "a",
+          "": "o",
+          "": "o"
+        },
+        "source_words": [
+          ""
+        ],
+        "directions": [
+          "FWD"
+        ],
+        "nodes": 2,
+        "checks": 2
+      }
+    }
+  ],
+  "scope": "Four fixed initial/rest mechanism fixtures only, not native observations."
+}

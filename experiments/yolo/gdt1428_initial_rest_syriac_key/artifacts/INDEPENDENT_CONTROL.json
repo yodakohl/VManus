@@ -1,0 +1,249 @@
+{
+  "status": "SAT",
+  "result": {
+    "status": "SAT",
+    "key": {
+      "": "a",
+      "": "q",
+      "": "q",
+      "": "t",
+      "": "p",
+      "": "e",
+      "": "o",
+      "": "i",
+      "": "l",
+      "": "cth",
+      "": "a",
+      "": "i",
+      "": "k",
+      "": "ch",
+      "": "o",
+      "": "s",
+      "": "k",
+      "": "d",
+      "": "m",
+      "": "p",
+      "": "sh",
+      "": "o",
+      "": "a",
+      "": "ch",
+      "": "cth",
+      "": "f",
+      "": "s",
+      "": "sh",
+      "": "y",
+      "": "e",
+      "": "e",
+      "": "n",
+      "": "m",
+      "": "p",
+      "": "y",
+      "": "k",
+      "": "k",
+      "": "k",
+      "": "a",
+      "": "a",
+      "": "a",
+      "": "a",
+      "": "a",
+      "": "a",
+      "": "a"
+    },
+    "source_words": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "directions": [
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD",
+      "FWD"
+    ],
+    "nodes": 103,
+    "checks": 461111
+  },
+  "elapsed_seconds": 0.2515038379933685,
+  "input_sha256": "e89ca834b1c01d67fc62edaf5c073d197f8667df77730cf8bc9c72d39c2257b9",
+  "role_fixtures": {
+    "status": "PASS",
+    "cases": [
+      {
+        "original_words": [
+          "aa",
+          "bb"
+        ],
+        "groups": [
+          [
+            "a",
+            "o"
+          ],
+          [
+            "o",
+            "a"
+          ]
+        ],
+        "expected": "SAT",
+        "result": {
+          "status": "SAT",
+          "key": {
+            "": "a",
+            "": "o",
+            "": "o",
+            "": "a"
+          },
+          "source_words": [
+            "",
+            ""
+          ],
+          "directions": [
+            "FWD",
+            "FWD"
+          ],
+          "nodes": 3,
+          "checks": 10
+        }
+      },
+      {
+        "original_words": [
+          "aaa"
+        ],
+        "groups": [
+          [
+            "a",
+            "o",
+            "o"
+          ]
+        ],
+        "expected": "SAT",
+        "result": {
+          "status": "SAT",
+          "key": {
+            "": "a",
+            "": "o"
+          },
+          "source_words": [
+            ""
+          ],
+          "directions": [
+            "FWD"
+          ],
+          "nodes": 2,
+          "checks": 2
+        }
+      },
+      {
+        "original_words": [
+          "aaa"
+        ],
+        "groups": [
+          [
+            "a",
+            "o",
+            "e"
+          ]
+        ],
+        "expected": "UNSAT",
+        "result": {
+          "status": "UNSAT",
+          "reason": "EMPTY_WORD_ROW_TABLE",
+          "nodes": 0,
+          "checks": 1,
+          "units": [
+            "a",
+            "o",
+            "e"
+          ]
+        }
+      },
+      {
+        "original_words": [
+          "abc"
+        ],
+        "groups": [
+          [
+            "a",
+            "o",
+            "o"
+          ]
+        ],
+        "expected": "SAT",
+        "result": {
+          "status": "SAT",
+          "key": {
+            "": "a",
+            "": "o",
+            "": "o"
+          },
+          "source_words": [
+            ""
+          ],
+          "directions": [
+            "FWD"
+          ],
+          "nodes": 2,
+          "checks": 2
+        }
+      }
+    ],
+    "scope": "Four fixed initial/rest mechanism fixtures only, not native observations."
+  },
+  "actual_source_search_executed": true
+}

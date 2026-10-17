@@ -1,0 +1,41 @@
+{
+  "status": "PASS_INDEPENDENT_NO_EDGE_CERTIFICATE_ACCOUNTING",
+  "validator_sha256": "4e2d4e3265b499f3ecf151d4628f6e0b2a9d6621f0fb6c34d10e97d5087dc9cb",
+  "decision_sha256": "32d8cdc673b1ab89595698fba981bcb81e3116583c01755329c541b49a7ddc07",
+  "control_gate": {
+    "status": "PASS",
+    "reason": "BOTH_ANY_CERTIFICATES_VERIFIED",
+    "role_fixture_passes": [
+      true,
+      true
+    ],
+    "known_positive_result_invalid": false,
+    "primary_status": "SAT",
+    "independent_status": "SAT",
+    "control_groups": 32,
+    "control_input_sha256": "e89ca834b1c01d67fc62edaf5c073d197f8667df77730cf8bc9c72d39c2257b9",
+    "primary_sha256": "4c44913eab62f757d9fd8797b6aaf3838ae788dad50e8024f3d80df4dd9a63b7",
+    "independent_sha256": "5a6f1f51ff1dfdfff2c34987d8a192d90b36654a248d864acc6157d4525b2b76",
+    "lock_sha256": "db404eca91c139f281419a5cfbeb69fa3465172fb20bf45b165c9f787b8cdc32",
+    "validator_sha256": "4e2d4e3265b499f3ecf151d4628f6e0b2a9d6621f0fb6c34d10e97d5087dc9cb",
+    "scope": "ANY-key capacity only; planted recovery and uniqueness are not established by this gate."
+  },
+  "native_engine_statuses": {
+    "primary": "UNSAT",
+    "independent": "UNSAT"
+  },
+  "full_inverse_keys": [],
+  "checks": [
+    "Pinned unchanged source W and native59 reconstructed",
+    "Original first32 source calibration and jmod20 key/groups independently checked",
+    "Both control solver outputs checked separately; no planted truth passed to solver",
+    "Every returned SAT key checked on all original word occurrences in FWD only",
+    "Native UNSAT effective only with both exhaustive results; UNKNOWN not a rejection",
+    "Each nativeSAT gets all frozen-vocabulary preimages per group and all59sourcepositions"
+  ],
+  "limits": [
+    "No source adjacency edges used; initial/rest functions have overlapping outputs and are not an identified historical orthography.",
+    "Raw preimages are unassessed witnesses, not native word meanings; distinct returned keys are not merged.",
+    "Only pinned old1421 rowDFS imported; primaryBoolean compiler and currentrun.py not imported."
+  ]
+}
