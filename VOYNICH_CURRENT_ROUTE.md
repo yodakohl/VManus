@@ -3,17 +3,17 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1434
-Latest decision: view+
-Working files: 1434
-Assumptions: AI
-Resume: bind
+Task: 1117
+Latest decision: raw
+Working files: INV
+Assumptions: unit
+Resume: order law
 Running: none
 ## Structural baseline
 Hierarchical spaces;directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole+;1389bag+/order−;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
-852:gapdiff;1432:3dycompact/2dy?;1411:3pairs+/2?;meaning open.
+852:gapdiff;1432:3dycompact/2dy?;1411:3pairs+/2?;1434shape+;no meaning.
 Parser/alphabet?;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
@@ -40,11 +40,11 @@ f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clock
 1164 ranking failed;1160 supervised gain retained.
 GDT1152:f81r.5join+;no wordboundary/meaning;1151stillFAIL.
 W89paused;W93namingNO_CAPACITY.
-W96 f2v amount/grade parked;W97 fixed genealogyFAIL.
+W96f2vamount/gradepark;W97fixedgenealogyFAIL.
 913:18frozen IT2a lexiconsFAIL;888nonunique retained.
 GDT914/925/928 fixed edit/literal-parallel closed;composition open.
 GDT616FAIL;later diagnosticPASS does not rescue it.
-f9v:1064 Jacea/Viola;IDEA621 owner unbound.
+f9v1064Jacea/Viola;I621ownerunbound.
 I237 untested;30firstpasses;P09 closed.
 
 ## Access
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicc1b77b07b.
+Publicf01b2bf7b.
