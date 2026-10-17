@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1431**
-- Experiment-associated tracked files: **28,029** (2.4 GiB)
-- Structured GDT337+ experiments: **1096**
+- Experiments indexed: **1432**
+- Experiment-associated tracked files: **28,043** (2.4 GiB)
+- Structured GDT337+ experiments: **1097**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1433 | No-carry packed implementation of the fixed source bag-key question | `REGISTERED_UNSCORED` | — | 14 | 52.6 KiB | 7 | STRUCTURED_YOLO |
 | GDT1432 | GDT1432 | `LOCAL_INTERNAL_CLEARANCE_SUPPORT` | [report](../experiments/yolo/gdt1432_f14v_dy_seam_comparison/REPORT.md) | 23 | 2.4 MiB | 7 | STRUCTURED_YOLO |
 | GDT1431 | GDT1431 | `ACTUAL_CONTROL_PREPARATION_STOP_NO_NATIVE` | [report](../experiments/yolo/gdt1431_arbitrary_word_order_syriac_key/REPORT.md) | 20 | 66.3 KiB | 6 | STRUCTURED_YOLO |
 | GDT1430 | GDT1430 | `FIXED_GLOBAL_REVERSE_WORD_KEY_EXCLUDED` | [report](../experiments/yolo/gdt1430_global_reverse_syriac_key/REPORT.md) | 24 | 218.4 KiB | 6 | STRUCTURED_YOLO |
