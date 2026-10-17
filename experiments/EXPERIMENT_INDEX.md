@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1428**
-- Experiment-associated tracked files: **27,962** (2.4 GiB)
-- Structured GDT337+ experiments: **1093**
+- Experiments indexed: **1429**
+- Experiment-associated tracked files: **27,976** (2.4 GiB)
+- Structured GDT337+ experiments: **1094**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1430 | One globally reversed sourceword function on the complete IT59 paragraph | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1430_global_reverse_syriac_key/REPORT.md) | 14 | 194.7 KiB | 6 | STRUCTURED_YOLO |
 | GDT1429 | GDT1429 | `SINGLE_TWO_UNIT_TALLY_WORD_CHANNEL_EXCLUDED` | [report](../experiments/yolo/gdt1429_unary_tally_lexical_remainder/REPORT.md) | 20 | 195.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT1428 | GDT1428 | `FIXED_INITIAL_REST_SYRIAC_KEY_EXCLUDED` | [report](../experiments/yolo/gdt1428_initial_rest_syriac_key/REPORT.md) | 23 | 251.5 KiB | 7 | STRUCTURED_YOLO |
 | GDT1427 | GDT1427 | `FIXED_SYRIAC_WORD_KEY_EXCLUDED` | [report](../experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md) | 20 | 53.1 KiB | 6 | STRUCTURED_YOLO |
