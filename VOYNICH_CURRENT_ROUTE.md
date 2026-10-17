@@ -3,11 +3,11 @@ Updated: 2026-10-17.
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 905
-Latest decision: NOFULL
-Working files: *905*
-Assumptions: fixed
-Resume: bind
+Task: EC4
+Latest decision: E/Copen
+Working files: ROLE*
+Assumptions: 2x2
+Resume: read ROLE_ENTITY_REPORT; select new binding
 Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -28,7 +28,7 @@ Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
 1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
-GDT327/GDT336: no access.
+GDT327/GDT336:no access.
 ## Decisions
 R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF;1424C+/N?;1425capSTOP.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
@@ -39,8 +39,8 @@ f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clock
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
 GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
-W89 paused; W93 naming: NO_CAPACITY.
-W96 local f2v amount/grade branch parked; W97 fixed genealogy model contradicted.
+W89paused;W93namingNO_CAPACITY.
+W96 f2v amount/grade parked;W97 fixed genealogyFAIL.
 913:18frozen IT2a lexiconsFAIL;888nonunique retained.
 GDT914/925/928 fixed edit/literal-parallel closed;composition open.
 GDT616FAIL;later diagnosticPASS does not rescue it.
@@ -51,7 +51,7 @@ IDEA237 untested;30 programs first-passed;P09 closed.
 f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v unadmitted;reserves need near-complete reading.
 Exposure≠confirmation.
-179cached selectors;grants separate;F historical;f1r margins only;
+179selectors;grants separate;F historical;f1r margins only;
 f106v fixed image paragraph;register access. [3glyph](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57scopes](docs/57v-signs.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicfad554284.
+Publicc7b4a65cf.
