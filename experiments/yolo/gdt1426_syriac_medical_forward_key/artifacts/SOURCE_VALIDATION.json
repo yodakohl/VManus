@@ -1,0 +1,163 @@
+{
+  "status": "PASS_INDEPENDENT_DOM_SOURCE_REPLAY",
+  "source_sha256": "a311a9d4ddd257ec22dc7e2fd3ce20f15001aea10a89bb4b970be65298fd8c74",
+  "projection_sha256": "718c066c834d8a35e3b3e524891dee6533bf7f10c8392433e4d70d64cd93caa6",
+  "source_builder_sha256": "8f5f095c711f6d65f43951c77df6fa2e0809b2d3336eb9922251daf866c369aa",
+  "source_validator_sha256": "c952922ef20a85a91a7b46d8d86a442a26a1b66a0949a41d405ab4b0554bf359",
+  "unicode_database_version": "15.0.0",
+  "counts": {
+    "direct_body_children": 834,
+    "direct_body_paragraphs": 827,
+    "accepted_records": 346,
+    "excluded_records": 488,
+    "tokens": 5768,
+    "unique_words": 2133,
+    "alphabet": 23,
+    "unique_edges": 4764
+  },
+  "alphabet_codepoints": [
+    {
+      "character": "ܐ",
+      "codepoint": "U+0710",
+      "name": "SYRIAC LETTER ALAPH"
+    },
+    {
+      "character": "ܒ",
+      "codepoint": "U+0712",
+      "name": "SYRIAC LETTER BETH"
+    },
+    {
+      "character": "ܓ",
+      "codepoint": "U+0713",
+      "name": "SYRIAC LETTER GAMAL"
+    },
+    {
+      "character": "ܕ",
+      "codepoint": "U+0715",
+      "name": "SYRIAC LETTER DALATH"
+    },
+    {
+      "character": "ܖ",
+      "codepoint": "U+0716",
+      "name": "SYRIAC LETTER DOTLESS DALATH RISH"
+    },
+    {
+      "character": "ܗ",
+      "codepoint": "U+0717",
+      "name": "SYRIAC LETTER HE"
+    },
+    {
+      "character": "ܘ",
+      "codepoint": "U+0718",
+      "name": "SYRIAC LETTER WAW"
+    },
+    {
+      "character": "ܙ",
+      "codepoint": "U+0719",
+      "name": "SYRIAC LETTER ZAIN"
+    },
+    {
+      "character": "ܚ",
+      "codepoint": "U+071A",
+      "name": "SYRIAC LETTER HETH"
+    },
+    {
+      "character": "ܛ",
+      "codepoint": "U+071B",
+      "name": "SYRIAC LETTER TETH"
+    },
+    {
+      "character": "ܝ",
+      "codepoint": "U+071D",
+      "name": "SYRIAC LETTER YUDH"
+    },
+    {
+      "character": "ܟ",
+      "codepoint": "U+071F",
+      "name": "SYRIAC LETTER KAPH"
+    },
+    {
+      "character": "ܠ",
+      "codepoint": "U+0720",
+      "name": "SYRIAC LETTER LAMADH"
+    },
+    {
+      "character": "ܡ",
+      "codepoint": "U+0721",
+      "name": "SYRIAC LETTER MIM"
+    },
+    {
+      "character": "ܢ",
+      "codepoint": "U+0722",
+      "name": "SYRIAC LETTER NUN"
+    },
+    {
+      "character": "ܣ",
+      "codepoint": "U+0723",
+      "name": "SYRIAC LETTER SEMKATH"
+    },
+    {
+      "character": "ܥ",
+      "codepoint": "U+0725",
+      "name": "SYRIAC LETTER E"
+    },
+    {
+      "character": "ܦ",
+      "codepoint": "U+0726",
+      "name": "SYRIAC LETTER PE"
+    },
+    {
+      "character": "ܨ",
+      "codepoint": "U+0728",
+      "name": "SYRIAC LETTER SADHE"
+    },
+    {
+      "character": "ܩ",
+      "codepoint": "U+0729",
+      "name": "SYRIAC LETTER QAPH"
+    },
+    {
+      "character": "ܪ",
+      "codepoint": "U+072A",
+      "name": "SYRIAC LETTER RISH"
+    },
+    {
+      "character": "ܫ",
+      "codepoint": "U+072B",
+      "name": "SYRIAC LETTER SHIN"
+    },
+    {
+      "character": "ܬ",
+      "codepoint": "U+072C",
+      "name": "SYRIAC LETTER TAW"
+    }
+  ],
+  "dotless_retained": true,
+  "control_source_metadata": {
+    "first_eligible_body_child_index": 4,
+    "record_tokens": 32,
+    "window_tokens": 32,
+    "active_collision_pairs": [
+      [
+        "ܐ",
+        "ܪ"
+      ],
+      [
+        "ܒ",
+        "ܫ"
+      ]
+    ],
+    "source_metadata_only_no_search": true
+  },
+  "checks": [
+    "All accepted and rejected records exactly reconstructed by independent DOM traversal",
+    "Every derived base text, normalized text, word, child index and section/element attribute verified",
+    "All unique word/alphabet sets and within-record edges rebuilt; rejected records contribute no edges",
+    "Nested omission/tails, Syriac runs, mark/format removal and dotless-letter fixtures passed"
+  ],
+  "limits": [
+    "Source integrity only; no native or calibration search, no linguistic meanings.",
+    "Bare edited strict subset and lost vocalization/editorial distinctions remain; not diplomatic or phonetic restoration.",
+    "A codepoint inventory is not an identified historical sound inventory; U+0716 deliberately unresolved."
+  ]
+}
