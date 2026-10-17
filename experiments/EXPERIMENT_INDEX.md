@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1428**
-- Experiment-associated tracked files: **27,953** (2.4 GiB)
+- Experiment-associated tracked files: **27,962** (2.4 GiB)
 - Structured GDT337+ experiments: **1093**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1429 | One unknown whole-field two-unit tally beside the fixed Syriac word channel | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1429_unary_tally_lexical_remainder/REPORT.md) | 11 | 53.7 KiB | 5 | STRUCTURED_YOLO |
+| GDT1429 | GDT1429 | `SINGLE_TWO_UNIT_TALLY_WORD_CHANNEL_EXCLUDED` | [report](../experiments/yolo/gdt1429_unary_tally_lexical_remainder/REPORT.md) | 20 | 195.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT1428 | GDT1428 | `FIXED_INITIAL_REST_SYRIAC_KEY_EXCLUDED` | [report](../experiments/yolo/gdt1428_initial_rest_syriac_key/REPORT.md) | 23 | 251.5 KiB | 7 | STRUCTURED_YOLO |
 | GDT1427 | GDT1427 | `FIXED_SYRIAC_WORD_KEY_EXCLUDED` | [report](../experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md) | 20 | 53.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT1426 | GDT1426 | `FIXED_SYRIAC_REFERENCE_GRAPH_EXCLUDED` | [report](../experiments/yolo/gdt1426_syriac_medical_forward_key/REPORT.md) | 30 | 1.2 MiB | 5 | STRUCTURED_YOLO |
