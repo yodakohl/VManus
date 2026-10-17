@@ -5,10 +5,10 @@ Updated: 2026-10-17.
 Phase: exploration
 Status: active
 Task: synth
-Latest decision: 1417F
-Working files: SIMPLE_FAMILY_REVIEW_20261017.json
+Latest decision: 1417F;1100raw
+Working files: DY_TALLY_REVIEW_20261017.json
 Assumptions: unglossed
-Resume: read working file
+Resume: read review
 Running: 10h
 
 ## Structural baseline
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicec4c9c74a.
+Publicfb0ba7a82.
