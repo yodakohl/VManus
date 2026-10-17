@@ -3,17 +3,17 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1432
-Latest decision: gap+
-Working files: 1432
-Assumptions: gaps
-Resume: GDT1432
+Task: 955
+Latest decision: SGPL
+Working files: 955
+Assumptions: tail
+Resume: selection
 Running: none
 ## Structural baseline
-Hierarchical spaces; directed parts;
+Hierarchical spaces;directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole+;1389bag+/order−;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
-852:gapdiff;1411:3pairs+/2?;meaning open.
+852:gapdiff;1432:3dycompact/2dy?;1411:3pairs+/2?;meaning open.
 Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
@@ -38,7 +38,7 @@ R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8W
 f25v source incomplete;G0 partial;G2 coverage cannot select;1170 closed;998clockSTOP.
 1166 pipeline failed;reference ceiling45%.1165 invalid;no repairs.
 1164 ranking failed;1160 supervised gain retained.
-GDT1152 supports local f81r.5 join;no word boundary/meaning;1151 stays failed.
+GDT1152:f81r.5join+;no wordboundary/meaning;1151stillFAIL.
 W89paused;W93namingNO_CAPACITY.
 W96 f2v amount/grade parked;W97 fixed genealogyFAIL.
 913:18frozen IT2a lexiconsFAIL;888nonunique retained.
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public8ef820371.
+Publice7b022321.
