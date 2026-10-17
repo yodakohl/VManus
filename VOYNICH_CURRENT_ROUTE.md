@@ -4,12 +4,12 @@ Updated: 2026-10-17.
 ## Work
 Phase: exploration
 Status: active
-Task: synth
-Latest decision: 1417F;R1S?
-Working files: F45R_SIGNED_NOTE_20261017.json
-Assumptions: unglossed
+Task: raw12
+Latest decision: 1417F;12raw
+Working files: TWELVE_CELL_EXISTING_PROFILES_20261017.json
+Assumptions: raw
 Resume: await f14v
-Running: pending
+Running: none
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public4eea3efcb.
+Public756c065f6.

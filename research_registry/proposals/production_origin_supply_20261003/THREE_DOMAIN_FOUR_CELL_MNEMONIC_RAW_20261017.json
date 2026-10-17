@@ -1,0 +1,112 @@
+{
+  "title": "RAW UNASSESSED: a twelve-cell mnemonic with three content domains and two binary coordinates",
+  "summary": "Root-supplied exploratory option: a finite mnemonic writes one of three domains and one of four two-coordinate cells as (empty/o/qo)+(k/t)+(ain/aiin). A possible SOURCE labeling is constitution/humour/element crossed with two qualities. The writer and reader below are complete only for sequences of these twelve abstract category mentions. No medical label, root meaning, phonetic value or historical ontology is selected for the manuscript.",
+  "scope": "method",
+  "status": "RAW_UNASSESSED_FINITE_SOURCE_CODE_COMPLETE_NO_NATIVE_SEMANTIC_SELECTION",
+  "design": {
+    "source_domain": "An ordered finite sequence of triples (d,u,v), where d is exactly one of three distinct domain types D0,D1,D2 and u,v are independently binary coordinates 0 or1. A triple denotes a category, not a particular person, batch, amount, event or assertion. Sequence order and repeated mentions are retained. The empty sequence is allowed. No additional category, name or prose clause belongs to this source namespace.",
+    "fixed_abstract_code": {
+      "domain": {"D0": "", "D1": "o", "D2": "qo"},
+      "coordinate_u": {"0": "k", "1": "t"},
+      "coordinate_v": {"0": "ain", "1": "aiin"}
+    },
+    "writer": "For each source triple concatenate its domain prefix, u block and v block, in that fixed order. Put exactly one visible space between complete output groups. The empty source writes the empty string. A physical line may wrap between complete groups; line wrapping carries no domain change, additional meaning or reset. Do not insert gaps inside a group. There is no free spelling choice, literal escape, exceptional whole-word entry or change of coordinates at a later occurrence.",
+    "reader": "Read each complete group against the twelve exact entries in the manual table. Recover its unique d,u,v triple and preserve its occurrence and order. Equivalently identify the initial qo, initial o or empty prefix, then exactly k/t and exactly ain/aiin. The component boundaries are unambiguous in this finite language. Reject every other group, uncertain segmentation or internal gap. Re-encoding must reproduce the same group sequence. This rejection is a rule of the teaching namespace, not an assertion that other manuscript words are errors.",
+    "inverse_scope": "All twelve combinations are distinct nonempty strings, so the restricted source sequence is exactly recoverable. The identity of the abstract category is paid by the shared three-domain/two-coordinate apparatus. The code does not infer what those categories mean in nature or recover original natural-language wording.",
+    "manual_table": [
+      {"row": "kain", "coordinates": [0,0], "bare_D0": "kain", "o_D1": "okain", "qo_D2": "qokain"},
+      {"row": "kaiin", "coordinates": [0,1], "bare_D0": "kaiin", "o_D1": "okaiin", "qo_D2": "qokaiin"},
+      {"row": "tain", "coordinates": [1,0], "bare_D0": "tain", "o_D1": "otain", "qo_D2": "qotain"},
+      {"row": "taiin", "coordinates": [1,1], "bare_D0": "taiin", "o_D1": "otaiin", "qo_D2": "qotaiin"}
+    ],
+    "manual_table_markdown": "| Unassigned row | bare / D0 | o / D1 | qo / D2 |\n|---|---|---|---|\n| kain | kain | okain | qokain |\n| kaiin | kaiin | okaiin | qokaiin |\n| tain | tain | otain | qotain |\n| taiin | taiin | otaiin | qotaiin |",
+    "source_example": {
+      "input": [["D0",0,0],["D1",0,0],["D2",0,0],["D2",1,1],["D1",0,0]],
+      "output": "kain okain qokain qotaiin okain",
+      "reading": "The first three mentions share both coordinates but have different domain types. The final mention repeats the same abstract category as the second; it does not establish either a new physical batch or identity of two physical instances."
+    },
+    "possible_medical_source_labeling_NOT_NATIVE_ASSIGNMENTS": {
+      "status": "One unassessed labeling of an invented source mnemonic, not a recovered Voynich table and not a demonstrated complete medieval doctrine.",
+      "domains": {"D0": "constitution category", "D1": "humour kind", "D2": "element kind"},
+      "coordinate_u": {"0": "moist", "1": "dry"},
+      "coordinate_v": {"0": "cold", "1": "hot"},
+      "source_cell_labels": [
+        {"coordinates": [0,0], "constitution": "cold-and-moist constitution category", "humour": "phlegm", "element": "water"},
+        {"coordinates": [0,1], "constitution": "hot-and-moist constitution category", "humour": "blood", "element": "air"},
+        {"coordinates": [1,0], "constitution": "cold-and-dry constitution category", "humour": "black bile", "element": "earth"},
+        {"coordinates": [1,1], "constitution": "hot-and-dry constitution category", "humour": "choler", "element": "fire"}
+      ],
+      "not_adopted": "The association above is a root-supplied possible source interpretation. It does not adopt k/t as moisture signs, ain/aiin as temperature signs, or any whole form as a medical word. Old HOT, WATER, AIR and other historical working values are not evidence for this new binding."
+    },
+    "label_symmetry": {
+      "family": "Restrict attention to labelings that keep three named domains and two independent binary named qualities: permute the three domain names, optionally exchange the two quality axes, and independently reverse each quality's polarity.",
+      "count": "3! times2 times2 times2 =48 labelings within precisely this mapping family.",
+      "consequence": "The twelve-entry spelling table alone chooses none of these48 labelings. This is elementary nonidentification of the proposed code, not a new manuscript measurement. It is not a count of all conceivable semantic mappings or the entire Voynich search space. The observed unequal form frequencies do not select medical labels without an independently supplied semantic or frequency constraint."
+    },
+    "actual_content_distinction_if_later_bound": [
+      "Changing only the domain prefix preserves both coordinates but changes the category's sort. A constitution category, a humour kind and an element kind are not synonymous and are not three physical states of one object.",
+      "A later written use would have to distinguish those sorts. Merely saying that two mentions share the same qualities cannot establish which domain each belongs to. A typed consumer, such as a source relation with a constitution argument and a separately typed humour argument, would need its own actual written binding; this packet does not invent one.",
+      "A cross-domain association is not physical production, causation or conversion of humour into element. Repeated category mentions also do not imply repeated operations, doses or counted people."
+    ],
+    "paid_apparatus_and_limits": [
+      "Learn three domain prefixes, two choices on each axis, fixed component order and complete-group boundaries. As a teaching spelling this uses seven labels a,i,k,n,o,q,t drawn from the22-working-label inventory. It adds no hidden sign, but the native atomicity, drawing equivalence and intended word boundaries are still assumptions.",
+      "This finite code is a complete mnemonic for twelve category mentions only. It supplies no verbs, grammatical relations, referent introduction, quantities, tense, unrestricted names, prose syntax or complete passage reading.",
+      "Balanced, mixed, half-strength, graded or otherwise intermediate temperaments are outside this deliberately restricted source. No claim is made that four corners exhaust a historical medical ontology.",
+      "Other manuscript forms, including pokain and longer extensions, and standalone o/qo or repeated q-prefix patterns are not explained. The code does not strip o or q universally from native words and does not infer a pokain/okain alias from1074's different five-base panel.",
+      "The source table neither proves that the visibly similar wholes share a referent nor establishes actual morpheme boundaries. No language or phonetic value is selected."
+    ],
+    "profile_receipt": {
+      "path": "research_registry/proposals/production_origin_supply_20261003/TWELVE_CELL_EXISTING_PROFILES_20261017.json",
+      "provenance": "Root-created receipt from already retrieved guarded words-profile results, preserving full per-reader section, hand, Currier, position, repetition and example information. This producer did not requery or recount the manuscript. The pointer and following facts were supplied by root; they are provenance and obligations, not a semantic-fit score.",
+      "form_order": ["kain","kaiin","tain","taiin","okain","okaiin","otain","otaiin","qokain","qokaiin","qotain","qotaiin"],
+      "IT_occurrences": [48,61,16,42,137,198,95,137,274,257,64,79],
+      "ZL_occurrences": [42,74,9,45,132,200,95,137,271,261,60,79],
+      "RF_occurrences": [38,56,11,43,118,187,93,134,266,251,62,83],
+      "IT_inventory_only_table": [
+        {"row": "kain", "bare": 48, "o": 137, "qo": 274},
+        {"row": "kaiin", "bare": 61, "o": 198, "qo": 257},
+        {"row": "tain", "bare": 16, "o": 95, "qo": 64},
+        {"row": "taiin", "bare": 42, "o": 137, "qo": 79}
+      ],
+      "specific_counter_obligations_from_root": [
+        "IT taiin is line-initial at12of42 occurrences, compared with kain0of48 and kaiin1of61. Equal membership in a formal row family does not erase position differences.",
+        "IT okaiin has six adjacent exact doublets. A later interpretation must retain and explain repeated mentions rather than silently deduplicate them.",
+        "Root reports no label occurrences for the qo forms, versus two IT labels for okain and three for okaiin. This does not identify an element/constitution/humour distinction.",
+        "The three transcriptions are alternate readings of one manuscript, not three independent confirmations. Standalone whole forms are not pooled with identical strings embedded in longer groups."
+      ]
+    },
+    "bounded_prior_review": {
+      "GDT622": "Its named primary describes the actual Clm667 drug-name plus c/f and s/h property-code construction with optional degrees. This attests a different source mechanism, not the three-domain table or the current native labels.",
+      "GDT623": "Its old exploratory direction assigns k/t to temperature and ch/sh to moisture, explicitly retaining thermal reversal as a serious rival. Those are not confirmed values. The present illustrative k/t-moisture and ain/aiin-temperature labeling is a different hypothesis, not an inherited success.",
+      "GDT624": "The closest formal predecessor has bare/o/qo plus k/t plus ch/sh plus optional e/d plus y:48 observed cells and a working-quality reader. Its three wrappers surround one quality core; it does not implement constitution/humour/element on the current twelve ain/aiin forms. Actual old surface support remains, but its semantic defaults are not exported.",
+      "GDT692": "The inspected sister-lattice primary composes O/Q with AR/AIR/AIIR, thermal and amount/selector hypotheses. Literal replay is not historical fraction semantics and is not the current three-domain/four-cell design.",
+      "GDT1162": "WATER/AIR versus vessel/anatomical source-domain priority remains NO_ROBUST_SOURCE_PRIORITY. No target occurrence was tested there; qokain/qokaiin global noun assignments remain hypotheses and are not seeds for this table.",
+      "IDEA001092": "Its plain/l/qo prefix-role drafts preserve complete77-group form structure but leave inter-term content, native root identity and roles unselected. The exact PREFIX_ROLE_PASSAGE_REVIEW_20261016.json says neither construction is selected. The current finite domain/coordinate code is not another claim that arbitrary prefix application reads the passage.",
+      "novelty_limit": "Bounded route, card, duplicate and exact primary checks found those close predecessors, but no executed/rejected instance of this exact three-domain/ain-aiin four-cell source contract. This is not a registry-wide absence proof or a claim that four-quality mnemonics are new."
+    },
+    "primary_paths_reviewed": [
+      "experiments/yolo/gdt622_clm667_temperament_codebook/REPORT.md",
+      "experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md",
+      "experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md",
+      "experiments/yolo/gdt692_o_q_fraction_sister_compositor/REPORT.md",
+      "experiments/yolo/gdt1162_nominal_source_domain_prior/REPORT.md",
+      "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/PREFIX_ROLE_PASSAGE_REVIEW_20261016.json"
+    ],
+    "claim_ceiling": "RAW_UNASSESSED. A complete restricted source mnemonic and a possible domain-label hypothesis are retained. There is no selected native meaning, statistical fit, complete prose writer, historical identification, decoder or experiment."
+  },
+  "relations": [
+    {"type": "related_to", "target": "GDT622"},
+    {"type": "related_to", "target": "GDT623"},
+    {"type": "related_to", "target": "GDT624"},
+    {"type": "related_to", "target": "GDT692"},
+    {"type": "related_to", "target": "GDT1162"},
+    {"type": "related_to", "target": "IDEA001092"}
+  ],
+  "work_record": {
+    "first_tool_utc": "2026-10-17T01:25:06Z",
+    "origin": "Explicit root request to retain exactly one unassessed3x4 source option after the preceding bounded primary review.",
+    "exposure": "Native-informed formal hunch and existing profile counts/caveats supplied by root. No new native query, profile calculation, source acquisition, image, experiment or decoder was performed. Selected old source/claim sections were read; their historical English defaults remain unadopted.",
+    "ownership": "Only this new RAW file and its ideas-add record. No route, ledger, other proposal, review, experiment, refresh or publication edits.",
+    "status": "Unassessed; root review pending."
+  }
+}
