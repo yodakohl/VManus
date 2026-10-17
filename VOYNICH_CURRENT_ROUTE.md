@@ -3,11 +3,11 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1114
-Latest decision: CB
-Working files: G14C
-Assumptions: excl
-Resume: IDEA001114
+Task: 1108
+Latest decision: parked
+Working files: SOURCE
+Assumptions: unbound
+Resume: selection
 Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -27,7 +27,7 @@ No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
 Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
+1076followerSTOP;1099reprise1;Confirmed lexemes: **0**
 GDT327/GDT336:no access.
 ## Decisions
 R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF;1424C+/N?;1425capSTOP;1426G10F;1427keyF;1428IRF;1429NF;1430RF;1431CS;I1114CB.
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public7c0a42ea3.
+Public09759d178.
