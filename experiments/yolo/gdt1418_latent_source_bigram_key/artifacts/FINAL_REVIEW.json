@@ -1,0 +1,38 @@
+{
+  "experiment_id": "GDT1418",
+  "status": "PASS_BOUNDED_LOGIC_ACCOUNTING_AND_SCOPE_REVIEW",
+  "access": "Static review of both complete engines, frozen protocol and emitted gate/native results; hash checks and direct comparison of saved control certificates. No engine rerun, new native extraction, image view or broad source traversal. Source-record contiguity is checked through the separately supplied receipt.",
+  "pins": {
+    "METHOD.md": "af999c8347bd2d7c6780858038e94eec660f7ad6243a720829623f6fed1f714c",
+    "src/SPEC.json": "8e6f1cce5cd41d7474a415b13663971f0702398ba1b4e81e0a1e3ae33f48b427",
+    "LOCK.json": "7618a073a1cce0b9cc9e55d6fa069bf0907d48e14e379e465ee1bbea33b7596c",
+    "src/run.py": "2c3d2cabc962fe6aa2755b652dabbe0ee785542b83293d7e588e51f82bac54f8",
+    "src/validate.py": "3cdf3c2ce17e864c2bb970b0ddf0d11510e20c15361b4b7c1c9e2df00167d194",
+    "artifacts/CONTROL.json": "15e599af5e1cfe3c03f72a2f57375a0ab789071d23cd32592c16580e1c89e2f9",
+    "artifacts/INDEPENDENT_CONTROL.json": "58dbcb081f49c0e5bb0297fe535f63f4acf8d6eeb0aec6ba545782b147a211c8",
+    "artifacts/GATE_VALIDATION.json": "138aacb5df3e8c5da3b708bd88c353a2633b858f1c193d856ba89ddd2b4375c6",
+    "artifacts/RESULT.json": "56ab4a506899be990f763c645bcf2a25313ec43ba198bd5c8f2db30ac7d7d053",
+    "artifacts/INDEPENDENT_RESULT.json": "192db0418052ae2785074ea1b49a29b38a8ddcf70a9ca7a7ef8820e4fa329449",
+    "artifacts/VALIDATION.json": "9aa65f158ba9e74b4f83be6d465671f4380b5eaa1c73dc1017c58f08c48714f8",
+    "artifacts/SOURCE_RECORD_CONTIGUITY.json": "98645f8b63e3ed6ab7d37d15a4ef5012a55c3b5bed489178190203e279296c82"
+  },
+  "checks": [
+    "All14 scientific lock pins match current bytes.",
+    "Primary DFS state includes stream position, previous complete source word and entire partial injective key. Past chosen words add no further future constraint. Failure memoization occurs only after exhaustive candidate exploration; cap exceptions yield UNKNOWN.",
+    "Source words are nonempty. Each primary edge strictly advances stream position. Candidates are every word initially and every attested directed successor thereafter.",
+    "Character-trie verification explores both ending the current word and extending it. Previous word, trie node, stream position and complete partial key determine remaining possibilities; used characters are determined by that key. No first-terminal-only truncation occurs.",
+    "Both engines enforce fixed one-codepoint injective assignments and allow unused working units distinct extensions from the full source alphabet. Alphabet cardinality is a necessary condition, not a phonetic assertion.",
+    "Native direction reverses the full341-unit raw stream only. Original77group provenance remains, but gaps do not constrain source boundaries. No run collapse, tail repair or input deletion.",
+    "Both independent searches exhaust all16declared cases as UNSAT. No timeout or search cap is reclassified.",
+    "Original1290 sentence-index grouping differs syntactically between implementations; the supplied SOURCE_RECORD_CONTIGUITY receipt confirms unique contiguous IDs in all three actual PRIMARY inputs, so dictionary grouping and groupby agree. No cross-record transitions are introduced.",
+    "The new control comprises32consecutive words, unlike the old1408sorted vocabulary control. Both saved returned word sequences equal the planted sequence and all active key values agree. ANY valid certificate was the preregistered gate; this equality is descriptive, not evidence of general exact recovery."
+  ],
+  "scope": [
+    "UNSAT excludes precisely the eight fixed projected source-word graphs, stipulated22working units, one global injective one-codepoint key, full retained stream and the two declared orientations.",
+    "No general historical-language, cipher, semantic, entropy or morphology exclusion. A word graph is not a complete grammar; its paths may combine edges from different contexts.",
+    "Visible-spacing production remains unexplained; no native word meaning, source identification or true alphabet is recovered.",
+    "Original1408UNKNOWN on its sorted32control and its later alternative-message POSTSTOP certificate remain unchanged. This new contiguous-control/bigram-language contract does not retroactively pass either old gate.",
+    "This is a bounded static and saved-artifact review, not another independent exhaustive run or a formal proof-kernel certificate. Fresh replay is separately reported by root."
+  ],
+  "necessary_corrections": []
+}

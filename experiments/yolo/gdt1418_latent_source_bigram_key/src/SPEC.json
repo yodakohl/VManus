@@ -1,0 +1,75 @@
+{
+  "recipe_path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+  "deot_path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+  "other_path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+  "source_names": [
+    "b4",
+    "w1",
+    "bs1",
+    "gr1",
+    "deot",
+    "OLD_ITALIAN_UD_CONTROL",
+    "LATIN_PROIEL_CONTROL",
+    "ANCIENT_GREEK_PROIEL_CONTROL"
+  ],
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "worksheet_path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/LEXICAL_WORKSHEET_CONTEXT_20261016.json",
+  "directions": [
+    "FWD",
+    "REVERSE"
+  ],
+  "experiment_id": "GDT1418",
+  "passage_unit": "f75v_IT2a",
+  "expected_passage_groups": 77,
+  "nodes_cap": 500000,
+  "candidate_checks_cap": 5000000,
+  "seconds_per_case": 20,
+  "control_seconds": 30,
+  "workers": 8,
+  "graph_policy": "Within each1177record,1228source_section,and1290PRIMARYsentence_index only. Wincludesallunchangedtokens; first/lastfree.",
+  "control_policy": "FirstDeotsectionwithatleast32words,first32contiguouswords;full22unitpermutationalphabet[(7*j+3)%22];freshcontrolnot1408sorted32.",
+  "claim_ceiling": "Fixedprojectedsourcewordgraph/raw22unit/globalinjectiveonecodepointkey/latentboundarynecessarycapacity. SATnotgrammar/meaning/sourceidentification. UNKNOWNnotexclusion. No sourceSPACEor nativegapclaim.",
+  "decision_path": "research_registry/proposals/production_origin_supply_20261003/LATENT_SOURCE_BIGRAM_DECISION_20261017.json",
+  "source_inputs": [
+    {
+      "path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+      "sha256": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e"
+    },
+    {
+      "path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+      "sha256": "b7f83818c3a2447593c45aef6eaeba592b6dd63264e77235005c97e78824a31d"
+    },
+    {
+      "path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+      "sha256": "b7e3d101c3c45ffab1200bb4ad9990d5e86841bec7a7c0cb415c553cf6583d73"
+    },
+    {
+      "path": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/LEXICAL_WORKSHEET_CONTEXT_20261016.json",
+      "sha256": "121e67c8a6ecab7bfde5f6a0608ebe4f17a0d0a084b42049c6a4b3f9163f14f9"
+    }
+  ],
+  "case_accounting": "SAT certificate from either prospectively specified engine establishes only formal capacity. UNSAT requires both independent exhaustive results. SAT/UNSAT discrepancy is invalid. Any remaining UNKNOWN is unresolved."
+}
