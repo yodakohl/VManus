@@ -29343,3 +29343,7 @@ All16fixed8W/FWD+BIDIR77ITreadersfailwithoneglobalnonemptyword-enddyexpansion, a
 ## GDT1417 — joint run/tail-only repair gate closed (2026-10-17)
 
 The46rawITpositions/32formswithnoee/iiandnotfinaldyalreadyfailall16fixed8W/modesunderordinarymany-to-one1codepointkey,withtheother31positionsfullyfree. Bothfrozen1414solversconfirm; independentrawDP/48positionpositivecontrol/4artifactbyteReplayPASS. Anychangeslimitedtofreedlong-runORdy-endgroupsinsufficient; no maximalrunreaderbuilt.1354singlei/npredecessorpairsand1339gaplessstreamnotcovered. No language/meaning/wholewriterclaim. Stopafterthisonegate, no smallercohort/newdictionary/decoderchain. [Report](experiments/yolo/gdt1417_unchanged_run_tail_core_capacity/REPORT.md).
+
+## 17October2026 — proposed f14v graphic scope, approval pending
+
+The fixed f14v.6/.7repeated-dy spacing question is prepared in `research_registry/proposals/production_origin_supply_20261003/F14V_DY_SCOPE_20261017.json`. Official catalogmetadata alone identifies Yale1006101; no image was fetched or viewed. Existing image admissions have no general free quota and f14v is not in the checked20admissiontables. Ask for this single-image/two-line scope before access. Original1406/1416/1417failures and raw1100 remain unchanged; no numeral or translated word. Other already-admitted constructive research may continue while approval is pending.

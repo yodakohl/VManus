@@ -4,12 +4,12 @@ Updated: 2026-10-17.
 ## Work
 Phase: exploration
 Status: active
-Task: synth
-Latest decision: 1417F;1100raw
-Working files: DY_TALLY_REVIEW_20261017.json
+Task: f14v
+Latest decision: 1417F;f14v?
+Working files: F14V_DY_SCOPE_20261017.json
 Assumptions: unglossed
-Resume: read review
-Running: 10h
+Resume: await f14v
+Running: pending
 
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicfb0ba7a82.
+Publicff0aa378a.
