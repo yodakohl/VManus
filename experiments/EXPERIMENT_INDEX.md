@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1423**
-- Experiment-associated tracked files: **27,850** (2.4 GiB)
-- Structured GDT337+ experiments: **1088**
+- Experiments indexed: **1424**
+- Experiment-associated tracked files: **27,862** (2.4 GiB)
+- Structured GDT337+ experiments: **1089**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1425 | Fixed Hebrew terminal graphemes on unchanged native core | `REGISTERED_UNSCORED` | — | 12 | 37.7 KiB | 6 | STRUCTURED_YOLO |
 | GDT1424 | GDT1424 | `CONTROL_RECOVERED_NATIVE_DUAL_UNRESOLVED` | [report](../experiments/yolo/gdt1424_boolean_forward_core_capacity/REPORT.md) | 21 | 87.9 KiB | 3 | STRUCTURED_YOLO |
 | GDT1423 | GDT1423 | `STRICT_GLOBAL_Q_SCOPE_CONTRADICTED` | [report](../experiments/yolo/gdt1423_q_scope_paragraph_closure/REPORT.md) | 15 | 1.6 MiB | 3 | STRUCTURED_YOLO |
 | GDT1422 | GDT1422 | `CLOSED_WORD_FIXED_ARITY_EXCLUDED` | [report](../experiments/yolo/gdt1422_closed_word_tree_balance/REPORT.md) | 13 | 120.3 KiB | 4 | STRUCTURED_YOLO |
