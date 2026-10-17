@@ -4,10 +4,10 @@ Updated: 2026-10-17.
 Phase: idle
 Status: checkpoint
 Task: I1108
-Latest decision: sourceRAW
-Working files: suffix source
+Latest decision: pairUNBOUND
+Working files: EARLY*17.json
 Assumptions: no key
-Resume: premodern pair
+Resume: synthesis
 Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicb37ecc37a.
+Public2b6c4fa08.
