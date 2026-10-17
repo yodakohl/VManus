@@ -1,0 +1,26 @@
+{
+  "status": "POST_RESULT_COMBINED_SCOPE_REVIEW_NOT_NEW_NATIVE_TEST",
+  "reviewer": "closure_error_audit",
+  "old_FWD_decision": {
+    "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/FINAL_DECISION.json",
+    "sha256": "4656e299eff66f312f52ed293ac91ef32c091b6deb1e2361644a074386d94a0e",
+    "status": "DUAL_UNSAT_FIXED_VOCABULARY_CHANNEL"
+  },
+  "new_REV_decision": {
+    "path": "experiments/yolo/gdt1430_global_reverse_syriac_key/artifacts/FINAL_DECISION.json",
+    "sha256": "50854dd5f0595df25f5df7316f6ddb2d633b252d213e3c4b51f8b078f724af43",
+    "status": "DUAL_UNSAT_GLOBAL_REVERSE"
+  },
+  "same_source_projection_sha256": "718c066c834d8a35e3b3e524891dee6533bf7f10c8392433e4d70d64cd93caa6",
+  "same_native_input_sha256": "e75a67cf91a082537a53b7ea9d404d76f83154c3998a922014c2936959b1249a",
+  "conclusions": [
+    "Singlefixedsourceletterfunction/referenceW/wholeIT59failsinbothgloballyfixeddirections.",
+    "Noedge/frequency/sentence/word-indexconditions: eachgroupcontributesoneexistentialsourcewordconstraintunderthecommonkey; arbitrarypermutationofWHOLEgroupsonlyreordersthisconjunction.",
+    "ThereforewordorlineorderpermutationsALONEcannotrescuethesetwofixedcases, preservingwithin-groupunitorderandboundaries."
+  ],
+  "limits": [
+    "No mixed per-word directions, changed boundaries, reversedI/Rtables, actualglyphidentity orlanguageban.",
+    "ControlSATisANYcapacity, notexactorunique recovery.",
+    "This is a consequence of the pinned contracts and existing two actual case results; no new permutation search was run."
+  ]
+}

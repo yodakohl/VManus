@@ -1,6 +1,6 @@
 # GDT1430 — a fixed mirror of every sourceword
 
-Status: REGISTERED_UNSCORED. This is a bounded orientation-sensitivity comparison, not a correction of Syriac logical reading or a preferred historical theory. See METHOD.md.
+Status: DUAL_UNSAT_GLOBAL_REVERSE. Both actual REVcontrols pass; both complete59-group native searches exhaustively fail. See REPORT.md. This is a bounded orientation-sensitivity comparison, not a correction of Syriac logical reading or a preferred historical theory. See METHOD.md.
 
 Preparation: src/prepare.py beforelock. After public registration: src/run.py --gate; src/validate.py --gate. Only PASS permits both --native calls. At controlstop run.py --native writes a zero-native stop. Final static replay: src/validate.py --validate. No retries, mixed directions or further source/table/spacing repair.
 
