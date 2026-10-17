@@ -2,13 +2,13 @@
 Updated: 2026-10-17.
 
 ## Work
-Phase: exploration
-Status: active
-Task: qnew
-Latest decision: qNEWF
-Working files: QNEW.json
+Phase: idle
+Status: checkpoint
+Task: copy
+Latest decision: RAW
+Working files: F45COPY.json
 Assumptions: raw
-Resume: await f14v
+Resume: 1104 binding
 Running: none
 
 ## Structural baseline
@@ -29,11 +29,11 @@ No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
 Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
+1076followerSTOP;1099reprise1;Confirmed lexemes: **0**
 GDT327/GDT336: historical; no access.
 
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;qNEWlocalF.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicc2ae250f6.
+Public9b8985e37.
