@@ -6,9 +6,9 @@ Phase: exploration
 Status: active
 Task: synth
 Latest decision: 1417F
-Working files: GDT1417
+Working files: SIMPLE_FAMILY_REVIEW_20261017.json
 Assumptions: unglossed
-Resume: lookup1417
+Resume: read working file
 Running: 10h
 
 ## Structural baseline
@@ -20,14 +20,14 @@ Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
 1358cyclic/bag types retain97/82-83%.
-1353freeUD63–65%FULLparses;1354paircode≠sounds;1387V0>1/2.
+1353freeUD63–65%FULL;1354pair≠sounds;1387V0>1/2.
 I1016fixed paragraph nilpotentFAIL;I1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geomFAIL;1395iidNR.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
 No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
 Adjacency transfers Currier/section/hand; extra dir only Currier.
-915r/lknown+;916newFAIL;roles/reversibility≠meaning/boundaries.
+915r/lknown+;916newFAIL;roles≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
 1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
@@ -53,7 +53,7 @@ IDEA237 untested;30 programs first-passed;P09 closed.
 ## Access
 f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v unadmitted;reserves closed until near-complete reading.
-Exposure is not confirmation.
+Exposure≠confirmation.
 179cached selectors;grants separate;F historical;f1r margins only;
 f106v fixed image paragraph;register access. GC: [3glyph grant](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57scopes](docs/57v-signs.md);
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public5b7f5817a.
+Publicec4c9c74a.
