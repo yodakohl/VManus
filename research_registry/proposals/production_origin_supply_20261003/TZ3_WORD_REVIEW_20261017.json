@@ -1,0 +1,3985 @@
+{
+  "schema_version": 1,
+  "contract_id": "IDEA1116_TZ3_READINESS_NOT_LEXICAL_ADOPTION",
+  "purpose": "Use existing word-review tool to preserve explicit non-readiness of a raw source-writing correspondence; no new semantic test.",
+  "scope": {
+    "pages": "all_admitted",
+    "editions": [
+      "ZL3b",
+      "IT2a",
+      "RF1b"
+    ]
+  },
+  "source_receipt": {
+    "cache_role": "disposable descriptive cache; no semantic conclusions",
+    "guard_stats": {
+      "selected": 96184,
+      "skipped_forbidden": 2122,
+      "skipped_not_allowed": 17164
+    },
+    "inputs": {
+      "allowlist": "experiments/yolo/gdt631_prefixed_cth_quality_parts/artifacts/PAGE_ALLOWLIST.tsv",
+      "allowlist_sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483",
+      "code": "tools/word_profiles.py",
+      "code_sha256": "1e9cb2017525e8ee3fd07b6a088e73b28b1e4fe4e7c9d17b83b892b94d0943c6",
+      "columns": [
+        "source_group_id",
+        "edition",
+        "page",
+        "locus",
+        "section",
+        "currier",
+        "hand",
+        "kind",
+        "source_group_index",
+        "source_group_count",
+        "ivtff_group_raw",
+        "left_separator",
+        "right_separator"
+      ],
+      "exposure": "previously exposed exploration; not independent confirmation",
+      "matching": "exact_raw_group",
+      "reader_policy": "alternate readings, never pooled",
+      "schema_version": 1,
+      "selector_count": 179,
+      "selectors": [
+        "f100r",
+        "f100v",
+        "f102r1",
+        "f102v1",
+        "f102v2",
+        "f103r",
+        "f103v",
+        "f104r",
+        "f104v",
+        "f105r",
+        "f105v",
+        "f106r",
+        "f106v",
+        "f107r",
+        "f107v",
+        "f108r",
+        "f108v",
+        "f10r",
+        "f10v",
+        "f111r",
+        "f111v",
+        "f112r",
+        "f112v",
+        "f113r",
+        "f113v",
+        "f114r",
+        "f114v",
+        "f115r",
+        "f115v",
+        "f116r",
+        "f11r",
+        "f11v",
+        "f13r",
+        "f13v",
+        "f14r",
+        "f14v",
+        "f15r",
+        "f15v",
+        "f16r",
+        "f16v",
+        "f17r",
+        "f17v",
+        "f18r",
+        "f18v",
+        "f19r",
+        "f19v",
+        "f20r",
+        "f20v",
+        "f21r",
+        "f21v",
+        "f22r",
+        "f22v",
+        "f23r",
+        "f23v",
+        "f24r",
+        "f24v",
+        "f25r",
+        "f25v",
+        "f26r",
+        "f26v",
+        "f27r",
+        "f28r",
+        "f28v",
+        "f29r",
+        "f29v",
+        "f2r",
+        "f2v",
+        "f30r",
+        "f30v",
+        "f31r",
+        "f32r",
+        "f32v",
+        "f33r",
+        "f33v",
+        "f34r",
+        "f34v",
+        "f35r",
+        "f35v",
+        "f36r",
+        "f36v",
+        "f37r",
+        "f37v",
+        "f38r",
+        "f38v",
+        "f39r",
+        "f39v",
+        "f3r",
+        "f3v",
+        "f40r",
+        "f40v",
+        "f41r",
+        "f41v",
+        "f42r",
+        "f42v",
+        "f43r",
+        "f43v",
+        "f44r",
+        "f44v",
+        "f45r",
+        "f45v",
+        "f46r",
+        "f46v",
+        "f47r",
+        "f47v",
+        "f48r",
+        "f48v",
+        "f49r",
+        "f49v",
+        "f4r",
+        "f4v",
+        "f50r",
+        "f50v",
+        "f51r",
+        "f51v",
+        "f52r",
+        "f52v",
+        "f53r",
+        "f53v",
+        "f54v",
+        "f55r",
+        "f55v",
+        "f56r",
+        "f56v",
+        "f58r",
+        "f58v",
+        "f5r",
+        "f5v",
+        "f66r",
+        "f66v",
+        "f6r",
+        "f6v",
+        "f75r",
+        "f75v",
+        "f76r",
+        "f76v",
+        "f77r",
+        "f77v",
+        "f78r",
+        "f78v",
+        "f79r",
+        "f79v",
+        "f7r",
+        "f7v",
+        "f80r",
+        "f80v",
+        "f81r",
+        "f81v",
+        "f82r",
+        "f82v",
+        "f83r",
+        "f83v",
+        "f85r1",
+        "f85r2",
+        "f86v3",
+        "f86v5",
+        "f86v6",
+        "f87r",
+        "f87v",
+        "f88r",
+        "f88v",
+        "f89r1",
+        "f89v1",
+        "f8r",
+        "f8v",
+        "f90r1",
+        "f93r",
+        "f93v",
+        "f94r",
+        "f94v",
+        "f95r1",
+        "f95r2",
+        "f95v1",
+        "f95v2",
+        "f96r",
+        "f96v",
+        "f99r",
+        "f99v",
+        "f9r",
+        "f9v"
+      ],
+      "source": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "source_sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    }
+  },
+  "source_packet": {
+    "path": "research_registry/proposals/production_origin_supply_20261003/TZ3_PARTIAL_WRITER_RAW_20261017.json",
+    "sha256": "f741a1d8035d1f31dcaab6188f291b0712d5899ca6f281b179a6549b28b77a0e"
+  },
+  "implementation_sha256": "f5b09f4772171beed4d5ff5f472f5896db0ec9b7d52c2b9e7798f520d91b3449",
+  "evidence_catalog_sha256": "94f63a22b32aea37c44144ec3df0f34e6a52fcf1ad0d0e5f32463a8100e8b65d",
+  "assignments": [
+    {
+      "form": "qokedy",
+      "meaning": "RAW_UNASSESSED_SOURCE_FORM_kokudi",
+      "origin": "post_observation_partial_source_writer_not_native_assignment",
+      "accounts": {
+        "distribution": {
+          "status": "unaddressed",
+          "note": "Existing wholeform counts/dispersion read per reader. The broad profiles do not select a narrow historical odorverb; no source distributionmodel."
+        },
+        "repetition_and_position": {
+          "status": "unaddressed",
+          "note": "Frequent exact repeats remain, including known f75r38AABBA. Fivepastforms follow only under extra fittedpreimage selection, not fromcodealone. Physical edges are not sentence boundaries."
+        },
+        "constructions": {
+          "status": "unaddressed",
+          "note": "The complete exposed120group ITparagraph is retained. Threefittedoutputtypesoccur14times, additionalconstructedstringoutputs4times; these are not18translatedpositions.102othergroupsremain outside that outputlist."
+        },
+        "form_relations": {
+          "status": "hypothesis",
+          "note": "One seven-case partial writer fits3correlatedhistorical forms and2furtherconstructedstemstrings. Sourceletter mergers/positionalcases were chosen after knowing nativeforms."
+        },
+        "grammar": {
+          "status": "unaddressed",
+          "note": "No nativepasttense, lexicalroot, free-dyfunction, originalwordboundary or sourcegrammar selected. Alphabet/inverseincomplete."
+        },
+        "meaning_discriminator": {
+          "status": "unaddressed",
+          "note": "A historical sourcevariantset plus retrospectiveformfit does not identify sourcepreimages or prefer thislanguage/content. No wordmeaningadopted."
+        }
+      }
+    },
+    {
+      "form": "qokeedy",
+      "meaning": "RAW_UNASSESSED_SOURCE_FORM_koksudi",
+      "origin": "post_observation_partial_source_writer_not_native_assignment",
+      "accounts": {
+        "distribution": {
+          "status": "unaddressed",
+          "note": "Existing wholeform counts/dispersion read per reader. The broad profiles do not select a narrow historical odorverb; no source distributionmodel."
+        },
+        "repetition_and_position": {
+          "status": "unaddressed",
+          "note": "Frequent exact repeats remain, including known f75r38AABBA. Fivepastforms follow only under extra fittedpreimage selection, not fromcodealone. Physical edges are not sentence boundaries."
+        },
+        "constructions": {
+          "status": "unaddressed",
+          "note": "The complete exposed120group ITparagraph is retained. Threefittedoutputtypesoccur14times, additionalconstructedstringoutputs4times; these are not18translatedpositions.102othergroupsremain outside that outputlist."
+        },
+        "form_relations": {
+          "status": "hypothesis",
+          "note": "One seven-case partial writer fits3correlatedhistorical forms and2furtherconstructedstemstrings. Sourceletter mergers/positionalcases were chosen after knowing nativeforms."
+        },
+        "grammar": {
+          "status": "unaddressed",
+          "note": "No nativepasttense, lexicalroot, free-dyfunction, originalwordboundary or sourcegrammar selected. Alphabet/inverseincomplete."
+        },
+        "meaning_discriminator": {
+          "status": "unaddressed",
+          "note": "A historical sourcevariantset plus retrospectiveformfit does not identify sourcepreimages or prefer thislanguage/content. No wordmeaningadopted."
+        }
+      }
+    },
+    {
+      "form": "qokdy",
+      "meaning": "RAW_UNASSESSED_SOURCE_FORM_kokti",
+      "origin": "post_observation_partial_source_writer_not_native_assignment",
+      "accounts": {
+        "distribution": {
+          "status": "unaddressed",
+          "note": "Existing wholeform counts/dispersion read per reader. The broad profiles do not select a narrow historical odorverb; no source distributionmodel."
+        },
+        "repetition_and_position": {
+          "status": "unaddressed",
+          "note": "Frequent exact repeats remain, including known f75r38AABBA. Fivepastforms follow only under extra fittedpreimage selection, not fromcodealone. Physical edges are not sentence boundaries."
+        },
+        "constructions": {
+          "status": "unaddressed",
+          "note": "The complete exposed120group ITparagraph is retained. Threefittedoutputtypesoccur14times, additionalconstructedstringoutputs4times; these are not18translatedpositions.102othergroupsremain outside that outputlist."
+        },
+        "form_relations": {
+          "status": "hypothesis",
+          "note": "One seven-case partial writer fits3correlatedhistorical forms and2furtherconstructedstemstrings. Sourceletter mergers/positionalcases were chosen after knowing nativeforms."
+        },
+        "grammar": {
+          "status": "unaddressed",
+          "note": "No nativepasttense, lexicalroot, free-dyfunction, originalwordboundary or sourcegrammar selected. Alphabet/inverseincomplete."
+        },
+        "meaning_discriminator": {
+          "status": "unaddressed",
+          "note": "A historical sourcevariantset plus retrospectiveformfit does not identify sourcepreimages or prefer thislanguage/content. No wordmeaningadopted."
+        }
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "form": "qokedy",
+      "matching": "exact_raw_group",
+      "editions": {
+        "ZL3b": {
+          "count": 248,
+          "total_groups": 32363,
+          "fraction": 0.007663072026697154,
+          "rank": 15,
+          "pages_with_form": 58,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 135,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 2,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 39,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 61,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 11,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 248,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 176,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 60,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 10,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 2,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 248,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 18,
+            "middle": 222,
+            "end": 8,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 210,
+            "repeated_lines": 32,
+            "adjacent_pairs": 15,
+            "max_per_line": 4
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "qokedy",
+                "count": 15
+              },
+              {
+                "form": "shedy",
+                "count": 15
+              },
+              {
+                "form": "chedy",
+                "count": 13
+              },
+              {
+                "form": "qokeedy",
+                "count": 11
+              },
+              {
+                "form": "qokeey",
+                "count": 9
+              },
+              {
+                "form": "otedy",
+                "count": 6
+              },
+              {
+                "form": "okedy",
+                "count": 5
+              },
+              {
+                "form": "sheedy",
+                "count": 4
+              }
+            ],
+            "next": [
+              {
+                "form": "qokedy",
+                "count": 15
+              },
+              {
+                "form": "qokeedy",
+                "count": 12
+              },
+              {
+                "form": "chedy",
+                "count": 8
+              },
+              {
+                "form": "dal",
+                "count": 6
+              },
+              {
+                "form": "otedy",
+                "count": 6
+              },
+              {
+                "form": "qokain",
+                "count": 6
+              },
+              {
+                "form": "shedy",
+                "count": 6
+              },
+              {
+                "form": "ol",
+                "count": 5
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokeedy",
+              "count": 291
+            },
+            {
+              "form": "qokeey",
+              "count": 280
+            },
+            {
+              "form": "qokey",
+              "count": 95
+            },
+            {
+              "form": "okedy",
+              "count": 86
+            },
+            {
+              "form": "qotedy",
+              "count": 78
+            },
+            {
+              "form": "qokeody",
+              "count": 25
+            },
+            {
+              "form": "qoeedy",
+              "count": 16
+            },
+            {
+              "form": "qoked",
+              "count": 7
+            }
+          ],
+          "spelling_neighbor_types_total": 19,
+          "examples": [
+            {
+              "source_group_id": "ZL3b|f103r.32|G003",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.32",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 3,
+              "source_group_count": 8,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shedy",
+              "next_literal": "qokal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.4|G002",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.4",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "ychedy",
+              "next_literal": "okedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.53|G002",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.53",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sshey",
+              "next_literal": "qokaiin",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f104r.17|G006",
+              "edition": "ZL3b",
+              "page": "f104r",
+              "locus": "f104r.17",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 6,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "chedy",
+              "next_literal": "oteechy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f104v.35|G008",
+              "edition": "ZL3b",
+              "page": "f104v",
+              "locus": "f104v.35",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sheody",
+              "next_literal": "topaiin",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f105r.17|G004",
+              "edition": "ZL3b",
+              "page": "f105r",
+              "locus": "f105r.17",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sheokedy",
+              "next_literal": "shol",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f105r.21|G004",
+              "edition": "ZL3b",
+              "page": "f105r",
+              "locus": "f105r.21",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qoeey",
+              "next_literal": "qokedal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f105r.26|G012",
+              "edition": "ZL3b",
+              "page": "f105r",
+              "locus": "f105r.26",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 12,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "LINE_END",
+              "previous_literal": "qodeedy",
+              "next_literal": null,
+              "position": "end",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ]
+        },
+        "IT2a": {
+          "count": 246,
+          "total_groups": 31875,
+          "fraction": 0.00771764705882353,
+          "rank": 14,
+          "pages_with_form": 58,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 133,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 2,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 39,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 61,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 11,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 246,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 174,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 60,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 10,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 2,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 246,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 18,
+            "middle": 220,
+            "end": 8,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 209,
+            "repeated_lines": 31,
+            "adjacent_pairs": 14,
+            "max_per_line": 4
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "chedy",
+                "count": 14
+              },
+              {
+                "form": "qokedy",
+                "count": 14
+              },
+              {
+                "form": "shedy",
+                "count": 14
+              },
+              {
+                "form": "qokeedy",
+                "count": 10
+              },
+              {
+                "form": "qokeey",
+                "count": 9
+              },
+              {
+                "form": "otedy",
+                "count": 6
+              },
+              {
+                "form": "okedy",
+                "count": 5
+              },
+              {
+                "form": "sheedy",
+                "count": 4
+              }
+            ],
+            "next": [
+              {
+                "form": "qokedy",
+                "count": 14
+              },
+              {
+                "form": "qokeedy",
+                "count": 10
+              },
+              {
+                "form": "chedy",
+                "count": 9
+              },
+              {
+                "form": "dal",
+                "count": 6
+              },
+              {
+                "form": "otedy",
+                "count": 6
+              },
+              {
+                "form": "shedy",
+                "count": 6
+              },
+              {
+                "form": "qokain",
+                "count": 5
+              },
+              {
+                "form": "lkedy",
+                "count": 4
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokeedy",
+              "count": 288
+            },
+            {
+              "form": "qokeey",
+              "count": 280
+            },
+            {
+              "form": "qokey",
+              "count": 94
+            },
+            {
+              "form": "okedy",
+              "count": 90
+            },
+            {
+              "form": "qotedy",
+              "count": 81
+            },
+            {
+              "form": "qokeody",
+              "count": 25
+            },
+            {
+              "form": "qoeedy",
+              "count": 17
+            },
+            {
+              "form": "qokody",
+              "count": 9
+            }
+          ],
+          "spelling_neighbor_types_total": 20,
+          "examples": [
+            {
+              "source_group_id": "IT2a|f103r.32|G003",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.32",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 3,
+              "source_group_count": 8,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shedy",
+              "next_literal": "qokal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.4|G002",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.4",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "ychedy",
+              "next_literal": "okedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.53|G002",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.53",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sshey",
+              "next_literal": "qokaiin",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f104r.17|G006",
+              "edition": "IT2a",
+              "page": "f104r",
+              "locus": "f104r.17",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 6,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "chedy",
+              "next_literal": "oteechy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f104v.35|G008",
+              "edition": "IT2a",
+              "page": "f104v",
+              "locus": "f104v.35",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sheody",
+              "next_literal": "topaiin",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f105r.17|G004",
+              "edition": "IT2a",
+              "page": "f105r",
+              "locus": "f105r.17",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sheoked",
+              "next_literal": "shol",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f105r.21|G004",
+              "edition": "IT2a",
+              "page": "f105r",
+              "locus": "f105r.21",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qoeey",
+              "next_literal": "qokedal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f105r.26|G012",
+              "edition": "IT2a",
+              "page": "f105r",
+              "locus": "f105r.26",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 12,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "LINE_END",
+              "previous_literal": "qodeedy",
+              "next_literal": null,
+              "position": "end",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ]
+        },
+        "RF1b": {
+          "count": 164,
+          "total_groups": 31946,
+          "fraction": 0.005133663056407688,
+          "rank": 22,
+          "pages_with_form": 45,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 97,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 26,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 33,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 8,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 164,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 122,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 32,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 9,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 1,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 164,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 14,
+            "middle": 145,
+            "end": 5,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 142,
+            "repeated_lines": 20,
+            "adjacent_pairs": 8,
+            "max_per_line": 3
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "qokedy",
+                "count": 8
+              },
+              {
+                "form": "shedy",
+                "count": 8
+              },
+              {
+                "form": "chedy",
+                "count": 5
+              },
+              {
+                "form": "qokeedy",
+                "count": 5
+              },
+              {
+                "form": "che@152;y",
+                "count": 4
+              },
+              {
+                "form": "qokeey",
+                "count": 4
+              },
+              {
+                "form": "dshedy",
+                "count": 3
+              },
+              {
+                "form": "okedy",
+                "count": 3
+              }
+            ],
+            "next": [
+              {
+                "form": "qokedy",
+                "count": 8
+              },
+              {
+                "form": "chedy",
+                "count": 7
+              },
+              {
+                "form": "qokeedy",
+                "count": 7
+              },
+              {
+                "form": "dal",
+                "count": 4
+              },
+              {
+                "form": "qokal",
+                "count": 4
+              },
+              {
+                "form": "lkedy",
+                "count": 3
+              },
+              {
+                "form": "ol",
+                "count": 3
+              },
+              {
+                "form": "otedy",
+                "count": 3
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokeey",
+              "count": 269
+            },
+            {
+              "form": "qokeedy",
+              "count": 209
+            },
+            {
+              "form": "qokey",
+              "count": 90
+            },
+            {
+              "form": "qotedy",
+              "count": 53
+            },
+            {
+              "form": "okedy",
+              "count": 51
+            },
+            {
+              "form": "qokeody",
+              "count": 19
+            },
+            {
+              "form": "qoeedy",
+              "count": 10
+            },
+            {
+              "form": "qokody",
+              "count": 7
+            }
+          ],
+          "spelling_neighbor_types_total": 19,
+          "examples": [
+            {
+              "source_group_id": "RF1b|f103r.4|G002",
+              "edition": "RF1b",
+              "page": "f103r",
+              "locus": "f103r.4",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "ychedy",
+              "next_literal": "okedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f105r.17|G004",
+              "edition": "RF1b",
+              "page": "f105r",
+              "locus": "f105r.17",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sheokedy",
+              "next_literal": "shol",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f105r.21|G004",
+              "edition": "RF1b",
+              "page": "f105r",
+              "locus": "f105r.21",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qoee@222;",
+              "next_literal": "qokedal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f105v.3|G008",
+              "edition": "RF1b",
+              "page": "f105v",
+              "locus": "f105v.3",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "okoldy",
+              "next_literal": "opched",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f106r.23|G005",
+              "edition": "RF1b",
+              "page": "f106r",
+              "locus": "f106r.23",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "al",
+              "next_literal": "{ch'}ecphy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f107v.2|G006",
+              "edition": "RF1b",
+              "page": "f107v",
+              "locus": "f107v.2",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 6,
+              "source_group_count": 13,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "chkal",
+              "next_literal": "otal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f108r.26|G007",
+              "edition": "RF1b",
+              "page": "f108r",
+              "locus": "f108r.26",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 7,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "al",
+              "next_literal": "qokedy",
+              "position": "middle",
+              "line_form_count": 2,
+              "previous_same": false,
+              "next_same": true
+            },
+            {
+              "source_group_id": "RF1b|f108r.26|G008",
+              "edition": "RF1b",
+              "page": "f108r",
+              "locus": "f108r.26",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qokedy",
+              "next_literal": "otaiin",
+              "position": "middle",
+              "line_form_count": 2,
+              "previous_same": true,
+              "next_same": false
+            }
+          ]
+        }
+      },
+      "notes": [
+        "Readers are alternate readings of one manuscript, not independent confirmations.",
+        "Positions are source locus edges, not grammatical sentence boundaries.",
+        "Literal neighbours include uncertain spaces; inspect preserved separators.",
+        "One-edit neighbours are raw spellings, not established morphemes or variants.",
+        "Strata report source metadata without imputing unknown values.",
+        "Page counts are admitted selectors, not independent physical leaves.",
+        "Rank is one plus the number of strictly more frequent exact types; ties share a rank.",
+        "Examples are deterministically bounded; occurrences() returns every case."
+      ],
+      "prior_evidence": [
+        {
+          "id": "WE009",
+          "forms": [
+            "*"
+          ],
+          "kind": "observation",
+          "statement": "GDT608 findet in seinen 64 eingefrorenen BPE-Zusammensetzungen gerichtete formale Kompositionsstruktur. Das unveränderte Komponentenmodell schlägt Global- und Umkehrmodell auf allen 23 Prüfblättern; die gelernte Gesamtform bleibt auf allen 23 besser und trägt zusätzliche Information.",
+          "scope": "Die eingefrorenen GDT605/GDT606-Einheiten, Merge-Kanten und 68/23-Blattteilung. Diese Merkmale betreffen Außenkanten und Kontextprofile, keine bereits identifizierten sprachlichen Morpheme.",
+          "dependencies": [
+            "BPE-Einheiten und Kollapszeichen sind analystisch gelernte formale Einheiten.",
+            "Position und Kontext sind Teil der beobachteten Struktur."
+          ],
+          "implication": "Neue Lesungen müssen sowohl wiederverwendbare Teile und ihre Reihenfolge als auch belegte Eigenheiten der Gesamtform berücksichtigen. Eine beliebige reine Präfixbedeutung oder vollständige freie Ganzwortliste ist dadurch noch nicht ausgewählt.",
+          "does_not_establish": [
+            "Keine bestätigte linguistische Morphologie, kein Lautalphabet und keine Wortbedeutung.",
+            "Keine universelle Lösch-, Präfix- oder Suffixregel aus diesem Strukturtest."
+          ],
+          "sources": [
+            {
+              "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+              "line_start": 7,
+              "line_end": 44,
+              "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+            },
+            {
+              "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+              "line_start": 46,
+              "line_end": 51,
+              "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+            }
+          ]
+        }
+      ],
+      "history_coverage": "CURATED_SUBSET_NOT_EXHAUSTIVE",
+      "further_history_commands": [
+        "./vmanus-work ideas search qokedy"
+      ],
+      "history_navigation": {
+        "results": [
+          {
+            "id": "GDT1146",
+            "kind": "attempt",
+            "scope": "semantic",
+            "title": "Does the fixed1137 QOKEDY converted-recipe requirement survive explicit immediate-right four-license binding outside development leaf83?",
+            "summary": "Does the fixed1137 QOKEDY converted-recipe requirement survive explicit immediate-right four-license binding outside development leaf83?",
+            "verdict": "refuted_specific_model",
+            "review": "curated",
+            "blockers": [
+              "fixed_argument_type_transfer_contradicted"
+            ],
+            "signals": [],
+            "reopen_policy": "do_not_repeat_same_model"
+          },
+          {
+            "id": "GDT1342",
+            "kind": "attempt",
+            "scope": "method",
+            "title": "Does every strict qoky have an earlier exact qokey/qokeey/qokedy/qokeedy on its whole prose page, retaining uncertain prefixes?",
+            "summary": "Does every strict qoky have an earlier exact qokey/qokeey/qokedy/qokeedy on its whole prose page, retaining uncertain prefixes?",
+            "verdict": "refuted_specific_model",
+            "review": "curated",
+            "blockers": [
+              "reliable_prefix_missing_required_producer"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "HIST:426b89b576634fce",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "IDEA967_common_word_obligations_priority_20261006",
+            "summary": "Existing chedy/qokedy exact profiles require frequent vowel-free source words under967;1243local gaps retained and1244mixed seam unresolved",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "HIST:223f3ae4dcf7ca69",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "human_syllabary954_selector_reassignment_type_bound",
+            "summary": "All8existing control-function cases fail adjacent wholeqokedy/qokedy withq/o fixed;857already retains f79v19triple inIT/ZL5-7andRF6-8withdefinite seams.",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "HIST:6547223bfaf9053e",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "hand_writer_1193_common_medial_addendum_20261006",
+            "summary": "Wholeqokeedy/qokedy each require4interior working types versus fixed1193capacity3; existing exact countsIT534/RF373/ZL539for these2types.",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [
+              "capacity"
+            ],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "IDEA001116",
+            "kind": "idea",
+            "scope": "method",
+            "submitted_scope": "method",
+            "title": "RAW UNASSESSED: one seven-case partial writer maps three historical past-form alternatives to the QOK dy/e-dy/ee-dy family",
+            "summary": "A source-form construction only, fitted after knowledge of native spellings. Two main-text Tuhfet past variants and one edition-only interlinear variant share a seven-case positional merger writer. Two further constructed input strings emit qoky/qokey. No lan…",
+            "verdict": "untested",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "HIST:2078bb44ef4081a3",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "SIDEQUEST_scribe_workshop_scalar_stroke_iteration",
+            "summary": "A twelfth rapid iteration reads qokedy/qokeedy/qokeeedy and qokain/qokaiin families as fixed operation/value constructions carrying relative grade duration amount or ordinal information through repeated E/I-like units, rather than as unrelated phonological wo…",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "HIST:cfbff71ba3cfdd36",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "SIDEQUEST_semantic_master_repair_three_hundred_forty_ninth",
+            "summary": "Wrong qokedy for shey lost measured-portion thread and missed S2-S1 boundary are all locally repaired from register sequence marker referent slot and following-operation cues with no new meaning",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          }
+        ],
+        "matched": 59,
+        "limit": 8,
+        "offset": 0,
+        "next_offset": 8,
+        "meaning": "lexical navigation; no novelty, duplicate identity, or rerun approval"
+      },
+      "selection_obligations": [
+        "distribution",
+        "repetition_and_position",
+        "constructions",
+        "form_relations",
+        "grammar",
+        "meaning_discriminator"
+      ]
+    },
+    {
+      "form": "qokeedy",
+      "matching": "exact_raw_group",
+      "editions": {
+        "ZL3b": {
+          "count": 291,
+          "total_groups": 32363,
+          "fraction": 0.008991749837777709,
+          "rank": 10,
+          "pages_with_form": 52,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 133,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 1,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 11,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 136,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 10,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 291,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 150,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 133,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 4,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 4,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 291,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 30,
+            "middle": 258,
+            "end": 3,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 250,
+            "repeated_lines": 34,
+            "adjacent_pairs": 17,
+            "max_per_line": 3
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "qokeedy",
+                "count": 17
+              },
+              {
+                "form": "shedy",
+                "count": 14
+              },
+              {
+                "form": "qokedy",
+                "count": 12
+              },
+              {
+                "form": "chedy",
+                "count": 10
+              },
+              {
+                "form": "qokeey",
+                "count": 9
+              },
+              {
+                "form": "okeedy",
+                "count": 7
+              },
+              {
+                "form": "sheedy",
+                "count": 7
+              },
+              {
+                "form": "chey",
+                "count": 6
+              }
+            ],
+            "next": [
+              {
+                "form": "qokeedy",
+                "count": 17
+              },
+              {
+                "form": "qokedy",
+                "count": 11
+              },
+              {
+                "form": "qokeey",
+                "count": 8
+              },
+              {
+                "form": "qokal",
+                "count": 7
+              },
+              {
+                "form": "chedy",
+                "count": 6
+              },
+              {
+                "form": "qokar",
+                "count": 6
+              },
+              {
+                "form": "qotedy",
+                "count": 6
+              },
+              {
+                "form": "shedy",
+                "count": 6
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokeey",
+              "count": 280
+            },
+            {
+              "form": "qokedy",
+              "count": 248
+            },
+            {
+              "form": "okeedy",
+              "count": 92
+            },
+            {
+              "form": "qoteedy",
+              "count": 73
+            },
+            {
+              "form": "qokeeey",
+              "count": 26
+            },
+            {
+              "form": "qokeody",
+              "count": 25
+            },
+            {
+              "form": "qoeedy",
+              "count": 16
+            },
+            {
+              "form": "qokeed",
+              "count": 15
+            }
+          ],
+          "spelling_neighbor_types_total": 19,
+          "examples": [
+            {
+              "source_group_id": "ZL3b|f103r.21|G011",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.21",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 11,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "okaly",
+              "next_literal": "lor",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.22|G005",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.22",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shdal",
+              "next_literal": "shedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.35|G008",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.35",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shedain",
+              "next_literal": "ykeedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.36|G004",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.36",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 8,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "okeedy",
+              "next_literal": "qokeey",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.37|G005",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.37",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qokshy",
+              "next_literal": "qokchdy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.41|G011",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.41",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 11,
+              "source_group_count": 13,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shey",
+              "next_literal": "qokal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f103r.45|G001",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.45",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 1,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "LINE_START",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": null,
+              "next_literal": "qokeedy",
+              "position": "start",
+              "line_form_count": 2,
+              "previous_same": false,
+              "next_same": true
+            },
+            {
+              "source_group_id": "ZL3b|f103r.45|G002",
+              "edition": "ZL3b",
+              "page": "f103r",
+              "locus": "f103r.45",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qokeedy",
+              "next_literal": "shol",
+              "position": "middle",
+              "line_form_count": 2,
+              "previous_same": true,
+              "next_same": false
+            }
+          ]
+        },
+        "IT2a": {
+          "count": 288,
+          "total_groups": 31875,
+          "fraction": 0.009035294117647058,
+          "rank": 9,
+          "pages_with_form": 51,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 131,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 1,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 9,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 137,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 10,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 288,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 146,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 134,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 4,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 4,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 288,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 30,
+            "middle": 255,
+            "end": 3,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 247,
+            "repeated_lines": 34,
+            "adjacent_pairs": 17,
+            "max_per_line": 3
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "qokeedy",
+                "count": 17
+              },
+              {
+                "form": "shedy",
+                "count": 14
+              },
+              {
+                "form": "qokedy",
+                "count": 10
+              },
+              {
+                "form": "chedy",
+                "count": 9
+              },
+              {
+                "form": "qokeey",
+                "count": 9
+              },
+              {
+                "form": "chey",
+                "count": 8
+              },
+              {
+                "form": "sheedy",
+                "count": 7
+              },
+              {
+                "form": "okeedy",
+                "count": 6
+              }
+            ],
+            "next": [
+              {
+                "form": "qokeedy",
+                "count": 17
+              },
+              {
+                "form": "qokedy",
+                "count": 10
+              },
+              {
+                "form": "qokeey",
+                "count": 8
+              },
+              {
+                "form": "qokal",
+                "count": 7
+              },
+              {
+                "form": "qokar",
+                "count": 7
+              },
+              {
+                "form": "chedy",
+                "count": 6
+              },
+              {
+                "form": "lchedy",
+                "count": 6
+              },
+              {
+                "form": "qokain",
+                "count": 6
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokeey",
+              "count": 280
+            },
+            {
+              "form": "qokedy",
+              "count": 246
+            },
+            {
+              "form": "okeedy",
+              "count": 93
+            },
+            {
+              "form": "qoteedy",
+              "count": 72
+            },
+            {
+              "form": "qokeeey",
+              "count": 25
+            },
+            {
+              "form": "qokeody",
+              "count": 25
+            },
+            {
+              "form": "qoeedy",
+              "count": 17
+            },
+            {
+              "form": "qokeed",
+              "count": 14
+            }
+          ],
+          "spelling_neighbor_types_total": 20,
+          "examples": [
+            {
+              "source_group_id": "IT2a|f103r.21|G011",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.21",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 11,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "okaly",
+              "next_literal": "lor",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.22|G005",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.22",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shdal",
+              "next_literal": "shedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.35|G008",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.35",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shedain",
+              "next_literal": "ykeedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.36|G004",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.36",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 8,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "okeedy",
+              "next_literal": "qokeey",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.37|G005",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.37",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qokshy",
+              "next_literal": "qokeedy",
+              "position": "middle",
+              "line_form_count": 2,
+              "previous_same": false,
+              "next_same": true
+            },
+            {
+              "source_group_id": "IT2a|f103r.37|G006",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.37",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 6,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qokeedy",
+              "next_literal": "chsky",
+              "position": "middle",
+              "line_form_count": 2,
+              "previous_same": true,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.41|G009",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.41",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 9,
+              "source_group_count": 11,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shey",
+              "next_literal": "qokal",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f103r.45|G001",
+              "edition": "IT2a",
+              "page": "f103r",
+              "locus": "f103r.45",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 1,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "LINE_START",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": null,
+              "next_literal": "qokeedy",
+              "position": "start",
+              "line_form_count": 2,
+              "previous_same": false,
+              "next_same": true
+            }
+          ]
+        },
+        "RF1b": {
+          "count": 209,
+          "total_groups": 31946,
+          "fraction": 0.006542290114568334,
+          "rank": 16,
+          "pages_with_form": 47,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 107,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 1,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 7,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 87,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 7,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 209,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 120,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 85,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 2,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 2,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 209,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 25,
+            "middle": 183,
+            "end": 1,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 182,
+            "repeated_lines": 24,
+            "adjacent_pairs": 11,
+            "max_per_line": 3
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "qokeedy",
+                "count": 11
+              },
+              {
+                "form": "qokedy",
+                "count": 7
+              },
+              {
+                "form": "chey",
+                "count": 6
+              },
+              {
+                "form": "shedy",
+                "count": 6
+              },
+              {
+                "form": "chedy",
+                "count": 4
+              },
+              {
+                "form": "okeey",
+                "count": 4
+              },
+              {
+                "form": "qokeey",
+                "count": 4
+              },
+              {
+                "form": "she@152;y",
+                "count": 4
+              }
+            ],
+            "next": [
+              {
+                "form": "qokeedy",
+                "count": 11
+              },
+              {
+                "form": "qokain",
+                "count": 5
+              },
+              {
+                "form": "qokar",
+                "count": 5
+              },
+              {
+                "form": "qokedy",
+                "count": 5
+              },
+              {
+                "form": "chedy",
+                "count": 4
+              },
+              {
+                "form": "lchedy",
+                "count": 4
+              },
+              {
+                "form": "qokal",
+                "count": 4
+              },
+              {
+                "form": "qokeey",
+                "count": 4
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokeey",
+              "count": 269
+            },
+            {
+              "form": "qokedy",
+              "count": 164
+            },
+            {
+              "form": "qoteedy",
+              "count": 55
+            },
+            {
+              "form": "okeedy",
+              "count": 54
+            },
+            {
+              "form": "qokeeey",
+              "count": 24
+            },
+            {
+              "form": "qokeody",
+              "count": 19
+            },
+            {
+              "form": "qokeed",
+              "count": 16
+            },
+            {
+              "form": "qoeedy",
+              "count": 10
+            }
+          ],
+          "spelling_neighbor_types_total": 15,
+          "examples": [
+            {
+              "source_group_id": "RF1b|f103r.22|G005",
+              "edition": "RF1b",
+              "page": "f103r",
+              "locus": "f103r.22",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "shdal",
+              "next_literal": "she@152;y",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f103r.35|G008",
+              "edition": "RF1b",
+              "page": "f103r",
+              "locus": "f103r.35",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "{ch'}edain",
+              "next_literal": "ykee@152;y",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f103r.36|G004",
+              "edition": "RF1b",
+              "page": "f103r",
+              "locus": "f103r.36",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 8,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "okeedy",
+              "next_literal": "qokeey",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f103r.37|G005",
+              "edition": "RF1b",
+              "page": "f103r",
+              "locus": "f103r.37",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qokshy",
+              "next_literal": "qokeedy",
+              "position": "middle",
+              "line_form_count": 2,
+              "previous_same": false,
+              "next_same": true
+            },
+            {
+              "source_group_id": "RF1b|f103r.37|G006",
+              "edition": "RF1b",
+              "page": "f103r",
+              "locus": "f103r.37",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 6,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "qokeedy",
+              "next_literal": "chsty",
+              "position": "middle",
+              "line_form_count": 2,
+              "previous_same": true,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f103r.45|G001",
+              "edition": "RF1b",
+              "page": "f103r",
+              "locus": "f103r.45",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 1,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "LINE_START",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": null,
+              "next_literal": "qokee@152;y",
+              "position": "start",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f103v.11|G001",
+              "edition": "RF1b",
+              "page": "f103v",
+              "locus": "f103v.11",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 1,
+              "source_group_count": 4,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "LINE_START",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": null,
+              "next_literal": "olkeeshy",
+              "position": "start",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "RF1b|f103v.14|G004",
+              "edition": "RF1b",
+              "page": "f103v",
+              "locus": "f103v.14",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 4,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokeedy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "sho",
+              "next_literal": "shedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ]
+        }
+      },
+      "notes": [
+        "Readers are alternate readings of one manuscript, not independent confirmations.",
+        "Positions are source locus edges, not grammatical sentence boundaries.",
+        "Literal neighbours include uncertain spaces; inspect preserved separators.",
+        "One-edit neighbours are raw spellings, not established morphemes or variants.",
+        "Strata report source metadata without imputing unknown values.",
+        "Page counts are admitted selectors, not independent physical leaves.",
+        "Rank is one plus the number of strictly more frequent exact types; ties share a rank.",
+        "Examples are deterministically bounded; occurrences() returns every case."
+      ],
+      "prior_evidence": [
+        {
+          "id": "WE009",
+          "forms": [
+            "*"
+          ],
+          "kind": "observation",
+          "statement": "GDT608 findet in seinen 64 eingefrorenen BPE-Zusammensetzungen gerichtete formale Kompositionsstruktur. Das unveränderte Komponentenmodell schlägt Global- und Umkehrmodell auf allen 23 Prüfblättern; die gelernte Gesamtform bleibt auf allen 23 besser und trägt zusätzliche Information.",
+          "scope": "Die eingefrorenen GDT605/GDT606-Einheiten, Merge-Kanten und 68/23-Blattteilung. Diese Merkmale betreffen Außenkanten und Kontextprofile, keine bereits identifizierten sprachlichen Morpheme.",
+          "dependencies": [
+            "BPE-Einheiten und Kollapszeichen sind analystisch gelernte formale Einheiten.",
+            "Position und Kontext sind Teil der beobachteten Struktur."
+          ],
+          "implication": "Neue Lesungen müssen sowohl wiederverwendbare Teile und ihre Reihenfolge als auch belegte Eigenheiten der Gesamtform berücksichtigen. Eine beliebige reine Präfixbedeutung oder vollständige freie Ganzwortliste ist dadurch noch nicht ausgewählt.",
+          "does_not_establish": [
+            "Keine bestätigte linguistische Morphologie, kein Lautalphabet und keine Wortbedeutung.",
+            "Keine universelle Lösch-, Präfix- oder Suffixregel aus diesem Strukturtest."
+          ],
+          "sources": [
+            {
+              "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+              "line_start": 7,
+              "line_end": 44,
+              "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+            },
+            {
+              "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+              "line_start": 46,
+              "line_end": 51,
+              "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+            }
+          ]
+        }
+      ],
+      "history_coverage": "CURATED_SUBSET_NOT_EXHAUSTIVE",
+      "further_history_commands": [
+        "./vmanus-work ideas search qokeedy"
+      ],
+      "history_navigation": {
+        "results": [
+          {
+            "id": "HIST:395e60619ad3d440",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "SIDEQUEST_scribe_workshop_qokeedy_linked_cell_iteration",
+            "summary": "A forty-sixth iteration counts QOKEEDY twenty-one times but only three locus-initial and only one immediately after standalone DY; f83r.30 S or joined S plus OKEEDY followed by QOKEEDY QOKY SAII motivates a model line where S resumes an OKEE-DY cell and Q fra…",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "IDEA000283",
+            "kind": "idea",
+            "scope": "semantic",
+            "submitted_scope": "semantic",
+            "title": "RAW_UNSCREENED: qoker/qokeedy rahmen olkain-olshedy als Paar",
+            "summary": "RAW_UNSCREENED: f80v.33 places qokeedy/qoker immediately before olkain olshedy, while f77r.23 and f85r1.4 repeat olshedy qokeedy; a qok frame may select a two-form content pair, against a stock phrase or independent-word account.",
+            "verdict": "not_tested",
+            "review": "curated",
+            "blockers": [
+              "missing_discriminating_prediction"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "IDEA000278",
+            "kind": "idea",
+            "scope": "semantic",
+            "submitted_scope": "semantic",
+            "title": "RAW_UNSCREENED: qoteedy-qokeedy ordnet Eigenschaft und Vorgang",
+            "summary": "RAW_UNSCREENED: In den sechs gebundenen Absätzen könnte qoteedy einen Zustand/Parameter desselben Inhaltskopfs markieren, während qokeedy den anschließenden Vorgang markiert; keine Bedeutung eines Einzelworts ist bestätigt.",
+            "verdict": "not_tested",
+            "review": "curated",
+            "blockers": [
+              "missing_discriminating_prediction"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "GDT1342",
+            "kind": "attempt",
+            "scope": "method",
+            "title": "Does every strict qoky have an earlier exact qokey/qokeey/qokedy/qokeedy on its whole prose page, retaining uncertain prefixes?",
+            "summary": "Does every strict qoky have an earlier exact qokey/qokeey/qokedy/qokeedy on its whole prose page, retaining uncertain prefixes?",
+            "verdict": "refuted_specific_model",
+            "review": "curated",
+            "blockers": [
+              "reliable_prefix_missing_required_producer"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "IDEA000852",
+            "kind": "idea",
+            "scope": "semantic",
+            "submitted_scope": "semantic",
+            "title": "FR exploratory fresh preparation / Paint processing pair across initial and medial QOKEEDY",
+            "summary": "Separate partial C0: two whole-word changes, zero-input fresh Paint and Paint-only homogenization;101 primary groups retained,36 unbound,65 alternative groups uninterpreted. Concrete queue/application chronology checked; unsupported spreading prose rejected. …",
+            "verdict": "inconclusive",
+            "review": "curated",
+            "blockers": [
+              "whole_reading_incomplete",
+              "missing_meaning_binding",
+              "unsupported_connected_rendering"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "GDT1274",
+            "kind": "attempt",
+            "scope": "method",
+            "title": "Does the known qokeedy doublet force references of at least seven working units for a writer that always exploits a strictly shorter available refere…",
+            "summary": "Does the known qokeedy doublet force references of at least seven working units for a writer that always exploits a strictly shorter available reference, without disjoint modes or paragraph resets?",
+            "verdict": "supported_limited",
+            "review": "curated",
+            "blockers": [
+              "conditional_cost_and_availability_contract",
+              "working_unit_and_transcription_assumptions"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "HIST:3394069033b6a0c0",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "SIDEQUEST_scribe_workshop_construction_homography_iteration",
+            "summary": "Within the already selected f82r/f83r sample qokeedy qokedy and qoteedy behave as licensed q+host+DY closed cells while superficially similar chedy is parsed as nonclosing CHE+Y; the workshop reconstruction therefore moves from alphabetic suffixes to position…",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "IDEA000783",
+            "kind": "idea",
+            "scope": "semantic",
+            "submitted_scope": "semantic",
+            "title": "RAW UNREVIEWED: keey resumes a written qokeedy flow-event for a new whole WARM/SLOW causal assertion",
+            "summary": "RAW_UNREVIEWED_PARTIAL_C0. Within complete owned GDT943 contexts, retain qokeedy=FLOWS and let exact keey nominally resume the latest preceding exact qokeedy event in the same paragraph. A whole f80r.20 draft says that flow of warm material is slow because a …",
+            "verdict": "not_tested",
+            "review": "curated",
+            "blockers": [
+              "missing_bound_event_identity"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          }
+        ],
+        "matched": 83,
+        "limit": 8,
+        "offset": 0,
+        "next_offset": 8,
+        "meaning": "lexical navigation; no novelty, duplicate identity, or rerun approval"
+      },
+      "selection_obligations": [
+        "distribution",
+        "repetition_and_position",
+        "constructions",
+        "form_relations",
+        "grammar",
+        "meaning_discriminator"
+      ]
+    },
+    {
+      "form": "qokdy",
+      "matching": "exact_raw_group",
+      "editions": {
+        "ZL3b": {
+          "count": 4,
+          "total_groups": 32363,
+          "fraction": 0.00012359793591447022,
+          "rank": 831,
+          "pages_with_form": 4,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 1,
+                "total_groups": 5678
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 437
+              },
+              {
+                "value": "H",
+                "count": 2,
+                "total_groups": 10869
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1588
+              },
+              {
+                "value": "S",
+                "count": 1,
+                "total_groups": 11646
+              },
+              {
+                "value": "T",
+                "count": 0,
+                "total_groups": 2145
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9930
+              },
+              {
+                "value": "B",
+                "count": 4,
+                "total_groups": 22433
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 9177
+              },
+              {
+                "value": "2",
+                "count": 2,
+                "total_groups": 10163
+              },
+              {
+                "value": "3",
+                "count": 1,
+                "total_groups": 11720
+              },
+              {
+                "value": "5",
+                "count": 1,
+                "total_groups": 842
+              },
+              {
+                "value": "@",
+                "count": 0,
+                "total_groups": 461
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 48
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 397
+              },
+              {
+                "value": "P",
+                "count": 4,
+                "total_groups": 31918
+              }
+            ]
+          },
+          "positions": {
+            "start": 0,
+            "middle": 4,
+            "end": 0,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 4,
+            "repeated_lines": 0,
+            "adjacent_pairs": 0,
+            "max_per_line": 1
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "chd",
+                "count": 1
+              },
+              {
+                "form": "dyteey",
+                "count": 1
+              },
+              {
+                "form": "lchedy",
+                "count": 1
+              },
+              {
+                "form": "tedy",
+                "count": 1
+              }
+            ],
+            "next": [
+              {
+                "form": "chedy",
+                "count": 1
+              },
+              {
+                "form": "daiin",
+                "count": 1
+              },
+              {
+                "form": "shdy",
+                "count": 1
+              },
+              {
+                "form": "tshdy",
+                "count": 1
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokedy",
+              "count": 248
+            },
+            {
+              "form": "qoky",
+              "count": 135
+            },
+            {
+              "form": "qokey",
+              "count": 95
+            },
+            {
+              "form": "qody",
+              "count": 15
+            },
+            {
+              "form": "qokody",
+              "count": 7
+            },
+            {
+              "form": "qoedy",
+              "count": 5
+            },
+            {
+              "form": "qokady",
+              "count": 2
+            },
+            {
+              "form": "okdy",
+              "count": 1
+            }
+          ],
+          "spelling_neighbor_types_total": 14,
+          "examples": [
+            {
+              "source_group_id": "ZL3b|f105r.13|G002",
+              "edition": "ZL3b",
+              "page": "f105r",
+              "locus": "f105r.13",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "dyteey",
+              "next_literal": "chedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f46r.10|G005",
+              "edition": "ZL3b",
+              "page": "f46r",
+              "locus": "f46r.10",
+              "section": "H",
+              "currier": "B",
+              "hand": "2",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "chd",
+              "next_literal": "shdy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f48r.4|G008",
+              "edition": "ZL3b",
+              "page": "f48r",
+              "locus": "f48r.4",
+              "section": "H",
+              "currier": "B",
+              "hand": "5",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "tedy",
+              "next_literal": "tshdy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "ZL3b|f78v.16|G008",
+              "edition": "ZL3b",
+              "page": "f78v",
+              "locus": "f78v.16",
+              "section": "B",
+              "currier": "B",
+              "hand": "2",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "lchedy",
+              "next_literal": "daiin",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ]
+        },
+        "IT2a": {
+          "count": 4,
+          "total_groups": 31875,
+          "fraction": 0.00012549019607843137,
+          "rank": 848,
+          "pages_with_form": 4,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 1,
+                "total_groups": 5660
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 436
+              },
+              {
+                "value": "H",
+                "count": 2,
+                "total_groups": 10676
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1591
+              },
+              {
+                "value": "S",
+                "count": 1,
+                "total_groups": 11414
+              },
+              {
+                "value": "T",
+                "count": 0,
+                "total_groups": 2098
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9753
+              },
+              {
+                "value": "B",
+                "count": 4,
+                "total_groups": 22122
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 9021
+              },
+              {
+                "value": "2",
+                "count": 2,
+                "total_groups": 10051
+              },
+              {
+                "value": "3",
+                "count": 1,
+                "total_groups": 11516
+              },
+              {
+                "value": "5",
+                "count": 1,
+                "total_groups": 843
+              },
+              {
+                "value": "@",
+                "count": 0,
+                "total_groups": 444
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 50
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 392
+              },
+              {
+                "value": "P",
+                "count": 4,
+                "total_groups": 31433
+              }
+            ]
+          },
+          "positions": {
+            "start": 0,
+            "middle": 4,
+            "end": 0,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 4,
+            "repeated_lines": 0,
+            "adjacent_pairs": 0,
+            "max_per_line": 1
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "chd",
+                "count": 1
+              },
+              {
+                "form": "dyteey",
+                "count": 1
+              },
+              {
+                "form": "lchedy",
+                "count": 1
+              },
+              {
+                "form": "tedy",
+                "count": 1
+              }
+            ],
+            "next": [
+              {
+                "form": "chedy",
+                "count": 1
+              },
+              {
+                "form": "daiin",
+                "count": 1
+              },
+              {
+                "form": "shdy",
+                "count": 1
+              },
+              {
+                "form": "tshdy",
+                "count": 1
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokedy",
+              "count": 246
+            },
+            {
+              "form": "qoky",
+              "count": 138
+            },
+            {
+              "form": "qokey",
+              "count": 94
+            },
+            {
+              "form": "qody",
+              "count": 15
+            },
+            {
+              "form": "qokody",
+              "count": 9
+            },
+            {
+              "form": "qoedy",
+              "count": 4
+            },
+            {
+              "form": "qokoy",
+              "count": 2
+            },
+            {
+              "form": "okdy",
+              "count": 1
+            }
+          ],
+          "spelling_neighbor_types_total": 15,
+          "examples": [
+            {
+              "source_group_id": "IT2a|f105r.13|G002",
+              "edition": "IT2a",
+              "page": "f105r",
+              "locus": "f105r.13",
+              "section": "S",
+              "currier": "B",
+              "hand": "3",
+              "kind": "P",
+              "source_group_index": 2,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "dyteey",
+              "next_literal": "chedy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f46r.10|G005",
+              "edition": "IT2a",
+              "page": "f46r",
+              "locus": "f46r.10",
+              "section": "H",
+              "currier": "B",
+              "hand": "2",
+              "kind": "P",
+              "source_group_index": 5,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "chd",
+              "next_literal": "shdy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f48r.4|G008",
+              "edition": "IT2a",
+              "page": "f48r",
+              "locus": "f48r.4",
+              "section": "H",
+              "currier": "B",
+              "hand": "5",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 12,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "tedy",
+              "next_literal": "tshdy",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            },
+            {
+              "source_group_id": "IT2a|f78v.16|G007",
+              "edition": "IT2a",
+              "page": "f78v",
+              "locus": "f78v.16",
+              "section": "B",
+              "currier": "B",
+              "hand": "2",
+              "kind": "P",
+              "source_group_index": 7,
+              "source_group_count": 9,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "lchedy",
+              "next_literal": "daiin",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ]
+        },
+        "RF1b": {
+          "count": 1,
+          "total_groups": 31946,
+          "fraction": 3.130282351468102e-05,
+          "rank": 2285,
+          "pages_with_form": 1,
+          "pages_total": 179,
+          "strata": {
+            "section": [
+              {
+                "value": "B",
+                "count": 1,
+                "total_groups": 5701
+              },
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 441
+              },
+              {
+                "value": "H",
+                "count": 0,
+                "total_groups": 10550
+              },
+              {
+                "value": "P",
+                "count": 0,
+                "total_groups": 1592
+              },
+              {
+                "value": "S",
+                "count": 0,
+                "total_groups": 11546
+              },
+              {
+                "value": "T",
+                "count": 0,
+                "total_groups": 2116
+              }
+            ],
+            "currier": [
+              {
+                "value": "A",
+                "count": 0,
+                "total_groups": 9662
+              },
+              {
+                "value": "B",
+                "count": 1,
+                "total_groups": 22284
+              }
+            ],
+            "hand": [
+              {
+                "value": "1",
+                "count": 0,
+                "total_groups": 8920
+              },
+              {
+                "value": "2",
+                "count": 1,
+                "total_groups": 10116
+              },
+              {
+                "value": "3",
+                "count": 0,
+                "total_groups": 11625
+              },
+              {
+                "value": "5",
+                "count": 0,
+                "total_groups": 822
+              },
+              {
+                "value": "@",
+                "count": 0,
+                "total_groups": 463
+              }
+            ],
+            "kind": [
+              {
+                "value": "C",
+                "count": 0,
+                "total_groups": 51
+              },
+              {
+                "value": "L",
+                "count": 0,
+                "total_groups": 391
+              },
+              {
+                "value": "P",
+                "count": 1,
+                "total_groups": 31504
+              }
+            ]
+          },
+          "positions": {
+            "start": 0,
+            "middle": 1,
+            "end": 0,
+            "single": 0
+          },
+          "repetition": {
+            "lines_with_form": 1,
+            "repeated_lines": 0,
+            "adjacent_pairs": 0,
+            "max_per_line": 1
+          },
+          "neighbors": {
+            "previous": [
+              {
+                "form": "lchedy",
+                "count": 1
+              }
+            ],
+            "next": [
+              {
+                "form": "daiin",
+                "count": 1
+              }
+            ]
+          },
+          "spelling_neighbors": [
+            {
+              "form": "qokedy",
+              "count": 164
+            },
+            {
+              "form": "qoky",
+              "count": 124
+            },
+            {
+              "form": "qokey",
+              "count": 90
+            },
+            {
+              "form": "qody",
+              "count": 12
+            },
+            {
+              "form": "qokody",
+              "count": 7
+            },
+            {
+              "form": "qoedy",
+              "count": 3
+            },
+            {
+              "form": "qoldy",
+              "count": 2
+            },
+            {
+              "form": "okdy",
+              "count": 1
+            }
+          ],
+          "spelling_neighbor_types_total": 13,
+          "examples": [
+            {
+              "source_group_id": "RF1b|f78v.16|G008",
+              "edition": "RF1b",
+              "page": "f78v",
+              "locus": "f78v.16",
+              "section": "B",
+              "currier": "B",
+              "hand": "2",
+              "kind": "P",
+              "source_group_index": 8,
+              "source_group_count": 10,
+              "ivtff_group_raw": "qokdy",
+              "left_separator": "DEFINITE_SPACE",
+              "right_separator": "DEFINITE_SPACE",
+              "previous_literal": "lchedy",
+              "next_literal": "daiin",
+              "position": "middle",
+              "line_form_count": 1,
+              "previous_same": false,
+              "next_same": false
+            }
+          ]
+        }
+      },
+      "notes": [
+        "Readers are alternate readings of one manuscript, not independent confirmations.",
+        "Positions are source locus edges, not grammatical sentence boundaries.",
+        "Literal neighbours include uncertain spaces; inspect preserved separators.",
+        "One-edit neighbours are raw spellings, not established morphemes or variants.",
+        "Strata report source metadata without imputing unknown values.",
+        "Page counts are admitted selectors, not independent physical leaves.",
+        "Rank is one plus the number of strictly more frequent exact types; ties share a rank.",
+        "Examples are deterministically bounded; occurrences() returns every case."
+      ],
+      "prior_evidence": [
+        {
+          "id": "WE009",
+          "forms": [
+            "*"
+          ],
+          "kind": "observation",
+          "statement": "GDT608 findet in seinen 64 eingefrorenen BPE-Zusammensetzungen gerichtete formale Kompositionsstruktur. Das unveränderte Komponentenmodell schlägt Global- und Umkehrmodell auf allen 23 Prüfblättern; die gelernte Gesamtform bleibt auf allen 23 besser und trägt zusätzliche Information.",
+          "scope": "Die eingefrorenen GDT605/GDT606-Einheiten, Merge-Kanten und 68/23-Blattteilung. Diese Merkmale betreffen Außenkanten und Kontextprofile, keine bereits identifizierten sprachlichen Morpheme.",
+          "dependencies": [
+            "BPE-Einheiten und Kollapszeichen sind analystisch gelernte formale Einheiten.",
+            "Position und Kontext sind Teil der beobachteten Struktur."
+          ],
+          "implication": "Neue Lesungen müssen sowohl wiederverwendbare Teile und ihre Reihenfolge als auch belegte Eigenheiten der Gesamtform berücksichtigen. Eine beliebige reine Präfixbedeutung oder vollständige freie Ganzwortliste ist dadurch noch nicht ausgewählt.",
+          "does_not_establish": [
+            "Keine bestätigte linguistische Morphologie, kein Lautalphabet und keine Wortbedeutung.",
+            "Keine universelle Lösch-, Präfix- oder Suffixregel aus diesem Strukturtest."
+          ],
+          "sources": [
+            {
+              "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+              "line_start": 7,
+              "line_end": 44,
+              "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+            },
+            {
+              "path": "experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md",
+              "line_start": 46,
+              "line_end": 51,
+              "sha256": "7c59478cdd9e9a7d4c4a3bda6c369892411f7830aefc49b3dce9a041d4e8c501"
+            }
+          ]
+        }
+      ],
+      "history_coverage": "CURATED_SUBSET_NOT_EXHAUSTIVE",
+      "further_history_commands": [
+        "./vmanus-work ideas search qokdy"
+      ],
+      "history_navigation": {
+        "results": [
+          {
+            "id": "HIST:e5d188a15b4b082c",
+            "kind": "history",
+            "scope": "unknown",
+            "title": "SIDEQUEST_semantic_ok_duration_endpoint_grid_six_hundred_fifty_sixth",
+            "summary": "23 OK cards79 events;core7 cards41 events in8-cell grid with6 attested+2 predicted;22 active Y events versus19 closed DY events all19 statement-final;M09 two open+two closed choices;qokeeey predicted full-active and qokdy surface-uncertain ungraded close",
+            "verdict": "unreviewed",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "IDEA001116",
+            "kind": "idea",
+            "scope": "method",
+            "submitted_scope": "method",
+            "title": "RAW UNASSESSED: one seven-case partial writer maps three historical past-form alternatives to the QOK dy/e-dy/ee-dy family",
+            "summary": "A source-form construction only, fitted after knowledge of native spellings. Two main-text Tuhfet past variants and one edition-only interlinear variant share a seven-case positional merger writer. Two further constructed input strings emit qoky/qokey. No lan…",
+            "verdict": "untested",
+            "review": "imported_unreviewed",
+            "blockers": [],
+            "signals": [],
+            "reopen_policy": "unreviewed"
+          },
+          {
+            "id": "IDEA001063",
+            "kind": "idea",
+            "scope": "semantic",
+            "submitted_scope": "semantic",
+            "title": "RAW: one fixed internal e-slot writes powers of a shared operation, with two prospectively distinct zero baselines",
+            "summary": "RAW_UNREVIEWED_NOT_SELECTED. Refine the old e-count grade/iteration suggestion into an exact shared-function law: a fixed whole-form frame P e^n S denotes F_frame^(n+delta), with delta globally fixed to 0 or 1 as two separate full-family alternatives. Differe…",
+            "verdict": "not_tested",
+            "review": "curated",
+            "blockers": [
+              "native_power_and_state_binding_unidentified"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "IDEA000977",
+            "kind": "idea",
+            "scope": "method",
+            "submitted_scope": "method",
+            "title": "RAW INCOMPLETE: repeated-label state walk carries source characters through local branch choices",
+            "summary": "RAW_UNREVIEWED_NOT_SELECTED_NOT_TESTED. Replace whole-word ordinal lookup by a continuous source-character channel. One fixed circular chart may repeat visible working signs at different internal positions; a reader tracks the exact position, not merely the l…",
+            "verdict": "inconclusive",
+            "review": "curated",
+            "blockers": [
+              "missing_complete_chart_writer",
+              "conditional_internal_continuity",
+              "unbounded_chart_fit_not_identifying",
+              "internal_zero_source_obligation"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          },
+          {
+            "id": "IDEA001005",
+            "kind": "idea",
+            "scope": "structural",
+            "submitted_scope": "structural",
+            "title": "RAW NATIVE-INFORMED: homologous internal run lengths distinguish copying a chosen spelling from rebuilding two similar parts",
+            "summary": "Exploratory structural hypothesis grounded in the retained B/By/Bdy/BBdy families, exact word profiles, stable e/i lengths and local spelling-choice limits. Under one deliberately narrow echo-family contract, a writer first chooses a complete written body, co…",
+            "verdict": "inconclusive",
+            "review": "curated",
+            "blockers": [
+              "no_eligible_inner_run_opportunity",
+              "same_source_identity_unbound"
+            ],
+            "signals": [],
+            "reopen_policy": "conditional"
+          }
+        ],
+        "matched": 5,
+        "limit": 8,
+        "offset": 0,
+        "next_offset": null,
+        "meaning": "lexical navigation; no novelty, duplicate identity, or rerun approval"
+      },
+      "selection_obligations": [
+        "distribution",
+        "repetition_and_position",
+        "constructions",
+        "form_relations",
+        "grammar",
+        "meaning_discriminator"
+      ]
+    }
+  ],
+  "predictions": [],
+  "surface_decision": "NO_TESTABLE_PREDICTIONS",
+  "unreviewed_relevant_evidence": [],
+  "obligations": {
+    "qokedy": {
+      "unaddressed": [
+        "distribution",
+        "repetition_and_position",
+        "constructions",
+        "grammar",
+        "meaning_discriminator"
+      ],
+      "author_accounts": {
+        "distribution": {
+          "status": "unaddressed",
+          "note": "Existing wholeform counts/dispersion read per reader. The broad profiles do not select a narrow historical odorverb; no source distributionmodel."
+        },
+        "repetition_and_position": {
+          "status": "unaddressed",
+          "note": "Frequent exact repeats remain, including known f75r38AABBA. Fivepastforms follow only under extra fittedpreimage selection, not fromcodealone. Physical edges are not sentence boundaries."
+        },
+        "constructions": {
+          "status": "unaddressed",
+          "note": "The complete exposed120group ITparagraph is retained. Threefittedoutputtypesoccur14times, additionalconstructedstringoutputs4times; these are not18translatedpositions.102othergroupsremain outside that outputlist."
+        },
+        "form_relations": {
+          "status": "hypothesis",
+          "note": "One seven-case partial writer fits3correlatedhistorical forms and2furtherconstructedstemstrings. Sourceletter mergers/positionalcases were chosen after knowing nativeforms."
+        },
+        "grammar": {
+          "status": "unaddressed",
+          "note": "No nativepasttense, lexicalroot, free-dyfunction, originalwordboundary or sourcegrammar selected. Alphabet/inverseincomplete."
+        },
+        "meaning_discriminator": {
+          "status": "unaddressed",
+          "note": "A historical sourcevariantset plus retrospectiveformfit does not identify sourcepreimages or prefer thislanguage/content. No wordmeaningadopted."
+        }
+      },
+      "account_validation": "AUTHOR_ASSERTIONS_NOT_AUTOMATICALLY_VERIFIED"
+    },
+    "qokeedy": {
+      "unaddressed": [
+        "distribution",
+        "repetition_and_position",
+        "constructions",
+        "grammar",
+        "meaning_discriminator"
+      ],
+      "author_accounts": {
+        "distribution": {
+          "status": "unaddressed",
+          "note": "Existing wholeform counts/dispersion read per reader. The broad profiles do not select a narrow historical odorverb; no source distributionmodel."
+        },
+        "repetition_and_position": {
+          "status": "unaddressed",
+          "note": "Frequent exact repeats remain, including known f75r38AABBA. Fivepastforms follow only under extra fittedpreimage selection, not fromcodealone. Physical edges are not sentence boundaries."
+        },
+        "constructions": {
+          "status": "unaddressed",
+          "note": "The complete exposed120group ITparagraph is retained. Threefittedoutputtypesoccur14times, additionalconstructedstringoutputs4times; these are not18translatedpositions.102othergroupsremain outside that outputlist."
+        },
+        "form_relations": {
+          "status": "hypothesis",
+          "note": "One seven-case partial writer fits3correlatedhistorical forms and2furtherconstructedstemstrings. Sourceletter mergers/positionalcases were chosen after knowing nativeforms."
+        },
+        "grammar": {
+          "status": "unaddressed",
+          "note": "No nativepasttense, lexicalroot, free-dyfunction, originalwordboundary or sourcegrammar selected. Alphabet/inverseincomplete."
+        },
+        "meaning_discriminator": {
+          "status": "unaddressed",
+          "note": "A historical sourcevariantset plus retrospectiveformfit does not identify sourcepreimages or prefer thislanguage/content. No wordmeaningadopted."
+        }
+      },
+      "account_validation": "AUTHOR_ASSERTIONS_NOT_AUTOMATICALLY_VERIFIED"
+    },
+    "qokdy": {
+      "unaddressed": [
+        "distribution",
+        "repetition_and_position",
+        "constructions",
+        "grammar",
+        "meaning_discriminator"
+      ],
+      "author_accounts": {
+        "distribution": {
+          "status": "unaddressed",
+          "note": "Existing wholeform counts/dispersion read per reader. The broad profiles do not select a narrow historical odorverb; no source distributionmodel."
+        },
+        "repetition_and_position": {
+          "status": "unaddressed",
+          "note": "Frequent exact repeats remain, including known f75r38AABBA. Fivepastforms follow only under extra fittedpreimage selection, not fromcodealone. Physical edges are not sentence boundaries."
+        },
+        "constructions": {
+          "status": "unaddressed",
+          "note": "The complete exposed120group ITparagraph is retained. Threefittedoutputtypesoccur14times, additionalconstructedstringoutputs4times; these are not18translatedpositions.102othergroupsremain outside that outputlist."
+        },
+        "form_relations": {
+          "status": "hypothesis",
+          "note": "One seven-case partial writer fits3correlatedhistorical forms and2furtherconstructedstemstrings. Sourceletter mergers/positionalcases were chosen after knowing nativeforms."
+        },
+        "grammar": {
+          "status": "unaddressed",
+          "note": "No nativepasttense, lexicalroot, free-dyfunction, originalwordboundary or sourcegrammar selected. Alphabet/inverseincomplete."
+        },
+        "meaning_discriminator": {
+          "status": "unaddressed",
+          "note": "A historical sourcevariantset plus retrospectiveformfit does not identify sourcepreimages or prefer thislanguage/content. No wordmeaningadopted."
+        }
+      },
+      "account_validation": "AUTHOR_ASSERTIONS_NOT_AUTOMATICALLY_VERIFIED"
+    }
+  },
+  "semantic_decision": "NO_AUTOMATIC_MEANING_PREFERENCE",
+  "selection_status": "NOT_READY_FOR_PREFERENCE",
+  "claim_ceiling": "Descriptive exposed-data audit. Physical lines are not sentences. A rule violation contradicts only the declared conjunction of assumptions. Compatibility, word frequency, spelling similarity and formal roles do not identify a meaning. Readers are alternatives, not independent evidence. No significance, calibrated probability or confirmed translation.",
+  "contract_sha256": "9ee3f13b103aec44238c2292fac68e749b123fa14df782dd3e36abf2a3db1a0e"
+}

@@ -1,0 +1,115 @@
+{
+  "title": "RAW UNASSESSED: one seven-case partial writer maps three historical past-form alternatives to the QOK dy/e-dy/ee-dy family",
+  "summary": "A source-form construction only, fitted after knowledge of native spellings. Two main-text Tuhfet past variants and one edition-only interlinear variant share a seven-case positional merger writer. Two further constructed input strings emit qoky/qokey. No language, phoneme, source-preimage or word meaning is selected; the known full-paragraph repetition and incomplete inverse remain obligations.",
+  "scope": "method",
+  "status": "RAW_UNASSESSED_NOT_SELECTED",
+  "design": {
+    "source_normalization": {
+      "operation": "lowercase, foldḳtokandıtoi; no other normalizations",
+      "source_basis": "research_registry/proposals/production_origin_supply_20261003/TUHFET_ORIGINAL_VARIANTS_20261017.md",
+      "source_basis_sha256": "99852a7a6cde09dd725f4d15fa92c4e9b99423b0c2bba3a41e7edd65a6a6a397"
+    },
+    "writer_cases": [
+      {
+        "source": "k atwordstart",
+        "emit": "q"
+      },
+      {
+        "source": "k otherwise",
+        "emit": "k"
+      },
+      {
+        "source": "o",
+        "emit": "o"
+      },
+      {
+        "source": "s",
+        "emit": "e"
+      },
+      {
+        "source": "d or t",
+        "emit": "d"
+      },
+      {
+        "source": "u or i atwordend",
+        "emit": "y"
+      },
+      {
+        "source": "u or i otherwise",
+        "emit": "e"
+      }
+    ],
+    "unassigned_policy": "AllotherlettersandanyunprovidedorthographyremainUNASSIGNED; no null emission, inverseguess or case-specific word exception.",
+    "fitted_inputs": [
+      {
+        "source": "kokudı",
+        "normalized": "kokudi",
+        "output": "qokedy",
+        "support": "main-text alternative, one lexicalentry"
+      },
+      {
+        "source": "koksudı",
+        "normalized": "koksudi",
+        "output": "qokeedy",
+        "support": "main-text alternative, SAMElexicalentry"
+      },
+      {
+        "source": "koktı",
+        "normalized": "kokti",
+        "output": "qokdy",
+        "support": "edition-supported interlinear form, not ourdirect ink confirmation"
+      }
+    ],
+    "additional_inputs": [
+      {
+        "source": "koku",
+        "output": "qoky",
+        "support": "constructed normalized stem string; not a here-attested imperative or independent historicalword"
+      },
+      {
+        "source": "koksu",
+        "output": "qokey",
+        "support": "constructed normalized stem string; not a here-attested imperative or independent historicalword"
+      }
+    ],
+    "selection_disclosure": "Source forms and table were compared after native forms were historically exposed. Threecorrelatedsourceformsarenotthreeindependent semantic anchors; twoextraoutputsnotblindpredictions.",
+    "unpaid_costs": [
+      "The conditional k-position codes and s/high-vowel and d/t mergers are chosen fit parameters, not historically identified Voynichsoundvalues.",
+      "Only seven normalized sourceletters/six outputunits paid; no complete sourcealphabet or manuscriptword coverage.",
+      "Partial code has ambiguous inverse; no complete historical lexicon/grammar or encodingvariantchoice law.",
+      "Historical same-entry variants do not prove native qokedy/qokeedy are synonyms or share a lemma.",
+      "No bound dy tense or free-dy meaning; standalone forms are separate from embeddedstrings.",
+      "Other QOKforms and DALfamily do not acquire sourceforms or meanings."
+    ],
+    "known_context_consequence": {
+      "source_primary": "experiments/yolo/gdt1388_modular_paragraph_vocabulary_support/REPORT.md",
+      "native": "IT/ZLf75r.38 begins qokeedy qokeedy qokedy qokedy qokeedy",
+      "conditional_only": "If one ALSO chooses exactly the fitted historical sourcepreimages, this is five variants ofone past-verbentry. The partialcode alone does not force those preimages.",
+      "limit": "Repetition/metalinguistic lists or other readings are possible; no grammar/language exclusion. Under this unselected lexical reading, an actual whole-content explanation is missing."
+    },
+    "decision": "Retain raw sourceconstruction with no native lexical preference; do not build decoder, fill new letters, addglosses or declare reading from five fits.",
+    "inclusive_budget": "2026-10-17T16:21:48Z–17:01:48Z covers priorreview/manualconstruction/existingprofileaudit/publication. No substantialcontrol/decoder/infrastructure selected because five outputs would not change missing semanticbinding decision."
+  },
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "IDEA001108"
+    },
+    {
+      "type": "related_to",
+      "target": "IDEA001114"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT1342"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT1388"
+    },
+    {
+      "type": "related_to",
+      "target": "GDT787"
+    }
+  ]
+}
