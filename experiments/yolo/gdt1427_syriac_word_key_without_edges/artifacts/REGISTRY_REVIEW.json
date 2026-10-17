@@ -1,0 +1,74 @@
+{
+  "record_id": "GDT1427",
+  "scope": "method",
+  "verdict": "refuted_specific_model",
+  "reviewer": "root with independent preselection/static certificate and scope reviews",
+  "reason": "Same fixed Syriac vocabulary and unchanged fullIT59packet, onlysourceedgesremoved; bothactualcontrolsSAT andbothnativeenginesexhaustiveUNSAT. Individualwordcompatibilitydoesnotyieldoneglobalforwardtable.",
+  "assessment_basis": "Public preregistration before both controls/nativecalls; frozen inputs andunchanged independentBoolean/rowDFS; direct full control certificates and static replay.",
+  "blockers": [
+    {
+      "code": "fixed_shared_forward_table_contradiction",
+      "detail": "2133sourceforms/23sourceletters/22workingunits/FWD/group=sourceword/full59jointcapacity fails evenwithoutsourcebigrams; no cap.",
+      "evidence": [
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/FINAL_DECISION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/GATE_VALIDATION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/EXECUTION_RECEIPT.json"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "GDT1426",
+      "evidence": [
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/FINAL_DECISION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/GATE_VALIDATION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/EXECUTION_RECEIPT.json"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "GDT1424",
+      "evidence": [
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/FINAL_DECISION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/GATE_VALIDATION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/EXECUTION_RECEIPT.json"
+      ]
+    },
+    {
+      "type": "related_to",
+      "target": "GDT1421",
+      "evidence": [
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/FINAL_DECISION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/GATE_VALIDATION.json",
+        "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/EXECUTION_RECEIPT.json"
+      ]
+    }
+  ],
+  "reopen": {
+    "policy": "do_not_repeat_same_model",
+    "all_of": [
+      {
+        "change": "new_data",
+        "detail": "Independently justified new source or writing contract plus genuinely distinguishing prediction, reviewed separately; retain this failed finite conjunction.",
+        "evidence": [
+          "experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md",
+          "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/FINAL_DECISION.json",
+          "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/GATE_VALIDATION.json",
+          "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/EXECUTION_RECEIPT.json"
+        ]
+      }
+    ],
+    "not_sufficient": [
+      "A larger time/node cap for exhaustive negatives",
+      "Adding ad hoc source words or changing units after failure",
+      "One local source word or invented native meaning",
+      "Treating a known-message ANY-key control as a translation",
+      "Automatically cycling another vocabulary without a research consequence"
+    ]
+  }
+}

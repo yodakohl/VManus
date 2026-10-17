@@ -1,0 +1,37 @@
+{
+  "status": "PASS_INDEPENDENT_NO_EDGE_CERTIFICATE_ACCOUNTING",
+  "validator_sha256": "ffd0f54992ca4414aadaba50dfaa5538d605e5e99e9d0ec67c2014e211a16a5b",
+  "decision_sha256": "4656e299eff66f312f52ed293ac91ef32c091b6deb1e2361644a074386d94a0e",
+  "control_gate": {
+    "status": "PASS",
+    "reason": "BOTH_ANY_CERTIFICATES_VERIFIED",
+    "known_positive_result_invalid": false,
+    "primary_status": "SAT",
+    "independent_status": "SAT",
+    "control_groups": 32,
+    "control_input_sha256": "e89ca834b1c01d67fc62edaf5c073d197f8667df77730cf8bc9c72d39c2257b9",
+    "primary_sha256": "78308b5584b96b562a52a4505954455e9d4d578ef98a66e47cf3d3c430224141",
+    "independent_sha256": "93a0d3d9193f8fae71b4be96e593be20749bbaa87d6b11bb35d2a40ae55a27c8",
+    "lock_sha256": "1c6a45b6dcb345626d40c75a37104035fe52cc84d39c2f88cafd07d6f6448096",
+    "validator_sha256": "ffd0f54992ca4414aadaba50dfaa5538d605e5e99e9d0ec67c2014e211a16a5b",
+    "scope": "ANY-key capacity only; planted recovery and uniqueness are not established by this gate."
+  },
+  "native_engine_statuses": {
+    "primary": "UNSAT",
+    "independent": "UNSAT"
+  },
+  "full_inverse_keys": [],
+  "checks": [
+    "Pinned unchanged source W and native59 reconstructed",
+    "Original first32 source calibration and jmod20 key/groups independently checked",
+    "Both control solver outputs checked separately; no planted truth passed to solver",
+    "Every returned SAT key checked on all original word occurrences in FWD only",
+    "Native UNSAT effective only with both exhaustive results; UNKNOWN not a rejection",
+    "Each nativeSAT gets all frozen-vocabulary preimages per group and all59sourcepositions"
+  ],
+  "limits": [
+    "No source adjacency edges used, no source grammar or historical language selected.",
+    "Raw preimages are unassessed witnesses, not native word meanings; distinct returned keys are not merged.",
+    "Only pinned old1421 rowDFS imported; primaryBoolean compiler and currentrun.py not imported."
+  ]
+}

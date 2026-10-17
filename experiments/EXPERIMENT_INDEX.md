@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **1426**
-- Experiment-associated tracked files: **27,910** (2.4 GiB)
+- Experiment-associated tracked files: **27,919** (2.4 GiB)
 - Structured GDT337+ experiments: **1091**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT1427 | One Syriac word inventory and a common forward table without source edges | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md) | 11 | 33.4 KiB | 6 | STRUCTURED_YOLO |
+| GDT1427 | GDT1427 | `FIXED_SYRIAC_WORD_KEY_EXCLUDED` | [report](../experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md) | 20 | 53.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT1426 | GDT1426 | `FIXED_SYRIAC_REFERENCE_GRAPH_EXCLUDED` | [report](../experiments/yolo/gdt1426_syriac_medical_forward_key/REPORT.md) | 30 | 1.2 MiB | 5 | STRUCTURED_YOLO |
 | GDT1425 | GDT1425 | `CONTROL_UNKNOWN_FINAL_SHAPE_MODEL_UNTESTED` | [report](../experiments/yolo/gdt1425_hebrew_terminal_grapheme_core/REPORT.md) | 19 | 183.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT1424 | GDT1424 | `CONTROL_RECOVERED_NATIVE_DUAL_UNRESOLVED` | [report](../experiments/yolo/gdt1424_boolean_forward_core_capacity/REPORT.md) | 21 | 87.9 KiB | 3 | STRUCTURED_YOLO |
