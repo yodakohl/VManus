@@ -3,10 +3,10 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1433
-Latest decision: CS
-Working files: 1433
-Assumptions: bag
+Task: TZ
+Latest decision: hold
+Working files: TUHFET
+Assumptions: src
 Resume: select
 Running: none
 ## Structural baseline
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publiced29116d9.
+Public76d79561d.
