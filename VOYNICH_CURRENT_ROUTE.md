@@ -4,10 +4,10 @@ Updated: 2026-10-17
 Phase: exploration
 Status: checkpoint
 Task: 1116
-Latest decision: raw
+Latest decision: 2src
 Working files: TZ3
-Assumptions: fit
-Resume: select
+Assumptions: raw
+Resume: content
 Running: none
 ## Structural baseline
 Hierarchical spaces;directed parts;
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public55bd66dad.
+Publicd99978980.
