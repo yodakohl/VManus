@@ -1,0 +1,154 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One fixed edited Syriac vocabulary/IT59/source-to-working-unit function only; no grammar, key preference, historical language identification or native word meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1427_syriac_word_key_without_edges/src/run.py --gate",
+    "validate": "python3 experiments/yolo/gdt1427_syriac_word_key_without_edges/src/validate.py --validate"
+  },
+  "created": "2026-10-17",
+  "dependencies": [
+    "GDT985",
+    "GDT1129",
+    "GDT1418",
+    "GDT1421",
+    "GDT1424",
+    "GDT1426"
+  ],
+  "experiment_id": "GDT1427",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/METHOD.md",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "f0c41d790daef98b17bc839360d6a3b47c121cabd6aa2dd46750d1e19402c848"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/PREREGISTRATION.md",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "dd7aa3f61712d3eba5d31289cce50f28f085347ece7d3cc31026101dc25275ac"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/src/SPEC.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "95bd62561ff7f05d9e3b42a03b25a9deca23b3c1a9678d5cfb1c6ee0a553adff"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/SELECTION_REVIEW.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "3364ce8bbc1dcb6f4c5cb728071d50742dad7b16aab7ee716f984394204995ff"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/src/run.py",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "2c0619484c6b755f44f58928ffb936b54c9b1f4f78ad6e8e84ced4c2a62ec794"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/src/validate.py",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "ffd0f54992ca4414aadaba50dfaa5538d605e5e99e9d0ec67c2014e211a16a5b"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/artifacts/SOURCE_PROJECTION.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "718c066c834d8a35e3b3e524891dee6533bf7f10c8392433e4d70d64cd93caa6"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/artifacts/NATIVE_INPUT.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "e75a67cf91a082537a53b7ea9d404d76f83154c3998a922014c2936959b1249a"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/artifacts/CONTROL_INPUT.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "e89ca834b1c01d67fc62edaf5c073d197f8667df77730cf8bc9c72d39c2257b9"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/artifacts/SOURCE_VALIDATION.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "3191ccceac1134e73a6f20ab00297406f8f70758b767b884b9c5727aa52b1597"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/src/HUNAYNNET_aph_syr.xml",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "a311a9d4ddd257ec22dc7e2fd3ce20f15001aea10a89bb4b970be65298fd8c74"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/SOURCE_NOTICE.txt",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "2c13afb30e70ffa8048a0f7aa1d09b2dbaa13b3feb389c796017d0473b4cbfa6"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/METHOD.md",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "e06c535b0934cfe472b5297b3b97cafb72bf173065d251291c09f6e8629f836b"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/REPORT.md",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "5fe0bba2e23c82a5138338e3ddbfc55f123b4f13688147e0ed897ae7d4d5825e"
+    },
+    {
+      "path": "experiments/yolo/gdt1426_syriac_medical_forward_key/artifacts/POST_RESULT_UNKEYED_PREFIX.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "2c287bd1afbce99cf7a01301e1dd96bf374c5c3389d2f688f77dd753f44f6687"
+    },
+    {
+      "path": "experiments/yolo/gdt1424_boolean_forward_core_capacity/src/run.py",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "071c58441be86df3667ceee1e681f85a7e8e1fad7733e23b141df5a5fd2eb7b2"
+    },
+    {
+      "path": "experiments/yolo/gdt1421_forward_merger_run_tail_core/src/run.py",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "cfa005f970f545f2cb939eccbf56f076f0ee85d9e99df0996beb81458545bbfd"
+    },
+    {
+      "path": "experiments/yolo/gdt1418_latent_source_bigram_key/src/run.py",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "2c3d2cabc962fe6aa2755b652dabbe0ee785542b83293d7e588e51f82bac54f8"
+    },
+    {
+      "path": "research_registry/proposals/production_origin_supply_20261003/ROLE_ENTITY_SOURCE_20261017.json",
+      "role": "Frozen protocol, unchanged source/control/native input or reused engine",
+      "sha256": "b4bb6319b95bc11121f269d626ee5b469acef79df35723359d7ab8cec121dd04"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/LOCK.json",
+      "role": "Registration/reproducibility artifact",
+      "sha256": "1c6a45b6dcb345626d40c75a37104035fe52cc84d39c2f88cafd07d6f6448096"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/README.md",
+      "role": "Registration/reproducibility artifact",
+      "sha256": "adf67deed1e8185bdc8564ec21f763d176eb15e2e4b1383cbc7a882f30c9b777"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/REPORT.md",
+      "role": "Registration/reproducibility artifact",
+      "sha256": "45437face4799b55299070930fe51b3821a695d2aaf5bbcdb5f4b9c9c8c04ecd"
+    },
+    {
+      "path": "experiments/yolo/gdt1427_syriac_word_key_without_edges/artifacts/README.md",
+      "role": "Registration/reproducibility artifact",
+      "sha256": "66529bc47977b56fe98bf0eacf1c31f345a2bed374b11bf7ec2f471c3c69a283"
+    }
+  ],
+  "question": "Can one source-letter-to-working-unit function cover all59unchanged ITf75v38–42groups using the exact2133word Syriac inventory without source-bigram constraints?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "syriac_word_key_without_edges",
+  "status": "REGISTERED_UNSCORED",
+  "title": "One Syriac word inventory and a common forward table without source edges",
+  "updated": "2026-10-17",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
