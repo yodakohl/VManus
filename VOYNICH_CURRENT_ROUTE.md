@@ -4,10 +4,10 @@ Updated: 2026-10-17.
 ## Work
 Phase: exploration
 Status: active
-Task: close
-Latest decision: 1418GFAIL
-Working files: 1418/REPORT.md
-Assumptions: 22?
+Task: qnew
+Latest decision: qNEWF
+Working files: QNEW.json
+Assumptions: raw
 Resume: await f14v
 Running: none
 
@@ -33,7 +33,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 GDT327/GDT336: historical; no access.
 
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -77,4 +77,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicd818b55d3.
+Publicc2ae250f6.
