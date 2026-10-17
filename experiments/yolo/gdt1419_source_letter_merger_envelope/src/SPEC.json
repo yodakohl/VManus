@@ -1,0 +1,50 @@
+{
+  "recipe_path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+  "deot_path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+  "other_path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+  "source_names": [
+    "b4",
+    "w1",
+    "bs1",
+    "gr1",
+    "deot",
+    "OLD_ITALIAN_UD_CONTROL",
+    "LATIN_PROIEL_CONTROL",
+    "ANCIENT_GREEK_PROIEL_CONTROL"
+  ],
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "native_path": "experiments/yolo/gdt1418_latent_source_bigram_key/artifacts/NATIVE_INPUT.json",
+  "group_correspondence": "One unchanged original IT2agroup equals one unchanged sourceword. Forward order only. No e/i collapse or any normalization.",
+  "source_function": "One fixed sourceUnicodecodepoint -> one workingunit; different sourcecodepoints maymerge.",
+  "relaxation": "Discard keyagreement BETWEEN words only; within each candidate sourceword enforce repeatedsourceletter=>same nativeunit. Then require path through inherited within-record sourcewordbigrams.",
+  "decision": "Any empty individualcandidate set or empty reachabilitylayer excludes the actual sharedforwardkey for that fixedW/77groups contract. Nonempty path is INCONCLUSIVE: no sharedkey or reading established. No automaticphase/null/boundary/corpusrepair.",
+  "budget": {
+    "start_utc": "2026-10-17T05:18:17Z",
+    "end_utc": "2026-10-17T05:48:17Z",
+    "minutes": 30,
+    "includes": "preparation, selectionreview, exact necessaryenvelope, independentvalidator, recording andpublication. No fullkeysolver ordecoder inthisblock."
+  }
+}

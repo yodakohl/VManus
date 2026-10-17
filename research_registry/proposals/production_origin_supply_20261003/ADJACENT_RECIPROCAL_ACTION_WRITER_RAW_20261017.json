@@ -1,0 +1,82 @@
+{
+  "title": "RAW UNREVIEWED: a doubled predicate writes two immediately opposed actions with the same explicit participants",
+  "summary": "A small source-content shorthand writes an adjacent pair P(A,B),P(B,A) as one derived predicate P-P with both names retained. It never turns two same-direction events into reciprocity. A mandatory left-to-right pairing rule and canonical readback make the restricted whole-message writer complete. The new retained contribution is this fixed production rule and its role-dependent consequences, not discovery of reciprocity or a native doubled-word meaning. No Voynich binding or22-sign carrier is supplied.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_RESTRICTED_CONTENT_WRITER_COMPLETE_NATIVE_CARRIER_OPEN",
+  "design": {
+    "human_rule": "If the next two recorded actions say that A does P to B and B then does the same P to A, write the action word twice as one compound and name A,B once. Otherwise write the action normally with both names. Read a doubled action as the two directions in that order, not the same direction twice.",
+    "source_domain": "A finite ordered log of actual positive directed interaction records (P,A,B). Each P is a taught binary action type with agent and receiver roles; A and B are taught persistent participant identities. Event occurrence and order are source information. Self-directed records may occur if meaningful for that source action, but are never compressed as reciprocal pairs. No unrecorded material, duration, negative assertion, purpose, passive agent or other argument is silently supplied. This is a restricted interaction log, not all natural prose or a machine instruction program.",
+    "paid_lexicon": "Fix public finite inventories before the message. Every primitive predicate has a distinct nonempty lowercase ASCII word containing only a-z; every participant has a distinct name matching [A-Z][a-z]*. Primitive predicate spellings contain no hyphen, period or whitespace. The inventories may be enlarged for a different source message, but no participant or meaning changes during one message. The single shared derived meaning of P-P is computed from P; it has no independently fitted whole-word gloss.",
+    "surface_grammar": "A record is exactly WORD SPACE AGENT SPACE RECEIVER PERIOD. WORD is either one admitted primitive root P or the exact compound P-P, with the same root on both sides of one hyphen. Names are always fully written. Use one space between completed records; physical wrapping is permitted only between records and carries no additional meaning. The empty source is written as the empty string. Other punctuation, unlisted names, mismatched compound halves and missing arguments are rejected. This paid teaching spelling is not asserted to be medieval orthography or a22-drawing script.",
+    "writer": [
+      "Start at the first source event. If it and the immediately following event have the same P, exchange exactly the same two participants, and those participants differ, emit P-P A B. Consume both events.",
+      "Otherwise emit P A B for the current event and consume only that event.",
+      "Continue without overlap until every event is written. Pairing is compulsory when eligible, not selected to make an output look better. There is no earlier-pattern lookup, hidden reset, new participant per word or choice of a convenient distant reverse event."
+    ],
+    "reader": [
+      "Parse the fixed record grammar and check every root and name against the public source inventories.",
+      "Expand simple P A B to exactly one event (P,A,B). Expand P-P A B, requiring A!=B, to exactly two events (P,A,B),(P,B,A), in that order. The first written participant therefore fixes the initiating direction.",
+      "Preserve every event occurrence and its position. Repeated simple or compound records are retained, not deduplicated.",
+      "Run the same fixed greedy writer on the expanded event sequence and require identical canonical record sequence. If it differs, reject the surface as a noncanonical spelling; do not alter participants or add events to make it legal."
+    ],
+    "inverse_reason": "Simple and compound predicates have disjoint syntax, and both participant identities remain explicit. Record expansion is unique. Every writer step consumes one source event or one eligible ordered pair and prints exactly the corresponding reversible record. The reader's canonical check prevents an alternative placement of pair boundaries from pretending to be another licensed spelling of the same event log.",
+    "complete_source_example": [
+      ["greet","Ada","Ben"],
+      ["greet","Ben","Ada"],
+      ["help","Ada","Ben"],
+      ["help","Ada","Ben"],
+      ["thank","Ben","Ada"],
+      ["warn","Ada","Cia"],
+      ["warn","Cia","Ada"],
+      ["help","Ben","Cia"],
+      ["help","Cia","Ben"],
+      ["greet","Ada","Ben"],
+      ["greet","Ben","Ada"]
+    ],
+    "complete_written_example": "greet-greet Ada Ben. help Ada Ben. help Ada Ben. thank Ben Ada. warn-warn Ada Cia. help-help Ben Cia. greet-greet Ada Ben.",
+    "readable_source_sense": "Ada greets Ben and Ben greets Ada back. Ada helps Ben twice; Ben then thanks Ada. Ada warns Cia and Cia warns Ada back. Ben helps Cia and Cia helps Ben back. Ada and Ben repeat their two directed greetings. The example vocabulary belongs only to the declared source, never to manuscript strings.",
+    "content_consumer": "A reader can ask whether the recorded log contains a help event from Ben to Ada. The example does not, even though help appears repeatedly: the two simple help records both run Ada-to-Ben, while the compound help record concerns Ben and Cia. Conversely greet-greet Ada Ben necessarily contains a Ben-to-Ada greeting. Treating the doubled predicate as two Ada-to-Ben actions answers that question incorrectly. Absence from this log is not a claim that an event never occurred outside it.",
+    "binding_consequences_and_countercases": [
+      "P A B followed by P A B is two same-direction occurrences, not P-P A B. The latter would invent the opposite direction. This is a participant-role difference, not a synonym or a free state function.",
+      "P A B followed by Q B A, with P!=Q, cannot fuse merely because the participants exchange roles. The action kind must also remain identical.",
+      "The sequence P(A,B),P(B,A),P(A,B) writes P-P A B. P A B. It must not be written P A B. P-P B A. Although both surfaces expand to the same three events, only the first obeys the declared greedy writer.",
+      "Equivalently, a simple output record may not be followed by a record whose first expanded event is its eligible reverse. This includes a following compound, not just a following simple record. This canonical seam obligation is a source-writing consequence; no native record boundaries are claimed.",
+      "A reciprocal compound requires the same two persistent identities. A second action by a different person or aimed at a different receiver cannot be hidden by treating similar names as identical.",
+      "Opposite actions are not physical inverses. Two opposite transfers, if admitted as a richer action type, would not by themselves restore composition, quantity or every property. This restricted binary log does not silently supply a transferred portion or other third argument.",
+      "A doubled compound repeated twice represents four ordered source events. Two repeated simple records can represent two same-direction source events. The code therefore retains irregular repetition without treating every visible repeat as the same semantic operation. No such rule is assigned to any native repetition."
+    ],
+    "why_this_is_content_not_only_relabeling": "The same derived constructor forces both directed roles of one learned action kind, and the written participant names determine the exact two events. Arbitrarily renaming opaque roots cannot turn the same-direction countercase into a reciprocal one while holding participants and the shared rule fixed. The reader reconstructs an interaction history, not an arbitrary independently chosen F_word or a list of unverifiable whole-word synonyms.",
+    "costs_and_native_limits": [
+      "Pay each primitive action's binary meaning and argument domains, every participant identity, word spellings, both explicit argument positions, hyphen/period/space grammar and the mandatory pairing rule. These are not learned from a desired manuscript story.",
+      "The rule is complete only for the stated positive binary-event log. It does not encode unrestricted tense, negation, reported speech, extra participants, exact times or natural-language wording. Those omitted domains are not silently translated into this restricted source.",
+      "No22-working-sign realization, native clause/argument boundary, root lexicon, glyph map or punctuation equivalent is provided. A direct application with exactly three source words per clause is not presumed to match native groups or lines. Historical plausibility of this exact shorthand remains unassessed.",
+      "Directed native parts, whole-form residuals and repetitions motivate retaining a shared-content alternative; they do not establish reciprocity, word reduplication semantics or equality of participants. No q, qo, dy, e/i run, doubled native stem or complete native word receives a value.",
+      "Old fixed source/code constraints remain. No new source corpus, dictionary, alternate alphabet, decoder, formal-fit claim or automatic native test is authorized by this card."
+    ],
+    "bounded_prior_review": {
+      "IDEA000785": "AG_ROOT_REVIEW.md was read. Its local reciprocal-transfer hypothesis already gives a meaningful directional obligation, but its shared material, two endpoints, positive force, clause scope and free-base uses remain unbound;296groups remain unknown in the wider account. The source example does not add those missing native arguments, adopt qoqokeey or reopen that local hypothesis. Reciprocity itself is not new.",
+      "IDEA000050": "Ordered inversion and semantic reciprocity were already distinguished. Swapping endpoints of one relation is different from asserting both directed events; the current writer explicitly requires both.",
+      "IDEA000955": "Counted nominal copies denote distinct members of a collection. The present doubled predicate denotes two ordered role-reversed events, not two objects or an ordinary plural. Its unpaid physical-carrier and native-binding limits remain.",
+      "IDEA001087_IDEA000976": "Agent-derived nominal references and active/passive normalization remain different source mechanisms. This writer does not select a unique agent from prior events or merely change the voice of one event; it packs two fully written events.",
+      "GDT1300_IDEA000986": "Greedy-pair canonicality is already known. This is not a new parsing theorem, a bitstream word generator, an additional context table or a repair of1300's failed shape screen.",
+      "novelty_limit": "Bounded root/pattern, reciprocity and canonical-pair searches plus duplicate navigation found those close predecessors. The retained increment is one complete mandatory adjacent-event writer with full participants and cross-record canonical readback, not novelty of reciprocals, linguistic reduplication or greedy parsing. No exact identical contract was found in the bounded review."
+    },
+    "primary_predecessor": "research_registry/proposals/laufenberg_f85r2_20260926/source_supply_20260929/AG_ROOT_REVIEW.md",
+    "claim_ceiling": "RAW_UNREVIEWED_SOURCE_ONLY. One complete restricted human-readable writing protocol and its conditional content consequences, not a native reading, statistical fit, selected experiment or historical-language identification."
+  },
+  "relations": [
+    {"type": "related_to", "target": "IDEA000785"},
+    {"type": "related_to", "target": "IDEA000050"},
+    {"type": "related_to", "target": "IDEA000955"},
+    {"type": "related_to", "target": "IDEA001087"},
+    {"type": "related_to", "target": "IDEA000976"},
+    {"type": "related_to", "target": "GDT1300"}
+  ],
+  "work_record": {
+    "first_tool_utc": "2026-10-17T05:12:36Z",
+    "development": "The first root/pattern direction was set aside as too close to earlier role nominalization. The single retained card follows a bounded duplicate check and the exact785primary warning. Root explicitly authorized retaining this one source-only card and then stopping.",
+    "access": "Current route/topic, bounded cards/duplicates and the named AG primary only. No new native data, image, corpus, external source, code, test, root result or decoder was opened or executed.",
+    "ownership": "Only this new own proposal and its normal ideas-add record; no changes to root route, ledger, old cards, implementation, results, refresh or publication.",
+    "review_status": "Unreviewed; no target prediction or empirical outcome claimed."
+  }
+}

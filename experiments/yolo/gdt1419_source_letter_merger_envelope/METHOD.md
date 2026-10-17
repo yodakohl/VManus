@@ -1,0 +1,15 @@
+# GDT1419 — source-directed letter-merger necessary envelope
+
+A simple writer always draws the same working sign for each source letter, while allowing different letters to share one sign. This is the opposite collision direction from1414/1382. Context may disambiguate a reading, but no such successful reading is assumed.
+
+Decision before execution: find whether the unchanged77raw ITf75v43–49 groups even permit a source-word path in any of the eight unchanged wordbooks. Same group equals same source-word boundary; fixed working22units, one source Unicode codepoint per unit, forward order, no e/i change, null, reversal, punctuation/case normalization, extra words or altered source. Source-word bigrams stay inside original records/sections/sentences.
+
+Smallest adequate test: for each position retain equal-length source words where every repeated SOURCE letter occupies equal native units. Different source letters may produce equal native units. Ignore all cross-word key consistency, then propagate exact source bigram reachability. Failure in this relaxed problem is sufficient for failure of a shared forward table. A surviving path is only INCONCLUSIVE and does not provide a key, unique inverse, grammatical passage or translated word. This test cannot prove a key exists.
+
+Positive knowledge: directed components and whole-form residual remain; no actual glyph/sound alphabet is identified. The tested working22units and all exact boundaries are assumptions. Existing raw native input and source bytes are reused; no new image, reserve or source admission.
+
+Predecessors:1414/1382 use native-sign-to-source functions;1418 uses an injective key and latent source word boundaries. None is silently repaired.1230 excludes injective previous-source-letter contextual permutations only. The period-two whole-word cube theorem requires fixed output by native atom/phase and does not apply to this inverse-ambiguous source-directed writer.1290/1225/1226 frequency bands do not universally exclude this local vocabulary selection. The old exact decisions remain. An auditor checked these collision directions and found no identical executed local77test in the targeted primaries; this is not proof of novelty across every history item.
+
+Budget05:18:17–05:48:17UTC,30minutes inclusive of preparation, source/predecessor checks, independent validation, closure and publication. A failed envelope closes this fixed8W case. Survivors only identify where a shared-table question remains; no full decoder automatically follows. No unchanged missing-input census or new control corpus.
+
+Source-free validation uses complete tiny function enumeration, both allowed merging and forbidden splitting, path fixtures and an explicit false-positive envelope: ab->xy and ac->zx are individually legal but share no fixed value for a. A validator must rebuild all source records and raw groups without importing the primary program. Hash lock precedes native measurements. All alleged source words remain unassessed candidates, not meanings of Voynich words.

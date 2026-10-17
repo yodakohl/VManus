@@ -1,0 +1,33 @@
+{
+  "experiment_id": "GDT1419",
+  "registered_utc": "2026-10-17T05:21:05.825878+00:00",
+  "timing": "Before all empirical candidate/graph measurements. Independent source-free controls ran during implementation before this commonlock, as disclosed in selectionreview.",
+  "files": {
+    "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e",
+    "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json": "b7f83818c3a2447593c45aef6eaeba592b6dd63264e77235005c97e78824a31d",
+    "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz": "b7e3d101c3c45ffab1200bb4ad9990d5e86841bec7a7c0cb415c553cf6583d73",
+    "experiments/yolo/gdt1418_latent_source_bigram_key/artifacts/NATIVE_INPUT.json": "dc3aa805398dbf1158ac159e9f9416e6426037e3d6ba342bbbfed3218d813622",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/README.md": "27a9ff5178ee40e1075f2f5c5ee055068be78d51bb481871f7040d1c5d888b7c",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/METHOD.md": "67e5413f708469705fc85e7a6d97febd76837549f43e2e2fe8b1200337cb885a",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/PREREGISTRATION.md": "a06205380b32611b1f9d580e3ad445683116721b2b0bce958abeffa67b83081e",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/artifacts/README.md": "a5d550995c6350ab2289cb34dce02c1462d621679de5a9386d07b4fc0d91c719",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/src/SPEC.json": "59df545d10a0ecfeb734cc2cd2c668552ebca894363d8c5fbd990a7c32d49071",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/src/run.py": "c1fd3612f384e8ee5663ec638ef992a53bbf6aa9aff7f4767ace30ac5a2cd3f3",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/src/validate.py": "34cb1056aa57efeeaf1b24844cb284959f6efca78167139e88413efc45f46932",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/src/SELECTION_REVIEW.json": "b8c62459046aed16fe7018113e26574d47f4fd8ee5ec4091d88d8c87c4ca57d5",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/LOCK_INITIAL.json": "b7b8603b36a55dadbb31930594a1ad991f7c285df0679f62cc475286d55181c8",
+    "experiments/yolo/gdt1419_source_letter_merger_envelope/LOCK_SYNTAX_FIXED.json": "e7ce8e493f479c967633ccd2722dbeffb4e04ca100a32df3c0fa2436401eed46"
+  },
+  "earlier_amendment": {
+    "registered_utc": "2026-10-17T05:21:19.410370+00:00",
+    "previous_lock_sha256": "b7b8603b36a55dadbb31930594a1ad991f7c285df0679f62cc475286d55181c8",
+    "previous_lock_path": "experiments/yolo/gdt1419_source_letter_merger_envelope/LOCK_INITIAL.json",
+    "reason": "Firstexecution stopped at parse-time SyntaxError in nested generator parentheses, before any program body or empirical input access. Replaced uniquenessassertion by equivalent explicit loop. No source/model/control change or native measurement."
+  },
+  "amendment": {
+    "registered_utc": "2026-10-17T05:21:50.059080+00:00",
+    "previous_lock_sha256": "e7ce8e493f479c967633ccd2722dbeffb4e04ca100a32df3c0fa2436401eed46",
+    "previous_lock_path": "experiments/yolo/gdt1419_source_letter_merger_envelope/LOCK_SYNTAX_FIXED.json",
+    "reason": "An extra per-position no-prefix-overlap assertion rejected s/sh although h is not a separate workingunit. This was stricter than fixedunit binding and not part of the model. Nativepacket/control code ran, but no source candidate computation occurred. Replaced assertion with exact equality to prospectively frozen original_units; rawjoins retained. No units or source/model/control choices changed."
+  }
+}

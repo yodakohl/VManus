@@ -1,14 +1,13 @@
 # Voynich current route
 Updated: 2026-10-17.
-
 ## Work
 Phase: idle
 Status: checkpoint
-Task: copy
-Latest decision: RAW
-Working files: F45COPY.json
+Task: 1419
+Latest decision: 6F2?
+Working files: REPORT.md
 Assumptions: raw
-Resume: 1104 binding
+Resume: b4/w1 key
 Running: none
 
 ## Structural baseline
@@ -29,7 +28,7 @@ No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
 Adjacency transfers Currier/section/hand; extra dir only Currier.
 915r/lknown+;916newFAIL;roles≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF unscorable.
-1076followerSTOP;1099reprise1;Confirmed lexemes: **0**
+1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 
 ## Decisions
@@ -77,4 +76,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public9b8985e37.
+Public5322e775a.

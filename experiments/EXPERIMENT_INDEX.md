@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1417**
-- Experiment-associated tracked files: **27,744** (2.4 GiB)
-- Structured GDT337+ experiments: **1082**
+- Experiments indexed: **1418**
+- Experiment-associated tracked files: **27,760** (2.4 GiB)
+- Structured GDT337+ experiments: **1083**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1419 | gdt1419_source_letter_merger_envelope | `SIX_FIXED_PATHS_EXCLUDED_TWO_INCONCLUSIVE` | [report](../experiments/yolo/gdt1419_source_letter_merger_envelope/REPORT.md) | 16 | 169.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1418 | gdt1418_latent_source_bigram_key | `ALL_SIXTEEN_FIXED_SOURCE_GRAPH_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1418_latent_source_bigram_key/REPORT.md) | 22 | 124.0 KiB | 10 | STRUCTURED_YOLO |
 | GDT1417 | gdt1417_unchanged_run_tail_core_capacity | `ALL_SIXTEEN_RUN_TAIL_ONLY_REPAIR_FAMILIES_EXCLUDED` | [report](../experiments/yolo/gdt1417_unchanged_run_tail_core_capacity/REPORT.md) | 19 | 83.8 KiB | 9 | STRUCTURED_YOLO |
 | GDT1416 | gdt1416_terminal_dy_shared_expansion_key | `ALL_SIXTEEN_LOCAL_TERMINAL_DY_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1416_terminal_dy_shared_expansion_key/REPORT.md) | 25 | 285.2 KiB | 8 | STRUCTURED_YOLO |

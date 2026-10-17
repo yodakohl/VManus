@@ -1,0 +1,51 @@
+{
+  "experiment_id": "GDT1419",
+  "status": "PASS_INDEPENDENT_ENVELOPE_RECONSTRUCTION",
+  "validator_sha256": "34cb1056aa57efeeaf1b24844cb284959f6efca78167139e88413efc45f46932",
+  "lock_sha256": "7858d46bda3e001791913a5b9eb4f121bf3a2ddaa2b4edeb68618d083f58f498",
+  "result_sha256": "3a507a0d9897c5860714f582610022ddf48d78580010942c73da2a9b8d031297",
+  "controls": {
+    "status": "PASS",
+    "complete_function_cases": 1555,
+    "graph_path_cases": 1024,
+    "allowed_merge_forbidden_split": true,
+    "envelope_false_positive_verified": true,
+    "primary_imported_or_read_for_implementation": false
+  },
+  "original_groups": 77,
+  "cases": [
+    {
+      "source": "b4",
+      "status": "RELAXED_PATH_EXISTS_NO_KEY_ESTABLISHED"
+    },
+    {
+      "source": "w1",
+      "status": "RELAXED_PATH_EXISTS_NO_KEY_ESTABLISHED"
+    },
+    {
+      "source": "bs1",
+      "status": "EXCLUDED_BY_NECESSARY_ENVELOPE"
+    },
+    {
+      "source": "gr1",
+      "status": "EXCLUDED_BY_NECESSARY_ENVELOPE"
+    },
+    {
+      "source": "deot",
+      "status": "EXCLUDED_BY_NECESSARY_ENVELOPE"
+    },
+    {
+      "source": "OLD_ITALIAN_UD_CONTROL",
+      "status": "EXCLUDED_BY_NECESSARY_ENVELOPE"
+    },
+    {
+      "source": "LATIN_PROIEL_CONTROL",
+      "status": "EXCLUDED_BY_NECESSARY_ENVELOPE"
+    },
+    {
+      "source": "ANCIENT_GREEK_PROIEL_CONTROL",
+      "status": "EXCLUDED_BY_NECESSARY_ENVELOPE"
+    }
+  ],
+  "scope": "Necessary per-word forward-function and source-bigram envelope only. No shared-key, inverse uniqueness, native meaning or source identity established. No primary implementation imported."
+}

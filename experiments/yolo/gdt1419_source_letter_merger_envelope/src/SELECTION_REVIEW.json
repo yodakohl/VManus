@@ -1,0 +1,30 @@
+{
+  "experiment_id": "GDT1419",
+  "status": "PROSPECTIVE_NECESSARY_ENVELOPE_REVIEW_ACCEPTED",
+  "access": "Read METHOD/SPEC; authored independent validator without reading or importing primary run.py. No empirical source/native inputs or candidate results read. Source-free controls executed during development before common lock.",
+  "pins": {
+    "METHOD.md": "67e5413f708469705fc85e7a6d97febd76837549f43e2e2fe8b1200337cb885a",
+    "src/SPEC.json": "59df545d10a0ecfeb734cc2cd2c668552ebca894363d8c5fbd990a7c32d49071",
+    "src/validate.py": "34cb1056aa57efeeaf1b24844cb284959f6efca78167139e88413efc45f46932"
+  },
+  "proof": [
+    "For a fixed forward function source-codepoint to native unit, equal source characters must have equal output units; distinct source characters may collide. Equal lengths and this one-way implication are necessary and sufficient for a per-word partial forward function.",
+    "Every shared forward-key complete reading supplies one candidate at every original group position. Its directed source-word edges form a path through candidate layers. Therefore an empty candidate or reachable layer excludes the shared-key conjunction.",
+    "The relaxation discards cross-word key agreement. A nonempty path need not admit a shared function: ab->xy followed by ac->zx is a witnessed false-positive envelope with incompatible a values."
+  ],
+  "scope": [
+    "All77original raw IT groups correspond one-to-one with source words, forward only. No run collapse, reversal, erased spaces within groups, nulls or letter insertion.",
+    "Source edges are restricted to inherited records/sections/sentence IDs; no invented cross-record edge.",
+    "1414/1382 collision direction is opposite. 1418 adds injectivity and latent boundaries. Neither old failure is silently reclassified.",
+    "Local finiteW failure is not a language-wide ban; survival does not establish a plaintext, deterministic inverse, source identity or writing-choice explanation."
+  ],
+  "source_free_development_controls": {
+    "complete_function_cases": 1555,
+    "graph_path_cases": 1024,
+    "allowed_merge_and_forbidden_split": true,
+    "global_function_false_positive": true,
+    "status": "PASS",
+    "timing": "Pre-common-lock implementation checks, not blind post-lock results; no empirical input accessed."
+  },
+  "necessary_corrections": []
+}
