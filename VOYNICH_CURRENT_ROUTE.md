@@ -3,18 +3,18 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1108
-Latest decision: RAW
-Working files: 1108
-Assumptions: src
-Resume: selection
+Task: 1433
+Latest decision: CS
+Working files: 1433
+Assumptions: bag
+Resume: select
 Running: none
 ## Structural baseline
 Hierarchical spaces;directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole+;1389bag+/order−;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
 852:gapdiff;1432:3dycompact/2dy?;1411:3pairs+/2?;meaning open.
-Unproved parser/alphabet;1321/1326/1327FAIL;1391stopFAIL.
+Parser/alphabet open;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
 1358cyclic/bag types retain97/82-83%.
@@ -30,7 +30,7 @@ pX/yX:1074five line-initial bases/projflags;1075withinregister;1073RF unscorable
 1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336:no access.
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF;1424C+/N?;1425capSTOP;1426G10F;1427keyF;1428IRF;1429NF;1430RF;1431CS;I1114CB.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF;1424C+/N?;1425capSTOP;1426G10F;1427keyF;1428IRF;1429NF;1430RF;1431CS;I1114CB;1433CS.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public24135db48.
+Publiced29116d9.

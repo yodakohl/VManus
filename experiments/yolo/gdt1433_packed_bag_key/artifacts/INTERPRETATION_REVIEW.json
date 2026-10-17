@@ -1,0 +1,39 @@
+{
+  "experiment_id": "GDT1433",
+  "status": "CONTROL_STOP_INTERPRETATION_VERIFIED_NO_NATIVE_FINDING",
+  "review_scope": "Read METHOD, SPEC, public-registration receipt, both recorded controls and gate plus original1431REPORT. No searches, source queries or solver runs by reviewer.",
+  "outcome": "Both actual32-group positive controls reach solving and return UNKNOWN(timeout). Gate STOP; zero native searches evidenced by absent RESULT/INDEPENDENT_RESULT at review. This is not UNSAT or a disproved known-positive certificate.",
+  "engineering_only": {
+    "primary_preparation_seconds": 0.8349903309717774,
+    "secondary_preparation_seconds": 0.7991221109987237,
+    "comparison": "Both1431builders stopped during20-second preparation before solving.1433 constructs its constraints in under one second but fails the same positive recovery gate during solving. This is preparation engineering improvement only."
+  },
+  "timing": {
+    "configured_solver_timeout_seconds": 20,
+    "primary_observed_solver_seconds": 22.106560309999622,
+    "secondary_observed_solver_seconds": 20.069809665961657,
+    "qualification": "Configured Z3 timeout is not an externally enforced exact wall-time ceiling. Preserve the reported overshoots; do not claim both searches finished within20wallseconds. Both remain UNKNOWN and neither licenses native work.",
+    "registration": "Recorded public push verification precedes both actual control start timestamps."
+  },
+  "arithmetic_scope": [
+    "Under recorded maximum word length14, each output-bin count is at most14. Base16 primary digits cannot carry; maximum nonnegative word sum is14*16^21 <16^22, so width88 suffices.",
+    "Independent unbounded integer base15 likewise exceeds each count and needs no bitvector overflow argument.",
+    "These are equivalent count representations under the stated full-word and sourceletter-domain restrictions; neither identifies actual manuscript units or phonemes.",
+    "Both encodings use Z3. Independently authored encodings are not independent solver backends."
+  ],
+  "preservation": [
+    "GDT1431 original preparation CONTROL_STOP remains unchanged;1433 does not supersede it.",
+    "No manuscript candidate, family exclusion, Syriac/language exclusion, source identification or word meaning follows.",
+    "The arbitrary-within-word-order fixed-source question remains untested on native text.",
+    "No third encoding, timeout increase, source replacement or automatic repair selected."
+  ],
+  "confirmed_words": 0,
+  "sha256": {
+    "experiments/yolo/gdt1433_packed_bag_key/METHOD.md": "e94b7363fa23e5da1fb55e2a41b4ca376043301ac80765e4ba1c44d9f8237f51",
+    "experiments/yolo/gdt1433_packed_bag_key/src/SPEC.json": "871492e43d3e43c4043ade8435048db13e08e0cd5fb7b1942e9b48b6ebcd42be",
+    "experiments/yolo/gdt1433_packed_bag_key/REGISTRATION_PUBLICATION.json": "8b60a72e7c65ea06761cd9710076168879cb4d09763ee263ab1ff8fd56e64cc6",
+    "experiments/yolo/gdt1433_packed_bag_key/artifacts/CONTROL_PRIMARY.json": "afcfbc97500b2356343db0c70d67144268c6cd2446c03149838efb28ccc515aa",
+    "experiments/yolo/gdt1433_packed_bag_key/artifacts/INDEPENDENT_CONTROL.json": "9a6ab5d82739de229ad147c9efc123c73b6c60aa236dc9c73f0509651fe3e732",
+    "experiments/yolo/gdt1433_packed_bag_key/artifacts/GATE_VALIDATION.json": "59921d732f323979a4dfef6930b5dd4bcf43662de2d0780c51c1489a7d770def"
+  }
+}

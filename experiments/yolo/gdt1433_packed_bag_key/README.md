@@ -1,6 +1,6 @@
-# GDT1433 — packed bag-key implementation
+# GDT1433 — packed bag-key control stop
 
-Status: REGISTERED_UNSCORED. One separately selected implementation alternative
-for the1431engineering stop, scientific inputs and20/20secondlimits unchanged.
-See METHOD, PREREGISTRATION, SPEC and the explicit selection note. No actual
-control or native solve yet; no word meanings. Both encodings use Z3.
+Status: CONTROL_STOP_NO_NATIVE_SEARCH. Both actual32group controls reached the
+solver after subsecond preparation, then returnedUNKNOWN. Native0; no key,
+word meaning or scientific exclusion. Read REPORT, METHOD and exact saved
+control/validation receipts.1431old preparation stop remains unchanged.
