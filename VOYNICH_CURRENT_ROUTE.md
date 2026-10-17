@@ -2,13 +2,13 @@
 Updated: 2026-10-17
 ## Work
 Phase: exploration
-Status: active
+Status: checkpoint
 Task: 1432
-Latest decision: registered
-Working files: G1432
+Latest decision: gap+
+Working files: 1432
 Assumptions: gaps
 Resume: GDT1432
-Running: root
+Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
@@ -23,11 +23,11 @@ I1016fixed paragraph nilpotentFAIL;I1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geomFAIL;1395iidNR.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
-No default Latin/phonetics;193/4local;1058k/t open;1350FAIL.
-Adjacency transfers Currier/section/hand; extra dir only Currier.
+No default Latin/phonetics;193/4local;1058k/topen;1350FAIL.
+Adjacency Currier/section/hand+;extra dir only Currier.
 915r/lknown+;916newFAIL;roles≠meaning/boundaries.
-pX/yX:1074five line-initial bases/projflags;1075within-register;1073RF unscorable.
-1076followerSTOP;1099reprise1;Lexemes: **0**
+pX/yX:1074five line-initial bases/projflags;1075withinregister;1073RF unscorable.
+1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336:no access.
 ## Decisions
 R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF;1424C+/N?;1425capSTOP;1426G10F;1427keyF;1428IRF;1429NF;1430RF;1431CS;I1114CB.
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publica63314f8d.
+Public8ef820371.
