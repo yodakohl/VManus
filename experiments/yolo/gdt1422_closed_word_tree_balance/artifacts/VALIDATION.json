@@ -1,0 +1,114 @@
+{
+  "experiment_id": "GDT1422",
+  "status": "PASS_INDEPENDENT_PROFILE_WITNESS_AND_LINEAR_CERTIFICATE",
+  "readers": [
+    {
+      "reader": "ZL3b",
+      "counts": {
+        "ol": 455,
+        "oldy": 25,
+        "ololdy": 2
+      },
+      "joined_ids": [
+        "ZL3b|f23r.1|G011",
+        "ZL3b|f34r.1|G007"
+      ]
+    },
+    {
+      "reader": "IT2a",
+      "counts": {
+        "ol": 456,
+        "oldy": 24,
+        "ololdy": 2
+      },
+      "joined_ids": [
+        "IT2a|f23r.1|G011",
+        "IT2a|f34r.1|G007"
+      ]
+    },
+    {
+      "reader": "RF1b",
+      "counts": {
+        "ol": 469,
+        "oldy": 18,
+        "ololdy": 2
+      },
+      "joined_ids": [
+        "RF1b|f23r.1|G009",
+        "RF1b|f34r.1|G007"
+      ]
+    }
+  ],
+  "proof": {
+    "forms": [
+      "ol",
+      "oldy",
+      "ololdy"
+    ],
+    "units": [
+      [
+        "o",
+        "l"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "y"
+      ],
+      [
+        "o",
+        "l",
+        "o",
+        "l",
+        "d",
+        "y"
+      ]
+    ],
+    "coefficient_vectors": [
+      {
+        "d": 0,
+        "l": 1,
+        "o": 1,
+        "y": 0
+      },
+      {
+        "d": 1,
+        "l": 1,
+        "o": 1,
+        "y": 1
+      },
+      {
+        "d": 1,
+        "l": 2,
+        "o": 2,
+        "y": 1
+      }
+    ],
+    "linear_combination": [
+      -1,
+      -1,
+      1
+    ],
+    "combined_lhs_coefficients": {
+      "d": 0,
+      "l": 0,
+      "o": 0,
+      "y": 0
+    },
+    "combined_rhs": -1,
+    "universal_argument": "Each finite rooted tree has sum arity = node_count - 1, hence sum(1-arity)=1. Identical-unit concatenation adds these charges. The displayed linear combination gives 0=-1, independent of traversal and of arity bounds. Every working unit is assumed exactly one node with a fixed arity; no implicit nodes or forests."
+  },
+  "controls": {
+    "status": "PASS_SOURCE_FREE_FIXTURES",
+    "single_tree_prefix": "baua",
+    "single_tree_postfix": "aaub",
+    "doubled_trees_rejected": true,
+    "balance_not_sufficient_example": "baau",
+    "not_a_finite_proof_of_universal_theorem": true
+  },
+  "validator_sha256": "4cffd6cc7c0134445d4aaf0e5d9661b57bd185108c85de75c33d5d5789016380",
+  "lock_sha256": "e819baf46f2236bc7ee2a0aa1312c6c570e3b1b8800bec03c503979678acec61",
+  "result_sha256": "38f3200bc791f4b4df5f01525da275001874a7b62a1d7ea2f258492b502a9a6c",
+  "scope": "Conditional complete-word/one-node-per-working-unit/fixed-arity/single-tree contradiction. No general grammar exclusion, source meaning, image validation or independent manuscript samples. Profiles are inherited1200evidence, not a new corpus census. Universal proof is the tree-edge identity, not the finite fixtures."
+}

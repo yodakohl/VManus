@@ -1,0 +1,112 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional closed-one-tree-per-group contract only; no word meaning, phoneme, actual operator, general syntax or language exclusion.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt1422_closed_word_tree_balance/src/run.py",
+    "validate": "python3 experiments/yolo/gdt1422_closed_word_tree_balance/src/validate.py"
+  },
+  "created": "2026-10-17",
+  "dependencies": [
+    "GDT1200",
+    "GDT1201",
+    "GDT1391",
+    "GDT1401"
+  ],
+  "experiment_id": "GDT1422",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/FORM_PROFILES.json",
+      "sha256": "6922df96418d8096646f077932294c4cf52bfb34b45e42ffb7feda5bd4ddd10a",
+      "role": "Old source-validated whole-form profiles or complete joined-source lines"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/REPEAT_SOURCE_LINES.json",
+      "sha256": "3c58d7323ad48f66fc037cbb2fe6863caf4b8560f2c019d5a3c2d17a57d357c4",
+      "role": "Old source-validated whole-form profiles or complete joined-source lines"
+    },
+    {
+      "path": "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/VALIDATION.json",
+      "sha256": "c0615d08e9b9831b1291258ca62a62f17cde663781eb5ad03aa50dfe1d71af5e",
+      "role": "Old source-validated whole-form profiles or complete joined-source lines"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/LOCK.json",
+      "sha256": "e819baf46f2236bc7ee2a0aa1312c6c570e3b1b8800bec03c503979678acec61",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/METHOD.md",
+      "sha256": "5173a565ae3eae576dd4a69828142c52ee9ddf291cab62de8ae2decabf8c8240",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/PREREGISTRATION.md",
+      "sha256": "5173a565ae3eae576dd4a69828142c52ee9ddf291cab62de8ae2decabf8c8240",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/README.md",
+      "sha256": "907a481ee4db6019e6ed4ee639ef1b2a71e3940ae6363b24ae8d80795cba85aa",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/REPORT.md",
+      "sha256": "6f63f1442f9e655b7260a213e66be998462e5e866eda5e82b10240c321fea38b",
+      "role": "primary_report"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/artifacts/README.md",
+      "sha256": "9202fad942526b335f0b3bf76aaf63a06caede6e260854664118cfdc09a26f54",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/artifacts/REGISTRY_REVIEW.json",
+      "sha256": "6fffd75f351d5db6062aa4b7cbf82f4f8e3161553ba77c83b3e3a83faa739df2",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/artifacts/RESULT.json",
+      "sha256": "38f3200bc791f4b4df5f01525da275001874a7b62a1d7ea2f258492b502a9a6c",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/artifacts/VALIDATION.json",
+      "sha256": "2d803d28240f2d847bfedf238b0db2ea91ba2831421b938665a37600f48d718c",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/src/SPEC.json",
+      "sha256": "531e6844e4e63de3ffdf477bb2c0eef9cba11451f8b2b882db604287d8fb94ed",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/src/run.py",
+      "sha256": "d69e12a62651a6dcd4e878af57e111894913ecf187669e6a16586cb7d689f25b",
+      "role": "Source proof, protocol or reproduction artifact"
+    },
+    {
+      "path": "experiments/yolo/gdt1422_closed_word_tree_balance/src/validate.py",
+      "sha256": "4cffd6cc7c0134445d4aaf0e5d9661b57bd185108c85de75c33d5d5789016380",
+      "role": "Source proof, protocol or reproduction artifact"
+    }
+  ],
+  "question": "Can every complete native group be one explicit fixed-arity expression tree when ol, oldy and ololdy are all retained whole forms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "closed_word_tree_balance",
+  "status": "CLOSED_WORD_FIXED_ARITY_EXCLUDED",
+  "title": "Closed word expression trees fail a fixed concatenation identity",
+  "updated": "2026-10-17",
+  "validation": {
+    "status": "PASS",
+    "artifact": "experiments/yolo/gdt1422_closed_word_tree_balance/artifacts/VALIDATION.json"
+  }
+}

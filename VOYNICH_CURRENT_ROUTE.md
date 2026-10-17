@@ -3,10 +3,10 @@ Updated: 2026-10-17.
 ## Work
 Phase: idle
 Status: checkpoint
-Task: 1421
-Latest decision: cap
+Task: 1422
+Latest decision: treeFAIL
 Working files: REPORT.md
-Assumptions: raw
+Assumptions: fixed arity
 Resume: topic synthesis
 Running: none
 ## Structural baseline
@@ -30,7 +30,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;qNEWlocalF.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -49,7 +49,7 @@ IDEA237 untested;30 programs first-passed;P09 closed.
 
 ## Access
 f84 and f84r remain sealed. <!-- f84r is sealed -->
-f116v unadmitted;reserves closed until near-complete reading.
+f116v unadmitted;reserves need near-complete reading.
 Exposure≠confirmation.
 179cached selectors;grants separate;F historical;f1r margins only;
 f106v fixed image paragraph;register access. [3glyph](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
@@ -65,7 +65,7 @@ f106v fixed image paragraph;register access. [3glyph](docs/VOYNICH_DATA_SCOPE_20
 ZL3b/IT2a/RF1b: one MS; raw entities/spaces.
 Mixed TSV: `vmanus-exp query-tsv`;partial grants:
 `--selector locus` and explicit `--allow`. 28Sep f68r2/f69r overreach: exposure only.
-New relations: `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
+Relations: `check-edge-packet`;[scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
 ## Retrieval
 Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicefa4a4f16.
+Public6ad3ba3fb.

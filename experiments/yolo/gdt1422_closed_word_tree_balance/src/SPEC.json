@@ -1,0 +1,46 @@
+{
+  "status": "KNOWN_SOURCE_DEDUCTIVE_APPLICATION",
+  "readers": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "forms": [
+    "ol",
+    "oldy",
+    "ololdy"
+  ],
+  "joined_loci": [
+    "f23r.1",
+    "f34r.1"
+  ],
+  "expected_counts": {
+    "ZL3b": [
+      455,
+      25,
+      2
+    ],
+    "IT2a": [
+      456,
+      24,
+      2
+    ],
+    "RF1b": [
+      469,
+      18,
+      2
+    ]
+  },
+  "premises": [
+    "Each complete written group is exactly one finite rooted expression tree.",
+    "Each working unit is one node with one fixed nonnegative integer arity, shared across all words.",
+    "One common prefix or postfix traversal; segmentation is preserved at ol|oldy.",
+    "No implicit nodes, external operands, context-dependent arities or changes at boundaries."
+  ],
+  "inputs": {
+    "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/FORM_PROFILES.json": "6922df96418d8096646f077932294c4cf52bfb34b45e42ffb7feda5bd4ddd10a",
+    "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/REPEAT_SOURCE_LINES.json": "3c58d7323ad48f66fc037cbb2fe6863caf4b8560f2c019d5a3c2d17a57d357c4",
+    "experiments/yolo/gdt1200_stable_part_repetition_capacity/artifacts/VALIDATION.json": "c0615d08e9b9831b1291258ca62a62f17cde663781eb5ad03aa50dfe1d71af5e"
+  },
+  "claim_ceiling": "Conditional closed-one-tree-per-group contract only; no word meaning, phoneme, actual operator, general syntax or language exclusion."
+}
