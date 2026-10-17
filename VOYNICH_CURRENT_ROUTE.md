@@ -3,18 +3,18 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1116
-Latest decision: 2src
-Working files: TZ3
-Assumptions: raw
-Resume: content
+Task: 1434
+Latest decision: view+
+Working files: 1434
+Assumptions: AI
+Resume: bind
 Running: none
 ## Structural baseline
 Hierarchical spaces;directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
 1308/9whole+;1389bag+/order−;1316ALL+/newFAIL;1320word+;1333primary<0;1374coupling+.
 852:gapdiff;1432:3dycompact/2dy?;1411:3pairs+/2?;meaning open.
-Parser/alphabet open;1321/1326/1327FAIL;1391stopFAIL.
+Parser/alphabet?;1321/1326/1327FAIL;1391stopFAIL.
 1345sort min14/15/15full;10/10/11recurrent.
 1349nested6/6/7;circle4;rare-sensitive;1348STOP;1402tplFAIL.
 1358cyclic/bag types retain97/82-83%.
@@ -23,7 +23,7 @@ I1016fixed paragraph nilpotentFAIL;I1021unitcycles9singletons.
 1310aliases;1311gap open;1314cfh fits;1328e/i geomFAIL;1395iidNR.
 1317unseenFAIL≠mechanism rejection;1329pairSTOP.
 1318editFAIL;1319activeI/Oconstant;1325y/dyFAIL.
-No default Latin/phonetics;193/4local;1058k/topen;1350FAIL.
+No Latin/phonetic default;193/4local;1058k/topen;1350FAIL.
 Adjacency Currier/section/hand+;extra dir only Currier.
 915r/lknown+;916newFAIL;roles≠meaning/boundaries.
 pX/yX:1074five line-initial bases/projflags;1075withinregister;1073RF unscorable.
@@ -50,21 +50,21 @@ I237 untested;30firstpasses;P09 closed.
 ## Access
 f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v unadmitted;reserves need near-complete reading.
-Exposure≠confirmation.
+Exposed≠confirmed.
 179selectors;grants separate;F historical;f1r margins only;
 f106v fixed image paragraph;register access. [3glyph](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57scopes](docs/57v-signs.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
 [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md);
-[14v](docs/14v.md);
+[14v](docs/14v.md);[75r](docs/75r.md);
 [f75label](docs/VOYNICH_DATA_SCOPE_20260930_F75V_LABEL21.md);
 [108v](docs/VOYNICH_DATA_SCOPE_20261005_F108V.md);
 [45r](docs/VOYNICH_DATA_SCOPE_20261006_F45R_GAPS.md);[21v](docs/VOYNICH_DATA_SCOPE_20261006_F21V_GAPS.md);
 [words](docs/VOYNICH_DATA_SCOPE_20261005_WORD_EXTREMES.md);
 [76v](docs/VOYNICH_DATA_SCOPE_20261007_F76V_SEAM_CORRECTION.md).
 [exposed76r5](docs/76r5.md).
-ZL3b/IT2a/RF1b: one MS; raw entities/spaces.
-Mixed TSV: `vmanus-exp query-tsv`;partial grants:
+ZL3b/IT2a/RF1b:one MS;raw entities/spaces.
+TSV: `vmanus-exp query-tsv`;partial grants:
 `--selector locus` and explicit `--allow`. 28Sep f68r2/f69r overreach: exposure only.
 Relations: `check-edge-packet`;[scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
 
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publicd99978980.
+Publicc1b77b07b.
