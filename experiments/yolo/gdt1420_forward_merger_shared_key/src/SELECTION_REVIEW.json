@@ -1,0 +1,33 @@
+{
+  "experiment_id": "GDT1420",
+  "status": "PROSPECTIVE_SHARED_FUNCTION_SELECTION_ACCEPTED_WITH_EXACT_MESSAGE_GATE",
+  "access": "Read METHOD/SPEC and prior1419/1418/1414 scope. Independent validator authored without reading or importing primary run.py. No empirical source/control/native input read. Source-free development checks executed before common lock.",
+  "pins": {
+    "METHOD.md": "65f199607b0b1a8a7dbd2da8d60e7255a7e6d0883866c53b52c221b00b74cbd5",
+    "src/SPEC.json": "5d928b0c967a3e7ef796c986c08617c1add070c3ea2ace39b30b09bc7a21d813",
+    "src/validate.py": "82d00b812cea010eb216c2e65c0f325e4f0c1707f15a89f1a0dd0e8d334dd93a"
+  },
+  "decision_value": "1419 removes only cross-word agreement and leaves b4/w1 paths. Restoring one shared forward source-codepoint function is the exact remaining necessary question, not repair of the six failed source paths.",
+  "constraints": [
+    "One original group per source word, raw22units forward only. Repeated source characters keep identical output everywhere. Distinct source characters may collide; no Distinct constraint.",
+    "Every selected adjacent word pair must be an original within-record source edge. Finite word choice and letter-value variables jointly enforce all77positions.",
+    "New control is unchanged first32contiguous Deot words under the declared22-to20map. Both collision pairs must be actually used; otherwise domain stop, no substitution.",
+    "Recovering the planted sequence is not enough: blocking only that full word sequence must yield UNSAT. Unused-key alternatives do not make another message. UNKNOWN or another message stops before native.",
+    "Native SAT is directly verified capacity, not identified content. Native UNSAT requires both independent exhaustive engines. No automatic boundary, source, alphabet or control changes."
+  ],
+  "source_free_development_controls": {
+    "status": "PASS",
+    "complete_function_and_message_cases": 60,
+    "merge_allowed_split_forbidden": true,
+    "inconsistent_global_key_envelope_rejected": true,
+    "message_vs_unused_key_ambiguity_distinguished": true,
+    "timing": "Before common lock, no empirical inputs; not claimed blind post-lock success."
+  },
+  "implementation": "Independent Z3 finite-choice constraints, not primary rowDFS. Exact source-letter function domain includes unused source characters; no inverse uniqueness assumed. Directed graph constraints precede solution. Second-message query forbids word sequence only.",
+  "necessary_corrections": [],
+  "no_meaning_assigned": true,
+  "prelock_precision": [
+    "A control UNSAT contradicts the forward-checked planted witness and is INVALID_CONTROL_STOP, not a native model result.",
+    "If both native engines certify unique messages, their complete word sequences must agree; otherwise validation fails as incompatible uniqueness claims."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "recipe_path": "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json",
+  "deot_path": "experiments/yolo/gdt1228_bare_hebrew_bijection_screen/artifacts/SOURCE_PROJECTION.json",
+  "other_path": "experiments/yolo/gdt1290_historical_source_frequency_baseline/artifacts/SAMPLES.json.gz",
+  "signs": [
+    "a",
+    "o",
+    "e",
+    "i",
+    "n",
+    "d",
+    "q",
+    "y",
+    "s",
+    "r",
+    "l",
+    "m",
+    "k",
+    "t",
+    "p",
+    "f",
+    "ch",
+    "sh",
+    "ckh",
+    "cth",
+    "cph",
+    "cfh"
+  ],
+  "native_path": "experiments/yolo/gdt1418_latent_source_bigram_key/artifacts/NATIVE_INPUT.json",
+  "experiment_id": "GDT1420",
+  "source_names": [
+    "b4",
+    "w1",
+    "deot"
+  ],
+  "native_sources": [
+    "b4",
+    "w1"
+  ],
+  "control_source": "deot",
+  "control_words": 32,
+  "control_mapping": "Sort the entire unchangedDeot source alphabet; codepoint at indexj writes signs[j%20]. Require alphabet22 and bothactual collisions (0,20),(1,21) active in the unchanged first32words of first section length>=32. OtherwiseDOMAIN_ABSENT and stop.",
+  "group_contract": "One originalrawgroup=onesourceword, exactpaid22units, forwardonly, no e/i/null/space/punctuation/case/source changes.",
+  "shared_function": "A fixed function from each sourceUnicodecodepoint to one workingunit; not injective. Distinctsourceletters may collide; samesourceletter maynot split anywhere.",
+  "graph": "As1419, only literal bigrams inside eachsource record/section/sentence. First and last words free.",
+  "primary_seconds": 25,
+  "independent_seconds": 25,
+  "native_seconds": 30,
+  "nodes_cap": 250000,
+  "checks_cap": 5000000,
+  "budget": {
+    "start_utc": "2026-10-17T05:29:15Z",
+    "end_utc": "2026-10-17T06:14:15Z",
+    "minutes": 45,
+    "includes": "All currentturnpreparation, prior/controlselection, implementation, independentvalidation, scientificchecks, closureandpublication. No decoderrepair/newcorpus chain."
+  },
+  "control_gate": "Bothindependentengines must recover exactplanted32wordsequence and everyactive sourcelettervalue, then prove no secondmessage after excludingonlythatentirewordsequence. A differentfirstmessage proves ambiguity because the plantedmessage isforwardchecked. UNKNOWN, ambiguity, lackofrequiredcollisions, mismatch or anyinvalidcertificate stops before native. Unusedkeyvaluesdonotcreate messageambiguity.",
+  "native_decision": "SAT fromeither engine with independentlyreplayed wholeword/key/edgecertificate establishes capacityonly; rawcandidateunassessed and never a wordmeaning withoutprofile/priorreview. UNSAT requiresbothexhaustiveengines. AnyremainingUNKNOWN staysopen; disagreementinvalid. All77positionsmandatory. IfnativeSAT, separately querymessageuniqueness withsamefixedscope/caps; stillno semanticconfirmation.",
+  "claim_ceiling": "Fixedb4/w1/source-directedUnicodecodepoint->paidworkingunit/sharedfunction/group=word/sourcewordgraphcapacityonly; no glyphalphabet/phonetic/language/sourceidentity/Englishmeanings. Six1419failuresunchanged, no readonlyprofilebypass."
+}

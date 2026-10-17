@@ -1,0 +1,76 @@
+{
+  "title": "RAW UNREVIEWED: full ancestral names make every reused ancestor carry the same remaining lineage",
+  "summary": "A simple invented naming register writes each mentioned person as own-name–father-name–earlier-ancestor-name through the fixed recorded root. Shared word endings therefore carry the same actual recorded ancestry across different names and later mentions. The reader recovers the complete represented one-parent forest and the ordered mention sequence. The binding consequence is global suffix agreement and absence of ancestry cycles, not a free meaning assigned separately to each compound. No native names, father words, segmentation or22-sign realization are supplied.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_SOURCE_NAMING_WRITER_COMPLETE_NATIVE_BINDING_OPEN",
+  "design": {
+    "human_rule": "Always finish a person's compound name with that person's full recorded father line. If Evan's full name is Evan-Ben-Alan, Hugh whose recorded father is Evan is written Hugh-Evan-Ben-Alan. A later use cannot quietly change Evan's father or omit Alan from that same lineage.",
+    "source_domain": "One bounded source note contains a finite set N of named individuals, a fixed recorded-father partial function f on N, and an ordered finite sequence M of mentions of individuals in N. The directed father relation is acyclic, and each individual has at most one recorded father. A root has no further father recorded in this note; this does not assert biological fatherlessness. N is exactly the ancestral closure of M, so every represented individual occurs either as a mention or in a mentioned person's complete father path. An unrepresented side relative is outside this source message rather than silently lost. Empty M requires empty N and is the empty note. The content is this recorded genealogy and mention order, not a complete family history, maternal genealogy, dates, sex classification or original natural-language phrasing.",
+    "names_and_identity": "Each individual has one distinct nonempty case-sensitive ASCII-letter identifier matching [A-Za-z]+. Identifiers contain no hyphen, space or line break. They may be ordinary name-like words in the teaching example, but identical identifiers always mean the same source individual throughout the note. Real people with the same short name would need distinct qualified identifiers supplied in advance; the reader may not invent a second Evan to repair a conflict. This is a real naming/individuation cost, not a native lexical assignment.",
+    "writer": [
+      "Check the fixed source forest, name uniqueness and coverage by the ancestral closure of M. Reject cycles, multiple recorded fathers, names outside N or source nodes that would not be transmitted.",
+      "For each mention x in its original position, start with x's identifier and repeatedly append the identifier of f(current) until a recorded root is reached. Separate name components with a literal hyphen. Write the entire path every time, even if its ancestors were just written.",
+      "Separate complete mention words by one space. A physical line may wrap only between complete words; it does not change identity or start a new family. One supplied bounded note is one message, with its beginning/end given by the document container. There is no unmarked reset inside it. The empty note is the empty string.",
+      "Do not shorten to a bare personal name, select a nearer ancestor, reverse the path, choose a sibling branch or update the pedigree at a later occurrence. There is no escape or alternative spelling inside this restricted source namespace."
+    ],
+    "reader": [
+      "Read each complete word as a nonempty hyphen-separated sequence of valid identifiers. Its first identifier records that mention. Each adjacent pair gives the first person's recorded father as the second person; the last identifier declares a recorded root.",
+      "Across all words require one identical father or root status for each identifier. Reject a name occurring once as a root and elsewhere with a father, two different fathers for one name, or any directed cycle.",
+      "Recover N as all identifiers actually written, f from the adjacent-name constraints and M from the first identifier of every word, preserving repeated mentions and order.",
+      "Require every supplied word to equal the complete recovered path of its first identifier, terminating at its recovered recorded root. Re-encode the recovered source and require the same word sequence. No unseen memory, prior paragraph, presumed person or picture supplies a missing path segment."
+    ],
+    "inverse_reason": "The paid hyphen boundaries expose all node identifiers. Every word gives its mentioned node, all successive parent edges and its terminal root status. Global consistency makes f a single function, and acyclicity makes every path finite. The closure requirement ensures that all source nodes and edges are transmitted. Thus the full represented forest and exact mention sequence are recoverable, not merely one final derived shape.",
+    "complete_source_example": {
+      "recorded_roots": ["Alan", "Irma"],
+      "recorded_fathers": {"Ben": "Alan", "Cyr": "Alan", "Evan": "Ben", "Fara": "Ben", "Gina": "Cyr", "Hugh": "Evan"},
+      "mentions": ["Hugh", "Fara", "Gina", "Evan", "Hugh", "Irma"],
+      "written_note": "Hugh-Evan-Ben-Alan Fara-Ben-Alan Gina-Cyr-Alan Evan-Ben-Alan Hugh-Evan-Ben-Alan Irma",
+      "plain_content": "Hugh's recorded father is Evan, Evan's is Ben, and Ben's is Alan. Fara also has Ben as recorded father. Gina's line instead passes through Cyr to Alan. Hugh is mentioned again without becoming a second individual. Irma belongs to a separate recorded-root component. No actual Voynich form is involved."
+    },
+    "actual_reader_uses": [
+      "The reader can determine that Evan and Fara share the recorded father Ben, while Hugh and Fara do not share an immediate father. This does not decide whether Evan and Fara also share a mother.",
+      "The reader can determine that Ben is a strict recorded ancestor of Hugh, but Cyr is not. This is a property of the transmitted paternal forest, not a claim about every possible maternal or real-world relationship.",
+      "Repeated complete Hugh-Evan-Ben-Alan mentions identify the same source person. Counting the written mentions would therefore overcount individuals. Different initial names with the same ancestor suffix identify different individuals in one recorded lineage."
+    ],
+    "binding_written_consequence": "For every occurrence of an identifier z inside any compound, the entire suffix beginning at z must be identical to every other such suffix in the note. The common ending is not merely similar spelling: it transmits the same named parent sequence. If z also occurs as a whole mention, that whole word must equal the same suffix. This is a structural obligation of the declared source writer, conditional on independently fixed component/name boundaries in any later native proposal.",
+    "small_countercases": [
+      "After Evan-Ben-Alan, the word Hugh-Evan-Cyr-Alan is illegal: the same Evan cannot have both Ben and Cyr as recorded father. Replacing the second Evan by a fresh person after seeing the conflict is forbidden.",
+      "Hugh-Evan-Ben together with Evan-Ben-Alan is also illegal. The former makes Ben a recorded root while the latter gives Ben a father. A shorter path is not an optional abbreviation.",
+      "Hugh-Evan-Hugh is illegal because it makes a directed ancestry cycle. Two opposite father links cannot be reinterpreted as reciprocal actions or equal generation.",
+      "A new or corrected paternity statement is outside this fixed-note contract. It cannot retrospectively alter earlier full names without rewriting the source note. This is not a history-of-revisions writer."
+    ],
+    "relation_to_parts_and_repetition": "One lexical name component denotes one source individual; different longer compounds share the ancestor's whole already constrained suffix. The order own-name then father then earlier ancestor is meaningful. Repeated whole forms preserve identity, while shared suffixes preserve kinship without making different children identical. This supplies a content-bearing source of directed composition and whole-form recurrence; it is not evidence that native repeated parts have this interpretation.",
+    "real_costs_and_native_obligations": [
+      "Pay globally unique name identifiers, the single recorded-father relation, complete paths, hyphen boundaries and the bounded-note scope. The writer repeats long ancestor strings instead of obtaining them from a hidden table or an unspecified recent referent.",
+      "Length is the sum of all ancestor-name lengths plus the explicit separators. Deep lineages and long names can be expensive. No shortened names, omitted suffixes or extra framing states are introduced to match target word lengths.",
+      "The source has one fixed spelling per mentioned person. Its whole-form frequency equals that person's mention frequency; this fact does not produce a manuscript frequency fit or rescue any old fixed-source word-frequency exclusion.",
+      "The22-working-sign physical carrier, name segmentation, native word boundaries and any native person/parent binding remain unprovided. Source hyphens are not identified with manuscript gaps, strokes or glyphs. No native q-prefix is assigned one individual or a universal NEW operation.",
+      "Treating every entire native word as an unrelated elementary root name would supply no ancestry content and makes this idea nonidentifying. It is not a successful application. A substantive future application must pay a nontrivial repeated internal-name segmentation and a fixed shared-name inventory rather than inventing fresh names per occurrence.",
+      "The exact source convention is invented. Familiarity of patronymic naming is not claimed as historical attestation of this full-path code. No language, genealogy, pictured person or manuscript genre is identified."
+    ],
+    "bounded_primary_predecessors": {
+      "IDEA000195_W97": "The exact W97 DECISION.md and REPORT.md were read. Four fixed generation models on f83r fail because declared STEP edges include self-links; no new persons, meanings or windows may repair them. The current source-only name-path proposal does not reuse those qokedy/qokeedy operator assignments or their hypothetical person labels. It also rejects self-ancestry, so it cannot turn the old contradiction into success. The W97 report explicitly retains broader genealogy outside its fixed contract.",
+      "IDEA000956_GDT1227": "A general relation-path script with learned relation roots and branch/return controls already exists, with a paid carrier and conditional native capacity limits. Here words contain names, not arbitrary relation operators: one fixed parent function plus complete ancestry on every mention forces globally identical suffixes. Its different source contract does not repair956's carrier or warrant another native decoder.",
+      "IDEA000972_IDEA001066": "Common-suffix abbreviation channels already exist. This writer never omits the shared suffix and never borrows it from a following word; the suffix itself contains source kinship facts. Their physical and source-frequency failures remain.",
+      "novelty_limit": "Bounded route/topic, genealogy/patronymic/name-path searches, duplicates and the exact W97 primary decision did not reveal this complete full-ancestral-name writer. Empty searches are not proof of absent work. The retained increment is the fixed source construction and its global suffix/content obligation, not a new discovery of ancestry or compound names."
+    },
+    "primary_paths": [
+      "research_registry/proposals/translation_programs_20260912/work/W97/DECISION.md",
+      "research_registry/proposals/translation_programs_20260912/work/W97/REPORT.md"
+    ],
+    "claim_ceiling": "RAW_UNREVIEWED_SOURCE_ONLY. Complete restricted content writer/reader and explicit countercases; no native lexical assignment, target fit, experiment, historical identification or independent confirmation."
+  },
+  "relations": [
+    {"type": "related_to", "target": "IDEA000195"},
+    {"type": "related_to", "target": "IDEA000956"},
+    {"type": "related_to", "target": "GDT1227"},
+    {"type": "related_to", "target": "IDEA000972"},
+    {"type": "related_to", "target": "IDEA001066"}
+  ],
+  "work_record": {
+    "first_tool_utc": "2026-10-17T05:32:33Z",
+    "scope": "Bounded source-only authoring. Live route/topic, bounded registry navigation, W97 named primary decision/report and related-card followups inspected. No native payload, image, source corpus, web acquisition, current merger result, control or test was inspected or run.",
+    "ownership": "Only this own new RAW file and normal ideas add. No root route, ledger, experiment, source, result, other proposal, refresh or publication change.",
+    "review_status": "Unreviewed; no scientific selection or target meaning."
+  }
+}

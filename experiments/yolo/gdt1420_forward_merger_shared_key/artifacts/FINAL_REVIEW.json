@@ -1,0 +1,47 @@
+{
+  "experiment_id": "GDT1420",
+  "status": "PASS_BOUNDED_FINAL_LOGIC_AND_SCOPE_REVIEW",
+  "access": "Read primary code only after independent validator was frozen and results existed. Static comparison and saved-certificate checks; no engine/control rerun, new source scan or native extraction.",
+  "pins": {
+    "METHOD.md": "65f199607b0b1a8a7dbd2da8d60e7255a7e6d0883866c53b52c221b00b74cbd5",
+    "src/SPEC.json": "5d928b0c967a3e7ef796c986c08617c1add070c3ea2ace39b30b09bc7a21d813",
+    "src/run.py": "62545d72ff68a3b7e0876c9c4f49b7e805e4b1008fff4a82fb5f206a30b0a4ff",
+    "src/validate.py": "82d00b812cea010eb216c2e65c0f325e4f0c1707f15a89f1a0dd0e8d334dd93a",
+    "LOCK.json": "7a50161c5976f58fc1db659df80f5af25a46ca791949948d0df74a11f22275dc",
+    "artifacts/CONTROL.json": "268c3b94e4b767386c0de2ea6f8c354620990729e14cc70c6db430af8f8436b9",
+    "artifacts/INDEPENDENT_CONTROL.json": "694521591186f6bcf17c3f831535a3ff71c04cdd7f58f069ec27efc409387dc8",
+    "artifacts/GATE_VALIDATION.json": "e97c58f824c2d7471d45f76ba926e32c0b2b994a1acbb775484ca246366eb105",
+    "artifacts/RESULT.json": "e345da6169278ed23b1583a8b5e7fc646ee57009e0be101a2fc4e8f85896015a",
+    "artifacts/INDEPENDENT_RESULT.json": "a22c788c63daf0f3768ffb351fc2bcec7cfe29c239384e26c3aba6468ffea468",
+    "artifacts/VALIDATION.json": "669b415b05fd8e3be88154532f6016b290b97185ab1d586f30b8e2e5000c2d92"
+  },
+  "frozen_pins_unchanged": true,
+  "control": {
+    "both_exact_planted_word_sequences": true,
+    "all_active_source_values_match_planted": true,
+    "both_second_message_queries_UNSAT": true,
+    "unused_key_values_not_blocked": true
+  },
+  "native": {
+    "original_groups": 77,
+    "raw_units": 341,
+    "b4": "paired UNSAT",
+    "w1": "paired UNSAT"
+  },
+  "logic_review": [
+    "Both engines constrain source Unicode codepoint -> working unit, with source-letter merging allowed. Neither accidentally imposes native->source functionality or injection.",
+    "Primary per-word rows map repeated source letters consistently. Propagation removes only conflicts with fixed letter values or unsupported directed adjacent rows. Fixing values from singleton word domains is necessary; repeated passes maintain a sound fixed point.",
+    "MRV selects a branching position but leaves all original adjacency indices unchanged. Exhaustive branching visits every remaining word row, and leaf word-sequence blocking excludes only that exact message. There is no unsafe memoization in the primary implementation.",
+    "Independent Z3 uses global source-letter variables and finite word choices with source-edge implications. Blocking all selected word choices by one disjunction tests another complete message, not unused-key uniqueness.",
+    "Every graph edge is from a pair within an original recipe/section; source sequences are otherwise allowed to recombine edges. Original source punctuation/case and group lengths remain.",
+    "Both native results are exhaustive negative statuses with independent SMT agreement, not limits or failed controls relabelled UNSAT."
+  ],
+  "short_explanation_limit": "The reported primary node counts (b4 three, w1 one) show that propagation closes a very small search tree; they do not themselves identify a particular native-word contradiction or minimal core. A separate post-result explanation must retain its diagnostic status and fixed model. No such textual certificate was reconstructed in this review.",
+  "scope": [
+    "Only fixed b4/w1 graphs, supplied raw22unit alphabet, forward shared source-letter function and one source word per original group are excluded.",
+    "Together with1419, this resolves those two surviving fixed cases without changing the earlier six envelope failures. No general language, source-letter-merger family, morphology or historical-writer exclusion follows.",
+    "The exact unique source-only control result does not establish recovery on other texts or native meanings.",
+    "Original1408 sorted-control UNKNOWN and later diagnostic PASS remain unchanged; the new contiguous collision-positive uniqueness gate is separate."
+  ],
+  "necessary_corrections": []
+}

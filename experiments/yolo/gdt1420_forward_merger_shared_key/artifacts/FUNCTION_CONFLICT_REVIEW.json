@@ -1,0 +1,66 @@
+{
+  "status": "PASS_POST_RESULT_EXPLANATORY_CONFLICT_REVIEW",
+  "method": "Independent forward reachable sets and backward co-reachable sets on the77position chain; intersection gives exact complete-walk support. Candidate legality rebuilt by pairwise repeated-source-character implication. No primary solver, diagnostic arcloop or validator imported/executed.",
+  "source": "w1",
+  "verified": [
+    {
+      "position": 54,
+      "source_group_id": "IT2a|f75v.47|G007",
+      "exact_full_walk_projection": [
+        "smalcz",
+        "spekch"
+      ],
+      "alignments": [
+        {
+          "source_word": "smalcz",
+          "zero_based_source_positions": [
+            4
+          ],
+          "required_unit": "d"
+        },
+        {
+          "source_word": "spekch",
+          "zero_based_source_positions": [
+            4
+          ],
+          "required_unit": "d"
+        }
+      ]
+    },
+    {
+      "position": 55,
+      "source_group_id": "IT2a|f75v.47|G008",
+      "exact_full_walk_projection": [
+        "darczue",
+        "dorczue"
+      ],
+      "alignments": [
+        {
+          "source_word": "darczue",
+          "zero_based_source_positions": [
+            3
+          ],
+          "required_unit": "e"
+        },
+        {
+          "source_word": "dorczue",
+          "zero_based_source_positions": [
+            3
+          ],
+          "required_unit": "e"
+        }
+      ]
+    }
+  ],
+  "pins": {
+    "experiments/yolo/gdt1177_preposition_binding_transfer/artifacts/SOURCE_TEXTS.json": "c99fb051dbdd5a2c557f86c0e6eefca7446d467cea48bcab3f4769bda04b2c2e",
+    "experiments/yolo/gdt1418_latent_source_bigram_key/artifacts/NATIVE_INPUT.json": "dc3aa805398dbf1158ac159e9f9416e6426037e3d6ba342bbbfed3218d813622",
+    "artifacts/FUNCTION_CONFLICT.json": "d2fb1ecbcddf24c8446181bbfa185b5ea49a0940c54268b0356a9d72816fafc1"
+  },
+  "conclusion": "Every relaxed full77word walk forces the same source codepoint c to native d at position54 and native e at55. A fixed source-to-native function cannot do both.",
+  "scope": [
+    "Post-result explanation of already registered pairedUNSAT, not a new prediction or scientific outcome.",
+    "The four source spellings are alternatives under the rejected fixed graph, not native word translations.",
+    "No source change, new corpus, new native query, image, key assignment or general language exclusion."
+  ]
+}
