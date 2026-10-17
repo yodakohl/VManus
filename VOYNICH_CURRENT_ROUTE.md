@@ -3,11 +3,11 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 1108
-Latest decision: parked
-Working files: SOURCE
-Assumptions: unbound
-Resume: selection
+Task: 1115
+Latest decision: draft
+Working files: F45prefix
+Assumptions: scope
+Resume: IDEA001115
 Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public09759d178.
+Public6cb53d030.
