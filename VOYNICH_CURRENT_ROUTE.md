@@ -3,10 +3,10 @@ Updated: 2026-10-17
 ## Work
 Phase: exploration
 Status: checkpoint
-Task: 955
-Latest decision: SGPL
-Working files: 955
-Assumptions: tail
+Task: 1108
+Latest decision: RAW
+Working files: 1108
+Assumptions: src
 Resume: selection
 Running: none
 ## Structural baseline
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Publice7b022321.
+Public24135db48.
