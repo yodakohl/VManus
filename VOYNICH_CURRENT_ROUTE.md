@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-10-17.
 ## Work
-Phase: fixed_test
-Status: active
+Phase: exploration
+Status: checkpoint
 Task: 1425
-Latest decision: final5test
+Latest decision: F5STOP
 Working files: gdt1425
-Assumptions: 5final
-Resume: control
-Running: root/v
+Assumptions: F5
+Resume: content
+Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.

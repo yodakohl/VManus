@@ -1,5 +1,5 @@
-# GDT1425 — canonical source-final shapes
+# GDT1425 — final shapes, no native result
 
-Status: `REGISTERED_UNSCORED`.
+Status: `CONTROL_UNKNOWN_FINAL_SHAPE_MODEL_UNTESTED`.
 
-The same6288Hebrewbasewordtokens receive their five standard terminalshapes before optional reversal. Both capacityengines remain unchanged. A fixed32wordcontrolgates exactlytwo nativecases; no meaning assigned. See `METHOD.md` and `src/SPEC.json`.
+Same6288sourcewords rendered with five canonical terminalforms; valid32wordpositivecontrol reaches solver timeout. Independent STOP accounting passes; zero native cases. No Hebrew/allograph exclusion or translated word. See [REPORT.md](REPORT.md).
