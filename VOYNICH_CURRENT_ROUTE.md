@@ -1,13 +1,13 @@
 # Voynich current route
 Updated: 2026-10-17.
 ## Work
-Phase: idle
+Phase: exploration
 Status: checkpoint
-Task: I1108
-Latest decision: pairUNBOUND
-Working files: EARLY*17.json
-Assumptions: no key
-Resume: synthesis
+Task: I42
+Latest decision: scopeONLY
+Working files: *42*17.json
+Assumptions: q-scope
+Resume: content
 Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public2b6c4fa08.
+Public5c4fcef4d.
