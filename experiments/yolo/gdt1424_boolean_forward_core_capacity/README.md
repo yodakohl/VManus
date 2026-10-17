@@ -1,5 +1,5 @@
-# GDT1424 — one Boolean capacity attempt
+# GDT1424 — control recovered, native matrix unresolved
 
-Status: `REGISTERED_UNSCORED`.
+Status: `CONTROL_RECOVERED_NATIVE_DUAL_UNRESOLVED`.
 
-The scientific inputs/core and20second solve limit are unchanged from1421. This separately selected Boolean representation must recover ANYkey on the same control before native evaluation. See `METHOD.md` and `src/SPEC.json`. No source/meaning/control repair.
+The unchanged positivecontrol has a verified ANY-key from the new Boolean representation. Six one-engine negative native cases lack the required independent exhaustive confirmation; all16 remain open. No new translated word or language exclusion. See [REPORT.md](REPORT.md).

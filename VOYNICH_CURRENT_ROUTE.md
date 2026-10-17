@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-10-17.
 ## Work
-Phase: fixed_test
-Status: active
+Phase: exploration
+Status: checkpoint
 Task: 1424
-Latest decision: BOOLctrl
+Latest decision: BOOLopen
 Working files: gdt1424
-Assumptions: old-core
-Resume: control
-Running: root
+Assumptions: core
+Resume: content
+Running: none
 ## Structural baseline
 Hierarchical spaces; directed parts;
 160pairing+;161classesFAIL;608/282/286/318;1306BPEbias.
@@ -30,7 +30,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;1422treeF;qNEWlocalF;1423qF.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
