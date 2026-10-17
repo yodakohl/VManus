@@ -1,0 +1,3 @@
+# GDT1429 preregistration
+
+METHOD/SPEC fix every one of484unknown two-unit tally blocks and the unchanged1428word channel. LOCK.json binds code, original59groups, source projection, prior actual controls and full-word negative baseline before any new mask enumeration or search. Independent development checks of the11fixed source-free interface cases and field separation preceded the lock; their frozen gate replay runs after public registration. No native mask enumeration or lexical key search preceded registration. Existing source searches are inherited, not repeated. No native number or source-word value is selected.
