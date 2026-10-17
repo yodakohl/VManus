@@ -3,8 +3,8 @@ Updated: 2026-10-17.
 ## Work
 Phase: idle
 Status: checkpoint
-Task: 1420
-Latest decision: 2F
+Task: 1421
+Latest decision: cap
 Working files: REPORT.md
 Assumptions: raw
 Resume: topic synthesis
@@ -30,7 +30,7 @@ pX/yX:1074five line-initial bases/projected flags;1075within-register;1073RF uns
 1076followerSTOP;1099reprise1;Confirmed English lexemes: **0**
 GDT327/GDT336: historical; no access.
 ## Decisions
-R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;qNEWlocalF.
+R771globalFAIL;R_TOKENFAIL;1390/93controlFAIL;CountSpecpark;1401addrFAIL;1403:8WFAIL/77cap;1404keysFAIL;1405:27/23,W8prefixFAIL;1406W8UDFAIL;1408gateSTOP;1417coreFAIL;1418GFAIL;1420M8F;1421capSTOP;qNEWlocalF.
 1262: nontrivial prefix26 min1 miss; no error diagnosed.
 1337ports radius1strict;1338oldedges>=2.
 1342qoky4form page-ref FAIL;1193statsPASS/medial3FAIL;1195FAIL;1268sourceFAIL;1224miss16–21groups;1223unstable;1225pool≠strata.
@@ -52,7 +52,7 @@ f84 and f84r remain sealed. <!-- f84r is sealed -->
 f116v unadmitted;reserves closed until near-complete reading.
 Exposure≠confirmation.
 179cached selectors;grants separate;F historical;f1r margins only;
-f106v fixed image paragraph;register access. [3glyph](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). Contracts: [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
+f106v fixed image paragraph;register access. [3glyph](docs/VOYNICH_DATA_SCOPE_20261001_THREE_OWNED_LABELS.md). [runs](docs/102v2-runs.md);[qe](docs/QE3.md);[40r](docs/40r.md);[103r](docs/103r.md);
 [f57scopes](docs/57v-signs.md);
 [scope](docs/VOYNICH_DATA_SCOPE_20260926.md); [f25v](docs/VOYNICH_DATA_SCOPE_20260929_F25V_IMAGE.md),
 [native](docs/VOYNICH_DATA_SCOPE_20261002_F25V_NATIVE.md); [base](docs/VOYNICH_DATA_SCOPE.md);
@@ -62,7 +62,7 @@ f106v fixed image paragraph;register access. [3glyph](docs/VOYNICH_DATA_SCOPE_20
 [words](docs/VOYNICH_DATA_SCOPE_20261005_WORD_EXTREMES.md);
 [76v](docs/VOYNICH_DATA_SCOPE_20261007_F76V_SEAM_CORRECTION.md).
 [exposed76r5](docs/76r5.md).
-ZL3b/IT2a/RF1b: one manuscript; raw entities/spaces.
+ZL3b/IT2a/RF1b: one MS; raw entities/spaces.
 Mixed TSV: `vmanus-exp query-tsv`;partial grants:
 `--selector locus` and explicit `--allow`. 28Sep f68r2/f69r overreach: exposure only.
 New relations: `check-edge-packet`; [gate scope](docs/RELATION_GATE_SCOPE_CORRECTION.md).
@@ -74,4 +74,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public92985cb1e.
+Publicefa4a4f16.

@@ -1,0 +1,39 @@
+{
+  "experiment_id": "GDT1421",
+  "status": "PASS_CONTROL_STOP_SCOPE_REVIEW_NO_NATIVE_MODEL_RESULT",
+  "access": "Static primary review after independent validator freeze, saved control comparison and byte hashes only; no solver rerun, new corpus or native extraction.",
+  "pins": {
+    "METHOD.md": "9d32112caaf73b54c352515c9861fb1c98df6ce3f86a3872affd25d275fe81a2",
+    "src/SPEC.json": "96c7b4567302e9601c99ee98286fd7c507e430652cd1ae75aeebbee833010f47",
+    "src/run.py": "cfa005f970f545f2cb939eccbf56f076f0ee85d9e99df0996beb81458545bbfd",
+    "src/validate.py": "608ce51a872b4b3d71762abc5de922fe77dceb26e1f953bfa2073cded73cc5d9",
+    "LOCK.json": "08f7b4c924a3924c47579a44c7397057c2a1164aa9a299ce54ed975b20756066",
+    "artifacts/CONTROL_SUBSET.json": "a96bcc5a4dfa1590a7536d7591dae1c9b40e4097895eaaef923161bd008972b9",
+    "artifacts/INDEPENDENT_CONTROL.json": "2cf58df997709307c9a72c03fff9d210d5c347af634f6799a3a7032fd54f8a6c",
+    "artifacts/GATE_VALIDATION.json": "f482697e379ce6982fa0fee40ffa43fad48f0ac772e291d5ea87231c8f880894",
+    "artifacts/VALIDATION.json": "256965faef3b4c6f6ced52377d282042a76eb7cf72b3e1b804ef2fcfd030a193"
+  },
+  "checks": {
+    "all_scientific_pins_unchanged": true,
+    "exact_parent_control_all32_groups_retained": true,
+    "at_least_two_distinct_groups": true,
+    "both_planted_collisions_still_active": true,
+    "planted_forward_certificate_valid": true,
+    "primary": "UNKNOWN_CHECK_CAP",
+    "independent": "UNKNOWN_TIMEOUT",
+    "native_artifacts_absent": true
+  },
+  "logic": [
+    "Both engines impose a shared source-codepoint to working-unit function with collisions allowed, without graph edges.",
+    "Primary groups identical native forms and deduplicates identical assignment rows. With no graph, source-frequency, uniqueness or word-identity constraint, any representative word/orientation is sufficient for a capacity witness, and repeated groups may reuse it. This does not remove existence solutions.",
+    "Primary failed-state memo contains the assigned function and remaining group tables; earlier chosen representative words impose no additional constraints. Budget exceptions return UNKNOWN.",
+    "Independent finite-choice SMT timeout is not UNSAT. A valid planted certificate proves the control satisfiable despite both bounded searches failing to find capacity."
+  ],
+  "conclusion": "The fixed implementation block stops for insufficient search capacity on a valid source-only control. No native test of the proposed minim-code class was performed; neither that class nor any fixed native source case is rejected or supported.",
+  "limits": [
+    "PASS_CONTROL_STOP_ACCOUNTING checks recorded refusal only, not scientific success or recovery.",
+    "The old1420control success with graph constraints and the present no-edge control search failure are compatible: weaker constraints can enlarge the search space.",
+    "No retuning, alternate control, smaller core, added source or automatic solver repair selected."
+  ],
+  "necessary_corrections": []
+}

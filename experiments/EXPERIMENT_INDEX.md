@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1419**
-- Experiment-associated tracked files: **27,783** (2.4 GiB)
-- Structured GDT337+ experiments: **1084**
+- Experiments indexed: **1420**
+- Experiment-associated tracked files: **27,801** (2.4 GiB)
+- Structured GDT337+ experiments: **1085**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1421 | gdt1421_forward_merger_run_tail_core | `CONTROL_UNKNOWN_NO_NATIVE_TEST` | [report](../experiments/yolo/gdt1421_forward_merger_run_tail_core/REPORT.md) | 18 | 60.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT1420 | gdt1420_forward_merger_shared_key | `BOTH_FIXED_SHARED_FORWARD_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1420_forward_merger_shared_key/REPORT.md) | 23 | 90.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT1419 | gdt1419_source_letter_merger_envelope | `SIX_FIXED_PATHS_EXCLUDED_TWO_INCONCLUSIVE` | [report](../experiments/yolo/gdt1419_source_letter_merger_envelope/REPORT.md) | 16 | 169.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT1418 | gdt1418_latent_source_bigram_key | `ALL_SIXTEEN_FIXED_SOURCE_GRAPH_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1418_latent_source_bigram_key/REPORT.md) | 22 | 124.0 KiB | 10 | STRUCTURED_YOLO |

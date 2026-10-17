@@ -1,0 +1,80 @@
+{
+  "title": "RAW UNREVIEWED: write common kit contents once and preserve whole alternatives without inventing cross-combinations",
+  "summary": "A simple source-content writer records a complete finite family of permitted kits: write the contents shared by every kit once, then each complete residual package as one alternative. The reader reconstructs exactly the original family and can reject a proposed mixture even when every individual item occurs somewhere in the note. The fixed maximal-common-core rule gives a source-writing obligation beyond copying an earlier unknown block. No native connective, item, source corpus or22-sign carrier is assigned.",
+  "scope": "method",
+  "status": "RAW_UNREVIEWED_FINITE_CONTENT_WRITER_COMPLETE_NATIVE_BINDING_OPEN",
+  "design": {
+    "human_rule": "Put the things needed in every permitted kit at the top. Underneath, write each allowed extra package intact. To prepare one kit, take the common things and one complete extra package; do not freely mix parts of different packages.",
+    "source_domain": "One bounded source note specifies a nonempty finite family F of distinct permitted kits. A kit is a finite set of item kinds from a shared catalogue U, with exactly one unit of each included kind. An empty kit may be explicitly permitted; an empty family of permitted kits is outside this source. F is the complete allowed family for this note, not a sample of observed past preparations. The content preserves which kits are permitted, not the order in which their descriptions were collected, physical stock, quantities above one, timing, efficacy, events or original natural-language wording.",
+    "paid_items_and_names": "Each catalogue kind has one distinct nonempty lowercase ASCII name containing only a-z. The names core and oneof are reserved. No comma, bracket, bar, space or alias is inside an item name. Shared item identity is fixed before writing. More elaborate ordinary names or quantities need a different explicit source format; they are not silently normalized or dropped. These are source names only, not guessed Voynich nouns.",
+    "writer": [
+      "Compute C, the intersection of every kit in F. These are exactly the item kinds common to all permitted kits, not an arbitrary chosen base.",
+      "For every S in F form the residual package R=S minus C. Keep each whole R as one option. Do not factor its separate items into independent choices and do not add a cross-combination absent from F.",
+      "Sort item names in every list lexicographically; represent an empty list by []. Sort the distinct residual lists lexicographically, with an empty list before its nonempty extensions.",
+      "Write the canonical note using the literal prefix core, one bracketed comma-separated core list, the literal separator ;oneof{, the bracketed residual lists separated by |, and the final }. There is no final period or extra field. No optional omission, reference to an earlier note, exception field or unpriced hidden branch is allowed. Physical line wrapping is allowed only between complete option lists; it carries no new content. The enclosing bounded note supplies the message boundary."
+    ],
+    "reader": [
+      "Parse the explicit core and complete option boundaries. Require one core list and at least one option; check catalogue membership, sorting, no duplicate name within a set, and distinct sorted options.",
+      "Require every residual option to be disjoint from C and require the intersection of all residual options to be empty. The latter enforces that every universally shared item was actually placed in the core.",
+      "For each option R return the permitted kit C union R. The recovered source is exactly that finite family, not every subset, a union of all options or a Cartesian product of observed item categories.",
+      "Recompute the common core and residual options from the recovered family and require the same canonical note. The source catalogue and item identities do not change to accommodate a later request."
+    ],
+    "inverse_and_edge_cases": "Since each residual is disjoint from C, distinct residual sets yield distinct full kits. Union with C reconstructs every original kit; intersection recovers the unique maximal core. A single permitted kit S writes core[S];oneof{[]}. F={empty kit} writes core[];oneof{[]}. An empty core with several options is also valid. No source branch multiplicity or authorial list order is claimed to survive because neither belongs to the declared set-family source content.",
+    "complete_source_example": {
+      "permitted_kits": [
+        ["cord", "redcloth", "smallring"],
+        ["cord", "redcloth", "largering"],
+        ["cord", "bluecloth", "largering"]
+      ],
+      "canonical_writing": "core[cord];oneof{[bluecloth,largering]|[largering,redcloth]|[redcloth,smallring]}",
+      "plain_reading": "Every permitted kit contains a cord. The additional package is blue cloth with a large ring, red cloth with a large ring, or red cloth with a small ring. A blue-cloth/small-ring kit is not among the permitted choices. This is an invented craft packing specification, not medical advice or a native reading."
+    },
+    "actual_content_consumer": "Given a proposed exact kit T, accept it exactly when T equals one of the reconstructed full sets. In the example, {cord,bluecloth,largering} is accepted; {cord,bluecloth,smallring} is rejected although bluecloth and smallring each occur elsewhere. {bluecloth,largering} also fails because the common cord is required. This membership consequence uses the same shared item identities and the written grouping, not fresh meanings for each complete option.",
+    "important_semantic_limit": "The note specifies permitted final kits, not a hidden history of selecting branch labels. If combining material from two options happened to produce exactly another permitted kit, membership still accepts that final kit; no unrecorded branch history is used to reject it. Conversely, choosing several options is not generally licensed merely because oneof is informally called OR. The declared source is an explicit family of complete allowed sets.",
+    "binding_written_consequences": [
+      "If a kind appears in every option, leaving it repeated inside those options instead of putting it in C is noncanonical under this writer. Maximal factoring is a fixed production rule, not a later aesthetic preference.",
+      "Items shared by only some alternatives can legitimately recur in multiple residual packages. In the example, redcloth and largering each repeat while cord is written once. These unequal repetitions follow the complete allowed combinations.",
+      "Replacing whole-package alternatives by separate colour and ring-size choices introduces the forbidden bluecloth/smallring combination. An identical inventory of individual item names does not preserve the source message.",
+      "Writing the union of all items as one mandatory kit also changes the source family. It would require both cloth kinds and both ring kinds together, unlike each original option.",
+      "A later copy of the same note denotes the same permitted family, not the same physical cord or an instruction that one actual object serves several simultaneously assembled kits. Physical stock and multiple-kit orders are outside this source."
+    ],
+    "why_not_only_copy_or_relabeling": "The source is a family of allowable complete contents. The shared operation is maximal intersection plus intact alternatives, and the consumer checks full-set membership. Changing only option boundaries can change which material combinations are permitted even if all item names are retained. There is no arbitrary F_word, mutable participant pointer, previously copied A-body or new semantic label for each output word.",
+    "costs_and_limits": [
+      "Pay the catalogue identities, the complete family F, the explicit common-core/alternative syntax and the one-unit-per-kind source restriction. The writer does not infer F from missing combinations in a small observed sample.",
+      "The common-core computation and comparison of all allowed kits are real authoring work. The representation may remain long when little is shared; no shortest global formula, optimizer, implicit suboption or learned exception is assumed.",
+      "Actual ingredient quantities, processing, doses, dates, order of actions and medical suitability are not encoded. Applying this to a historical recipe by dropping such information would be invalid.",
+      "The ASCII teaching notation is fully paid at this logical source level. A22-working-sign carrier, native clause/option boundaries, item lexicon and native writing-choice law remain unprovided. No native word or suffix is called CORE, AND, OR, OPTION or an ingredient.",
+      "Observed directed parts, whole-form residuals and partial recurrence motivate considering correlated contents, but do not prove this source genre or rule. Choosing F after observing native whole forms would merely restate that inventory, not explain it or establish semantic fit.",
+      "This exact common-core notation is invented and unassessed. No historical source is claimed to attest its canonical syntax."
+    ],
+    "bounded_prior_review": {
+      "IDEA000914": "The actual abbreviated_nested_choice_content.json was read. It already requires preserving complete recipe alternatives, conjunctive ingredients and medium scope under a common writing channel. This card does not claim that AND/OR scope is new. It supplies a particular complete deterministic source writer and inverse, rather than waiting for an independently recovered abbreviated channel.",
+      "IDEA000912": "The raw course rule and COURSE912_AVAILABILITY_RESULT_20261007.json were read. Global course choice and local executable choice can have identical traces under restricted stock; missing mixed traces do not establish persistent scope. Here F is expressly the complete source specification, not inferred from observed AA/BB histories or availability. No old course interpretation is reopened.",
+      "IDEA001076": "Its original source reader expands a subject/target bundle as a Cartesian product. The present intact-option rule specifically does not multiply independent choice lists. Both are explicit restricted source encodings, not evidence for either native interpretation.",
+      "IDEA001077": "A full binary decision-table writer already exists. This note instead transmits allowed content sets through one maximal common core; it does not generate answers by traversing a question tree or reuse its native carrier.",
+      "IDEA001104": "The f45r descendant copies an earlier ordered A-body while leaving B fields local. This source has no earlier-record reference, copied entity, local field replacement or finite native interpretation. It transmits a whole allowed family whose alternatives remain correlated.",
+      "old_closure_debt": "IDEA914 already retains IDEA421/GDT1000's failed fixed Trotula quantity writer and the earlier contextual-abbreviation limits. This card uses no source text substitution, changed quantity rule or new cipher to repair them.",
+      "novelty_limit": "Bounded topic/cards/duplicates and the actual914/912/1076source contracts found related scope and factoring ideas, not this exact complete maximal-core plus whole-options contract. The increment is the fixed production and consumer rule; no general novelty of factoring or alternative recipes is claimed."
+    },
+    "primary_paths": [
+      "research_registry/proposals/production_origin_supply_20261003/abbreviated_nested_choice_content.json",
+      "research_registry/proposals/production_origin_supply_20261003/one_choice_course_scope.json",
+      "research_registry/proposals/production_origin_supply_20261003/COURSE912_AVAILABILITY_RESULT_20261007.json",
+      "research_registry/proposals/production_origin_supply_20261003/SHARED_TARGET_ROW_BUNDLES_RAW_20261016.json"
+    ],
+    "claim_ceiling": "RAW_UNREVIEWED_SOURCE_ONLY. Complete restricted content writer/reader and explicit false-combination countercases; no native meaning, experiment, statistical fit, source identification or historical claim."
+  },
+  "relations": [
+    {"type": "related_to", "target": "IDEA000914"},
+    {"type": "related_to", "target": "IDEA000912"},
+    {"type": "related_to", "target": "IDEA001076"},
+    {"type": "related_to", "target": "IDEA001077"},
+    {"type": "related_to", "target": "IDEA001104"}
+  ],
+  "work_record": {
+    "first_tool_utc": "2026-10-17T05:52:11Z",
+    "scope": "Bounded source-only authoring after the1420closure notice. Live route/topic, bounded registry navigation and exact existing source-contract/decision fields only. No new native data, images, corpus, web source, experiment, control or decoder; current root results were not opened beyond compact route status.",
+    "ownership": "Only this own new RAW JSON and its normal ideas-add record. No parent proposal, root route, ledger, source, implementation, result, refresh or publication changes.",
+    "review_status": "Unreviewed; all native binding and scientific selection remain open."
+  }
+}
