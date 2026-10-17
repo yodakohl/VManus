@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **1421**
-- Experiment-associated tracked files: **27,814** (2.4 GiB)
-- Structured GDT337+ experiments: **1086**
+- Experiments indexed: **1422**
+- Experiment-associated tracked files: **27,823** (2.4 GiB)
+- Structured GDT337+ experiments: **1087**
 - IDs without a ledger entry: **163**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT1423 | Strict all-q cases require an overt consequence before paragraph end | `REGISTERED_UNSCORED` | — | 9 | 26.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT1422 | GDT1422 | `CLOSED_WORD_FIXED_ARITY_EXCLUDED` | [report](../experiments/yolo/gdt1422_closed_word_tree_balance/REPORT.md) | 13 | 120.3 KiB | 4 | STRUCTURED_YOLO |
 | GDT1421 | gdt1421_forward_merger_run_tail_core | `CONTROL_UNKNOWN_NO_NATIVE_TEST` | [report](../experiments/yolo/gdt1421_forward_merger_run_tail_core/REPORT.md) | 18 | 60.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT1420 | gdt1420_forward_merger_shared_key | `BOTH_FIXED_SHARED_FORWARD_CASES_EXCLUDED` | [report](../experiments/yolo/gdt1420_forward_merger_shared_key/REPORT.md) | 23 | 90.9 KiB | 4 | STRUCTURED_YOLO |
