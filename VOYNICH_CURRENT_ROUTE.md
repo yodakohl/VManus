@@ -4,7 +4,7 @@ Updated: 2026-10-17
 Phase: exploration
 Status: checkpoint
 Task: TZ
-Latest decision: hold
+Latest decision: 2+?
 Working files: TUHFET
 Assumptions: src
 Resume: select
@@ -75,4 +75,4 @@ Web stop: [rule](docs/NEXT_BOUNDARY_PROPOSAL.md).
 `ideas search/show`, `lookup --followups`, `vmanus-exp route-check`.
 [Brief](docs/VOYNICH_RESEARCH_BRIEF.md);[map](docs/VOYNICH_CLAIM_STATUS_MAP.md).
 [Guide](research_registry/README.md).
-Public76d79561d.
+Publicecc44ee56.
