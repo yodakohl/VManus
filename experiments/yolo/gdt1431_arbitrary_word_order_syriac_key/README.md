@@ -1,6 +1,6 @@
 # GDT1431 — word-internal permutation envelope
 
-REGISTERED_UNSCORED. Read METHOD.md and PREREGISTRATION.md. No word meanings.
+CONTROL_STOP_NO_NATIVE_SEARCH. Both actual controls hit preparation caps; zero native searches. See REPORT.md. No model exclusion or word meanings.
 
 Run in order after public lock:
 

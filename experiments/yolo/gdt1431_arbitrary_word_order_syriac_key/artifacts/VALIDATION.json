@@ -1,0 +1,41 @@
+{
+  "status": "PASS_INDEPENDENT_PARIKH_CERTIFICATE_ACCOUNTING",
+  "validator_sha256": "ac7c8e181b822aebd312bbd6ce2b7bc2dcac028425b584a352cebda3c864efb3",
+  "decision_sha256": "7247701aba7b9e932288b3a53fec945396c34c982a2624deaef730697552a942",
+  "control_gate": {
+    "status": "STOP",
+    "reason": "CONTROL_SEARCH_UNKNOWN",
+    "known_positive_result_invalid": false,
+    "primary_status": "UNKNOWN",
+    "independent_status": "UNKNOWN",
+    "control_groups": 32,
+    "control_input_sha256": "e89ca834b1c01d67fc62edaf5c073d197f8667df77730cf8bc9c72d39c2257b9",
+    "primary_sha256": "1ff3b9d350877521e49cf5a95b9cbc94e336734e39fe5141dc3a85b1fb3f2fdf",
+    "independent_sha256": "ab4f4afd50dba8059cd49c5f4386d3bd560c6f374505e1bb0af45f7cece07bc2",
+    "lock_sha256": "7532af5f0d64ac823d597ebbae9748bc05550804eaedf5fc65452e1e05bcbf2c",
+    "validator_sha256": "ac7c8e181b822aebd312bbd6ce2b7bc2dcac028425b584a352cebda3c864efb3",
+    "source_free_controls": {
+      "status": "PASS",
+      "exhaustive_function_fixtures": 48,
+      "named_cases": 7,
+      "independent_encoding": "Boolean ExactlyOne rows, word selectors, weighted PbEq per destination sign",
+      "backend": "Z3 shared with primary; not independent solver-engine evidence"
+    },
+    "scope": "ANY-key Parikh capacity only; no exact order, planted recovery or uniqueness. Same Z3 backend with independently constructed constraints."
+  },
+  "native_engine_statuses": {},
+  "full_inverse_keys": [],
+  "checks": [
+    "Pinned unchanged source W and all59 native raw groups uniquely reconstructed",
+    "Original first32 source calibration and jmod20 key/groups independently checked",
+    "Both control solver outputs checked separately; no planted truth passed to solver",
+    "Every returned SAT key checked by encoded multiplicities on all original word occurrences",
+    "Native UNSAT effective only with both exhaustive results; UNKNOWN not a rejection",
+    "Each nativeSAT gets all frozen-vocabulary bag preimages and positional permutations at all59sourcepositions"
+  ],
+  "limits": [
+    "No source adjacency, frequency, run inverse or source grammar used; arbitrary word-internal order is a relaxation, not a historical writer.",
+    "Raw preimages and positional permutations are unassessed witnesses, not word meanings; distinct keys remain separate.",
+    "Independent Boolean weighted-PB encoder; primary Int encoder not imported. Same Z3 backend is not solver-engine diversity."
+  ]
+}
